@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML><HEAD><TITLE>404错误页面</TITLE>
+	<META http-equiv=Content-Type content="text/html; charset=utf-8">
+	<script type="text/javascript" src="http://cbjs.baidu.com/js/m.js"></script>
+	<style type=text/css>
+		body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}fieldset,img,input{border:0 none;}li{list-style:none;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;line-height:1.2;}em,cite,i{font-style:normal;}
+		a{color:#515151;text-decoration:none; padding:0; margin:0}
+		a:hover{text-decoration: underline;}
+		body{background:#FFF;color:#222; font-size: 12px; font-family:Arial,宋体}
+		/*头部*/
+		.nav_box{float:left; width:100%;background: #F8F8F8 none repeat scroll 0 0;border-bottom: 1px solid #DDD;height: 35px;min-width: 1000px;}
+		.wrap {margin: 0 auto;width: 1000px;z-index: 10;}
+		.link_top {float: left;width: 1010px;}
+		.nav_box a {color: #3d556a;float: left;line-height: 20px;margin-top: 8px;padding-right: 7px;}
+		.foot_box p.bot_nav a {color: #999;padding: 0 10px;	}
+		.nav_box span{color: #CCC; float: left; line-height: 36px; padding:0 8px 0 4px; text-indent: 0;}
+		.mod-main{float: left;width: 100%;height: 660px;}
+		.foot_box {background: #331111 none repeat scroll 0 0;margin-top: 30px;padding: 13px 0 10px;float: left;width: 100%;}
+		.foot_box p {color: #888886;font-size: 12px;line-height: 28px;text-align: center;}
+		.ad_bot_1 {float: left;width: 100%;margin: 10px 0;text-align: center;}
+		.mod-notfound{text-align: center;float: left;margin-top: 25px;}
+		.mod-art span{FONT-SIZE: 28px;LINE-HEIGHT: 70px;color: #38AEA0;font-weight: 800;font-family: 微软雅黑;width: 100%;float: left;}
+		.mod-art code{color: #666;font-size: 14px;float: left;width: 100%;height: 24px}
+		.mod-art p{width: 100%;float: left;margin-left: 380px;margin-top: 30px;}
+		.mod-art .home{color: #FFF;font-size: 14px;float: left;width: 106px;background: #FD8F2E;height: 38px;line-height: 38px;border-radius: 2px;font-family: 微软雅黑;}
+		.mod-art .help{color: #FFF;font-size: 14px;float: left;width: 106px;background: #79CEC3;height: 38px;line-height: 38px;border-radius: 2px;font-family: 微软雅黑;margin-left: 15px;}
+		.logo {float: left;margin-left: 360px;margin-bottom: 15px;}
+		.logo a {float: left;background: url(http://img.xuexila.com/xuexila/xuexila_normal.png) no-repeat 0 0;width: 180px;height: 60px;background-size: 100%;}
+		.logo i {float: left;background: url(http://img.xuexila.com/xuexila/logan.png) no-repeat 0 0;width: 90px;height: 36px;background-size: 100%;margin-top: 15px;margin-left: 10px;}
+	</style>
+<body>
+<div class="nav_box">
+	<div class="wrap">
+		<div class="link_top"><a href="http://www.xuexila.com/naoli/" title="脑力开发">脑力</a><a href="http://www.xuexila.com/iq/" title="智商测试">智商</a><a href="http://www.xuexila.com/sudu/" title="快速阅读">速读</a><a href="http://www.xuexila.com/jiyili/" title="提高记忆力">记忆</a><a href="http://www.xuexila.com/koucai/" title="演讲与口才">口才</a><span>|</span><a href="http://www.xuexila.com/xuexifangfa/xiaoxue/" title="小学学习方法">小学</a><a href="http://www.xuexila.com/xuexifangfa/chuzhong/" title="初中学习方法">初中</a><a href="http://www.xuexila.com/xuexifangfa/gaozhong/" title="高中学习方法">高中</a><a href="http://kaoshi.xuexila.com/" title="学习啦考试网">考试</a><a href="http://fangfa.xuexila.com/" title="学习方法总结">方法</a><span>|</span><a href="http://www.xuexila.com/yuwen/" title="语文知识">语文</a><a href="http://www.xuexila.com/xuexifangfa/shuxue/" title="数学学习方法">数学</a><a href="http://www.xuexila.com/yingyu/" title="学习英语">英语</a><a href="http://lishi.xuexila.com/" title="中国历史">历史</a><a href="http://www.xuexila.com/diannao/" title="学习电脑">电脑</a><span>|</span><a href="http://www.xuexila.com/yuedu/" title="文章阅读">阅读</a><a href="http://www.xuexila.com/shipin/" title="视频教程">视频</a><a href="http://www.xuexila.com/zuowen/" title="作文大全">作文</a><a href="http://www.xuexila.com/fanwen/" title="范文大全">范文</a><a href="http://www.xuexila.com/lunwen/" title="毕业论文">论文</a><span>|</span><a href="http://www.xuexila.com/lizhi/" title="励志大全">励志</a><a href="http://www.xuexila.com/chuangye/" title="创业指南">创业</a><a href="http://www.xuexila.com/zhichang/" title="职场攻略">职场</a><a href="http://www.xuexila.com/zhishi/" title="知识大全">知识</a><a href="http://www.xuexila.com/shenghuo/" title="生活百科">生活</a> <span>|</span><a href="http://www.xuexila.com/mingyan/" title="名人名言">名言</a><a href="http://www.xuexila.com/jingdianyulu/" title="经典语录">语录</a><a href="http://www.xuexila.com/naoli/siweifangshi/" title="思维训练">思维</a><a href="http://www.xuexila.com/zhuanti/" title="热门专题">专题</a><a href="http://www.xuexila.com/news/" title="学习资讯">资讯</a></div>
+	</div>
+</div>
+<div class="mod-main ">
+	<div class="wrap">
+		<div class="mod-notfound"><img class=img-notfound height=320 src="http://img.xuexila.com/404.gif" width=520>
+			<div class="logo"><a href="http://www.xuexila.com/" title="学习啦"></a><i></i></div>
+			<div class="mod-art ">
+				<span>啊~哦~ 您要查看的页面不存在或已删除！</span>
+				<code>请检查您输入的网址是否正确，或者点击链接继续浏览空间</code>
+				<P><A href="http://www.xuexila.com/" class="home">回到网站首页</A>
+					<A href="http://www.xuexila.com/about/contactus.html"target=_blank class="help">帮助中心</A></P>
+			</div></div>
+	</div></div>
+<div class="foot_box">
+	<div class="wrap">
+		<p class="bot_nav"> <a target="_blank" rel="”nofollow”" href="http://www.xuexila.com/about/">关于我们</a> | <a target="_blank" rel="”nofollow”" href="http://www.xuexila.com/about/contactus.html">联系我们</a> | <a target="_blank" rel="”nofollow”" href="http://www.xuexila.com/about/">广告服务</a> | <a target="_blank" href="http://www.xuexila.com/plus/flink.php">友情链接</a> | <a target="_blank" href="http://www.xuexila.com/sitemap.html">网站地图</a> | <a target="_blank" rel="”nofollow”" href="http://www.xuexila.com/about/announce.html">版权声明</a> | <a target="_blank" rel="”nofollow”" href="http://www.xuexila.com/about/help.html">帮助</a> </p>
+		<div class="ad_bot_1"> <script type="text/javascript">BAIDU_CLB_fillSlot("1059954");</script></div>
+		<p class="copy">Copyright &#169; 2006 - 2016 XUEXILA.COM All Rights Reserved</p>
+		<p class="copy">学习啦 版权所有<span style="display:none">
+<script src="http://s9.cnzz.com/stat.php?id=2631015&web_id=2631015" language="JavaScript"></script>
+<script src="http://s11.cnzz.com/z_stat.php?id=1256816629&web_id=1256816629" language="JavaScript"></script>
+</span></p>
+	</div>
+</div>
+</body></HTML>

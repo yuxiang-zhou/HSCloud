@@ -1,0 +1,4850 @@
+2016-05-10 00:01:45 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[TZ+wS7ANOL5wl0IPAmVYkZGYCVUbA/zAOqnAkeh8GY9N4gDGdjva7yxFoLQC01/LjWHjH30jyAjUn5FkdC89jz7xVnqKZWd//tUqt/uELvLUncy1cLaZFFdlWdmuhYVLsMlhEKOYmmbvs3m7CgjVcgEmeEORiy6R8NN01uselVpdX2FpfmKQdCfHD55RQGl5XGjgcRqMmOVLY4MYKoFN8MJKJ57iOV217HcPo+RUOPKYVNCZ+ISAxJktvmIuW1nFLeHkLXuOC0Fr369cG94diVQ/BoTmsSeGy48Rt3uKt4PVRHo26LI5aaRLQ/3OMhfXE0F/1+ZiltvCDbooOXq8ehVerZnCbt3yPtnCfu5/u6Fu4rUeSQypYeNoZsk9mZx5IBz8XSN11vPTV6HRL2fsaqlSaE5xXXYXtTg5xfJZVu9b5v3h5iueUGwQee3itBw8EsAA7+gkoWdWEglFhkKA6w==]]></Encrypt>
+</xml>
+
+
+2016-05-10 00:11:32 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuECzt816a5QHPJdddjQvg6E]]></FromUserName>
+<CreateTime>1462810286</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[天香赋]]></Content>
+<MsgId>6282722339034809748</MsgId>
+</xml>
+
+2016-05-10 00:11:32 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 9 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-05-10 00:11:32 response :
+------------
+Array:
+FromUserName : gh_9dc12e06d172 ;
+ToUserName : oliVJuECzt816a5QHPJdddjQvg6E ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-05-10 00:11:45 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[ksdfZ7u2adSyLcMPYGYxKRMKIy3Hr3BS/xhYoFnm2y4r7axlYJXHDMbbp+6vQOzfbDy0l5Nn8s/ClJJMsuUDTAiUqlZLM9PltrMiDQNSCLDlQP4cddTZi7M03WkjlW5L4utQUT9KQsST95T0zxXooUCNVbLRkQJuKG/tWkVNV3vPrzQuCEuRiqsjsrrOdkNhliNmvq31XFd6fkxeh/KsW0SsiKC+J92i9vm/ndoVglS2evR/hlpPAFEnSAB1xJZfTZfnPLf356RqspKE6MKapWf+U45YGad1uksNm48OH5tb2Q4ZuKTTlUU4k8De97TRvd2sjHpfttzp+2Q6IBj1+UgMyVhAj7Ev/z+jhFU8JS8R40Eim7ER4BhxZ+TwIjU/J4z/6J5//361MU3MN0BlLcHOSS2J/H8ICOpmiCMa9TeGey7hI2YyRbVmMAaGOOq/hC+wSNKKGiPSY+nVruJdYw==]]></Encrypt>
+</xml>
+
+
+2016-05-10 00:20:45 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuDeLD0uSnYmuzGeLFEbkC10]]></FromUserName>
+<CreateTime>1462810840</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 00:20:45 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 00:20:45 response :
+------------
+
+2016-05-10 00:21:35 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[EXx9t3NTZLGBO6SnRlJ8m6PFLjwBRfPTGk0e45AjuYFkHGRukiuCkTV49ZcC/g+rzKyCkIcZy2nUupyHPPPd2cDZvT00/sRF+I3yXNbxgch2/FRH9bRUpww+sisL/DpMPmSLBJCH30bgPEYi0Gi1IKxeia4oj4MGw6M1U1cAQAKeFy8axGWwcoOaq6/Z+9dqU+XmUIhqSelPnGVtSjjkJUWI0IcQMJnzsCV/DTLEfR6lcHPjhR0/e6LhAGZWyVapdG194uq3fCv1ozxcP0IVQEpKM1B+c2sVGADnSt8DiDXCet9tsGspkScSb3huV/yZITAFJg3OFCCMNqImmDa/NLdglMJF5gAMD1uipFOb8aP/SSbQPtkyY9TKVjR1LeLbPY9vVH8wpHDRbGUFMlZt96cWH+eJKCfXDNhI8afMc8YJ8MxgTpZeuWE/lTMyVnrcHeP2BIgPNI3ZDQEwNXVKEw==]]></Encrypt>
+</xml>
+
+
+2016-05-10 00:31:44 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[3qSZ8FDjjQ48k8gy+AmlAp0FOT3KG38neYtFvuwf7Or3hv8DD3IfK/Ls5Imjewa+8jYSaTuEF2OEC4kz10DeayKb9+PioQadQbeg2GAMDxbeZ+xUkKGPVnstOd0yZ8/Bp2ctrqnJoSAoA24bZ7lrwzq5cBPB0n3sL4zux2ojF55uVgJXphoir4o6E2IclmU26YAxvqgShVs/uD2fum4hHOoLOBsIIIWGljjKAah2Lr3gys9LCQWCacxH45wDI2IUxNFN/dZCVIrL0VcctqwSjrDXbhTMLS2IsPxA5W41sJ6o2YzSHSCQ6cxTMqgly4GYhI0YC8MSxcFTfWDB0BODr1moiiMCOC1QznC/yNtmmTcpVdNnjrVhhmNHypwyJRGGRZqxfWhfe82uyQS+fvy4foen3kuXX8EeMShCsOkC0LhBJdSWSuao/tKmw/0CYQxSpyeu0NZJ9odv8/aONCoMlg==]]></Encrypt>
+</xml>
+
+
+2016-05-10 00:37:06 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuNv44HdMHQu2dDNpDH7xC54]]></FromUserName>
+<CreateTime>1462811821</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[产品二维码]]></Content>
+<MsgId>6282728931809609200</MsgId>
+</xml>
+
+2016-05-10 00:37:06 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 00:37:06 response :
+------------
+
+2016-05-10 00:38:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuDeLD0uSnYmuzGeLFEbkC10]]></FromUserName>
+<CreateTime>1462811885</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 00:38:10 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 00:38:10 response :
+------------
+
+2016-05-10 00:41:41 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[NxsuDQjbfsROT6Eli0bdvbzmwhhEOUylW59n37lUU8n5o8Gr7TMliBUHbQriQhqUoTzNW7TIsSwqdBE0AJ14bQxDsxBjvwQI2iAahKQuJvkEAl3b+w6mFng0hi7jFlXKqBWnOwu03vNCeGpHuoKlPCSxPJA3J6WlgOnvPf8ERgTcEDBB9WAXQh2eh8xm08vi2tH2W0WJCEp5ecZeQRMt5Ng29xqSMzrcLxgcnEqfUYn50/J8F3n7jUKVDsuZFw6SepRVnaMq1mWNoq26jw4q6qIo8ciXUyjf8zm+Slv9NMSb3rvKcJVMdIjPjpIMszglB1whP9AefSYXw/G26NxApxXoRktSIhUDkKTTr/Plmqg1cDMOC7TJ/FVLX/47VxLsSPv/zOJeXu0LFke9BgJokxCBUXoMlk3KHxo34fB1qiEUBeWlB7HAmc4RQVyA516FPLWhFH+OZn3H3Q4rZrWKDA==]]></Encrypt>
+</xml>
+
+
+2016-05-10 00:51:41 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[IZcwFFneeXTD1eBhp8YyHmRBIXRKQeh5Y2EkZdPyUDQi47533KDYYP5CJ3GbY0TZVjljlh2pCt9MDfrhYujTEVIt+OgIQT/dXPPGni6klLpbc71IAXl75pEOX39XVVcpAyIkqOr08kS1UthGoqkd8PR1+kcl/emIFOvuH/g3eKv3BfC0Gf8+IoACzW5iX45l9Ci9Z1yh+lFizEq0FBF92jJJTXT6L+bdsaSEWmSpwlP1gGpdjopa9gD0Pvc7gjkF+MrTLIR7JDanMgjAlKqLyvRgd93Vx7IET589XRBfQD7H/mcxXwf8txgI6k+OrFAnSq1xbQpJM6gQOHM/0u0VflUtIKZouMblEpQ+BcRP8uM9eQSDojrQe6fA38qZd73wXfqMY2rZgxpox01XEzmy40+zUA1IV/5ScERoFyh5yXrZy9O3fDnL0VESAN6rc8gP/2jXVmwcC1iEq8nqMmLACQ==]]></Encrypt>
+</xml>
+
+
+2016-05-10 01:01:40 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[cCcub4xd3MXi8LQ6fcNXlxyOIdLic8PTHMV4gWjjhqNGNvCct5Q5GMaaUsQEaluRB8aMLcihiuJO7cgEN805PM42+f9Sva4BkJAOJNPec4HKMO5XZO3kvDb5FHa2qy3X+OezsnEkOg5HZbrDyfxf71kbYsVywqFweMqvZ2aSvpoh2V3/J9TgLbF7QJc2UDjpXzAQ0HfJ0QdjGElxDOzNPpPVtg4VCQzwErhMJDvQW6kuL8he27lQknB0FAGsNj5rbXkaJd+YADoTcWtYzZcCxlHdi0CJJBRre3xNHoMuHn4ES3mXdOMEsNHCa1aV+T/Ciy2xA0J2XXZuJze1IepIpMG5EX1FqQCiP4qj54ZhsyxBdquQdNTlzqgiCjjegMcFBxg37M+dYG5aKlzhNuOqE2g/wR6nzT5ZqEqfHsIpcreBMvicWTDCxSKLHmW6zRn2+mSiuL51EN7aghF3x1tM8A==]]></Encrypt>
+</xml>
+
+
+2016-05-10 01:11:40 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[UAd22U4vof6YDS2qwnxyLZn3G/jVOqKmBA/I7XgowopP3LidNVWMAoYX8Df1DYdQTO9ghQJkX0Fb9bxv95hwCo6vjPdxYdH453VR9ixhNo1a4YfExvwBknGcyBtKBOpYqui4eaVcFo4xzGAAu0ax33hrAYE+uQvtnNxLFWUmFLBJNfPc7PAIUznNhmSUesXSub2VTrKzkIRV9wX1JR7OA6+b8gUhUQVQRWkqXHWf9/S/TPknRGz3lOZljJWj7OW9+w9V79U3GunjWNpOECIkrVyGf5vKiUTKYkki3l/dqTbTMneITuTPRxWx0lVZYnonRR2XWC7Uc4rWm1XAOWYtaAGT0+vZXm+PwuJO2ABtqmTzCaLMrOEjZwLaqSl5ak4ZHTLq/2QmpASa5xmsEsw1Pz56xJuDxFrPkA0YMk3gzllCEWi6Sh0x9/g31hNw02dTW3Q0PTqrdIOVayJzX53OvQ==]]></Encrypt>
+</xml>
+
+
+2016-05-10 01:18:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuCuL49h6USse9TspuG5J4xI]]></FromUserName>
+<CreateTime>1462814300</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-05-10 01:18:24 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 9 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-05-10 01:18:24 response :
+------------
+Array:
+FromUserName : gh_9dc12e06d172 ;
+ToUserName : oliVJuCuL49h6USse9TspuG5J4xI ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-05-10 01:21:31 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[x08YZiLsxGyf+Ex4FuG4pXIQ4KMBpC3yRRwC2FcE+HADFQsCZGcjgvJnOXSRtJuq+54cxp48KrAIrPwGDVfh6hWtC4dtVUMZJhLjqcDrbCz8Q4HfN9pG3jW7BDN+XF/8b5ihbCsHyoGqBcWI6EDYvRklmZvGMKiy6avWKN+200WUvPEYUGJC4fuzl/1fI3jgJgKf8ybI6y1Hisr/I4ydZMd//V8MtLApHTn8uREoi46a/8ZJMtBjz/EmjD+ANfGSL36Qkyvqpvvy40lHV0k58Sf3stLDkVyqfFX8UMULsdqmP9c3/C1Mxpc9AmfBMkmfZ/cveXpzgU7ZX77SaiGRAGUBKXWmRMJhMAgGfViCeCL0QQOONEg95xYM3jVUUvSlOEZm2Cjt2ZDlDM8zjbVRFADEk6TiHvmv8zJwwxots1hGt9ly1gZ9UpR7PQ+onTyOMthcaPIZLfQYzCaq4htk0w==]]></Encrypt>
+</xml>
+
+
+2016-05-10 01:31:40 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[hY2YyDKdyg9g3UZ7sy6cQ8n/yJ3gCti/2WWIkV2rakQeFv6kGtgB2TRgZi6mNJB3P5fFcyHzgj8RD5nRFcHAzCN+GXEvIMcgo40SA7peLaNU2rc4l1R4ZRe7qeXt6UUapxOXYo6xoCvFEb3G0fSeuEvB9f+AI/03SaV1NlZWJkVAhSDIrp2rNM6Eoxyo9v2yi53UtBR65irWUaPHF3s5xBGO6T7Ceh4VEobChy/0jjZGmPP9lkDt2qa2BqOSiV76WLF+0KdN3MM9n2kgkqony+pww/ltiiqPEpQBhUZ5XRiwYXqpqXoWPqKy+tF7Ghy9/n3FGvNFe0yClsS/hT+J+mnDLYYedx/MVcYcUIRKykuGvasf8+8feovoKUwIAPrwzxSZQBYg2czdlc9fFionZFM/vEMEu2x8z01Vmmx1aWaJ8fe1b4+S37KCUkw2mvdHkwZjw7P/IReU3kd5BStdww==]]></Encrypt>
+</xml>
+
+
+2016-05-10 01:41:39 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[523t79uaDS8hGb+sGC0OhVhvJGZTgdFwsaW92Ita2xfsdmAr0cdRbb2WpaOXNCTWMu4FVh4L9OL9xsctf4+Ws740AsU/7fEkef+DuISB1NVajUBSIV/gzWbKnPbdSPMHpziKeeW5+xFJbqbH8JsVfuJmiM9DVlxaHWP996vuhguZ0Kr3xpi9jdZ5i1lhmgaLYxIkHpDbYv7hwN7PFa/LNOXtA/W/bN+nKBTvynsXmG6au1JUXcFkCVySjzJNQSjj/drjirh+rZ2imQbDCVDryMZD2R2BHNmokMs9itaZBaB1iOit/OlHB5+vvc0LZAKOkgqHplXhLtt0VWrvf3yMsRLVXbp7sfdW/v1vixTpPqIBFHeAl4CBfVD6mBtYyGs+fgGECG4vPguOagZyXDAboYmuYJ6Gl3Uoza41WJPSVON+Ae+HSsfm0Xp377hophX4uSh4I4iCglacKYCwf5UYAg==]]></Encrypt>
+</xml>
+
+
+2016-05-10 01:51:38 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[1x1lWttY/b2UR+FBM8U3Qe5t8lBPRJFCZ4G4AXAsYj0Ed5/8chVeujS/x6eaSnfyi0OhIQ82hv3tManafu21fAYOINWXiiurUHdPHb8ykVSkUCKRRWinV/wsQIXIFvPmDOqxjzaFXMD37PJmF/lHvoHlDq+uD49JUb4FqJMbrr42uuwHiiSzWvlK9/Cx9g/VeXu44aKl4C/Y5e4goO9Reqm18glUkzmISG9sC5Fdq/MjIQZzJE7ZjozAHfK28hDcgKFZlKQrJv9VmylNoY3UiIbmauyhPrR4FAKG5B6nrWke/E6kZvo9J/JHE/M0UwuTrMKYYrIFHg15V6Go+5AWkHlI2d7h+XlY1f4U8I50jzBjcs6x4lbC3B02o8KQgQAtYbqZw4GXJ3ixyhrJDWDYI0sCB34Ypv8y43R9pA2eRuDQDV/0eJshXzW3j0jzE3xeMPd24GMIj2feBGnjBNnQZw==]]></Encrypt>
+</xml>
+
+
+2016-05-10 02:01:38 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[UtvF0FYs+d+WTAianGaD1aIOiQ/73CJjGU710iC/jtf16URDQKVaX21T+48w9CaQo9t8HuJx4+m7bm8OBsUCnWYFfhtambD+Htf/fS0pnQlhaoiS1qsIb5EALsJSY2py3X5tONXLfWQfYGRN7CUsi+2u/1bOVsdZd5RSKnx3x8LBtj1o8ToQcC35AfqasprILZhoaH2VrCGL6KStOOAhxXS/wGuPcheb5jG00f4y0uH6IPNCuDFL6Xi77CVg+rp2PYUX0Yw3ryrAQUz1Poso6VEznz2g2mvUM9FRHF74L0qDO/JSmUfcfEbFZCNJ0Z5NVhFFbZq3eKz+OWngu4h3o1M1crrjDQriMbi7it683W2d7MjShjj6UcM95AbIx2oLh9kURnxgL7S11xyh3O60l/bGz3I0Egnn5VA3JDJ51hr7wDlrKNhwD7XdWXcPR+wBn/7XKl5QLstzlZYPmKBOyw==]]></Encrypt>
+</xml>
+
+
+2016-05-10 02:11:38 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[KqMfV8/qT9ONa4NPD4CZib/3S91fr0udpiuRS5aCaT3I+w7I4xotimkMNobcfrtYlGo/DfdyQKjE1w7YKreKDfR9O7L7BIAmavfhTJNeTZa+1XTphfV2cu//dt/l9WDGHxuzEDblLEAgfVUI9hyFvjuu2ghZdLsUWmlLAohG8HIdmzsaGAkvMz9S4BTnXdW9kAuwVCZOfSQmRRcgQeZmsPKz9XV80iFL+7+wsXlLeK1Pu3mWN5FmRPi6dS6isJN6N7HcCVcJ3yGvGnnFjn7jRjA1Smnai6tIIZ5FOgd5CkXUiGeDxc4+9iQZxuYiJPVMfcy+kQfqC8+uhZsMi/2tURBskk7bzJgI7IWeROAwCnCLKRel0mKcZhBUVh3AZPY/iOhWnR8A7vYZVWZje6SiDWLrY4e3QadnStfk0asLOY09yz7GB023g3CrIuQqNlT9LOgAx7KsQP+RE1sMYFWVRA==]]></Encrypt>
+</xml>
+
+
+2016-05-10 02:21:37 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[PoiPEZL/ZVjRndO0HVeQsQKS8olFqmGRbTmwoqrOmZDSuLW2475TvJK06NnjvsYRoere56cDApQvMQagY/ZcNa0ekV31aKHKhdkdltXynIqH2Ur4pH92Xs+dsHwWZElVhPXZPsIY3hVFDc5DWhudjR8Pk20+nK3GIT/LaTbP6lnsAimw+7uDuFcxUKGrDIh6G4lENrhe3GoyCBgPri39MZsboBFWtbEhpMtGQpBylKyXXZlCU639zSNtTdl1eawO38KhBH7zhXZGu8bmy0HIZZLtnptJfBzUrErY39GaQf1L2buh9OduqoNo0xKxG734EyvOYs+eCHPUTqLK9hnAaq0kbOrYwIGs3BCpH2dkzyiM8CBhtA0FtrPq4iVUxPcWKjh0XcrUQGCWDG6khvt2o6X7byLkEAv6X8NG/Iawj9eBmB9ATVJeov5E+9ZgJKCzIyHKWRz8M+bPbis3uMYrkQ==]]></Encrypt>
+</xml>
+
+
+2016-05-10 02:31:37 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[tOYM8WL+bDMT8IIftIUYeNQdF50dasrNubQc0yMOQnC2fGvSBrP67WfC6ZtHk7632JnAJfakiPs1EAZXzriWVBIePtEpXSKe5zlHhBElstenWnMA/lYDzwU4eSuTRwVsv3zYFsJeh/q6YWqiZDYcPQ0oYn2DQyJEVOjVfah5C9lV6PyZ8/vm2hVBKrKVPJ1p5tFbiqdDPZTcey4rfkv+9aEGc7RmM+HOXs5MeBSPvqSSTY44UBKUGjRjDTv8HL3qXaFaTfz59dBThGO4l95ffyIzzPvo+F+C5iGcSAq6fCvhzpZuAESWbswNFsBt0cuHOUuQDccyJuw0guSgn/15YuScisrzss8D88hOSoVUnwNMuke0B0e1XEmv1/EuyniYRMhK6/VVHNR2f8Ys5duGm2KjBa5LbwrlEw5yKZ+ilmgwCDEUQmDj6zOmhyV3ZeEVaqeNP5MDnxfT4dbiCKoxRA==]]></Encrypt>
+</xml>
+
+
+2016-05-10 02:41:37 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[+siTU/HcbTITaDxDKJfIdYbSUl4u6hbzf+KhbNE+QDCb9wngu+MAZIWdNl6OlT6S5UOtHN3W/TGd8hTbCvOUIUlQm1n1OcloVK1vmSOOSH8oVZGexaVd6aS5Ig6ijxDUyM+9PC7h7saFG6qicMhj/M6U55v1koa9/AkxTKsh7jQppZ8qYmp/NmHOMdKjOZS1crxgFrqt7+ru2gb5oKI0RCSU5FLRJiqoYWv/Jn+23PEP4+JkC+EYrDbSpLWBxeVR0bO7zz9awcoV2EJllNdtCrOAgqkMK/efkUEBcJKq8Avw4UjeSMV0m8WSMY2+E/E7h7BCKum6hsDNOtW453C6u42VgI9Asfcgt9W3NMdm3Np9ibp4a+qftgJGlSOu6ZHsYiCykyF71jJkH0k0NolCQpqgmE339QswQ5BVRdYC8AUlMZ1adJ1QYQlXANoP6ikwLjFnhxEZyClmGbA5KeoNkg==]]></Encrypt>
+</xml>
+
+
+2016-05-10 02:51:36 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[96yo+7msDrbo+jr9yzXoNPMCtOYB76VSYJ5dtfwN9+Rqga6XSX4sHqAvMYtpi9QdQfkAwxs0ePvLuLregCCaWyoYW5gFsPRTlynS9jyiWmw8sWdP2Y7yvd5MOvwc/guldFmMXlfxd+DkYyxZhinr3o4xDfA3pdkVqUS9UsWiR4FwN9uzi5OfF73wSu2E1mu7U27DJihVv7kdwnd2M9r3rE2NiFycqhN8w2CL0JD8y+m3K13OFw7tMb/uE0CR14IHxAQHEFAPiwtwZQ/+nSXBfj1phoPQclPDeBSH75fDAt6NPGMlcGlCa4rv7xFuwQxLemBw0Ldx4yBq8qu99lX9BOqwTtbrCKHo/4Vk5I6fnpQsRE9r2rK3sfz+Wm8Wx6M0MuIsK51pa5AOZVPrW4VBlQcjq6qwjysrl+mLKAuJAY5Aq6ozSYJHqsqKmcAuNgbrX/xJis9aLsAFPRKn1ePmhA==]]></Encrypt>
+</xml>
+
+
+2016-05-10 03:01:35 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[pQiJH5c1rlKGrgGwW2aD4BmhbEEMUqI6tfSEKMzeFJD29q9EuvsIPfZUCHtAE1QEchThQF/Ubu61UIgCZYXACR0O4a3h/fXv1Kq4ch1Vh4g/qMSH6zHrk8uV2XB2ag+mMIvCsSFtOIvsKVUBt1I8ePhATqq5J6SknpXddI8yXKr7Lv/g2gUpD1mrRyh5eDSniL9c4/KZVi9+vAUTh4IOPYo3IToaUS6L257e2BERK05HaZeHLrElbvzIc4bGThUD7AaQqQ5tFUKs5pYxLwTwhe0VSml+DUThKGi8wIK3wlaRmY/sA4QfdDc2ROSqNr3LTVs3/dqF4J1dB+sp90TM1qDH2G6Tb3rU1JzfzsbrTBp9eygKrA1ZsQq1jE9M+HajpNKiCOvJqLpW9qfAz5z06hB6a4JSnkbldEP8mzi8/BArhid7w0iCQOsxIrxL3IDeT5SUKg5aoB1HjIsGi+CRXw==]]></Encrypt>
+</xml>
+
+
+2016-05-10 03:11:35 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[ZRlv8e55mxqcKqtnyETxQbMnTB/d/YQK5ZwjoNlVWkH140biDRwjxOHu2v5Q55Ozk42FR2kUyMf16cC6bOHhTcLxMzjmNurNcubIpk6lsXkTF7JbN2eA2DC+DQJQL9hlMKgOl7oX2JXn6UBUnSuJmitzp3rdXvKvwQoukGvuegAvL+E/RVCEng9TaeIs/YLD6RspF1Uc9z91zAYJBRZh5fH4hkvEFxyAga3HrArlIR1do0p5lOCAnd8Om8nTDswcf2DQoMay6Nm4I61LS884NpTV/QrNN+iey4RMAleF/2KLlpdqgyF4gvk1fH1Qqhz3n0qdqyvmgIJTGI1zmsEOx0pckQvLT3+ZfaTWDaI7j+/mE5zR8w6d5HxiuXN6NTlP81BfyzsFv3muvbgFN7bx1ta3GgpOIwqkDaYAMtBSRCczagvA6pjMZ3Hu2xZd8eL4dK6MUnrQrMolUaEDBhJ3ow==]]></Encrypt>
+</xml>
+
+
+2016-05-10 03:21:35 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[wtFcDPdE0UxkTYJAyWGL31Y8JNsN6wc81/mdae2OhbZCBrnpDY801U/1DDgg4HnQmeB5gDNjR6ZJSYSGNDx7rr76LSwik/Po7JqeSS1j79muMxsAgsHe5Ht3av1zb8JbX78S5I8N/2/B3dt+pMAUyAZ6/k18ea2mH8vf+hCSh0I0BAUNb6EJckZOcRxsqdcvHHybzpS2CQElfo4zqThPwBtzgb5EnFgmdiqwWjCWQZasC5p/LJPG+sT0GC03YMNWIjIhBsNWotJlXJXcjIpNFOoMwmG8HeHEdt0ZuE8iXoJe6Z7dKby00zAQ4kRhs151x7H9w2aBEOVCLj6DmAVNmGW8KycNKnBKS+kGoZnF+qi+Wd6bo6kyFc0fMezgZ7AcdvU4rrMAoDreZw+fo1ysMY8LdBgFOejmPS2O5zDNoBZsrPJhZHmBgCeZBCdObCuRBqgoO+nRixVHsHFoRykSmg==]]></Encrypt>
+</xml>
+
+
+2016-05-10 03:31:35 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[/JlRi+URVwyP/SG8QxtulkXi2epP/DN5qPMI62+A0u/NjnW3ChU2dS73JdircR0W0Atekah7vgnJMgxMD4mUhx5MtOjzX1ymw9EqNe2N+m2m5QIHpiI6FZ4tCv8YBNKprFSwyD5NKDGQE2IF4fQ+/7ZNsFUc5qNOZZb+Fim6RzSo/6AXowcHU8KErQO1caRYVkywcL9aZw6bxLvfoC6ESgCnprY/nqTSKU+bVmAy+FpwUcY9e5vo/IIZhDDxpYVFggtfCFVkNFbosti2EymPL6NgZvjCv7L9iqcqNttS0w8ZlQVlHqdlutMy3BUk/3714P3sXivGDdAAjwLVZvzDVdogTzMVx5P01mwCBrTXQ3toH6zEvua2F0v9/buH0h7bADfsYOH7XQZdwKAn/RXr+M3tkcFzGteGMJk2aNK179v7Qdnp8+K+W4b5SiK0/LOchhMPBP6r3fWHLRmKpWawqg==]]></Encrypt>
+</xml>
+
+
+2016-05-10 03:41:34 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[P8Gm8CbOfuJqrACnvSj3AwV0J/Fu9vszqmeeJhw/2PqnlhAy7FOYyqQ/jDhWHVGruLQRnFlOeDAhwk3m0cz9dyvtNHQGhOxe82EZO0myTdIZzGmgJYDbz6Pt0RD7UvuoTihqcBRA/J7acctDAYeYT/2MS/EDXoq5dMefySuMGo1ZInZuLP/cnrGbDa3JLGhw6mkmYV7lw3hqTGgleqnQsaL3btSHCUznMWE7jj8Zme4QnRxFczGpihX4Uy4Iwbjt2BoVcj2jkyiq96VJCDtOx3oWNNcuY/IL4j/1Brk/2n268Y1rHpEcypq71CvRcqgy4iNdYAZqAwKEDM+aMgHfd3+kFBjTuTWJSA/qdWOExpHALtwy2fMPLBYC4QSABTaPiu0FumHm8bSjAP1eqfQ07r+rvdFuGR4qaoExRbqpBnERN7y7hEgzMBBy2wvXulk4Ht9T/78TelHalgXxE2/D1A==]]></Encrypt>
+</xml>
+
+
+2016-05-10 03:51:34 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[ptdDBTu2NAUUrGrDCjNQNlvBuATmuDYMUB6BF0fCpjRBwXBFRWAdbzH1ZSHqgLFJMOD3o0LBJ1lm2+gtEL5NCRlL+9UkXHaOfFhIIlAqUzll9+CFrxkjc+eLL9igd2C5LImM9kEp5D+8RKxAeReQeKL2fPY0P4EcmwAw5M6+7x33TtP8YHRB5X6Nkj3iBAM2HbU9VzLlXFUmJcSTw2pxEgUXpiIBN5PaEZveWqHK3tmhCh0LRfQc6pyINkqT0NjW2/qbc+XjafCPM55ZrB7rR+fw23Zofh8BkWlg356HnzK/+UDCI0TI/nvbc57dwphaQjSBHv7NoPVa9icloo8Lw5zjYm9mcBm6x7tNHh+2/h9E8bt2mjEzJIhoNFFjCUdnNhPvNaxQz1/570ApK76QiIkHvkMh71dXL74FoHENRkBFLtEXZLufbbr5chOd189IO7LDZJUbzuGnhzgezYcUWw==]]></Encrypt>
+</xml>
+
+
+2016-05-10 04:01:38 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[41h3vJxgOp2Zfz5De1HFI9SIbtVOwklAwWl78uIaWMwhjKkUy0VXVL6o7s8JZxpaYBFVrrEdRkJ21m4HTUsxwyYMEGPPYnHL5lhg5vKG5HQn5QhP8dNnAiw7Z0XCt6AeDPkuGFmi2O87yohmjwhWLUcftBW1/eddlQNkbDMWNJyBMjtDeRUY06hMCQ6aqOHexnrXJpaVvyZp+fIEtbRsCli+ovVYtdYa+jCJ8fUiQn2mO7dR/JVsfKXSi+hb+XhMI1QOROHizt01h26IU2JdEB7zkQnJR9nvqvJHouy99S39PAB/a+ahscf0x7ZXh3PlYoxQFFQtkisjEpulsipM0ZFdEyPNggKvuNc5/L9PA4b6HsRo/UneDiGzOYHySdlTatw2yHRt91uDTnVew25+CL1aIFuKUOrVQ3Pec9P2ufUJX47bXd6Z/dzfp4Pqix/HHyy5s2Ch/2VPa0qAuka6Tg==]]></Encrypt>
+</xml>
+
+
+2016-05-10 04:11:37 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[R9MJJ/cXqCDv3EPpalsKhyAXL0XzCS1MG4whqte0CW3QVJbxCdL47dxcuOy2ZE7uKimagg6dboFVTnZykvK6S9Hxj35HQ8hGcyeZdCkSGXvDo/IbxtDeg00niclOR9nJXXYDthSkcromkN6Ggs3QCuiFrR3E7yHgO41jMXF9Euq/0k8IOFsQouMzuxHmrMVmKwn6C0CNCRrW3m6flfapFOIX8iQ4QZa3EASR/iPi+HSvMETgu4ZP1GP+Bz6G8aug4ZvfnQ1cpgAjOt/ps5/MJeMz5YqMi+U1Sl3onMUV4L9RFxOmqKRlc/3C7mEw1uWewAu4jRGW0Ca29v/0yWz47K6E1Nj+rXq6XKP+fDrXvrdGdsesthrjCt5cRCEV2t7FDRldFyDAl7K6ntAp0L0Z+R/ZZq+kmgo9teAIbs01WIEax79BKbPnfJiM7xhn98+v0GdUfIMv1TblsGIkLmmi9Q==]]></Encrypt>
+</xml>
+
+
+2016-05-10 04:21:35 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[bbsIYobeo4SN8jyvK0ICY8tAEPMMJx9Up7O8t+v5v6/AVGJoJQ2QHH5sB9YnhdBxk04OXBUYKvqwo0jyi7gkPGx9oMPPunq1meUGN2tf7xUh6xhP6IMxUZ0zrUYFFtrp0vi4CUM1SQrg8rkoIVuwjTlGv/zcD0uCuuORANWWZ+kixGuWpcYdrA5u7NFoyNARzJvFIc9wWqshR50OJcbwke9g+B8bmuiQ2OBlafzkK33V7mdLG4GdJN/BIgpaZvBBk9DIbhIABIW/vkYRTKrQzo9Uic7ndVJNk4Dy2YnWBXXEk9SwSL5PeGYrvZ5Zz9greRjtzgkh2EESOFof9r6P3q2OtB9O/iEz9geGgMfZxMS3TJ6lH2XHc5epMHKN7uJaqfizfxUnZ19y57JdMqi+Ef8XbX3VxfoOkncJkCcseDoNB/Hf+uV0MV6JqgkVSe3aLK7CMWUhBsVL3K7ayFS4Nw==]]></Encrypt>
+</xml>
+
+
+2016-05-10 04:31:35 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[of33PylmXOSh88+H2eq4mFK5xGoTBpdpZfdFsew54ywJw8Xdo7Au4pDel5VbIiZbTvbREVOr1zNO1ByMPSUC4wErmdzSzQTd9aWTC9mMZNPweiv9RMGBdtNUyDrwSgNA4EOC/CWCYI1V2nvgUkm1xkdQCD7VzjJ/mZfJUmBwuIjY8SEx33Uhn/53iZ3lcXEmLe6fXECEeHkVCLPIWfgplKUgrUkoA6wqcvdNpY/RtafHEwLh8TMTyODdU0viWVJ6hDXCd8ANPzfdlrYmISa4ibyT2PAbwCZMPFoSibSKswIbYNNUzCFWIQl1bvTLY9IumxYkzasn8CZX4H0dOeyieKJe23zxanqWnwrvpOdtgomm/swEXDO+5Dz9igJahrnrBgBvQiMsBupY47a6sMCx5GJbiEOwUf6R47xi07RvyJwh4UOlPUsAZu3IGe9BSLhaRfrKpqQr77l97rmld4LHww==]]></Encrypt>
+</xml>
+
+
+2016-05-10 04:41:34 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[IfHwqS55QHdoQYWhu6WrbQ012EqGRIom25N2PxrveBClet95TAHGy0JopfB8fTyStlWR7p2ruw2eqe9FLm3TrJ0n97NKVshhTSPD86tDDyuc8vOVC0BWk0m7aWZ5LCKnVFETcbskiISTaeESymc6/M1V9Ffsw8/k04kTjYli29myO/4fKMJ3MPMA3Pd1lAEQ7734AAregoDNQZdjQBApx/IUYKtztzpzpALrYTlmTA+Zk7nkVksT4M0w00obpH2GCnWwthHhpiO8m7E/z5p+GBEtXL0wBMc+u5pzgxVXIPz5TGvFs3gIXtvCE9QWMawCygzGMpv9fu6+R+XM5Y5vX2K27lQR/r9tr0Bmrh4YI4bV1v6DCjOlzE5lA8F4y77L3fVvP+xq944Pyl2G050WvHk79HuL+13noSZJa8ZoHlWXHNgQZ3iKdsam4EsBU/3f4uHKOIZcwOOcAGq+CfZWZA==]]></Encrypt>
+</xml>
+
+
+2016-05-10 04:51:36 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[g85lqoK+FQNuB9TmVHRrDsHe7uat92ltHTJNKBLyaLAFqk5DvYNEdK4lvTw8562ePZv4E0/cK1JGkh88GMf8blzqyozVXh+RZvF60EfFfK4pNJh9Quvd8nUsUcmDjFueJtcXWlVltm3Gl/uWYswfrqiBP4iS0yfacBAnahyZpixQCjecuMXp5fGxRJ2i14jyi6NBvPDaJ2Bdf0U6cm1Z+nBhf7W/WXyHr8XOt087mOcdaChTW1kIIVKlV8+phMXtybUANFnEtUyNF6rgCeM39YS+YnEOlnYXnfWhWAeJhyoMXz7TZT7Z8XeB3TlocUxFKl8Lv7fqm9chDzGz9iPDxLxipR57YPpUDvuRglPYWuH8xAn65lUTbsA5nY8tpsTzkQtywBKJMCdULVaSWGuMmhySKcRaBg2tp5YOf7qNaGSEvrObcGVM0qK6ma5tw1hcJJPbHoJygnpf1hd4nS2QJQ==]]></Encrypt>
+</xml>
+
+
+2016-05-10 05:01:30 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[ATlSjKhWcYUYFqoKfbmgyLESsJ4DvX2CP5qAMYjRDUBBjrkQNaJH7sgRrYLMOeieCS7R8Im2XasxXi8T6oP1P/1Qo/4eBA55Oa/bDhrFGc5Fm9ar0uLVK9YpN7OGGHB2rRGOVxWfq0IFLq5gVjFK5jRSEzNLoDprlYVOHZhj/tlguO6q817TVrRsnZISA1yfd+gWHQo/j99cGF3YSnEr5+3iOcg8AbrEi00OwLDqQL75XzKdXWI9Aeq2Q6jI83uqu4dXPSbVN91B5wK7/2MaIlR8uXLldz7ysisAOs73Wb8EiWdSQ7uviOaIJwUOxt7PMMyzbzImIOrzua1SNU3szY0DosZ7Xd01yXtFNh2c4ZrH79vyPYcw+vCg71c0jvPFE1LubVMuxnveTzrpOA5xOecZyOKXPfrBlfnK/RGmkNZPrE3rsBF99sMGfn/vD7oguzfR/f0gbsVh/5VV2fZNLg==]]></Encrypt>
+</xml>
+
+
+2016-05-10 05:11:32 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[XtLNiHx1fEk6WMIHXOjOMlV2kORjY5s2LFbtbezR9gro1AiujtejXIl6vANFYBMP7KGm2hra83ca/WXphV2hzdTNbqxme28wQAPgVy0uPNH0I5vRKIRThl3adEZNuracnZLVKo4R/7HcFm8ro9pjlhw3yzd1dWmqwadOeAqRpYFupCkoKw+8PvpzD8ElgsGvJegp5f6p++NXD+4MqeiJJ7XqSDgu9NtmcrD2+NUqc9JB5pRIkdzyZjQOB/4gLgPfZRT6K8ovNYNlxODhKbNQM7PJdYGBqLGYdWnnE4oC9JUeXx36QPEF2SI/tKas0hUAXSPeMsf9yDhkd0kdx196ioC54ohHoZ+F/sI5EuzOZCYqXtwTSX33lyDOcQHC5P24t8B2LHLwqjfcd9XnlmQbPOYr6zAZwDTeyW8VSOg9Ld+4iEpbM12ky30FHaKJQW7l/l3uXlGYeSLMizz4fQ+yEA==]]></Encrypt>
+</xml>
+
+
+2016-05-10 05:21:29 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[in32uRPQiLKJPjYfQVl0Nqp/JMA8ylVdkh3Fjv9xAJ7omz6RDnnxUyIgtCcGEfxjW8CCLCzmtWUHgZONvYlXxdl0lR9cJlLKj1tpsjj0DkiiBYGUYP09NWqdw/PowH2m5ETDsurFrcPwK6w6jV44GE0At7SHTVTDmX63z+Pj7w8zFibrW9QIwGzhApw3sSUKUQMhNF6+Aj5Fevs0NuVzs2B1mLhKXTPUo4UxqcI0ezAQvi2KdD4Wy30eTvtsGF7PfzfULRInpas5aWVVbBvehCuqexpMLIXUGJ15C574NKTtsF+uni14/dSb4A1nOtUzpWtvnMpmiye5w0CAE0EEXAt/BQwk6UacGQl7wgXchwLRUxC48lbz9QaMnfYyOGj2+pfdY5KH93BDaCY00Kwv65wq9X+YezIs6aXy/FaCVENJyd6K2pzJUIFEuF4g/TP21t4Mg81sDFSXDc7064Vr5A==]]></Encrypt>
+</xml>
+
+
+2016-05-10 05:31:27 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[+YiinScXjia+j+ijsOoU/FdFO9y45F6L1eUKD7VphcZWbS5a/A9qc2n2D4OGFKagAYg+SEdC0zuJpUcURyG4/lVGkRLAFaWChu069ELzfDwOGPz7YYPw4LmV2bYd08KJwkfg2g+/bnG9l4+utwjH7e6PfdRUrnWnQfGHgPa+0ifnNlA9UOMaP6jfplb8IApQ6FXv/76d2XkvrAl2tDoRCdcAgtJffip3ek4pTo56QzsNNAUZdL7HhBRQQ8Evunm9JqKXodt6j2LFjDD0qSzKvaqG8BRe2iXlXz/xYcwO5haMg246aJNTiA4HKKVre70UPTQXbj42fugz+bqIt3moQlN1/mnlXpUwS9lFJQMJCHmaY4Yg1T+JQW/lB6zG5Q6KM4Uxi7bAI65eol3Z8ZuiQs7qcSaXsuVU8iOmGKE8WQMSpu3bB06lk2xiEacZxgK4GgONpQohMpBKceRe8jBDaA==]]></Encrypt>
+</xml>
+
+
+2016-05-10 05:41:24 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[FdniAVOEMW0CHDIdduovivOl3P+lYZXLreR1y9lBtENdrz69JPQPa215kWzbtQg0EQzdUmCVLphIdrJwyFUctF0nRZHym9wtn6VWH20IDMnTOXq35NXEyD7BPdh22esAzEtwaspjEod/6+oYbzUfrfzL/KxhwYy6oWZw8xg6wpjHkBha+pK7T4xRxzPF2uTQ62izwQDjGR+vKBow/dCw9mO5UjVNNh7pmFZ1hKVAEKz4za3B2Ue4nKv0l64Bega6TlZGeqI87oeGNIAOqf2LRQ9d2bga7ruzs+g9+6uvjmaaMygefkD+tVpatlqPSJzabpeqTXWNMcaI/xlv6PVF2kaNqIgQG//24cnT2KiXRIT9atdPkKOQYAr4JtlbjH3jVjx9IYoh30a6+ZNpwVbLSlO6t9xapP1DKj0cGSxulI1Uvkq1yOz6oakAc3dhcaOoqKVuGQiA75ZBhkCTMckE8A==]]></Encrypt>
+</xml>
+
+
+2016-05-10 05:51:24 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[gz3MaxyTe+q9BOaibzAxRjCbyx4+hIFa5NXMIbYtLukRWW/LhSPW517XuaRS5v9mU6xLe1kjQTVUuh3ph13jwPR2eQIygAWseYHUcPA4MmlQfIJBVVKbZeJ0fnJGCrsobBbZEVQqNtwUmEeVd+x3ZrmiA2bB1eTyCiUeHr4bCepCUc/M5O99caL/OLbH2rmtJyviOo09PrptyXDqbj2tgjTRcztlqT/z3ZnN6ttvKsXmw94aic8QgBo6OGQQ5bbjPuAlNxdiyzdiLoFG/mmyoJf1iCDrTYws6D9rdW8V11mOUDSQo7Q5THM2O7CPupmC+URrsK2vWUAcnxVRU4WAtWrCdnFlocS4AUsLmJkvgrn65dkbDbj2Aiww7s7b4r4s3Zyijj2MvupOAoKNjsFvwmISzM6tKZIdqlF7tpLv+g86cGmsin7UTT4YmkCZpILeCgpC8sSsOXh2uNfGwLikwg==]]></Encrypt>
+</xml>
+
+
+2016-05-10 06:01:25 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[/9Qf5w9miM3fqPA7XklDpLaNSjIwX5POQRV2wk0PnrgliFUVT5WaKVaqFkQfxKIZDl4cs1c7ktpf5svmSc0AbE088PjKmmCGYQQ6I0sSbdJy6OCWiq+Wt7c7Cqadg3M6kn+mGa5uwBBT08E086rKOnWQ+24iE/6SSVMQC6TkPJ9XUHLPAnpMTuJHRZf4iHUYjsp04KEYjIr2tCHV9JT20XSos48Vzs8DAfWyZztCIItAnYr3OHiDUbZWVT57lOtKOCQKXixEj7g+PtoQryoEvz7a7lgqgffTwEIzko75muK2HkVBvtwS7ZRH65hAvjucDcwGyFi+ECIROXZVQHG/8tMlrzmcWYPODKZR66dGon1afnDS5sctfqfDDTNdkp0C037SPkzVLyKj6JyruKFVrhwZP1rH/ShS7r+bn+4bJhgGSHJaDdXhVbfL3OgcpWdVIRYW8HOd7fhDKWlhK8Ysag==]]></Encrypt>
+</xml>
+
+
+2016-05-10 06:11:24 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[bXBcdez1M795U2QjVe7rg+bvhp1YF08q6ZFsBHop7MPqPzliWVnLaIofB1mQKFOY9hFKnoqMPejk+nGtuqhvxvivyBG7tWwvsuZ097Kqnnx3voN7CXHiMa84zY0mXQslpSZWdttsU+Mpf8Nq5V3ka1y28qEBN20vbYFgtY2GOV8DUUdbOCdrG4v0NYG/luAHbtsmaZLL93m7eRCsoXwZAR1N5iEvzvgrqvl616cyNcoIAaYq4gzFn3xbOHA2RIOoGqLa2kekTFOgth2jDlcmDKuwtl2VDeMWhDWrPI01SP2f0jPUQa53AkJbA0PBTs68oXz6ea54ktMoHru5KUTX1fiMcbcrXf2A4UDpahnTUybtUbKlgNlJsqlJSj9wC1wELBTB7V0bs3xvj1WW9NCwtUdvhw/Iy92xe08yiDHmNOpfQC+wfAlkMRyK7FR2Phn3b4nHz+Nkm5uOdXzkpF34ng==]]></Encrypt>
+</xml>
+
+
+2016-05-10 06:21:24 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[tSKMRrh1PFvcM77oWTgZFSfJcNcb6uB4mFJVUqgJEHUAmtML5xIqBfltMGceReEo9wF2/4RV/hQJLvC0vuuYJoPIp7Xo8wU7UrCbLNvT2ThqPi4s+zZFJcVQaYKkSNABKus3DRnG+wZ58Fq5HnqUnsE8jkqO6qGucxvLoTjyFvW34xJXjr+9vFPICBm145XWNJyEMbXxvmW58wH+YJnVAze4VP/T+K6lVDqwSyi45+dK7KCDS4YkKmLUPXjQm94dz/94hFatds8MxJbWLSMV3oWt96avYDSohiGxq+u7sD8Nqv8px9kDRiIesnCCSgEs3wJjC1v/i4Tse5ZfdMhJFuphBnzJ1GUMKA6r7ms/pdBtC96az6MOF9Q+uk9VhmGA6TTPA5Yte+biu46X9nopVPFw3GfPiaMq52dIt/qWMzMs5cJrltsYEyJCN7pddxNk/agT+PscebhfqmKtKEuw9w==]]></Encrypt>
+</xml>
+
+
+2016-05-10 06:31:26 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[Fa6+BHwXxoXrXv4wK9ef2aJOQRDeN4wBw8ovYYv2ETxgTPoJB/WMV3FQod436kHFIHG4L0QOS6HU/GB7NpDZ6f9G7wotX9nuBv8NozVqsWIeam43gyDdbsDPqwHMAlUBW7tHdzJ8bLSsR3SROlmlYH9epl3to457oi3A3Ocuh9IjXjTqSMGvEm8F2XySFAi/Xt7jD+gWMy2vjyNAyZ0/0h5JeDKXbu3Ey9tJtuQm+2uHOq3PvtB19DHxkxX5R7iA6JREPgOAmlbe/CE9fDGDI/mMxFzx/41OOmQRUsX0DMGMbBmnuq9usy1MKJWEk4zAMxVXX7Z2cwaBzjX0KDgDgR6ZFD5sFgEGmBCYoYW1Vl73wMxgotL71E5Ioks2QT7ET5DUPgomTBWg93iJZt7aU53qLWBon/dXo1RJdHnmC67NZr/9EUcTSGuRdV0ZySAE6X5XfMsWtfGptedFtUJxBQ==]]></Encrypt>
+</xml>
+
+
+2016-05-10 06:41:26 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[6E5m2cBWCqDlXeLtzjgxqU3xI6sT2ZP00aQV313uCNBx7KYl2ucpChzxW7lrGZAQRI0oMwVnouu2Du/dblKG05M3g8AGHgcWgr1azt46LktYrxPKjFnnFU+iwj7aJPxKO10bVBO2bPzn++Av4GHIVCN9NCIG0J4BCPDih4P0Iau3VCwt+3AJfqitongaQLwrJogqRJDDPL9UNGnD9RWEL6nKjIdPbUgtnOZ2iPwzX8+pgvTmYJRENyeTI3pOJlSWIkaB905ZcU4syC1MNw+R1nycnmG8T/1hBSVsOaUbzqi9z/61DqEVryI+j08LRREjfSkWFt7hDxemEb+0EfjWB53qWUkx/iNsDrd0P/EDqkZ1oaiCbyOqLtpKHvVQtSl5c9hl+SnevCAa9UxOpbf8kiZiAxPpDo2IYVH5JlBKt+Vpap/YsnD5lzGORf1QQX6Xc+Cb//55mhjCwyTr7ZeqMg==]]></Encrypt>
+</xml>
+
+
+2016-05-10 06:51:27 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[LscM/jiV+WRQ+nm5S9f/ObXD8C/O9Yfc/R9+//VY+Gr5tBVgQaOiMXboHA+VJrSW7sEghTUuGfrhfZD3VF0kr0Nc3LjRlZ4/EyWGBe5Cbd1aETNpBsn4duX/uvNkEW2AfZsMaICB9Fk0ZSaiwc1d4w9RRJrI1iC/5YY7X2J0/czCJDruI+gwADzydZ6+Ty7PbUGWpuGFK1AbTmEKIp3NiXPIOCHT6L0iItoDuMri3wiVzjE+ZHdo3jsash/HiC0FOLMg11uh66HUfPMM/fEpPl6NRj6OiZUKvb49JCTak0Vy3cgZQVjZuXJhw8mR85wKBcaQAR8a6dmhg9DN2kbhpkaI6k7U/FGFqkKmkEhNjSugUKBxw42S1FE5QNnq5xuqVQVhz7w+pT1CoDRbaCBbzieW4UefEVszGce9SNCGDA9GGkaZRwNm76lWWbiBK/yf0Elvp16bVZ5yxG1GPnzPIw==]]></Encrypt>
+</xml>
+
+
+2016-05-10 07:01:27 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[oDRRM0JHeKdxJINv6dETvL/5jAsOYar9bhzHVLTfSyLjW9p8wC65kp8XwAGPeolH1N1gXPvjehC3uyefDcVNuupRxiN3eWs2j3WHJrFKfRM2qcmPycicAxGQMu/GnbXzAZHS6iBqp/ULr0okYOik1Iu9gouB+Jp31ZhRYL6CErm9oewbYdxOlb8QHNuLx9M5FTdQbPpoDpzEltqZYphcFWOMGbfOq8rDVFnyCDFdWMeRHK97AnB3H24Cxb93+d9vjERYhbX1pLqJ497ygF94K0R0gWdi9CRzO4UViAw2tI9i31wIP5PVRISnYzXx2oOkFDBaQTkcbhRtt0PnpzbnSoWRt28NrtYaEb7jU6DR38cc5rDXamaWHXepfM31CX7Zvkh6gTabHB4Ex5D2ZLwIrEHZQCd1sAI1vUfaeypxF7cvTSOmVJMrRyoJtoQTNsrWo7hWRGNOCgUeZPl63p/B9Q==]]></Encrypt>
+</xml>
+
+
+2016-05-10 07:11:27 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[Ru8Qb0IHSq1u+5SPVU4+sRSkMs8Qv0ENlj/NJ0lcTPezv7vzPyuoOxT5FK0G5HlR7SDJiAu7JUMhfOQh240pnIRDqS7CCR44U+qlGZSxvlfL5peqyS81mWdcxL42CQL1KSKPXzk6E9Arz5+sf5mkzI67hrdfTGe+xNLW7ilg7Mib+GOGbrERtnHj7YbnRX3oq6r/UbyiODy4XyzymW8N9Ma9LClFxur1ygFNVMHHdCk7ew8n3MhKHwCoKHc4p9R2QQ4xbxFB3NJh5jLn2uRYoR6EAjz1nzv/ENK630vAfzLp6DGE5VypX1h2tFVeZXVkD7Eft/2fsLVsnQf/SUn8z0OXwGiDitwsWIpxE0XRJH5Mm2I3p7PLrB5Gd8+mJUm3BbyS8eAm8/hGKs17zO6pFmWfyb3rxqc4ojg+WuyXmusyETE7vqUsruPYIoWu3cuX6QMIicTUa9Sb+Y9wF0Kb3Q==]]></Encrypt>
+</xml>
+
+
+2016-05-10 07:21:26 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[ql/+WKV4i3TJ7kgv3f+ijuHMqGp/Bm3wg3JDF6eceM6a4bvlNFGcEoM0KthOE86j/D3k9/q/44cN3hl7lpBhrG5j8BgQtn95KxIUBvlboAVIWssaZgZVcl/9V99srtKV0Xct07wcYx0AZN6H4OvNbhbqOePYYk/QnzIYUVszMN7XjcftzGMF46vKAmuuXqOuzcnq5f6TCpcQ40HaQCZQFjs2+Owd0Pq26H3Wd+iwrxkZxvfKkc0Hb+sO/4k2EgK5kr/TkacgLjq3EPXognA5AVvqaFoKYtecqUfqvM4RLck55iP4yl/6r4E3g+oWT6eCR7kNl2IOTRbf5RHMEO+wLbjZqhZvN1NGGdtARfKi2jZG766Mp/74Vmn8LqBNnTlE4aR3zDQziP+3I7I3p3biiXCfhXDSC3T1vDXaKYrqYb6D5SgxeT1FouXHaYc2dZ8qCnAfmTYmRM2L3u1tvm00Yw==]]></Encrypt>
+</xml>
+
+
+2016-05-10 07:31:25 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[UwvLSybb/IOtnlTU02Dk8XDIzKjj9DM4x9jacJrPRbUE8bdEiLNtjvyg+4dv2Ggzh2Hq4vuV0pIIlVsG/jDYT3vcXFdPTYsgvkYIXjz8BgT0XbazoSUuIF2G/Ojo0plHg5GO2H31gYR2TCjCuicwzEEijDPGpwTwAXg4ZL08rl9tTX2iAq0THBc+ETchMI/MTxkM6riW5o4OzkMtspspGA1qMpNQ7jvzD/ivL5DsKf/RIaWYVu1WHK2oG7pWTvMKotSwGEStwNzlrfZG6VAgSaVSBOlQGPJwJ7cq8Apb0n/olljvGL2wFF5K0UdTgEOzuc3lJHK45xvetwl2MWTrjFumTwILUJzi5q2/1wrbqAnUdDFd6jhBFKpSnmHDWYNFyrhgeLnBu80+YsbyZJ781/qiG2UohdY1s3EYyZEBI2R2/522oPVzsLxIJ3JUp9gLtFUHKUh6233JIc6EXC9m1w==]]></Encrypt>
+</xml>
+
+
+2016-05-10 07:41:25 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[B8Y5PvVGPv3D2PmTddI6C0dIMJO+IosFL2nWUdLzhtv3mbnxa39gzO5eEKtVGdrWHHEqdLSL2I6+fQ84uwLstzOuBSt3VGU073Lc4D2tQAQv66YHyv41IaoBU0hoa46PF8Eg0/nzNmmiqV5zssXM4/jmQNbB06SPbGw/dCVdeW4GvdRMWlnx47tIgrMk0b1QydMx3jj1uTN4W25h+ulVaoQI6Xbiak5Glxb4VzJncM9WbTaMd5S6pA2vgLaXw4H9w3NNDCus2HgTJbz1r24CfGTX0WXbHJQA+VyAiHa3wGsLJDZDnmMjWqlD1gxa0G/wKPY0fXf941PktS+lOeP4DceDyVJzJ+gnqCaNNpPU+atTShc1iKM0L39Gd8il9t+41SRbpy0blfrLKenI9lRPPUKAEi+N4qG9loIsBEyjYaBkC3kGybwIAtfVboU4s6IfoYBGUtJXCr0jksCsa2ktFQ==]]></Encrypt>
+</xml>
+
+
+2016-05-10 07:51:25 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[nXdVZ0uQecftMwoFDUGOako+febAoYkd3ZXOGvkrTJ7mRAiZJtXKilK6iqA6AzXojEADhhLQCbH/8yOX7x2DPnpUq6Li0cZz1kXucQDUqDHD849RrOfqrWT8f6cYQXAWRl5yUOgsu8X1/DLHFHte0/8QckEDp119G7gfpGJLn4MUYsQaQf8swCgbMVOOfhQWdXM+cb7IJRrJhffqhmSeoljd8HwdgOSAGao2jG+fRR7YEer0Ab1EwGWEE8XW9bbHRKf/Zt5DqdKlLU3xnuwbTKJydT2+g5gmSVJJmxrx90gd+o9Jf8C2/55P+IhIdL6ZRO2llfTUTE1tA1OvtWYjIHf4/Pd/U2+uU/JRf8St7rZfYlznJ3v1GiTbDgqtZfjKWDtesAOsXElyTT87ghmIf+qNzWc+5azqfPkyZHUm1a7xTUCyU9QlCTd76L1zfX86MwhIPBQ/+FPNJEcSwayP9g==]]></Encrypt>
+</xml>
+
+
+2016-05-10 07:57:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuL881_4lDR4CbH9qGvKa_ig]]></FromUserName>
+<CreateTime>1462838242</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 07:57:09 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 07:57:09 response :
+------------
+
+2016-05-10 07:58:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuDsn4hb0Uhz9jHYyjDzDHtw]]></FromUserName>
+<CreateTime>1462838319</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&p=designer&pageid=5&m=ewei_shop&do=plugin]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 07:58:26 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 07:58:26 response :
+------------
+
+2016-05-10 08:00:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuFQmQe_c-koEBiAutUIZD9A]]></FromUserName>
+<CreateTime>1462838440</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-05-10 08:00:28 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 9 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-05-10 08:00:28 response :
+------------
+Array:
+FromUserName : gh_9dc12e06d172 ;
+ToUserName : oliVJuFQmQe_c-koEBiAutUIZD9A ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-05-10 08:00:43 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuFQmQe_c-koEBiAutUIZD9A]]></FromUserName>
+<CreateTime>1462838456</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 08:00:43 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 08:00:43 response :
+------------
+
+2016-05-10 08:01:25 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[ffUg4qqhKcLIYOX/1rlaTYBEr1R9b/LgmCAfKGKFUWxY51yYvcuCm3MNhqTlQZ6oTuTAYCECThpjqqJzQ/jcoPJ6LTdlSOakSyujzECXj+2BI1ysr5yxyJ+tbGjmULJX8jiM6cxLI3tLWNtVhTOKqp9bu/T2NK67BvN0DdMj9yfZNreNHvW4nE44IaWIaUyUi4anAQTNEKuIgv6JHp5DFUuA/vo2UHfmbajtcPsSINeF+UQMRM5j6AVHURP8SprE5cGQtSr2aOh8zja7TW1pyTGrehdkf7mSmUn/+6BQbPvQrYPN/4p5iSla1wJk8TRGtbsQYY/+6UryAOzUrkQYnLv7/J/bHDBx5lJKxCIEQE9LFyZo0VEXbd5t8DkHZTTWUiAqdD+rw90yxDXIhCr4yPdNJVmjuyJI3ViBXKkpz6/wZgr1PVBKGE/2ihJND25DCE6IencQ9j4S9pCkiQ02Dg==]]></Encrypt>
+</xml>
+
+
+2016-05-10 08:05:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuDsn4hb0Uhz9jHYyjDzDHtw]]></FromUserName>
+<CreateTime>1462838652</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&do=member&m=ewei_shop]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 08:05:01 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 08:05:01 response :
+------------
+
+2016-05-10 08:09:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuDsn4hb0Uhz9jHYyjDzDHtw]]></FromUserName>
+<CreateTime>1462838948</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&p=designer&pageid=8&m=ewei_shop&do=plugin]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 08:09:57 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 08:09:57 response :
+------------
+
+2016-05-10 08:10:41 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuFQmQe_c-koEBiAutUIZD9A]]></FromUserName>
+<CreateTime>1462838992</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&do=member&m=ewei_shop]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 08:10:41 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 08:10:41 response :
+------------
+
+2016-05-10 08:11:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuDsn4hb0Uhz9jHYyjDzDHtw]]></FromUserName>
+<CreateTime>1462839035</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[成为香商]]></EventKey>
+</xml>
+
+2016-05-10 08:11:24 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 08:11:24 response :
+------------
+
+2016-05-10 08:11:29 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuDsn4hb0Uhz9jHYyjDzDHtw]]></FromUserName>
+<CreateTime>1462839040</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 08:11:29 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 08:11:29 response :
+------------
+
+2016-05-10 08:12:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuDsn4hb0Uhz9jHYyjDzDHtw]]></FromUserName>
+<CreateTime>1462839071</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&do=member&m=ewei_shop]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 08:12:00 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 08:12:00 response :
+------------
+
+2016-05-10 08:12:27 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[d8exp6MywFXf6+15CF6Fo/6OCRgZL9bEBH2hstya1XhwFWxH62w6hp5dIH4lCtYtRNkO/okTTpyBI+OiZgHjf24KVsLbL1sXTSiNcF8ppdDa4RyjfmBW7Iv7rO0C3Sn2ZcUk1UOeKDuQd06ShY1iAFkkMp0AXchco2QB3qdHJ9Rw4JTtAFrj0P2VknYjxCwG75oM9qD7LvEnhAg+KMEbi61k2mXSgY57uGpy9C1CuYcLDXT5GVx22v/I7asUT5lh2+rGKkXcKt2jL6YTwpc6LPanWlYyk9EbJC72JT+spEnHTnJkAhp9WsocM1siZ+ScUx8stue1kmmb0UySIn/oNgkcLogRz6CCXCRo1BusDQRVcXBIKqGaJjgabvrbN0++09zyxzjp599JGT+VoARTl3nzY8lW7qQ+XWsZuN825RX/cuykaREhysm51KLpODBHiEJUxy4OYTNhKRCqAb8nBw==]]></Encrypt>
+</xml>
+
+
+2016-05-10 08:14:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuDsn4hb0Uhz9jHYyjDzDHtw]]></FromUserName>
+<CreateTime>1462839191</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[最新活动]]></EventKey>
+</xml>
+
+2016-05-10 08:14:00 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 08:14:00 response :
+------------
+
+2016-05-10 08:14:04 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuDsn4hb0Uhz9jHYyjDzDHtw]]></FromUserName>
+<CreateTime>1462839196</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 08:14:04 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 08:14:04 response :
+------------
+
+2016-05-10 08:22:27 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[+oyrPNDuroIc1a7i6caidLR83ih8lNpNGD0evu52gRZyyx08gTCVq0bfFh5MyZFn6J/5g5+X/xOammXTmvFJ1cKmqcl59kdYrMIUjgHebfEUUxwmZWqZSCqvs+cO+7bip4UEX8eamDyzCG5mTE0GAQOxCsDXhyjGiIcenwlde7XIQydOg7fj+nMGmi+th4PL+lZx81yfsOzZQfeVPF/ffZAgO/3weKo//LnBNSIO5M+xx4PtHYS42nVFyXZMivfEttzSj2Vkssizm1cGZ4oZ4Xri0WDEJrKWTeywYE21JslLL1G/LVtgmQRCMKAla/BsqWNPf8vjWrHahCG0x4sPKeLVEjWuIqxf3Ghmt3eli4mgm+YdHUxdW+ZOQmhBO4b1HjlD5dH0RHDM+HDl+2UbSxLPwJ+3+xBYkM6gDSgbEiguq9UI0qUJSlt4FS7g0LTv31ZQ5q0zbHtIQKh0qRizCw==]]></Encrypt>
+</xml>
+
+
+2016-05-10 08:32:26 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[WWhhlLAhfHfu1BZsVWzp/N38BPtFuqO8GJQNDS5ntZYRG0z8cXo6mFno+6ScciiMOabNGgM3blR/m1GYFpfNYWRodwbpyG9fQADnvMHbRPKeiFiE8Z+1aAH68fabF7my9ItuPtOg/w7RQgCNWbbwheZDlL7EoAwME4qi2u/ZQqHZSAQY68d+aKw2HWjYD8T/TzhxIl71zXDYLM1F9kT1plGe59mtvnYsBvmdmE/Wn/krG7k5nc7p0D2Tu5l73x3hEhPla5rMHOwfD/PIEHZTKBqkt4ymcDabSNVsnALtTeLnb5QJFIsGpaqkoZpSKIRSeBhF9KImp9ak7EJ8677GeotHRhVh6jvGhFIqjQWU+xhTOezVCU+8jOxUd3sWCOO4mva7uBf3Ve6l+tkok0k/7Rcm7ypvnTOqRGUiCvWNy2BnfWSrauxI5YuLs2PaSzhPPkjEP1yTqgVu0TiRaC1WmQ==]]></Encrypt>
+</xml>
+
+
+2016-05-10 08:35:51 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuOdy7LKfjmQRicee1Z0U6uY]]></FromUserName>
+<CreateTime>1462840503</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-05-10 08:35:51 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 9 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-05-10 08:35:51 response :
+------------
+Array:
+FromUserName : gh_9dc12e06d172 ;
+ToUserName : oliVJuOdy7LKfjmQRicee1Z0U6uY ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-05-10 08:39:46 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuOdy7LKfjmQRicee1Z0U6uY]]></FromUserName>
+<CreateTime>1462840738</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&do=member&m=ewei_shop]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 08:39:46 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 08:39:46 response :
+------------
+
+2016-05-10 08:39:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuOdy7LKfjmQRicee1Z0U6uY]]></FromUserName>
+<CreateTime>1462840749</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&do=member&m=ewei_shop]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 08:39:57 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 08:39:57 response :
+------------
+
+2016-05-10 08:42:26 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[4SxaI6F9fyfMKYfp4FkgKmdVQ9k5dtU4aFIX6Imxf1g0rebYiUESvvD6ku0/8YtXQa7jnVW8ZiAzmS2g0ZABLCWCqZWeYE9rx35u8+EmuFfwuYi6NZf0fk3JuklfBCg/lHBchQjUkUG5WOg/NlLQke5AR+CoA3MKgHSGNEV5P2hvUl5BFQ9awfcFUBroRobCIprjXE++htHth5kQACCRBO8zdUYefNtIdPOJAKjI8zF08ShqlyFN0n+4j2JJ19gWVMkIcCMPUrwM1RTu6harBXgU6W/7ioTxCEHZ9QJxhTNfANYf2EALZksFzSxuvozx1c+kWG9939IW5zWALgEpSaWsB4RfIpaKA5jheoYRVVXo4+w+kI4nZTq7/lPuhDLbh9ro/ZnjFJYwHReiuDnZQ9ydPZOsGLmopuAdxr8zkgvswlb496pUycLcvEWjcqDwjasZTq0vez16tMtLBcM7Hg==]]></Encrypt>
+</xml>
+
+
+2016-05-10 08:52:28 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[cz/N6ny1hkxW62cUA33obE013V8A584NCcNcg9OMlTz0B/Pl3n03IjRLR3xFEIKdaEkF+utH4gd84sz4aR+Pgilj1yGNJIMdsp7DoZy1r9/PX5DGolECYRmnfoaDMJOMbyO3IApLP0axTMR19krbgkoCkYPSw/O7e0yl5Jcc0D68tDlsjjoe8arEUvc/wZsvuZUvmtc0sl6bQUSnGVYFJIfl7cwg/9AKuxo7bzJOGQDUtrUs/rc3jznHGpBKdRVxSjuZw0b249xMHpSwOCeaNU7j04wq5dNhVMy3nVPQ58dTqAjBNM82DSfaonLCxwTQAEGAUUCSVXeEdDTNjriMkSWdW5729K0covQ6rXy9XBvK6GeiZ4OGgYX3C5Q8Np6s2VBx7nn86H3sP14GApzwjYgEkNRg3iLl4MQf0ajjSrc5CzcAp+4ZCmzFENqiWyuhOD8F6K6Zz4qhgyVZoZpuYw==]]></Encrypt>
+</xml>
+
+
+2016-05-10 09:02:32 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[G4Fva3T3zXwKk/bhrLWBdkFY8zMIJJycvFKbyY2wnYslVR7Yiavd2/Deqk3Jq8p30q5bRuOwUrjtzt3R3bwlyhlZmk9hOGErppAXet545i01/3YQnsv2wikD4ihezcD12CoHtMVKQuqKFzHn+k7XuaA4AjDDGadevWYWxAKKBFl8Jnei4uqNAKj6QHdxf2CpdvfaS+QNLbKsFZCdc1/ViwhwoNI+WMWecE33slLrcbES2x9gqazNZip9y84HmVy660OIt5wsiXU8D/b/8n+eLIV9mdGGrUGNlYmf9U76/G7xZCS/rshMXgQLQpyyDP/WjJs+n6gT8Fxbt9j6UkPlBoJKLNXdzNIS9TcU34ol0RGYayi+djuz3yDrvQH3iZU4FFQH0LGIJz//gR+aj5yhFPdLwqdoXOXSac0Rt5hvodRxB+7VxBAbkds0orJx1KmayZ4jVxijtpJYWEkCs6nh1w==]]></Encrypt>
+</xml>
+
+
+2016-05-10 09:07:15 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuMG2a8NsdnbWoALG5jEVNx8]]></FromUserName>
+<CreateTime>1462842388</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-05-10 09:08:03 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuMG2a8NsdnbWoALG5jEVNx8]]></FromUserName>
+<CreateTime>1462842436</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-05-10 09:08:03 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 9 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-05-10 09:08:03 response :
+------------
+Array:
+FromUserName : gh_9dc12e06d172 ;
+ToUserName : oliVJuMG2a8NsdnbWoALG5jEVNx8 ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-05-10 09:08:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuMG2a8NsdnbWoALG5jEVNx8]]></FromUserName>
+<CreateTime>1462842485</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 09:08:52 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 09:08:52 response :
+------------
+
+2016-05-10 09:09:30 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuMG2a8NsdnbWoALG5jEVNx8]]></FromUserName>
+<CreateTime>1462842523</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[最新活动]]></EventKey>
+</xml>
+
+2016-05-10 09:09:30 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 09:09:30 response :
+------------
+
+2016-05-10 09:10:14 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuMG2a8NsdnbWoALG5jEVNx8]]></FromUserName>
+<CreateTime>1462842567</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 09:10:14 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 09:10:14 response :
+------------
+
+2016-05-10 09:12:26 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[bHYuYrHKM6e2BGArZddvksih3l0uWH7V4Ana/wwNFnmasxvpc2jLl03E1euUjvURiYGDjUkhuzCcLFkYWvmZw09FifxtpGPj895ZcwlvTc5SGu3CmfWBf4LjSvBQbuqkpBAHU3WNk0uLaMJMjwkEaiwt0kRJfLHw5pBITGQAs8VvOplr7pY7ivZe0tfFBdTCdzfeph3pPijeSHRETPnH0y+0KZk5gjoMRmeTGF5xAj77DfLFMKrVYJUK9oJ49RvVZuIhSK84z0AFEABaYeykrkOejXircc4haV2P5UBtzeOIKgkNnP+OBbK0jXulPP++esv4MR8Ai32mNeHksUXpBhFofsenZ7KXlHeWy27hBXKDc4o/cdtabtYftu0CkXNTnJUWs3Q8sM6Dko/Od0UOJ0xNjSOjYdagRtCe+JGVk04sXQsoNCNZFAsRcGmaGEt9wuaW2WAvGWTgXZsH0UI44g==]]></Encrypt>
+</xml>
+
+
+2016-05-10 09:12:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuMG2a8NsdnbWoALG5jEVNx8]]></FromUserName>
+<CreateTime>1462842727</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 09:12:53 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 09:12:53 response :
+------------
+
+2016-05-10 09:13:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuMG2a8NsdnbWoALG5jEVNx8]]></FromUserName>
+<CreateTime>1462842760</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&do=member&m=ewei_shop]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 09:13:27 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 09:13:27 response :
+------------
+
+2016-05-10 09:13:42 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuMG2a8NsdnbWoALG5jEVNx8]]></FromUserName>
+<CreateTime>1462842775</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[最新活动]]></EventKey>
+</xml>
+
+2016-05-10 09:13:42 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 09:13:42 response :
+------------
+
+2016-05-10 09:13:51 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuMG2a8NsdnbWoALG5jEVNx8]]></FromUserName>
+<CreateTime>1462842784</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[最新活动]]></EventKey>
+</xml>
+
+2016-05-10 09:13:51 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 09:13:51 response :
+------------
+
+2016-05-10 09:13:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuPghK7WQZmxJCIfVpryOGYo]]></FromUserName>
+<CreateTime>1462842792</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&do=member&m=ewei_shop]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 09:13:59 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 09:13:59 response :
+------------
+
+2016-05-10 09:14:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuMG2a8NsdnbWoALG5jEVNx8]]></FromUserName>
+<CreateTime>1462842794</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[成为香军]]></EventKey>
+</xml>
+
+2016-05-10 09:14:01 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 09:14:01 response :
+------------
+
+2016-05-10 09:14:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuMG2a8NsdnbWoALG5jEVNx8]]></FromUserName>
+<CreateTime>1462842798</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 09:14:05 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 09:14:05 response :
+------------
+
+2016-05-10 09:15:33 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuGJkW7Q4pSwVT6YcrHDhks4]]></FromUserName>
+<CreateTime>1462842887</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[qrscene_a583def313129867f143f1c765ce0a73]]></EventKey>
+<Ticket><![CDATA[gQFu7zoAAAAAAAAAASxodHRwOi8vd2VpeGluLnFxLmNvbS9xL09VTmZDZ0xtbXM3ajFkWHBVV3RTAAIEHW8wVwMEAAAAAA==]]></Ticket>
+</xml>
+
+2016-05-10 09:15:39 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuGJkW7Q4pSwVT6YcrHDhks4]]></FromUserName>
+<CreateTime>1462842892</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 09:15:39 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 09:15:39 response :
+------------
+
+2016-05-10 09:22:24 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[BrDQ9uP8a1Y36Tsd/OuOzR+OUljFhNXY6TKm4iOOzRwTGu0vQGCEhJ4oo0p/44mNppmcxkp97ZOcyLXvoCcW3ychRtS+X39wJ1l8OXoVUIsiU5NnOv9t3DEYuJyNk7fO4DJUSxAd1i7Gs3r2HikL22259x5xFy2mQi+ELXbGtGJtrAFF11mSOQQ47Z3EYftOqw0LFVioMgT64+wn4vT/FSPQ2g1DQtV8LQA1j1ds7chuKq6Frfd9/MKUKWWJUeO2VMfnEAkSDyDKUI5D2/1B9Jvcp+KKPUhITWbvk7Tt1odoxY3MXG5bDJ9dxn5PQrnGV1ZWAhxeCyUfv7UAqRAb5//XbenY7QBlnuLSO4BMGgmqL9xuSJrrmsKBAig3sf7TzoxJol1bKlohF5zcGeqLVfwgkOoFOC4rZ5cTL0KloKSchU4LeEYJ/U6VYoku01VeY8iZ22tBcpQb0Q5aeYWedQ==]]></Encrypt>
+</xml>
+
+
+2016-05-10 09:32:25 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[fb3jsaR+KXiwoUB7qW4idx3OY04ppJAGhW/HsUL2kNHHCzbf95xKmtxg3Kew4I9XrGIIo+gUw8uPaTFJbw6Z739vnxolzCatIhpM06j9b7Hn7dLdbaJ5bL/gRZbiLCekFxIhO055sacsAzAG6rA6uPGSbnwow79bmaunu3m3oPmRsXZqohretJAgLHY983OQ9LeUEROGGurSxaqxVnmI7Q135GF5y1/PLyjx6dSRJf+VuKAD9hjIkFWQ2SJEE4L7pdfsbTbxRDRyiEZl1B+atD2nqtXHeQbv7o17pZjht/elbm8epIO4IXeRyIViUmyIqOzAop9UpMjWylCJTHDbkMwzsRxyqSg3SBNRDZWTraSmtNvXuufVaUdDVRNKx85rw+R/vM+Ip8HpZaO7Zs5PvVHzzEs4FA4qIL1E68EhzlljiMVdFYCwZ7FJp8amtIvlou0Q7T8zbZtL1EKQ93k8JQ==]]></Encrypt>
+</xml>
+
+
+2016-05-10 09:34:39 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuJ-rl2NaBEzCkwHj6Ab3yK4]]></FromUserName>
+<CreateTime>1462844033</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 09:34:39 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 09:34:39 response :
+------------
+
+2016-05-10 09:42:25 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[xCYe8e66+2l/I1AFx6efvpjeorHXR2aD5w2djdqHByy/EDmVo6stzQSMGGXqswdGaIoGFvTUrZYvg8lOsfS2tEiitu0KuAvmJ4vpbKvnOv01fLd3l//tiFZ7uM+pvf1xyblh2dMTK76XI3OvsgOlkfESs4ruz6Ef9fUAia0II28dGAJAiUA9zzspAI54JyuRLE3rCpTedJ9OfHBktvWZjd5sg2CVDtuqgEZxfQGk30k6GiY3opq7Gfb4C+v9uBIyKlVOe+YNK5AkEmtTI1+RwWrq1oob9WGlIBJTKNyS6dLF9zAlnW9xYqe2YNkjcu+zqPsGrF7ZFEoBH/Jx2r+bpXeO0LTSMWxemfYzxwRNo7nE92GKS8e2sxDmBaSrIKf+jKrHBFEAA5U4TfG2pQDQZrAYZU3zWaDWAFdsBcRdLs1l/K7ykoet8VCS6dLalzYeKaxJRh8HBsnA4+e95AkHHw==]]></Encrypt>
+</xml>
+
+
+2016-05-10 09:52:17 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[Q845m5zwwt1HeyK/jzrPqmtA5Stbdh3nQNGfnWEG8CRyvQbN+5j8KAAEXn7UvKVVoP0Cd1csTBOKmCyhiqORmfMs4nxQ4DxEO96XHrrdzHE1L9SJivcNy8C3JAdY7aBepLHaYjC+uor4KiBn03CfXa3Br9M8J36YskjGp9wVZOjvkgSvgnCBLvxTqqVPP70NldE3W3GCwgjLrlQbsF5FfUxeVhUwgHjFZVHX288N7rlqMX9qIUqshwdKH0AtrgJx5J86sHUe3wnMNhqyxE/lat1R+Y9ytrsJF6hJ0NPuKjaVUhUOoJHloWgvs4vAjpNtxX9UOLCNx1Z2FbH6eoJ7wLzC3Z58ykgoEeyAzcRR42tlA5k3hplx3JAdhErLcc1t4smflZo/gDB204rqhJ7EZsjPoiPj+EHeOxdTblsMN6nrmBjYemHDD/aikQfWmSr+9QINLF5V4S9qJ9IunI+BYQ==]]></Encrypt>
+</xml>
+
+
+2016-05-10 10:02:13 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[JNhMPu32OrSDSgc2fTZTgTeVDg/pSaREcByEJnLlhIMImE0GDsCQDG8bJnnOAfeTlJ04JQ+AvamdYfTT7D4wrbXG3jXlrrjwu/T5BrbPStsUTxaHMGQCn6FUy/TJ66+ntXR5ZRz79yeYcNHUh5nDt+ZWqQNJMozTcSN3S0g3BdE0eiX/U7gr0EiA3IEsSBDLQK4Yi5jcw8M5JfxQfgJKaxgqVfWeFBlQ0vKodH3SASHW6KqnT8zuuq3vb5xokA46TDM9JWBiRBkzptGAhQXl659OGS6p/yJs68LkYhbNswhVk/QowpYso63s3HCowNYDa34b8yIXMirGb67p/G/cos/hZ4IxkVG426UgVUNBdMXmk+23z4sJRX9+Cj9eCKOh/7KL0YIwOqu1Tt4POUE2rwiXzOd7uUFUS70aqGO8NhHk1JnaHHphVn7QK7gnLhVsQsDoJZgCAQcxeZ6nL7p0+g==]]></Encrypt>
+</xml>
+
+
+2016-05-10 10:09:15 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuINagb7rGDPbLFy8k_nMesA]]></FromUserName>
+<CreateTime>1462846110</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&do=member&m=ewei_shop]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 10:09:15 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 10:09:15 response :
+------------
+
+2016-05-10 10:10:51 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuINagb7rGDPbLFy8k_nMesA]]></FromUserName>
+<CreateTime>1462846206</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[最新活动]]></EventKey>
+</xml>
+
+2016-05-10 10:10:51 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 10:10:51 response :
+------------
+
+2016-05-10 10:10:58 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuINagb7rGDPbLFy8k_nMesA]]></FromUserName>
+<CreateTime>1462846213</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&do=member&m=ewei_shop]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 10:10:58 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 10:10:58 response :
+------------
+
+2016-05-10 10:12:20 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[SHv1lYM5xLho3T8KzS6bS6PEyAcK6qThNcIVoBnAFmkVJqPiX37lrlzxs3Wh7dhNmx8w0y2nALK0awMKVe16Fg9mltHMPlZcWfgKf8vQavaHGqo65TDnDSnUXiasmbaXgOD4cOcyh1EI6MlUMkuc1Y1JNHf6N2LZXJaEuztLW/cNKv7p3IRskiRgtRf5Il68ke5pVRzhVqVoB++zoZ51saNw1kKu12Xr0hxHHpScZd/lMlU2UOMwimnqMn2xiKgXb2tWy5kfQoEAqEHvLXIr9YmAbm+rCFpBON3BABZS8J4GgeZ0fSFIEtZemVNV8YP/k+xTSmU4BVQ8e/pAsOHBqq8rV6NApAt9WJL1hwVrktJJzDuEWGN7Di/izMNmUqI9fWj3Byz4e/oE3x0r41ZmOVDO2Cd8ny5YgcUV48+OCmKqFuC8JUf9TlH1aBhhjcm4xDVHU63B8v32epXAt1Fptg==]]></Encrypt>
+</xml>
+
+
+2016-05-10 10:12:25 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuINagb7rGDPbLFy8k_nMesA]]></FromUserName>
+<CreateTime>1462846300</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 10:12:25 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 10:12:25 response :
+------------
+
+2016-05-10 10:17:35 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuG7xqAjXnY47TAATTX9LylA]]></FromUserName>
+<CreateTime>1462846610</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&p=designer&pageid=5&m=ewei_shop&do=plugin]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 10:17:35 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 10:17:35 response :
+------------
+
+2016-05-10 10:19:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuNiM3vMuq8qi3RkcX-T8uzw]]></FromUserName>
+<CreateTime>1462846697</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&do=member&m=ewei_shop]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 10:19:02 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 10:19:02 response :
+------------
+
+2016-05-10 10:22:24 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[I3659asPZ5vl5Oa02PbfILK+CfwCDYlnGdpl5cexEwKFtx/I9CSLIqWlYtWgjEUloIbupyXztnV7zC6kgN5jSaD+JJN/gviaFzyzLMs1w2Z4GJeRc5q5Yf/4xW6U69t9fo1HcTwyryVLSK7Wl9/zbvDKbzrxEDgLRp67akYi0yqWXwdlZz5VBHpL1g+hIeaCRmaZ6lqGNW6w/hsSV+WGIVVOlp/buGtgv7c+q2MzS0TujDckn+I2w1eV/6HAKBCCTSql89253GStHLeZp65joUUsiHC3x0Pam9rEi4/A1rFMRRblz1a6d53BT+IH7keP2Swycvt/V4BXsr6/+V6l9rw0dUll85JpQWGHUJKG/V30VKNm+NvldngpvvlwtYo2x6lAJ1PMprpeDMCNhVFA0C5kRFHiuA53t7C2yBXAk0DKB1wHgJyKUZO1Qk52lWCMqN0X8v7CAfoeFIDOUv1yLQ==]]></Encrypt>
+</xml>
+
+
+2016-05-10 10:24:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuEKU1szM-iIVw-V3pnoOERU]]></FromUserName>
+<CreateTime>1462847022</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 10:24:27 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 10:24:27 response :
+------------
+
+2016-05-10 10:25:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuDxwtG38gDgVcu3Ga8ezSCg]]></FromUserName>
+<CreateTime>1462847055</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 10:25:00 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 10:25:00 response :
+------------
+
+2016-05-10 10:25:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuEKU1szM-iIVw-V3pnoOERU]]></FromUserName>
+<CreateTime>1462847056</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 10:25:01 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 10:25:01 response :
+------------
+
+2016-05-10 10:25:12 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuDxwtG38gDgVcu3Ga8ezSCg]]></FromUserName>
+<CreateTime>1462847067</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&do=member&m=ewei_shop]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 10:25:12 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 10:25:12 response :
+------------
+
+2016-05-10 10:25:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuEKU1szM-iIVw-V3pnoOERU]]></FromUserName>
+<CreateTime>1462847069</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&do=member&m=ewei_shop]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 10:25:13 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 10:25:13 response :
+------------
+
+2016-05-10 10:31:44 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuDxwtG38gDgVcu3Ga8ezSCg]]></FromUserName>
+<CreateTime>1462847459</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 10:31:44 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 10:31:44 response :
+------------
+
+2016-05-10 10:31:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuDxwtG38gDgVcu3Ga8ezSCg]]></FromUserName>
+<CreateTime>1462847473</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 10:31:57 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 10:31:57 response :
+------------
+
+2016-05-10 10:32:23 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuDxwtG38gDgVcu3Ga8ezSCg]]></FromUserName>
+<CreateTime>1462847499</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 10:32:23 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 10:32:23 response :
+------------
+
+2016-05-10 10:32:23 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[Em9Z13Ia/KB++wH5Um9W+JnnEpmaRBLFvn4oBP4AvsuYYmUhXPbUcQVWBuGf10qD+/CVkNnkzVh6y0OibwllJ8pB7edvo8420cd/3WunWD1rPoeF6SRXZqJblVpIQOdX8NizHXYr4zK9n7Qdsi0/cy2atZDurRvTnOpNY5zIKcbtnIUrc0kTD22loLdcSh1m6ndAwcDB+vKfZ5pIEKaYeEQiusO2SHqAQXY3BDU3mH/1sSweGUrhROuPXhwvch6olpQ3FHLKOeNpdA8NdyQzUULvquOf21a75xgauApTwyt0vzRWKP6d4ifajkvTh5CDyY1MnnrCAxuSv8qmwc9M+2TD87XU52+V4MXx7p3xNtKQP4hQ5jSJR7VLZ+oIGuHdN30mKoPcMcekMmO+j1sOJHW11b12EQhdq6EIq9JEZq1NtNSPdrzRrkgutI2qEXGgrOzC43d93VWzPfp7oDInlg==]]></Encrypt>
+</xml>
+
+
+2016-05-10 10:42:23 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[Ex5Z3th4F9jQ8FzJdGoiICkAKbFDZGzjtwoCQcFRyl4sb6jq79yGa+tGnCdyfFo2QiGmZxjBDglk2KF/Bo3q40QXXEzSkjVfXRLKv4SUEGYFYAAm3MA0kuIQ2YeaovydsaNdo49nTZggOoonjuy7T3kztznrzwsYh8zO5V1g/V1RVRSdmCnOgHDUzoRu+84aW8GeocPlc2TZSOdtwDO3FOpfi8EZA+jLdBJKLjupHDU8e/wdQsViiNOBHo/DJ9apQXIgTjuWMvYPAwDpDrMdekHdrpG4pOXna9Zpqadauj1V8XfDpXCH3JZ8iVtgNgp45wgUJS1LKh1XtftbSwHKDgZnLofyz031CE99i88p69V6TrO46EViFRrk7ubm6JeBzYXNdZhT14+9vuVypBZa6rKbhAUZ0/MRceLzycZcgx3Rd4lAPh4osEPXmhATpuCLK5DFAVTkHd+Bm/cEgOHJVQ==]]></Encrypt>
+</xml>
+
+
+2016-05-10 10:44:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuGGcXcj7gQBo3s5bpvh4KPs]]></FromUserName>
+<CreateTime>1462848245</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&do=member&m=ewei_shop]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 10:44:49 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 10:44:49 response :
+------------
+
+2016-05-10 10:52:22 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[MbycCS6BewfphseZGYyVL0cfqf/8g0a2xMf6D6fpxGkcFfRDJl/WN2jQHP6IWSJFhP1sS+hMFwGl+c4jHBWKDOcGmLVkGVptDy/0DPFwGJ3zaCN0D2u7Y+/XLY7puhy53OfyB26GpfhOBVotr2EZgjt2c3hhlDcOMYBnRFK16ghex+f8rkcDNV9ykG1kUhBgkE9iLZjcQLFetMM0pQhkK2glYD5iVkq6Rd0/YDPxIcYHfwMPg2goA+XNWF7Trglbn+k7it1k4DlZ6P5l2jy/OAfyM5wv0W87dbzH4KzTnGysoGzP4MWPkr+cwoXINfzhHtixwZ7J3jukvzcVRSm4I0qUojzhYJ0gD2hFKpX9gMgIhTjZZXbFSEIt8xODN75k5tWYPaQaAYyRX/HIjNjg1wzKrFuIgKtJwfBfRaHJotoc9rBy8csYZLtSiAgsylyLv27261k7NURLjxRamQxZ8A==]]></Encrypt>
+</xml>
+
+
+2016-05-10 10:57:45 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuG5yc5BYHGNas3RfHvdqZes]]></FromUserName>
+<CreateTime>1462849022</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-05-10 11:02:24 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[KaqSQ+U0RCoxeHoFYe584ScrTqXccHI0xtVtwBchuWU3VpxG7EstgrGA7EPFw+MiKiwD64p4LeR77K+QK2MkTyO9uvnnSs1bdHGC+44+Z2yUV0P6LS2EBpTX4CnBxvTWQ8awlE2hXy4qsOQTy4guuLIZDid0lzQhtXlirnVxIgxrLvBCUgpePi28ROV4dKF9USZpWDxjlleLy8AmS7YN+0FEvsf40KyZJcGWFB8F7EZHXjOEaskA2Y19YPZGi+96Oc0PSAM5WQO58mFrPazZLfHH0cXgvtfiw94iGw+Dqb93RYKMMML+U23/r4PWKoYo0+xUKjucXLMRid4oKgNVAQ6+LKB1t9iaJ+6d0oQL2CEuJLjPnVTl8n9bgtAhU39pJaOBmkGIrqX6czPp0G8d5NX6fIQug0oyuT1wcgMgg/5xtVlbapYdstOrSssQejlcglPNwKmuvVKhOU3WkIL96Q==]]></Encrypt>
+</xml>
+
+
+2016-05-10 11:12:23 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[FNPNV4aTdvNlxIDaYVMWhO8h024cgb14T/quAOFVKKL4f79IbED6HzZ49CKmHd3s7At/mMlu96AYTE8/TMnbWXeDV/trRr6Bsez3FlUzePYOdwkGaS59BVkus3QltnV+mXIafQVbVUZrV/mVRS2EagPbNi664nKSOH31cGYvdLc2qXaCYX0hNDDX18Vgx64nBfUbvE2lFkfh/GFaFO/wuJ+kQBJ2fY8LtgwCLP43mj2u7vq5ZoBfEvD3mHZhhHykgfI+sVTPYR64NWcm0HjAbUPlksApZoIlHWsj7+pffYUfdQHqTIAbZYLEfKAXOQim3sqcydNpEs4lcCerwTQXNUeGf65rG/V575tGz5ZQVZo4GNbp531cXYvVkJf5MmDuC/9ZvgcQgqccSzcsj+fNEfu3SBzJxEmcnrFQtCzqKkaK6CdOwCuFdLAzJ6BXW8Bxg9NEMW9NQ1tpVsbqHpR/qg==]]></Encrypt>
+</xml>
+
+
+2016-05-10 11:18:42 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuBwgIJbpbOXD7Dp5SIinqm8]]></FromUserName>
+<CreateTime>1462850279</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 11:18:42 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 11:18:42 response :
+------------
+
+2016-05-10 11:22:23 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[U89IgQVhZZGcHa+obltjvxuL53js9eeA7zdMtSz8+9Ihn6Vt91VajYtK6SzkFncJeq3QacrXXX8fO0Z47bzgVoxZFjhzCGOxIftfp68/FarUTwkI0d/n3Pewc326bJ+sOP3hEN/3ZSHjKhUMfm0HDY3Ppi8XbznI01PAoED1OHduXEwcNEPVrZcWYOU9zvChAfJHDBvZCIi8KgxJt9XFZipgzoqwJ1lmeQY0/vm4CuE8Ni5lrmT+TRCk9pqC8FGmhHUImfm8kcvAVo9l7y96Nvf9/p5zGMjksGrk9B9+XrBzEQuFdDGs5Hb9e6r9V8sjjaO6bEy7mb/6LA46jFKz56w1I8v6CGXxrkyJoYmYTZA7qeoPVM/DcC0QxwgXkPgT8O1mp8xP8fGab0d6U0e8gVifB95YcmWMw1fU74/MR5NUE5jPv3nLhkCpegdowO1GRD9JQLtu98yQW09TbIoIoA==]]></Encrypt>
+</xml>
+
+
+2016-05-10 11:23:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuBwgIJbpbOXD7Dp5SIinqm8]]></FromUserName>
+<CreateTime>1462850564</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&do=member&m=ewei_shop]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 11:23:27 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 11:23:27 response :
+------------
+
+2016-05-10 11:32:22 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[fYpYyaTu1Ly4GW0bpQEW11lJJ29iaiXnnrinenFP1qB8JM1vcUjUXfK6cshh6EP92Z2MZUWZkV4Kpel1g256gdhAL2ZmilV+Mmg1nA0DlhWHz8gkQRIV8igwHLoWxFZv9Y9IJiWGR1CtyU8jj0VNWi62fZ8Yj298DvsY/Adw8fCmnkaeDZCYiZNX0Ed2NQuZkP2LeAEsgQx+CFjfgePiNpvHkPkBsiiYni2rcEPpKANTTIuunaKnUsv0yaeHYQibOqBfwjHaT6ouC3DXJ5E5j97qGuSNrkveUls42ft7XNgWzT7kLleWj1vI9leNp6ZxcVds3PXLJ0X0YZM3DEGts+0j4KM8w0GwauFaJF9TBUitIuj4ota6aiVJ1ze6n6g5xIvXHtQgmhxh4ZupKua/bA7lPZ3Qisy/RnCF6i8eV+lZeO9wWkicBTcaVXUZjiyIsuCembW0Z9EZDdWHsyCv3Q==]]></Encrypt>
+</xml>
+
+
+2016-05-10 11:40:44 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuG7xqAjXnY47TAATTX9LylA]]></FromUserName>
+<CreateTime>1462851602</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 11:40:44 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 11:40:44 response :
+------------
+
+2016-05-10 11:41:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuG7xqAjXnY47TAATTX9LylA]]></FromUserName>
+<CreateTime>1462851618</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[成为香商]]></EventKey>
+</xml>
+
+2016-05-10 11:41:00 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 11:41:00 response :
+------------
+
+2016-05-10 11:41:21 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuG7xqAjXnY47TAATTX9LylA]]></FromUserName>
+<CreateTime>1462851638</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[成为香军]]></EventKey>
+</xml>
+
+2016-05-10 11:41:21 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 11:41:21 response :
+------------
+
+2016-05-10 11:41:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuG7xqAjXnY47TAATTX9LylA]]></FromUserName>
+<CreateTime>1462851642</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[成为香商]]></EventKey>
+</xml>
+
+2016-05-10 11:41:24 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 11:41:24 response :
+------------
+
+2016-05-10 11:41:29 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuG7xqAjXnY47TAATTX9LylA]]></FromUserName>
+<CreateTime>1462851647</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 11:41:29 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 11:41:29 response :
+------------
+
+2016-05-10 11:42:20 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[tNYLPZUjszOsDxGGyv1TjKAOv1Z87LmPiFk8YJOCRRP8TRqcq8TQV3Bwkp5Qp2yQlGjYwAcO4cvo7OdarX/Wg6Q7/Zz2r8sVtDGip0z/s7RHqhFquZrkWza8qCtNBDbfMF1JQnnbngpn14D9RUVurZvntO4S6ssC6jCxMrsw/GLN9EfV3KDyfuY3jaGrnV8HwClinfpXWMh4J1eicY1wSmY7Rw1W+DZ0M6gv2AQ6KmKE8NgoqY/+3rYJJnbJr7poMtLg9ozcbbaRTabI71ibf8+FKmXhF5tjupM9oV8er96XhcSCwxzfu58VgGAp5jGLxvAAJh0Uh+f9ycdvy2zrrdKe8UTpsWdI2Vvm2TNDNO0cEngv+OZqwY8no9ozFpsLPYi13hytV/PxmoFEqjIK0Gzx1ouAp3LibzYgi1Ee7O3p/Pob/KhvrHraTZM/lvNIP5m7eaMTBjD6oGM2B8BOLg==]]></Encrypt>
+</xml>
+
+
+2016-05-10 11:52:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuL6Rg40955yZiPByEjLxksw]]></FromUserName>
+<CreateTime>1462852287</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-05-10 11:52:09 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 9 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-05-10 11:52:09 response :
+------------
+Array:
+FromUserName : gh_9dc12e06d172 ;
+ToUserName : oliVJuL6Rg40955yZiPByEjLxksw ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-05-10 11:52:20 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[lUNW0PBcexyAy8AL8MYNZ9O94DhoCmgXnjWP2HPk+gh6MgYuZovG0IpcCWjZ9znAzhlV3XKe/7mbj7PQE0zbNLmWKXLpCZSWQ0lAASaHKPhG/kqahapOKjLXt76QlPnRqTybxHN1lassXnC8i0DnC4dHwWPQZy/kh28JBJHYS4JA+4qWXXit0b9kS8WO2n29fK025tUnvUJUHu+YJ8SKpyfCcvRPlPX39GuJBBL/CfzxDNK7bxn87krVxwe/tEaOu0uo8rliXYmaXT7Tm5jzDiJ5r/JNPwK1PM76hTAszsO0SixK0crwEi9ghOkluNm5Z3/DcF2Xy/w+14mRgFmhvVS36eZegujh1+r45dV+gHsFQlNuKwLkDcA6lTLYRQprn58sv1ptjIH2QkcVxuk/mPZHT2exYvV9p2L9S9nJAfRIZAt9WFYFDDBXY4048CwkYlqWSwY7rRp79gAfPBSbwA==]]></Encrypt>
+</xml>
+
+
+2016-05-10 11:52:22 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuL6Rg40955yZiPByEjLxksw]]></FromUserName>
+<CreateTime>1462852301</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 11:52:22 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 11:52:22 response :
+------------
+
+2016-05-10 11:55:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuL6Rg40955yZiPByEjLxksw]]></FromUserName>
+<CreateTime>1462852516</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 11:55:57 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 11:55:57 response :
+------------
+
+2016-05-10 11:58:41 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuGGcXcj7gQBo3s5bpvh4KPs]]></FromUserName>
+<CreateTime>1462852680</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&do=member&m=ewei_shop]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 11:58:41 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 11:58:41 response :
+------------
+
+2016-05-10 11:58:58 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuL6Rg40955yZiPByEjLxksw]]></FromUserName>
+<CreateTime>1462852697</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[最新活动]]></EventKey>
+</xml>
+
+2016-05-10 11:58:58 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 11:58:58 response :
+------------
+
+2016-05-10 11:59:15 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuL6Rg40955yZiPByEjLxksw]]></FromUserName>
+<CreateTime>1462852714</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&do=member&m=ewei_shop]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 11:59:15 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 11:59:15 response :
+------------
+
+2016-05-10 12:01:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuL6Rg40955yZiPByEjLxksw]]></FromUserName>
+<CreateTime>1462852821</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 12:01:02 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 12:01:02 response :
+------------
+
+2016-05-10 12:01:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuL6Rg40955yZiPByEjLxksw]]></FromUserName>
+<CreateTime>1462852878</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&do=member&m=ewei_shop]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 12:01:59 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 12:01:59 response :
+------------
+
+2016-05-10 12:02:21 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[P02ylW4mJaVswoYDf2+jJRI4Wg6LqqAjDZfCZZzIxIcYnyFIFlstbDpMwELIwn3EUSNmGWzWbrBEsHidqFpVF+Qw8XN42l3r02d4Vejg2bCb3uAaB93cD8CcVyi4VNLR2NUXY4LCaB+OMVcOyZF9vAnNQy4BaQXEon4uxc8kKL8KLHsPgXzxnik7ta8BeL7NuM/7CpEYMasUMzd78nrbp5RXUSTIW3NavcL2YHVz71moROWDbjtNmsqFmmWFKwyIf1heaDsfLynmh30GR/FRBtOICXcVf/1od6K+DD9u0OMRhP60hld9GLcuAQGPJHWqC+Snpws1VM4jPlp/M54UV1tMaa8U3YA4b1YMBptmtoNpCA0o4UJX3B0xgl9f/L1repK/T9SIXzd8AP8nVNadbWc3ISUSKhMwiYshD2uUhuxhX/xESLihzej7RTxTNH77DHeWnRwS5TPO1tOlg6b5mw==]]></Encrypt>
+</xml>
+
+
+2016-05-10 12:10:48 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuBwgIJbpbOXD7Dp5SIinqm8]]></FromUserName>
+<CreateTime>1462853407</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 12:10:48 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 12:10:48 response :
+------------
+
+2016-05-10 12:12:19 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[OpwkyKLovEYFeT9nEqXuVNdBlgbX4EOTYkfWJzy+IttSPJD5i9sVkX90Vp9J+yzmTizxxD0i1kPAX6tnFaZv+osNXkUI2d2la4uAIHLtuivrJRmGjXRXOB9qFcO5qm8CpZ2YjpBB37bSvoyxdrENojbixehf4xkce0jeJmcmkptbitu2SrkegiFLTiYs4WRQa/KdceC5mH+otSNnwhBoxD4PPCXWL67dgH/VuBEVUCKU9qQuobcGsYJAaL36D4fpp7QngV33lumvfZ+aCe+t9R19hyjMe5dSPOnnKebHvTHR0U3pagSmt58JS8FXs6DTNLxqt7x+lno+D+0xv+0tFozumQBPkDgbrx5xuuuvdyL6W8LpUDq0AEOuIGIn2s9775Q3oAWigW/T9k6LDPT1g1bY9HO+aQEyEv0CX1sgSphzcaChpjrcUCOaLvKAI4dKVboSmBb/m+AglhSrlkMA/w==]]></Encrypt>
+</xml>
+
+
+2016-05-10 12:22:19 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[CbgJLEpL5D4X6Yw4q/3hqzJJ1P53oY/VbvKhgmNWK++nF3hT+E1YRBQBG96xkGESBblXGZdGPg8rWYFNQkKpLoJ0CT1ft5/5NmTLqxuj23SQzOYBfS0ipG+tywftpFyhmfdBnkYRUBTxowaT8FP+zZ4fXaRalP8eHHSwWikEDHP+ILdmHizjdi9Mdyj1O58P5kdpwzlj6AUW3Y7ZDCUxyKCab3Ss835XTWjoytJUX7rUVhnnl/4UtoL07LjMybbdm6BvNtn1v6iWev/Vq3GRgQsCUadClLJ0GdlQgp5aMlOgvEtarhsHcxN5yqTt6IJxc+P4Xm6PMUK/Yu9YWgHTTRy7zx+3x4SXIAKsTKMm1OpkV2HF5SJMnluSVjPC1wdjImqzZAHx2Ms+kzMRHoj8cfZgfaIloKOtfG44erfJuZOspj8ahvtkvgdDqlb/hnl4wnC3ikbw6JeB+8hdfonr7Q==]]></Encrypt>
+</xml>
+
+
+2016-05-10 12:32:19 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[wfQbQjO7cXacjdyWAJpjzq789ws66yaWxKanBi/7PDn2SLFnv90CyXdRl6mkz0Vmoif8CasnNWCcIYqZXquw1GOAbsupDSdoozCiLqWq3Od3OkGvNnnJprEVbxkwUcEbuA6MYxJ2KSu9NqUek2eKHZwNVRresKYxzteI2LA4pSKgGjYZrEHmltyoouauXtU8/j+rDGvMvbAWWD3whafhiJsHq7tPzA/NWOe46Oq4/6UOSYBi18gNXCDnpNCsJlvMlqdPF8p2TbqN5Cz2zNq3lQDyz/iCV21FVGcI71azB5o9mzLhMfESwhV7rW+3BPAzezCiyDiYRFQomJ+sRNDxmxxe51c6+lND2Qh9aw4Sy19gIqP+wP23T828SxtxAalIVB3qYP3EW0Vbmmi5qDhNPExCIDWnCXWoLw/YAqWyUO5Ne1xLwydmAKkV66RtYGpTaFxnG/BEKRHmaVcwD6O13A==]]></Encrypt>
+</xml>
+
+
+2016-05-10 12:42:18 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[czpXTumyeYdmTeO84MM/8LkqjrlvjJNlvHCN3kURdIlJzGkFGkKLCCg1nvcxS2wMZsBtRMj3c8JciVOxq6P3103qAA5Slb1xyepYv2+E5JuQajGn+tbJoOisfa8VIzWZ+IYVtTDmqJ17IlmfljJtS2dHLS/r3AH9qQ0dt+bHh7O+Mj6T94qCe0F19Jrq1shPerhJvH7UUgdW0LTbqMN2bG63D3JSm06GcZAwBFmyg/8XYxu93iMQpr6U0x80tMz4UuDJfBIH5BmQSpda+5cFt7PVlmW8mqlxIgdiGSdewB7tQYCqdXemmjnmMtbIftHUmUJOTRaSmdGedz8N2gefZ4Jp43S/zfm1LQnhz7naxjhZeQ0J2B0VoiNX5xYu74DnXulbK3q6JIOATGHYgnaXd7bqkCHfu9kJyhxVM6fQ7Wv22xXEcBzjPjlGf2/QSp8L+lDB6IipYk7zwfIkATIjfA==]]></Encrypt>
+</xml>
+
+
+2016-05-10 12:52:19 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[T0TBaiZWSixuZ+9e7sEZrHlINth5rpYVtnvZlBVMgA8JrZAlcLZmx/vXTM5a1bmh2kBKjdyYlesRxxfgyGWSkcMOBtDA26tV3RyM2ZN48M5HQD/1WNzmv5tk+xqwJXvzeA8Lb5Z7T+lqmLmeubXp4AHF1lNIzqoCG2ws64ltOFn4TZnDtKfab1kZW/8ZjzJoGjo9GZ/CBJl1bn0S/fUgLAxM6KMNHoO2n9llZHXmNfKDHrLQxB1c+Wn4D82+uIpWW+z0MNN0X/aL2yDE+xprW0/LqiGMwvaUFMg/n1QD0u2RnzbENWiSdB+4blywiQJbruVv1Kz4CKR6/MaYnBAlq7jqJU094orvKHHkgVTDUsUKhxmQ/edZ4KELmVctMcJ7SiWjKPwvquAjO8RyT1MheIPLth2WinlrxVlFw+LSra6Y9tqNBQiJTIlyZ/dx6lieVHQJp9bnSuYdqN2TCijkvw==]]></Encrypt>
+</xml>
+
+
+2016-05-10 13:02:19 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[0u+4O30WuYzQ2ZzvD5nFOaaHbxejZLz+3MIBvHLy5UgGQ9I+XsTBRx+ygxdmUVQu/3nZb4Bh2sl3u77EffgIvrBsREg7LxCV+zswSLP3b38Oqh50P6O4JGFHi5rYAfxB8mNNF0wfUrwJM4xgT/BV8ZDklW6qnFnXmhnIH9IFFPoTWdWuYHcCiZ0z5qMIZWn7WmbM/N8tiIqqc2zaATpUFCebDpxWK2MdiTH7YiUpm2yJthv99IS63HqzidaYNUUlQ9/9GB0jmDEEgXtmCOLZngIpgwxPy5+JlsWZK39VmVxe4t8WNiFC1z6o3KnHHyLOL0NeXNriPQMtf/MYPsKZj472OYto9htfHsqwZcmXENkpLPxW8VFNPquxGRP8IaDjI/nKSj9hi6txmBQ2xT6Qukbe++bl2faZ7A/dsrUq21Frr/cAfLzAL3ldEIrhACQUv0TxVjdJ4jaGQvR8W+rPTg==]]></Encrypt>
+</xml>
+
+
+2016-05-10 13:12:17 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[fJpknHWZgQvLYvPC8/z5lncz1jdDdKC1OgkaajEss4meRNa6yamKFBFW+KRf+wiCuJrjxtxMVD6POjSUahSYktWEYLfmVP/bdiz3+WW/bUFY7nhZJbblJfLhi2MU6mqVCiEhr1qDENGE+JNHJ8OyZko4q/fxEvJik3jo6UEjJdp4j5k3y6CKUPiSPlBD+BtKv5TuQUvcJERa+nXNwxCUyNakcZhGss8GAgjPiuI0W8K+KizA+PyLSoQe7gXKHaGKhiUNWqmgIM859EpfowxWsF6AEFwU+3NZRbJoVkJbbOYtB7NheQ8q98tjBEt/8cdusu0xZbNilplAdhQV3PeVuYfNiRViBLX0fyzqNrwo8CQMy47c23GfLmMtrCDzxNox1i/eJWNh80mc66JWUDiCzmOLsEyhD8Ml5BZ6IK9WoeUPeS3rxR12DDV53ppbtfgqbA6bXkbCkfUdJCGDRowhJQ==]]></Encrypt>
+</xml>
+
+
+2016-05-10 13:22:16 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[w7b69jEHh3L18TAVXwT+o84fZ6qwNRyTVuUjMNMdZjTI+/wL47oNqiWDNBtVonK8MNMcglCGERqeL+q57fRoudgsPunBKmDcuwuqJjvsKb3ZuRvrjzxBaatLrTh5EkqYH5dS0VD5SNXRIxOrudq3Rn2mvD+r4xOmH4bH26aOMGRi6hScjMK/Phr4h2SeldJO2/0XVxVLP9y0W5EXHOQZ7nU7CwbbBxhiZNnwtg80y2IEZWVR1tGCphWiG8/2YGxA4iULBvBKxkHYHlrTdr30VH/U9LYE5cj3QQZYOd65YyvzlESIc/S8x4apj+iGdqpU0+586D992J0Xg8Qy50EcHiq4Ms2PSX02ZoLJHAUrTB4g1hiM1UR2dJQ53qNHroyK4YAN7jOE7FhnKZd2gxWMbr5ewkBONumEs/SzthDKEKdLykSWrMNIjVTIlin1zG0Tjgr/kXKcrtq9IaIX6GZvDw==]]></Encrypt>
+</xml>
+
+
+2016-05-10 13:29:22 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuCCIkJS4A2xLKtiCZTR_QgI]]></FromUserName>
+<CreateTime>1462858124</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 13:29:22 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 13:29:22 response :
+------------
+
+2016-05-10 13:32:16 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[2xszHefDbSxrvtrW36T7xsb7uf8XCyBIECeLJPcGVN+PxGmnHeQgPaYTxSeZMyY8RJrBAauB9CkNJYuxo9SNkIVc/2aYBdvBUL6gP0zSti7vo85OwZpFKrhmSukoghE2vMSD86/pIzaOormKbyuUf1gJ6WjdrB+fBfjM4gok11B3oXFX8JjMZcz7DIxXywuttpqsFMhlBs7yLmglAd/esUoBGKMdmKzHJSm2AnwIjHMItRwVcjVSty6YpWHh5fpgfEzUfZAObQuwMJNUk4WWUxych658nWMkxstcPs0hkFtPWS5YU3Xz7fpUmaytibVrc1EuvwTnTmJlTCQToSPilxYES6HzYp5mP6tZUbK8gc5ghj59pmQSFoYqGWRtewtEX/32QtrkHxuR6uLqt6NoaSDpMCM4hK+fvrrIbguCYwRA7NpEmWpfqjh/QwTongHgY14qnEWNjOyUQ9Z6AAJeGQ==]]></Encrypt>
+</xml>
+
+
+2016-05-10 13:41:58 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuLLYIIMs2_Sxd3-8HC4K18A]]></FromUserName>
+<CreateTime>1462858882</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 13:41:58 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 13:41:58 response :
+------------
+
+2016-05-10 13:42:15 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[Ty02yJtXkMc8Gvr6znMimwa2djezLYp/AbgsCl/JFebKzA7r1iu7oLgoZdbD/qsHuzC1S9A1h8L2atApXzO2Wu3HHgCNa2r9FQHPAi0+TSPG/WoHMxAjjuVTW882QGy3uk7feR5urPKRntPkP0m96HLmq75DdKAvmq4I71c3Ao3pBZMxyvzB0n3q8STEYQAgsrSux1jwbfWw62deZH/nJ5NYP1RBp1aqXp/+qQAIay1kU7X7VrntfOuIq/nCyOGmiWg52J7yVz0JHIovreLKY6fu6O5pw4KRK7w+4mpWQuP+e/ofxuAkWk1WcTrAyqyo+MbXTxPXOgKbT8BqrokK0YwzSZoD8fAlkDBpTn1FmMl8R08F07MW7/T1MmFRRVaDlBiyIHbxY3G0JugTUBES5yGmPWFLrTNyiMAlRzBpDKq2qb/9bTFdnRbKQ1xIuOf0sT5qlMB0XUNT9cgM4IY2Iw==]]></Encrypt>
+</xml>
+
+
+2016-05-10 13:42:34 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuLLYIIMs2_Sxd3-8HC4K18A]]></FromUserName>
+<CreateTime>1462858918</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 13:42:34 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 13:42:34 response :
+------------
+
+2016-05-10 13:44:29 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuNTrPrjU8ofAQ-b2HgYmcmk]]></FromUserName>
+<CreateTime>1462859033</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-05-10 13:44:29 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 9 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-05-10 13:44:29 response :
+------------
+Array:
+FromUserName : gh_9dc12e06d172 ;
+ToUserName : oliVJuNTrPrjU8ofAQ-b2HgYmcmk ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-05-10 13:44:55 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuNTrPrjU8ofAQ-b2HgYmcmk]]></FromUserName>
+<CreateTime>1462859058</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[最新活动]]></EventKey>
+</xml>
+
+2016-05-10 13:44:55 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 13:44:55 response :
+------------
+
+2016-05-10 13:45:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuNTrPrjU8ofAQ-b2HgYmcmk]]></FromUserName>
+<CreateTime>1462859071</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[最新活动]]></EventKey>
+</xml>
+
+2016-05-10 13:45:08 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 13:45:08 response :
+------------
+
+2016-05-10 13:45:45 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuNTrPrjU8ofAQ-b2HgYmcmk]]></FromUserName>
+<CreateTime>1462859109</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 13:45:46 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 13:45:46 response :
+------------
+
+2016-05-10 13:47:22 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuNTrPrjU8ofAQ-b2HgYmcmk]]></FromUserName>
+<CreateTime>1462859206</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 13:47:22 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 13:47:22 response :
+------------
+
+2016-05-10 13:47:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuNTrPrjU8ofAQ-b2HgYmcmk]]></FromUserName>
+<CreateTime>1462859237</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 13:47:53 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 13:47:53 response :
+------------
+
+2016-05-10 13:47:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuNTrPrjU8ofAQ-b2HgYmcmk]]></FromUserName>
+<CreateTime>1462859237</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 13:47:59 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 13:47:59 response :
+------------
+
+2016-05-10 13:51:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuFcQwM4_jjMSSNO16Eu05wE]]></FromUserName>
+<CreateTime>1462859434</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 13:51:10 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 13:51:10 response :
+------------
+
+2016-05-10 13:51:25 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuEPfYpJ1BRZjGWi_bewxhWY]]></FromUserName>
+<CreateTime>1462859448</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 13:51:25 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 13:51:25 response :
+------------
+
+2016-05-10 13:52:14 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[w20TXZUe188KEm+7PjY7wpY4Z+gQ5WpdMAmfXa2QkIpPxi5UuC16xAzdYy9DrhRQGSmNuBoc4LuVDQDS3R5W5tCxcOe4CYPVyGPsbVqs+EQ9sgvaYJosxbUmjCIfncbS8YMT0KaxhcmsdTBJP8Ocqubw+ksq7dsj6l19Eb6qFmlQqE4xE1inWPVASrwwx6RG7s0vGbE3JNhcg0cwB7De3hzNeUVw2eZQ6y8gYiPyehXY5wfSQAeYh9CksedFo4oQNK+67KSWUOgPC6BdDrcWeuK/kWGowpf74+KKEHjv8Zjc+XaZwhcLMW26xPc3My+XwPl1yyPSx80+JLPiIj2uyYfztEXHXvkF5G88JLhdVhkP6Trqj+WYJcp1Nfppl4lmhSkZZh5sCgmf7GJdm8HE+PGc8RkFPg8gu06IR4Bhr82xXlUK5ZR+xAkcEzmj+Tfq8OfKeo3MAVMPUnTUgeupNg==]]></Encrypt>
+</xml>
+
+
+2016-05-10 13:52:55 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuEPfYpJ1BRZjGWi_bewxhWY]]></FromUserName>
+<CreateTime>1462859539</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 13:52:55 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 13:52:55 response :
+------------
+
+2016-05-10 13:53:48 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuDxwtG38gDgVcu3Ga8ezSCg]]></FromUserName>
+<CreateTime>1462859592</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&do=member&m=ewei_shop]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 13:53:48 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 13:53:48 response :
+------------
+
+2016-05-10 13:54:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuDxwtG38gDgVcu3Ga8ezSCg]]></FromUserName>
+<CreateTime>1462859627</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&do=member&m=ewei_shop]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 13:54:24 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 13:54:24 response :
+------------
+
+2016-05-10 13:54:32 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuDxwtG38gDgVcu3Ga8ezSCg]]></FromUserName>
+<CreateTime>1462859636</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&do=member&m=ewei_shop]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 13:54:32 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 13:54:32 response :
+------------
+
+2016-05-10 13:54:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuDxwtG38gDgVcu3Ga8ezSCg]]></FromUserName>
+<CreateTime>1462859657</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&do=member&m=ewei_shop]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 13:54:53 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 13:54:53 response :
+------------
+
+2016-05-10 13:55:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuFyKDS1OyMHQHWhIDgwvB5o]]></FromUserName>
+<CreateTime>1462859690</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-05-10 13:55:26 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 9 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-05-10 13:55:26 response :
+------------
+Array:
+FromUserName : gh_9dc12e06d172 ;
+ToUserName : oliVJuFyKDS1OyMHQHWhIDgwvB5o ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-05-10 14:02:05 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[pluR6CozoTj1pefQVhjsuN8/3nxqkLnK/hnbOxs+BxNL+Gs4ttx3KdGq1qGzCzQPr61dWL91/8SjHfNiS167usIgYqydIaoLoRzfDK2kMOad2pvXeHqTwEotXONEtmBjN26V+yBFgLpgE2PNoTuADAi8qUP/MoYTO5o0OyUIvFAOb5T4zcr7Evf7vq1kI6XcF+NONod/oA9DFXGoWqJCrXQBrbVupaqcaO4s+zrF39grWol/5lNRGbIAUTON4FV9wbuYP336zPS+G8ye1F+3r1G+liV6DC7pamYqeaonxsBZZ+wyDor/mD1M+qn4E10JEKhdNZOtQ0Mu3Y+v85UUpxdIkPUwPigFG0AsyzT1h4qCf8fFtUD+dW0PSrsZSwUC39ki2gn5ItfYl5gnlZNE0SUHeyGr1GkJdfz9tZpXylsHoXAYng7Q8RAgEBrd4ivMDkXfqCpNY7rXt64tmIp39A==]]></Encrypt>
+</xml>
+
+
+2016-05-10 14:12:12 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[dMh/PYLnPEp9Ggt2b+hX40ymngWQus5xNMfCmwWW+2mPWhTInaZLgr89loUh9OcsjAZ3ObN+0uus5fWAcEUCMY1UuVnXG5faMRCfgtcyhKGvzBK6BOlaNmYuhiPP8S63fCvrJGGaFAZ+UTcunHMS5ZFdJ98wWmD1TvM7TioS/nRlhEpW0tQLGhbaBTe1FGLzFB6Q8hmRC3rcnACcyExKYCbPPdHZLl9Q8PMHhHHFagnq9eu0ziQu2k444W59r+QstzIKf+9qD34iNyGMKJ4B22y0EqWNNeI3rMLNs4kFZ9MuLKb1hA9766PS6MLpFKDaHcAsI6k5Ly4h3GosCN3mcmN1mI3wYGIm4bczgS9o1ANSdWa/5NZmvSFLxMhJc8SwHAID53B9STdoSHEYJnbLZT53RxUJyiW67Wt23veB3ByLZtJXbSb3fQf5e3DHu1X/f2UecvU2zsrFgSnZUqqfpQ==]]></Encrypt>
+</xml>
+
+
+2016-05-10 14:22:11 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[e8E0p3Nho/4jVOy7W/Tq63efI7e+OJY2hFv91fe9I859cOKpOSq+osS49dLilJYcRK2meBh+eO/1NSUoFEfQYW+PAjEqkLi+YbFSbd8C/Wn9t6B4gH7j+Dlh65X1QwEHg4HwbwfpzkfQYLqBSJR47amhBl+aUX8V3jgqAut0nF8WoI9vR5YZ8tUJBHBoPEhnrkxD2gBEwbaea9PD84hx2wEHUFMqsP2/0SekHHhlQ/oKZFJkMy9/D+PtdgmAapsfUSX7zQ4GR+PtUntRwOKfk+4yrMnZcHeo9n1G/OaOhib+X7/RQRCWoVVnIs6+2JN7YoGAin3FTH+o9dxLwikcV4Y1dOZaQUYQGHsQ0esMFmwNlziqdi1AtJWEL+aOq/aRmlNoj2w9kzETWaHPOHp9NlMUaLyxC/iLsetkWaUXCCoL2MM7qHoCb6y5LxtuvpRxGRxMyfZfGFkCFclySEMGog==]]></Encrypt>
+</xml>
+
+
+2016-05-10 14:25:54 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuGq5u32V-qyd5a1BSO-1xGc]]></FromUserName>
+<CreateTime>1462861520</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-05-10 14:32:13 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[xi9hlhoITpN9Nvjf2HrgD4CCuFP0Y4JeW7QlyV1LRs+nYsqQkr1CR2mB52+O1DD/cAGP1J1LNMRQso4+eyGxGeJPOk1+FH4OiF30Ldu0sssKdegBkvwSwZl+hetiOKlp/AmSp2FNO3ASTkC7DEE0iP4Jt6g6rKOjuTa731G8V3S7CC3VL6pz4TUvy3C30GH/sUCEOlNjYAEaWK1As8dSJZ/2kezR9HVIMoorCvRjkyFgDucHaQ22gZPdIfU4aKVVVKDk6/BugLipgoAj41JxCAC8f1v9MVNKwbuDrhHLzqKlWAL6h049l3u645jNRBpDX6UkIYquBEHrT5kEvRXJ0ra5RbotjT68IqFGMKERQVWLsoVOx2azWStkGTqv0VC+W5WpvTd4Y4f/w/4p8NiSN7ntJg9VsosqtwdfltH40ahC5QffuI6fdjOrvA0+bB1ZnCt++cc0FzWrDF/ij2RqGQ==]]></Encrypt>
+</xml>
+
+
+2016-05-10 14:37:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuJ-rl2NaBEzCkwHj6Ab3yK4]]></FromUserName>
+<CreateTime>1462862223</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 14:37:36 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 14:37:36 response :
+------------
+
+2016-05-10 14:38:20 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuGq5u32V-qyd5a1BSO-1xGc]]></FromUserName>
+<CreateTime>1462862266</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-05-10 14:38:20 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 9 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-05-10 14:38:20 response :
+------------
+Array:
+FromUserName : gh_9dc12e06d172 ;
+ToUserName : oliVJuGq5u32V-qyd5a1BSO-1xGc ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-05-10 14:42:12 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[ZN02qQHMYM+HkOdBkQx6G4z7QB/PwbRD4BDjxQOkmM5jrPi4Yy1SVOSd7sdGgdKoGuSviQen7iFt1RWZM9Y7UXOS50BUXgztNWVc5YxfEJqqG/lwl0eF1vB5gGBTnD/JwA+dapSJa6KwVsuIY0JEiJFecFCA6b11Sm9LMReIzjnBJy+xEVogaQDSJHy9Zt0Ap3hmikKPrpwq6B1Lr2P3tk291ctEYAy5DNPeXWcs8Gag8rvmaGkEuHgYhswBiNavENuK1QlwipCq8kDx8IC2/ZZxcyBcNscceJOeLekmIpbNfW9OwygK+awYHB0199OfWFulgmM9C5j9nPlteXJsHpIUyMwz+l1KyrWtjDY4TJuyXtsVzZ1efAWKkcqy3v81t7xzfiqQKSP5Nqoxszh+xarC+2KLDBf06ohwJ1D7J0uHFIKr9+u0FGO0Br5ofWlpN/BAkI4OIwuKXdX+lULcZw==]]></Encrypt>
+</xml>
+
+
+2016-05-10 14:44:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuGq5u32V-qyd5a1BSO-1xGc]]></FromUserName>
+<CreateTime>1462862620</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 14:44:13 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 14:44:13 response :
+------------
+
+2016-05-10 14:52:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuGq5u32V-qyd5a1BSO-1xGc]]></FromUserName>
+<CreateTime>1462863097</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 14:52:09 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 14:52:09 response :
+------------
+
+2016-05-10 14:52:11 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[ffGzHoM1KEV6GTeB9MKZ5qYhVts7ZFmLcP62J4hmSobK99TvL0p5KiASh3iQU66DrUsW7zCzdwWnjx9Su8s5xbw6prm5oSPI4FQuDMhAS7PXf7mYsDy7mr3Fx+IeTI8tI7K+IgASnbTZugBkXEirJQWFMq8WoteUKq7lwJYgdmiKEDPhwHBPFpjo9mzhgnzE2UnfAUU99PrM/20EddgJwr0qjQ4gJ1QD5IBEI3ZQqWXE2zuCabAdB+lPTRyi3eJugf6w99+N0K0JdzgODoATYpvrT+N8Rtfbr7Kv16bcPeI+veWSvmwGe65b+BrRrC1zpWZUAelI8MySkDH1FoNitk5lG77W0vS5cMSKiCUMBiy1nuO5MfeLudC0vZ4L6zK2Pbq2WoMpzFC1AWUdZHFR5mhv95wuQVbqhGmjTx1uc4C4TNBQ1lEiPczy9yx7wzgXsps6iNmcYa4o4wzOw8VAZA==]]></Encrypt>
+</xml>
+
+
+2016-05-10 15:02:14 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[MVybIHUF0H9YCFPw1MfNEdXTe6qlVCwtxMYy+YaZfV3+rd4enqQhsua8/IIjrZT9nBw5qxHswxKz3qtKdvvtK+qjY2Csnj+fdXc2/OOapMQxtova73H7j1xduYeXHFyiUQwpZWkFZsHn/TsiB53z96QV3g5izmaaKJGen7/h78lNMYhBqzEWen6EKT0I/Lxv3MQq/U9JdVR5WfgXcQuYV/YyzkoUbpJGUXlmhFQimYDQPS6lcKC+HtPaDfQKryLE+pm2iPBx6p40piETofXbdzt1BXk9Ce8ALZhyy1mcGS3wuLaI9L71G8rLbJMVtGzn0GqciaKm/tyxu94SzvSojZ2Jw+nAbL2OIK7aFc1N7VLzm3f3aKWfbh/libsiJ8y3V2Sfr1XuKsyYyaZeS1imkQ4d9VTlBliYg/6vc3TNWRYqRP7C7jA9GoJGdm2H+qWBey0eHvE5k1V7GlWpJaIOdg==]]></Encrypt>
+</xml>
+
+
+2016-05-10 15:12:11 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[FQTwF9O+AMq///mg679KZspRFr5w4cXDPFxxQin1SD5hDZYkJYB+K/0mKJLzCAwAaFEptlULGL1XcXuo90I9nekhCfxgyMdutSHoaG/YINv8afacld9H8WGzoX8sZawjDVu4nkrxGUYEQ37vErI8Iy4gcWUGMCtxGGi+pnui3aSBqTxovsy5CJfq8WHSAqNBPzk5Dnh7Xd+RC6/lCW8nKiSKaLU0W7kBPrhoPC5XUwjVvymOTo9XAHt02Aw8M6mlwLXJw5palDCXg1H0B/Q1COivzM2+6bUGBbU6H81GbwZKbjNeo/9h/iaCFtGnQsbKH1sH485DooY732fSYf1zhl4cdFYo0GUfD/n+ZLHrykL8ZshR7xYu2E8pebLRTIdOrTPKQ98kLPQE8S06rclv7CPigL3MOvSL/owiL4xTxwb9bUJXBczNpIu8ulMNqMYaRJcNYWWfHpWrCS0gO/17GQ==]]></Encrypt>
+</xml>
+
+
+2016-05-10 15:22:10 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[2RbLYbnl9Im08gin+7ri4AuNvTfnavs78n5Sh4+1cVgEfpTsL+jN/msRZ/HhuF/jJqtLKZAK7Fkqx5mQz10jgJr1gnRGzZeA8pEUbfakDenbZnFHkBQAWjyxdtgBJaO/NobWdveD/INyDxjykS4OYS6IC2tHJ05ZP1SAFb5JbQACbGcif5ywqamqagsL9akXDf/JtsVfm1frA5DaEKtA7YVdmfhNLqhrxTKulPV5H23aXXgYOKjnlWjEVTvDD+TWCOBPjNKISGkU4nRZqmivr8ZFGrWOM1Mhlt1jjP37lXdVC2vmEjBHg0vjK1LvQiM1Hhbhn8CWYy0EGX78qKxclt3BIJ2PijogbZu9cU01aEWg66TjQX3xN70HhNJU5K9XF4VlGHghY15jv2hGTJbsjaaQZAn7OQfSbe1lpzgwZOXDOBwNVvVxQMVNpQU4/sOIKEz2332OSODQ70+N9jncmg==]]></Encrypt>
+</xml>
+
+
+2016-05-10 15:27:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuJ61feoxrtEo_zhfwNpwsfE]]></FromUserName>
+<CreateTime>1462865225</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 15:27:36 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 15:27:36 response :
+------------
+
+2016-05-10 15:28:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuJ61feoxrtEo_zhfwNpwsfE]]></FromUserName>
+<CreateTime>1462865307</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 15:28:57 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 15:28:57 response :
+------------
+
+2016-05-10 15:32:09 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[2iTJofga0GFghlj3/LSQgm2mpn/kX1hndOQVs2Rh+pYu/9a5B0FniS1MHamLwW/kXK3C3VpLBe0afod2zP9ZG7FemYEzj06KbtR0ky7sFIqGk58YvXRUbpFrS3CpKowV6AEYF6+sPOaUJi5PnyhBAIkCFZgRPLht4cRs+urBWp0jlQCwPo5QFPSxyDE74jQPm6u874p3p96wsexSGoNSbJx2MNuKMTWsDQLy3DZEVrP/4TPhtVuJ5Cf1Bf5zyQjclpEDR1mfnfAIhsJrVP/cPeU2avjD1I2yFY4jL80ZYN6vJuTvfzqbmWJ5X+IeoTmEt5tc7RMBZESWwcDJOpeiYjAazlDi49rbMzS6Xce+eblVyPVSFMZE4CPKHiTXj8kmlHoq4kTzBwvcl0abbvb7LgnsPVMTnK4+wqRuKs9+YqhyA02babMVolffwb3weS3IAp4LPhz+TPtPnzFHgslqQw==]]></Encrypt>
+</xml>
+
+
+2016-05-10 15:33:40 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuJ61feoxrtEo_zhfwNpwsfE]]></FromUserName>
+<CreateTime>1462865589</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 15:33:40 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 15:33:40 response :
+------------
+
+2016-05-10 15:36:06 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuBqjjixJQ4O_qDGkzT1b0To]]></FromUserName>
+<CreateTime>1462865736</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-05-10 15:36:06 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 9 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-05-10 15:36:06 response :
+------------
+Array:
+FromUserName : gh_9dc12e06d172 ;
+ToUserName : oliVJuBqjjixJQ4O_qDGkzT1b0To ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-05-10 15:40:45 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuDYTtPQ60lmbxqp9ZXv-Vl8]]></FromUserName>
+<CreateTime>1462866015</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[qrscene_a583def313129867f143f1c765ce0a73]]></EventKey>
+<Ticket><![CDATA[gQFu7zoAAAAAAAAAASxodHRwOi8vd2VpeGluLnFxLmNvbS9xL09VTmZDZ0xtbXM3ajFkWHBVV3RTAAIEHW8wVwMEAAAAAA==]]></Ticket>
+</xml>
+
+2016-05-10 15:40:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuJ61feoxrtEo_zhfwNpwsfE]]></FromUserName>
+<CreateTime>1462866023</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 15:40:52 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 15:40:52 response :
+------------
+
+2016-05-10 15:41:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuDYTtPQ60lmbxqp9ZXv-Vl8]]></FromUserName>
+<CreateTime>1462866040</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 15:41:10 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 15:41:10 response :
+------------
+
+2016-05-10 15:41:30 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuDeLD0uSnYmuzGeLFEbkC10]]></FromUserName>
+<CreateTime>1462866060</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 15:41:30 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 15:41:30 response :
+------------
+
+2016-05-10 15:42:07 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[ZjMoAHzhsHlaAaC8GPEfm3wxJj6O1KFk8PM1/dGE2IntzW43wwIzpTYbdkQRwFZ7kYvdzkosRAMW0WLLPSzGu5TIGpk6lQRi+jbuyVZCkAtV2Xag/e8jssJ0Ig7b0ZeaZ7B0z4+IwMw7a3eI6TqkyCe0BzxlGAZD/E0Ga05C8cwAdJfFd+Qyh+EimC/zctZai1a848d+PFbn95qL3n/MVBvJ/T6jsB5nADZ+vgikGMC/05AXPwhpW1RCOkBZmlgvJsNR1jRntq3GeAJOfVH7mgViGF5LtWSUt8CAtiaZa3YF6p88kerwb/t/ZqKmHEW6RGkLJ9th5fKjDFUl5PO9197qbGslT+DmrdxdaSy9TvDmyIVE29a4R3vL4m0wuAnjXQwnb7ISX4uNzURP5xvgQCyVsg9s4Pl9M9jJjfHUg/rSAAUUUJ5mFtu8UJqUsQQ4HMsaOf1JmYoAoVuGdern4A==]]></Encrypt>
+</xml>
+
+
+2016-05-10 15:46:22 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuGq5u32V-qyd5a1BSO-1xGc]]></FromUserName>
+<CreateTime>1462866353</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 15:46:22 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 15:46:22 response :
+------------
+
+2016-05-10 15:51:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuL6Rg40955yZiPByEjLxksw]]></FromUserName>
+<CreateTime>1462866680</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 15:51:49 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 15:51:49 response :
+------------
+
+2016-05-10 15:52:05 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[Q/NBxAhwY6LpuVIl3k5GGEHEipD6yXqoHJwKl5K4hD2vBkfr+7rybZuJU24MTaNahr2n4Esqx+HNNc+vSpr96Nm67kxKB/wNVH0I9F2+DEqXaCDFBKP4QSXsKvP6Q3EktOkW9AP1/RuBTGMkrwLXZ//65XN3kFXrCbojZloq2Fstk6RuCqLDFvmajRTYOrtJa/buCcrvhAIqQXSvyc05wQGZk7VJGy1zKPQNpF/6vcTCJPG6S5WX9+KtK/DooZZB8x23CjdQ9QWAP0Kqc9F+NMSsWWcsPCzwdSYyI5Tn+zjiQzC8kVvwox4nNKNqDTM5Wg2Y7ln/pRNtn0fOm4uGlFb0KVFnyNNePvl19LzcqAHo5x+Rf4eNggOiSXmrJxaPuL7woX2Tg78KZy5NUmH9qo8GqTwHet8iD6q7+13Go8R4JvNtSdqW2KXwVgaNypRXa+M5YW2OYzxS8ikTGwNnAw==]]></Encrypt>
+</xml>
+
+
+2016-05-10 16:02:09 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[KZpyqQGxfGzlXuMZDEtZBOZHjnX3SK//37DDOIH/FsSNEnBqsMCycMeG4J+hL8kzWmfmZYEvxydXeUiitnF+E/vojtojp/PGh5vgB00+/2TtKEKPKHWs7nmP7sur5DCi+RU42ZZ7OPe5jQ1Z6rk9BFqw2pXxDompq2jpwUCr5lp1VSKPT1Wp6+SndGQn8Y41OSeaacgBlTxsXVXI3lbRGbZwnCnWqxlQrsJN2tiOB1IoIuDdLFUbBRv/ELgD6cG4Fyx34Er+pLAhdGp1wePZTzMtbiL6hXgr9HRFt9JW3DwzYQiQWel5czZatEEniwrWxIpHVft/EXbAiI89VcS3go8JU7ou3+2U/HBlOaBs8z3nY1TPXAOnqy/JrxAYlfAEYLsuYjKKagznCnP02SbOVMpV+GVImGoSv4jYBkkN9xFLsJRthAbFK7tLE41mszy3w9o8p/H2j38UAuHg0iNw/A==]]></Encrypt>
+</xml>
+
+
+2016-05-10 16:02:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuDxwtG38gDgVcu3Ga8ezSCg]]></FromUserName>
+<CreateTime>1462867346</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&do=member&m=ewei_shop]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 16:02:53 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 16:02:53 response :
+------------
+
+2016-05-10 16:03:42 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuDxwtG38gDgVcu3Ga8ezSCg]]></FromUserName>
+<CreateTime>1462867394</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 16:03:42 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 16:03:42 response :
+------------
+
+2016-05-10 16:04:30 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuDxwtG38gDgVcu3Ga8ezSCg]]></FromUserName>
+<CreateTime>1462867442</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 16:04:30 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 16:04:30 response :
+------------
+
+2016-05-10 16:12:05 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[Oy2O7Hl666cseGKf1UAow/4QjK1wcsUP1FkuPHRJQa7yKJvxnegYsGOQqEaIXn4o6VNBHClqL4y7/glWgaJX9vbQ7eywwcuKAavBzEu54QlOcVp/SnH1oilqZT419N+ja8hosvQwJ9Ky68U78gZsKtA5mHnJYNVD6iEVHvImMzmMQldb/cDRIyX/sEEkhfU+pD+PGPXNUtbLHe+xD5vQK60iGxc81GnRK5D2YOv3RetLBlJPCczTRvaLueTzwK34C0aZbTgwTamBeLY9nC+2nE1qUAoFIAJqueieDUf1hHNcowUEUKNxmko6AqFUQq84aiYsQA0efZAMzj9+d/eIQKV8R2kizqthG3TQFelT0CiXX//fSorUOHcgJIn472CT5XPNZ4h7SjlGItwKz4V3uWYal6wQZQMz+hYrjH7SKNtz9ZKDUpP8vpI2MuHFC+Mhouy69g3TTFX+uGP0Ny/qGA==]]></Encrypt>
+</xml>
+
+
+2016-05-10 16:14:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuJ-rl2NaBEzCkwHj6Ab3yK4]]></FromUserName>
+<CreateTime>1462868072</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 16:14:59 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 16:14:59 response :
+------------
+
+2016-05-10 16:19:34 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuDxwtG38gDgVcu3Ga8ezSCg]]></FromUserName>
+<CreateTime>1462868348</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&do=member&m=ewei_shop]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 16:19:34 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 16:19:34 response :
+------------
+
+2016-05-10 16:21:53 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[MKwDBBg7YPlUk/z5zYlkP+H+1+JzRQyofLtSK40C2rkQBaSZR6JeJe0d61lnZL83uNLx18hpLOupGcRBG7sR5fbE7R0/C08jjpkHDk6T/5vFNFMdwaw5fX6fuYK5sZMo2Z2RUjC7drQvuD5hwSzPSDxim0B6E1RfL7VfF2AbTnRAF/H2hl2l9z3zDmcBqLv4X6OEJuXPPf1LmqhOa4HEpfYwnGKuOpuyiB94+a+FdBIqFRyKUzKIES8rn0l+SzwITks71PmdOCjfW7TUlYLEhTDd1x6UVcTFxzxNb0d+RTDjkf+z8MT7o6C7dNRQ7jsxxFxTcv0rk0/T4qxunTGoM008FT2gYzssx0anLNkwM9CIhsztVQFiBL//T8EAcWmBCBPj5eNDeVyBxkTasVbdUZjjpC221kKJDy2kbfh+oiCtVPxVxwfxDx8wmejk3MDhG9dYSK7b2EP+fsOLXDNQpw==]]></Encrypt>
+</xml>
+
+
+2016-05-10 16:32:04 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[EnwXDPTgkiESs9qUir9wNzWQuGkrNgZy0dYqLzskprPnKcJEiZuDAtH8kkTT29h79ELyS8jD/1nTdJW8Lhxe3olES6G2fQb+9NEPhBTTql8LUWHfnofmR1myCKRR8J22z6Yh9on6wX78iUB9hjXEe0RmMXcJ1OFZz0XcrurUNTrfz08OmribqqVz/Ex/T4rNdu/IdSD0n2fTuxQlmvP5lo13gdW/ORI3zzmy1Ucbc9R6Pxr9FqPja0FEEYY+xoUc0XHnScsdTAOCVRd1unP0Nj+ziokVBaJin8zI5ASLG0OFzZF+3p0FT/mkJvVyjUC+rmyf0RlW078dnG0t0JFoebAdc4LYRmYOWXrdV6mcRfWZCcX9il6YMYeKSvz82UZbX8LH16EgXLw+caNeKq2BFF33VU7x/G0QLA29pmVZx96Laj7d0ZBPByg/qrdLjd9JhAAODB6FDi7T4RAcFP3eeA==]]></Encrypt>
+</xml>
+
+
+2016-05-10 16:34:55 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuDxwtG38gDgVcu3Ga8ezSCg]]></FromUserName>
+<CreateTime>1462869269</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&do=member&m=ewei_shop]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 16:34:55 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 16:34:55 response :
+------------
+
+2016-05-10 16:42:04 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[aNRKBsJq2nETOv3FIw+3EkK3Zvar+fUzeWBVhYDUJ+uXP01BQnbOvamAUk2zS9UgaWyKtCRyNRh7lTa+GuFonJZVgXnMfVLGUD2k0T7TKzPLPUEelHJ1EDoSDtWXO1nf4FpkuYM17MzxrJIqbsxQ8SH4SBR4QO91FCLqY9Q2yphUxE6vWFkyxXnACrA2+EJHiWaHEQPPs2ZWFQjt6D+aOD3E3GYDHgysl3iSjNBq9rXeP9RlgQ27hH1u9TygA/UEI/69Q1wiubpdChAsyB/9hzYKwqkyFVMnR1widpNPk+NhOTAmrH1/VTF3IlPNsZPfY3Hrb98QnFRK0TUYACvByul/OmQBQVA6sWLbw8stkyg9OAdDpYIBGcPTxzDb0kZy/h9vC4kS49M2apebG3024LLRb4SWVCPaRPM9Qz8m89DezU38QAaDHXXzQgDrYjszKpF5/XEeb6GmtUu5uE+Gaw==]]></Encrypt>
+</xml>
+
+
+2016-05-10 16:47:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuDYTtPQ60lmbxqp9ZXv-Vl8]]></FromUserName>
+<CreateTime>1462870014</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 16:47:18 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 16:47:18 response :
+------------
+
+2016-05-10 16:52:03 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[K/28gqL9MQtbkioev59wEJZIVhAZmnEAAtISlj6AMX+f4rvfq4lISep4kIML7gbVFJCFO25dZBBM/wkc/9JL3fAKg9P6LXJIXqw1aDAo7F80f1ynKzy4H2om/W1Lcw+WmQ9FF87Dr5Q6dsX7I/mB+wDLBhH9SkQW0SbzaGA5SUDcpaZhPRxgw6ZpQqiFNvlyBxbm6DK3yhZwUZjEW8GXlZ+u/n6KmcxdDtBItz6qjJ+JjnydCxM5MOgVgSJNj42ULs0n1quR3ooX9WrBS0jf2vCi53W2fUWAmp4v73Eanh1LPjVCKKTllfZ2Ay34gt9NJvfU4jdcZq7ZgKLg/uRuhIafWh5APlAedwUh/+VOQfKkXMulR6X43iPrs64bfyo6QDiHP6ztdZp6feOce9/+FXzLK6xNjwDMnbmKJWtrdGaVhC6flL+Xn/xCl7vXFhUZZJD3cZbbWVi7s+QQ/nlNXA==]]></Encrypt>
+</xml>
+
+
+2016-05-10 17:02:03 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[dkXXQGGX4L3bHGaAz6CCHEuXXFl01RM75XSKIKFbLmCn9EcjPekiM5KCSDqVJgpOC4CCHr9bqo/XdJclnYSDAYPZLXidsfQW4JxuJL/C6+an36Zt45ZWSsEsLlKO/MLRXIhMRHW9CHUglkdMKM/asIxSExKizbsNcQ5+JQyfgRlg9W9m5XBS0EgEYlvZdc25nTcHu85H8FRpdt3Llm8HC1cUVogtaky8xez7r3cs3CZVEvd0TNGodNMN/HcO3BQx96O+Kf7Pkn+fYZ14nQU580c+svsA+Djderx0tSAxtB2S4UpyjCnsObHKicyp6Vh63InObdr/cEoLV1qNWy9tTAdMXXdDRXCf9INOdr9yeYv2xQQmMINqtWo+Zgvawqs/772LqSDynCd/uTd4kIcAfmZfyVyEl3FvtGjyFzFN6QSAmGiiwweW5n1y3w2lFYv9UZf4BJkgdFcoQkDTsAUYmw==]]></Encrypt>
+</xml>
+
+
+2016-05-10 17:04:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuL6Rg40955yZiPByEjLxksw]]></FromUserName>
+<CreateTime>1462871044</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 17:04:27 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 17:04:27 response :
+------------
+
+2016-05-10 17:04:29 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuL6Rg40955yZiPByEjLxksw]]></FromUserName>
+<CreateTime>1462871046</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 17:04:29 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 17:04:29 response :
+------------
+
+2016-05-10 17:09:31 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuCuL49h6USse9TspuG5J4xI]]></FromUserName>
+<CreateTime>1462871348</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&do=member&m=ewei_shop]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 17:09:31 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 17:09:31 response :
+------------
+
+2016-05-10 17:09:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuCuL49h6USse9TspuG5J4xI]]></FromUserName>
+<CreateTime>1462871348</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&do=member&m=ewei_shop]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 17:09:36 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 17:09:36 response :
+------------
+
+2016-05-10 17:10:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuCuL49h6USse9TspuG5J4xI]]></FromUserName>
+<CreateTime>1462871429</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[最新活动]]></EventKey>
+</xml>
+
+2016-05-10 17:10:52 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 17:10:52 response :
+------------
+
+2016-05-10 17:11:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuCuL49h6USse9TspuG5J4xI]]></FromUserName>
+<CreateTime>1462871438</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&do=member&m=ewei_shop]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 17:11:01 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 17:11:01 response :
+------------
+
+2016-05-10 17:12:02 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[YfzXfUZX6ah3v0fyLCGpNOxgNfNbv6Rmo5J1ltRL9u691Yo2u5M1zz+CnvGMMwBIjZvhOjb2/uTud5KvVH52Lh8Riq4gVCAy2EOXMOsiXV1dHnpLZNKFN0lI5wvoU5uCytObVFoHKDkTFSe1DDE80xvFsXOSeFDDcFQxs562Zy84G/QhgKnW7sqTNFRBHkPjYJV80lf0/p2PlkdeYRq8zjT0gCN7RJONmmaKWsBZMlAXt3UM8oJuYajpfaHPEw0EEGU70WpR2rzeL4rE/O7OTLUKTOhEXeKBfiPUQGOcIs+Cw3xniusK0actTtrqj4X4Oe9DOQqyvUFIzH1GbcW+1YGp0uAnJZsAE2Ydotgdf6kS5e+5WlYt2dbDbfmWp0M8pEn26NaDm7hVLIl7dInSc1ZFezTzUmuGojiN0EozRPEp98I2RdxxOhIZ8d/IkzykxUlm4zdwxw8BWVriuey0gw==]]></Encrypt>
+</xml>
+
+
+2016-05-10 17:12:07 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[YfzXfUZX6ah3v0fyLCGpNOxgNfNbv6Rmo5J1ltRL9u691Yo2u5M1zz+CnvGMMwBIjZvhOjb2/uTud5KvVH52Lh8Riq4gVCAy2EOXMOsiXV1dHnpLZNKFN0lI5wvoU5uCytObVFoHKDkTFSe1DDE80xvFsXOSeFDDcFQxs562Zy84G/QhgKnW7sqTNFRBHkPjYJV80lf0/p2PlkdeYRq8zjT0gCN7RJONmmaKWsBZMlAXt3UM8oJuYajpfaHPEw0EEGU70WpR2rzeL4rE/O7OTLUKTOhEXeKBfiPUQGOcIs+Cw3xniusK0actTtrqj4X4Oe9DOQqyvUFIzH1GbcW+1YGp0uAnJZsAE2Ydotgdf6kS5e+5WlYt2dbDbfmWp0M8pEn26NaDm7hVLIl7dInSc1ZFezTzUmuGojiN0EozRPEp98I2RdxxOhIZ8d/IkzykxUlm4zdwxw8BWVriuey0gw==]]></Encrypt>
+</xml>
+
+
+2016-05-10 17:22:01 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[u4hpxL4BVInaZrK2CZeETWvPCTPPEW1GKVfgBrih72khyzfT+8mAN4lcsa/hj9al9s7bl+yP4Kn9PRfHNSRSG/mMgf3k3QLTeVmK7cs+4nI6Lf0CwN41vorRWL5zxZInOtCsaqRFiQSh/+uykTJYoqoZa6GqtupF1dB9+MPn1b0/6CbRLYKAnpeDv0x6lDBN0YEELf7Vx9wgaZsp+ToSdKq0zG+F3D+drXclXOxnsJ6fqsb84PJTHHjJbb2i/BjLvzsUZy76YHWxdkACBaLssb0fmPt8lOHO54kaPuZa0KQJJWXwQ5UC6tZXQKhaQLuMBcXon8znYMMl7JiJOuzAI0sU0EGlDL2sVxzVEy07Gkk2Zi29x8Cxkvtz5K5lNb5jVXogFMtfRK6FXzzVAP/lag3BFcMK9Nsk3QWwYLsD2ujPnXWlXcxX7JsjDNOk6g5UMpWzaajLF7CFQsWvzd1gTg==]]></Encrypt>
+</xml>
+
+
+2016-05-10 17:24:17 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuG5yc5BYHGNas3RfHvdqZes]]></FromUserName>
+<CreateTime>1462872235</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2016-05-10 17:24:17 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 9 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-05-10 17:24:17 response :
+------------
+Array:
+FromUserName : gh_9dc12e06d172 ;
+ToUserName : oliVJuG5yc5BYHGNas3RfHvdqZes ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-05-10 17:24:33 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuG5yc5BYHGNas3RfHvdqZes]]></FromUserName>
+<CreateTime>1462872252</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 17:24:33 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 17:24:33 response :
+------------
+
+2016-05-10 17:32:00 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[SP6tVz5nmtaRHWAfPOkYgrcF9zECczsJqHlDy0/OVaF4ABfxgBaQI7zHwlkjE7Qf9HkxCZOJu1xMp893roddN3u31DXcI5TmiXkIn0KaC0Yu3gozH0NsZn/INOM7nNw0oV0trFulUf3djboBib+LNvWuSFmkmdMChYiHNApwpWA9cRp20+qkU43zZY2g8LnRgZsZmYUUgOSCRXTVaIPKedTtoNQVXzn8qtlAz7I+lMPSmRZo/gGYAkCO6gZnszxU2Y41AHSl1+7oQx+T772OHXMUFbktqvgOUCg95WqxGa4C/zPiV6xEFptmyMB0NA1dN9Xl9XMdvpnGiEYeBvEEUmrMHWjwWRnLiQdPJmF5St4a9sOh6oPhyrPhe79yn219iUZXehJlBlhuASzIU7yuqslbQWM90KVSNwlYiTBXak1WSIJ0DmOeahu63XWldskFfLaJGV6MQX48gJVFoCGvfg==]]></Encrypt>
+</xml>
+
+
+2016-05-10 17:41:59 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[S2StTn3fkyK202fbPf3yZc4hlcKZO9ZAV4kU9ECGhnJBv+o9Pb61nsXTOvxuLs5LSJcxszC5dszAqOzbkSVEpC/UD8/STNTJzIEcquJuq2Wwuxhn4CFtoEn514ntcNkrdfn3r0kufUsoHywUx5WBdFZlMy61RRAqzNTlwxZOs70aYn85HLG1mGQ2GFR72ByHq/yvC4JEG+fKOUI/v/g9d43GVKY/VoXfPrclpGe/gVDqGVRlT8mTgb5aaklzUU0eLqeCpubBzEVKNF3aqbiY7eUfdqaF9fai7koE7NjWGfFHXDGebdcHL7t9qkcm4f4LSLq12JAhuHLOQr8pegbDqSccTuJuXMRvizu7XPm+Lg11wGe9y20EAibSz9+HVhrEsIp63Cs/1tdy4Py88H7d9FiS4C/a02xVplnt9IZdeauTHvKCYuGu5idcMI9obZ0EWfx9DnV7JQEygjIIoXwkIA==]]></Encrypt>
+</xml>
+
+
+2016-05-10 17:51:58 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[NrED3zWj1kl05y1qE/MMU9iNRW9YFpibvQxp8ctzq9Y+KkJEFLO5BjmWEsRAR2OgJAg5X0F5APt557gI5yLSiaR3ZloyS42M4v2PNJtUScE/L8hrXmQF9tCyT4RuFuMERda4H0voUq2auCqCY1W5LCd775Wua9fCRs3HgEMNcIqSyqIkKc6DvS67CrNJJWpaaHHhLmsMN8bme4DMaw/N3Vjpe+4ryvQ1EDiCLIHDPOMM28kJx7fIbSJG8s2WeuAcfzLuO8fK7qp28Nnxl0FhopM+bPh6LFf33A2jVI9AQU5ky9k/YOI7auVI2Pp53syiLV/Bt8Dh8pTrepCVIjY1sZjGh3hLIIpaFfa4/i0/m6uAgBcUToychKkCXdQEmGneK91I/ooMZLmmWDYsClsiMqE4nPNgaw2JFbjV8zxUSbOsM6DXS1Mmm5GGxNZFGLmwYlvdNLQuNE9QowO/wGCn/g==]]></Encrypt>
+</xml>
+
+
+2016-05-10 18:01:59 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[gLKtVcNMtkoyg9xXazv1AtGUpbWqQ7/kNmXcTR5HDAdGnftwnI8Lg3pZ80jjAIcyahNmE/dVzxhVOzoS0h9gyyd+CYkw7MZpa6ExYUQkB1Vagib46Wl/lBmAbJMrud6LxuyuSUWRhnVHisqgYLAQ1ZtS0ngOcMB1JyudZGs71Z17EMJ1BxPmdj4/u5SWA2bldVjuba5m6FQ/jV1DtUWRvY5Fm1P1RZbT6RioBF4RLM6SYktxjbf5u6P1yDctbRVbKd9um0wnFm6g6M2re41rUhOFhl4EUFrY1BVO4hI5CdFasqi/Bgzp1NHoldh85jv/rKTDXaYx3jZwQwwQ7JBN+PMpAeJE8ytX+H6Qbk0W7RI8Q6/XEdVJY2UHjlrOFZAthmKKRELtjjDzSgSJUZO18LuaV6NwQ8O3J6wqUNL1uDEoqVNkyUTVj0juhZ5DOMucALgZHGEfTHOst6cRgk3YdQ==]]></Encrypt>
+</xml>
+
+
+2016-05-10 18:05:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuGq5u32V-qyd5a1BSO-1xGc]]></FromUserName>
+<CreateTime>1462874733</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 18:05:52 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 18:05:52 response :
+------------
+
+2016-05-10 18:11:59 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[EfJDX4gFuQht03fQu+Gvf7fvUw8Zj35MuI2CeW4CKkWomNG3TImgWHV9UwqXn5Lyw5u0D/snQ6Q+DTUHT1JpNwVAp09jA4LFCrKy2JJRWKsrR8Sai9oNRzNXmkCyFebAF4uro52sBlZhcVo42NBj84xRsR+2sbtBuQvKs4tZLWXh1nEZUXVZJJBAkcygGXz/pJjX632isc6DZikqJsACFbXEUy+S9fVaxXURwTjpYpNyzYN7+i0N4dK6/I044EmkTgbt0cUfN1lRkGZ4gMYOxs3IcyQ54jc0hpAvRZNQWHIo4ENZP9GPfViMlOTIym1S3H3+gM0TpbTL9CeNDIACk8z9bqQkTAaFwTDpg9BNXjmjOSk1fIZqG6XZKodxcn6sTZp+x0/R65lY4u/eRB5nbdkT0D+325y5lrzU91n6BP6oVAzC63FaFsaM5iP2SwXZIKV5bGVKsg4GdXrj0gmE7A==]]></Encrypt>
+</xml>
+
+
+2016-05-10 18:14:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuF2lZbEEM175u56n21rFcgw]]></FromUserName>
+<CreateTime>1462875229</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 18:14:08 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 18:14:08 response :
+------------
+
+2016-05-10 18:15:34 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuGq5u32V-qyd5a1BSO-1xGc]]></FromUserName>
+<CreateTime>1462875315</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 18:15:34 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 18:15:34 response :
+------------
+
+2016-05-10 18:16:30 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuGq5u32V-qyd5a1BSO-1xGc]]></FromUserName>
+<CreateTime>1462875371</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 18:16:30 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 18:16:30 response :
+------------
+
+2016-05-10 18:21:57 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[O5NUwtbpXdHvtPvg7R0icQ+VwO+O649EKjRWJVAXbRboqS9HQnkskj8XKMynvnTYc8P2yaVzNEcsWk6SWlLA8U6oNHXsgjW+fLhGCH8u5QbuVb7cELkhBcSmc3ZkfBl3gmh0d58fIbHOaoXB1toVHVoIk7UEPXZ0j47MO98hZet8jz9R39tMd1ryX5hdnXCHi0xQSRAvLoMgDiKH/xURmcPbPfTdXhXLbCjM2A7dqgnoEUQk2RP5izW/4QHAdECu53Rf+lhoQc7BDbQSyuIlap/Uv6wqHgBx3ZarhX3YBQz+2bTOX+3mlwkVC2orrP+z0/7ZhhRj59zB20kU8tjhvr1FO62zWfIy+F+PzHuuWKgyvldtIi+IjZY3ApmRs3HlpNplAYZxVCkTA4tOJX7Ri0hzvmvRy38v2pgEfR2Rx+RmXRI40CL7GTI18Fe/9GOSrqquSnMXImu9byZxgubcEA==]]></Encrypt>
+</xml>
+
+
+2016-05-10 18:31:57 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[va48KN3w1apaQjm+YSKJiv8yXni0DgkAOIk8+dWZ26a4o5ZFvvt6l2xBAdXxAffmrPxn9BAQupm/S3u98/VOurBdd1kMf+2Nc3XdcjjQOBg/e86FrFtcL3HwhhRS0mXI6Ic8wqhtgdT+42zj6g5CXmkcHfformjzOdTbG87VqhaLt1dHpWUjT3fsgqumWB16djygEFC3CIWfE1nWghaOUKoOpV0+O3bH2DIP8azvRk5UqIX2I1KW+LGTukAnQCGL1NFzCqahtUdtWFKBDsfPDXZV4ibFPQjNAMauUZdcQc+MYqLjLAL+RBkrjC4HUhs1Grc00NllqGojxT/m1MqZ1fbOsr6XEqHUqJUSZXmokfxL+n9nl9AMeTNxBdyfFJACsjl+7fbRqgJyASX56J/1HlVFJlnUYJTZgEUJE64RwxNwh8qFOtH/BegmKpo1GrUWEU/c3qESUGnVjLU2U+O0vA==]]></Encrypt>
+</xml>
+
+
+2016-05-10 18:32:02 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[va48KN3w1apaQjm+YSKJiv8yXni0DgkAOIk8+dWZ26a4o5ZFvvt6l2xBAdXxAffmrPxn9BAQupm/S3u98/VOurBdd1kMf+2Nc3XdcjjQOBg/e86FrFtcL3HwhhRS0mXI6Ic8wqhtgdT+42zj6g5CXmkcHfformjzOdTbG87VqhaLt1dHpWUjT3fsgqumWB16djygEFC3CIWfE1nWghaOUKoOpV0+O3bH2DIP8azvRk5UqIX2I1KW+LGTukAnQCGL1NFzCqahtUdtWFKBDsfPDXZV4ibFPQjNAMauUZdcQc+MYqLjLAL+RBkrjC4HUhs1Grc00NllqGojxT/m1MqZ1fbOsr6XEqHUqJUSZXmokfxL+n9nl9AMeTNxBdyfFJACsjl+7fbRqgJyASX56J/1HlVFJlnUYJTZgEUJE64RwxNwh8qFOtH/BegmKpo1GrUWEU/c3qESUGnVjLU2U+O0vA==]]></Encrypt>
+</xml>
+
+
+2016-05-10 18:41:54 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[+L1i5WLejKGFIRJnOS1SIck/3lqExhJhRsy7WUk9Hzqg6QfovgCmC60MNDGnqbC9wX0PqbP/0ziMPDe/Yhr8YrcQIlNIM2uDn9mExFLNaKXme0mCcaSsfx7eZZ/xR0ZwV+7kD8pGmkuOtF8HFcdow1xUMONNvHEq9KgBqpMsMnutQALED+u6MEH9CzsAi3/fEGdqSOSIx9qbeYSweuvf5MCrM7q1lD6AsVwUFBaRchjasDJ2jPE7v1UTItbqJR36EanA4GhI44cAI3ClEBqcUrdLZHlzbSC/P1wS/5lKV5frD8GzqboEM5ptV/jGc2hG8NZD/h8kjtwWF278nwcmRkZB9NZmxNL0Me946UN3v9/Uk7itoF0u5aS+2WWw2fsnUq/G9aZyZAtBsIoTs0oZJSi3HCW6AXIVzXtwhYSuRV50o0Gjjir8OkCFb1DVIRfhACtpnW+Hzfr2uY4JmoRlWg==]]></Encrypt>
+</xml>
+
+
+2016-05-10 18:45:58 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuGq5u32V-qyd5a1BSO-1xGc]]></FromUserName>
+<CreateTime>1462877141</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 18:45:58 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 18:45:58 response :
+------------
+
+2016-05-10 18:51:56 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[PZkFMjk0O3KF3lwocf1w+wNU91MGx3KHdEUxoxYVR8+dQF+xCOCPg8xOkeBqT2dTISB271EDgD3aGM1TcDtz/azHsgwFTIrxjQ4TXdkZxDqVcL3K+sCQ2qkgwdIkFdqrqWSnPfodXOZQj7h/daO99lQ51/dvyMZ+JT/9480M3IV/ayOgh/kktPP8AJHAVZ/mXpwKm5PRxRyd2/NFCN1Sp9TjDhHZsDTIg9h7VahPD5W2uAYU5C+qlefROBfcFUOdN2o2NQ6NsIFIl2HYTfCzrfSnhRMErlB0qG7WbWVKoRhwyQG+CAHtd0TMc12NfPupuzxq+3Ja8tPfI1mDsABMfoZb3L2Yk/bjQkPG62A8mKJ7vRHf/K3XCZ0r+da8pN86bY6de1bCpY4mwd0ODAk+3gIG51l4r3iKqb9Lw2KMmkkLlTFVbsbXy9kYQCMdxr2IpVg2k4yDSzRtHmfoER7IXQ==]]></Encrypt>
+</xml>
+
+
+2016-05-10 19:01:55 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[tv0TDFxyF8iEsr0xOfq1LWFFnNxKqXfrSnp2lLWT+7IM69f/i2gtUab1P1LMspPApYjCwVGrFq+qaRfLsyVr06dvfbyttZd2PH0tX1IlDYPqnG+/tELSDa4EbnLwjjYmBJcGdiJoliTiIOfHRD4UxJUtxomJvhJuBaBoVuAza7JQPkj938e1JVGSvkimUbeAfPDPekMkUmRX1DcoKN75DD5mK5w3/pICIg1qjlcona6LA1Qg64ETdA9/B4ZKdnbIT3b2hg72CzYDZtOK+FgmOiH9gTeaShuLDUs6gHm0FOYTKKfr5aQ7/hXeWSJw1ztrDb6xlogNECTKa2J6SmDDd4gziwVK5lqwcCg3ekXA8Lya+DWl2HosSL1h/ObNodpnCKqFRVhAoyocefAhC4gPWGxyTQ+HqL/P9bCLXnCDiefAO2HBAYv+rkWwKVGb/tT06vqRt47woqvC9P0xhf/WBQ==]]></Encrypt>
+</xml>
+
+
+2016-05-10 19:04:44 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuGq5u32V-qyd5a1BSO-1xGc]]></FromUserName>
+<CreateTime>1462878267</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 19:04:44 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 19:04:44 response :
+------------
+
+2016-05-10 19:11:55 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[wQ2VV3LRR6aJ9dMTFJfMuXwutWMJyYGJH6pAWhOCZO0UZ+HuGgAOFQ5oBIFl0vBLz3qE9u6P8fxSzlY23YsH/nAMWgaVLAake0RG08DL3HGEJTHkzGmaGnMx5ppDyEhyBMGWKJx6z1n769JJfycADSdvt084HCnHbn3Tu2kGQ06uTMlY51FnNA/9EU9N21cOI074e1pbIKL6N9Kha4C1pr6E/bLkvmpqFA+JUvRE0nTyuFVIvBcmpeD3ckOcpBOr3RxoXWju/gcQjsCT+1CTyIg9/86InDgGjHivvgAueqUPL4FAUG7Gs2xpUPAbvPw3BBeDoY9yJv3VsfzAnNJpT6VDVvOQOWwcFOyzBHNvkRn1OR0CqQqRRj2AYzjXE3bjPDlyMy1S0FVwacA7z9QGT/ZCui/W1j24GhZT+1eLZxkghlA6xpLHk+7YhbZmLKepS6fnTLRHyxDR8jFiXdgtOw==]]></Encrypt>
+</xml>
+
+
+2016-05-10 19:21:55 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[2DVUOGcsdFXyNLo25tOcbhHd6ooO0Zt+whHxQDsEhyEMblp04TIgi/zWlDWHOqgktCeUoNyV7UCwbHE8eFKsbSDIZYONAHG6ShWp5GshrtOkvzgRLIoUoBt1DWjisoiD8wCK9afXGJQjNJmdaeH5mO3BkYvbifJeyMh9dwSBJzLRpeU9irfQsj8HVkPj/00pLTj2K0C5cqwr4xk6dSxjvulH3+xnQ0xpSoH/L0lRB1Etd5j4DkDfCOppz7xNf5qHMLR6DAjR9dl+rRbWIJjrClI+Lb4A7OXFAJypgRchbEavtF6gDNQLNWIRV7FL/+XWb9eti7v2CCbVvJFjFqN+9IskH/FF7ZiBp6g3GJYjn2AG4ouKQGHyzz2p8nCLZz85or18evQh6vgFoNfIex8zDknKxI0z9xZ0/z/W7rmWaktF+evv8DVLTYulq6URe7qk4n17zhlG0llGzakRbWzebA==]]></Encrypt>
+</xml>
+
+
+2016-05-10 19:31:52 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[9/e9J4mlfuyawIcpNq+PYs5nqC925t8saiOhVuqLuFTDbdmvzVe6uie9dQNu+6IH+zPH5w0IB6TLmx5E1AlWGwGD/4JM34/RbnORQ1prXpPG1mfFeSW7HZmXVLazh9e6CrHBHowHmvkXymFzjWStPwyE8PRjVU4Y0w7+IvWnTkJhrYTIPmKjib4LuagSJ2C665l04VbLg02m6aF96TrsLE3LJKSmwtcXimxlJG/W8UOjB6Mh//96XIdctPzsfTomQ552MwYpvB3S347K5LAod57ILUI6CIGM/t+iG+6zfyPqIiHD1JgxbZQIJsijB8X/8dYMkMSdVeRbLg//02VhrvF4KDoRc1Zymj+5SPodIyIo2AicaFixLvaMzj35TGJ35HpHGzT5Gk7MalCC8fPnoZHu9zKAEQkOxpeXRRmmN47rV1LKEh/tuOkvOnTGecjlfuBz4XKkEVh2pmneDFrO/w==]]></Encrypt>
+</xml>
+
+
+2016-05-10 19:37:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuJ-rl2NaBEzCkwHj6Ab3yK4]]></FromUserName>
+<CreateTime>1462880228</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 19:37:24 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 19:37:24 response :
+------------
+
+2016-05-10 19:37:40 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuJ-rl2NaBEzCkwHj6Ab3yK4]]></FromUserName>
+<CreateTime>1462880244</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&do=member&m=ewei_shop]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 19:37:40 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 19:37:40 response :
+------------
+
+2016-05-10 19:39:11 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuIiKcyQEMEpI-0rKNn0oyH4]]></FromUserName>
+<CreateTime>1462880336</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[成为香商]]></EventKey>
+</xml>
+
+2016-05-10 19:39:11 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 19:39:11 response :
+------------
+
+2016-05-10 19:39:35 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuIiKcyQEMEpI-0rKNn0oyH4]]></FromUserName>
+<CreateTime>1462880360</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[成为香商]]></EventKey>
+</xml>
+
+2016-05-10 19:39:35 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 19:39:35 response :
+------------
+
+2016-05-10 19:39:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuIiKcyQEMEpI-0rKNn0oyH4]]></FromUserName>
+<CreateTime>1462880374</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[成为香商]]></EventKey>
+</xml>
+
+2016-05-10 19:39:49 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 19:39:49 response :
+------------
+
+2016-05-10 19:39:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuIiKcyQEMEpI-0rKNn0oyH4]]></FromUserName>
+<CreateTime>1462880381</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[成为香军]]></EventKey>
+</xml>
+
+2016-05-10 19:39:57 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 19:39:57 response :
+------------
+
+2016-05-10 19:40:04 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuIiKcyQEMEpI-0rKNn0oyH4]]></FromUserName>
+<CreateTime>1462880389</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 19:40:04 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 19:40:04 response :
+------------
+
+2016-05-10 19:41:38 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuIiKcyQEMEpI-0rKNn0oyH4]]></FromUserName>
+<CreateTime>1462880483</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[成为香商]]></EventKey>
+</xml>
+
+2016-05-10 19:41:38 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 19:41:38 response :
+------------
+
+2016-05-10 19:41:54 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuIiKcyQEMEpI-0rKNn0oyH4]]></FromUserName>
+<CreateTime>1462880499</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&do=member&m=ewei_shop]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 19:41:54 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 19:41:54 response :
+------------
+
+2016-05-10 19:41:54 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[d61jVLEkQ0B2bNOcfgEL+qmHEPC/GkdJhhTePpoG6ijwla17LwjJeIzH7ixOUmjRETNNUFcPnTQTK3oL93998xhm9iHpf7OBLudx8JqAYjf2uC8Fbr7pQtjovuLaBHSSsTTmXUrnIb9pj1+3w7REULrGuc6UtQLbZasJz7ID4RdosomJnyIM9J1GDT0XPNGkYgB5GWy9a/D9fCjUcK/479hr5woHRFA5MI+GeQwb5COluAow/Br4+ksWHoGdfJE/p206M9Ud7w+2DJkCUM4IlRCG0aySY0mSLRDtLXVJQLKzXkhVG24g+WLUQNdyv+4ACnaibJLpQuYlVqgyfTVqvrG5aXv2QK7h+lsUushww5iFajNOyHI29ZCQKdZy1FrTcMAHzFH4q25kBE3Y22NIYXBurFa/1uqi/4aRhs1DMPy6jqxU2fbhonLLCT+T6DdPJ4Q5fHiiXlo1ThgUG1/Aiw==]]></Encrypt>
+</xml>
+
+
+2016-05-10 19:43:21 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuIiKcyQEMEpI-0rKNn0oyH4]]></FromUserName>
+<CreateTime>1462880585</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 19:43:21 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 19:43:21 response :
+------------
+
+2016-05-10 19:51:54 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[Juz2iwfw899tApdeCIKeXNFkTGQUTp+kiOepX0EIPrqGDOJFWakBxsP64em6+cbE2yjduf+Qs0Zmbk1uE5Qxtvb1d/uyibhND+vOcX77G4K7TRumAgpYq9AYkNBg+3XlOHp+RBq/Pn77xup5vaQ2yOdvP1UCla3kon9r88cZl2DTYQMMYOU1aN50wV5YQrn6VJ3VvwmS7O4rPOVg9y9iw2Ck/M4QnpUV3DpXkrFYt7iWNlzNc8WQpL7fCJZduiSpGSJkwaRDp7MNPmerXjSWJTXGjmPrxNwh0b2uM10LZUW+toHPc31HYr/8wSh6GCp2VsIVsczjSLqjmSlM1ikM6GxrFlWqGbw0xwm+1g0D6Xx8QPGAKpUdCiZhX99s8pGDVlCoJEQGHqTlcmeSqBkM9bWWZIEa80s/kAa4h5Dq/5/DfWHaiPZ5limIoDcu/JBu55zTiYHeqeXKzWT457lk3g==]]></Encrypt>
+</xml>
+
+
+2016-05-10 20:01:54 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[Sy39HqaY4Wd2fsn+a8YZlhX3r8xqka/gf2LHU++AWCKFXbAux+396Y6q6wcNrzzmgsqj/2a0LcC6jeHwn0iIp8Xh6ypbMimeGRE0VTtaaH7GuepiCP9IxVbDwBweDXRrfMFg0Bgv6UC3tVXRjGnM/sQVJHfqTx3Oo37YaOBmV8cUvXNoKEDRnzTJZbsbjRZLW2GnkosT4WTRI5JLgrhD+7rxvydLO0gFR9YSYi0rimlc/TvuUO+DF1hAULyIvvp6hKgQ47Q1nsyqDU+eCg+d6tMHyHT7LqbkVY+j63pcbI7KoxIf4ULfMZbuxVPnsaesVoHq0RXgEB5p2k5ocPmWRL5huw4/HOafD0ikASonY4RA2Rae6dUT6qp47J4EaueBIfAmAhlNcfHP9YSDHFTtPgzUhI3zr4EYNILcT7vIsXE7MP4hcUMgcl0mmHgufgenJNsjkzln3Btks2+5epoU1g==]]></Encrypt>
+</xml>
+
+
+2016-05-10 20:11:53 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[IvGi1Qj3edHm0itsrNxZdjyJSuDCDZK5Mu20dlszX4zDnT6gAOPRcLfz8qzqJSYRaPROPnPVadKi6ziTOC4liBsUN96+P0r4yXn+XvNqF2kAdFc9fRP9QTcWXLnFu6rTc5V9QfGMQhe4b6Gthmv3jmi5W5czJ+CeoLADDTbh4mE78oPmUBl1/mxHxi5InncIRNprGD1U6VIosHfOXhmKCRetlf2pDvBdKfBdBkyrv+MyLsX+xozcV4OAxHm7SUZnh2Eir7wlJJiZ6i6fulMbihNoHo7BAhRQASpbR/JHOawAsYVg7AOZZ24WXn4fBemxs5S6Lz7+sqVZ4eHrLPUB5UVrs055JSIhvi3Mmm+xnSVW0bSsl6AVWSTb2sufNvwZr7i4h28BBk7yAn/QXMpxl5esBHIcXG7cLL64ofUiuQRVlQi4xw+rUNAkaK6Jy2uq7MJbHesjgId4pIdWjWlMzA==]]></Encrypt>
+</xml>
+
+
+2016-05-10 20:15:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuG5yc5BYHGNas3RfHvdqZes]]></FromUserName>
+<CreateTime>1462882535</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 20:15:49 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 20:15:49 response :
+------------
+
+2016-05-10 20:19:54 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuG5yc5BYHGNas3RfHvdqZes]]></FromUserName>
+<CreateTime>1462882780</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[最新活动]]></EventKey>
+</xml>
+
+2016-05-10 20:19:54 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 20:19:54 response :
+------------
+
+2016-05-10 20:20:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuG5yc5BYHGNas3RfHvdqZes]]></FromUserName>
+<CreateTime>1462882786</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&do=member&m=ewei_shop]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 20:20:00 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 20:20:00 response :
+------------
+
+2016-05-10 20:21:54 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[KsjonLIg3Xwr/iUZVCEomuDwZPdk7IcjPsbsTJzzQyRmslm+qFWiqTHUqZidFnZXxlUhBn0mbq5pqleDVfABCh84h63kJLUduWmPRM6MzkTtQENBB2xxJBrB4eiePVRFV2tSpb5l9S7YqkNscYc1pqVVKEgbRs7gIBauXWw9wEswd6YmmoZT6C3enn1fIKjmJHZoxuJOtUrJx7fbw6qJp2qdVHOHiouEl+/mj/tP0y1EO2UQrhvFSIWeLCSzBaIZ790HxVLWtrl/1eYZ6yCP75W0Oomq4MNHbCjsb+vp1FkEirmMQZ23JVx8u0EMyKUe1/PgEVJIbN5N+lCfvbO1sxgwIFPunO5yjHEb71d8fQH5DtR01B7xfJaeU0N7LLxsnHXcRLznMikZWHe9qIDPbMaahgj+pmfKLYbJZ98CUmObYfExI3IFbZRO7GrT3eY/+Hn7S0a2PJ7QBZMB8blkRw==]]></Encrypt>
+</xml>
+
+
+2016-05-10 20:27:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuNiM3vMuq8qi3RkcX-T8uzw]]></FromUserName>
+<CreateTime>1462883216</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[最新活动]]></EventKey>
+</xml>
+
+2016-05-10 20:27:10 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 20:27:10 response :
+------------
+
+2016-05-10 20:27:17 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuNiM3vMuq8qi3RkcX-T8uzw]]></FromUserName>
+<CreateTime>1462883223</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&do=member&m=ewei_shop]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 20:27:17 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 20:27:17 response :
+------------
+
+2016-05-10 20:29:43 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuJ-rl2NaBEzCkwHj6Ab3yK4]]></FromUserName>
+<CreateTime>1462883369</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 20:29:43 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 20:29:43 response :
+------------
+
+2016-05-10 20:31:52 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[w1xFO5ewz7Mws3ei3b2ZwNsT2i8CsHJ2g9iAYY5DQTbRLRytlxuybcgj+mM+WvLRiDGYSnQMiXtHX3JatoWW77zokgcWzIMUoiS+QfTkWtIjLfmpiEpkO7YjBljSq8z0WyxfFaFYRNf7MiidiKzQiouAMYxE3oMGj43eW+gkVyZYQ2xhP0YC0gMvWaY9CJjFCmvO7fZnnGlYltcD4MdQdY0YB34mwvYOujDNpmPkd1FXTNkYN3LlaLH2sEapqB65jUu7LqxlRBfZM7zIfSD4OhAwzhrQU9d54zWKIWnMGyC8rTqp/ewEqVk0urp1zdPQNc3SUphQ33svMSaHr0a39a/1tzlHCOFpix7BrXdyhy4Ma80fhHWMK1WNFBl7cLzO6NGJI2twwHJFqLVehvfummD1aw3D1t2USivfPpqpsYH96zVYz5d4zjaZ5iRFk5yeHuLzud79ls3ZjMNTptLwfg==]]></Encrypt>
+</xml>
+
+
+2016-05-10 20:41:52 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[viKiOtNgntbppk0Qx7ihpIxcHUTHXwsD1eh37LNCGgI43fcvOjk/HjbOhN1iVHrn0+qJH10OEg6o/uVQTlyzvOIrPm1leoI7Z1PrMMZgQYaiYao2eOA1o2upgBTjEo5fksDGS4hlyUppbhIXxHaYN2t6fdUBVP6nLTBsjLUqBRQbqXeqhD0X0kM5VW4GhiMDAKlPVqDg4dnTgxqowKB/6zkAwfiKcufb8oYDXRgBbrnk5H+rcuShLI04am4Nb2JYgO/g32Xi9/B68lbzH1eCR36dLYrSNw5GryJTDVxVE/G18yt35B6kW+XfhGHJXbMg15iNM+1vgwiMjIF+CdW2H+dx/E8KoLj4duvjqcibg30SIofTz0dLNObCBxtN7NbdmsI+XbawJaOsL9DnuVzzxoS+pO6iQy3SUlgTJ1ffndm9dxtgnrtwclwb8BUvAGmgsBJDwklaWsJpaMKmbhsJKg==]]></Encrypt>
+</xml>
+
+
+2016-05-10 20:42:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuIhNAIrePx8dTJ3M98EFtUo]]></FromUserName>
+<CreateTime>1462884166</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 20:42:59 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 20:42:59 response :
+------------
+
+2016-05-10 20:43:47 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuIhNAIrePx8dTJ3M98EFtUo]]></FromUserName>
+<CreateTime>1462884214</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 20:43:47 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 20:43:47 response :
+------------
+
+2016-05-10 20:47:04 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuIhNAIrePx8dTJ3M98EFtUo]]></FromUserName>
+<CreateTime>1462884412</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[最新活动]]></EventKey>
+</xml>
+
+2016-05-10 20:47:04 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 20:47:04 response :
+------------
+
+2016-05-10 20:47:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuIhNAIrePx8dTJ3M98EFtUo]]></FromUserName>
+<CreateTime>1462884412</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[最新活动]]></EventKey>
+</xml>
+
+2016-05-10 20:47:09 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 20:47:09 response :
+------------
+
+2016-05-10 20:47:32 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuIhNAIrePx8dTJ3M98EFtUo]]></FromUserName>
+<CreateTime>1462884439</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[最新活动]]></EventKey>
+</xml>
+
+2016-05-10 20:47:32 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 20:47:32 response :
+------------
+
+2016-05-10 20:47:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuIhNAIrePx8dTJ3M98EFtUo]]></FromUserName>
+<CreateTime>1462884459</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[最新活动]]></EventKey>
+</xml>
+
+2016-05-10 20:47:52 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 20:47:52 response :
+------------
+
+2016-05-10 20:48:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuIhNAIrePx8dTJ3M98EFtUo]]></FromUserName>
+<CreateTime>1462884480</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[最新活动]]></EventKey>
+</xml>
+
+2016-05-10 20:48:13 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 20:48:13 response :
+------------
+
+2016-05-10 20:51:52 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[mCoHnDlTxX6bajis5HLP3NRmWE9WGQ5ICb3Cx68ryMmaFUdobSF8i5IoImaepq/iNxYV0MnCioBdSD/UEsH6GI8cBs2XgBrXA6JXCpYD3sbI38XVnlNX7Zn2LtAAmk0uVkDZDgJ8ldQZAjReyIp3MnHHyWLk9yArkGtsBr7dMZyuwIjFF9wVVkNfY1LvnVXfDDJ4gVAztvjUgp7Z29t1/lSbFaV/W0qCdXZVZ/Wa9YEnRnA119rMkFFeOy0m/+1u25EUgwtu0fKHoPFU7NHHaielvAzSkEVLiVMu+Ee12VPRMdls3s0Z+Otv1qdMKt4lWBvWaenf9FRuC+R97FWJZ0OvGgsRdxyLxMtJVFwU0VcxnUd1GdVNpG+5BmtdtLh7BKlAOPcd9M48cOcZHvcZb6ZlrrNSX01tl1F0hO39n8fjbFUsFDPeByPoRnuOq2eQYhEC1HkHDg7LkOzxGJSRnw==]]></Encrypt>
+</xml>
+
+
+2016-05-10 20:54:39 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuBBBifvEJaBosAYGhKewB2I]]></FromUserName>
+<CreateTime>1462884866</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 20:54:39 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 20:54:39 response :
+------------
+
+2016-05-10 20:57:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuAmbkRSLeEHlZTuSdifr9b4]]></FromUserName>
+<CreateTime>1462885009</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 20:57:02 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 20:57:02 response :
+------------
+
+2016-05-10 20:58:32 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuAmbkRSLeEHlZTuSdifr9b4]]></FromUserName>
+<CreateTime>1462885099</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 20:58:32 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 20:58:32 response :
+------------
+
+2016-05-10 21:01:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuAmbkRSLeEHlZTuSdifr9b4]]></FromUserName>
+<CreateTime>1462885258</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&do=member&m=ewei_shop]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 21:01:10 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 21:01:10 response :
+------------
+
+2016-05-10 21:01:40 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuBBBifvEJaBosAYGhKewB2I]]></FromUserName>
+<CreateTime>1462885288</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&p=designer&pageid=8&m=ewei_shop&do=plugin]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 21:01:40 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 21:01:40 response :
+------------
+
+2016-05-10 21:01:51 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuBBBifvEJaBosAYGhKewB2I]]></FromUserName>
+<CreateTime>1462885299</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[最新活动]]></EventKey>
+</xml>
+
+2016-05-10 21:01:51 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 21:01:51 response :
+------------
+
+2016-05-10 21:01:52 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[7xzP/guyHnkS239+cVgFDezugZsgXsRnunrem1AfORQOKoe9wq0mL3P174v+lFIAEjq1pY3Oe+DBA4vsE/UdOM13vwhZBvPfA9RV60FAeXCst5gSO22gUOx3Z9yX4RmI/v/SH+RwXihvDSjhLv0sFQ0NDcci1yOQJeyrQJ/11UjAfixOl2ver3MYKta3keJpDVo5G1QPNL1EP8xHOJd9fcha+gR6OafHbj47dShIcnAqrathqnzq9ArYCAM9q6lwUu6/gn4uK2r9YvLYqR/jZJk9p9Q03YPRwZGzgRQnGqCKnXKIn0/4NF6O98XnZJ7Ncl+iYPo5aIScNPQXRtpIr9wFWEo6zIQZx+gwT11uP8vP8bMGZsIjq0+YHEkw/yoBr5XS2/oVNbx3uTMuu8khMLO/KfvlmLKNYFf7mkoKDrByj4+urYm25T6RHebm/lU2vE11mSFUNhim4LAO6HO0bA==]]></Encrypt>
+</xml>
+
+
+2016-05-10 21:01:55 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuBBBifvEJaBosAYGhKewB2I]]></FromUserName>
+<CreateTime>1462885303</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 21:01:55 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 21:01:55 response :
+------------
+
+2016-05-10 21:10:06 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuG7xqAjXnY47TAATTX9LylA]]></FromUserName>
+<CreateTime>1462885794</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[成为香商]]></EventKey>
+</xml>
+
+2016-05-10 21:10:06 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 21:10:06 response :
+------------
+
+2016-05-10 21:10:12 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuG7xqAjXnY47TAATTX9LylA]]></FromUserName>
+<CreateTime>1462885800</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&p=designer&pageid=8&m=ewei_shop&do=plugin]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 21:10:12 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 21:10:12 response :
+------------
+
+2016-05-10 21:11:11 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuG7xqAjXnY47TAATTX9LylA]]></FromUserName>
+<CreateTime>1462885860</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 21:11:11 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 21:11:11 response :
+------------
+
+2016-05-10 21:11:30 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuG7xqAjXnY47TAATTX9LylA]]></FromUserName>
+<CreateTime>1462885878</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[最新活动]]></EventKey>
+</xml>
+
+2016-05-10 21:11:30 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 21:11:30 response :
+------------
+
+2016-05-10 21:11:44 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[H/pFGINcoV/jg/8BRn5QPi9PBAT2oqjXWcX1G1vBM3r2QMQ1CpPxLzj7MJ0nuEzlg/Q1NqV3tWIJOg28goLMu/1I1YlwtoZcsujJ1cPq83ijsQJa6grK1vks8+DaQ33mSMx+JIGFKhKQ3EAdggcbbq71IYyijBxcUPkZcyLwMkAByAXyfMTjzZfilCvZT1DCOZfPlcrk6JCU1gNV0IvFV6RqYoU9WMxNQIMHygmocP0nohk+sArQSOzDC34maCZNaRZ+clZo5sdu2hQSmmjJDpqLL1Jj26ddGwFNmqAOIA3ym6P37mXP9LzaohfaK6WKm8GA3a6LcePUjijKw7llV5V5+d/g6g1CiVqQqwES+S+1Hj32s9INd+JPYHi8UqR3BxP5k+WOp1hcpe9j6w1xaIz3uU1aHs1jcXSYvROhln3+9sxxCQc0g8RY9RuTZV3lF13FzvWWnSJ0AYNL/eiHsA==]]></Encrypt>
+</xml>
+
+
+2016-05-10 21:20:03 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuBBBifvEJaBosAYGhKewB2I]]></FromUserName>
+<CreateTime>1462886391</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 21:20:03 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 21:20:03 response :
+------------
+
+2016-05-10 21:21:51 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[WWlPkumqL9BM6WJXTja+csnkdftmKBW/MNRDBWxo345rZWhJTsx7c6TWYxZPiPZtIdQHsyFYzjmErfjfSHKzLAVMEnRgFI8wwgGFSDT4grSHhXa2AgBcM81rTbXTSO60dCKlWaeUi2GOSsErA/kFyRIvvfzV5INn4N5azmBYT2CYCSHi8fWW2c/CM+M2C6b1ZwpN9ER1SFc9KfejftC2fZmhi4OYC16eHFtkDe1KGUEGvnhzCw/Gs/Kvvkrq8kKd79AeYEOlKygXkdCbyxM/B62jHSARSg7Vow5Q7ykC04OupfClb/u0rYGK17va3egpQ2DNe997PR1qVlyiK0+dYlWKLUGXJiiPUOepiUqeQrSXdt5MS8qRugneSuoZNAQJx2XWmg4VgQu6Jcev7C181I3MdhLdq/QTac/542h2XkwAtU5NStH2Y74EQc+Sfc+4NSsUPNCPQEYwgNZ3Kh0hQA==]]></Encrypt>
+</xml>
+
+
+2016-05-10 21:31:51 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[DYonJlH9aU1q7yl9uyrgNR8qHrfzUNMYHEZ3wxzOy6L3QIsMsn0tVRlxjez9FueFIMYiKSxWrOGa3xAU/XN/GnyPOycEbznS3rxu/AMXQjspvFhosYt38HS9jdbvPlSPjkzvWJJ0/HntjctHCVBbEhJRGuH9b9SBlWAiSG0fR7bDGKgqWo1MvdmfwYgHVLS63J0rj7MMBlzi6a4RAVl6ngezpDNJjdFTSFcyNvae0L9m6wDymEiBejGLcYQgklNM3CcnrFKTtW3CGkMYZ44l0pYhcfQpMqRuxzBZxj5rV7rx967XX0fKd79UZcFVDSGHJTHxJ24iJhpV1LdPugL9hKRuWVQP2yENiEW8LL1X+UmxXhp27SwzCVwFIwyHJLlECC20MyZd1uvzYY+mOUcox86h21ylInuABuI/B1BE3u19g4TJP75JftAS+Or7YmpWl4hpD+HH6DKvZfHQvtE5eQ==]]></Encrypt>
+</xml>
+
+
+2016-05-10 21:39:11 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuCZJ4g6xgIWWqGl6m-ROtII]]></FromUserName>
+<CreateTime>1462887540</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 21:39:11 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 21:39:11 response :
+------------
+
+2016-05-10 21:41:50 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[3Or5hLPwLmyy7c4tDH8U8otu8F9w7K2UKiX7jqsoq5DkqhkmCM5Tk1wvQ02Lr6Jdb+98w/U6KuUsvizcegoy/uT/6+3s17ZCfTpncyIMlrrv8c4oSVLriUBYfdh39TN9fRE6ieqxeXtdwsv6DX27OO5v8P0cj+MObc0mqkbyD6vtenSy2MnjGCM4FMn8isaWd8jEHTWHDeIgDds5gSKfoPs+bg8D2W5sPmQyBhxZMiFxa21/wSMoTSG9JdED1GWEjDNguAFW8i/nmkiYmfQNQ9cpNxduvMukjWybPq3jEkMPo3spcVdav6LFG/6rXAyWHdeHedduMpk9JFq/PzQAhDUp1nKaRhufDEnRpSqGbdW4Ta8O4MdjlWi3EsM/aBmuNgV3xzaHv4+W8/ErCNsMN0/fw2VFyyR/3p6R9bkMtUwif2UNVwJmgMgYLNyYkCY4fL16SfWFYogthg2B+LToOQ==]]></Encrypt>
+</xml>
+
+
+2016-05-10 21:51:50 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[lOuPTLm7wdyDI8105YzEHXNJFxZxshJ0zm5wqbVA3oRuE3l96UMKZ2NyIThRA7A5mzw8YI+mmaeqrnMQiLrDaQnlp6y2C2MujblBLW7Bx8TU8vMcSzHCl5DlRO8bb+sr4co5Wx1HI4iCagAHpXm/q/btCbIYcQyvQnuKbGXGmxYr/u5cnyNlJxy1WtdEScBXSW2Iji1yg8A2sSgyuMrEGzbubN8/dcPWnpxr38lMJp6LMEVoNJO8Kcv7ikaX1S7ulVnHMLwDpUqqZSmTG+u/b95LtjkAlr0pj/rde75Xcap81FqAljC1k8ZCthB1RUIL8btMBHbaATKPjQrfNw+TNzpXQXv2kNzUlsH4ljdyCmKS7Y8mQiZfoqRWxY8Zc5CaKtCdexQhOMNtnfG1O+Ijc5zYjMPhUvnyDI7EdfhWfjVGI6zCLI8Z4m84S/PHACpggfwtsf2szgiCLxpXd9netg==]]></Encrypt>
+</xml>
+
+
+2016-05-10 22:01:50 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[JZNsPubPl/PkxxfDl0Bt5f23eQj3Mxm0fA6NJTVdkArvp+tCLyc4aJ49jVG84RuAUWIDOvpvfPnChCt1Zv0dCClHUI9i0kGYclHn9P/KnQaYCuSKhI+kkX+TpgXy/ABeUkiM8nShWKtHffSNo7t3RiWdfOBI/H1iRnROHXVMjbPBXdHxIaaMnyyF/OEhLcr7yF4vw2ucTDMYJCwGssJKqny8bMmkNFKeKDYC7ajMp5fPPz5//Vb8rVmT9ugBsVgckhaXBdVS9K42n7NjMDjcoGObjus6fk9ygzjipBVsK9iG/y88dnvQQTDT04LoNhXeryHZ6TJdSm3e2HDeLfuFcIr4OhtvmR/O9RnMnG7lZkYmWSCy1zWtU6FkEC3M5u4VQcGb73qlOXCOsOyeiXEsIrouS8W9JopOfBrQeUQPoI5SX5qqbkNTlJs0rANFwhVc4thwZBYsJDYRfK5I7qPjcQ==]]></Encrypt>
+</xml>
+
+
+2016-05-10 22:07:21 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuBBBifvEJaBosAYGhKewB2I]]></FromUserName>
+<CreateTime>1462889232</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 22:07:21 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 22:07:21 response :
+------------
+
+2016-05-10 22:11:48 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[xm//GMlRFWrdRaOrf8UDedzWF8FARwCQcI0vyNRvLlhTNpmgrSKkt05CoRE04LQYNxJNANm8dqMuziQqeuceXCxGWPWFAKjC8stEGHHMnQbTethleqx5wYJsA/AMfJtXkg4kUooLBbg5gSoeRtJjfyZ9Ulb3/u3gd0WI93XN5LbhcWLRtX0WunMjddVmprH1BVp/hSaXceXuwgL6ZeF/ZsD6Css52FadZFHGtXiSJjAS5UEndDf2Sl/deLs01b6tzoqR5xU+Qa/813wf+mm678tuXCF4PYpTixxFbV6lMnwiocE7FI2etbqaIUHpNI4GKufQLZLA9d+1Sw99O2nzJKLT6EToDZEuHSn9DCeO68ozyWE+ipd6FjdKRlvepYxCZicQNOVCmBVTzNA7n94HBYgYlnjd5zQEtOyxuzPM6RX4ISue5quGgA25lNfUw4NBtbrsQ1q7GzP8dYxoFMnbag==]]></Encrypt>
+</xml>
+
+
+2016-05-10 22:21:48 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[8fY6MTYsnve8nQVIjy9u7aKFSocPtbUyutfR5tndRbO7sIxHIwvfVx5pELDOlXDynlNdaC8ZtZLBHCYWIh8rv/QzcsuJq91VZDIclhzIafPX2+7Og0Kr3URK7HJz4YEKlEFG7KrU+3zQ9gmEaSRmQXd0YY9/r4BEdcRW3GsPAlisLa18Ro9axAALb7xb9hVQNaHzGk/o71RRT+1/D16CiEu1BOPzJjjptgkAwwmiUnQRl8s7atSp3bPa6j4e80jCf3Liuls1R7eGAUdDhm0wPiL5+nRiHUkNi6Y3P3968SktNfR8NUDDb7KncDCMJdCdUkxsNg3F8d1o42mLp6KW2GGkVaA/SbIZ4VFdGQMOz+McDrGZ9lODMkFvwrhayADrRUIDw1U3s8s5mopOi6FB1v2IuQotA0iUrhmTsSQoCK91AEpMT0PkbYAK6U+5rswYnvgo7dR1XkBk8PuQ+Vr3dA==]]></Encrypt>
+</xml>
+
+
+2016-05-10 22:31:48 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[o/9IpaUIOEeG+4ch9tJx9MsS1aHpkP4CBRgyYvIffCDQY+Lh5ncJkynLPGc1geC8huwn7EWBkmKBUtRSLNaV2AxAsK70OHw7F+YyTQeO60ZMzmf3Lngf20EeVZaFeddmnyYFtVvJf1LWHMFv6B18xYuoSGVv9+w2NfxdKvzVTP2qSqdFPbYQ9306a0a6m9IbL+uHLEAkLHlvbKVFMUE4FiMqVvAqTQPGra7kVcuQ8DYXEpYfqlGGmEKvvLGKzGsZmOqxj7Q/iJx3lOmeygMZaO5wU/mlS1TxiLlrXgysQ4nV1NSntSbU0CsvIIoxx8wCHgeovRczge80DKDAZsWeZ+WMJLziu/8VCtsaUXU/sHVUjyWxhMNxUzBaorZk0GJf+ZfQSzpcM1+9VfEGDsdZ+XoxgFWCuDQe0fseUL/jd7DX1s8MbrVjXuFTTOMS61xm+xSI15Nng/tI7us5zOeUoQ==]]></Encrypt>
+</xml>
+
+
+2016-05-10 22:41:35 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[zkp1z7m4Y9V2N4sujJkQXgrmE1KBu0aMcqkqj87qj4R3C/3t/7QRtNV8yNI2ZAKVCcqtGMhEj9EmnxF0K5YKskbq83fb90hZQNgqRBbGYLlpstg6YOJXdd5L196MbxKZOgc/c5mWqgGb+9DBsMvodx64LR66MAqwmRy3JkFHxwFcN1CT4vktUihaFh0xmbAm7H1mgIwmuRv1lFnLtskAgFg+3DQn7eK8hrMXPgHWmGSO87REkaYoYf+hh+qVktX7JBPdosO65ovPaG47mLi/4qje/0QMdt8G9ho+pUW1v2XV7TG4AAw87vXQ080uZd303meXS75bJ9N20kjsOqf22+Hm4qn71OHJneqhiVAu4SzPSllh+diU5Y/CUe59adx9SqiUhYWrrp+LYkelht2cht7UJIWx/DDCv/MEMStjpylkU7ES03JwFaCSsNk2r5s3lKvKoHYJ9D6hq9masgV90Q==]]></Encrypt>
+</xml>
+
+
+2016-05-10 22:51:46 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[cvhxaC1QrvOr+ZZg3yBpoUuAslsp5FC9lMo+kxYBW4iMBBB98x2L9kLSreza3Q5or/33H2drupf82yMfjFPdjj52NjOApDuJKnjum2yvMWOFdfQBfrpXjcWoVgnjOZz+6Ozbb3Kgc7Q1GzlI1RpAYXECkgMyQ34/dRCAB30z2MXwh9rXKxbOCQNV/jkOSO8nBCIaWGa6CzJw66/G3omlFRav4allgUvGB3tdzPW1pzYMKGuDr+cvvMRGEEpUi+WNTe1jYgynbymekyR9xShfwvSgeO04XnG8Owo6TE+yF5RtDalqd3KwVyH94dQ4oPid4lJr1ADOUgjamfGcK+Iab9bjtCpiaH6Gqhau74njzP9WtTnZd5v/N5M5hipyq9+m8o1wI6E3ItXckuDa1XHNA9koy60+QvbopFSSg09JKHSOZ3nwlg8Vx4rJ4Y5uEBefVQg34b+J2M0phV8NlrO05Q==]]></Encrypt>
+</xml>
+
+
+2016-05-10 23:01:46 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[4IA76HAXRGcDI7oVO9muE+0vgC01RvF44VMdHRywc2ONSfenki/Xt/vNmfAw4xJiQoMP1smf9xySDcOyH8inDI3sO0pys8Xf9JgTtFp9VfcI1O92PrTqBAwqQHYQJiXaPUqJ2ZmAoiArAq+aGDL/e+BbaZAFyZ4i5B9P+05vT467KIvbq0sujlIq2z90/p0TudgEw1gWDbjVsMRcKvyiEXU+KltAvIFIiQdo0bWYkKtLJxWGeLCxLMlsWxBA2kEZF6L9JwvFn9BkACKTbk9X/fhIYdSM1MLIP/ySqVfaIcvzFh0UwDYPGTgj2v4fUwT0eurenYwHgKwWY/mC2iJNjMNWOfPInZmKD7gdLgdujekoYhiR2hF1OpVPRpDODOiX3faQbjo8F6dPQJ+ohv9da95IKeD1osUvR9jJSc8izbz1QtUxl4jiBBGJVtHyF9vpnguqeXpJElsJq/CFnY1e/g==]]></Encrypt>
+</xml>
+
+
+2016-05-10 23:11:44 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[DFkp+hnuc85BsOO0huvLjkd1SqmnsovRKov/2LYp0N8BUvu5J56BaFLrS2fWB9biNtyBYBLPvvw8/No9je3ySzlLwtRF7R3nbBtoZf2Lzk1ImGXtvkGsj+CKARtQ8YqizshTU10X3jrBr1apNNsHRNLUQgiJJAXR3+RFUIRsbs0sBTMgJ5L3grO72GsK8uB2fDb1WeMXsIHqGP8xKzPKSXjG/1Xiu5LRNAc6OC9d7kjh0748Sjrxq4rxeNA5wYSNLWbGVY9OOL7qB540MJ/aNeGPWhQyf9bFDBxIEF5aRny66fm85IYcsigo4ksG1TCzTzTO6CY4vKCdrfkSQNsMI4f4tGx5dFWPpywt3XC+2NxSyboaEXFFSJc0VDxvSQKUMdunPc26LVSpYkxLm7pHQITqu3zUurNNmUbsRJjvISm/j1VJgt+1yN8DX41sBqUljPy0jQnZAczMaay3Ah3bIw==]]></Encrypt>
+</xml>
+
+
+2016-05-10 23:21:46 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[Rr/FNNGkjribYftqxFZW8MZmnyyHyNYbYPmzZNK3AJknNaSJ/yXN0gUH5HScaB4XdKQA489GO/aobaIcFK07qlGIbXZv11zpMzbrGBbFFe/8EI2zXAxeT2GCKkigBEj0TxA7Hf8vLsQKuaMRpXJawawfukRorhRGBlOUGGR7F2a7K6I+YXy9C8Q7kVm8MDOenK6e/x02TMGNTgYB1QLK5gKSVTJnNPRSJGv8unP/PsdWcx5HWtvdz7wSKbESrAycjGxUgKujqchi0nH8c4q6IIoxWxQqfWVVMHmWNjVk7vSP0wDQVsA7Sfm4JNEAbWyWFF8ugw7f4Z8Ia1iRqiKQMF6JLcfRH8Oc21sF8JVtp8DnZcAPO28Oks3oI6v/GNXqpbPMXRxhyQQ/4mW3WKw2WAhihoDjmzrWNrUQENlXxEvknpr9hI8rIimixVhe17jQubWP2vUsJ6s23buQuanQAw==]]></Encrypt>
+</xml>
+
+
+2016-05-10 23:31:45 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[xX7itB43yABDDqSzMr2RbUD8p4LmWFTn047hFXlpa9B3+NxDXeQKZTNS3yZ3h1RDQJcubr51UGBOQ5tR480k0/oMgh3nIJ9Uh2UaMqAH2phAYb+FwkD2vuh30vkkmHy/tWUKXTourMyQQTEqI0X7KtR5VmbZ8Wbrdg8kyHIttq/Njy7r2hkyDaMqLmOqKfplRlmHY8DZg+kK1OUBaHzK69KkEUBkNpYzJZRM2zr/QiBBboPPzF+xtQ0N+FcyhETl9bt0WvQh0Nj33fqRjQ/S6CEJvZ6TvT1qMcH2rXDI0JE+5re3GViq9w5TclXiD74zJgRivsNp/vMb6RD4UyttRagzETH4FFKyT3Gir+o27Z2bLS3vaa+8QZyt8GmyyRPEb/VTMAQe8/c1Yr/YEQtqGCYStlXLZ7qSgclcU+X1NG5o15oQHhuKUXoZ8UxHB870QcCzu0Ixz2IdtpkzQMOUrA==]]></Encrypt>
+</xml>
+
+
+2016-05-10 23:41:45 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[WGkoGuOhBHtun9kg8nedZUKC/y34liynD/i1dnBMwWblRqlsdELmcyJqsGtmzaDV7U34CHEAjFI3RHj+WkQhqcgl9PdsCHWIfkKjf5uOQAkPhDuBqNyPHB6Iz6TqQeP8NJ+oO3GgMnUBic61uLAPbXkOp8myhI83pqF257sing3kzgajv6591ASbgCi1HMJgVdQTjvNETM0MFvn6qcjD+iCOHH/WJwuwCmjRy5Yr3eG7r70Hnb8xw+HVwisJCqIdBta4yCKnDTAHLMicg2yrgIsUYzxoEe3UYgyTF3A0GEFx6moyL2LQ1OXvGyWXv69v3v5nVH6qKX1i1cCRLwtwRwmwAOHR5sHzDQTGzmA+FuDVgTqJXJpmwa1PU3c0iMq4GU48Amt8CONz28D5F+IyDDbGO1zYDsHmfM/JdKz72JJnuE3ZGMy1vf9BN8ep1yNaP0bjxBEj562tgpd0VF2FLA==]]></Encrypt>
+</xml>
+
+
+2016-05-10 23:51:44 debug :
+------------
+String:
+account-ticket<xml>
+    <AppId><![CDATA[wx957233c5aebbc97b]]></AppId>
+    <Encrypt><![CDATA[b9gB0pRiCpq0qkdXO2rZgQaZZ15AlMKTRdRe2Qpvmga5pp4BchLaYKxZjvTGk/4IrzV+CdgP1AVT1Z6qcVvG1Cd8/sZ1iFsuEvfOWK1dUNnNvP7r1LXjEWXfDRZj2s1YCNGGG7Ivy5SMgevjLfQLZXu/srW592DmiorQe+hCH14vPvAUaHMC1OyPjm9robq2jsln4x3MavH6A6k4MkIAhvMUk0128f76D1bcAWa/bF8S5tawZQqrbxj/fMkGQo8uqXYfEkjhqLokP4H5m/qV5FfWZkMqsuAfb9eIvaW5icQOFJDIVEBjrm4r6924OJbsMEeOJYw2CgCXkX2P517TeUqgqZl5b0S/V2JKSZPsiZIIrv164XCtSmgCvDFTp8AZ7jjX19jrZvkoJE8pHbIqapjwPlFxb+YBBXreBjv4OjV07pVNGTk2CLXoSAQ9e21+gPWCIf/YOeCaixttBqvVZg==]]></Encrypt>
+</xml>
+
+
+2016-05-10 23:54:22 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuMG2a8NsdnbWoALG5jEVNx8]]></FromUserName>
+<CreateTime>1462895657</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 23:54:22 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 23:54:22 response :
+------------
+
+2016-05-10 23:55:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuMG2a8NsdnbWoALG5jEVNx8]]></FromUserName>
+<CreateTime>1462895752</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&eid=12]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 23:55:57 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 23:55:57 response :
+------------
+
+2016-05-10 23:58:04 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9dc12e06d172]]></ToUserName>
+<FromUserName><![CDATA[oliVJuMG2a8NsdnbWoALG5jEVNx8]]></FromUserName>
+<CreateTime>1462895879</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.ynu.edu.cn/app/index.php?i=4&c=entry&do=member&m=ewei_shop]]></EventKey>
+<MenuId>405486423</MenuId>
+</xml>
+
+2016-05-10 23:58:04 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-05-10 23:58:04 response :
+------------
+
