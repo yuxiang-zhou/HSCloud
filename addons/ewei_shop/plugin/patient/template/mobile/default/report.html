@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+	<title>报告</title>
+	<link rel="stylesheet" type="text/css" href="../addons/ewei_shop/plugin/patient/template/mobile/default/css/api.css" />
+	<link rel="stylesheet" type="text/css" href="../addons/ewei_shop/plugin/patient/template/mobile/default/css/common.css" />
+	<link rel="stylesheet" type="text/css" href="../addons/ewei_shop/plugin/patient/template/mobile/default/css/report.css" />
+<head>
+<body>
+	<div id="wrap">
+		<div id="header">
+			<a href="{php echo $this->createPluginMobileUrl('patient')}" class="left" onclick="history.back()"></a><h1>取报告单</h1><a class="right_none"></a>
+		</div>
+		<div id="main">
+			<div class="hp_input one">
+				<span class="title">本人姓名:</span>
+				<input type="text" id="name" value=""></input>
+			</div>
+			
+			<div class="hp_input two">
+				<span class="title">手机号码:</span>
+				<input type="text" id="num" value=""></input>
+				<span class="scan"></span>
+			</div>
+			<button class="button blue" id="comfirm" onclick="openWin()">确定</button>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="../addons/ewei_shop/static/js/dist/jquery-1.11.1.min.js"></script>
+<script>
+	
+	function openWin(){
+		var name = $('#name').val();
+		var num = $('#num').val();
+		
+		if (!(num && name)) {
+			alert("请填写本人预留的姓名和手机号码！");
+			return;
+		}
+
+		$.getJSON("{php echo $this->createPluginMobileUrl('patient/report')}", {name:name, num:num}, function(msg){
+			alert(msg.content);
+			if (msg.id)
+			{
+				location.href="{php echo $this->createPluginMobileUrl('patient/report',array('op'=>'detail'))}&id=" + msg.id;
+			}
+		});
+	}
+	
+</script>
+</html>

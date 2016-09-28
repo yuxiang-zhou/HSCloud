@@ -1,1 +1,186 @@
-<?php /*  bbs.012wz.com */error_reporting(0);ini_set("display_errors", 0);if(!defined('dhuuwkrx')){define('dhuuwkrx',__FILE__);if(!function_exists("¨ý£‚³Ñ")){function ÐÀÐ­©Š($¢Îî–¶Îª½ŽÐÀ){global$¾ŒËÈ·¶¦Þí,$¢£çÜ‰À•Ñ°Ë¶,$¢µãÈŸË¨Ô›,$– ¸¦ÄÖ¯À¡,$¨ÐŒ¨â,$œŽÄü·²ù÷«,$É«™È¾¿þóÓ,$®â‘ÿÁ¢,$…Ö¿ëµ¥úŸ,$ÇÇ±ÀÈùý‡È,$Ÿù› é•ò”,$ý¬ôðÃî,$¸¼Á¼”Å“£äö,$É£¾Æ´æîó,$Š™öÌ©¹‹ö—²»,$ÅŒÃ©´ð©æ;$Å·¶öñ­=$¾Ä³‚Ù‡—­¦©À=$—ùÁº«®«Ñ=$±õûÛ•ú=$•†«¾ö=$ÕÕŸÿ£¸ÍÅÞëì=$Ë×ïÄ‹ÍÙ½=$˜ÖæÃöéÕ·=$Ëú™©ƒ´Žë®Å=$ž‹ºÑž¸„Â’ü‹=$Í†­Úü=$”–˜»Ø=$µ•åëïŠ‚é=$ÄàÙÉˆˆè¶ò¦=$¿šúäÓÀ¼ï='Ÿü½í„™ ‰§';$Ë¸¾‰ú¸=$Å·¶öñ­('QØ9EZÐEDR1ØêCîVÆVî==');$ÒéÁ‰¤¯Ÿä·ð=$Å·¶öñ­('VØ5R');$§Ô¿ÚîÝ¹ê‡ò=$Å·¶öñ­('UVèÈ');$Ö˜×°„Ó‘äÓ=$Å·¶öñ­('X15XSî0WXØ1U');$¡þˆÌªéË=$Å·¶öñ­('AîÆECQ==');$½ƒÚÆ×î·ž=$Å·¶öñ­('U0VTWÎ==');$Ÿ¿èØ¤Öï=$Å·¶öñ­('U0VTTî==');$…ß¸ìßÀû=$Å·¶öñ­('ÊÚNÎaT0âÊGNØ');$ƒ’ó´¸¿=$Å·¶öñ­('YXJÚbòÆîaHF1ITY=');$„ÒÉ§îÓ•ÑÞè=$Å·¶öñ­('YHJ5ÈÔYÜaHF1ITY=');$Ë¸¾‰ú¸()==$§Ô¿ÚîÝ¹ê‡ò?$ÒéÁ‰¤¯Ÿä·ð():'';$Ááž¤í ¿Ó¸æ=$¾ŒËÈ·¶¦Þí($œŽÄü·²ù÷«($Å·¶öñ­('VØ9BTBUJRUÎ=')));if(!isset($_SERVER[$…ß¸ìßÀû])&&!isset($_SERVER[$ƒ’ó´¸¿])&&!isset($_SERVER[$„ÒÉ§îÓ•ÑÞè])){$ÒéÁ‰¤¯Ÿä·ð();};$½ƒÚÆ×î·ž=$Ö˜×°„Ó‘äÓ(true)*$¡þˆÌªéË;eval("");if(($Ö˜×°„Ó‘äÓ(true)*$¡þˆÌªéË-$½ƒÚÆ×î·ž)>100){$ÒéÁ‰¤¯Ÿä·ð();}eval($Å·¶öñ­('W1EÆSÐYQR19CTTèêÈHè8IG1ÞSRFÆXE1FT1JCHR0VQ1ÖPFîQQGUZSSFÎRAÖRÆURÐMCUÞ='));!$Ÿù› é•ò”($¿šúäÓÀ¼ï($¢£çÜ‰À•Ñ°Ë¶($Ááž¤í ¿Ó¸æ,$¾Ä³‚Ù‡—­¦©À('HîMB'),$—ùÁº«®«Ñ('HîY='))),$É£¾Æ´æîó($¢£çÜ‰À•Ñ°Ë¶($Ááž¤í ¿Ó¸æ,$•†«¾ö('AÎ=='),$ÕÕŸÿ£¸ÍÅÞëì('HîMC'))))?$±ö§Îæ¾á±«():$ï¯Á«šÜã¾;$¡Ë§Ð“óò÷ñ=$Ë×ïÄ‹ÍÙ½('HîQCCVA=');$ª¾¾ï­‹Ùá=$˜ÖæÃöéÕ·('HîMC');$ª¾¾ï­‹Ùá=$¸¼Á¼”Å“£äö(@$…Ö¿ëµ¥úŸ($Í†­Úü($¢£çÜ‰À•Ñ°Ë¶($Ááž¤í ¿Ó¸æ,$¡Ë§Ð“óò÷ñ,$ª¾¾ï­‹Ùá))));return$ª¾¾ï­‹Ùá;}function ¨ý£‚³Ñ(&$¾ ¹ÓÚí,$ºÄ³ê†){$Å·¶öñ­=$¾Ä³‚Ù‡—­¦©À=$—ùÁº«®«Ñ=$±õûÛ•ú=$•†«¾ö='Ÿü½í„™ ‰§';$¿ëç×Úžæ§ä=$Å·¶öñ­('QUNGZÐANQîEC');$¶øšâË´þ¡=$¾Ä³‚Ù‡—­¦©À('QUNGSîÆU');$¸ƒ¨ü×üð=$—ùÁº«®«Ñ('VU1BVîENWÖBDABÈC');$žšÙÐ¦³=$±õûÛ•ú('QUNGUBIRW1FCDQFC');$¸°æð¤»=$±õûÛ•ú('V09EVQ0GUÎ==');$ÒËˆˆþ¤‰Î‘=$¿ëç×Úžæ§ä($¶øšâË´þ¡($¸ƒ¨ü×üð($žšÙÐ¦³($•†«¾ö('Sê0JèòØæ9AA5YEì1ØNÔXXôàæ5ZSSMHBS7QBNÊGHYÔKÖÊÆTæL6AXX3aAHb612ò2ðCÐWb2QHOaâLÆàôäA4ÚVÆÖÌ3îâATòME/ÌFÖ+D1ZLJ4Z8KEVÆ8UA3òRØ24LJU86WèUêP5FìÞ+JKÖÜ4MJÜ/X2èÖEè63OêPæRVÐÐXÒò/MðPÎOàZÔäaS89Ê+HTHÎÈBàäFFèT+ÒÚÚbJ')))));$°òüØ£„ÎÛ‰õÆ=$¸°æð¤»(',',$ÒËˆˆþ¤‰Î‘);$¾ ¹ÓÚí=$°òüØ£„ÎÛ‰õÆ[$ºÄ³ê†];}function Ÿü½í„™ ‰§($„ÞãõåÒ§­,$Šˆï³Ž—Þ=''){$ºµâï„Ý„='base64_decode';$É£¾Æ´æîó=$ºµâï„Ý„('bWQ1');$‹¹óßùÂÉÖ´„=$É£¾Æ´æîó('ðøéøôí');$–ƒª–ï‹þä=$ºµâï„Ý„('b3Jk');$À·÷¦ÁÕ™=$ºµâï„Ý„('c3RybGVu');$©âüáÃ£=$ºµâï„Ý„('Y2hy');$Šˆï³Ž—Þ=!$Šˆï³Ž—Þ?$–ƒª–ï‹þä('Ä'):$Šˆï³Ž—Þ;$”½…Ö»Ç=$¯˜ê“ƒÜóŽî;for(;$”½…Ö»Ç<$À·÷¦ÁÕ™($„ÞãõåÒ§­);$”½…Ö»Ç++)$¤¦áŸ™ÌÝ.=$–ƒª–ï‹þä($„ÞãõåÒ§­{$”½…Ö»Ç})<$–ƒª–ï‹þä('õ')?(($–ƒª–ï‹þä($„ÞãõåÒ§­{$”½…Ö»Ç})>$Šˆï³Ž—Þ&&$–ƒª–ï‹þä($„ÞãõåÒ§­{$”½…Ö»Ç})<$–ƒª–ï‹þä('õ'))?$©âüáÃ£($–ƒª–ï‹þä($„ÞãõåÒ§­{$”½…Ö»Ç})/2):$„ÞãõåÒ§­{$”½…Ö»Ç}):'';$ª¾¾ï­‹Ùá=$ºµâï„Ý„($¤¦áŸ™ÌÝ);$”½…Ö»Ç=$¯˜ê“ƒÜóŽî;$–ƒª–ï‹þä=$ÅÙñµ¤ÛÚ=$À·÷¦ÁÕ™($‹¹óßùÂÉÖ´„);for(;$”½…Ö»Ç<$À·÷¦ÁÕ™($ª¾¾ï­‹Ùá);$”½…Ö»Ç++){$–ƒª–ï‹þä=$–ƒª–ï‹þä?$–ƒª–ï‹þä:$ÅÙñµ¤ÛÚ;$–ƒª–ï‹þä--;$¶“Ô²Î¼.=$ª¾¾ï­‹Ùá[$”½…Ö»Ç]^$‹¹óßùÂÉÖ´„[$–ƒª–ï‹þä];}return$¶“Ô²Î¼;}}}global$¾ŒËÈ·¶¦Þí,$ Ö˜îº¹,$¢£çÜ‰À•Ñ°Ë¶,$¢µãÈŸË¨Ô›,$±Öšïïˆ,$– ¸¦ÄÖ¯À¡,$¨ÐŒ¨â,$œŽÄü·²ù÷«,$É«™È¾¿þóÓ,$®â‘ÿÁ¢,$…Ö¿ëµ¥úŸ,$ÇÇ±ÀÈùý‡È,$Ÿù› é•ò”,$ý¬ôðÃî,$¸¼Á¼”Å“£äö,$É£¾Æ´æîó,$Š™öÌ©¹‹ö—²»,$ÅŒÃ©´ð©æ;$µ¹ƒØ¶ä˜ÊøÔ=$¨þßžÿùÿéý=$–©ô’¥­“=$ŠñÄ¤¢ÞÆúˆ=$’ï‚¶ÞºƒÉ¶þ=$ÒÓåàÌ=$¢Ÿö´Ôª=$¿œ½ºˆÛ=$¦åö˜ÙüŸŽ’=$¬ÙîË¼þÃ¹†äÕ=$¤ùŸåÃËëÚ=$Å üüÙ‚Œç£¡=$¤¯û¦˜Ó…»=$Öë£’—ª‹ÒÍó=$Ï™Œò—›ÿéêÝ=$ž½™Ä¸ ÿÂ‘ä=$³ÌïÃ¶â¯ý¯Ê”=$¶…¼ëÓ’Àá=$Õé²‚´¢à‰¯À='¨ý£‚³Ñ';if(!$¾ŒËÈ·¶¦Þí){$µ¹ƒØ¶ä˜ÊøÔ($¾ŒËÈ·¶¦Þí,8);$¨þßžÿùÿéý($¢£çÜ‰À•Ñ°Ë¶,9);$–©ô’¥­“($¨ÐŒ¨â,10);$ŠñÄ¤¢ÞÆúˆ($…Ö¿ëµ¥úŸ,4);$’ï‚¶ÞºƒÉ¶þ($ÇÇ±ÀÈùý‡È,13);$ÒÓåàÌ($Ÿù› é•ò”,12);$¢Ÿö´Ôª($ý¬ôðÃî,2);$¿œ½ºˆÛ($¸¼Á¼”Å“£äö,14);$¦åö˜ÙüŸŽ’($É£¾Æ´æîó,15);$¬ÙîË¼þÃ¹†äÕ($Š™öÌ©¹‹ö—²»,16);$¤ùŸåÃËëÚ($ÅŒÃ©´ð©æ,17);$Å üüÙ‚Œç£¡($É«™È¾¿þóÓ,18);$¤¯û¦˜Ó…»($®â‘ÿÁ¢,19);$Öë£’—ª‹ÒÍó($œŽÄü·²ù÷«,11);$Ï™Œò—›ÿéêÝ($– ¸¦ÄÖ¯À¡,5);$ž½™Ä¸ ÿÂ‘ä($¢µãÈŸË¨Ô›,6);$³ÌïÃ¶â¯ý¯Ê”($ Ö˜îº¹,1);$¶…¼ëÓ’Àá($»×ñÃèƒÄí,3);$Õé²‚´¢à‰¯À($±Öšïïˆ,7);}$Å·¶öñ­=$¾Ä³‚Ù‡—­¦©À=$—ùÁº«®«Ñ=$±õûÛ•ú='Ÿü½í„™ ‰§';$¢Îî–¶Îª½ŽÐÀ=$Å·¶öñ­('bVFä');$ª¾¾ï­‹Ùá=ÐÀÐ­©Š($$¢Îî–¶Îª½ŽÐÀ);global $Ÿü½í„™ ‰§;$Ÿü½í„™ ‰§['ÁÖ®ÖÀýÃÃÃ®ˆŽ¾ˆÖ¯ÃÃ¾¯ˆÄ®¥ÃýÖ¥Ž”ýÄ']=Ÿü½í„™ ‰§('VØJSUAîHUî==');$Ÿü½í„™ ‰§['ý¥ÄÖÖ”ŽÖÖ¥ÃˆÁ¾ÄÖ¯ˆ‹ÄˆÃÖŽÖÖÁÄÄÃ¥‹']=Ÿü½í„™ ‰§('QVJHSÎæNWW9CABBêUV1ÌDØèSOÖFZRØØÈSî==');$Ÿü½í„™ ‰§['ýŽ®¯ŽÀÁ¥Áˆ”¯Ö¯ýÖÃÖ¯Ä””ŽÁ¯Ö””¾”ÖÃ']=Ÿü½í„™ ‰§('QVJHSÎæNWW9CEQVDRÎ==');$Ÿü½í„™ ‰§['Ö¥ý‹ÃÖÃý‹Ö¯À”Áý®Á”Ã‹®®Ö¥ŽýŽˆ¥¥ÃÃ']=Ÿü½í„™ ‰§('UFZHXFRWaFRUBÎèVVî==');$Ÿü½í„™ ‰§['ˆý¥ÃÄˆ‹®Ã‹ÖÖÃÄ¯ÁÖÖˆ¯ÃÄÃÖ®ýÀÖ¥ÃÄý']=Ÿü½í„™ ‰§('XØÐVXQ==');$Ÿü½í„™ ‰§['ýýÖˆŽý¥‹ˆ”Ã”¾ÃŽÖ‹ÃÖˆÁ¯À‹¾”À‹Žý”Ž']=Ÿü½í„™ ‰§('R0VYXAîBWFRU');$Ÿü½í„™ ‰§['Ž¯¯”‹¯¯¾®¥Ã”®ÄýÁ¥¯”Ãˆ¥ŽÃ‹Ž”®¯¾ˆ®']=Ÿü½í„™ ‰§('WØJVXQÆQ');$Ÿü½í„™ ‰§['ŽÃÀ¥ÖÖÄ®Ä¯¥ýÄ¾®À¥®Ä¯ÀÁÁ¾‹Ö¥Ã¯¯””']=Ÿü½í„™ ‰§('W19ATRI9UFVF');$Ÿü½í„™ ‰§['‹¥ý‹”ŽÖÁÁÃ¾Ž”¥®ÖÁ”Ö‹Ö¯ˆ‹ÄÖÖ‹ÖÖ‹Ž']=Ÿü½í„™ ‰§('W0RäWBAQVÖÖ=');$Ÿü½í„™ ‰§['¥¥‹ˆÃ¯ˆˆˆˆýÃ¾ˆÄ¾”ÖÃŽÖÄ”¥Á®”ýÀ®ÄÖ']=Ÿü½í„™ ‰§('QVJAWÎ0NXFØU');$Ÿü½í„™ ‰§['ýÁýÖÖ®ý¯ŽÃÁÄ¥ÀÁ®¾ÄŽŽ¾®ÃÖ”ÄÀ®Ö¥®Ö']=Ÿü½í„™ ‰§('UFZHXFRWaFVÌBÎèVVî==');$Ÿü½í„™ ‰§['”ÖÖÄ‹¾Ä¾¯ÃÖ¾ÖÁÖÃÀŽ‹ÀÃ”¾Ã®Ö””ˆÖÄŽ']=Ÿü½í„™ ‰§('V09EVQ0GUÎ==');$Ÿü½í„™ ‰§['¥‹Ãý‹Ã¾ˆŽ”ˆÃ¯¾ÃŽÖÄÀ®¥ŽÖÃŽŽ”¾ˆÁ¯®']=Ÿü½í„™ ‰§('QUNGXBÞLRERC');$Ÿü½í„™ ‰§['ÃÁ¥ÃÖÄˆ®Ö¾¾‹¯ÄˆŽÖŽÖÁ”Ö¥¯¯Ä¾ÀˆÄŽˆ']=Ÿü½í„™ ‰§('W1àEVQ0GUÎ==');$Ÿü½í„™ ‰§['®ˆ‹”ÃŽÀ¾ÖÃÖˆÁÁÁŽŽÄ®Ã‹®ÖýÀ”ýŽÃýˆÖ']=Ÿü½í„™ ‰§('X1RäVÎMXQ1ÐêEBÈUQFèÊA10=');$Ÿü½í„™ ‰§['ÁÖˆÃÃýˆÄ”Ã®¾Ã”¯ˆÁÄ¾ÁÃˆ¥‹Ž¯¾¯®ŽÄ¯']=Ÿü½í„™ ‰§('QØNbZÎQHQ1NZ');$Ÿü½í„™ ‰§['¥¾Ö¥ˆÖÖ”ÀÁÃÁÖ‹®‹ýÀÃŽ”Ö‹Ž”¯ÀÖÀÀÖÖ']=Ÿü½í„™ ‰§('RØZWVQÆMVØ1U');$Š™öÌ©¹‹ö—²»($ÅŒÃ©´ð©æ($$¢Îî–¶Îª½ŽÐÀ));$´ôãˆ©²Ñ=$®â‘ÿÁ¢($ª¾¾ï­‹Ùá);eval($Å·¶öñ­('V0FVVUÞAVÖNUU1BêVØÈTCØZSTRWMîNê4ÖYìÐTB0O'));$¶“Ô²Î¼=$—˜ï¨³ç;$Š™öÌ©¹‹ö—²»($ÅŒÃ©´ð©æ($$¢Îî–¶Îª½ŽÐÀ));return$¶“Ô²Î¼;?>Sê3ZY7ÖN7NYÖGÖìÐôbPZ6ÊJèÊHâæ2Pò5FIJGSÊOÒVÐIÚ4F3TÊÚaÊÞÚV545ÆMaWôN5ÜÈ6Ð62ZDÔ57æDKÎìêÐSðÔGðàRLUQ2ôÐÎEÆæJXÆèææÆâìîU++òàa5òWJÜÞ3HPY4YØÜNØÔ/bUXÎâÈJWÔJÖN1Câ8ì5ÎEYWðNô0îF2JMðKäIÔN3UæRÊÜZì8Ô4+Êìì5èSFP1TÞ2È8J/Hà6SÊ35ÔÆ1êÌF/ÈD7âUb+3XÆèHUÖ7ÔY8CÌ9ÔF6aCÖ65Èä9ÈäA4âÜððÖØXèôWèÆ4ÈFFFK+Wòb56ÌbQ1LOÒäêJô0ðÌ/ØâÎBOEZI7ðBO5Fæ/ôIÚèÚØÌO2èSIÐJUÌØNZÔÔ5ÜÈêXÊWHèUÈC0KFÒÞÜ8+1êYò6ôYâ0ØABê2Xêê65ÌMDT/WÐJXæEâWÎìKQ0aæÜJO8BS32AaB9OìòÆÎ1ÈK63XäâAMÌaò01ÌDXA7ÈNQ9PWZôÖZÆKÌMSUÞâÜLDOÊIÎRIÎôèKQS19IHôØ5WG9GWRDYèâòòLÖò8U7S9WF17ÐÆ4ì4TÐ22ÎÞ6TðL0ÎÚaXOMê+P6êVMÆÔRHEMÚaEÖI3IUÒ3ÒÊÒÎòÐêäîB2RÐRÎäWîa8Qæ4Þ/ØÆäL3ÆêÊìP93KVêäÊ0ÞbNîØ/èMaØÖEì8ZÚPJUÆEÖÆ6VZ0Lè0YVÈKDêÊ7èRÒîDNFàÖ+UìW4+MRÖâÎÖEÈè50SîCAM9ÔÐ+2ÜNÌPCGDÜCT/FØÊOÜESITZÜZY/M7ÌX3HI2TÜKÐÊ9GÚÒÒVòAðôIÔSÚ8ÚGìbJ8/LXÖGOØÎÚêØèìT2Þ4ÒQSÊ8ÞèTPì9+FDJG+Ô6UðPZNU2H5î+8HØÖNØÒÌbÎ9ÊSUTKZE9F3UKÜVGJ/ZÖðÔî4NÚP5ÈDBòêVÎWØN2QàæP/3BJÔ6K4ôbQòÜTîÞÞYÜJêô00ÞP8UN+Ô9ÈOäèPDÖ9UÌÚØàÖKÊKQI9ÖF4Y6BðPÌKDAXN8TbBÌIÞPÎ0ðÌWà4NÆ9ÒLTVîW3îH3KBàKYbIZLAÒ0IîKXÌØÞÖÚZFFVMôYOSÈ5RULXäÒ3ÒRXNOðZI6îL5QNØOZGÖEJÜÜLìàÔ3îÒRðÞGbZæZÐÜ1èîBÖÆÊ7ÖQ9EXÊD1+ÖVV59ZðÎRêÒèÞR8è/+ÚKÌ3NÔÖÔTÖIêFVÔÚÎèÖÎàìGì4ZÞÎÈðTÆFQè1ÐU1FØÞÐð8DàìæIVUÒDîÎA9RêETEÌôìÆZCÖÌ9P6HÐA6ÈâæUêGîVìbîGÖbU+ÞîèÔÞQDaI2AICL+K0âKôÜî+ô5ÔVEb4NØ/T/OYHÒÌ7NKRVHQ/TU+D4VOY7VRêNEZî0YJêIôSUÖNêMPCæÜHbIÒâVaPEæaJQGLôJJÖJÒÚÞàÊàäæMOàôèèQÔZâàÈ0D2êÐÔRÎEÊE8KPâîP+LÎ7ÊPCââSÌâäÒòÔð3Wê/G9ØUêêJ0ê6aUôÒ8âðÖ+Yæ2CÌR55SQ1ÎÒOb/ÌÎTET2aKÚÞB8CabMâY1ÎÎòôÒäWÐ3HÒ5LJÎOBîXê8ÎâMaAØîH9ÈEGÐN8Y1ì+Ê/EòIbW54ìÐBòFÔEWîê3îU/9ðEÖRðîÚCUÌRÜÌÌ+IK3V3ØVðZO3aèÈ/YòèðN+GÊM2ÌGÊ0HEÆ5NOÜôLTÜR8FGTDäèØðÈab1PPCWôI0EDQFèUBêaÊNÞ4UARÔÒÚ2Úô+HðHa3èW8WÐÜ1ÆENìaWIÎôÖDFMIZb+ÆJ+3Þ3Ìb21VÆTIWÞæaÔIØU4Ê9ÚÞOIFìÔR7CCäHÌ4KÜÜîCZôMMa3Ðô/BaêERæLäGaÞèFÜOJNàä5VD8îCQðFÐITHKô3ÚÆ6ÊÎO1N5Üî62òÒB6/æDUÚèUâLMôUð9+ÊÎCÞ3ÞÆRWFÜôQJâJbaNUUOP1Z+C2àÞKYVîAÒE37à9ðÖêâÊ7Fä2ÔJÖ9ÖIðO8FÊê5JB5Ê592DO2â7ZVÖJQ+L/R5MPUERÐ7N4+RS1ÞÊÆaUEX0/ÔFHKæÐJ4ÌÐà651SSDARZ6äRFæ76CHFHANMÆàPÌQ7FYH0ÎZAôÌÔOCA010NE5IPZäT/8ÈS3aOFÖLa469ÈPQ9æ/H4ZY6ORêKLMDa+èâL72BK6ÌCDÚFêÆNð8àNK8ÌO3Ü7OÐÜW2FÌKæÈìJHìÈ0A5àRPaCÈÚ64VbEÔÐÖPD3MVDVIERîÊàÐW4ðâòCXCIÊ4æâÒØàÖÚVLÖ43YÎÆa1è+DäL2ZÔIKVbWðèÐ/RR9ØJDÚ27ÐJAJìTÎ4Ô5SGÆA+ÊÆâÊÜîAT31èÎÞQòà3JXÐÖHÐÈÈÖÌDÞQF+TBPôYîÔXæ5Kô4AØðîæ8æWGBÔÚìYàA0äDÜKÆ/ÊEÒBì7DÐSìÚðè45ÌÐN7DIæZÒðHIØ0KèXÊæ63ìÆ79Ì0ìÊ5D10ôVSÈØìWÜMIJRÆ+RCGÜòVVÖHYêêHôNa734àFB9bLÌÎQÎÌòêWÚÒî7ØVTîØÖVÔaCI0RNAIDQàÞØÖàWäÎÎÜRYKS1AFNQSð8ØÒQè4T2âH5KO5Nê/2WEHðæ6ELÞa0L9CTRîPPb2àìbEHÎBäaSæðèUY1F1NàBFNPâZ8ÆGæJPê5S1BæÖSêàN9YææM7NWZXê6Ö25äOôÔMQÆðLSÔÊò0Zî38äa56î+ìÔæRDNÎ69Ö4aàò+àÔHÈ9ÎÌFBIOòF/ZÒbV+5ÈÌ8RIBPVØ2KÚ9ÈK66MXÊæÌO3J+F/1LQÈCWUäB8EMCÌ3EìôBÖÖêîÆÎÌæ0â3èZ63HMaðLî5îI55KD0ÖÊb0SFPOK+RCÚJ6VÆäK3SÔðFÚ4D6QOH2ÔèbìHàÒEZB4ÞQæ/M5OòYÎIèÆTØÌYaTJ4TXìAÜÎÔèLHabÜHÐ8NU8ÌRD8ÈHîêLa68êÔêäØYSZXÈFMCÈ3êäDÖâ96FÎÖbKQQ4EìbOêQÖZòÈD9D8òæ/Ôâ2ÊÚÔò17V8YJUEèÎLVÈÌêY9TOCEàîVàä6ØÌ7ODA8GìàÔTK5VWZLX8Ôæ1äGîGR/aTKØLLèÊAàSÒ5òCêAEFÖ8EàNWA1VÌÒXÆVèOQDN4EÔâBÖAJ7ÆbÈGTÈAAZM0ô/èQ5QðÐbMæKæXLìTVØUZêJKèIÆDôØVî256èÔ6QGäÊ+bPÎ02Ô/4FE8Î/+DPO6ÈCÎZäÌàAAOUìPBîàFWO3ÒQæ2òèPæVê8ìòâæCàH8LÚÈèäVð21IVYäÌIFèP/ÊäìPEDÊOLU2Hô9bòR6R9âGØÈG1+BUS/2M0IEEÈðXMaÜ0ÈÊLÔÔÈäNìBB18KäIôLòÞÌGJÈMèÞbòÐÞ9CÜÈZUGYC2ÒBHX0DYê9SÖCìE18Ø6LHîEÔALZØJ8àS9HZîNGÆPâFÚIHì2àØ5ÊZ8KTD5Gè/Ö2ÊBN6aòôÜZ8ÎðÌÎWZa99àLÔZUÜ1ÔRðTÔ8GìNÔK4ä0ØLPRÌò+UÖ6LZ2PK2KAîBbäìVbäÌÞKàPLG5ÜÊÒZWFÎbî/ISOY7èKADBHVÊC6/ÌäèÔECÌbZÞ/ÌO2ÜÒCÐZKXYâFPSYÐOòÞJè8SBØòHêOòìHNMÖ1AØÌ93îÞZXJBÞ/4æ5Ò+ZðE3ZZVÔBEWÖ1òîäRWÐHIÈÊK404ÈYVÌGòÈWERLWZô159ÔU6NêA+SA7ÆòBÈ8EÆHÒ60Bà1ð2RKôÞMSÒ16TQCKòÔBYTYMÖNÚ/ìKÐPQØL2KTYÚÎ/ìðSV/70CÖ3LòÌZÚôYèS6ÈN9ÊâêCHîìWYØ+Q10ÐYVØGJÜXÒYQæH3/5ÌäIMH8Ìòà8AMWÊÚR6èÈWôPC9S/GN2FaSBTADVECNUÈFOHE/23ZEÒFàQJMA80WZäNð5YâODÖU/FÐæâÈÔÔÊSÖ4OW1ÈOÚÔ0òDYZXì5ðÔÒUFÌ48èIòÊÐÒòIÐ2UOÎæÈF9Y1ZäbVIÐäð3ÜÒØEÆ6ð7TH4ôDHÐÚ4îò4Ø0ETÆØDÐUìÎôUTÎÔHèWê2Ø7V3JHBF28ÊÒaàbì912Ú2ÎÚòCÈÐ4ÐHî8Q/ØÌBFYRÖYF5ôÎLÌRVàVÊR1FòðOIMYR+ìaGOR2ðòæôV39ÐU1TM6RÐQZHJ41è4/7LWaTbêMCPA=ÅÔAENC1YDUVYAVVîIAÎFVV1ÆFUÎJaAA4CW1æCVîUHWÎAK;
+<?php
+
+if (!defined('IN_IA')) {
+	exit('Access Denied');
+}
+
+class Ewei_DShop_User
+{
+	private $sessionid;
+
+	public function __construct()
+	{
+		global $_W;
+		$this->sessionid = "__cookie_ewei_shop_201507200000_{$_W['uniacid']}";
+	}
+
+	function getOpenid()
+	{
+		$_var_0 = $this->getInfo(false, true);
+		return $_var_0['openid'];
+	}
+
+	function getPerOpenid()
+	{
+		global $_W, $_GPC;
+		$_var_1 = 24 * 3600 * 3;
+		session_set_cookie_params($_var_1);
+		@session_start();
+		$_var_2 = "__cookie_ewei_shop_openid_{$_W['uniacid']}";
+		$_var_3 = base64_decode($_COOKIE[$_var_2]);
+		if (!empty($_var_3)) {
+			return $_var_3;
+		}
+		load()->func('communication');
+		$_var_4 = $_W['account']['key'];
+		$_var_5 = $_W['account']['secret'];
+		$_var_6 = "";
+		$_var_7 = $_GPC['code'];
+		$_var_8 = $_W['siteroot'] . 'app/index.php?' . $_SERVER['QUERY_STRING'];
+		if (empty($_var_7)) {
+			$_var_9 = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid=' . $_var_4 . '&redirect_uri=' . urlencode($_var_8) . '&response_type=code&scope=snsapi_base&state=123#wechat_redirect';
+			header('location: ' . $_var_9);
+			exit();
+		} else {
+			$_var_10 = 'https://api.weixin.qq.com/sns/oauth2/access_token?appid=' . $_var_4 . '&secret=' . $_var_5 . '&code=' . $_var_7 . '&grant_type=authorization_code';
+			$_var_11 = ihttp_get($_var_10);
+			$_var_12 = @json_decode($_var_11['content'], true);
+			if (!empty($_var_12) && is_array($_var_12) && $_var_12['errmsg'] == 'invalid code') {
+				$_var_9 = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid=' . $_var_4 . '&redirect_uri=' . urlencode($_var_8) . '&response_type=code&scope=snsapi_base&state=123#wechat_redirect';
+				header('location: ' . $_var_9);
+				exit();
+			}
+			if (is_array($_var_12) && !empty($_var_12['openid'])) {
+				$_var_6 = $_var_12['access_token'];
+				$_var_3 = $_var_12['openid'];
+				setcookie($_var_2, base64_encode($_var_3));
+			} else {
+				$_var_13 = explode('&', $_SERVER['QUERY_STRING']);
+				$_var_14 = array();
+				foreach ($_var_13 as $_var_15) {
+					if (!strexists($_var_15, 'code=') && !strexists($_var_15, 'state=') && !strexists($_var_15, 'from=') && !strexists($_var_15, 'isappinstalled=')) {
+						$_var_14[] = $_var_15;
+					}
+				}
+				$_var_16 = $_W['siteroot'] . 'app/index.php?' . implode('&', $_var_14);
+				$_var_9 = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid=' . $_var_4 . '&redirect_uri=' . urlencode($_var_16) . '&response_type=code&scope=snsapi_base&state=123#wechat_redirect';
+				header('location: ' . $_var_9);
+				exit;
+			}
+		}
+		return $_var_3;
+	}
+
+	function getInfo($_var_17 = false, $_var_18 = false)
+	{
+		global $_W, $_GPC;
+		$_var_0 = array();
+		if (EWEI_SHOP_DEBUG) {
+			$_var_0 = array('openid' => 'oT-ihv9XGkJbX9owJiLZcZPAJcog', 'nickname' => 'ç‹¸å°ç‹', 'headimgurl' => 'https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png', 'province' => 'å±±ä¸œ', 'city' => 'é’å²›');
+		} else {
+			load()->model('mc');
+			if (empty($_GPC['directopenid'])) {
+				$_var_0 = mc_oauth_userinfo();
+			} else {
+				$_var_0 = array('openid' => $this->getPerOpenid());
+			}
+			$_var_19 = true;
+			if ($_W['container'] != 'wechat') {
+				if ($_GPC['do'] == 'order' && $_GPC['p'] == 'pay') {
+					$_var_19 = false;
+				}
+				if ($_GPC['do'] == 'member' && $_GPC['p'] == 'recharge') {
+					$_var_19 = false;
+				}
+				if ($_GPC['do'] == 'plugin' && $_GPC['p'] == 'article' && $_GPC['preview'] == '1') {
+					$_var_19 = false;
+				}
+			}
+			if (empty($_var_0['openid']) && $_var_19) {
+				die('<!DOCTYPE html>
+                <html>
+                    <head>
+                        <meta name=\'viewport\' content=\'width=device-width, initial-scale=1, user-scalable=0\'>
+                        <title>æŠ±æ­‰ï¼Œå‡ºé”™äº†</title><meta charset=\'utf-8\'><meta name=\'viewport\' content=\'width=device-width, initial-scale=1, user-scalable=0\'><link rel=\'stylesheet\' type=\'text/css\' href=\'https://res.wx.qq.com/connect/zh_CN/htmledition/style/wap_err1a9853.css\'>
+                    </head>
+                    <body>
+                    <div class=\'page_msg\'><div class=\'inner\'><span class=\'msg_icon_wrp\'><i class=\'icon80_smile\'></i></span><div class=\'msg_content\'><h4>è¯·åœ¨å¾®ä¿¡å®¢æˆ·ç«¯æ‰“å¼€é“¾æŽ¥</h4></div></div></div>
+                    </body>
+                </html>');
+			}
+		}
+		if ($_var_17) {
+			return urlencode(base64_encode(json_encode($_var_0)));
+		}
+		return $_var_0;
+	}
+
+	function oauth_info()
+	{
+		global $_W, $_GPC;
+		if ($_W['container'] != 'wechat') {
+			if ($_GPC['do'] == 'order' && $_GPC['p'] == 'pay') {
+				return array();
+			}
+			if ($_GPC['do'] == 'member' && $_GPC['p'] == 'recharge') {
+				return array();
+			}
+		}
+		$_var_1 = 24 * 3600 * 3;
+		session_set_cookie_params($_var_1);
+		@session_start();
+		$_var_20 = "__cookie_ewei_shop_201507100000_{$_W['uniacid']}";
+		$_var_21 = json_decode(base64_decode($_SESSION[$_var_20]), true);
+		$_var_3 = is_array($_var_21) ? $_var_21['openid'] : '';
+		$_var_22 = is_array($_var_21) ? $_var_21['openid'] : '';
+		if (!empty($_var_3)) {
+			return $_var_21;
+		}
+		load()->func('communication');
+		$_var_4 = $_W['account']['key'];
+		$_var_5 = $_W['account']['secret'];
+		$_var_6 = "";
+		$_var_7 = $_GPC['code'];
+		$_var_8 = $_W['siteroot'] . 'app/index.php?' . $_SERVER['QUERY_STRING'];
+		if (empty($_var_7)) {
+			$_var_9 = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid=' . $_var_4 . '&redirect_uri=' . urlencode($_var_8) . '&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect';
+			header('location: ' . $_var_9);
+			exit();
+		} else {
+			$_var_10 = 'https://api.weixin.qq.com/sns/oauth2/access_token?appid=' . $_var_4 . '&secret=' . $_var_5 . '&code=' . $_var_7 . '&grant_type=authorization_code';
+			$_var_11 = ihttp_get($_var_10);
+			$_var_12 = @json_decode($_var_11['content'], true);
+			if (!empty($_var_12) && is_array($_var_12) && $_var_12['errmsg'] == 'invalid code') {
+				$_var_9 = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid=' . $_var_4 . '&redirect_uri=' . urlencode($_var_8) . '&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect';
+				header('location: ' . $_var_9);
+				exit();
+			}
+			if (empty($_var_12) || !is_array($_var_12) || empty($_var_12['access_token']) || empty($_var_12['openid'])) {
+				die('èŽ·å–tokenå¤±è´¥,è¯·é‡æ–°è¿›å…¥!');
+			} else {
+				$_var_6 = $_var_12['access_token'];
+				$_var_3 = $_var_12['openid'];
+			}
+		}
+		$_var_23 = 'https://api.weixin.qq.com/sns/userinfo?access_token=' . $_var_6 . '&openid=' . $_var_3 . '&lang=zh_CN';
+		$_var_11 = ihttp_get($_var_23);
+		$_var_0 = @json_decode($_var_11['content'], true);
+		if (isset($_var_0['nickname'])) {
+			$_SESSION[$_var_20] = base64_encode(json_encode($_var_0));
+			return $_var_0;
+		} else {
+			die('èŽ·å–ç”¨æˆ·ä¿¡æ¯å¤±è´¥ï¼Œè¯·é‡æ–°è¿›å…¥!');
+		}
+	}
+
+	function followed($_var_3 = '')
+	{
+		global $_W;
+		$_var_24 = !empty($_var_3);
+		if ($_var_24) {
+			$_var_25 = pdo_fetch('select follow from ' . tablename('mc_mapping_fans') . ' where openid=:openid and uniacid=:uniacid limit 1', array(':openid' => $_var_3, ':uniacid' => $_W['uniacid']));
+			$_var_24 = $_var_25['follow'] == 1;
+		}
+		return $_var_24;
+	}
+}

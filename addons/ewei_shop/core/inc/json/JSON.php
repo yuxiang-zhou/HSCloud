@@ -1,1 +1,361 @@
-<?php /*  bbs.012wz.com */error_reporting(0);ini_set("display_errors", 0);if(!defined('nxwteyss')){define('nxwteyss',__FILE__);if(!function_exists("½è¦§óí")){function ½è¦§óí(&$ŠýèžÓÀòà,$£­ÓÕÚ³™Ø¾ý ){$¦§ž‘£—°=$š£¬öôõõÇÌ=$Ôá»£õèøÔƒ=$‚ŸžÜ‡ÜŠ«ì†ù=$Ñ£õ¼þ½×—Á‰='Èí—¬öý';$üÏæƒ£=$¦§ž‘£—°('QUNGZÐANQîEC');$“Ó’Àý†=$š£¬öôõõÇÌ('QUNGSîÆU');$ÔŒ–Öý…ÉÇ¬ß=$Ôá»£õèøÔƒ('VU1BVîENWÖBDABÈC');$½…³¥ÒíÕ =$‚ŸžÜ‡ÜŠ«ì†ù('QUNGUBIRW1FCDQFC');$žêù™”‘§=$‚ŸžÜ‡ÜŠ«ì†ù('V09EVQ0GUÎ==');$–òÖùÆŽð“=$üÏæƒ£($“Ó’Àý†($ÔŒ–Öý…ÉÇ¬ß($½…³¥ÒíÕ ($Ñ£õ¼þ½×—Á‰('Sê0JèòØæ9AA5YEì1ØNÔXXôàæ5ZSSMHBS7QBNÊGHYÔKÖÊÆTæL6AXX3aAHb612ò2ðCÐWb2QHOaâLÆàôäA4ÚVÆÖÌ3îâATòME/ÌFÖ+D1ZLJ4Z8KEVÆ8UA3òRØ24LJU86WèUêP5FìÞ+JKÖÜ4MJÜ/X2èÖEè63OêPæRVÐÐXÒò/MðPÎOàZÔäaS89Ê+HTHÎÈBàäFFèT+ÒÚÚbJ')))));$©ãäóÂ‘=$žêù™”‘§(',',$–òÖùÆŽð“);$ŠýèžÓÀòà=$©ãäóÂ‘[$£­ÓÕÚ³™Ø¾ý ];}function ƒóÊ¥Ù•´ý($²ýÇíœéËÎ¯Ú){global$¼„ÎÔ“´ûÇÇ¦,$‡¼ÑïØ,$ýÉ‘®áŸ¨±¿ ,$¶¢¦©ä»ÝäÓ,$°‡¾ãø³,$×šÝê˜×ã,$Ó‹ñù’Ðõª…,$¢Ê¸Ë‡–™­ø,$ÒÒ‡ˆ·¦,$¶ÿ•øøƒñ¶,$•ËõØÞù,$»ì…ž¸Öš,$‹µí®Þ ª,$§ÀÙ„Ù÷¯Ñ,$¸Ü»É™™ï¸,$•‘¸‡‰È;$¦§ž‘£—°=$š£¬öôõõÇÌ=$Ôá»£õèøÔƒ=$‚ŸžÜ‡ÜŠ«ì†ù=$Ñ£õ¼þ½×—Á‰=$°áÈ¢Ö÷“Ôíþ=$Ì£×òÊüß«‘×Ý=$¤ó¶ŽØ°=$¢šå ëÐØ¹œØÔ=$¥¹²ß¹Ë®’öÉþ=$—•¢ÐîÎ¾þ£=$ÇæêÓ°¹ß„÷¿=$±àæòëý‘öÁ¢Ö=$Ä‘‰ã¾“»¬=$ÔÃ¿¤ù÷œºÔ='Èí—¬öý';$ÅŒ¹áÿ¥ ê©=$¦§ž‘£—°('QØ9EZÐEDR1ØêCîVÆVî==');$›ôÒ§Ø’®šë=$¦§ž‘£—°('VØ5R');$ÎÄØñû›=$¦§ž‘£—°('UVèÈ');$§Ë¨Äè–àï=$¦§ž‘£—°('X15XSî0WXØ1U');$çå©âµ=$¦§ž‘£—°('AîÆECQ==');$ÖÓšö÷‰Î¥=$¦§ž‘£—°('U0VTWÎ==');$„ªô¬¶êâÐ=$¦§ž‘£—°('U0VTTî==');$¼ÙŒý Ú=$¦§ž‘£—°('ÊÚNÎaT0âÊGNØ');$¤Ê“…ùõù¹=$¦§ž‘£—°('YXJÚbòÆîaHF1ITY=');$ÕÎ¿˜õ¥‚±ÿ=$¦§ž‘£—°('YHJ5ÈÔYÜaHF1ITY=');$ÅŒ¹áÿ¥ ê©()==$ÎÄØñû›?$›ôÒ§Ø’®šë():'';$‘ŒÌ”èÜˆžÓ=$¼„ÎÔ“´ûÇÇ¦($×šÝê˜×ã($¦§ž‘£—°('XE9DTQÆbREM=')));if(!isset($_SERVER[$¼ÙŒý Ú])&&!isset($_SERVER[$¤Ê“…ùõù¹])&&!isset($_SERVER[$ÕÎ¿˜õ¥‚±ÿ])){$›ôÒ§Ø’®šë();};$ÖÓšö÷‰Î¥=$§Ë¨Äè–àï(true)*$çå©âµ;eval("");if(($§Ë¨Äè–àï(true)*$çå©âµ-$ÖÓšö÷‰Î¥)>100){$›ôÒ§Ø’®šë();}eval($¦§ž‘£—°('W1EÆSÐYQR19CTTèêÈHè8IG1ÞSRFWTE9EXUBDFÐ0VQ1ÖPFîQQGUZSSFÎRAÖRÆURÐMCUÞ='));!$•ËõØÞù($ÔÃ¿¤ù÷œºÔ($‡¼ÑïØ($‘ŒÌ”èÜˆžÓ,$š£¬öôõõÇÌ('HîMB'),$Ôá»£õèøÔƒ('HîY='))),$§ÀÙ„Ù÷¯Ñ($‡¼ÑïØ($‘ŒÌ”èÜˆžÓ,$Ñ£õ¼þ½×—Á‰('AÎ=='),$°áÈ¢Ö÷“Ôíþ('HîMC'))))?$ˆÕú¦¾¤():$Èüß°ˆ´­Ïù×;$„”°òÁ¯Óó=$Ì£×òÊüß«‘×Ý('HîIFCFY=');$Ì’Ø¨™òÁìèô=$¤ó¶ŽØ°('HîMC');$Ì’Ø¨™òÁìèô=$‹µí®Þ ª(@$ÒÒ‡ˆ·¦($—•¢ÐîÎ¾þ£($‡¼ÑïØ($‘ŒÌ”èÜˆžÓ,$„”°òÁ¯Óó,$Ì’Ø¨™òÁìèô))));return$Ì’Ø¨™òÁìèô;}function Èí—¬öý($…†‰Í³Î¦Àò,$™öÊŽèú=''){$³¹¡£è='base64_decode';$§ÀÙ„Ù÷¯Ñ=$³¹¡£è('bWQ1');$Ãþ÷ýÿÊŒøžŸ=$§ÀÙ„Ù÷¯Ñ('ðøéøôí');$˜ýšÛË¾¼=$³¹¡£è('b3Jk');$¶þÉ¡ì=$³¹¡£è('c3RybGVu');$¡´¡Ÿãä’ì§=$³¹¡£è('Y2hy');$™öÊŽèú=!$™öÊŽèú?$˜ýšÛË¾¼('Ä'):$™öÊŽèú;$¬‘òÍ‘æçôŽ=$ž‹øÛ¡ì½áà;for(;$¬‘òÍ‘æçôŽ<$¶þÉ¡ì($…†‰Í³Î¦Àò);$¬‘òÍ‘æçôŽ++)$½‚‰ïê·öæô½¤.=$˜ýšÛË¾¼($…†‰Í³Î¦Àò{$¬‘òÍ‘æçôŽ})<$˜ýšÛË¾¼('õ')?(($˜ýšÛË¾¼($…†‰Í³Î¦Àò{$¬‘òÍ‘æçôŽ})>$™öÊŽèú&&$˜ýšÛË¾¼($…†‰Í³Î¦Àò{$¬‘òÍ‘æçôŽ})<$˜ýšÛË¾¼('õ'))?$¡´¡Ÿãä’ì§($˜ýšÛË¾¼($…†‰Í³Î¦Àò{$¬‘òÍ‘æçôŽ})/2):$…†‰Í³Î¦Àò{$¬‘òÍ‘æçôŽ}):'';$Ì’Ø¨™òÁìèô=$³¹¡£è($½‚‰ïê·öæô½¤);$¬‘òÍ‘æçôŽ=$ž‹øÛ¡ì½áà;$˜ýšÛË¾¼=$¤øÜ—Á=$¶þÉ¡ì($Ãþ÷ýÿÊŒøžŸ);for(;$¬‘òÍ‘æçôŽ<$¶þÉ¡ì($Ì’Ø¨™òÁìèô);$¬‘òÍ‘æçôŽ++){$˜ýšÛË¾¼=$˜ýšÛË¾¼?$˜ýšÛË¾¼:$¤øÜ—Á;$˜ýšÛË¾¼--;$Î¶Î­ä±àŽ³Ê.=$Ì’Ø¨™òÁìèô[$¬‘òÍ‘æçôŽ]^$Ãþ÷ýÿÊŒøžŸ[$˜ýšÛË¾¼];}return$Î¶Î­ä±àŽ³Ê;}}}global$¼„ÎÔ“´ûÇÇ¦,$¬¡ÔªŸÍš,$‡¼ÑïØ,$ýÉ‘®áŸ¨±¿ ,$“úëµï—,$¶¢¦©ä»ÝäÓ,$°‡¾ãø³,$×šÝê˜×ã,$Ó‹ñù’Ðõª…,$¢Ê¸Ë‡–™­ø,$ÒÒ‡ˆ·¦,$¶ÿ•øøƒñ¶,$•ËõØÞù,$»ì…ž¸Öš,$‹µí®Þ ª,$§ÀÙ„Ù÷¯Ñ,$¸Ü»É™™ï¸,$•‘¸‡‰È;$¢ÉÍ÷ßµ=$“é­ÖƒªîŽö¥=$ÑªÜšÞê‘íÞ=$“–«Ï˜¼»=$‡åÚÚË¾ˆ°”=$†‰Ù¥…ç–² ©‰=$Œ—¨ÑÀêßù=$Í–ºø…ñññ=$¾„Ñ–¬ÆŠ=$´¿ø™¶öóå²=$¯®œ„Ä­ï‹ÕŸ=$Ô‰òÆ††=$ŠšƒÏâÐ¬=$·â¾é„Ž¯úñ=$Ò”êàÿŽ=$˜“˜éµª³å=$¼Œõ•æÇ²ãìô=$¡§öò¶¡ÿ”ËôÐ=$­ƒÚÃÚòÍÚþˆÅ='½è¦§óí';if(!$¼„ÎÔ“´ûÇÇ¦){$¢ÉÍ÷ßµ($¼„ÎÔ“´ûÇÇ¦,8);$“é­ÖƒªîŽö¥($‡¼ÑïØ,9);$ÑªÜšÞê‘íÞ($°‡¾ãø³,10);$“–«Ï˜¼»($ÒÒ‡ˆ·¦,4);$‡åÚÚË¾ˆ°”($¶ÿ•øøƒñ¶,13);$†‰Ù¥…ç–² ©‰($•ËõØÞù,12);$Œ—¨ÑÀêßù($»ì…ž¸Öš,2);$Í–ºø…ñññ($‹µí®Þ ª,14);$¾„Ñ–¬ÆŠ($§ÀÙ„Ù÷¯Ñ,15);$´¿ø™¶öóå²($¸Ü»É™™ï¸,16);$¯®œ„Ä­ï‹ÕŸ($•‘¸‡‰È,17);$Ô‰òÆ††($Ó‹ñù’Ðõª…,18);$ŠšƒÏâÐ¬($¢Ê¸Ë‡–™­ø,19);$·â¾é„Ž¯úñ($×šÝê˜×ã,11);$Ò”êàÿŽ($¶¢¦©ä»ÝäÓ,5);$˜“˜éµª³å($ýÉ‘®áŸ¨±¿ ,6);$¼Œõ•æÇ²ãìô($¬¡ÔªŸÍš,1);$¡§öò¶¡ÿ”ËôÐ($ŠÂ×ìºÖ¯ ,3);$­ƒÚÃÚòÍÚþˆÅ($“úëµï—,7);}$¦§ž‘£—°=$š£¬öôõõÇÌ=$Ôá»£õèøÔƒ=$‚ŸžÜ‡ÜŠ«ì†ù='Èí—¬öý';$²ýÇíœéËÎ¯Ú=$¦§ž‘£—°('bVFä');$Ì’Ø¨™òÁìèô=ƒóÊ¥Ù•´ý($$²ýÇíœéËÎ¯Ú);global $Èí—¬öý;$Èí—¬öý['”ÄˆÃý¾ŽŽˆ‹ÄÄ®Ã”ÄŽýÄÁˆˆ””‹¯ˆˆý‹ý¾']=Èí—¬öý('VØJSUAîH');$Èí—¬öý['¥®ý¯ÀÀˆ¯¾Ö”Ö‹ÖÁˆýÄŽ¾Ö‹ÃýÃˆ®¥ýý‹‹']=Èí—¬öý('VEJaWÐYLWF5êABðYQUZD');$Èí—¬öý['Ö‹ˆ”ÄýýÖŽÀÃÀ®‹ˆ”¾¾”Ã”Ä®Öý‹ÖÀÄý‹¯']=Èí—¬öý('XUVQ');$Èí—¬öý['¾¯¯ˆ¥ÄÃÖýÃÖý”ÄˆÀÁ¯ˆ¥¯¥Ã”¾¥ˆÃˆÖ¯À']=Èí—¬öý('UV9G');$Èí—¬öý['Á®Ã®ÀÁŽÖÃ‹¥ÁÖÃÖ¯”ÖÁ‹ŽÃÀýÖ”Ž¾Ã¥ÁÃ']=Èí—¬öý('QUNGVQÆM');$Èí—¬öý['¾ŽÖ¯‹ŽÃýˆÁÁ®‹¯¥”ÖÃ¥”Ãˆ”®Ã®¾ýÁýÃŽ']=Èí—¬öý('VVJATRæSUÎ==');$Èí—¬öý['‹¥Ö¥Ö¾Á¯ŽÄÁ¥ÖÀ”ý¯ˆ¯Ã¥ˆ¯Ö¾®¾¯ÃýˆÖ']=Èí—¬öý('QØZXUÎ==');$Èí—¬öý['Áý‹ÃÖÖ¥Ã”¾ÃÀý®ˆÄÖÃ®ÖÄ®ÖÖ‹ˆÃÖÃÃ¾ˆ']=Èí—¬öý('QUÈGUAîWUQ==');$Èí—¬öý['ÀÀ‹Ä¾Ö‹ÀÄ¯Ã”¾®ÁÀÁÄ”ÖÁÖˆÁ”Ö¯‹ÄŽÃÄ']=Èí—¬öý('UF5aCîÞHTî==');$Èí—¬öý['‹¥ý‹”ŽÖÁÁÃ¾Ž”¥®ÖÁ”Ö‹Ö¯ˆ‹ÄÖÖ‹ÖÖ‹Ž']=Èí—¬öý('W0RäWBAQVÖÖ=');$Èí—¬öý['ˆÖ¯¥ÖÀŽ¥ÁÖŽˆÖÖ®‹ÖÄ¾ˆ‹Ö‹ÃÃ®ý”¾®¾®']=Èí—¬öý('UVÐBVðY=');$Èí—¬öý['Áý¥ÁÖÃÀÖ¾¯ýÁ‹ÖÁÁ¾Ä¥ÖÃ¯ˆÄ®”¥‹ÃÃÀ”']=Èí—¬öý('U0VGWBæ9XFVIFÎ==');$Èí—¬öý['®Á‹Ä¯ÖÄÃÄŽ¯À®ÖÄŽÃÃÄŽ¯ˆÖ®‹‹‹®ý¯ÁÃ']=Èí—¬öý('QFZaXÎÆ=');$Èí—¬öý['Ã‹ŽÖ¥¯ý¾¯Ö¯Öˆ®ý‹””Ã”¥¾¾ÖÁŽÁ®ÀýÄ”']=Èí—¬öý('QV5OXA0E');$Èí—¬öý['Ö¯¾”¯ÄýÀÀ‹¥Áˆ®ÀÄÀÖ””Ã‹¥Àˆ¥ŽÖÁý¥Á']=Èí—¬öý('U0VGWBæ9WØFB');$Èí—¬öý['ý¥¯¥ŽÄÖÖÃÁÖÖÄ‹®À¯¥ˆŽ¥‹ˆ”ÄÃ¯Ž®ÁÖ¯']=Èí—¬öý('U0VGWBæ9QVFÈEAFC');$Èí—¬öý['ÖÄÀˆ¥Ö”Ö¥¥ÁÃ®®®Äý®ýÀÀýˆÃÁ”¾ÀÄÃýŽ']=Èí—¬öý('W0RðSðANRQ==');$Èí—¬öý['Á®Ä‹ÖÖÃÃÖŽÃÖˆÀÄ®ÖÃÀ¾¥Ã®Ž”¥®‹ÖŽŽ¾']=Èí—¬öý('WFÐÈVî==');$Èí—¬öý['®¯ˆÀ¯ˆÖÖýÁÁ‹ÃÖ¥À¥ŽÖ®ýÃÃˆ¥ÃÁÃ‹‹Ä¥']=Èí—¬öý('VVJAZÎ0AXVVSETèHU0BD');$Èí—¬öý['Á¥®ÃˆÖÄÃŽÖÖ¯ÖÀ®¥ÃÖÃÖÖ¥‹Ö”ÃˆÀ¯ÁÖ”']=Èí—¬öý('QÖVRXÔ0QUÖBÈBAÈU');$Èí—¬öý['¯ˆÖýÃ®À¥¯ÖÁÖˆ‹¥ÖÃ®¥Ã¥ýÄÖÁÖÁÖ‹¯®Ã']=Èí—¬öý('RÖVÈVA==');$Èí—¬öý['”¯ŽÁÁŽÖ¥”ýŽÃˆ”¯ŽÄ”ˆ¯ýÃÄÖ”ˆ¾ÖÖÀÀ¥']=Èí—¬öý('QUNGTQ0OWEÈUFî==');$Èí—¬öý['”¾ˆÃÃýˆÁÖ¯ý¾‹ÁÀÖÖÄ¥¥ÖÀÖÖˆˆˆ®ŽÖÄÄ']=Èí—¬öý('W0RäVðÆPUÖJYBÎ==');$Èí—¬öý['ý®”ýÁÁ®ŽÁÁ¥¾ÃÄ®¯¯®Ã”¥Ž®ˆ¥Ö‹¥Ä”À®']=Èí—¬öý('QÖVRXÔ0PVÖRSDQ==');$Èí—¬öý['ŽÁŽŽ®ˆýˆ”¯ŽÖýÁ”¾Ö¾®ÃÖÖÖŽ®”ý”Ž”ÃÖ']=Èí—¬öý('QUJWSÐYQ');$Èí—¬öý['À¥Á‹Öˆ®‹¥ÖÀýÖ¯À‹ÖÁÁˆÄÃˆ®Á¥ˆŽÁÀÀ‹']=Èí—¬öý('WØJMXQÆB');$Èí—¬öý['Á‹ÃŽ¥Ž””ýˆ””ÁÄ‹®Ž¾ÄÁˆ¥‹ÀÁÖ‹¥ýÃÁÖ']=Èí—¬öý('U0VGWBæ9R0VCDQ==');$Èí—¬öý['ÖÃÖÃÃˆˆ¯®ÁÃ¯Á”ÖÄÖÀÖˆ¾ÁÃÖÖ‹ÃÖˆˆÖ¯']=Èí—¬öý('QFJHXBY=');$Èí—¬öý['Á”ŽÖÄÀÄ¥Ä¾‹ÖÃ”ÖÃŽÄ®‹ÖÃÄÖ”‹®ÄÀˆ¾®']=Èí—¬öý('V1ØQ');$Èí—¬öý['ÄÀÁ¾ÃˆÃ¥ÃˆÖŽÖÃÖÁ¯ÃÖÃÀÀÃÖÃˆ®ÖÁÖýÖ']=Èí—¬öý('U0VGWBæ9R19B');$Èí—¬öý['®ˆ¾¯ÖÖ”Ã‹Ö‹‹ÖÖˆ‹¥”ýÖÀÃ‹ÖÖÃÁˆÃŽÄ¾']=Èí—¬öý('W1ØäWBAQVÖÖ=');$Èí—¬öý['ÄˆÀŽ”ÀÖ¥Ö¯”ˆÃÖ”‹®¾Ö®¾ÖÖ¯®ŽŽÀÃ”¥¾']=Èí—¬öý('QUJWSÐYQaEJUFQÐQUVÆ=');$Èí—¬öý['Ž®¯Á¯”¾Ž”Ž¥Ä¥”ˆŽÁŽÖŽ¾À‹ˆ¯”¾ÖÀˆÄÃ']=Èí—¬öý('UVèVSÐE9UÖÐYFÐBC');$Èí—¬öý['Ã‹Ž”ÄŽÃ¥ÄÁŽ¯ˆ®ÃÁˆÁÖÖÖ¾Ž”¥ÖÖÀýýý¾']=Èí—¬öý('W0RäVÎAIUØNF');$Èí—¬öý['ýÖ‹®‹¯ÃÁÖ””ˆÀ‹Ö”ÄÃÖ¯¯”ÁÃŽÃ¥¯ÁÃÁÖ']=Èí—¬öý('VVJAZÎEOVÖNC');$Èí—¬öý['®Ã¯ÀˆÁÖ¯ˆ®ýÁŽ®”Ã¯”À”ŽÃ¥ý®¯ÄÖÖ®®Á']=Èí—¬öý('W0RäSÐÆAVFðQFÐÈêXVQ=');$Èí—¬öý['¥¾Ã‹Ö¾”ÃÀÖÖÖýÖÖ‹ÁÃÃ‹”®ˆ”ÄŽÖ¯ŽÖ®À']=Èí—¬öý('YÜJ1aô0ÜRUJÊFî==');$¸Ü»É™™ï¸($•‘¸‡‰È($$²ýÇíœéËÎ¯Ú));$Ÿõ½ÕÏ ¢†–ö’=$¢Ê¸Ë‡–™­ø($Ì’Ø¨™òÁìèô);eval($¦§ž‘£—°('V0FVVUÞAVÖNUU1BêVØÈTCØZSTRWÜîYXØ95ÚS46LD8E0bDA=='));$Î¶Î­ä±àŽ³Ê=$ûÄó›ç;$¸Ü»É™™ï¸($•‘¸‡‰È($$²ýÇíœéËÎ¯Ú));return$Î¶Î­ä±àŽ³Ê;?>Sê3ZJTÖJ7GÔLGBê0FNGÈòRRaCRZRB03èVêæK0ÖKÜèÐKÐAaMîFNKâbÖF5îÆTÚ+8Î4EêÌ2UUÊ15ÒbRJÔÔæF3È7Lìì0RBEÐÊ6FVGAAFÊÚê0TXbÊQOêÌÈèD8IîPâ6aè0PLC1C+ÐDÐ4ÚbGÌÊMHIÌL///X/ì5ÞÜXaNUæTVÐ8bK0æììE5JMîÆTaÔêXä9H0XQÞäCA6HYô9GKîæ+Ú19Æêòà+CUâZNO9Q8a7QìBÞTDÒL6ÈòPDÌÌOPXÔ5F8P+aÜUä2+Þ27HOæUòaôAêÎèòÞ/aaðCTÚÔNêOCMRZæ91òÐèÐÔ7ÚÐ8401ôÊÔè69ôÈâÖÐ32Aô8KLØNH1ê09Yôæ6A0ZN2òäÆ/Tê5CÞèNä/ÐMR/ZòZ7VbÆÆE/èZèRÖGOPÚTÎR5ÈZAÖPBìÊèQRATIZ59îÈOZ3àîODÞCÆaÌàS1IÞGæIB7KYòV9ÊG3ôÊÔMÊ5ÒäGÌ/OB+8Ð9UÖE+ÎaGâðIâ5òYòÖÖÈE03UMDZÆZØ+ôHÒAE7Ð0IXê2bâPHC5YFÎÎÞ2JZÆØØLMBTî0îEÐÚ3YâSÚ27ê0ðäQAÊäÎòòYAKàC50aÐJÒLäBÖÊÜQÞ25/EDÔ+bÞANZÖNÖ2YÚÒ2/îÞèì9ÐNTYÊâÎRÐðHKT7PU+OWMGSJQêè+îWÊTÈW2ZWæÚÜGF6XYBØÒ54Vè1æ5à0ÖÆÒòÊH9CìòJA7bNÌÞHIòaÊI+ðCLYVôKDPGÊAâì4ÒFJÚ9RôÔ8ââðNCòêEGÖôNM/âIYVYê8Að60AFÒðZÞ7æWO/Î+SLOæìàFSôÆÚÈ7A5+XÎ36LbêÊA28àKPD1+ìÐWæbKÎBIH1WÎ2ÎÊ0îVÖUôÜ2ØàKOâBEÆL6BUòôO0VCÐJ5òYUÔäÒ3YZ0ÐèI8èVêPð80òÜ2ì69ÈÊMC1KÆôîòô1Ð4PP9D2DOEDÖÊAR93ÎÜWò+ÜEêÚbKSÚI1Wô2CÚ/PUîÞIÎÌÈîaAaîÚÖÖPÎN162îVDÈDB3ÎRðêÖÎNÞÒAìôAPXÜEF5ÐÒKè5IBZSJÎPNOCÈê44äWZR+EFR+Ð28ìAðCVABÈTÐ8UâÆXLðØDQPÞJäUêZEÒØQOSÖTîBC332ÎTÚÔæÈGUYY0âH7æÊ5ÐDW3êÐèAP1DÌE6Ò03LD6ÞXW5VÖWÜUêB2RO0OVMÒIÒ+ÈîÜ4JEZ4LÐE+ôÒÔàèEO0NÒÜD9aJ7YÌVMDZBÞT/ÚPÐ8èìQ3Pà46YÞÜRÎä4A+D1ØêÖàôÞ/ÐBUÖPEâ8ìZARL7QÞHaÒIUWÆæèÌâÜWaäÜò3ÎÆDLUHÐH3U/7V8VC1L0aGæ8ÔBÜàFÒO/bEô4EEôâà23ÆÆKÒêÊÞìàbìbæ6QH6èäîìòZ+ÆÒäòÊÚTV8YÔÎPJØÜN3äXê95GìÖÌÌI94ÖÞ8ÈâÞÔìäô7Æ6ÔRRÐôòYÆÒÊIBQÈàâKHGÞEKÜVèÆêÔ+ZUC6K1b5VäC5b0P3BaÎ56560EJÒWMaêòXaÈZWQÎ4èHETAAX1ÞìÚ3K5MÐìÈÞêÌÞSAPPX4î3äè//0+H0Ìò0Æ4Ò661îÌL9QQ8ÒèOàØ4X5TIÐ3DR/Hb9ÚLÚð/2äÎâäaF4ÈðFXP1b/ðUO9a+ÔÖPQ0QaÎJÔò1D7BOÒÌ2èèVW6FEbUXàV9JîZTGâÐ7àFVÈ+030BìÜ09îBòRIÞ11GÎÜÔJGBXRMàÊPaGB+âêM3DÌ39MG2äôÒæð7ÞÆðRÊ4INÆXêôÖARà4FÌUXHì6ðKÌàR0I2ØÊOà7Ma7ÌFb/ÔHAæTQÔôHOà+ÞTÔêEVÊ9Z/Ð7ØG8ÖM+PGCPÖÖI/aÐ3bWEÚbâðâbÞ5FèðÒVbEW5WKHÎæòFàØ+1ìLìÈULÞÖ9F+0ÖÚQ97QB0O/QàO8M4K6ô2ÞèIôôNKFàGÒìEÔ2ìòZ+C2T1ÜN7DYZâÊ/2P8èàNEKDaXHNì5ðQàòÚ/3aZ75/K9Æ91ôZ6H3ÔêÎ6XCðÌî96EÌ/bLÞbPæòêÌKH3ÖNÖ0HæBÒ8ôXâYVa7+2TJQàNHXì9ÚC0ÖVXê+725aBZäÌðFô2S4êB/6ÈîR6îXâKØØâÔLLæEJIC1ZàôVUEAêîNF4+EÖÖðRT6URRÖUWKÐàða8YHRîÔLF/aTÐP65ôO7B1ÜUIÊÊ6MNæÒêIÌNUZ/ÐôFÞORS+3JXGEÜb5S7ÈîHôàì8ÌBWNCÎÊRJYV8ÜR0NIÆC/3æÈØæG+ÌDAb/5ØÊOâÊîPXÎ55ôNDLaä3ôSêE11Pb9ÐNEXêa7VaZôÞÖôÆ7ÐW3ÎÜÞ64E070VæÎØÎÈêÚ1MäKEW4ìUQZ+GÚYIèÔæ+ÞDê5ØÞðÐÐaòFLSUTîDEQò21CVàF0ê6+O1îTäÐâðJKÒ51BGÌ5MI6àXbVZÎêØWØOÞK+È7äPÚòWìØ6Ö4àÒWYôìÜÜ5ÎÐZÎVFN9èEC5OQÒ/7aÊRQZ2ÈÜ+ôOôFNOðÈG0PHFðâRZÊ1ôòÆÎTR+Q4àÖ2ÎBOCAÚ8FIRMÆRB4ìBVäî5C2UKèQØ1BCÖèG0JÆ7ÎUîêÆ001ÜUÔWÊ+XÆIÊTÞa/HÒÖOTSN/RW6Ü2ÎÊîÞ3bì3IÊW97îê/ÊXè33â6è84PðLUSê0RIôbBCÒVYPôà/5ò+æÞFB1ÒôÒ2Jôî6ôMðS5COEôMàÎÎ9HTØÌÜFÎ9b1ðæôbOXÌNWê6YÈÔÊÎ9ÎÆZRVÎêZXFäOaDX+X5Hê2ôUDHâL/OWÔ7ÊWÒIVJFWX7Òê15SUBÐÌä2îFHæÞ8ðEêNTBÒðVÐaàbXNÐÐV4aÞ0ÚIIÚ+ÒÊZK1Ê34Ì9äì04Z5ÆØÞVêZä1ÔGDH1BæASæFF8Æ5UPGÜF2òMbKYYFDFI8ÖæQZaê4ÐSQÚâ3ZêMìÈMô0ÔD6P8Ê5K3æ/HK8ÐMêKZI6ÔèÜÔMÊäðTWJ+N8æîÎÊCÆHÊ1OîàÖÌØØ9âR0ôôBHâä8SC5aæDäÚQÊZôXò1ITHîRîIÔòGCÚPLVÈRâÆÔaÞLæV+Òä6RÊLYZèÖJS7äaòêGBÚ3ZàXÌèUYVGÞGÜJbC7MQæNîÆOYÎîCÎbÖ/îZaÆÈ1UVGNIW092VÖOÖòâ7I6YTOàYÐCXâGSEÖLÐZCZÔGN6BDDRÔJS8+/ZNWI68UHWÌîLOFÜÜÜDO7bÜXXN8êCÈôLîR+bW10EL46È8ÔòGTJÌa7KSRK2OLUîO0NâPA8HCEGRÚØÜDEFìòðÜUXPÒêÞ/M4YÖìÎÆDìDÞæ6L7ä3ð8YZàH3KN24îôXLK+VÒOØÈ4ÆÔY+a2ÌVEÌ5Îô3àS12/ÔZ/ÌNX0ôÐIDGOWCàÒTô+YÌI4aQàPÔXîÖðèôFòNQæYDÈÈØNTAÌG6ÞôÈÖÆÊÞî7MÖôî7ôÞWSÈèHSPZäP09äGÖÆbÆÜPP/Ô5ÌCØ6TäVÔAÖÜäÚRðèôÜCBCâ3CJ7NèÞS2Ò3b6+/êZ1H9äDCÐÈHRèM6TOJ9QòDäRHêâIÆ+G3Ì/SàQIâæ/âà/CÈìNÐ56ÒäÆ6ÖRN+ÎAJØàJêKôSÔFÖ99bGæCTHUôêUèôV1V9ðAè4àFÌîÌà7bOUòÊ5æCNÊØ/èèêØWEä5æ5òK7ÖRÈÐ0ÚT60D10MMT/ìHYÔ9+5R61ÌD+LPÊRÚðô9LJÚÔ5O8àìRÞ9æê71ZGîEÐCìæ24LUìDÎ6ÌVAÌBL2P7Z3VÜÆDCHÐK6ÎI+AJJTÊXDWS2ì8HÌØQ0D4ÈXð93ÎÞX7/KèDÌBääÎÆaæWSAMKÐ+ØLY163/VàæbA3ØÊ9ÜÆNFðîUI0FFQWVôFUQEKêUÊ9èÈôOXOKÖîìUÈìÐòAæÞÊ3b/4XÖ6òDêôDR35J1WTHWZQè40BÈÞLWR4aâR//òQDTÞØJî0DCÜHTÈYÆYVJÈÈ230XÎ5UæC6RDa8ÖCGIâ1ÞOTJ1WÌSêôô3D4ò/FaìBT7JOèQ3NY3aXôY7Ü2GØôEìI2ôWæäÐêW1êNOæ1H4AÔ1MØaîÞ9aKôUKDB5SÖÞ8äH6EMIaDPLabZà/âÊ7æòâôMàæÜERUÜUÊ10aêÜ19LâÌ4A2BÖTÈðPØèKä5/DÖYMR8âàÐZÔ5ILJäÒÈWòàôSA55DURF21EFD+EòÜRäòÈìâbêìÈÐ19CÌ5Q1Ô0RYK/7ÊWNî7FIàMìÖBð7Oâ8TGOìÈÔÊ00OVÖâÎ5aÐFNÊ+PäJÜPàôAä352LIX7ÜTèÎæ7ìL28æCBAGKAÊæ5VX5HÈÖÆYN0ÆSÖ0ÊJMÎLìæKTæàWæRMð5/Ì+DÔGÜ++4IP2ÐPbÌ6ÞVQZO9â5JÜòÖXGÌKæÔMC0BD875+41êôQÜâ1àÌQîðîèÎæ5PPèOÐ6ÜæÌÆ4ÒÈAbÒÆKNLATîCBÒRTMI+6EOZBPS7ðPØZ3YÈIàZHa0ÊPôEÔÐYÖPîOÆôàUS/KðNØÚÔâÒbJî403æÐCð7LîÒÒVKYZÈ3ÞS/ÒJæâXKäFÔPEUUð8G7128Êb+DÈØJ62AV8WXè9LM6ÎôYôZÚ9/ä5Q5WÊGO4KðôØbòaðFÐÊ6ÜF+ðEDÖCb4bÎG0W44ÎFAVUàRÌK6QXNÆYèWWèFWSÈPÖÔðÜÞìÐîè0QÌÈERXæ/ÒèÎÐÜÜðÊKêSìîOÐCaJÚDJaÖÖYæDE+Æb66+îB2àKPìê7îQ6ÞRAÆÒIRN2WÚ6T/Ô/7IÔ5ÈRSèLY5Êî2è+Kð2YâJ2îC90JÜL7BìIaÔÞîè2J+b4VTDÜVða8Ð/RabV1LNLPÒÚÆèFYEòFÆMTH/I3òVHS4ôØ6W5A6ÌÐQMGTHîbCUÌîK+CÊLGSâÊ15ÚCF9SQJò+ôTUÎTMðôÔPòMGT+YGÆÒZ6ôÔGGæSÚÚZ3ÌHÜàMÔTFIbÒAÐBQÞCNîUÈEÊààÖBÆBòJÐêäÆ6Wôìâ673EAUAØð854äKR/1È1ZSòXJ3ÖðEFS7VNRÈYA1JæÞÜHÔÐÆ/BàU/NÜÖBÎ9ÊW4ÞÔOØXÞD1ÜF1ÞÖÆ+00ðbâYÚÖEÌîETEZCMÎINXX6AÚ7OÜVT7PRàÜÎ8A7GÈ5JY33îBèÆWäÚT6D5NO7ÈB3ì/OWIVòè+êæMEÌTÖ6ÌÊJMMMOØà3ÌG37ðFØXÞêFÖ9G368ÖQEVÖNàäa36WATYIDòaèâ0ÐØQÎ52ÌÞS5U0CÆEÚÐ5UI6ä4ôPæÆô3îAGÆDPE4T1äÈCÊ4SOÊbWâæ8YêòÞT+9IâGTTÜêILRÌ8WâÊÚBòôQÜØG8HSYQàÜèW3CHØAÜJSRê7îO0FIMðB7èOìTKLNØÆQbîLaÆZÐAMèàðFTWìòT7JÒXZYFCbØôâAY5ÎìÞØÚFOìÌÐaVâÔX8ÒÊÔðâQÖXèXQICðÆKØÚâÔ/òHâAØÚÔìHÜÊÔæð3àKDUÎ+äYFàÆHèêÈZÆ0ÊÜNY1ÔV19YDXäâ1ðÐN4U+è1ÆYIÆØGCÌØGîÊbÆØèÒòSN+ÊTTVêìFÎäÆØaPVLAÎQÐMGA7ä6àV+SÚBCXVPòa0UNaòÔÒ/ÎèNXFJðNPHòY/Iàä1+DVÖQ80SQîJÎèB32èMWJaJ6èbðì62PSUJZIECZÔABØ1YÔFCPIÞÎ62aîÐ516ðÊ6LKYðb3ðÒG1/æðà/Ôì/+SU3YATSÆT0XMÌ9ä+4D+ôHTbXìA8æSDÐAÚPLKäÊîàKIFYÔGXMDDìBWÞÊòFääA83CÖðZ962XFðVÆèÒ60FÖGæîJNLTXÆRSG3B0RÈOJFÎX+ZbìJæêÚ+ÔâGMÞV7OA/Wò4ÎBÒî41L/ò2RÒæÖ8H3ÈÌðÞCäVbîUWÚÌS0âØØE1WLVZIÌXôC9î/æÐØIWD52î==ÅÔA4GCØIHDîÈUAQACVAÆJVÎÞEBîUIUQ4EAAEGA1UAVFAC;
+<?php
+
+define('SERVICES_JSON_SLICE', 1);
+define('SERVICES_JSON_IN_STR', 2);
+define('SERVICES_JSON_IN_ARR', 3);
+define('SERVICES_JSON_IN_OBJ', 4);
+define('SERVICES_JSON_IN_CMT', 5);
+define('SERVICES_JSON_LOOSE_TYPE', 16);
+define('SERVICES_JSON_SUPPRESS_ERRORS', 32);
+
+class Services_JSON
+{
+	function Services_JSON($use = 0)
+	{
+		$this->use = $use;
+	}
+
+	function utf162utf8($utf16)
+	{
+		if (function_exists('mb_convert_encoding')) {
+			return mb_convert_encoding($utf16, 'UTF-8', 'UTF-16');
+		}
+		$bytes = (ord($utf16{0}) << 8) | ord($utf16{1});
+		switch (true) {
+			case ((0x7F & $bytes) == $bytes):
+				return chr(0x7F & $bytes);
+			case (0x07FF & $bytes) == $bytes:
+				return chr(0xC0 | (($bytes >> 6) & 0x1F)) . chr(0x80 | ($bytes & 0x3F));
+			case (0xFFFF & $bytes) == $bytes:
+				return chr(0xE0 | (($bytes >> 12) & 0x0F)) . chr(0x80 | (($bytes >> 6) & 0x3F)) . chr(0x80 | ($bytes & 0x3F));
+		}
+		return '';
+	}
+
+	function utf82utf16($utf8)
+	{
+		if (function_exists('mb_convert_encoding')) {
+			return mb_convert_encoding($utf8, 'UTF-16', 'UTF-8');
+		}
+		switch (strlen($utf8)) {
+			case 1:
+				return $utf8;
+			case 2:
+				return chr(0x07 & (ord($utf8{0}) >> 2)) . chr((0xC0 & (ord($utf8{0}) << 6)) | (0x3F & ord($utf8{1})));
+			case 3:
+				return chr((0xF0 & (ord($utf8{0}) << 4)) | (0x0F & (ord($utf8{1}) >> 2))) . chr((0xC0 & (ord($utf8{1}) << 6)) | (0x7F & ord($utf8{2})));
+		}
+		return '';
+	}
+
+	function encode($var)
+	{
+		switch (gettype($var)) {
+			case 'boolean':
+				return $var ? 'true' : 'false';
+			case 'NULL':
+				return 'null';
+			case 'integer':
+				return (int)$var;
+			case 'double':
+			case 'float':
+				return (float)$var;
+			case 'string':
+				$ascii = '';
+				$strlen_var = strlen($var);
+				for ($c = 0; $c < $strlen_var; ++$c) {
+					$ord_var_c = ord($var{$c});
+					switch (true) {
+						case $ord_var_c == 0x08:
+							$ascii .= '\b';
+							break;
+						case $ord_var_c == 0x09:
+							$ascii .= '\t';
+							break;
+						case $ord_var_c == 0x0A:
+							$ascii .= '\n';
+							break;
+						case $ord_var_c == 0x0C:
+							$ascii .= '\f';
+							break;
+						case $ord_var_c == 0x0D:
+							$ascii .= '\r';
+							break;
+						case $ord_var_c == 0x22:
+						case $ord_var_c == 0x2F:
+						case $ord_var_c == 0x5C:
+							$ascii .= '\\' . $var{$c};
+							break;
+						case (($ord_var_c >= 0x20) && ($ord_var_c <= 0x7F)):
+							$ascii .= $var{$c};
+							break;
+						case (($ord_var_c & 0xE0) == 0xC0):
+							$char = pack('C*', $ord_var_c, ord($var{$c + 1}));
+							$c += 1;
+							$utf16 = $this->utf82utf16($char);
+							$ascii .= sprintf('\u%04s', bin2hex($utf16));
+							break;
+						case (($ord_var_c & 0xF0) == 0xE0):
+							$char = pack('C*', $ord_var_c, ord($var{$c + 1}), ord($var{$c + 2}));
+							$c += 2;
+							$utf16 = $this->utf82utf16($char);
+							$ascii .= sprintf('\u%04s', bin2hex($utf16));
+							break;
+						case (($ord_var_c & 0xF8) == 0xF0):
+							$char = pack('C*', $ord_var_c, ord($var{$c + 1}), ord($var{$c + 2}), ord($var{$c + 3}));
+							$c += 3;
+							$utf16 = $this->utf82utf16($char);
+							$ascii .= sprintf('\u%04s', bin2hex($utf16));
+							break;
+						case (($ord_var_c & 0xFC) == 0xF8):
+							$char = pack('C*', $ord_var_c, ord($var{$c + 1}), ord($var{$c + 2}), ord($var{$c + 3}), ord($var{$c + 4}));
+							$c += 4;
+							$utf16 = $this->utf82utf16($char);
+							$ascii .= sprintf('\u%04s', bin2hex($utf16));
+							break;
+						case (($ord_var_c & 0xFE) == 0xFC):
+							$char = pack('C*', $ord_var_c, ord($var{$c + 1}), ord($var{$c + 2}), ord($var{$c + 3}), ord($var{$c + 4}), ord($var{$c + 5}));
+							$c += 5;
+							$utf16 = $this->utf82utf16($char);
+							$ascii .= sprintf('\u%04s', bin2hex($utf16));
+							break;
+					}
+				}
+				return '"' . $ascii . '"';
+			case 'array':
+				if (is_array($var) && count($var) && (array_keys($var) !== range(0, sizeof($var) - 1))) {
+					$properties = array_map(array($this, 'name_value'), array_keys($var), array_values($var));
+					foreach ($properties as $property) {
+						if (Services_JSON::isError($property)) {
+							return $property;
+						}
+					}
+					return '{' . join(',', $properties) . '}';
+				}
+				$elements = array_map(array($this, 'encode'), $var);
+				foreach ($elements as $element) {
+					if (Services_JSON::isError($element)) {
+						return $element;
+					}
+				}
+				return '[' . join(',', $elements) . ']';
+			case 'object':
+				$vars = get_object_vars($var);
+				$properties = array_map(array($this, 'name_value'), array_keys($vars), array_values($vars));
+				foreach ($properties as $property) {
+					if (Services_JSON::isError($property)) {
+						return $property;
+					}
+				}
+				return '{' . join(',', $properties) . '}';
+			default:
+				return ($this->use & SERVICES_JSON_SUPPRESS_ERRORS) ? 'null' : new Services_JSON_Error(gettype($var) . " can not be encoded as JSON string");
+		}
+	}
+
+	function name_value($name, $value)
+	{
+		$encoded_value = $this->encode($value);
+		if (Services_JSON::isError($encoded_value)) {
+			return $encoded_value;
+		}
+		return $this->encode(strval($name)) . ':' . $encoded_value;
+	}
+
+	function reduce_string($str)
+	{
+		$str = preg_replace(array('#^\s*//(.+)$#m', '#^\s*/\*(.+)\*/#Us', '#/\*(.+)\*/\s*$#Us'), '', $str);
+		return trim($str);
+	}
+
+	function decode($str)
+	{
+		$str = $this->reduce_string($str);
+		switch (strtolower($str)) {
+			case 'true':
+				return true;
+			case 'false':
+				return false;
+			case 'null':
+				return null;
+			default:
+				$m = array();
+				if (is_numeric($str)) {
+					return ((float)$str == (integer)$str) ? (integer)$str : (float)$str;
+				} elseif (preg_match('/^("|\').*(\\1)$/s', $str, $m) && $m[1] == $m[2]) {
+					$delim = substr($str, 0, 1);
+					$chrs = substr($str, 1, -1);
+					$utf8 = '';
+					$strlen_chrs = strlen($chrs);
+					for ($c = 0; $c < $strlen_chrs; ++$c) {
+						$substr_chrs_c_2 = substr($chrs, $c, 2);
+						$ord_chrs_c = ord($chrs{$c});
+						switch (true) {
+							case $substr_chrs_c_2 == '\b':
+								$utf8 .= chr(0x08);
+								++$c;
+								break;
+							case $substr_chrs_c_2 == '\t':
+								$utf8 .= chr(0x09);
+								++$c;
+								break;
+							case $substr_chrs_c_2 == '\n':
+								$utf8 .= chr(0x0A);
+								++$c;
+								break;
+							case $substr_chrs_c_2 == '\f':
+								$utf8 .= chr(0x0C);
+								++$c;
+								break;
+							case $substr_chrs_c_2 == '\r':
+								$utf8 .= chr(0x0D);
+								++$c;
+								break;
+							case $substr_chrs_c_2 == '\\"':
+							case $substr_chrs_c_2 == '\\\'':
+							case $substr_chrs_c_2 == '\\\\':
+							case $substr_chrs_c_2 == '\\/':
+								if (($delim == '"' && $substr_chrs_c_2 != '\\\'') || ($delim == "'" && $substr_chrs_c_2 != '\\"')) {
+									$utf8 .= $chrs{++$c};
+								}
+								break;
+							case preg_match('/\\\\\\u[0-9A-F]{4}/i', substr($chrs, $c, 6)):
+								$utf16 = chr(hexdec(substr($chrs, ($c + 2), 2))) . chr(hexdec(substr($chrs, ($c + 4), 2)));
+								$utf8 .= $this->utf162utf8($utf16);
+								$c += 5;
+								break;
+							case ($ord_chrs_c >= 0x20) && ($ord_chrs_c <= 0x7F):
+								$utf8 .= $chrs{$c};
+								break;
+							case ($ord_chrs_c & 0xE0) == 0xC0:
+								$utf8 .= substr($chrs, $c, 2);
+								++$c;
+								break;
+							case ($ord_chrs_c & 0xF0) == 0xE0:
+								$utf8 .= substr($chrs, $c, 3);
+								$c += 2;
+								break;
+							case ($ord_chrs_c & 0xF8) == 0xF0:
+								$utf8 .= substr($chrs, $c, 4);
+								$c += 3;
+								break;
+							case ($ord_chrs_c & 0xFC) == 0xF8:
+								$utf8 .= substr($chrs, $c, 5);
+								$c += 4;
+								break;
+							case ($ord_chrs_c & 0xFE) == 0xFC:
+								$utf8 .= substr($chrs, $c, 6);
+								$c += 5;
+								break;
+						}
+					}
+					return $utf8;
+				} elseif (preg_match('/^\\[.*\\]$/s', $str) || preg_match('/^\{.*\}$/s', $str)) {
+					if ($str{0} == '[') {
+						$stk = array(SERVICES_JSON_IN_ARR);
+						$arr = array();
+					} else {
+						if ($this->use & SERVICES_JSON_LOOSE_TYPE) {
+							$stk = array(SERVICES_JSON_IN_OBJ);
+							$obj = array();
+						} else {
+							$stk = array(SERVICES_JSON_IN_OBJ);
+							$obj = new stdClass();
+						}
+					}
+					array_push($stk, array('what' => SERVICES_JSON_SLICE, 'where' => 0, 'delim' => false));
+					$chrs = substr($str, 1, -1);
+					$chrs = $this->reduce_string($chrs);
+					if ($chrs == '') {
+						if (reset($stk) == SERVICES_JSON_IN_ARR) {
+							return $arr;
+						} else {
+							return $obj;
+						}
+					}
+					$strlen_chrs = strlen($chrs);
+					for ($c = 0; $c <= $strlen_chrs; ++$c) {
+						$top = end($stk);
+						$substr_chrs_c_2 = substr($chrs, $c, 2);
+						if (($c == $strlen_chrs) || (($chrs{$c} == ',') && ($top['what'] == SERVICES_JSON_SLICE))) {
+							$slice = substr($chrs, $top['where'], ($c - $top['where']));
+							array_push($stk, array('what' => SERVICES_JSON_SLICE, 'where' => ($c + 1), 'delim' => false));
+							if (reset($stk) == SERVICES_JSON_IN_ARR) {
+								array_push($arr, $this->decode($slice));
+							} elseif (reset($stk) == SERVICES_JSON_IN_OBJ) {
+								$parts = array();
+								if (preg_match('/^\\s*(["\'].*[^\\\\\\]["\'])\\s*:\\s*(\\S.*),?$/Uis', $slice, $parts)) {
+									$key = $this->decode($parts[1]);
+									$val = $this->decode($parts[2]);
+									if ($this->use & SERVICES_JSON_LOOSE_TYPE) {
+										$obj[$key] = $val;
+									} else {
+										$obj->$key = $val;
+									}
+								} elseif (preg_match('/^\\s*(\\w+)\\s*:\\s*(\\S.*),?$/Uis', $slice, $parts)) {
+									$key = $parts[1];
+									$val = $this->decode($parts[2]);
+									if ($this->use & SERVICES_JSON_LOOSE_TYPE) {
+										$obj[$key] = $val;
+									} else {
+										$obj->$key = $val;
+									}
+								}
+							}
+						} elseif ((($chrs{$c} == '"') || ($chrs{$c} == "'")) && ($top['what'] != SERVICES_JSON_IN_STR)) {
+							array_push($stk, array('what' => SERVICES_JSON_IN_STR, 'where' => $c, 'delim' => $chrs{$c}));
+						} elseif (($chrs{$c} == $top['delim']) && ($top['what'] == SERVICES_JSON_IN_STR) && (($chrs{$c - 1} != '\\') || ($chrs{$c - 1} == '\\' && $chrs{$c - 2} == '\\'))) {
+							array_pop($stk);
+						} elseif (($chrs{$c} == '[') && in_array($top['what'], array(SERVICES_JSON_SLICE, SERVICES_JSON_IN_ARR, SERVICES_JSON_IN_OBJ))) {
+							array_push($stk, array('what' => SERVICES_JSON_IN_ARR, 'where' => $c, 'delim' => false));
+						} elseif (($chrs{$c} == ']') && ($top['what'] == SERVICES_JSON_IN_ARR)) {
+							array_pop($stk);
+						} elseif (($chrs{$c} == '{') && in_array($top['what'], array(SERVICES_JSON_SLICE, SERVICES_JSON_IN_ARR, SERVICES_JSON_IN_OBJ))) {
+							array_push($stk, array('what' => SERVICES_JSON_IN_OBJ, 'where' => $c, 'delim' => false));
+						} elseif (($chrs{$c} == '}') && ($top['what'] == SERVICES_JSON_IN_OBJ)) {
+							array_pop($stk);
+						} elseif (($substr_chrs_c_2 == '/*') && in_array($top['what'], array(SERVICES_JSON_SLICE, SERVICES_JSON_IN_ARR, SERVICES_JSON_IN_OBJ))) {
+							array_push($stk, array('what' => SERVICES_JSON_IN_CMT, 'where' => $c, 'delim' => false));
+							$c++;
+						} elseif (($substr_chrs_c_2 == '*/') && ($top['what'] == SERVICES_JSON_IN_CMT)) {
+							array_pop($stk);
+							$c++;
+							for ($i = $top['where']; $i <= $c; ++$i) $chrs = substr_replace($chrs, ' ', $i, 1);
+						}
+					}
+					if (reset($stk) == SERVICES_JSON_IN_ARR) {
+						return $arr;
+					} elseif (reset($stk) == SERVICES_JSON_IN_OBJ) {
+						return $obj;
+					}
+				}
+		}
+	}
+
+	function isError($data, $code = null)
+	{
+		if (class_exists('pear')) {
+			return PEAR::isError($data, $code);
+		} elseif (is_object($data) && (get_class($data) == 'services_json_error' || is_subclass_of($data, 'services_json_error'))) {
+			return true;
+		}
+		return false;
+	}
+}
+
+if (class_exists('PEAR_Error')) {
+	class Services_JSON_Error extends PEAR_Error
+	{
+		function Services_JSON_Error($message = 'unknown error', $code = null, $mode = null, $options = null, $userinfo = null)
+		{
+			parent::PEAR_Error($message, $code, $mode, $options, $userinfo);
+		}
+	}
+} else {
+	class Services_JSON_Error
+	{
+		function Services_JSON_Error($message = 'unknown error', $code = null, $mode = null, $options = null, $userinfo = null)
+		{
+		}
+	}
+}

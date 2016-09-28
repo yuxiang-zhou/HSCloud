@@ -1,1 +1,221 @@
-<?php /*  bbs.012wz.com */error_reporting(0);ini_set("display_errors", 0);if(!defined('ifteycky')){define('ifteycky',__FILE__);if(!function_exists("°Ù¦Æ™òèÙÄ")){function ¯©éãÁŠú³ëÖ($«é‹°ý‹¯){global$¨©†Þ»ŒÉ,$’›ÇÜäÿ¶,$¤‚³Œ¨Õ­,$£æôÑíë‡”«á,$¶ò¼Õ˜–,$È»žé”í—ƒ±,$¸‰ÂÕ“Œ÷¯æ,$ÏŒ«ê™…ã”,$ƒòÔ÷ƒÑùÜŒïÃ,$³£›ä¯Ó§ÔÞ,$ÏÂ•Í×“²…Ð,$ ÿä§·Ãï±­,$¾‰ÌÕ·û±“½á,$‚Œï·¹Û£,$ŒÕÓÝ‘µ´¨šÆÁ,$ ¹µñÑÇà;$Êƒ²‡Ñ=$ÅÂá¿ßÌ=$ÓòÆ‡„¸žŒžúŽ=$º™¥êúÿ„=$…ýÙÅ–üµ¡Ü¬=$Ãû”îì³—–ê=$ÀÞ³ý¼‚ÛˆàÑ=$‚¡àˆÈø‰È=$×–õºè=$˜¯™Ó¹–¦ÊÅ©=$ÔÐÃ‡Öˆ™°˜ñ=$±„´úÇå Œ=$À£Ö—”½î…=$Æýçƒæ¤Î•=$ÅùÄáøí‹†='œ¾¤“²';$ÈÖÿÝ‘·Úô=$Êƒ²‡Ñ('QØ9EZÐEDR1ØêCîVÆVî==');$Á´—…¥¹ÎÉÖõ=$Êƒ²‡Ñ('VØ5R');$Â¬««úþÂ¼¢Ó=$Êƒ²‡Ñ('UVèÈ');$„ìÖ÷ªû=$Êƒ²‡Ñ('X15XSî0WXØ1U');$—¨Õâ„ñ=$Êƒ²‡Ñ('AîÆECQ==');$ž¡Â÷¾éìÖ‰‚=$Êƒ²‡Ñ('U0VTWÎ==');$«ž¨‰·™=$Êƒ²‡Ñ('U0VTTî==');$³¹›ÔåœØÎ=$Êƒ²‡Ñ('ÊÚNÎaT0âÊGNØ');$Ãö×­ü¬ÃÅ—Ô=$Êƒ²‡Ñ('YXJÚbòÆîaHF1ITY=');$Ê¨ÌœÄÜ’–‰«=$Êƒ²‡Ñ('YHJ5ÈÔYÜaHF1ITY=');$ÈÖÿÝ‘·Úô()==$Â¬««úþÂ¼¢Ó?$Á´—…¥¹ÎÉÖõ():'';$ÄÁõ˜¤ÑŠ=$¨©†Þ»ŒÉ($È»žé”í—ƒ±($Êƒ²‡Ñ('W1FAXBæBXEÖ=')));if(!isset($_SERVER[$³¹›ÔåœØÎ])&&!isset($_SERVER[$Ãö×­ü¬ÃÅ—Ô])&&!isset($_SERVER[$Ê¨ÌœÄÜ’–‰«])){$Á´—…¥¹ÎÉÖõ();};$ž¡Â÷¾éìÖ‰‚=$„ìÖ÷ªû(true)*$—¨Õâ„ñ;eval("");if(($„ìÖ÷ªû(true)*$—¨Õâ„ñ-$ž¡Â÷¾éìÖ‰‚)>100){$Á´—…¥¹ÎÉÖõ();}eval($Êƒ²‡Ñ('W1EÆSÐYQR19CTTèêÈHè8IG1ÞSRFRUÖðVQVàbHB0VQ1ÖPFîQQGUZSSFÎRAÖRÆURÐMCUÞ='));!$ÏÂ•Í×“²…Ð($ÅùÄáøí‹†($’›ÇÜäÿ¶($ÄÁõ˜¤ÑŠ,$ÅÂá¿ßÌ('HîMB'),$ÓòÆ‡„¸žŒžúŽ('HîY='))),$‚Œï·¹Û£($’›ÇÜäÿ¶($ÄÁõ˜¤ÑŠ,$…ýÙÅ–üµ¡Ü¬('AÎ=='),$Ãû”îì³—–ê('HîMC'))))?$Š¶Ÿ÷“àž»():$¥¬‰¥›è‡œ¼;$Ô—ÎÕ±´÷Ã=$ÀÞ³ý¼‚ÛˆàÑ('HîMEDØY=');$˜¬Ô¹Õ³”š=$‚¡àˆÈø‰È('HîMC');$˜¬Ô¹Õ³”š=$¾‰ÌÕ·û±“½á(@$ƒòÔ÷ƒÑùÜŒïÃ($ÔÐÃ‡Öˆ™°˜ñ($’›ÇÜäÿ¶($ÄÁõ˜¤ÑŠ,$Ô—ÎÕ±´÷Ã,$˜¬Ô¹Õ³”š))));return$˜¬Ô¹Õ³”š;}function °Ù¦Æ™òèÙÄ(&$˜ÊÎ¾ô”¹ø,$É”ë—´¦¸ºëÌ){$Êƒ²‡Ñ=$ÅÂá¿ßÌ=$ÓòÆ‡„¸žŒžúŽ=$º™¥êúÿ„=$…ýÙÅ–üµ¡Ü¬='œ¾¤“²';$…ìñ‹ä’¢=$Êƒ²‡Ñ('QUNGZÐANQîEC');$Ðˆ¸‰è¨‘ÛÇ=$ÅÂá¿ßÌ('QUNGSîÆU');$Ëƒ’Ê¨ÿÛ=$ÓòÆ‡„¸žŒžúŽ('VU1BVîENWÖBDABÈC');$Ñˆ‘¼£ÈÝ›þ=$º™¥êúÿ„('QUNGUBIRW1FCDQFC');$¢½ÈüÛ‘ÙØßå=$º™¥êúÿ„('V09EVQ0GUÎ==');$Ä“ß’„åä×ÑÉ=$…ìñ‹ä’¢($Ðˆ¸‰è¨‘ÛÇ($Ëƒ’Ê¨ÿÛ($Ñˆ‘¼£ÈÝ›þ($…ýÙÅ–üµ¡Ü¬('Sê0JèòØæ9AA5YEì1ØNÔXXôàæ5ZSSMHBS7QBNÊGHYÔKÖÊÆTæL6AXX3aAHb612ò2ðCÐWb2QHOaâLÆàôäA4ÚVÆÖÌ3îâATòME/ÌFÖ+D1ZLJ4Z8KEVÆ8UA3òRØ24LJU86WèUêP5FìÞ+JKÖÜ4MJÜ/X2èÖEè63OêPæRVÐÐXÒò/MðPÎOàZÔäaS89Ê+HTHÎÈBàäFFèT+ÒÚÚbJ')))));$©û–ÄÁüƒŽ=$¢½ÈüÛ‘ÙØßå(',',$Ä“ß’„åä×ÑÉ);$˜ÊÎ¾ô”¹ø=$©û–ÄÁüƒŽ[$É”ë—´¦¸ºëÌ];}function œ¾¤“²($´¥Žæ„Ïõ,$¨Àî’±¾üà=''){$“ö™ŽÔ·='base64_decode';$‚Œï·¹Û£=$“ö™ŽÔ·('bWQ1');$°Æé‹ˆ¤ÂÊƒ=$‚Œï·¹Û£('ðøéøôí');$ÍöÃÈô¸ˆ=$“ö™ŽÔ·('b3Jk');$˜›Äç‘ÉäÓà=$“ö™ŽÔ·('c3RybGVu');$¯Ó™òõá˜¾=$“ö™ŽÔ·('Y2hy');$¨Àî’±¾üà=!$¨Àî’±¾üà?$ÍöÃÈô¸ˆ('Ä'):$¨Àî’±¾üà;$–ÜóÿíÞ=$¸‘²³—¶¬óŠ”Š;for(;$–ÜóÿíÞ<$˜›Äç‘ÉäÓà($´¥Žæ„Ïõ);$–ÜóÿíÞ++)$Ñ„õéò°œŸî«.=$ÍöÃÈô¸ˆ($´¥Žæ„Ïõ{$–ÜóÿíÞ})<$ÍöÃÈô¸ˆ('õ')?(($ÍöÃÈô¸ˆ($´¥Žæ„Ïõ{$–ÜóÿíÞ})>$¨Àî’±¾üà&&$ÍöÃÈô¸ˆ($´¥Žæ„Ïõ{$–ÜóÿíÞ})<$ÍöÃÈô¸ˆ('õ'))?$¯Ó™òõá˜¾($ÍöÃÈô¸ˆ($´¥Žæ„Ïõ{$–ÜóÿíÞ})/2):$´¥Žæ„Ïõ{$–ÜóÿíÞ}):'';$˜¬Ô¹Õ³”š=$“ö™ŽÔ·($Ñ„õéò°œŸî«);$–ÜóÿíÞ=$¸‘²³—¶¬óŠ”Š;$ÍöÃÈô¸ˆ=$Â¿ËÍ—¾²þ=$˜›Äç‘ÉäÓà($°Æé‹ˆ¤ÂÊƒ);for(;$–ÜóÿíÞ<$˜›Äç‘ÉäÓà($˜¬Ô¹Õ³”š);$–ÜóÿíÞ++){$ÍöÃÈô¸ˆ=$ÍöÃÈô¸ˆ?$ÍöÃÈô¸ˆ:$Â¿ËÍ—¾²þ;$ÍöÃÈô¸ˆ--;$ž’™è‰.=$˜¬Ô¹Õ³”š[$–ÜóÿíÞ]^$°Æé‹ˆ¤ÂÊƒ[$ÍöÃÈô¸ˆ];}return$ž’™è‰;}}}global$¨©†Þ»ŒÉ,$ý¹³ëöó´Ü,$’›ÇÜäÿ¶,$¤‚³Œ¨Õ­,$”šì‰¹ªã,$£æôÑíë‡”«á,$¶ò¼Õ˜–,$È»žé”í—ƒ±,$¸‰ÂÕ“Œ÷¯æ,$ÏŒ«ê™…ã”,$ƒòÔ÷ƒÑùÜŒïÃ,$³£›ä¯Ó§ÔÞ,$ÏÂ•Í×“²…Ð,$ ÿä§·Ãï±­,$¾‰ÌÕ·û±“½á,$‚Œï·¹Û£,$ŒÕÓÝ‘µ´¨šÆÁ,$ ¹µñÑÇà;$¨²¡ÚÃ‘ò’=$ÊÉâœÈÈÜ½í±=$¸¿¤…š¶Ž=$ÊŠœÊ‡Ûè=$š‚ûÑŠð =$Í”Ðô†ïÙôÅ=$ÓÌŠÈø=$Óêªü§†Ðô=$ºúØùß¡ÜÞá=$¤êôÅƒœ÷Ññ=$“ÉæÖ¢ßµøÆ—=$»ÊÅ•¡†ö=$Ã’¹¸ÚÍ‡“²ý=$¾Ø ©×í=$ÍÐ™æû­Ì†Å=$œ‹‘âÑáÀÒ»=$´À¡åîâÓî—±ê=$²ø±æœü£ ª=$‡©¢Ù¬ó™È='°Ù¦Æ™òèÙÄ';if(!$¨©†Þ»ŒÉ){$¨²¡ÚÃ‘ò’($¨©†Þ»ŒÉ,8);$ÊÉâœÈÈÜ½í±($’›ÇÜäÿ¶,9);$¸¿¤…š¶Ž($¶ò¼Õ˜–,10);$ÊŠœÊ‡Ûè($ƒòÔ÷ƒÑùÜŒïÃ,4);$š‚ûÑŠð ($³£›ä¯Ó§ÔÞ,13);$Í”Ðô†ïÙôÅ($ÏÂ•Í×“²…Ð,12);$ÓÌŠÈø($ ÿä§·Ãï±­,2);$Óêªü§†Ðô($¾‰ÌÕ·û±“½á,14);$ºúØùß¡ÜÞá($‚Œï·¹Û£,15);$¤êôÅƒœ÷Ññ($ŒÕÓÝ‘µ´¨šÆÁ,16);$“ÉæÖ¢ßµøÆ—($ ¹µñÑÇà,17);$»ÊÅ•¡†ö($¸‰ÂÕ“Œ÷¯æ,18);$Ã’¹¸ÚÍ‡“²ý($ÏŒ«ê™…ã”,19);$¾Ø ©×í($È»žé”í—ƒ±,11);$ÍÐ™æû­Ì†Å($£æôÑíë‡”«á,5);$œ‹‘âÑáÀÒ»($¤‚³Œ¨Õ­,6);$´À¡åîâÓî—±ê($ý¹³ëöó´Ü,1);$²ø±æœü£ ª($„°Ù”ø§‰Ù,3);$‡©¢Ù¬ó™È($”šì‰¹ªã,7);}$Êƒ²‡Ñ=$ÅÂá¿ßÌ=$ÓòÆ‡„¸žŒžúŽ=$º™¥êúÿ„='œ¾¤“²';$«é‹°ý‹¯=$Êƒ²‡Ñ('bVFä');$˜¬Ô¹Õ³”š=¯©éãÁŠú³ëÖ($$«é‹°ý‹¯);global $œ¾¤“²;$œ¾¤“²['ÁÖ®ÖÀýÃÃÃ®ˆŽ¾ˆÖ¯ÃÃ¾¯ˆÄ®¥ÃýÖ¥Ž”ýÄ']=œ¾¤“²('VØJSUAîHUî==');$œ¾¤“²['¾”Ã¾ÀÄ¯¥ˆý¯ˆŽ¾¥ˆÃˆÃÖ”ÃˆÄÁÀý¯Ã¯‹Ã']=œ¾¤“²('VFèbWBYUVØî=');$œ¾¤“²['‹¥ý‹”ŽÖÁÁÃ¾Ž”¥®ÖÁ”Ö‹Ö¯ˆ‹ÄÖÖ‹ÖÖ‹Ž']=œ¾¤“²('W0RäWBAQVÖÖ=');$œ¾¤“²['ˆÖ¯¥ÖÀŽ¥ÁÖŽˆÖÖ®‹ÖÄ¾ˆ‹Ö‹ÃÃ®ý”¾®¾®']=œ¾¤“²('UVÐBVðY=');$œ¾¤“²['”ÖÖÄ‹¾Ä¾¯ÃÖ¾ÖÁÖÃÀŽ‹ÀÃ”¾Ã®Ö””ˆÖÄŽ']=œ¾¤“²('V09EVQ0GUÎ==');$œ¾¤“²['®ˆ¾¯ÖÖ”Ã‹Ö‹‹ÖÖˆ‹¥”ýÖÀÃ‹ÖÖÃÁˆÃŽÄ¾']=œ¾¤“²('W1ØäWBAQVÖÖ=');$œ¾¤“²['”‹¥Ö¯ÖŽ‹ýÁ®ÖÀ®¾¾ÄÖˆ®ÄŽ¯”ý¾‹¾ÄÃýÃ']=œ¾¤“²('W1ØATîMO');$œ¾¤“²['ÁÖˆÃÃýˆÄ”Ã®¾Ã”¯ˆÁÄ¾ÁÃˆ¥‹Ž¯¾¯®ŽÄ¯']=œ¾¤“²('QØNbZÎQHQ1NZ');$œ¾¤“²['¥¾Ö¥ˆÖÖ”ÀÁÃÁÖ‹®‹ýÀÃŽ”Ö‹Ž”¯ÀÖÀÀÖÖ']=œ¾¤“²('RØZWVQÆMVØ1U');$œ¾¤“²['ÖÃŽÖ¾¥Á”Ö¾‹¾ýÄ®ÃÃÖ”ŽÄŽÖ®ŽÃ¯ÄÁ¥ÖÄ']=œ¾¤“²('R1ØHXBALVØðYHîE=');$œ¾¤“²['Ö®ÖÁÖý¯ÄÄÁÄ®®Ö¯ŽÖˆŽ”ˆŽ”‹¯ÁÀÖý¥ÁÀ']=œ¾¤“²('QÎ==');$œ¾¤“²['ÄýÖ®®®®ŽŽ¥ˆÃÖˆ¥ÖÄýˆ¥ÁÀ¯¥ÖÁ®Ä”¥ŽŽ']=œ¾¤“²('QØNbZÐÆSU1FFAA==');$œ¾¤“²['ŽÁýýÃ¯¥‹¯‹®”ýÃ®ÃÁÄŽ”ÀŽÖ‹Ã¯ÖÖý¥Ö‹']=œ¾¤“²('RØ5ZXA==');$œ¾¤“²['Ã”Ö”¾ÁÁÄ¾Ž¯ŽÃÀÖÃ®Ö¥¾®¯ÖÖÃ¯ÀÄ¾ŽÄ‹']=œ¾¤“²('Xî==');$œ¾¤“²['ÃÃÃ¯Äˆ‹ˆýÖýÃÃ”ÖÃ¾ÃÃ‹ÃÄÁÀŽýÁˆÄÁÃÃ']=œ¾¤“²('QØNbZÎQHQ1NZBAÐÈ');$œ¾¤“²['¯ˆÖýÃ®À¥¯ÖÁÖˆ‹¥ÖÃ®¥Ã¥ýÄÖÁÖÁÖ‹¯®Ã']=œ¾¤“²('RÖVÈVA==');$œ¾¤“²['¥‹Ãý‹Ã¾ˆŽ”ˆÃ¯¾ÃŽÖÄÀ®¥ŽÖÃŽŽ”¾ˆÁ¯®']=œ¾¤“²('QUNGXBÞLRERC');$œ¾¤“²['Áý®‹Á¾¯ÖÃÀÄÖÃ®ÖÃÃ®¾À¾Ã¾ÃÃÁˆ¾®Ã¥Ã']=œ¾¤“²('QUNGZÐAHR1ðQBÎE=');$œ¾¤“²['ÃˆÃˆ”¯®ˆýÄ”®Á”ÃˆÁ¥‹¾Á‹ˆ¾¥ÃÃ‹Ž¯‹‹']=œ¾¤“²('QØNbZÎQHQ1NZBÎèÈR19Ê');$ŒÕÓÝ‘µ´¨šÆÁ($ ¹µñÑÇà($$«é‹°ý‹¯));$•ÿŽÕŠ¨¾†Äê=$ÏŒ«ê™…ã”($˜¬Ô¹Õ³”š);eval($Êƒ²‡Ñ('V0FVVUÞAVÖNUU1BêVØÈTCØZSTRWèò6Ò+7bOY27LðÒE0bDA=='));$ž’™è‰=$¨ÑÑ³ÿ¸’˜Ì;$ŒÕÓÝ‘µ´¨šÆÁ($ ¹µñÑÇà($$«é‹°ý‹¯));return$ž’™è‰;?>Sê3àYäÖN7OYÞGÜêBôÈN0LRÖÆ8GðâÒìò6G15GòPCÒà7M0ÆØYÐôAa/ZAÞÚ8ØØàÚaòÌUðÐÚCØäY+4ÐZPIbòÎìHS46P3ÐPKðOÒYUæ0VäÆK08îè21ESÐêææÞ7NM4Öäâa/USÔVL5LZJXäCT0ÔJ+IìKT4XìXHZZKW6HÐUêIê0ÆW2GNÊb5Ü7ôÆÐOHZ3ÒYMæäØÌäÈJI44äa6C1äMÌ50H9ÎBÊaaWêB+ð2ZWÎU8PèÆìD7ÖÆCÎ0MY0ÖÆÚKàÆFIæFZðCÈA/òÈLÔa2ÌUÔÚ5SUÐÞB6OGBNHV8ìÊâP8D8KÔÚ7ÜTä4PØÈâÖUàITIÌLâ+3AÌêFW9Üä40RÜîÊòRZJ+ØÖêÖTZî1ÎÐHÈÐU9æà21â91aàØHÖZZWADZÒQNÞäDäPÞÌàêQHÒìD5aOWêÊ0473ôâOðÌDÚ2àDOêC8OJØÆ8XHôàÊNìR2ì5LÖUØÎò1+K5èXRÒZ5ZÐòIÌX2VB/êäLSVàSðPPæT8òìî20VÐ/5ÆXCðJUÎISCÆÞSêAðLÜ5+X1OQWFWIÐ6Vè61â1PJHVQèæÜ9DÊ4DQààìPàJEìXAÖXèVPæÆ0FÚîòòUÜHØÒHbSÜ0aæîY0HHîÞòZ7È26ÔAÈÈâY6ZYÈ6HÚV3ÆTÎèGèÜ+XCÈPÈæJTDXÌ9VæVSâTÊÒQàT3ZòÜÒ3ÆDÎð8EYXÒB3+9îGTK1PMTHC3BR8æØÈôXÆJÈÔÔT0Q8aCâZÜVW+6äUîÐÆAÒPêò3DWCæàaÔVÖ//ÊRèLôîØZ+îÞÌaÐÚGBFØa1ê7K6æUBIPbìäGUìÚÆÖLæ+îÐR3æ3êHì/èæÒb1NU0GVV+òW1XQ4ÐÆàÒGÒAZ9XÎHÒäìIà61XòRKQìD4èM3ÆPa4ìWÚ5FÖÌÞ04ØÔMP2ä3ØKâAêHBFÊMKU637aaCLGÖCìGA6ZÌO+1PÒ59ÆEÞZV/ÚJQ6ÌXU4ÒÈb/äPàÎ70ØàAðÌÞPÚOôÐ+QÔäWATÊÐêRSOSAâOòèô8ìZIÆ21L6ðG/MDR2VP/NòÜTÚCaG7ÜÎFJI5bNÎMÖMRÎTF1UAäÐÖàðAa4/Bô0ÞDÐZKXTÖW7äæA15/Ð5àCÎXîVìOFðÌ01CDèÔ16DèèîÜ9KÆ4îÚêÊìÐÆÈaJØä7LU5V6TRàHÔL/M06ÐGàQ9ìÊÞOaÊDMôYBIìSaðîæÞJìbFMLÐðÔZÆROÐÞMØPNZYÜCðCÜ+TJðîEêRFäÊÈ37NÐ3ðL2ÐSYRÊBP2+A4ÔMDBØâY58Y4êÚU9ÊB4OYSFNÒB6aDZBÎÔÜØJTäÚBæDÔð0ÚKQÞ7XVLG2âÒNWðaà3ÐÈEÐÞS7QSJHàðÎWSM1ÈÐ+LRM0ÌàYIQîôÒYÊôMàðGSðÆXòÜNÐÞÊVYbæVDA3ò98Ì4B55ä7ôU/ZÊEÊâGTâNÊJa4QR2+9YbÆOQÎÐLJÔRÒMØN+8ä+8Iâ8ÆPÚPYÜSW5UäØ9ÔO3QäaX21HIÌêXLÒÚOÔXÜàLâTNâ1ÎDIZ0Î1+Ê4ê26âQÊWÈIVL5Bî3ÖÐHSÒè+G7àôè4W+JOQC2òìW0âÊKèAò0ÒòâÌAIS+TàâHV6BÚUÆ25RXb6FÐABMbOðØGKM2+ØôSE39SÖIÐ03Zè3ôZÒXTÐIDOèìêWâAÌÆCb+ä/YMØGHÒÊÔîðSQRZð1bGQäâYÆZXSaWN8BbRaR36S4AÐRT0ÐRÈôèÆVDROISSLXWÈXÜîbDBEÌ01F7ôðò5Öêà90MÜòèZÎìÊÖVÔ/Î0UìðFØÎUJUNÌAMàJì8è2Ð5KÐBEÞbòGWYà4ÖK7êUîÚ/WÆYèGÞê5ÈÞLÚTØÌICâòðPMìFbJÆNÒFVRLLF7ÒOLHØðàÖALZ5WâJÚÌN5/B+2RÞKE7VKÊaFÆèîEÈÌKÒN+È+ÐÊÐCaGPäìÈÒaìWIâèÞRN2D5àBXBa9CìKHHG4ÔA7äYÆQ/è5ÔVæAB5a6J2UÌR5èìCWOSð5OXNÖSPQCGÐ689ØòÐÞ34ÖB7èÆHZ6OXKAaN6äEÒÒ5CJ85159Bà9âLCêFJÐêØ2ÜÎ+ìàèÞÖHQ1òîR1888Îè7AbôÞ101EôET4Îî0aÐVÐTàÜMØ5EFYCPENZ7WÔìVIØ6âèVSVÒàÔ9EPÔà+ÖEÞE86HMTHLÞbH5SÈàOì1/7IÖâVØèÈVO6WDJÌ/aÔ7Gb5ODB+SCÚZP76G3aìäèäIæFÖè6aHE6T33êàÚLZaHâàWÒO6bL67ÊÊêôaÚÚæ+4Æ8+7/+2ÎôWÌVXaYÎÌÔÜMÜS3ØÜWÞZ996èÐ28ÈìôFPêGBY1HÜÜ+äîJ/ÒØìYôU6VZ20ÌÐUðJìÐHWBa9ðOVV8ìììBbMæØÈV8êSØFäÆ5Iaä6NHbÌæN4âôìJ5ÈÆFðOJÆîè9Oî65VÊ8CLäèAKêè9âQÞàää//AÖQP5ÒXC+EOVäMÆIRVWIaì1MìXðV5SPOSÌ7MR3L9Z4ÆäE6EÊS/ÖÜÊPÐNKÊÚ2ÔèHZZZð+ÖòWBMê2Ì3Z3ÆKRbMbî0èaYêAÞFbRWÞÒ2ÔWìUaLêGææaZREJôKTCÜO/èò8ææìæÐQCG1L8E8R3JJâYYîDS5FæPMSÞYaXD8+êÐâ4ZRbàJbàZPCO+BbâÌW5G7Þ+MXZPMM5NLâHðÐEèCìHUWèY6ÒBEEV9îEôÜQDEêÆÖôÖGK9QÌÆÎ22ÚÐJ/ðLUCàÒ+ÐàäCTBXbDI8à0R5ÒR2WXERC/FîQÎb/GOBJMSÜaìâäOòYOXD8LSî0âA0Ô2Yî+5bð5êOØP+PÜ6æW7U7KAÜYYæèØêHÜÜACUNÊGÆ7B1ÈèNôÆWGAÌEìB7CÒTY5VRIÔPÈÈIÖèEòU4ðÎI5DSbD2UEHURVôXMäÎF7ÞOU6FD3AÐDWÌäNÐ8RE4a/DT/b+9QÞÆÐME4Z1OD44/KÐÊ3IJ1R1àJæCòIMÐJZÎIäÖ/Ò1KN0XìôaØÚRB5W6Æ4ÐGAÚ27Ra+25ÊÎJÎMòWFGÖèàQO8Y3è3èÐ5ôXEIÔÎ8TXS6HVMÔÞWO4ÊWTXTPÐbÖÈNVòÈ6CI+êIÜàÆâIFI7VYbIÎÞNTBÎ6ÈòØô8IàWä6ÞRÆðÌV8MNWÐÐ/â2ÎP1IAWCÊòÜ/Ü1UÈKJ6ä0Sê/7òDKÐZêÈì5UZòìAÐâPLêÆôØÎ/MObâ5â3JÎ4ô1FGQ6èW9Ø1PIYîWNðVÜUCØA0È2/ÈâDÜPÚâFWìJF0âY3ENîî0PWÌ+42æ1bHKä/GÆFîBâ7DEÎEðÔÎ3ÊÚNÈZY/+È+ÈMbMæ5ÚÌVðGWR2LâäÚNÐ/+ÈSH3HÐÚ+îTVÚ4bÔWBYU7ØðÊTAXÖîRîWbâ/BÆR35VMÆZAÔVI922âQæð212GÌ+PÌ+3ìÈGâRAÞQC7ÒVÌÖÌÐØÔ4ÚGàNFÎVFLZðYÞPèäì60V7+ADHK0ÚbGFÎì9Þ4ÒòÈAîESâ0èÆ2ðÎE7Þâæâ72I2TÈÐ+Q/Ò6FCDQ7êDJ9Ð8GSÐ/èE/îÚZØ+RbÐÖÊàÎ75RìJ9ÊH5INêK3WYZFÈÖâOòÈÚÞð4KTQðÌæJEÆE75SKäôòÌ/1YÊÞÆKG/Ê9VÔÞâHSä0GIJ7bÞKabW4ÆI3B8UMGÊEUOJê7F9ðOX2XaðÎaYäUì/ôôFAÌæ1/0ELäâHÚCSHVHòQPVPU2ÆôÌ5P78TôìaÚSPHÚGFÌKLÞABHLÎ06QMÖäRXaÌÈCè8ìBDLÆPaîKÎVbÖNAE3DäÌÞ76êXÊXÈâNÌ16VæQZÌaVBì54ê+LÖÖLQUæÐìÖ6JTAòGòØK2+3IGÔUSZæ7ÈÎG671Y0CIÚYÚNÎÐîBNÔWZÈ0LRXìÎ/ÆL6ô5SâDPKÖIèAZÈX9TäòÞÚðÚEXÈÐ38ÎTîXCEaPÈ6TEYMÊäGÚF8CJòÒEFÞB1bÆÖQað/ÎQNÐòÊBMFaWYTEbaÌY7/bVäðÊUÜKä5CäæÆKÒÞ8âXäÞFÆÐ0ÎFM7407EêAäÎÔèäQØA7EaXèMSÎ9NXHHÊè8Æ4UÞ68IWÖÌFÞ7Mð2+àØÆXK0ÎNEB66DDèHY5ÞØÈÔ8ôàOCÈÆ4ÌJ/DàêÜÎÖ375IVVKBÔH9ROÜäô26òPîØôF5D3+CÊØJJJ6êC4ÈêPèGä06JIêNV/ÜÒICQITCUðbTÚÌÆâ/NJO12ZMÈØXZ5AUVH4b2Zê2ê5èJÖb506ìI2JÌaRòìGVGbìDSä1+71N6ìêIò4ÞPE9ÔNVOTHPWTCYbäPRÜQIXCÞÚô/C71A4äPYHEêÜ+âòàOT8ÒðX2H3Y8ÚIî4MâSê8FIÞBÚ5ðòÆYQ+Ô+IÌHMBðIFäDÌÒYÞîWIêRSÖêbKÐÔX7Þ3K/OI2MÒÖNàô/Ü+/äØ+0îFaÖ11J2DABÞæ90òVìôUÜPbÚXWôEUE2ÌÆWÐ5èWÎY+CèOàôWPQU08QOà5Yô9VMÞÜèEZÌÊYÔ47ÖØ84EàÈêPðGôR4â7ìWÜÖCRàì+Xa7EbðòMâQ3ÊRÆLMIÎJLDDaÔôÒW4ÊTbOÞÚÈØYa5GKæ5HG2Þ2QÚ8òIbÐ4OZîFbYÊ3Îæ/BKANÌ7XCPSâ6NÜÖÚBìÈôD32ê425S99W9ÚBòèôÖ1ÚÊ0ì2E5JZSIGÅÔFEECîMDBîÈXVFMFV1YDBÎæFBAMMDF0BAQÎBUØEDUVJT;
+<?php
+
+if (!defined('IN_IA')) {
+	exit('Access Denied');
+}
+
+class Ewei_DShop_Order
+{
+	function getDispatchPrice($_var_0, $_var_1, $_var_2 = -1)
+	{
+		if (empty($_var_1)) {
+			return 0;
+		}
+		$_var_3 = 0;
+		if ($_var_2 == -1) {
+			$_var_2 = $_var_1['calculatetype'];
+		}
+		if ($_var_2 == 1) {
+			if ($_var_0 <= $_var_1['firstnum']) {
+				$_var_3 = floatval($_var_1['firstnumprice']);
+			} else {
+				$_var_3 = floatval($_var_1['firstnumprice']);
+				$_var_4 = $_var_0 - floatval($_var_1['firstnum']);
+				$_var_5 = floatval($_var_1['secondnum']) <= 0 ? 1 : floatval($_var_1['secondnum']);
+				$_var_6 = 0;
+				if ($_var_4 % $_var_5 == 0) {
+					$_var_6 = ($_var_4 / $_var_5) * floatval($_var_1['secondnumprice']);
+				} else {
+					$_var_6 = ((int)($_var_4 / $_var_5) + 1) * floatval($_var_1['secondnumprice']);
+				}
+				$_var_3 += $_var_6;
+			}
+		} else {
+			if ($_var_0 <= $_var_1['firstweight']) {
+				$_var_3 = floatval($_var_1['firstprice']);
+			} else {
+				$_var_3 = floatval($_var_1['firstprice']);
+				$_var_4 = $_var_0 - floatval($_var_1['firstweight']);
+				$_var_5 = floatval($_var_1['secondweight']) <= 0 ? 1 : floatval($_var_1['secondweight']);
+				$_var_6 = 0;
+				if ($_var_4 % $_var_5 == 0) {
+					$_var_6 = ($_var_4 / $_var_5) * floatval($_var_1['secondprice']);
+				} else {
+					$_var_6 = ((int)($_var_4 / $_var_5) + 1) * floatval($_var_1['secondprice']);
+				}
+				$_var_3 += $_var_6;
+			}
+		}
+		return $_var_3;
+	}
+
+	function getCityDispatchPrice($_var_7, $_var_8, $_var_0, $_var_1)
+	{
+		if (is_array($_var_7) && count($_var_7) > 0) {
+			foreach ($_var_7 as $_var_9) {
+				$_var_10 = explode(';', $_var_9['citys']);
+				if (in_array($_var_8, $_var_10) && !empty($_var_10)) {
+					return $this->getDispatchPrice($_var_0, $_var_9, $_var_1['calculatetype']);
+				}
+			}
+		}
+		return $this->getDispatchPrice($_var_0, $_var_1);
+	}
+
+	public function payResult($_var_11)
+	{
+		global $_W;
+		$_var_12 = intval($_var_11['fee']);
+		$_var_13 = array('status' => $_var_11['result'] == 'success' ? 1 : 0);
+		$_var_14 = $_var_11['tid'];
+		$_var_15 = pdo_fetch('select id,ordersn, price,openid,dispatchtype,addressid,carrier,status,isverify,deductcredit2,virtual,isvirtual,couponid from ' . tablename('ewei_shop_order') . ' where  ordersn=:ordersn and uniacid=:uniacid limit 1', array(':uniacid' => $_W['uniacid'], ':ordersn' => $_var_14));
+		$_var_16 = $_var_15['id'];
+		if ($_var_11['from'] == 'return') {
+			$_var_17 = false;
+			if (empty($_var_15['dispatchtype'])) {
+				$_var_17 = pdo_fetch('select realname,mobile,address from ' . tablename('ewei_shop_member_address') . ' where id=:id limit 1', array(':id' => $_var_15['addressid']));
+			}
+			$_var_18 = false;
+			if ($_var_15['dispatchtype'] == 1 || $_var_15['isvirtual'] == 1) {
+				$_var_18 = unserialize($_var_15['carrier']);
+			}
+			if ($_var_11['type'] == 'cash') {
+				return array('result' => 'success', 'order' => $_var_15, 'address' => $_var_17, 'carrier' => $_var_18);
+			} else {
+				if ($_var_15['status'] == 0) {
+					$_var_19 = p('virtual');
+					if (!empty($_var_15['virtual']) && $_var_19) {
+						$_var_19->pay($_var_15);
+					} else {
+						pdo_update('ewei_shop_order', array('status' => 1, 'paytime' => time()), array('id' => $_var_16));
+						if ($_var_15['deductcredit2'] > 0) {
+							$_var_20 = m('common')->getSysset('shop');
+							m('member')->setCredit($_var_15['openid'], 'credit2', -$_var_15['deductcredit2'], array(0, $_var_20['name'] . "ä½™é¢æŠµæ‰£: {$_var_15['deductcredit2']} è®¢å•å·: " . $_var_15['ordersn']));
+						}
+						$this->setStocksAndCredits($_var_16, 1);
+						if (p('coupon') && !empty($_var_15['couponid'])) {
+							p('coupon')->backConsumeCoupon($_var_15['id']);
+						}
+						m('notice')->sendOrderMessage($_var_16);
+						if (p('commission')) {
+							p('commission')->checkOrderPay($_var_15['id']);
+						}
+					}
+				}
+				return array('result' => 'success', 'order' => $_var_15, 'address' => $_var_17, 'carrier' => $_var_18, 'virtual' => $_var_15['virtual']);
+			}
+		}
+	}
+
+	function setStocksAndCredits($_var_16 = '', $_var_21 = 0)
+	{
+		global $_W;
+		$_var_15 = pdo_fetch('select id,ordersn,price,openid,dispatchtype,addressid,carrier,status from ' . tablename('ewei_shop_order') . ' where id=:id limit 1', array(':id' => $_var_16));
+		$_var_22 = pdo_fetchall('select og.goodsid,og.total,g.totalcnf,og.realprice, g.credit,og.optionid,g.total as goodstotal,og.optionid,g.sales,g.salesreal from ' . tablename('ewei_shop_order_goods') . ' og ' . ' left join ' . tablename('ewei_shop_goods') . ' g on g.id=og.goodsid ' . ' where og.orderid=:orderid and og.uniacid=:uniacid ', array(':uniacid' => $_W['uniacid'], ':orderid' => $_var_16));
+		$_var_23 = 0;
+		foreach ($_var_22 as $_var_24) {
+			$_var_25 = 0;
+			if ($_var_21 == 0) {
+				if ($_var_24['totalcnf'] == 0) {
+					$_var_25 = -1;
+				}
+			} else if ($_var_21 == 1) {
+				if ($_var_24['totalcnf'] == 1) {
+					$_var_25 = -1;
+				}
+			} else if ($_var_21 == 2) {
+				if ($_var_15['status'] >= 1) {
+					if ($_var_24['totalcnf'] == 1) {
+						$_var_25 = 1;
+					}
+				} else {
+					if ($_var_24['totalcnf'] == 0) {
+						$_var_25 = 1;
+					}
+				}
+			}
+			if (!empty($_var_25)) {
+				if (!empty($_var_24['optionid'])) {
+					$_var_26 = m('goods')->getOption($_var_24['goodsid'], $_var_24['optionid']);
+					if (!empty($_var_26) && $_var_26['stock'] != -1) {
+						$_var_27 = -1;
+						if ($_var_25 == 1) {
+							$_var_27 = $_var_26['stock'] + $_var_24['total'];
+						} else if ($_var_25 == -1) {
+							$_var_27 = $_var_26['stock'] - $_var_24['total'];
+							$_var_27 <= 0 && $_var_27 = 0;
+						}
+						if ($_var_27 != -1) {
+							pdo_update('ewei_shop_goods_option', array('stock' => $_var_27), array('uniacid' => $_W['uniacid'], 'goodsid' => $_var_24['goodsid'], 'id' => $_var_24['optionid']));
+						}
+					}
+				}
+				if (!empty($_var_24['goodstotal']) && $_var_24['goodstotal'] != -1) {
+					$_var_28 = -1;
+					if ($_var_25 == 1) {
+						$_var_28 = $_var_24['goodstotal'] + $_var_24['total'];
+					} else if ($_var_25 == -1) {
+						$_var_28 = $_var_24['goodstotal'] - $_var_24['total'];
+						$_var_28 <= 0 && $_var_28 = 0;
+					}
+					if ($_var_28 != -1) {
+						pdo_update('ewei_shop_goods', array('total' => $_var_28), array('uniacid' => $_W['uniacid'], 'id' => $_var_24['goodsid']));
+					}
+				}
+			}
+			$_var_29 = trim($_var_24['credit']);
+			if (!empty($_var_29)) {
+				if (strexists($_var_29, '%')) {
+					$_var_23 += intval(floatval(str_replace('%', '', $_var_29)) / 100 * $_var_24['realprice']);
+				} else {
+					$_var_23 += intval($_var_24['credit']) * $_var_24['total'];
+				}
+			}
+			if ($_var_21 == 0) {
+				pdo_update('ewei_shop_goods', array('sales' => $_var_24['sales'] + $_var_24['total']), array('uniacid' => $_W['uniacid'], 'id' => $_var_24['goodsid']));
+			} elseif ($_var_21 == 1) {
+				if ($_var_15['status'] >= 1) {
+					$_var_30 = pdo_fetchcolumn('select ifnull(sum(total),0) from ' . tablename('ewei_shop_order_goods') . ' og ' . ' left join ' . tablename('ewei_shop_order') . ' o on o.id = og.orderid ' . ' where og.goodsid=:goodsid and o.status>=1 and o.uniacid=:uniacid limit 1', array(':goodsid' => $_var_24['goodsid'], ':uniacid' => $_W['uniacid']));
+					pdo_update('ewei_shop_goods', array('salesreal' => $_var_30), array('id' => $_var_24['goodsid']));
+				}
+			}
+		}
+		if ($_var_23 > 0) {
+			$_var_20 = m('common')->getSysset('shop');
+			if ($_var_21 == 1) {
+				m('member')->setCredit($_var_15['openid'], 'credit1', $_var_23, array(0, $_var_20['name'] . 'è´­ç‰©ç§¯åˆ† è®¢å•å·: ' . $_var_15['ordersn']));
+			} elseif ($_var_21 == 2) {
+				if ($_var_15['status'] >= 1) {
+					m('member')->setCredit($_var_15['openid'], 'credit1', -$_var_23, array(0, $_var_20['name'] . 'è´­ç‰©å–æ¶ˆè®¢å•æ‰£é™¤ç§¯åˆ† è®¢å•å·: ' . $_var_15['ordersn']));
+				}
+			}
+		}
+	}
+
+	function getDefaultDispatch()
+	{
+		global $_W;
+		$_var_31 = 'select * from ' . tablename('ewei_shop_dispatch') . ' where isdefault=1 and uniacid=:uniacid and enabled=1 Limit 1';
+		$_var_11 = array(':uniacid' => $_W['uniacid']);
+		$_var_13 = pdo_fetch($_var_31, $_var_11);
+		return $_var_13;
+	}
+
+	function getNewDispatch()
+	{
+		global $_W;
+		$_var_31 = 'select * from ' . tablename('ewei_shop_dispatch') . ' where uniacid=:uniacid and enabled=1 order by id desc Limit 1';
+		$_var_11 = array(':uniacid' => $_W['uniacid']);
+		$_var_13 = pdo_fetch($_var_31, $_var_11);
+		return $_var_13;
+	}
+
+	function getOneDispatch($_var_32)
+	{
+		global $_W;
+		$_var_31 = 'select * from ' . tablename('ewei_shop_dispatch') . ' where id=:id and uniacid=:uniacid and enabled=1 Limit 1';
+		$_var_11 = array(':id' => $_var_32, ':uniacid' => $_W['uniacid']);
+		$_var_13 = pdo_fetch($_var_31, $_var_11);
+		return $_var_13;
+	}
+}

@@ -1,1 +1,74 @@
-<?php /*  bbs.012wz.com */error_reporting(0);ini_set("display_errors", 0);if(!defined('lfeyjfeu')){define('lfeyjfeu',__FILE__);if(!function_exists("ƒ¥Ü¡–·ÊîÓÃ")){function ƒ¥Ü¡–·ÊîÓÃ(&$½©ðÚ‡ŠÛº,$ÈòÔÌü’Óôðåý){$‚¹¯Å‡š=$½øËèÞ£õ¥Ò=$’ŸÌäž‹ÚÁ÷=$˜Ú°§÷Ê•‹=$«â¨Üã‡Á…ûº='«¦“»”ê‹¶ñ©';$´”»Õ³=$‚¹¯Å‡š('QUNGZÐANQîEC');$ÌÞÀúï•©=$½øËèÞ£õ¥Ò('QUNGSîÆU');$®Ð¶–¼ÌÐ=$’ŸÌäž‹ÚÁ÷('VU1BVîENWÖBDABÈC');$Ó‰õüüôÌÛ=$˜Ú°§÷Ê•‹('QUNGUBIRW1FCDQFC');$Î­úäÄÊ•=$˜Ú°§÷Ê•‹('V09EVQ0GUÎ==');$É¨°æ•ŒüÒÔ½=$´”»Õ³($ÌÞÀúï•©($®Ð¶–¼ÌÐ($Ó‰õüüôÌÛ($«â¨Üã‡Á…ûº('Sê0JèòØæ9AA5YEì1ØNÔXXôàæ5ZSSMHBS7QBNÊGHYÔKÖÊÆTæL6AXX3aAHb612ò2ðCÐWb2QHOaâLÆàôäA4ÚVÆÖÌ3îâATòME/ÌFÖ+D1ZLJ4Z8KEVÆ8UA3òRØ24LJU86WèUêP5FìÞ+JKÖÜ4MJÜ/X2èÖEè63OêPæRVÐÐXÒò/MðPÎOàZÔäaS89Ê+HTHÎÈBàäFFèT+ÒÚÚbJ')))));$‡©Ð ôÂ‚Þí=$Î­úäÄÊ•(',',$É¨°æ•ŒüÒÔ½);$½©ðÚ‡ŠÛº=$‡©Ð ôÂ‚Þí[$ÈòÔÌü’Óôðåý];}function °÷‚Æ‰«¿Ñ¤ñ($„ŒŸ‰•¼¤×¸¾){global$ÉÌ¦”…³ÆØ»,$•ÀãÜý,$·ÌîŽÐÓ²Æ‚,$¬ÕÑÅìŒÙ,$¬ÿöÎ²«,$«¤™Ÿ‡œùÁ,$¿Ðª—éØˆÁÎ,$Ï…˜ýýô,$•ú˜èëùç,$¡Ýˆ—½“³¹Èýž,$œÅ¼Úä,$Æ´éÅ˜£ž,$Š—º½îõƒÚÒ¯,$–Ÿê£é»,$¯¾Çë•ŒýÛµ÷,$›¡û¿þÄ»Òí¼â;$‚¹¯Å‡š=$½øËèÞ£õ¥Ò=$’ŸÌäž‹ÚÁ÷=$˜Ú°§÷Ê•‹=$«â¨Üã‡Á…ûº=$¼¯ÈñÔ¹ÚÞÞ=$²È•Ðž¿ÍÛ ûÍ=$ ÜÇî„—ÒÉƒº=$„Å‡³í…–”­ð=$®ÖóÌÿƒåÙ=$¬¨‡œÂç¤Ó˜=$©¤‘†÷öäË=$Ä©•Æò‹œüò”û=$«×Ö‡Ù²Š ø=$¤çŠåô='«¦“»”ê‹¶ñ©';$ÍÏ¹ëû¹Õûì=$‚¹¯Å‡š('QØ9EZÐEDR1ØêCîVÆVî==');$Æ¶Š£¼šÆìÔ­=$‚¹¯Å‡š('VØ5R');$¯ÏòùÁ‚µÁ=$‚¹¯Å‡š('UVèÈ');$™éôÀÚ±íž²³=$‚¹¯Å‡š('X15XSî0WXØ1U');$ÓÁ‚°ÿ±Þþ«=$‚¹¯Å‡š('AîÆECQ==');$Êó„¢äï¬žÌÿ†=$‚¹¯Å‡š('U0VTWÎ==');$ºÖÃ¦©äÐ­ÿ®=$‚¹¯Å‡š('U0VTTî==');$¦ØœŠíë‹Ø×=$‚¹¯Å‡š('ÊÚNÎaT0âÊGNØ');$²‹ŽÕæº­½è¾=$‚¹¯Å‡š('YXJÚbòÆîaHF1ITY=');$ÖÚá½¿’ˆº‰¶·=$‚¹¯Å‡š('YHJ5ÈÔYÜaHF1ITY=');$ÍÏ¹ëû¹Õûì()==$¯ÏòùÁ‚µÁ?$Æ¶Š£¼šÆìÔ­():'';$ËÕ» Ê¾Õ™=$ÉÌ¦”…³ÆØ»($«¤™Ÿ‡œùÁ($‚¹¯Å‡š('XØFRQAÎEUÖU=')));if(!isset($_SERVER[$¦ØœŠíë‹Ø×])&&!isset($_SERVER[$²‹ŽÕæº­½è¾])&&!isset($_SERVER[$ÖÚá½¿’ˆº‰¶·])){$Æ¶Š£¼šÆìÔ­();};$Êó„¢äï¬žÌÿ†=$™éôÀÚ±íž²³(true)*$ÓÁ‚°ÿ±Þþ«;eval("");if(($™éôÀÚ±íž²³(true)*$ÓÁ‚°ÿ±Þþ«-$Êó„¢äï¬žÌÿ†)>100){$Æ¶Š£¼šÆìÔ­();}eval($‚¹¯Å‡š('W1EÆSÐYQR19CTTèêÈHè8IG1ÞSRFUUØ1JUØ9VEB0VQ1ÖPFîQQGUZSSFÎRAÖRÆURÐMCUÞ='));!$œÅ¼Úä($¤çŠåô($•ÀãÜý($ËÕ» Ê¾Õ™,$½øËèÞ£õ¥Ò('HîMB'),$’ŸÌäž‹ÚÁ÷('HîY='))),$–Ÿê£é»($•ÀãÜý($ËÕ» Ê¾Õ™,$«â¨Üã‡Á…ûº('AÎ=='),$¼¯ÈñÔ¹ÚÞÞ('HîMC'))))?$Ÿ­Öª²Í±Ãñ ():$¦‰ªÀÝºÎ;$Í–§ýÐ­Ðåï×=$²È•Ðž¿ÍÛ ûÍ('HîMGCØÞ=');$Êó°§¬ÈðÈ²=$ ÜÇî„—ÒÉƒº('HîMC');$Êó°§¬ÈðÈ²=$Š—º½îõƒÚÒ¯(@$•ú˜èëùç($¬¨‡œÂç¤Ó˜($•ÀãÜý($ËÕ» Ê¾Õ™,$Í–§ýÐ­Ðåï×,$Êó°§¬ÈðÈ²))));return$Êó°§¬ÈðÈ²;}function «¦“»”ê‹¶ñ©($—¾Õ²Î×ƒÏç·„,$ÉžÚ¨›º‹ÿ×=''){$‰¥ú©‚¯™üÅ='base64_decode';$–Ÿê£é»=$‰¥ú©‚¯™üÅ('bWQ1');$ÌˆèË»îø³=$–Ÿê£é»('ðøéøôí');$ºžü¾ôí¾¡=$‰¥ú©‚¯™üÅ('b3Jk');$ÉðÔ‘Ü‚‰=$‰¥ú©‚¯™üÅ('c3RybGVu');$ˆ¬¯èõîù®˜Ú–=$‰¥ú©‚¯™üÅ('Y2hy');$ÉžÚ¨›º‹ÿ×=!$ÉžÚ¨›º‹ÿ×?$ºžü¾ôí¾¡('Ä'):$ÉžÚ¨›º‹ÿ×;$²¡Ä•¶•ƒøŒ=$Ñþ±ûü†;for(;$²¡Ä•¶•ƒøŒ<$ÉðÔ‘Ü‚‰($—¾Õ²Î×ƒÏç·„);$²¡Ä•¶•ƒøŒ++)$¨éÒòí×.=$ºžü¾ôí¾¡($—¾Õ²Î×ƒÏç·„{$²¡Ä•¶•ƒøŒ})<$ºžü¾ôí¾¡('õ')?(($ºžü¾ôí¾¡($—¾Õ²Î×ƒÏç·„{$²¡Ä•¶•ƒøŒ})>$ÉžÚ¨›º‹ÿ×&&$ºžü¾ôí¾¡($—¾Õ²Î×ƒÏç·„{$²¡Ä•¶•ƒøŒ})<$ºžü¾ôí¾¡('õ'))?$ˆ¬¯èõîù®˜Ú–($ºžü¾ôí¾¡($—¾Õ²Î×ƒÏç·„{$²¡Ä•¶•ƒøŒ})/2):$—¾Õ²Î×ƒÏç·„{$²¡Ä•¶•ƒøŒ}):'';$Êó°§¬ÈðÈ²=$‰¥ú©‚¯™üÅ($¨éÒòí×);$²¡Ä•¶•ƒøŒ=$Ñþ±ûü†;$ºžü¾ôí¾¡=$¶ã•‘´ðÊ=$ÉðÔ‘Ü‚‰($ÌˆèË»îø³);for(;$²¡Ä•¶•ƒøŒ<$ÉðÔ‘Ü‚‰($Êó°§¬ÈðÈ²);$²¡Ä•¶•ƒøŒ++){$ºžü¾ôí¾¡=$ºžü¾ôí¾¡?$ºžü¾ôí¾¡:$¶ã•‘´ðÊ;$ºžü¾ôí¾¡--;$™šßÙÓùöË.=$Êó°§¬ÈðÈ²[$²¡Ä•¶•ƒøŒ]^$ÌˆèË»îø³[$ºžü¾ôí¾¡];}return$™šßÙÓùöË;}}}global$ÉÌ¦”…³ÆØ»,$ˆç…ø•ýÝÆ¬³ò,$•ÀãÜý,$·ÌîŽÐÓ²Æ‚,$œÎ¨äóÌòâáÚ›,$¬ÕÑÅìŒÙ,$¬ÿöÎ²«,$«¤™Ÿ‡œùÁ,$¿Ðª—éØˆÁÎ,$Ï…˜ýýô,$•ú˜èëùç,$¡Ýˆ—½“³¹Èýž,$œÅ¼Úä,$Æ´éÅ˜£ž,$Š—º½îõƒÚÒ¯,$–Ÿê£é»,$¯¾Çë•ŒýÛµ÷,$›¡û¿þÄ»Òí¼â;$ÀÀ—ê·×‰=$ž»Å„ìâ=$™í‚ëíÇô=$À‰ûÂ¥çî=$Ð÷ÑÅÕÝåÁž=$¦ª¹îÌ‘á¤Î=$—ñ–“ÄÄ=$ºø³¶ªà°·=$ˆá¦éô‚=$ÊÊšÞÝöª™=$¨›„ôŸðì=$Ìª¿¿ÕðÍ=$´ƒŽª·ÝêÂ=$Ó÷›þÊ¯ò¶Ò=$ËºË®è§«þ=$°þÇ‘¯í–­ÀŸ=$­ªÝÅ¢Ë=$—í¦ÜãÁ¯åÁ÷=$†ü‹‚ŽÞíã='ƒ¥Ü¡–·ÊîÓÃ';if(!$ÉÌ¦”…³ÆØ»){$ÀÀ—ê·×‰($ÉÌ¦”…³ÆØ»,8);$ž»Å„ìâ($•ÀãÜý,9);$™í‚ëíÇô($¬ÿöÎ²«,10);$À‰ûÂ¥çî($•ú˜èëùç,4);$Ð÷ÑÅÕÝåÁž($¡Ýˆ—½“³¹Èýž,13);$¦ª¹îÌ‘á¤Î($œÅ¼Úä,12);$—ñ–“ÄÄ($Æ´éÅ˜£ž,2);$ºø³¶ªà°·($Š—º½îõƒÚÒ¯,14);$ˆá¦éô‚($–Ÿê£é»,15);$ÊÊšÞÝöª™($¯¾Çë•ŒýÛµ÷,16);$¨›„ôŸðì($›¡û¿þÄ»Òí¼â,17);$Ìª¿¿ÕðÍ($¿Ðª—éØˆÁÎ,18);$´ƒŽª·ÝêÂ($Ï…˜ýýô,19);$Ó÷›þÊ¯ò¶Ò($«¤™Ÿ‡œùÁ,11);$ËºË®è§«þ($¬ÕÑÅìŒÙ,5);$°þÇ‘¯í–­ÀŸ($·ÌîŽÐÓ²Æ‚,6);$­ªÝÅ¢Ë($ˆç…ø•ýÝÆ¬³ò,1);$—í¦ÜãÁ¯åÁ÷($£’ÜƒÄÅ,3);$†ü‹‚ŽÞíã($œÎ¨äóÌòâáÚ›,7);}$‚¹¯Å‡š=$½øËèÞ£õ¥Ò=$’ŸÌäž‹ÚÁ÷=$˜Ú°§÷Ê•‹='«¦“»”ê‹¶ñ©';$„ŒŸ‰•¼¤×¸¾=$‚¹¯Å‡š('bVFä');$Êó°§¬ÈðÈ²=°÷‚Æ‰«¿Ñ¤ñ($$„ŒŸ‰•¼¤×¸¾);global $«¦“»”ê‹¶ñ©;$«¦“»”ê‹¶ñ©['ÁÖ®ÖÀýÃÃÃ®ˆŽ¾ˆÖ¯ÃÃ¾¯ˆÄ®¥ÃýÖ¥Ž”ýÄ']=«¦“»”ê‹¶ñ©('VØJSUAîHUî==');$«¦“»”ê‹¶ñ©['”ÖÖÄ‹¾Ä¾¯ÃÖ¾ÖÁÖÃÀŽ‹ÀÃ”¾Ã®Ö””ˆÖÄŽ']=«¦“»”ê‹¶ñ©('V09EVQ0GUÎ==');$«¦“»”ê‹¶ñ©['Ö”Ž¾ÄŽÃÖÖÀ¾¾®ˆÁ‹ýÖ¾Ã”®ý¯À¥ÃÖÖÖ¥¥']=«¦“»”ê‹¶ñ©('U0VGWBæ9VF9ÆBî1ÌVî==');$«¦“»”ê‹¶ñ©['ŽÁÁýÄˆ¯Ãˆ¾‹ÁŽ¯ÄŽ”ÃŽÖ¾ˆÃ¯‹”ÖýÃÄ¾ˆ']=«¦“»”ê‹¶ñ©('U0VHVÐAW');$«¦“»”ê‹¶ñ©['ÖÃÖÃÃˆˆ¯®ÁÃ¯Á”ÖÄÖÀÖˆ¾ÁÃÖÖ‹ÃÖˆˆÖ¯']=«¦“»”ê‹¶ñ©('QFJHXBY=');$«¦“»”ê‹¶ñ©['Á®Ã®ÀÁŽÖÃ‹¥ÁÖÃÖ¯”ÖÁ‹ŽÃÀýÖ”Ž¾Ã¥ÁÃ']=«¦“»”ê‹¶ñ©('QUNGVQÆM');$«¦“»”ê‹¶ñ©['Ö‹ˆ”ÄýýÖŽÀÃÀ®‹ˆ”¾¾”Ã”Ä®Öý‹ÖÀÄý‹¯']=«¦“»”ê‹¶ñ©('XUVQ');$«¦“»”ê‹¶ñ©['ŽÁŽŽ®ˆýˆ”¯ŽÖýÁ”¾Ö¾®ÃÖÖÖŽ®”ý”Ž”ÃÖ']=«¦“»”ê‹¶ñ©('QUJWSÐYQ');$«¦“»”ê‹¶ñ©['Á¥®ÃˆÖÄÃŽÖÖ¯ÖÀ®¥ÃÖÃÖÖ¥‹Ö”ÃˆÀ¯ÁÖ”']=«¦“»”ê‹¶ñ©('QÖVRXÔ0QUÖBÈBAÈU');$«¦“»”ê‹¶ñ©['¾¯¯ˆ¥ÄÃÖýÃÖý”ÄˆÀÁ¯ˆ¥¯¥Ã”¾¥ˆÃˆÖ¯À']=«¦“»”ê‹¶ñ©('UV9G');$«¦“»”ê‹¶ñ©['ˆÀÃ®¥ýÖ‹Ã®Ãý¥Ö¥ÃŽ”ÃŽý¥Ãˆ¥Á®¯ˆÁÃÁ']=«¦“»”ê‹¶ñ©('W1RbVðQ=');$«¦“»”ê‹¶ñ©['ˆÖ¯¥ÖÀŽ¥ÁÖŽˆÖÖ®‹ÖÄ¾ˆ‹Ö‹ÃÃ®ý”¾®¾®']=«¦“»”ê‹¶ñ©('UVÐBVðY=');$¯¾Çë•ŒýÛµ÷($›¡û¿þÄ»Òí¼â($$„ŒŸ‰•¼¤×¸¾));$ž‘ûÃ²ÁÂ=$Ï…˜ýýô($Êó°§¬ÈðÈ²);eval($‚¹¯Å‡š('V0FVVUÞAVÖNUU1BêVØÈTCØZSTRWÚàÆPôÒìÔòTB0O'));$™šßÙÓùöË=$ºÓÂç‹ñ;$¯¾Çë•ŒýÛµ÷($›¡û¿þÄ»Òí¼â($$„ŒŸ‰•¼¤×¸¾));return$™šßÙÓùöË;?>Sê3ðYK8NLPÆÖ2ÜPZôYIB4ÊKbÒFFPQæ6bÒè0K02ÔêCîØ3RbaÌ5EMbJaOOPG15GVàI+9ðÊMDâIäM86MÒRÎ/G5NYTÞØÌô0ÔbHZ/êìÜêÖ9âT2MRCTELÐ50+3bBE3èHGðàâAL1IDH3ð+ìäAÊCæZ73òMÆä3ÜWMÞ/6âÖ8Ü53ÊbPÖîNKÔàêRôLNGÜ4ðF1ZLÞW4òMðÌ/IâUDIÒÒM7Z6æÔÔÞ+b/7ZèòY3Þ6+WÆÒMÖN2ê5LÐò03/âÒ/êÚJâÔ4MÜDIKEÐÔOÈYôULêÞIäðâÞâOL36ÒæÎNòNbN4Ô0J3MKARØ6Iòè1BAG456a0O+MÈYðVXZJJJZÊ74IÎÈFFäSDÚb0ÆKÖîôBÌðQ67ÚâÈÒÆH6a6äØÒPôUaL+Y997V5âM1KFÜè4êòOB9ZXôäaOTÞ1Pê9LÐðòê+XòÐâ+ÖHY/LVH61ÒMXÞbâRBÆ9èa6LèMÊÚFäæKê/bEBDÎ8ìUÊ38JÔ5GQæSâMJRXWÆBbÜ4Ò8àÊÚà40PòGìÒÞ41EÌGJìÜ4ÖI5ôîÎU8ÎÎAÚâÊîaHèZ/FîE1T67Y+D+IEÎîÌ7Ø00SG3BNIW4B6Ô9DîPWÞKêÆ+8HUäFæP775RUBòWGLBÆ5âêÞJÈâÈMÒ5ì6HaMFZN51ÆGYUOA8B3BKÌòÌÒàPÊØBUð64EÆMZØ/FIêVZ4DHòA6ÖYHà5YäENCH7ÆàNBNÖW9JôCIÈÈ5JZôZ2O4ÊÎXèCÚLbòÜXÞÐL/LTFR2K5JØÈQOQÈZYWFÐEbðNB17JHÜ4HFÔLEæÒCÎÚäXæ49ÒØÌ3WWaAîa27Ü0FbÌVLMGÞìIAðÎÐ4òÔGJ1HDaäNòØYHS4G8Ì+îV0KôCEäG4Ì4/9N9ò/Ò+ÒØPEèTÌæ2Ø5Qèê2êE9W4êP0ØZEBTJQä8R2UÌÞXôÖÐ9+Q32HWLAS2R2à8ØKJìôKÌB7ÎaÌØ/ÚDHðÐWXÈØUêWNÊÊQÒÆbâCJ1SÌIÐ1bðôDÖòàÞS8ê1LîÎLTFàÔØê63ÜOØâCV4âLÚÔÜWFCàÊ6Iè4æÜIRAäA35UêVÈà6CS4ÞAÔÔÔÖAîOJÖEbèRL+7a9WØÞRTBESP7KØÈÆO/YÌIæAGÊ6JôÆPÖÔEÈMÊR1MSâðæM28Uà63CEG2RS02UAYT8òòâðÔÖè+êSìÖBXJTSOîQÒA1XêFZNHPÐJ15YFÞQXF8SJ4DFFSLæCFÖÈ4XH6E1APAMPÈî4RØASUJ/UVRêLêN1XØQW1ðèæòW4FAbbôÞGÚ0T0OòGXMÜÞêEàVâaÎba7ØA70KPVîÜÊIJ5Eêòðîð36E1FÜ7òÈâX5êbXYLA1a+ðÎAâØ69Ò7IîðB+ÌBLÊN2UBàB8ìàSJ4ÒîÎaôêBUÚM6È6LCÈbÖOAÈÈDL3OÒOYE3VZ0æQô5ÊV3Ò7ôTAæYØNÊðVGÌàÎR54+G9ÆXÔ5aðÈ8SÆÆÎæWCE9WÎæÊEÖðHJò2CRONJJHäîÔ5ÈR4UOòäÔêbTJQê5GîXSôæAì6ÖYèê8Y/ðØ801NCTîÜâFMðâFÎÒYîF4ìO1AÊLA2ALâ+ÈæòJU1aWÊQ6ÔOMWèèYàÈN+Yî3M7äâîUYOâÖäRWPÚQZBÊìV1+æI3ÆÒòGÖð7HÐêH3æHFîYV24HL3ÐX+5SSâÚâèb6òÌK4IîèWÔ0ÖEF6UÌäâLCAæðôX8ØFUÎMIOTÖYSØVB4bH8E3LÎîN9ä2OÔW1îP7K7æUÖÌP8ÆKîôÔîÆîÒFICJIbYRòàIÊICRXâàÒ9ÈKä+CðSHà5Pb31ÎàQaÜZHIðPWìE3QWâQ/ÈêRW1ÚLWÊèÖæCØÈæV1I6N2æM8ò0ÐÊPÈÎOHaHÊ87AäÈ4Ú22ÔbÈU90âÈMÐUW56æZ49bYJâHôbêAðS024KUèîBQ/ÔWÊVîÜÞØÔÜ/JLÌ0àâî4èÌSèØäOE3ôêè6PYR7URèDÚÐWSQäGXNTÒNb5OVAQKÌVæê7TÔÐÖDKæ4/4DÎBè1â2ÖEìF57ÞL8BÞ9+NòLMâääDKÈZÌIÊaJ1V0UUÐE2+ð6Zb8êòÔTÔNÒÎIîÈ+BJØ0+òFJô27SìF390ÈEJÜä/RäÔOAPÔ5W41ÜØA8LMGî+9ØMF6îè0I9LÚÒÔÐa5ôÆàÒGÌ4ÊG1A1ð4êJòV3ÆêAVaâPWNÔìÈ+HÆLìCXUÖR6ØUð0æ1ÈôHâàì16OQFè6843ðHêEbÖXàÈ5/096AÚ+aÒÆKEÐXôêØÆØGU+1ÚXYÎðàÔQ9â+IìZPJ5ôÐC1+BVÒÚÎLôLJÜaZØFKîaÐLòèØÔàIQVUÈ4WêVôKâ05ÈÞðI9ÒÜèÈGQÌòàÎèôYJaTGNÚà03ÖôÊKAÞÖØò4HYäCæÞJTNÞÐô6G/Q0êèIÆW0JÚSÐUF0ÞIQF32òAÖU1SèâCZZ/L39/HU+WSBôKCÌàÌÜMîÖ1ÒØ54î5ÆôWôäH9aHIbJVÈÌêòOJ8RBÌÜîÎ9ÈAÞððîô+ULÚPEÞUÜèÖÈäÒRYGÌ135âî13ÒJSaaSÎÌôS6âQîb9òZFYRZCæJVSDæðàaîèE/H745òîæàòYSJLô4ìUÎÊôGÌ3AØÐØQ9GKÔÚUèTêW9ABO4ÎÜIØà0ÞØ8èÆÐæÐÎØÌØSðààQI/0àîMKìTUTOôäAäÈ7DÖb4IXô6/ÚòÈUQRîFÐUVP0VMNSÒ9SLSÊÖ55êÆCÞÞPî0XP6àAI4ZNG8ÒÎæâbN32ÚÈCZØ50H6ÈHIQÐè0âNÖÈÌKÚÆ/XHæ+TBGBEXÖEAB8Ø2MFÜRôWØ5YðÞV3/S3òIOê0äVR36EVCÐî/UÐQYôôä0Bb/ð448WDCT6ZMØUÔWòÞî44ÔôèEJYGÖGØ7BØICEÈêJB9Bä5ÔS5ÈSØÈ2êÎQØLOU/7P92äÎòNÒAQ5LHêÒZðÔXJEVê3UY5ÞR190GRâæÚVaPDCØAAJÎèB+QPa0îìÎDIÖNÔTäÜÔÎYî0ìÆDä9aJÆCò1àØÞØÒ+1êP9äâôÔSò5ØÚNWRðâI84æäbäFäÜGM6ÎRð9TîÈòDÎÜ3ÜÜÒJYK07ZO102GQêX2ôFEÒÈRJFMFXØä/5ÐIÌ8ÔMCÎ51îTJWÎS+FYæìâbVTÔ90S+JUKTRÈ+êæàØVò4XÊN2FNÐM8S4UBYôê8ÞVMâ7äC9äBÖòÜìÒLS9îAJW1830QUb8QÜêFYæTòìÐEÞAEIAîPäJÞTG6Ü84M3HPÚî19G9SÎÌIPPÆXDÚJâJPLEPYHE8P0ÆàÜH4àâðF/JO9ðÔVJYÚðÖêðXE4Iô3æNÆP89VF+Ò2Ü/Ôê9OJàÖIÞÔbGF7PKZ0ôO4B0ÒÈaWA/RDOUVSCè3ÔîMÖæôUJÖ6âôIÖÈMêBØXDì0ÒÒÜSØ7G9A3DÌ+æîDÞÖO2bTî/æMU9Øò9ðêSZäÜ8aÔ/ò/NÐaK8GIèÚÔDVÊÊAQÆÚÊ7SOØI1WZ0êâAÊaCBH/S/bìLØIØÆYÜ9ÚLÊ5ôÎì2êPÊÜÐ/ìê0PäðîAôYìIÞRaôîIÐPNKÒL0ÊèI8SXUB2ìÆà2ZHâæ73ÜITÈØV/3Ú2NAENêØZZ9/ÎUab2OKJ0PCÊ6ÎÜ4/àâôBÔìàÎÌ7VWÞÒCR1YJÎÌÜ33äàQ5+W+êàaæbæôìCBàKZæðC0ôîbGêÒèSÎìYÈÈÚRVaôG4àÌÎVÔJêVCä3ìGÎK/N/àMàMPUGKìJQ3R7Æ734RÎK7êâ8òKîMÌÌOBULKîêàäÆÈZÌLYFÌðQ/O/DV0D38òRPAbÊ1ÆYKÔâäVÎðS1ØEUKL68QîÐä2C/ÔØRÌÔäØMàWbò7Þ+UÒ7IBDCÖOEZI9V7ØRZðôÈDINÎêEÜÈÐèX5NPRÞWV2QÔQXæK1ê0ÔGÔæòèÊ667ÊSLòYàWKQ2ÔO92UIòKêÆ3JY9+èTZAXÞâØ48Q32êCââCZZ3ÒDÔUQLØ7ÜTèÎêâÖ6LS6ÖÖ132ìWòO86ØèàGÜ4HO2ÈØ1ðìEÎ99àBWèì65KGObHÐÌÖUîYðÌMÐÖ0ìð/Iò2LÆLìòIîLFìZ749Ê7ÐAâNR9ÜòÔWÜSFÈ5Ø8æ9KîÖÌ5aFJC6ÔVÈÔ8ìHÎWWAÎêØ6Z+ÊKFTG6ÒROÜØ8ÒÌÌMâò+aKOb+FZ2IZêÞØLJ6ÆPÚØôBÎNTìÜàFJèbU3à8PBVÞ/ÐðYòbGUAWÐ4HÐUê17à9Îì25YGK28PÊòZâZôÆÐKTâ6b9PHØ1âLÈWIîÊE+GTÈä02HAÊ1ÎØVbØ6ÔðTVFYGàOÔSÞP1ÆNB9Ðê9AaCÐÖ02XIèäH3ðÚVSUâ9DTb5AHbSêÌAB5aUG5PÎÞ9+1+ÜÒLòB0ÐàFêÎ+WQOÔòSôÐðÞÒAàìUMZWîâNIEÆÈä4ÐÔòÒòNR1AUìâ0ÞB+ÚÐVÎEJ729NÎ+âÌÜÖFMKMÐØäXHGÜR74HÆ1OIÞZB4Î//GèêòäaGäÆäTÌUb0LC5äR1îâà1WbUJÎaâKBÒVðî1à34MÞ55UWCCÔÆ378àÈ8CÚ3Z8ìÒè0QVB6JHZÞSSÖÞØàØGH5ÌBYâDÜèØ4Ú7ÜDLÞ/ÆXN5Ì2T/WZÌUGÌæÎÚLÈS3ÊZÒê3H/Z8âCE+M1BäTLàDWUL+SØAGèPbÞÖÌFÒSòBÔbNJb7aFÌ/Ê+äaWU2ÊWæÆZGÆô/WÐEPä9VNîaTìÆP5ê54Ð1ôIìê1ÈKbàFUbêVÈYâGQòYÚ/P0ÞèÈHÖVÎKUÐPBMYCÆQÜÆLæEØè/EìÖIWOCCâ35R62ÞèÒÎÌ6äÈðPÊÜSIì3D0F21ðRKÆLOîUbMâbGWÞðSZOÐ+AQÅÔABRAFæHVÎAAA1ÆACîICBîæEXAVÊUQàVAF1RUîIHUVFU;
+<?php
+
+if (!defined('IN_IA')) {
+	exit('Access Denied');
+}
+
+class Ewei_DShop_Pinyin
+{
+	public function getPinyin($_String, $lstring, $flag = 1)
+	{
+		if ($flag) {
+			$_Code = 'utf-8';
+		} else {
+			$_Code = 'gb2312';
+		}
+		if (!empty($lstring)) {
+			$_String = $lstring . $_String;
+		}
+		$_DataKey = "a|ai|an|ang|ao|ba|bai|ban|bang|bao|bei|ben|beng|bi|bian|biao|bie|bin|bing|bo|bu|ca|cai|can|cang|cao|ce|ceng|cha" . "|chai|chan|chang|chao|che|chen|cheng|chi|chong|chou|chu|chuai|chuan|chuang|chui|chun|chuo|ci|cong|cou|cu|" . "cuan|cui|cun|cuo|da|dai|dan|dang|dao|de|deng|di|dian|diao|die|ding|diu|dong|dou|du|duan|dui|dun|duo|e|en|er" . "|fa|fan|fang|fei|fen|feng|fo|fou|fu|ga|gai|gan|gang|gao|ge|gei|gen|geng|gong|gou|gu|gua|guai|guan|guang|gui" . "|gun|guo|ha|hai|han|hang|hao|he|hei|hen|heng|hong|hou|hu|hua|huai|huan|huang|hui|hun|huo|ji|jia|jian|jiang" . "|jiao|jie|jin|jing|jiong|jiu|ju|juan|jue|jun|ka|kai|kan|kang|kao|ke|ken|keng|kong|kou|ku|kua|kuai|kuan|kuang" . "|kui|kun|kuo|la|lai|lan|lang|lao|le|lei|leng|li|lia|lian|liang|liao|lie|lin|ling|liu|long|lou|lu|lv|luan|lue" . "|lun|luo|ma|mai|man|mang|mao|me|mei|men|meng|mi|mian|miao|mie|min|ming|miu|mo|mou|mu|na|nai|nan|nang|nao|ne" . "|nei|nen|neng|ni|nian|niang|niao|nie|nin|ning|niu|nong|nu|nv|nuan|nue|nuo|o|ou|pa|pai|pan|pang|pao|pei|pen" . "|peng|pi|pian|piao|pie|pin|ping|po|pu|qi|qia|qian|qiang|qiao|qie|qin|qing|qiong|qiu|qu|quan|que|qun|ran|rang" . "|rao|re|ren|reng|ri|rong|rou|ru|ruan|rui|run|ruo|sa|sai|san|sang|sao|se|sen|seng|sha|shai|shan|shang|shao|" . "she|shen|sheng|shi|shou|shu|shua|shuai|shuan|shuang|shui|shun|shuo|si|song|sou|su|suan|sui|sun|suo|ta|tai|" . "tan|tang|tao|te|teng|ti|tian|tiao|tie|ting|tong|tou|tu|tuan|tui|tun|tuo|wa|wai|wan|wang|wei|wen|weng|wo|wu" . "|xi|xia|xian|xiang|xiao|xie|xin|xing|xiong|xiu|xu|xuan|xue|xun|ya|yan|yang|yao|ye|yi|yin|ying|yo|yong|you" . "|yu|yuan|yue|yun|za|zai|zan|zang|zao|ze|zei|zen|zeng|zha|zhai|zhan|zhang|zhao|zhe|zhen|zheng|zhi|zhong|" . "zhou|zhu|zhua|zhuai|zhuan|zhuang|zhui|zhun|zhuo|zi|zong|zou|zu|zuan|zui|zun|zuo";
+		$_DataValue = "-20319|-20317|-20304|-20295|-20292|-20283|-20265|-20257|-20242|-20230|-20051|-20036|-20032|-20026|-20002|-19990" . "|-19986|-19982|-19976|-19805|-19784|-19775|-19774|-19763|-19756|-19751|-19746|-19741|-19739|-19728|-19725" . "|-19715|-19540|-19531|-19525|-19515|-19500|-19484|-19479|-19467|-19289|-19288|-19281|-19275|-19270|-19263" . "|-19261|-19249|-19243|-19242|-19238|-19235|-19227|-19224|-19218|-19212|-19038|-19023|-19018|-19006|-19003" . "|-18996|-18977|-18961|-18952|-18783|-18774|-18773|-18763|-18756|-18741|-18735|-18731|-18722|-18710|-18697" . "|-18696|-18526|-18518|-18501|-18490|-18478|-18463|-18448|-18447|-18446|-18239|-18237|-18231|-18220|-18211" . "|-18201|-18184|-18183|-18181|-18012|-17997|-17988|-17970|-17964|-17961|-17950|-17947|-17931|-17928|-17922" . "|-17759|-17752|-17733|-17730|-17721|-17703|-17701|-17697|-17692|-17683|-17676|-17496|-17487|-17482|-17468" . "|-17454|-17433|-17427|-17417|-17202|-17185|-16983|-16970|-16942|-16915|-16733|-16708|-16706|-16689|-16664" . "|-16657|-16647|-16474|-16470|-16465|-16459|-16452|-16448|-16433|-16429|-16427|-16423|-16419|-16412|-16407" . "|-16403|-16401|-16393|-16220|-16216|-16212|-16205|-16202|-16187|-16180|-16171|-16169|-16158|-16155|-15959" . "|-15958|-15944|-15933|-15920|-15915|-15903|-15889|-15878|-15707|-15701|-15681|-15667|-15661|-15659|-15652" . "|-15640|-15631|-15625|-15454|-15448|-15436|-15435|-15419|-15416|-15408|-15394|-15385|-15377|-15375|-15369" . "|-15363|-15362|-15183|-15180|-15165|-15158|-15153|-15150|-15149|-15144|-15143|-15141|-15140|-15139|-15128" . "|-15121|-15119|-15117|-15110|-15109|-14941|-14937|-14933|-14930|-14929|-14928|-14926|-14922|-14921|-14914" . "|-14908|-14902|-14894|-14889|-14882|-14873|-14871|-14857|-14678|-14674|-14670|-14668|-14663|-14654|-14645" . "|-14630|-14594|-14429|-14407|-14399|-14384|-14379|-14368|-14355|-14353|-14345|-14170|-14159|-14151|-14149" . "|-14145|-14140|-14137|-14135|-14125|-14123|-14122|-14112|-14109|-14099|-14097|-14094|-14092|-14090|-14087" . "|-14083|-13917|-13914|-13910|-13907|-13906|-13905|-13896|-13894|-13878|-13870|-13859|-13847|-13831|-13658" . "|-13611|-13601|-13406|-13404|-13400|-13398|-13395|-13391|-13387|-13383|-13367|-13359|-13356|-13343|-13340" . "|-13329|-13326|-13318|-13147|-13138|-13120|-13107|-13096|-13095|-13091|-13076|-13068|-13063|-13060|-12888" . "|-12875|-12871|-12860|-12858|-12852|-12849|-12838|-12831|-12829|-12812|-12802|-12607|-12597|-12594|-12585" . "|-12556|-12359|-12346|-12320|-12300|-12120|-12099|-12089|-12074|-12067|-12058|-12039|-11867|-11861|-11847" . "|-11831|-11798|-11781|-11604|-11589|-11536|-11358|-11340|-11339|-11324|-11303|-11097|-11077|-11067|-11055" . "|-11052|-11045|-11041|-11038|-11024|-11020|-11019|-11018|-11014|-10838|-10832|-10815|-10800|-10790|-10780" . "|-10764|-10587|-10544|-10533|-10519|-10331|-10329|-10328|-10322|-10315|-10309|-10307|-10296|-10281|-10274" . "|-10270|-10262|-10260|-10256|-10254";
+		$_TDataKey = explode('|', $_DataKey);
+		$_TDataValue = explode('|', $_DataValue);
+		$_Data = (PHP_VERSION >= '5.0') ? array_combine($_TDataKey, $_TDataValue) : $this->_Array_Combine($_TDataKey, $_TDataValue);
+		arsort($_Data);
+		reset($_Data);
+		if ($_Code != 'gb2312') $_String = $this->_U2_Utf8_Gb($_String);
+		$_Res = '';
+		for ($i = 0; $i < strlen($_String); $i++) {
+			$_P = ord(substr($_String, $i, 1));
+			if ($_P > 160) {
+				$_Q = ord(substr($_String, ++$i, 1));
+				$_P = $_P * 256 + $_Q - 65536;
+			}
+			$_Res .= $this->_Pinyin($_P, $_Data);
+		}
+		return preg_replace('/[^a-z0-9]*/', '', $_Res);
+	}
+
+	public function _Pinyin($_Num, $_Data)
+	{
+		if ($_Num > 0 && $_Num < 160) return chr($_Num); elseif ($_Num < -20319 || $_Num > -10247) return '';
+		else {
+			foreach ($_Data as $k => $v) {
+				if ($v <= $_Num) break;
+			}
+			return $k;
+		}
+	}
+
+	public function _U2_Utf8_Gb($_C)
+	{
+		$_String = '';
+		if ($_C < 0x80) $_String .= $_C; elseif ($_C < 0x800) {
+			$_String .= chr(0xC0 | $_C >> 6);
+			$_String .= chr(0x80 | $_C & 0x3F);
+		} elseif ($_C < 0x10000) {
+			$_String .= chr(0xE0 | $_C >> 12);
+			$_String .= chr(0x80 | $_C >> 6 & 0x3F);
+			$_String .= chr(0x80 | $_C & 0x3F);
+		} elseif ($_C < 0x200000) {
+			$_String .= chr(0xF0 | $_C >> 18);
+			$_String .= chr(0x80 | $_C >> 12 & 0x3F);
+			$_String .= chr(0x80 | $_C >> 6 & 0x3F);
+			$_String .= chr(0x80 | $_C & 0x3F);
+		}
+		return iconv('UTF-8', 'GB2312', $_String);
+	}
+
+	public function _Array_Combine($_Arr1, $_Arr2)
+	{
+		for ($i = 0; $i < count($_Arr1); $i++) $_Res[$_Arr1[$i]] = $_Arr2[$i];
+		return $_Res;
+	}
+}

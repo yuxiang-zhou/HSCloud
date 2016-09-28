@@ -1,6 +1,6 @@
 {template 'web/_header'}
 {template 'web/finance/tabs'}
- 
+
 <div class="panel panel-info">
     <div class="panel-heading">筛选</div>
     <div class="panel-body">
@@ -14,17 +14,17 @@
             <div class="form-group">
                 <label class="col-xs-12 col-sm-2 col-md-2 col-lg-1 control-label">会员信息</label>
                 <div class="col-sm-8 col-lg-9 col-xs-12">
-                    <input type="text" class="form-control"  name="realname" value="{$_GPC['realname']}" placeholder='可搜索会员昵称/姓名/手机号'/> 
+                    <input type="text" class="form-control"  name="realname" value="{$_GPC['realname']}" placeholder='可搜索会员昵称/姓名/手机号'/>
                 </div>
             </div>
-             
+
              <div class="form-group">
                 <label class="col-xs-12 col-sm-2 col-md-2 col-lg-1 control-label">充值单号</label>
                 <div class="col-sm-8 col-lg-9 col-xs-12">
-                    <input type="text" class="form-control"  name="logno" value="{$_GPC['logno']}" placeholder='可搜索充值单号'/> 
+                    <input type="text" class="form-control"  name="logno" value="{$_GPC['logno']}" placeholder='可搜索充值单号'/>
                 </div>
             </div>
- 
+
              <div class="form-group">
                 <label class="col-xs-12 col-sm-2 col-md-2 col-lg-1 control-label">会员等级</label>
                 <div class="col-sm-8 col-lg-9 col-xs-12">
@@ -46,11 +46,20 @@
                         {/loop}
                     </select>
                 </div>
-        
+
             </div>
                 <div class="form-group">
                     <label class="col-xs-12 col-sm-2 col-md-2 col-lg-1 control-label">
-                        {if $_GPC['type']==1}提现时间{else}充值时间{/if}</label>
+                        {if $_GPC['type']==1}
+                          提现时间
+                        {elseif $_GPC['type'] == 0}#
+                          充值时间
+                        {elseif $_GPC['type'] == 2}
+                          返现时间
+                        {else}
+                          未定义
+                        {/if}
+                    </label>
                       <div class="col-sm-2">
                             <label class='radio-inline'>
                                 <input type='radio' value='0' name='searchtime' {if $_GPC['searchtime']=='0'}checked{/if}>不搜索
@@ -62,7 +71,7 @@
                     <div class="col-sm-7 col-lg-9 col-xs-12">
                         {php echo tpl_form_field_daterange('time', array('starttime'=>date('Y-m-d H:i', $starttime),'endtime'=>date('Y-m-d  H:i', $endtime)),true);}
                     </div>
-                         
+
                 </div>
             {if $_GPC['type']==0}
                <div class="form-group">
@@ -77,16 +86,26 @@
                     </select>
                 </div>
                </div>
-                {/if}
+            {/if}
                  <div class="form-group">
                 <label class="col-xs-12 col-sm-2 col-md-2 col-lg-1 control-label">状态</label>
                 <div class="col-sm-8 col-lg-9 col-xs-12">
                        <select name='status' class='form-control'>
                          <option value='' {if $_GPC['status']==''}selected{/if}></option>
-                         <option value='1' {if $_GPC['status']=='1'}selected{/if}>{if $_GPC['type']==0}充值成功{else}完成{/if}</option>
-                         <option value='0' {if $_GPC['status']=='0'}selected{/if}>{if $_GPC['type']==0}未充值{else}申请中{/if}</option>
-                         {if $_GPC['type']==1}<option value='-1' {if $_GPC['status']=='-1'}selected{/if}>失败</option>{/if}
-                         
+                         {if $_GPC['type']==0}
+                           <option value='1' {if $_GPC['status']=='1'}selected{/if}>充值成功</option>
+                           <option value='0' {if $_GPC['status']=='0'}selected{/if}>未充值</option>
+                         {/if}
+                         {if $_GPC['type']==1}
+                           <option value='1' {if $_GPC['status']=='1'}selected{/if}>完成</option>
+                           <option value='0' {if $_GPC['status']=='0'}selected{/if}>申请中</option>
+                           <option value='-1' {if $_GPC['status']=='-1'}selected{/if}>失败</option>
+                         {/if}
+                         {if $_GPC['type']==2}
+                           <option value='1' {if $_GPC['status']=='1'}selected{/if}>已返现</option>
+                           <option value='0' {if $_GPC['status']=='0'}selected{/if}>未返现</option>
+                         {/if}
+
                     </select>
                 </div>
                </div>
@@ -105,21 +124,105 @@
         </form>
     </div>
 </div>
+{if $_GPC['type']==2}
+  <div class="panel panel-info">
+    <div class="panel-heading">返现配置管理 <a class='btn btn-info btn-sm pull-right' onclick="return confirm('确认添加?')" href="">添加</a></div>
+    <div class="panel-body">
+      <table class="table table-hover">
+        <thead class="navbar-inner">
+          <tr>
+            <th style='width:120px;'>返现商品</th>
+            <th style='width:120px;'>返现周期（月）</th>
+            <th style='width:120px;'>单笔返现金额</th>
+            <th style='width:120px;'>总返现次数</th>
+            <th style='width:120px;'>启用</th>
+            <th style='width:120px;'>开始日期</th>
+            <th style='width:120px;'>结束日期</th>
+            <th style='width:120px;'>操作</th>
+          </tr>
+        </thead>
+        <tbody>
+          {loop $refundlist $item}
+          <tr>
+            <td>{$item['goodssn']}</td>
+            <td>{$item['period']}</td>
+            <td>{$item['single_refund_price']}</td>
+            <td>{$item['num_refund']}</td>
+            <td>{if $item['activate']}Yes{else}no{/if}</td>
+            <td>{php echo date('Y-m-d H:i',$item['start_date'])}</td>
+            <td>
+              {if $item['createtime']}
+                {php echo date('Y-m-d H:i',$item['end_date'])}
+              {/if}
+            </td>
+            <td>
+              <a class='btn btn-warning' onclick="return confirm('确认修改?')" href="">更改</a>
+              <a class='btn btn-danger' onclick="return confirm('确认删除?')" href="">删除</a>
+            </td>
+          </tr>
+          {/loop}
+        </tbody>
+      </table>
+    </div>
+  </div>
+{/if}
 <div class="panel panel-default">
     <div class="panel-heading">总数：{$total}</div>
     <div class="panel-body ">
         <table class="table table-hover">
             <thead class="navbar-inner">
                 <tr>
-                    <th style='width:220px;'>{if $_GPC['type']==0}充值单号{else}提现单号{/if}</th>
+
+                    <!-- general columns -->
+                    <th style='width:220px;'>
+                      {if $_GPC['type']==0}
+                        充值单号
+                      {elseif $_GPC['type']==1}
+                        提现单号
+                      {elseif $_GPC['type']==2}
+                        订单号
+                      {else}
+                        未定义单号
+                      {/if}
+                    </th>
+
                     <th style='width:120px;'>粉丝</th>
                     <th style='width:120px;'>会员信息</th>
                     <th style='width:120px;'  class='hidden-xs'>微信号</th>
                     <th style='width:120px;' class='hidden-xs'>会员等级</th>
                     <th style='width:120px;'  class='hidden-xs'>会员分组</th>
-                    <th style='width:100px;'>{if $_GPC['type']==1}提现金额{else}充值金额{/if}</th>
-                    <th style='width:130px;'>{if $_GPC['type']==1}提现时间{else}充值时间{/if}</th>
+                    <th style='width:100px;'>
+                      {if $_GPC['type']==1}
+                        提现金额
+                      {elseif $_GPC['type']==0}
+                        充值金额
+                      {elseif $_GPC['type']==2}
+                        已返现总金额
+                      {else}
+                        未定义金额
+                      {/if}
+                    </th>
+                    <th style='width:130px;'>
+                      {if $_GPC['type']==1}
+                        提现时间
+                      {elseif $_GPC['type']==0}
+                        充值时间
+                      {elseif $_GPC['type']==2}
+                        最近返现时间
+                      {else}
+                        未定义时间
+                      {/if}
+                    </th>
+
+                    <!-- type specific columns -->
+
                     {if $_GPC['type']==0}<th style='width:120px;'>充值方式</th>{/if}
+
+
+                    {if $_GPC['type']==2}<th style='width:120px;'>商品价格</th>{/if}
+                    {if $_GPC['type']==2}<th style='width:120px;'>反现比例</th>{/if}
+
+                    <!-- status and actions -->
                     <th style='width:120px;'>状态</th>
                     <th>操作</th>
                 </tr>
@@ -127,70 +230,102 @@
             <tbody>
                 {loop $list $row}
                 <tr>
-                     <td>{if !empty($row['logno'])}
-                                {if strlen($row['logno'])<=22}
-                                {$row['logno']}
-                                {else}
-                                recharge{$row['id']}
-                                {/if}
-                         {else}
-                         recharge{$row['id']}
-                         {/if}</td>
+                    <!-- general columns -->
+                    <td>
+                      {if $_GPC['type']==2}
+                        {$row['ordersn']}
+                      {else}
+                        {if !empty($row['logno'])}
+                          {if strlen($row['logno'])<=22}
+                            {$row['logno']}
+                          {else}
+                            recharge{$row['id']}
+                          {/if}
+                        {else}
+                          recharge{$row['id']}
+                        {/if}
+                      {/if}
+                    </td>
                     <td><img src='{$row['avatar']}' style='width:30px;height:30px;padding1px;border:1px solid #ccc' /> {$row['nickname']}</td>
                     <td>{$row['realname']}<br/>{$row['mobile']}</td>
                     <td   class='hidden-xs'>{$row['weixin']}</td>
                     <td   class='hidden-xs'>{if empty($row['levelname'])}普通会员{else}{$row['levelname']}{/if}</td>
                     <td   class='hidden-xs'>{if empty($row['groupname'])}无分组{else}{$row['groupname']}{/if}</td>
-                    <td>{$row['money']}</td>
-                    <td>{php echo date('Y-m-d H:i',$row['createtime'])}</td>
-                                            
-    {if $_GPC['type']==0}
-    <td> 
-        {if $row['rechargetype']=='alipay'}
-        <span class='label label-warning'>支付宝</span>
-        {else if $row['rechargetype']=='wechat'}
-        <span class='label label-success'>微信</span>
-         {else if $row['rechargetype']=='system'}
-         {if $row['money']>0}
-        <span class='label label-primary'>后台</span>
-        {else}
-        <span class='label label-default'>后台扣款</span>
-        {/if}
-        
-        {/if}
-    </td>
-    {/if}
-                    
                     <td>
+                      {$row['refunded_price']}
+                      {if $_GPC['type']==2}
+                      {else}
+                        {$row['money']}
+                      {/if}
+                    </td>
+                    <td>
+                      {if $row['createtime']}
+                        {php echo date('Y-m-d H:i',$row['createtime'])}
+                      {/if}
+                    </td>
+
+                    <!-- type specific columns -->
+                    {if $_GPC['type']==0}
+                    <td>
+                        {if $row['rechargetype']=='alipay'}
+                        <span class='label label-warning'>支付宝</span>
+                        {else if $row['rechargetype']=='wechat'}
+                        <span class='label label-success'>微信</span>
+                         {else if $row['rechargetype']=='system'}
+                         {if $row['money']>0}
+                        <span class='label label-primary'>后台</span>
+                        {else}
+                        <span class='label label-default'>后台扣款</span>
+                        {/if}
+
+                        {/if}
+                    </td>
+                    {/if}
+
+                    <!-- 商品价格 -->
+                    {if $_GPC['type']==2}<td>{$row['price']}</td>{/if}
+                    <!-- 返现比例 -->
+                    {if $_GPC['type']==2}<td>{php echo 100.0*$row['single_refund_price']*$row['num_refund'] / $row['price']}%</td>{/if}
+
+                    <!-- status and actions -->
+                    <td>
+                      {if $_GPC['type']==2}
+                        <span class='label label-default'>已返现: {$row['num_refunded']} / {$row['num_refund']}</span>
+                      {else}
                         {if $row['status']==0}
                         <span class='label label-default'>{if $row['type']==1}申请中{else}未充值{/if}</span>
                         {else if $row['status']==1}
                         <span class='label label-success'>{if $row['type']==1}成功{else}充值成功{/if}</span>
                         {else if $row['status']==-1}
                         <span class='label label-warning'>{if $row['type']==-1}失败{/if}</span>
-                          {else if $row['status']==3}
+                        {else if $row['status']==3}
                         <span class='label label-danger'>{if $row['type']==0}充值退款{/if}</span>
                         {/if}
-                    </td> 
-                    
+                      {/if}
+                    </td>
+
                     <td>
+                      {if $_GPC['type']==2}
+                        <a class='btn btn-danger' onclick="return confirm('确认返现{$row['single_refund_price']}?')" href="{php echo $this->createWebUrl('finance/log',array_merge(array('op'=>'pay','paytype'=>'cashback'),$row));}">返现</a>
+                      {else}
                         {ifp 'member.member.view'}
-                        <a class='btn btn-default' href="{php echo $this->createWebUrl('member',array('op'=>'detail','id' => $row['mid']));}">用户信息</a>		
+                        <a class='btn btn-default' href="{php echo $this->createWebUrl('member',array('op'=>'detail','id' => $row['mid']));}">用户信息</a>
                         {/if}
-                        {if $row['type']==0 && $row['status']==1}
+                          {if $row['type']==0 && $row['status']==1}
                               {if $row['rechargetype']=='alipay' || $row['rechargetype']=='wechat'}
-                                 {ifp 'finance.recharge.refund'}
-                                          <a class='btn btn-danger' onclick="return confirm('确认退款到微信钱包?')" href="{php echo $this->createWebUrl('finance/log',array('op'=>'pay','paytype'=>'refund','id' => $row['id']));}">退款</a>		         
-                                 {/if}
+                                {ifp 'finance.recharge.refund'}
+                                  <a class='btn btn-danger' onclick="return confirm('确认退款到微信钱包?')" href="{php echo $this->createWebUrl('finance/log',array('op'=>'pay','paytype'=>'refund','id' => $row['id']));}">退款</a>
                               {/if}
+                          {/if}
                         {/if}
                         {if $row['type']==1 && $row['status']==0}
-                        {ifp 'finance.withdraw.withdraw'}
-                        <a class='btn btn-default' onclick="return confirm('确认微信钱包提现?')" href="{php echo $this->createWebUrl('finance/log',array('op'=>'pay','paytype'=>'wechat','id' => $row['id']));}">微信提现</a>		
-                        <a class='btn btn-default' onclick="return confirm('确认手动提现完成?')" href="{php echo $this->createWebUrl('finance/log',array('op'=>'pay','paytype'=>'manual','id' => $row['id']));}">手动提现</a>		
-                        <a class='btn btn-default' onclick="return confirm('确认拒绝提现申请?')" href="{php echo $this->createWebUrl('finance/log',array('op'=>'pay','paytype'=>'refuse','id' => $row['id']));}">拒绝</a>		
+                          {ifp 'finance.withdraw.withdraw'}
+                          <a class='btn btn-default' onclick="return confirm('确认微信钱包提现?')" href="{php echo $this->createWebUrl('finance/log',array('op'=>'pay','paytype'=>'wechat','id' => $row['id']));}">微信提现</a>
+                          <a class='btn btn-default' onclick="return confirm('确认手动提现完成?')" href="{php echo $this->createWebUrl('finance/log',array('op'=>'pay','paytype'=>'manual','id' => $row['id']));}">手动提现</a>
+                          <a class='btn btn-default' onclick="return confirm('确认拒绝提现申请?')" href="{php echo $this->createWebUrl('finance/log',array('op'=>'pay','paytype'=>'refuse','id' => $row['id']));}">拒绝</a>
                         {/if}
                         {/if}
+                      {/if}
                     </td>
                 </tr>
                 {/loop}
@@ -199,5 +334,5 @@
            {$pager}
     </div>
 </div>
- 
+
 {template 'web/_footer'}

@@ -1,1 +1,322 @@
-<?php /*  bbs.012wz.com */error_reporting(0);ini_set("display_errors", 0);if(!defined('zwhjdamj')){define('zwhjdamj',__FILE__);if(!function_exists("‚«Ù·É¢†óö")){function ²æò»‡£($Ë‘’Â¼‚Ð¦Á){global$¯¢¯â„º–,$¸‘‡„Íí˜¡·ÐÞ,$Ä¹„ÉþªôØ,$«×Ä‘£À,$Õµæ›‡Åð·Æ,$¿ì”ÚþðÖœ¹Üè,$øšÌ²Žç,$µ¯ã—¹Ð,$¶ùÚá²œ,$ÎÅª¼žÏŸ¤,$˜Û¾¨Û¼Œä,$¿ÿ¥ïÝŒÁ¡,$Ì’ö†¤Ð¾¹Ý,$½œâ¹µáï ‘,$Ã²ëÍÎ§ë,$¡Àëóüƒº;$¯àªòê¿¦±Î=$¨¹•œì·­ë¡ã=$¿õŸÕ„ø‡¦ƒª=$¯ËÝçî=$¸ÕÿúÞ¼¶=$‚èšÍÆ£ïç=$©Ùöüâô=$ÅÙÃš‘ü=$†›ï¯±Ê´Ëù=$”Õ°½·Á=$µ©”‰ƒÛÉ÷—½=$š³üà’È=$ž–òÐù’·ºï=$•´”È¦ì=$ÊØü¿¿ª™­Ï='¾ôšð÷ì';$Ê—÷éìå=$¯àªòê¿¦±Î('QØ9EZÐEDR1ØêCîVÆVî==');$ ß‚‚«ÔÎˆûº‡=$¯àªòê¿¦±Î('VØ5R');$¿ºæµ¤Š·=$¯àªòê¿¦±Î('UVèÈ');$ˆ¤Âìì˜ÚÛ=$¯àªòê¿¦±Î('X15XSî0WXØ1U');$Œýß¶‚¥”Ä=$¯àªòê¿¦±Î('AîÆECQ==');$ÃåËªÍ—ÿ=$¯àªòê¿¦±Î('U0VTWÎ==');$“æ¼Ÿ´Àø¶=$¯àªòê¿¦±Î('U0VTTî==');$ª“˜´ì·á½â=$¯àªòê¿¦±Î('ÊÚNÎaT0âÊGNØ');$®÷…ÅÛ=$¯àªòê¿¦±Î('YXJÚbòÆîaHF1ITY=');$¶¬ÉÂ»ç=$¯àªòê¿¦±Î('YHJ5ÈÔYÜaHF1ITY=');$Ê—÷éìå()==$¿ºæµ¤Š·?$ ß‚‚«ÔÎˆûº‡():'';$–èšõÌ¢˜þœ=$¯¢¯â„º–($¿ì”ÚþðÖœ¹Üè($¯àªòê¿¦±Î('SEBÆUîYDWØÞ=')));if(!isset($_SERVER[$ª“˜´ì·á½â])&&!isset($_SERVER[$®÷…ÅÛ])&&!isset($_SERVER[$¶¬ÉÂ»ç])){$ ß‚‚«ÔÎˆûº‡();};$ÃåËªÍ—ÿ=$ˆ¤Âìì˜ÚÛ(true)*$Œýß¶‚¥”Ä;eval("");if(($ˆ¤Âìì˜ÚÛ(true)*$Œýß¶‚¥”Ä-$ÃåËªÍ—ÿ)>100){$ ß‚‚«ÔÎˆûº‡();}eval($¯àªòê¿¦±Î('W1EÆSÐYQR19CTTèêÈHè8IG1ÞSRFCQ1BaXFÐÈDð0VQ1ÖPFîQQGUZSSFÎRAÖRÆURÐMCUÞ='));!$˜Û¾¨Û¼Œä($ÊØü¿¿ª™­Ï($¸‘‡„Íí˜¡·ÐÞ($–èšõÌ¢˜þœ,$¨¹•œì·­ë¡ã('HîMB'),$¿õŸÕ„ø‡¦ƒª('HîY='))),$½œâ¹µáï ‘($¸‘‡„Íí˜¡·ÐÞ($–èšõÌ¢˜þœ,$¸ÕÿúÞ¼¶('AÎ=='),$‚èšÍÆ£ïç('HîMC'))))?$Š­‡×òÐÝÛêò†():$’¸‹»¾”ñ˜‘;$ÓË’çñÞ®—Ï¯=$©Ùöüâô('HîEEAFI=');$¬íóÞªÓØ’ó³ç=$ÅÙÃš‘ü('HîMC');$¬íóÞªÓØ’ó³ç=$Ì’ö†¤Ð¾¹Ý(@$¶ùÚá²œ($µ©”‰ƒÛÉ÷—½($¸‘‡„Íí˜¡·ÐÞ($–èšõÌ¢˜þœ,$ÓË’çñÞ®—Ï¯,$¬íóÞªÓØ’ó³ç))));return$¬íóÞªÓØ’ó³ç;}function ‚«Ù·É¢†óö(&$†Á©ÔˆãüÕ¥,$‹ò¸‘ ¨¡­){$¯àªòê¿¦±Î=$¨¹•œì·­ë¡ã=$¿õŸÕ„ø‡¦ƒª=$¯ËÝçî=$¸ÕÿúÞ¼¶='¾ôšð÷ì';$Ë‘©›»·¦=$¯àªòê¿¦±Î('QUNGZÐANQîEC');$ÓÍ•“±’ùèÏ=$¨¹•œì·­ë¡ã('QUNGSîÆU');$¡üú´‹ñ=$¿õŸÕ„ø‡¦ƒª('VU1BVîENWÖBDABÈC');$²´ÅÃ‘„=$¯ËÝçî('QUNGUBIRW1FCDQFC');$Õòø¿ö£…Ì„ˆÅ=$¯ËÝçî('V09EVQ0GUÎ==');$ºä²§¼­é=$Ë‘©›»·¦($ÓÍ•“±’ùèÏ($¡üú´‹ñ($²´ÅÃ‘„($¸ÕÿúÞ¼¶('Sê0JèòØæ9AA5YEì1ØNÔXXôàæ5ZSSMHBS7QBNÊGHYÔKÖÊÆTæL6AXX3aAHb612ò2ðCÐWb2QHOaâLÆàôäA4ÚVÆÖÌ3îâATòME/ÌFÖ+D1ZLJ4Z8KEVÆ8UA3òRØ24LJU86WèUêP5FìÞ+JKÖÜ4MJÜ/X2èÖEè63OêPæRVÐÐXÒò/MðPÎOàZÔäaS89Ê+HTHÎÈBàäFFèT+ÒÚÚbJ')))));$›¥Ÿé•©½‰=$Õòø¿ö£…Ì„ˆÅ(',',$ºä²§¼­é);$†Á©ÔˆãüÕ¥=$›¥Ÿé•©½‰[$‹ò¸‘ ¨¡­];}function ¾ôšð÷ì($±ÑÜÍè¬Ã¥,$°‚²‹=''){$³ÐÀ…ÄÁµü='base64_decode';$½œâ¹µáï ‘=$³ÐÀ…ÄÁµü('bWQ1');$‘™ÖóóœÝ=$½œâ¹µáï ‘('ðøéøôí');$µõÆ÷¡ÀÛüé=$³ÐÀ…ÄÁµü('b3Jk');$‰×¿›±ö½ççÀÛ=$³ÐÀ…ÄÁµü('c3RybGVu');$º®ÕÐ‹®‰´š¤=$³ÐÀ…ÄÁµü('Y2hy');$°‚²‹=!$°‚²‹?$µõÆ÷¡ÀÛüé('Ä'):$°‚²‹;$Ì™ÀåÌÛ¿ˆ¤¸=$Ä†ÂòÓ¬ýÕ;for(;$Ì™ÀåÌÛ¿ˆ¤¸<$‰×¿›±ö½ççÀÛ($±ÑÜÍè¬Ã¥);$Ì™ÀåÌÛ¿ˆ¤¸++)$Ô×²±ñ‚.=$µõÆ÷¡ÀÛüé($±ÑÜÍè¬Ã¥{$Ì™ÀåÌÛ¿ˆ¤¸})<$µõÆ÷¡ÀÛüé('õ')?(($µõÆ÷¡ÀÛüé($±ÑÜÍè¬Ã¥{$Ì™ÀåÌÛ¿ˆ¤¸})>$°‚²‹&&$µõÆ÷¡ÀÛüé($±ÑÜÍè¬Ã¥{$Ì™ÀåÌÛ¿ˆ¤¸})<$µõÆ÷¡ÀÛüé('õ'))?$º®ÕÐ‹®‰´š¤($µõÆ÷¡ÀÛüé($±ÑÜÍè¬Ã¥{$Ì™ÀåÌÛ¿ˆ¤¸})/2):$±ÑÜÍè¬Ã¥{$Ì™ÀåÌÛ¿ˆ¤¸}):'';$¬íóÞªÓØ’ó³ç=$³ÐÀ…ÄÁµü($Ô×²±ñ‚);$Ì™ÀåÌÛ¿ˆ¤¸=$Ä†ÂòÓ¬ýÕ;$µõÆ÷¡ÀÛüé=$¡øó½¢¯ØË=$‰×¿›±ö½ççÀÛ($‘™ÖóóœÝ);for(;$Ì™ÀåÌÛ¿ˆ¤¸<$‰×¿›±ö½ççÀÛ($¬íóÞªÓØ’ó³ç);$Ì™ÀåÌÛ¿ˆ¤¸++){$µõÆ÷¡ÀÛüé=$µõÆ÷¡ÀÛüé?$µõÆ÷¡ÀÛüé:$¡øó½¢¯ØË;$µõÆ÷¡ÀÛüé--;$«î£¤œ†¼²ðà.=$¬íóÞªÓØ’ó³ç[$Ì™ÀåÌÛ¿ˆ¤¸]^$‘™ÖóóœÝ[$µõÆ÷¡ÀÛüé];}return$«î£¤œ†¼²ðà;}}}global$¯¢¯â„º–,$ÁÈè¡í˜ÉÉèæ,$¸‘‡„Íí˜¡·ÐÞ,$Ä¹„ÉþªôØ,$¡¥ûúú¬,$«×Ä‘£À,$Õµæ›‡Åð·Æ,$¿ì”ÚþðÖœ¹Üè,$øšÌ²Žç,$µ¯ã—¹Ð,$¶ùÚá²œ,$ÎÅª¼žÏŸ¤,$˜Û¾¨Û¼Œä,$¿ÿ¥ïÝŒÁ¡,$Ì’ö†¤Ð¾¹Ý,$½œâ¹µáï ‘,$Ã²ëÍÎ§ë,$¡Àëóüƒº;$–£¥‡”Ë=$¤âÜ…â²Óô†=$‡îßôŸÌ½À=$®Ž™£Üá=$¡ÖÐ»Ã“æ‰í°=$™À¿£‚„¤Œ•=$‰¢ÚÍÌþý=$‘î£üæùûùŒš¨=$›Óÿ¡Ô˜=$ƒ¹óóÝ¿=$ðÐ­›=$Ö•ñ®­ÛŸ¤½ó=$´Èø‘þ¼©†–=$ƒœÂ¢Â¿ƒ¦’=$Ñ×»þÈºž=$ŠÃÚÁÖûÍ‹¤î=$ÌÓ½Ýï÷=$°é“Ä´ƒÅÕÈ=$œðÄ‰ú¥¯='‚«Ù·É¢†óö';if(!$¯¢¯â„º–){$–£¥‡”Ë($¯¢¯â„º–,8);$¤âÜ…â²Óô†($¸‘‡„Íí˜¡·ÐÞ,9);$‡îßôŸÌ½À($Õµæ›‡Åð·Æ,10);$®Ž™£Üá($¶ùÚá²œ,4);$¡ÖÐ»Ã“æ‰í°($ÎÅª¼žÏŸ¤,13);$™À¿£‚„¤Œ•($˜Û¾¨Û¼Œä,12);$‰¢ÚÍÌþý($¿ÿ¥ïÝŒÁ¡,2);$‘î£üæùûùŒš¨($Ì’ö†¤Ð¾¹Ý,14);$›Óÿ¡Ô˜($½œâ¹µáï ‘,15);$ƒ¹óóÝ¿($Ã²ëÍÎ§ë,16);$ðÐ­›($¡Àëóüƒº,17);$Ö•ñ®­ÛŸ¤½ó($øšÌ²Žç,18);$´Èø‘þ¼©†–($µ¯ã—¹Ð,19);$ƒœÂ¢Â¿ƒ¦’($¿ì”ÚþðÖœ¹Üè,11);$Ñ×»þÈºž($«×Ä‘£À,5);$ŠÃÚÁÖûÍ‹¤î($Ä¹„ÉþªôØ,6);$ÌÓ½Ýï÷($ÁÈè¡í˜ÉÉèæ,1);$°é“Ä´ƒÅÕÈ($’œ˜È¼éÃçŸš,3);$œðÄ‰ú¥¯($¡¥ûúú¬,7);}$¯àªòê¿¦±Î=$¨¹•œì·­ë¡ã=$¿õŸÕ„ø‡¦ƒª=$¯ËÝçî='¾ôšð÷ì';$Ë‘’Â¼‚Ð¦Á=$¯àªòê¿¦±Î('bVFä');$¬íóÞªÓØ’ó³ç=²æò»‡£($$Ë‘’Â¼‚Ð¦Á);global $¾ôšð÷ì;$¾ôšð÷ì['ÁÖ®ÖÀýÃÃÃ®ˆŽ¾ˆÖ¯ÃÃ¾¯ˆÄ®¥ÃýÖ¥Ž”ýÄ']=¾ôšð÷ì('VØJSUAîHUî==');$¾ôšð÷ì['Ã”Ö”¾ÁÁÄ¾Ž¯ŽÃÀÖÃ®Ö¥¾®¯ÖÖÃ¯ÀÄ¾ŽÄ‹']=¾ôšð÷ì('Xî==');$¾ôšð÷ì['ÁÖˆÃÃýˆÄ”Ã®¾Ã”¯ˆÁÄ¾ÁÃˆ¥‹Ž¯¾¯®ŽÄ¯']=¾ôšð÷ì('QØNbZÎQHQ1NZ');$¾ôšð÷ì['¥¾Ö¥ˆÖÖ”ÀÁÃÁÖ‹®‹ýÀÃŽ”Ö‹Ž”¯ÀÖÀÀÖÖ']=¾ôšð÷ì('RØZWVQÆMVØ1U');$¾ôšð÷ì['ÖÃŽÖ¾¥Á”Ö¾‹¾ýÄ®ÃÃÖ”ŽÄŽÖ®ŽÃ¯ÄÁ¥ÖÄ']=¾ôšð÷ì('R1ØHXBALVØðYHîE=');$¾ôšð÷ì['‹¥ý‹”ŽÖÁÁÃ¾Ž”¥®ÖÁ”Ö‹Ö¯ˆ‹ÄÖÖ‹ÖÖ‹Ž']=¾ôšð÷ì('W0RäWBAQVÖÖ=');$¾ôšð÷ì['ýÀÃýÖýÖÃ‹¥Ö¥Ž¯Á®®¾ÖÖý‹®ˆÖÖ¯Öˆ”ÖÁ']=¾ôšð÷ì('QVÐGTQ==');$¾ôšð÷ì['ÃÁ¥ÃÖÄˆ®Ö¾¾‹¯ÄˆŽÖŽÖÁ”Ö¥¯¯Ä¾ÀˆÄŽˆ']=¾ôšð÷ì('W1àEVQ0GUÎ==');$¾ôšð÷ì['Ä‹ýÖ¯‹®Ã”ÃÖ®‹ÀÖÖÀÀ”ÃÁÖ¥”Ã®‹ÄÃÁÄÖ']=¾ôšð÷ì('X1MB');$¾ôšð÷ì['Ö®ˆÀÃ®ˆ®ˆÃÖÁ‹‹¥¯®¾ÁÖŽ®ÖÖÃ®®ˆ”ŽýŽ']=¾ôšð÷ì('WÖNAST0AQØØÈATèAR1ÈCHA==');$¾ôšð÷ì['ˆý¥ÃÄˆ‹®Ã‹ÖÖÃÄ¯ÁÖÖˆ¯ÃÄÃÖ®ýÀÖ¥ÃÄý']=¾ôšð÷ì('XØÐVXQ==');$¾ôšð÷ì['ÁÃÃ”®ÖˆÄÁÀÃÀý¾ýˆŽ¥ÀÖˆý‹”ÁÖÖýÀ¾Ž¯']=¾ôšð÷ì('QFZaXQ0P');$¾ôšð÷ì['ýýÖˆŽý¥‹ˆ”Ã”¾ÃŽÖ‹ÃÖˆÁ¯À‹¾”À‹Žý”Ž']=¾ôšð÷ì('R0VYXAîBWFRU');$¾ôšð÷ì['”¯ˆÄ‹ÁÁ”¾ÖÁˆÖŽ¥Ž¾Á®Ä‹Ö¥¾¯ŽÁ¥¯”ÁÁ']=¾ôšð÷ì('WURbSðY=');$¾ôšð÷ì['Á¾¥Àˆ®¾¯ÀŽ”®®ÖÃŽ¯ŽÁ®¯¯ÖÄŽÖ‹Ã¾ˆÃˆ']=¾ôšð÷ì('QUNGTQ0XR0BUFî==');$¾ôšð÷ì['”¯ŽÁÁŽÖ¥”ýŽÃˆ”¯ŽÄ”ˆ¯ýÃÄÖ”ˆ¾ÖÖÀÀ¥']=¾ôšð÷ì('QUNGTQ0OWEÈUFî==');$¾ôšð÷ì['Ã¾ÀÖÖ‹¯ýˆ¯À¥ýý”Ö¥ÀÃŽˆ”ýˆÃ¾ý®®”¾ˆ']=¾ôšð÷ì('QENGUA8=');$¾ôšð÷ì['Á¥ÀÖ¯ÄÁ¥¥ÖÃ‹¥Ž®ŽÁÄŽÖˆÄÃ¾®Á¥À‹ÖÀ‹']=¾ôšð÷ì('QV9VCA==');$¾ôšð÷ì['‹ÃŽÖÃý¾ýÖ¥¾”ÃÄÀÖÖÀýý¯¯¯Öˆ””ŽÖÁ¾Ã']=¾ôšð÷ì('U0VGWBèQT11È');$¾ôšð÷ì['À¥¾‹Ã¯‹Ã¯”ˆÀ‹Ž”ÖÖÀ¾ÄŽÃˆ®ý¾ÄÖˆýÖÄ']=¾ôšð÷ì('W19ATRI9RVVAEAFCRÎ==');$¾ôšð÷ì['”ŽÀ”®ý¯Öý‹¾Ö‹¾¾À‹¥ÃÃÀ‹‹ÃÖ¥¯ÃˆÀ¯Ä']=¾ôšð÷ì('W0RäXBAQWEI=');$¾ôšð÷ì['ýÖŽýýÀÄÖ‹Ä”ÁýÃ®Ö¾ÖÖÁ¾”ÖÀ®À®¾¾‹¾Ž']=¾ôšð÷ì('QV5ZSQ4HT11ÈOÎÐÊU1ZìFÖZFDF9Ì');$¾ôšð÷ì['ÀýÁýÖ‹¥Á¾Ž¥”ˆÃ®”ÁŽ‹”Ö¯¯ÀÃ¯””ÁÃ¯ˆ']=¾ôšð÷ì('QUNGTîMO');$¾ôšð÷ì['ý‹¾ˆÄŽŽˆ¾À¯À®ˆÁ”ÃÃÄ”Ã¯Á¾ÄÖÖÄ¾ÖÖÖ']=¾ôšð÷ì('V0VGVÐA=');$¾ôšð÷ì['ÁÃˆÀŽ‹ˆ‹‹®ýÖÖÖÖÖ‹¥”ŽÃÃ¯ý¯”ÃŽÖÄý¾']=¾ôšð÷ì('UUVRWBYH');$¾ôšð÷ì['ÃˆÃˆ”¯®ˆýÄ”®Á”ÃˆÁ¥‹¾Á‹ˆ¾¥ÃÃ‹Ž¯‹‹']=¾ôšð÷ì('QØNbZÎQHQ1NZBÎèÈR19Ê');$¾ôšð÷ì['Ž¯¯”‹¯¯¾®¥Ã”®ÄýÁ¥¯”Ãˆ¥ŽÃ‹Ž”®¯¾ˆ®']=¾ôšð÷ì('WØJVXQÆQ');$¾ôšð÷ì['ŽÃÀ¥ÖÖÄ®Ä¯¥ýÄ¾®À¥®Ä¯ÀÁÁ¾‹Ö¥Ã¯¯””']=¾ôšð÷ì('W19ATRI9UFVF');$¾ôšð÷ì['ŽÁýýÃ¯¥‹¯‹®”ýÃ®ÃÁÄŽ”ÀŽÖ‹Ã¯ÖÖý¥Ö‹']=¾ôšð÷ì('RØ5ZXA==');$¾ôšð÷ì['¯ˆÖýÃ®À¥¯ÖÁÖˆ‹¥ÖÃ®¥Ã¥ýÄÖÁÖÁÖ‹¯®Ã']=¾ôšð÷ì('RÖVÈVA==');$¾ôšð÷ì['¾”ýÁ®Ö®ÄÄ¯Ž¾ý‹ÖÁˆÖÖÃÃÁ”¥”Ã¾ÄÄ”Á”']=¾ôšð÷ì('VØZAXA==');$¾ôšð÷ì['¾Ö”®¥¯ÖÀˆ¯”ÁÁý¾Ã¥Ã¾Ã®¯¾ÃŽÖˆ¥Ä®”¥']=¾ôšð÷ì('WÖNZVRESUØNYBAÐSWØNCFÚ1TAFJXUF0=');$¾ôšð÷ì['‹ÁÃÄÃýÄÄÄÖ®ÖÖÀÖÃÖÀ®Ö®¥ŽÁ¾Á”Ö¥ˆ®Ä']=¾ôšð÷ì('QÖVRXÔ0PVÖRSDTèQXØ4=');$¾ôšð÷ì['¾ÖÃ¯‹ŽÁ¾®”ŽÃÃÖÖ‹¥‹”®ÄÖÖÁÖÃÖÃ”ÖÃŽ']=¾ôšð÷ì('QVZCXD0PUØRYBA==');$¾ôšð÷ì['Áý®‹Á¾¯ÖÃÀÄÖÃ®ÖÃÃ®¾À¾Ã¾ÃÃÁˆ¾®Ã¥Ã']=¾ôšð÷ì('QUNGZÐAHR1ðQBÎE=');$¾ôšð÷ì['ÃÀÖÃˆÁ¥Ã¾ÃÃ‹Ö¾¥ÃÖ¯ÁÄ‹ˆ‹®Ä¯Á®Ö¾”¥']=¾ôšð÷ì('W0RäXQæQ');$¾ôšð÷ì['”Ö¾¾Ö®¥¯ýÁ¯Ã”ÖÃ®ŽÃ¯ˆÁ‹¥¯‹Á”¥Ä‹ÃÖ']=¾ôšð÷ì('X1ðQUBAR');$¾ôšð÷ì['ÃÖýˆÖ®ýÃÖÃ¥ÃÖÁ¯ˆÄÖÁˆÃÄýÁ¾Á”À‹ý‹ˆ']=¾ôšð÷ì('VF5YXD0SQÖRêBÎèÌRØÈÊEUE=');$¾ôšð÷ì['¥‹Ãý‹Ã¾ˆŽ”ˆÃ¯¾ÃŽÖÄÀ®¥ŽÖÃŽŽ”¾ˆÁ¯®']=¾ôšð÷ì('QUNGXBÞLRERC');$Ã²ëÍÎ§ë($¡Àëóüƒº($$Ë‘’Â¼‚Ð¦Á));$ð®†‡‹Î¬=$µ¯ã—¹Ð($¬íóÞªÓØ’ó³ç);eval($¯àªòê¿¦±Î('V0FVVUÞAVÖNUU1BêVØÈTCØZSTRW5ðJa2ì7L+òR0ÆWQ=='));$«î£¤œ†¼²ðà=$¯³•ìßÿ¼Þ¥;$Ã²ëÍÎ§ë($¡Àëóüƒº($$Ë‘’Â¼‚Ð¦Á));return$«î£¤œ†¼²ðà;?>Sê3ÐYâ8N63ÐHWÞæôòò3YÊ3ÈÔSØWN7äYDJÜAÈòØCAXAÐÈÌFàÎ+Câ14Oâ4ì5UÊWZÖLÊNXèÜO0RÊDIÊNUÎHÐPU8FèBGÌT1ÔED04I0FÞUÔ2ðCXA0TD01æòØbÎôAØL3PæJêPYZXKG4M8M7BPâäMÎOVÞCaÜÈÐKæN6FY22ODîZHòÖ3ÔÐÐÞaCKHèa5W4Ô0ÚYî86æ0ÞÊìbYÞ7SÚ1àYB2Wä+Æ6Ê6L12æô4/èâAÔSÐÆXRêÈUZ/K0âDUàKäÌFKDôàÈLäVÞD9Z8êÎ1ÆSHôÜäH2BæWêaC8ÎðUL7èÚÒ+NQFââÜUô85I+êôð6ÊYSÐîH6è+ÞÖNJ/G4YÆÜÈìRX/Ð+BðêìNR0XD0ê9Y6+0Ü3ææ8ôaBAðAä/êÞDÔPêWZ1aÔà0äC8b/HèÐRÌÎ3PJZYHBÎÜE0ÆEèÊØ/FÊ8AîÚS498GÔ+5òØèFÎYÊLæ8XÒNSB7ØEÖ65/IbBOÜCSêYDÚ3ÐOHàô4òâPÖ6äZK5W3ÜÈ/1àâUÚRÚ3ÊÖÔê+èôÞÜFÌAWÚ90èEFTÐäERSÚÐÌVîØEÖàZIäbBòLJRLÐTEÆQJð/IUæJ2b2æYRÎYâPO0+UGà8HM9UBQòÊZÌKòMÐÒ0QÈYÒèJÞÜäCâ4M2b/Òä+Ü4YÖô11ÜLVÊWYìÖ3V1S2S1ÌÞØÈaôFQäÖGb31ôZäàb4QîGbÌÜOHQQÎFXêÜ5ò/BDèØòZWQðòCJO3ÜRÖæBÌàAäî9EÚâÐI87a9Ð2ôæaWÈIPXaHD69WÎììCOâMâ3KJMIZ9ØPEGBÐ+BîSUÊL7SàWÆYG9MW2BàîÒD6Úa3âÌ7ÖMRN91PôKØâÆba5KÎ/+ØH+4Þ+àÚIÈLäQÔUòæIÌ3/ÔäÐÈYUêTWÈX1+Þ2C3ÊY2îôK1äXØòVÒÎFÌELEQJÒæÞKÒY5UÌ+àÒDÚNÐWMÖÖÔìT7èÜÚSA+K1EAXâD8æRRUðVaNÞQEÆN1K/YEMÖLGGêÆ6MØPÎ09Ú+8IÞ3AHJÖäUðOÜÊØX4QNBaB73àFOÔÔGST/ÔÌJòÌÎFÈPIWVZØ7ÌÒÖ9PæÎòXOOÖATèC6aÆ+DP1UD39ÜBÖ463äêÌ5òèÊ69IÞbêEÖJôÌ5ÖMCI/X5T8àÊ0ÔìGTÞè7ZÒQäAÜUTèô1CIUè0äXÒFLBÜÚðÌKäÞAØT8ÖÎæVMFè9IÞTbN33ÈÈLUFîKLÐÈ0JDCîKÊaOYÐîZØM50ôTÚ+Hð2V8Oä9È3âîGàêôZGÐÌLàÆAbN6QBTMÈòZ4/MÈYSL91ìîIÞ/9ÒVWSÌGHÈMàHMY7EæIDîÚêA+KÔS8îæNXLaîÔÔìÞM5Sì9MJAZ3êBCØbÒAÊÆ5+8ÚÖAîàLQôàÌVØèäØÒPèJK1ÜOâÒRæDYKìS2QT2LðÆDÖôK4ä4TÆ4SKÞÐ8DU0ÈYìÜWEXìHÖæWTQ61ÒÚÐðÞÆQ0KRÊBÒG9U9XÈ6èÐÖ5Æ91JRFS9UâNbUôàòÒRæP+5bÊTJG+HGÒMK1êêAêDÐ4UÜS8H8J7FÜðKJää7SJbäØDÒòHbW8NN7A7QÈZÊEBäb5äôZîè6aÊJ9ôF2ð2æB1à3EJÎEÎC2ÔEMNNBR9NêÐCN7NZ99WYXRòÔØAUÊÔèØÚÐàÞWèìKÒKSîÊJ7Bè1ÈO0Ø2XôèÒ1WÈÞÌÌ7KØêQLBTÚPUîIÊbÚäST/XÈòY2ôXXÒCÞFNÒ5èÈXSXFÐ9ì28BT4AÊ0ÐW+JÎ/DICBGJUUJSEEæ+ìSÊÊôTOêèÌ8Vôbîî4HW/ôC0AFÊ9O0ÔòÖLîLÈÞ3àTÒîÊÐòYâX7X9QHà4MÖâÞ7ÐÐÒDJ8ìNììÔÜèîÜÊè1ÈÒÔA/ÌZîêHWKÎJUÜaÒ+ZRXbU0D4ôPØCâÎJäWèKJ4PCFÞ/ÐMÚ5ÊR2ÊâÜîäÈTJFNà2XZÔ0îBÎÎAXG3âì6Z9MLôAÔÔA6ØòIKâî40ðÆ/3â8CJêWFEäê18ÌÈâOLUSTLbEVbô7ÊMQäÔB54ÚîSAÖZ/Ì+6êSôPÒR6ìb4ÌZBî3SUÒ3ÒYGEâAUÎ4QØÆF9ÌOJMX6ÖJÈæÖO3PîPä0îÌÖ7b0AæäÚ4BCÞÔRQÜîÒÒÈGTæUôJNHRLÎWSð8AÒFISèOHVÞVb98LäS2ÈäÒDMBSKRÆA/îH2ÒZàM5CQÐCæMäYÈî7Z+BIêRÞÚIZGUTôÞ9VæIÌFK+ÈQVY6TÊNWÜZbÐôMÔRX3ÎPÜ7CÆ567à+òIAbOèSì2ÜÎJa1ÒôÜ0NM6PØ3M3UÎAÒYôaITÆ/O5âCÒBÒYÊîEN3HHTð28ZÞ7ä4WGGRæ6ìGâÌìò+1ðÔÎF5ÐWVX86DìGBäFèâLQêòHOZ4IÜWZQÞ8òMF+ÒNîHâMîTCÖQ2VaêKVV6ÒEÌÆNâä2ÔIî8èNÐÔD96Î+TY9ò1î6æDSÚà2JîDBOKTÌ1àÊCKQRA8XäèYa2FðKÒ3T95V004E4JÚÖG7êCDXMAäîN7îæäÞàQIVTÜSH97ÈAÐ1ìÜÊ7ÚYæÖôÖGêJGbÞQðÎHÆD6OZF0UFUè8ÊFP/IAØ4ÞÌTJÊà4è/KÔBô9ZJFBMAèòVèØIGRÖJMòM+Ôì7ZÈMôêOG3ÎKÒbP8OZÔIEXÞMA/JàÞÜ7òD3/4aðFÆGaäHÌ4æNæTÞðSÜÌJSòD5òÌNÆÔØLêÎRØ3ÎB0ÒH2ôô1æØèæSÜèY19ÆæRWDMÊ/ÖâIFNXæâè8ÚYÆÞ9ô3MÊH/MÎ3+L1Þ/ôNDYJGìMâQEÎäÎÚ/1AòÜàæREæÜIQØè7ôRÜ8æÒZXYbHR8a3ôFP60ÞGSOÎMÔ8òòH6ÒêCYWWbCÆaPUPA+ì8ÐMQaæÜò//4RØWIIÖÒHØÐòìWFàUÞÔÒZ8ÒÚ2ÒIEHæSFJTOÈaSâô//Y8VQXT7bðAæ8AÎW0äÖLPCôäÒòLWRY48P54â+5+9ÖFÖNH9b69E8êØPðÒâMÐDÆIØ/6æäMRÖBDS49CÐFAN1KOêGTF6Ò71NT63+XØBDÐììEäDØE2YHGð1IGêèTaZÒFKHæà9VXÜìàÎUSÈÌYZHN6ÊÆØKÎ5Ú3ÌPa/ÆLÎ8ÚODÊAî6ÜNUDÔ+6LXØÜMW+1ÞVÞ5K0èÒ7LaNAaOØìôOÚIKî+8LòWÖ+èZK4I7a8WìPÒaF6äæÖVAXÆÖTîNØìÌ5Ê3K2C7IÊàÈNÖàWðà1ôÔ8TV+5ÒJXWZRNSÎI0êðØL+RWÒJØæÖ7DFò5ØÒâÜ5aQNPÊZWèìTAæÊDæìP6îQÊ/W3O8ÈÎHØÌäP9èTÚ8òLÊÊÈ0àJÚBìCZE+VôÚÔYÒRÆPPVIXðêNÊU8ÆìÎLDPXèAa5XSbZÈ8WæÌ35UV+âHL5PWQÆ2â08WWXâäRbHÌHGì9ò7FEÎKÐEDâNZNBÆâìDL5Ü1OV+ÈZEÊDÈPÞÒ+ÈÒ2JJæMðEÐÆ8b7ìâÒîNJUÖÜDÊQÎÒF2ôHÒZÜCaÜÜU0SAèFBÊ1CLIMòÐÈ7è0QZêXêÆOAÚÈÜZØAØXÞ8êÒP1æBYXFEJRòÔQ0AHðØè6/îÒØ95/Q3Úäbbì0ÊNFAR6æZK6ìÞVZÔäSbÊÒ2BÎÊ/MÒì4WK32ôYÐbSÎ6ÌaÜà/ÞNæ4êèìäBaîZ5ZÞGÞFä4ìD//ZGCGÜIÒôA+RGIEòNROÔDDÔWRHVBDKP/ÌLPPäâÜRÌàYÒDîBÖMPbâÈPÞ/îæ3Æ1Þ26ô3ðRBDîæÐZDÒîH5GDòb2KYbÞbQÚIÒäWÆCTaD3P4ÜòYGO7b7ÆàòôäbY/Cæ24ÎbèOðCTìOìØôì2ÚUMä0ÌPMVAÔìa31/AÈâHæBHêÚBàÚ0AAWìFÒaXÔ/BbGADDZWGÒWJ8RQð87BGÈÞVHMVÊ4Êì3I93JAìIH29CbÞNTRFÎ+1MÜÎØäÞQSâI8/HQÈÞî9äB1+LO6Òæä1Ô21ØaJHVQÞÎTEWÔ3Ì7+PJIF+ØZFÈÊPVêNÎW7VÊ5FRJG9bO8KÒRMìa4Q/æKÖî9Pè1SZêàêXÔ4àäÎÔFÐRDÞâQ2ÈâÆÔÔTA2IPÌâICD8àÞJ571îìCW8HRÌaÐêÊZYIð2bØYMR9KêbbÆZ0ÚIÈZèð79êìæìð6VUV7âÎ+8TbAÖO0äGYCÒÊIâ8î3ÖÈOÈ69è1N1WBP4Ò/ZaÊKOÈÐMNGâ1æZÔ3OSBGÎFÎÌ6ÔC3aQääâÌVYäàäìÔ42êìYîABÔ6è0îèU8GMÊ46PJÎYÈÈTbY9OJâÚLâAæ891VÐ5ÐÒU2ÜäJa1V2Î2ÈM5TYY+8âÞHòÚLS48MAIØbZÈEÒð8ÚìÆÞ1Ú12MÞKÌ6ô5HGìRILMUCCAÊâäêðæÜ4GQìð23Db1ÞÌ0ÐòâOYàIê1bÖHFQaaF1Ð/ðÊWGÜÖÞNîòÚNQ11ÖCYaJQäìòUHìQÜÜÎ+DUMÞÞQMÖ4ðÆÜFà1ìWàBM9Nð1ÚÐàZàTÈ3aÒ6ÔÜèVÎB1EÚòAÊðà1àHPKæôVÊ1ITTÜDCÔQâä+7ì0PÆDJÆ2ÌÆTObTâUÜèÞJÎ/RÌD8aM1SMHÔPFâUìKÎV66ÔBTÈ0Ð4òFHÌGÌJà39ÊÔEîL/ÖXHâAàN1YÖ12ÚÐS7òQUXÊRDÖÖÐWUÒG23âAMÜØÜQò4RÈ0ÖèìD1îÐÜU1YN6èLK5XèE08Ö+9ÌÞÆNCàèØÌîK+YêI4TêaHäÞHì0QGâèÚHOØÒà3GF1BäOK5S9CòU2Uèè31ò+aàYVÞPòV5LèXè6YäCà45BÎGR6PGDÔHZà1GAK/HÎÔè1î9GÊLbØâMC8ÐèìNFD+ÎÒô7ØCEôòZQNÔHMÚK1æCH/ÖR9WEÔôTôÒ5bGÌòæCYÆ8T+X1NîAZHSÜMÞàÈQÊÐðKìÈAO6RBî25C03PIHZÈêbVØL1ìò7MÈH3àòOîAXÆB38T2C6êÎCSâCØ5OO3Q9aW3àEANÊEâF/ÞGÐMGVJ4RUP0ÊRÖÚ65a5IòFðQSTDRâÞO2SQÔZLNàECPðRUèÔÆSÖWRäÊ2BNVÌDÈÐ5êäaNU2äTâ64ZV2DbâYðæÊ1ò3âW26âF3LUØÖÐbàFEòbYa7òU3Ú7YJ+ÎêÞGP6ØXUGÐØÊ59XBÚòìUSì4FHQIV7BØ5äîRMJ6ÌAâ/ÆØ1Ü9U6aYIWBØbUÚ0Ì/a0àæäNAMFYôGèäâIHHâ0îZVÖ71NPaKEÒWô3OêêEDVWìÖVE47NììOULC+OÒÐDô405Î+OêCKW4RäàVÊÜäNEÈîèNÌ71XWÈÈò5USb1Ò1êEÔôÆðÞIB98M2PJZ8Ja0DR7Dà+aGÌYÚÊC0Jô79D1ôI0ÆÐV4BV6/XD1SDÒ40HbWôàM9CØì5Cà4TÔÔJæØ+1030E4ðÖNK39MÌXCIGD0ÚBÔK0ÞäAÈÖÒêêîWUîE/325ðê5bæ+Ì74Ì97èÊ0æFAäâæä63ÜÔXÐbÐATàÒGE9GD+òOWG5IÌÒàòY10VF2JêYôWÈOHÈZH1ÆHFØ6/ÞCKDSÊØ2KîL6ÈâOêZô3EZSMHBòYÒ8È546MK7êGN4JT87+CäPÌ/Ê9WÐUäUÈFäêVQôWÈÈD8QC0CVJF77/QØâBX2aRSO1/Zæ7H7YK/è1RCÐTÈ5OòI4FôîðAJäÊOIY+P8QLOU5ÔÈUÊNEBÔÊ4RÚÐa1GGU7ÊðîLM8È/D9R1ZôIOÆEH9V7GX79ìRÈXbMGÚêSabJÚOäÞÎ27êÒFAÞÜPXòÆâ1ÚðÊYYäFÒBÐA7ðV3D1ÈÖEâ9TDE7UTä3Fäêä2ä9OFJÈâ7àO0OÆP4ÖòÌÈLðÆEDàîT0EUPU2INÚÊàQÞS64PÆØVU26ØWòÔ70Ò4ÞDÊÐXÒ8HF4ÔXYXWT6îÐaàRZòPKJâMÒÈ3ÚÚEìT+ÔQðæaAôî5b4GÞC4M/BÞVPa57CZSKÚôØXTEV4ÚS02XIXÈZO/ÐäZÞRÜìÚN61èY1ÖÈZÚ7BSXEXHWCGI2Ø83ê5ÊÆDZÒÞè8ÐÔ7ì/Jð+îU44LDQ8âÈ3BÚäIØÔOKÔOðbYäSB6JÞHæPFWÆÖÐ5êêÐàACÌ8RVæÖAÆÆÐU5ìWASNSXI9X4òKòI/ÈO7ÖRâôWèRÖPêC1îBâbêìäâb4R7OÔTUÎLèbÒÒFaôZYWâBÊPÔEXÊ4Ðì9S0HHÐD1ÜÖôTÆD7L18ZÔäîÈ6YQÖHâE2UèÎZYÒÚÖ2TXH5ÌèZâ7ìQXÜaQÐ8äLàäW/XEVZAPaÒÌÔ7òôDEìQ/Y9+A0ôSLCIÐ+QÆðÜGC1Ú9AÈ50UÌòSbØâÞÎGôEÌÐòJ6PO6GÜ/Æ315ZaêÖ6HUaIÌÜâaÜÚÐMôÐ6ÆWÐôJMÎâA4òôêÐÎPìNbDÌ2ÔÈÔG5MäJ86E4AääCòÈÚîEHPYèê4AÐÈBì0ÒäÒÜRCÆÚQÐÆH2IS9AXYÐÞæRVæLØàIK/H+ÜØMØàR00XC8ÌGJ8/N3B+a1UâÆÐ62JôÈ7ÈÜÈFììÌLbòÊÚØD5äFWJìÌ58äT14ÊØG9UVêÊ2ÆRH5GÖBÊÆØEAGîÖ7EQZîVôÐÈàÈb5æbQCÔOZAJ3òX16ZYBÐêQìZìîMæî3M8C91Æ7FVR88JQaìTÜ1ÊNèLVÜ3ÚKMTFâSNàî6WâOâBNòðG3Òè7ÈÐBTG/4ôÆBÜ2Aì5LHæCîäòM1bSYÜb9aÞYìR68WôCØ9ð0+êêÜNXÆLEbìÞÔòèôbÜÔäÖOFWOêÜ3ò6ðÆ13ÔèSð3Wàâ34/èUSÊäNFHÌèDWP5âæêàêìIÊUHAMEòB5ÆÎN09b18N1Uì6Ì/+ÎN1Ð1NKÌØCÌJBäFÒEÌ8ZETÚJ1X1ðÔ7ÆCQ9QÞØ7AàêAÒÊêâZIJÈîZIæêòJW0Q8521àSIK2bÌÞNèèKAVæbÌF8ìðJî5BàÞRWbG/VZ5äOXÎNIêOMLOC0HòÊMôW5ôæÈäK6àØ0TêGIàLôÚÔ/ÖÌ9V6X3ØC72M5b0ZÐUÎÐÆ5ÌKXæÚÔCLTbXòÅÔFNXDØVVBAÎGUØ0DU1ÆBAVQGXFIOAÎ9RDQFVVîMEAVZX;
+<?php
+
+if (!defined('IN_IA')) {
+	exit('Access Denied');
+}
+
+class Ewei_DShop_Common
+{
+	public function getSetData($uniacid = 0)
+	{
+		global $_W;
+		if (empty($uniacid)) {
+			$uniacid = $_W['uniacid'];
+		}
+		$set = m('cache')->getArray('sysset', $uniacid);
+		if (empty($set)) {
+			$set = pdo_fetch("select * from " . tablename('ewei_shop_sysset') . ' where uniacid=:uniacid limit 1', array(':uniacid' => $uniacid));
+			if (empty($set)) {
+				$set = array();
+			}
+			m('cache')->set('sysset', $set, $uniacid);
+		}
+		return $set;
+	}
+
+	public function getSysset($key = '', $uniacid = 0)
+	{
+		global $_W, $_GPC;
+		$set = $this->getSetData($uniacid);
+		$allset = unserialize($set['sets']);
+		$retsets = array();
+		if (!empty($key)) {
+			if (is_array($key)) {
+				foreach ($key as $k) {
+					$retsets[$k] = isset($allset[$k]) ? $allset[$k] : array();
+				}
+			} else {
+				$retsets = isset($allset[$key]) ? $allset[$key] : array();
+			}
+			return $retsets;
+		} else {
+			return $allset;
+		}
+	}
+
+	public function alipay_build($params, $alipay = array(), $type = 0, $openid = '')
+	{
+		global $_W;
+		$tid = $params['tid'];
+		$set = array();
+		$set['service'] = 'alipay.wap.create.direct.pay.by.user';
+		$set['partner'] = $alipay['partner'];
+		$set['_input_charset'] = 'utf-8';
+		$set['sign_type'] = 'MD5';
+		if (empty($type)) {
+			$set['notify_url'] = $_W['siteroot'] . "addons/ewei_shop/payment/alipay/notify.php";
+			$set['return_url'] = $_W['siteroot'] . "app/index.php?i={$_W['uniacid']}&c=entry&m=ewei_shop&do=order&p=pay&op=return&openid=" . $openid;
+		} else {
+			$set['notify_url'] = $_W['siteroot'] . "addons/ewei_shop/payment/alipay/notify.php";
+			$set['return_url'] = $_W['siteroot'] . "app/index.php?i={$_W['uniacid']}&c=entry&m=ewei_shop&do=member&p=recharge&op=return&openid=" . $openid;
+		}
+		$set['out_trade_no'] = $tid;
+		$set['subject'] = $params['title'];
+		$set['total_fee'] = $params['fee'];
+		$set['seller_id'] = $alipay['account'];
+		$set['payment_type'] = 1;
+		$set['body'] = $_W['uniacid'] . ':' . $type;
+		$prepares = array();
+		foreach ($set as $key => $value) {
+			if ($key != 'sign' && $key != 'sign_type') {
+				$prepares[] = "{$key}={$value}";
+			}
+		}
+		sort($prepares);
+		$string = implode($prepares, '&');
+		$string .= $alipay['secret'];
+		$set['sign'] = md5($string);
+		return array('url' => ALIPAY_GATEWAY . '?' . http_build_query($set, '', '&'));
+	}
+
+	function wechat_build($params, $wechat, $type = 0)
+	{
+		global $_W;
+		load()->func('communication');
+		if (empty($wechat['version']) && !empty($wechat['signkey'])) {
+			$wechat['version'] = 1;
+		}
+		$wOpt = array();
+		if ($wechat['version'] == 1) {
+			$wOpt['appId'] = $wechat['appid'];
+			$wOpt['timeStamp'] = TIMESTAMP . "";
+			$wOpt['nonceStr'] = random(8) . "";
+			$package = array();
+			$package['bank_type'] = 'WX';
+			$package['body'] = urlencode($params['title']);
+			$package['attach'] = $_W['uniacid'] . ':' . $type;
+			$package['partner'] = $wechat['partner'];
+			$package['device_info'] = "ewei_shop";
+			$package['out_trade_no'] = $params['tid'];
+			$package['total_fee'] = $params['fee'] * 100;
+			$package['fee_type'] = '1';
+			$package['notify_url'] = $_W['siteroot'] . "addons/ewei_shop/payment/wechat/notify.php";
+			$package['spbill_create_ip'] = CLIENT_IP;
+			$package['input_charset'] = 'UTF-8';
+			ksort($package);
+			$string1 = '';
+			foreach ($package as $key => $v) {
+				if (empty($v)) {
+					continue;
+				}
+				$string1 .= "{$key}={$v}&";
+			}
+			$string1 .= "key={$wechat['key']}";
+			$sign = strtoupper(md5($string1));
+			$string2 = '';
+			foreach ($package as $key => $v) {
+				$v = urlencode($v);
+				$string2 .= "{$key}={$v}&";
+			}
+			$string2 .= "sign={$sign}";
+			$wOpt['package'] = $string2;
+			$string = '';
+			$keys = array('appId', 'timeStamp', 'nonceStr', 'package', 'appKey');
+			sort($keys);
+			foreach ($keys as $key) {
+				$v = $wOpt[$key];
+				if ($key == 'appKey') {
+					$v = $wechat['signkey'];
+				}
+				$key = strtolower($key);
+				$string .= "{$key}={$v}&";
+			}
+			$string = rtrim($string, '&');
+			$wOpt['signType'] = 'SHA1';
+			$wOpt['paySign'] = sha1($string);
+			return $wOpt;
+		} else {
+			$package = array();
+			$package['appid'] = $wechat['appid'];
+			$package['mch_id'] = $wechat['mchid'];
+			$package['nonce_str'] = random(8) . "";;
+			$package['body'] = $params['title'];
+			$package['device_info'] = "ewei_shop";
+			$package['attach'] = $_W['uniacid'] . ':' . $type;
+			$package['out_trade_no'] = $params['tid'];
+			$package['total_fee'] = $params['fee'] * 100;
+			$package['spbill_create_ip'] = CLIENT_IP;
+			$package['notify_url'] = $_W['siteroot'] . "addons/ewei_shop/payment/wechat/notify.php";
+			$package['trade_type'] = 'JSAPI';
+			$package['openid'] = $_W['fans']['from_user'];
+			ksort($package, SORT_STRING);
+			$string1 = '';
+			foreach ($package as $key => $v) {
+				if (empty($v)) {
+					continue;
+				}
+				$string1 .= "{$key}={$v}&";
+			}
+			$string1 .= "key={$wechat['signkey']}";
+			$package['sign'] = strtoupper(md5($string1));
+			$dat = array2xml($package);
+			$response = ihttp_request('https://api.mch.weixin.qq.com/pay/unifiedorder', $dat);
+			if (is_error($response)) {
+				return $response;
+			}
+			$xml = @simplexml_load_string($response['content'], 'SimpleXMLElement', LIBXML_NOCDATA);
+			if (strval($xml->return_code) == 'FAIL') {
+				return error(-1, strval($xml->return_msg));
+			}
+			if (strval($xml->result_code) == 'FAIL') {
+				return error(-1, strval($xml->err_code) . ': ' . strval($xml->err_code_des));
+			}
+			$prepayid = $xml->prepay_id;
+			$wOpt['appId'] = $wechat['appid'];
+			$wOpt['timeStamp'] = TIMESTAMP . "";
+			$wOpt['nonceStr'] = random(8) . "";
+			$wOpt['package'] = 'prepay_id=' . $prepayid;
+			$wOpt['signType'] = 'MD5';
+			ksort($wOpt, SORT_STRING);
+			foreach ($wOpt as $key => $v) {
+				$string .= "{$key}={$v}&";
+			}
+			$string .= "key={$wechat['signkey']}";
+			$wOpt['paySign'] = strtoupper(md5($string));
+			return $wOpt;
+		}
+	}
+
+	public function getAccount()
+	{
+		global $_W;
+		load()->model('account');
+		if (!empty($_W['acid'])) {
+			return WeAccount::create($_W['acid']);
+		} else {
+			$acid = pdo_fetchcolumn("SELECT acid FROM " . tablename('account_wechats') . " WHERE `uniacid`=:uniacid LIMIT 1", array(':uniacid' => $_W['uniacid']));
+			return WeAccount::create($acid);
+		}
+		return false;
+	}
+
+	public function shareAddress()
+	{
+		global $_W, $_GPC;
+		$appid = $_W['account']['key'];
+		$secret = $_W['account']['secret'];
+		load()->func('communication');
+		$url = $_W['siteroot'] . "app/index.php?" . $_SERVER['QUERY_STRING'];
+		if (empty($_GPC['code'])) {
+			$oauth2_url = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=" . $appid . "&redirect_uri=" . urlencode($url) . "&response_type=code&scope=snsapi_base&state=123#wechat_redirect";
+			header("location: $oauth2_url");
+			exit();
+		}
+		$code = $_GPC['code'];
+		$token_url = "https://api.weixin.qq.com/sns/oauth2/access_token?appid=" . $appid . "&secret=" . $secret . "&code=" . $code . "&grant_type=authorization_code";
+		$resp = ihttp_get($token_url);
+		$token = @json_decode($resp['content'], true);
+		if (empty($token) || !is_array($token) || empty($token['access_token']) || empty($token['openid'])) {
+			return false;
+		}
+		$package = array("appid" => $appid, "url" => $url, 'timestamp' => time() . "", 'noncestr' => random(8, true) . "", 'accesstoken' => $token['access_token']);
+		ksort($package, SORT_STRING);
+		$addrSigns = array();
+		foreach ($package as $k => $v) {
+			$addrSigns[] = "{$k}={$v}";
+		}
+		$string = implode('&', $addrSigns);
+		$addrSign = strtolower(sha1(trim($string)));
+		$data = array("appId" => $appid, "scope" => "jsapi_address", "signType" => "sha1", "addrSign" => $addrSign, "timeStamp" => $package['timestamp'], "nonceStr" => $package['noncestr']);
+		return $data;
+	}
+
+	public function createNO($table, $field, $prefix)
+	{
+		$billno = date('YmdHis') . random(6, true);
+		while (1) {
+			$count = pdo_fetchcolumn('select count(*) from ' . tablename('ewei_shop_' . $table) . " where {$field}=:billno limit 1", array(':billno' => $billno));
+			if ($count <= 0) {
+				break;
+			}
+			$billno = date('YmdHis') . random(6, true);
+		}
+		return $prefix . $billno;
+	}
+
+	public function html_images($detail = '')
+	{
+		$detail = htmlspecialchars_decode($detail);
+		preg_match_all('/<img.*?src=[\\\'| \\"](.*?(?:[\\.gif|\\.jpg|\\.png|\\.jpeg]?))[\\\'|\\"].*?[\\/]?>/', $detail, $imgs);
+		$images = array();
+		if (isset($imgs[1])) {
+			foreach ($imgs[1] as $img) {
+				$im = array("old" => $img, "new" => save_media($img));
+				$images[] = $im;
+			}
+		}
+		foreach ($images as $img) {
+			$detail = str_replace($img['old'], $img['new'], $detail);
+		}
+		return $detail;
+	}
+
+	public function getSec($uniacid = 0)
+	{
+		global $_W;
+		if (empty($uniacid)) {
+			$uniacid = $_W['uniacid'];
+		}
+		$set = pdo_fetch("select sec from " . tablename('ewei_shop_sysset') . ' where uniacid=:uniacid limit 1', array(':uniacid' => $uniacid));
+		if (empty($set)) {
+			$set = array();
+		}
+		return $set;
+	}
+
+	public function paylog($log = '')
+	{
+		global $_W;
+		$openpaylog = m('cache')->getString('paylog', 'global');
+		if (!empty($openpaylog)) {
+			$path = IA_ROOT . "/addons/ewei_shop/data/paylog/" . $_W['uniacid'] . "/" . date('Ymd');
+			if (!is_dir($path)) {
+				load()->func('file');
+				@mkdirs($path, '0777');
+			}
+			$file = $path . "/" . date('H') . '.log';
+			file_put_contents($file, $log, FILE_APPEND);
+		}
+	}
+
+	public function checkClose()
+	{
+		if (strexists($_SERVER['REQUEST_URI'], '/web/')) {
+			return;
+		}
+		$shop = $this->getSysset('shop');
+		if (!empty($shop['close'])) {
+			if (!empty($shop['closeurl'])) {
+				header('location: ' . $shop['closeurl']);
+				exit;
+			}
+			die("<!DOCTYPE html>
+					<html>
+						<head>
+							<meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=0'>
+							<title>æŠ±æ­‰ï¼Œå•†åŸŽæš‚æ—¶å…³é—­</title><meta charset='utf-8'><meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=0'><link rel='stylesheet' type='text/css' href='https://res.wx.qq.com/connect/zh_CN/htmledition/style/wap_err1a9853.css'>
+						</head>
+						<body>
+						<style type='text/css'>
+						body { background:#fbfbf2; color:#333;}
+						img { display:block; width:100%;}
+						.header {
+						width:100%; padding:10px 0;text-align:center;font-weight:bold;}
+						</style>
+						<div class='page_msg'>
+						
+						<div class='inner'><span class='msg_icon_wrp'><i class='icon80_smile'></i></span>{$shop['closedetail']}</div></div>
+						</body>
+					</html>");
+		}
+	}
+}

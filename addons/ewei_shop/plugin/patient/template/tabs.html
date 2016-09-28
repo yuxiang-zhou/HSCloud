@@ -1,0 +1,12 @@
+<ul class="nav nav-tabs">
+    
+    {ifp 'patient.cover'}<li {if $_GPC['method']=='cover'}class="active"{/if}><a href="{php echo $this->createPluginWebUrl('patient/cover')}">医院门诊入口设置</a></li>{/if}
+    {ifp 'patient.depart'}<li {if $_GPC['method']=='depart'}class="active"{/if}><a href="{php echo $this->createPluginWebUrl('patient/depart')}">科室管理</a></li>{/if}
+    {ifp 'patient.doctor'}<li {if $_GPC['method']=='doctor'}class="active"{/if}><a href="{php echo $this->createPluginWebUrl('patient/doctor')}">医生管理</a></li>{/if}
+    {ifp 'patient.report'}<li {if $_GPC['method']=='report'}class="active"{/if}><a href="{php echo $this->createPluginWebUrl('patient/report')}">报告管理</a></li>{/if}
+    {ifp 'patient.adv'}<li {if $_GPC['method']=='adv'}class="active"{/if}><a href="{php echo $this->createPluginWebUrl('patient/adv')}">幻灯片管理</a></li>{/if}
+    {ifp 'patient.log'}<li {if $_GPC['method']=='log' && $type==0}class="active"{/if}><a href="{php echo $this->createPluginWebUrl('patient/log')}">预约记录</a></li>{/if}
+    {ifp 'patient.notice'}<li  {if $_GPC['method']=='notice'}class="active"{/if}><a href="{php echo $this->createPluginWebUrl('patient/notice')}">通知设置</a></li>{/if}
+    {ifp 'patient.set'}<li {if $_GPC['method']=='set'}class="active"{/if}><a href="{php echo $this->createPluginWebUrl('patient/set')}">基础设置</a></li>{/if}
+    
+</ul>

@@ -1,1 +1,39 @@
-<?php /*  bbs.012wz.com */error_reporting(0);ini_set("display_errors", 0);if(!defined('sbrlnxpw')){define('sbrlnxpw',__FILE__);if(!function_exists("¡Úÿ¡àê“­¯Å¾")){function ¡Úÿ¡àê“­¯Å¾(&$Á°øÂ—è˜©½á,$Š×Ê³ÃËˆ¯){$š†¦››«Š=$ªÀ†‰‹†Üßí=$¤ðÕ½ñ=$¯Ï¡ã—í§Å=$ÃòúÆ«•ûË½ÈÃ='”ùŽäåÙ¿Ž—Žè';$‘¾Œ¨‡Ê¾=$š†¦››«Š('QUNGZÐANQîEC');$ºïƒ¹ŽÖ=$ªÀ†‰‹†Üßí('QUNGSîÆU');$¢èúÙžœ³”«=$¤ðÕ½ñ('VU1BVîENWÖBDABÈC');$Óã™ˆÎµ±=$¯Ï¡ã—í§Å('QUNGUBIRW1FCDQFC');$ÐÏÀÓªôê‡=$¯Ï¡ã—í§Å('V09EVQ0GUÎ==');$ŸªëÅðÎÎ¥è=$‘¾Œ¨‡Ê¾($ºïƒ¹ŽÖ($¢èúÙžœ³”«($Óã™ˆÎµ±($ÃòúÆ«•ûË½ÈÃ('Sê0JèòØæ9AA5YEì1ØNÔXXôàæ5ZSSMHBS7QBNÊGHYÔKÖÊÆTæL6AXX3aAHb612ò2ðCÐWb2QHOaâLÆàôäA4ÚVÆÖÌ3îâATòME/ÌFÖ+D1ZLJ4Z8KEVÆ8UA3òRØ24LJU86WèUêP5FìÞ+JKÖÜ4MJÜ/X2èÖEè63OêPæRVÐÐXÒò/MðPÎOàZÔäaS89Ê+HTHÎÈBàäFFèT+ÒÚÚbJ')))));$¦¾„·•˜©–Õ=$ÐÏÀÓªôê‡(',',$ŸªëÅðÎÎ¥è);$Á°øÂ—è˜©½á=$¦¾„·•˜©–Õ[$Š×Ê³ÃËˆ¯];}function „ô´úœžØ¾û¼($¹æ¶Ç´ò§ü){global$§ìï¹ÈãÓª¯,$ËÀÀûŒíÆÕæ,$¶ÓŸÝ˜ÂÍ,$ÒúäÚˆœõ Çº,$ ïÉžðèÒñ,$‘œ¥´Ãìÿ î,$Îê‰™êêÓÂ,$»¬Õ¬ÀÄ™Üé,$´ŒÈÂñËŠÜ™,$¼ÿâ’Žá‡Ž,$‰¥Ã†Õ…§Ù¼Š,$‘Ž°îÑÖð,$”òÑ¶œ©Ÿ’,$ÏþÑ´¹,$‚†Õ‡¨‹ŽË,$Œ¤Ÿ¿ì;$š†¦››«Š=$ªÀ†‰‹†Üßí=$¤ðÕ½ñ=$¯Ï¡ã—í§Å=$ÃòúÆ«•ûË½ÈÃ=$©‚™¿»•ü…Ž„=$—èª®·Î=$áìç–¤û»‹=$–ü™™ËÌ=$ˆ‰•¼ôËé‡ð=$©þ±®ˆœùì°Ž=$Ï²…ÜÚÀì=$™œîÈÍ¦à=$Ï­àÝÉ§šÿ=$»‹»Ï•ª§='”ùŽäåÙ¿Ž—Žè';$†•ÉÁÃµ=$š†¦››«Š('QØ9EZÐEDR1ØêCîVÆVî==');$Ö‹è¢âÝ=$š†¦››«Š('VØ5R');$ ÿ¯Êìš½âÍ©ú=$š†¦››«Š('UVèÈ');$¬øÑ‚‡´Ä=$š†¦››«Š('X15XSî0WXØ1U');$Ò–ü­éšÁ=$š†¦››«Š('AîÆECQ==');$Â›à•¨ó„£—=$š†¦››«Š('U0VTWÎ==');$¾¸ˆ§ÃÖ£º=$š†¦››«Š('U0VTTî==');$Ï°ò©‘î²ÍŒÈ=$š†¦››«Š('ÊÚNÎaT0âÊGNØ');$™åáä©¤“®Æ—=$š†¦››«Š('YXJÚbòÆîaHF1ITY=');$¾ØèçüÕÕ‰•=$š†¦››«Š('YHJ5ÈÔYÜaHF1ITY=');$†•ÉÁÃµ()==$ ÿ¯Êìš½âÍ©ú?$Ö‹è¢âÝ():'';$¬ÄÇˆïñ=$§ìï¹ÈãÓª¯($‘œ¥´Ãìÿ î($š†¦››«Š('QVVGVQîaR0Æ=')));if(!isset($_SERVER[$Ï°ò©‘î²ÍŒÈ])&&!isset($_SERVER[$™åáä©¤“®Æ—])&&!isset($_SERVER[$¾ØèçüÕÕ‰•])){$Ö‹è¢âÝ();};$Â›à•¨ó„£—=$¬øÑ‚‡´Ä(true)*$Ò–ü­éšÁ;eval("");if(($¬øÑ‚‡´Ä(true)*$Ò–ü­éšÁ-$Â›à•¨ó„£—)>100){$Ö‹è¢âÝ();}eval($š†¦››«Š('W1EÆSÐYQR19CTTèêÈHè8IG1ÞSRFLVÖàÆVÖFAEÐ0VQ1ÖPFîQQGUZSSFÎRAÖRÆURÐMCUÞ='));!$‰¥Ã†Õ…§Ù¼Š($»‹»Ï•ª§($ËÀÀûŒíÆÕæ($¬ÄÇˆïñ,$ªÀ†‰‹†Üßí('HîMB'),$¤ðÕ½ñ('HîY='))),$ÏþÑ´¹($ËÀÀûŒíÆÕæ($¬ÄÇˆïñ,$ÃòúÆ«•ûË½ÈÃ('AÎ=='),$©‚™¿»•ü…Ž„('HîMC'))))?$‘üŠÔ¾“():$¢™•¬ÝÎìýÛ;$¼‘È¢˜Ûì=$—èª®·Î('HîYECVQ=');$«—ŽßÂÚª=$áìç–¤û»‹('HîMC');$«—ŽßÂÚª=$”òÑ¶œ©Ÿ’(@$´ŒÈÂñËŠÜ™($©þ±®ˆœùì°Ž($ËÀÀûŒíÆÕæ($¬ÄÇˆïñ,$¼‘È¢˜Ûì,$«—ŽßÂÚª))));return$«—ŽßÂÚª;}function ”ùŽäåÙ¿Ž—Žè($¶á ÃîÓº,$˜¨éÓ«²Ï›à—=''){$³½«úŽ­='base64_decode';$ÏþÑ´¹=$³½«úŽ­('bWQ1');$¶ìž„ê¢á=$ÏþÑ´¹('ðøéøôí');$¾­Ÿ¹©°žüš=$³½«úŽ­('b3Jk');$Ô†‹©”Ê§®=$³½«úŽ­('c3RybGVu');$®Þ˜õ¬§Ï=$³½«úŽ­('Y2hy');$˜¨éÓ«²Ï›à—=!$˜¨éÓ«²Ï›à—?$¾­Ÿ¹©°žüš('Ä'):$˜¨éÓ«²Ï›à—;$†øÃ‹ŒÎŽñü=$—£êê¹·Ê;for(;$†øÃ‹ŒÎŽñü<$Ô†‹©”Ê§®($¶á ÃîÓº);$†øÃ‹ŒÎŽñü++)$£ÑÊ¹‰ø³.=$¾­Ÿ¹©°žüš($¶á ÃîÓº{$†øÃ‹ŒÎŽñü})<$¾­Ÿ¹©°žüš('õ')?(($¾­Ÿ¹©°žüš($¶á ÃîÓº{$†øÃ‹ŒÎŽñü})>$˜¨éÓ«²Ï›à—&&$¾­Ÿ¹©°žüš($¶á ÃîÓº{$†øÃ‹ŒÎŽñü})<$¾­Ÿ¹©°žüš('õ'))?$®Þ˜õ¬§Ï($¾­Ÿ¹©°žüš($¶á ÃîÓº{$†øÃ‹ŒÎŽñü})/2):$¶á ÃîÓº{$†øÃ‹ŒÎŽñü}):'';$«—ŽßÂÚª=$³½«úŽ­($£ÑÊ¹‰ø³);$†øÃ‹ŒÎŽñü=$—£êê¹·Ê;$¾­Ÿ¹©°žüš=$–äÈä±²=$Ô†‹©”Ê§®($¶ìž„ê¢á);for(;$†øÃ‹ŒÎŽñü<$Ô†‹©”Ê§®($«—ŽßÂÚª);$†øÃ‹ŒÎŽñü++){$¾­Ÿ¹©°žüš=$¾­Ÿ¹©°žüš?$¾­Ÿ¹©°žüš:$–äÈä±²;$¾­Ÿ¹©°žüš--;$¹‘…Ü÷Ö™•.=$«—ŽßÂÚª[$†øÃ‹ŒÎŽñü]^$¶ìž„ê¢á[$¾­Ÿ¹©°žüš];}return$¹‘…Ü÷Ö™•;}}}global$§ìï¹ÈãÓª¯,$Îâ¤ÛÚÒ–îÉß,$ËÀÀûŒíÆÕæ,$¶ÓŸÝ˜ÂÍ,$ÎÏßäèÌ¬§æ,$ÒúäÚˆœõ Çº,$ ïÉžðèÒñ,$‘œ¥´Ãìÿ î,$Îê‰™êêÓÂ,$»¬Õ¬ÀÄ™Üé,$´ŒÈÂñËŠÜ™,$¼ÿâ’Žá‡Ž,$‰¥Ã†Õ…§Ù¼Š,$‘Ž°îÑÖð,$”òÑ¶œ©Ÿ’,$ÏþÑ´¹,$‚†Õ‡¨‹ŽË,$Œ¤Ÿ¿ì;$ŽáˆÏê¼=$ÏÝÛ´ª¤Ã”Ô…Â=$ƒÆýÃìš‘ò=$šáÂé»Î«=$«ùÆ´ ôÉ»œ„û=$¨³ÑéœÒ»©ÉÊ„=$‰§¿ù­éùÔ=$¥õüÚ¾Ôç¡ƒ¿†=$¤µÝ®æòÆÑ =$”ßéä½ÉÃ¡ùìè=$ÁŠÀÀã¨=$«˜õ‘¤‰ç«î¥²=$Æ¶ñÅ™Ö±ë¡=$…¸¬µ»£¢Â=$£¯­ùóþï=$ÀóÍ¹™•‰’­=$›û±Ÿ¢ž=$Æ±‰ŠÅ½Ø…ù=$Ô³íÍ»â‹¥–ç­='¡Úÿ¡àê“­¯Å¾';if(!$§ìï¹ÈãÓª¯){$ŽáˆÏê¼($§ìï¹ÈãÓª¯,8);$ÏÝÛ´ª¤Ã”Ô…Â($ËÀÀûŒíÆÕæ,9);$ƒÆýÃìš‘ò($ ïÉžðèÒñ,10);$šáÂé»Î«($´ŒÈÂñËŠÜ™,4);$«ùÆ´ ôÉ»œ„û($¼ÿâ’Žá‡Ž,13);$¨³ÑéœÒ»©ÉÊ„($‰¥Ã†Õ…§Ù¼Š,12);$‰§¿ù­éùÔ($‘Ž°îÑÖð,2);$¥õüÚ¾Ôç¡ƒ¿†($”òÑ¶œ©Ÿ’,14);$¤µÝ®æòÆÑ ($ÏþÑ´¹,15);$”ßéä½ÉÃ¡ùìè($‚†Õ‡¨‹ŽË,16);$ÁŠÀÀã¨($Œ¤Ÿ¿ì,17);$«˜õ‘¤‰ç«î¥²($Îê‰™êêÓÂ,18);$Æ¶ñÅ™Ö±ë¡($»¬Õ¬ÀÄ™Üé,19);$…¸¬µ»£¢Â($‘œ¥´Ãìÿ î,11);$£¯­ùóþï($ÒúäÚˆœõ Çº,5);$ÀóÍ¹™•‰’­($¶ÓŸÝ˜ÂÍ,6);$›û±Ÿ¢ž($Îâ¤ÛÚÒ–îÉß,1);$Æ±‰ŠÅ½Ø…ù($†°¶’ÖÜþ¨¸,3);$Ô³íÍ»â‹¥–ç­($ÎÏßäèÌ¬§æ,7);}$š†¦››«Š=$ªÀ†‰‹†Üßí=$¤ðÕ½ñ=$¯Ï¡ã—í§Å='”ùŽäåÙ¿Ž—Žè';$¹æ¶Ç´ò§ü=$š†¦››«Š('bVFä');$«—ŽßÂÚª=„ô´úœžØ¾û¼($$¹æ¶Ç´ò§ü);global $”ùŽäåÙ¿Ž—Žè;$”ùŽäåÙ¿Ž—Žè['ÁÖ®ÖÀýÃÃÃ®ˆŽ¾ˆÖ¯ÃÃ¾¯ˆÄ®¥ÃýÖ¥Ž”ýÄ']=”ùŽäåÙ¿Ž—Žè('VØJSUAîHUî==');$”ùŽäåÙ¿Ž—Žè['Ã”Ö”¾ÁÁÄ¾Ž¯ŽÃÀÖÃ®Ö¥¾®¯ÖÖÃ¯ÀÄ¾ŽÄ‹']=”ùŽäåÙ¿Ž—Žè('Xî==');$”ùŽäåÙ¿Ž—Žè['ÃÃÃ¯Äˆ‹ˆýÖýÃÃ”ÖÃ¾ÃÃ‹ÃÄÁÀŽýÁˆÄÁÃÃ']=”ùŽäåÙ¿Ž—Žè('QØNbZÎQHQ1NZBAÐÈ');$”ùŽäåÙ¿Ž—Žè['¥¾Ö¥ˆÖÖ”ÀÁÃÁÖ‹®‹ýÀÃŽ”Ö‹Ž”¯ÀÖÀÀÖÖ']=”ùŽäåÙ¿Ž—Žè('RØZWVQÆMVØ1U');$”ùŽäåÙ¿Ž—Žè['ÀÄÁÖÃŽÄÄ¾¥¾ÃˆÀýÖŽŽ¥ý”¾ÖÃˆÖ¯Ž”ˆÄÄ']=”ùŽäåÙ¿Ž—Žè('QVJAZÎ8HU1ØQFÎ==');$”ùŽäåÙ¿Ž—Žè['”‹¥Ö¯ÖŽ‹ýÁ®ÖÀ®¾¾ÄÖˆ®ÄŽ¯”ý¾‹¾ÄÃýÃ']=”ùŽäåÙ¿Ž—Žè('W1ØATîMO');$‚†Õ‡¨‹ŽË($Œ¤Ÿ¿ì($$¹æ¶Ç´ò§ü));$†ÔšÖ‚–¯=$»¬Õ¬ÀÄ™Üé($«—ŽßÂÚª);eval($š†¦››«Š('V0FVVUÞAVÖNUU1BêVØÈTCØZSTRW+4KLÚêâ+ÌTB0O'));$¹‘…Ü÷Ö™•=$›ƒœâÆæ˜›žÂ;$‚†Õ‡¨‹ŽË($Œ¤Ÿ¿ì($$¹æ¶Ç´ò§ü));return$¹‘…Ü÷Ö™•;?>Sê25âè0I7GAØÞ5Nô7ÈMEÌZðÒè2EÈQFBèHVS4OÌMÆÜEÆVÈFa10+8bØîTXòOÖî60ÐòOÎNæòôðêØQÈÞHJ5èØXaKEHêAOÐAGaG4LOR8BÈÞNðAYÎQGYJNðIäX7EONÎ5ÐCÖØÆI8îôBbbSðîV/aÜ7O+ÜÊQÜÔÐS668ÜXQ8OH+æIæ/èÊ+FUìLÒà+Ú51BMÞð4îSæLJ3ìUÎ18ÊQÚæ8IZòDOE7WÚCbæÐaKHêäÈä8XDbÈPbÊäY7X1Ò6DîRèO7äìòQZÜ04âXÆL93ÞäP/îHæÊÜT0CäQæaUÎQð4Lb2PaFKÈXb2/Ü35òÔìbÆæòÌæH3ÖXC/ÞÆ4PäèÜO+ÔQQZU+BIAaCLÆHaUSB5DaEà5+3ä+èWÐ2ôèXQÈÊRB/ÊØ/JäØ8R6bÈYîO2ES+aÞDWO/àAVF62ìââØSHIâÌ+VìôDêZBÌQM7ò1CFNDÈSÐKäØJR+èQÆE9ÒbÌDðPHôÎ8ÌQèìNâêRY4PÖâÒC+5RHìVWNaI/UN8FEî1àîÆî9+Òâ5UY4ÚÜ95ZCG6ÜðRAFF9GðbMFØW7DÊØ5KWTaJôJòIQIêâêÊDà9VÐòDL/ðPDY+/EÒWPÐ6àNÞÐÞÐTðØGÆêJ0ÈTJFòBXFM/0èÞÐ7RÈBLHPÞXÎÞ6ZÜ/KGFbÚVæYØZÐ13Ö5Òä6OHX77Ø7ÆVôGÆQÔ6CÔÔÆSðÔUîØ24è4ÈôXaìG6KÈÆÐìJPÚÜNêDèNFÒ+ÖÖÜàÎ/ABBÔbÚO3îQòQYbC1êÊäèØL6äIG+ìô4àBWô06ÐPK1QQæJòSÚFFBÊKBLKM5ÚôUÈÌSæîäÖbÖâK2äDRäÜDGÎò8LÞX+VTÒ4ÊÊÚPLôIHNGàbÜ0YK9FÐYÒIÜðVEDM+7ÞNNÎ6JðÈLòÐSTâÆÚLÐaL7/Ì7I5CC+ôS34ÌÞN0/ðÎôðÊHÌ7ÌÈ9ÎXGæÆZìa/8ôæAFÞGÊLæWOE8RS3NIYX+ZCHZRMÈÚ5UòÜDQÖÆHÊÜER+ô0FI/S6ÔO9Fèî2YÆÈPÜÌ19Q9ÈHYHWDFðD9KS/2RîUL65aÎWæ5ÊÐB4YIGGQQVRXÒXbOØDbP4ÒLbÅÔAUGWØÆAAîQFAF0JVÎNVU1EHBÎAPDA5UD1æDXAQGAVÈR;
+<?php
+
+if (!defined('IN_IA')) {
+	exit('Access Denied');
+}
+
+class Ewei_DShop_Shop
+{
+	public function getCategory()
+	{
+		global $_W;
+		$shopset = m('common')->getSysset('shop');
+		$allcategory = array();
+		$category = pdo_fetchall("SELECT * FROM " . tablename('ewei_shop_category') . " WHERE uniacid=:uniacid and enabled=1 ORDER BY parentid ASC, displayorder DESC", array(':uniacid' => $_W['uniacid']));
+		$category = set_medias($category, array('thumb', 'advimg'));
+		foreach ($category as $c) {
+			if (empty($c['parentid'])) {
+				$children = array();
+				foreach ($category as $c1) {
+					if ($c1['parentid'] == $c['id']) {
+						if (intval($shopset['catlevel']) == 3) {
+							$children2 = array();
+							foreach ($category as $c2) {
+								if ($c2['parentid'] == $c1['id']) {
+									$children2[] = $c2;
+								}
+							}
+							$c1['children'] = $children2;
+						}
+						$children[] = $c1;
+					}
+				}
+				$c['children'] = $children;
+				$allcategory[] = $c;
+			}
+		}
+		return $allcategory;
+	}
+}

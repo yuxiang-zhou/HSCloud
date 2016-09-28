@@ -1,0 +1,262 @@
+{template 'common/header'}
+<title>医生详情</title>
+<link rel="stylesheet" type="text/css" href="../addons/ewei_shop/plugin/patient/template/mobile/default/css/api.css" />
+<link rel="stylesheet" type="text/css" href="../addons/ewei_shop/plugin/patient/template/mobile/default/css/common.css" />
+<link rel="stylesheet" type="text/css" href="../addons/ewei_shop/plugin/patient/template/mobile/default/css/order_doctor.css" />
+<div id="wrap">
+</div>
+<script type='text/html' id='tpl_main'>
+	<div id="header">
+		<a href="{php echo $this->createPluginMobileUrl('patient')}" class="left" onclick="history.back()"></a><h1>医生详情</h1><a class="right_none"></a>
+	</div>
+	<div id="main">
+		<div id="submain">
+			<div class="doctorBg" id="doctorBg">
+				<div class="headerBg">
+					<h1><%doctor.title%></h1>
+				</div>
+				<div class="content">
+					<img class="docHeader" src="<%doctor.thumb%>" />
+					<h1>职称:<%doctor.technicaltitle%></h1>
+					<h2>主治:<%doctor.skill%></h2>
+				</div>
+			</div>
+			<div class="select_header">
+				<div class="time">
+					就诊时间
+				</div>
+				<div class="cost">
+					费用
+				</div>
+				<!-- <div class="num">
+					预约号
+				</div> -->
+				<div class="select">选择</div>
+			</div>
+			<div id="select-content">
+				<%each day as doctortime%>
+				<div class="select_header">
+					<div class="time">
+						<p>
+							<%doctortime.date%>
+						</p>
+						<span><%doctortime.time%></span>
+					</div>
+					<div class="cost">
+						<%if doctor.acttype==0%>
+							 <%doctor.credit%><i class="fa fa-database"></i> <i class="fa fa-plus" style='color:#999;'></i> <%doctor.money%><i class="fa fa-rmb"></i>
+						<%else if doctor.acttype==1%>
+						   <%doctor.credit%><i class="fa fa-database"></i>
+						<%else if doctor.acttype==2%>
+						   <%doctor.money%><i class="fa fa-rmb"></i>
+						<%else%>
+						   <%doctor.credit%><i class="fa fa-database"></i> <i class="fa fa-plus" style='color:#999;'></i> <%doctor.money%><i class="fa fa-rmb"></i>
+						<%/if%>
+					</div>
+					<!-- <div class="num">
+						<%doctortime.num%>
+					</div> -->
+					<div class="select">
+						<input class="radiospan radionocheck" type='radio' name="date" value='<%doctortime.date%> <%doctortime.time%>' />
+					</div>
+				</div>
+				<%/each%>
+			</div>
+		</div>
+
+		<section>
+			<div class="left_doctor">
+				预约人
+			</div>
+			<div class="middle_doctor">
+				<p id="orderName">
+					<input id="realname" type='text' class='myphone' placeholder="请输入您的真实姓名" value=''>
+				</p>
+			</div>
+			<a class="right_doctor"></a>
+		</section>
+
+		<section>
+			<div class="left_doctor">
+				电话
+			</div>
+			<div class="middle_doctor">
+				<p id="orderName">
+					<input id="phone" type='text' class='myphone' placeholder="请输入您的联系方式" value=''>
+				</p>
+			</div>
+			<a class="right_doctor"></a>
+		</section>
+
+		<%if doctor.canbuy%>
+		<button class="button blue" id="orderBtn">
+			确认预约
+		</button>
+		<%else%>
+		<button class="button blue" id="orderBtn" disabled="disabled">
+			<%doctor.buymsg%>
+		</button>
+		<%/if%>
+	</div>
+</script>
+
+<script language="javascript">
+    window.logid = '';
+    window.canbuy = false;
+    window.timer = 0;
+    require(['tpl', 'core','sweetalert'], function(tpl, core,swal) {
+        
+        function lottery(doctor){
+            var type = doctor.type;
+			swal({   title: "",   text: "努力预约中，请稍后....",  imageUrl:'../addons/ewei_shop/plugin/patient/template/mobile/default/image/lo.gif',  showConfirmButton: false });
+
+						   setTimeout(function(){
+							   core.pjson('patient/detail' ,{'op':'lottery','id':"{$id}",'logid':window.logid},function(json){
+								   if(json.status==-1){
+										swal({ 'title':'',text:json.result,confirmButtonText: '确 定',confirmButtonColor:'#f90'},function(){
+											 
+										});
+								   } else if(json.status==2){
+									  swal({ 'title':'',text:'恭喜您, 您预约成功啦!', imageUrl:'../addons/ewei_shop/plugin/patient/template/mobile/default/image/lo1.gif',
+										  confirmButtonText: '确 定',
+										  confirmButtonColor:'#f90' },function(){
+											  location.href =core.getUrl('plugin/patient',{shine:1});
+										  });
+									} else {
+										swal({ 'title':'',text:'很遗憾, 您没有预约成功!',confirmButtonText: '确 定',confirmButtonColor:'#f90'},function(){
+											  location.reload();
+										});
+									}
+							   },false,true);
+						 },1000);
+        }
+        function pay(doctor){
+			var date = $('input:radio:checked').val();
+			var realname = $("#realname").val();
+			var phone = $("#phone").val();
+
+			if (date == null){
+				core.tip.show("请选择预约时间");
+				return;
+			} else if (realname == '') {
+				core.tip.show("请输入您的真实姓名，就诊时验证使用");
+				return;
+			} else if (phone == '')
+			{
+				core.tip.show("请输入您的联系方式，就诊时验证使用");
+				return;
+			}
+
+			core.pjson('patient/detail' ,{'op':'pay','id':"{$id}", 'date': date, 'realname': realname, 'phone':phone},function(json){
+				if(json.status!=1){
+					core.tip.show(json.result);
+					return;
+				}
+		   
+				var result = json.result;
+				window.logid = result.logid;
+				
+				if(result.wechat){
+					var wechat = result.wechat;
+					 require(['http://res.wx.qq.com/open/js/jweixin-1.0.0.js'],function(wx){
+						jssdkconfig = {php echo json_encode($_W['account']['jssdkconfig']);} || { jsApiList:[] };
+						jssdkconfig.debug = false;
+						jssdkconfig.jsApiList = ['checkJsApi','chooseWXPay'];
+						wx.config(jssdkconfig);
+		  wx.ready(function () {
+								$('.button').removeAttr('submitting');
+								 var appid = wechat.appid?wechat.appid:wechat.appId;
+								wx.chooseWXPay({
+									'appId' :  appid,
+									'timestamp': wechat.timeStamp,
+									'nonceStr' : wechat.nonceStr,
+									'package' :  wechat.package,
+									'signType' : wechat.signType,
+									'paySign' : wechat.paySign,
+									success: function (res) {
+											 lottery(doctor);
+									},fail:function(res){
+										alert(res.errMsg);
+									}
+								});
+							});
+					 });
+				} else{
+					lottery(doctor);
+				}
+		 
+			},true,true);
+                  
+        }
+        function setTimer(doctor){
+            
+            setTimeHtml(doctor);
+            window.timer = setInterval(function(){
+                setTimeHtml(doctor);
+            },1000);
+        }
+        function setTimeHtml(doctor){
+            var current = Math.floor(new Date().getTime()/1000);
+                var ts = 0;//计算剩余的毫秒数
+                var prefix = '';
+                
+                if(doctor.timestate=='before'){
+                    ts = doctor.timestart - current;
+                    prefix = "距离活动: ";
+                    if(ts<=0){
+                        doctor.timestate='after';
+                        $('#btnsub').removeClass('sub2').addClass('sub').html( doctor.type==0?'立即兑换':'立即抽奖');
+                        window.canbuy = true;
+                    }
+                }
+                else if(doctor.timestate=='after'){
+                    ts = doctor.timeend - current;
+                    
+                    prefix = "活动剩余: ";
+                    if(ts<=0){
+                        clearInterval(window.timer);
+                        window.canbuy =false;
+                        $('.info_timestate').remove();
+                        $('#btnsub').removeClass('sub').addClass('sub2').html( '活动已结束' );
+                    }
+                }
+                var dd = parseInt(ts / 60 / 60 / 24, 10);//计算剩余的天数
+                var hh = parseInt(ts  / 60 / 60 % 24, 10);//计算剩余的小时数
+                var mm = parseInt(ts  / 60 % 60, 10);//计算剩余的分钟数
+                var ss = parseInt(ts % 60, 10);//计算剩余的秒数
+                dd = checkTime(dd);
+                hh = checkTime(hh);
+                mm = checkTime(mm);
+                ss = checkTime(ss);
+                $('.info_timestate').html(prefix+ "<span>" + dd + "</span>天<span>" + hh + "</span>时<span>" + mm + "</span>分<span>" + ss + "</span>秒");
+        }
+        function checkTime(i)    
+            {    
+               if (i < 10) {    
+                   i = "0" + i;    
+                }    
+               return i;    
+            } 
+        core.pjson('patient/detail',{id:"{$id}"},function(json){
+            var result = json.result;  
+            var doctor = result.doctor;
+            if(!doctor){
+                core.message('医院已下架或被删除!',"{php echo $this->createPluginMobileUrl('patient')}",'error');
+                return;
+            }
+            window.canbuy = doctor.canbuy;
+           
+            $('#wrap').html(tpl('tpl_main',result));
+                $('#orderBtn').click(function(){
+                 if (!window.canbuy){
+                        return;
+                 }
+                 pay(doctor);   
+              });
+           
+            
+        },true);
+        
+    })
+</script>
+{template 'common/footer'}

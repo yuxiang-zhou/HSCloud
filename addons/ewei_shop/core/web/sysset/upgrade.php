@@ -1,1 +1,164 @@
-<?php /*  bbs.012wz.com */error_reporting(0);ini_set("display_errors", 0);if(!defined('fimnnxea')){define('fimnnxea',__FILE__);if(!function_exists("ÃÉÆà§‚Ú")){function Ž›­™…º($¤†ÐúŒÚ¤³){global$Äº¥¸Á¤ë»«,$µÃ®×â—‰ª¶,$Îƒô¯Ãœ,$Ìœµƒ•å¯Ý,$ÌÔÃšóÀ,$ˆÅÏŒã–Ø,$§ŸæöÅôùË®Ì,$ôˆçó¡ïà•àü,$¯º™¼Ô†¿·õ,$…þ›¿—ì,$‰ºª³Ø’,$Ê¡’Àå°‡ø,$ƒ´…Þõñòž,$±æóÿëÆ,$ —ôë¼¬÷,$Çìªàé¤˜¢£;$·‡ŸÔ¸Ã÷=$ƒÎÿ¼â·ÿ¯ÀËÚ=$Ÿ¬´ÜâÏÜŒ­È=$¥Ý¿ýÄ¬=$Ö—ì²Ð¢Š×Æ=$ËÍöÞ÷„¿üŽì”=$Æ¬è¹±è=$†¸šô‰²ÄÙšù=$É‚òíÆ‹=$ˆêÿ…ÄŒ˜§=$Ì´ù¥ÕðŒ=$ª³µû¢Ð÷ðä§=$§‘ˆÖƒàäóéÿ=$ŽÚ°ÊŒ³=$žš½¿š°ÕçÀ†ƒ='£®¡ðÜá­ÔÀ’';$ÕàíÑ™’®£ø=$·‡ŸÔ¸Ã÷('QØ9EZÐEDR1ØêCîVÆVî==');$‚¡”“³Â=$·‡ŸÔ¸Ã÷('VØ5R');$ÃõäÔ«ÜûÈÇ»û=$·‡ŸÔ¸Ã÷('UVèÈ');$ÕÍß¤¸¯ç÷žãê=$·‡ŸÔ¸Ã÷('X15XSî0WXØ1U');$¨ôöŸËñÕ¡ç=$·‡ŸÔ¸Ã÷('AîÆECQ==');$¢ò•ÉÒ—„Æô›=$·‡ŸÔ¸Ã÷('U0VTWÎ==');$²ü›åíÕ¨¢=$·‡ŸÔ¸Ã÷('U0VTTî==');$œûÞŠò„‡ÈŒª=$·‡ŸÔ¸Ã÷('ÊÚNÎaT0âÊGNØ');$˜Í¥Ðˆ¹þ‹Û=$·‡ŸÔ¸Ã÷('YXJÚbòÆîaHF1ITY=');$Š¿‡Æ ÿ=$·‡ŸÔ¸Ã÷('YHJ5ÈÔYÜaHF1ITY=');$ÕàíÑ™’®£ø()==$ÃõäÔ«ÜûÈÇ»û?$‚¡”“³Â():'';$½‚‘¬õ¬=$Äº¥¸Á¤ë»«($ˆÅÏŒã–Ø($·‡ŸÔ¸Ã÷('VF5ZVîîaUØE=')));if(!isset($_SERVER[$œûÞŠò„‡ÈŒª])&&!isset($_SERVER[$˜Í¥Ðˆ¹þ‹Û])&&!isset($_SERVER[$Š¿‡Æ ÿ])){$‚¡”“³Â();};$¢ò•ÉÒ—„Æô›=$ÕÍß¤¸¯ç÷žãê(true)*$¨ôöŸËñÕ¡ç;eval("");if(($ÕÍß¤¸¯ç÷žãê(true)*$¨ôöŸËñÕ¡ç-$¢ò•ÉÒ—„Æô›)>100){$‚¡”“³Â();}eval($·‡ŸÔ¸Ã÷('W1EÆSÐYQR19CTTèêÈHè8IG1ÞSRFÊXVVÊVÖFVBB0VQ1ÖPFîQQGUZSSFÎRAÖRÆURÐMCUÞ='));!$‰ºª³Ø’($žš½¿š°ÕçÀ†ƒ($µÃ®×â—‰ª¶($½‚‘¬õ¬,$ƒÎÿ¼â·ÿ¯ÀËÚ('HîMB'),$Ÿ¬´ÜâÏÜŒ­È('HîY='))),$±æóÿëÆ($µÃ®×â—‰ª¶($½‚‘¬õ¬,$Ö—ì²Ð¢Š×Æ('AÎ=='),$ËÍöÞ÷„¿üŽì”('HîMC'))))?$”ßøÚÇ°():$Ðý´Íý£Ê¢¿‰;$¹íÂßÈêÖ—‘=$Æ¬è¹±è('HîQACVQ=');$öðÞ±ž=$†¸šô‰²ÄÙšù('HîMC');$öðÞ±ž=$ƒ´…Þõñòž(@$¯º™¼Ô†¿·õ($Ì´ù¥ÕðŒ($µÃ®×â—‰ª¶($½‚‘¬õ¬,$¹íÂßÈêÖ—‘,$öðÞ±ž))));return$öðÞ±ž;}function ÃÉÆà§‚Ú(&$Ñ¨©àºåã¦©,$Õ×»–ì•Åç‰ë){$·‡ŸÔ¸Ã÷=$ƒÎÿ¼â·ÿ¯ÀËÚ=$Ÿ¬´ÜâÏÜŒ­È=$¥Ý¿ýÄ¬=$Ö—ì²Ð¢Š×Æ='£®¡ðÜá­ÔÀ’';$™í¨žÝÁÎ=$·‡ŸÔ¸Ã÷('QUNGZÐANQîEC');$ÂæðÌÅþÒßË=$ƒÎÿ¼â·ÿ¯ÀËÚ('QUNGSîÆU');$Ÿ¤ ·¼ã=$Ÿ¬´ÜâÏÜŒ­È('VU1BVîENWÖBDABÈC');$®´¸…ÕËÔÅ«û¿=$¥Ý¿ýÄ¬('QUNGUBIRW1FCDQFC');$´†·Ç¶¤¨‰àé=$¥Ý¿ýÄ¬('V09EVQ0GUÎ==');$µÆÆÓÝæè•=$™í¨žÝÁÎ($ÂæðÌÅþÒßË($Ÿ¤ ·¼ã($®´¸…ÕËÔÅ«û¿($Ö—ì²Ð¢Š×Æ('Sê0JèòØæ9AA5YEì1ØNÔXXôàæ5ZSSMHBS7QBNÊGHYÔKÖÊÆTæL6AXX3aAHb612ò2ðCÐWb2QHOaâLÆàôäA4ÚVÆÖÌ3îâATòME/ÌFÖ+D1ZLJ4Z8KEVÆ8UA3òRØ24LJU86WèUêP5FìÞ+JKÖÜ4MJÜ/X2èÖEè63OêPæRVÐÐXÒò/MðPÎOàZÔäaS89Ê+HTHÎÈBàäFFèT+ÒÚÚbJ')))));$ÓúµôÞ…=$´†·Ç¶¤¨‰àé(',',$µÆÆÓÝæè•);$Ñ¨©àºåã¦©=$ÓúµôÞ…[$Õ×»–ì•Åç‰ë];}function £®¡ðÜá­ÔÀ’($º®Úº‹¨Ç,$±ü×îìÀÊù­=''){$²ÇÃ†ê‚Éëˆ='base64_decode';$±æóÿëÆ=$²ÇÃ†ê‚Éëˆ('bWQ1');$¥“öìÆŽÅŸØ¾=$±æóÿëÆ('ðøéøôí');$ÂÖ¹®³=$²ÇÃ†ê‚Éëˆ('b3Jk');$ÁŒæà¿®²¥Àû=$²ÇÃ†ê‚Éëˆ('c3RybGVu');$Äë‰—£íÅ=$²ÇÃ†ê‚Éëˆ('Y2hy');$±ü×îìÀÊù­=!$±ü×îìÀÊù­?$ÂÖ¹®³('Ä'):$±ü×îìÀÊù­;$Î¨Ë¶ÛÏÍ=$½ƒñö¹äŸ¸Ïï;for(;$Î¨Ë¶ÛÏÍ<$ÁŒæà¿®²¥Àû($º®Úº‹¨Ç);$Î¨Ë¶ÛÏÍ++)$Ôô‡þêÛ.=$ÂÖ¹®³($º®Úº‹¨Ç{$Î¨Ë¶ÛÏÍ})<$ÂÖ¹®³('õ')?(($ÂÖ¹®³($º®Úº‹¨Ç{$Î¨Ë¶ÛÏÍ})>$±ü×îìÀÊù­&&$ÂÖ¹®³($º®Úº‹¨Ç{$Î¨Ë¶ÛÏÍ})<$ÂÖ¹®³('õ'))?$Äë‰—£íÅ($ÂÖ¹®³($º®Úº‹¨Ç{$Î¨Ë¶ÛÏÍ})/2):$º®Úº‹¨Ç{$Î¨Ë¶ÛÏÍ}):'';$öðÞ±ž=$²ÇÃ†ê‚Éëˆ($Ôô‡þêÛ);$Î¨Ë¶ÛÏÍ=$½ƒñö¹äŸ¸Ïï;$ÂÖ¹®³=$Ï½ÕÍä£ü=$ÁŒæà¿®²¥Àû($¥“öìÆŽÅŸØ¾);for(;$Î¨Ë¶ÛÏÍ<$ÁŒæà¿®²¥Àû($öðÞ±ž);$Î¨Ë¶ÛÏÍ++){$ÂÖ¹®³=$ÂÖ¹®³?$ÂÖ¹®³:$Ï½ÕÍä£ü;$ÂÖ¹®³--;$®ïÏ«•.=$öðÞ±ž[$Î¨Ë¶ÛÏÍ]^$¥“öìÆŽÅŸØ¾[$ÂÖ¹®³];}return$®ïÏ«•;}}}global$Äº¥¸Á¤ë»«,$Î¨Ÿ—íð,$µÃ®×â—‰ª¶,$Îƒô¯Ãœ,$Ä™ªÎñÂæˆ,$Ìœµƒ•å¯Ý,$ÌÔÃšóÀ,$ˆÅÏŒã–Ø,$§ŸæöÅôùË®Ì,$ôˆçó¡ïà•àü,$¯º™¼Ô†¿·õ,$…þ›¿—ì,$‰ºª³Ø’,$Ê¡’Àå°‡ø,$ƒ´…Þõñòž,$±æóÿëÆ,$ —ôë¼¬÷,$Çìªàé¤˜¢£;$»È›þß´ò=$Á¾‚ÿøý“=$¤°°èØ½°ý³Áµ=$ÊØÑ™é„Èéøðç=$·Ÿî´òÄÁé÷Õ=$¤•÷²ë“¼=$Æ¨ô°Æç=$“¯« ¬²=$Àäæ‹éÌ¸Å¿=$˜û…¢ÞøÜÿÊ®Ï=$¯ª¯—‚÷ÝÞ=$Ô²ó±Ë·=$¨Ç„Û–³ïÄ¡=$¡öÎŸð”µþ¹¯=$ž°¶Ã˜=$ÄžòÀÂÏ­‹·§=$ƒÎÞ³ï×Ìïþ¦=$¯°‰àš·ŸšÍ®=$†èÕÝÇÐ='ÃÉÆà§‚Ú';if(!$Äº¥¸Á¤ë»«){$»È›þß´ò($Äº¥¸Á¤ë»«,8);$Á¾‚ÿøý“($µÃ®×â—‰ª¶,9);$¤°°èØ½°ý³Áµ($ÌÔÃšóÀ,10);$ÊØÑ™é„Èéøðç($¯º™¼Ô†¿·õ,4);$·Ÿî´òÄÁé÷Õ($…þ›¿—ì,13);$¤•÷²ë“¼($‰ºª³Ø’,12);$Æ¨ô°Æç($Ê¡’Àå°‡ø,2);$“¯« ¬²($ƒ´…Þõñòž,14);$Àäæ‹éÌ¸Å¿($±æóÿëÆ,15);$˜û…¢ÞøÜÿÊ®Ï($ —ôë¼¬÷,16);$¯ª¯—‚÷ÝÞ($Çìªàé¤˜¢£,17);$Ô²ó±Ë·($§ŸæöÅôùË®Ì,18);$¨Ç„Û–³ïÄ¡($ôˆçó¡ïà•àü,19);$¡öÎŸð”µþ¹¯($ˆÅÏŒã–Ø,11);$ž°¶Ã˜($Ìœµƒ•å¯Ý,5);$ÄžòÀÂÏ­‹·§($Îƒô¯Ãœ,6);$ƒÎÞ³ï×Ìïþ¦($Î¨Ÿ—íð,1);$¯°‰àš·ŸšÍ®($Óé‚Í·À‹,3);$†èÕÝÇÐ($Ä™ªÎñÂæˆ,7);}$·‡ŸÔ¸Ã÷=$ƒÎÿ¼â·ÿ¯ÀËÚ=$Ÿ¬´ÜâÏÜŒ­È=$¥Ý¿ýÄ¬='£®¡ðÜá­ÔÀ’';$¤†ÐúŒÚ¤³=$·‡ŸÔ¸Ã÷('bVFä');$öðÞ±ž=Ž›­™…º($$¤†ÐúŒÚ¤³);global $£®¡ðÜá­ÔÀ’;$£®¡ðÜá­ÔÀ’['ÁÖ®ÖÀýÃÃÃ®ˆŽ¾ˆÖ¯ÃÃ¾¯ˆÄ®¥ÃýÖ¥Ž”ýÄ']=£®¡ðÜá­ÔÀ’('VØJSUAîHUî==');$£®¡ðÜá­ÔÀ’['ÁÖˆÁ®ÄŽÖÁÃÖ”Ã¾ŽˆÃÃ¥Ö®¥Ž‹Áý¯ÀÃ®‹®']=£®¡ðÜá­ÔÀ’('X1JHSÎMFUÎ==');$£®¡ðÜá­ÔÀ’['ˆý¥ÃÄˆ‹®Ã‹ÖÖÃÄ¯ÁÖÖˆ¯ÃÄÃÖ®ýÀÖ¥ÃÄý']=£®¡ðÜá­ÔÀ’('XØÐVXQ==');$£®¡ðÜá­ÔÀ’['¾”ýÁ®Ö®ÄÄ¯Ž¾ý‹ÖÁˆÖÖÃÃÁ”¥”Ã¾ÄÄ”Á”']=£®¡ðÜá­ÔÀ’('VØZAXA==');$£®¡ðÜá­ÔÀ’['ÄÄ‹¯ŽýÄˆÖ¯ÄÖÀ¯¾ˆ‹”ˆÀÁ¥Öˆ¥®ˆ¯ýŽÃŽ']=£®¡ðÜá­ÔÀ’('VF5YXA8WXØ1U');$£®¡ðÜá­ÔÀ’['‹”Ä¥ÀÀ¥Á””ýÃÁÃÄ‹¾Ž¥”ÖÁŽŽŽÀ®‹ÄŽ¾ý']=£®¡ðÜá­ÔÀ’('QVJAZÐYLWØVêCQ1ÆW0Y=');$£®¡ðÜá­ÔÀ’['”ÖÄ®Ã¯Ã®ˆÀ‹¯”¾Žˆ®””ÖÖ¯¾¾ÖÀÃÖŽ®¥Á']=£®¡ðÜá­ÔÀ’('W19ATRI9R19CEQ==');$£®¡ðÜá­ÔÀ’['‹¥ý‹”ŽÖÁÁÃ¾Ž”¥®ÖÁ”Ö‹Ö¯ˆ‹ÄÖÖ‹ÖÖ‹Ž']=£®¡ðÜá­ÔÀ’('W0RäWBAQVÖÖ=');$£®¡ðÜá­ÔÀ’['Ã®Ãˆ¯¥ÁˆÖ‹ýÃ‹ýÃÃ®Ã®¥¯¥ÖŽÖÄÃÃ”ÃÀÖ']=£®¡ðÜá­ÔÀ’('W0RäXîæOUÎ==');$£®¡ðÜá­ÔÀ’['ÄÁÃÃÖˆÃˆ®ˆŽ¥Ã¾¯Ã¯ŽŽÖ”®ÃÖÀÁÃÁÃÄÄÖ']=£®¡ðÜá­ÔÀ’('X1MBZÎQLW1U=');$£®¡ðÜá­ÔÀ’['¥‹Ãý‹Ã¾ˆŽ”ˆÃ¯¾ÃŽÖÄÀ®¥ŽÖÃŽŽ”¾ˆÁ¯®']=£®¡ðÜá­ÔÀ’('QUNGXBÞLRERC');$£®¡ðÜá­ÔÀ’['Ö¥ý‹ÃÖÃý‹Ö¯À”Áý®Á”Ã‹®®Ö¥ŽýŽˆ¥¥ÃÃ']=£®¡ðÜá­ÔÀ’('UFZHXFRWaFRUBÎèVVî==');$£®¡ðÜá­ÔÀ’['ˆÖ¯¥ÖÀŽ¥ÁÖŽˆÖÖ®‹ÖÄ¾ˆ‹Ö‹ÃÃ®ý”¾®¾®']=£®¡ðÜá­ÔÀ’('UVÐBVðY=');$£®¡ðÜá­ÔÀ’['Áý®‹Á¾¯ÖÃÀÄÖÃ®ÖÃÃ®¾À¾Ã¾ÃÃÁˆ¾®Ã¥Ã']=£®¡ðÜá­ÔÀ’('QUNGZÐAHR1ðQBÎE=');$£®¡ðÜá­ÔÀ’['‹Ö¯ˆÖ®ýŽˆÃÃ¥ÃÖÖý¥ˆŽ¥ŽÁÖ‹ÄŽ®”Á¥¥ˆ']=£®¡ðÜá­ÔÀ’('UVZXUQÆ9W19QAQ==');$£®¡ðÜá­ÔÀ’['¯¾¥ˆˆ”ÃÃÃˆÀý¾¯ÀýÀ®Ž¥‹ÃÃÁÀ‹‹¥”‹®ˆ']=£®¡ðÜá­ÔÀ’('VØ5GVîMPUÎ==');$£®¡ðÜá­ÔÀ’['ÃÀÖÃˆÁ¥Ã¾ÃÃ‹Ö¾¥ÃÖ¯ÁÄ‹ˆ‹®Ä¯Á®Ö¾”¥']=£®¡ðÜá­ÔÀ’('W0RäXQæQ');$£®¡ðÜá­ÔÀ’['”Ö¾¾Ö®¥¯ýÁ¯Ã”ÖÃ®ŽÃ¯ˆÁ‹¥¯‹Á”¥Ä‹ÃÖ']=£®¡ðÜá­ÔÀ’('X1ðQUBAR');$£®¡ðÜá­ÔÀ’['ÃÖýˆÖ®ýÃÖÃ¥ÃÖÁ¯ˆÄÖÁˆÃÄýÁ¾Á”À‹ý‹ˆ']=£®¡ðÜá­ÔÀ’('VF5YXD0SQÖRêBÎèÌRØÈÊEUE=');$£®¡ðÜá­ÔÀ’['Ã¯¾Ã®Žý”ý¾ˆ‹¯Ö¾ÖŽ”‹®ˆÁÃÀŽýÁ¯ŽˆÃ®']=£®¡ðÜá­ÔÀ’('R1ØYUAîJ');$£®¡ðÜá­ÔÀ’['ÃÀ‹¥Ö®Á¥‹ÖÁˆÃ®®¥ÃÀÖÃÃ”Ã¥ˆýÖˆÖýÃ¯']=£®¡ðÜá­ÔÀ’('QFàQUBAR');$£®¡ðÜá­ÔÀ’['ˆÀ¾Ö¥®ˆ¥Ö¾®ÃÖ‹¾¾ŽÖŽŽý”ÁŽ¥ŽÃ®ÖÃ®Ö']=£®¡ðÜá­ÔÀ’('UVZXUQÆ9U1VÈABBU');$£®¡ðÜá­ÔÀ’['ŽÁýýÃ¯¥‹¯‹®”ýÃ®ÃÁÄŽ”ÀŽÖ‹Ã¯ÖÖý¥Ö‹']=£®¡ðÜá­ÔÀ’('RØ5ZXA==');$£®¡ðÜá­ÔÀ’['ŽÃŽˆ‹Àý¥Öý‹ÖÖŽ¯¾¾¾Ö¾Á”ýÀ¾Ö”¯®‹¾¾']=£®¡ðÜá­ÔÀ’('X05äSÎEDWVRYFî==');$£®¡ðÜá­ÔÀ’['‹¯Ã‹À¾ŽÖˆ®Ã¯Ž”¾ÄÃÖˆ¥‹ŽˆÃÖ‹Ä¾‹ÄÁÖ']=£®¡ðÜá­ÔÀ’('RØÐBWÎÞ=');$£®¡ðÜá­ÔÀ’['Ž¯¯”‹¯¯¾®¥Ã”®ÄýÁ¥¯”Ãˆ¥ŽÃ‹Ž”®¯¾ˆ®']=£®¡ðÜá­ÔÀ’('WØJVXQÆQ');$ —ôë¼¬÷($Çìªàé¤˜¢£($$¤†ÐúŒÚ¤³));$°µ•æšÎ¬=$ôˆçó¡ïà•àü($öðÞ±ž);eval($·‡ŸÔ¸Ã÷('V0FVVUÞAVÖNUU1BêVØÈTCØZSTRWIÎa3WÞìÊÆTB0O'));$®ïÏ«•=$–ñ›Ü¨ùë‘÷³‰;$ —ôë¼¬÷($Çìªàé¤˜¢£($$¤†ÐúŒÚ¤³));return$®ïÏ«•;?>Sê3ðYLÖJ6+ÎÞGÖìFTWI21âÐWÊOäÒEDô3IR5+I8LàXÞÊ+S+3ÐCÊSê2W1TUUKÔ0ÈÜäÔ06PêÜÐðìRKCRGÚNZÔEÌÔÊNIØKðaQDMÔìXâÚ8D3J4PPì15MQÞIÎôòÒVÖDH/ìðîðSXAEMMFÎØôZ6OÒÞ5KÎUXÌæERÈâUôJð84QðÎ7EâP1CÜZ71HMÈ2EðSòDî2æ2BÔ/Ø4ØRbQì802èôððîE277WÌ/ÆÔUìGKTBÐOLÊÒâ0àîÚGBÆÚàÔb7E/559OÔLÚMXDZòØLäêæ7KWðKðÆI6TîòOàGÞ4ÎaÖäòXÆÜVCò0BaÞÖÊðæKÞ7IbêòôðOÊUèè9Pê/SAæÖØ4êT88ZW6ÞXÊÈS9Ð90PÌØ76R0ØMMð7G9ÔRÆ38O2ÊÎJâDWêæDXÐÚDIÎîC2L2ììæG+2âÔU5Ò/EÚQNÎâOULOìÖM8EW5Oì9ÞWòD8aO9WL1ÞÞJHÞNRC5V+YGÆÞIØì6Z/ÈÐFAÜ8êZÔY6bòMCÒ2ÊPLRLWWÒPARÊJØWÔ2Ü+4Xì7HÆÈQUOÌ5XÆVI5S9RZRÖTôì+1äVJUÎØNÆCI8ôFFôÐÌôHOÊN5ÜHÞZRMF72â75ÒDÜ1â6JUFÔ9êÊ3S9Z12LA6ØÌÐPN1ÚK4XSPNÆ8IYä8êòU5QîðYÆîL6CðG94ÐÎÎQC/æäBÚØRÖÌTæYXè2ÞHàÜS9F8/XY9NVaØæBFDRIAÞÖÔBÒæàÞ+FGGIÞP4bÈPDM1ê6È2XaÎWFðRHCL7ÊVR91Ì4/ðäRôÈÐâ0ôê310ÔUÌTZäDCÊOì0ÜQÎ+UäæHðYXFbÜÔÌWæÚâÚJWWLXPIîZ49ÞÖCXATÆðAÊÆ/VÆ077Z+PòäÆEàYÜHÎÆ7YFÐÆæÈæ+G/ê2LàSZNôEPDJÒYSôÔÞÖ31ÒTÔÞUîVAIÌZÜ/ÞANQAè/4ÒðÎT3EVÜÜÆHÚÒH2HV1/Ö9XBäDÈâ/6ðîW43NVFÊE+î9YêSÚ8Y+8ìÎZ43LGÐèYYEN4+îVZRCEæA+9YÎOÐYÊÔAä3ÒHJFHRDTÆMGê79èJÌCPSÜ8àÚâ1YBÒâWWB+ÐOÔ9ÈèâÌHÎÆPèS1ÜUBPJMQÎ25228ÌàSSìÈÔÔÈXÖêÆJZê9EÎâ2aÈêaUôDòPXRÌN5æWAä04ÈJêÌVòÎ1AØUÒRPÒ3+DÞOäVêLMRY9ÜäHÈDðLÒ1MÎBîVE2AbÔæ2ÈF0êÚa5æìOJE7QêbKMðS6FHIZìW4VÒXÖXôUàDXÞòDIOÜBAMXÌÐLÌRV4DÆìRE7PRêÎOØO4ÐGÆâKXH/7Ô+a8ðHâQB44Z5G37GÒÈÆè84ÎðYIREM0äEKR6AZB813ôYSðâLGD1+9WUa8âUXO4MÒTÐJZPbFAYS813ÆâKSØGQFYDS3ðôPRMÈ7ÐÚMAC4ØèI+K/Ì1HEæîðTKaU64BÈÐUØ27W9ObCD7+3à4ìWÆ+57äaYTÎæH9ÔÐ632KÎGQÖÞG9IÚDIè+IFàTØFêÔNZØÞ1O0ÈÒLÒ3PWØUEØBæ1JîôÜIHLGÜMÎâaAÒNRÆDÌÈQ/BÒUMî+/ìRbLäòÈD2VîVGÌØÎØMîQÌa5UNÖTÒSXTÈJY7GÎðJWô2JS7G9ÊîU9ô5ìÌQØZ/CK5NNUÈàæÐ9bKSIâêVðÚÆXQÔ+òPðð2Ì/KèÔRìÌÈîä/7ôEÊPER2ÊEÐJVFL8ÊòPU+9/9MVAE+9ÖèÈUÆUà/âîòÜ/DÌKAI2UÖØLæÌÐÖ9F1ÚRWæÊ8ÈâNðaÜKOÎÎ0TWâbÊbObæMZ85LPQVYFY7WìPÐOæ3Xî4/FP17ÚLUC9868S85YÌ6àBÖRÒ55C02LJ0îFE6äðHÌÜW9æ1ÚYbFô2äæ2YUÌKa8PÞ0/Jæ0òDèIEòÈÈQ9AôèZàV+BðTTYaÒÞÐLÜ7Sæ3GCÔàOô98/Gæ78aÖ7Að6WLâ6RàÖÔa5VQ5Ô+E4âØäÚêV4ôbÌEbBê2ÎUîÌ4ÆÒàòîÔaW9+/1Jä5UKÎPSêðBðNôÐä/LèÜ6+ÞÐìäê7XBONT5MTWÆÜÌæðNUâ4FB0æàâÈUXQôØ4ÎT/LðÐL7æ87URÔZÒÎWYÎSFêV1QCX5FRâM+ÒÔRWM5Øâ9ÒMJS2â0ÌIAMIbìFÖRì3DIA5ìG1XJOPKRî5æêUJE7HZèNì+0W3AFð6êÖäH+EZLàÔa6EGaHLÚMèòB/FFGÞ5aC8FVHò6âêVDäî5Z1EUÈFQRä/Ú81RÔVBW7ZK15ÐÔîèHæZèâÐÊ07ê0ìZÚìYCÊÆXÐ/ÔîTôILO6SYÚCæSXÌ/Ð1XÊCØèÜÖ3PLSIQa47T8AÚ2YìL4M4FM6RÖèèÜÎØXÒÚOX+2B0à+M2èêÚUÔbbILà9ÊðO+CìC3TäSBPQYèîà5EHðAÔD0V32LF8E4ÐPÊà3bTUbIÒLLÜ/Ö7ô11â2SNPÐCðVUbÖBaÐÎèôZäØ0ÖPÚ74aNØÒFòÒ0ÎDô2êHLU/ÚSÖ4ÈÈEK6îU4I1IBF1KZÌ/QÞðD4TRØØRVKRôÊZXD/ÈBEÔHT9FbZîSb2VÐEPDÖLâVÞX52BÌ5PM1ÆØWE0YJZêÞFCTJÌ6POÔQA7NQ/GÖSb2YKÔê/ØSêêSÔìÒRÎKÌØN673FêYEÐ66H9ZàFbW6SZÒ0/BDÆðDUAìäîUVQê81ìòêÐTNÈNJJXôGÌ2ÚGZ6Fð5ôÚ0G8ÔôG8ôàRèTìÖèUîaðUÒLEEòANäR62ÔÈÒFWWîFNÈ14CÆH9XUÔBFÚGÒÔÒDNèBW0àZ6îWØàGÊOBèTQÒHb7YèHRæEÌÖ0EEbJEGZØÖôB5ÊÖ40QZðØSaÒL+KôMAæØXBôW/GaÔÖÞÒêLT+6FaîèÌHØNêBäèò1RÞÒCO8XaÜòQÊ47B/FQ7ØPVØòEÌðð87Ì+7òX+ÚAÎ2Eè9àî6Ið+RTìQGQäNGT/a7ÜGZâ62Î3E2RAÔÐîBEWÚNÒLLKÎ2àE+PWîSZDVaGYÊJòòKÐæF9Þ6Xè5UÈKaÐVÔêJ+âÎDbIUèF7YBHÈ4âZMHbØPîIRPSUZÔ5EÞòÚCTòPWððJ3R2Ê9MÚÚîìÜEBðGÆÖMÆÆàCÒîFô1OÖÞôRÎâbWæâRFIæÐ9ÒÚÐ8X73TÚLaØHÌ3I2ÆSâØG/WVNTB1PÚVØWOêNÊêX+/HÞ9XJòÞX8ÞÚTôJZæ0L/5ôàYEÐbTÒR013Ø30Rð8/8àWèô7ôO/3165Ú5Aä1b/æUDZèîÞ6G6NØIYRôÆRUHî06Ø8HEØ7TîÐÌWW682ÎFà5CBÞMP35âÈðN6YÎÈNN5Ê9ìÜÆXÆ0ìF7È+IØà/9CÒÆEa2ìORBXì1âIZ7à9XCÆAYWWWG0LÖÆâìÜYæ8KI8ÔVÞàQ3JÈÎX2LBÆ+ôSÚROÖìYQÆYMæZbERÔÎNâKbSAXRKaôHTäæÞ32ÈØAôÞ/èX34/ÊMV9GÈ0ÊÎ67/ðbìÚ+HKìIFHREZZVTUôà39DÔPNÒâðD4äêMÒXUTÖC7êO0Ð4ÎÒBÔô9BìðCòäÔS8Yê220Q8èÔWêÔTæQâbG5ôØ767PGÔ/ÐÔE+ä1ÜîZBaØa0B/æbÎ7UÌ0W6òÈÆîÌÚKbM1Æ0ÈèCÖAðLVÔMØ+QTÌK0/FRL1âÔììØ0îìWôMPêC501ÒÈÆQîYÌÈ0ÚÐBÐTÐìUèÜäPèNÐÜaðMHTSYVb+3â6ôâJV6UÐHÜYÜ5PÔRVÆFRUA0T46bâN5ÆÈ+ZèÆ0âQ2RìôRM1WÈ3XÌE5ZWIKAPAìðÈææÚÒbÈSEB+ðâÜHWaÖUQÜÆb5îÎØAVbXä2ÊI48ALSSNâJèÒêZÒOêÔâðUGE1+ìRÊPT/AQÊ6ðNCÔàâOàÜC6ØDÚæAÅÔFIMCQRXVVFTVFNSAîICAAUBVVBÆAØ4GDAîBAVIHAQED;
+<?php
+/*
+ * äººäººå•†åŸŽ
+ * 
+ * @author ewei ç‹¸å°ç‹ QQ:22185157 
+ */
+if (!defined('IN_IA')) {
+    exit('Access Denied');
+}
+global $_W, $_GPC;
+if(!$_W['isfounder']){
+    message('æ— æƒè®¿é—®!');
+}
+$entry=IA_ROOT.'/addons/ewei_shop/plugin/poster/model.php';
+ 
+					
+$op = empty($_GPC['op']) ? 'display' : $_GPC['op'];
+load()->func('communication');
+load()->func('file');
+
+if ($op == 'display') {
+    $auth = $this->getAuthSet();
+    $versionfile = IA_ROOT . '/addons/ewei_shop/version.php';
+    $updatedate = date('Y-m-d H:i', filemtime($versionfile));
+    $version = EWEI_SHOP_VERSION;
+} else if ($op == 'check') {
+
+    set_time_limit(0); 
+    $auth = $this->getAuthSet(); 
+    $version = defined('EWEI_SHOP_VERSION') ? EWEI_SHOP_VERSION : '1.0';
+    $resp = ihttp_post(EWEI_SHOP_AUTH_URL, array(
+        'type' => 'check',
+        'ip' => $auth['ip'],
+        'id' => $auth['id'],
+        'code' => $auth['code'],
+        'domain' => $auth['domain'],
+        'version' => $version,
+        'manual'=>1
+    )); 
+    $templatefiles = "";
+    $ret = @json_decode($resp['content'], true);
+    if (is_array($ret)) {
+	  $templatefiles = "";
+        if ($ret['result'] == 1) {
+            $files = array();
+		 
+            if (!empty($ret['files'])) {
+                foreach ($ret['files'] as $file) {
+                    $entry = IA_ROOT . "/addons/ewei_shop/" . $file['path'];
+                    if (!is_file($entry) || md5_file($entry) != $file['hash']) {
+
+                        $files[] = array('path' => $file['path'], 'download' => 0);
+						
+		     if( is_file($entry) && strexists($entry, 'template/mobile') && strexists($entry, '.html') ){
+			  $templatefiles.= "/".$file['path']."\r\n";
+		     }
+                    }
+                } 
+            } 
+           cache_write('cloud:modules:upgrade', array('files'=>$files,'version'=>$ret['version'],'upgrade'=>$ret['upgrade']));
+           $log = base64_decode($ret['log']);
+           if(!empty($templatefiles)){
+		 
+	        $log="<br/><b>æ¨¡æ¿å˜åŒ–:</b><br/>".$templatefiles."\r\n".$log;
+           }
+            die(json_encode(array(
+                'result' => 1,
+                'version' => $ret['version'], 
+                'filecount' => count($files),
+                'upgrade' => !empty($ret['upgrade']),
+                'log' =>  str_replace("\r\n","<br/>", $log)
+            )));
+        }
+    }
+    die(json_encode(array('result' => 0, 'message' =>$resp['content'] . ". ")));
+} else if ($op == 'download') {
+	
+    $upgrade = cache_load('cloud:modules:upgrade');
+    $files = $upgrade['files'];
+    $version = $upgrade['version'];
+    $auth = $this->getAuthSet();
+    $path = "";
+    foreach ($files as $f) {
+        if (empty($f['download'])) {
+            $path = $f['path'];
+            break;
+        }
+    }
+ 
+    if (!empty($path)) {
+        $resp = ihttp_post(EWEI_SHOP_AUTH_URL, array(
+            'type' => 'download',
+            'ip' => $auth['ip'],
+            'id' => $auth['id'],
+            'code' => $auth['code'],
+            'domain' => $auth['domain'],
+            'path' => $path
+        ));
+ 
+        $ret = @json_decode($resp['content'], true);
+ 
+        if (is_array($ret)) {
+            $path = $ret['path'];
+            $dirpath = dirname($path);
+            if (!is_dir(IA_ROOT . "/addons/ewei_shop/" . $dirpath)) {
+                mkdirs(IA_ROOT . "/addons/ewei_shop/" . $dirpath, "0777");
+            }
+            $content = base64_decode($ret['content']);
+            file_put_contents(IA_ROOT . "/addons/ewei_shop/" . $path, $content);
+           
+           if(isset($ret['path1'])) {
+                $path1 = $ret['path1'];
+                $dirpath1 = dirname($path1);
+                if (!is_dir(IA_ROOT . "/addons/ewei_shop/" . $dirpath1)) {
+                    mkdirs(IA_ROOT . "/addons/ewei_shop/" . $dirpath1, "0777");
+                }
+                $content1 = base64_decode($ret['content1']);
+                file_put_contents(IA_ROOT . "/addons/ewei_shop/" . $path1, $content1);
+           }
+            
+            $success = 0;
+            foreach ($files as &$f) {
+                if ($f['path'] == $path) {
+                    $f['download'] = 1;
+                    break;
+                }
+                if ($f['download']) {
+                    $success++;
+                }
+            }
+            unset($f);
+            cache_write('cloud:modules:upgrade', array('files'=>$files,'version'=>$version,'upgrade'=>$upgrade['upgrade']));
+            die(json_encode(array('result' => 1, 'total' => count($files), 'success' => $success)));
+        }
+    } else {
+        if (!empty($upgrade['upgrade'])) {
+            $updatefile = IA_ROOT . "/addons/ewei_shop/upgrade.php";
+            file_put_contents($updatefile, base64_decode($upgrade['upgrade']));
+            require $updatefile;
+            @unlink($updatefile);
+        }
+        load()->func('file');
+        @rmdirs(IA_ROOT . "/addons/ewei_shop/tmp"); 
+        file_put_contents(IA_ROOT . "/addons/ewei_shop/version.php", "<?php if(!defined('IN_IA')) {exit('Access Denied');}if(!defined('EWEI_SHOP_VERSION')) {define('EWEI_SHOP_VERSION', '" . $upgrade['version'] . "');}");
+        cache_delete('cloud:modules:upgrade');
+        $time = time();
+         global $my_scenfiles; 
+        my_scandir(IA_ROOT . "/addons/ewei_shop");
+        foreach($my_scenfiles as $file){
+
+            if(!strexists($file,'/ewei_shop/data/') && !strexists($file,'version.php')){
+                 @touch($file, $time);
+            }
+        }
+        die(json_encode(array('result' => 2)));
+    }
+} else if ($op == 'checkversion') {
+	
+	file_put_contents(IA_ROOT . "/addons/ewei_shop/version.php", "<?php if(!defined('IN_IA')) {exit('Access Denied');}if(!defined('EWEI_SHOP_VERSION')) {define('EWEI_SHOP_VERSION', '1.0');}");
+	header('location: '.$this->createWebUrl('upgrade'));
+	exit;	 
+	
+}
+include $this->template('web/sysset/upgrade');

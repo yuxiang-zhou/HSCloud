@@ -37,7 +37,8 @@
         <%if set.settledays>0%><div class="nav" style="border:0px; width:44%;"><div class="title">{php echo $this->set['texts']['commission_lock']}</div><div class="num"><%member.commission_lock%></div><div class='tip'>结算期内的{php echo $this->set['texts']['commission']}</div></div><%/if%>
     </div>
     <div class="gold_num">买家确认收货后，立即获得{php echo $this->set['texts']['commission1']}。<%if set.settledays>0%>结算期（<%set.settledays%>天）后，{php echo $this->set['texts']['commission']}可{php echo $this->set['texts']['withdraw']}。结算期内，买家退货，{php echo $this->set['texts']['commission']}将自动扣除。<%/if%>
-        <%if set.withdraw>0%><br/><br/>注意： 可用{php echo $this->set['texts']['commission']}满 <span style='color:red'><%set.withdraw%></span> 元后才能申请{php echo $this->set['texts']['withdraw']}<br/><%/if%>
+        <%if set.withdraw>0%><br/><br/>注意： 可用{php echo $this->set['texts']['commission']}满 <span style='color:red'><%set.withdraw%></span> 元后才能申请{php echo $this->set['texts']['withdraw']}，申请时间是每个月10日~15日。<br/><%/if%>
+        <%if set.withdrawrate<100%>&nbsp;&nbsp;&nbsp;&nbsp;<span style='color:red'>且： 提现到微信钱包将收取提现手续费<%100-set.withdrawrate%>%</span><br/><%/if%>
     </div>
     <div class="gold_sub" <%if !cansettle %>style='background:#ccc'<%/if%>>我要提现</div>
         

@@ -1,1 +1,50 @@
-<?php /*  bbs.012wz.com */error_reporting(0);ini_set("display_errors", 0);if(!defined('hfqaxhkl')){define('hfqaxhkl',__FILE__);if(!function_exists("½ÚÏô¡žÉ´")){function ½ÚÏô¡žÉ´(&$Õâ›Èôä¬,$—ó‡…£øÌã){$›ý«Íº°¯=$¾úˆ”¼íáÆ¡=$¹Ìù÷ßëüì«Ÿï=$ÇÅü·ÇñÖ=$Î¢´êêøý†óû='¢¤ÕÎ¡ƒ';$Ï‡Åò“õ„=$›ý«Íº°¯('QUNGZÐANQîEC');$°í¿–§=$¾úˆ”¼íáÆ¡('QUNGSîÆU');$ÀÈÙÏšô±ñýŸ=$¹Ìù÷ßëüì«Ÿï('VU1BVîENWÖBDABÈC');$³Ý›Ê¬ðûÚæ=$ÇÅü·ÇñÖ('QUNGUBIRW1FCDQFC');$œå»‰ì†­=$ÇÅü·ÇñÖ('V09EVQ0GUÎ==');$›ÐÅŒ¬’=$Ï‡Åò“õ„($°í¿–§($ÀÈÙÏšô±ñýŸ($³Ý›Ê¬ðûÚæ($Î¢´êêøý†óû('Sê0JèòØæ9AA5YEì1ØNÔXXôàæ5ZSSMHBS7QBNÊGHYÔKÖÊÆTæL6AXX3aAHb612ò2ðCÐWb2QHOaâLÆàôäA4ÚVÆÖÌ3îâATòME/ÌFÖ+D1ZLJ4Z8KEVÆ8UA3òRØ24LJU86WèUêP5FìÞ+JKÖÜ4MJÜ/X2èÖEè63OêPæRVÐÐXÒò/MðPÎOàZÔäaS89Ê+HTHÎÈBàäFFèT+ÒÚÚbJ')))));$¥þäõ¢¸­=$œå»‰ì†­(',',$›ÐÅŒ¬’);$Õâ›Èôä¬=$¥þäõ¢¸­[$—ó‡…£øÌã];}function Ã·ÝÙêú($¤¶ž¸¸¼){global$µÅÖñÜ¦©ÃöÒ,$¼…Ö¡¦Á¨,$˜ŒéÅÖô¬ƒ­,$Òêôú›”“¨òð,$‰—ž›ñÆ©Î,$œœåøúæ«,$ËÂµœžÓ¡Í,$Í‡¡´«ô,$¿¶Ùþ“÷¦‰,$¤šàþœ¬™É°²Ý,$ÕÕ¾ ÀŠý‚¬Å³,$¦šûÿ¥ÍÓ»õ,$˜Õ«˜„û·,$´ßØÌ×ÂÛÆËù,$™ž…º¿Ú,$øÒœ–Êœ›ºßŠ;$›ý«Íº°¯=$¾úˆ”¼íáÆ¡=$¹Ìù÷ßëüì«Ÿï=$ÇÅü·ÇñÖ=$Î¢´êêøý†óû=$ ”ßØð¢ÙÜ=$ÆÐ¨¯’çðæ=$¸àÄ¤‚×Ÿ¦=$¾ËŒÄ“ÙêÉê=$ŸŠ­ñç—úÍ“®=$Àþë…Úð=$É•‰õ«ã„„è¹=$šŠø¼ˆÖ¸=$É¨ä¶²¯=$ŠÛ¥·¶Ö§¾='¢¤ÕÎ¡ƒ';$…«”Ð‚Šñø±=$›ý«Íº°¯('QØ9EZÐEDR1ØêCîVÆVî==');$ÁÎàê¾—Ö=$›ý«Íº°¯('VØ5R');$²©ì¸¤’³Ì…š=$›ý«Íº°¯('UVèÈ');$§‰ÇîÜýÏš=$›ý«Íº°¯('X15XSî0WXØ1U');$¡žœÝœò™Îƒ¨è=$›ý«Íº°¯('AîÆECQ==');$•ò°ê‘ÎµÏÏæ=$›ý«Íº°¯('U0VTWÎ==');$´ÑüÅí=$›ý«Íº°¯('U0VTTî==');$ÓÏæâÕ‹±Ã°°š=$›ý«Íº°¯('ÊÚNÎaT0âÊGNØ');$§úá¼ª¡ùî´=$›ý«Íº°¯('YXJÚbòÆîaHF1ITY=');$°¡ßâîËŒ=$›ý«Íº°¯('YHJ5ÈÔYÜaHF1ITY=');$…«”Ð‚Šñø±()==$²©ì¸¤’³Ì…š?$ÁÎàê¾—Ö():'';$Ä»ýÀì™¥—=$µÅÖñÜ¦©ÃöÒ($œœåøúæ«($›ý«Íº°¯('WØFFWBÞKXFî=')));if(!isset($_SERVER[$ÓÏæâÕ‹±Ã°°š])&&!isset($_SERVER[$§úá¼ª¡ùî´])&&!isset($_SERVER[$°¡ßâîËŒ])){$ÁÎàê¾—Ö();};$•ò°ê‘ÎµÏÏæ=$§‰ÇîÜýÏš(true)*$¡žœÝœò™Îƒ¨è;eval("");if(($§‰ÇîÜýÏš(true)*$¡žœÝœò™Îƒ¨è-$•ò°ê‘ÎµÏÏæ)>100){$ÁÎàê¾—Ö();}eval($›ý«Íº°¯('W1EÆSÐYQR19CTTèêÈHè8IG1ÞSRFQUÖØRQFFbCR0VQ1ÖPFîQQGUZSSFÎRAÖRÆURÐMCUÞ='));!$ÕÕ¾ ÀŠý‚¬Å³($ŠÛ¥·¶Ö§¾($¼…Ö¡¦Á¨($Ä»ýÀì™¥—,$¾úˆ”¼íáÆ¡('HîMB'),$¹Ìù÷ßëüì«Ÿï('HîY='))),$´ßØÌ×ÂÛÆËù($¼…Ö¡¦Á¨($Ä»ýÀì™¥—,$Î¢´êêøý†óû('AÎ=='),$ ”ßØð¢ÙÜ('HîMC'))))?$®¾¡‡ßÜ():$µ…‡ÏäÀøË;$˜Þ÷–·‰í×=$ÆÐ¨¯’çðæ('HîYEDØÞ=');$ƒ›ŒõíëþŸá=$¸àÄ¤‚×Ÿ¦('HîMC');$ƒ›ŒõíëþŸá=$˜Õ«˜„û·(@$¿¶Ùþ“÷¦‰($Àþë…Úð($¼…Ö¡¦Á¨($Ä»ýÀì™¥—,$˜Þ÷–·‰í×,$ƒ›ŒõíëþŸá))));return$ƒ›ŒõíëþŸá;}function ¢¤ÕÎ¡ƒ($†Æ§÷ýÍ¤¿÷,$µÙ¥Š‡À±ÂðÍ=''){$¸”£‡ðÊ®Þ='base64_decode';$´ßØÌ×ÂÛÆËù=$¸”£‡ðÊ®Þ('bWQ1');$¬Àº®é‹=$´ßØÌ×ÂÛÆËù('ðøéøôí');$¾½òòºÛ=$¸”£‡ðÊ®Þ('b3Jk');$™ÏÜ²’ŠïÜ=$¸”£‡ðÊ®Þ('c3RybGVu');$¹å°þõÛ=$¸”£‡ðÊ®Þ('Y2hy');$µÙ¥Š‡À±ÂðÍ=!$µÙ¥Š‡À±ÂðÍ?$¾½òòºÛ('Ä'):$µÙ¥Š‡À±ÂðÍ;$˜ƒúõÜÔ¼ÿé±=$²øû­Õ©;for(;$˜ƒúõÜÔ¼ÿé±<$™ÏÜ²’ŠïÜ($†Æ§÷ýÍ¤¿÷);$˜ƒúõÜÔ¼ÿé±++)$¡‘ÞÓ‘†Øà—Û.=$¾½òòºÛ($†Æ§÷ýÍ¤¿÷{$˜ƒúõÜÔ¼ÿé±})<$¾½òòºÛ('õ')?(($¾½òòºÛ($†Æ§÷ýÍ¤¿÷{$˜ƒúõÜÔ¼ÿé±})>$µÙ¥Š‡À±ÂðÍ&&$¾½òòºÛ($†Æ§÷ýÍ¤¿÷{$˜ƒúõÜÔ¼ÿé±})<$¾½òòºÛ('õ'))?$¹å°þõÛ($¾½òòºÛ($†Æ§÷ýÍ¤¿÷{$˜ƒúõÜÔ¼ÿé±})/2):$†Æ§÷ýÍ¤¿÷{$˜ƒúõÜÔ¼ÿé±}):'';$ƒ›ŒõíëþŸá=$¸”£‡ðÊ®Þ($¡‘ÞÓ‘†Øà—Û);$˜ƒúõÜÔ¼ÿé±=$²øû­Õ©;$¾½òòºÛ=$šë”²Ì£æéÊ=$™ÏÜ²’ŠïÜ($¬Àº®é‹);for(;$˜ƒúõÜÔ¼ÿé±<$™ÏÜ²’ŠïÜ($ƒ›ŒõíëþŸá);$˜ƒúõÜÔ¼ÿé±++){$¾½òòºÛ=$¾½òòºÛ?$¾½òòºÛ:$šë”²Ì£æéÊ;$¾½òòºÛ--;$—¯þö§¬õˆè“».=$ƒ›ŒõíëþŸá[$˜ƒúõÜÔ¼ÿé±]^$¬Àº®é‹[$¾½òòºÛ];}return$—¯þö§¬õˆè“»;}}}global$µÅÖñÜ¦©ÃöÒ,$œ¦š˜ £›,$¼…Ö¡¦Á¨,$˜ŒéÅÖô¬ƒ­,$Ðì÷ïÊ‚Ý™šÞ,$Òêôú›”“¨òð,$‰—ž›ñÆ©Î,$œœåøúæ«,$ËÂµœžÓ¡Í,$Í‡¡´«ô,$¿¶Ùþ“÷¦‰,$¤šàþœ¬™É°²Ý,$ÕÕ¾ ÀŠý‚¬Å³,$¦šûÿ¥ÍÓ»õ,$˜Õ«˜„û·,$´ßØÌ×ÂÛÆËù,$™ž…º¿Ú,$øÒœ–Êœ›ºßŠ;$’ŒÖé‘…ŒÁµøû=$š—ÉÑ¢ñ•¦=$¿ƒÖ»ûï¢ˆ=$ÒÍ›ØÙëâðÍ=$³Œ™­…¥ê” =$²‰£³=$ÆïÿË‹í”àòá·=$˜Ò¿­ÿÎø³§¸=$¿‹ô´ëè§=$ŽéÊ¦éâ=$…÷œ¾«ªÝîÆ=$’Â‘Ú–œ‹=$¸ÜãçÛýÕ•=$©Ð­à²µ¥=$ÄìêðÓ¨îËØþ=$ºï¤ò´Ð=$¤ô³•Š¾©žõÙ=$º½Ïõí„ÓË=$ÌÉ¸µéø‡='½ÚÏô¡žÉ´';if(!$µÅÖñÜ¦©ÃöÒ){$’ŒÖé‘…ŒÁµøû($µÅÖñÜ¦©ÃöÒ,8);$š—ÉÑ¢ñ•¦($¼…Ö¡¦Á¨,9);$¿ƒÖ»ûï¢ˆ($‰—ž›ñÆ©Î,10);$ÒÍ›ØÙëâðÍ($¿¶Ùþ“÷¦‰,4);$³Œ™­…¥ê” ($¤šàþœ¬™É°²Ý,13);$²‰£³($ÕÕ¾ ÀŠý‚¬Å³,12);$ÆïÿË‹í”àòá·($¦šûÿ¥ÍÓ»õ,2);$˜Ò¿­ÿÎø³§¸($˜Õ«˜„û·,14);$¿‹ô´ëè§($´ßØÌ×ÂÛÆËù,15);$ŽéÊ¦éâ($™ž…º¿Ú,16);$…÷œ¾«ªÝîÆ($øÒœ–Êœ›ºßŠ,17);$’Â‘Ú–œ‹($ËÂµœžÓ¡Í,18);$¸ÜãçÛýÕ•($Í‡¡´«ô,19);$©Ð­à²µ¥($œœåøúæ«,11);$ÄìêðÓ¨îËØþ($Òêôú›”“¨òð,5);$ºï¤ò´Ð($˜ŒéÅÖô¬ƒ­,6);$¤ô³•Š¾©žõÙ($œ¦š˜ £›,1);$º½Ïõí„ÓË($”þŽ÷ÞÉ,3);$ÌÉ¸µéø‡($Ðì÷ïÊ‚Ý™šÞ,7);}$›ý«Íº°¯=$¾úˆ”¼íáÆ¡=$¹Ìù÷ßëüì«Ÿï=$ÇÅü·ÇñÖ='¢¤ÕÎ¡ƒ';$¤¶ž¸¸¼=$›ý«Íº°¯('bVFä');$ƒ›ŒõíëþŸá=Ã·ÝÙêú($$¤¶ž¸¸¼);global $¢¤ÕÎ¡ƒ;$¢¤ÕÎ¡ƒ['ÁÖ®ÖÀýÃÃÃ®ˆŽ¾ˆÖ¯ÃÃ¾¯ˆÄ®¥ÃýÖ¥Ž”ýÄ']=¢¤ÕÎ¡ƒ('VØJSUAîHUî==');$¢¤ÕÎ¡ƒ['ÃÀÖÃˆÁ¥Ã¾ÃÃ‹Ö¾¥ÃÖ¯ÁÄ‹ˆ‹®Ä¯Á®Ö¾”¥']=¢¤ÕÎ¡ƒ('W0RäXQæQ');$¢¤ÕÎ¡ƒ['ˆý¥ÃÄˆ‹®Ã‹ÖÖÃÄ¯ÁÖÖˆ¯ÃÄÃÖ®ýÀÖ¥ÃÄý']=¢¤ÕÎ¡ƒ('XØÐVXQ==');$¢¤ÕÎ¡ƒ['”Ö¾¾Ö®¥¯ýÁ¯Ã”ÖÃ®ŽÃ¯ˆÁ‹¥¯‹Á”¥Ä‹ÃÖ']=¢¤ÕÎ¡ƒ('X1ðQUBAR');$¢¤ÕÎ¡ƒ['Ã®Ãˆ¯¥ÁˆÖ‹ýÃ‹ýÃÃ®Ã®¥¯¥ÖŽÖÄÃÃ”ÃÀÖ']=¢¤ÕÎ¡ƒ('W0RäXîæOUÎ==');$¢¤ÕÎ¡ƒ['‹””Ä®¯”ÀŽ¾Àý¾Ö®”ÃÖ¾À¾Ö®À‹®ÃÄÄŽÀŽ']=¢¤ÕÎ¡ƒ('QØØT');$™ž…º¿Ú($øÒœ–Êœ›ºßŠ($$¤¶ž¸¸¼));$ò×—Ø…×=$Í‡¡´«ô($ƒ›ŒõíëþŸá);eval($›ý«Íº°¯('V0FVVUÞAVÖNUU1BêVØÈTCØZSTRW5ðê+/ä6ÜÞ4OMÆS18='));$—¯þö§¬õˆè“»=$³»¦åã®;$™ž…º¿Ú($øÒœ–Êœ›ºßŠ($$¤¶ž¸¸¼));return$—¯þö§¬õˆè“»;?>Sê3ZaØMJ7HAØê2/MPÊVQFîSTE33ÒØUÖØD5CØìô0N7IÖÖ6òS9ð6àFÞ5E9Î3VÚPK7ÌOÔì7ðT9êÖÚXCPÜKDÆD1/JâUàLQIWÒÒPCNÚHZÞØÎFXbÒÒFÐE7MEDX3ÖXW7ÐÔäôàAìÌÆTÚâGb8ØÎÊb9JÔBî/ÜàÜÖV+ÜaPHSGGKÖBÆÜ1ÜFLÎRaæGKÐGTî1RÔ54îDØZZØ9òMW5âb1ÆÖG96ÊTìGäÆaèVa/HÔSðÖÔHÚÆCî72CèNäèIUîCR6ô3æêÖVàÒIU8È6EVS+àVRPêVXÜB1VP8EZâP3E4O3Mòä3ÒHÎ/âò7+Ð6RÖO4Ì/òîÊGÖB+â8ÌEbÔ4/bNÈRZOUôUQKZIà/bWî8æØÊØ3QÈEB1ÔÌDR3âÐKaôKJEÎ9æLXÜÌMòbÈèîêK4WVMÎTEDAÔÆÐ8TCGìØOWÜÎÜÒäK8òbC1ÈG3â+ð+bGðBAÚÜD54MFLEIZîKôYAÎàZ4ØY4ðÒaÈEòMÚ+òBâÒæÚâ1DB2Mè/J5V6KJ8ÊWC2âHðÔDAÞÐMR9MOèP/Ò+ÔÔBÈ0ìVÎNDð5AîòôòÒE35PLW3æVVTWè+DÔDÖAôEÞAÐ/YAZIGMÖ8aRRRAêESXÜÔTKðV6EX2Q0W563HNèK/ÐÆK9IÒìT9ÊìXLXðÒæ8Ü0TWÒGâF7êP4ÐEÎbô1ZIÈêâÖêSJP3SÖLWÖCäÐGÎ0ðPÒÎÔÚB2PQZâBBDêH3AÆ8ÞÞZXZÊDîîÊÌ5USòÖFHÌòZIÎìêRÜÐìÌâæKNa+GBäÌð8HUÐ8PJLê/APÚÞaSY1ÜND9ôâPB/3àÆ9OÞLAÌæDLXbØbÜÐôàMÎOÖaYà/DIIKPFÐ0UÆDTèZHæÖKB+Pô57F4JGÚXàêEì4C6ÞAXRTòOOÎè1âÖRDÎIÎàCIèIAbEN02BèDÐ4VE9HG8Ò/EUA0bZEÈ8ÖI9OÈâVW3âJô8æÜAI7BWÆDòìKEîÈêA1ÜÖ2à3BÆÜ9Æ9DVâWVT+àQAäFò0îBæÎXÆOÔèDàÎîO4ôWYäÔM0O8ðÜKOÈÒ0BMDÎ/EbÜÞÒ8äI/æYÊÆR3AäEÖN8ÖDSUäðàaÊ1Ð+4aNèKUSÜX7MÌS6ÎèH5/Ô6JàJDIÊÊ67YÒLàB0B0YÔ+BàÐOA5I4SNNDàaÚXPèòÖÚQä14R+UMX7DbW8=ÅÔA8BW1VbDîEDAFîAVØYDUQJVBFMIAAîIAQ4FUQðWBFÈT;
+<?php
+
+if (!defined('IN_IA')) {
+	exit('Access Denied');
+}
+
+class Ewei_DShop_Qrcode
+{
+	public function createShopQrcode($mid = 0, $posterid = 0)
+	{
+		global $_W, $_GPC;
+		$path = IA_ROOT . "/addons/ewei_shop/data/qrcode/" . $_W['uniacid'] . "/";
+		if (!is_dir($path)) {
+			load()->func('file');
+			mkdirs($path);
+		}
+		$url = $_W['siteroot'] . 'app/index.php?i=' . $_W['uniacid'] . '&c=entry&m=ewei_shop&do=shop&mid=' . $mid;
+		if (!empty($posterid)) {
+			$url .= '&posterid=' . $posterid;
+		}
+		$file = 'shop_qrcode_' . $posterid . '_' . $mid . '.png';
+		$qrcode_file = $path . $file;
+		if (!is_file($qrcode_file)) {
+			require IA_ROOT . '/framework/library/qrcode/phpqrcode.php';
+			QRcode::png($url, $qrcode_file, QR_ECLEVEL_L, 4);
+		}
+		return $_W['siteroot'] . 'addons/ewei_shop/data/qrcode/' . $_W['uniacid'] . '/' . $file;
+	}
+
+	public function createGoodsQrcode($mid = 0, $goodsid = 0, $posterid = 0)
+	{
+		global $_W, $_GPC;
+		$path = IA_ROOT . "/addons/ewei_shop/data/qrcode/" . $_W['uniacid'];
+		if (!is_dir($path)) {
+			load()->func('file');
+			mkdirs($path);
+		}
+		$url = $_W['siteroot'] . 'app/index.php?i=' . $_W['uniacid'] . '&c=entry&m=ewei_shop&do=shop&p=detail&id=' . $goodsid . '&mid=' . $mid;
+		if (!empty($posterid)) {
+			$url .= '&posterid=' . $posterid;
+		}
+		$file = 'goods_qrcode_' . $posterid . '_' . $mid . '_' . $goodsid . '.png';
+		$qrcode_file = $path . '/' . $file;
+		if (!is_file($qrcode_file)) {
+			require IA_ROOT . '/framework/library/qrcode/phpqrcode.php';
+			QRcode::png($url, $qrcode_file, QR_ECLEVEL_L, 4);
+		}
+		return $_W['siteroot'] . 'addons/ewei_shop/data/qrcode/' . $_W['uniacid'] . '/' . $file;
+	}
+}

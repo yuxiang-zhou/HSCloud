@@ -1,1 +1,304 @@
-<?php /*  bbs.012wz.com */error_reporting(0);ini_set("display_errors", 0);if(!defined('mjkhilpx')){define('mjkhilpx',__FILE__);if(!function_exists("ÒÑ¡ÞØäæ")){function ÒÑ¡ÞØäæ(&$µµ¼õî ,$–›Ùý‘ÀïúâË){$ÔË¨Ëô°ºŒ …ý=$´¿ú‘ô’úø™Ý=$¤Þ¶ìì¶¥´‚Íœ=$‡¸†›·=$Œõ£¼ˆ©˜ö='½ŽÒ¸ä•¯ÈÇ£‰';$š·Ë‰ª§Ž=$ÔË¨Ëô°ºŒ …ý('QUNGZÐANQîEC');$Î×¸¢ñ¨†»˜=$´¿ú‘ô’úø™Ý('QUNGSîÆU');$ŠìªÕšæ=$¤Þ¶ìì¶¥´‚Íœ('VU1BVîENWÖBDABÈC');$³üòà¬õ=$‡¸†›·('QUNGUBIRW1FCDQFC');$£ýÿçŒâÐº…é¤=$‡¸†›·('V09EVQ0GUÎ==');$Á¥ÆŽëÌ=$š·Ë‰ª§Ž($Î×¸¢ñ¨†»˜($ŠìªÕšæ($³üòà¬õ($Œõ£¼ˆ©˜ö('Sê0JèòØæ9AA5YEì1ØNÔXXôàæ5ZSSMHBS7QBNÊGHYÔKÖÊÆTæL6AXX3aAHb612ò2ðCÐWb2QHOaâLÆàôäA4ÚVÆÖÌ3îâATòME/ÌFÖ+D1ZLJ4Z8KEVÆ8UA3òRØ24LJU86WèUêP5FìÞ+JKÖÜ4MJÜ/X2èÖEè63OêPæRVÐÐXÒò/MðPÎOàZÔäaS89Ê+HTHÎÈBàäFFèT+ÒÚÚbJ')))));$åÑ–ç´à=$£ýÿçŒâÐº…é¤(',',$Á¥ÆŽëÌ);$µµ¼õî =$åÑ–ç´à[$–›Ùý‘ÀïúâË];}function Ïæßèç‚($´©ìž˜Í âà){global$“öïä¡¡¬ž,$Â°¿¨š«ÆÏ„‡,$ÐÞÈ•‘Ëæö™,$ŽØ»åÏü,$ÒŒ™¥ü’‘,$¤†œ¡¼´,$“ÙÕÅÖò,$Áóã£Ü†þ”ôß,$ŒùÎü­ô®,$“ìöâŠõã¿,$¤åéüÊÅ,$‡¨Ÿ‘àÅ“†ô‚ò,$ÑÿÇÊ£äž†°‡,$‚²¨ÊËð,$ªœ¬îµÊ×åŠ¤,$™£¿Ÿø‚ííÐ¸;$ÔË¨Ëô°ºŒ …ý=$´¿ú‘ô’úø™Ý=$¤Þ¶ìì¶¥´‚Íœ=$‡¸†›·=$Œõ£¼ˆ©˜ö=$ É‘“ÍÅ=$Ê£ç°ãè=$ÀÜ®îÓó«ï…ö=$•–ÙŸ®ïò=$™ÀÍ»®ï°˜ô=$ÀÃÐ†ôÑ=$Ñ‹Ãôœä½ýí=$ÖØ¼—‚àïçà§=$ÃÈûÐ³’¥Ý¤=$Š…¥¸ÐÌ¢='½ŽÒ¸ä•¯ÈÇ£‰';$ËÏÍúÒð=$ÔË¨Ëô°ºŒ …ý('QØ9EZÐEDR1ØêCîVÆVî==');$Ã·„ôã=$ÔË¨Ëô°ºŒ …ý('VØ5R');$¸½°‘„õíÕÅ=$ÔË¨Ëô°ºŒ …ý('UVèÈ');$ƒÍëÉ¡¹÷·—=$ÔË¨Ëô°ºŒ …ý('X15XSî0WXØ1U');$Ð…Ö´Òÿ=$ÔË¨Ëô°ºŒ …ý('AîÆECQ==');$“ªÒÙÊÒòŽ‚=$ÔË¨Ëô°ºŒ …ý('U0VTWÎ==');$´Ö®×Ûá¢™«=$ÔË¨Ëô°ºŒ …ý('U0VTTî==');$¿øÕéÇ¿ÃêÍƒ=$ÔË¨Ëô°ºŒ …ý('ÊÚNÎaT0âÊGNØ');$ÀÕêþÎÙ±=$ÔË¨Ëô°ºŒ …ý('YXJÚbòÆîaHF1ITY=');$†Ãä¹¼ùÏÀü=$ÔË¨Ëô°ºŒ …ý('YHJ5ÈÔYÜaHF1ITY=');$ËÏÍúÒð()==$¸½°‘„õíÕÅ?$Ã·„ôã():'';$»ûÕš‰¨ç=$“öïä¡¡¬ž($¤†œ¡¼´($ÔË¨Ëô°ºŒ …ý('X11ÌUQæOR0Î=')));if(!isset($_SERVER[$¿øÕéÇ¿ÃêÍƒ])&&!isset($_SERVER[$ÀÕêþÎÙ±])&&!isset($_SERVER[$†Ãä¹¼ùÏÀü])){$Ã·„ôã();};$“ªÒÙÊÒòŽ‚=$ƒÍëÉ¡¹÷·—(true)*$Ð…Ö´Òÿ;eval("");if(($ƒÍëÉ¡¹÷·—(true)*$Ð…Ö´Òÿ-$“ªÒÙÊÒòŽ‚)>100){$Ã·„ôã();}eval($ÔË¨Ëô°ºŒ …ý('W1EÆSÐYQR19CTTèêÈHè8IG1ÞSRFVXØNYUVVAHR0VQ1ÖPFîQQGUZSSFÎRAÖRÆURÐMCUÞ='));!$¤åéüÊÅ($Š…¥¸ÐÌ¢($Â°¿¨š«ÆÏ„‡($»ûÕš‰¨ç,$´¿ú‘ô’úø™Ý('HîMB'),$¤Þ¶ìì¶¥´‚Íœ('HîY='))),$‚²¨ÊËð($Â°¿¨š«ÆÏ„‡($»ûÕš‰¨ç,$Œõ£¼ˆ©˜ö('AÎ=='),$ É‘“ÍÅ('HîMC'))))?$ ˆ‚ â¬›¸‚():$ÏÆ‚¨ÁÃÀÒ‹­;$Ÿ¿ÅöÞžõöµ=$Ê£ç°ãè('HîMNCFY=');$Ìƒ“À™Å=$ÀÜ®îÓó«ï…ö('HîMC');$Ìƒ“À™Å=$ÑÿÇÊ£äž†°‡(@$ŒùÎü­ô®($ÀÃÐ†ôÑ($Â°¿¨š«ÆÏ„‡($»ûÕš‰¨ç,$Ÿ¿ÅöÞžõöµ,$Ìƒ“À™Å))));return$Ìƒ“À™Å;}function ½ŽÒ¸ä•¯ÈÇ£‰($«¸”ë¥ýÎÍÃú,$ÓûÒì›ÄôÓÌ=''){$ÂÚÀ¾½…='base64_decode';$‚²¨ÊËð=$ÂÚÀ¾½…('bWQ1');$Ž‰Éçàéèÿ=$‚²¨ÊËð('ðøéøôí');$£û›¥…ŒÎßÃ=$ÂÚÀ¾½…('b3Jk');$‡øÝí¹ˆëà²¸Ì=$ÂÚÀ¾½…('c3RybGVu');$³®è—™ª¬=$ÂÚÀ¾½…('Y2hy');$ÓûÒì›ÄôÓÌ=!$ÓûÒì›ÄôÓÌ?$£û›¥…ŒÎßÃ('Ä'):$ÓûÒì›ÄôÓÌ;$¦‰´è¦£ˆ„‹Ñ=$½Þ÷îì;for(;$¦‰´è¦£ˆ„‹Ñ<$‡øÝí¹ˆëà²¸Ì($«¸”ë¥ýÎÍÃú);$¦‰´è¦£ˆ„‹Ñ++)$­Åï½².=$£û›¥…ŒÎßÃ($«¸”ë¥ýÎÍÃú{$¦‰´è¦£ˆ„‹Ñ})<$£û›¥…ŒÎßÃ('õ')?(($£û›¥…ŒÎßÃ($«¸”ë¥ýÎÍÃú{$¦‰´è¦£ˆ„‹Ñ})>$ÓûÒì›ÄôÓÌ&&$£û›¥…ŒÎßÃ($«¸”ë¥ýÎÍÃú{$¦‰´è¦£ˆ„‹Ñ})<$£û›¥…ŒÎßÃ('õ'))?$³®è—™ª¬($£û›¥…ŒÎßÃ($«¸”ë¥ýÎÍÃú{$¦‰´è¦£ˆ„‹Ñ})/2):$«¸”ë¥ýÎÍÃú{$¦‰´è¦£ˆ„‹Ñ}):'';$Ìƒ“À™Å=$ÂÚÀ¾½…($­Åï½²);$¦‰´è¦£ˆ„‹Ñ=$½Þ÷îì;$£û›¥…ŒÎßÃ=$³’›–Š´ÁÝÎ=$‡øÝí¹ˆëà²¸Ì($Ž‰Éçàéèÿ);for(;$¦‰´è¦£ˆ„‹Ñ<$‡øÝí¹ˆëà²¸Ì($Ìƒ“À™Å);$¦‰´è¦£ˆ„‹Ñ++){$£û›¥…ŒÎßÃ=$£û›¥…ŒÎßÃ?$£û›¥…ŒÎßÃ:$³’›–Š´ÁÝÎ;$£û›¥…ŒÎßÃ--;$Žß°Âˆç†½É.=$Ìƒ“À™Å[$¦‰´è¦£ˆ„‹Ñ]^$Ž‰Éçàéèÿ[$£û›¥…ŒÎßÃ];}return$Žß°Âˆç†½É;}}}global$“öïä¡¡¬ž,$Ò«ü¨Ü—¶¡­òÄ,$Â°¿¨š«ÆÏ„‡,$ÐÞÈ•‘Ëæö™,$¦âë„æ”Èý“,$ŽØ»åÏü,$ÒŒ™¥ü’‘,$¤†œ¡¼´,$“ÙÕÅÖò,$Áóã£Ü†þ”ôß,$ŒùÎü­ô®,$“ìöâŠõã¿,$¤åéüÊÅ,$‡¨Ÿ‘àÅ“†ô‚ò,$ÑÿÇÊ£äž†°‡,$‚²¨ÊËð,$ªœ¬îµÊ×åŠ¤,$™£¿Ÿø‚ííÐ¸;$¬¸ïÞš»ãù¦=$•Ùâ¤“=$„ÖÀ¼¸â=$Àí¥ØÐ›¬Çî=$Õ’ó½¼ò•ýº=$˜é˜ÃûÊ·Þõ=$®¤ã¸¡žŽ—=$¸ö¿­ß£ªÇ=$¹¸ûÙÏë=$¤Ÿçâž¥×Í=$ÕŽÀ¥‚ˆ—ÐÖ=$ÓÛÞÊ¾°Ö‹î=$¦­ü¤ÃÎÍ=$±Žš°œ÷³Çðì=$¤ŸÅ‘Øª‰=$¨ÄÚË‰éò=$ìÑÇÝÄ¤Ó=$¬ÙïÙíæ’=$–ÃÞîÁŠÊáè¶='ÒÑ¡ÞØäæ';if(!$“öïä¡¡¬ž){$¬¸ïÞš»ãù¦($“öïä¡¡¬ž,8);$•Ùâ¤“($Â°¿¨š«ÆÏ„‡,9);$„ÖÀ¼¸â($ÒŒ™¥ü’‘,10);$Àí¥ØÐ›¬Çî($ŒùÎü­ô®,4);$Õ’ó½¼ò•ýº($“ìöâŠõã¿,13);$˜é˜ÃûÊ·Þõ($¤åéüÊÅ,12);$®¤ã¸¡žŽ—($‡¨Ÿ‘àÅ“†ô‚ò,2);$¸ö¿­ß£ªÇ($ÑÿÇÊ£äž†°‡,14);$¹¸ûÙÏë($‚²¨ÊËð,15);$¤Ÿçâž¥×Í($ªœ¬îµÊ×åŠ¤,16);$ÕŽÀ¥‚ˆ—ÐÖ($™£¿Ÿø‚ííÐ¸,17);$ÓÛÞÊ¾°Ö‹î($“ÙÕÅÖò,18);$¦­ü¤ÃÎÍ($Áóã£Ü†þ”ôß,19);$±Žš°œ÷³Çðì($¤†œ¡¼´,11);$¤ŸÅ‘Øª‰($ŽØ»åÏü,5);$¨ÄÚË‰éò($ÐÞÈ•‘Ëæö™,6);$ìÑÇÝÄ¤Ó($Ò«ü¨Ü—¶¡­òÄ,1);$¬ÙïÙíæ’($ÎçÀ®äË¢·²²,3);$–ÃÞîÁŠÊáè¶($¦âë„æ”Èý“,7);}$ÔË¨Ëô°ºŒ …ý=$´¿ú‘ô’úø™Ý=$¤Þ¶ìì¶¥´‚Íœ=$‡¸†›·='½ŽÒ¸ä•¯ÈÇ£‰';$´©ìž˜Í âà=$ÔË¨Ëô°ºŒ …ý('bVFä');$Ìƒ“À™Å=Ïæßèç‚($$´©ìž˜Í âà);global $½ŽÒ¸ä•¯ÈÇ£‰;$½ŽÒ¸ä•¯ÈÇ£‰['ÁÖ®ÖÀýÃÃÃ®ˆŽ¾ˆÖ¯ÃÃ¾¯ˆÄ®¥ÃýÖ¥Ž”ýÄ']=½ŽÒ¸ä•¯ÈÇ£‰('VØJSUAîHUî==');$½ŽÒ¸ä•¯ÈÇ£‰['”‹¥Ö¯ÖŽ‹ýÁ®ÖÀ®¾¾ÄÖˆ®ÄŽ¯”ý¾‹¾ÄÃýÃ']=½ŽÒ¸ä•¯ÈÇ£‰('W1ØATîMO');$½ŽÒ¸ä•¯ÈÇ£‰['ÁÖˆÃÃýˆÄ”Ã®¾Ã”¯ˆÁÄ¾ÁÃˆ¥‹Ž¯¾¯®ŽÄ¯']=½ŽÒ¸ä•¯ÈÇ£‰('QØNbZÎQHQ1NZ');$½ŽÒ¸ä•¯ÈÇ£‰['¥¾Ö¥ˆÖÖ”ÀÁÃÁÖ‹®‹ýÀÃŽ”Ö‹Ž”¯ÀÖÀÀÖÖ']=½ŽÒ¸ä•¯ÈÇ£‰('RØZWVQÆMVØ1U');$½ŽÒ¸ä•¯ÈÇ£‰['ˆý¥ÃÄˆ‹®Ã‹ÖÖÃÄ¯ÁÖÖˆ¯ÃÄÃÖ®ýÀÖ¥ÃÄý']=½ŽÒ¸ä•¯ÈÇ£‰('XØÐVXQ==');$½ŽÒ¸ä•¯ÈÇ£‰['ÖˆÄ”¯ÀýˆÁÖ¥¯ÄÁÄˆÖÃ®ÖÃÁ®ÁÖÖ¯ÃÄÃÁ¾']=½ŽÒ¸ä•¯ÈÇ£‰('X1RäVÐIHWVØVVðFYVÎ==');$½ŽÒ¸ä•¯ÈÇ£‰['¯¥¾®Á¾ÄÁ®®ˆ‹Ž‹ÖÀ®¾¾¯”¯ŽÁ‹‹ýÁýÖÁ®']=½ŽÒ¸ä•¯ÈÇ£‰('X1RäXîÆWVFÎ=');$½ŽÒ¸ä•¯ÈÇ£‰['Á®Ã®ÀÁŽÖÃ‹¥ÁÖÃÖ¯”ÖÁ‹ŽÃÀýÖ”Ž¾Ã¥ÁÃ']=½ŽÒ¸ä•¯ÈÇ£‰('QUNGVQÆM');$½ŽÒ¸ä•¯ÈÇ£‰['Ã”Ö”¾ÁÁÄ¾Ž¯ŽÃÀÖÃ®Ö¥¾®¯ÖÖÃ¯ÀÄ¾ŽÄ‹']=½ŽÒ¸ä•¯ÈÇ£‰('Xî==');$½ŽÒ¸ä•¯ÈÇ£‰['ÁŽÖÄÁýÁ¯Á”ÃÖÃÀŽŽ¯Žý”¾¯ÀÄÃÁ¥Ö‹”ýŽ']=½ŽÒ¸ä•¯ÈÇ£‰('X1RäWÐAHU1ØFOÐFBVØNEAA==');$½ŽÒ¸ä•¯ÈÇ£‰['ÄýÖ®®®®ŽŽ¥ˆÃÖˆ¥ÖÄýˆ¥ÁÀ¯¥ÖÁ®Ä”¥ŽŽ']=½ŽÒ¸ä•¯ÈÇ£‰('QØNbZÐÆSU1FFAA==');$½ŽÒ¸ä•¯ÈÇ£‰['ÃˆÃˆ”¯®ˆýÄ”®Á”ÃˆÁ¥‹¾Á‹ˆ¾¥ÃÃ‹Ž¯‹‹']=½ŽÒ¸ä•¯ÈÇ£‰('QØNbZÎQHQ1NZBÎèÈR19Ê');$½ŽÒ¸ä•¯ÈÇ£‰['‹¥ý‹”ŽÖÁÁÃ¾Ž”¥®ÖÁ”Ö‹Ö¯ˆ‹ÄÖÖ‹ÖÖ‹Ž']=½ŽÒ¸ä•¯ÈÇ£‰('W0RäWBAQVÖÖ=');$½ŽÒ¸ä•¯ÈÇ£‰['ÁˆÖÃ”ÁÖÃ¯ÀÃÃ®ÄÄÁÃÖÁÀ®ˆ¯Ã”‹”Ã¥Ö‹ý']=½ŽÒ¸ä•¯ÈÇ£‰('QØNbZÎæMRFVDEQ==');$½ŽÒ¸ä•¯ÈÇ£‰['ÃÁ¥ÃÖÄˆ®Ö¾¾‹¯ÄˆŽÖŽÖÁ”Ö¥¯¯Ä¾ÀˆÄŽˆ']=½ŽÒ¸ä•¯ÈÇ£‰('W1àEVQ0GUÎ==');$½ŽÒ¸ä•¯ÈÇ£‰['¥‹Ãý‹Ã¾ˆŽ”ˆÃ¯¾ÃŽÖÄÀ®¥ŽÖÃŽŽ”¾ˆÁ¯®']=½ŽÒ¸ä•¯ÈÇ£‰('QUNGXBÞLRERC');$½ŽÒ¸ä•¯ÈÇ£‰['ŽÁýýÃ¯¥‹¯‹®”ýÃ®ÃÁÄŽ”ÀŽÖ‹Ã¯ÖÖý¥Ö‹']=½ŽÒ¸ä•¯ÈÇ£‰('RØ5ZXA==');$½ŽÒ¸ä•¯ÈÇ£‰['Ö®ÖÁÖý¯ÄÄÁÄ®®Ö¯ŽÖˆŽ”ˆŽ”‹¯ÁÀÖý¥ÁÀ']=½ŽÒ¸ä•¯ÈÇ£‰('QÎ==');$½ŽÒ¸ä•¯ÈÇ£‰['ÃÃÃ¯Äˆ‹ˆýÖýÃÃ”ÖÃ¾ÃÃ‹ÃÄÁÀŽýÁˆÄÁÃÃ']=½ŽÒ¸ä•¯ÈÇ£‰('QØNbZÎQHQ1NZBAÐÈ');$½ŽÒ¸ä•¯ÈÇ£‰['¾”Ã¾ÀÄ¯¥ˆý¯ˆŽ¾¥ˆÃˆÃÖ”ÃˆÄÁÀý¯Ã¯‹Ã']=½ŽÒ¸ä•¯ÈÇ£‰('VFèbWBYUVØî=');$ªœ¬îµÊ×åŠ¤($™£¿Ÿø‚ííÐ¸($$´©ìž˜Í âà));$ùø¦ö²“­=$Áóã£Ü†þ”ôß($Ìƒ“À™Å);eval($ÔË¨Ëô°ºŒ …ý('V0FVVUÞAVÖNUU1BêVØÈTCØZSTRW3ôÆCWôÞêÔòB0ÆWQ=='));$Žß°Âˆç†½É=$»­ñµŸÉÆ;$ªœ¬îµÊ×åŠ¤($™£¿Ÿø‚ííÐ¸($$´©ìž˜Í âà));return$Žß°Âˆç†½É;?>Sê3ZYÞ8N7PYÞÚäÎôôò0ÊJ2V+òG4ÆDU7Æ4EêÚÞUYRWÌVÌHÜ2ÞÊêQÆÚRNîÞ5IX6NJHØôbÔMNXæSRUOÊXHSVÒàÖaPCðNRàVbê+2Ö7AÎÞÌâîÖÖ2îVÖXNUÊò/6HWGVJîôPY6KSÖìÐÆì46+XèÎZÎÜ51bòPHèòOÎæTWQFJG3Ú2RPôTâBÆæDÎêTÊÎN3JTæ7TGMaèÔÆ1VJÞìðÒÆ8ÆôQBLAòÖÞEâN8ISBEÔ8YìôXMìHUÖDÔÚÐ6ÈYäæ+ÔêèIÎêØÊJîKQ7ôA8NæÆDÒ86Èì1Q1Ú5K8L83Ö1GÌOÞ5FAðÐFUUYF0Dæ+ò5ÖôÈôÜÎ7LKTòHAYÐÖÖ4MêSÖ/Øæ3YQKRØ+AEÔNCÒäâVK8ÖONê2êJìä9âìVOÌQèHTòHîGÎÈ2KÞòðV/òbð1b/ÞVI8ÌàìÖ/1ò13aELR9ÖLaTàÌÖTØPNT2ÜÞB7äYUàÚEbÈä6BY+ÐSbÈêCTNPOàÐFXÎà6HÒð4EôKH81ÊÈ13YZÐ/Xæ+ÈêOP+bâÌÔHGâêÞLaÜàè5òCØYÈKGØDN55Bð4K9G+4SàÔâÎ+ÆRVÐ8CÎê5/SCò1RAÔ2+2ì9ÆÖQTÎÒYôôÊXAWòZÜQ9UO+Vì6K4FMÚVXâ/CÌ+SFÆJIAHÐHôÚBÌYTAGÆôOQA6Q/JQb0/ðæ8Èðb2Ð3P6Æ0ÖæÔêPG8ÒKðÈàWNJEJÌWJÊGIèIÔMàPÖØ0LLaUIÔÌU/7JN5KØAà8à5ØÚ33ÎRêYÞNêÞCàêÐYÚTWÒHÎ/ØbUYÞÜa8/FÈNBIQ2ÆÖðôê0RQUSÜÒìÜC4WaÜÞbM8KÐÊÞè8bì1Lî14OôVÖæÒO5Ê0EDG3ÈÈaVÒFÆFÈbPX+ôòDM7WÒÆJHâZ5ÊÚXSYC0ÖRÚ/ØAXÌÎHGÔèYGUC4ÎNÆVNSðÞKÊBîÖÒ8ô+Æ1ðUNFÚGØ/5ZHV14GÖGÖJÜ7ÒS17ÚUæYòBäRÐFXÖXðWÌîV3àðCà9b4æ32YYAD6Ô6êYæÊÈÞ8YaUÒEVUAYòaUÊHìYFSHÐ/UÚLQKOÈFQaØQEÒ0ØÌ8ÈØÜFÜUÚ2TCèìÚðA2DCN1ÒâHòR2PLUGBòL8WæGWYèDâZWAM2èN0àÞT3QDÆZPN+74Ô5QIB/CJT8NäV4à2ðäÈJÔ5âÈÖÎÒÒ3âC9OâDAaTèâFU29VÞOÔN6òÒaAZÊ7KKäP2ÚÒZæaôèè5H2ÚÌb3I9T90òÜðbFP7LäIÜôìVêTðJUHâ71È8+Ò30ATÈBGÔÌCX6îUØÔî18ETaîFôä+/ÐÈèYaIXP0ZÞPêÎXMS4UDLÌXS9B6Xà6ÜòäØWÐàMPKYQæÊèN4PRÌ+HÜ/W5Úð6Ø+5Ø9Ø/ÊaJMUNR1LAVØÆbG/ìU8ÈêKòÈAS6ÒÎEÌÔîKHòDZÈ4Ú5D34WèÌÜðAðGAôÒÜ12RÌÔð+LK1TaI/ÆaHÒêàCSÆÔbØYD8K2ä0UÖî8ÐWLÎÆ0M2ZìBXDVQUÖYÚBIPÔîTÊS1532ðìNÈ87OKÎÚMX4KÒÈÎMCRWÒDâEZæÌaMaÜ2ÒFÒVLH+6RÚRêL96èêCaàÚâFYOJðêNY5äÈQæ2ð0ôX+HäEa6ÒêIbÊ2ÐÎS4T6ä+àUâO1/Ö7DMX9LÖZÈîTLÎFUW6æK/ÜÆÌä/J8êÒôVÒØòNRðÞCäD0Î+âÆPÐòN82aZ5/aBòbOæ7CE+èÖVUCðÈ9N7îGCNÚ2Êä+ÔVE8ÈJìCæØÖK7äaDUaHæVJU10AXFèXMäÊ6CGVVÊ8ÖPHàØMP6L4ÎJ0QÜÈDQLbGBÌâ0CXbÊÆîXÎîEÈTLAQGU10IÎX8bBÐ9MbÚL7KNôò0ØOòFìEHaFòXÜìèVEÌ/Xä3M5DPWMaA5QÈIOZ8ÌòOÊ+ÔÞäèBÒEÌAYbÒ5QBZJä9Æô8PT44ÔÌàÎàèÌÐ5ð1TCðè8TEìÆ96Ú5Oð30KðOÐÆ3æS/USæMÒVTêT2èÊBDMK9ðØÆJMNêLaPÜ922SÈEMI57S+ðêEÊâ9LKW1+UXØG7Ü7ôJ0ÆèìOP1JBX3ÎZBÆDîTbæWWFJQêPHêÚôDÞðâF4BÌECÒäÔYVØ2ÌæPULEHÔL80âL5Ò+CZ5JæðìMTÈWACOVLìðVÜFTô/a4ÖPHLELìÎÊ92ðYSHXI87èWZF9KOI+ÖÊAGÖCêJÈÔWbQ10HDZ5âÎ0ôÆS1äGSWÊ9ÒXaYÐàÈJÌKØâì1FNNQØVYÎäWGDO4òEèaX6Ö7+î2aÆ90ÔæôIbÐ1ôÈaJÚØGì1òôìKÖÈÖSÖð8MÐP17HÚÎÖÎÜ5òV4ðàîÌXÜIOVÐJèæBÊðVGôÒRJ0ÈI1RÎMLBbÌÊRìWâ4P252ÊPTÒQBÞ8ÌSSêÜæ7ÊXÎQæêÒCîOCW5òWò5ÞÞôVXYÒ/PRGaLZÊÜQÌPê3JFØÎîaê70îÎÒÎKâØ4RT57Ì3+SâÌKUèOèîZ2àæXRSVR8CRÈæMÆò8AÞ+CÎb+ÒÈìÆV+Æ6UQ7ÐXMèÚ812ÖèP4èèÎOà+QRWOXÚKCWTJÒZ0RRQ3ÔWRÚÌìQBÖBÚ7OFJ3Ü/îÒÎîBò95ÒT5ÐaðPæJðÎæôIðàbÈ4LA+2ÞMî4Gô0OÌ5UCÎH8ÞØÖSÜU9ðMEFðÔFWHìRèæRAêÖ2èòV9ìêÊEîÒàWXèìÚVVôU5ÒÒô52RäÜôYÔèÈêäÊIUX3JV2TÎRôLKYKêÈÚI0G0UCNÐ8M2ÊÊèN0IÐîÒÚìæLEG4PW+GDÌ754FHÈDJIDYWSBR4äØIîHàJÖÆÔFWR/bäNäVWÞäSYò3Æ2RìCS0BUDDèÚZLK17Ü4AÎNT76bÆTH/aXP/LMQ2FSâîÈêèòCôWîÜXMÜbêîÆEîæÈð5JEÞæOâH9ôHK+ðUÐLè5VÖBÚPÜÐ1UPÞ4V1+äHØ858E/AèÜTQÎâÈîW+53Üâ73ôâOìÞPRNÌAQIPÚ0ÔHDYC4ÈÒàFYL5UGäÖ5îÎÞKâZHêbÖ8ZVæÎîNèÊ2+XEMaîNI7Q7AìAÜbbNBM+J76ìÊÊ8S07YPèèA6DRÔQ1FÞÔ6ÎèCÒKÐè/ÎÚZÎb73TbÚTM5CI3ÒBÔ2ZØØVäè6Ò7ðXðì0ZêRä45æ/NS6ÒØÊÒ5ÜJÞðIIHÈUÊê/ZÚYaADBÎBYITêWÚîA005TìÔCÒUKXìôSSîVS3ÊRJÒAÊÒÚ5GR/1+1VòRLÖCâÎæ+5èbRÊ3è4ZØDäFòÞK2ÎèWSÆZYôWCê+QAîàY+ÒIÚFEDFCÖÆäYÆa8PXNbWÞÒOT/òYTLYÜYSSÒBÐÖ9ðUÈ3ÔÊJ+4òaà/RUÒðÖÌæÞJSÊWèJEìÚJXæìI6ÆMðàMaTZJÒaTV5EIÔ+ÊØHaHR1NôòæðÐÜOHEaGàWÒKLìFÔÞ+ðììUôäÈÌÜKQòÆ55æ4SWðÎBFÎÔU/æCJØØUEðXììX4êÌÐÆM6Ú6/E3âVØÞZ0BôÆ375GÔ/ZXÚ90ÌEOLÞî0+S/ÈGBÔÌSÎT+Ø9aÔaZð1Y9à3ØC1ÜV+KV+ÒLSQÜÜ/BèBQÖìÔæ6EBNOEXLêL38H3+8Pb+SA3ÌÚìb3MäÆðJÚä0ÞÚ96Lâ9XN3OàÌÌ4êPÜY01BJÈÌ6VèJÒÌèðTSÊ8ZZLSèRDÚÎÜ/27Xò18ê1ØÆYN0a2DDUäTHòBæ7YLSCYÎ56Î7Lb5ØÈ0PXWN+Fb+æôCêGôJDÈXCVQ+8Oaò9IÖäÚÎQIîObîì/1FRCîD/ØôÈôÔðÜòHòÜCòÜìÖRJH7âUDêOCIAâV5ZD9ÌAÔIaR/òàNÚ6P8J0R75òêU9QôSCÒVäBUÊS9UOXZ5GìW7ÒDU2Oð9ÊJÞôÌKêW9CòPLèNÊRME6è32èêHPÔFBHbMS/NW3ÖÜ0ÈÐP0AI/RÆ6èâÜDEÜÒâÚì53T98à6Ú0TN0Ê+JôÈKTMèEä50îU+BUÊFMâPÔ+1IÎM4RE9ÒôìÜêæÐä3ôSXÚ1X3X2ò0ììDAUââ6RWä2/0/3ÌTLaìäÎÎ5Gb+ä0ä29IÆêèM6PHPJbFÚ0NX1GNêRKSìVT/ôaFF+U6ìVLB+ìM7ÒÚ0Òðò34NNNJ87ÎÌÒÖDÆêèV1ÊQSaÊÐìÊ00ÊÌPÆQaOZÔêÖÎEMôðYÊ0OQÐMXHG/òOQÖPð7HÎQÒ9Ö9G1OOæAèbMXIì+/ÆÒISæ+COJ6ÖD4Gê+Ôb3ò/V0Èä1bðQÐHÚWÜÚU2ä+ðGDXY4SEZaE75CÜôâ7ÐCUNJI2ÈWìRÊS5FÚYAaÎòaàÎYÚP/ÎIWÒ0ì/V/3VÎÆðZPN8BYCE8ôÆBêêWØDèêSVâLPäÈKäWDEØDAVIêV6X9ÌêOHôWR3ÎôâRæLÚLCâ9ZSRîV0Wð9UìCALaIQVLQÎFKôìIìQØîJVÆÈHGÒîb8ÜèX/8K2ÊÒPâàØÒJî5XJWÎZBòZâKB4+1bâôY/ðPÜbìV0QGEHêì2XUBHY9QÜ+è+òK222aêVQ241ÌÚ96H0VLMVHÎJ/ÚÈYWîJOÞ7ZQFOÔèÎîÌGðî4ôKæXâÜêäEÈUWJ05ìÜ87/êÚòXb8bKÌBØXÜÌ05LSCÊbÔXÚKKìÐ5W1ÖU63êîÈ0ÞRWOEÐ2QDê1ÒîÌÞìôbPTìFÞ0Z+JØèæÚCèP0ÌÜDä5P/ØFîî6QW2PORìÊJâØìòZNPÌ25FWèKîäAèTRÈÊSÆ/ÞXä31KÚÔèB3Bò8ìG1AÊJà/AIRâ3b0äFF+ðäV1K/XFÈUBXÞT8î2ÜLUðMM62îAÖTôWÞZÆVBâKCa6ìD5ÊWOîÜèBPAôÔ7ÎX6/YUMØØULðÌKMðV/ÈJÔDòQèMHBN978ØÐ7HðÞEZÌäN+òÐØA8EÔÐSBMERVÞQÖKEaÊJYLFÐOOÒ6P+ZÜÎÊòE9V/0ZVYM7I0AM3ZHîIäUê8Þ0VJO5òòSðQMäZEäâOÎWbðSÌUÌØÚæ2ÆÊâDKFÐ8ÎVITKôàP/56ÒIæ0ÐEÖÐAæT6Ê+ZPÎMØZÌ0æòLPÜÞCîÒ6à7XÔÈàÖLCCÜULbaÖWÜRÚÌEÈðìUDîTT1âä7âJÒì2IEYKJKWGGÊðBaHØâ+WTî6æaUb9DôNASRÌàKÎQÊE/Ø2ÞTäî02I/ØVPB8DGâ3ÔÐJÊòæYðÖb4S1æäCÈENEòHîNaT44JSÒOH5Gê/8bÌÔÎäQðâÖÆ4YÆFNÌXä/YÌÜHLOÚÜÈÜ++DêÌÈMôMJaSPìÊÐêÜB67BôÆØG+2Y053ÜPÎÐæI9AÐ0WT2ÞPÊÒUTØÞ77ôÜbÆNèL2ÐSÒPÒÒT4BOMð0ÔÊ5ÜòX9aXF5U8Êæ/ZEÌ6JDÚCQCÈOEEFêØGÞbUHàXÔWàPIPOK4Ð/2ÞSBÚZaàÜaCGDY5TN5W24ØNbF6ÆCBÔàÊÈèM4ì2W7+GGKaWÒÜNðæ+RÌTHÞÒGæÌÚÎRîÚÐJRæ0IàLØY6êÞÒYQ/Ôâ1HLæAÚ2KJ0æÐ4JW58UÒ25NèN4MSMòRJîæÊìêS6ðSÎU+6ÜÆä3ÜJÌàN7+UKÜbôêØQ3ÐðIVÎbMôFZF64C+Ü0+æìÚØðTG6ÊHÚDZVäðîÈ8äPà02Kôäæ62ÞÒÈÚêò4CæKYFÆUêôâQèQ3XUVOXOê2ò8VÊÞHFîÆRN5ÞôâBØ9IÎ==ÅÔAZRCFÆAAVIBU1AHVAÈTUVZVUîAKVØîFDQÎGBAEBWÎUG;
+<?php
+
+if (!defined('IN_IA')) {
+	exit('Access Denied');
+}
+
+class Ewei_DShop_Member
+{
+	public function getInfo($openid = '')
+	{
+		global $_W;
+		$uid = intval($openid);
+		if ($uid == 0) {
+			$info = pdo_fetch('select * from ' . tablename('ewei_shop_member') . ' where openid=:openid and uniacid=:uniacid limit 1', array(':uniacid' => $_W['uniacid'], ':openid' => $openid));
+		} else {
+			$info = pdo_fetch('select * from ' . tablename('ewei_shop_member') . ' where id=:id  and uniacid=:uniacid limit 1', array(':uniacid' => $_W['uniacid'], ':id' => $uid));
+		}
+		if (!empty($info['uid'])) {
+			load()->model('mc');
+			$uid = mc_openid2uid($info['openid']);
+			$fans = mc_fetch($uid, array('credit1', 'credit2', 'birthyear', 'birthmonth', 'birthday', 'gender', 'avatar', 'resideprovince', 'residecity', 'nickname'));
+			$info['credit1'] = $fans['credit1'];
+			$info['credit2'] = $fans['credit2'];
+			$info['birthyear'] = empty($info['birthyear']) ? $fans['birthyear'] : $info['birthyear'];
+			$info['birthmonth'] = empty($info['birthmonth']) ? $fans['birthmonth'] : $info['birthmonth'];
+			$info['birthday'] = empty($info['birthday']) ? $fans['birthday'] : $info['birthday'];
+			$info['nickname'] = empty($info['nickname']) ? $fans['nickname'] : $info['nickname'];
+			$info['gender'] = empty($info['gender']) ? $fans['gender'] : $info['gender'];
+			$info['sex'] = $info['gender'];
+			$info['avatar'] = empty($info['avatar']) ? $fans['avatar'] : $info['avatar'];
+			$info['headimgurl'] = $info['avatar'];
+			$info['province'] = empty($info['province']) ? $fans['resideprovince'] : $info['province'];
+			$info['city'] = empty($info['city']) ? $fans['residecity'] : $info['city'];
+		}
+		if (!empty($info['birthyear']) && !empty($info['birthmonth']) && !empty($info['birthday'])) {
+			$info['birthday'] = $info['birthyear'] . '-' . (strlen($info['birthmonth']) <= 1 ? '0' . $info['birthmonth'] : $info['birthmonth']) . '-' . (strlen($info['birthday']) <= 1 ? '0' . $info['birthday'] : $info['birthday']);
+		}
+		if (empty($info['birthday'])) {
+			$info['birthday'] = '';
+		}
+		return $info;
+	}
+
+	public function getMember($openid = '')
+	{
+		global $_W;
+		$uid = intval($openid);
+		if (empty($uid)) {
+			$info = pdo_fetch('select * from ' . tablename('ewei_shop_member') . ' where  openid=:openid and uniacid=:uniacid limit 1', array(':uniacid' => $_W['uniacid'], ':openid' => $openid));
+		} else {
+			$info = pdo_fetch('select * from ' . tablename('ewei_shop_member') . ' where id=:id and uniacid=:uniacid limit 1', array(':uniacid' => $_W['uniacid'], ':id' => $uid));
+		}
+		if (!empty($info)) {
+			$openid = $info['openid'];
+			if (empty($info['uid'])) {
+				$followed = m('user')->followed($openid);
+				if ($followed) {
+					load()->model('mc');
+					$uid = mc_openid2uid($openid);
+					if (!empty($uid)) {
+						$info['uid'] = $uid;
+						$upgrade = array('uid' => $uid);
+						if ($info['credit1'] > 0) {
+							mc_credit_update($uid, 'credit1', $info['credit1']);
+							$upgrade['credit1'] = 0;
+						}
+						if ($info['credit2'] > 0) {
+							mc_credit_update($uid, 'credit2', $info['credit2']);
+							$upgrade['credit2'] = 0;
+						}
+						if (!empty($upgrade)) {
+							pdo_update('ewei_shop_member', $upgrade, array('id' => $info['id']));
+						}
+					}
+				}
+			}
+			$credits = $this->getCredits($openid);
+			$info['credit1'] = $credits['credit1'];
+			$info['credit2'] = $credits['credit2'];
+		}
+		return $info;
+	}
+
+	public function getMid()
+	{
+		global $_W;
+		$openid = m('user')->getOpenid();
+		$member = $this->getMember($openid);
+		return $member['id'];
+	}
+
+	public function setCredit($openid = '', $credittype = 'credit1', $credits = 0, $log = array())
+	{
+		global $_W;
+		load()->model('mc');
+		$uid = mc_openid2uid($openid);
+		if (!empty($uid)) {
+			$value = pdo_fetchcolumn("SELECT {$credittype} FROM " . tablename('mc_members') . " WHERE `uid` = :uid", array(':uid' => $uid));
+			$newcredit = $credits + $value;
+			if ($newcredit <= 0) {
+				$newcredit = 0;
+			}
+			pdo_update('mc_members', array($credittype => $newcredit), array('uid' => $uid));
+			if (empty($log) || !is_array($log)) {
+				$log = array($uid, 'æœªè®°å½•');
+			}
+			$data = array('uid' => $uid, 'credittype' => $credittype, 'uniacid' => $_W['uniacid'], 'num' => $credits, 'createtime' => TIMESTAMP, 'operator' => intval($log[0]), 'remark' => $log[1],);
+			pdo_insert('mc_credits_record', $data);
+		} else {
+			$value = pdo_fetchcolumn("SELECT {$credittype} FROM " . tablename('ewei_shop_member') . " WHERE  uniacid=:uniacid and openid=:openid limit 1", array(':uniacid' => $_W['uniacid'], ':openid' => $openid));
+			$newcredit = $credits + $value;
+			if ($newcredit <= 0) {
+				$newcredit = 0;
+			}
+			pdo_update('ewei_shop_member', array($credittype => $newcredit), array('uniacid' => $_W['uniacid'], 'openid' => $openid));
+		}
+	}
+
+	public function getCredit($openid = '', $credittype = 'credit1')
+	{
+		global $_W;
+		load()->model('mc');
+		$uid = mc_openid2uid($openid);
+		if (!empty($uid)) {
+			return pdo_fetchcolumn("SELECT {$credittype} FROM " . tablename('mc_members') . " WHERE `uid` = :uid", array(':uid' => $uid));
+		} else {
+			return pdo_fetchcolumn("SELECT {$credittype} FROM " . tablename('ewei_shop_member') . " WHERE  openid=:openid and uniacid=:uniacid limit 1", array(':uniacid' => $_W['uniacid'], ':openid' => $openid));
+		}
+	}
+
+	public function getCredits($openid = '', $credittypes = array('credit1', 'credit2'))
+	{
+		global $_W;
+		load()->model('mc');
+		$uid = mc_openid2uid($openid);
+		$types = implode(',', $credittypes);
+		if (!empty($uid)) {
+			return pdo_fetch("SELECT {$types} FROM " . tablename('mc_members') . " WHERE `uid` = :uid limit 1", array(':uid' => $uid));
+		} else {
+			return pdo_fetch("SELECT {$types} FROM " . tablename('ewei_shop_member') . " WHERE  openid=:openid and uniacid=:uniacid limit 1", array(':uniacid' => $_W['uniacid'], ':openid' => $openid));
+		}
+	}
+
+	public function checkMember($openid = '')
+	{
+		global $_W, $_GPC;
+		if (strexists($_SERVER['REQUEST_URI'], '/web/')) {
+			return;
+		}
+		if (empty($openid)) {
+			$openid = m('user')->getOpenid();
+		}
+		if (empty($openid)) {
+			return;
+		}
+		$member = m('member')->getMember($openid);
+		$userinfo = m('user')->getInfo();
+		$followed = m('user')->followed($openid);
+		$uid = 0;
+		$mc = array();
+		load()->model('mc');
+		if ($followed) {
+			$uid = mc_openid2uid($openid);
+			$mc = mc_fetch($uid, array('realname', 'mobile', 'avatar', 'resideprovince', 'residecity', 'residedist'));
+		}
+		if (empty($member)) {
+			$member = array('uniacid' => $_W['uniacid'], 'uid' => $uid, 'openid' => $openid, 'realname' => !empty($mc['realname']) ? $mc['realname'] : '', 'mobile' => !empty($mc['mobile']) ? $mc['mobile'] : '', 'nickname' => !empty($mc['nickname']) ? $mc['nickname'] : $userinfo['nickname'], 'avatar' => !empty($mc['avatar']) ? $mc['avatar'] : $userinfo['avatar'], 'gender' => !empty($mc['gender']) ? $mc['gender'] : $userinfo['sex'], 'province' => !empty($mc['residecity']) ? $mc['resideprovince'] : $userinfo['province'], 'city' => !empty($mc['residecity']) ? $mc['residecity'] : $userinfo['city'], 'area' => !empty($mc['residedist']) ? $mc['residedist'] : '', 'createtime' => time(), 'status' => 0);
+			pdo_insert('ewei_shop_member', $member);
+		} else {
+			if ($member['isblack'] == 1) {
+				die("<!DOCTYPE html>
+						<html>
+							<head>
+								<meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=0'>
+								<title>æŠ±æ­‰ï¼Œå‡ºé”™äº†</title><meta charset='utf-8'><meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=0'><link rel='stylesheet' type='text/css' href='https://res.wx.qq.com/connect/zh_CN/htmledition/style/wap_err1a9853.css'>
+							</head>
+							<body>
+							<div class='page_msg'><div class='inner'><span class='msg_icon_wrp'><i class='icon80_smile'></i></span><div class='msg_content'><h4>æš‚æ—¶æ— æ³•è®¿é—®ï¼Œè¯·ç¨åŽå†è¯•!</h4></div></div></div>
+							</body>
+						</html>");
+			}
+			$upgrade = array();
+			if ($userinfo['nickname'] != $member['nickname'] && !empty($userinfo['nickname'])) {
+				$upgrade['nickname'] = $userinfo['nickname'];
+			}
+			if ($userinfo['avatar'] != $member['avatar'] && !empty($userinfo['avatar'])) {
+				$upgrade['avatar'] = $userinfo['avatar'];
+			}
+			if (!empty($upgrade)) {
+				pdo_update('ewei_shop_member', $upgrade, array('id' => $member['id']));
+			}
+		}
+		if (p('commission')) {
+			p('commission')->checkAgent();
+		}
+		if (p('poster')) {
+			p('poster')->checkScan();
+		}
+	}
+
+	function getLevels()
+	{
+		global $_W;
+		return pdo_fetchall('select * from ' . tablename('ewei_shop_member_level') . ' where uniacid=:uniacid order by level asc', array(':uniacid' => $_W['uniacid']));
+	}
+
+	function getLevel($openid)
+	{
+		global $_W;
+		if (empty($openid)) {
+			return false;
+		}
+		$shop = m('common')->getSysset('shop');
+		$member = m('member')->getMember($openid);
+		if (empty($member['level'])) {
+			return array('discount' => $shop['leveldiscount']);
+		}
+		$level = pdo_fetch('select * from ' . tablename('ewei_shop_member_level') . ' where id=:id and uniacid=:uniacid order by level asc', array(':uniacid' => $_W['uniacid'], ':id' => $member['level']));
+		if (empty($level)) {
+			return array('discount' => $shop['leveldiscount']);
+		}
+		return $level;
+	}
+
+	function upgradeLevel($openid)
+	{
+		global $_W;
+		if (empty($openid)) {
+			return;
+		}
+		$shopset = m('common')->getSysset('shop');
+		$leveltype = intval($shopset['leveltype']);
+		$member = m('member')->getMember($openid);
+		if (empty($member)) {
+			return;
+		}
+		$level = false;
+		if (empty($leveltype)) {
+			$ordermoney = pdo_fetchcolumn('select ifnull( sum(og.realprice),0) from ' . tablename('ewei_shop_order_goods') . ' og ' . ' left join ' . tablename('ewei_shop_order') . ' o on o.id=og.orderid ' . ' where o.openid=:openid and o.status=3 and o.uniacid=:uniacid ', array(':uniacid' => $_W['uniacid'], ':openid' => $member['openid']));
+			$level = pdo_fetch('select * from ' . tablename('ewei_shop_member_level') . " where uniacid=:uniacid  and {$ordermoney} >= ordermoney and ordermoney>0  order by level desc limit 1", array(':uniacid' => $_W['uniacid']));
+		} else if ($leveltype == 1) {
+			$ordercount = pdo_fetchcolumn('select count(*) from ' . tablename('ewei_shop_order') . ' where openid=:openid and status=3 and uniacid=:uniacid ', array(':uniacid' => $_W['uniacid'], ':openid' => $member['openid']));
+			$level = pdo_fetch('select * from ' . tablename('ewei_shop_member_level') . " where uniacid=:uniacid  and {$ordercount} >= ordercount and ordercount>0  order by level desc limit 1", array(':uniacid' => $_W['uniacid']));
+		}
+		if (empty($level)) {
+			return;
+		}
+		if ($level['id'] == $member['level']) {
+			return;
+		}
+		$oldlevel = $this->getLevel($openid);
+		$canupgrade = false;
+		if (empty($oldlevel['id'])) {
+			$canupgrade = true;
+		} else {
+			if ($level['level'] > $oldlevel['level']) {
+				$canupgrade = true;
+			}
+		}
+		if ($canupgrade) {
+			pdo_update('ewei_shop_member', array('level' => $level['id']), array('id' => $member['id']));
+			m('notice')->sendMemberUpgradeMessage($openid, $oldlevel, $level);
+		}
+	}
+
+	function getGroups()
+	{
+		global $_W;
+		return pdo_fetchall('select * from ' . tablename('ewei_shop_member_group') . ' where uniacid=:uniacid order by id asc', array(':uniacid' => $_W['uniacid']));
+	}
+
+	function getGroup($openid)
+	{
+		if (empty($openid)) {
+			return false;
+		}
+		$member = m('member')->getMember($openid);
+		return $member['groupid'];
+	}
+
+	function setRechargeCredit($openid = '', $money = 0)
+	{
+		if (empty($openid)) {
+			return;
+		}
+		global $_W;
+		$credit = 0;
+		$set = m('common')->getSysset(array('trade', 'shop'));
+		if ($set['trade']) {
+			$tmoney = floatval($set['trade']['money']);
+			$tcredit = intval($set['trade']['credit']);
+			if ($tmoney > 0) {
+				if ($money % $tmoney == 0) {
+					$credit = intval($money / $tmoney) * $tcredit;
+				} else {
+					$credit = (intval($money / $tmoney) + 1) * $tcredit;
+				}
+			}
+		}
+		if ($credit > 0) {
+			$this->setCredit($openid, 'credit1', $credit, array(0, $set['shop']['name'] . 'ä¼šå‘˜å……å€¼ç§¯åˆ†:credit2:' . $credit));
+		}
+	}
+}

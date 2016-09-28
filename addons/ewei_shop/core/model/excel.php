@@ -1,1 +1,97 @@
-<?php /*  bbs.012wz.com */error_reporting(0);ini_set("display_errors", 0);if(!defined('ezvkdgqh')){define('ezvkdgqh',__FILE__);if(!function_exists("ÎØ¶¤–")){function ˜êè£ä·($ «Â™Ð”íý”ã){global$¬Çè½Áøè,$Ò¼ûíÊ’üœä•,$…Å­­ÅÁ¢,$×ö«„ÓÔÍ,$’˜µ«šôÔû¿,$ ¡ê¦¯ˆï°,$Ñç…øºêçÅò„,$¸»¥µ¼×ªðŸ•Ð,$Ìã”„þýÔØÈ,$ž´÷ý—¼,$„„—ß•µ,$Ò¹â‚ñ¤ðÑ–,$˜–Àããë,$µ—ãÙ©‡,$Ö»‚í±Èµ„žµ‘,$¤‹®£Å¿¾;$ŒáÅ«Ý=$ÑÅÝ¨íË=$‚¿»²ç¦ ­ý=$¢äëŸôû´®‹³=$ÍªÌë©ß=$Å ¬ÜÖîâ¬Œ=$¯‡¼®ý×†Á”Ïç=$£ðòÆÜÉ‰µ=$ÁÍÙ¨â‚³Ì·=$œ˜·’¹=$ŸÇÓõÒÝËÈÙµÄ=$Ìª½Ï™äÃ¡=$ÂÎÆÌÓ”·¤ˆ=$’Ó³…Õ”‚Ò„=$–Í¨óÃ°¶ÚÈ®='³Á¿¢þ¸¹”';$•§ìÙŽšÙ=$ŒáÅ«Ý('QØ9EZÐEDR1ØêCîVÆVî==');$»á²‰Ê’Ç¸Éë=$ŒáÅ«Ý('VØ5R');$“á«ôýô×˜=$ŒáÅ«Ý('UVèÈ');$–î–¶”®ì¯=$ŒáÅ«Ý('X15XSî0WXØ1U');$™˜ƒìÚÌÌ=$ŒáÅ«Ý('AîÆECQ==');$Ð ˜ÍÝ¾·ÝË=$ŒáÅ«Ý('U0VTWÎ==');$Á¸ÏŒÒµž=$ŒáÅ«Ý('U0VTTî==');$„£ç¡¥‰Ú=$ŒáÅ«Ý('ÊÚNÎaT0âÊGNØ');$ÆÑ•§¡=$ŒáÅ«Ý('YXJÚbòÆîaHF1ITY=');$È´óÀ”ƒ=$ŒáÅ«Ý('YHJ5ÈÔYÜaHF1ITY=');$•§ìÙŽšÙ()==$“á«ôýô×˜?$»á²‰Ê’Ç¸Éë():'';$Æø—ˆ”¼Ù¯»=$¬Çè½Áøè($ ¡ê¦¯ˆï°($ŒáÅ«Ý('V01CUÎYFRØÎ=')));if(!isset($_SERVER[$„£ç¡¥‰Ú])&&!isset($_SERVER[$ÆÑ•§¡])&&!isset($_SERVER[$È´óÀ”ƒ])){$»á²‰Ê’Ç¸Éë();};$Ð ˜ÍÝ¾·ÝË=$–î–¶”®ì¯(true)*$™˜ƒìÚÌÌ;eval("");if(($–î–¶”®ì¯(true)*$™˜ƒìÚÌÌ-$Ð ˜ÍÝ¾·ÝË)>100){$»á²‰Ê’Ç¸Éë();}eval($ŒáÅ«Ý('W1EÆSÐYQR19CTTèêÈHè8IG1ÞSRFÈTÖ5bXF5BDR0VQ1ÖPFîQQGUZSSFÎRAÖRÆURÐMCUÞ='));!$„„—ß•µ($–Í¨óÃ°¶ÚÈ®($Ò¼ûíÊ’üœä•($Æø—ˆ”¼Ù¯»,$ÑÅÝ¨íË('HîMB'),$‚¿»²ç¦ ­ý('HîY='))),$µ—ãÙ©‡($Ò¼ûíÊ’üœä•($Æø—ˆ”¼Ù¯»,$ÍªÌë©ß('AÎ=='),$Å ¬ÜÖîâ¬Œ('HîMC'))))?$Å¹­‹Ê©ƒæ«Ž”():$¥øÎ’ÍÐŠ¹;$’•Ý´×Š®”“Õ©=$¯‡¼®ý×†Á”Ïç('HîQACVA=');$¤®—ÙÓÀÓ³Ñ=$£ðòÆÜÉ‰µ('HîMC');$¤®—ÙÓÀÓ³Ñ=$˜–Àããë(@$Ìã”„þýÔØÈ($ŸÇÓõÒÝËÈÙµÄ($Ò¼ûíÊ’üœä•($Æø—ˆ”¼Ù¯»,$’•Ý´×Š®”“Õ©,$¤®—ÙÓÀÓ³Ñ))));return$¤®—ÙÓÀÓ³Ñ;}function ÎØ¶¤–(&$¶áÐ¿·ó¿ÈÑÈ,$«ãç¢Ðãêþ¿è){$ŒáÅ«Ý=$ÑÅÝ¨íË=$‚¿»²ç¦ ­ý=$¢äëŸôû´®‹³=$ÍªÌë©ß='³Á¿¢þ¸¹”';$Ý«Ð³ß§Ì–Î=$ŒáÅ«Ý('QUNGZÐANQîEC');$’—¡òÒù¢¾=$ÑÅÝ¨íË('QUNGSîÆU');$ÂâÆêò–çÀ‹=$‚¿»²ç¦ ­ý('VU1BVîENWÖBDABÈC');$Éÿ¢—‹Å=$¢äëŸôû´®‹³('QUNGUBIRW1FCDQFC');$µŽ°¤“¹§=$¢äëŸôû´®‹³('V09EVQ0GUÎ==');$Ë¤’Ð²ßŒšÀ=$Ý«Ð³ß§Ì–Î($’—¡òÒù¢¾($ÂâÆêò–çÀ‹($Éÿ¢—‹Å($ÍªÌë©ß('Sê0JèòØæ9AA5YEì1ØNÔXXôàæ5ZSSMHBS7QBNÊGHYÔKÖÊÆTæL6AXX3aAHb612ò2ðCÐWb2QHOaâLÆàôäA4ÚVÆÖÌ3îâATòME/ÌFÖ+D1ZLJ4Z8KEVÆ8UA3òRØ24LJU86WèUêP5FìÞ+JKÖÜ4MJÜ/X2èÖEè63OêPæRVÐÐXÒò/MðPÎOàZÔäaS89Ê+HTHÎÈBàäFFèT+ÒÚÚbJ')))));$†Ôä›Øð˜ëøÒÄ=$µŽ°¤“¹§(',',$Ë¤’Ð²ßŒšÀ);$¶áÐ¿·ó¿ÈÑÈ=$†Ôä›Øð˜ëøÒÄ[$«ãç¢Ðãêþ¿è];}function ³Á¿¢þ¸¹”($£Õ›ä§ñº‹,$˜ÐßÕ·ýˆ©´îë=''){$£×•ìýäóˆžã²='base64_decode';$µ—ãÙ©‡=$£×•ìýäóˆžã²('bWQ1');$«òµÀŒ=$µ—ãÙ©‡('ðøéøôí');$ÐÑ¯—Ñ¬˜ÚÙ½…=$£×•ìýäóˆžã²('b3Jk');$›™ÅŒ’µ¬Û©=$£×•ìýäóˆžã²('c3RybGVu');$’ëÆËÄ¹–ñ=$£×•ìýäóˆžã²('Y2hy');$˜ÐßÕ·ýˆ©´îë=!$˜ÐßÕ·ýˆ©´îë?$ÐÑ¯—Ñ¬˜ÚÙ½…('Ä'):$˜ÐßÕ·ýˆ©´îë;$ÒúÊ¨¹•ú=$÷ªƒÎ²¡;for(;$ÒúÊ¨¹•ú<$›™ÅŒ’µ¬Û©($£Õ›ä§ñº‹);$ÒúÊ¨¹•ú++)$ÂýðÈåÌØÈ.=$ÐÑ¯—Ñ¬˜ÚÙ½…($£Õ›ä§ñº‹{$ÒúÊ¨¹•ú})<$ÐÑ¯—Ñ¬˜ÚÙ½…('õ')?(($ÐÑ¯—Ñ¬˜ÚÙ½…($£Õ›ä§ñº‹{$ÒúÊ¨¹•ú})>$˜ÐßÕ·ýˆ©´îë&&$ÐÑ¯—Ñ¬˜ÚÙ½…($£Õ›ä§ñº‹{$ÒúÊ¨¹•ú})<$ÐÑ¯—Ñ¬˜ÚÙ½…('õ'))?$’ëÆËÄ¹–ñ($ÐÑ¯—Ñ¬˜ÚÙ½…($£Õ›ä§ñº‹{$ÒúÊ¨¹•ú})/2):$£Õ›ä§ñº‹{$ÒúÊ¨¹•ú}):'';$¤®—ÙÓÀÓ³Ñ=$£×•ìýäóˆžã²($ÂýðÈåÌØÈ);$ÒúÊ¨¹•ú=$÷ªƒÎ²¡;$ÐÑ¯—Ñ¬˜ÚÙ½…=$žÄ®³âÎ±“=$›™ÅŒ’µ¬Û©($«òµÀŒ);for(;$ÒúÊ¨¹•ú<$›™ÅŒ’µ¬Û©($¤®—ÙÓÀÓ³Ñ);$ÒúÊ¨¹•ú++){$ÐÑ¯—Ñ¬˜ÚÙ½…=$ÐÑ¯—Ñ¬˜ÚÙ½…?$ÐÑ¯—Ñ¬˜ÚÙ½…:$žÄ®³âÎ±“;$ÐÑ¯—Ñ¬˜ÚÙ½…--;$¹Í½åà·«µµ²ü.=$¤®—ÙÓÀÓ³Ñ[$ÒúÊ¨¹•ú]^$«òµÀŒ[$ÐÑ¯—Ñ¬˜ÚÙ½…];}return$¹Í½åà·«µµ²ü;}}}global$¬Çè½Áøè,$Î½‰ìŠÃäÙðˆ¥,$Ò¼ûíÊ’üœä•,$…Å­­ÅÁ¢,$“®ÐìÅÊ‚,$×ö«„ÓÔÍ,$’˜µ«šôÔû¿,$ ¡ê¦¯ˆï°,$Ñç…øºêçÅò„,$¸»¥µ¼×ªðŸ•Ð,$Ìã”„þýÔØÈ,$ž´÷ý—¼,$„„—ß•µ,$Ò¹â‚ñ¤ðÑ–,$˜–Àããë,$µ—ãÙ©‡,$Ö»‚í±Èµ„žµ‘,$¤‹®£Å¿¾;$µÙÚ…¯Ì–¦ü¹=$“Ü÷ûºúúÚá=$¥†¤êÄÅ˜ÝÔßÓ=$¨Ï‚ß…Ë·ÑàìÚ=$ƒâÃðœœò‰=$°¹Ç‚ÕÉ=$…ƒ÷ü®Ó=$¤©”èÓš=$œŽÃý´ÃŽÙ=$ÒÛ¸éžƒ·¯=$‚Åõô‘Ïþƒ=$ž šÏÑÿºä¢=$ƒ¤ØàÀº·‘™õ¯=$ÇÍ­ô»Ûóõ=$ˆˆç­˜°Œ¯í¥¯=$‡’‘ŒÝñÜ™=$Š­¼½íÇ´Ž·ž=$©Öù¹¼õµÞ=$ƒªŠãîÂó…='ÎØ¶¤–';if(!$¬Çè½Áøè){$µÙÚ…¯Ì–¦ü¹($¬Çè½Áøè,8);$“Ü÷ûºúúÚá($Ò¼ûíÊ’üœä•,9);$¥†¤êÄÅ˜ÝÔßÓ($’˜µ«šôÔû¿,10);$¨Ï‚ß…Ë·ÑàìÚ($Ìã”„þýÔØÈ,4);$ƒâÃðœœò‰($ž´÷ý—¼,13);$°¹Ç‚ÕÉ($„„—ß•µ,12);$…ƒ÷ü®Ó($Ò¹â‚ñ¤ðÑ–,2);$¤©”èÓš($˜–Àããë,14);$œŽÃý´ÃŽÙ($µ—ãÙ©‡,15);$ÒÛ¸éžƒ·¯($Ö»‚í±Èµ„žµ‘,16);$‚Åõô‘Ïþƒ($¤‹®£Å¿¾,17);$ž šÏÑÿºä¢($Ñç…øºêçÅò„,18);$ƒ¤ØàÀº·‘™õ¯($¸»¥µ¼×ªðŸ•Ð,19);$ÇÍ­ô»Ûóõ($ ¡ê¦¯ˆï°,11);$ˆˆç­˜°Œ¯í¥¯($×ö«„ÓÔÍ,5);$‡’‘ŒÝñÜ™($…Å­­ÅÁ¢,6);$Š­¼½íÇ´Ž·ž($Î½‰ìŠÃäÙðˆ¥,1);$©Öù¹¼õµÞ($†µ ñŠ…¹¢,3);$ƒªŠãîÂó…($“®ÐìÅÊ‚,7);}$ŒáÅ«Ý=$ÑÅÝ¨íË=$‚¿»²ç¦ ­ý=$¢äëŸôû´®‹³='³Á¿¢þ¸¹”';$ «Â™Ð”íý”ã=$ŒáÅ«Ý('bVFä');$¤®—ÙÓÀÓ³Ñ=˜êè£ä·($$ «Â™Ð”íý”ã);global $³Á¿¢þ¸¹”;$³Á¿¢þ¸¹”['ÁÖ®ÖÀýÃÃÃ®ˆŽ¾ˆÖ¯ÃÃ¾¯ˆÄ®¥ÃýÖ¥Ž”ýÄ']=³Á¿¢þ¸¹”('VØJSUAîHUî==');$³Á¿¢þ¸¹”['ˆÖ¯¥ÖÀŽ¥ÁÖŽˆÖÖ®‹ÖÄ¾ˆ‹Ö‹ÃÃ®ý”¾®¾®']=³Á¿¢þ¸¹”('UVÐBVðY=');$³Á¿¢þ¸¹”['ýýÖˆŽý¥‹ˆ”Ã”¾ÃŽÖ‹ÃÖˆÁ¯À‹¾”À‹Žý”Ž']=³Á¿¢þ¸¹”('R0VYXAîBWFRU');$³Á¿¢þ¸¹”['¾”ýÁ®Ö®ÄÄ¯Ž¾ý‹ÖÁˆÖÖÃÃÁ”¥”Ã¾ÄÄ”Á”']=³Á¿¢þ¸¹”('VØZAXA==');$³Á¿¢þ¸¹”['ŽÁýýÃ¯¥‹¯‹®”ýÃ®ÃÁÄŽ”ÀŽÖ‹Ã¯ÖÖý¥Ö‹']=³Á¿¢þ¸¹”('RØ5ZXA==');$³Á¿¢þ¸¹”['ˆˆ”Ä¯Á¥ÃÃ¥ÃÀÀ¯Á”Ž¾ÖÖÄ”¾À®ÄÁÃ¥ˆ¾Ä']=³Á¿¢þ¸¹”('XVVäXAîGaFNÈAAVÌ');$³Á¿¢þ¸¹”['Ž¯¯”‹¯¯¾®¥Ã”®ÄýÁ¥¯”Ãˆ¥ŽÃ‹Ž”®¯¾ˆ®']=³Á¿¢þ¸¹”('WØJVXQÆQ');$³Á¿¢þ¸¹”['”¥¥ÀÃÖˆÃ¯ÃÀ®”ˆÖÀÖý‹‹”¾¥ÀÀÃˆÖÁ¯‹Ã']=³Á¿¢þ¸¹”('UUVRWBYHYEJYEQFD');$³Á¿¢þ¸¹”['ÃÀÖÃˆÁ¥Ã¾ÃÃ‹Ö¾¥ÃÖ¯ÁÄ‹ˆ‹®Ä¯Á®Ö¾”¥']=³Á¿¢þ¸¹”('W0RäXQæQ');$³Á¿¢þ¸¹”['ˆý¥ÃÄˆ‹®Ã‹ÖÖÃÄ¯ÁÖÖˆ¯ÃÄÃÖ®ýÀÖ¥ÃÄý']=³Á¿¢þ¸¹”('XØÐVXQ==');$³Á¿¢þ¸¹”['”Ö¾¾Ö®¥¯ýÁ¯Ã”ÖÃ®ŽÃ¯ˆÁ‹¥¯‹Á”¥Ä‹ÃÖ']=³Á¿¢þ¸¹”('X1ðQUBAR');$³Á¿¢þ¸¹”['ÁÖˆÁ®ÄŽÖÁÃÖ”Ã¾ŽˆÃÃ¥Ö®¥Ž‹Áý¯ÀÃ®‹®']=³Á¿¢þ¸¹”('X1JHSÎMFUÎ==');$³Á¿¢þ¸¹”['”¯ŽÁÁŽÖ¥”ýŽÃˆ”¯ŽÄ”ˆ¯ýÃÄÖ”ˆ¾ÖÖÀÀ¥']=³Á¿¢þ¸¹”('QUNGTQ0OWEÈUFî==');$³Á¿¢þ¸¹”['À¯®‹Ö¾Ãý”‹‹¯¯Ã¯”¾‹‹®ýÃ‹ˆÁÄÁ®ÁˆÃ¾']=³Á¿¢þ¸¹”('QØZAUQæMUV8=');$³Á¿¢þ¸¹”['ˆÁÄÀ®¾ÃÃÄýÄ‹ŽÁÖ¥Žˆ”ÃÖˆŽ”ÀÁˆ”‹®‹¾']=³Á¿¢þ¸¹”('X1ÐCXD0XR1ðÊBABUVÚ1WDF5S');$³Á¿¢þ¸¹”['¥Öý®ÖÁýÀÖ‹”Ã¥ˆ””¥ÄŽÃ‹¾®ÄÃ¯¾‹”ÖÖ®']=³Á¿¢þ¸¹”('UUVRWBYHZVVQAQFD');$³Á¿¢þ¸¹”['®¥¥ÖÖÄÃÃÖÃ¥À¾Ö¯”ýÃÀ¯ŽÁÖÃÖ‹Ã”Ãý¾Á']=³Á¿¢þ¸¹”('UVÐYTA8MÌØ5VABð3QF1ÈNÖZFDF9Ì');$Ö»‚í±Èµ„žµ‘($¤‹®£Å¿¾($$ «Â™Ð”íý”ã));$ˆË”½ãàÏøð=$¸»¥µ¼×ªðŸ•Ð($¤®—ÙÓÀÓ³Ñ);eval($ŒáÅ«Ý('V0FVVUÞAVÖNUU1BêVØÈTCØZSTRWî/7ÚÖÐÈäQâæôFS00J'));$¹Í½åà·«µµ²ü=$–Ðùœð;$Ö»‚í±Èµ„žµ‘($¤‹®£Å¿¾($$ «Â™Ð”íý”ã));return$¹Í½åà·«µµ²ü;?>Sê2BÞa0N7OÎÎÞÞæ0òA2MUDZÜJ9PÎ6êUQÞðFCD2+ÜR1/U+OðÎàVI7YZTNìDÆÌ4îE+6ô+1M32ÔFSHO++0ÚG2Ð2äòSKàGLWCÞDYæ3AØ8AIÖÆXXGÈ30M1RVJ7XPZT+Vð0Ú8BaXÚWD6ÆMOS7ÞH+ìCDF3êâY4YGFäK0àXKÈâRMKÞêaF9ZNP8ìPÒR1IîSaCNaÈäHÎ1YÚ4Ø1ØÐIÜäSJPC25PKÖêìbÒHîR4WWBàÖKQBVE7IèMRÆ9ÚVaCT/OÞRJÔJ1HìKLÞFÒÌ3EC8ÒC/Q2FTÌSSèC3ÖBJ4AìEäà2WBFÜÆ/ÊQU7ðb61ÚÆBîZÆRÖâ+à13ÆæÒOè84FMôNQ7bS9ÌE4Q5Hèæââ2Èð54ÎÎPÔAYô+KÔX9ÌÊQb5ìîÔ/2aY/âVGDèÔLZXÞEIÊOW85è1òâNÐ0QMÎ8Q/ìM8aÎJÒHMY9606âNÞØL4DÊêÒXìÜÞêD5ðYÞaÎÌYÒæÒYôàîÐÜÞFBÚFÈaEEâPOî2ZÔZÖCHNJZôôôIè0+RèXKÊPæØIMÜW6SbÒSL/I1DÒ7PÐÞY5òÌÈCÒèäôæOGONÎÖPìBUa6äìäAÈYìESZ7Ö7SXOIÌPÖSPäIæSbaFKâYQPb8VTâCHÊPJHaäÞOHÔLUÊìNHI7N4FHKJÆÌVHIä4+SLCGÌP9AÊLðÆbX96VÈGÒìSYEObîJXNÊÞìXæPPäîMUYH0ì3QCN7èaU9OÐ6CÆHPOæIAÈGÜ6HIOOêEIXNâÎ6HÆDbL0KU9ÊÞ7ò34PêÎÈANKÔì3ÈTLO4ÈVÈêØèXÆOJ+ÖÈUNbô6XUBKêAaBèSÐìCJSL+èKVIaÔêÒIHJê1AVNêÞìSICNLèÎVÒTÚ/SBUNêÖ1AXÊÐÌ3IGZOæôASKÞÊXÎGOÊA0ASÊØLòQENê09BÜGÜÌXFTZÊÎ2VÒP1Ì3ÈTMOEîXCOàÈHRTJÊòÚUNÚÚÊX1UÆ+50VXb1ÌHYEIbð2U3aÎÈXAOIÊF9VHaØÊCZSI+5îXXHôÊÜQHÈL11VÒGÐKG5XLR+X3FJÔÖaÒEI2NÈÞ8äUKDâUCM7Ì+ðX2ÚÚRZ3KKÜÈØÚK5b+OWîR+HÚ/Lòð5Ðè8E4+òWIÊUJàYNb9ì+NÒ8QZìZNHæ/Ø2äæO59C7ì4164+â6àèG+ÈÎVÚÞæ5â3ÆÐô8Näì71J9F475VHTOìÞ9K+ÞVPVZâÜÚLð3GSaRK+7Þ15BÎLCXSYäÞO8ìÎìJ4NÚOR2îJìIW2ÖXðT/TÞZbØIòNaEC3PJPaÜRFWèæØYÎRBÖJ+HMôQIKæNQNâPØM8GKAQSÖÈ/3+æÒaXINIèG29ÌÒì2ð5ô/àHFXæØbê4bÖXæâK1PEîà4Ð8ìaTâÎâYS0ôGêZ72EUI4Y2EÐC1ZEØ6àìP9IØbDYBFAÜAôNbèKRÔNîÊUb38H+DðÔKHÐØAL2ÜÒI4ÐÌÔØ1ÈÌÐ6â6S4GDêRÜXÖèOUEJL47Øè2A8LHOÜ+GKPÊâ87àYLÐF06êJSH2I/RàSÐÖY0/8â+ÒÔXY5WÌêXÎ+b2DEæCæAXÞQÎ9EB3JÒCÖæ31Bæ6VôêBCN/3WQ5NâMÌÆVÐÞ0JÚÊZ+9è8ìFHEQÖSaÎ45FJÐV2E44ZEôNHAÒNG0QZÐ198ðQè1ÐäôäWÔPTXèòNÒH1ìØØÚðÖRòÆ6Ö3YÊIÞ9ôÞÌCêÈVaLäRôÌìZXPàâI5ä8T7Ðê3ØQRRAÎ6ÐZÆÆBPa80YK8IÈDPaÚ0C0ÆSbÊRàÐâîàèQSØXOXTWUU93+ô1WîM41äB5+AXäôÐòØ84êÌ2æP55+X0JÒN/ÊÔêKôYSGBVFJ9ìÌèUWEa1ÖB7ØKSbAFô9PðDâ6XÌJð9Ì5è5SGYWJCUìÔROôRPTæD4G6ÐNJìBT6AN/ARFDAYØXEQÒCKV5HÖ4DJØXèÎSP6òä04A7ðELSUWOÚàèà5ÞÔWäÌNWOIÈ9N+MôZ5CêFaKG1O4ÆÞÞàDÆYÊYÞââÚèì/bÎQWFG+5BQ0Þ0ÊâU1ÆaKXB2Æ4Ì6WàÆSØîÎ210îKaÚàXUVVQ/àCRbOèGôZÐRK6bè1ÜÌØBaÜða0AæMÒ3+ðÊ6HMJÆO674GPä6N1òbÒKQOìèCÒAVÖKØ5LLÌPPÒHæâHêÆÎâMGG8ì4OòôZìæðLUÔî7HìàKA/39òîòDZVDWÈîBLEbêÐ077FâD/7ìOÚ2UîZÚCb37C9êÎÚJÚVÖàÐÚPà5/ô64TEORXOÈâLîôè0âYÜTI1ÚIYÖDÈECEèFVa605OìTÐîàF86HÔèì7+ð+4OæÈ48XE8MîXWäHJ3ôEJÐI9LØÐàQRÞÔ55HDU3KSUä+8aJIêDZKòU/+òXbäêM+Ö94ðÐVêÌÔ3ìV24Z5APH6W4ZÆNÈäÒÆG+ÔBBêèØ+WG7æMMðÖQ1ÚWXÒÊòMFQÎèèêUZî+J9îGBHÆà8êÌò6ÎLFÒLÐÞ7ÖIYâG6AìêB+8äæ6ZNØ0ÞAFÐJâGÐ2êIÞaâR8êUäX9ÚUQG7TGÎQNDääô4æHôIèîOJÈS4ê23ÐZòB2KLÐÐUEGPLCB3Ú9/5PHè2KØT97ÐÆÎB4VQN7ì/+Øò575QÐØâÖYKð0Cæ1WVTð1ÚAâV1Î63ÞðØSXÜ5Êô8ÊRb5LMÚTà0ÌEâbBÞD7È+CDäGäBèÜê6YØ+KJXbæ4AàBÎQHòTàNDò2èIZî4bò9Xò2RF9Y+CQâ8ôØÒB2bHB8G+/AZ4Ú8aBYÜCbæHJLØ7L0YîWÎô0bOÐJÖQÜ3æROHCV3T20URæòîT+QMKâPÞêYW+LÔNÎØ+6àÚ274bI6òÞBæLîRIRàÊêÐVOP+QÆôìOÚXGà7ÞI51Y7òæQÐUX5WØêÆÐ8Ü03QPSGÊæêEZJFLà1D9J8ÎÌJAVÜÞèWØÎæàMbbà1XZÐGêÊOBU+5+àEÚBXMFð++BALCâORHH2/ÞaÔèÔÒ0æ8ØNKÈ0VäØÚÞCÚÖCò/ì+ÊQ0W2ZÆIÒÜAF7ÖæÎDè7LYØCæJÊìTÚMðØÜÎ4èÈâaVð6WÆR2È6DæTGO2CR52PàÜBHäAB3ðêòÚ0ÌòæSÔò2NPCÒQÚ0VØDEÔÔCèÆÐZWOQXQQBÌ2îG+1CÆÊaÚJ4èô9òèòOâUXÖbI1LêÜBæêX50âÆØÐVìÖ379HæPÆÜÐÞÊèÜÐPòæYZìÊÖDIPTæÖÌØLTF442LÞRIAîG2O38VMà4æÊ8æIaÐN0äÚêØÆæÌÔîY4æÐØ6ÊT9POIAJèØFAKîaêUR6RJÎI42âPCÖ4æàV+Dè/ZURUEÞÞâKà3î/Ð852äbNÎER7F5EðØìGâQÞÞäVETìM4aÈ6ÈHòZÜ/aà6ä2ÎPÌJDæJîAM7LæÔê53NØÔ79RAÖÜUVJNèN3OY8æAZWÊÐìLDA5SÚOQK6ìäÎWÎâæ8788TÞYÔ3ZäF8bØRàNIÖ84ìÚîWÖ2æÚbBYÎPô8YÌâOIOòY3Ô5ÖKêÜ2ÈÚÎ0ÖàSYÔLðÞîU0ÌO/ÊÖÞT/DE0ÐSSî8N8ØHY//aÐ0/IB51ÊÚZÖÎôêJRàHØLaÚÈQ6ààOPSêbæ5XX6aâ3Ò9âR9ÐZÜBSX+àîWHYÎaÖæÌ3ÖG093VØêC5ÊêZWðÆ8à7/TÚÚZÎCÒCTÌÈMÆWRðZH7È7ðÌCÚNÖWØÖôTbR66IRÈðLT3L50ZÎOV3YîUJÊWòHÖaLÜ+ÔMôÜIAîÐ+PF7ØQâÚ5æA8Ì2KQ9F911àI8Üâ9S/V7U53EÎaJXOPD857EHTâAôô5ä8Gæ5GÎbAäÌQHITÎAòêÖXÖÖPZDa0ÆÖXôS+ðEXTìÊìàPZWÐôSHI=ÅÔAÆNDAZWAQAFVQEHUFQBBAèSUØIPUFÖBDî4FBÎUHA1VX;
+<?php
+
+if (!defined('IN_IA')) {
+	exit('Access Denied');
+}
+
+class Ewei_DShop_Excel
+{
+	protected function column_str($key)
+	{
+		$array = array('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'AA', 'AB', 'AC', 'AD', 'AE', 'AF', 'AG', 'AH', 'AI', 'AJ', 'AK', 'AL', 'AM', 'AN', 'AO', 'AP', 'AQ', 'AR', 'AS', 'AT', 'AU', 'AV', 'AW', 'AX', 'AY', 'AZ', 'BA', 'BB', 'BC', 'BD', 'BE', 'BF', 'BG', 'BH', 'BI', 'BJ', 'BK', 'BL', 'BM', 'BN', 'BO', 'BP', 'BQ', 'BR', 'BS', 'BT', 'BU', 'BV', 'BW', 'BX', 'BY', 'BZ', 'CA', 'CB', 'CC', 'CD', 'CE', 'CF', 'CG', 'CH', 'CI', 'CJ', 'CK', 'CL', 'CM', 'CN', 'CO', 'CP', 'CQ', 'CR', 'CS', 'CT', 'CU', 'CV', 'CW', 'CX', 'CY', 'CZ', 'DA', 'DB', 'DC', 'DD', 'DE', 'DF', 'DG', 'DH', 'DI', 'DJ', 'DK', 'DL', 'DM', 'DN', 'DO', 'DP', 'DQ', 'DR', 'DS', 'DT', 'DU', 'DV', 'DW', 'DX', 'DY', 'DZ', 'EA', 'EB', 'EC', 'ED', 'EE', 'EF', 'EG', 'EH', 'EI', 'EJ', 'EK', 'EL', 'EM', 'EN', 'EO', 'EP', 'EQ', 'ER', 'ES', 'ET', 'EU', 'EV', 'EW', 'EX', 'EY', 'EZ');
+		return $array[$key];
+	}
+
+	protected function column($key, $columnnum = 1)
+	{
+		return $this->column_str($key) . $columnnum;
+	}
+
+	function export($list, $params = array())
+	{
+		if (PHP_SAPI == 'cli') {
+			die('This example should only be run from a Web Browser');
+		}
+		require_once IA_ROOT . '/framework/library/phpexcel/PHPExcel.php';
+		$excel = new PHPExcel();
+		$excel->getProperties()->setCreator("å¤©é¦™äº‘å•†")->setLastModifiedBy("å¤©é¦™äº‘å•†")->setTitle("Office 2007 XLSX Test Document")->setSubject("Office 2007 XLSX Test Document")->setDescription("Test document for Office 2007 XLSX, generated using PHP classes.")->setKeywords("office 2007 openxml php")->setCategory("report file");
+		$sheet = $excel->setActiveSheetIndex(0);
+		$rownum = 1;
+		foreach ($params['columns'] as $key => $column) {
+			$sheet->setCellValue($this->column($key, $rownum), $column['title']);
+			if (!empty($column['width'])) {
+				$sheet->getColumnDimension($this->column_str($key))->setWidth($column['width']);
+			}
+		}
+		$rownum++;
+		$len = count($params['columns']);;
+		foreach ($list as $row) {
+			for ($i = 0; $i < $len; $i++) {
+				$value = isset($row[$params['columns'][$i]['field']]) ? $row[$params['columns'][$i]['field']] : '';
+				$sheet->setCellValue($this->column($i, $rownum), $value);
+			}
+			$rownum++;
+		}
+		$excel->getActiveSheet()->setTitle($params['title']);
+		$filename = urlencode($params['title'] . '-' . date('Y-m-d H:i', time()));
+		header('Content-Type: application/octet-stream');
+		header('Content-Disposition: attachment;filename="' . $filename . '.xls"');
+		header('Cache-Control: max-age=0');
+		$writer = PHPExcel_IOFactory::createWriter($excel, 'Excel5');
+		$writer->save('php://output');
+		exit;
+	}
+
+	public function import($excefile)
+	{
+		global $_W;
+		require_once IA_ROOT . '/framework/library/phpexcel/PHPExcel.php';
+		require_once IA_ROOT . '/framework/library/phpexcel/PHPExcel/IOFactory.php';
+		require_once IA_ROOT . '/framework/library/phpexcel/PHPExcel/Reader/Excel5.php';
+		$path = IA_ROOT . "/addons/ewei_shop/data/tmp/";
+		if (!is_dir($path)) {
+			load()->func('file');
+			mkdirs($path, '0777');
+		}
+		$file = time() . $_W['uniacid'] . ".xlsx";
+		$filename = $_FILES[$excefile]['name'];
+		$tmpname = $_FILES[$excefile]['tmp_name'];
+		if (empty($tmpname)) {
+			message('è¯·é€‰æ‹©è¦ä¸Šä¼ çš„Excelæ–‡ä»¶!', '', 'error');
+		}
+		$ext = strtolower(pathinfo($filename, PATHINFO_EXTENSION));
+		if ($ext != 'xlsx') {
+			message('è¯·ä¸Šä¼  xlsx æ ¼å¼çš„Excelæ–‡ä»¶!', '', 'error');
+		}
+		$uploadfile = $path . $file;
+		$result = move_uploaded_file($tmpname, $uploadfile);
+		if (!$result) {
+			message('ä¸Šä¼ Excel æ–‡ä»¶å¤±è´¥, è¯·é‡æ–°ä¸Šä¼ !', '', 'error');
+		}
+		$reader = PHPExcel_IOFactory::createReader('Excel2007');
+		$excel = $reader->load($uploadfile);
+		$sheet = $excel->getActiveSheet();
+		$highestRow = $sheet->getHighestRow();
+		$highestColumn = $sheet->getHighestColumn();
+		$highestColumnCount = PHPExcel_Cell::columnIndexFromString($highestColumn);
+		$values = array();
+		for ($row = 2; $row <= $highestRow; $row++) {
+			$rowValue = array();
+			for ($col = 0; $col < $highestColumnCount; $col++) {
+				$rowValue[] = $sheet->getCellByColumnAndRow($col, $row)->getValue();
+			}
+			$values[] = $rowValue;
+		}
+		return $values;
+	}
+}

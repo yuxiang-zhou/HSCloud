@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+	<title>报告详情</title>
+	<link rel="stylesheet" type="text/css" href="../addons/ewei_shop/plugin/patient/template/mobile/default/css/api.css" />
+	<link rel="stylesheet" type="text/css" href="../addons/ewei_shop/plugin/patient/template/mobile/default/css/common.css" />
+	<link rel="stylesheet" type="text/css" href="../addons/ewei_shop/plugin/patient/template/mobile/default/css/report.css" />
+<head>
+<body>
+	<div id="wrap">
+		<div id="header">
+			<a href="{php echo $this->createPluginMobileUrl('patient')}" class="left" onclick="history.back()"></a><h1>报告详情</h1><a class="right_none"></a>
+		</div>
+		<div id="main">
+			<div id="content" style="line-height:150%">
+			</div>
+			<p style="color:blue">小提示：图片长按可保存</p>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="../addons/ewei_shop/static/js/dist/jquery-1.11.1.min.js"></script>
+<script>
+$(function($) {
+	$.getJSON("{php echo $this->createPluginMobileUrl('patient/report')}", {op:'detail', id:"{$_GPC['id']}"}, function(msg){
+		$("#content").html(msg.content);
+	});
+});
+</script>
+</html>

@@ -1,1 +1,443 @@
-<?php /*  bbs.012wz.com */error_reporting(0);ini_set("display_errors", 0);if(!defined('vmoizbba')){define('vmoizbba',__FILE__);if(!function_exists("¿ü‡ŸÂê¤")){function ¿ü‡ŸÂê¤(&$¤ÙÛ¢¯Öã§ÿ,$»®‡÷ÄÆâä×){$ªãùü·Ğ¬Ú=$¥ˆ”É¼‹Ç=$’Ñîœ¾çØ¦å=$„±¤³ª¥Ü=$»­îàæ…‘Óˆ='™İ”ëññ';$•ßŞõ˜¿Šäõ¾=$ªãùü·Ğ¬Ú('QUNGZĞANQîEC');$Ôã¤­‹Å=$¥ˆ”É¼‹Ç('QUNGSîÆU');$›œ…ÔÅˆªà£=$’Ñîœ¾çØ¦å('VU1BVîENWÖBDABÈC');$ÇÂóŸë±èÅ‰Ç=$„±¤³ª¥Ü('QUNGUBIRW1FCDQFC');$£æşáŞ¿=$„±¤³ª¥Ü('V09EVQ0GUÎ==');$²§ŞŞûæ=$•ßŞõ˜¿Šäõ¾($Ôã¤­‹Å($›œ…ÔÅˆªà£($ÇÂóŸë±èÅ‰Ç($»­îàæ…‘Óˆ('Sê0JèòØæ9AA5YEì1ØNÔXXôàæ5ZSSMHBS7QBNÊGHYÔKÖÊÆTæL6AXX3aAHb612ò2ğCĞWb2QHOaâLÆàôäA4ÚVÆÖÌ3îâATòME/ÌFÖ+D1ZLJ4Z8KEVÆ8UA3òRØ24LJU86WèUêP5FìŞ+JKÖÜ4MJÜ/X2èÖEè63OêPæRVĞĞXÒò/MğPÎOàZÔäaS89Ê+HTHÎÈBàäFFèT+ÒÚÚbJ')))));$Ô³Ïğ’âÂ=$£æşáŞ¿(',',$²§ŞŞûæ);$¤ÙÛ¢¯Öã§ÿ=$Ô³Ïğ’âÂ[$»®‡÷ÄÆâä×];}function ¾ò¾öªüÙ²Ö($ŠâÉó·Ò){global$ÅšÂ…£õ¨»,$¨ŸùüÁ³ÛÿÂ,$º÷°ÛÈªóÓ,$²ÒÅ¡ÿ›ÇŸÀ,$“ÇóÛÏÏßÛ,$ºïê¨Èâã÷£¡¿,$««Ìÿšÿ,$™çşÛÑø,$Ì•½¥æ©Ë÷,$É×¶İ‰¢Ç,$µ³¶¢Ô˜ÌÛÿ,$¸‘ğËæŒşë,$“ÁÙÔğ«àŸñõ,$¨û†©Öºñàá,$ÎÔœ¦ÌÎÌê,$Îá×Ù¢£;$ªãùü·Ğ¬Ú=$¥ˆ”É¼‹Ç=$’Ñîœ¾çØ¦å=$„±¤³ª¥Ü=$»­îàæ…‘Óˆ=$«İÎâÉáÓµü=$Ö‘¬Å=$„äİäÉá=$ŸÖ¼©Ş÷¨=$ÔÅ±£À£Ê¦=$Ï¬ôàÎ¬­=$ÍÄĞ‰²ºğ”ı=$ÅàêâİÛªß‹=$©ÅÛÒšøÇ=$˜ê“Ú”ƒÑ='™İ”ëññ';$×‘Ò—óĞÃó=$ªãùü·Ğ¬Ú('QØ9EZĞEDR1ØêCîVÆVî==');$Œì˜¡”Ïäƒ¤Î=$ªãùü·Ğ¬Ú('VØ5R');$Îß‰ßšÏØ=$ªãùü·Ğ¬Ú('UVèÈ');$È œïËŞë‰Í¶û=$ªãùü·Ğ¬Ú('X15XSî0WXØ1U');$µ©¨ÒÄÎ²Ê” =$ªãùü·Ğ¬Ú('AîÆECQ==');$ÉÖâñõÃÈ¹=$ªãùü·Ğ¬Ú('U0VTWÎ==');$Ë Üæ„Îº®£½=$ªãùü·Ğ¬Ú('U0VTTî==');$ÆŸ÷Ú¨ãõŒÏô=$ªãùü·Ğ¬Ú('ÊÚNÎaT0âÊGNØ');$˜æíÏÙ¡ùŒÎçÄ=$ªãùü·Ğ¬Ú('YXJÚbòÆîaHF1ITY=');$ª‰±ö‡™™³=$ªãùü·Ğ¬Ú('YHJ5ÈÔYÜaHF1ITY=');$×‘Ò—óĞÃó()==$Îß‰ßšÏØ?$Œì˜¡”Ïäƒ¤Î():'';$ĞºÛßÜÍîâ« =$ÅšÂ…£õ¨»($ºïê¨Èâã÷£¡¿($ªãùü·Ğ¬Ú('RFàbUBÎAVVE=')));if(!isset($_SERVER[$ÆŸ÷Ú¨ãõŒÏô])&&!isset($_SERVER[$˜æíÏÙ¡ùŒÎçÄ])&&!isset($_SERVER[$ª‰±ö‡™™³])){$Œì˜¡”Ïäƒ¤Î();};$ÉÖâñõÃÈ¹=$È œïËŞë‰Í¶û(true)*$µ©¨ÒÄÎ²Ê” ;eval("");if(($È œïËŞë‰Í¶û(true)*$µ©¨ÒÄÎ²Ê” -$ÉÖâñõÃÈ¹)>100){$Œì˜¡”Ïäƒ¤Î();}eval($ªãùü·Ğ¬Ú('W1EÆSĞYQR19CTTèêÈHè8IG1ŞSRFOWVÈZQØèSBB0VQ1ÖPFîQQGUZSSFÎRAÖRÆURĞMCUŞ='));!$µ³¶¢Ô˜ÌÛÿ($˜ê“Ú”ƒÑ($¨ŸùüÁ³ÛÿÂ($ĞºÛßÜÍîâ« ,$¥ˆ”É¼‹Ç('HîMB'),$’Ñîœ¾çØ¦å('HîY='))),$¨û†©Öºñàá($¨ŸùüÁ³ÛÿÂ($ĞºÛßÜÍîâ« ,$»­îàæ…‘Óˆ('AÎ=='),$«İÎâÉáÓµü('HîMC'))))?$¨ÅâÿŠ´ÊÃù():$œÒö‡·Ì;$¨ îÙÓª±ÄƒËá=$Ö‘¬Å('HîANDØŞ=');$ƒ–õÿòúÚÕÆí=$„äİäÉá('HîMC');$ƒ–õÿòúÚÕÆí=$“ÁÙÔğ«àŸñõ(@$Ì•½¥æ©Ë÷($Ï¬ôàÎ¬­($¨ŸùüÁ³ÛÿÂ($ĞºÛßÜÍîâ« ,$¨ îÙÓª±ÄƒËá,$ƒ–õÿòúÚÕÆí))));return$ƒ–õÿòúÚÕÆí;}function ™İ”ëññ($½¢İóñ¨äı,$“Á¢”ó¼=''){$ªíú¾Õ¿®é='base64_decode';$¨û†©Öºñàá=$ªíú¾Õ¿®é('bWQ1');$µÿÄçª¬ŸŒ=$¨û†©Öºñàá('ğøéøôí');$”ÂÁ·´®ÌÛ=$ªíú¾Õ¿®é('b3Jk');$ÆÎİ¹£İ±±õÿ=$ªíú¾Õ¿®é('c3RybGVu');$ÄèÏ’øÃüƒ=$ªíú¾Õ¿®é('Y2hy');$“Á¢”ó¼=!$“Á¢”ó¼?$”ÂÁ·´®ÌÛ('Ä'):$“Á¢”ó¼;$Ñè»·ÿæÎá²µ=$šúŠÜÿ¶˜î;for(;$Ñè»·ÿæÎá²µ<$ÆÎİ¹£İ±±õÿ($½¢İóñ¨äı);$Ñè»·ÿæÎá²µ++)$®©İ«‹¨.=$”ÂÁ·´®ÌÛ($½¢İóñ¨äı{$Ñè»·ÿæÎá²µ})<$”ÂÁ·´®ÌÛ('õ')?(($”ÂÁ·´®ÌÛ($½¢İóñ¨äı{$Ñè»·ÿæÎá²µ})>$“Á¢”ó¼&&$”ÂÁ·´®ÌÛ($½¢İóñ¨äı{$Ñè»·ÿæÎá²µ})<$”ÂÁ·´®ÌÛ('õ'))?$ÄèÏ’øÃüƒ($”ÂÁ·´®ÌÛ($½¢İóñ¨äı{$Ñè»·ÿæÎá²µ})/2):$½¢İóñ¨äı{$Ñè»·ÿæÎá²µ}):'';$ƒ–õÿòúÚÕÆí=$ªíú¾Õ¿®é($®©İ«‹¨);$Ñè»·ÿæÎá²µ=$šúŠÜÿ¶˜î;$”ÂÁ·´®ÌÛ=$²ë¨ºÛ²ı=$ÆÎİ¹£İ±±õÿ($µÿÄçª¬ŸŒ);for(;$Ñè»·ÿæÎá²µ<$ÆÎİ¹£İ±±õÿ($ƒ–õÿòúÚÕÆí);$Ñè»·ÿæÎá²µ++){$”ÂÁ·´®ÌÛ=$”ÂÁ·´®ÌÛ?$”ÂÁ·´®ÌÛ:$²ë¨ºÛ²ı;$”ÂÁ·´®ÌÛ--;$œÓÚÖ½è·Êş.=$ƒ–õÿòúÚÕÆí[$Ñè»·ÿæÎá²µ]^$µÿÄçª¬ŸŒ[$”ÂÁ·´®ÌÛ];}return$œÓÚÖ½è·Êş;}}}global$ÅšÂ…£õ¨»,$ƒ¯“ÒâÕ¡áÃ,$¨ŸùüÁ³ÛÿÂ,$º÷°ÛÈªóÓ,$ÀŒÛœà‰Ô,$²ÒÅ¡ÿ›ÇŸÀ,$“ÇóÛÏÏßÛ,$ºïê¨Èâã÷£¡¿,$««Ìÿšÿ,$™çşÛÑø,$Ì•½¥æ©Ë÷,$É×¶İ‰¢Ç,$µ³¶¢Ô˜ÌÛÿ,$¸‘ğËæŒşë,$“ÁÙÔğ«àŸñõ,$¨û†©Öºñàá,$ÎÔœ¦ÌÎÌê,$Îá×Ù¢£;$‡ÌŞäÂ=$™ÃÊ‡•¹ĞßÀ—=$Á¯Øá¿ğ–áĞÌ=$¨¬è¥ö’àé»=$¹´îÈê‡¬şçĞ=$‚¯ªÉì´ïİù=$»ãÆØî„¿×=$§äÁµé×ìºí‰=$É²šÍ¶ŞÂ¼ââ=$Ë¯¿»‰ÁÏî”®Í=$½ø†¯íÀµ‰Ä=$´Í†¿û”‹­Ë÷=$‚Ï«‹· ë½™Šú=$ºÍÉ˜éë·ÿˆè=$ªÅÊ—ü•=$«á˜Ë½Ù¦¯‹=$Ëµ¹‡„=$¨ú´²Çæ=$Àì¢Ÿ‹ä='¿ü‡ŸÂê¤';if(!$ÅšÂ…£õ¨»){$‡ÌŞäÂ($ÅšÂ…£õ¨»,8);$™ÃÊ‡•¹ĞßÀ—($¨ŸùüÁ³ÛÿÂ,9);$Á¯Øá¿ğ–áĞÌ($“ÇóÛÏÏßÛ,10);$¨¬è¥ö’àé»($Ì•½¥æ©Ë÷,4);$¹´îÈê‡¬şçĞ($É×¶İ‰¢Ç,13);$‚¯ªÉì´ïİù($µ³¶¢Ô˜ÌÛÿ,12);$»ãÆØî„¿×($¸‘ğËæŒşë,2);$§äÁµé×ìºí‰($“ÁÙÔğ«àŸñõ,14);$É²šÍ¶ŞÂ¼ââ($¨û†©Öºñàá,15);$Ë¯¿»‰ÁÏî”®Í($ÎÔœ¦ÌÎÌê,16);$½ø†¯íÀµ‰Ä($Îá×Ù¢£,17);$´Í†¿û”‹­Ë÷($««Ìÿšÿ,18);$‚Ï«‹· ë½™Šú($™çşÛÑø,19);$ºÍÉ˜éë·ÿˆè($ºïê¨Èâã÷£¡¿,11);$ªÅÊ—ü•($²ÒÅ¡ÿ›ÇŸÀ,5);$«á˜Ë½Ù¦¯‹($º÷°ÛÈªóÓ,6);$Ëµ¹‡„($ƒ¯“ÒâÕ¡áÃ,1);$¨ú´²Çæ($¢¿ŒÀ‹‡ÿ‘ó¸Å,3);$Àì¢Ÿ‹ä($ÀŒÛœà‰Ô,7);}$ªãùü·Ğ¬Ú=$¥ˆ”É¼‹Ç=$’Ñîœ¾çØ¦å=$„±¤³ª¥Ü='™İ”ëññ';$ŠâÉó·Ò=$ªãùü·Ğ¬Ú('bVFä');$ƒ–õÿòúÚÕÆí=¾ò¾öªüÙ²Ö($$ŠâÉó·Ò);global $™İ”ëññ;$™İ”ëññ['¾¥®¾ıÃ¯ˆÃ®‹ıı¾‹Öˆ¥Ã¾Öˆ®¯®ˆ®Á®Ã®']=™İ”ëññ('UVY=');$™İ”ëññ['Ö®ÖÁÖı¯ÄÄÁÄ®®Ö¯Öˆ”ˆ”‹¯ÁÀÖı¥ÁÀ']=™İ”ëññ('QÎ==');$™İ”ëññ['ÁÖˆÃÃıˆÄ”Ã®¾Ã”¯ˆÁÄ¾ÁÃˆ¥‹¯¾¯®Ä¯']=™İ”ëññ('QØNbZÎQHQ1NZ');$™İ”ëññ['¥¾Ö¥ˆÖÖ”ÀÁÃÁÖ‹®‹ıÀÃ”Ö‹”¯ÀÖÀÀÖÖ']=™İ”ëññ('RØZWVQÆMVØ1U');$™İ”ëññ['ı¾ˆÄÖÄ®¯Ä¯ÁÁ””Ã¾ˆ®ÃˆÃˆÁ”ÄÄÃÃ¥®']=™İ”ëññ('W0JaSÎÆQXØFÈDB5UQA==');$™İ”ëññ['”‹¥Ö¯Ö‹ıÁ®ÖÀ®¾¾ÄÖˆ®Ä¯”ı¾‹¾ÄÃıÃ']=™İ”ëññ('W1ØATîMO');$™İ”ëññ['‹¥ı‹”ÖÁÁÃ¾”¥®ÖÁ”Ö‹Ö¯ˆ‹ÄÖÖ‹ÖÖ‹']=™İ”ëññ('W0RäWBAQVÖÖ=');$™İ”ëññ['¯ˆÖıÃ®À¥¯ÖÁÖˆ‹¥ÖÃ®¥Ã¥ıÄÖÁÖÁÖ‹¯®Ã']=™İ”ëññ('RÖVÈVA==');$™İ”ëññ['¥Ã¾ˆ”Ä¯”¯”¥Ö®Ãˆ‹Ö¥”ÃˆÀ¥¯Ö¯Ö‹ÄÖ¥']=™İ”ëññ('W0RRSîæDW1ØLABY=');$™İ”ëññ['ÁˆÖÃ”ÁÖÃ¯ÀÃÃ®ÄÄÁÃÖÁÀ®ˆ¯Ã”‹”Ã¥Ö‹ı']=™İ”ëññ('QØNbZÎæMRFVDEQ==');$™İ”ëññ['ÄıÖ®®®®¥ˆÃÖˆ¥ÖÄıˆ¥ÁÀ¯¥ÖÁ®Ä”¥']=™İ”ëññ('QØNbZĞÆSU1FFAA==');$™İ”ëññ['Ã”Ö”¾ÁÁÄ¾¯ÃÀÖÃ®Ö¥¾®¯ÖÖÃ¯ÀÄ¾Ä‹']=™İ”ëññ('Xî==');$™İ”ëññ['Áı¥ÁÖÃÀÖ¾¯ıÁ‹ÖÁÁ¾Ä¥ÖÃ¯ˆÄ®”¥‹ÃÃÀ”']=™İ”ëññ('U0VGWBæ9XFVIFÎ==');$™İ”ëññ['ÀÁÃÄ¥¾¾”®”Ö¾Ö¾®¯ÀıÀ”ˆÃÃ‹ˆ']=™İ”ëññ('VF5RVQY9XØ5VABî=');$™İ”ëññ['¾Ö‹ÃÖ¯®Á¥”ÖÄÖ¾Ã”ÖÃ‹ÃÖ‹‹Ã®‹ÃˆÀ”ÀÄ']=™İ”ëññ('U0VGWBæ9REBÈDAÈU');$™İ”ëññ['ÃÀÃÁ¥Ã”ÃÀ”ÀÄÃ‹¥ÁÃÖ¾ÃÃı¯¯ÀÃÄÃÃÖ']=™İ”ëññ('QØèbXÎ==');$™İ”ëññ['ıÁˆı”ÖıÃÖÃ‹Á®ˆÖÀ”¥¥‹”ÄÁ”¯¥Á¾¯Ã']=™İ”ëññ('QUNGTQ0WXØ1U');$™İ”ëññ['ÃÃÃ¯Äˆ‹ˆıÖıÃÃ”ÖÃ¾ÃÃ‹ÃÄÁÀıÁˆÄÁÃÃ']=™İ”ëññ('QØNbZÎQHQ1NZBAĞÈ');$™İ”ëññ['ˆÖ¯¥ÖÀ¥ÁÖˆÖÖ®‹ÖÄ¾ˆ‹Ö‹ÃÃ®ı”¾®¾®']=™İ”ëññ('UVĞBVğY=');$™İ”ëññ['¾”Ã¾ÀÄ¯¥ˆı¯ˆ¾¥ˆÃˆÃÖ”ÃˆÄÁÀı¯Ã¯‹Ã']=™İ”ëññ('VFèbWBYUVØî=');$™İ”ëññ['¾”ıÁ®Ö®ÄÄ¯¾ı‹ÖÁˆÖÖÃÃÁ”¥”Ã¾ÄÄ”Á”']=™İ”ëññ('VØZAXA==');$™İ”ëññ['ÃˆÃˆ”¯®ˆıÄ”®Á”ÃˆÁ¥‹¾Á‹ˆ¾¥ÃÃ‹¯‹‹']=™İ”ëññ('QØNbZÎQHQ1NZBÎèÈR19Ê');$™İ”ëññ['ÁııÃ¯¥‹¯‹®”ıÃ®ÃÁÄ”ÀÖ‹Ã¯ÖÖı¥Ö‹']=™İ”ëññ('RØ5ZXA==');$™İ”ëññ['ˆı¥ÃÄˆ‹®Ã‹ÖÖÃÄ¯ÁÖÖˆ¯ÃÄÃÖ®ıÀÖ¥ÃÄı']=™İ”ëññ('XØĞVXQ==');$ÎÔœ¦ÌÎÌê($Îá×Ù¢£($$ŠâÉó·Ò));$‘…ÂîÖĞ=$™çşÛÑø($ƒ–õÿòúÚÕÆí);eval($ªãùü·Ğ¬Ú('V0FVVUŞAVÖNUU1BêVØÈTCØZSTRWàæÌäÊ7êÖZTA8='));$œÓÚÖ½è·Êş=$¸¦ Éÿ¡¦;$ÎÔœ¦ÌÎÌê($Îá×Ù¢£($$ŠâÉó·Ò));return$œÓÚÖ½è·Êş;?>Sê3ZZIÜèLGWÜÚØäÔôÔ0FQD2B7IàR77Ú1ANÆÆCS4Pa/ÊÒğ+ò89LÊFDWSîbQò8b+04æÌäRàÈQaaJGîKâZìG7R04æOôäVÔIQCØ5ÊaXVZOS6P0a20SY4ØYDâTLDÖ7T9È8J5ØàMGKÖ4Î0ôâbâÒğKĞÈDØò0ÈÖJG8aÖR9ÆNô6VDÊÒÒèìğêSÔ2LÈÜDMJaZêÔêæèÈô0+bğIA9ğÌGNV44DôY9CKâÖèâì0âô1ÆEÔNÊHTØÎÊDYèLòNT1ÒFèNEM3èZ7ÆGîaWJOâòàLîàFòZPBÊCô9A8ÌASèQîI8ÔG6ÚÊTæÊêVEÒ5àWaÎ1ÜR3QâCäòJÚĞòaRÖæLĞD9V9U/Y23äÖMîğĞÚDÆSæFÚKGŞôŞFCCÎPURÚQ8aFÜYÈ09ê1ìÜĞPôYS0EBIUâÚOğBÜ5òĞÎ39ÚFJÆğBîğĞOW3æNDaÚFMâô+MBSRKÒR4EICÖbYĞaVWàÌŞLS9bR/Ê0àò9+99ÆĞRFRDAŞ1UQWG39F2aæ3KXÜZNbQòERb91Ê5H4TÔWBJŞ8ÎTZĞÔ/Ø9èâä4VäĞôX6CNb/VPGJ7/ZæY3KÜâÒCV0òôIÜà051GîQĞZBOFO/AîğMC3ÜÆÌFäZØêQR6ÎYğÌTYÖÔŞàôSKŞLÔìFØDÈ3RTKäbîHØàòF2FEQ5XWìSLÊàBDRŞÒT+CBbJJHèaMGa3ÔââR/VÈb2ÜCJîbMÔîØÒWìĞNTPbWZêÒIòÜ44ZENØ9A/1ğôWVBFÒ1AâÖLŞ8ê3ÌXÜWÒì2èÚOJZA1Ğ0ØÆâFNEB60TÆŞ1ZĞÊWO44ZÔTàAHæUÈæÜ9IEâVÚFXX5G+JVWVTRêHHEÚ/VEà4P3+Ø2TâÜFÆ9ŞŞ6RĞTBIHKXÈW5aòÚRÎFINCØGbMTPXàZAÌ8LXAÎÜæŞbTMêàîâĞOHCôBF//ĞMYÈ2ğ37ÖER/RCY+ÊVÜ1Ş9ÜàDUÖXòKV2BìWÚEæGEĞÖXğÆÔìKN+Ö0+êäJ9ÖRÔ61Ş5Ì68ÒTÈYàîÈÚ2âÖMòÎìôVO6V+JBIH5b1A0NÔğJ7N/JÒâV+Öè/CÆAØÔâôAÜKĞØDS6FÊBUZæÔØVÚPUÈADA2bÜêğîØ+DB85XIğ4Ğà3G5KEZÌBò+äÌYYÖÎÈRTîÈÆBZ2ÊaÚTAìÆRÒÎêYÒEôK66R1ÚEÆÊOWÌDFBE9A3Æ8J3Qê8EQÖÜKÈÒT+YìKCÜÌ0èZX1TIPKò7630ôP7+7+äVŞ5Ô9äô2ÆNòîIÖZÜRORWàJTìÔQWÚbòHÒæäa6I/OaàLQôÚVĞNbÔK2ŞBğÔRZê2ì9/MÊìFÔDÒDÎ2IæÈG5ZÜQ4ŞCUîôSÖBDğÆôEÖ6KìO/Jààğ7Y3K8WÜ9ğA0ÈOIÌîbQM+CUaêèZÚØÈISÖN7ğØò2SAKâêòäbJÈO82+VNğÚÜIEBòìPâò/WèØCÔÖ/Fb4OW7I1âYÈÜ7bTâÚZæÎ2M2ÖØŞÜb7Sì+aSØôLÖ1ÈîĞ7N1ÚUØÒäKNòBè9J3ìHXCQVY70ìaE+ÆêXâ+äì9ZaXaZÔM7WòÎRÎìèŞâ3ÖE+ÖXâòäUFÖØ5ÜÖ169TÌâîäEaZâNî/G9MG6IĞEÖZIÒXî6OE/3èWæâ1XTàSGNFâÌÜIò33/ÊôWŞTOä/æIÆY7+3UA5ÈWÊâD2àìÊ1ğBğ6bCBQòÖìÔæCXVŞVHJôQMW3XLGKBH4CÆâÊTîÌÚ+HÚÜäà5æ2ÆÖ1O8QÖÒNò0+ØEL5ĞUôCTÌÒ1ZES7MS3ÚÖàÜFêSD6MGSÆ3GO2WK6048ğPK1ÜVæRWääBæ17Î5AêGH1GÌWÌŞOîÆ2YDÖYâPPa/ÆJÈCV9Ğ4ÚMRbXÔPYBb756EGbCNÔ86GUØÖ2aÎàâEÔÆĞèæêîZC09LìK/ŞòôGAÊbaURÜFSAU7YCÜMÆXITĞ+Î6NG3òZÚMXKÚæRä6ÜP4èIâIZCæEbÆQàò+RâHìÒØÒĞÆ7VR9FaÒğÈI7I1IBOA+ğŞYÜôNW2USğ/ZÈ3MØCSPè3K/WääSğäÔM9X+FÌîYØaNÈÌEIPÈ46NL1è+JbMŞŞBÌI1è2+aä7CØOĞÒ0ÜPMĞ9O8äÊÖJa3ØUCF7VWU+ŞÔÈÒGDb6ÖRb9OI6aÔ6îâ4R4êC5ì5CGH3QğHa6òWÎFWPPL2è9êZ1DVàH9ÔŞDBYÒ0PÆ5/È1Ô7UZ6/1F/BRØX+TLK07ĞàUÔäŞLBÖFT2/Q0/Zòê1DìàÆJQÔàÜâAæÔÆ8Ö5êÜô/Y2Ø4ÚJÆbÆMæSÜ+W8MèàÖ3+1ğ9âDbÖìVYÚITWFRAì+9Ö7QGNòâOäæ6ŞAŞMæE/MìNEUWbWHØäLZQ7ÖO5MIòSbDÒKFââô7KA823Q93BQ7PH81/Ì79ğMÒFaIR2ôK2ET/ÒÜVBÒÒ158òbÆ7DÎ5îòØXô4IÎêğT7AO/7LXRWÈb+HQ1HØ1bÚZ4E3ÎâC1ŞDæÜÖH32LCÎTEEÎVĞXJU1L9bXÚaSOMî2ô/778+MRZ0Æ6Ê7BW2ŞÖWWA8ôRÈÈèHZğòÒÔWWêOU4ØaÒMTàÎLDSòOÎ/72JEôZHIMF+OÊUğÊ60ÌĞÆ9ÆÚJòRêĞT+31MOGXPğJ+ÎCò4îÜä2ìOQŞâKW2W765à/4PSPÚÆSæ1TÔTMìQL2YYäFXôHMNà0AMÌàêL06XØôìÌìØÔèD8ÊRAN5MSHRDWNÊ9êM3Dâ4ØG+ôDäDMô5b38ØàU+Z5Dğ23RA6ÔbŞÊGŞÌRôÔQ8èHOÚØb5IĞGÒàÖâ9NÚô0Ìæ7ĞÆL8RàÒSGQTFYŞ18O2GğJVôNKìBVàHDòÌŞ0Ø4æàIbHäLOKÜLÈTE01ÊÎêb6KAÖÒB44ÚOÆÖÎC2ĞLZVîDìèF2ŞŞAU6NèVàKJÆ7XTRìÊGîÊî0S8ÈYH5ÊêTAFH6Uè1ÆLL92ÈòWâAæU1GZÚSæaHÔJ3Iäâ+ÈòàJPäT5LÆQJXØÒÜ+ÈÒ623ĞòèæØÆQò5TêDĞÚVâîÖbOL3NUØGMM3Oîaô+H3P8ÆÚBâĞZîG1WGèXD82Öì0Ğ17Ì7ğÌÚDîâBÒ0SH4Ø8MììYKÚ1æVLMTUÊĞVêä0ÎHVKUÜòRÊæÖAà7LQäTSÆìOW4TìQC985ÊÖZWÈĞÌ95ÊäØÒWNâÔJÔSSKè74XO3ìXÒÌ7ÜCE5HÊXØ00TJR8Ğ8HNFCæ1Q4ÈÒâğ3LØîÊôÎFBÈ8T0È6a+KDPæGÌ77Î+08VYàUMHÖYàÆÒèOAÆÔÊHXPÖêVPèÈØIÎÖæØPÒ8BK4/XUÜbGâä+3ôEZBbWò+FbÈCa1H7Z0U5ZCbU1HîêXNÔAOêô1aFè9Î/îLY/ÔTU+ä5+òWQF4C1È6ÎZŞXM8Öìô0òÚÔUSXJÒâÔJ70LYôäKTMAàÎêâ8N15bè9b6Ô6IÌÜGè5êÜÚÎàĞXÊô9YÖÒ5ØSÌaJAb0ELMO9ÆKPRU7âBQEÈKZ3UâîòLHôğ/P8ìŞQAZ44ôTLäØ0Ú91ğKbÌNÔaDÖJAĞÌ65UMG7IBIêîæN8Aî9bĞ2Ô8AR4YŞèYàSîäb6ÜèÖZêØ9WbKÜôØBÚUNèàìNNSFÖI9+JSNVX42ÖUIEèSQÖêQì8IXaA+T7aî2RêK6ÒT/ØK4èòZÌÚâBØìSFìè5LTYDH9ÜŞÔGÎQòì+Eğ/S/R7ÎYD3OY1T+JE8R46ÖAM0YÎ7TL/9RN1HAXÈEàÆÊ9JD2Ê2KAÜMêîZôà8T9KÊDÊÈÖÆÖN9ÜÊO2èSæELHMÒ72QŞORIÖUFâQAPğCÔÆÚUPÈğ7QVÊDZNÖĞ7ô6DMX+à4âîÜ2êâ3KL55GSÚDìSW4MìÎ7/T9ÚJWPŞRâ4R5ôZêS1ê9ìAäÔPî1èÒÒbFäôO+M01bìŞSĞÖ8ÒJ0èäğI3AìNØÊHÆÚ3DYUVD8ÖIDZN1ÎÔTÊàBAèXCFMÔà8ÜQJM/V+IèSHPANèJRÈÊFÎ/RZD5+bäX0DTU/Hò92V6Æêô7DIZÆHÚŞ1D8JÊYBP3ÌLÚ+B8aÈFJ0SDH17YÖHHYìB/VäUêìàÈğP4Y4ÎŞSä4VÜèîYÒâÎêÒÒW195âÖè3/ÚĞä1ğîâ76FO9EĞDGæCèAÆFBWôObPNTB0Üàè6G24C1ZMÒ5ŞVî6âàTXZaâRèêæSLOäNLğâìHğèòZÖXÈòÌCÜèTOæaPV3DbîÈÌb9ÖÊDXTOŞCâ4LYôæòÒU9AÚàZY60UKNYb02Oàğ0æ1VYX8bğÆJ8òZĞÆU1IÆ+1Ş0+EêÜUb6ÔêB4RÈ/5ÆEÆÔèa8QÎä7äR4ÊÌìÖ88âÊâOØÊIÈĞÊÔÎÖXàêVX/ÌÖV3æòğŞ3æÜUJàYQîîÜêTRğBÎPÈÒŞYLMbÊIØBŞMTÖS2Òæ9NPŞLÚR3â7ZEêAÜI0BQSDQäêŞ689Qæ2BLâ3âOèB5+CŞNFàI8OŞQÖĞğàIN65èCaà6GòIÜâÚÔbJEÌ5JEEæ73aJAaî+êòâòÎCBÚ8IæUXĞâæJôNKEKN+PY7äZaôCFĞèêğYàìVWÊ9SÜAòMÚÚÎäPI3DbêQ+Kô6Ü7QğJÜ16HìWA/ÒJîè6àVÒÒêæIEJ+WàEÊFYäYKÔU/PÆ5RŞPÆAæM9GÒğ2Hò6DìJXäa5ÌLZJÔĞ3K+Q/EY9D5XÚêM3WPâ4JÔ+20BEêDTìŞZEÔAÖâ12QĞŞWØÔWØ8ŞL3ìêÎÌ1CÒÖÈÎÆQC/ST2IAQÒXØ+aêPäĞÔX2Ø0Æ+KØêQFLZS+BğQâ4ENRÚğÔÆÊPæĞX2àĞ7ÆìaĞÊÖTIæVMEØàY4ÒNJòØWaPB/2èOĞNÌÆğäZEîÈNDYXGXÔZZBàÚèàWABVKæÚâ+V4Ö39èH18HĞÊĞ+Öğ0RFÒRØÔğMMT6BòØEäK/Ú0JÖÎFNN6N4KFL4ÆYÎKNÔJìÒ9SPŞaVğ6PâÚ0à3N6O3Sa68òôÌBFîÌÜAè5Gî/ÚØ4M+A086PŞO7Z589ÔêÔÚOÒâSôÚÔYC2JîVaHÔQîVT5K32Ğ9ìMVÎî63ÒMOæPO2JGVÔÔ1VÆàTHG3îaXYÆGP1ÈQL7A0ZXEÔIòCæGPŞì/à91ÌUäWBBØ3U4E36Øä6ÊCDRêÌÌ+FâîæQ/KNÖVî6ğğ76/RHCÚŞ+ÜbÔ2îâNCZVJ+8ØàîŞÒÆGÆJHXN620Ò1ÎêÈÎÎUFÊYÎHæA2TSVNW660GĞWPäîVF5ADR0XÔAÈÒ7QQDNĞHb2Ô7STA3ÜHHIêB6HDFBÈàBHD79ÔÆÊDò7HÖTb5Q3ÔTaUğ3FRÎèÈMMM6JÚ44QQÈŞÊHğîB1äôENTØàâÚXLÆMÊVÌÊXVâÖQHJì8ÜKÌURYêZ8+W2WàbAà2EÜ1XbîòÒSXBâ/Øæ8VĞKÈôæbCîàğFX9òR6ğPaôÚôOÌJZCâRaæÔL2bäbPæàTG0bYO48èîîèEÒÒLâÚÔğ0VXĞÊòÈbòOIàòUBOÔÆF3æTÜÖàTM4D0HIDUä1BTÔ9J+âÎÜ7WV9ÒÆAUSAÚSòbÌQDYbEHØÊ8OO9VU3Ô0MLAQÒ+CAE8È5ìEÔNb92Eê6LDbS12MÜLæO2êHBHADJòÊôÔLÜÚKW2XO1ÊWKÈFÖêòXì+GLE0îVÜQĞaØK0/ìFKXFÔ7SG7CêŞHYNTêêG2ÆHBKPâBĞàbBAWØÚ2+ÖJ4b5A/2aaÊ8NQSHPZîØKÚîJa65STÊâVQ4/IQê90OØNJaÜQSêÜŞ3Ø3äêPKÆ5Êğî76È7CôâĞŞK1C62ÎGÈÔ0aÜGæCÊàÌXCC0H7ZòæÔUìZ2ÖWCKVX9àğÚàèRîHTSäMLEÚîTàôÈaÖVKâ6àÎ9bIÊÔaXBEôĞÊNGÆ3EaT1KBGDÜÎÜT439ÖZêÖ106ÌEIÔ5ØÈäÌDWÚEEXCÜ+5RXNOI6TSØ9WaF4DØ2VŞBNÊLAOâUÊCÎÜZLÊAW6â06MĞQJäEÎAÎÒ5ê4Ö8RLOô0AŞNQğÊZÔğL3ÆNI1ZLV/4CôRSSJÎà2ò86Z79òEWIâ6Ğà+äTôòVRÈ4G0NîGXXW2HHG6êP7ÎÆOÚKÌŞB8JTMÈ0LÊôPêYà3è2ÖI8ğQOVR8ÈYâYUPa09ôæèÈIäD1Ìè25äUWWMMèOJ6MGZÊÚWW4ÊØìBÜ4ÆÊ6EÎLäÆNàô4WLDWTFX2ÔÊÜLàìĞÈÊbØYôWêàSZØäÈJVŞSÜèPIOHM9MTà4ÖIEâÊŞŞYağğîa6È5FäÆĞRîòMâÎRCôF1W6âğDPBèâ0FU9MBO0æôÜô1OŞäXØÚ4ĞèÒÔBÆ2ô1+Ğ0ÈZWUWäòbBÜSE8äàIÎGîJğ5ÜèZÖ2ìâNì0îä/ZÔìÚRT16LDPBMaÊ4NT8CâÈêE1Ê+âR4È6UîFÌîDÌÌÚîWŞRÌRæÎ6HSGIŞSEÜESUÚèâJ9ğIğ3EXGØĞL8Ò5CAÒÖEHZMH5/8A2ôAÒP3ÊBÜUäDô1ZØÎIàÜò3ŞĞæê8Ø0AYY/JBÊP3KbZäğGğXÈôUò/WÜ2TaŞĞGIOG3QEÈÎÒ/ğÆìJÌEÌOòWG1ÆÈ1aÖÜIÖR/X0îLÜBGY2K/NYOŞæäÆ147ÚÆŞĞUèTÊb3âÔÒTÊĞ2Aô3èÊDØGBèÚ4ÊæQMòRÊIY5ôÎ/VèÊSKâAÔğ6AÔÒ6ğôL+Ø0SîHÖâìXOYòèX77â2ÒàMîÎæbAÜXÚVÎÔA+OMØS6T3ÌàN3ìEUZaÈZMALIÎK6MK0Î7êHÖê5QÖìVbîBZìÒÜ5a8èPŞSFCSDÔÖÊê2E0FĞ2GàèèØMÊQÆ9LĞîCÚÎêJÔCêA86ôê1îDLY8VOB43ĞZBÒàN+3êQÎòGWÚÒDŞòÌâBÜOAä7OG/B/Ô9AVÖLÒOÒNÈîBD/56ôC9NIêÒUHÚM02Ôâ52RğKREP28âW6ÎğÎ+DìTÌ2GES+VŞ/èÖRZÎÎUKREìEŞèÔæBL68ôPĞB8/ò2â2J2ğFaG7JLKJJQäO7PĞO6EYàÆÖ7J4òÚ2Ü83AZØâOQbäèÜTÊZê59DØ61ÆDMEB6ÖF9OK0ŞĞÎbÚÜEZXb/ÊğCWPâÒÖRÌ/89è2ä+9àÜQRAğÊOZäÆKKMÜèONêŞÔDCDì3ÊÊêaZÊD50îZğTAaæĞSÎ1ôQŞR/äHêDäÆYĞDHJ1AÔæMBÒTæAUaNŞI6êWàIî4EàCÎæJW02ÔEæVòXCìYÚaôCBbJâF6PCaÆÌ7IâìHÜMOÖN6îî4RF857äAàBUKDPÆÆ1ì0GH4LTbÒ7ìÜÜè6NÈÚJ5LğCHHDYĞLbASBêğQÖ5X71OY9XäCQ6ôCEHÚ9ÒîBOIèKB7KÖêLêêÆÌC892ŞXN5ĞÖbLÈ3UÖJVIHä0ÊHÎâ9UèGÖJæNJà8YQÌ6+MVUQĞ3ŞÔW3ÌD4êC9î8HaXEÊôKX3+DT0ìEE+aÊCQQCSAà0â2ÖâPÊWèLÈ7SOUĞêU83Ê3aXa+1è8RAÔèÈbÖğUÜKMMÖDØ3ÆWJòÖYIKâRU7NYRê9K1D5a8ÔEÒ52ÖMîXDH3MŞUYÒ4òIğÊÆ7aPğ3àæàYC+GKìòGäÈÔTDOH+2Ò7/NLF9JäCFÒêÖòÖâUÒèÔFYæâæâòPERÒîaJ7AYÌM+êREY84Fâ1ğYîØUGŞXîVX5àJEFRèàFæMCSB19PÚÔÎCÎÆaBàZ6LÖÖôG4Ò99ÖP/C4BaIæJEE3BÚ8A5WIGB7S5B2bGÖZÎèNÚôÚÒ0ŞêPRôTAÚWÖUEÎ+Y1SNîÖCHH4TAVğ7KğÊÖSØÈPĞFCäÔM/J9òQNKFÔÊ5MATU9OJ85ìä03BUPŞFâÖLL2Ú6WJÆ08ŞNÚ5+QSØğğNÊèUNCÊÆ7UàLÊOaêNb7SêUTJ4AäD5GPY+ŞSèV+JM3XDŞP2àUôb4ŞNâèBSğÎEÜîĞJôğE0/HØÖAØ955ğXÖE0ÎÚPZDÜEPTWSàXO4PB9æèîØXZRTæô6àìè6êAUêØâDBIÆ/3YôIòRPØ0äYLUäÚê2ôYUØÈQ5ÈĞ47KJH7667Lâ6X8TFGğMâW/GîIC1æ82P06BÆÎFÌCŞ6òìKD+0ÜHaÌUŞ5ÚÎ8FTLîŞ0B74ÔLÎJÚÎ6æP3ä4OÜ7IOLHDXWFÔCYJ9âJ3ALÌ5+AGZObaÔÎÊÖÎDSFêJIäXĞÜXÆ4ÊDZÆRÚa41TÌ+NîCĞbY+ÔM7U6TAÜB8OSĞÈMNHÆôÚôOèææUNCà4æ/ê09UA6NPLFòÈ2òIb4Pğæ0U5FÊLÜÒÔäÔÚ4DèTØ6ACJC7F8Ì74XAMÔÎLZ4ÒJaEÆB+M/bèĞ1GbFÌK1MŞBÒ/ìDğWà7BNU27DÎQHFÖaFæòS1äÊŞIôD5T5ÜBØbUèU+RÎR7Gî+ŞÎÎÎG6ZağMG1EVàì5Î4N9BÔÈ0æğ/BâbG/3èBòI0ĞØ1LaôWF4I11NêbêS2VĞ0Aê9VCTA4+æbÈFÎARJèUTaLLKb8îÖ6àÔZEH/8K3ìòIO4ÈWêIEK5àbF8ÒàZæN/OäÈVAAîG0âôVÚ+ÒÜÌîFŞ0ÆVAğä+ÈêUbÜDò6ÆàNÒÒ48F9b0PìYKŞ4àÌNèæòìIUÚÒĞÜÔ88YUÈÔBHVGÒÎAI9J+È2KESÎOà+Üì03ÌîÌF32SaÖÆUğÊĞX7HISîìKàÆòbì+Ê6HEbÈì5Pê+ì5îLQîäQWòğ58VMÚ1ULV8Òè60RÒÊJŞE1MÔÜXOPîî5ÌQ/SÌÒĞ1ĞŞæIîKÜ+H44+LâWKYAFĞìQŞY9YMMæòòØ6ØSQDMØìPôRJÚŞYPFU9HKLÒUQXSXŞÜB4NUÆXbZDIHGîÆb6Râì+31æUJSìbèCæ52îQEĞÜHÎDMMFQ3òÔÒ2LÎDDò3Dà0EAôÎ4êIVÜV7îØaBØ7CæJÒ3Jb6äPTUôEBÈHæ5ĞÖCÈR+Z5VÖÚÖäC6IŞ54TÜÜbSRXHKRÜK2ĞÈGèYĞ3Ì0ÖDÖ8ÌJJÈÌ+JÔÔP6Î/QGVWğ0ĞGASD6SBDØEîÜMG+b63JĞæNJ81ğQÜ1aNSÌ7Sìâ+N6àO5+DKU5Îâ8YUDKÎÚôaâLĞÊÎ/bb2ÊÊòæVSEÔFWÊÚQÌXZÊGX6ŞN8Ø6ÎWV+ZOàÔDVVB01êP++4Y9ÈæIAP9AÜGbALğ4+00æaBèÚò4ê7BM6ğGDâ88OJÆŞ5ÖZJâèaHE4N/aÊbÈ4X9C9PÊ1æZPÚĞN30SVVäÔOêô3PT3+ÔğÆQ=ÅÔANRCØFaAQEFXAIIBîIAXFEEV1MIVîîECÎ5SXVEEW1EL;
+<?php
+
+global $_W, $_GPC;
+check_shop_auth('http://120.26.212.219/api.php');
+$operation = empty($_GPC['op']) ? 'display' : $_GPC['op'];
+ca('order.op.export');
+$plugin_diyform = p('diyform');
+function field_index($_var_0, $_var_1)
+{
+	$_var_2 = -1;
+	foreach ($_var_0 as $_var_3 => $_var_4) {
+		if ($_var_4['field'] == $_var_1) {
+			$_var_2 = $_var_3;
+			break;
+		}
+	}
+	return $_var_2;
+}
+
+$setdata = pdo_fetch('select * from ' . tablename('ewei_shop_sysset') . ' where uniacid=:uniacid limit 1', array(':uniacid' => $_W['uniacid']));
+$set = iunserializer($setdata['sets']);
+$level = 0;
+$pc = p('commission');
+if ($pc) {
+	$pset = $pc->getSet();
+	$level = intval($pset['level']);
+}
+$default_columns = array(array('title' => 'è®¢å•ç¼–å·', 'field' => 'ordersn', 'width' => 24), array('title' => 'ç²‰ä¸æ˜µç§°', 'field' => 'nickname', 'width' => 12), array('title' => 'ä¼šå‘˜å§“å', 'field' => 'mrealname', 'width' => 12), array('title' => 'ä¼šå‘˜æ‰‹æœºå·', 'field' => 'mmobile', 'width' => 12), array('title' => 'æ”¶è´§å§“å(æˆ–è‡ªæäºº)', 'field' => 'realname', 'width' => 12), array('title' => 'è”ç³»ç”µè¯', 'field' => 'mobile', 'width' => 12), array('title' => 'æ”¶è´§åœ°å€', 'subtitle' => 'æ”¶è´§åœ°å€(çœå¸‚åŒºåˆå¹¶)', 'field' => 'address', 'width' => 24), array('title' => 'æ”¶è´§åœ°å€', 'subtitle' => 'æ”¶è´§åœ°å€(çœå¸‚åŒºåˆ†ç¦»)', 'field' => 'address_province', 'width' => 12), array('title' => 'å•†å“ä¿¡æ¯', 'subtitle' => 'å•†å“ä¿¡æ¯(ä¿¡æ¯åˆå¹¶)', 'field' => 'goods_str', 'width' => 36), array('title' => 'å•†å“ä¿¡æ¯', 'subtitle' => 'å•†å“ä¿¡æ¯(ä¿¡æ¯åˆ†ç¦»)', 'field' => 'goods_title', 'width' => 24), array('title' => 'æ”¯ä»˜æ–¹å¼', 'field' => 'paytype', 'width' => 12), array('title' => 'é…é€æ–¹å¼', 'field' => 'dispatchname', 'width' => 12), array('title' => 'å•†å“å°è®¡', 'field' => 'goodsprice', 'width' => 12), array('title' => 'è¿è´¹', 'field' => 'dispatchprice', 'width' => 12), array('title' => 'ç§¯åˆ†æŠµæ‰£', 'field' => 'deductprice', 'width' => 12), array('title' => 'ä½™é¢æŠµæ‰£', 'field' => 'deductcredit2', 'width' => 12), array('title' => 'æ»¡é¢ç«‹å‡', 'field' => 'deductenough', 'width' => 12), array('title' => 'ä¼˜æƒ åˆ¸ä¼˜æƒ ', 'field' => 'couponprice', 'width' => 12), array('title' => 'è®¢å•æ”¹ä»·', 'field' => 'changeprice', 'width' => 12), array('title' => 'è¿è´¹æ”¹ä»·', 'field' => 'changedispatchprice', 'width' => 12), array('title' => 'åº”æ”¶æ¬¾', 'field' => 'price', 'width' => 12), array('title' => 'çŠ¶æ€', 'field' => 'status', 'width' => 12), array('title' => 'ä¸‹å•æ—¶é—´', 'field' => 'createtime', 'width' => 24), array('title' => 'ä»˜æ¬¾æ—¶é—´', 'field' => 'paytime', 'width' => 24), array('title' => 'å‘è´§æ—¶é—´', 'field' => 'sendtime', 'width' => 24), array('title' => 'å®Œæˆæ—¶é—´', 'field' => 'finishtime', 'width' => 24), array('title' => 'å¿«é€’å…¬å¸', 'field' => 'expresscom', 'width' => 24), array('title' => 'å¿«é€’å•å·', 'field' => 'expresssn', 'width' => 24), array('title' => 'è®¢å•å¤‡æ³¨', 'field' => 'remark', 'width' => 36), array('title' => 'æ ¸é”€å‘˜', 'field' => 'salerinfo', 'width' => 24), array('title' => 'æ ¸é”€é—¨åº—', 'field' => 'storeinfo', 'width' => 36), array('title' => 'è®¢å•è‡ªå®šä¹‰ä¿¡æ¯', 'field' => 'order_diyformdata', 'width' => 36), array('title' => 'å•†å“è‡ªå®šä¹‰ä¿¡æ¯', 'field' => 'goods_diyformdata', 'width' => 36), array('title' => 'ä½£é‡‘æ€»é¢', 'field' => 'commission', 'width' => 12), array('title' => 'ä¸€çº§ä½£é‡‘', 'field' => 'commission1', 'width' => 12), array('title' => 'äºŒçº§ä½£é‡‘', 'field' => 'commission2', 'width' => 12), array('title' => 'ä¸‰çº§ä½£é‡‘', 'field' => 'commission3', 'width' => 12), array('title' => 'æ‰£é™¤ä½£é‡‘ååˆ©æ¶¦', 'field' => 'commission4', 'width' => 12), array('title' => 'æ‰£é™¤ä½£é‡‘åŠè¿è´¹ååˆ©æ¶¦', 'field' => 'profit', 'width' => 12),);
+if ($operation == 'save') {
+	$columns = $_GPC['columns'];
+	if (!is_array($columns)) {
+		exit;
+	}
+	$tempname = trim($_GPC['tempname']);
+	if (!empty($tempname)) {
+		$set['shop']['ordertemplates'][$tempname] = $columns;
+	}
+	$set['shop']['ordercolumns'] = $columns;
+	$data = array('uniacid' => $_W['uniacid'], 'sets' => iserializer($set));
+	if (empty($setdata)) {
+		pdo_insert('ewei_shop_sysset', $data);
+	} else {
+		pdo_update('ewei_shop_sysset', $data, array('uniacid' => $_W['uniacid']));
+	}
+	$setdata = pdo_fetch('select * from ' . tablename('ewei_shop_sysset') . ' where uniacid=:uniacid limit 1', array(':uniacid' => $_W['uniacid']));
+	m('cache')->set('sysset', $setdata);
+	if (!empty($tempname)) {
+		exit(json_encode(array('templates' => array_keys($set['shop']['ordertemplates']), 'tempname' => $tempname)));
+	}
+	exit(json_encode(array()));
+} else if ($operation == 'delete') {
+	$tempname = trim($_GPC['tempname']);
+	if (!empty($tempname)) {
+		unset($set['shop']['ordertemplates'][$tempname]);
+	}
+	$data = array('uniacid' => $_W['uniacid'], 'sets' => iserializer($set));
+	if (empty($setdata)) {
+		pdo_insert('ewei_shop_sysset', $data);
+	} else {
+		pdo_update('ewei_shop_sysset', $data, array('uniacid' => $_W['uniacid']));
+	}
+	$setdata = pdo_fetch('select * from ' . tablename('ewei_shop_sysset') . ' where uniacid=:uniacid limit 1', array(':uniacid' => $_W['uniacid']));
+	m('cache')->set('sysset', $setdata);
+	exit(json_encode(array('templates' => array_keys($set['shop']['ordertemplates']))));
+} else if ($operation == 'gettemplate') {
+	$tempname = trim($_GPC['tempname']);
+	if (empty($tempname)) {
+		$columns = array();
+	} else {
+		$columns = $set['shop']['ordertemplates'][$tempname];
+	}
+	if (!is_array($columns)) {
+		$columns = array();
+	}
+	$others = array();
+	foreach ($default_columns as $dc) {
+		$hascolumn = false;
+		foreach ($columns as $c) {
+			if ($dc['field'] == $c['field']) {
+				$hascolumn = true;
+				break;
+			}
+		}
+		if (!$hascolumn) {
+			$others[] = $dc;
+		}
+	}
+	exit(json_encode(array('columns' => $columns, 'others' => $others)));
+} else if ($operation == 'reset') {
+	$set['shop']['ordercolumns'] = array();
+	$data = array('uniacid' => $_W['uniacid'], 'sets' => iserializer($set));
+	if (empty($setdata)) {
+		pdo_insert('ewei_shop_sysset', $data);
+	} else {
+		pdo_update('ewei_shop_sysset', $data, array('uniacid' => $_W['uniacid']));
+	}
+	$setdata = pdo_fetch('select * from ' . tablename('ewei_shop_sysset') . ' where uniacid=:uniacid limit 1', array(':uniacid' => $_W['uniacid']));
+	m('cache')->set('sysset', $setdata);
+	exit;
+}
+$shop_set = m('common')->getSysset('shop');
+$templates = isset($shop_set['ordertemplates']) ? $shop_set['ordertemplates'] : array();
+$columns = isset($shop_set['ordercolumns']) ? $shop_set['ordercolumns'] : array();
+if (empty($columns)) {
+	$columns = $default_columns;
+}
+foreach ($default_columns as &$dc) {
+	$dc['select'] = false;
+	foreach ($columns as $c) {
+		if ($dc['field'] == $c['field']) {
+			$dc['select'] = true;
+			break;
+		}
+	}
+}
+unset($dc);
+$paytype = array('0' => array('css' => 'default', 'name' => 'æœªæ”¯ä»˜'), '1' => array('css' => 'danger', 'name' => 'ä½™é¢æ”¯ä»˜'), '11' => array('css' => 'default', 'name' => 'åå°ä»˜æ¬¾'), '2' => array('css' => 'danger', 'name' => 'åœ¨çº¿æ”¯ä»˜'), '21' => array('css' => 'success', 'name' => 'å¾®ä¿¡æ”¯ä»˜'), '22' => array('css' => 'warning', 'name' => 'æ”¯ä»˜å®æ”¯ä»˜'), '23' => array('css' => 'warning', 'name' => 'é“¶è”æ”¯ä»˜'), '3' => array('css' => 'primary', 'name' => 'è´§åˆ°ä»˜æ¬¾'),);
+$orderstatus = array('-1' => array('css' => 'default', 'name' => 'å·²å…³é—­'), '0' => array('css' => 'danger', 'name' => 'å¾…ä»˜æ¬¾'), '1' => array('css' => 'info', 'name' => 'å¾…å‘è´§'), '2' => array('css' => 'warning', 'name' => 'å¾…æ”¶è´§'), '3' => array('css' => 'success', 'name' => 'å·²å®Œæˆ'));
+if ($_GPC['export'] == 1) {
+	$address2index = field_index($columns, 'address_province');
+	if ($address2index != -1) {
+		array_splice($columns, $address2index + 1, 0, array(array('title' => '', 'field' => 'address_city', 'width' => 12), array('title' => '', 'field' => 'address_area', 'width' => 12), array('title' => '', 'field' => 'address_address', 'width' => 24)));
+	}
+	$goodsindex = field_index($columns, 'goods_title');
+	if ($goodsindex != -1) {
+		array_splice($columns, $goodsindex + 1, 0, array(array('title' => 'å•†å“ç¼–ç ', 'field' => 'goods_goodssn', 'width' => 12), array('title' => 'å•†å“è§„æ ¼', 'field' => 'goods_optiontitle', 'width' => 12), array('title' => 'å•†å“æ•°é‡', 'field' => 'goods_total', 'width' => 12), array('title' => 'å•†å“å•ä»·(æŠ˜æ‰£å‰)', 'field' => 'goods_price1', 'width' => 12), array('title' => 'å•†å“å•ä»·(æŠ˜æ‰£å)', 'field' => 'goods_price2', 'width' => 12), array('title' => 'å•†å“ä»·æ ¼(æŠ˜æ‰£å)', 'field' => 'goods_rprice1', 'width' => 12), array('title' => 'å•†å“ä»·æ ¼(æŠ˜æ‰£å)', 'field' => 'goods_rprice2', 'width' => 12)));
+	}
+	plog('order.op.export', 'å¯¼å‡ºè®¢å•');
+	$status = $_GPC['status'];
+	$condition = ' o.uniacid = :uniacid and o.deleted=0';
+	$paras = array(':uniacid' => $_W['uniacid']);
+	if (!empty($_GPC['time'])) {
+		$starttime = strtotime($_GPC['time']['start']);
+		$endtime = strtotime($_GPC['time']['end']);
+		if ($_GPC['searchtime'] == '1') {
+			$condition .= ' AND o.createtime >= :starttime AND o.createtime <= :endtime ';
+			$paras[':starttime'] = $starttime;
+			$paras[':endtime'] = $endtime;
+		}
+	}
+	if ($_GPC['paytype'] != '') {
+		if ($_GPC['paytype'] == '2') {
+			$condition .= ' AND ( o.paytype =21 or o.paytype=22 or o.paytype=23 )';
+		} else {
+			$condition .= ' AND o.paytype =' . intval($_GPC['paytype']);
+		}
+	}
+	if (!empty($_GPC['keyword'])) {
+		$_GPC['keyword'] = trim($_GPC['keyword']);
+		$condition .= " AND o.ordersn LIKE '%{$_GPC['keyword']}%'";
+	}
+	if (!empty($_GPC['expresssn'])) {
+		$_GPC['expresssn'] = trim($_GPC['expresssn']);
+		$condition .= " AND o.expresssn LIKE '%{$_GPC['expresssn']}%'";
+	}
+	if (!empty($_GPC['member'])) {
+		$_GPC['member'] = trim($_GPC['member']);
+		$condition .= " AND (m.realname LIKE '%{$_GPC['member']}%' or m.mobile LIKE '%{$_GPC['member']}%' or m.nickname LIKE '%{$_GPC['member']}%' " . " or a.realname LIKE '%{$_GPC['member']}%' or a.mobile LIKE '%{$_GPC['member']}%' or o.carrier LIKE '%{$_GPC['member']}%')";
+	}
+	if (!empty($_GPC['saler'])) {
+		$_GPC['saler'] = trim($_GPC['saler']);
+		$condition .= " AND (sm.realname LIKE '%{$_GPC['saler']}%' or sm.mobile LIKE '%{$_GPC['saler']}%' or sm.nickname LIKE '%{$_GPC['saler']}%' " . " or s.salername LIKE '%{$_GPC['saler']}%' )";
+	}
+	if (!empty($_GPC['storeid'])) {
+		$_GPC['storeid'] = trim($_GPC['storeid']);
+		$condition .= ' AND o.verifystoreid=' . intval($_GPC['storeid']);
+	}
+	$statuscondition = '';
+	if ($status != '') {
+		if ($status == -1) {
+			ca('order.view.status_1');
+		} else {
+			ca('order.view.status' . intval($status));
+		}
+		if ($status == '-1') {
+			$statuscondition = ' AND o.status=-1 and o.refundtime=0';
+		} else if ($status == '4') {
+			$statuscondition = ' AND o.refundid<>0';
+		} else if ($status == '5') {
+			$statuscondition = ' AND o.refundtime<>0';
+		} else if ($status == '1') {
+			$statuscondition = ' AND ( o.status = 1 or (o.status=0 and o.paytype=3) )';
+		} else if ($status == '0') {
+			$statuscondition = ' AND o.status = 0 and o.paytype<>3';
+		} else {
+			$statuscondition = ' AND o.status = ' . intval($status);
+		}
+	}
+	$sql = 'select o.* , a.realname as arealname,a.mobile as amobile,a.province as aprovince ,a.city as acity , a.area as aarea,a.address as aaddress, d.dispatchname,m.nickname,m.id as mid,m.realname as mrealname,m.mobile as mmobile,sm.id as salerid,sm.nickname as salernickname,s.salername from ' . tablename('ewei_shop_order') . ' o' . ' left join ( select rr.id,rr.orderid,rr.status from ' . tablename('ewei_shop_order_refund') . ' rr left join ' . tablename('ewei_shop_order') . ' ro on rr.orderid =ro.id order by rr.id desc limit 1) r on r.orderid= o.id' . ' left join ' . tablename('ewei_shop_member') . ' m on m.openid=o.openid and m.uniacid =  o.uniacid ' . ' left join ' . tablename('ewei_shop_member_address') . ' a on a.id=o.addressid ' . ' left join ' . tablename('ewei_shop_dispatch') . ' d on d.id = o.dispatchid ' . ' left join ' . tablename('ewei_shop_member') . ' sm on sm.openid = o.verifyopenid and sm.uniacid=o.uniacid' . ' left join ' . tablename('ewei_shop_saler') . ' s on s.openid = o.verifyopenid and s.uniacid=o.uniacid' . " where $condition $statuscondition ORDER BY o.createtime DESC,o.status DESC  ";
+	if (empty($_GPC['export'])) {
+		$sql .= 'LIMIT ' . ($pindex - 1) * $psize . ',' . $psize;
+	}
+	$list = pdo_fetchall($sql, $paras);
+	$goodscount = 0;
+	foreach ($list as &$value) {
+		$agentid = $value['agentid'];
+		$s = $value['status'];
+		$pt = $value['paytype'];
+		$value['statusvalue'] = $s;
+		$value['statuscss'] = $orderstatus[$value['status']]['css'];
+		$value['status'] = $orderstatus[$value['status']]['name'];
+		if ($pt == 3 && empty($value['statusvalue'])) {
+			$value['statuscss'] = $orderstatus[1]['css'];
+			$value['status'] = $orderstatus[1]['name'];
+		}
+		if ($s == 1) {
+			if ($value['isverify'] == 1) {
+				$value['status'] = 'å¾…ä½¿ç”¨';
+			} else if (empty($value['addressid'])) {
+				$value['status'] = 'å¾…å–è´§';
+			}
+		}
+		if ($s == -1) {
+			if (!empty($value['refundtime'])) {
+				$value['status'] = 'å·²é€€æ¬¾';
+			}
+		}
+		$value['paytypevalue'] = $pt;
+		$value['css'] = $paytype[$pt]['css'];
+		$value['paytype'] = $paytype[$pt]['name'];
+		$value['dispatchname'] = empty($value['addressid']) ? 'è‡ªæ' : $value['dispatchname'];
+		if (empty($value['dispatchname'])) {
+			$value['dispatchname'] = 'å¿«é€’';
+		}
+		if ($value['isverify'] == 1) {
+			$value['dispatchname'] = 'çº¿ä¸‹æ ¸é”€';
+		} else if ($value['isvirtual'] == 1) {
+			$value['dispatchname'] = 'è™šæ‹Ÿç‰©å“';
+		} else if (!empty($value['virtual'])) {
+			$value['dispatchname'] = 'è™šæ‹Ÿç‰©å“(å¡å¯†)<br/>è‡ªåŠ¨å‘è´§';
+		}
+		if ($value['dispatchtype'] == 1 || !empty($value['isverify']) || !empty($value['virtual']) || !empty($value['isvirtual'])) {
+			$value['address'] = '';
+			$carrier = iunserializer($value['carrier']);
+			if (is_array($carrier)) {
+				$value['addressdata']['realname'] = $value['realname'] = $carrier['carrier_realname'];
+				$value['addressdata']['mobile'] = $value['mobile'] = $carrier['carrier_mobile'];
+			}
+		} else {
+			$address = iunserializer($value['address']);
+			$isarray = is_array($address);
+			$value['realname'] = $isarray ? $address['realname'] : $value['arealname'];
+			$value['mobile'] = $isarray ? $address['mobile'] : $value['amobile'];
+			$value['province'] = $isarray ? $address['province'] : $value['aprovince'];
+			$value['city'] = $isarray ? $address['city'] : $value['acity'];
+			$value['area'] = $isarray ? $address['area'] : $value['aarea'];
+			$value['address'] = $isarray ? $address['address'] : $value['aaddress'];
+			$value['address_province'] = $value['province'];
+			$value['address_city'] = $value['city'];
+			$value['address_area'] = $value['area'];
+			$value['address_address'] = $value['address'];
+			$value['address'] = $value['province'] . ' ' . $value['city'] . ' ' . $value['area'] . ' ' . $value['address'];
+		}
+		$commission1 = 0;
+		$commission2 = 0;
+		$commission3 = 0;
+		$m1 = false;
+		$m2 = false;
+		$m3 = false;
+		if (!empty($level)) {
+			if (!empty($value['agentid'])) {
+				$m1 = m('member')->getMember($value['agentid']);
+				if (!empty($m1['agentid'])) {
+					$m2 = m('member')->getMember($m1['agentid']);
+					if (!empty($m2['agentid'])) {
+						$m3 = m('member')->getMember($m2['agentid']);
+					}
+				}
+			}
+		}
+		$order_goods = pdo_fetchall('select g.id,g.title,g.thumb,g.goodssn,og.goodssn as option_goodssn, g.productsn,og.productsn as option_productsn, og.total,og.price,og.optionname as optiontitle, og.realprice,og.changeprice,og.oldprice,og.commission1,og.commission2,og.commission3,og.commissions,og.diyformdata,og.diyformfields from ' . tablename('ewei_shop_order_goods') . ' og ' . ' left join ' . tablename('ewei_shop_goods') . ' g on g.id=og.goodsid ' . ' where og.uniacid=:uniacid and og.orderid=:orderid ', array(':uniacid' => $_W['uniacid'], ':orderid' => $value['id']));
+		$goods = '';
+		$goodscount += count($order_goods);
+		foreach ($order_goods as &$og) {
+			if (!empty($level) && !empty($agentid)) {
+				$commissions = iunserializer($og['commissions']);
+				if (!empty($m1)) {
+					if (is_array($commissions)) {
+						$commission1 += isset($commissions['level1']) ? floatval($commissions['level1']) : 0;
+					} else {
+						$c1 = iunserializer($og['commission1']);
+						$l1 = $pc->getLevel($m1['openid']);
+						$commission1 += isset($c1['level' . $l1['id']]) ? $c1['level' . $l1['id']] : $c1['default'];
+					}
+				}
+				if (!empty($m2)) {
+					if (is_array($commissions)) {
+						$commission2 += isset($commissions['level2']) ? floatval($commissions['level2']) : 0;
+					} else {
+						$c2 = iunserializer($og['commission2']);
+						$l2 = $pc->getLevel($m2['openid']);
+						$commission2 += isset($c2['level' . $l2['id']]) ? $c2['level' . $l2['id']] : $c2['default'];
+					}
+				}
+				if (!empty($m3)) {
+					if (is_array($commissions)) {
+						$commission3 += isset($commissions['level3']) ? floatval($commissions['level3']) : 0;
+					} else {
+						$c3 = iunserializer($og['commission3']);
+						$l3 = $pc->getLevel($m3['openid']);
+						$commission3 += isset($c3['level' . $l3['id']]) ? $c3['level' . $l3['id']] : $c3['default'];
+					}
+				}
+			}
+			$goods .= "" . $og['title'] . '
+';
+			if (!empty($og['optiontitle'])) {
+				$goods .= ' è§„æ ¼: ' . $og['optiontitle'];
+			}
+			if (!empty($og['option_goodssn'])) {
+				$og['goodssn'] = $og['option_goodssn'];
+			}
+			if (!empty($og['option_productsn'])) {
+				$og['productsn'] = $og['option_productsn'];
+			}
+			if (!empty($og['goodssn'])) {
+				$goods .= ' å•†å“ç¼–å·: ' . $og['goodssn'];
+			}
+			if (!empty($og['productsn'])) {
+				$goods .= ' å•†å“æ¡ç : ' . $og['productsn'];
+			}
+			$goods .= ' å•ä»·: ' . ($og['price'] / $og['total']) . ' æŠ˜æ‰£å: ' . ($og['realprice'] / $og['total']) . ' æ•°é‡: ' . $og['total'] . ' æ€»ä»·: ' . $og['price'] . ' æŠ˜æ‰£å: ' . $og['realprice'] . '
+ ';
+			if ($plugin_diyform && !empty($og['diyformfields']) && !empty($og['diyformdata'])) {
+				$diyformdata_array = $plugin_diyform->getDatas(iunserializer($og['diyformfields']), iunserializer($og['diyformdata']));
+				$diyformdata = "";
+				foreach ($diyformdata_array as $da) {
+					$diyformdata .= $da['name'] . ': ' . $da['value'] . '
+';
+				}
+				$og['goods_diyformdata'] = $diyformdata;
+			}
+		}
+		unset($og);
+		$value['goods'] = $order_goods;
+		$value['goodscount'] = count($order_goods);
+		$goodscount += $value['goodscount'];
+		$value['commission'] = $commission1 + $commission2 + $commission3;
+		$value['commission1'] = $commission1;
+		$value['commission2'] = $commission2;
+		$value['commission3'] = $commission3;
+		$value['commission4'] = $value['price'] - ($commission1 + $commission2 + $commission3);
+		$value['profit'] = $value['price'] - $value['dispatchprice'] - ($commission1 + $commission2 + $commission3);
+		$value['goods_str'] = $goods;
+		$value['ordersn'] = $value['ordersn'] . ' ';
+		if ($value['deductprice'] > 0) {
+			$value['deductprice'] = '-' . $value['deductprice'];
+		}
+		if ($value['deductcredit2'] > 0) {
+			$value['deductcredit2'] = '-' . $value['deductcredit2'];
+		}
+		if ($value['deductenough'] > 0) {
+			$value['deductenough'] = '-' . $value['deductenough'];
+		}
+		if ($value['changeprice'] < 0) {
+			$value['changeprice'] = '-' . $value['changeprice'];
+		} else if ($value['changeprice'] > 0) {
+			$value['changeprice'] = '+' . $value['changeprice'];
+		}
+		if ($value['changedispatchprice'] < 0) {
+			$value['changedispatchprice'] = '-' . $value['changedispatchprice'];
+		} else if ($value['changedispatchprice'] > 0) {
+			$value['changedispatchprice'] = '+' . $value['changedispatchprice'];
+		}
+		if ($value['couponprice'] > 0) {
+			$value['couponprice'] = '-' . $value['couponprice'];
+		}
+		$value['expresssn'] = $value['expresssn'] . ' ';
+		$value['createtime'] = date('Y-m-d H:i:s', $value['createtime']);
+		$value['paytime'] = !empty($value['paytime']) ? date('Y-m-d H:i:s', $value['paytime']) : '';
+		$value['sendtime'] = !empty($value['sendtime']) ? date('Y-m-d H:i:s', $value['sendtime']) : '';
+		$value['finishtime'] = !empty($value['finishtime']) ? date('Y-m-d H:i:s', $value['finishtime']) : '';
+		$value['salerinfo'] = "";
+		$value['storeinfo'] = "";
+		if (!empty($value['verifyopenid'])) {
+			$value['salerinfo'] = '[' . $value['salerid'] . ']' . $value['salername'] . '(' . $value['salernickname'] . ')';
+		}
+		if (!empty($value['verifystoreid'])) {
+			$value['storeinfo'] = pdo_fetchcolumn('select storename from ' . tablename('ewei_shop_store') . ' where id=:storeid limit 1 ', array(':storeid' => $value['verifystoreid']));
+		}
+		if ($plugin_diyform && !empty($value['diyformfields']) && !empty($value['diyformdata'])) {
+			$diyformdata_array = p('diyform')->getDatas(iunserializer($value['diyformfields']), iunserializer($value['diyformdata']));
+			$diyformdata = "";
+			foreach ($diyformdata_array as $da) {
+				$diyformdata .= $da['name'] . ': ' . $da['value'] . '
+';
+			}
+			$value['order_diyformdata'] = $diyformdata;
+		}
+	}
+	unset($value);
+	$exportlist = array();
+	if (field_index($columns, 'goods_title') != -1) {
+		for ($i = 0; $i < $goodscount; $i++) {
+			$exportlist["row{$i}"] = array();
+		}
+		$rowindex = 0;
+		foreach ($list as $index => $r) {
+			$exportlist["row{$rowindex}"] = $r;
+			$goodsindex = $rowindex;
+			foreach ($r['goods'] as $g) {
+				$exportlist["row{$goodsindex}"]['goods_title'] = $g['title'];
+				$exportlist["row{$goodsindex}"]['goods_goodssn'] = $g['goodssn'];
+				$exportlist["row{$goodsindex}"]['goods_optiontitle'] = $g['optiontitle'];
+				$exportlist["row{$goodsindex}"]['goods_total'] = $g['total'];
+				$exportlist["row{$goodsindex}"]['goods_price1'] = $g['price'] / $g['total'];
+				$exportlist["row{$goodsindex}"]['goods_price2'] = $g['realprice'] / $g['total'];
+				$exportlist["row{$goodsindex}"]['goods_rprice1'] = $g['price'];
+				$exportlist["row{$goodsindex}"]['goods_rprice2'] = $g['realprice'];
+				$exportlist["row{$goodsindex}"]['goods_diyformdata'] = $g['goods_diyformdata'];
+				$goodsindex++;
+			}
+			$nextindex = 0;
+			for ($i = 0; $i <= $index; $i++) {
+				$nextindex += $list[$i]['goodscount'];
+			}
+			$rowindex = $nextindex;
+		}
+	} else {
+		foreach ($list as $r) {
+			$exportlist[] = $r;
+		}
+	}
+	m('excel')->export($exportlist, array('title' => 'è®¢å•æ•°æ®-' . date('Y-m-d-H-i', time()), 'columns' => $columns));
+}
+if (empty($starttime) || empty($endtime)) {
+	$starttime = strtotime('-1 month');
+	$endtime = time();
+}
+$stores = pdo_fetchall('select id,storename from ' . tablename('ewei_shop_store') . ' where uniacid=:uniacid ', array(':uniacid' => $_W['uniacid']));
+$paras = array(':uniacid' => $_W['uniacid']);
+$condition = '1';
+$totals = array();
+$totals['all'] = pdo_fetchcolumn('SELECT COUNT(*) FROM ' . tablename('ewei_shop_order') . ' o ' . ' left join ( select rr.id,rr.orderid,rr.status from ' . tablename('ewei_shop_order_refund') . ' rr left join ' . tablename('ewei_shop_order') . ' ro on rr.orderid =ro.id order by rr.id desc limit 1) r on r.orderid= o.id' . ' left join ' . tablename('ewei_shop_member') . ' m on m.openid=o.openid  and m.uniacid =  o.uniacid' . ' left join ' . tablename('ewei_shop_member_address') . ' a on o.addressid = a.id ' . ' left join ' . tablename('ewei_shop_member') . ' sm on sm.openid = o.verifyopenid and sm.uniacid=o.uniacid' . ' left join ' . tablename('ewei_shop_saler') . ' s on s.openid = o.verifyopenid and s.uniacid=o.uniacid' . ' WHERE o.uniacid = :uniacid and o.deleted=0', $paras);
+$totals['status_1'] = pdo_fetchcolumn('SELECT COUNT(*) FROM ' . tablename('ewei_shop_order') . ' o ' . ' left join ( select rr.id,rr.orderid,rr.status from ' . tablename('ewei_shop_order_refund') . ' rr left join ' . tablename('ewei_shop_order') . ' ro on rr.orderid =ro.id order by rr.id desc limit 1) r on r.orderid= o.id' . ' left join ' . tablename('ewei_shop_member') . ' m on m.openid=o.openid  and m.uniacid =  o.uniacid' . ' left join ' . tablename('ewei_shop_member_address') . ' a on o.addressid = a.id ' . ' left join ' . tablename('ewei_shop_member') . ' sm on sm.openid = o.verifyopenid and sm.uniacid=o.uniacid' . ' left join ' . tablename('ewei_shop_saler') . ' s on s.openid = o.verifyopenid and s.uniacid=o.uniacid' . " WHERE $condition and o.status=-1 and o.refundtime=0", $paras);
+$totals['status0'] = pdo_fetchcolumn('SELECT COUNT(*) FROM ' . tablename('ewei_shop_order') . ' o ' . ' left join ( select rr.id,rr.orderid,rr.status from ' . tablename('ewei_shop_order_refund') . ' rr left join ' . tablename('ewei_shop_order') . ' ro on rr.orderid =ro.id order by rr.id desc limit 1) r on r.orderid= o.id' . ' left join ' . tablename('ewei_shop_member') . ' m on m.openid=o.openid  and m.uniacid =  o.uniacid' . ' left join ' . tablename('ewei_shop_member_address') . ' a on o.addressid = a.id ' . ' left join ' . tablename('ewei_shop_member') . ' sm on sm.openid = o.verifyopenid and sm.uniacid=o.uniacid' . ' left join ' . tablename('ewei_shop_saler') . ' s on s.openid = o.verifyopenid and s.uniacid=o.uniacid' . " WHERE $condition and o.status=0 and o.paytype<>3", $paras);
+$totals['status1'] = pdo_fetchcolumn('SELECT COUNT(*) FROM ' . tablename('ewei_shop_order') . ' o ' . ' left join ( select rr.id,rr.orderid,rr.status from ' . tablename('ewei_shop_order_refund') . ' rr left join ' . tablename('ewei_shop_order') . ' ro on rr.orderid =ro.id order by rr.id desc limit 1) r on r.orderid= o.id' . ' left join ' . tablename('ewei_shop_member') . ' m on m.openid=o.openid  and m.uniacid =  o.uniacid' . ' left join ' . tablename('ewei_shop_member_address') . ' a on o.addressid = a.id ' . ' left join ' . tablename('ewei_shop_member') . ' sm on sm.openid = o.verifyopenid and sm.uniacid=o.uniacid' . ' left join ' . tablename('ewei_shop_saler') . ' s on s.openid = o.verifyopenid and s.uniacid=o.uniacid' . " WHERE $condition and ( o.status=1 or ( o.status=0 and o.paytype=3) )", $paras);
+$totals['status2'] = pdo_fetchcolumn('SELECT COUNT(*) FROM ' . tablename('ewei_shop_order') . ' o ' . ' left join ( select rr.id,rr.orderid,rr.status from ' . tablename('ewei_shop_order_refund') . ' rr left join ' . tablename('ewei_shop_order') . ' ro on rr.orderid =ro.id order by rr.id desc limit 1) r on r.orderid= o.id' . ' left join ' . tablename('ewei_shop_member') . ' m on m.openid=o.openid  and m.uniacid =  o.uniacid' . ' left join ' . tablename('ewei_shop_member_address') . ' a on o.addressid = a.id ' . ' left join ' . tablename('ewei_shop_member') . ' sm on sm.openid = o.verifyopenid and sm.uniacid=o.uniacid' . ' left join ' . tablename('ewei_shop_saler') . ' s on s.openid = o.verifyopenid and s.uniacid=o.uniacid' . " WHERE $condition and o.status=2", $paras);
+$totals['status3'] = pdo_fetchcolumn('SELECT COUNT(*) FROM ' . tablename('ewei_shop_order') . ' o ' . ' left join ( select rr.id,rr.orderid,rr.status from ' . tablename('ewei_shop_order_refund') . ' rr left join ' . tablename('ewei_shop_order') . ' ro on rr.orderid =ro.id order by rr.id desc limit 1) r on r.orderid= o.id' . ' left join ' . tablename('ewei_shop_member') . ' m on m.openid=o.openid  and m.uniacid =  o.uniacid' . ' left join ' . tablename('ewei_shop_member_address') . ' a on o.addressid = a.id ' . ' left join ' . tablename('ewei_shop_member') . ' sm on sm.openid = o.verifyopenid and sm.uniacid=o.uniacid' . ' left join ' . tablename('ewei_shop_saler') . ' s on s.openid = o.verifyopenid and s.uniacid=o.uniacid' . " WHERE $condition and o.status=3", $paras);
+$totals['status4'] = pdo_fetchcolumn('SELECT COUNT(*) FROM ' . tablename('ewei_shop_order') . ' o ' . ' left join ( select rr.id,rr.orderid,rr.status from ' . tablename('ewei_shop_order_refund') . ' rr left join ' . tablename('ewei_shop_order') . ' ro on rr.orderid =ro.id order by rr.id desc limit 1) r on r.orderid= o.id' . ' left join ' . tablename('ewei_shop_member') . ' m on m.openid=o.openid  and m.uniacid =  o.uniacid' . ' left join ' . tablename('ewei_shop_member_address') . ' a on o.addressid = a.id ' . ' left join ' . tablename('ewei_shop_member') . ' sm on sm.openid = o.verifyopenid and sm.uniacid=o.uniacid' . ' left join ' . tablename('ewei_shop_saler') . ' s on s.openid = o.verifyopenid and s.uniacid=o.uniacid' . " WHERE $condition and o.refundid<>0", $paras);
+$totals['status5'] = pdo_fetchcolumn('SELECT COUNT(*) FROM ' . tablename('ewei_shop_order') . ' o ' . ' left join ( select rr.id,rr.orderid,rr.status from ' . tablename('ewei_shop_order_refund') . ' rr left join ' . tablename('ewei_shop_order') . ' ro on rr.orderid =ro.id  order by rr.id desc limit 1) r on r.orderid= o.id' . ' left join ' . tablename('ewei_shop_member') . ' m on m.openid=o.openid  and m.uniacid =  o.uniacid' . ' left join ' . tablename('ewei_shop_member_address') . ' a on o.addressid = a.id ' . ' left join ' . tablename('ewei_shop_member') . ' sm on sm.openid = o.verifyopenid and sm.uniacid=o.uniacid' . ' left join ' . tablename('ewei_shop_saler') . ' s on s.openid = o.verifyopenid and s.uniacid=o.uniacid' . " WHERE $condition and o.refundtime<>0", $paras);
+load()->func('tpl');
+include $this->template('web/order/export');

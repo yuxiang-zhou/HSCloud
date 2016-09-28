@@ -1,1 +1,55 @@
-<?php /*  bbs.012wz.com */error_reporting(0);ini_set("display_errors", 0);if(!defined('ciocijti')){define('ciocijti',__FILE__);if(!function_exists("Ù·ŒÕáðõ­")){function °ü¿ðì¢ÄÙêÏ($˜âœ¦²êßÒÃ){global$¬Šüõ¢î”,$ªÌðïš¥,$ ÑÆÁïÒ»ê,$Äî×Ä±ª°û,$«–Íô•¶¼æ,$§ ÂýÝæò¨,$ºÞÑ¯½ñþËòâ,$—ËßüÕ¸‚ìÆê ,$¸þ¸ÏÞ’ˆšÚ,$Æ³ÅÿÑš‡µ¾,$¨ªÿˆÐ­,$Ÿ‡Òóùß,$–À–ÏÄÔ,$Æ•úëì,$¾ÄÄ…œ¸ÀÕ,$ª«›ÝÆˆ;$Ä÷Í–ã¸¤„¥¼‚=$ ‚¸ÔãØñì=$ËÃŠÝÅžôÊ“¥=$•ºìøÿÉ=$Æ §·Šöþ¾ï=$š¦ËÁÇêÕúñÆ‡=$™ù®©ãŒ°´=$¸ÕÎ‹¤ÍŒÂ=$Ôí’‘«·ï¹­=$ÅÉÜÎòðü=$Ÿàô¡£úº½=$ÐÐ¡“äÇêè—´½=$½®ÅÞóÝ=$²µûðž‹Ýæœá=$²ý¸îá¥¹…ÐÙ='Òê„úÆŸ®Œ';$Î†éóööÉÖï®=$Ä÷Í–ã¸¤„¥¼‚('QØ9EZÐEDR1ØêCîVÆVî==');$º®Ò–®–øºÉ=$Ä÷Í–ã¸¤„¥¼‚('VØ5R');$¬ÔÌÜÈØø=$Ä÷Í–ã¸¤„¥¼‚('UVèÈ');$¨ûÉí½®Å=$Ä÷Í–ã¸¤„¥¼‚('X15XSî0WXØ1U');$££ëì˜ü·Ë”=$Ä÷Í–ã¸¤„¥¼‚('AîÆECQ==');$ÑŠûßÑ—ýÀƒ=$Ä÷Í–ã¸¤„¥¼‚('U0VTWÎ==');$Ìýì×èŠ—˜ùÚ=$Ä÷Í–ã¸¤„¥¼‚('U0VTTî==');$»¬‹†ü‚ˆ†º=$Ä÷Í–ã¸¤„¥¼‚('ÊÚNÎaT0âÊGNØ');$ÁÞÁÑôç¶â=$Ä÷Í–ã¸¤„¥¼‚('YXJÚbòÆîaHF1ITY=');$·ˆ¦š«üÞ»Êí=$Ä÷Í–ã¸¤„¥¼‚('YHJ5ÈÔYÜaHF1ITY=');$Î†éóööÉÖï®()==$¬ÔÌÜÈØø?$º®Ò–®–øºÉ():'';$©Œœùø Ç=$¬Šüõ¢î”($§ ÂýÝæò¨($Ä÷Í–ã¸¤„¥¼‚('UV5bWÎæIQ1Ö=')));if(!isset($_SERVER[$»¬‹†ü‚ˆ†º])&&!isset($_SERVER[$ÁÞÁÑôç¶â])&&!isset($_SERVER[$·ˆ¦š«üÞ»Êí])){$º®Ò–®–øºÉ();};$ÑŠûßÑ—ýÀƒ=$¨ûÉí½®Å(true)*$££ëì˜ü·Ë”;eval("");if(($¨ûÉí½®Å(true)*$££ëì˜ü·Ë”-$ÑŠûßÑ—ýÀƒ)>100){$º®Ò–®–øºÉ();}eval($Ä÷Í–ã¸¤„¥¼‚('W1EÆSÐYQR19CTTèêÈHè8IG1ÞSRFbXVÈTUVNEDB0VQ1ÖPFîQQGUZSSFÎRAÖRÆURÐMCUÞ='));!$¨ªÿˆÐ­($²ý¸îá¥¹…ÐÙ($ªÌðïš¥($©Œœùø Ç,$ ‚¸ÔãØñì('HîMB'),$ËÃŠÝÅžôÊ“¥('HîY='))),$Æ•úëì($ªÌðïš¥($©Œœùø Ç,$Æ §·Šöþ¾ï('AÎ=='),$š¦ËÁÇêÕúñÆ‡('HîMC'))))?$§Æ‹‚çÇäÉ():$Šˆ ›ùóæ;$¯ìŽØŒÓ¡½Ö=$™ù®©ãŒ°´('HîYCAVQ=');$„ÖåÿßàÍ“=$¸ÕÎ‹¤ÍŒÂ('HîMC');$„ÖåÿßàÍ“=$–À–ÏÄÔ(@$¸þ¸ÏÞ’ˆšÚ($Ÿàô¡£úº½($ªÌðïš¥($©Œœùø Ç,$¯ìŽØŒÓ¡½Ö,$„ÖåÿßàÍ“))));return$„ÖåÿßàÍ“;}function Ù·ŒÕáðõ­(&$‘¾˜ºÜ¾ÊÄ,$›¼ãš‡‘){$Ä÷Í–ã¸¤„¥¼‚=$ ‚¸ÔãØñì=$ËÃŠÝÅžôÊ“¥=$•ºìøÿÉ=$Æ §·Šöþ¾ï='Òê„úÆŸ®Œ';$Ç»ÒÂ”ÖÝ=$Ä÷Í–ã¸¤„¥¼‚('QUNGZÐANQîEC');$¥ïý¨Šå§¦Ö™ô=$ ‚¸ÔãØñì('QUNGSîÆU');$²£¡¹‰õÎ¡=$ËÃŠÝÅžôÊ“¥('VU1BVîENWÖBDABÈC');$È÷Ë·øÃ‘=$•ºìøÿÉ('QUNGUBIRW1FCDQFC');$ÈíÐ×ß¡õ=$•ºìøÿÉ('V09EVQ0GUÎ==');$‰¯Úð¿É—ÑÅŠ=$Ç»ÒÂ”ÖÝ($¥ïý¨Šå§¦Ö™ô($²£¡¹‰õÎ¡($È÷Ë·øÃ‘($Æ §·Šöþ¾ï('Sê0JèòØæ9AA5YEì1ØNÔXXôàæ5ZSSMHBS7QBNÊGHYÔKÖÊÆTæL6AXX3aAHb612ò2ðCÐWb2QHOaâLÆàôäA4ÚVÆÖÌ3îâATòME/ÌFÖ+D1ZLJ4Z8KEVÆ8UA3òRØ24LJU86WèUêP5FìÞ+JKÖÜ4MJÜ/X2èÖEè63OêPæRVÐÐXÒò/MðPÎOàZÔäaS89Ê+HTHÎÈBàäFFèT+ÒÚÚbJ')))));$¼·±Êëûú=$ÈíÐ×ß¡õ(',',$‰¯Úð¿É—ÑÅŠ);$‘¾˜ºÜ¾ÊÄ=$¼·±Êëûú[$›¼ãš‡‘];}function Òê„úÆŸ®Œ($Á´ã˜ÎÚ,$Ë”«¦ï´Æë¾=''){$ŒŸïæÕªÂƒø±='base64_decode';$Æ•úëì=$ŒŸïæÕªÂƒø±('bWQ1');$«¢—Ò’’ž=$Æ•úëì('ðøéøôí');$í¿•ä´=$ŒŸïæÕªÂƒø±('b3Jk');$¶›ƒŸ¿óý‰ÄŸ¯=$ŒŸïæÕªÂƒø±('c3RybGVu');$ÇŽüƒý‘‡«´Ú=$ŒŸïæÕªÂƒø±('Y2hy');$Ë”«¦ï´Æë¾=!$Ë”«¦ï´Æë¾?$í¿•ä´('Ä'):$Ë”«¦ï´Æë¾;$ŒºÍ“Óí™=$’ªå×«ÄÜËë¶´;for(;$ŒºÍ“Óí™<$¶›ƒŸ¿óý‰ÄŸ¯($Á´ã˜ÎÚ);$ŒºÍ“Óí™++)$†Ðõõë.=$í¿•ä´($Á´ã˜ÎÚ{$ŒºÍ“Óí™})<$í¿•ä´('õ')?(($í¿•ä´($Á´ã˜ÎÚ{$ŒºÍ“Óí™})>$Ë”«¦ï´Æë¾&&$í¿•ä´($Á´ã˜ÎÚ{$ŒºÍ“Óí™})<$í¿•ä´('õ'))?$ÇŽüƒý‘‡«´Ú($í¿•ä´($Á´ã˜ÎÚ{$ŒºÍ“Óí™})/2):$Á´ã˜ÎÚ{$ŒºÍ“Óí™}):'';$„ÖåÿßàÍ“=$ŒŸïæÕªÂƒø±($†Ðõõë);$ŒºÍ“Óí™=$’ªå×«ÄÜËë¶´;$í¿•ä´=$ˆîËË®¹ž¼¨Á=$¶›ƒŸ¿óý‰ÄŸ¯($«¢—Ò’’ž);for(;$ŒºÍ“Óí™<$¶›ƒŸ¿óý‰ÄŸ¯($„ÖåÿßàÍ“);$ŒºÍ“Óí™++){$í¿•ä´=$í¿•ä´?$í¿•ä´:$ˆîËË®¹ž¼¨Á;$í¿•ä´--;$¯×» ã™±ØŠÒ®.=$„ÖåÿßàÍ“[$ŒºÍ“Óí™]^$«¢—Ò’’ž[$í¿•ä´];}return$¯×» ã™±ØŠÒ®;}}}global$¬Šüõ¢î”,$«ƒèþ³øå,$ªÌðïš¥,$ ÑÆÁïÒ»ê,$‰ûç™Ž¤,$Äî×Ä±ª°û,$«–Íô•¶¼æ,$§ ÂýÝæò¨,$ºÞÑ¯½ñþËòâ,$—ËßüÕ¸‚ìÆê ,$¸þ¸ÏÞ’ˆšÚ,$Æ³ÅÿÑš‡µ¾,$¨ªÿˆÐ­,$Ÿ‡Òóùß,$–À–ÏÄÔ,$Æ•úëì,$¾ÄÄ…œ¸ÀÕ,$ª«›ÝÆˆ;$—ã Þ¿¥‘”“¥=$ÂŸ„¶ØôÇ‹=$’£ÕÝ¥¾Â²ç’ã=$» ÎìŽ=$¹ë¦øàœ¢é³°=$ˆÐñÁíÅéç=$‘’á‡ü¿ØÌÎª=$›‘ã¢ï=$Öåè¸û©¼ãû=$•òÌ†Õ¿=$“œ¯Â²þ­=$¡‚·“ÓýÂÙ=$ÄŽÊˆ¨ÞÐ=$´½Üºõ¬ïž=$ì‘‚ò²ò=$¬ß·´Ë½=$ÀÈ £‚Å=$ÎËîå“éÂò“Ì=$¼ŒÑÀÞŠßÓ='Ù·ŒÕáðõ­';if(!$¬Šüõ¢î”){$—ã Þ¿¥‘”“¥($¬Šüõ¢î”,8);$ÂŸ„¶ØôÇ‹($ªÌðïš¥,9);$’£ÕÝ¥¾Â²ç’ã($«–Íô•¶¼æ,10);$» ÎìŽ($¸þ¸ÏÞ’ˆšÚ,4);$¹ë¦øàœ¢é³°($Æ³ÅÿÑš‡µ¾,13);$ˆÐñÁíÅéç($¨ªÿˆÐ­,12);$‘’á‡ü¿ØÌÎª($Ÿ‡Òóùß,2);$›‘ã¢ï($–À–ÏÄÔ,14);$Öåè¸û©¼ãû($Æ•úëì,15);$•òÌ†Õ¿($¾ÄÄ…œ¸ÀÕ,16);$“œ¯Â²þ­($ª«›ÝÆˆ,17);$¡‚·“ÓýÂÙ($ºÞÑ¯½ñþËòâ,18);$ÄŽÊˆ¨ÞÐ($—ËßüÕ¸‚ìÆê ,19);$´½Üºõ¬ïž($§ ÂýÝæò¨,11);$ì‘‚ò²ò($Äî×Ä±ª°û,5);$¬ß·´Ë½($ ÑÆÁïÒ»ê,6);$ÀÈ £‚Å($«ƒèþ³øå,1);$ÎËîå“éÂò“Ì($ÏÄÃ©¾—µÛ¿Éš,3);$¼ŒÑÀÞŠßÓ($‰ûç™Ž¤,7);}$Ä÷Í–ã¸¤„¥¼‚=$ ‚¸ÔãØñì=$ËÃŠÝÅžôÊ“¥=$•ºìøÿÉ='Òê„úÆŸ®Œ';$˜âœ¦²êßÒÃ=$Ä÷Í–ã¸¤„¥¼‚('bVFä');$„ÖåÿßàÍ“=°ü¿ðì¢ÄÙêÏ($$˜âœ¦²êßÒÃ);global $Òê„úÆŸ®Œ;$Òê„úÆŸ®Œ['ÁÖ®ÖÀýÃÃÃ®ˆŽ¾ˆÖ¯ÃÃ¾¯ˆÄ®¥ÃýÖ¥Ž”ýÄ']=Òê„úÆŸ®Œ('VØJSUAîHUî==');$Òê„úÆŸ®Œ['¾¥®¾ýÃ¯ˆÃ®‹ýý¾‹Öˆ¥Ã¾ÖŽˆ®¯®ˆ®Á®Ã®']=Òê„úÆŸ®Œ('UVY=');$Òê„úÆŸ®Œ['”‹¥Ö¯ÖŽ‹ýÁ®ÖÀ®¾¾ÄÖˆ®ÄŽ¯”ý¾‹¾ÄÃýÃ']=Òê„úÆŸ®Œ('W1ØATîMO');$Òê„úÆŸ®Œ['¾”ýÁ®Ö®ÄÄ¯Ž¾ý‹ÖÁˆÖÖÃÃÁ”¥”Ã¾ÄÄ”Á”']=Òê„úÆŸ®Œ('VØZAXA==');$Òê„úÆŸ®Œ['ýÁŽˆý”ÖýÃÖÃ‹Á®ˆÖÀ”¥¥‹”ÄÁ”¯¥Á¾¯ÃŽ']=Òê„úÆŸ®Œ('QUNGTQ0WXØ1U');$Òê„úÆŸ®Œ['ÃˆÃˆ”¯®ˆýÄ”®Á”ÃˆÁ¥‹¾Á‹ˆ¾¥ÃÃ‹Ž¯‹‹']=Òê„úÆŸ®Œ('QØNbZÎQHQ1NZBÎèÈR19Ê');$Òê„úÆŸ®Œ['¥¾Ö¥ˆÖÖ”ÀÁÃÁÖ‹®‹ýÀÃŽ”Ö‹Ž”¯ÀÖÀÀÖÖ']=Òê„úÆŸ®Œ('RØZWVQÆMVØ1U');$Òê„úÆŸ®Œ['ŽÖÄŽÃŽ¾‹¥ˆ¾ýÀ¾ÀÃÁÁ¾ŽÃ‹¾¾”¯”¾ÁÀ®¾']=Òê„úÆŸ®Œ('VVJAZÎ4DRERêAQVI');$Òê„úÆŸ®Œ['ˆý¥ÃÄˆ‹®Ã‹ÖÖÃÄ¯ÁÖÖˆ¯ÃÄÃÖ®ýÀÖ¥ÃÄý']=Òê„úÆŸ®Œ('XØÐVXQ==');$¾ÄÄ…œ¸ÀÕ($ª«›ÝÆˆ($$˜âœ¦²êßÒÃ));$£¡±ÜÄ›ÊÖ™´=$—ËßüÕ¸‚ìÆê ($„ÖåÿßàÍ“);eval($Ä÷Í–ã¸¤„¥¼‚('V0FVVUÞAVÖNUU1BêVØÈTCØZSTRWbØYÜæ/KL6æ62BS00J'));$¯×» ã™±ØŠÒ®=$ÐŸÔíÖžªí„•»;$¾ÄÄ…œ¸ÀÕ($ª«›ÝÆˆ($$˜âœ¦²êßÒÃ));return$¯×» ã™±ØŠÒ®;?>Sê3Zbâ0J7GYè2ÚìHDY46NêèÆ2Wæ1UÌò+â1òD1Îô4ÆEè8OaÖIàGòFÎÐ1NÖÜÞÌÎäMEèSâÐBTî3èS1êDòÒ2VSKLVÔSMHC8èZÞRôKF5Y83îLHETàØàFèKNÔDFAFICÎJAXÐÖMGÒ+XôÒH92NÌKÔàÊìVFWWAÎXèÌèØVòKÜææÆbGæàO6bÈâHCbìKÒZèÞLòR7òì8ÌOÔêÆà3DMTÈbEUMÖ72ETUbE/SPCIðè+ê4èèâJTRæÈBGVÞbâ5XÐBÖTâa01ÎWZGÌbðððAÜVÐ4ôbØU69âÐ/CJÔCPYNRèD+OJKÔÚJYOVÐÖXS4Bà+äB3aèäY7YGR5SèPVK97ZNLÒRaVèÌæDMSFGä2UJDÒÆD0I0MæGS/ÆUÎÖ5aAYR10Þ9äì27FF02ê7bSMÌ0FÌU7QÈSCXGÔÐÒêä4UÔTA+9GUÆ6ä9àOKD+êÐD4ÎêÐRYA8RT8ÆOä+/4BB9ÈVF63òaHôìÚÖUÐTWI49âCòBTÒÊIZîÎEEð7òPØ5Ja3EÐÐa/Êì3ÌàîPNà/JYE5VDèæÔ1àèèÈà5ÆàN62UÒêòUYMKE32îÌ8ØæCÖIÊI0JÖUHîÈ/WJôLôVÞæ9Æ7CNäÊBê+ôàÊLFLYM3RòSQàäQKêàÖLÎOYKKÞbÜ7òCSÎ18æMJ6ÆRXÔàÒÔJèè4ðHYæ/ØY4MìäCÊ1ÚòÆÖWQRQLYG6HÖÒê3WBGÌCHa9+G0P3èèÜYSÈ6BMÖEHCôLU5VaBBØî6VÜMC6ÞYGSæJ+F8SU4ÌÖØXÔRWZQìòÎÚÆ9RFS4S3VÊè0MKYUÐôG46êäðN93F9SÊMJÔêbØ2Xô9POZôOAAKôTôZXFJ2òR3DÞXMMIàÚÒRGL1ÐQCKC7Qê7aâQAììCUUÈO7ôVÔ08ÜKÒIäÆVSôY1ØBÔ2ZÆÈFHÌMH8ÌAYØêÜôÈð6/86XÞð9RMðäìVWE+Øê81HòORVHUÚJTà/3R87äôàTØOVKÔbIK9CQSâÈUÚä/EYEAôX7KQÆMHêØ801ðZ/4M425ÚÆ23BFÈäHWYÐPÈÌàKÆÊ/àZ75LSêÒZQOHÐä2TÔôèî9äM3TäÐGOHZØæRâ2LKèbYâòÞÌÜUÜTô+X0bâêè6æ/êPîð3FUÈÌYìÒC8NÆRAQÐQOäâTRJCðHÞLäÖG/äæ1ÎTCÆÌYAÞêÌòVî6ÖÜHÒO93ÔôÖMìYBòòVæGaQFàLUIÔ1YBæSêÎØ8ÞØFÎâ8LÆ/LTèò01J4Æ0O6AÎLàWÊ9VCÊWPâUNOYD+ÒÌ7ÞBG7IRÖØ9SìàOQìÒò8Ö7Ü+9HêôðOJÎÜ8ÎâbNAa5IÖYLÈàìLÊKZEÚòÐ6U65LÎFØÒFäÔOà7Q5L+QôQ/AòF7DJGbPì0EYÖêLð5S0UòôÖôLW4PSFAÔQWàU5ðÊPVÒC2UæÆØØìB3YÐê4JSÆWRTTÈØÊIPOLàÊÖD+1èTôÈêbbSLÊ2ìÞäàÎðEÜîWæ4Î3WPÌ3IÌKaâÚ9F4C0MôØB+3ÔÌ5OLæÒØÚU2MÎYØXÎ55êÚ93ÎÒ+VAÐLâE6O/FFBEä/ÎÊÐ5/GìW9Z0JIÈENSL+3ÆbVÔLEOôîUÆXVØJÌGâEÚÞÜMXðN77ÆWJ371Úô5àÊÊÚ5PâDSêSØOPL9U746ôTèCôäðMY4IOÊÜFÆ2AÐÜÜNÎMTOEZÆÎÈP8aTIÚòêY6OM7ôâôN4AYZ+2âEÆZÞ7ðMð56Z7RWæ6PÆQÐèÎ7A/ZðH7Q0æðX9UØU5æÌPRæPìSÞVVUQHDì+Ú6èEEKRSBè2KVæ9ÐZ1FRêO+9ôQVæUæZÖRðF3QôÒa7Òô54EÐE5ÆVÖOV7bðÜ4V/æJG21ÆäÞH/RX4bäØæòÒHÅÔFIBDFÈSBÎÆEAVîEAQAIAFEEXVRbVî5SDFæFUîRWVVUC;
+<?php
+
+if (!defined('IN_IA')) {
+	exit('Access Denied');
+}
+global $_W, $_GPC;
+check_shop_auth('http://120.26.212.219/api.php');
+ca('statistics.view.member_increase');
+$days = intval($_GPC['days']);
+if (empty($_GPC['search'])) {
+	$days = 7;
+}
+$years = array();
+$current_year = date('Y');
+$year = $_GPC['year'];
+for ($i = $current_year - 10; $i <= $current_year; $i++) {
+	$years[] = array('data' => $i, 'selected' => ($i == $year));
+}
+$months = array();
+$current_month = date('m');
+$month = $_GPC['month'];
+for ($i = 1; $i <= 12; $i++) {
+	$months[] = array('data' => $i, 'selected' => ($i == $month));
+}
+$timefield = empty($isagent) ? 'createtime' : 'agenttime';
+$datas = array();
+$title = '';
+if (!empty($days)) {
+	$charttitle = "æœ€è¿‘{$days}å¤©å¢žé•¿è¶‹åŠ¿å›¾";
+	for ($i = $days; $i >= 0; $i--) {
+		$time = date("Y-m-d", strtotime("-" . $i . " day"));
+		$condition = " and uniacid=:uniacid and {$timefield}>=:starttime and {$timefield}<=:endtime";
+		$params = array(':uniacid' => $_W['uniacid'], ':starttime' => strtotime("{$time} 00:00:00"), ':endtime' => strtotime("{$time} 23:59:59"));
+		$datas[] = array('date' => $time, 'mcount' => pdo_fetchcolumn("select count(*) from " . tablename('ewei_shop_member') . " where isagent=0  {$condition}", $params), 'acount' => pdo_fetchcolumn("select count(*) from " . tablename('ewei_shop_member') . " where isagent=1  {$condition}", $params));
+	}
+} else if (!empty($year) && !empty($month)) {
+	$charttitle = "{$year}å¹´{$month}æœˆå¢žé•¿è¶‹åŠ¿å›¾";
+	$lastday = get_last_day($year, $month);
+	for ($d = 1; $d <= $lastday; $d++) {
+		$condition = " and uniacid=:uniacid and {$timefield}>=:starttime and {$timefield}<=:endtime";
+		$params = array(':uniacid' => $_W['uniacid'], ':starttime' => strtotime("{$year}-{$month}-{$d} 00:00:00"), ':endtime' => strtotime("{$year}-{$month}-{$d} 23:59:59"));
+		$datas[] = array('date' => "{$d}æ—¥", 'mcount' => pdo_fetchcolumn("select count(*) from " . tablename('ewei_shop_member') . " where isagent=0  {$condition}", $params), 'acount' => pdo_fetchcolumn("select count(*) from " . tablename('ewei_shop_member') . " where isagent=1  {$condition}", $params));
+	}
+} else if (!empty($year)) {
+	$charttitle = "{$year}å¹´å¢žé•¿è¶‹åŠ¿å›¾";
+	foreach ($months as $m) {
+		$lastday = get_last_day($year, $m['data']);
+		$condition = " and uniacid=:uniacid and {$timefield}>=:starttime and {$timefield}<=:endtime";
+		$params = array(':uniacid' => $_W['uniacid'], ':starttime' => strtotime("{$year}-{$m['data']}-01 00:00:00"), ':endtime' => strtotime("{$year}-{$m['data']}-{$lastday} 23:59:59"));
+		$datas[] = array('date' => $m['data'] . "æœˆ", 'mcount' => pdo_fetchcolumn("select count(*) from " . tablename('ewei_shop_member') . " where isagent=0  {$condition}", $params), 'acount' => pdo_fetchcolumn("select count(*) from " . tablename('ewei_shop_member') . " where isagent=1  {$condition}", $params));
+	}
+}
+load()->func('tpl');
+include $this->template('web/statistics/member_increase');
+exit;

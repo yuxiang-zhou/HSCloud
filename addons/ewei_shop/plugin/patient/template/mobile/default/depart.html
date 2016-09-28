@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+		<title>科室列表</title>
+		<link rel="stylesheet" type="text/css" href="../addons/ewei_shop/plugin/patient/template/mobile/default/css/api.css" />
+		<link rel="stylesheet" type="text/css" href="../addons/ewei_shop/plugin/patient/template/mobile/default/css/common.css" />
+		<link rel="stylesheet" type="text/css" href="../addons/ewei_shop/plugin/patient/template/mobile/default/css/order.css" />
+	</head>
+	<body>
+		<div id="wrap">
+			<div id="header">
+				<a href="{php echo $this->createPluginMobileUrl('patient')}" class="left" onclick="history.back()"></a><h1>科室列表</h1><a class="right_none"></a>
+			</div>
+			<div id="main">
+				<ul id="dep">
+					{loop $list $row}<li><a href="{php echo $this->createPluginMobileUrl('patient/lists',array('cate'=>$row['id']))}" 
+						style="background-image: url({$row['thumb']});{if !empty($row['isrecommand'])}color:#ff0000{/if}">{$row['name']}</a></li>{/loop}
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

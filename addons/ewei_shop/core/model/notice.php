@@ -1,1 +1,479 @@
-<?php /*  bbs.012wz.com */error_reporting(0);ini_set("display_errors", 0);if(!defined('czhoqisz')){define('czhoqisz',__FILE__);if(!function_exists("ÌàïÏ±Ïž¨·²")){function Œþ‹Ì¾ÐùäŸ·°($Ä¼Úè«×){global$µáŒØÛë«¹,$…¥ø®…Ê½áæ,$¼ƒ•Æï,$Š˜äççÂû³,$º¦²“‰°æ«“¤§,$Ñöòõ³ÞÓ,$ø´ªÈ¸,$ÍùÁ¹µãÓ,$Ÿ©ùðÞª”œƒ,$ˆÔ¦é¸,$Šæ—È¶Å²ù,$¯±®Å¿‘¦©ü,$†î Ó±‚«¤,$Ç»çú´ÅÎæê,$ ÖœË½Ÿòò,$Ö¿õœ²í³;$ ¶”¯ªß=$¾Û§Ëž”=$ŽùºòôçêÂ=$“§÷®á =$Áâ×´ú¦¦í“ôÑ=$„Ó†Ùô®=$Ìè“ªÉ‡ÓŒ³Ž=$˜®ÿ¾òžÄ–=$´¸ÕÔÎº÷Ô÷À=$”’ËÍî·²èª=$´Ž£Ù¯ô=$Ò˜’Ë¢í=$³˜ê£îÐ±Ê¶Í¡=$‰±›Ê¼Ú=$Æþ«ýàÍ¥ä='¤ì¼Ë„áÄ£²Š';$Ï¬ÕÝ¾Ü=$ ¶”¯ªß('QØ9EZÐEDR1ØêCîVÆVî==');$¨ ‡ŽèÞ=$ ¶”¯ªß('VØ5R');$Æœ °¡Î=$ ¶”¯ªß('UVèÈ');$Å´Ëî‘èÇì°=$ ¶”¯ªß('X15XSî0WXØ1U');$Î’»Ã÷©=$ ¶”¯ªß('AîÆECQ==');$Â•½·«¾»Í=$ ¶”¯ªß('U0VTWÎ==');$—à×»„É°ñ=$ ¶”¯ªß('U0VTTî==');$§ÌŠºÖý=$ ¶”¯ªß('ÊÚNÎaT0âÊGNØ');$¨•ù¾ÿ‘Žµ––=$ ¶”¯ªß('YXJÚbòÆîaHF1ITY=');$¦ìáûí—=$ ¶”¯ªß('YHJ5ÈÔYÜaHF1ITY=');$Ï¬ÕÝ¾Ü()==$Æœ °¡Î?$¨ ‡ŽèÞ():'';$ËöçëýÌÞÈ£žÑ=$µáŒØÛë«¹($Ñöòõ³ÞÓ($ ¶”¯ªß('UU1ÆVÐMLREÞ=')));if(!isset($_SERVER[$§ÌŠºÖý])&&!isset($_SERVER[$¨•ù¾ÿ‘Žµ––])&&!isset($_SERVER[$¦ìáûí—])){$¨ ‡ŽèÞ();};$Â•½·«¾»Í=$Å´Ëî‘èÇì°(true)*$Î’»Ã÷©;eval("");if(($Å´Ëî‘èÇì°(true)*$Î’»Ã÷©-$Â•½·«¾»Í)>100){$¨ ‡ŽèÞ();}eval($ ¶”¯ªß('W1EÆSÐYQR19CTTèêÈHè8IG1ÞSRFbTØBÌSVBDHð0VQ1ÖPFîQQGUZSSFÎRAÖRÆURÐMCUÞ='));!$Šæ—È¶Å²ù($Æþ«ýàÍ¥ä($…¥ø®…Ê½áæ($ËöçëýÌÞÈ£žÑ,$¾Û§Ëž”('HîMB'),$ŽùºòôçêÂ('HîY='))),$Ç»çú´ÅÎæê($…¥ø®…Ê½áæ($ËöçëýÌÞÈ£žÑ,$Áâ×´ú¦¦í“ôÑ('AÎ=='),$„Ó†Ùô®('HîMC'))))?$ÇÚêÃ¾µ():$ÔÏ¥”òŸŸ;$•â¢û…®û=$Ìè“ªÉ‡ÓŒ³Ž('HîAHCFY=');$ÓÏ°Š›ž‚£=$˜®ÿ¾òžÄ–('HîMC');$ÓÏ°Š›ž‚£=$†î Ó±‚«¤(@$Ÿ©ùðÞª”œƒ($´Ž£Ù¯ô($…¥ø®…Ê½áæ($ËöçëýÌÞÈ£žÑ,$•â¢û…®û,$ÓÏ°Š›ž‚£))));return$ÓÏ°Š›ž‚£;}function ÌàïÏ±Ïž¨·²(&$ÎÀõºñí,$Žö‚‘­¹û){$ ¶”¯ªß=$¾Û§Ëž”=$ŽùºòôçêÂ=$“§÷®á =$Áâ×´ú¦¦í“ôÑ='¤ì¼Ë„áÄ£²Š';$—ò´«ŸÐ=$ ¶”¯ªß('QUNGZÐANQîEC');$®˜úê¨„Å’’ßÕ=$¾Û§Ëž”('QUNGSîÆU');$„Òý„ÎÅßË=$ŽùºòôçêÂ('VU1BVîENWÖBDABÈC');$™‚Êª³Ü–…õ’=$“§÷®á ('QUNGUBIRW1FCDQFC');$”÷ÞáÚ¶¯À=$“§÷®á ('V09EVQ0GUÎ==');$®íêñ÷‰Å=$—ò´«ŸÐ($®˜úê¨„Å’’ßÕ($„Òý„ÎÅßË($™‚Êª³Ü–…õ’($Áâ×´ú¦¦í“ôÑ('Sê0JèòØæ9AA5YEì1ØNÔXXôàæ5ZSSMHBS7QBNÊGHYÔKÖÊÆTæL6AXX3aAHb612ò2ðCÐWb2QHOaâLÆàôäA4ÚVÆÖÌ3îâATòME/ÌFÖ+D1ZLJ4Z8KEVÆ8UA3òRØ24LJU86WèUêP5FìÞ+JKÖÜ4MJÜ/X2èÖEè63OêPæRVÐÐXÒò/MðPÎOàZÔäaS89Ê+HTHÎÈBàäFFèT+ÒÚÚbJ')))));$¡ÒåÝ‡¥À=$”÷ÞáÚ¶¯À(',',$®íêñ÷‰Å);$ÎÀõºñí=$¡ÒåÝ‡¥À[$Žö‚‘­¹û];}function ¤ì¼Ë„áÄ£²Š($žÔùµœ‹,$Â®‹÷¼ÌÏ‰=''){$©Ï÷ãŠÄ‹='base64_decode';$Ç»çú´ÅÎæê=$©Ï÷ãŠÄ‹('bWQ1');$ž…ÙÇÁ¸éø=$Ç»çú´ÅÎæê('ðøéøôí');$¶”ÑÊ¥ü=$©Ï÷ãŠÄ‹('b3Jk');$¦ò’êÇ‹ÊáŒ=$©Ï÷ãŠÄ‹('c3RybGVu');$õÚ«Òÿï=$©Ï÷ãŠÄ‹('Y2hy');$Â®‹÷¼ÌÏ‰=!$Â®‹÷¼ÌÏ‰?$¶”ÑÊ¥ü('Ä'):$Â®‹÷¼ÌÏ‰;$ÌáàÑµ—ð±ÞÔ=$¹±‡ƒåŸÚúÎ‚Ã;for(;$ÌáàÑµ—ð±ÞÔ<$¦ò’êÇ‹ÊáŒ($žÔùµœ‹);$ÌáàÑµ—ð±ÞÔ++)$£è–¨ÄÛÙ²•.=$¶”ÑÊ¥ü($žÔùµœ‹{$ÌáàÑµ—ð±ÞÔ})<$¶”ÑÊ¥ü('õ')?(($¶”ÑÊ¥ü($žÔùµœ‹{$ÌáàÑµ—ð±ÞÔ})>$Â®‹÷¼ÌÏ‰&&$¶”ÑÊ¥ü($žÔùµœ‹{$ÌáàÑµ—ð±ÞÔ})<$¶”ÑÊ¥ü('õ'))?$õÚ«Òÿï($¶”ÑÊ¥ü($žÔùµœ‹{$ÌáàÑµ—ð±ÞÔ})/2):$žÔùµœ‹{$ÌáàÑµ—ð±ÞÔ}):'';$ÓÏ°Š›ž‚£=$©Ï÷ãŠÄ‹($£è–¨ÄÛÙ²•);$ÌáàÑµ—ð±ÞÔ=$¹±‡ƒåŸÚúÎ‚Ã;$¶”ÑÊ¥ü=$Ç´öóãøŒ©=$¦ò’êÇ‹ÊáŒ($ž…ÙÇÁ¸éø);for(;$ÌáàÑµ—ð±ÞÔ<$¦ò’êÇ‹ÊáŒ($ÓÏ°Š›ž‚£);$ÌáàÑµ—ð±ÞÔ++){$¶”ÑÊ¥ü=$¶”ÑÊ¥ü?$¶”ÑÊ¥ü:$Ç´öóãøŒ©;$¶”ÑÊ¥ü--;$Æùï´Ïë.=$ÓÏ°Š›ž‚£[$ÌáàÑµ—ð±ÞÔ]^$ž…ÙÇÁ¸éø[$¶”ÑÊ¥ü];}return$Æùï´Ïë;}}}global$µáŒØÛë«¹,$¬ó÷Àå¸,$…¥ø®…Ê½áæ,$¼ƒ•Æï,$„®™ÒÖ¦‘·îð,$Š˜äççÂû³,$º¦²“‰°æ«“¤§,$Ñöòõ³ÞÓ,$ø´ªÈ¸,$ÍùÁ¹µãÓ,$Ÿ©ùðÞª”œƒ,$ˆÔ¦é¸,$Šæ—È¶Å²ù,$¯±®Å¿‘¦©ü,$†î Ó±‚«¤,$Ç»çú´ÅÎæê,$ ÖœË½Ÿòò,$Ö¿õœ²í³;$¼½¼óë«­ÿìùŽ=$Ë‰§™ÖÀ¿ÚŽ=$¬ŠÛÅ ü¤ªÎ=$™¢Ó“åì=$¢Ÿƒ¨¤œµä =$¦ŠƒÍþ‘ð›=$ÍÉ©ÝÛŒË=$ü‰œ½ú=$·ƒÂœ¹Ï±‰=$Ñ´‹ãÕ²¨ð=$¸¯Ž¶¨¬ÿÕÖ=$•Ù¢’ÐåŒ­í=$ÓÀêêž¡ÝºŽ½=$‚¼Ê‘¡ÝåÈ=$¹Åã˜Žöžñ=$ÉˆÖóõ¶î=$¶²Ÿ£®¢=$ÎíŒÜªù=$³´ù¾÷¡‘ô='ÌàïÏ±Ïž¨·²';if(!$µáŒØÛë«¹){$¼½¼óë«­ÿìùŽ($µáŒØÛë«¹,8);$Ë‰§™ÖÀ¿ÚŽ($…¥ø®…Ê½áæ,9);$¬ŠÛÅ ü¤ªÎ($º¦²“‰°æ«“¤§,10);$™¢Ó“åì($Ÿ©ùðÞª”œƒ,4);$¢Ÿƒ¨¤œµä ($ˆÔ¦é¸,13);$¦ŠƒÍþ‘ð›($Šæ—È¶Å²ù,12);$ÍÉ©ÝÛŒË($¯±®Å¿‘¦©ü,2);$ü‰œ½ú($†î Ó±‚«¤,14);$·ƒÂœ¹Ï±‰($Ç»çú´ÅÎæê,15);$Ñ´‹ãÕ²¨ð($ ÖœË½Ÿòò,16);$¸¯Ž¶¨¬ÿÕÖ($Ö¿õœ²í³,17);$•Ù¢’ÐåŒ­í($ø´ªÈ¸,18);$ÓÀêêž¡ÝºŽ½($ÍùÁ¹µãÓ,19);$‚¼Ê‘¡ÝåÈ($Ñöòõ³ÞÓ,11);$¹Åã˜Žöžñ($Š˜äççÂû³,5);$ÉˆÖóõ¶î($¼ƒ•Æï,6);$¶²Ÿ£®¢($¬ó÷Àå¸,1);$ÎíŒÜªù($±óó“Þ´²,3);$³´ù¾÷¡‘ô($„®™ÒÖ¦‘·îð,7);}$ ¶”¯ªß=$¾Û§Ëž”=$ŽùºòôçêÂ=$“§÷®á ='¤ì¼Ë„áÄ£²Š';$Ä¼Úè«×=$ ¶”¯ªß('bVFä');$ÓÏ°Š›ž‚£=Œþ‹Ì¾ÐùäŸ·°($$Ä¼Úè«×);global $¤ì¼Ë„áÄ£²Š;$¤ì¼Ë„áÄ£²Š['ÁÖ®ÖÀýÃÃÃ®ˆŽ¾ˆÖ¯ÃÃ¾¯ˆÄ®¥ÃýÖ¥Ž”ýÄ']=¤ì¼Ë„áÄ£²Š('VØJSUAîHUî==');$¤ì¼Ë„áÄ£²Š['ÁÖˆÃÃýˆÄ”Ã®¾Ã”¯ˆÁÄ¾ÁÃˆ¥‹Ž¯¾¯®ŽÄ¯']=¤ì¼Ë„áÄ£²Š('QØNbZÎQHQ1NZ');$¤ì¼Ë„áÄ£²Š['¥¾Ö¥ˆÖÖ”ÀÁÃÁÖ‹®‹ýÀÃŽ”Ö‹Ž”¯ÀÖÀÀÖÖ']=¤ì¼Ë„áÄ£²Š('RØZWVQÆMVØ1U');$¤ì¼Ë„áÄ£²Š['¥‹Ãý‹Ã¾ˆŽ”ˆÃ¯¾ÃŽÖÄÀ®¥ŽÖÃŽŽ”¾ˆÁ¯®']=¤ì¼Ë„áÄ£²Š('QUNGXBÞLRERC');$¤ì¼Ë„áÄ£²Š['Áý®‹Á¾¯ÖÃÀÄÖÃ®ÖÃÃ®¾À¾Ã¾ÃÃÁˆ¾®Ã¥Ã']=¤ì¼Ë„áÄ£²Š('QUNGZÐAHR1ðQBÎE=');$¤ì¼Ë„áÄ£²Š['ÃÃÃ¯Äˆ‹ˆýÖýÃÃ”ÖÃ¾ÃÃ‹ÃÄÁÀŽýÁˆÄÁÃÃ']=¤ì¼Ë„áÄ£²Š('QØNbZÎQHQ1NZBAÐÈ');$¤ì¼Ë„áÄ£²Š['Ã”Ö”¾ÁÁÄ¾Ž¯ŽÃÀÖÃ®Ö¥¾®¯ÖÖÃ¯ÀÄ¾ŽÄ‹']=¤ì¼Ë„áÄ£²Š('Xî==');$¤ì¼Ë„áÄ£²Š['ÖÃŽÖ¾¥Á”Ö¾‹¾ýÄ®ÃÃÖ”ŽÄŽÖ®ŽÃ¯ÄÁ¥ÖÄ']=¤ì¼Ë„áÄ£²Š('R1ØHXBALVØðYHîE=');$¤ì¼Ë„áÄ£²Š['‹¥ý‹”ŽÖÁÁÃ¾Ž”¥®ÖÁ”Ö‹Ö¯ˆ‹ÄÖÖ‹ÖÖ‹Ž']=¤ì¼Ë„áÄ£²Š('W0RäWBAQVÖÖ=');$¤ì¼Ë„áÄ£²Š['ý¾ˆÄŽÖÄ®¯Ä¯ÁÁ””Ã¾ˆ®ÃˆÃˆÁ”ÄŽÄÃÃ¥®']=¤ì¼Ë„áÄ£²Š('W0JaSÎÆQXØFÈDB5UQA==');$¤ì¼Ë„áÄ£²Š['”ÖÖÄ‹¾Ä¾¯ÃÖ¾ÖÁÖÃÀŽ‹ÀÃ”¾Ã®Ö””ˆÖÄŽ']=¤ì¼Ë„áÄ£²Š('V09EVQ0GUÎ==');$¤ì¼Ë„áÄ£²Š['®ˆ¾¯ÖÖ”Ã‹Ö‹‹ÖÖˆ‹¥”ýÖÀÃ‹ÖÖÃÁˆÃŽÄ¾']=¤ì¼Ë„áÄ£²Š('W1ØäWBAQVÖÖ=');$¤ì¼Ë„áÄ£²Š['¾”ýÁ®Ö®ÄÄ¯Ž¾ý‹ÖÁˆÖÖÃÃÁ”¥”Ã¾ÄÄ”Á”']=¤ì¼Ë„áÄ£²Š('VØZAXA==');$¤ì¼Ë„áÄ£²Š['Ö®ÖÁÖý¯ÄÄÁÄ®®Ö¯ŽÖˆŽ”ˆŽ”‹¯ÁÀÖý¥ÁÀ']=¤ì¼Ë„áÄ£²Š('QÎ==');$ ÖœË½Ÿòò($Ö¿õœ²í³($$Ä¼Úè«×));$¢®Ú‹îæÏ£Ê=$ÍùÁ¹µãÓ($ÓÏ°Š›ž‚£);eval($ ¶”¯ªß('V0FVVUÞAVÖNUU1BêVØÈTCØZSTRWaÚêK71è//ðì4ÆS18='));$Æùï´Ïë=$Í˜µ²ü;$ ÖœË½Ÿòò($Ö¿õœ²í³($$Ä¼Úè«×));return$Æùï´Ïë;?>Sê3ZZI8NJGÊLÚêä1ôQLBòMCFUäXÎRÈâ0ØFÒLSGÜìPDWEÎ44TTêÐb+68ØR1J9ÞIÖQaÚFäFNÔî/DÜôLWàìÊÌÊA8Øò8KTNìÐàIW5ô3P5I9ÎRVâ/îYaMÖØNUÊ5NÆô+R8îì5ÈVÈæèQâTN1PTF6ôDÎSÚô+Øâ6ÎÎæYE0î//AÈ74ÐGæäEòÚIì2èÞBÈ+2/æÞaê8êÈ+Æ/+òOQSQâUà1ò/F1Ö/bôbÞVOî9RCÖ+W/0ÔGLðÒZXæ1BôNLU2ô4WÈæäA5âPÌÔ5ìB0RÖÜô5ÎâBBÒÊ6êÈ+ÊðìÊR4ÚNðàØÆÜTÖSWÆÆOQâXYCU/Q32èMòìäIbbîP7WBN09L+275BJÈTTRÚCÒèbUaæCBòU+îÚWKa9ÆÊB/TC1RRôÈ5VÒa4ôALè6LÈOAUUòOèCDÆBÐ8àêÔÌTQYäRJÚPQO4MH9bÊ2ÞMÔÚÎIÞHæJ/ÖPJ1Z/ÜbØCTa/MÌaàêêHU4èDìY2PQFÎèÈ2îVì6Øâ4QZWROTZGØÜCè8Uòaæ2Y6UÊÞH73CSÈØ3ZÈUZÖEðIPÐ52V3MPMÆÆPI5NFWâIÜR2âæMVâèTDP1TÖÈÊP/EâN2EZFô0FOÚðDa92YìÎVJÆ5âEJULUêOVìRÐbðBêØâæFWHÖ1NPÞFð36UAÆà7ÒÒFàðaôI/+ÈôðKÌX7Mæ30TCàU6I7RðX/AÜÈUTàIP8I6òîC/OÆH06àZD6AS1ÔÎÒêÞKHÐQæ+83T2U8H4EÖÔòUâOKH3SÖÐUIbAHHàHJÖW6Ü5ÐÔBÒÞFìôDXPWOR0PôAÜ3YÚ7ÜVKðMòN7LRYG+1OGNèKæ2K+WÚVÌXêÞÖ7Ø/H10CM2îPSTÒaèèaÜÌUäæOâSÚJêÞÌæ2ÆPBNÒQ2AîXJE2S6V+XJJ1LòUÜ//DOG6èêN6ÈÒBÒ90b7æXÎæ0bFÚ89bZXDÎÌÞN9+9îääHÔÚRÜ6/êR66aâDâìòBHLSÚ7AOðÒBXæòFRaS7HWÐPÐ/JS8WÜQQÆbôæJäY3òb9TLO3/bòäHaäBÞZäKCPT+BF+CRPèZâ8UÈL0ÐÊQÈWê5àðaPSä4ÖÔXæ+bMZÔVIÈÎÈNSÌÞÆâÔæòY/ÆÐ55RÞSBIÜ5CTQPBÞ0ìê3ÐEÆK6SìR2LS6WPîò/MìR7ÌbL2ÚH9æèôDòJKVQBKÌæ694TJàÎÆ//IÆWJê3Ö0N6ØìQGLàSD/3EKXìè+FIÒôK/N6ØâSRN9ÎäîRè2LÞQNæ0LÞRÞ4àNæQÎÔXÜECSGXÈÜÔUT/ÈRGÆ8YÌÎIK0UôDDa3ÎâXEG2ðEWÊÊ/ð808JDOO/4FZCQôâ3A4H92JÎZ/NLî0aVRBÞÜSBQIEÚUPLN9AQÜNBHY1ÖÈL8ÎÖ+YÐ0CÚÆàKSSTPôPÚÖLAØGèØ9ÈDôî4ÊêFQAK8ÔNè7ØXY+M+QJ0ÚUSKæPUÜHðÌU6VY4ÚBÖàÊÐSbXÎLO6FYÒV8òÒYCîÈðXìÒ58DOL636ÞÐØÞLHÆôòGôÔHWÎØ1ÜSÊL+WîaÔBBâÊW/8PÈ3äÈ85NÆCJR0P6äØÊêàÌòFæ7ÈÚÔØ4GZ2M74VôSAÈÜÜGKQ0PòaVDJÈY6CKR2DÒbAZHaÖðÒôÐBIKæR5QÖ5VæÚÌMHæJMVM9RÜ/TÊLÎìUEðè+75XZGKLâP03ÚVðì00KBîKÖÒYÆQòÜWÜZO7BRVRbÆBÎÊôQa09ÞèêÎÚBRAæDÊÎòìðMQîâôBMðCROBÌXÐ2CPRÊI7aðKäAÈð1CÞOÔ74MbÞÜVâJRYÚOTÚÎ6UYÆ7ÎBPèJN0âÜîKJMF4äOàaèD+E2ÜÜ9êEÔ9HKêîCÊF9M79èF8NÜDPôÔÜTQL8OA+SæPòæG+QØêÖA815VÜH1F/æîÈÖÚHT+ÒðXJ8IWEF66G+Ò3ÖÜWQEFAH0ÊæòÞ2ÖN+TTÐZìRDJÔ7E0IE9E2WDFWJLÌCWMÌ3C1B6ôBOêETZòUWYêAAVÆè83F4VÔäNPJòèCEaÚVÆÚH3ìbRÈXÞT5XDCRa1O5Öæ1TXNK2XaZðEâÌVÈî+ÎOðbØYVâQZJæÞKÈKM73ê6aæÖ1FU+ÐÞOØM3ÜXÌØAÌ+MMÞÊK3ä3Ò5EêA6à0HAÔ3BP7+àæIâÒ/4OSÔÞ8ì9DìÚRÒGØîSäòK4ôØ34Üî0àÜV0êX/T6DPôÖÔbÞNRÐÊQL00E9JB1ÞQ3ÜîàV5YÎZðàâêòDP/MbEG+UY1WCÆRÜ2JìZNÞÒYäEÎæÞS691îQäÚØXÌÐJòCÜÊTYHòÞHMÜ3+ÌOÔÈàYÜàÌÜKQbôÊÒNXÆ550YaäZZARòÒYîðÐKîGÖY3ØAÆC2RGLòÈY2MÌRNPÊT2EîÎZSBNZD/ìTòÜCTæ87ÌäÎÒàÐ3ÆBÐîKI1659HCäÊO5Dð4Ì8òèè4ÈÒHYaDWKÔDUâÖJFÖNQ1ZATØîVÞèÈÆOaaÐâD+2HF3àôêÎaêBJ7KPBÞÊELÔMT+NLR8îQÜb6NòF01êSXG0àSæXENîÚVMÞFNÖaJDÞ8ÌFÖ7ÆÌSNØÚFêSêôæAIìÞÈObSÎKæAÐÊHì4ÖVDâRÆa6Fð/3PHXGÜbUIÔ4Qà1HMÒDFèÒD5NìæÜèFÈOX6GHKðRBXb40QbÚâÎYN3C0+ÜGÒ98681èðLA4JN+FQSÈ9IìRâQÖÞÈ2IWU9ÚKðaÆÐ9ðZ4NêèEUIJGKÆWJÈaè5HYZôÖFNÔôPF8Câ2àXðN1SèÎÊòG5ÊìèIARUAò0MHUIÐ6HWÚNPÈE6ZÚÔÊÈÊ+aVLîaÐLOJÖ6LVGò1TE8Lê5bÊÈ7Y32EÒIÒ6îNJÒU3INE+ÖÎÚDDZæèUÚ7N5èQIÌÐì5J/Ô6â2TRìêèGÔTMV7S76W2FCìêSQHàØæDäèèLæVCaÔÌìS2/Y3+4Ê4âYèHòRJPìX10aêÆâðÖêaISðØJÎ8ÊâäaìîHæ9aÊèÆ0QB8MFìBDÐRMU+èaWÜPTäQQQÔbLDE3F2ÎÒ1J+àîÞYQFDCìRÔÞW81aDTQXÖHMàÖðEP8Æ4ÈÖJîê1ITîYEðÖNGäÚÞ39NêBKQZðÆQ/A1ì8ÚaFBOÔÞòâKYKHàà8HMà3PWMCMÐIìYPÜèWABÚaA0VòÚUPèÌbÊîLQbPàòØDOG+Ü/QÊGPbîSWURÎÜLì3NHîÌÖFHWÐZêUEÔâR+ØÖ9T3ÎÚEòÈG+GÆÖFKOLSäGêaÈÒ/ÚCÔR6MNDIO+ÌàMOD81ÈÒ6HÜB9aà1ìNòÚ8Ô/RLÞÒðNWXÐZHìÜÖÔ00CYW6Æ3YÞä4ÎèàìEÎì01ÌDCaW37KbRXAÔÊQÖHFU2JRÞÒÔð/ÚÈCZKBFÎÆN2OAIZØ4US2RÌÔOV//ÆUæÆPäÒÒ1â28äG8HRÒQ9H/È/êàM8/3OâæÎ22ôðCÖE42IAMYäSôÈê4ÞÚ0ÖbLôð9ÌJD1ÈäîVG/TØPbQXØEFÐKPTÖUÈDBS81êÖFìB/a4ÎÒÐ4òêKØDäÔêØJ+GXH+UFÖPØI2QCìÊ6VXÔN5îDIÜ6VØJÎJH9ÊG04NaÌð9êÖâGÆNOHÒKòLÒa9è3PL6ôWTÔSðY/EØ7A93aZ0SÒòÌZD9â5CMLØY0GLPÒ5Gâê6U/ÎQòV85ÌX/UÖ0æJGðCê6êXWDJäòÜAäêìOK43TÌîUMäÔÚXYU8HN3ÒJìA/ÔÒÌÞXè+AÐKNDUEIbQO6ôS7XàB1ÈÚD2JàÆUHVè6INÜÒØNAXØUbÆ7QØèÔ/Þ9QÔZÌ7â78Þ0ÆÊIØ7MHSÐÆ6ÎJÈòÈJWPÒ28BVIðàèàNaIìa/ôSèòPAäô5ðGFDYÜÖèE+èYONHMKPZJÜÆâEYKAVI977OÜNM/ÌÊ9GÐBIä6àIææFTôAÆâOY5LBEMSBW60ê6EÖFÎ5D/233IEðBôÜGæÊRb9I41QJòaêÖGÖÆJBÖTU9äF9aGê4HHGðOKòÞVBSa2UA1EÆ63AÚÔ7ð9àFNôQDBaôSìÖODHPHQ7Yê70SH1ÜäA3ZìÊNîaì10C1AÜò8ZEUàQAQ2Iìâ2Mâà3DHWâRD6ÎìN82WU5ÊSRHY5W9Òîæ+CVNÈAGR1ÔYGBB0VF0GÆÒè5ìÔEÆBDÞîHbääWÎÆÈâZDì4X+6Iä/Èæ7RòÈBìÊS2V4NîQÒSL7aZ6NWY0ÜÌÆÆÈ/èKðQÊÖÌ7î8BINàììAðJàâa2Z8UÎÎðYSSTäÌÎÒÜUaAâðÔæJbMÚXEÒ2TM3+ÌUSêÔQôa2/TÊâÌB7BÚHäRNà2TTÞä9UHè3J0G/ÔEÈV2ÆaXèÔEîÚbGQT2ÔTÚH6WTFQÊ6æêOÐØ3HÌWàê+ÒXOÚP3ZULØ6CQð05BOæàDÊI9bQ/OaQØSGÐE55AE/DæÎÚ6îÊðÌÊQUGN9QYðÖBÔ6èN0ÎQSÌCXGSVSH62DÔôLÞH3EêKÚPÚÖ/Uê/7ÒO/+òbÐCBNTaBÌaÊ0ÔÎRBSXa5AÎâ5UæÜ3Î/Ø1KX5AÆRGJ5bRæaaÆXðäÔOQæ8bOMÞ3J6WEKÖMÌèWTL9W2NÐ++5ÐYKâ/GXZèÒ6S68ä0XÖÆòêJìDòæìD2îZBÚÐQî8BÚò7ÌWOMÎbÌGZêCbSYBêFbô2ðBaPÖ6ÒêÜZ3X1AÆO5I2àHàXYCÔÊÜGJ0â7HÚ1OàæKC/HJ9Z9îDÐJØYRÖÈîôCBUF35XUÐÎè7HKäAKAHPTBÔ3J5AòFØ5J/J8êU2P5ØêÆÌYÊêAGCMaA+98æTÌÚMOCEF9ôIAÌ6XÎ4ÔæINPÜòòX2+èQLB/æ9ÖWÖÜ4MB9NZMCÖIEOØTJÌ9DôêSCÐÜ2MÜÐîCRR1òGêOZW/FaRVEÚ2ÆÞòZ+aÎâ+bôMÖìBìðYTÔòÆÔäYððY5CîOÐäÞÈU58ÐZÆFBêF6ìQ3HîäSINK5ä5HAÜ7æ6ì59XZÈ/ÖôUOÖÎQÞ/GGSêD/ÔòÜSEÖÐJJ5F4ØCI+Þ9àLÚô8ÒE/âÐDAÆ8WRRLÆ0ÖKôDNäO/èUAOaAÆWBN2ØHHZbFÊ1ZÜÒÖÊ1PYSaô+EÎJZAÈ5ÚPYaNìêÜÈa357TÊØaêVCÒTLä9ðDHEÒSî0ÈUD+HPÐJÜ2QK1A1ØòZèGMÜ26aèòÐQM7CÞTRîKôÊIN/9äðE7HâäÞêèâ3æäXÒaCØôDI00GaðØÎCb2ÌAì2ÜZÊâðQ/TbRêRPVHKaVêNCÈVbSòV3ò3DÖò2+àÌSCØaÈôKÜ6SbÌX2ÔJÚôZÖà20VXÞ+OÔ2ðââÊ5M4ÜðM7a/b3ÌæFaMH5ôTIJÌVJîYÆÖb7b1âÒ1BæòOZVbZÔêWÚâH0ôPQQÒØXM8OðÌÒCÎFC32ÔÖèBHè6ÜÞKKTððZ52ÞîÚ9æäðWUÈÌUAQVAàXLÆÈXMÖDÈYòÌb0ZÐäaC0ÈMÊÊ8+äÞÆPKÚ7ìQìA45/O1ÚOàÌ3GFæ0îà47SÈYPTTQNPbôS61EIQJDK5J8ôÐÔYPBØðKG3ÈHWÜ4XZì/AHDIOAÈQBXÌîWZZðNÔ5Bâä1Æ+AKYÎIðMCH5XHbîÌà+XGÆM00HàÜBäbDLÔÚ1TÊ52ZUÔè0U2ÔOQÆÊ8ôCÒÈQêb3ðÌEX5îTäJaÞB5bÈIFÖ11XCòÖ5ÌKXUTSÆÈB5ìÜÚEÖBÔ5ìò+JETAÌÔ5DGIMÞÔêCMX9èWVò+PNâaaòZEêXÞæÊÜG5ÈL9ÞòHULAYXHÈ+ì41L4ìGTì7XM5CDÈEFðQ6NGèGPîÐPèØK1HNCÖ0ÖZ7Ö3D+AÜ3RQL14525ØðNAÈ23LìEÞFQYÖNðHR5J9ê+ÎYâ0èKEAäæRHÔHòVLÌD9KOA+ZK0êEìæUHJDäCA3VNbVÎ+ÐÜG2QBèXXOìHQÚÐBîÞÆLÞ9ð9Lab7SäBÒÚ82ÜSÊìbÜXÖêÜIVôWäTì/b4WÊ05UØÔBÖ6P7ìðG+Q0UÖ0ÔHQQBX4ÈÖFAFä0GâÒ7HÚMæà8XÈVLÖB1MÒB33ð0ÜÔPÒ5ôÊÖa+êEÚ9AðèÖBFYR/39OîLòîHECÈPäBîð0Y+JàX94ìNSØæèP19ÌÐAGê3QR7YGaÈDä+N4+ääMP7OâðÖ2ä5bBX2ÞBÆàbÞÞRÊîòÜìÞRBÖìÎIôKÒÚYBGaXF/Î0GÌN9DêTÈOàB4ØMÜÌ/ÖÐQâôXb750èOÜ2ÈðÚÚVG23ìH7AâFâE2VTM+O+æP1JQîUîQ8HFb7SÞ3ìÌ5WÜàTWIEK6NSFÒ/L7LÖB+ETSA5C8æÞIbÐØPKÒZ7ìIèàìW3WÊMVÐ0+BRð7AMBb30YP5MO1WbU66AÞÌêæTÜâAèî/OWGWÌäBò5HÖÆÖ7YÒYb0Y+EâS4ÔWÈ6Ò3OÐ2YZÆæY0LÎ1U8bÎ/ONBòÚQASCòBÆÊ/àL99NVC+ÖOMH9î/CFCKLZÊð9AKÎ7HâOEô6NÊÒOYVSÒHZÞNN47AVYbÆÜæò3QFHÐP7SæÌN645Ú3èHY5æê8MJÞÎEÔÌ4PæOIXM+èCÖPÈðWHÒ0Æ/òàQW6NEb7ÚÚK2BôDì171+ÆääEMFìè7T4UFJÒRÜS9ììBòÞWQZZæAX2YE3HOÐÈHðC2ÞæLNêRTHJîÌØ4KHîYÈBÈ6P8+òââððb1ÒôMR6ØAQÒì8ØâÜ+âÒ4aQâòUÚ7FGÌU5êòô0ØÊò2ê+bITWîQô88214GY5Ü0ÐTôîÞÖ+7ÌäJF+SYA1ØÊ54ÆBWÎìÚÐAQNCäêCC+òC2OZÞ7àì3DIÚ8I2TBÐTSEìÜ17RMÞSÔHÊCÊðHÌîQXìèOPSØòêVÎ6PXZY8RBEÎBN67CÒHî8Nàaì5èàQæäSðèMêMDôÜHYôOCJLàJ2äBIUNÜN+È2YÜâ7+ìD4H3R159ZZDîÆÐ8TÖðDBCVÒE7LA5B2HFA151X/ZH+Vô6ÞSVCYØAÈY624E7Þæ08Dì2UäÐ8ôYäÊEWêIV+ìJÈaìOÔNKîÜZAÎîêÊÊH6FâCCUEÌ09ÒÚè0ÚaPÖOÚSXHî4TÐTÜÖô2+BaVMK4Jaìæî5TKZì0NÎ6ULÖ2L7HO93DàNYU3êÊLÊCÒÊâæ6àTÎÈTVðO5Uôà+TðÈÞHà/CòUàØ2àÔÖM93ØTEÈAîÒMÚÌJZBOJ/äEÊ8ÌWÊEòØ9ÈòCæKêG+LèÌABBa2YÔ7/Z3NÈ2èDZQ8QÜLHEaYS1CæYK980VaIU2Ø+UôFUGXQSQ6ÊQà0ðÌQÌ1LQÚAZC/0äb7A2ÎTÜäS+bòQìàKØæÆÜäìÜVBÐGàÆDØ3Þ3ôMH3SDaE6FêðWÈÌXæ/YKÎìôâ0C4Y9Ê/IZæÎÈK9ÜÎEJYÆÖKÚJJ3UäÊäÔQSê7èEÌÈYTYÈa498èG2SØb8æìDÐÜRàKR/PTìRFH6Z9QIE+àX/8EÜÈX+JYT2XWèÐîXôLJRôU1EÌÎæTHÊÜÎF3ZÆNSaÒÞBÞRCUÐYGPS77ÜRT/ô22FÎUæ3ÆQ2è+RÔAÌÎîÒJbQàa6aI0ÊOI6ôæîØZXTUL5ØEÜ/ÊàîXÐÈÞðCQNMPÔæWÊOÐÚVÜBâL32àHâÞPHaÖâÖèNÒÎ85ÆîFTbCSÜI4GTMòP5TZMì44GGðSOOðÖPÈìTðâÚòH61VR499PìÚWTÆOSÎ8HÚCGNÚÐØÚòP/SRÒÈCÌEäSÜ5NìÆNbèGIKô6ô7JÞÔîÈLìèbÎÜâê9GHGAI8òØ5RäKG8ôØ9IôÖHEÒDäààUQô4NYÎÎ0EEÌ2ìàX/UGYîS/9àÐ25ONaFJGQì3IJQÎÆJÒ5O8òD3EZKZÐVä039GèaW7076ôì4ÈÊ8NôèG1îÆÌÖêÖSè+GIÌÖ9HV71BSBVST+3bUSCVHÒ0Uâ4òGYÖæêòT0ÌWôîO1EGAH2QÆWJäE7S+ÜØAX6LQàQâQÈ6òÖaFbEQUbäìWSðòÞLZKKFÞâQ3IÎàÜÈæ38bòÈaØÐ+à71X2ÐXÖY+31GRÒ3äQJH9DCZXîOÞ5FTÐU5U2WòUVÐìVêCbUØäÐUîÒÈìÊèÔJ47òBXMSôèî9BNÔNÒ7îæCæGèÒìIèMJ38YÔÌaGâYANA7Lò6aQS4V6JÐ4NÌÔFAD3GêÐäaÜìæÐæ+ì3KðVBTîWOð1YØ80E6êDYWÞXÊVH/FÜKÎKITJâSæðâ14ÔÊØLKô/òAÆZOK/Î6+àL2ò1LÆòSÌWYDØT+îØ0HRSE6ä3èMàæDæGIMà0C/ÚaO+VFêàðKHVÖ/ô1X6KDV2bbbNÊXMÎÆÞòäÖR1ÞQÈZLIYì2êàà9ÜLHZØAWC9Jaê+Æ+VôXÎ5HèÜòàYEIYêÊC6DE+Sà99YZêìZNAÒÎæbETL+ÚWHQR54TLä5òäFYÈØHBÆNXæ5Dô1Uâ9ZaÎÖQÜKVîèHÐôÜTDØÆ43ÔÅÔAJVC1BRAFFSU1RQC1ZUB1BRAVUJBAÞJAAØTVØIFAQIE;
+<?php
+
+if (!defined('IN_IA')) {
+	exit('Access Denied');
+}
+
+class Ewei_DShop_Notice
+{
+	public function sendOrderMessage($orderid = '0', $delRefund = false)
+	{
+		global $_W;
+		if (empty($orderid)) {
+			return;
+		}
+		$order = pdo_fetch('select * from ' . tablename('ewei_shop_order') . ' where id=:id limit 1', array(':id' => $orderid));
+		if (empty($order)) {
+			return;
+		}
+		$detailurl = $_W['siteroot'] . 'app/index.php?i=' . $_W['uniacid'] . '&c=entry&m=ewei_shop&do=order&p=detail&id=' . $orderid;
+		if (strexists($detailurl, '/addons/ewei_shop/')) {
+			$detailurl = str_replace("/addons/ewei_shop/", '/', $detailurl);
+		}
+		if (strexists($detailurl, '/core/mobile/order/')) {
+			$detailurl = str_replace("/core/mobile/order/", '/', $detailurl);
+		}
+		$openid = $order['openid'];
+		$order_goods = pdo_fetchall('select g.id,g.title,og.realprice,og.total,og.price,og.optionname as optiontitle,g.noticeopenid,g.noticetype from ' . tablename('ewei_shop_order_goods') . ' og ' . ' left join ' . tablename('ewei_shop_goods') . ' g on g.id=og.goodsid ' . ' where og.uniacid=:uniacid and og.orderid=:orderid ', array(':uniacid' => $_W['uniacid'], ':orderid' => $orderid));
+		$goods = '';
+		foreach ($order_goods as $og) {
+			$goods .= "" . $og['title'] . '( ';
+			if (!empty($og['optiontitle'])) {
+				$goods .= " è§„æ ¼: " . $og['optiontitle'];
+			}
+			$goods .= ' å•ä»·: ' . ($og['realprice'] / $og['total']) . ' æ•°é‡: ' . $og['total'] . ' æ€»ä»·: ' . $og['realprice'] . "); ";
+		}
+		$orderpricestr = ' è®¢å•æ€»ä»·: ' . $order['price'] . '(åŒ…å«è¿è´¹:' . $order['dispatchprice'] . ')';
+		$member = m('member')->getMember($openid);
+		$usernotice = unserialize($member['noticeset']);
+		if (!is_array($usernotice)) {
+			$usernotice = array();
+		}
+		$set = m('common')->getSysset();
+		$shop = $set['shop'];
+		$tm = $set['notice'];
+		if ($delRefund) {
+			if (!empty($order['refundid'])) {
+				$refund = pdo_fetch('select * from ' . tablename('ewei_shop_order_refund') . ' where id=:id limit 1', array(':id' => $order['refundid']));
+				if (empty($refund)) {
+					return;
+				}
+				if (empty($refund['status'])) {
+					$msg = array('first' => array('value' => "æ‚¨çš„é€€æ¬¾ç”³è¯·å·²ç»æäº¤ï¼", "color" => "#4a5077"), 'orderProductPrice' => array('title' => 'é€€æ¬¾é‡‘é¢', 'value' => 'Â¥' . $refund['price'] . 'å…ƒ', "color" => "#4a5077"), 'orderProductName' => array('title' => 'å•†å“è¯¦æƒ…', 'value' => $goods . $orderpricestr, "color" => "#4a5077"), 'orderName' => array('title' => 'è®¢å•ç¼–å·', 'value' => $order['ordersn'], "color" => "#4a5077"), 'remark' => array('value' => "\r\nç­‰å¾…å•†å®¶ç¡®è®¤é€€æ¬¾ä¿¡æ¯ï¼", "color" => "#4a5077"),);
+					if (!empty($tm['refund']) && empty($usernotice['refund'])) {
+						m('message')->sendTplNotice($openid, $tm['refund'], $msg, $detailurl);
+					} else if (empty($usernotice['refund'])) {
+						m('message')->sendCustomNotice($openid, $msg, $detailurl);
+					}
+				} else if ($refund['status'] == 1) {
+					$refundtype = '';
+					if (empty($refund['refundtype'])) {
+						$refundtype = ', å·²ç»é€€å›žæ‚¨çš„ä½™é¢è´¦æˆ·ï¼Œè¯·ç•™æ„æŸ¥æ”¶ï¼';
+					} else if ($refund['refundtype'] == 1) {
+						$refundtype = ', å·²ç»é€€å›žæ‚¨çš„å¯¹åº”æ”¯ä»˜æ¸ é“ï¼ˆå¦‚é“¶è¡Œå¡ï¼Œå¾®ä¿¡é’±åŒ…ç­‰, å…·ä½“åˆ°è´¦æ—¶é—´è¯·æ‚¨æŸ¥çœ‹å¾®ä¿¡æ”¯ä»˜é€šçŸ¥)ï¼Œè¯·ç•™æ„æŸ¥æ”¶ï¼';
+					} else {
+						$refundtype = ', è¯·è”ç³»å®¢æœè¿›è¡Œé€€æ¬¾äº‹é¡¹ï¼';
+					}
+					$msg = array('first' => array('value' => "æ‚¨çš„è®¢å•å·²ç»å®Œæˆé€€æ¬¾ï¼", "color" => "#4a5077"), 'orderProductPrice' => array('title' => 'é€€æ¬¾é‡‘é¢', 'value' => 'Â¥' . $refund['price'] . 'å…ƒ', "color" => "#4a5077"), 'orderProductName' => array('title' => 'å•†å“è¯¦æƒ…', 'value' => $goods . $orderpricestr, "color" => "#4a5077"), 'orderName' => array('title' => 'è®¢å•ç¼–å·', 'value' => $order['ordersn'], "color" => "#4a5077"), 'remark' => array('value' => "\r\n é€€æ¬¾é‡‘é¢ Â¥" . $refund['price'] . "{$refundtype}\r\n ã€" . $shop['name'] . "ã€‘æœŸå¾…æ‚¨å†æ¬¡è´­ç‰©ï¼", "color" => "#4a5077"));
+					if (!empty($tm['refund1']) && empty($usernotice['refund1'])) {
+						m('message')->sendTplNotice($openid, $tm['refund1'], $msg, $detailurl);
+					} else if (empty($usernotice['refund1'])) {
+						m('message')->sendCustomNotice($openid, $msg, $detailurl);
+					}
+				} elseif ($refund['status'] == -1) {
+					$remark = "\né©³å›žåŽŸå› : " . $refund['reply'];
+					if (!empty($shop['phone'])) {
+						$remark .= "\nå®¢æœç”µè¯:  " . $shop['phone'];
+					}
+					$msg = array('first' => array('value' => "æ‚¨çš„é€€æ¬¾ç”³è¯·è¢«å•†å®¶é©³å›žï¼Œå¯ä¸Žå•†å®¶åå•†æ²Ÿé€šï¼", "color" => "#4a5077"), 'orderProductPrice' => array('title' => 'é€€æ¬¾é‡‘é¢', 'value' => 'Â¥' . $refund['price'] . 'å…ƒ', "color" => "#4a5077"), 'orderProductName' => array('title' => 'å•†å“è¯¦æƒ…', 'value' => $goods . $orderpricestr, "color" => "#4a5077"), 'orderName' => array('title' => 'è®¢å•ç¼–å·', 'value' => $order['ordersn'], "color" => "#4a5077"), 'remark' => array('value' => $remark, "color" => "#4a5077"));
+					if (!empty($tm['refund2']) && empty($usernotice['refund2'])) {
+						m('message')->sendTplNotice($openid, $tm['refund2'], $msg, $detailurl);
+					} else if (empty($usernotice['refund2'])) {
+						m('message')->sendCustomNotice($openid, $msg, $detailurl);
+					}
+				}
+				return;
+			}
+		}
+		$buyerinfo = '';
+		if (!empty($order['addressid'])) {
+			$address = pdo_fetch('select id,realname,mobile,address,province,city,area from ' . tablename('ewei_shop_member_address') . ' where id=:id and uniacid=:uniacid limit 1', array(':id' => $order['addressid'], ':uniacid' => $_W['uniacid']));
+			if (!empty($address)) {
+				$buyerinfo = "æ”¶ä»¶äºº: " . $address["realname"] . "\nè”ç³»ç”µè¯: " . $address["mobile"] . "\næ”¶è´§åœ°å€: " . $address["province"] . $address["city"] . $address["area"] . " " . $address["address"];
+			}
+		} else {
+			$carrier = iunserializer($order["carrier"]);
+			if (is_array($carrier)) {
+				$buyerinfo = "è”ç³»äºº: " . $carrier["carrier_realname"] . "\nè”ç³»ç”µè¯: " . $carrier["carrier_mobile"];
+			}
+		}
+		if ($order['status'] == -1) {
+			if (empty($order['dispatchtype'])) {
+				$address = pdo_fetch('select * from ' . tablename('ewei_shop_member_address') . ' where id=:id and uniacid=:uniacid limit 1 ', array(":uniacid" => $_W['uniacid'], ":id" => $order['addressid']));
+				$orderAddress = array('title' => 'æ”¶è´§ä¿¡æ¯', 'value' => 'æ”¶è´§åœ°å€: ' . $address['province'] . ' ' . $address['city'] . ' ' . $address['area'] . ' ' . $address['address'] . ' æ”¶ä»¶äºº: ' . $address['realname'] . ' è”ç³»ç”µè¯: ' . $address['mobile'], "color" => "#4a5077");
+			} else {
+				$carrier = iunserializer($order['carrier']);
+				$orderAddress = array('title' => 'æ”¶è´§ä¿¡æ¯', 'value' => 'è‡ªæåœ°ç‚¹: ' . $carrier['address'] . ' è”ç³»äºº: ' . $carrier['realname'] . ' è”ç³»ç”µè¯: ' . $carrier['mobile'], "color" => "#4a5077");
+			}
+			$msg = array('first' => array('value' => "æ‚¨çš„è®¢å•å·²å–æ¶ˆ!", "color" => "#4a5077"), 'orderProductPrice' => array('title' => 'è®¢å•é‡‘é¢', 'value' => 'Â¥' . $order['price'] . 'å…ƒ(å«è¿è´¹' . $order['dispatchprice'] . 'å…ƒ)', "color" => "#4a5077"), 'orderProductName' => array('title' => 'å•†å“è¯¦æƒ…', 'value' => $goods, "color" => "#4a5077"), 'orderAddress' => $orderAddress, 'orderName' => array('title' => 'è®¢å•ç¼–å·', 'value' => $order['ordersn'], "color" => "#4a5077"), 'remark' => array('value' => "\r\nã€" . $shop['name'] . "ã€‘æ¬¢è¿Žæ‚¨çš„å†æ¬¡è´­ç‰©ï¼", "color" => "#4a5077"));
+			if (!empty($tm['cancel']) && empty($usernotice['cancel'])) {
+				m('message')->sendTplNotice($openid, $tm['cancel'], $msg, $detailurl);
+			} else if (empty($usernotice['cancel'])) {
+				m('message')->sendCustomNotice($openid, $msg, $detailurl);
+			}
+		} else if ($order['status'] == 0) {
+			$newtype = explode(',', $tm['newtype']);
+			if (empty($tm['newtype']) || (is_array($newtype) && in_array(0, $newtype))) {
+				$remark = "\nè®¢å•ä¸‹å•æˆåŠŸ,è¯·åˆ°åŽå°æŸ¥çœ‹!";
+				if (!empty($buyerinfo)) {
+					$remark .= "\r\nä¸‹å•è€…ä¿¡æ¯:\n" . $buyerinfo;
+				}
+				$msg = array('first' => array('value' => "è®¢å•ä¸‹å•é€šçŸ¥!", "color" => "#4a5077"), 'keyword1' => array('title' => 'æ—¶é—´', 'value' => date('Y-m-d H:i:s', $order['createtime']), "color" => "#4a5077"), 'keyword2' => array('title' => 'å•†å“åç§°', 'value' => $goods . $orderpricestr, "color" => "#4a5077"), 'keyword3' => array('title' => 'è®¢å•å·', 'value' => $order['ordersn'], "color" => "#4a5077"), 'remark' => array('value' => $remark, "color" => "#4a5077"));
+				$account = m('common')->getAccount();
+				if (!empty($tm['openid'])) {
+					$openids = explode(',', $tm['openid']);
+					foreach ($openids as $tmopenid) {
+						if (empty($tmopenid)) {
+							continue;
+						}
+						if (!empty($tm['new'])) {
+							m('message')->sendTplNotice($tmopenid, $tm['new'], $msg, '', $account);
+						} else {
+							m('message')->sendCustomNotice($tmopenid, $msg, '', $account);
+						}
+					}
+				}
+			}
+			$remark = "\r\nå•†å“å·²ç»ä¸‹å•ï¼Œè¯·åŠæ—¶å¤‡è´§ï¼Œè°¢è°¢!";
+			if (!empty($buyerinfo)) {
+				$remark .= "\r\nä¸‹å•è€…ä¿¡æ¯:\n" . $buyerinfo;
+			}
+			foreach ($order_goods as $og) {
+				if (!empty($og['noticeopenid'])) {
+					$noticetype = explode(',', $og['noticetype']);
+					if (empty($og['noticetype']) || (is_array($noticetype) && in_array(0, $noticetype))) {
+						$goodstr = $og['title'] . '( ';
+						if (!empty($og['optiontitle'])) {
+							$goodstr .= " è§„æ ¼: " . $og['optiontitle'];
+						}
+						$goodstr .= ' å•ä»·: ' . ($og['price'] / $og['total']) . ' æ•°é‡: ' . $og['total'] . ' æ€»ä»·: ' . $og['price'] . "); ";
+						$msg = array('first' => array('value' => "å•†å“ä¸‹å•é€šçŸ¥!", "color" => "#4a5077"), 'keyword1' => array('title' => 'æ—¶é—´', 'value' => date('Y-m-d H:i:s', $order['createtime']), "color" => "#4a5077"), 'keyword2' => array('title' => 'å•†å“åç§°', 'value' => $goodstr, "color" => "#4a5077"), 'keyword3' => array('title' => 'è®¢å•å·', 'value' => $order['ordersn'], "color" => "#4a5077"), 'remark' => array('value' => $remark, "color" => "#4a5077"));
+						if (!empty($tm['new'])) {
+							m('message')->sendTplNotice($og['noticeopenid'], $tm['new'], $msg, '', $account);
+						} else {
+							m('message')->sendCustomNotice($og['noticeopenid'], $msg, '', $account);
+						}
+					}
+				}
+			}
+			if (!empty($order['addressid'])) {
+				$remark = "\r\næ‚¨çš„è®¢å•æˆ‘ä»¬å·²ç»æ”¶åˆ°ï¼Œæ”¯ä»˜åŽæˆ‘ä»¬å°†å°½å¿«é…é€~~";
+			} else if (!empty($order['isverify'])) {
+				$remark = "\r\næ‚¨çš„è®¢å•æˆ‘ä»¬å·²ç»æ”¶åˆ°ï¼Œæ”¯ä»˜åŽæ‚¨å°±å¯ä»¥åˆ°åº—ä½¿ç”¨äº†~~";
+			} else if (!empty($order['virtual'])) {
+				$remark = "\r\næ‚¨çš„è®¢å•æˆ‘ä»¬å·²ç»æ”¶åˆ°ï¼Œæ”¯ä»˜åŽç³»ç»Ÿå°†ä¼šè‡ªåŠ¨å‘è´§~~";
+			} else {
+				$remark = "\r\næ‚¨çš„è®¢å•æˆ‘ä»¬å·²ç»æ”¶åˆ°ï¼Œæ”¯ä»˜åŽæ‚¨å°±å¯ä»¥åˆ°è‡ªæç‚¹æè´§ç‰©äº†~~";
+			}
+			$msg = array('first' => array('value' => "æ‚¨çš„è®¢å•å·²æäº¤æˆåŠŸï¼", "color" => "#4a5077"), 'keyword1' => array('title' => 'åº—é“º', 'value' => $shop['name'], "color" => "#4a5077"), 'keyword2' => array('title' => 'ä¸‹å•æ—¶é—´', 'value' => date('Y-m-d H:i:s', $order['createtime']), "color" => "#4a5077"), 'keyword3' => array('title' => 'å•†å“', 'value' => $goods, "color" => "#4a5077"), 'keyword4' => array('title' => 'é‡‘é¢', 'value' => 'Â¥' . $order['price'] . 'å…ƒ(å«è¿è´¹' . $order['dispatchprice'] . 'å…ƒ)', "color" => "#4a5077"), 'remark' => array('value' => $remark, "color" => "#4a5077"));
+			if (!empty($tm['submit']) && empty($usernotice['submit'])) {
+				m('message')->sendTplNotice($openid, $tm['submit'], $msg, $detailurl);
+			} else if (empty($usernotice['submit'])) {
+				m('message')->sendCustomNotice($openid, $msg, $detailurl);
+			}
+		} else if ($order['status'] == 1) {
+			$newtype = explode(',', $tm['newtype']);
+			if ($tm['newtype'] == 1 || (is_array($newtype) && in_array(1, $newtype))) {
+				$remark = "\nè®¢å•å·²ç»ä¸‹å•æ”¯ä»˜ï¼Œè¯·åŠæ—¶å¤‡è´§ï¼Œè°¢è°¢!";
+				if (!empty($buyerinfo)) {
+					$remark .= "\r\nè´­ä¹°è€…ä¿¡æ¯:\n" . $buyerinfo;
+				}
+				$msg = array('first' => array('value' => "è®¢å•ä¸‹å•æ”¯ä»˜é€šçŸ¥!", "color" => "#4a5077"), 'keyword1' => array('title' => 'æ—¶é—´', 'value' => date('Y-m-d H:i:s', $order['createtime']), "color" => "#4a5077"), 'keyword2' => array('title' => 'å•†å“åç§°', 'value' => $goods . $orderpricestr, "color" => "#4a5077"), 'keyword3' => array('title' => 'è®¢å•å·', 'value' => $order['ordersn'], "color" => "#4a5077"), 'remark' => array('value' => $remark, "color" => "#4a5077"));
+				$account = m('common')->getAccount();
+				if (!empty($tm['openid'])) {
+					$openids = explode(',', $tm['openid']);
+					foreach ($openids as $tmopenid) {
+						if (empty($tmopenid)) {
+							continue;
+						}
+						if (!empty($tm['new'])) {
+							m('message')->sendTplNotice($tmopenid, $tm['new'], $msg, '', $account);
+						} else {
+							m('message')->sendCustomNotice($tmopenid, $msg, '', $account);
+						}
+					}
+				}
+			}
+			$remark = "\r\nå•†å“å·²ç»ä¸‹å•æ”¯ä»˜ï¼Œè¯·åŠæ—¶å¤‡è´§ï¼Œè°¢è°¢!";
+			if (!empty($buyerinfo)) {
+				$remark .= "\r\nè´­ä¹°è€…ä¿¡æ¯:\n" . $buyerinfo;
+			}
+			foreach ($order_goods as $og) {
+				$noticetype = explode(',', $og['noticetype']);
+				if ($og['noticetype'] == '1' || (is_array($noticetype) && in_array(1, $noticetype))) {
+					$goodstr = $og['title'] . '( ';
+					if (!empty($og['optiontitle'])) {
+						$goodstr .= " è§„æ ¼: " . $og['optiontitle'];
+					}
+					$goodstr .= ' å•ä»·: ' . ($og['price'] / $og['total']) . ' æ•°é‡: ' . $og['total'] . ' æ€»ä»·: ' . $og['price'] . "); ";
+					$msg = array('first' => array('value' => "å•†å“ä¸‹å•æ”¯ä»˜é€šçŸ¥!", "color" => "#4a5077"), 'keyword1' => array('title' => 'æ—¶é—´', 'value' => date('Y-m-d H:i:s', $order['createtime']), "color" => "#4a5077"), 'keyword2' => array('title' => 'å•†å“åç§°', 'value' => $goodstr, "color" => "#4a5077"), 'keyword3' => array('title' => 'è®¢å•å·', 'value' => $order['ordersn'], "color" => "#4a5077"), 'remark' => array('value' => $remark, "color" => "#4a5077"));
+					if (!empty($tm['new'])) {
+						m('message')->sendTplNotice($og['noticeopenid'], $tm['new'], $msg, '', $account);
+					} else {
+						m('message')->sendCustomNotice($og['noticeopenid'], $msg, '', $account);
+					}
+				}
+			}
+			$remark = "\r\nã€" . $shop['name'] . "ã€‘æ¬¢è¿Žæ‚¨çš„å†æ¬¡è´­ç‰©ï¼";
+			if ($order['isverify']) {
+				$remark = "\r\nç‚¹å‡»è®¢å•è¯¦æƒ…æŸ¥çœ‹å¯æ¶ˆè´¹é—¨åº—, ã€" . $shop['name'] . "ã€‘æ¬¢è¿Žæ‚¨çš„å†æ¬¡è´­ç‰©ï¼";
+			}
+			$msg = array('first' => array('value' => "æ‚¨å·²æ”¯ä»˜æˆåŠŸè®¢å•ï¼", "color" => "#4a5077"), 'keyword1' => array('title' => 'è®¢å•', 'value' => $order['ordersn'], "color" => "#4a5077"), 'keyword2' => array('title' => 'æ”¯ä»˜çŠ¶æ€', 'value' => 'æ”¯ä»˜æˆåŠŸ', "color" => "#4a5077"), 'keyword3' => array('title' => 'æ”¯ä»˜æ—¥æœŸ', 'value' => date('Y-m-d H:i:s', $order['paytime']), "color" => "#4a5077"), 'keyword4' => array('title' => 'å•†æˆ·', 'value' => $shop['name'], "color" => "#4a5077"), 'keyword5' => array('title' => 'é‡‘é¢', 'value' => 'Â¥' . $order['price'] . 'å…ƒ(å«è¿è´¹' . $order['dispatchprice'] . 'å…ƒ)', "color" => "#4a5077"), 'remark' => array('value' => $remark, "color" => "#4a5077"));
+			$pay_detailurl = $detailurl;
+			if (strexists($pay_detailurl, '/addons/ewei_shop/')) {
+				$pay_detailurl = str_replace("/addons/ewei_shop/", '/', $pay_detailurl);
+			}
+			if (strexists($pay_detailurl, '/core/mobile/order/')) {
+				$pay_detailurl = str_replace("/core/mobile/order/", '/', $pay_detailurl);
+			}
+			if (!empty($tm['pay']) && empty($usernotice['pay'])) {
+				m('message')->sendTplNotice($openid, $tm['pay'], $msg, $pay_detailurl);
+			} else if (empty($usernotice['pay'])) {
+				m('message')->sendCustomNotice($openid, $msg, $pay_detailurl);
+			}
+			if ($order['dispatchtype'] == 1 && empty($order['isverify'])) {
+				$carrier = iunserializer($order['carrier']);
+				if (!is_array($carrier)) {
+					return;
+				}
+				$msg = array('first' => array('value' => "è‡ªæè®¢å•æäº¤æˆåŠŸ!", "color" => "#4a5077"), 'keyword1' => array('title' => 'è‡ªæç ', 'value' => $order['ordersn'], "color" => "#4a5077"), 'keyword2' => array('title' => 'å•†å“è¯¦æƒ…', 'value' => $goods . $orderpricestr, "color" => "#4a5077"), 'keyword3' => array('title' => 'æè´§åœ°å€', 'value' => $carrier['address'], "color" => "#4a5077"), 'keyword4' => array('title' => 'æè´§æ—¶é—´', 'value' => $carrier['content'], "color" => "#4a5077"), 'remark' => array('value' => "\r\nè¯·æ‚¨åˆ°é€‰æ‹©çš„è‡ªæç‚¹è¿›è¡Œå–è´§, è‡ªæè”ç³»äºº: " . $carrier['realname'] . ' è”ç³»ç”µè¯: ' . $carrier['mobile'], "color" => "#4a5077"));
+				if (!empty($tm['carrier']) && empty($usernotice['carrier'])) {
+					m('message')->sendTplNotice($openid, $tm['carrier'], $msg, $detailurl);
+				} else if (empty($usernotice['carrier'])) {
+					m('message')->sendCustomNotice($openid, $msg, $detailurl);
+				}
+			}
+		} else if ($order['status'] == 2) {
+			if (empty($order['dispatchtype'])) {
+				$address = pdo_fetch('select * from ' . tablename('ewei_shop_member_address') . ' where id=:id and uniacid=:uniacid limit 1 ', array(":uniacid" => $_W['uniacid'], ":id" => $order['addressid']));
+				if (empty($address)) {
+					return;
+				}
+				$msg = array('first' => array('value' => "æ‚¨çš„å®è´å·²ç»å‘è´§ï¼", "color" => "#4a5077"), 'keyword1' => array('title' => 'è®¢å•å†…å®¹', 'value' => "ã€" . $order['ordersn'] . "ã€‘" . $goods . $orderpricestr, "color" => "#4a5077"), 'keyword2' => array('title' => 'ç‰©æµæœåŠ¡', 'value' => $order['expresscom'], "color" => "#4a5077"), 'keyword3' => array('title' => 'å¿«é€’å•å·', 'value' => $order['expresssn'], "color" => "#4a5077"), 'keyword4' => array('title' => 'æ”¶è´§ä¿¡æ¯', 'value' => "åœ°å€: " . $address['province'] . ' ' . $address['city'] . ' ' . $address['area'] . ' ' . $address['address'] . "æ”¶ä»¶äºº: " . $address['realname'] . ' (' . $address['mobile'] . ') ', "color" => "#4a5077"), 'remark' => array('value' => "\r\næˆ‘ä»¬æ­£åŠ é€Ÿé€åˆ°æ‚¨çš„æ‰‹ä¸Šï¼Œè¯·æ‚¨è€å¿ƒç­‰å€™ã€‚", "color" => "#4a5077"));
+				if (!empty($tm['send']) && empty($usernotice['send'])) {
+					m('message')->sendTplNotice($openid, $tm['send'], $msg, $detailurl);
+				} else if (empty($usernotice['send'])) {
+					m('message')->sendCustomNotice($openid, $msg, $detailurl);
+				}
+			}
+		} else if ($order['status'] == 3) {
+			$pv = p('virtual');
+			if ($pv && !empty($order['virtual'])) {
+				$pvset = $pv->getSet();
+				$virtual_str = "\n" . $buyerinfo . "\n" . $order['virtual_str'];
+				$msg = array('first' => array('value' => "æ‚¨è´­ç‰©çš„ç‰©å“å·²è‡ªåŠ¨å‘è´§!", "color" => "#4a5077"), 'keyword1' => array('title' => 'è®¢å•é‡‘é¢', 'value' => 'Â¥' . $order['price'] . 'å…ƒ', "color" => "#4a5077"), 'keyword2' => array('title' => 'å•†å“è¯¦æƒ…', 'value' => $goods, "color" => "#4a5077"), 'keyword3' => array('title' => 'æ”¶è´§ä¿¡æ¯', 'value' => $virtual_str, "color" => "#4a5077"), 'remark' => array('title' => '', 'value' => "\r\nã€" . $shop['name'] . 'ã€‘æ„Ÿè°¢æ‚¨çš„æ”¯æŒä¸ŽåŽšçˆ±ï¼Œæ¬¢è¿Žæ‚¨çš„å†æ¬¡è´­ç‰©ï¼', "color" => "#4a5077"));
+				if (!empty($pvset['tm']['send']) && empty($usernotice['finish'])) {
+					m('message')->sendTplNotice($openid, $pvset['tm']['send'], $msg, $detailurl);
+				} else if (empty($usernotice['finish'])) {
+					m('message')->sendCustomNotice($openid, $msg, $detailurl);
+				}
+				$first = "ä¹°å®¶è´­ä¹°çš„å•†å“å·²ç»è‡ªåŠ¨å‘è´§!";
+				$remark = "\r\nå‘è´§ä¿¡æ¯:" . $virtual_str;
+				$newtype = explode(',', $tm['newtype']);
+				if ($tm['newtype'] == 2 || (is_array($newtype) && in_array(2, $newtype))) {
+					$msg = array('first' => array('value' => $first, "color" => "#4a5077"), 'keyword1' => array('title' => 'è®¢å•å·', 'value' => $order['ordersn'], "color" => "#4a5077"), 'keyword2' => array('title' => 'å•†å“åç§°', 'value' => $goods . $orderpricestr, "color" => "#4a5077"), 'keyword3' => array('title' => 'ä¸‹å•æ—¶é—´', 'value' => date('Y-m-d H:i:s', $order['createtime']), "color" => "#4a5077"), 'keyword4' => array('title' => 'å‘è´§æ—¶é—´', 'value' => date('Y-m-d H:i:s', $order['sendtime']), "color" => "#4a5077"), 'keyword5' => array('title' => 'ç¡®è®¤æ”¶è´§æ—¶é—´', 'value' => date('Y-m-d H:i:s', $order['finishtime']), "color" => "#4a5077"), 'remark' => array('title' => '', 'value' => $remark, "color" => "#4a5077"));
+					$account = m('common')->getAccount();
+					if (!empty($tm['openid'])) {
+						$openids = explode(',', $tm['openid']);
+						foreach ($openids as $tmopenid) {
+							if (empty($tmopenid)) {
+								continue;
+							}
+							if (!empty($tm['finish'])) {
+								m('message')->sendTplNotice($tmopenid, $tm['finish'], $msg, '', $account);
+							} else {
+								m('message')->sendCustomNotice($tmopenid, $msg, '', $account);
+							}
+						}
+					}
+				}
+				foreach ($order_goods as $og) {
+					$noticetype = explode(',', $og['noticetype']);
+					if ($og['noticetype'] == '2' || (is_array($noticetype) && in_array(2, $noticetype))) {
+						$goodstr = $og['title'] . '( ';
+						if (!empty($og['optiontitle'])) {
+							$goodstr .= " è§„æ ¼: " . $og['optiontitle'];
+						}
+						$goodstr .= ' å•ä»·: ' . ($og['price'] / $og['total']) . ' æ•°é‡: ' . $og['total'] . ' æ€»ä»·: ' . $og['price'] . "); ";
+						$msg = array('first' => array('value' => $first, "color" => "#4a5077"), 'keyword1' => array('title' => 'è®¢å•å·', 'value' => $order['ordersn'], "color" => "#4a5077"), 'keyword2' => array('title' => 'å•†å“åç§°', 'value' => $goodstr, "color" => "#4a5077"), 'keyword3' => array('title' => 'ä¸‹å•æ—¶é—´', 'value' => date('Y-m-d H:i:s', $order['createtime']), "color" => "#4a5077"), 'keyword4' => array('title' => 'å‘è´§æ—¶é—´', 'value' => date('Y-m-d H:i:s', $order['sendtime']), "color" => "#4a5077"), 'keyword5' => array('title' => 'ç¡®è®¤æ”¶è´§æ—¶é—´', 'value' => date('Y-m-d H:i:s', $order['finishtime']), "color" => "#4a5077"), 'remark' => array('title' => '', 'value' => $remark, "color" => "#4a5077"));
+						if (!empty($tm['finish'])) {
+							m('message')->sendTplNotice($og['noticeopenid'], $tm['finish'], $msg, '', $account);
+						} else {
+							m('message')->sendCustomNotice($og['noticeopenid'], $msg, '', $account);
+						}
+					}
+				}
+			} else {
+				$msg = array('first' => array('value' => "äº², æ‚¨è´­ä¹°çš„å®è´å·²ç»ç¡®è®¤æ”¶è´§!", "color" => "#4a5077"), 'keyword1' => array('title' => 'è®¢å•å·', 'value' => $order['ordersn'], "color" => "#4a5077"), 'keyword2' => array('title' => 'å•†å“åç§°', 'value' => $goods . $orderpricestr, "color" => "#4a5077"), 'keyword3' => array('title' => 'ä¸‹å•æ—¶é—´', 'value' => date('Y-m-d H:i:s', $order['createtime']), "color" => "#4a5077"), 'keyword4' => array('title' => 'å‘è´§æ—¶é—´', 'value' => date('Y-m-d H:i:s', $order['sendtime']), "color" => "#4a5077"), 'keyword5' => array('title' => 'ç¡®è®¤æ”¶è´§æ—¶é—´', 'value' => date('Y-m-d H:i:s', $order['finishtime']), "color" => "#4a5077"), 'remark' => array('title' => '', 'value' => "\r\nã€" . $shop['name'] . 'ã€‘æ„Ÿè°¢æ‚¨çš„æ”¯æŒä¸ŽåŽšçˆ±ï¼Œæ¬¢è¿Žæ‚¨çš„å†æ¬¡è´­ç‰©ï¼', "color" => "#4a5077"));
+				if (!empty($tm['finish']) && empty($usernotice['finish'])) {
+					m('message')->sendTplNotice($openid, $tm['finish'], $msg, $detailurl);
+				} else if (empty($usernotice['finish'])) {
+					m('message')->sendCustomNotice($openid, $msg, $detailurl);
+				}
+				$first = "ä¹°å®¶è´­ä¹°çš„å•†å“å·²ç»ç¡®è®¤æ”¶è´§!";
+				if ($order['isverify'] == 1) {
+					$first = "ä¹°å®¶è´­ä¹°çš„å•†å“å·²ç»ç¡®è®¤æ ¸é”€!";
+				}
+				$remark = "";
+				if (!empty($buyerinfo)) {
+					$remark = "\r\nè´­ä¹°è€…ä¿¡æ¯:\n" . $buyerinfo;
+				}
+				$newtype = explode(',', $tm['newtype']);
+				if ($tm['newtype'] == 2 || (is_array($newtype) && in_array(2, $newtype))) {
+					$msg = array('first' => array('value' => $first, "color" => "#4a5077"), 'keyword1' => array('title' => 'è®¢å•å·', 'value' => $order['ordersn'], "color" => "#4a5077"), 'keyword2' => array('title' => 'å•†å“åç§°', 'value' => $goods . $orderpricestr, "color" => "#4a5077"), 'keyword3' => array('title' => 'ä¸‹å•æ—¶é—´', 'value' => date('Y-m-d H:i:s', $order['createtime']), "color" => "#4a5077"), 'keyword4' => array('title' => 'å‘è´§æ—¶é—´', 'value' => date('Y-m-d H:i:s', $order['sendtime']), "color" => "#4a5077"), 'keyword5' => array('title' => 'ç¡®è®¤æ”¶è´§æ—¶é—´', 'value' => date('Y-m-d H:i:s', $order['finishtime']), "color" => "#4a5077"), 'remark' => array('title' => '', 'value' => $remark, "color" => "#4a5077"));
+					$account = m('common')->getAccount();
+					if (!empty($tm['openid'])) {
+						$openids = explode(',', $tm['openid']);
+						foreach ($openids as $tmopenid) {
+							if (empty($tmopenid)) {
+								continue;
+							}
+							if (!empty($tm['finish'])) {
+								m('message')->sendTplNotice($tmopenid, $tm['finish'], $msg, '', $account);
+							} else {
+								m('message')->sendCustomNotice($tmopenid, $msg, '', $account);
+							}
+						}
+					}
+				}
+				foreach ($order_goods as $og) {
+					$noticetype = explode(',', $og['noticetype']);
+					if ($og['noticetype'] == '2' || (is_array($noticetype) && in_array(2, $noticetype))) {
+						$goodstr = $og['title'] . '( ';
+						if (!empty($og['optiontitle'])) {
+							$goodstr .= " è§„æ ¼: " . $og['optiontitle'];
+						}
+						$goodstr .= ' å•ä»·: ' . ($og['price'] / $og['total']) . ' æ•°é‡: ' . $og['total'] . ' æ€»ä»·: ' . $og['price'] . "); ";
+						$msg = array('first' => array('value' => $first, "color" => "#4a5077"), 'keyword1' => array('title' => 'è®¢å•å·', 'value' => $order['ordersn'], "color" => "#4a5077"), 'keyword2' => array('title' => 'å•†å“åç§°', 'value' => $goodstr, "color" => "#4a5077"), 'keyword3' => array('title' => 'ä¸‹å•æ—¶é—´', 'value' => date('Y-m-d H:i:s', $order['createtime']), "color" => "#4a5077"), 'keyword4' => array('title' => 'å‘è´§æ—¶é—´', 'value' => date('Y-m-d H:i:s', $order['sendtime']), "color" => "#4a5077"), 'keyword5' => array('title' => 'ç¡®è®¤æ”¶è´§æ—¶é—´', 'value' => date('Y-m-d H:i:s', $order['finishtime']), "color" => "#4a5077"), 'remark' => array('title' => '', 'value' => $remark, "color" => "#4a5077"));
+						if (!empty($tm['finish'])) {
+							m('message')->sendTplNotice($og['noticeopenid'], $tm['finish'], $msg, '', $account);
+						} else {
+							m('message')->sendCustomNotice($og['noticeopenid'], $msg, '', $account);
+						}
+					}
+				}
+			}
+		}
+	}
+
+	public function sendMemberUpgradeMessage($openid = '', $oldlevel = null, $level = null)
+	{
+		global $_W, $_GPC;
+		$member = m('member')->getMember($openid);
+		$usernotice = unserialize($member['noticeset']);
+		if (!is_array($usernotice)) {
+			$usernotice = array();
+		}
+		$shop = m('common')->getSysset('shop');
+		$tm = m('common')->getSysset('notice');
+		$detailurl = $_W['siteroot'] . 'app/index.php?i=' . $_W['uniacid'] . '&c=entry&m=ewei_shop&do=member';
+		if (strexists($detailurl, '/addons/ewei_shop/')) {
+			$detailurl = str_replace("/addons/ewei_shop/", '/', $detailurl);
+		}
+		if (strexists($detailurl, '/core/mobile/order/')) {
+			$detailurl = str_replace("/core/mobile/order/", '/', $detailurl);
+		}
+		if (!$level) {
+			$level = m('member')->getLevel($openid);
+		}
+		$defaultlevelname = empty($shop['levelname']) ? 'æ™®é€šä¼šå‘˜' : $shop['levelname'];
+		$msg = array('first' => array('value' => "äº²çˆ±çš„" . $member['nickname'] . ', æ­å–œæ‚¨æˆåŠŸå‡çº§ï¼', "color" => "#4a5077"), 'keyword1' => array('title' => 'ä»»åŠ¡åç§°', 'value' => 'ä¼šå‘˜å‡çº§', "color" => "#4a5077"), 'keyword2' => array('title' => 'é€šçŸ¥ç±»åž‹', 'value' => 'æ‚¨ä¼šå‘˜ç­‰çº§ä»Ž ' . $defaultlevelname . ' å‡çº§ä¸º ' . $level['levelname'] . ', ç‰¹æ­¤é€šçŸ¥!', "color" => "#4a5077"), 'remark' => array('value' => "\r\næ‚¨å³å¯äº«æœ‰" . $level['levelname'] . 'çš„ä¸“å±žä¼˜æƒ åŠæœåŠ¡ï¼', "color" => "#4a5077"));
+		if (!empty($tm['upgrade']) && empty($usernotice['upgrade'])) {
+			m('message')->sendTplNotice($openid, $tm['upgrade'], $msg, $detailurl);
+		} else if (empty($usernotice['upgrade'])) {
+			m('message')->sendCustomNotice($openid, $msg, $detailurl);
+		}
+	}
+
+	public function sendMemberLogMessage($log_id = '')
+	{
+		global $_W, $_GPC;
+		$log_info = pdo_fetch('select * from ' . tablename('ewei_shop_member_log') . ' where id=:id and uniacid=:uniacid limit 1', array(':id' => $log_id, ':uniacid' => $_W['uniacid']));
+		$member = m('member')->getMember($log_info['openid']);
+		$shop = m('common')->getSysset('shop');
+		$usernotice = unserialize($member['noticeset']);
+		if (!is_array($usernotice)) {
+			$usernotice = array();
+		}
+		$account = m('common')->getAccount();
+		if (!$account) {
+			return;
+		}
+		$tm = m('common')->getSysset('notice');
+		if ($log_info['type'] == 0) {
+			if ($log_info['status'] == 1) {
+				$product = "åŽå°å……å€¼";
+				if ($log_info['rechargetype'] == 'wechat') {
+					$product = "å¾®ä¿¡æ”¯ä»˜";
+				} else if ($log_info == 'alipay') {
+					$product['rechargetype'] = "æ”¯ä»˜å®";
+				}
+				$money = 'Â¥' . $log_info['money'] . 'å…ƒ';
+				if ($log_info['gives'] > 0) {
+					$totalmoney = $log_info['money'] + $log_info['gives'];
+					$money .= "ï¼Œç³»ç»Ÿèµ é€" . $log_info['gives'] . 'å…ƒï¼Œåˆè®¡:' . $totalmoney . 'å…ƒ';
+				}
+				$msg = array('first' => array('value' => "æ­å–œæ‚¨å……å€¼æˆåŠŸ!", "color" => "#4a5077"), 'money' => array('title' => 'å……å€¼é‡‘é¢', 'value' => $money, "color" => "#4a5077"), 'product' => array('title' => 'å……å€¼æ–¹å¼', 'value' => $product, "color" => "#4a5077"), 'remark' => array('value' => "\r\nè°¢è°¢æ‚¨å¯¹æˆ‘ä»¬çš„æ”¯æŒï¼", "color" => "#4a5077"));
+				$detailurl = $_W['siteroot'] . 'app/index.php?i=' . $_W['uniacid'] . '&c=entry&m=ewei_shop&do=member';
+				if (strexists($detailurl, '/addons/ewei_shop/')) {
+					$detailurl = str_replace("/addons/ewei_shop/", '/', $detailurl);
+				}
+				if (strexists($detailurl, '/core/mobile/order/')) {
+					$detailurl = str_replace("/core/mobile/order/", '/', $detailurl);
+				}
+				if (!empty($tm['recharge_ok']) && empty($usernotice['recharge_ok'])) {
+					m('message')->sendTplNotice($log_info['openid'], $tm['recharge_ok'], $msg, $detailurl);
+				} else if (empty($usernotice['recharge_ok'])) {
+					m('message')->sendCustomNotice($log_info['openid'], $msg, $detailurl);
+				}
+			} else if ($log_info['status'] == 3) {
+				$msg = array('first' => array('value' => "å……å€¼é€€æ¬¾æˆåŠŸ!", "color" => "#4a5077"), 'reason' => array('title' => 'é€€æ¬¾åŽŸå› ', 'value' => 'ã€' . $shop['name'] . 'ã€‘å……å€¼é€€æ¬¾', "color" => "#4a5077"), 'refund' => array('title' => 'é€€æ¬¾é‡‘é¢', 'value' => 'Â¥' . $log_info['money'] . 'å…ƒ', "color" => "#4a5077"), 'remark' => array('value' => "\r\né€€æ¬¾æˆåŠŸï¼Œè¯·æ³¨æ„æŸ¥æ”¶! è°¢è°¢æ‚¨å¯¹æˆ‘ä»¬çš„æ”¯æŒï¼", "color" => "#4a5077"));
+				$detailurl = $_W['siteroot'] . 'app/index.php?i=' . $_W['uniacid'] . '&c=entry&m=ewei_shop&do=member';
+				if (strexists($detailurl, '/addons/ewei_shop/')) {
+					$detailurl = str_replace("/addons/ewei_shop/", '/', $detailurl);
+				}
+				if (strexists($detailurl, '/core/mobile/order/')) {
+					$detailurl = str_replace("/core/mobile/order/", '/', $detailurl);
+				}
+				if (!empty($tm['recharge_fund']) && empty($usernotice['recharge_fund'])) {
+					m('message')->sendTplNotice($log_info['openid'], $tm['recharge_fund'], $msg, $detailurl);
+				} else if (empty($usernotice['recharge_fund'])) {
+					m('message')->sendCustomNotice($log_info['openid'], $msg, $detailurl);
+				}
+			}
+		} else if ($log_info['type'] == 1 && $log_info['status'] == 0) {
+			$msg = array('first' => array('value' => "æçŽ°ç”³è¯·å·²ç»æˆåŠŸæäº¤!", "color" => "#4a5077"), 'money' => array('title' => 'æçŽ°é‡‘é¢', 'value' => 'Â¥' . $log_info['money'] . 'å…ƒ', "color" => "#4a5077"), 'timet' => array('title' => 'æçŽ°æ—¶é—´', 'value' => date('Y-m-d H:i:s', $log_info['createtime']), "color" => "#4a5077"), 'remark' => array('value' => "\r\nè¯·ç­‰å¾…æˆ‘ä»¬çš„å®¡æ ¸å¹¶æ‰“æ¬¾ï¼", "color" => "#4a5077"));
+			$detailurl = $_W['siteroot'] . 'app/index.php?i=' . $_W['uniacid'] . '&c=entry&m=ewei_shop&do=member&p=log&type=1';
+			if (strexists($detailurl, '/addons/ewei_shop/')) {
+				$detailurl = str_replace("/addons/ewei_shop/", '/', $detailurl);
+			}
+			if (!empty($tm['withdraw']) && empty($usernotice['withdraw'])) {
+				m('message')->sendTplNotice($log_info['openid'], $tm['withdraw'], $msg, $detailurl);
+			} else if (empty($usernotice['withdraw'])) {
+				m('message')->sendCustomNotice($log_info['openid'], $msg, $detailurl);
+			}
+		} else if ($log_info['type'] == 1 && $log_info['status'] == 1) {
+			$msg = array('first' => array('value' => "æ­å–œæ‚¨æˆåŠŸæçŽ°!", "color" => "#4a5077"), 'money' => array('title' => 'æçŽ°é‡‘é¢', 'value' => 'Â¥' . $log_info['money'] . 'å…ƒ', "color" => "#4a5077"), 'timet' => array('title' => 'æçŽ°æ—¶é—´', 'value' => date('Y-m-d H:i:s', $log_info['createtime']), "color" => "#4a5077"), 'remark' => array('value' => "\r\næ„Ÿè°¢æ‚¨çš„æ”¯æŒï¼", "color" => "#4a5077"));
+			$detailurl = $_W['siteroot'] . 'app/index.php?i=' . $_W['uniacid'] . '&c=entry&m=ewei_shop&do=member&p=log&type=1';
+			if (!empty($tm['withdraw_ok']) && empty($usernotice['withdraw_ok'])) {
+				m('message')->sendTplNotice($log_info['openid'], $tm['withdraw_ok'], $msg, $detailurl);
+			} else if (empty($usernotice['withdraw_ok'])) {
+				m('message')->sendCustomNotice($log_info['openid'], $msg, $detailurl);
+			}
+		} else if ($log_info['type'] == 1 && $log_info['status'] == -1) {
+			$msg = array('first' => array('value' => "æŠ±æ­‰ï¼ŒæçŽ°ç”³è¯·å®¡æ ¸å¤±è´¥!", "color" => "#4a5077"), 'money' => array('title' => 'æçŽ°é‡‘é¢', 'value' => 'Â¥' . $log_info['money'] . 'å…ƒ', "color" => "#4a5077"), 'timet' => array('title' => 'æçŽ°æ—¶é—´', 'value' => date('Y-m-d H:i:s', $log_info['createtime']), "color" => "#4a5077"), 'remark' => array('value' => "\r\næœ‰ç–‘é—®è¯·è”ç³»å®¢æœï¼Œè°¢è°¢æ‚¨çš„æ”¯æŒï¼", "color" => "#4a5077"));
+			$detailurl = $_W['siteroot'] . 'app/index.php?i=' . $_W['uniacid'] . '&c=entry&m=ewei_shop&do=member&p=log&type=1';
+			if (strexists($detailurl, '/addons/ewei_shop/')) {
+				$detailurl = str_replace("/addons/ewei_shop/", '/', $detailurl);
+			}
+			if (strexists($detailurl, '/core/mobile/order/')) {
+				$detailurl = str_replace("/core/mobile/order/", '/', $detailurl);
+			}
+			if (!empty($tm['withdraw_fail']) && empty($usernotice['withdraw_fail'])) {
+				m('message')->sendTplNotice($log_info['openid'], $tm['withdraw_fail'], $msg, $detailurl);
+			} else if (empty($usernotice['withdraw_fail'])) {
+				m('message')->sendCustomNotice($log_info['openid'], $msg, $detailurl);
+			}
+		}
+	}
+}

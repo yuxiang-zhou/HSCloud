@@ -1,0 +1,16 @@
+
+-------------------------------------------------
+orderno: SH201607182233203580
+paytype: alipay
+data: []
+setting: ok
+sign: ok
+log: {"plid":"750","type":"wechat","uniacid":"4","openid":"2147","tid":"SH201607182233203580","fee":"298.00","status":"1","module":"ewei_shop","tag":"a:1:{s:14:\"transaction_id\";s:28:\"4003162001201607189270369916\";}","acid":"0","is_usecard":"0","card_type":"0","card_id":"","card_fee":"0.00","encrypt_code":"","createtime":"","eso_tag":"","uniontid":""}
+
+-------------------------------------------------
+orderno: SH201607182233203580
+paytype: alipay
+data: []
+setting: ok
+sign: ok
+log: {"plid":"750","type":"wechat","uniacid":"4","openid":"2147","tid":"SH201607182233203580","fee":"298.00","status":"1","module":"ewei_shop","tag":"a:1:{s:14:\"transaction_id\";s:28:\"4003162001201607189270369916\";}","acid":"0","is_usecard":"0","card_type":"0","card_id":"","card_fee":"0.00","encrypt_code":"","createtime":"","eso_tag":"","uniontid":""}

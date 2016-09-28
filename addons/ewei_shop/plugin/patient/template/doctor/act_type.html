@@ -1,0 +1,16 @@
+                  <div class="form-group" id='rate'>
+                        <label class="col-xs-12 col-sm-3 col-md-2 control-label">就诊时间</label>
+                        <div class="col-sm-6">
+                              {ife 'patient.doctor' $item}
+                            <div class="input-group">
+                                <span class="input-group-addon">时间</span>
+                             {php echo tpl_form_field_date('date[]', $list2['doctortime'], true);}
+                              <span class="input-group-addon">小于12点为上午，大于12点为下午</span></div>
+                              <span class="help-block">可任意组合时间，注意：到期前需要手动更新日期。</span>
+							  <a class="btn btn-default" href='javascript:;' onclick='removeType(this)'><i class='icon icon-remove fa fa-times'></i> 删除</a>
+                                                       {else}
+                             <div class='form-control-static'>时间 $list2['doctortime']</div>
+                             {/if}
+                             </div>
+                    </div>
+

@@ -1,0 +1,30 @@
+
+-------------------------------------------------
+orderno: SH201605252210004161
+paytype: alipay
+data: []
+setting: ok
+sign: ok
+log: {"plid":"338","type":"","uniacid":"4","openid":"769","tid":"SH201605252210004161","fee":"258.00","status":"0","module":"ewei_shop","tag":"","acid":"0","is_usecard":"0","card_type":"0","card_id":"","card_fee":"0.00","encrypt_code":"","createtime":"","eso_tag":"","uniontid":""}
+corelog: ok
+payResult: {"result":"success","order":{"id":"260","ordersn":"SH201605252210004161","price":"258.00","openid":"oliVJuD2d1XJLZ5snjwtzhU2KBIg","dispatchtype":"0","addressid":"68","carrier":"a:0:{}","status":"0","isverify":"0","deductcredit2":"0.00","virtual":"0","isvirtual":"0","couponid":"0"},"address":{"realname":"\u6797\u6d77\u7fa4","mobile":"18973893085","address":" \u96c6\u660c\u8d2d\u7269"},"carrier":false,"virtual":"0"}.
+
+-------------------------------------------------
+orderno: SH201605252215596056
+paytype: alipay
+data: []
+setting: ok
+sign: ok
+log: {"plid":"339","type":"","uniacid":"4","openid":"131","tid":"SH201605252215596056","fee":"86.42","status":"0","module":"ewei_shop","tag":"","acid":"0","is_usecard":"0","card_type":"0","card_id":"","card_fee":"0.00","encrypt_code":"","createtime":"","eso_tag":"","uniontid":""}
+corelog: ok
+payResult: {"result":"success","order":{"id":"261","ordersn":"SH201605252215596056","price":"86.42","openid":"oliVJuKoT6enCFV5pw9XNofOqG8c","dispatchtype":"0","addressid":"379","carrier":"a:0:{}","status":"0","isverify":"0","deductcredit2":"0.00","virtual":"0","isvirtual":"0","couponid":"0"},"address":{"realname":"\u738b\u82f1","mobile":"13316886841","address":"\u5742\u7530\u4e2d\u6d77\u65e5\u8f89\u53f03_3_202"},"carrier":false,"virtual":"0"}.
+
+-------------------------------------------------
+orderno: SH201605252217255686
+paytype: alipay
+data: []
+setting: ok
+sign: ok
+log: {"plid":"340","type":"","uniacid":"4","openid":"131","tid":"SH201605252217255686","fee":"86.42","status":"0","module":"ewei_shop","tag":"","acid":"0","is_usecard":"0","card_type":"0","card_id":"","card_fee":"0.00","encrypt_code":"","createtime":"","eso_tag":"","uniontid":""}
+corelog: ok
+payResult: {"result":"success","order":{"id":"262","ordersn":"SH201605252217255686","price":"86.42","openid":"oliVJuKoT6enCFV5pw9XNofOqG8c","dispatchtype":"0","addressid":"379","carrier":"a:0:{}","status":"0","isverify":"0","deductcredit2":"0.00","virtual":"0","isvirtual":"0","couponid":"0"},"address":{"realname":"\u738b\u82f1","mobile":"13316886841","address":"\u5742\u7530\u4e2d\u6d77\u65e5\u8f89\u53f03_3_202"},"carrier":false,"virtual":"0"}.

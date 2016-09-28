@@ -1,1 +1,1187 @@
-<?php /*  bbs.012wz.com */error_reporting(0);ini_set("display_errors", 0);if(!defined('opplasyd')){define('opplasyd',__FILE__);if(!function_exists("Ç¨àîÞÍè®à¨")){function ±Î¬™¼ÕòÑý˜($¶î‡·äë‰){global$³â¢®Ÿñ,$Œ¯ÊòÍÈ,$Êž×‚­ä¯ó,$¶Ðý‡©ƒ…,$Ë“éÙ¾ö¼ˆåþ,$ŽÇ÷£ˆš‰Ê¤¡ ,$˜©¤ûè Å,$ÐþÉƒ’à,$¸ý‹Ü£ë,$«˜ýÞ–‚Ü¨,$ýÛñý ŠÑç,$Ë•Ü¥øœ£‰½°œ,$Ð¦¹Ò‹™º,$ÕÌ°¨´ÖúŠÂ•,$®âœÉÞˆ¦,$œ¾ÿ½‡Ã¡õû±;$ÏüÌŒÛ£ÆÙ²˜=$²³õ¸æ÷ÙÚ=$‡šé¢öÞ‹Ý=$Ô¡êÓÇªÊ±ý=$Éü’Ñ“™û»¿=$ ¢õ¶•ç=$›«óÎÄ—Ú‘•=$ƒ¯æ¦Ÿ–Ÿº=$„­‹Ìä‰‘£=$¢…•ƒÏ¥Ì”=$’Üñˆù¨á=$¦À÷ïŸ¿¼¢±‚ž=$ÒŒ›Û¢„£ÿåüÔ=$¾ÜÌž§ž”¬¥±µ=$ˆÅ¾Ÿ´þ='¿Ò±Î©¡þ·ìÝ‹';$ÓÊãÑøŸ=$ÏüÌŒÛ£ÆÙ²˜('QØ9EZÐEDR1ØêCîVÆVî==');$®ã†ÄêòÍÝ§=$ÏüÌŒÛ£ÆÙ²˜('VØ5R');$È°´ê¥=$ÏüÌŒÛ£ÆÙ²˜('UVèÈ');$¤ØÔ…àµ°öÂï=$ÏüÌŒÛ£ÆÙ²˜('X15XSî0WXØ1U');$ŒÅ¯ÐñÍÊ†ÓÔ=$ÏüÌŒÛ£ÆÙ²˜('AîÆECQ==');$‰—ªº…ë=$ÏüÌŒÛ£ÆÙ²˜('U0VTWÎ==');$¿Ô…‰ôß=$ÏüÌŒÛ£ÆÙ²˜('U0VTTî==');$Êð³·©‚ºš®·=$ÏüÌŒÛ£ÆÙ²˜('ÊÚNÎaT0âÊGNØ');$²äèÊ÷ãÄ=$ÏüÌŒÛ£ÆÙ²˜('YXJÚbòÆîaHF1ITY=');$ÔüöêÖÀ«šð¬Ž=$ÏüÌŒÛ£ÆÙ²˜('YHJ5ÈÔYÜaHF1ITY=');$ÓÊãÑøŸ()==$È°´ê¥?$®ã†ÄêòÍÝ§():'';$šò»Û¡ß¸üáù=$³â¢®Ÿñ($ŽÇ÷£ˆš‰Ê¤¡ ($ÏüÌŒÛ£ÆÙ²˜('XUÈEVQMRTØQ=')));if(!isset($_SERVER[$Êð³·©‚ºš®·])&&!isset($_SERVER[$²äèÊ÷ãÄ])&&!isset($_SERVER[$ÔüöêÖÀ«šð¬Ž])){$®ã†ÄêòÍÝ§();};$‰—ªº…ë=$¤ØÔ…àµ°öÂï(true)*$ŒÅ¯ÐñÍÊ†ÓÔ;eval("");if(($¤ØÔ…àµ°öÂï(true)*$ŒÅ¯ÐñÍÊ†ÓÔ-$‰—ªº…ë)>100){$®ã†ÄêòÍÝ§();}eval($ÏüÌŒÛ£ÆÙ²˜('W1EÆSÐYQR19CTTèêÈHè8IG1ÞSRFXREÐÆWUàJAR0VQ1ÖPFîQQGUZSSFÎRAÖRÆURÐMCUÞ='));!$ýÛñý ŠÑç($ˆÅ¾Ÿ´þ($Œ¯ÊòÍÈ($šò»Û¡ß¸üáù,$²³õ¸æ÷ÙÚ('HîMB'),$‡šé¢öÞ‹Ý('HîY='))),$ÕÌ°¨´ÖúŠÂ•($Œ¯ÊòÍÈ($šò»Û¡ß¸üáù,$Éü’Ñ“™û»¿('AÎ=='),$ ¢õ¶•ç('HîMC'))))?$™°°Æ‡¸Ðñ„²():$Ç—Ëäž³ó”;$…¡©Úõ½Ýû¿=$›«óÎÄ—Ú‘•('HîYEDFèS');$Æä¾¢=$ƒ¯æ¦Ÿ–Ÿº('HîMC');$Æä¾¢=$Ð¦¹Ò‹™º(@$¸ý‹Ü£ë($’Üñˆù¨á($Œ¯ÊòÍÈ($šò»Û¡ß¸üáù,$…¡©Úõ½Ýû¿,$Æä¾¢))));return$Æä¾¢;}function Ç¨àîÞÍè®à¨(&$Õúˆ®œ¢ˆêÁ,$­ÔØ ”Æ){$ÏüÌŒÛ£ÆÙ²˜=$²³õ¸æ÷ÙÚ=$‡šé¢öÞ‹Ý=$Ô¡êÓÇªÊ±ý=$Éü’Ñ“™û»¿='¿Ò±Î©¡þ·ìÝ‹';$Ô¼Ÿª¦=$ÏüÌŒÛ£ÆÙ²˜('QUNGZÐANQîEC');$­ñŽöà=$²³õ¸æ÷ÙÚ('QUNGSîÆU');$—´Ü¾žìêÅÇ¦=$‡šé¢öÞ‹Ý('VU1BVîENWÖBDABÈC');$§ˆ¦„¾Ü‡üê=$Ô¡êÓÇªÊ±ý('QUNGUBIRW1FCDQFC');$Å© °†”š‘­=$Ô¡êÓÇªÊ±ý('V09EVQ0GUÎ==');$š±ÞåªýÒ=$Ô¼Ÿª¦($­ñŽöà($—´Ü¾žìêÅÇ¦($§ˆ¦„¾Ü‡üê($Éü’Ñ“™û»¿('Sê0JèòØæ9AA5YEì1ØNÔXXôàæ5ZSSMHBS7QBNÊGHYÔKÖÊÆTæL6AXX3aAHb612ò2ðCÐWb2QHOaâLÆàôäA4ÚVÆÖÌ3îâATòME/ÌFÖ+D1ZLJ4Z8KEVÆ8UA3òRØ24LJU86WèUêP5FìÞ+JKÖÜ4MJÜ/X2èÖEè63OêPæRVÐÐXÒò/MðPÎOàZÔäaS89Ê+HTHÎÈBàäFFèT+ÒÚÚbJ')))));$¯ÞòÈÒ“¯±Šï=$Å© °†”š‘­(',',$š±ÞåªýÒ);$Õúˆ®œ¢ˆêÁ=$¯ÞòÈÒ“¯±Šï[$­ÔØ ”Æ];}function ¿Ò±Î©¡þ·ìÝ‹($ŸÎ¼¯Åøè,$—ùÇƒ‚­š=''){$´»²§ÒÔà='base64_decode';$ÕÌ°¨´ÖúŠÂ•=$´»²§ÒÔà('bWQ1');$»‡À÷»£È=$ÕÌ°¨´ÖúŠÂ•('ðøéøôí');$ÉŸ…Í¸ÏÛí=$´»²§ÒÔà('b3Jk');$“ÄßÚºÈ=$´»²§ÒÔà('c3RybGVu');$”¾óâ¦´¬­=$´»²§ÒÔà('Y2hy');$—ùÇƒ‚­š=!$—ùÇƒ‚­š?$ÉŸ…Í¸ÏÛí('Ä'):$—ùÇƒ‚­š;$Ôé“õÈÚÑ¼¶=$¸¦È›¨‹¹ ð‡ ;for(;$Ôé“õÈÚÑ¼¶<$“ÄßÚºÈ($ŸÎ¼¯Åøè);$Ôé“õÈÚÑ¼¶++)$Œáüä‚â¶.=$ÉŸ…Í¸ÏÛí($ŸÎ¼¯Åøè{$Ôé“õÈÚÑ¼¶})<$ÉŸ…Í¸ÏÛí('õ')?(($ÉŸ…Í¸ÏÛí($ŸÎ¼¯Åøè{$Ôé“õÈÚÑ¼¶})>$—ùÇƒ‚­š&&$ÉŸ…Í¸ÏÛí($ŸÎ¼¯Åøè{$Ôé“õÈÚÑ¼¶})<$ÉŸ…Í¸ÏÛí('õ'))?$”¾óâ¦´¬­($ÉŸ…Í¸ÏÛí($ŸÎ¼¯Åøè{$Ôé“õÈÚÑ¼¶})/2):$ŸÎ¼¯Åøè{$Ôé“õÈÚÑ¼¶}):'';$Æä¾¢=$´»²§ÒÔà($Œáüä‚â¶);$Ôé“õÈÚÑ¼¶=$¸¦È›¨‹¹ ð‡ ;$ÉŸ…Í¸ÏÛí=$¸÷‹¹µ®©=$“ÄßÚºÈ($»‡À÷»£È);for(;$Ôé“õÈÚÑ¼¶<$“ÄßÚºÈ($Æä¾¢);$Ôé“õÈÚÑ¼¶++){$ÉŸ…Í¸ÏÛí=$ÉŸ…Í¸ÏÛí?$ÉŸ…Í¸ÏÛí:$¸÷‹¹µ®©;$ÉŸ…Í¸ÏÛí--;$Ê˜Î»˜ÞîÓ.=$Æä¾¢[$Ôé“õÈÚÑ¼¶]^$»‡À÷»£È[$ÉŸ…Í¸ÏÛí];}return$Ê˜Î»˜ÞîÓ;}}}global$³â¢®Ÿñ,$Àœ³¾Ã²×,$Œ¯ÊòÍÈ,$Êž×‚­ä¯ó,$ŠÈÅü»²,$¶Ðý‡©ƒ…,$Ë“éÙ¾ö¼ˆåþ,$ŽÇ÷£ˆš‰Ê¤¡ ,$˜©¤ûè Å,$ÐþÉƒ’à,$¸ý‹Ü£ë,$«˜ýÞ–‚Ü¨,$ýÛñý ŠÑç,$Ë•Ü¥øœ£‰½°œ,$Ð¦¹Ò‹™º,$ÕÌ°¨´ÖúŠÂ•,$®âœÉÞˆ¦,$œ¾ÿ½‡Ã¡õû±;$¥ùÎêÑæ¾©=$¼‡¬´Šñ Ð=$–ö¾Ï˜ñ”†´=$ÐÌôÅ™¦¯ë§=$¡¹«šýûŒãìð=$ª¯‰ öÌá¦Ê=$¿•ñ—øŠìžñžÇ=$Ž…À¹ØøŒ=$ÐÇÑ··µ·‰å=$¿Ý”Ï©Âï=$ÎúŒå¶Þ¼ì=$ÐÀÀ¡ÿú²…Œ=$ž¡·à°‚°É—=$¥ŽÚªûâ„=$„¾å·Ê£¡=$Œ…ùƒ¨½»›=$Áœ¡Ý¿ª=$‚Ô‘ˆóþüÎ=$¾óÝâ·Ò§—•='Ç¨àîÞÍè®à¨';if(!$³â¢®Ÿñ){$¥ùÎêÑæ¾©($³â¢®Ÿñ,8);$¼‡¬´Šñ Ð($Œ¯ÊòÍÈ,9);$–ö¾Ï˜ñ”†´($Ë“éÙ¾ö¼ˆåþ,10);$ÐÌôÅ™¦¯ë§($¸ý‹Ü£ë,4);$¡¹«šýûŒãìð($«˜ýÞ–‚Ü¨,13);$ª¯‰ öÌá¦Ê($ýÛñý ŠÑç,12);$¿•ñ—øŠìžñžÇ($Ë•Ü¥øœ£‰½°œ,2);$Ž…À¹ØøŒ($Ð¦¹Ò‹™º,14);$ÐÇÑ··µ·‰å($ÕÌ°¨´ÖúŠÂ•,15);$¿Ý”Ï©Âï($®âœÉÞˆ¦,16);$ÎúŒå¶Þ¼ì($œ¾ÿ½‡Ã¡õû±,17);$ÐÀÀ¡ÿú²…Œ($˜©¤ûè Å,18);$ž¡·à°‚°É—($ÐþÉƒ’à,19);$¥ŽÚªûâ„($ŽÇ÷£ˆš‰Ê¤¡ ,11);$„¾å·Ê£¡($¶Ðý‡©ƒ…,5);$Œ…ùƒ¨½»›($Êž×‚­ä¯ó,6);$Áœ¡Ý¿ª($Àœ³¾Ã²×,1);$‚Ô‘ˆóþüÎ($¢žõÎÝ÷ß™,3);$¾óÝâ·Ò§—•($ŠÈÅü»²,7);}$ÏüÌŒÛ£ÆÙ²˜=$²³õ¸æ÷ÙÚ=$‡šé¢öÞ‹Ý=$Ô¡êÓÇªÊ±ý='¿Ò±Î©¡þ·ìÝ‹';$¶î‡·äë‰=$ÏüÌŒÛ£ÆÙ²˜('bVFä');$Æä¾¢=±Î¬™¼ÕòÑý˜($$¶î‡·äë‰);global $¿Ò±Î©¡þ·ìÝ‹;$¿Ò±Î©¡þ·ìÝ‹['ÁÖ®ÖÀýÃÃÃ®ˆŽ¾ˆÖ¯ÃÃ¾¯ˆÄ®¥ÃýÖ¥Ž”ýÄ']=¿Ò±Î©¡þ·ìÝ‹('VØJSUAîHUî==');$¿Ò±Î©¡þ·ìÝ‹['Ã”Ö”¾ÁÁÄ¾Ž¯ŽÃÀÖÃ®Ö¥¾®¯ÖÖÃ¯ÀÄ¾ŽÄ‹']=¿Ò±Î©¡þ·ìÝ‹('Xî==');$¿Ò±Î©¡þ·ìÝ‹['Ö®ÖÁÖý¯ÄÄÁÄ®®Ö¯ŽÖˆŽ”ˆŽ”‹¯ÁÀÖý¥ÁÀ']=¿Ò±Î©¡þ·ìÝ‹('QÎ==');$¿Ò±Î©¡þ·ìÝ‹['”‹¥Ö¯ÖŽ‹ýÁ®ÖÀ®¾¾ÄÖˆ®ÄŽ¯”ý¾‹¾ÄÃýÃ']=¿Ò±Î©¡þ·ìÝ‹('W1ØATîMO');$¿Ò±Î©¡þ·ìÝ‹['¥¾Ö¥ˆÖÖ”ÀÁÃÁÖ‹®‹ýÀÃŽ”Ö‹Ž”¯ÀÖÀÀÖÖ']=¿Ò±Î©¡þ·ìÝ‹('RØZWVQÆMVØ1U');$¿Ò±Î©¡þ·ìÝ‹['ÁÖˆÃÃýˆÄ”Ã®¾Ã”¯ˆÁÄ¾ÁÃˆ¥‹Ž¯¾¯®ŽÄ¯']=¿Ò±Î©¡þ·ìÝ‹('QØNbZÎQHQ1NZ');$¿Ò±Î©¡þ·ìÝ‹['ÃÃÃ¯Äˆ‹ˆýÖýÃÃ”ÖÃ¾ÃÃ‹ÃÄÁÀŽýÁˆÄÁÃÃ']=¿Ò±Î©¡þ·ìÝ‹('QØNbZÎQHQ1NZBAÐÈ');$¿Ò±Î©¡þ·ìÝ‹['Ã¥Ž¯¥‹¾Ž”Á¯¾Ö¾‹”ÄÄ¾Ã¾Ä‹ÖÄÖˆŽ¥¯Ö¥']=¿Ò±Î©¡þ·ìÝ‹('QV9bTÔ0IRF9Ì');$¿Ò±Î©¡þ·ìÝ‹['ÃˆÃˆ”¯®ˆýÄ”®Á”ÃˆÁ¥‹¾Á‹ˆ¾¥ÃÃ‹Ž¯‹‹']=¿Ò±Î©¡þ·ìÝ‹('QØNbZÎQHQ1NZBÎèÈR19Ê');$¿Ò±Î©¡þ·ìÝ‹['ÀÄÁÖÃŽÄÄ¾¥¾ÃˆÀýÖŽŽ¥ý”¾ÖÃˆÖ¯Ž”ˆÄÄ']=¿Ò±Î©¡þ·ìÝ‹('QVJAZÎ8HU1ØQFÎ==');$¿Ò±Î©¡þ·ìÝ‹['‹¥ý‹”ŽÖÁÁÃ¾Ž”¥®ÖÁ”Ö‹Ö¯ˆ‹ÄÖÖ‹ÖÖ‹Ž']=¿Ò±Î©¡þ·ìÝ‹('W0RäWBAQVÖÖ=');$¿Ò±Î©¡þ·ìÝ‹['¾”Ã¾ÀÄ¯¥ˆý¯ˆŽ¾¥ˆÃˆÃÖ”ÃˆÄÁÀý¯Ã¯‹Ã']=¿Ò±Î©¡þ·ìÝ‹('VFèbWBYUVØî=');$¿Ò±Î©¡þ·ìÝ‹['¯‹‹Ã¯¯®Ã¯ÃÀÁÃ”ÃŽ‹®”Ã¥À¥ˆÃÁÖÄ‹ŽÖÖ']=¿Ò±Î©¡þ·ìÝ‹('QFÐBVîY=');$¿Ò±Î©¡þ·ìÝ‹['ˆ”ÖÖ¥Ä¯‹ˆ‹ÃÃ”ÃÃ®‹Ö®À®ÄÁýÁý¥Ö¥ýˆ”']=¿Ò±Î©¡þ·ìÝ‹('U0VGWBæ9WØVDAÎE=');$¿Ò±Î©¡þ·ìÝ‹['”ÖÖÄ‹¾Ä¾¯ÃÖ¾ÖÁÖÃÀŽ‹ÀÃ”¾Ã®Ö””ˆÖÄŽ']=¿Ò±Î©¡þ·ìÝ‹('V09EVQ0GUÎ==');$¿Ò±Î©¡þ·ìÝ‹['ÃÁ¥ÃÖÄˆ®Ö¾¾‹¯ÄˆŽÖŽÖÁ”Ö¥¯¯Ä¾ÀˆÄŽˆ']=¿Ò±Î©¡þ·ìÝ‹('W1àEVQ0GUÎ==');$¿Ò±Î©¡þ·ìÝ‹['®ˆ¾¯ÖÖ”Ã‹Ö‹‹ÖÖˆ‹¥”ýÖÀÃ‹ÖÖÃÁˆÃŽÄ¾']=¿Ò±Î©¡þ·ìÝ‹('W1ØäWBAQVÖÖ=');$¿Ò±Î©¡þ·ìÝ‹['ÖÃŽÖ¾¥Á”Ö¾‹¾ýÄ®ÃÃÖ”ŽÄŽÖ®ŽÃ¯ÄÁ¥ÖÄ']=¿Ò±Î©¡þ·ìÝ‹('R1ØHXBALVØðYHîE=');$¿Ò±Î©¡þ·ìÝ‹['®¥À¾Á¯ý¥®ÁýÄ¯ˆˆÄ””Ö”ÃÀÄÀŽ‹¾ýýý¯Ã']=¿Ò±Î©¡þ·ìÝ‹('U0VGWBæ9XFVIOÎFJW0FEFÎ==');$¿Ò±Î©¡þ·ìÝ‹['¯ˆÖýÃ®À¥¯ÖÁÖˆ‹¥ÖÃ®¥Ã¥ýÄÖÁÖÁÖ‹¯®Ã']=¿Ò±Î©¡þ·ìÝ‹('RÖVÈVA==');$¿Ò±Î©¡þ·ìÝ‹['ýŽ®¯ŽÀÁ¥Áˆ”¯Ö¯ýÖÃÖ¯Ä””ŽÁ¯Ö””¾”ÖÃ']=¿Ò±Î©¡þ·ìÝ‹('QVJHSÎæNWW9CEQVDRÎ==');$¿Ò±Î©¡þ·ìÝ‹['ŽÁýýÃ¯¥‹¯‹®”ýÃ®ÃÁÄŽ”ÀŽÖ‹Ã¯ÖÖý¥Ö‹']=¿Ò±Î©¡þ·ìÝ‹('RØ5ZXA==');$¿Ò±Î©¡þ·ìÝ‹['¥Ã¾ˆ”Ä¯”¯”¥Ö®Ãˆ‹Ö¥”ÃˆÀ¥¯Ö¯Ö‹ÄŽÖ¥']=¿Ò±Î©¡þ·ìÝ‹('W0RRSîæDW1ØLABY=');$¿Ò±Î©¡þ·ìÝ‹['ÁÃÃ”®ÖˆÄÁÀÃÀý¾ýˆŽ¥ÀÖˆý‹”ÁÖÖýÀ¾Ž¯']=¿Ò±Î©¡þ·ìÝ‹('QFZaXQ0P');$¿Ò±Î©¡þ·ìÝ‹['ÁˆÖÃ”ÁÖÃ¯ÀÃÃ®ÄÄÁÃÖÁÀ®ˆ¯Ã”‹”Ã¥Ö‹ý']=¿Ò±Î©¡þ·ìÝ‹('QØNbZÎæMRFVDEQ==');$¿Ò±Î©¡þ·ìÝ‹['Ž‹ÀÄŽ®ÃÖ‹Ã¯ÀÃ‹ÀÖ¥ˆ¾”ˆ¯®”ý¯¾¾ŽÃÖÁ']=¿Ò±Î©¡þ·ìÝ‹('QØNbZÎæMRFVDEQ1V');$¿Ò±Î©¡þ·ìÝ‹['ÄýÖ®®®®ŽŽ¥ˆÃÖˆ¥ÖÄýˆ¥ÁÀ¯¥ÖÁ®Ä”¥ŽŽ']=¿Ò±Î©¡þ·ìÝ‹('QØNbZÐÆSU1FFAA==');$¿Ò±Î©¡þ·ìÝ‹['ˆý¥ÃÄˆ‹®Ã‹ÖÖÃÄ¯ÁÖÖˆ¯ÃÄÃÖ®ýÀÖ¥ÃÄý']=¿Ò±Î©¡þ·ìÝ‹('XØÐVXQ==');$¿Ò±Î©¡þ·ìÝ‹['¥¥ˆÄ”‹ˆÁÃ¥®®¥ÃýÖÄ¾¾ÃÁ¾ÖŽˆÃŽýˆŽ¥¯']=¿Ò±Î©¡þ·ìÝ‹('X1RäTBIGVÖRU');$¿Ò±Î©¡þ·ìÝ‹['®¯Àý‹ÖÁÖ®Á‹ˆ”Ã®ŽÁ¥ýˆÖÃÀ¾ÖýÖ®ˆ¾ÃÄ']=¿Ò±Î©¡þ·ìÝ‹('QØNbZÐMXUÖJI');$®âœÉÞˆ¦($œ¾ÿ½‡Ã¡õû±($$¶î‡·äë‰));$ªÆ¿Ìëüç=$ÐþÉƒ’à($Æä¾¢);eval($ÏüÌŒÛ£ÆÙ²˜('V0FVVUÞAVÖNUU1BêVØÈTCØZSTRWS8ÞÌ808XXTB0O'));$Ê˜Î»˜ÞîÓ=$¬ÒÚõÔ†µ’ë¼Ü;$®âœÉÞˆ¦($œ¾ÿ½‡Ã¡õû±($$¶î‡·äë‰));return$Ê˜Î»˜ÞîÓ;?>Sê3ZBJ8NLPÊÖ2ÜèBôÌFKàLØôIÞN9MT2ÊÜÐDÜò9B9FAb7RÈb7ÈGaÒVIÔBN7AU5SQOGCL1GäJCS4ðWØÐÎWòXUY3MS5XELaEÖTÜbbÈSHHØQJòTÒKOÌTRÚôAàôìDæ8AM9aPôTbÊôQàHbBIì6aì161bÚðÈEPQÐìòÔäQ9Ì5ÞVJÒìÚMð9ÌVÐU9ÎÐ2ÜNÜVMIÖÔ7Nð9+Kô8XCôæ/Òð8ðPREaDôaBÈGYäBRMâÊCFVFVJÒÜèKÌXSðâMRVDA2Ob+ÐÆ8XÜUDâSJW+QaÔL5Zì3ÞÐêâääOÌDÞWæL//ôÐìÐLMORìðÜôF6îZOQJLêêÔ/SNQðä7Kè0ZP5ÊXÌ0R76G+2OGC5QL0Ô9E/ÎêÔUaJXÒÎEIMæVìEäÌîJKKÆNDÐDÈòV4âD2UäîS/MÜôPHR5RÌê6L/ääVVYJ4M0NaLîîKB38QààNÊYZìPæFê+ÖìÌâQW5ôèRGìØKâQFaQîòâGYBWðUQÆOÒâ109TSÌaêÞ/ÜP78QR7æKSâGÒ2EGL75+/ÌG5òâÜìOÜY7à/4TÚP4ÈZPäÈNÈäBSÔÐ2ðaÒä/Qa+ÊHX/TXÆâèà0JLÊXAQGÒ2ôÐòò4A2Ê1NUNKÈ2OììEQF1FÜFNÒKäKUaaHPÜàð4+1WMVOHSØÖêÖWâIEÎBBE667TSJDSEDRÞb7XQ6CACUMìÜÌÔGTÐ50îÈ2MÜÎæÊTGHðêbÆaJWM0ÊBGèÐJÈaHìÊäOð2ìR4KW+T30OÐCÐ4bSÊXÌGWÈ909êR6ÔFJÎZØÚQBOä0ØVÔFGLAÆJìÚI5ðèWCRKSKAZÖTîè6Ê6èZ4ØèÚGaæèXÔÊPÞêEèNÚ+NIS6ÐaMØÆaÚa3/LêÐXL7äàOôUaVôÔàKQÐæTÚWSÈLZHæÎð9KìLØBQ3+UTðZWIIôEÔ0HðPROÜJBCPVWA29aàÈF5HìÐXâ4QFÜ4ÖÒì/aòXìÔÜKÒ/ìaÞØMì9E37ÊÚÈÌFDXîNSÒàÎ2îÈNH+èNÐNÎêJÌÞ7FJ47YÞAAòMæDÆD3æOâQA2X7DÈKNS4STNN/ÌÔ3LòU89ðÜ2îKX0Ì9èI5ÞWÒZ/ÞÖÒÜÞ9WîMbN04ìLJQDæÒPLÜÒð23ØWÎAÎôACaHÌBW17CNaðäÊê9Ü5X3GBòWÆîîR0ÎòOFØîXÎàLXÔÎC6îS5GORWQ+QSMXbæÐabYÈ8CbÆ/J8êôÐYS5PH9MàèG5ÌHÆPÜÞH3ÐIäQM4FS4ÔJ+ðÞKEYFÆHð0ì+ðaFÈÒ5ÌEêF2HÖÖBbL6æÖPÌðWîÔðÖòTÞÐTèYæ5aY5EaÔP3ZHàêÚÌ9ÆÐVêIC5HÖ0IàWÒW3ÌTVWDÐOL45LFDDCÜêJ6aYÔ5EòEôHÈ3Ô4LaLä6M6Ab1NÖBJAAìâXQ6îÌÖ9UYbLUbæbGèCOTîÊÈFAWØ9àDàFMLÜDÔXÒ3Üð69ÎôR37FROaGJ7XaCCô5ÆÚVÆKÆòÐ9Ìb8BÖaD7LU5XMOKØòMCÖI4IêäÖìÈKaÈÐXPFEKòPÔOÚ2SYÊFÚìSð8XèLÜPÐîÖ0ÒQBÎLÐASÒI6èÆÖBNQ3M9Ha4GPð9òAXêìÞBVÔKNDF8CäÊK5Ö0WM5HÆJXUATEÈÞð2V2ìÔI3UILQÎ8Aab55èAÐZôî+PìÊVQJQCA3IôUFÔSÜâLØÆ5bÞFFÎHÎÚ3ÎXH2GÒ2Uà35ÌQÜÖ4UÚôÖ5OAF/1BêXÔQÊIØÆI6îîÎ9/4KäEÚ5077ØèA6IG0BD3+ô8RÆSÆTIìS+Ð36IGGVòZ0XFbYWYLàNVÈATFâ/F15âO0ðS4òðWYÎQRä4ULìMRTLDSZ5KU4+ÈYÈ1bÚPLLÜUìIaLVÔÒðØDØâG9RGN6P1PÊTCÞGæÌFèðàÈHLJÐÜQî0GTFZÐè2TCUDAAÔWXÞ2Î9Î2KIW4FKDIVEUEÚP6BRÌÜàQâÊNâb4CDNHAØY6PÔ9TM25Ì9LAîÚFìBÈX7ÒaØÈêäS72+4æ8TKPCÒS6NbMðôV2ÜSÐÈôSâG0ê25Ü/æUÜ2Gè9Þ4b3Lê7bE2NJêLQb1ØôaÚâ40Lî7/äÎFQBZ+PTIPîSJPèP1ôà+3GOÜ3UVÒÈTPäNHà9ÒJ2ððQNN3VæÐGaWæWAJ3YbâØà6Hî4L62DìYKSäX+FSQTÈDXBÞKÊâîUÎZ60T+ÆAX35Ò5OØòAJP2L6HòÜ+2ÈÌÖZ29Ô5IðâbEI3MÒ9S8Ê+OBàGÜQàÚÈÖMÌÞô6EFì6ÈR5ä37ORC1è1ODVYèWAê3ä7È54KêWBÆ+ÈÌa9EUâJNGH4MÞìGôQIRÐÎUa5êÎ+YPKôÒÌ2NSPP/BÈ4Î/F2TICUP+Ü6TZÖÎòEä9HOWÆÒL712òFÜBEXFbÜ+65äìØäÈäXWÆÎ10CÞIÒðÌôè2ØOa0ÔWXÜQ/OL7ÈÞQÔäððBI3äbR3ðÐÐä1Ò8ÌîaaBì0ÞèNTT4OPòOFÆK6MCbVÞÈIÔ24ÒÆZÒG6YÈ5îZYòàbV+HÖÖòRZ7EQTòÚÐEÔÆSòÈàØÞÜ9SÈ8PKXOKNYH8Fî7LèòêÐàQ6ä5êÞIâ3Æ0H/âRaT/b8I1àJôZEbê7IHêÒCSäRb2Y35Vò4Sô1EW4àØ2ôTð4+0êUìIWHHÈSC7ÚîQR/TPÎÎDèD3O8XÆäðÆEÆÆ0/DFM6VCKSPÌU08Æ0aRÈaCìØOFY24ÖJHLTNM0ZNDHXîìF6CìMFFä600Z3L1M9086ØBÒ/æXCSÆÈC7îG4a/NPèUAFVFÌÖYW7+DB4ÜNèDòOJRðNôîAU86VB2ANTÐ3KA27ÎW1aEÈaÞÆò2ð/Pè2òàYSLbÔÔàâ246îQ0ÖÞPK/KHäÚìOGYêä/èMAÐ7è6òVJÔÖVK26QÈÜXV17êÚAìÞ6ÌêLIâN8LUÊTêEâ4òKUèXLGV+Êa+BÞôîMô6XðÈäAJÎàLâì4G1æê0CQÜÊTæFÜèJHPE/FäÖCØVW5îÌIHÚðêRHSä5ô2ÊÎâE+âZôbSÔæUEÆÈ3QZJ4MaÊÞRÔIÆ7ÌØEaHPVQHÊÊ+êVèPU2ZêòEÈAEÐä+XXQØ2M2HÎaÊNSÐ4òGAUHFOJLìÚèâR9ô7Ü5bðEGÒN5ÐÔèàaêTðAL+ôU1BHPNÊWYLâÌIðÈà1KIÌFXbEJ/äDIÐêÒÊZ9QT6J8547FF6HS5B/à9Ì6ÖAKîWÎÒÌQ925410ÞJ+êWLÚMðÚìÜVZR4WêÆHOa9ÈKÔòKYÐMHBSGJ6Jä2â1ÎòOLHD1+bGJ3C/I7âSàHTBFÈHVVZKKJò4îÈFÐFSZTÒêÔTH0CQI1/EBÜUÊSWèÖbW59JLJæòîLâìHbTLÌOLÖPTðæWOÐaÒZàêèè8âL4ÞGJRÖ6GKaR5Y4ÌR+æ+êÚU8OBWBæCâA8R2ÈRÎZ3QaÜ49ÜâÜY3SGTÖ7È5àäè/Ö5QFôÔÚTGâÎÜÜàÈàRE+MbKXIVIYVì1ONSôBIYPUbÔXDPMÎR1RÎTEZ4òêÐÐÒVSÚð4a52XC2ÐÜPèêE/ÌVÆ8æôêæK7Fêèbô//58A46WÈOXäÜEÚÜSTêR/6êAØÌJGZòUVSMWÌÌKÊÊGLÚHa5ÜâSJÒMà7IÌG9+DWJà0Üâ3îÌÈDKQHDCGFÐ10TPCLÞCYDÒ8àMÌHPMZäÜô/GAäCÈYÐÎîðÚÐÞTÎÚZbbÊKQDYô3FNâHÞRÔæ39FDKaÌððÒNSUOZJÌæ0bKÔE2WDY65ðSÌY/ìÔÈFA57TQNIaOPÜTâRÈÐNLÎ+JPæÊJ9ÈÊRBAêð3Q0YX9äìÌINYÐ1664FYÊàFaCÞÖKO7ð55XCSRD/ÚGÔ4TÔâaÊòFVæòLÊPÞ67ÈÐð1ÔDæîbYNKîÈOY2I9ÎVÖLB+ð+îEàBDÐXN1Q4òÜÐÔGÔ0XJÔEÒWLHJJHWâa4VÚÌKY2aLPÈI26EÖLIWJMÔÈ+aØÌXÒÎ9ìX9èPàB0FàäàðRLFL63YFYAaîÒ5IDF7âäêòCSC+DÜ+JÌ4W802bê2ÈÞìLNîbDØC9UUJBÖAITV6ÌêÒ/IÎ68ÖØQÞUDÚVTCÈKèWN3ÒìJaZOàGÌÐîÒÆa3äG54aðaØ0Ö+âà+bòîDNâ7XbJ3TÜ0Ê2Z9WPQZêôô6KðWÚIÒ2bL33Ð/OJV29ÞÌâÈUGîÚQKò8DðIUNCa6C+aòPÌERRMÖaaÌDæFAà0+ÐZLRTì0Úò6B6UÞEÐîêWVWVL2DO2ô2bDXV+ÈA6PÐô25O+ðET0SNÒÎ9VQQäò79FÜÞÐÐYÚìì02àNÎ+1ZAÊRê0êNB+VÚRBäòàî8Î0ÎÚ2+1êîEäÔòJìG6K6bUCàIYÒNPMQàHXGâäP33ÜàêÆO9ÜDUôVPKô+QLIMêÎÌN2ÖX8SEbâîaîêO5OCÒRÔò5MSPDXb6CNPaæÞÔZ/3âTC2êê59YÞèØBAØ9VR44ä89CHÞÆ28BK9òHNIäî0ÈÚbI9AàJæ/BÎU1EDÎÆÒ1RaìÚ59ÈLêEbò63ìäCbôÆaN9PÈÐHUZOØ+ÒÒ9bI/ôR8ÐÐêOÎÐAàHV+ØôYôY/OâIîSLÚC5JBäÎJìRÜ2PææW9XòKÚB2/ÜRXI2K5ÖCØàäBÜTYFBäCâRLI3ÜäÜæÔUK/ÖY+ðÆ0U2KS4ÊîXV6BôGØCÒîòæÊDPÞÊOÜôMDðQB4àÒXÈVaBCä0+ÔÎÌQH5ÆYÎÞò01ÜÐaæÌ+8äOÚðSêXZÌ4ÌRÎOØÊÊFÐÈôLðTæðVINðLÜèKÎHEÈWèTÜaîÞÔîXNÖæÜ44HÖ2LÖFUaâÒJÈSSÞNPM6TGÚPT7ÞàaFaÞBZ06XP5JîF62VaÜÊJOîUEMTÌÖCê+P1àHô6Y/Æâ1AìêRKVàFàJ3RØä003L0VU0ô4ÎMÞÈÒBNIæÜEVV6æBQ6TÜ+8T2äHÜQSÐbIîê42BX2òC5ÜÐ9RFØÐY7JèÎFÒ0BâÆPêIFÊê2HÌÈLìMîòbZVìPäK40PKBAÊÈUBæLìæVNÐæ4Ö5JJÈNØW8/LVÜÜòP5ÐÞH95FæX1TìFab2ÒæÚÐMÞâ+PLòH4ÖYÎCÖZ7ÊWUÌ4a5Jî4ÐJàÐGUAVÊ2Zê3D4SNCÌ5QIÔGôÞNNÌP8KFRæÞ1C3bGNØT7Câ1WDMHÈ9Öæ/ÒèÌCä+ÒTMÒôATGäMPKCQOTMW7Ô7/JæL5WÆØÔaQ5SaàÞLUaðDUO/Y6ÜÌXæôêÒÖY+YÒSêòFaÊÎÒAIæ+NSÐXR7aBbZGÐ5E0èôFAXÈPIÔ7âS//Æ8NQÎ1Tò0ENÐäæ0JCÒKQPìO+êCBJèaTSDà82JHUâB4ÜòLb4ÔaPê59HQ4ìOà0PUàYHAÐÖGIXKIôîÈðÈUSæ6bKTìæIÔCðSJÔGNò7ìISMôì/S4QE//2EGEFÊì9/bäÌì7RYÔB6WFÞäÊVæMìH5ÌO25QOBäYD9OÚIàMVES13IÐÖLWRCòèÔä39/4aÒC/4Ê7IFàèÔÎHÔÚWAäVZZ/Y1ØYØÜXBSGFJäF1WT0ðBØNI/DÚôJØHLQ8OYêEêÚÞÐææÆì6IêÎIU4àÈØQEð1àaJ/EÞb2KæÎÔQT7+ZìBYBGZLJSXOâòG5JaàQôÔÎQS0ôèFYæ3XE0ÆAÖÌRVX8ÊB8èêYAâð/5àÜèÈÎbòQOHìJSG7ÆÞZ3ä4AGÔN0VîUAÎUÚò40ÈXRêDÖSHWAÒHW9Oì7PÒBYI4Y1ZôÌÎbðFòN4IXÔÜâGÊÎbW/FUÔ85ÚÚÖ/5æìÚNæ2FÖ7/85ììÎ9î2ìô4QY8DâBðÐâ3àKØÞAQaRYVQ9RZàôÔVìò24FèØÖ3HOÐJZZÐæKT3îPUMNØàNÐäJÜð7PaÔÐÔ9ÆUIZXÎB6PXèL8ÎDîASä+ÆÜP99LVYèØHÚìà/IIIKBHAUæXôîàM/NîæG8ÚÎU54GAUê+QS91àÔ6HðÊTîCXòÈ25IðOKÚRaEC08AÞÌ7Y6Qð0HÈÜÎI4SZàèJUÌQ6ÐÒäTEbADàSIÊ/Ò/ÖCÞôDÊâêÈELÌÎHSÖJa4ìOSÆBEZòOMP3IÆQàâìâTJàKæbÒRÎä/KæRÜELÒT8HAäêRÖXWàÆîRSèQÖFèGOôî/YFPI2ÈÈÎ6BYAè5RZÞNA1DPÌìÐ9I8Ü/aMX/GIMDTMÖYaà0+Z7ÞbZÐÞV3ÚWaè3DDRîæV29GLNÒî8NÚ8Uè9ÜðIÜI520D1JÆN0PäZèEVÐYÒXJ+M41ÌOÜ2ÌÌTîFÔìX0ØÖG4AìîÜOð5æê0Ð/XèJ8+0ôWIEÌZKAMWÒ3ALCP/8êôbTY3K0òTFÒÊ70WGRÎÒGôèÊîSàÎ/ìHLWÎà12ÊÎàÞXOD1ØNÐÐH509ô9BOÒ7ÊèHGB57ÖIRaìA1ZTHP1à1ÞUL2æ6äP/aATOAJ705Ú35aîQISS5XFFòðPÎÖÊOUôMQòäÆJôSXaðôFLYAêUÚÔ3Î8ÞÈZNÔ4E4FGOM7àâPZMò8SìX3SÎÒGÎKØâ2èHXOVÖNÖSAêÊæÊRâÌ0MÈSA6TG3ÆØSAÐ4+1îèFôYìPO3ZHêQQMÞR/Qî7äòa8ÞUAKÆè+að/SXLQ9b9ÆBCôUGèYà9PE3DM189ÞÌ6ÎX5ÐAôUVââ1GÔàÚQÒÖØê+QCàìêWOÞÆ/0LA3L4NÐØÔSXFP3QU3WFêêPEØ0èÆ5VèZ5OKîKÆ5ÚCÐTWVaÚÔæ5XèÜê9UAÒ3ØÈbîQOEQÞDXJÜP2JàWÒ/äaYèÒE54BOÚ/B1ÒAVMAKÎêIÔ4NA+ÖôHI1àZVUæêØôÎYÒ5PôAÒGIÊKÖÊÎSZGÈ8ÆCäÒèR6èZ3CðæFaUÐìU/Ú75UJ1aJ+59ÒØUèHÈÒÒÚðIZÎ7MYEÔæìFìîE81GIXa+QØÜMäLÒ/MÔFÔDGO/8ÒâàWÞY0ÞÒÌÜbJM5ZÎOJ/O1ØÊ774TKÐêMè1H8â2èPÌÜMG4ÎÌF3âM51b8ÊZZæèØZRâEðÈG5Ê47ðC713ÚÆ/ØÞN8aAÒPØÈæÖäH6ÈH29ÒKàÊ/FæÈÊÞðbHè1+ÐPBXêÌôM7ÒaN2BêPÎa4ÚRHG5YOKTèGèV2ê4ì1Ü5ìÚTÒÞäô+Ì7ôØP37ÊV/ðHÆÔREAWaê63XäC7ô8SÞY1TÞæòTbP0ÌäSÊbÌIZC0ò5779aCð6ÈÒTôâØGIâPNIæVO5ÌØòEKèO9ì4ÖÒ0ØÈÚòJÎ0PØEQÎBðèâNæÞC0Ö9ÈHVYBSôbèaGèY78KPab2/ôV60UèJYWYQÐÆK42H5A6ÆaOIÊF6SKZÞaP97LBÖðSB1Þ48ÖCTÚêCMÈYÒ2P2PKðDÖÖ5M8YWGYèàA1Þ6P0ØôèÐYà2îÚTLô485R0ÚEIðRKÐSÜBî2ôÊ0NSIÒMDLYIôðAJÌT+PÒ1L+Ôb2/VLSÞAÐFÆäH4TFVBôÊA63ØêbDGèWÈÔä0XTò26Q4ÐBC/3YÔÞBÒAâàa2RBî56Dä8FÚaSðæbLGKMòØàôàW0ôôbðòAYàðÜNXòRÈÐLJ/ÌTôìäUMôLÆFGÌOCÖ5aÖØAGÐABÚ623ÖM6KÔ87ÊÜÆ7êLGXÊHÈìLô5ÊÔQÐHMT0CÚÈ6îò9ÖQaU42KNXOÜB5PBL7òAÒÎWò5âÒJHL67ÊU5äGì61îÌ/7J5/8ÊKàÈYVKÌ69QÔPa6BT8òJaEÊÆDèØ0ì6ÔÆ4+/ÜABOBT0QN7ÈðÖ6IRIòÆO1ØÚ8ZIäUbÆàG4ìîìE61LbêIOòPÔÎÒWäEÆÌîYòæ2NàZÒÌæTYÌOZMYbÞB4JÜòêM8IRÐ0æbQa40U7àÖPK5Lä94òØZÖNXDÖ8æÚbW2X/73M30æ2J6ÊÈR2Haä/ÎaÚ5FòÆÎXF5BYæØF7R3VÔLLO/ò++êôÜêD32CN3BSQ3æÚ+XêÌLðRê/ØÖòOðM4È58ÎÎUÔNOGEE0æäFìV/bôêJEÐÐ0Ê/GÆ91VGÜDâAÔèæàÒê4ØðMFYKâÚQKê/JôJÆô0T2ÒFØ3TôA4DôMC1UòWðIÊWZÔÆALàÜG5+09ä57POÌNôN6KLG8KLCJbJÆ370Ò8Zôî5èòGUHÊ6J49ÜÐìèR7YN9Ì6WHØ/JØTäAÐXÈ4HEØa7NôÚØZWIUNÊàW5BQÆZHÒ5CÔQMäÚGê7IEMôQK+ÆMêS4îîD4Z0ZîæKX+3C4YàUîbIÌÔì6QLK9ØâZIK/0ôÊZSUÜZSbØðF3ØRLCòêINòP0àÈC97î/Kâ8DTî6XSâ6ETÚô81òÈ5äC5Ú0aðæA75ðäìJ4Þ+àDÆ72ðìÖàREJGLàUôÒ7àÆIÒ55àC1ÔF+îæîÆAêFðNðZSÚG8ÐDÞÞZAÎCÞÐ7ØðXâô24î9EPQÖ5ÌÌ4KC3àQÖäVÜàbKIIRX6FXêYW6Q6LæK7bVîVè2TMN/Iô3ìCÔJ2a9èSÆA3+Ê7RÊäYLXUQY8/VÚ9A7PÎMMî+Æì0ÌÈà/Eb2Ø7âQJÚYOÊWÈNÎæ//MÊÒìæPRað3ÒÜJ2W4XôbIOTîEEBEÈÊT72ÔÆÆV9SôæG5ÒÎYKàQI/ÌÆNæØVÜDZ/òGäòbîîDbðÞòØæO/KÐJ+ÊÔ87OCÖ1JÖbJHDæLØEîÜÈÖÖìGWMIîVè0ôZÜBìÜW398LaÜØÜVÌÜàì8Gb6ÐâÔÎÐbôJÈØØRÌHæêS924ÈI3DG3Aà6SÚâVÌÐæèTEIOÖèÚìäìYæä47AÔIG1IKSÜ95MÊô4î51GðCòêÜÌÊÞôBàæâHòìaôD0Z1XMðWHÌNâCð49PUY5Q27BÞBÜIHÆJBMô8âÊÒaîÊÈGÆFÌJ0JÔAâJØÎPÚFàZNä3êXLÆNGXÞXYàìWX0F5MÔPÖÒòæÚ4äQôFOäÐVÎÈTÚZE75F4âaKNbaä+WìÞC63+â8Rô26H1ÒJEPPð+ÔWPU+Î+ÚCðÒÜ6TQäLHRMðÌÌXCÜÔÊÒÞXUYO6ÆDÐðLÆä2S8JÐXQ2FðØÚ6SPbÊÌìNì9ÐØÚC6G1ÒÚSO3OÚ4èVÊICðVK7CîÌîRLD6+50L8êDÜKÈò3ÈòHRÔðÌCTìTÒLQSÒ81æOðÔWYG/LìêQKTDSVVäCOTHèGÐÜXFÒXÔaêTÞUÈØZ6âÚBWæ5ÐWÞîÎ7Y/PÖXÊHØ1RPÐÎ+ÆÖPäæCîÌORÌ3è4ÚÚT10BW0DI8EWÊ8Q/3GÈÜêÐ6ÎÜTYàÊJWIÎ6XFî0ACUÆPò8èÆÚè9ÆâAôÚØIæEÚ+ICMàb9ÜÜ76a8àðÈCÚæÌÔYÎLòÚØì1ZIÞTQÜÊBîSKQNè4/N69æ/èRôòðFGXÐO/ÆîÆTÔÐFØÖEO2LÌàæV2OKà1È82TZKôEÔÜÖWB83X8PHÜðÞX+MAÎôT7WÒMZØÜÒÎ+YAÚòÆDò0R/MSIPì5Êè7Ð/PHâAÌVJJOÐYMÐÐY4N3ÒRîOGÌÒÚTÈQÜTFÐäÈS+ò5TæD4ôò7J9Æ1ÔÌÊÞRLDTCØîðXMM40BHîÒIÈXbÒÊÒLÔLSLÖLSFäJâN2êâF256ðô4Pð0èað/4PàðæâÖÔ5ÒÖÈIPRC3Ö6æWBCôURÒ/MLQXØEìD+ØÖ8ôbÊÞT70ò0ä5ÈT4ÊÒD8ÌQCÎa54D92aêÊEOÖ7Aô7Æ9ìL/bI3PF8ÌNEÊEDÒYWÒQRÞNÔaâà7PÖ8OFMðG1EACQÐäAa5àèQUCYBFPÖJâNGKT5a07BKWGQ3FTÒØBZÚàEâWÎV5YR5â0QÊQYÐMWRNMaìVE0D2QàXUæî6âæALèJ3J2UÆaÚêäÎìVEDîYBÈ0è8VÌØTA+6ÎÆFÞGEHÚVHYæØDY713È6CM7aÎX3ðÚî8S3DÊÌì8SQ9GBÊÖZUò0ÚW/Ì9M7bòVVZCÜNQîÐÊÞòW+ÐTSÔHÎèEðWêÔ6V8OØURÔD3Mî9äKêDQÜGF1WZWZÚE5ÌäI1J97ä3M/+VÆ3êNFÈEâLD4VG9îÚäÊOPÈè39ì4NØMYÔÌ32à78ÎÌÞ5SÊX/PAðÊ6MGXSÐP6ÚVYâ8ÐKBUÐZèOUJÐ8A0TPaìæHàðLBÊ3Lä5IæSPF5MQVÐ8ØNDÒEMHÈDØØôWBFôQÜDR2JBÔUôGG9ÈB91Q1DæS8WàR0àDÔHÒXÜôGaÊ6W8FôV+9MòGJIbâWÚO+Ìî+2TV7Q5ê2ZHEFO1ÎQJìTN6ìÌØXKVZÔXèìÐBPKDHàPBÔS7MêSÚRKJäQT71GôæÈQR2ÈÌÖÆ1ÖHBìæÌààòZVðLÜXCUAìKôHÞTîÈÜKQÆ+äP0äò/IT0NÚUàL5M6àÈÊSV/P4MVb5CWCbîîÌì+ZÈè66S2S8ÆÒS95ÖE1ÈAYX0ØZÒØêÜXØXDRMFVHbSÌ42ÜèÆÞK1PH/XòE435à0bPæè2KäÜ7ôSäÊÌAMGÜÈâKâQ2îâÎÆH1aàÐbBôTX2àWÒ3A4QXW1ê0ÜÚEÔäKÔBèFÐ6XNòEââô9ÆòNEM5D8îê4B+WKCOVìÌÈZMZ6âMÎÆC1XaÜ5æP5ôMôèOF4äH+äPòXêà0OêòàÆTêUHÞIOaaÔCCØZECUÊRA/B/ÊÆa+NÌV7ØÔÚOîôD/5VT97èÜØC0ÊàbÚFBìæ33SISÈJPîÚ8CðÖ7æ0Ja7NIÒLIXÈà4YQXIXàWXòÖ6æ2òäNÔêSôÐ/êÒOCÎ9LaÎE1BWIÆQ1ÆPaÆäàKQÖÌÈê4ÖæVÞGWPNJÆèD9a6/ÐPàVVàAW6ÎÌ9ÜàMZÔGêQEÊaÞQôÒVÞÜòÎTÚbÐTÔEbîPFÌ4VQCRCÌÈèQHÒDì0LôæÒâDòÌBÐ45SÖÐÊKZF4UðDXÚ7KBÒ9ÆXÞ9ò6ÐÆYÆYPâ1P5ÌÐÈÆE/5QOHV3XÚWZ+ØJZèHâð/Î5UÌU42NàÜÞ3Y8E0Ø8/TYKI6Z27NP7FÞWMSÒÔ1Oðb21NÔWÞXJôÎLWÞHä26TQ6DòQPÜWVZÐG4IâÎAÊèK58Q0COMU1BY1CÒäÆI7Q3ÚDNPÆXOÖFaOØôJ6YÈ3ÎM7ÜH7ÎAÖä1ÔÞÈäèVÜAòSCäFÆêIF16QÚ7PÌ6IVÌÔILìTWæYÆAÊJÞêîPÖØJÊQONMLàXÐÐ7QÐÞ2Ô68Ò/ØEI8LêÖB7/N8a8XÔGÞQÎ+â/L5Ò5îÎ7æÔ5FN4ìGî6ÜÆØNYòXCäHERV2ÊTVLè/6XÒêaTÌÐYÌèðBJÒLOÔ6äVXÌ6ÐU1/A46Pa8ìääÖêÌ6b4ÒVÐÈÔRðÞôXòTÐÌHîâ6òæH3W+ôXUEæÆðF1V3ÊbD2æAÌâÖÖKÔEDZàKÚVÚQðKÎIW2ÌV1ÊS+2P34ÊGRÐGBòìX2Î8Eê9ÆäìÔIÒD1J47aâðEBSÞFBI8ðbÞÞXQæXGÐVUêÎ0GÈRCâW1òô0Qä4îôä6RÆ1OF8äAOìÌaðOÌ2Dè6RÜANTÊð6Rb+/O0êEÒ9TN5Ê7èW5Að9PÆÊP7EÔaBÞèKÈEàFXJÒI3E+ÎØàWVLFÈZIAÐò+UÔÒÖPòD51PîLaÐèGaSæôìI7IGðHRJBìQ7ÆHYIî3Î6/7Î0ôÖOOHÖ8Ü0Ê6ZÞQÞK6IXHêRÒSîPX67ÐàÌÌÜæÚJOBèÈÞWH7ÊîâØØUÔðCT+Ê79ZQÈØPE7ÎSîM3Aæ2JÞCÈÚGJTØ80bô5XT/HVØÚÜDÚDàUHäSaQUðâÜÎLUE1bØàaÜX0QI2ôôæØI6Sæ3Xb9ìNRI7ÐîOLà78bÊ4a7LÚX7ZWîèM2ØVG3äîTÔÞA/JÚDY5Ø1IÒäKÜòÈò8ØLÎONSâBHBLKâÚM33ZÖÐ+àAÒØôIÜAZî1ð+ÔCQTÞÒOòOIAÌàà6MâÌ61J3/ÈÚYZUàB2aU20LÆèA2IÞâXä2ÌDbCSSÖADQ5Ô5îÊ2U1äÒ4ÖF01ZL8ZGØG+X/TÆÞL3Hbà9ÎòôÒHðî4+æìWÐ9FVÚMLÎBPXÎäÖòDØææU6VIKYôEÎLC2ÎH40ÆXîB4O/2ô087MFODàAbPÈîô6OQDAL4Ú3/9WAJO7ÎWî7ô2òÆC2Öî0A4G1VZÖX11ÖðXY3ÜSìH/GææðDAMTò0æêÖ1OäVbàò4+RRâG2JNîòÊð6+Ú4ê+41ÆJàÔèPÊOôMRÚUX8X5PUÈÈMâNMEHMVìaLòaêTÈTÎâÈò2ðK2ðIÞGTVEâVÔNaÚôÞG/UaÖÜîRðKÒ5æÖIðHì5ØÜLÞFÊAVEÞÐôÜôJFC49EôÚVGSà/JXQÆôô4Æ=ÅÔAÆNC1QDVÎEIAVEHAVEEVÎQDVîUPBîÖFWîæJVQRUBØÆK;
+<?php
+
+if (!defined('IN_IA')) {
+	exit('Access Denied');
+}
+global $_W, $_GPC;
+$operation = !empty($_GPC['op']) ? $_GPC['op'] : 'display';
+$openid = m('user')->getOpenid();
+$member = m('member')->getMember($openid);
+$uniacid = $_W['uniacid'];
+$fromcart = 0;
+$trade = m('common')->getSysset('trade');
+if (!empty($trade['shareaddress'])) {
+	if (!$_W['isajax']) {
+		$shareAddress = m('common')->shareAddress();
+		if (empty($shareAddress)) {
+			exit;
+		}
+	}
+}
+$pv = p('virtual');
+$hascouponplugin = false;
+$plugc = p('coupon');
+if ($plugc) {
+	$hascouponplugin = true;
+}
+$diyform_plugin = p('diyform');
+$order_formInfo = false;
+if ($diyform_plugin) {
+	$diyform_set = $diyform_plugin->getSet();
+	if (!empty($diyform_set['order_diyform_open'])) {
+		$orderdiyformid = intval($diyform_set['order_diyform']);
+		if (!empty($orderdiyformid)) {
+			$order_formInfo = $diyform_plugin->getDiyformInfo($orderdiyformid);
+			$fields = $order_formInfo['fields'];
+			$f_data = $diyform_plugin->getLastOrderData($orderdiyformid, $member);
+		}
+	}
+}
+if ($operation == 'display' || $operation == 'create') {
+	$id = intval($_GPC['id']);
+	$show = 1;
+	if ($diyform_plugin) {
+		if (!empty($id)) {
+			$sql = 'SELECT id as goodsid,type,diyformtype,diyformid,diymode FROM ' . tablename('ewei_shop_goods') . ' where id=:id and uniacid=:uniacid  limit 1';
+			$goods_data = pdo_fetch($sql, array(':uniacid' => $uniacid, ':id' => $id));
+			$diyformtype = $goods_data['diyformtype'];
+			$diyformid = $goods_data['diyformid'];
+			$diymode = $goods_data['diymode'];
+			if (!empty($diyformtype) && !empty($diyformid)) {
+				$formInfo = $diyform_plugin->getDiyformInfo($diyformid);
+				$goods_data_id = intval($_GPC['gdid']);
+			}
+		}
+	}
+}
+if ($_W['isajax']) {
+	if ($operation == 'display') {
+		$id = intval($_GPC['id']);
+		$optionid = intval($_GPC['optionid']);
+		$total = intval($_GPC['total']);
+		$ids = '';
+		if ($total < 1) {
+			$total = 1;
+		}
+		$buytotal = $total;
+		$isverify = false;
+		$isvirtual = false;
+		$changenum = false;
+		$goods = array();
+		if (empty($id)) {
+			$condition = '';
+			$cartids = $_GPC['cartids'];
+			if (!empty($cartids)) {
+				$condition = ' and c.id in (' . $cartids . ')';
+			}
+			$sql = 'SELECT c.goodsid,c.total,g.maxbuy,g.type,g.issendfree,g.isnodiscount,g.weight,o.weight as optionweight,g.title,g.thumb,ifnull(o.marketprice, g.marketprice) as marketprice,o.title as optiontitle,c.optionid,g.storeids,g.isverify,g.deduct,g.manydeduct,g.virtual,o.virtual as optionvirtual,discounts,g.deduct2,g.ednum,g.edmoney,g.edareas,g.diyformtype,g.diyformid,diymode,g.dispatchtype,g.dispatchid,g.dispatchprice FROM ' . tablename('ewei_shop_member_cart') . ' c ' . ' left join ' . tablename('ewei_shop_goods') . ' g on c.goodsid = g.id ' . ' left join ' . tablename('ewei_shop_goods_option') . ' o on c.optionid = o.id ' . " where c.openid=:openid and  c.deleted=0 and c.uniacid=:uniacid {$condition} order by c.id desc";
+			$goods = pdo_fetchall($sql, array(':uniacid' => $uniacid, ':openid' => $openid));
+			if (empty($goods)) {
+				show_json(-1, array('url' => $this->createMobileUrl('shop/cart')));
+			} else {
+				foreach ($goods as $k => $v) {
+					if (!empty($v['optionvirtual'])) {
+						$goods[$k]['virtual'] = $v['optionvirtual'];
+					}
+					if (!empty($v['optionweight'])) {
+						$goods[$k]['weight'] = $v['optionweight'];
+					}
+				}
+			}
+			$fromcart = 1;
+		} else {
+			$sql = 'SELECT id as goodsid,type,title,weight,issendfree,isnodiscount, thumb,marketprice,storeids,isverify,deduct,manydeduct,virtual,maxbuy,usermaxbuy,discounts,total as stock,deduct2,ednum,edmoney,edareas,diyformtype,diyformid,diymode,dispatchtype,dispatchid,dispatchprice FROM ' . tablename('ewei_shop_goods') . ' where id=:id and uniacid=:uniacid  limit 1';
+			$data = pdo_fetch($sql, array(':uniacid' => $uniacid, ':id' => $id));
+			$data['total'] = $total;
+			$data['optionid'] = $optionid;
+			if (!empty($optionid)) {
+				$option = pdo_fetch('select id,title,marketprice,goodssn,productsn,virtual,stock,weight from ' . tablename('ewei_shop_goods_option') . ' where id=:id and goodsid=:goodsid and uniacid=:uniacid  limit 1', array(':uniacid' => $uniacid, ':goodsid' => $id, ':id' => $optionid));
+				if (!empty($option)) {
+					$data['optionid'] = $optionid;
+					$data['optiontitle'] = $option['title'];
+					$data['marketprice'] = $option['marketprice'];
+					$data['virtual'] = $option['virtual'];
+					$data['stock'] = $option['stock'];
+					if (!empty($option['weight'])) {
+						$data['weight'] = $option['weight'];
+					}
+				}
+			}
+			$changenum = true;
+			$totalmaxbuy = $data['stock'];
+			if ($data['maxbuy'] > 0) {
+				if ($totalmaxbuy != -1) {
+					if ($totalmaxbuy > $data['maxbuy']) {
+						$totalmaxbuy = $data['maxbuy'];
+					}
+				} else {
+					$totalmaxbuy = $data['maxbuy'];
+				}
+			}
+			if ($data['usermaxbuy'] > 0) {
+				$order_goodscount = pdo_fetchcolumn('select ifnull(sum(og.total),0)  from ' . tablename('ewei_shop_order_goods') . ' og ' . ' left join ' . tablename('ewei_shop_order') . ' o on og.orderid=o.id ' . ' where og.goodsid=:goodsid and  o.status>=1 and o.openid=:openid  and og.uniacid=:uniacid ', array(':goodsid' => $data['goodsid'], ':uniacid' => $uniacid, ':openid' => $openid));
+				$last = $data['usermaxbuy'] - $order_goodscount;
+				if ($last <= 0) {
+					$last = 0;
+				}
+				if ($totalmaxbuy != -1) {
+					if ($totalmaxbuy > $last) {
+						$totalmaxbuy = $last;
+					}
+				} else {
+					$totalmaxbuy = $last;
+				}
+			}
+			$data['totalmaxbuy'] = $totalmaxbuy;
+			$goods[] = $data;
+		}
+		$goods = set_medias($goods, 'thumb');
+		foreach ($goods as $g) {
+			if ($g['isverify'] == 2) {
+				$isverify = true;
+			}
+			if (!empty($g['virtual']) || $g['type'] == 2) {
+				$isvirtual = true;
+			}
+		}
+		$member = m('member')->getMember($openid);
+		$level = m('member')->getLevel($openid);
+		$weight = 0;
+		$total = 0;
+		$goodsprice = 0;
+		$realprice = 0;
+		$deductprice = 0;
+		$discountprice = 0;
+		$deductprice2 = 0;
+		$stores = array();
+		$address = false;
+		$carrier = false;
+		$carrier_list = array();
+		$dispatch_list = false;
+		$dispatch_price = 0;
+		$dispatch_array = array();
+		$sale_plugin = p('sale');
+		$saleset = false;
+		if ($sale_plugin) {
+			$saleset = $sale_plugin->getSet();
+			$saleset['enoughs'] = $sale_plugin->getEnoughs();
+		}
+		$carrier_list = pdo_fetchall('select * from ' . tablename('ewei_shop_store') . ' where  uniacid=:uniacid and status=1 and type in(1,3)', array(':uniacid' => $_W['uniacid']));
+		if (!empty($carrier_list)) {
+			$carrier = $carrier_list[0];
+		}
+		foreach ($goods as &$g) {
+			if (empty($g['total']) || intval($g['total']) == '-1') {
+				$g['total'] = 1;
+			}
+			$gprice = $g['marketprice'] * $g['total'];
+			$discounts = json_decode($g['discounts'], true);
+			if (is_array($discounts)) {
+				if (!empty($discounts['refund'])) {
+					$g['refund'] = $discounts['refund'];
+				} else {
+					$g['refund'] = '0';
+				}
+				if (!empty($discounts['refundcount'])) {
+					$g['refundcount'] = $discounts['refundcount'];
+				} else {
+					$g['refundcount'] = '0';
+				}
+				if (!empty($discounts['refunddays'])) {
+					$g['refunddays'] = $discounts['refunddays'];
+				} else {
+					$g['refunddays'] = '0';
+				}
+				if (!empty($level['id'])) {
+					if (floatval($discounts['level' . $level['id']]) > 0 && floatval($discounts['level' . $level['id']]) < 10) {
+						$level['discount'] = floatval($discounts['level' . $level['id']]);
+					} else if (floatval($level['discount']) > 0 && floatval($level['discount']) < 10) {
+						$level['discount'] = floatval($level['discount']);
+					} else {
+						$level['discount'] = 0;
+					}
+				} else {
+					if (floatval($discounts['default']) > 0 && floatval($discounts['default']) < 10) {
+						$level['discount'] = floatval($discounts['default']);
+					} else if (floatval($level['discount']) > 0 && floatval($level['discount']) < 10) {
+						$level['discount'] = floatval($level['discount']);
+					} else {
+						$level['discount'] = 0;
+					}
+				}
+			}
+			if (empty($g['isnodiscount']) && floatval($level['discount']) > 0 && floatval($level['discount']) < 10) {
+				$price = round(floatval($level['discount']) / 10 * $gprice, 2);
+				$discountprice += $gprice - $price;
+			} else {
+				$price = $gprice;
+			}
+			$g['ggprice'] = $price;
+			$realprice += $price;
+			$goodsprice += $gprice;
+			$total += $g['total'];
+			if ($g['manydeduct']) {
+				$deductprice += $g['deduct'] * $g['total'];
+			} else {
+				$deductprice += $g['deduct'];
+			}
+			if ($g['deduct2'] == 0) {
+				$deductprice2 += $price;
+			} else if ($g['deduct2'] > 0) {
+				if ($g['deduct2'] > $price) {
+					$deductprice2 += $price;
+				} else {
+					$deductprice2 += $g['deduct2'];
+				}
+			}
+		}
+		unset($g);
+		if ($isverify) {
+			$storeids = array();
+			foreach ($goods as $g) {
+				if (!empty($g['storeids'])) {
+					$storeids = array_merge(explode(',', $g['storeids']), $storeids);
+				}
+			}
+			if (empty($storeids)) {
+				$stores = pdo_fetchall('select * from ' . tablename('ewei_shop_store') . ' where  uniacid=:uniacid and status=1 and type in(2,3)', array(':uniacid' => $_W['uniacid']));
+			} else {
+				$stores = pdo_fetchall('select * from ' . tablename('ewei_shop_store') . ' where id in (' . implode(',', $storeids) . ') and uniacid=:uniacid and status=1 and type in(2,3)', array(':uniacid' => $_W['uniacid']));
+			}
+		} else {
+			$address = pdo_fetch('select id,realname,mobile,address,province,city,area from ' . tablename('ewei_shop_member_address') . ' where openid=:openid and deleted=0 and isdefault=1  and uniacid=:uniacid limit 1', array(':uniacid' => $uniacid, ':openid' => $openid));
+			if (!empty($carrier_list)) {
+				$carrier = $carrier_list[0];
+			}
+			if (!$isvirtual) {
+				foreach ($goods as $g) {
+					$sendfree = false;
+					if (!empty($g['issendfree'])) {
+						$sendfree = true;
+					} else {
+						if ($g['total'] >= $g['ednum'] && $g['ednum'] > 0) {
+							$gareas = explode(';', $g['edareas']);
+							if (empty($gareas)) {
+								$sendfree = true;
+							} else {
+								if (!empty($address)) {
+									if (!in_array($address['city'], $gareas)) {
+										$sendfree = true;
+									}
+								} else if (!empty($member['city'])) {
+									if (!in_array($member['city'], $gareas)) {
+										$sendfree = true;
+									}
+								} else {
+									$sendfree = true;
+								}
+							}
+						}
+						if ($g['ggprice'] >= floatval($g['edmoney']) && floatval($g['edmoney']) > 0) {
+							$gareas = unserialize($g['edareas']);
+							if (empty($gareas)) {
+								$sendfree = true;
+							} else {
+								if (!empty($address)) {
+									if (!in_array($address['city'], $gareas)) {
+										$sendfree = true;
+									}
+								} else if (!empty($member['city'])) {
+									if (!in_array($member['city'], $gareas)) {
+										$sendfree = true;
+									}
+								} else {
+									$sendfree = true;
+								}
+							}
+						}
+					}
+					if (!$sendfree) {
+						if ($g['dispatchtype'] == 1) {
+							if ($g['dispatchprice'] > 0) {
+								$dispatch_price += $g['dispatchprice'] * $g['total'];
+							}
+						} else if ($g['dispatchtype'] == 0) {
+							if (empty($g['dispatchid'])) {
+								$dispatch_data = m('order')->getDefaultDispatch();
+							} else {
+								$dispatch_data = m('order')->getOneDispatch($g['dispatchid']);
+							}
+							if (empty($dispatch_data)) {
+								$dispatch_data = m('order')->getNewDispatch();
+							}
+							if (!empty($dispatch_data)) {
+								$areas = unserialize($dispatch_data['areas']);
+								if ($dispatch_data['calculatetype'] == 1) {
+									$param = $g['total'];
+								} else {
+									$param = $g['weight'] * $g['total'];
+								}
+								$dkey = $dispatch_data['id'];
+								if (array_key_exists($dkey, $dispatch_array)) {
+									$dispatch_array[$dkey]['param'] += $param;
+								} else {
+									$dispatch_array[$dkey]['data'] = $dispatch_data;
+									$dispatch_array[$dkey]['param'] = $param;
+								}
+							}
+						}
+					}
+				}
+				if (!empty($dispatch_array)) {
+					foreach ($dispatch_array as $k => $v) {
+						$dispatch_data = $dispatch_array[$k]['data'];
+						$param = $dispatch_array[$k]['param'];
+						$areas = unserialize($dispatch_data['areas']);
+						if (!empty($address)) {
+							$dispatch_price += m('order')->getCityDispatchPrice($areas, $address['city'], $param, $dispatch_data);
+						} else if (!empty($member['city'])) {
+							$dispatch_price = +m('order')->getCityDispatchPrice($areas, $member['city'], $param, $dispatch_data);
+						} else {
+							$dispatch_price = +m('order')->getDispatchPrice($param, $dispatch_data);
+						}
+					}
+				}
+			}
+		}
+		if ($saleset) {
+			if (!empty($saleset['enoughfree'])) {
+				if (floatval($saleset['enoughorder']) <= 0) {
+					$dispatch_price = 0;
+				} else {
+					if ($realprice >= floatval($saleset['enoughorder'])) {
+						if (empty($saleset['enoughareas'])) {
+							$dispatch_price = 0;
+						} else {
+							$areas = explode(',', $saleset['enoughareas']);
+							if (!empty($address)) {
+								if (!in_array($address['city'], $areas)) {
+									$dispatch_price = 0;
+								}
+							} else if (!empty($member['city'])) {
+								if (!in_array($member['city'], $areas)) {
+									$dispatch_price = 0;
+								}
+							} else if (empty($member['city'])) {
+								$dispatch_price = 0;
+							}
+						}
+					}
+				}
+			}
+			foreach ($saleset['enoughs'] as $e) {
+				if ($realprice >= floatval($e['enough']) && floatval($e['money']) > 0) {
+					$saleset['showenough'] = true;
+					$saleset['enoughmoney'] = $e['enough'];
+					$saleset['enoughdeduct'] = $e['money'];
+					$realprice -= floatval($e['money']);
+					break;
+				}
+			}
+			if (empty($saleset['dispatchnodeduct'])) {
+				$deductprice2 += $dispatch_price;
+			}
+		}
+		$hascoupon = false;
+		if ($hascouponplugin) {
+			$couponcount = $plugc->consumeCouponCount($openid, $realprice);
+			$hascoupon = $couponcount > 0;
+		}
+		$realprice += $dispatch_price;
+		$deductcredit = 0;
+		$deductmoney = 0;
+		$deductcredit2 = 0;
+		if ($sale_plugin) {
+			$credit = m('member')->getCredit($openid, 'credit1');
+			if (!empty($saleset['creditdeduct'])) {
+				$pcredit = intval($saleset['credit']);
+				$pmoney = round(floatval($saleset['money']), 2);
+				if ($pcredit > 0 && $pmoney > 0) {
+					if ($credit % $pcredit == 0) {
+						$deductmoney = round(intval($credit / $pcredit) * $pmoney, 2);
+					} else {
+						$deductmoney = round((intval($credit / $pcredit) + 1) * $pmoney, 2);
+					}
+				}
+				if ($deductmoney > $deductprice) {
+					$deductmoney = $deductprice;
+				}
+				if ($deductmoney > $realprice) {
+					$deductmoney = $realprice;
+				}
+				$deductcredit = $deductmoney / $pmoney * $pcredit;
+			}
+			if (!empty($saleset['moneydeduct'])) {
+				$deductcredit2 = m('member')->getCredit($openid, 'credit2');
+				if ($deductcredit2 > $realprice) {
+					$deductcredit2 = $realprice;
+				}
+				if ($deductcredit2 > $deductprice2) {
+					$deductcredit2 = $deductprice2;
+				}
+			}
+		}
+		show_json(1, array('member' => $member, 'deductcredit' => $deductcredit, 'deductmoney' => $deductmoney, 'deductcredit2' => $deductcredit2, 'saleset' => $saleset, 'goods' => $goods, 'weight' => $weight / $buytotal, 'set' => m('common')->getSysset('shop'), 'fromcart' => $fromcart, 'haslevel' => !empty($level['id']) && $level['discount'] > 0 && $level['discount'] < 10, 'total' => $total, 'dispatchprice' => number_format($dispatch_price, 2), 'totalprice' => number_format($totalprice, 2), 'goodsprice' => number_format($goodsprice, 2), 'discountprice' => number_format($discountprice, 2), 'discount' => $level['discount'], 'levelname' => $level['levelname'], 'realprice' => number_format($realprice, 2), 'address' => $address, 'carrier' => $carrier, 'carrier_list' => $carrier_list, 'dispatch_list' => $dispatch_list, 'isverify' => $isverify, 'stores' => $stores, 'isvirtual' => $isvirtual, 'changenum' => $changenum, 'hascoupon' => $hascoupon, 'couponcount' => $couponcount));
+	} else if ($operation == 'getdispatchprice') {
+		$isverify = false;
+		$isvirtual = false;
+		$deductprice = 0;
+		$deductprice2 = 0;
+		$deductcredit2 = 0;
+		$dispatch_array = array();
+		$totalprice = floatval($_GPC['totalprice']);
+		$dflag = $_GPC['dflag'];
+		$hascoupon = false;
+		$couponcount = 0;
+		$pc = p('coupon');
+		if ($pc) {
+			$pset = $pc->getSet();
+			if (empty($pset['closemember'])) {
+				$couponcount = $pc->consumeCouponCount($openid, $totalprice);
+				$hascoupon = $couponcount > 0;
+			}
+		}
+		$addressid = intval($_GPC['addressid']);
+		$address = pdo_fetch('select id,realname,mobile,address,province,city,area from ' . tablename('ewei_shop_member_address') . ' where  id=:id and openid=:openid and uniacid=:uniacid limit 1', array(':uniacid' => $uniacid, ':openid' => $openid, ':id' => $addressid));
+		$member = m('member')->getMember($openid);
+		$level = m('member')->getLevel($openid);
+		$weight = $_GPC['weight'];
+		$dispatch_price = 0;
+		$deductenough_money = 0;
+		$deductenough_enough = 0;
+		$sale_plugin = p('sale');
+		$saleset = false;
+		if ($sale_plugin) {
+			$saleset = $sale_plugin->getSet();
+			$saleset['enoughs'] = $sale_plugin->getEnoughs();
+		}
+		if ($sale_plugin) {
+			if ($saleset) {
+				foreach ($saleset['enoughs'] as $e) {
+					if ($totalprice >= floatval($e['enough']) && floatval($e['money']) > 0) {
+						$deductenough_money = floatval($e['money']);
+						$deductenough_enough = floatval($e['enough']);
+						break;
+					}
+				}
+				if (!empty($saleset['enoughfree'])) {
+					if (floatval($saleset['enoughorder']) <= 0) {
+						show_json(1, array('price' => 0, 'hascoupon' => $hascoupon, 'couponcount' => $couponcount, 'deductenough_money' => $deductenough_money, 'deductenough_enough' => $deductenough_enough));
+					}
+				}
+				if (!empty($saleset['enoughfree']) && $totalprice >= floatval($saleset['enoughorder'])) {
+					if (!empty($saleset['enoughareas'])) {
+						$areas = explode(';', $saleset['enoughareas']);
+						if (!in_array($address['city'], $areas)) {
+							show_json(1, array('price' => 0, 'hascoupon' => $hascoupon, 'couponcount' => $couponcount, 'deductenough_money' => $deductenough_money, 'deductenough_enough' => $deductenough_enough));
+						}
+					} else {
+						show_json(1, array('price' => 0, 'hascoupon' => $hascoupon, 'couponcount' => $couponcoun, 'deductenough_money' => $deductenough_money, 'deductenough_enough' => $deductenough_enough));
+					}
+				}
+			}
+		}
+		$goods = trim($_GPC['goods']);
+		if (!empty($goods)) {
+			$weight = 0;
+			$allgoods = array();
+			$goodsarr = explode('|', $goods);
+			foreach ($goodsarr as &$g) {
+				if (empty($g)) {
+					continue;
+				}
+				$goodsinfo = explode(',', $g);
+				$goodsid = !empty($goodsinfo[0]) ? intval($goodsinfo[0]) : '';
+				$optionid = !empty($goodsinfo[1]) ? intval($goodsinfo[1]) : 0;
+				$goodstotal = !empty($goodsinfo[2]) ? intval($goodsinfo[2]) : '1';
+				if ($goodstotal < 1) {
+					$goodstotal = 1;
+				}
+				if (empty($goodsid)) {
+					show_json(1, array('price' => 0));
+				}
+				$sql = 'SELECT id as goodsid,title,type, weight,total,issendfree,isnodiscount, thumb,marketprice,cash,isverify,goodssn,productsn,sales,istime,timestart,timeend,usermaxbuy,maxbuy,unit,buylevels,buygroups,deleted,status,deduct,manydeduct,virtual,discounts,deduct2,ednum,edmoney,edareas,diyformid,diyformtype,diymode,dispatchtype,dispatchid,dispatchprice FROM ' . tablename('ewei_shop_goods') . ' where id=:id and uniacid=:uniacid  limit 1';
+				$data = pdo_fetch($sql, array(':uniacid' => $uniacid, ':id' => $goodsid));
+				if (empty($data)) {
+					show_json(1, array('price' => 0));
+				}
+				$data['stock'] = $data['total'];
+				$data['total'] = $goodstotal;
+				if (!empty($optionid)) {
+					$option = pdo_fetch('select id,title,marketprice,goodssn,productsn,stock,virtual,weight from ' . tablename('ewei_shop_goods_option') . ' where id=:id and goodsid=:goodsid and uniacid=:uniacid  limit 1', array(':uniacid' => $uniacid, ':goodsid' => $goodsid, ':id' => $optionid));
+					if (!empty($option)) {
+						$data['optionid'] = $optionid;
+						$data['optiontitle'] = $option['title'];
+						$data['marketprice'] = $option['marketprice'];
+						if (!empty($option['weight'])) {
+							$data['weight'] = $option['weight'];
+						}
+					}
+				}
+				$discounts = json_decode($data['discounts'], true);
+				if (is_array($discounts)) {
+					if (!empty($level['id'])) {
+						if ($discounts['level' . $level['id']] > 0 && $discounts['level' . $level['id']] < 10) {
+							$level['discount'] = $discounts['level' . $level['id']];
+						} else if (floatval($level['discount']) > 0 && floatval($level['discount']) < 10) {
+							$level['discount'] = floatval($level['discount']);
+						} else {
+							$level['discount'] = 0;
+						}
+					} else {
+						if ($discounts['default'] > 0 && $discounts['default'] < 10) {
+							$level['discount'] = $discounts['default'];
+						} else if (floatval($level['discount']) > 0 && floatval($level['discount']) < 10) {
+							$level['discount'] = floatval($level['discount']);
+						} else {
+							$level['discount'] = 0;
+						}
+					}
+				}
+				$gprice = $data['marketprice'] * $goodstotal;
+				$ggprice = 0;
+				if (empty($data['isnodiscount']) && $level['discount'] > 0 && $level['discount'] < 10) {
+					$dprice = round($gprice * $level['discount'] / 10, 2);
+					$discountprice += $gprice - $dprice;
+					$ggprice = $dprice;
+				} else {
+					$ggprice = $gprice;
+				}
+				$data['ggprice'] = $ggprice;
+				$allgoods[] = $data;
+			}
+			unset($g);
+			foreach ($allgoods as $g) {
+				if ($g['isverify'] == 2) {
+					$isverify = true;
+				}
+				if (!empty($g['virtual']) || $g['type'] == 2) {
+					$isvirtual = true;
+				}
+				if ($g['manydeduct']) {
+					$deductprice += $g['deduct'] * $g['total'];
+				} else {
+					$deductprice += $g['deduct'];
+				}
+				if ($g['deduct2'] == 0) {
+					$deductprice2 += $g['ggprice'];
+				} else if ($g['deduct2'] > 0) {
+					if ($g['deduct2'] > $g['ggprice']) {
+						$deductprice2 += $g['ggprice'];
+					} else {
+						$deductprice2 += $g['deduct2'];
+					}
+				}
+			}
+			if ($isverify) {
+				show_json(1, array('price' => 0, 'hascoupon' => $hascoupon, 'couponcount' => $couponcount));
+			}
+			if (!empty($allgoods)) {
+				foreach ($allgoods as $g) {
+					$sendfree = false;
+					if (!empty($g['issendfree'])) {
+						$sendfree = true;
+					}
+					if ($g['type'] == 2 || $g['type'] == 3) {
+						$sendfree = true;
+					} else {
+						if ($g['total'] >= $g['ednum'] && $g['ednum'] > 0) {
+							$gareas = explode(';', $g['edareas']);
+							if (empty($gareas)) {
+								$sendfree = true;
+							} else {
+								if (!empty($address)) {
+									if (!in_array($address['city'], $gareas)) {
+										$sendfree = true;
+									}
+								} else if (!empty($member['city'])) {
+									if (!in_array($member['city'], $gareas)) {
+										$sendfree = true;
+									}
+								} else {
+									$sendfree = true;
+								}
+							}
+						}
+						if ($g['ggprice'] >= floatval($g['edmoney']) && floatval($g['edmoney']) > 0) {
+							$gareas = unserialize($g['edareas']);
+							if (empty($gareas)) {
+								$sendfree = true;
+							} else {
+								if (!empty($address)) {
+									if (!in_array($address['city'], $gareas)) {
+										$sendfree = true;
+									}
+								} else if (!empty($member['city'])) {
+									if (!in_array($member['city'], $gareas)) {
+										$sendfree = true;
+									}
+								} else {
+									$sendfree = true;
+								}
+							}
+						}
+					}
+					if (!$sendfree) {
+						if ($g['dispatchtype'] == 1) {
+							if ($g['dispatchprice'] > 0) {
+								$dispatch_price += $g['dispatchprice'] * $g['total'];
+							}
+						} else if ($g['dispatchtype'] == 0) {
+							if (empty($g['dispatchid'])) {
+								$dispatch_data = m('order')->getDefaultDispatch();
+							} else {
+								$dispatch_data = m('order')->getOneDispatch($g['dispatchid']);
+							}
+							if (empty($dispatch_data)) {
+								$dispatch_data = m('order')->getNewDispatch();
+							}
+							if (!empty($dispatch_data)) {
+								$areas = unserialize($dispatch_data['areas']);
+								if ($dispatch_data['calculatetype'] == 1) {
+									$param = $g['total'];
+								} else {
+									$param = $g['weight'] * $g['total'];
+								}
+								$dkey = $dispatch_data['id'];
+								if (array_key_exists($dkey, $dispatch_array)) {
+									$dispatch_array[$dkey]['param'] += $param;
+								} else {
+									$dispatch_array[$dkey]['data'] = $dispatch_data;
+									$dispatch_array[$dkey]['param'] = $param;
+								}
+							}
+						}
+					}
+				}
+				if (!empty($dispatch_array)) {
+					foreach ($dispatch_array as $k => $v) {
+						$dispatch_data = $dispatch_array[$k]['data'];
+						$param = $dispatch_array[$k]['param'];
+						$areas = unserialize($dispatch_data['areas']);
+						if (!empty($address)) {
+							$dispatch_price += m('order')->getCityDispatchPrice($areas, $address['city'], $param, $dispatch_data);
+						} else if (!empty($member['city'])) {
+							$dispatch_price = +m('order')->getCityDispatchPrice($areas, $member['city'], $param, $dispatch_data);
+						} else {
+							$dispatch_price = +m('order')->getDispatchPrice($param, $dispatch_data);
+						}
+					}
+				}
+			}
+			if ($dflag != 'true') {
+				if (empty($saleset['dispatchnodeduct'])) {
+					$deductprice2 += $dispatch_price;
+				}
+			}
+			$deductcredit = 0;
+			$deductmoney = 0;
+			if ($sale_plugin) {
+				$credit = m('member')->getCredit($openid, 'credit1');
+				if (!empty($saleset['creditdeduct'])) {
+					$pcredit = intval($saleset['credit']);
+					$pmoney = round(floatval($saleset['money']), 2);
+					if ($pcredit > 0 && $pmoney > 0) {
+						if ($credit % $pcredit == 0) {
+							$deductmoney = round(intval($credit / $pcredit) * $pmoney, 2);
+						} else {
+							$deductmoney = round((intval($credit / $pcredit) + 1) * $pmoney, 2);
+						}
+					}
+					if ($deductmoney > $deductprice) {
+						$deductmoney = $deductprice;
+					}
+					if ($deductmoney > $totalprice) {
+						$deductmoney = $totalprice;
+					}
+					$deductcredit = $deductmoney / $pmoney * $pcredit;
+				}
+				if (!empty($saleset['moneydeduct'])) {
+					$deductcredit2 = m('member')->getCredit($openid, 'credit2');
+					if ($deductcredit2 > $totalprice) {
+						$deductcredit2 = $totalprice;
+					}
+					if ($deductcredit2 > $deductprice2) {
+						$deductcredit2 = $deductprice2;
+					}
+				}
+			}
+		}
+		show_json(1, array('price' => $dispatch_price, 'hascoupon' => $hascoupon, 'couponcount' => $couponcount, 'deductenough_money' => $deductenough_money, 'deductenough_enough' => $deductenough_enough, 'deductcredit2' => $deductcredit2, 'deductcredit' => $deductcredit, 'deductmoney' => $deductmoney));
+	} else if ($operation == 'create' && $_W['ispost']) {
+		$member = m('member')->getMember($openid);
+		$dispatchtype = intval($_GPC['dispatchtype']);
+		$addressid = intval($_GPC['addressid']);
+		$address = false;
+		if (!empty($addressid) && $dispatchtype == 0) {
+			$address = pdo_fetch('select id,realname,mobile,address,province,city,area from ' . tablename('ewei_shop_member_address') . ' where id=:id and openid=:openid and uniacid=:uniacid   limit 1', array(':uniacid' => $uniacid, ':openid' => $openid, ':id' => $addressid));
+			if (empty($address)) {
+				show_json(0, 'æœªæ‰¾åˆ°åœ°å€');
+			}
+		}
+		$carrierid = intval($_GPC['carrierid']);
+		$goods = $_GPC['goods'];
+		if (empty($goods)) {
+			show_json(0, 'æœªæ‰¾åˆ°ä»»ä½•å•†å“');
+		}
+		$allgoods = array();
+		$totalprice = 0;
+		$goodsprice = 0;
+		$weight = 0;
+		$discountprice = 0;
+		$goodsarr = explode('|', $goods);
+		$cash = 1;
+		$level = m('member')->getLevel($openid);
+		$deductprice = 0;
+		$deductprice2 = 0;
+		$virtualsales = 0;
+		$dispatch_price = 0;
+		$dispatch_array = array();
+		$sale_plugin = p('sale');
+		$saleset = false;
+		if ($sale_plugin) {
+			$saleset = $sale_plugin->getSet();
+			$saleset['enoughs'] = $sale_plugin->getEnoughs();
+		}
+		$isvirtual = false;
+		$isverify = false;
+		foreach ($goodsarr as $g) {
+			if (empty($g)) {
+				continue;
+			}
+			$goodsinfo = explode(',', $g);
+			$goodsid = !empty($goodsinfo[0]) ? intval($goodsinfo[0]) : '';
+			$optionid = !empty($goodsinfo[1]) ? intval($goodsinfo[1]) : 0;
+			$goodstotal = !empty($goodsinfo[2]) ? intval($goodsinfo[2]) : '1';
+			if ($goodstotal < 1) {
+				$goodstotal = 1;
+			}
+			if (empty($goodsid)) {
+				show_json(0, 'å‚æ•°é”™è¯¯ï¼Œè¯·åˆ·æ–°é‡è¯•');
+			}
+			$sql = 'SELECT id as goodsid,title,type, weight,total,issendfree,isnodiscount, thumb,marketprice,cash,isverify,goodssn,productsn,sales,istime,timestart,timeend,usermaxbuy,maxbuy,unit,buylevels,buygroups,deleted,status,deduct,manydeduct,virtual,discounts,deduct2,ednum,edmoney,edareas,diyformtype,diyformid,diymode,dispatchtype,dispatchid,dispatchprice FROM ' . tablename('ewei_shop_goods') . ' where id=:id and uniacid=:uniacid  limit 1';
+			$data = pdo_fetch($sql, array(':uniacid' => $uniacid, ':id' => $goodsid));
+			if (empty($data['status']) || !empty($data['deleted'])) {
+				show_json(-1, $data['title'] . '<br/> å·²ä¸‹æž¶!');
+			}
+			$virtualid = $data['virtual'];
+			$data['stock'] = $data['total'];
+			$data['total'] = $goodstotal;
+			if ($data['cash'] != 2) {
+				$cash = 0;
+			}
+			$unit = empty($data['unit']) ? 'ä»¶' : $data['unit'];
+			if ($data['maxbuy'] > 0) {
+				if ($goodstotal > $data['maxbuy']) {
+					show_json(-1, $data['title'] . '<br/> ä¸€æ¬¡é™è´­ ' . $data['maxbuy'] . $unit . '!');
+				}
+			}
+			if ($data['usermaxbuy'] > 0) {
+				$order_goodscount = pdo_fetchcolumn('select ifnull(sum(og.total),0)  from ' . tablename('ewei_shop_order_goods') . ' og ' . ' left join ' . tablename('ewei_shop_order') . ' o on og.orderid=o.id ' . ' where og.goodsid=:goodsid and  o.status>=0 and o.openid=:openid  and og.uniacid=:uniacid ', array(':goodsid' => $data['goodsid'], ':uniacid' => $uniacid, ':openid' => $openid));
+				if ($order_goodscount >= $data['usermaxbuy']) {
+					show_json(-1, $data['title'] . '<br/> æœ€å¤šé™è´­ ' . $data['usermaxbuy'] . $unit . '!');
+				}
+			}
+			if ($data['istime'] == 1) {
+				if (time() < $data['timestart']) {
+					show_json(-1, $data['title'] . '<br/> é™è´­æ—¶é—´æœªåˆ°!');
+				}
+				if (time() > $data['timeend']) {
+					show_json(-1, $data['title'] . '<br/> é™è´­æ—¶é—´å·²è¿‡!');
+				}
+			}
+			$levelid = intval($member['level']);
+			$groupid = intval($member['groupid']);
+			if ($data['buylevels'] != '') {
+				$buylevels = explode(',', $data['buylevels']);
+				if (!in_array($levelid, $buylevels)) {
+					show_json(-1, 'æ‚¨çš„ä¼šå‘˜ç­‰çº§æ— æ³•è´­ä¹°<br/>' . $data['title'] . '!');
+				}
+			}
+			if ($data['buygroups'] != '') {
+				$buygroups = explode(',', $data['buygroups']);
+				if (!in_array($groupid, $buygroups)) {
+					show_json(-1, 'æ‚¨æ‰€åœ¨ä¼šå‘˜ç»„æ— æ³•è´­ä¹°<br/>' . $data['title'] . '!');
+				}
+			}
+			if (!empty($optionid)) {
+				$option = pdo_fetch('select id,title,marketprice,goodssn,productsn,stock,virtual,weight from ' . tablename('ewei_shop_goods_option') . ' where id=:id and goodsid=:goodsid and uniacid=:uniacid  limit 1', array(':uniacid' => $uniacid, ':goodsid' => $goodsid, ':id' => $optionid));
+				if (!empty($option)) {
+					if ($option['stock'] != -1) {
+						if (empty($option['stock'])) {
+							show_json(-1, $data['title'] . '<br/>' . $option['title'] . ' åº“å­˜ä¸è¶³!');
+						}
+					}
+					$data['optionid'] = $optionid;
+					$data['optiontitle'] = $option['title'];
+					$data['marketprice'] = $option['marketprice'];
+					$virtualid = $option['virtual'];
+					if (!empty($option['goodssn'])) {
+						$data['goodssn'] = $option['goodssn'];
+					}
+					if (!empty($option['productsn'])) {
+						$data['productsn'] = $option['productsn'];
+					}
+					if (!empty($option['weight'])) {
+						$data['weight'] = $option['weight'];
+					}
+				}
+			} else {
+				if ($data['stock'] != -1) {
+					if (empty($data['stock'])) {
+						show_json(-1, $data['title'] . '<br/>åº“å­˜ä¸è¶³!');
+					}
+				}
+			}
+			$data['diyformdataid'] = 0;
+			$data['diyformdata'] = iserializer(array());
+			$data['diyformfields'] = iserializer(array());
+			if ($_GPC['fromcart'] == 1) {
+				if ($diyform_plugin) {
+					$cartdata = pdo_fetch('select id,diyformdataid,diyformfields,diyformdata from ' . tablename('ewei_shop_member_cart') . ' ' . ' where goodsid=:goodsid and optionid=:optionid and openid=:openid and deleted=0 order by id desc limit 1', array(':goodsid' => $data['goodsid'], ':optionid' => $data['optionid'], ':openid' => $openid));
+					if (!empty($cartdata)) {
+						$data['diyformdataid'] = $cartdata['diyformdataid'];
+						$data['diyformdata'] = $cartdata['diyformdata'];
+						$data['diyformfields'] = $cartdata['diyformfields'];
+					}
+				}
+			} else {
+				if (!empty($diyformtype) && !empty($data['diyformid'])) {
+					$temp_data = $diyform_plugin->getOneDiyformTemp($goods_data_id, 0);
+					$data['diyformfields'] = $temp_data['diyformfields'];
+					$data['diyformdata'] = $temp_data['diyformdata'];
+					$data['diyformid'] = $formInfo['id'];
+				}
+			}
+			$gprice = $data['marketprice'] * $goodstotal;
+			$goodsprice += $gprice;
+			$discounts = json_decode($data['discounts'], true);
+			if (is_array($discounts)) {
+				if (!empty($level['id'])) {
+					if (floatval($discounts['level' . $level['id']]) > 0 && floatval($discounts['level' . $level['id']]) < 10) {
+						$level['discount'] = floatval($discounts['level' . $level['id']]);
+					} else if (floatval($level['discount']) > 0 && floatval($level['discount']) < 10) {
+						$level['discount'] = floatval($level['discount']);
+					} else {
+						$level['discount'] = 0;
+					}
+				} else {
+					if (floatval($discounts['default']) > 0 && floatval($discounts['default']) < 10) {
+						$level['discount'] = floatval($discounts['default']);
+					} else if (floatval($level['discount']) > 0 && floatval($level['discount']) < 10) {
+						$level['discount'] = floatval($level['discount']);
+					} else {
+						$level['discount'] = 0;
+					}
+				}
+			}
+			$ggprice = 0;
+			if (empty($data['isnodiscount']) && $level['discount'] > 0 && $level['discount'] < 10) {
+				$dprice = round($gprice * $level['discount'] / 10, 2);
+				$discountprice += $gprice - $dprice;
+				$ggprice = $dprice;
+			} else {
+				$ggprice = $gprice;
+			}
+			$data['realprice'] = $ggprice;
+			$totalprice += $ggprice;
+			if ($data['isverify'] == 2) {
+				$isverify = true;
+			}
+			if (!empty($data['virtual']) || $data['type'] == 2) {
+				$isvirtual = true;
+			}
+			if ($data['manydeduct']) {
+				$deductprice += $data['deduct'] * $data['total'];
+			} else {
+				$deductprice += $data['deduct'];
+			}
+			$virtualsales += $data['sales'];
+			if ($data['deduct2'] == 0) {
+				$deductprice2 += $ggprice;
+			} else if ($data['deduct2'] > 0) {
+				if ($data['deduct2'] > $ggprice) {
+					$deductprice2 += $ggprice;
+				} else {
+					$deductprice2 += $data['deduct2'];
+				}
+			}
+			$allgoods[] = $data;
+		}
+		if (empty($allgoods)) {
+			show_json(0, 'æœªæ‰¾åˆ°ä»»ä½•å•†å“');
+		}
+		$deductenough = 0;
+		if ($saleset) {
+			foreach ($saleset['enoughs'] as $e) {
+				if ($totalprice >= floatval($e['enough']) && floatval($e['money']) > 0) {
+					$deductenough = floatval($e['money']);
+					if ($deductenough > $totalprice) {
+						$deductenough = $totalprice;
+					}
+					break;
+				}
+			}
+		}
+		if (!$isvirtual && !$isverify && $dispatchtype == 0) {
+			foreach ($allgoods as $g) {
+				$sendfree = false;
+				if (!empty($g['issendfree'])) {
+					$sendfree = true;
+				} else {
+					if ($g['total'] >= $g['ednum'] && $g['ednum'] > 0) {
+						$gareas = explode(';', $g['edareas']);
+						if (empty($gareas)) {
+							$sendfree = true;
+						} else {
+							if (!empty($address)) {
+								if (!in_array($address['city'], $gareas)) {
+									$sendfree = true;
+								}
+							} else if (!empty($member['city'])) {
+								if (!in_array($member['city'], $gareas)) {
+									$sendfree = true;
+								}
+							} else {
+								$sendfree = true;
+							}
+						}
+					}
+					if ($g['ggprice'] >= floatval($g['edmoney']) && floatval($g['edmoney']) > 0) {
+						$gareas = unserialize($g['edareas']);
+						if (empty($gareas)) {
+							$sendfree = true;
+						} else {
+							if (!empty($address)) {
+								if (!in_array($address['city'], $gareas)) {
+									$sendfree = true;
+								}
+							} else if (!empty($member['city'])) {
+								if (!in_array($member['city'], $gareas)) {
+									$sendfree = true;
+								}
+							} else {
+								$sendfree = true;
+							}
+						}
+					}
+				}
+				if (!$sendfree) {
+					if ($g['dispatchtype'] == 1) {
+						if ($g['dispatchprice'] > 0) {
+							$dispatch_price += $g['dispatchprice'] * $g['total'];
+						}
+					} else if ($g['dispatchtype'] == 0) {
+						if (empty($g['dispatchid'])) {
+							$dispatch_data = m('order')->getDefaultDispatch();
+						} else {
+							$dispatch_data = m('order')->getOneDispatch($g['dispatchid']);
+						}
+						if (empty($dispatch_data)) {
+							$dispatch_data = m('order')->getNewDispatch();
+						}
+						if (!empty($dispatch_data)) {
+							$areas = unserialize($dispatch_data['areas']);
+							if ($dispatch_data['calculatetype'] == 1) {
+								$param = $g['total'];
+							} else {
+								$param = $g['weight'] * $g['total'];
+							}
+							$dkey = $dispatch_data['id'];
+							if (array_key_exists($dkey, $dispatch_array)) {
+								$dispatch_array[$dkey]['param'] += $param;
+							} else {
+								$dispatch_array[$dkey]['data'] = $dispatch_data;
+								$dispatch_array[$dkey]['param'] = $param;
+							}
+						}
+					}
+				}
+			}
+			if (!empty($dispatch_array)) {
+				foreach ($dispatch_array as $k => $v) {
+					$dispatch_data = $dispatch_array[$k]['data'];
+					$param = $dispatch_array[$k]['param'];
+					$areas = unserialize($dispatch_data['areas']);
+					if (!empty($address)) {
+						$dispatch_price += m('order')->getCityDispatchPrice($areas, $address['city'], $param, $dispatch_data);
+					} else if (!empty($member['city'])) {
+						$dispatch_price = +m('order')->getCityDispatchPrice($areas, $member['city'], $param, $dispatch_data);
+					} else {
+						$dispatch_price = +m('order')->getDispatchPrice($param, $dispatch_data);
+					}
+				}
+			}
+		}
+		if ($saleset) {
+			if (!empty($saleset['enoughfree'])) {
+				if (floatval($saleset['enoughorder']) <= 0) {
+					$dispatch_price = 0;
+				} else {
+					if ($totalprice >= floatval($saleset['enoughorder'])) {
+						if (empty($saleset['enoughareas'])) {
+							$dispatch_price = 0;
+						} else {
+							$areas = explode(',', $saleset['enoughareas']);
+							if (!empty($address)) {
+								if (!in_array($address['city'], $areas)) {
+									$dispatch_price = 0;
+								}
+							} else if (!empty($member['city'])) {
+								if (!in_array($member['city'], $areas)) {
+									$dispatch_price = 0;
+								}
+							} else if (empty($member['city'])) {
+								$dispatch_price = 0;
+							}
+						}
+					}
+				}
+			}
+		}
+		$couponprice = 0;
+		$couponid = intval($_GPC['couponid']);
+		if ($plugc) {
+			$coupon = $plugc->getCouponByDataID($couponid);
+			if (!empty($coupon)) {
+				if ($totalprice >= $coupon['enough'] && empty($coupon['used'])) {
+					if ($coupon['backtype'] == 0) {
+						if ($coupon['deduct'] > 0) {
+							$couponprice = $coupon['deduct'];
+						}
+					} else if ($coupon['backtype'] == 1) {
+						if ($coupon['discount'] > 0) {
+							$couponprice = $totalprice * (1 - $coupon['discount'] / 10);
+						}
+					}
+					if ($couponprice > 0) {
+						$totalprice -= $couponprice;
+					}
+				}
+			}
+		}
+		$totalprice -= $deductenough;
+		$totalprice += $dispatch_price;
+		if ($saleset && empty($saleset['dispatchnodeduct'])) {
+			$deductprice2 += $dispatch_price;
+		}
+		$deductcredit = 0;
+		$deductmoney = 0;
+		$deductcredit2 = 0;
+		if ($sale_plugin) {
+			if (!empty($_GPC['deduct'])) {
+				$credit = m('member')->getCredit($openid, 'credit1');
+				$saleset = $sale_plugin->getSet();
+				if (!empty($saleset['creditdeduct'])) {
+					$pcredit = intval($saleset['credit']);
+					$pmoney = round(floatval($saleset['money']), 2);
+					if ($pcredit > 0 && $pmoney > 0) {
+						if ($credit % $pcredit == 0) {
+							$deductmoney = round(intval($credit / $pcredit) * $pmoney, 2);
+						} else {
+							$deductmoney = round((intval($credit / $pcredit) + 1) * $pmoney, 2);
+						}
+					}
+					if ($deductmoney > $deductprice) {
+						$deductmoney = $deductprice;
+					}
+					if ($deductmoney > $totalprice) {
+						$deductmoney = $totalprice;
+					}
+					$deductcredit = round($deductmoney / $pmoney * $pcredit, 2);
+				}
+			}
+			$totalprice -= $deductmoney;
+			if (!empty($_GPC['deduct2'])) {
+				$deductcredit2 = m('member')->getCredit($openid, 'credit2');
+				if ($deductcredit2 > $totalprice) {
+					$deductcredit2 = $totalprice;
+				}
+				if ($deductcredit2 > $deductprice2) {
+					$deductcredit2 = $deductprice2;
+				}
+			}
+			$totalprice -= $deductcredit2;
+		}
+		$ordersn = m('common')->createNO('order', 'ordersn', 'SH');
+		$verifycode = "";
+		if ($isverify) {
+			$verifycode = random(8, true);
+			while (1) {
+				$count = pdo_fetchcolumn('select count(*) from ' . tablename('ewei_shop_order') . ' where verifycode=:verifycode and uniacid=:uniacid limit 1', array(':verifycode' => $verifycode, ':uniacid' => $_W['uniacid']));
+				if ($count <= 0) {
+					break;
+				}
+				$verifycode = random(8, true);
+			}
+		}
+		$carrier = $_GPC['carrier'];
+		$carriers = is_array($carrier) ? iserializer($carrier) : iserializer(array());
+		if ($totalprice <= 0) {
+			$totalprice = 0;
+		}
+		$order = array('uniacid' => $uniacid, 'openid' => $openid, 'ordersn' => $ordersn, 'price' => $totalprice, 'cash' => $cash, 'discountprice' => $discountprice, 'deductprice' => $deductmoney, 'deductcredit' => $deductcredit, 'deductcredit2' => $deductcredit2, 'deductenough' => $deductenough, 'status' => 0, 'paytype' => 0, 'transid' => '', 'remark' => $_GPC['remark'], 'addressid' => empty($dispatchtype) ? $addressid : 0, 'goodsprice' => $goodsprice, 'dispatchprice' => $dispatch_price, 'dispatchtype' => $dispatchtype, 'dispatchid' => $dispatchid, 'storeid' => $carrierid, 'carrier' => $carriers, 'createtime' => time(), 'isverify' => $isverify ? 1 : 0, 'verifycode' => $verifycode, 'virtual' => $virtualid, 'isvirtual' => $isvirtual ? 1 : 0, 'oldprice' => $totalprice, 'olddispatchprice' => $dispatch_price, 'couponid' => $couponid, 'couponprice' => $couponprice);
+		if ($diyform_plugin) {
+			if (is_array($_GPC['diydata']) && !empty($order_formInfo)) {
+				$diyform_data = $diyform_plugin->getInsertData($fields, $_GPC['diydata']);
+				$idata = $diyform_data['data'];
+				$order['diyformfields'] = iserializer($fields);
+				$order['diyformdata'] = $idata;
+				$order['diyformid'] = $order_formInfo['id'];
+			}
+		}
+		if (!empty($address)) {
+			$order['address'] = iserializer($address);
+		}
+		pdo_insert('ewei_shop_order', $order);
+		$orderid = pdo_insertid();
+		if (is_array($carrier)) {
+			$up = array('realname' => $carrier['carrier_realname'], 'mobile' => $carrier['carrier_mobile']);
+			pdo_update('ewei_shop_member', $up, array('id' => $member['id'], 'uniacid' => $_W['uniacid']));
+			if (!empty($member['uid'])) {
+				load()->model('mc');
+				mc_update($member['uid'], $up);
+			}
+		}
+		if ($_GPC['fromcart'] == 1) {
+			$cartids = $_GPC['cartids'];
+			if (!empty($cartids)) {
+				pdo_query('update ' . tablename('ewei_shop_member_cart') . ' set deleted=1 where id in (' . $cartids . ') and openid=:openid and uniacid=:uniacid ', array(':uniacid' => $uniacid, ':openid' => $openid));
+			} else {
+				pdo_query('update ' . tablename('ewei_shop_member_cart') . ' set deleted=1 where openid=:openid and uniacid=:uniacid ', array(':uniacid' => $uniacid, ':openid' => $openid));
+			}
+		}
+		foreach ($allgoods as $goods) {
+			$order_goods = array('uniacid' => $uniacid, 'orderid' => $orderid, 'goodsid' => $goods['goodsid'], 'price' => $goods['marketprice'] * $goods['total'], 'total' => $goods['total'], 'optionid' => $goods['optionid'], 'createtime' => time(), 'optionname' => $goods['optiontitle'], 'goodssn' => $goods['goodssn'], 'productsn' => $goods['productsn'], 'realprice' => $goods['realprice'], 'oldprice' => $goods['realprice'], 'openid' => $openid,);
+			if ($diyform_plugin) {
+				$order_goods['diyformid'] = $goods['diyformid'];
+				$order_goods['diyformdata'] = $goods['diyformdata'];
+				$order_goods['diyformfields'] = $goods['diyformfields'];
+			}
+			pdo_insert('ewei_shop_order_goods', $order_goods);
+		}
+		if ($deductcredit > 0) {
+			$shop = m('common')->getSysset('shop');
+			m('member')->setCredit($openid, 'credit1', -$deductcredit, array('0', $shop['name'] . "è´­ç‰©ç§¯åˆ†æŠµæ‰£ æ¶ˆè´¹ç§¯åˆ†: {$deductcredit} æŠµæ‰£é‡‘é¢: {$deductmoney} è®¢å•å·: {$ordersn}"));
+		}
+		if (empty($virtualid)) {
+			m('order')->setStocksAndCredits($orderid, 0);
+		} else {
+			if (isset($allgoods[0])) {
+				$vgoods = $allgoods[0];
+				pdo_update('ewei_shop_goods', array('sales' => $vgoods['sales'] + $vgoods['total']), array('id' => $vgoods['goodsid']));
+			}
+		}
+		$plugincoupon = p('coupon');
+		if ($plugincoupon) {
+			$plugincoupon->useConsumeCoupon($orderid);
+		}
+		m('notice')->sendOrderMessage($orderid);
+		$pluginc = p('commission');
+		if ($pluginc) {
+			$pluginc->checkOrderConfirm($orderid);
+		}
+		show_json(1, array('orderid' => $orderid));
+	}
+}
+include $this->template('order/confirm');

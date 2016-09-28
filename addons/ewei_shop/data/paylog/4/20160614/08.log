@@ -1,0 +1,10 @@
+
+-------------------------------------------------
+orderno: SH201606140847595805
+paytype: alipay
+data: []
+setting: ok
+sign: ok
+log: {"plid":"618","type":"","uniacid":"4","openid":"1852","tid":"SH201606140847595805","fee":"498.00","status":"0","module":"ewei_shop","tag":"","acid":"0","is_usecard":"0","card_type":"0","card_id":"","card_fee":"0.00","encrypt_code":"","createtime":"","eso_tag":"","uniontid":""}
+corelog: ok
+payResult: {"result":"success","order":{"id":"449","ordersn":"SH201606140847595805","price":"498.00","openid":"oliVJuGZnmBO9oPStEBX4pFRgbVg","dispatchtype":"0","addressid":"504","carrier":"a:0:{}","status":"0","isverify":"0","deductcredit2":"0.00","virtual":"0","isvirtual":"0","couponid":"0"},"address":{"realname":"\u6e29\u83b9","mobile":"13970111045","address":"\u7fe0\u5fae\u8def\u4e2d\u822a\u57ce7-2301"},"carrier":false,"virtual":"0"}.

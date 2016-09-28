@@ -1,0 +1,77 @@
+    
+                  <div class="form-group">
+                        <label class="col-xs-12 col-sm-3 col-md-2 control-label">排序</label>
+                        <div class="col-sm-9 col-xs-12">
+                            {ife 'patient.doctor' $item}
+                             <input type='text' class='form-control' name='displayorder' value="{$item['displayorder']}" />
+                             {else}
+                             <div class='form-control-static'>{$item['displayorder']}</div>
+                             {/if}
+                        </div>
+                    </div>
+                <div class="form-group">
+                        <label class="col-xs-12 col-sm-3 col-md-2 control-label"><span style='color:red'>*</span> 科室</label>
+                        <div class="col-sm-9 col-xs-12">
+                            {ife 'patient.doctor' $item}
+                            <select class='form-control' name='cate'>
+                                <option value=''>--请选择科室--</option>
+                                 {loop $category $cate}
+                                 <option value='{$cate['id']}' {if $item['cate']==$cate['id']}selected{/if}>{$cate['name']}</option>
+                                 {/loop}
+                            </select>
+                             {else}
+                             <div class='form-control-static'>{$item['displayorder']}</div>
+                             {/if}
+                        </div>
+                    </div>
+
+                 <div class="form-group">
+                    <label class="col-xs-12 col-sm-3 col-md-2 control-label"><span style='color:red'>*</span>名称</label>
+                  <div class="col-sm-9 col-xs-12">
+                          {ife 'patient.doctor' $item}
+                            <input type="text" name="title" maxlength="30" value="{$item['title']}" class="form-control"  />
+                      {else}
+                             <div class='form-control-static'>{$item['title']}</div>
+                             {/if}
+                             
+                    </div>
+                </div>
+
+                 <div class="form-group">
+                    <label class="col-xs-12 col-sm-3 col-md-2 control-label"><span style='color:red'>*</span>职称</label>
+                  <div class="col-sm-9 col-xs-12">
+                          {ife 'patient.doctor' $item}
+                            <input type="text" name="technicaltitle" maxlength="30" value="{$item['technicaltitle']}" class="form-control"  />
+                      {else}
+                             <div class='form-control-static'>{$item['technicaltitle']}</div>
+                             {/if}
+                             
+                    </div>
+                </div>
+
+                 <div class="form-group">
+                    <label class="col-xs-12 col-sm-3 col-md-2 control-label"><span style='color:red'>*</span>主治</label>
+                  <div class="col-sm-9 col-xs-12">
+                          {ife 'patient.doctor' $item}
+                            <input type="text" name="skill" maxlength="30" value="{$item['skill']}" class="form-control"  />
+                      {else}
+                             <div class='form-control-static'>{$item['skill']}</div>
+                             {/if}
+                             
+                    </div>
+                </div>
+        
+                    <div class="form-group">
+                        <label class="col-xs-12 col-sm-3 col-md-2 control-label">图片</label>
+                        <div class="col-sm-9 col-xs-12">
+                                {ife 'patient.doctor' $item}
+                             {php echo tpl_form_field_image('thumb',$item['thumb'])}
+                             {else}
+                               {if !empty($item['thumb'])}
+                                <a href='{php echo tomedia($item['thumb'])}' target='_blank'>
+                                <img src="{php echo tomedia($item['thumb'])}" style='width:100px;border:1px solid #ccc;padding:1px' />
+                                </a>
+                                {/if}
+                             {/if}
+                        </div>
+                    </div>

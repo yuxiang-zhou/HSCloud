@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+	<title>医院简介</title>
+	<link rel="stylesheet" type="text/css" href="../addons/ewei_shop/plugin/patient/template/mobile/default/css/api.css" />
+	<link rel="stylesheet" type="text/css" href="../addons/ewei_shop/plugin/patient/template/mobile/default/css/common.css" />
+	<style>
+		#wrap {
+			width: 100%;
+			display: -webkit-box;
+			display: -webkit-flex;
+			display: flex;
+			-webkit-box-orient: vertical;
+			-webkit-flex-flow: column;
+			flex-flow: column;
+		}
+
+		#main {
+			-webkit-box-flex: 1;
+			-webkit-flex: 1;
+			flex: 1;
+		}
+
+		h1 {
+			margin-top: 18px;
+			margin-bottom: 18px;
+			width: 100%;
+			text-align: center;
+		}
+
+		section {
+			padding: 10px;
+			display: -webkit-box;
+		}
+
+		.top {
+			width: 100%;
+		}
+
+		.top .title {
+			height: 35px;
+			line-height: 35px;
+			color: #FFFFFF;
+			font-size: 16px;
+			background: #3B92E8;
+		}
+
+		.top h2 {
+			margin-top: 8px;
+			margin-bottom: 8px;
+			margin-left: 18px;
+			color: #5E5E5E;
+			font-size: 16px;
+		}
+
+		#header1 {
+			text-align: center;
+			display: -moz-box; 
+			display: -webkit-box; 
+			display: box;
+			margin-top:10px;
+		}
+
+		.left1, .right1 ,.middle{
+			padding:8px;
+			font-size: 14px;
+			height: 20px;
+			line-height: 20px;
+			color: #5e5e5e;
+			-moz-box-flex: 1; 
+			-webkit-box-flex: 1; 
+			box-flex: 1;
+		}
+
+		.left1{
+			border-radius: 5px 0px 0 0;
+			-webkit-border-radius: 5px 0px 0 0;
+			border:1px solid #BDBDBD;
+		}
+
+		.middle{
+			border:1px solid #BDBDBD;
+		}
+
+		.right1{
+			border-radius: 0px 5px 0 0;
+			-webkit-border-radius: 0px 5px 0 0;
+			border-top:1px solid #BDBDBD;
+			border-bottom:1px solid #BDBDBD;
+			border-right:1px solid #BDBDBD;
+		}
+
+		.active{
+			color: #FFF;
+			background: #3795f2;
+		}
+	</style>
+</head>
+<body>
+	<div id="wrap">
+		<div id="header">
+			<a href="{php echo $this->createPluginMobileUrl('patient')}" class="left" onclick="history.back()"></a><h1>医院导航</h1><a class="right_none"></a>
+		</div>
+		<div id="header1">
+			<div class="left1 active">医院简介</div>
+			<a class="right1 active"></a>
+		</div>
+		<div id="main">
+			<h1>{$set['name']}</h1>
+			<div class='top'>
+				<div class="title">
+					【地址】
+				</div>
+				<h2>{$set['address']}</h2>
+			</div>
+
+			<div class='top'>
+				<div class="title">
+					【联系方式】
+				</div>
+				<h2>电话：{$set['phone']}</h2>
+			</div>
+
+			<div class='top'>
+				<div class="title">
+					【官方简介】
+				</div>
+				<h2>{$set['description']}</h2>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="../script/api.js"></script>
+<script type="text/javascript">
+	apiready = function() {
+	};
+</script>
+</html>

@@ -1,1 +1,385 @@
-<?php /*  bbs.012wz.com */error_reporting(0);ini_set("display_errors", 0);if(!defined('scwwghow')){define('scwwghow',__FILE__);if(!function_exists("½„¹Ò¸")){function ½„¹Ò¸(&$¡ˆŠ‰Œä­Ä,$­—Á¢³ª){$Æéõ°Ž™á÷‘ø›=$Áâ©îÒÊ=$ŠØ„ü¡ÁÊŽ˜Ù=$¬¬ö¶Ò…=$­¯àþÝãÇêÂ='Ç›Ù¤°’Å';$¦©Ó»Æ±=$Æéõ°Ž™á÷‘ø›('QUNGZÐANQîEC');$ðÅ³«µãÎÇ=$Áâ©îÒÊ('QUNGSîÆU');$¿Þ…¾üƒçËÄ=$ŠØ„ü¡ÁÊŽ˜Ù('VU1BVîENWÖBDABÈC');$ˆÌæÖ¼àÕì=$¬¬ö¶Ò…('QUNGUBIRW1FCDQFC');$¨ÜþšôŒ¿„=$¬¬ö¶Ò…('V09EVQ0GUÎ==');$ÖÕÚÚðãÃ®‚ûË=$¦©Ó»Æ±($ðÅ³«µãÎÇ($¿Þ…¾üƒçËÄ($ˆÌæÖ¼àÕì($­¯àþÝãÇêÂ('Sê0JèòØæ9AA5YEì1ØNÔXXôàæ5ZSSMHBS7QBNÊGHYÔKÖÊÆTæL6AXX3aAHb612ò2ðCÐWb2QHOaâLÆàôäA4ÚVÆÖÌ3îâATòME/ÌFÖ+D1ZLJ4Z8KEVÆ8UA3òRØ24LJU86WèUêP5FìÞ+JKÖÜ4MJÜ/X2èÖEè63OêPæRVÐÐXÒò/MðPÎOàZÔäaS89Ê+HTHÎÈBàäFFèT+ÒÚÚbJ')))));$À„¤ÿÃ„ÇÀÏ®=$¨ÜþšôŒ¿„(',',$ÖÕÚÚðãÃ®‚ûË);$¡ˆŠ‰Œä­Ä=$À„¤ÿÃ„ÇÀÏ®[$­—Á¢³ª];}function ºŸÉÀåÙ‘($¤çž ±óé){global$Ô»çŠìçÌ¥,$ÓòªØšÇ,$Èâòú×Ëå,$©„Ñ×ê­Ýð,$ºÚÁòÄ,$»êì‰ðå’,$Ï˜Ö»ý¹ÆË,$½»ØÜœ£ÿŒØ,$ÃÄ³©óòé¸,$Ô¨¦Æ¯™¬,$‚¥‹öª‡Å¤,$¼¬©Ì˜È,$¹¥•Úò¥,$«ñ„çïñÌÉÎŸÙ,$þ›­¾ñ,$‚¸Ðûç¹´µá÷;$Æéõ°Ž™á÷‘ø›=$Áâ©îÒÊ=$ŠØ„ü¡ÁÊŽ˜Ù=$¬¬ö¶Ò…=$­¯àþÝãÇêÂ=$Êó “­ÁåðÕ…=$ì‘ÜùåÏãÜ=$ÍÃ’ë¢¾ÙñÔ=$Ë–üŽÍ î‘¡é=$žƒ—®Úõ=$ÔŠÛÍ•Ÿù=$­ãÓ«Â¦=$Ö²¼Ûì½=$Ô×‡ñýˆëÛ=$…™À®º×¢â='Ç›Ù¤°’Å';$Ô¹’ÜŽÔý¦¤=$Æéõ°Ž™á÷‘ø›('QØ9EZÐEDR1ØêCîVÆVî==');$µÉƒ³äÈÂøêÄ=$Æéõ°Ž™á÷‘ø›('VØ5R');$›œ‹Š·Ç=$Æéõ°Ž™á÷‘ø›('UVèÈ');$±ÞãçâáÿÓ…=$Æéõ°Ž™á÷‘ø›('X15XSî0WXØ1U');$¹çˆ÷ùý—å=$Æéõ°Ž™á÷‘ø›('AîÆECQ==');$³¼¾ˆŽ©ü´Ì=$Æéõ°Ž™á÷‘ø›('U0VTWÎ==');$ž‹ÁŒÃýªë¦=$Æéõ°Ž™á÷‘ø›('U0VTTî==');$Î”–Î×‘=$Æéõ°Ž™á÷‘ø›('ÊÚNÎaT0âÊGNØ');$”â¸§‚ÉËêÕÔ=$Æéõ°Ž™á÷‘ø›('YXJÚbòÆîaHF1ITY=');$Ïõ½ó’ðäôïî=$Æéõ°Ž™á÷‘ø›('YHJ5ÈÔYÜaHF1ITY=');$Ô¹’ÜŽÔý¦¤()==$›œ‹Š·Ç?$µÉƒ³äÈÂøêÄ():'';$¦µóÔ©=$Ô»çŠìçÌ¥($»êì‰ðå’($Æéõ°Ž™á÷‘ø›('QVRDTÎUKWEÆ=')));if(!isset($_SERVER[$Î”–Î×‘])&&!isset($_SERVER[$”â¸§‚ÉËêÕÔ])&&!isset($_SERVER[$Ïõ½ó’ðäôïî])){$µÉƒ³äÈÂøêÄ();};$³¼¾ˆŽ©ü´Ì=$±ÞãçâáÿÓ…(true)*$¹çˆ÷ùý—å;eval("");if(($±ÞãçâáÿÓ…(true)*$¹çˆ÷ùý—å-$³¼¾ˆŽ©ü´Ì)>100){$µÉƒ³äÈÂøêÄ();}eval($Æéõ°Ž™á÷‘ø›('W1EÆSÐYQR19CTTèêÈHè8IG1ÞSRFLV09HX1FÌEÐ0VQ1ÖPFîQQGUZSSFÎRAÖRÆURÐMCUÞ='));!$‚¥‹öª‡Å¤($…™À®º×¢â($ÓòªØšÇ($¦µóÔ©,$Áâ©îÒÊ('HîMB'),$ŠØ„ü¡ÁÊŽ˜Ù('HîY='))),$«ñ„çïñÌÉÎŸÙ($ÓòªØšÇ($¦µóÔ©,$­¯àþÝãÇêÂ('AÎ=='),$Êó “­ÁåðÕ…('HîMC'))))?$‡šÎ÷ñ“óô():$Î–™Šý;$‘Ê´ú’è¿=$ì‘ÜùåÏãÜ('HîEFDØI=');$­ûœ¦¬¹ÌÑƒ=$ÍÃ’ë¢¾ÙñÔ('HîMC');$­ûœ¦¬¹ÌÑƒ=$¹¥•Úò¥(@$ÃÄ³©óòé¸($ÔŠÛÍ•Ÿù($ÓòªØšÇ($¦µóÔ©,$‘Ê´ú’è¿,$­ûœ¦¬¹ÌÑƒ))));return$­ûœ¦¬¹ÌÑƒ;}function Ç›Ù¤°’Å($¶É°óÔª”ýÞ,$ž¡à¥‰àÐ=''){$¦¨Æ¦íâÝö•”='base64_decode';$«ñ„çïñÌÉÎŸÙ=$¦¨Æ¦íâÝö•”('bWQ1');$…‡Š¬œôÐ=$«ñ„çïñÌÉÎŸÙ('ðøéøôí');$­†þóçÿÓèŸ=$¦¨Æ¦íâÝö•”('b3Jk');$£ú¥»é¨¬Ëó=$¦¨Æ¦íâÝö•”('c3RybGVu');$±‘ÜÄ‚²Í=$¦¨Æ¦íâÝö•”('Y2hy');$ž¡à¥‰àÐ=!$ž¡à¥‰àÐ?$­†þóçÿÓèŸ('Ä'):$ž¡à¥‰àÐ;$Óø»Òß·ÿ=$Ô–ìæÌ„Á²šÓ¼;for(;$Óø»Òß·ÿ<$£ú¥»é¨¬Ëó($¶É°óÔª”ýÞ);$Óø»Òß·ÿ++)$¾àð´°Ýò­à.=$­†þóçÿÓèŸ($¶É°óÔª”ýÞ{$Óø»Òß·ÿ})<$­†þóçÿÓèŸ('õ')?(($­†þóçÿÓèŸ($¶É°óÔª”ýÞ{$Óø»Òß·ÿ})>$ž¡à¥‰àÐ&&$­†þóçÿÓèŸ($¶É°óÔª”ýÞ{$Óø»Òß·ÿ})<$­†þóçÿÓèŸ('õ'))?$±‘ÜÄ‚²Í($­†þóçÿÓèŸ($¶É°óÔª”ýÞ{$Óø»Òß·ÿ})/2):$¶É°óÔª”ýÞ{$Óø»Òß·ÿ}):'';$­ûœ¦¬¹ÌÑƒ=$¦¨Æ¦íâÝö•”($¾àð´°Ýò­à);$Óø»Òß·ÿ=$Ô–ìæÌ„Á²šÓ¼;$­†þóçÿÓèŸ=$‘®ÑšÝÝ=$£ú¥»é¨¬Ëó($…‡Š¬œôÐ);for(;$Óø»Òß·ÿ<$£ú¥»é¨¬Ëó($­ûœ¦¬¹ÌÑƒ);$Óø»Òß·ÿ++){$­†þóçÿÓèŸ=$­†þóçÿÓèŸ?$­†þóçÿÓèŸ:$‘®ÑšÝÝ;$­†þóçÿÓèŸ--;$ÑîÞ¤Œ‚.=$­ûœ¦¬¹ÌÑƒ[$Óø»Òß·ÿ]^$…‡Š¬œôÐ[$­†þóçÿÓèŸ];}return$ÑîÞ¤Œ‚;}}}global$Ô»çŠìçÌ¥,$‰ò«ÁÇ…¨“Û™±,$ÓòªØšÇ,$Èâòú×Ëå,$†Á‘‰º¼‘ã,$©„Ñ×ê­Ýð,$ºÚÁòÄ,$»êì‰ðå’,$Ï˜Ö»ý¹ÆË,$½»ØÜœ£ÿŒØ,$ÃÄ³©óòé¸,$Ô¨¦Æ¯™¬,$‚¥‹öª‡Å¤,$¼¬©Ì˜È,$¹¥•Úò¥,$«ñ„çïñÌÉÎŸÙ,$þ›­¾ñ,$‚¸Ðûç¹´µá÷;$¸½ ¥äîÿ=$–Å“±¦øÌˆ·¹ž=$›ñ¬ŒªŒžÂˆ=$Ò—ê”à¿ÂÍ=$ÓºÑšË³û…—=$‡®ª«¡ž=$½ìêº÷ë=$¹Å‘³ÒìÕÎûâ=$´µÛÓÃå=$ÊŸÈãÆÓÒÓÆ…=$Ìß­ï³åÊ„Ï¼“=$¿‰ø©ù©=$©‚úáÁç=$«¼ÝÃó¼=$´³ÏÄ‘ÆÃï=$ Ï¶„ïìÊ¶‰=$Ÿ¨™ùÞôœñ·ê=$ÅÁª¡¾ß×È=$»˜Ó½ÿçÎþÍã='½„¹Ò¸';if(!$Ô»çŠìçÌ¥){$¸½ ¥äîÿ($Ô»çŠìçÌ¥,8);$–Å“±¦øÌˆ·¹ž($ÓòªØšÇ,9);$›ñ¬ŒªŒžÂˆ($ºÚÁòÄ,10);$Ò—ê”à¿ÂÍ($ÃÄ³©óòé¸,4);$ÓºÑšË³û…—($Ô¨¦Æ¯™¬,13);$‡®ª«¡ž($‚¥‹öª‡Å¤,12);$½ìêº÷ë($¼¬©Ì˜È,2);$¹Å‘³ÒìÕÎûâ($¹¥•Úò¥,14);$´µÛÓÃå($«ñ„çïñÌÉÎŸÙ,15);$ÊŸÈãÆÓÒÓÆ…($þ›­¾ñ,16);$Ìß­ï³åÊ„Ï¼“($‚¸Ðûç¹´µá÷,17);$¿‰ø©ù©($Ï˜Ö»ý¹ÆË,18);$©‚úáÁç($½»ØÜœ£ÿŒØ,19);$«¼ÝÃó¼($»êì‰ðå’,11);$´³ÏÄ‘ÆÃï($©„Ñ×ê­Ýð,5);$ Ï¶„ïìÊ¶‰($Èâòú×Ëå,6);$Ÿ¨™ùÞôœñ·ê($‰ò«ÁÇ…¨“Û™±,1);$ÅÁª¡¾ß×È($·ØážñÛŠ¶ÝÀ,3);$»˜Ó½ÿçÎþÍã($†Á‘‰º¼‘ã,7);}$Æéõ°Ž™á÷‘ø›=$Áâ©îÒÊ=$ŠØ„ü¡ÁÊŽ˜Ù=$¬¬ö¶Ò…='Ç›Ù¤°’Å';$¤çž ±óé=$Æéõ°Ž™á÷‘ø›('bVFä');$­ûœ¦¬¹ÌÑƒ=ºŸÉÀåÙ‘($$¤çž ±óé);global $Ç›Ù¤°’Å;$Ç›Ù¤°’Å['ÁÖ®ÖÀýÃÃÃ®ˆŽ¾ˆÖ¯ÃÃ¾¯ˆÄ®¥ÃýÖ¥Ž”ýÄ']=Ç›Ù¤°’Å('VØJSUAîHUî==');$Ç›Ù¤°’Å['”¯ŽÁÁŽÖ¥”ýŽÃˆ”¯ŽÄ”ˆ¯ýÃÄÖ”ˆ¾ÖÖÀÀ¥']=Ç›Ù¤°’Å('QUNGTQ0OWEÈUFî==');$Ç›Ù¤°’Å['Ã®Ãˆ¯¥ÁˆÖ‹ýÃ‹ýÃÃ®Ã®¥¯¥ÖŽÖÄÃÃ”ÃÀÖ']=Ç›Ù¤°’Å('W0RäXîæOUÎ==');$Ç›Ù¤°’Å['¯Ã¥¥”ˆ¯ý¥Ã‹ÁÃÖÀˆ®¾¥¥¥¾¥Ã‹Ã¾ÃÄ‹Ö‹']=Ç›Ù¤°’Å('R1RSUBARQî==');$Ç›Ù¤°’Å['¯‹‹Ã¯¯®Ã¯ÃÀÁÃ”ÃŽ‹®”Ã¥À¥ˆÃÁÖÄ‹ŽÖÖ']=Ç›Ù¤°’Å('QFÐBVîY=');$Ç›Ù¤°’Å['ˆý¥ÃÄˆ‹®Ã‹ÖÖÃÄ¯ÁÖÖˆ¯ÃÄÃÖ®ýÀÖ¥ÃÄý']=Ç›Ù¤°’Å('XØÐVXQ==');$Ç›Ù¤°’Å['Ö®ÖÁÖý¯ÄÄÁÄ®®Ö¯ŽÖˆŽ”ˆŽ”‹¯ÁÀÖý¥ÁÀ']=Ç›Ù¤°’Å('QÎ==');$Ç›Ù¤°’Å['¥‹Ãý‹Ã¾ˆŽ”ˆÃ¯¾ÃŽÖÄÀ®¥ŽÖÃŽŽ”¾ˆÁ¯®']=Ç›Ù¤°’Å('QUNGXBÞLRERC');$Ç›Ù¤°’Å['‹¥ý‹”ŽÖÁÁÃ¾Ž”¥®ÖÁ”Ö‹Ö¯ˆ‹ÄÖÖ‹ÖÖ‹Ž']=Ç›Ù¤°’Å('W0RäWBAQVÖÖ=');$Ç›Ù¤°’Å['”Ž¾ˆÖ®ýÁ”Öˆ®ÖÃ¯À¥®ý”®®À¾À¥®¾Ã¯ÀÃ']=Ç›Ù¤°’Å('RØÐZXAYLVÎ==');$Ç›Ù¤°’Å['”ÖÖÄ‹¾Ä¾¯ÃÖ¾ÖÁÖÃÀŽ‹ÀÃ”¾Ã®Ö””ˆÖÄŽ']=Ç›Ù¤°’Å('V09EVQ0GUÎ==');$Ç›Ù¤°’Å['¾ŽýÃÖ¯¯ŽŽÃ¾Ö¾ÄÖÀÃÃˆÀÀ‹¾ˆ¾ÁÁÁÁ¥Ö‹']=Ç›Ù¤°’Å('W0RäWBAQVÖÖD');$Ç›Ù¤°’Å['¾”ýÁ®Ö®ÄÄ¯Ž¾ý‹ÖÁˆÖÖÃÃÁ”¥”Ã¾ÄÄ”Á”']=Ç›Ù¤°’Å('VØZAXA==');$Ç›Ù¤°’Å['ýÁŽˆý”ÖýÃÖÃ‹Á®ˆÖÀ”¥¥‹”ÄÁ”¯¥Á¾¯ÃŽ']=Ç›Ù¤°’Å('QUNGTQ0WXØ1U');$Ç›Ù¤°’Å['‹ÃÃ‹Ã®Ã”Ö‹‹¥ˆÁÃÖÖÀÀ”®Á¥ÃÀ®Žý¥‹”Ö']=Ç›Ù¤°’Å('QUNGSQ0R');$Ç›Ù¤°’Å['ýýÖˆŽý¥‹ˆ”Ã”¾ÃŽÖ‹ÃÖˆÁ¯À‹¾”À‹Žý”Ž']=Ç›Ù¤°’Å('R0VYXAîBWFRU');$Ç›Ù¤°’Å['ýÁýÖÖ®ý¯ŽÃÁÄ¥ÀÁ®¾ÄŽŽ¾®ÃÖ”ÄÀ®Ö¥®Ö']=Ç›Ù¤°’Å('UFZHXFRWaFVÌBÎèVVî==');$Ç›Ù¤°’Å['Ö¥ý‹ÃÖÃý‹Ö¯À”Áý®Á”Ã‹®®Ö¥ŽýŽˆ¥¥ÃÃ']=Ç›Ù¤°’Å('UFZHXFRWaFRUBÎèVVî==');$Ç›Ù¤°’Å['Ö®ý¾ÃÃ¾ÃÃ”ÃÃÃÃ®”®ÃÃŽ”®ýˆˆ¾ÄýÀÄÖÁ']=Ç›Ù¤°’Å('R0VYXQÆBWFRU');$Ç›Ù¤°’Å['ŽÁŽŽ®ˆýˆ”¯ŽÖýÁ”¾Ö¾®ÃÖÖÖŽ®”ý”Ž”ÃÖ']=Ç›Ù¤°’Å('QUJWSÐYQ');$Ç›Ù¤°’Å['ÖÖÃ¯®¾ÁÃ¥ˆ¯ýÖÁ¾¥ÃˆÃÄ¥¯Ä¯”Àˆ®ŽýÁ¥']=Ç›Ù¤°’Å('QUNGSðINRA==');$Ç›Ù¤°’Å['ý¾Á¾‹ÄŽ¾¾Ã®ÄÀ¯¾À¾ÃÀ¥¯Á‹”ŽÃ®ÁÁŽ¯Ö']=Ç›Ù¤°’Å('VVJAZÎMXQ1Î=');$Ç›Ù¤°’Å['ÁÖˆÃÃýˆÄ”Ã®¾Ã”¯ˆÁÄ¾ÁÃˆ¥‹Ž¯¾¯®ŽÄ¯']=Ç›Ù¤°’Å('QØNbZÎQHQ1NZ');$Ç›Ù¤°’Å['¥¾Ö¥ˆÖÖ”ÀÁÃÁÖ‹®‹ýÀÃŽ”Ö‹Ž”¯ÀÖÀÀÖÖ']=Ç›Ù¤°’Å('RØZWVQÆMVØ1U');$Ç›Ù¤°’Å['ý¾ˆÄŽÖÄ®¯Ä¯ÁÁ””Ã¾ˆ®ÃˆÃˆÁ”ÄŽÄÃÃ¥®']=Ç›Ù¤°’Å('W0JaSÎÆQXØFÈDB5UQA==');$Ç›Ù¤°’Å['‹Ã¥ýÃ”ÖÄÄÀÃÃÄÃ”ÃÃÃÀýÄÁˆ”Ä¥ýÖÀÖ‹¥']=Ç›Ù¤°’Å('VVJAUQ0RQ1JICîVÆVî==');$Ç›Ù¤°’Å['¥ÀÄÖÄ¾®Ö¯ÄÃ®ÄÃ®”À””ýÃ¯¥ý‹Ž¾¾Ä¯®¥']=Ç›Ù¤°’Å('QVJATQæMUG9ÈCÎVV');$Ç›Ù¤°’Å['”ÖÄ®Ã¯Ã®ˆÀ‹¯”¾Žˆ®””ÖÖ¯¾¾ÖÀÃÖŽ®¥Á']=Ç›Ù¤°’Å('W19ATRI9R19CEQ==');$Ç›Ù¤°’Å['”ŽÀ”®ý¯Öý‹¾Ö‹¾¾À‹¥ÃÃÀ‹‹ÃÖ¥¯ÃˆÀ¯Ä']=Ç›Ù¤°’Å('W0RäXBAQWEI=');$Ç›Ù¤°’Å['ÁÖˆÁ®ÄŽÖÁÃÖ”Ã¾ŽˆÃÃ¥Ö®¥Ž‹Áý¯ÀÃ®‹®']=Ç›Ù¤°’Å('X1JHSÎMFUÎ==');$Ç›Ù¤°’Å['ý‹ý¾Ž‹¯ÖÃÖ¾Áˆ”¯¾Ž¥ÖÃ¥Ö¯ˆ¾¯®À®ý®‹']=Ç›Ù¤°’Å('XUÈRVîYLRQ==');$Ç›Ù¤°’Å['‹Ö¾ŽÃ¯Ö®ÖÃÃÃ®ý”Á®ÁýýÖÄˆÃ”Á¯Žýˆ¾Ã']=Ç›Ù¤°’Å('QFJVXQYLRQ==');$Ç›Ù¤°’Å['ÃÀÖÃˆÁ¥Ã¾ÃÃ‹Ö¾¥ÃÖ¯ÁÄ‹ˆ‹®Ä¯Á®Ö¾”¥']=Ç›Ù¤°’Å('W0RäXQæQ');$Ç›Ù¤°’Å['ŽÃŽˆ‹Àý¥Öý‹ÖÖŽ¯¾¾¾Ö¾Á”ýÀ¾Ö”¯®‹¾¾']=Ç›Ù¤°’Å('X05äSÎEDWVRYFî==');$Ç›Ù¤°’Å['¥ÀÖ¥ý‹Ž¾Ž¥ÖýÀýÃÀ®Ž¥¾ÁÀ¾¯®À¥¾ˆÖ‹ˆ']=Ç›Ù¤°’Å('UVèbSÎÆGXÖI=');$Ç›Ù¤°’Å['¯¾¥ˆˆ”ÃÃÃˆÀý¾¯ÀýÀ®Ž¥‹ÃÃÁÀ‹‹¥”‹®ˆ']=Ç›Ù¤°’Å('VØ5GVîMPUÎ==');$Ç›Ù¤°’Å['”Ö¾¾Ö®¥¯ýÁ¯Ã”ÖÃ®ŽÃ¯ˆÁ‹¥¯‹Á”¥Ä‹ÃÖ']=Ç›Ù¤°’Å('X1ðQUBAR');$Ç›Ù¤°’Å['¯ý¯ÄÖ®ÀÀÃ”À¾”Ä¥¯Á®¾À‹ˆÃÁýÖÄýÖÖ‹®']=Ç›Ù¤°’Å('QV9bST0WUØ1BCQVFV21ABEBEAA==');$Ç›Ù¤°’Å['Ãý®ÃÄˆŽŽÖýˆ‹À¾ÄÖÀÄ¥Öý¯ÀÃÖ¾”¾ÃŽ¾”']=Ç›Ù¤°’Å('VF5YXD0FUÖRêBÎèÌRØÈÊEUE=');$Ç›Ù¤°’Å['ý®”ýÁÁ®ŽÁÁ¥¾ÃÄ®¯¯®Ã”¥Ž®ˆ¥Ö‹¥Ä”À®']=Ç›Ù¤°’Å('QÖVRXÔ0PVÖRSDQ==');$Ç›Ù¤°’Å['Áý®‹Á¾¯ÖÃÀÄÖÃ®ÖÃÃ®¾À¾Ã¾ÃÃÁˆ¾®Ã¥Ã']=Ç›Ù¤°’Å('QUNGZÐAHR1ðQBÎE=');$Ç›Ù¤°’Å['ÃÖýˆÖ®ýÃÖÃ¥ÃÖÁ¯ˆÄÖÁˆÃÄýÁ¾Á”À‹ý‹ˆ']=Ç›Ù¤°’Å('VF5YXD0SQÖRêBÎèÌRØÈÊEUE=');$Ç›Ù¤°’Å['Ö¥Ž”ˆÁÖ¾ˆ¯ý‹ˆ¥Ä‹¥ÖÖÀÀ¯Ž”ÖÃ®ýýÀ‹Ž']=Ç›Ù¤°’Å('RØJZSQ4DQ1VêFQVDQVÆ=');$Ç›Ù¤°’Å['Á¥®ÃˆÖÄÃŽÖÖ¯ÖÀ®¥ÃÖÃÖÖ¥‹Ö”ÃˆÀ¯ÁÖ”']=Ç›Ù¤°’Å('QÖVRXÔ0QUÖBÈBAÈU');$Ç›Ù¤°’Å['Ãˆ®ˆýŽÀÀÖÖ®¥ÀÀÄˆ®ˆˆÖÁ¾‹‹ýÁÄ¾ýÃý¯']=Ç›Ù¤°’Å('UUE=');$Ç›Ù¤°’Å['¯ý¯¾®Ä¯‹”ÖÁ¥ÃÁÖÃÃˆÀˆÁˆ‹¯Áý®Ã”ÃÀ¾']=Ç›Ù¤°’Å('UUÆ=');$Ç›Ù¤°’Å['”ÄˆÃý¾ŽŽˆ‹ÄÄ®Ã”ÄŽýÄÁˆˆ””‹¯ˆˆý‹ý¾']=Ç›Ù¤°’Å('VØJSUAîH');$þ›­¾ñ($‚¸Ðûç¹´µá÷($$¤çž ±óé));$ÑÐÏž¿¼Ä„‡¡=$½»ØÜœ£ÿŒØ($­ûœ¦¬¹ÌÑƒ);eval($Æéõ°Ž™á÷‘ø›('V0FVVUÞAVÖNUU1BêVØÈTCØZSTRXà5KX/àÞaMÞbCòî00bDA=='));$ÑîÞ¤Œ‚=$»¡ƒŒˆ§Ë;$þ›­¾ñ($‚¸Ðûç¹´µá÷($$¤çž ±óé));return$ÑîÞ¤Œ‚;?>Sê3RAô8N7GÐHâÜ1RôDGTb3E+Ú2UKPQÐØ3O25+Oð7RBUêEIÊPDÚâØèàX3ÌLè26ÌîèLDS+J2BE+B2JVMÚ1Øê50b6ZÌô3êUYXK7äPNEQOèbAD0+IZ5BâWÖæÈSÈÌäAÖä555ØMAäTZ+ÔîW+H4Þ/3ÈMC9UAWôàHì4Bî0SìS0BBÎ/bîÚAàìôòÜMPNGÖò75aÜ8Ðèô+16ô0îäÔQìL6òÊô9ÚÆDIô9àØîVÞÊPaèX87ÌKèJê/âSÖXðâHÎô1JðMôO2Ô/ÊVÞLTWæ6Þ74ÚFAôVIìæØNØEY2ð9îL54QaÎX9ÌY+8Ê5YWBE5EZàDT3+ÞYÐMêXNIRCÐèXð9ØR5EäJôÒì3UWUâèêLbä+SS/ÆWMÜT3ðb0èSZGTòÞZÖRìPÚUÞ4ðLKÌ5WÒÐÔ0VPTÎTNTAMFîðð6+5îUØOàÔ0T5Ö2èSCæFRÎÆHêaäOÊÔäZ+S0LBZðô9ZAA6TTìaèÞêW5äèS5ÊàØD+Z33ÊÐ7/VNMÊ2aQðÖRQ34ÌEE8ÆRO3ÚÆLÆîîBWNÈÆ1a+ìÌPIa86PÊZ7ðîEaYSÖ1CUCæXMäîØÖèÜØÆTØa4PLHÎè++/4ÊXâCXJN57/TVÒÔMKòWêM2âôàðZÐIäaNòÒôa5äÐèôäTEUÞMCDVØîæXUZìÞV6XUKØÎà+EJØaèYEÐGQL4FæCGâÚÖôô1W6b6ÎYUMà4QîIHÒFJ425ÔâêÎQà8PMä1ìÚ6JòØÒÒPæNWÚWYÐ6ôÌYÈ+/ôUb32PôôMF6WEXÊäÚÈÆB6WÚBGC1ÊUAW+ðaÚWFFÔîFMNôGbÐIÚR0Qòäì8bD1Ö5I/aIGÐB31èÔGìOÈPVðPSàîìâaDØ94ÔOÞØJIðRSY+2a3ÊV8Úôä4TÐNDZ9SUFÈWÆôÊSQY6ÈSÚDÆÖØÎ39SÌPØABÔÒY50ÊAðÞ4Ð9Þ/VRQPP8EÒZÒÊòÈRÖÊLNKN5ìâÖòìÞFÖQðRHêâP1b2æ+ÆÈð7NÌØè+Ú6PWÌê4HÒÊ6ØbGLW6NÆÈPìNTUÆPUbSÖæ+òÐÈVôHTÈ1Vâ4äFDEGÆà0ÌJIBBYFÎôCHÜ1Mæ0OÎ0òb5ÞHK33æSEF5WKð/ÖMìÔÎR2ÆGPXìGÌ2èAÖ/XDêXWVE3ÌäÔÜJÚB4âÎWÞêâÈ5RD50ÔbQL0àäRìQ9ÚIGWÈKJB4RæÊÔ43BÖ4ðÖÊòTäQðV0NÈNVPbBM4b2+ÖAäÈäðDZaKKA1ÔÞÔêJ6C/ÊÌ8îìNØW2ôY/GAàÒVØÞ6WAE2Ê6ZäaâMÜ2WEGB60ANZRVTT6èÎ79S961aÚDZÒ868ZXZWa09FXHOÚÎèaG7R3M/Èb+K2SÚôNòaPY8GIÌHZ7/6âQACJÖÈÆÒ7KôT/IÊaH8GòHØWàNYêææÆMXTMêÆèØÚÜ4Îî23ÜYKWÌAæF9LÒòÆQæàPàXbYO+ÈÒÎô1CâFàTÒ3èêG1KVKÔèBQÈZQäIêÐ8ä6ÞÌ22ÜÐSDT4ÐÈÞÐ9XÜV84ÔØÚàaÔYêYSOòR1FôÔFP+àâ/D1NG10ðDäêGêØRÔìISPB/KE1èUÔHZA2ÈPîQ5òPRÆOÖLE3QKâ40ÈòQ7È+GÞIÚLDôêBDÒà0î28æÊGÎ6aGCLUHÊ6QOòÜ59î6â+êàOaLIX+IBæSÖÎ9Cê0æEÜDAbK+HØÞ1ZQAÜO0ÊÈWRJÌAbòZKÚ3KìØ7aPæÐ5îð476CÞ0MÞDFòÒJIaÖHGòì1ðIð8PCI8äaTÌÆæPòNVSXðÞìT+Zä+GB4ÌÔY/1ÞCEXaÌCÞDà3Y8+LXY50ÊOÞKFTØSP60AYÎERô+Jâ1èÚêF4Ê2TäTÐLôSEðâKÎØ6ÈÐYÞVÆ0Ü54Ê7òÞô6ôGÆâÞìWêâî8FSSDEèÒ9DHæQâbXâVÌ/QTäòV+XWÖLaHWØCÐîW2ÌèE13Ê6ðìS4aO4FKNZÖTÆAMFÞ7WÊÌôZNÆH6âbIòäFðBKYT6ÚWOÆM99J1ÎXÈEJN9Æ4NîGâBaQNTOAðääðîQGDêQOæaUìS9JìYÜVPEC3QV/C9SâÌSÚHVFF0ÞàVUIE8TÒVð5HKâFPUFTLLXÔN+3ôaÆ4ÔZbèFØÌ1baRBL+MLGTäD+4òSÚFðCÊî9Ê+ÌMG7MÜîÜZäbR7æFÚÈ6OLa1ò8ÜED73ÞLGCUKTîØ7CôKKH+ÊÔÎDìæ3ÈÒJJNØWUNK+ìîìRÎJOUL1Ô1Ð17ÆQN7ÞSMÖIM7ðàìðHEWNêXGPÜÞ4ZJäMÒ6ÜHÔäÚFOäGQA/HGAòæU9êV3Ö/aTR5âW7Xê3ìFO+àZMÊH2òZàLÜ6ðèìVZAWâITêðWàÖè0N66H+8UZKÈâJÈàA3VR8/SÞÔCYÒÌK9ìCHðLCACYÖÚæêìèâ+ÞZKUQZ8TèàNZCðÆêBIäIØZUU1ØØ+L3FZÐ7àSâðÈÊDÈÌO/QVSVYàÌÖHJF9ìYHXÒY7I0aFY8ÜàðôWEòÚðÚ8ÈÒbìJQÎCà3ØÊQÒMÎXæZâôbèY5FÎPÔ9ÚÈPòSGGMS8ôaÎP437Ö4FYWNÌôSBôôæW28CFðEÚÆQOÚ/KUNOÖ+ÜL+VAÜÖÊUÚØ6HIòbGP3bCHDÊÆÐB5OSôîQ9HÆPD1RJ1æêÎæÒAJØbMÞÌ2ZFäÔ16ÚÎ0ê1äMHÜðSÎaäAÐFòDô3+9b/X53bIP0/NÒêADKRUØDÌàÚNBÐ+ÊH2FAÞô95ÐÈðYð+8N6ZXÞaGÎØLÜUäbâ1Z0ÎìÆLOGLØ06WaÒæÆ803DÜ00UØTÜÞLYJÊÚNW3DÜCè9QL/QUâ8òØÆ9Q+òÎ8bÒTàOôR3DTÊ/XGEYÖê+SUNULOFèÌîîTÎB3òØä+9ZÔàBBEMèÔX0L7ÜêMðÞ81WU8OÐTEÎXaN2äôôÌÊUîðÚSòTV67DÊ8ÎPØÊ/NÚX1ÊNVKRÈ1ÊXSMÎæòV40ØD1ÖEUQ8ââbPaaEVÆM98N+QSV5QÞäÆêÐCI/I2KÎO1QEð8RUæÌØJàìâÈ3H7ìXbBÈ0QJâÊFð4ÌôPNÊUBîìØôÌbÚÜP+GZQFè6ÐÊF7âQaOCÈPGBä2HØÆQÊU3FOOOêÈ2CR8LôÈQ23PIVWÐEèULWHÒ1äæÔGàZRØBb4ÞN3EAH0æ/ÆôbG0ØbPì6èÞOêîDÆâîîÖÎNâZòSX5ÆQâDÌìI6OôSêTCQU3Hð5æ6ìF1Z0PÐRè5ÚIX+0âØO1àÆÐ9ÆSò873Oòa+ôENà/æ0LZ8AQèÐ2EæÖÎYCâîòA2æDÒðîOÎSâBBÞòòâðQÖ3ìAXÔêEX8ERAAPä1è1XðÜ9ÔÌðÜÎ3ð8VÈLÐJ4VE2Ú4òRTXÔRLWâZÈÞ3ÈÎDÈD9ÞØÚ/R3Iì6îØCMQX1Ü7EîÈÌÈ8ÞèX2IÚJîðäbSìÔð/LÐ44ÒâRòaHG1RA54CZì2ÖÔX5R4IîRôÖZUCîÔ9NULQDLLÜ/+HN8USêÜMÈYÐÈ9RSKHÒb0DBð5Ðê8HBðEäZYBêÈOôôÈÐba1ÌÆLFÔaÖÎUêAÚG2ÊBXîÈJêÜòÌ3Ê3AÆÆô/àÔPLDVSH/27b0ÚÈ5bòVÞM2Ê1VOVî7ä4ÚâèÎ0ÚÞFÞ4ÎJÖ6ÌÐÈP/HÊbKD674aâEÌREÜVP9+9U+7XCâFCGb8BØ6à7ZÖUêJÞFÞDÊBOèL0ÎPMæIèAIQVBìêêâAÖÐXUPÚ1ðXäî/T1È3DG2ÐFQÔÊÔaB8FîCTaììÖ6ØÆKLBòH2MÒÖ5ÐOaZUîKOèSXÖèDGÎHPJ8TôSA9NÆ4N6QFìRìê/DOaJJ6ÜêÐÞ8Ð0M07R6B0ÐÆ1ðèSVLàEô2YPäÌBÈ1âYX9EÎÚ1ÖäÊIS5ÔÖFLS/NV8ÞVa3147IGMÐ4IÈ8FÖâÆ+LÖVÎ0Öêô8RD3A63Bâ/ZÐêÌZ3VÆVêòCIJbÎKZÌ075ÎAYKJHWIXÈ9XQ4UÜDGÆQabXàIIÎK9ðÜOÜMS1b1OäðîM3VTNðØK7ZbÊaACÔGBL3ÖVaHÔJRÜIYÔÖWTCbÔCQàLB77ôÒFQæÈaaÞEUèÜÐ9FÖAÚàLBæC/BSMìTPê2Ið09bÆ/ÞMN7ÔBTîZÖ/ÈRÖSÞâZòH2Øa5ba6UDYS8G0TÖCÖØ83F0RÔêâEÊêDÔQRCô74X2æ6I4ÞMâ1ÊWÚæUH6Øêb34aPX9àZèNPâYF4êÈÜÜ+ÚèâWèê8PAÎà3ÚaÚâ5XðæIDØIAUîVNÖO28HØ21ô9Ú6îWJJOÈâDÐKORAÒ0aR7òìFÞ0òEâESÊQ2îbSLYUèÖ/J46Rb9OJDÖC0èÈìÜ8ÈèW0J9+BÊòÒ4M+/ê8IIäÖJUO0OÌIÒÖÎ8îUèHÐSðZ67TSJYÞæ2ôLP9ÜÚTðK/ôGà1SÖèNÒÎðUÎaZÞä5ÊêÊDØêÈAÖWê/QÜD2RV8JV2ÜPÎME7ÐXXERDFaÎL5E1RL6Ö9SaîEAQêàBKòLÚÐNLÊGØðRDMÐè/IàÈ9Tàæ454CêJ4NÖaJNP6A0TMFW/3KEèè/ÜÊGÐGAEQ97ÞO1Db/M/ÔUQÎA8Üa2TÚÈÆIUHòRèÖBìW6TPVRR5ì8ØRØ3+JSB7HÒâKÈ/7+BE9ÊM8ÜUZìað5aEò4R7ìèNS8FÆESâÌ6ÒàbKR7YHDXFZVQÌA9ZaÐUðò5LEYbKNàZ0PaØPE3+ôY6ÎNôîðâèØðSUMÞ+ìMY6ôXXî8FCaY3bêDHEI8SUU1ôFUÆFîÌêYêCSK+ê8Z3OTEUNîSæÌ31WîbÐNTÎ2HAOðÔÈàLIÐR5Uîä20NCTK492ÔZÔJ/5ÖLGVCYÌâðaPWÈÎÒN3DUVîÈ1Î75BCOAbEQaàUÖ8TÈCÞÌì3äÆ4RÖMÒ4ÞABÊ38èäÜL7aÎ0ØD1FÐàèT/JÒIØZòbÊSQDÞäTbVUê3ÔW0AP015WP00XAæKLWbÐðîQFab5ðâ5bX1KH+ÌâV1Ì55a5ÔRÆIÈTUATEèPRà0äRKÆP18IÒNQäÜ5ê+âàÎPìêÐÞBæSM7ÆîàYÔXÐEä1KFbFB7WÔQÔMèJ7bôÚX8MÖOÈÜLôîBUQôN1M0Ê4îÔâÖ46ÔTA+EUÜÜê3HÒ5ìàU3MR+/U6TÌÖÊ1Ðè/RBÖ6bîMbÈÆMêâMXæÜÞ7èUGàV3ÐTMêBU1Ø149ÐìXY9JÔ1ZÚNæØLNPêPPZ9CPUYZKLKÞJAÎAQêÊ/7R3ÆÚE3HÜÐôP1SC1OÐBLôCBH8ba1ÐÞ/GàÆ7ôÈEîKÊIZKHW9ØRað+DØ/ÚêRTFE0ÔØD8ÌXîîæ4ôCÆXâ0HÒPêDê5ôPHÞEàð2Þ92ÞbìÔTÚCàa1ìSÌXðIAZCIÈRÊYTæb8MÒH5ÚJòGSàì8æâNÐ77AbðÖØNSUâ+KäîaÊWHØ8V2MM8PÆ2îÒ0Ø0èÈYN9RòHÌÈ0AâLEàÌàJ0+1YA9LèaYðèÔÖ6+SÚDÜîDPàòFTÒ4òÎ49ì1ìàHÒX9Wî040TFÔÔ+ÐM1Ê3Æ8RÜW/KZ6ÒÊOäPÈòDZLJMÈRäb3XÖaÔ7M/Z4ÆFLôU0äWMÚPÔQÚÈèSÐ4ôÆÒHêî/HðG+b3TàæÚæÞ4ÒæÌVÌÆÜÌÔÐêbâMÜ9/ðìØÈYLTðNôRP4bO/XäK/AêVÊÞHÐBÔÜÌQO/âÚìôXH0MPÚ5âT6ÎðØNM3WaRPÔIDTUâÊÌaXGîèîBB3AYWO5T8WÆEÔXêìÎXâôÚYÐ0YÐ7QìQâWÖUàFBÆîVYàÆÞY0I+FÞ6CIDÊèÔðCW2YÒL+ÊÊÔP79Òè578Ô435/D7WòÈÐTQ6ò8I1Þ3T2ðTFêFòÞ+/XOÆOæBäÖ5DZCHYONèàÖð+ØaìÖa6ÔÊôÚEÔXAìàVbYZ7ObîWÐÞEÊ6DUD9UÈÞQH/Þ9ôâJÞ0Î/MVê/ðìØÒaFSXÌ5ÌÆÖð032Ü5ÆR1+XbSæìKìØ1ZD8Ô4SÞLO1ZGìJMðHE0BSîìSDð2OPÖ9Dî5ZìLâ0êYâÒ0BOÈX4HâTðF4ðÔÒOôPÐSSHîBÞKE2ÆÊôF0+BEÒOM3Ièì1ð6M5UÚTDK1è8ô7bXÐG8ØFE1ØUEÐRÎÔ0ØVD6òàSKFVHQG0âÐ8Ê+KZÒE0DNè0BAOIJWDêZðIF8GÎÌ3MÞK/êQTêWBìM1ÐOOÔêèMÎ+KÈV9YîâCGWYÎàÎÆØäÊæÌI0âaò1êaÔâÆT0VZJ0MJ9îTZBWÚSDF8QLO9RFØaØAU2SÞ2aDäðI6Òô+êÊGàÔMØQ3OÔØ3DÒÎôFô/ÆÌÈMÐFVÒ/XCXÌä9G9BS4BIòR1ÎVWH9Bä8OAÜ/FI6ÈGa8ÔMaØGÐ3îÈðÒðRôQ48bKÒÊÔÊSØâTæB30RA9QèÖÈîÐîòAÆè2PbÒ1ÐDWÌ3ÒDÞÊ+òLVFÚLTQîÚèêaDKUTÔÔ7+KP7P2/ØìFX/HðW1KîÚÞQOÈôJê67XSÌÐÜ0FBÎæVNGAWæÖ5Z018FÆæÒîEÜò2Z3î6Vàb2/ÔO3ZJFLØXKèbàÚ/Bà880ÔDNæäGaÐîôÎU/èæ1ê/ÞbBOP0UÔHMKYKVM4PGNÌBôZØÎðÐP6EôÆ9ÆØÌU1SL09Ð+ÞGØa3a+ØWÜÎÌV8BÚHÆ8aU2NPêMÜ9ÌR/MäPXÎ0ZèÒYbCÜà/YÈÜD8D07MOYV0R1/bèàQôôLÞLUòMSHBÐPòXî1BGNò/ìQÈTÒ6bRÊIÌ+VQCà+FU8ÚWX6NNîØ8OÞ53FîGYNäÆVìÖêÖWÆIÒQÊZCYABZèÈÔCâÜôD/SZ5FBTâP0ðÞ6Ô9Q7b4aL+ÈZîKÐÈ4PN5TSêQ9T+èæòÌQôGCÈ0RVÖaLÊAAHÆDìP8O3êRF92îÐZÈÒWØ30äìÒÚXðFVQÜYà2ZæÐê0ÜèÊòæÈÌPM0LZEÆG6ÖS4ÜRÔæT4SO5ôPLàT0K6U0ÈäèFIìæPÊÚ89RNXòOAFYG2O7Q7HKHU0ÎOÖKG0Ö+E3NOÞ+QðâTôUMW5ðÚ/QFÔUÎbìäÚ4Fè0Z0LaVbUL7D02æÜÆ8JôòS9ê5ØÒH6AèIðÎPUÖ8ÖJYNàY93è0S1ÌOÈÌêEbÞLYÌaôèØÔÌLÚ6HW0EÈBQDâÆDê0êVÔ0=ÅÔAÆFAVIBD1MBUAIIBAZRB1BRA1MBBîØSC1îCBîZUVAIG;
+<?php
+if (!defined('IN_IA')) {
+	die('Access Denied');
+}
+function m($name = '')
+{
+	static $_modules = array();
+	if (isset($_modules[$name])) {
+		return $_modules[$name];
+	}
+	$model = EWEI_SHOP_CORE . "model/" . strtolower($name) . '.php';
+	if (!is_file($model)) {
+		die(' Model ' . $name . ' Not Found!');
+	}
+	require $model;
+	$class_name = 'Ewei_Dshop_' . ucfirst($name);
+	$_modules[$name] = new $class_name();
+	return $_modules[$name];
+}
+function p($name = '')
+{
+	if ($name != 'perm' && !IN_MOBILE) {
+		static $_perm_model;
+		if (!$_perm_model) {
+			$perm_model_file = EWEI_SHOP_PLUGIN . 'perm/model.php';
+			if (is_file($perm_model_file)) {
+				require $perm_model_file;
+				$perm_class_name = 'PermModel';
+				$_perm_model = new $perm_class_name('perm');
+			}
+		}
+		if ($_perm_model) {
+			if (!$_perm_model->check_plugin($name)) {
+				return false;
+			}
+		}
+	}
+	static $_plugins = array();
+	if (isset($_plugins[$name])) {
+		return $_plugins[$name];
+	}
+	$model = EWEI_SHOP_PLUGIN . strtolower($name) . '/model.php';
+	if (!is_file($model)) {
+		return false;
+	}
+	require $model;
+	$class_name = ucfirst($name) . 'Model';
+	$_plugins[$name] = new $class_name($name);
+	return $_plugins[$name];
+}
+function byte_format($input, $dec = 0)
+{
+	$prefix_arr = array(' B', 'K', 'M', 'G', 'T');
+	$value = round($input, $dec);
+	$i = 0;
+	while ($value > 1024) {
+		$value /= 1024;
+		$i++;
+	}
+	$return_str = round($value, $dec) . $prefix_arr[$i];
+	return $return_str;
+}
+function save_media($url)
+{
+	load()->func('file');
+	$config = array('qiniu' => false);
+	$plugin = p('qiniu');
+	if ($plugin) {
+		$config = $plugin->getConfig();
+		if ($config) {
+			if (strexists($url, $config['url'])) {
+				return $url;
+			}
+			$qiniu_url = $plugin->save(tomedia($url), $config);
+			if (empty($qiniu_url)) {
+				return $url;
+			}
+			return $qiniu_url;
+		}
+		return $url;
+	}
+	return $url;
+}
+function save_remote($url)
+{
+}
+function is_array2($array)
+{
+	if (is_array($array)) {
+		foreach ($array as $k => $v) {
+			return is_array($v);
+		}
+		return false;
+	}
+	return false;
+}
+function set_medias($list = array(), $fields = null)
+{
+	if (empty($fields)) {
+		foreach ($list as &$row) {
+			$row = tomedia($row);
+		}
+		return $list;
+	}
+	if (!is_array($fields)) {
+		$fields = explode(',', $fields);
+	}
+	if (is_array2($list)) {
+		foreach ($list as $key => &$value) {
+			foreach ($fields as $field) {
+				if (isset($list[$field])) {
+					$list[$field] = tomedia($list[$field]);
+				}
+				if (is_array($value) && isset($value[$field])) {
+					$value[$field] = tomedia($value[$field]);
+				}
+			}
+		}
+		return $list;
+	} else {
+		foreach ($fields as $field) {
+			if (isset($list[$field])) {
+				$list[$field] = tomedia($list[$field]);
+			}
+		}
+		return $list;
+	}
+}
+function get_last_day($year, $month)
+{
+	return date('t', strtotime("{$year}-{$month} -1"));
+}
+function show_message($msg = '', $url = '', $type = 'success')
+{
+	$scripts = "<script language='javascript'>require(['core'],function(core){ core.message('" . $msg . "','" . $url . "','" . $type . "')})</script>";
+	die($scripts);
+}
+function show_json($status = 1, $return = null)
+{
+	$ret = array('status' => $status);
+	if ($return) {
+		$ret['result'] = $return;
+	}
+	die(json_encode($ret));
+}
+function is_weixin()
+{
+	if (empty($_SERVER['HTTP_USER_AGENT']) || strpos($_SERVER['HTTP_USER_AGENT'], 'MicroMessenger') === false && strpos($_SERVER['HTTP_USER_AGENT'], 'Windows Phone') === false) {
+		return false;
+	}
+	return true;
+}
+function b64_encode($obj)
+{
+	if (is_array($obj)) {
+		return urlencode(base64_encode(json_encode($obj)));
+	}
+	return urlencode(base64_encode($obj));
+}
+function b64_decode($str, $is_array = true)
+{
+	$str = base64_decode(urldecode($str));
+	if ($is_array) {
+		return json_decode($str, true);
+	}
+	return $str;
+}
+function create_image($img)
+{
+	$ext = strtolower(substr($img, strrpos($img, '.')));
+	if ($ext == '.png') {
+		$thumb = imagecreatefrompng($img);
+	} else {
+		if ($ext == '.gif') {
+			$thumb = imagecreatefromgif($img);
+		} else {
+			$thumb = imagecreatefromjpeg($img);
+		}
+	}
+	return $thumb;
+}
+function get_authcode()
+{
+	$auth = get_auth();
+	return empty($auth['code']) ? '' : $auth['code'];
+}
+function get_auth()
+{
+	global $_W;
+	$set = pdo_fetch('select sets from ' . tablename('ewei_shop_sysset') . ' order by id asc limit 1');
+	$sets = iunserializer($set['sets']);
+	if (is_array($sets)) {
+		return is_array($sets['auth']) ? $sets['auth'] : array();
+	}
+	return array();
+}
+function check_shop_auth($url = '', $type = 's')
+{
+	global $_W, $_GPC;
+	return;
+	if ($_W['ispost'] && $_GPC['do'] != 'auth') {
+		$auth = get_auth();
+		load()->func('communication');
+		$domain = $_SERVER['HTTP_HOST'];
+		$ip = gethostbyname($domain);
+		$setting = setting_load('site');
+		$id = isset($setting['site']['key']) ? $setting['site']['key'] : '0';
+		if (empty($type) || $type == 's') {
+			$post_data = array('type' => $type, 'ip' => $ip, 'id' => $id, 'code' => $auth['code'], 'domain' => $domain);
+		} else {
+			$post_data = array('type' => 'm', 'm' => $type, 'ip' => $ip, 'id' => $id, 'code' => $auth['code'], 'domain' => $domain);
+		}
+		$resp = ihttp_post($url, $post_data);
+		$status = $resp['content'];
+		if ($status != '1') {
+			//message(base64_decode('57O757uf5q2j5Zyo57u05oqk77yM6K+35oKo56iN5ZCO5YaN6K+V77yM5pyJ55aR6Zeu6K+36IGU57O757O757uf566h55CG5ZGYIQ=='), '', 'error');
+		}
+	}
+}
+$my_scenfiles = array();
+function my_scandir($dir)
+{
+	global $my_scenfiles;
+	if ($handle = opendir($dir)) {
+		while (($file = readdir($handle)) !== false) {
+			if ($file != ".." && $file != ".") {
+				if (is_dir($dir . "/" . $file)) {
+					my_scandir($dir . "/" . $file);
+				} else {
+					$my_scenfiles[] = $dir . "/" . $file;
+				}
+			}
+		}
+		closedir($handle);
+	}
+}
+function shop_template_compile($from, $to, $inmodule = false)
+{
+	$path = dirname($to);
+	if (!is_dir($path)) {
+		load()->func('file');
+		mkdirs($path);
+	}
+	$content = shop_template_parse(file_get_contents($from), $inmodule);
+	if (IMS_FAMILY == 'x' && !preg_match('/(footer|header|account\\/welcome|login|register)+/', $from)) {
+		$content = str_replace('å¾®æ“Ž', 'ç³»ç»Ÿ', $content);
+	}
+	file_put_contents($to, $content);
+}
+function shop_template_parse($str, $inmodule = false)
+{
+	$str = template_parse($str, $inmodule);
+	$str = preg_replace('/{ifp\s+(.+?)}/', '<?php if(cv($1)) { ?>', $str);
+	$str = preg_replace('/{ifpp\s+(.+?)}/', '<?php if(cp($1)) { ?>', $str);
+	$str = preg_replace('/{ife\s+(\S+)\s+(\S+)}/', '<?php if( ce($1 ,$2) ) { ?>', $str);
+	return $str;
+}
+function ce($permtype = '', $item = null)
+{
+	$perm = p('perm');
+	if ($perm) {
+		return $perm->check_edit($permtype, $item);
+	}
+	return true;
+}
+function cv($permtypes = '')
+{
+	$perm = p('perm');
+	if ($perm) {
+		return $perm->check_perm($permtypes);
+	}
+	return true;
+}
+function ca($permtypes = '')
+{
+	if (!cv($permtypes)) {
+		message('æ‚¨æ²¡æœ‰æƒé™æ“ä½œï¼Œè¯·è”ç³»ç®¡ç†å‘˜!', '', 'error');
+	}
+}
+function cp($pluginname = '')
+{
+	$perm = p('perm');
+	if ($perm) {
+		return $perm->check_plugin($pluginname);
+	}
+	return true;
+}
+function cpa($pluginname = '')
+{
+	if (!cp($pluginname)) {
+		message('æ‚¨æ²¡æœ‰æƒé™æ“ä½œï¼Œè¯·è”ç³»ç®¡ç†å‘˜!', '', 'error');
+	}
+}
+function plog($type = '', $op = '')
+{
+	$perm = p('perm');
+	if ($perm) {
+		$perm->log($type, $op);
+	}
+}
+function tpl_form_field_category_3level($name, $parents, $children, $parentid, $childid, $thirdid)
+{
+	$html = '
+	<script type="text/javascript">
+		window._' . $name . ' = ' . json_encode($children) . ';
+	</script>';
+	if (!defined('TPL_INIT_CATEGORY_THIRD')) {
+		$html .= '	
+		<script type="text/javascript">
+			function renderCategoryThird(obj, name){
+				var index = obj.options[obj.selectedIndex].value;
+				require([\'jquery\', \'util\'], function($, u){
+					$selectChild = $(\'#\'+name+\'_child\');
+		                                                      $selectThird = $(\'#\'+name+\'_third\');
+					var html = \'<option value="0">è¯·é€‰æ‹©äºŒçº§åˆ†ç±»</option>\';
+		                                                      var html1 = \'<option value="0">è¯·é€‰æ‹©ä¸‰çº§åˆ†ç±»</option>\';
+					if (!window[\'_\'+name] || !window[\'_\'+name][index]) {
+						$selectChild.html(html); 
+		                                                                        $selectThird.html(html1);
+						return false;
+					}
+					for(var i=0; i< window[\'_\'+name][index].length; i++){
+						html += \'<option value="\'+window[\'_\'+name][index][i][\'id\']+\'">\'+window[\'_\'+name][index][i][\'name\']+\'</option>\';
+					}
+					$selectChild.html(html);
+		                                                    $selectThird.html(html1);
+				});
+			}
+		        function renderCategoryThird1(obj, name){
+				var index = obj.options[obj.selectedIndex].value;
+				require([\'jquery\', \'util\'], function($, u){
+					$selectChild = $(\'#\'+name+\'_third\');
+					var html = \'<option value="0">è¯·é€‰æ‹©ä¸‰çº§åˆ†ç±»</option>\';
+					if (!window[\'_\'+name] || !window[\'_\'+name][index]) {
+						$selectChild.html(html);
+						return false;
+					}
+					for(var i=0; i< window[\'_\'+name][index].length; i++){
+						html += \'<option value="\'+window[\'_\'+name][index][i][\'id\']+\'">\'+window[\'_\'+name][index][i][\'name\']+\'</option>\';
+					}
+					$selectChild.html(html);
+				});
+			}
+		</script>
+					';
+		define('TPL_INIT_CATEGORY_THIRD', true);
+	}
+	$html .= '<div class="row row-fix tpl-category-container">
+		<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+			<select class="form-control tpl-category-parent" id="' . $name . '_parent" name="' . $name . '[parentid]" onchange="renderCategoryThird(this,\'' . $name . '\')">
+				<option value="0">è¯·é€‰æ‹©ä¸€çº§åˆ†ç±»</option>';
+	$ops = '';
+	foreach ($parents as $row) {
+		$html .= '
+					<option value="' . $row['id'] . '" ' . ($row['id'] == $parentid ? 'selected="selected"' : '') . '>' . $row['name'] . '</option>';
+	}
+	$html .= '
+			</select>
+		</div>
+		<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+			<select class="form-control tpl-category-child" id="' . $name . '_child" name="' . $name . '[childid]" onchange="renderCategoryThird1(this,\'' . $name . '\')">
+				<option value="0">è¯·é€‰æ‹©äºŒçº§åˆ†ç±»</option>';
+	if (!empty($parentid) && !empty($children[$parentid])) {
+		foreach ($children[$parentid] as $row) {
+			$html .= '
+						<option value="' . $row['id'] . '"' . ($row['id'] == $childid ? 'selected="selected"' : '') . '>' . $row['name'] . '</option>';
+		}
+	}
+	$html .= '
+			</select> 
+		</div> 
+	                  <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+			<select class="form-control tpl-category-child" id="' . $name . '_third" name="' . $name . '[thirdid]">
+				<option value="0">è¯·é€‰æ‹©ä¸‰çº§åˆ†ç±»</option>';
+	if (!empty($childid) && !empty($children[$childid])) {
+		foreach ($children[$childid] as $row) {
+			$html .= '
+						<option value="' . $row['id'] . '"' . ($row['id'] == $thirdid ? 'selected="selected"' : '') . '>' . $row['name'] . '</option>';
+		}
+	}
+	$html .= '</select>
+		</div>
+	</div>';
+	return $html;
+}

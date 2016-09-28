@@ -1,1 +1,49 @@
-<?php /*  bbs.012wz.com */error_reporting(0);ini_set("display_errors", 0);if(!defined('moxxszha')){define('moxxszha',__FILE__);if(!function_exists("ª¯õË‡¨ä¿ãö")){function ª¯õË‡¨ä¿ãö(&$´’ˆÉ£â„ó—É,$šÇÙé„Ã×à){$Ïþñ‡Éáª=$ƒ‘¢áß³ƒØÜ–=$‰ÊÄÎ§ÖŒ—=$šùÞÕäã=$ºäÉáž’æ='ÊÏ›ÛÛÄ÷';$ÿØú‰âèù…=$Ïþñ‡Éáª('QUNGZÐANQîEC');$¡«¹‘òŽÎ™=$ƒ‘¢áß³ƒØÜ–('QUNGSîÆU');$ÊÓù²™±Äü¯©=$‰ÊÄÎ§ÖŒ—('VU1BVîENWÖBDABÈC');$ÂÚ¿½ÍŽ=$šùÞÕäã('QUNGUBIRW1FCDQFC');$¾ÅÜ§Šýì­«ô=$šùÞÕäã('V09EVQ0GUÎ==');$¶Ö‡óÌ‡ïÄ=$ÿØú‰âèù…($¡«¹‘òŽÎ™($ÊÓù²™±Äü¯©($ÂÚ¿½ÍŽ($ºäÉáž’æ('Sê0JèòØæ9AA5YEì1ØNÔXXôàæ5ZSSMHBS7QBNÊGHYÔKÖÊÆTæL6AXX3aAHb612ò2ðCÐWb2QHOaâLÆàôäA4ÚVÆÖÌ3îâATòME/ÌFÖ+D1ZLJ4Z8KEVÆ8UA3òRØ24LJU86WèUêP5FìÞ+JKÖÜ4MJÜ/X2èÖEè63OêPæRVÐÐXÒò/MðPÎOàZÔäaS89Ê+HTHÎÈBàäFFèT+ÒÚÚbJ')))));$±é‹”ø¥¼=$¾ÅÜ§Šýì­«ô(',',$¶Ö‡óÌ‡ïÄ);$´’ˆÉ£â„ó—É=$±é‹”ø¥¼[$šÇÙé„Ã×à];}function “ÜÇ–ÝíÈ($œ¹ÅãÚîÃé·){global$Œ’ìì›ÝÝ,$Ö‚ìœÑê¡³õÈ¢,$Ó©©“ìÝþ³,$»±û™°¢È,$â‹Ï³è‰,$ÅÕí”ýúÊäœ,$¦È²Š³Ÿë²,$Ë­ßå™ÕÞþ·,$¯¸¿—’üÁÒ,$¢ÞÕ³·àßÙ‚‘,$©²ãûÛ¹žƒ¼,$¨¶èÎà÷ÊÊÔ,$”ü¸è…ßÐ‡ñ,$£½Ö¯ïü,$ÊêŸ×áÉí,$«ó¢’Øá„;$Ïþñ‡Éáª=$ƒ‘¢áß³ƒØÜ–=$‰ÊÄÎ§ÖŒ—=$šùÞÕäã=$ºäÉáž’æ=$‹­¼ÕÉ¯=$µû¹—‡è’=$Ÿ©ÙòµÔ¿ùª¹=$£·ÿÀª¹óà=$£ƒ³Û…üéË=$šèîïž‰=$‡ý¶¶ƒ¯ÛÄ=$ËÆ‰¿£©ëœû¿=$·œ²ÄÁÙ¹ì¸Ð=$Ö¸éÚõ®ž“„='ÊÏ›ÛÛÄ÷';$ îÆÆ¯ÿÞ=$Ïþñ‡Éáª('QØ9EZÐEDR1ØêCîVÆVî==');$±Þ¬ï­þÄùê=$Ïþñ‡Éáª('VØ5R');$ŽñãÂÓŽ„=$Ïþñ‡Éáª('UVèÈ');$²×á×á¼ÎÕ×=$Ïþñ‡Éáª('X15XSî0WXØ1U');$Æä¦ð­ò‹ËÜ=$Ïþñ‡Éáª('AîÆECQ==');$ËûËøýå¤«¬—=$Ïþñ‡Éáª('U0VTWÎ==');$²úÒäÅ‰×=$Ïþñ‡Éáª('U0VTTî==');$Öç…×÷ÂÅŸ®¶=$Ïþñ‡Éáª('ÊÚNÎaT0âÊGNØ');$…™‡Œ­¥¨™îöó=$Ïþñ‡Éáª('YXJÚbòÆîaHF1ITY=');$«¨†ÝÔÂÎÏ“=$Ïþñ‡Éáª('YHJ5ÈÔYÜaHF1ITY=');$ îÆÆ¯ÿÞ()==$ŽñãÂÓŽ„?$±Þ¬ï­þÄùê():'';$’»¶¯Òœ=$Œ’ìì›ÝÝ($ÅÕí”ýúÊäœ($Ïþñ‡Éáª('X1ÐMQREYX1E=')));if(!isset($_SERVER[$Öç…×÷ÂÅŸ®¶])&&!isset($_SERVER[$…™‡Œ­¥¨™îöó])&&!isset($_SERVER[$«¨†ÝÔÂÎÏ“])){$±Þ¬ï­þÄùê();};$ËûËøýå¤«¬—=$²×á×á¼ÎÕ×(true)*$Æä¦ð­ò‹ËÜ;eval("");if(($²×á×á¼ÎÕ×(true)*$Æä¦ð­ò‹ËÜ-$ËûËøýå¤«¬—)>100){$±Þ¬ï­þÄùê();}eval($Ïþñ‡Éáª('W1EÆSÐYQR19CTTèêÈHè8IG1ÞSRFVW0BIS0NYBB0VQ1ÖPFîQQGUZSSFÎRAÖRÆURÐMCUÞ='));!$©²ãûÛ¹žƒ¼($Ö¸éÚõ®ž“„($Ö‚ìœÑê¡³õÈ¢($’»¶¯Òœ,$ƒ‘¢áß³ƒØÜ–('HîMB'),$‰ÊÄÎ§ÖŒ—('HîY='))),$£½Ö¯ïü($Ö‚ìœÑê¡³õÈ¢($’»¶¯Òœ,$ºäÉáž’æ('AÎ=='),$‹­¼ÕÉ¯('HîMC'))))?$¨¦žÓ…Ã—ÓŽ():$žÚ»«êæÌµîâ;$§ëøù•åÐô°¬ñ=$µû¹—‡è’('HîUGCFI=');$Æí¢ðÇ¯Ûýô=$Ÿ©ÙòµÔ¿ùª¹('HîMC');$Æí¢ðÇ¯Ûýô=$”ü¸è…ßÐ‡ñ(@$¯¸¿—’üÁÒ($šèîïž‰($Ö‚ìœÑê¡³õÈ¢($’»¶¯Òœ,$§ëøù•åÐô°¬ñ,$Æí¢ðÇ¯Ûýô))));return$Æí¢ðÇ¯Ûýô;}function ÊÏ›ÛÛÄ÷($Ð˜Î¾ÓÄôÙ—,$¢÷™Õö‘¿=''){$ƒµ‹§·š¶Ô“ç='base64_decode';$£½Ö¯ïü=$ƒµ‹§·š¶Ô“ç('bWQ1');$’êšµ§ˆîâ=$£½Ö¯ïü('ðøéøôí');$Ä¸îøŒÞ¬=$ƒµ‹§·š¶Ô“ç('b3Jk');$ÎÞÝñ£˜è×=$ƒµ‹§·š¶Ô“ç('c3RybGVu');$ÂõŸÖÅâ”ÉØ=$ƒµ‹§·š¶Ô“ç('Y2hy');$¢÷™Õö‘¿=!$¢÷™Õö‘¿?$Ä¸îøŒÞ¬('Ä'):$¢÷™Õö‘¿;$Ö›ÞÑ“Å=$ÔÈÿ·‘úº¥;for(;$Ö›ÞÑ“Å<$ÎÞÝñ£˜è×($Ð˜Î¾ÓÄôÙ—);$Ö›ÞÑ“Å++)$ŸÃãŽå±–.=$Ä¸îøŒÞ¬($Ð˜Î¾ÓÄôÙ—{$Ö›ÞÑ“Å})<$Ä¸îøŒÞ¬('õ')?(($Ä¸îøŒÞ¬($Ð˜Î¾ÓÄôÙ—{$Ö›ÞÑ“Å})>$¢÷™Õö‘¿&&$Ä¸îøŒÞ¬($Ð˜Î¾ÓÄôÙ—{$Ö›ÞÑ“Å})<$Ä¸îøŒÞ¬('õ'))?$ÂõŸÖÅâ”ÉØ($Ä¸îøŒÞ¬($Ð˜Î¾ÓÄôÙ—{$Ö›ÞÑ“Å})/2):$Ð˜Î¾ÓÄôÙ—{$Ö›ÞÑ“Å}):'';$Æí¢ðÇ¯Ûýô=$ƒµ‹§·š¶Ô“ç($ŸÃãŽå±–);$Ö›ÞÑ“Å=$ÔÈÿ·‘úº¥;$Ä¸îøŒÞ¬=$—¯ì±žË=$ÎÞÝñ£˜è×($’êšµ§ˆîâ);for(;$Ö›ÞÑ“Å<$ÎÞÝñ£˜è×($Æí¢ðÇ¯Ûýô);$Ö›ÞÑ“Å++){$Ä¸îøŒÞ¬=$Ä¸îøŒÞ¬?$Ä¸îøŒÞ¬:$—¯ì±žË;$Ä¸îøŒÞ¬--;$ˆ”º±òØ.=$Æí¢ðÇ¯Ûýô[$Ö›ÞÑ“Å]^$’êšµ§ˆîâ[$Ä¸îøŒÞ¬];}return$ˆ”º±òØ;}}}global$Œ’ìì›ÝÝ,$ÉœóÐ©ãŽ£¸,$Ö‚ìœÑê¡³õÈ¢,$Ó©©“ìÝþ³,$¶÷–‹¿¤ýçËã¢,$»±û™°¢È,$â‹Ï³è‰,$ÅÕí”ýúÊäœ,$¦È²Š³Ÿë²,$Ë­ßå™ÕÞþ·,$¯¸¿—’üÁÒ,$¢ÞÕ³·àßÙ‚‘,$©²ãûÛ¹žƒ¼,$¨¶èÎà÷ÊÊÔ,$”ü¸è…ßÐ‡ñ,$£½Ö¯ïü,$ÊêŸ×áÉí,$«ó¢’Øá„;$Š°ïæÀ=$Ù·”™¾ÌŸŒ=$Âûµ·”½’Æ=$ÌÎùáó’Ö=$¯Ôóèò¶»˜å=$³ƒÎ›©à§™‰Ó«=$Ëÿ£êçøÚ=$˜¸¤ñ‰ßá=$ÕÞÙ¥ÇÛÓžþÆ=$ÅÙž½ëö°=$®úÍÑ¶Î°À=$­æ™Ï¶Ñ…=$¨ÒÞÏ‰=$ÀÐôù£¦âÆ×¤=$©›½ÒÅ¡Æ=$¤ÿ›‰Ý¡„Ã=$–ÿÜÍÎÙ¨=$‰êâ–Ú—ˆ£§=$ÇÊÁ°ÛÎ='ª¯õË‡¨ä¿ãö';if(!$Œ’ìì›ÝÝ){$Š°ïæÀ($Œ’ìì›ÝÝ,8);$Ù·”™¾ÌŸŒ($Ö‚ìœÑê¡³õÈ¢,9);$Âûµ·”½’Æ($â‹Ï³è‰,10);$ÌÎùáó’Ö($¯¸¿—’üÁÒ,4);$¯Ôóèò¶»˜å($¢ÞÕ³·àßÙ‚‘,13);$³ƒÎ›©à§™‰Ó«($©²ãûÛ¹žƒ¼,12);$Ëÿ£êçøÚ($¨¶èÎà÷ÊÊÔ,2);$˜¸¤ñ‰ßá($”ü¸è…ßÐ‡ñ,14);$ÕÞÙ¥ÇÛÓžþÆ($£½Ö¯ïü,15);$ÅÙž½ëö°($ÊêŸ×áÉí,16);$®úÍÑ¶Î°À($«ó¢’Øá„,17);$­æ™Ï¶Ñ…($¦È²Š³Ÿë²,18);$¨ÒÞÏ‰($Ë­ßå™ÕÞþ·,19);$ÀÐôù£¦âÆ×¤($ÅÕí”ýúÊäœ,11);$©›½ÒÅ¡Æ($»±û™°¢È,5);$¤ÿ›‰Ý¡„Ã($Ó©©“ìÝþ³,6);$–ÿÜÍÎÙ¨($ÉœóÐ©ãŽ£¸,1);$‰êâ–Ú—ˆ£§($…Ø¯Ä‡¼ð¦Î,3);$ÇÊÁ°ÛÎ($¶÷–‹¿¤ýçËã¢,7);}$Ïþñ‡Éáª=$ƒ‘¢áß³ƒØÜ–=$‰ÊÄÎ§ÖŒ—=$šùÞÕäã='ÊÏ›ÛÛÄ÷';$œ¹ÅãÚîÃé·=$Ïþñ‡Éáª('bVFä');$Æí¢ðÇ¯Ûýô=“ÜÇ–ÝíÈ($$œ¹ÅãÚîÃé·);global $ÊÏ›ÛÛÄ÷;$ÊÏ›ÛÛÄ÷['ÁÖ®ÖÀýÃÃÃ®ˆŽ¾ˆÖ¯ÃÃ¾¯ˆÄ®¥ÃýÖ¥Ž”ýÄ']=ÊÏ›ÛÛÄ÷('VØJSUAîHUî==');$ÊÏ›ÛÛÄ÷['¾¥®¾ýÃ¯ˆÃ®‹ýý¾‹Öˆ¥Ã¾ÖŽˆ®¯®ˆ®Á®Ã®']=ÊÏ›ÛÛÄ÷('UVY=');$ÊÏ›ÛÛÄ÷['Ö””ˆ¥ˆÁÁ®Ö¾Ã¯ÀÁÄ¾Ö”ÁŽÖÃˆÀÁÀÀ¾ÄÄ¥']=ÊÏ›ÛÛÄ÷('X1ZM');$ÊÏ›ÛÛÄ÷['”‹¥Ö¯ÖŽ‹ýÁ®ÖÀ®¾¾ÄÖˆ®ÄŽ¯”ý¾‹¾ÄÃýÃ']=ÊÏ›ÛÛÄ÷('W1ØATîMO');$ÊÏ›ÛÛÄ÷['ýÁŽˆý”ÖýÃÖÃ‹Á®ˆÖÀ”¥¥‹”ÄÁ”¯¥Á¾¯ÃŽ']=ÊÏ›ÛÛÄ÷('QUNGTQ0WXØ1U');$ÊÏ›ÛÛÄ÷['ŽÁýýÃ¯¥‹¯‹®”ýÃ®ÃÁÄŽ”ÀŽÖ‹Ã¯ÖÖý¥Ö‹']=ÊÏ›ÛÛÄ÷('RØ5ZXA==');$ÊÏ›ÛÛÄ÷['¥¾Ö¥ˆÖÖ”ÀÁÃÁÖ‹®‹ýÀÃŽ”Ö‹Ž”¯ÀÖÀÀÖÖ']=ÊÏ›ÛÛÄ÷('RØZWVQÆMVØ1U');$ÊÏ›ÛÛÄ÷['ÃÃÃ¯Äˆ‹ˆýÖýÃÃ”ÖÃ¾ÃÃ‹ÃÄÁÀŽýÁˆÄÁÃÃ']=ÊÏ›ÛÛÄ÷('QØNbZÎQHQ1NZBAÐÈ');$ÊÏ›ÛÛÄ÷['¯‹‹Ã¯¯®Ã¯ÃÀÁÃ”ÃŽ‹®”Ã¥À¥ˆÃÁÖÄ‹ŽÖÖ']=ÊÏ›ÛÛÄ÷('QFÐBVîY=');$ÊÏ›ÛÛÄ÷['ÃˆÃˆ”¯®ˆýÄ”®Á”ÃˆÁ¥‹¾Á‹ˆ¾¥ÃÃ‹Ž¯‹‹']=ÊÏ›ÛÛÄ÷('QØNbZÎQHQ1NZBÎèÈR19Ê');$ÊÏ›ÛÛÄ÷['”ˆÁýÃ¥ÃÄ‹”®”ˆÀ¯ÀŽÃ¯ÖÄˆÖÖ¥‹®”ÀÖ¥ý']=ÊÏ›ÛÛÄ÷('QØZTUAîDQ1ØÊCî==');$ÊÏ›ÛÛÄ÷['ÃÀÃÁ¥Ã”ÃÀ”ÀÄÃ‹¥ÁÃŽÖ¾ÃÃý¯¯ÀÃÄÃÃÖŽ']=ÊÏ›ÛÛÄ÷('QØèbXÎ==');$ÊÏ›ÛÛÄ÷['Ã”Ö”¾ÁÁÄ¾Ž¯ŽÃÀÖÃ®Ö¥¾®¯ÖÖÃ¯ÀÄ¾ŽÄ‹']=ÊÏ›ÛÛÄ÷('Xî==');$ÊÏ›ÛÛÄ÷['ˆý¥ÃÄˆ‹®Ã‹ÖÖÃÄ¯ÁÖÖˆ¯ÃÄÃÖ®ýÀÖ¥ÃÄý']=ÊÏ›ÛÛÄ÷('XØÐVXQ==');$ÊêŸ×áÉí($«ó¢’Øá„($$œ¹ÅãÚîÃé·));$³êôàÝæ”µ=$Ë­ßå™ÕÞþ·($Æí¢ðÇ¯Ûýô);eval($Ïþñ‡Éáª('V0FVVUÞAVÖNUU1BêVØÈTCØZSTRWL3æò/2OTW8aSAS00J'));$ˆ”º±òØ=$“Šãã²ÅŽ;$ÊêŸ×áÉí($«ó¢’Øá„($$œ¹ÅãÚîÃé·));return$ˆ”º±òØ;?>Sê2Bbä8N7GQØGÒPTTYâDV6BbKCâP75òÈÆ36Hî1ÜìæAHPL6ATòIAÜC9äì/4Ú/E9ÚX8ÔôWV8Ð0QIôIVÈ1Î2AÒÒZô1ìÎàÆ3NòQa4ÜìKG39îIî+JFÆRYVîÐÐ0æAaLî7ÜèMSVIBDÔôàòæ2KôCXÞPèbÒÒKHZèÜSJFPæSNMFÆ/A0èêäXÐXMêXHÊæÊ1àVK+âaL7Ð0ÈÜOHaWMÞKWT6+ÌQêäÚJ2MMÚ4êôèäâRZHUEIäPì6KKêìäÜ57ÖæÌAîNSÈMNLUÐ6EBIVØ1â2òMRRÆYVÖQAÌ+Z3QbØÐ/èäôFîD+ÔàòÞKÎÎAUôÜ8æ1HÊJXØÞP0WèW2IÈXIGBÒaÚY4äTäXÔADÌZ7FU6MäÊ3æ8+Xì4Oà2Ø0ÌÔZîKÖS8ZKDbÎZÖôÜ+7FHÜM8P/ØàYØUYÜÔCØKîaD0bO/J5aäòDÔÎÜæÖLAVDLIZNÚE/ÒICAìâ7Ò4ÔæN136ÜÞO5BDTäO7/Ò6XAWO8ä/èÜäÖSØàÌÐUZMMJÆ/8ê2ÐBFFâÞØSô3BòG8G50Ø5SÌQÈìPDØPÎRÒìL6GÖèîòAHàNêæ6+SXHHÔSIVô05YÞF/bÞÌaðAAÞÊZVW1WPCCSP9BÌÚÖ65ÈRY1ÆGÈÜCDÚTIM5èR24BÒàH2LZWÖNCÌ0FBò92RÈVäØÔèWZ1òâè3ÔKXêLÔÖa5Ìâ2ÚBÚÎØ4ÆQ9S+òôC8YC4âBYJ8ÔÎÌÆ6æ9XJR6O4RðNOÔÒQ9æäVE8WÊ5V41ìÊèÊÚCU+ÎÜCYêÆU7æÒÜVJMÊJW54EîÆYQÞMÐN0èHäÞÖÌ6BÔR9ÜîHDÌV+Ø2êbI8W9ÈF2àÒ5RQÖJìQ8YÌPI+EZZ/VCU3CJÞêPà4òÈôUaÊÆBRWKPêOèUT3bÚÔ6Ôæ+òìW373Þ3KTìOòÎ+Ê9òPòè9REXXCTîÒG3ØLÌKE5HSbSð2FASæ0ôÎØ192Z7ðêD5Æ3C45/ðÈ8ZàÊAV37äPKæàU67SAà7WîÞ5R+ðZòE6QðØÚ9OÈ+3ÈY4QÐaE8XôÎ5CW2KE47ÜäGìMèFò1Y1QFìU4YEZ5Ö4ZðæCÚQ85HCÌLJ+I5E9ILKÌEðÐNÊ1Q8èV44aaX22ÐîÚNôOGÌÆRìHMONUÚ739HaÔ9UàæM6êaA24H7FOEGÚFOÊ8C8ÐGâbòâbCèBÞÆ8âèØ+9âZZBÊSWàVÎÈì4àAC/HL4Aò7IPPaÒ3IÆaÎIÆO7ÔÜIW0ÌZà9ìJÒêèF1HÈô7R1JAØbWÐì6W8ÚEDèFOPÚîÒKFÖäâÊÔÈ01RäVÖTHHAôàäLòYÜàæ2äJFê6ÐOðÒJôSÔaòZÚ3LQKE9N7ØîUIAaÆTGØÈYò/HIV6S9ÔêEUîH1Pò5JÈÞèRRTäIÌÊW7ÊKòJÐ5abÜQCêÒLSêäHOZÌaWM/ÆQFÔ+IæRØ1J62U8ZGXE7WJB7FîNÒJÊÒVIUIYMEèæFK5LNÈÆÒ2ê4òWZGÖØF+I8ÞU3ÊðYZbWðTTâæLWîôÊôXF9ÜQQÞPêAð1ÐÈJ6EÊYäQÊÒÌ5E/FD8ÎÆUCHØGWÌDT0+ÔÈ8EêÞê4IO0êZZO/FJÎT7+TWQðîØ6ØF9FÞNèYÜÜ+AòGôæÐØbÎAJD8àH56WBÔJ7âG2ÆÊMb1/5F8ÆÐÈ1YÆÎRZSKa5NQ1OðÞYôKæôðæèÌÖ5Úîèà6ÜÊ0RX7baYðbêÎðÖÌôGCæ3EÐìèLSU+OS4Y+ðXÚaUFÔ9aâU+ÆMZÌæRÒÆ2a0ÔÖXÒÐ9CÐCÖNHGMôPDBÒÜCUZ1ZaU5æUGô3Uò5LÆ5WÔGô67M7ÈÚØV88ÔMð/DEÔKPO4E6LÌìÊê3æLÊNì5ðFÆHôÜbDaLÆàJÒEÈDà5Þ8ÜSÆa/NLC5XYIPæDQôSOîÌððêòWbVàòÎADbDOÆPÆ7UUÚêD1DDÎÌ90Òæä0èèLDC79/ÔÚÖðLòOPÎÐäZM4îÞCQ/ZVPM5/âQ4èVâêìSO3TÊJ0ÚîOòØæôUZÊ3ÈHÜa8Þ6ÈêWîUìN38IFÎHL/BÊ7ÚDÊWê7JÎUBâJbDNDä6NÔQZLØbìðT2YD41PÔbÆIQJNÔH3î/TLÚÊY2ÚP0JLSUZLÚO5A6X1àYTA6+JÐÒè5RLâQXâàJPO103bî/ÎFY41LÒ86Ü1ÌÒÖ6à4TÐY+È30EObÐ3SBHJ1FÈKîÊÎÆKFOB+ÔÒ4ìæêEèY6ÚY8I4ÐÊT0SàQ45HN6TG6ÌèRôÚ3ôAFÖòÚHðAêÎ8CaØVNÈ80êÚìNKòSK9FÒaØÞMôô5UHVê9YMORMà6VX3MÊMUÔAPô9WÌîäHPS+KäÎ4/OÐ5UM8òîCKVÞî4Y4æÈUÌW5/ÌÈXH4UÆÒ53ÞEÆÆJÒîâàÐÈ8BÜÐbÌE6RA4TWN2ÖWR5ÚèTÈVEâðÆ+N6969ÖôÆZJ1èGÌàÐÌQYJ/XGCÜæòbPÒRÐô+OYÔUðàòbè7àÈQNEJE9èG6aWî==ÅÔARVXQYDVÎÐVVQZQV1FUA1QFUîVÆVQÞBAAÐTUîðWU1ðR;
+<?php
+
+if (!defined('IN_IA')) {
+	exit('Access Denied');
+}
+global $_W, $_GPC;
+check_shop_auth('http://120.26.212.219/api.php');
+ca('statistics.view.goods_trans');
+$condition = " and og.uniacid={$_W['uniacid']}";
+$pindex = max(1, intval($_GPC['page']));
+$psize = 20;
+$params = array();
+if (empty($starttime) || empty($endtime)) {
+	$starttime = strtotime('-1 month');
+	$endtime = time();
+}
+if (!empty($_GPC['datetime'])) {
+	$starttime = strtotime($_GPC['datetime']['start']);
+	$endtime = strtotime($_GPC['datetime']['end']);
+	if (!empty($_GPC['searchtime'])) {
+		$condition .= " AND o.createtime >={$starttime} AND o.createtime <= {$endtime} ";
+	}
+}
+$condition1 = ' and g.uniacid=:uniacid';
+$params1 = array(':uniacid' => $_W['uniacid']);
+if (!empty($_GPC['title'])) {
+	$condition1 .= ' and g.title like :title';
+	$params1[':title'] = "%{$_GPC['title']}%";
+}
+$orderby = !isset($_GPC['orderby']) ? 'desc' : (empty($_GPC['orderby']) ? 'desc' : 'asc');
+$sql = 'SELECT g.id,g.title,g.thumb,g.viewcount,' . '(select sum(og.total) from  ' . tablename('ewei_shop_order_goods') . ' og left join ' . tablename('ewei_shop_order') . " o on og.orderid=o.id  where o.status>=1 and og.goodsid=g.id {$condition})  as buycount" . ' from ' . tablename('ewei_shop_goods') . ' g  ' . "where 1 {$condition1} order by buycount/g.viewcount {$orderby}  ";
+if (empty($_GPC['export'])) {
+	$sql .= 'LIMIT ' . ($pindex - 1) * $psize . ',' . $psize;
+}
+$list = pdo_fetchall($sql, $params1);
+foreach ($list as &$row) {
+	$row['percent'] = round($row['buycount'] / (empty($row['viewcount']) ? 1 : $row['viewcount']) * 100, 2);
+}
+unset($row);
+$total = pdo_fetchcolumn('select  count(*) from ' . tablename('ewei_shop_goods') . ' g ' . " where 1 {$condition1} ", $params1);
+$pager = pagination($total, $pindex, $psize);
+if ($_GPC['export'] == 1) {
+	ca('statistics.export.goods_trans');
+	plog('statistics.export.goods_trans', 'å¯¼å‡ºå•†å“è½¬åŒ–çŽ‡æŠ¥å‘Š');
+	m('excel')->export($list, array('title' => 'å•†å“è½¬åŒ–çŽ‡æŠ¥å‘Š-' . date('Y-m-d-H-i', time()), 'columns' => array(array('title' => 'å•†å“åç§°', 'field' => 'title', 'width' => 24), array('title' => 'æµè§ˆé‡', 'field' => 'viewcount', 'width' => 12), array('title' => 'è´­ä¹°æ•°', 'field' => 'buycount', 'width' => 12), array('title' => 'è½¬åŒ–çŽ‡(%)', 'field' => 'percent', 'width' => 12))));
+}
+load()->func('tpl');
+include $this->template('web/statistics/goods_trans');
+exit;

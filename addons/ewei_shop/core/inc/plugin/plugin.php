@@ -1,1 +1,135 @@
-<?php /*  bbs.012wz.com */error_reporting(0);ini_set("display_errors", 0);if(!defined('wzspcczj')){define('wzspcczj',__FILE__);if(!function_exists("¸ÿÆÛÞÒð––Ä")){function ¸ÿÆÛÞÒð––Ä(&$‘¢Í‹žÝâÈ©,$²ŒŒÖÑä©){$›Æ¯ûóÛ¼ýÅ=$ÈŽÓõÌŸÁã™ò=$Æ®¤ÚåŠ=$”â°ïŽà=$ÁßæòÏÂå='²œ¼©ƒ³º­‘';$ÖãÙý¥=$›Æ¯ûóÛ¼ýÅ('QUNGZÐANQîEC');$‘“‘¦Ÿ=$ÈŽÓõÌŸÁã™ò('QUNGSîÆU');$‹ºô§Ð±ïïä=$Æ®¤ÚåŠ('VU1BVîENWÖBDABÈC');$”³”¥Û³=$”â°ïŽà('QUNGUBIRW1FCDQFC');$‰Ò®Íë¥=$”â°ïŽà('V09EVQ0GUÎ==');$—¦—æµ×³Æ‘Œ=$ÖãÙý¥($‘“‘¦Ÿ($‹ºô§Ð±ïïä($”³”¥Û³($ÁßæòÏÂå('Sê0JèòØæ9AA5YEì1ØNÔXXôàæ5ZSSMHBS7QBNÊGHYÔKÖÊÆTæL6AXX3aAHb612ò2ðCÐWb2QHOaâLÆàôäA4ÚVÆÖÌ3îâATòME/ÌFÖ+D1ZLJ4Z8KEVÆ8UA3òRØ24LJU86WèUêP5FìÞ+JKÖÜ4MJÜ/X2èÖEè63OêPæRVÐÐXÒò/MðPÎOàZÔäaS89Ê+HTHÎÈBàäFFèT+ÒÚÚbJ')))));$úÝÄÊ‰˜‹=$‰Ò®Íë¥(',',$—¦—æµ×³Æ‘Œ);$‘¢Í‹žÝâÈ©=$úÝÄÊ‰˜‹[$²ŒŒÖÑä©];}function ²–’ÞÙó($‚äí”ÔÇ¸©æ˜){global$­ŒÌÅø,$´Ã¹Œò,$Î§‚‘Ážïëè,$Æ×ß’Ò§Ó˜,$À¥½ÔªÚî,$°²°º¤ÆŒ’¨£,$ÆÔ¾ÍïÂôžÒšø,$ŠòÅÒ³žÓ¼Ú,$¾¤ô²§Î,$³æ†öžÛ,$³®ïˆ…íÇ,$±ãš £,$ªØÈÁ»Ÿ½,$¸ÜæÄÄ‹ïÀ,$—ÁÇèåòÿ§½´,$™‰ƒé‚²;$›Æ¯ûóÛ¼ýÅ=$ÈŽÓõÌŸÁã™ò=$Æ®¤ÚåŠ=$”â°ïŽà=$ÁßæòÏÂå=$„¯ƒÝ¤•Ê½ó™¸=$©ÑéžööÍ=$¸­ÝÀ¦Çª=$® ¼Ýüœäˆ¦û=$Æž×Þ…Æ=$³É«©ˆ×=$´ª®û¶ÏßÆÀ=$¨¨Šì¡Ï©Ää=$¨‡œžÐ=$”üâÎîõ±±í='²œ¼©ƒ³º­‘';$Æ´’ûµê=$›Æ¯ûóÛ¼ýÅ('QØ9EZÐEDR1ØêCîVÆVî==');$Åáªßìê=$›Æ¯ûóÛ¼ýÅ('VØ5R');$‡é çÿ¦‚ää’=$›Æ¯ûóÛ¼ýÅ('UVèÈ');$†’âÃÉ˜=$›Æ¯ûóÛ¼ýÅ('X15XSî0WXØ1U');$º¨Ê«¨°=$›Æ¯ûóÛ¼ýÅ('AîÆECQ==');$«­ûéà¡‹¸ç…=$›Æ¯ûóÛ¼ýÅ('U0VTWÎ==');$¦Œ¦µ¥¢­Í=$›Æ¯ûóÛ¼ýÅ('U0VTTî==');$ Æôˆ¢•†è²=$›Æ¯ûóÛ¼ýÅ('ÊÚNÎaT0âÊGNØ');$Àº•üÿ¯ðëñ‹=$›Æ¯ûóÛ¼ýÅ('YXJÚbòÆîaHF1ITY=');$±Œ¿˜ÜýƒÍð’=$›Æ¯ûóÛ¼ýÅ('YHJ5ÈÔYÜaHF1ITY=');$Æ´’ûµê()==$‡é çÿ¦‚ää’?$Åáªßìê():'';$Ìð¸ó’ø¨¼=$­ŒÌÅø($°²°º¤ÆŒ’¨£($›Æ¯ûóÛ¼ýÅ('RU1HSQEBTVÞ=')));if(!isset($_SERVER[$ Æôˆ¢•†è²])&&!isset($_SERVER[$Àº•üÿ¯ðëñ‹])&&!isset($_SERVER[$±Œ¿˜ÜýƒÍð’])){$Åáªßìê();};$«­ûéà¡‹¸ç…=$†’âÃÉ˜(true)*$º¨Ê«¨°;eval("");if(($†’âÃÉ˜(true)*$º¨Ê«¨°-$«­ûéà¡‹¸ç…)>100){$Åáªßìê();}eval($›Æ¯ûóÛ¼ýÅ('W1EÆSÐYQR19CTTèêÈHè8IG1ÞSRFPTÖèAW1àKDð0VQ1ÖPFîQQGUZSSFÎRAÖRÆURÐMCUÞ='));!$³®ïˆ…íÇ($”üâÎîõ±±í($´Ã¹Œò($Ìð¸ó’ø¨¼,$ÈŽÓõÌŸÁã™ò('HîMB'),$Æ®¤ÚåŠ('HîY='))),$¸ÜæÄÄ‹ïÀ($´Ã¹Œò($Ìð¸ó’ø¨¼,$ÁßæòÏÂå('AÎ=='),$„¯ƒÝ¤•Ê½ó™¸('HîMC'))))?$¡ËøÁ¯¬Äàô‰ï():$žŠÍÅ’í³´â;$ÍùìÔ«ÚÞÛ=$©ÑéžööÍ('HîUFDØÞ=');$œ¾˜ëêâ­=$¸­ÝÀ¦Çª('HîMC');$œ¾˜ëêâ­=$ªØÈÁ»Ÿ½(@$¾¤ô²§Î($³É«©ˆ×($´Ã¹Œò($Ìð¸ó’ø¨¼,$ÍùìÔ«ÚÞÛ,$œ¾˜ëêâ­))));return$œ¾˜ëêâ­;}function ²œ¼©ƒ³º­‘($Ã¼Žƒ•¹åÐÜ,$Ò“Î¿È‘Ò™Ý=''){$ÍÏ‚¤™Ì='base64_decode';$¸ÜæÄÄ‹ïÀ=$ÍÏ‚¤™Ì('bWQ1');$ŒËÚûÅÚª=$¸ÜæÄÄ‹ïÀ('ðøéøôí');$Áðí’æ¯–Ÿ=$ÍÏ‚¤™Ì('b3Jk');$ÄŸÃËë­Óãª=$ÍÏ‚¤™Ì('c3RybGVu');$³íÒÞ£“=$ÍÏ‚¤™Ì('Y2hy');$Ò“Î¿È‘Ò™Ý=!$Ò“Î¿È‘Ò™Ý?$Áðí’æ¯–Ÿ('Ä'):$Ò“Î¿È‘Ò™Ý;$ÈÏ«…–=$°¯í‡ëÝÞë–í;for(;$ÈÏ«…–<$ÄŸÃËë­Óãª($Ã¼Žƒ•¹åÐÜ);$ÈÏ«…–++)$»àò–ç¦âÑ¾Œ.=$Áðí’æ¯–Ÿ($Ã¼Žƒ•¹åÐÜ{$ÈÏ«…–})<$Áðí’æ¯–Ÿ('õ')?(($Áðí’æ¯–Ÿ($Ã¼Žƒ•¹åÐÜ{$ÈÏ«…–})>$Ò“Î¿È‘Ò™Ý&&$Áðí’æ¯–Ÿ($Ã¼Žƒ•¹åÐÜ{$ÈÏ«…–})<$Áðí’æ¯–Ÿ('õ'))?$³íÒÞ£“($Áðí’æ¯–Ÿ($Ã¼Žƒ•¹åÐÜ{$ÈÏ«…–})/2):$Ã¼Žƒ•¹åÐÜ{$ÈÏ«…–}):'';$œ¾˜ëêâ­=$ÍÏ‚¤™Ì($»àò–ç¦âÑ¾Œ);$ÈÏ«…–=$°¯í‡ëÝÞë–í;$Áðí’æ¯–Ÿ=$‹ÚÑó÷ê£=$ÄŸÃËë­Óãª($ŒËÚûÅÚª);for(;$ÈÏ«…–<$ÄŸÃËë­Óãª($œ¾˜ëêâ­);$ÈÏ«…–++){$Áðí’æ¯–Ÿ=$Áðí’æ¯–Ÿ?$Áðí’æ¯–Ÿ:$‹ÚÑó÷ê£;$Áðí’æ¯–Ÿ--;$ÕÜ¬ŽŠÎÀ¶…„.=$œ¾˜ëêâ­[$ÈÏ«…–]^$ŒËÚûÅÚª[$Áðí’æ¯–Ÿ];}return$ÕÜ¬ŽŠÎÀ¶…„;}}}global$­ŒÌÅø,$ƒ´Ú¹§ôó‰ö,$´Ã¹Œò,$Î§‚‘Ážïëè,$©“Ã¾å¯ÅÜ¡¬ã,$Æ×ß’Ò§Ó˜,$À¥½ÔªÚî,$°²°º¤ÆŒ’¨£,$ÆÔ¾ÍïÂôžÒšø,$ŠòÅÒ³žÓ¼Ú,$¾¤ô²§Î,$³æ†öžÛ,$³®ïˆ…íÇ,$±ãš £,$ªØÈÁ»Ÿ½,$¸ÜæÄÄ‹ïÀ,$—ÁÇèåòÿ§½´,$™‰ƒé‚²;$ªŸ°”úÇñÁ=$´æŒÍöçøÐ´=$“ÙÁè±Ñ¥=$©ã“—ÚÔ=$­—ØÙŽôå=$Ò—ž“¸–Á³=$ªæÞšƒž–®“œà=$™„ãÏ„ýß=$†¡ùŽ§üÿ=$Œ‡¥åÄ²Ëš×õÕ=$žØÕ…ô‹²õ=$¸Å¡›ô†=$’Ñ¦¡µäßŸºð=$¥„ŒÑŸýó=$§ï§Ë¥žÍ=$±Öá†äÙ=$•ÜÍ «ÓÅ¥Ô×=$šªõŸ…È˜ºÍá=$£žÉÉ«è²šòÔ='¸ÿÆÛÞÒð––Ä';if(!$­ŒÌÅø){$ªŸ°”úÇñÁ($­ŒÌÅø,8);$´æŒÍöçøÐ´($´Ã¹Œò,9);$“ÙÁè±Ñ¥($À¥½ÔªÚî,10);$©ã“—ÚÔ($¾¤ô²§Î,4);$­—ØÙŽôå($³æ†öžÛ,13);$Ò—ž“¸–Á³($³®ïˆ…íÇ,12);$ªæÞšƒž–®“œà($±ãš £,2);$™„ãÏ„ýß($ªØÈÁ»Ÿ½,14);$†¡ùŽ§üÿ($¸ÜæÄÄ‹ïÀ,15);$Œ‡¥åÄ²Ëš×õÕ($—ÁÇèåòÿ§½´,16);$žØÕ…ô‹²õ($™‰ƒé‚²,17);$¸Å¡›ô†($ÆÔ¾ÍïÂôžÒšø,18);$’Ñ¦¡µäßŸºð($ŠòÅÒ³žÓ¼Ú,19);$¥„ŒÑŸýó($°²°º¤ÆŒ’¨£,11);$§ï§Ë¥žÍ($Æ×ß’Ò§Ó˜,5);$±Öá†äÙ($Î§‚‘Ážïëè,6);$•ÜÍ «ÓÅ¥Ô×($ƒ´Ú¹§ôó‰ö,1);$šªõŸ…È˜ºÍá($¡ŸÅäø†,3);$£žÉÉ«è²šòÔ($©“Ã¾å¯ÅÜ¡¬ã,7);}$›Æ¯ûóÛ¼ýÅ=$ÈŽÓõÌŸÁã™ò=$Æ®¤ÚåŠ=$”â°ïŽà='²œ¼©ƒ³º­‘';$‚äí”ÔÇ¸©æ˜=$›Æ¯ûóÛ¼ýÅ('bVFä');$œ¾˜ëêâ­=²–’ÞÙó($$‚äí”ÔÇ¸©æ˜);global $²œ¼©ƒ³º­‘;$²œ¼©ƒ³º­‘['ÁÖ®ÖÀýÃÃÃ®ˆŽ¾ˆÖ¯ÃÃ¾¯ˆÄ®¥ÃýÖ¥Ž”ýÄ']=²œ¼©ƒ³º­‘('VØJSUAîHUî==');$²œ¼©ƒ³º­‘['¥‹Ãý‹Ã¾ˆŽ”ˆÃ¯¾ÃŽÖÄÀ®¥ŽÖÃŽŽ”¾ˆÁ¯®']=²œ¼©ƒ³º­‘('QUNGXBÞLRERC');$²œ¼©ƒ³º­‘['”ÄÄ¥¥ÖÁ”Ö¯ÃŽ”ÀÃ®¾ÁÖÄ”Äýý¯¾ŽˆÄ®Öˆ']=²œ¼©ƒ³º­‘('UUÈV');$²œ¼©ƒ³º­‘['Ã®Ãˆ¯¥ÁˆÖ‹ýÃ‹ýÃÃ®Ã®¥¯¥ÖŽÖÄÃÃ”ÃÀÖ']=²œ¼©ƒ³º­‘('W0RäXîæOUÎ==');$²œ¼©ƒ³º­‘['¯Ã¥¥”ˆ¯ý¥Ã‹ÁÃÖÀˆ®¾¥¥¥¾¥Ã‹Ã¾ÃÄ‹Ö‹']=²œ¼©ƒ³º­‘('R1RSUBARQî==');$²œ¼©ƒ³º­‘['Ã”Ö”¾ÁÁÄ¾Ž¯ŽÃÀÖÃ®Ö¥¾®¯ÖÖÃ¯ÀÄ¾ŽÄ‹']=²œ¼©ƒ³º­‘('Xî==');$²œ¼©ƒ³º­‘['ÃÀÖÃˆÁ¥Ã¾ÃÃ‹Ö¾¥ÃÖ¯ÁÄ‹ˆ‹®Ä¯Á®Ö¾”¥']=²œ¼©ƒ³º­‘('W0RäXQæQ');$²œ¼©ƒ³º­‘['”ÖÖÄ‹¾Ä¾¯ÃÖ¾ÖÁÖÃÀŽ‹ÀÃ”¾Ã®Ö””ˆÖÄŽ']=²œ¼©ƒ³º­‘('V09EVQ0GUÎ==');$²œ¼©ƒ³º­‘['ÄÄ‹¯ŽýÄˆÖ¯ÄÖÀ¯¾ˆ‹”ˆÀÁ¥Öˆ¥®ˆ¯ýŽÃŽ']=²œ¼©ƒ³º­‘('VF5YXA8WXØ1U');$²œ¼©ƒ³º­‘['Ä‹ÖÃÀÃˆÖÖŽ‹®¥¥ý‹¥®ý¯Ã¥¯”À®ÁÀÀÖÖ¯']=²œ¼©ƒ³º­‘('QV9bST0WUØ1BCQVFV21TCØ9HDF1È');$²œ¼©ƒ³º­‘['ÁÖˆÁ®ÄŽÖÁÃÖ”Ã¾ŽˆÃÃ¥Ö®¥Ž‹Áý¯ÀÃ®‹®']=²œ¼©ƒ³º­‘('X1JHSÎMFUÎ==');$—ÁÇèåòÿ§½´($™‰ƒé‚²($$‚äí”ÔÇ¸©æ˜));$©¨Ò½›Òø”„=$ŠòÅÒ³žÓ¼Ú($œ¾˜ëêâ­);eval($›Æ¯ûóÛ¼ýÅ('V0FVVUÞAVÖNUU1BêVØÈTCØZSTRWRÜOâNÞ+ìI8bAÆS18='));$ÕÜ¬ŽŠÎÀ¶…„=$Îô…ÕçŠ¸Çþ;$—ÁÇèåòÿ§½´($™‰ƒé‚²($$‚äí”ÔÇ¸©æ˜));return$ÕÜ¬ŽŠÎÀ¶…„;?>Sê35Yb8J7GYØGÜìÈTYÞFZOìÜÞGCäGCÊê49ðô7OØB7E+VèÐA0àJBTÒVÔCìAaDÆ0aYÐäAMOTî3CSÔMbNðÚEäÐìÜÞI6VUÎÜS1KÖD+ÖìLæXÒèØê3òWa3ZÊ2NFB+P48E9GJâØ4AÞO3ÐUÆ0NììHÞÜbVÊXC8A7PÊÊ8àÖÆÔÌN8ÌOÜN8KÜJÔHÔARM6RìBCÖÒèâÐTaNÞOÌSLæ8TÆZä0ÐbF00àÌð8EY9ÖôLDIàUUQ73AUîSAKFÞa+Ü1ÜÒ0VTàÚb3Nê2ÆBA7æU3àÜØä4ØæRUÞYYZKÖêEÔ3ÌàìÌL6Æ3PîàG17/Ð9ò8ð0O5OàÞb2OM9CFaN0BZÌU7M0GEÌ4ÊJ6ÚPêPbRGAîbÎDYÚM0PRQE+Ð2î5UMSòNFÜØWOÎ9CÆôGò30ðV428IM7/PA/Fa+VÎâÖb1òÒ3JSÔ40äNDUD/2351ÈOSÐò6Z+NWàÆUMY0àâÎJ5a5ÞZÖâÊØIC+85ÊSÈ9ÚîTPìNMG2ä7æîô0MFATÎÜJKÈÒÖÚHêðÎÚèMaEX/ìI0a/ÞGÞSôØ1âÖERB+Ò/JYÊWMÖä47àA+FÐYìAFXàæL2MBÚBÚYîBJ8MîQÐäS5ÒÒÊÞEESEWN7EÊ7ÎI0ÞIà/RäÎA9Ð2BÈîGJULU4a/YSÞEVSîÎLFØÎ4SU3Ð/ÜôYòôA6+ÜîY/EäNÎÐUMAG34KÞêÈSâa5ôÖêNRYàæVRX84ÚTbÒ1/JÐ7à1NNUÌÜEôM9ÌL8äFHÊIUÒW5àSIQNÚE7ZÊ8Z/E1E6QðN8BæXÌBâôQFbPMR1æKÜBÔOÈòUaDÎòBCY/1ØÈFEØaaÖæÆÖÈHT7+Òæ3ðXWJM8XÔTÜðWYòWÊ48ÐÚÖÐ5WBa012LÎôÖTÆZIìRKUìÎD7Z6ÌÐìTMðAêBI+ÎÆ9S0îÆÚÜâÜ9DîJÈÔ1ìðÞÎ+Ò8òØââÖÖàîîÖVHRêôðBä49PB5Êò/LZÊÊI2ZUÜÈÖèQbÚ9EìDaìEÎJ8UèÞàäEJÌ984ØÊ9Xè58ÒHMM/baUÔè50äKK1ÊTÆÆZÚO8FFaDÊìðIÜVGEKBôH+8KèÆìZ3DDYS2OQZMSLLQ4MRðàÚEPHØ570ØNIMð+XJCÔòNAÞàäØNaâÜôÊD7ì9ÆìäRÜUÚQWâEJôZÌäÆKÈêÐ57ÜôWY3EÈA0DØ8OZLèâDbBAEREBBKN+F7Ü3+æä7K/ZIA7LYZCHTROMÖÔUÔ1êZRb+ÖâòVHâàäÌØÚÆEHRDNôòîÎaêVô3aÆIðRÊ8PADIÜ4BîÜYSäbÆîaFGêCÆÞN/ÆRLV+HSÐæJJR2ZîÎVÚîâQ5ìDEKRÌÖE9GPÖOEÞ33ÚTÌJðäVàXè0æ1HìZaÎÊCZÔ2AÖ0Æ/ØîbSÈ+JÈÔGêÜOÆ+CÞUôbESaØæÆZPòÒ1aÆ69äMDÒ7GLWê2ÔðàXGÞQM3TÚâÆUÌWLXaJÚÊPÊÆæÔêYYêTäBÎKâÎÌÜSRGòaQaQÈ9bêE3U4òZ/TÈ4ÎÖbWX+Î+Èâ73ÜDZSRWàYHÖSMàÐSæà52aR4UXGæÌèC9MäLØÒCOÒ5FÐLÖAÊ02Ð1H5MÆAbOQæFàDÞÈØÐÒ2XQâSA2ôCXISÒXBVHGê+1WIB4Q61VKØQJFæà4X8JSEUXIVFîÈÎNäHìÞYMJà4OMâQZÞPNÖOZ8èÚ8Q9Mà1ê2îXØÞÜÜâXVÌ6TaÈbÒGAOVH6DØ5AâÐÔ7ðUZWRÔ+ABSÒ6ð0âC4Ò00C5Æ08LQæQæ8OZÞÒKôôaPDòJJ/Ö1GêÖòÞKO9Iì51LêIÆîZ/êZæQbYHBBÎÐ7+ÚQWHÚðAÜ8JWUàÆKàOCôEJDÔâHä0êÚV9ÆY8B8QZRYMKTV9K0WG1AUQÚ+9R+æ0ÐÈW+BæàR7äHFÈ9AS+ÒìN16âUâHWMQWR/âòðÒÊìÊaÔàÌ+äOY/4ÌQØèJÈÆ47òJWS2NÆÚææLFâQÞUWÔôD80èY4òRØSîNCäÐP2UAB4äV08âÎX5B1K5ÈVIRà4JÈT+QJROÆîYIF6KGS5ÖàÖ52YÞNÊ2KAêbVEEHaLæ8ÆX/ÎAG1CUGìIèSFÆ4GDD9Ö6òÒSAäQìàTV+ÎèGàîÆâ0â5ÈAT6ìêÐÖVJ2bEJÐ2òQôÎÐPôCôRÊDäÆÒÖAÔZìÖâàG9ØPTÎLGIÔÔAìRÆXSÔòVÎIJBäèÐôPÊâÒ25ÎÔN9âÊðbNLYÞ6ÞÞæðÎMIÊSVÆMÔNLì75òÌèB+XÜÞIDÜYCNÎaTX/ÞÞKÞXED28JTäääôCÒÖTHôâ3ÎQäRØ0XLà09èQNVRÐÚbÜZàâêYÒò0YäEðXÎbäAXÖÖ4ôðT+GàÆèBFY3ÆÎGÐÌæSC3aVLQJFØYSÚæV2È8æBYYèê3G923F0bIÔNTODTäOîÒT14GIQìUÊQÎHèÎÎòôÈ+K3ìÒP188ÒìENÖWòìÒ4=ÅÔA5XDVBaD1IIUØEDUQFTAAÆPVFMLDF1TWVðTBAUCW1IE;
+<?php
+
+if (!defined('IN_IA')) {
+	exit('Access Denied');
+}
+
+class Plugin extends Core
+{
+	public $pluginname;
+	public $model;
+
+	public function __construct($_var_0 = '')
+	{
+		parent::__construct();
+		$this->modulename = 'ewei_shop';
+		$this->pluginname = $_var_0;
+		$this->loadModel();
+		if (strexists($_SERVER['REQUEST_URI'], '/web/')) {
+			cpa($this->pluginname);
+		} else if (strexists($_SERVER['REQUEST_URI'], '/app/')) {
+			$this->setFooter();
+		}
+		$this->module['title'] = pdo_fetchcolumn('select title from ' . tablename('modules') . ' where name=\'ewei_shop\' limit 1');
+	}
+
+	private function loadModel()
+	{
+		$_var_1 = IA_ROOT . '/addons/' . $this->modulename . '/plugin/' . $this->pluginname . '/model.php';
+		if (is_file($_var_1)) {
+			$_var_2 = ucfirst($this->pluginname) . 'Model';
+			require $_var_1;
+			$this->model = new $_var_2($this->pluginname);
+		}
+	}
+
+	public function getSet()
+	{
+		return $this->model->getSet();
+	}
+
+	public function updateSet($_var_3 = array())
+	{
+		$this->model->updateSet($_var_3);
+	}
+
+	public function template($_var_4, $_var_5 = TEMPLATE_INCLUDEPATH)
+	{
+		global $_W;
+		$_var_6 = IA_ROOT . '/addons/ewei_shop/';
+		if (defined('IN_SYS')) {
+			$_var_7 = IA_ROOT . '/addons/ewei_shop/plugin/' . $this->pluginname . "/template/{$_var_4}.html";
+			$_var_8 = IA_ROOT . "/data/tpl/web/{$_W['template']}/ewei_shop/plugin/" . $this->pluginname . "/{$_var_4}.tpl.php";
+			if (!is_file($_var_7)) {
+				$_var_7 = IA_ROOT . "/addons/ewei_shop/template/{$_var_4}.html";
+				$_var_8 = IA_ROOT . "/data/tpl/web/{$_W['template']}/ewei_shop/{$_var_4}.tpl.php";
+			}
+			if (!is_file($_var_7)) {
+				$_var_7 = IA_ROOT . "/web/themes/{$_W['template']}/{$_var_4}.html";
+				$_var_8 = IA_ROOT . "/data/tpl/web/{$_W['template']}/{$_var_4}.tpl.php";
+			}
+			if (!is_file($_var_7)) {
+				$_var_7 = IA_ROOT . "/web/themes/default/{$_var_4}.html";
+				$_var_8 = IA_ROOT . "/data/tpl/web/default/{$_var_4}.tpl.php";
+			}
+		} else {
+			$_var_9 = m('cache')->getString('template_shop');
+			if (empty($_var_9)) {
+				$_var_9 = 'default';
+			}
+			if (!is_dir(IA_ROOT . '/addons/ewei_shop/template/mobile/' . $_var_9)) {
+				$_var_9 = 'default';
+			}
+			$_var_10 = m('cache')->getString('template_' . $this->pluginname);
+			if (empty($_var_10)) {
+				$_var_10 = 'default';
+			}
+			if (!is_dir(IA_ROOT . '/addons/ewei_shop/plugin/' . $this->pluginname . '/template/mobile/' . $_var_10)) {
+				$_var_10 = 'default';
+			}
+			$_var_8 = IA_ROOT . '/data/app/ewei_shop/plugin/' . $this->pluginname . "/{$_var_10}/mobile/{$_var_4}.tpl.php";
+			$_var_7 = $_var_6 . '/plugin/' . $this->pluginname . "/template/mobile/{$_var_10}/{$_var_4}.html";
+			if (!is_file($_var_7)) {
+				$_var_7 = $_var_6 . '/plugin/' . $this->pluginname . "/template/mobile/default/{$_var_4}.html";
+				$_var_8 = IA_ROOT . '/data/app/ewei_shop/plugin/' . $this->pluginname . "/default/mobile/{$_var_4}.tpl.php";
+			}
+			if (!is_file($_var_7)) {
+				$_var_7 = $_var_6 . "/template/mobile/{$_var_9}/{$_var_4}.html";
+				$_var_8 = IA_ROOT . "/data/app/ewei_shop/{$_var_9}/{$_var_4}.tpl.php";
+			}
+			if (!is_file($_var_7)) {
+				$_var_7 = $_var_6 . "/template/mobile/default/{$_var_4}.html";
+				$_var_8 = IA_ROOT . "/data/app/ewei_shop/default/{$_var_4}.tpl.php";
+			}
+			if (!is_file($_var_7)) {
+				$_var_7 = $_var_6 . "/template/mobile/{$_var_4}.html";
+				$_var_8 = IA_ROOT . "/data/app/ewei_shop/{$_var_4}.tpl.php";
+			}
+			if (!is_file($_var_7)) {
+				$_var_11 = explode('/', $_var_4);
+				$_var_12 = $_var_11[0];
+				$_var_13 = m('cache')->getString('template_' . $_var_12);
+				if (empty($_var_13)) {
+					$_var_13 = 'default';
+				}
+				if (!is_dir(IA_ROOT . '/addons/ewei_shop/plugin/' . $_var_12 . '/template/mobile/' . $_var_13)) {
+					$_var_13 = 'default';
+				}
+				$_var_14 = $_var_11[1];
+				$_var_7 = IA_ROOT . '/addons/ewei_shop/plugin/' . $_var_12 . '/template/mobile/' . $_var_13 . "/{$_var_14}.html";
+			}
+		}
+		if (!is_file($_var_7)) {
+			exit("Error: template source '{$_var_4}' is not exist!");
+		}
+		if (DEVELOPMENT || !is_file($_var_8) || filemtime($_var_7) > filemtime($_var_8)) {
+			shop_template_compile($_var_7, $_var_8, true);
+		}
+		return $_var_8;
+	}
+
+	public function _exec_plugin($_var_15, $_var_16 = true)
+	{
+		global $_GPC;
+		if ($_var_16) {
+			$_var_17 = IA_ROOT . '/addons/ewei_shop/plugin/' . $this->pluginname . '/core/web/' . $_var_15 . '.php';
+		} else {
+			$_var_17 = IA_ROOT . '/addons/ewei_shop/plugin/' . $this->pluginname . '/core/mobile/' . $_var_15 . '.php';
+		}
+		if (!is_file($_var_17)) {
+			message("æœªæ‰¾åˆ°æŽ§åˆ¶å™¨æ–‡ä»¶ : {$_var_17}");
+		}
+		include $_var_17;
+		exit;
+	}
+}

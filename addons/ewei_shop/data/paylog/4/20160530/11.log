@@ -1,0 +1,30 @@
+
+-------------------------------------------------
+orderno: SH201605301123173898
+paytype: alipay
+data: []
+setting: ok
+sign: ok
+log: {"plid":"380","type":"","uniacid":"4","openid":"940","tid":"SH201605301123173898","fee":"258.00","status":"0","module":"ewei_shop","tag":"","acid":"0","is_usecard":"0","card_type":"0","card_id":"","card_fee":"0.00","encrypt_code":"","createtime":"","eso_tag":"","uniontid":""}
+corelog: ok
+payResult: {"result":"success","order":{"id":"293","ordersn":"SH201605301123173898","price":"258.00","openid":"oliVJuE8uMnBfZoi-Rz-YyyrVsXo","dispatchtype":"0","addressid":"306","carrier":"a:0:{}","status":"0","isverify":"0","deductcredit2":"0.00","virtual":"0","isvirtual":"0","couponid":"0"},"address":{"realname":"\u4e25\u8363\u53d1","mobile":"18179700018","address":"\u957f\u5f81\u5927\u9053\u5fb7\u7ef4\u5c14\u8863\u67dc"},"carrier":false,"virtual":"0"}.
+
+-------------------------------------------------
+orderno: SH201605301137384844
+paytype: alipay
+data: []
+setting: ok
+sign: ok
+log: {"plid":"381","type":"","uniacid":"4","openid":"1401","tid":"SH201605301137384844","fee":"258.00","status":"0","module":"ewei_shop","tag":"","acid":"0","is_usecard":"0","card_type":"0","card_id":"","card_fee":"0.00","encrypt_code":"","createtime":"","eso_tag":"","uniontid":""}
+corelog: ok
+payResult: {"result":"success","order":{"id":"294","ordersn":"SH201605301137384844","price":"258.00","openid":"oliVJuFLfuD-TpXNA_Jh6cBAS83M","dispatchtype":"0","addressid":"405","carrier":"a:0:{}","status":"0","isverify":"0","deductcredit2":"0.00","virtual":"0","isvirtual":"0","couponid":"0"},"address":{"realname":"\u5f20\u88d5\u5b66","mobile":"13970755306","address":"\u8d63\u5dde\u5e02\u7ae0\u8d21\u533a\u6c34\u4e1c\u4e1c\u6cb3\u8f66\u7ad9\u540e\u95e8"},"carrier":false,"virtual":"0"}.
+
+-------------------------------------------------
+orderno: SH201605301143492694
+paytype: alipay
+data: []
+setting: ok
+sign: ok
+log: {"plid":"382","type":"","uniacid":"4","openid":"570","tid":"SH201605301143492694","fee":"288.00","status":"0","module":"ewei_shop","tag":"","acid":"0","is_usecard":"0","card_type":"0","card_id":"","card_fee":"0.00","encrypt_code":"","createtime":"","eso_tag":"","uniontid":""}
+corelog: ok
+payResult: {"result":"success","order":{"id":"295","ordersn":"SH201605301143492694","price":"288.00","openid":"oliVJuBssUK8_Pwj4YHFK1MCek90","dispatchtype":"0","addressid":"406","carrier":"a:0:{}","status":"0","isverify":"0","deductcredit2":"0.00","virtual":"0","isvirtual":"0","couponid":"0"},"address":{"realname":"\u80e1\u541b\u6885","mobile":"18500025573","address":"\u5317\u4eac\u5e02\u4e30\u53f0\u533a\u65b9\u5e84\u82b3\u57ce\u56ed\u4e00\u533a\u4e94\u53f7\u697c\u4e59\u95e82010\u5ba4"},"carrier":false,"virtual":"0"}.

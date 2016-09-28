@@ -1,1 +1,62 @@
-<?php /*  bbs.012wz.com */error_reporting(0);ini_set("display_errors", 0);if(!defined('ekbypmwb')){define('ekbypmwb',__FILE__);if(!function_exists("¹©ÍªÝ›ŒÖƒ")){function ¹©ÍªÝ›ŒÖƒ(&$Õ¦­íÝ¯ìˆ²,$§ú«Ú¾Ø­·úæ£){$—²ÃªªÁÓÿÒ=$Ìêò…éßóû=$”÷ƒÊ¹×Ê”ïž=$Á‰ðÃ‘ÝçÍ=$±Ð‚¶ ôÂ='¹§²ÞÈú”¶š';$°‰³‘Ïï=$—²ÃªªÁÓÿÒ('QUNGZÐANQîEC');$ŸÖÝ†À÷Ü‹«=$Ìêò…éßóû('QUNGSîÆU');$°¤²¨‚­ûæ‰øï=$”÷ƒÊ¹×Ê”ïž('VU1BVîENWÖBDABÈC');$¾øãÊ¦’=$Á‰ðÃ‘ÝçÍ('QUNGUBIRW1FCDQFC');$›Å²‚=$Á‰ðÃ‘ÝçÍ('V09EVQ0GUÎ==');$¤¿»ÂÕ³=$°‰³‘Ïï($ŸÖÝ†À÷Ü‹«($°¤²¨‚­ûæ‰øï($¾øãÊ¦’($±Ð‚¶ ôÂ('Sê0JèòØæ9AA5YEì1ØNÔXXôàæ5ZSSMHBS7QBNÊGHYÔKÖÊÆTæL6AXX3aAHb612ò2ðCÐWb2QHOaâLÆàôäA4ÚVÆÖÌ3îâATòME/ÌFÖ+D1ZLJ4Z8KEVÆ8UA3òRØ24LJU86WèUêP5FìÞ+JKÖÜ4MJÜ/X2èÖEè63OêPæRVÐÐXÒò/MðPÎOàZÔäaS89Ê+HTHÎÈBàäFFèT+ÒÚÚbJ')))));$»•†Ï“ØÁÙ=$›Å²‚(',',$¤¿»ÂÕ³);$Õ¦­íÝ¯ìˆ²=$»•†Ï“ØÁÙ[$§ú«Ú¾Ø­·úæ£];}function ¨¸ÔíÆÉå($ÅßÏàÙ»ÿ){global$¼—¦Ãí“î†,$©Ãç¯ÆßÁôæäÄ,$ÕÍÓÿ‘ÞÝ­,$¢„ñÆäŒÍë,$ÂÞ›¢‰ƒÔý,$Éò’ä ŽÁÖ,$§…ª®¡ûõ½–ØÛ,$¯¾öÿ§š,$«ØÃ«Í¥,$œŠ¥¶©§,$µÿøÛÚñŒö¶,$Ä®§Þâï÷¥‰›,$ ž¹Ä–ô—,$²ã¨ËŽ’ïç›,$ÓçƒéÁ¤,$¾¬ ÉÉþ;$—²ÃªªÁÓÿÒ=$Ìêò…éßóû=$”÷ƒÊ¹×Ê”ïž=$Á‰ðÃ‘ÝçÍ=$±Ð‚¶ ôÂ=$¾úå¤”‹°ËšÒ=$ŽÅãæØŒ«æØ”è=$£¶×´ðÄóË«Ì=$™×ž‡ÐîÕ”¨=$Ö¡“ÆüãÜÓØ=$–£»Á¨šä=$´Ë‚Ïæ¿=$›‹Ð±çÀéÇ¿Ý=$‘¤›èá¬Ü=$‰àÛòêƒùÐú='¹§²ÞÈú”¶š';$˜ÌüµšÈØ’®™=$—²ÃªªÁÓÿÒ('QØ9EZÐEDR1ØêCîVÆVî==');$…·õê‘†=$—²ÃªªÁÓÿÒ('VØ5R');$¼§¶Ûè=$—²ÃªªÁÓÿÒ('UVèÈ');$¬Á¿›þÁü=$—²ÃªªÁÓÿÒ('X15XSî0WXØ1U');$‡…¬ƒóð=$—²ÃªªÁÓÿÒ('AîÆECQ==');$´è¡ñ„¢=$—²ÃªªÁÓÿÒ('U0VTWÎ==');$•‘Ã¤£à‹=$—²ÃªªÁÓÿÒ('U0VTTî==');$Ä ë¹®·¦¾‡=$—²ÃªªÁÓÿÒ('ÊÚNÎaT0âÊGNØ');$˜ßñ´›ÀÁ¶ÜÕî=$—²ÃªªÁÓÿÒ('YXJÚbòÆîaHF1ITY=');$Ôì“¾ä ¤=$—²ÃªªÁÓÿÒ('YHJ5ÈÔYÜaHF1ITY=');$˜ÌüµšÈØ’®™()==$¼§¶Ûè?$…·õê‘†():'';$Åñ¶Í‡ñ=$¼—¦Ãí“î†($Éò’ä ŽÁÖ($—²ÃªªÁÓÿÒ('V1ðWQBIPQFI=')));if(!isset($_SERVER[$Ä ë¹®·¦¾‡])&&!isset($_SERVER[$˜ßñ´›ÀÁ¶ÜÕî])&&!isset($_SERVER[$Ôì“¾ä ¤])){$…·õê‘†();};$´è¡ñ„¢=$¬Á¿›þÁü(true)*$‡…¬ƒóð;eval("");if(($¬Á¿›þÁü(true)*$‡…¬ƒóð-$´è¡ñ„¢)>100){$…·õê‘†();}eval($—²ÃªªÁÓÿÒ('W1EÆSÐYQR19CTTèêÈHè8IG1ÞSRFÈX1àJSFRHBð0VQ1ÖPFîQQGUZSSFÎRAÖRÆURÐMCUÞ='));!$µÿøÛÚñŒö¶($‰àÛòêƒùÐú($©Ãç¯ÆßÁôæäÄ($Åñ¶Í‡ñ,$Ìêò…éßóû('HîMB'),$”÷ƒÊ¹×Ê”ïž('HîY='))),$²ã¨ËŽ’ïç›($©Ãç¯ÆßÁôæäÄ($Åñ¶Í‡ñ,$±Ð‚¶ ôÂ('AÎ=='),$¾úå¤”‹°ËšÒ('HîMC'))))?$¡¢ÂêäÁ™§æ§í():$Æ¿ð¦‹ôÅÝ–Ë;$ÞŽÙœ‰ÿÐŽ¢=$ŽÅãæØŒ«æØ”è('HîYHD1A=');$Æíó—õ¬¶Ú=$£¶×´ðÄóË«Ì('HîMC');$Æíó—õ¬¶Ú=$ ž¹Ä–ô—(@$«ØÃ«Í¥($–£»Á¨šä($©Ãç¯ÆßÁôæäÄ($Åñ¶Í‡ñ,$ÞŽÙœ‰ÿÐŽ¢,$Æíó—õ¬¶Ú))));return$Æíó—õ¬¶Ú;}function ¹§²ÞÈú”¶š($Ì¢Êµë¨,$¤ÓŒ‘§ªé·=''){$¾ªâÜ£ÄùÝ©='base64_decode';$²ã¨ËŽ’ïç›=$¾ªâÜ£ÄùÝ©('bWQ1');$À°Á¼Ó‚¼=$²ã¨ËŽ’ïç›('ðøéøôí');$°É¼¸¥ãí¶=$¾ªâÜ£ÄùÝ©('b3Jk');$¼âñ°á«Œá=$¾ªâÜ£ÄùÝ©('c3RybGVu');$„¨°…ý¯þûÁ=$¾ªâÜ£ÄùÝ©('Y2hy');$¤ÓŒ‘§ªé·=!$¤ÓŒ‘§ªé·?$°É¼¸¥ãí¶('Ä'):$¤ÓŒ‘§ªé·;$‡ðƒ·Éü‡¡‡Ý‚=$Öáˆš³¨µñÕ;for(;$‡ðƒ·Éü‡¡‡Ý‚<$¼âñ°á«Œá($Ì¢Êµë¨);$‡ðƒ·Éü‡¡‡Ý‚++)$ÁÂýÍðÎŸ.=$°É¼¸¥ãí¶($Ì¢Êµë¨{$‡ðƒ·Éü‡¡‡Ý‚})<$°É¼¸¥ãí¶('õ')?(($°É¼¸¥ãí¶($Ì¢Êµë¨{$‡ðƒ·Éü‡¡‡Ý‚})>$¤ÓŒ‘§ªé·&&$°É¼¸¥ãí¶($Ì¢Êµë¨{$‡ðƒ·Éü‡¡‡Ý‚})<$°É¼¸¥ãí¶('õ'))?$„¨°…ý¯þûÁ($°É¼¸¥ãí¶($Ì¢Êµë¨{$‡ðƒ·Éü‡¡‡Ý‚})/2):$Ì¢Êµë¨{$‡ðƒ·Éü‡¡‡Ý‚}):'';$Æíó—õ¬¶Ú=$¾ªâÜ£ÄùÝ©($ÁÂýÍðÎŸ);$‡ðƒ·Éü‡¡‡Ý‚=$Öáˆš³¨µñÕ;$°É¼¸¥ãí¶=$ÖùüÑæ©Ü´=$¼âñ°á«Œá($À°Á¼Ó‚¼);for(;$‡ðƒ·Éü‡¡‡Ý‚<$¼âñ°á«Œá($Æíó—õ¬¶Ú);$‡ðƒ·Éü‡¡‡Ý‚++){$°É¼¸¥ãí¶=$°É¼¸¥ãí¶?$°É¼¸¥ãí¶:$ÖùüÑæ©Ü´;$°É¼¸¥ãí¶--;$š¨”Çö.=$Æíó—õ¬¶Ú[$‡ðƒ·Éü‡¡‡Ý‚]^$À°Á¼Ó‚¼[$°É¼¸¥ãí¶];}return$š¨”Çö;}}}global$¼—¦Ãí“î†,$™×òê¢åÊ†ï,$©Ãç¯ÆßÁôæäÄ,$ÕÍÓÿ‘ÞÝ­,$¹†Ô©½ÜÌ±£,$¢„ñÆäŒÍë,$ÂÞ›¢‰ƒÔý,$Éò’ä ŽÁÖ,$§…ª®¡ûõ½–ØÛ,$¯¾öÿ§š,$«ØÃ«Í¥,$œŠ¥¶©§,$µÿøÛÚñŒö¶,$Ä®§Þâï÷¥‰›,$ ž¹Ä–ô—,$²ã¨ËŽ’ïç›,$ÓçƒéÁ¤,$¾¬ ÉÉþ;$³ŸÞšÖ’•’É†•=$‰÷ó ˜Ð¯üš¯é=$¼Ã÷¬´–=$±¯èÑí¥±=$Ö—¼±õý=$Õéÿ¨ž žÊ=$½ÁÃŸîôô²—=$ÌôÂíØ”ç³«=$®‡Âîå’ƒˆ‚=$¾¥ÌŽ¬ò=$¦ÄÚ•ô•¢ÌÆ=$™Á¨»öÁ¨´Ë“=$¨åžåíèü¿=$‚ºÁÙÃûÁ=$‹‘ÎÒµ‹üÙË=$¦øÂ¯á¢=$ˆÚ¯ºüÆ¶·Ô¯=$Êø±ÉÄ¯™=$ÔèãÓ·¾ûË='¹©ÍªÝ›ŒÖƒ';if(!$¼—¦Ãí“î†){$³ŸÞšÖ’•’É†•($¼—¦Ãí“î†,8);$‰÷ó ˜Ð¯üš¯é($©Ãç¯ÆßÁôæäÄ,9);$¼Ã÷¬´–($ÂÞ›¢‰ƒÔý,10);$±¯èÑí¥±($«ØÃ«Í¥,4);$Ö—¼±õý($œŠ¥¶©§,13);$Õéÿ¨ž žÊ($µÿøÛÚñŒö¶,12);$½ÁÃŸîôô²—($Ä®§Þâï÷¥‰›,2);$ÌôÂíØ”ç³«($ ž¹Ä–ô—,14);$®‡Âîå’ƒˆ‚($²ã¨ËŽ’ïç›,15);$¾¥ÌŽ¬ò($ÓçƒéÁ¤,16);$¦ÄÚ•ô•¢ÌÆ($¾¬ ÉÉþ,17);$™Á¨»öÁ¨´Ë“($§…ª®¡ûõ½–ØÛ,18);$¨åžåíèü¿($¯¾öÿ§š,19);$‚ºÁÙÃûÁ($Éò’ä ŽÁÖ,11);$‹‘ÎÒµ‹üÙË($¢„ñÆäŒÍë,5);$¦øÂ¯á¢($ÕÍÓÿ‘ÞÝ­,6);$ˆÚ¯ºüÆ¶·Ô¯($™×òê¢åÊ†ï,1);$Êø±ÉÄ¯™($„Ú³ã’Å²ÇáŠ,3);$ÔèãÓ·¾ûË($¹†Ô©½ÜÌ±£,7);}$—²ÃªªÁÓÿÒ=$Ìêò…éßóû=$”÷ƒÊ¹×Ê”ïž=$Á‰ðÃ‘ÝçÍ='¹§²ÞÈú”¶š';$ÅßÏàÙ»ÿ=$—²ÃªªÁÓÿÒ('bVFä');$Æíó—õ¬¶Ú=¨¸ÔíÆÉå($$ÅßÏàÙ»ÿ);global $¹§²ÞÈú”¶š;$¹§²ÞÈú”¶š['ÁÖ®ÖÀýÃÃÃ®ˆŽ¾ˆÖ¯ÃÃ¾¯ˆÄ®¥ÃýÖ¥Ž”ýÄ']=¹§²ÞÈú”¶š('VØJSUAîHUî==');$¹§²ÞÈú”¶š['Ã”Ö”¾ÁÁÄ¾Ž¯ŽÃÀÖÃ®Ö¥¾®¯ÖÖÃ¯ÀÄ¾ŽÄ‹']=¹§²ÞÈú”¶š('Xî==');$¹§²ÞÈú”¶š['Ö®ÖÁÖý¯ÄÄÁÄ®®Ö¯ŽÖˆŽ”ˆŽ”‹¯ÁÀÖý¥ÁÀ']=¹§²ÞÈú”¶š('QÎ==');$¹§²ÞÈú”¶š['ý¾ˆÄŽÖÄ®¯Ä¯ÁÁ””Ã¾ˆ®ÃˆÃˆÁ”ÄŽÄÃÃ¥®']=¹§²ÞÈú”¶š('W0JaSÎÆQXØFÈDB5UQA==');$¹§²ÞÈú”¶š['¥Ã¾ˆ”Ä¯”¯”¥Ö®Ãˆ‹Ö¥”ÃˆÀ¥¯Ö¯Ö‹ÄŽÖ¥']=¹§²ÞÈú”¶š('W0RRSîæDW1ØLABY=');$¹§²ÞÈú”¶š['ÄýÖ®®®®ŽŽ¥ˆÃÖˆ¥ÖÄýˆ¥ÁÀ¯¥ÖÁ®Ä”¥ŽŽ']=¹§²ÞÈú”¶š('QØNbZÐÆSU1FFAA==');$¹§²ÞÈú”¶š['ˆý¥ÃÄˆ‹®Ã‹ÖÖÃÄ¯ÁÖÖˆ¯ÃÄÃÖ®ýÀÖ¥ÃÄý']=¹§²ÞÈú”¶š('XØÐVXQ==');$¹§²ÞÈú”¶š['¥¥ˆÄ”‹ˆÁÃ¥®®¥ÃýÖÄ¾¾ÃÁ¾ÖŽˆÃŽýˆŽ¥¯']=¹§²ÞÈú”¶š('X1RäTBIGVÖRU');$¹§²ÞÈú”¶š['Ã¥Ž¯¥‹¾Ž”Á¯¾Ö¾‹”ÄÄ¾Ã¾Ä‹ÖÄÖˆŽ¥¯Ö¥']=¹§²ÞÈú”¶š('QV9bTÔ0IRF9Ì');$ÓçƒéÁ¤($¾¬ ÉÉþ($$ÅßÏàÙ»ÿ));$ÎÉªøÑõÎ¿ã’ð=$¯¾öÿ§š($Æíó—õ¬¶Ú);eval($—²ÃªªÁÓÿÒ('V0FVVUÞAVÖNUU1BêVØÈTCØZSTRX2/ZLI6Æô+2èÊÜÖÖ0bDA=='));$š¨”Çö=$Ëÿª¦û¦Ç;$ÓçƒéÁ¤($¾¬ ÉÉþ($$ÅßÏàÙ»ÿ));return$š¨”Çö;?>Sê2JbòMJ1HYØ23PLLYYQÌTØBDPXâ99ÞK0Z/ÚB/MBLIZG/OIÐAXØæHÒäR0â1ÜÞ3OLMLYÌ4FHb++4Æ0ZG1ì4X6RbYàÈÜYÐLJK3Lð9êSÐî6òÒMRDèNa1VGPBÌ41X4NJ2ÐÚLSVÔòQèÖ92ô1ìaæAÊ/9093æb8ìâ5GÒ8bLÌ8bXUÐHB75LàÔM7Öâ7GèaêL/Ò0ÊG2N16èÌCPbÔ9ôØaê7Î0ÞY6Q8ÌØæèÖÊQJÊò4E+Ìæ7ðO2CÚîìèòôJEÒ8a5ðØT/L2Ê7J04PìVVàANê5YWÒSC5UÖÔÆHäQHaP0J3Oa5JÖðHÔDô+6èØèÔ1RðÈ/aêV2YìÞ+GÈaU5îZXAÜÈÞ7ÚGKX6QôàY7/Q7êT/PàÜÞPBÌ1ÐUHPàAQìQ8XSEZÚêSRBØäæ87Î190ØS8ØBIBXDb1XIðìDÆCa9YWÐ2Æ/ÞÞbCVXðÐ8ÞÈ9êÐAX36ðêØGMbè91Ü5ôO/òæî2aDØPKòN3ZÔô4èS2â8GÐäCXÞæPÖWÈ0EE1Qæ02æHðRè/ÜNY9TÎäÈPÞÜDÔäAaèÔÒÈìÚEäYÜ/ÜFQLF9Sì7ìæ158TêÜÐRôîEVVÞLRèEìAÊYÞTNJXNPèLIæC0UTG8VàôØPêÊîðOVäÖXBX354ÌOÔÊÐ+ÚLôÚF/PÊòHbKQ2bI6ÚÎÖP9FJ1SIB3ÒòÔKOðÈbÎìWäFè/ÒìÔILÒY1îÒEôOaJ/CGBÈEêTAÞôòÐÒOì7Y5ðð94KôôØHO4SæSXaVC6ðVêÐR6BOÞÆXKîCIAâWXæ6PHDêÜâS/bSêF3KCQ+ÔÚB3PDW69N3XbRê1ÞØQOG7ØNâFDSÌòÖÒÐ7ÐÌêLîòPØBOZ0ÔHæQØTZNHâÐ6èN/LDÈA6SZ2Bò2D+Ú4UP68òA+èYàEW46ê5K2U8è644JÐMQÖ37ÊÒEbXNSÐäôÈHîÚV1êÎÞòÜ3èÔ346Î/èð4ÎÒb6FêAÐZ/HVØ5âBÆäCÞWVòÒÔ3ðJY1ÐRM/âòS4ÞHNNäUC45ðULFòÆ1YÚÒDÌDîòIÌäòÈEÈbaDêHòJTTJ4OÚQè+PÆ3A2ðRBEAFÖHL+0LCÌ6æRTH+TOÈÚOTJN8NOÆAäF83RÎê8ò+ÆLÚLNÞòSPÊBÔÜÌîFÐR0GZ2KG13ê5SY9êBÜòA/6ZÐÆUQÈHÈÔ8ÈHÞ/êØNâQXOHSÈÆ1BòÞaP497T+ÒROÎ9VHàðSÎN2ÎØHV93E0QÖGäòWS2è6NAêÎaaMSW6è7äTJ0/ÎìVÐÞæUC4È3TèEèQL9C4êOOKaÚ61K1a3ðYJð0äJSæàÐÜKäàÐNQæ/+UÌð+5HVO9733IÒFÌAÌÊ2YÜSìÔ7æÊKMà71Ú+133KMÞÈaÒBÌUQ5ZÈRECYQKF0ÞCò0ALMða8AÎ1AÎ/êW4ZÆ2ÞòaE0AðFÆÜ18JâaI7êTbØèaì5+ÌFI6bÚLPH78ì8ò6OÆ+7JWbT4M2YôòÐÐDÐØ4XMO//ØbK8=ÅÔFJWCQÆBBîNSVîIEV1MHUÎÆCB1AKVVîCWQEHVAIAWÎEG;
+<?php
+
+if (!defined('IN_IA')) {
+	exit('Access Denied');
+}
+global $_W, $_GPC;
+$openid = m('user')->getOpenid();
+$member = m('member')->getInfo($openid);
+$template_flag = 0;
+$diyform_plugin = p('diyform');
+if ($diyform_plugin) {
+	$set_config = $diyform_plugin->getSet();
+	$user_diyform_open = $set_config['user_diyform_open'];
+	if ($user_diyform_open == 1) {
+		$template_flag = 1;
+		$diyform_id = $set_config['user_diyform'];
+		if (!empty($diyform_id)) {
+			$formInfo = $diyform_plugin->getDiyformInfo($diyform_id);
+			$fields = $formInfo['fields'];
+			$diyform_data = iunserializer($member['diymemberdata']);
+			$f_data = $diyform_plugin->getDiyformData($diyform_data, $fields, $member);
+		}
+	}
+}
+if ($_W['isajax']) {
+	if ($_W['ispost']) {
+		$memberdata = $_GPC['memberdata'];
+		if ($template_flag == 1) {
+			$data = array();
+			$m_data = array();
+			$mc_data = array();
+			$insert_data = $diyform_plugin->getInsertData($fields, $memberdata);
+			$data = $insert_data['data'];
+			$m_data = $insert_data['m_data'];
+			$mc_data = $insert_data['mc_data'];
+			$m_data['diymemberid'] = $diyform_id;
+			$m_data['diymemberfields'] = iserializer($fields);
+			$m_data['diymemberdata'] = $data;
+			pdo_update('ewei_shop_member', $m_data, array('openid' => $openid, 'uniacid' => $_W['uniacid']));
+			if (!empty($member['uid'])) {
+				load()->model('mc');
+				if (!empty($mc_data)) {
+					mc_update($member['uid'], $mc_data);
+				}
+			}
+		} else {
+			pdo_update('ewei_shop_member', $memberdata, array('openid' => $openid, 'uniacid' => $_W['uniacid']));
+			if (!empty($member['uid'])) {
+				$mcdata = $_GPC['mcdata'];
+				load()->model('mc');
+				mc_update($member['uid'], $mcdata);
+			}
+		}
+		show_json(1);
+	}
+	show_json(1, array('member' => $member));
+}
+if ($template_flag == 1) {
+	include $this->template('diyform/info');
+} else {
+	include $this->template('member/info');
+}

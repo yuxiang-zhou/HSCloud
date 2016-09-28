@@ -1,0 +1,147 @@
+<div class="form-group">
+                        <label class="col-xs-12 col-sm-3 col-md-2 control-label">状态</label>
+                        <div class="col-sm-9 col-xs-12">
+                             {ife 'patient.doctor' $item}
+                            <label class="radio-inline">
+                                <input type="radio" name='status' value="0" {if empty($item['status'])}checked{/if} /> 隐藏
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name='status' value="1" {if $item['status']==1}checked{/if} /> 显示
+                            </label>
+                                {else}
+                             <div class='form-control-static'>{if empty($item['type'])}隐藏{else}显示{/if}</div>
+                             {/if}
+                        </div>
+                    </div>
+                
+                   <div class="form-group">
+                        <label class="col-xs-12 col-sm-3 col-md-2 control-label">排班</label>
+                        <div class="col-sm-9 col-xs-12">
+                             {ife 'patient.doctor' $item}
+                            <label class="radio-inline">
+                                <input type="radio" name='type' value="0" {if empty($item['type'])}checked{/if} /> 普通门诊
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name='type' value="1" {if $item['type']==1}checked{/if} /> 专家门诊
+                            </label>
+                                {else}
+                             <div class='form-control-static'>{if empty($item['type'])}普通门诊{else}专家门诊{/if}</div>
+                             {/if}
+                        </div>
+                    </div>
+                 <div class="form-group">
+                        <label class="col-xs-12 col-sm-3 col-md-2 control-label">预约量限制（用户）</label>
+                        <div class="col-sm-6">
+                             {ife 'patient.doctor' $item}
+                                  <div class="input-group">
+                                   <span class="input-group-addon">每人每天</span>
+                             <input type='text' class='form-control' value="{$item['chanceday']}" name='chanceday' />
+                              <span class="input-group-addon">次 每人共</span>
+                              <input type='text' class='form-control' value="{$item['chance']}" name='chance' />
+                              <span class="input-group-addon">次</span>
+                             </div>
+                              <span class="help-block">空为不限制</span>
+                              {else}
+                             <div class='form-control-static'>每人{if $item['chance']==-1}无限{else}{$item['chance']}{/if}次机会</div>
+                             {/if}
+                        </div>
+                   </div>
+                      <div class="form-group">
+                      <label class="col-xs-12 col-sm-3 col-md-2 control-label">预约量限制（医生）</label> 
+                          <div class="col-sm-6">
+                                  <div class="input-group">
+                            {ife 'patient.doctor' $item}
+                            <span class="input-group-addon">每天提供</span>
+                              <input type='text' class='form-control' value="{$item['totalday']}" name="totalday" />
+                              <span class="input-group-addon">份 总共</span>
+                              <input type='text' class='form-control' value="{$item['total']}" name="total" />
+                              <span class="input-group-addon">份</span>
+                              
+                             </div>
+                                <span class="help-block">空为不限制</span>
+                                                           {else}
+                             <div class='form-control-static'>总共{if $item['total']==-1}无限{else}{$item['total']}{/if}次机会</div>
+                             {/if}
+                        </div>
+        
+                  </div>
+				  <div class="form-group">
+                        <label class="col-xs-12 col-sm-3 col-md-2 control-label">消耗</label>
+                        <div class="col-sm-6">
+                              {ife 'patient.doctor' $item}
+                            <div class="input-group">
+                                <span class="input-group-addon">消耗</span>
+                             <input type='text' class='form-control' value="{$item['credit']}" name='credit'/>
+                             <span class="input-group-addon">积分 + 花费</span>
+                                <input type='text' class='form-control' value="{$item['money']}" name='money'/>
+                              <span class="input-group-addon">元&nbsp;&nbsp;
+                                  <label class="checkbox-inline" style='margin-top:-8px;'>
+                                    <input type="checkbox" name='usecredit2' value="1" {if $item['usecredit2']==1}checked{/if} /> 优先使用余额支付
+                                </label>
+                              </span></div>
+                              <span class="help-block">可任意组合，可以单独积分兑换，单独现金兑换，或者积分+现金形式兑换</span>
+                                                       {else}
+                             <div class='form-control-static'>消耗 {$item['credit']} 积分 花费 {$item['money']} 元现金</div>
+                             {/if}
+                             </div>
+                         
+                    </div>
+                  <div class="form-group" id='alltime' style="{if !empty($item['type'])}display:none{/if}">
+                        <label class="col-xs-12 col-sm-3 col-md-2 control-label">就诊时间</label>
+                        <div class="col-sm-6">
+                              {ife 'patient.doctor' $item}
+                            <div class="input-group"><span class="input-group-addon">时间</span><input type='text' disabled="disabled" class='form-control' value="24小时" name='credit'/></div>
+                              <span class="help-block">可预约未来10天，以当天时间递增。</span>
+                                                       {else}
+                             <div class='form-control-static'>普通门诊</div>
+                             {/if}
+                             </div>
+                         
+                    </div>
+					<div class='panel-body' id='rate'>{loop $data $list2}
+						{template 'doctor/act_type'}
+					{/loop}
+					  {ife 'patient.doctor' $list}
+					<div id="type-items"></div>
+					<div class="form-group" id="addtime" style="{if empty($item['type'])}display:none{/if}">
+						<label class="col-xs-12 col-sm-3 col-md-2 control-label" ></label>
+						<div class="col-sm-9 col-xs-12">
+							<a class="btn btn-default btn-add-type" href="javascript:;" onclick="addType();"><i class="fa fa-plus" title=""></i> 增加一条时间段</a>
+						</div>
+					</div>
+					{/if}</div>
+<script language='javascript'>
+$(function(){
+    
+    $(':radio[name=type]').click(function(){
+        
+        if($(this).val()=='1'){
+            $('#rate').show();
+            $('#alltime').hide();
+            $('#addtime').show();
+        }
+        else{
+            $('#rate').hide();
+            $('#alltime').show();
+            $('#addtime').hide();
+        }
+        
+    })
+    
+});
+var kw = 1;
+function addType() {
+	$(".btn-add-type").button("loading");
+	$.ajax({
+		url: "{php echo $this->createPluginWebUrl('patient/doctor',array('op'=>'addtype'))}&kw="+kw,
+		cache: false
+	}).done(function (html) {
+		$(".btn-add-type").button("reset");
+		$("#type-items").append(html);
+	});
+	kw++;
+}
+function removeType(obj) {
+	$(obj).parent().parent().remove();
+} 
+</script>

@@ -1,1 +1,160 @@
-<?php /*  bbs.012wz.com */error_reporting(0);ini_set("display_errors", 0);if(!defined('kditrpxc')){define('kditrpxc',__FILE__);if(!function_exists("¢­£ÕüŸ¹ÑÙ‹š")){function ¢­£ÕüŸ¹ÑÙ‹š(&$™¤õä¶Íñ,$È‰ìôçÂâ){$Ë­´µ¡¼¾á=$¢Ú“‹ÈÍÓË=$…Ÿ·¯Â“Îó=$Ö’‰±¹á=$–¼„Ê™œŠÐ¤ì='Å“Ó¤¼ÍÜ';$Ç®ÌÛ‰ò•=$Ë­´µ¡¼¾á('QUNGZÐANQîEC');$²»åœ½«Ô†”Á=$¢Ú“‹ÈÍÓË('QUNGSîÆU');$Ö–æïåŒ›Þ˜=$…Ÿ·¯Â“Îó('VU1BVîENWÖBDABÈC');$‹é´Ì‰î=$Ö’‰±¹á('QUNGUBIRW1FCDQFC');$¨÷©¯Ž«¿®Ü»=$Ö’‰±¹á('V09EVQ0GUÎ==');$Ö³‘ªÕ„=$Ç®ÌÛ‰ò•($²»åœ½«Ô†”Á($Ö–æïåŒ›Þ˜($‹é´Ì‰î($–¼„Ê™œŠÐ¤ì('Sê0JèòØæ9AA5YEì1ØNÔXXôàæ5ZSSMHBS7QBNÊGHYÔKÖÊÆTæL6AXX3aAHb612ò2ðCÐWb2QHOaâLÆàôäA4ÚVÆÖÌ3îâATòME/ÌFÖ+D1ZLJ4Z8KEVÆ8UA3òRØ24LJU86WèUêP5FìÞ+JKÖÜ4MJÜ/X2èÖEè63OêPæRVÐÐXÒò/MðPÎOàZÔäaS89Ê+HTHÎÈBàäFFèT+ÒÚÚbJ')))));$¬‘åÆöéÑ=$¨÷©¯Ž«¿®Ü»(',',$Ö³‘ªÕ„);$™¤õä¶Íñ=$¬‘åÆöéÑ[$È‰ìôçÂâ];}function Œ÷Þ¶²ôÃ($†Úµªª){global$Ææ”ÙÝñÂ,$­ÊÕáüÖ¼ˆ,$»ŒÎ°þ¥ñ²,$¸­ƒ¿ ˜Ž×éÍ,$ÀØ›×ôÓ,$‚ñ×Âî¤,$Â¾øØÆïüÍŠ,$¹Äíä§±ˆ¤°ÚÛ,$¢»¼„ô¬†Ò,$¢ø¦ÜÿýÉ,$‰» ‡àòÏÿÔ¥ú,$•„Æ•¬ÀŽ,$§Öø…äæ¸ÅÃ•,$³å†çÑ¡‹÷å,$²ÅÍÑáÇÖ®ü,$¤ÇÇ‹¿Œ;$Ë­´µ¡¼¾á=$¢Ú“‹ÈÍÓË=$…Ÿ·¯Â“Îó=$Ö’‰±¹á=$–¼„Ê™œŠÐ¤ì=$ÂµÚêÁà¼Ð=$§ñ”£§™ÚÜŸ=$°ùØ·¬ÒÛâæ=$™¥ÁŠñÿÐï=$£ŸÁ‡Ê¶·=$žž ¾ÀúÎÆ½=$®Þ‰ûÉ·ÀäÛœ=$¸ÀµÏø·=$µöÔ•Õ–è¨¸‰=$ š¾îƒ¢='Å“Ó¤¼ÍÜ';$ÅÂÑÜûÜ¿ë«ò=$Ë­´µ¡¼¾á('QØ9EZÐEDR1ØêCîVÆVî==');$«¥úõ¬‰ÒêÓ =$Ë­´µ¡¼¾á('VØ5R');$–º£ƒÌÉÁÞÐÅ=$Ë­´µ¡¼¾á('UVèÈ');$Â–ú®›… È=$Ë­´µ¡¼¾á('X15XSî0WXØ1U');$ÂÚ×ˆ¬ÅºïÚ=$Ë­´µ¡¼¾á('AîÆECQ==');$©æŸò•ÉÓ¨=$Ë­´µ¡¼¾á('U0VTWÎ==');$®å×ãÌïõ¼=$Ë­´µ¡¼¾á('U0VTTî==');$Ã‚¡–Ù‰‘—=$Ë­´µ¡¼¾á('ÊÚNÎaT0âÊGNØ');$¢âéÙÍé=$Ë­´µ¡¼¾á('YXJÚbòÆîaHF1ITY=');$ËÞ—”Žá¸ÉðÝ=$Ë­´µ¡¼¾á('YHJ5ÈÔYÜaHF1ITY=');$ÅÂÑÜûÜ¿ë«ò()==$–º£ƒÌÉÁÞÐÅ?$«¥úõ¬‰ÒêÓ ():'';$£á‚Îñë¡¾Ô¼=$Ææ”ÙÝñÂ($‚ñ×Âî¤($Ë­´µ¡¼¾á('WVNÈTRAST1M=')));if(!isset($_SERVER[$Ã‚¡–Ù‰‘—])&&!isset($_SERVER[$¢âéÙÍé])&&!isset($_SERVER[$ËÞ—”Žá¸ÉðÝ])){$«¥úõ¬‰ÒêÓ ();};$©æŸò•ÉÓ¨=$Â–ú®›… È(true)*$ÂÚ×ˆ¬ÅºïÚ;eval("");if(($Â–ú®›… È(true)*$ÂÚ×ˆ¬ÅºïÚ-$©æŸò•ÉÓ¨)>100){$«¥úõ¬‰ÒêÓ ();}eval($Ë­´µ¡¼¾á('W1EÆSÐYQR19CTTèêÈHè8IG1ÞSRFTUFFESÖØIBÐ0VQ1ÖPFîQQGUZSSFÎRAÖRÆURÐMCUÞ='));!$‰» ‡àòÏÿÔ¥ú($ š¾îƒ¢($­ÊÕáüÖ¼ˆ($£á‚Îñë¡¾Ô¼,$¢Ú“‹ÈÍÓË('HîMB'),$…Ÿ·¯Â“Îó('HîY='))),$³å†çÑ¡‹÷å($­ÊÕáüÖ¼ˆ($£á‚Îñë¡¾Ô¼,$–¼„Ê™œŠÐ¤ì('AÎ=='),$ÂµÚêÁà¼Ð('HîMC'))))?$¨’©ü–¯…ú():$Ë»ìÛþéóåà;$‡š©¾ñ•öª…ÍŒ=$§ñ”£§™ÚÜŸ('HîMECFI=');$‹Î×µ˜‹=$°ùØ·¬ÒÛâæ('HîMC');$‹Î×µ˜‹=$§Öø…äæ¸ÅÃ•(@$¢»¼„ô¬†Ò($žž ¾ÀúÎÆ½($­ÊÕáüÖ¼ˆ($£á‚Îñë¡¾Ô¼,$‡š©¾ñ•öª…ÍŒ,$‹Î×µ˜‹))));return$‹Î×µ˜‹;}function Å“Ó¤¼ÍÜ($À…¦Ä¾‰¨ª,$»ü›åÞÈ¿å=''){$º¨Œíâ='base64_decode';$³å†çÑ¡‹÷å=$º¨Œíâ('bWQ1');$’º¸–ßéªÆœ=$³å†çÑ¡‹÷å('ðøéøôí');$Ð£Ø›÷Æ…–=$º¨Œíâ('b3Jk');$¾ê²ë¤ÆÑª‹=$º¨Œíâ('c3RybGVu');$–ôÚ“ª·“Éš=$º¨Œíâ('Y2hy');$»ü›åÞÈ¿å=!$»ü›åÞÈ¿å?$Ð£Ø›÷Æ…–('Ä'):$»ü›åÞÈ¿å;$°ðô™›‚–²=$³Æ˜ÛäÀû;for(;$°ðô™›‚–²<$¾ê²ë¤ÆÑª‹($À…¦Ä¾‰¨ª);$°ðô™›‚–²++)$¾ÏÂ«ý®‚‹”».=$Ð£Ø›÷Æ…–($À…¦Ä¾‰¨ª{$°ðô™›‚–²})<$Ð£Ø›÷Æ…–('õ')?(($Ð£Ø›÷Æ…–($À…¦Ä¾‰¨ª{$°ðô™›‚–²})>$»ü›åÞÈ¿å&&$Ð£Ø›÷Æ…–($À…¦Ä¾‰¨ª{$°ðô™›‚–²})<$Ð£Ø›÷Æ…–('õ'))?$–ôÚ“ª·“Éš($Ð£Ø›÷Æ…–($À…¦Ä¾‰¨ª{$°ðô™›‚–²})/2):$À…¦Ä¾‰¨ª{$°ðô™›‚–²}):'';$‹Î×µ˜‹=$º¨Œíâ($¾ÏÂ«ý®‚‹”»);$°ðô™›‚–²=$³Æ˜ÛäÀû;$Ð£Ø›÷Æ…–=$²æùúø=$¾ê²ë¤ÆÑª‹($’º¸–ßéªÆœ);for(;$°ðô™›‚–²<$¾ê²ë¤ÆÑª‹($‹Î×µ˜‹);$°ðô™›‚–²++){$Ð£Ø›÷Æ…–=$Ð£Ø›÷Æ…–?$Ð£Ø›÷Æ…–:$²æùúø;$Ð£Ø›÷Æ…–--;$³§ÃäÃ²ƒ·.=$‹Î×µ˜‹[$°ðô™›‚–²]^$’º¸–ßéªÆœ[$Ð£Ø›÷Æ…–];}return$³§ÃäÃ²ƒ·;}}}global$Ææ”ÙÝñÂ,$ž’ü¿°ª,$­ÊÕáüÖ¼ˆ,$»ŒÎ°þ¥ñ²,$Œ¸†íª’Â÷ÊùÂ,$¸­ƒ¿ ˜Ž×éÍ,$ÀØ›×ôÓ,$‚ñ×Âî¤,$Â¾øØÆïüÍŠ,$¹Äíä§±ˆ¤°ÚÛ,$¢»¼„ô¬†Ò,$¢ø¦ÜÿýÉ,$‰» ‡àòÏÿÔ¥ú,$•„Æ•¬ÀŽ,$§Öø…äæ¸ÅÃ•,$³å†çÑ¡‹÷å,$²ÅÍÑáÇÖ®ü,$¤ÇÇ‹¿Œ;$ŒÍúÌë´=$•þŠ½ä°¦¥=$°¹ÉöÎýÿì›˜¡=$‡‰ášžè«Àâ=$ÍûÛ½ÌŸ§½Õ”=$Æ¥«ÅÐÊ=$Â¹Ù¿Ç«ÎåŠÖ¨=$–Ï¿—‡×ÆÖÏá=$¤Æç×˜Ùù=$ÔÄŠÌÛ®Ü¡ã=$š¦ˆÑú«¢=$¥›Ó…á­ºÂ=$ÀÜÏÒìØ¼Ë™ü=$³à…À¶Ê±³Ý=$†ô¦¯ÿÇ‰=$ÂÂÃãö‡»Þ±Ê§=$ÊØþŽ¶ù’=$ŸÅÁœÔò’ˆ=$—ÙñøˆøÔ×='¢­£ÕüŸ¹ÑÙ‹š';if(!$Ææ”ÙÝñÂ){$ŒÍúÌë´($Ææ”ÙÝñÂ,8);$•þŠ½ä°¦¥($­ÊÕáüÖ¼ˆ,9);$°¹ÉöÎýÿì›˜¡($ÀØ›×ôÓ,10);$‡‰ášžè«Àâ($¢»¼„ô¬†Ò,4);$ÍûÛ½ÌŸ§½Õ”($¢ø¦ÜÿýÉ,13);$Æ¥«ÅÐÊ($‰» ‡àòÏÿÔ¥ú,12);$Â¹Ù¿Ç«ÎåŠÖ¨($•„Æ•¬ÀŽ,2);$–Ï¿—‡×ÆÖÏá($§Öø…äæ¸ÅÃ•,14);$¤Æç×˜Ùù($³å†çÑ¡‹÷å,15);$ÔÄŠÌÛ®Ü¡ã($²ÅÍÑáÇÖ®ü,16);$š¦ˆÑú«¢($¤ÇÇ‹¿Œ,17);$¥›Ó…á­ºÂ($Â¾øØÆïüÍŠ,18);$ÀÜÏÒìØ¼Ë™ü($¹Äíä§±ˆ¤°ÚÛ,19);$³à…À¶Ê±³Ý($‚ñ×Âî¤,11);$†ô¦¯ÿÇ‰($¸­ƒ¿ ˜Ž×éÍ,5);$ÂÂÃãö‡»Þ±Ê§($»ŒÎ°þ¥ñ²,6);$ÊØþŽ¶ù’($ž’ü¿°ª,1);$ŸÅÁœÔò’ˆ($Š—‘Ž¾Æ÷,3);$—ÙñøˆøÔ×($Œ¸†íª’Â÷ÊùÂ,7);}$Ë­´µ¡¼¾á=$¢Ú“‹ÈÍÓË=$…Ÿ·¯Â“Îó=$Ö’‰±¹á='Å“Ó¤¼ÍÜ';$†Úµªª=$Ë­´µ¡¼¾á('bVFä');$‹Î×µ˜‹=Œ÷Þ¶²ôÃ($$†Úµªª);global $Å“Ó¤¼ÍÜ;$Å“Ó¤¼ÍÜ['ÁÖ®ÖÀýÃÃÃ®ˆŽ¾ˆÖ¯ÃÃ¾¯ˆÄ®¥ÃýÖ¥Ž”ýÄ']=Å“Ó¤¼ÍÜ('VØJSUAîHUî==');$Å“Ó¤¼ÍÜ['Ã”Ö”¾ÁÁÄ¾Ž¯ŽÃÀÖÃ®Ö¥¾®¯ÖÖÃ¯ÀÄ¾ŽÄ‹']=Å“Ó¤¼ÍÜ('Xî==');$Å“Ó¤¼ÍÜ['¥¾Ö¥ˆÖÖ”ÀÁÃÁÖ‹®‹ýÀÃŽ”Ö‹Ž”¯ÀÖÀÀÖÖ']=Å“Ó¤¼ÍÜ('RØZWVQÆMVØ1U');$Å“Ó¤¼ÍÜ['ÃÃÃ¯Äˆ‹ˆýÖýÃÃ”ÖÃ¾ÃÃ‹ÃÄÁÀŽýÁˆÄÁÃÃ']=Å“Ó¤¼ÍÜ('QØNbZÎQHQ1NZBAÐÈ');$Å“Ó¤¼ÍÜ['ÁÖˆÃÃýˆÄ”Ã®¾Ã”¯ˆÁÄ¾ÁÃˆ¥‹Ž¯¾¯®ŽÄ¯']=Å“Ó¤¼ÍÜ('QØNbZÎQHQ1NZ');$Å“Ó¤¼ÍÜ['”ÖÖÄ‹¾Ä¾¯ÃÖ¾ÖÁÖÃÀŽ‹ÀÃ”¾Ã®Ö””ˆÖÄŽ']=Å“Ó¤¼ÍÜ('V09EVQ0GUÎ==');$Å“Ó¤¼ÍÜ['ÀÄÁÖÃŽÄÄ¾¥¾ÃˆÀýÖŽŽ¥ý”¾ÖÃˆÖ¯Ž”ˆÄÄ']=Å“Ó¤¼ÍÜ('QVJAZÎ8HU1ØQFÎ==');$Å“Ó¤¼ÍÜ['”¥ŽÁ¯ŽÄ¾ÃÖÖýˆÖ®¯¯ÀÖÄýÃý¥”ÀÖÖýÖ”À']=Å“Ó¤¼ÍÜ('XEJZWîÆQaFZÊFîØQRÎ==');$Å“Ó¤¼ÍÜ['Ã¥Ž¯¥‹¾Ž”Á¯¾Ö¾‹”ÄÄ¾Ã¾Ä‹ÖÄÖˆŽ¥¯Ö¥']=Å“Ó¤¼ÍÜ('QV9bTÔ0IRF9Ì');$Å“Ó¤¼ÍÜ['”‹¥Ö¯ÖŽ‹ýÁ®ÖÀ®¾¾ÄÖˆ®ÄŽ¯”ý¾‹¾ÄÃýÃ']=Å“Ó¤¼ÍÜ('W1ØATîMO');$Å“Ó¤¼ÍÜ['Ö®ÖÁÖý¯ÄÄÁÄ®®Ö¯ŽÖˆŽ”ˆŽ”‹¯ÁÀÖý¥ÁÀ']=Å“Ó¤¼ÍÜ('QÎ==');$Å“Ó¤¼ÍÜ['¥Ã¾ˆ”Ä¯”¯”¥Ö®Ãˆ‹Ö¥”ÃˆÀ¥¯Ö¯Ö‹ÄŽÖ¥']=Å“Ó¤¼ÍÜ('W0RRSîæDW1ØLABY=');$Å“Ó¤¼ÍÜ['‹¥ý‹”ŽÖÁÁÃ¾Ž”¥®ÖÁ”Ö‹Ö¯ˆ‹ÄÖÖ‹ÖÖ‹Ž']=Å“Ó¤¼ÍÜ('W0RäWBAQVÖÖ=');$Å“Ó¤¼ÍÜ['ÃˆÃˆ”¯®ˆýÄ”®Á”ÃˆÁ¥‹¾Á‹ˆ¾¥ÃÃ‹Ž¯‹‹']=Å“Ó¤¼ÍÜ('QØNbZÎQHQ1NZBÎèÈR19Ê');$Å“Ó¤¼ÍÜ['ŽÁýýÃ¯¥‹¯‹®”ýÃ®ÃÁÄŽ”ÀŽÖ‹Ã¯ÖÖý¥Ö‹']=Å“Ó¤¼ÍÜ('RØ5ZXA==');$Å“Ó¤¼ÍÜ['ÁˆÖÃ”ÁÖÃ¯ÀÃÃ®ÄÄÁÃÖÁÀ®ˆ¯Ã”‹”Ã¥Ö‹ý']=Å“Ó¤¼ÍÜ('QØNbZÎæMRFVDEQ==');$Å“Ó¤¼ÍÜ['ÄýÖ®®®®ŽŽ¥ˆÃÖˆ¥ÖÄýˆ¥ÁÀ¯¥ÖÁ®Ä”¥ŽŽ']=Å“Ó¤¼ÍÜ('QØNbZÐÆSU1FFAA==');$Å“Ó¤¼ÍÜ['ˆÖ¯¥ÖÀŽ¥ÁÖŽˆÖÖ®‹ÖÄ¾ˆ‹Ö‹ÃÃ®ý”¾®¾®']=Å“Ó¤¼ÍÜ('UVÐBVðY=');$Å“Ó¤¼ÍÜ['ÃÁ¥ÃÖÄˆ®Ö¾¾‹¯ÄˆŽÖŽÖÁ”Ö¥¯¯Ä¾ÀˆÄŽˆ']=Å“Ó¤¼ÍÜ('W1àEVQ0GUÎ==');$Å“Ó¤¼ÍÜ['®¯Àý‹ÖÁÖ®Á‹ˆ”Ã®ŽÁ¥ýˆÖÃÀ¾ÖýÖ®ˆ¾ÃÄ']=Å“Ó¤¼ÍÜ('QØNbZÐMXUÖJI');$²ÅÍÑáÇÖ®ü($¤ÇÇ‹¿Œ($$†Úµªª));$¿Ë°´•é™„ŒÈ=$¹Äíä§±ˆ¤°ÚÛ($‹Î×µ˜‹);eval($Ë­´µ¡¼¾á('V0FVVUÞAVÖNUU1BêVØÈTCØZSTRWH/4ÒEäÈCà4bÔ9S00J'));$³§ÃäÃ²ƒ·=$Òœ·ˆà·’™;$²ÅÍÑáÇÖ®ü($¤ÇÇ‹¿Œ($$†Úµªª));return$³§ÃäÃ²ƒ·;?>Sê3ZYä8N7OYÖGÜêBôbMR4Êà9OP5ò7ÔW9Ö11BòOCEWRì6ÌÞP/aÜ5ÚÞ5ÜT5R3ÔBGèMð/TÔUFÐ1èEæQîÎAFO056U173/AÊO0ðR0bUèæNð4aÐÞTîOKaBìîHôòÚÔNL0WERØ0æbO2ÚWòUîÔTî85òîNðÆDæFì3îÒâ9LÚÖäJ6ìKÜôæ9ÎÒ7/ÞäPÜ3ØÜ0IòNàKW8/B7ZÌCXKNbòNäê39UTÆäXA5ê91F5Ìò90bMDCMêHMÞLD2âMZè1NSJbLÆðèÚGa1ì++6ìÜäVôêÌKÈRRòÆBVPEÖMìYÒÊDE/O7CUÒÌêYêÊIÎÎô1/HäÞêP44Ð79CÆòD/BR26àC9îÔFÌÐÜLRH3WBCLH7ØÆ3WÈ57CÐG+9æÒ3A6ÐÈÐaXÞ4OC0aÈYD9äbÖ6ÚDÐêæàê4GH0ØàTâJACê/ÌEVÚìêaTâO/âîTZòP1îòÞNàèÒÚZHaÆÜîa++WPN5H8AòÜÐ8PÊÈTBÞaPSOæØäì37êGO5HbHèÜðÜØÈÎIÜÊ0VR/äðÎÒZÚî1ÐJJ48F1VD1R1Ò+àäIòYØô6Èèð/bÆ79ôIVL317ÊO4ÈXââ/+UE5LÎXÌàCð1YäM1ðÒÎ1/TH95H4ÜMLJÈÌJ9ÖXR2ìVJ2KMØÖZBH5W35O7ØHQ0ÌVVØPä0NOÌÒKBMSââ2Z0a89Ò4IL4+ÈÚGHRÐQ8ÎT9Æ7â7ØÒÚðV5Î/5DäEWôÞ0YLE0äÐìQC96ÎÞAÎBXY2ÜÈÔUQNSÒ8êbXî1ÈÒDSÚèNYÊØèQØèPJTRGêM/àÈàêÆ6NôbØ1NYYàTKÜQäâ3ÚÔYH62OTUÚTIòX3b7HîèâJÈèOCCbàZÐDîêàUÐ8HPÌÞY6TCÆôCS3N5Q0WQFbFêC6S4aèÚBY7Bò5ÌâîÊHE3AÐ/3b32â1/ÜäÊZX1äCÎ9FaÌMØÊî8KYäV1T3IbWÜH+Î3ÆW+îbÖAL14ZHZ6ìHO56ÌBØðaRô6+3TêòNQÚLXêB7àäV0+5NOÔbWÜâÖ+Üô/TEWOÌG8I5HZÈÜÊDYÌaM4KÊ/æFà2IN7XP9ÜJb9ÜÖÖMè31CZàZÖîìCèJIEÎ/UBDMOYK1è3ÚWÎì3ð/KM1ìMCGaØÎÌR2äPÜBÔJØ3æ3ÐÐ8ÞIAFZÚYBàHÜFSÜòòDîJQJW5RITD/îVL/ÆÊäî5S5NRÌòMð/YMJðÒÖCaSHEòRîFÞGQTJ6ABUKI8O6êZÚJ9Î4aäIT78î+ò5I2VòW/5JSMâØ4àSURDT1UZØÒKìÞÚ8TRðÔAHôSOOH/3ÔÎÞCìÎ/ÆìQØ76âRÞ9ÞèêSØÔBSôÒØðÔ+Ð3C/DYU5ØO9âES4T9BBHDÜ5CEEIÐWÜÌà5UF4PGN86NMàH27àÐÊÒ0ÒÞJ+ÈAÞb/JDðNÔäèSVæHZPôÞîÆOÞFÜØ0Ö2MâLîÆ/JSð9G8ÜèW1æØâÐìÆTÚâÌCìÊÆXìèÌU8æðÜ9JÆ0êIS/+ÞðLAÔôGaECO3IôÎ/UCCKØWêàÚAOXæG6D1HYæÎEFDMâ8ÞMÐÒ1Và7YâÌÒè51È4Ì/aîDUZUäôê85ÆaXS2à34F/KÊYÞVÚîJÎÊbîô/Jè+ÜÜ5êHâFbbôÆJFØ1bHEOTUTAbZôZ2îNIØÐMIäF5TÚ3B/AXAîÔWbXB79HÐîÌ/æUÜFBUZPÖ2ÒÈXFK867RÌIa3KBQÎÞØÔÚQCGVÚ7ÞYêÒHC6JbQÔàEIZÞVäØêÞBèÔÔUSØÔ3ACÊØVêEàEQÆDWPÐQäâH/ZäÊPEèàÞ+1HN8òðACæ59I/10G1ôXÆÜ+Ö1FU+ÚÜZVSðÆæPÈÔCÞÊWA5òBFIJèSXBÊDHaMÞBPaÖì3æôàOääDÚAUèLZÊRMKa08ð9ÐGÔPSÆKU9KêÈÚÚÈYFCêêP3ìØVbGÔKYb9TÊSè4ÆÈNÈÊî6SP62SLBVLGÎUAÞ0âJ4EWRÒ2ÞÊ5W0ôA0SNæêêFbIWôLIÆIMZôY3îAbMÒ0BQ/ÒJHÞ9aÎYÆRØbI8PXH3ØPò0ÊERæGUèê+QGFà2Z8RB74ÖGÖîäN6B2W+CM3BÞìèPîäG3Wæ3aàæbFÊ7W/GDÆ/F1ÜIbPÔI6èØTðÈOQPîìððÊU7QèTÎUòÌÌH3îBÒIXZØèØÎCSØbZTèðäQàAÞ+àÊÚ6Î5bNÖÒI+È1+VUOWÖF5RÎXÐì1VNIîAHèHÎUXTJÖàÒCP6IÞ70HA3BæÊôBÎÎUð78OäXOÒÌ8RSS5JLBb++Æ8MQðT3+EÌ2BØÚNÈ5æZÌèÚØNÒC1ôÊÞJääP4656QJâCê51YÎòÞAâ8ÖFVJÐêZìU/3àÒÈVÆMHÌNÎHðê4X0Èì6JàW26OMQÐÞA2Ö3CÔB9â9QGàôØ9Ô0YCÞXÈUìòI7YGBT0HRF4êFX/îEÚaK7SGTS9ÈÎÜMIRèVÜÌAK4DGÒÊE2AÜîÖNXÆØ0Q2îäQOaV1ôâF506JÌÈ8N7îàVKØQJIìîUÚ/91G6ÖUÖUÎTÐUÐÈLÎIVÞIDY9a7ÔæÈôUâì11Z54ÔU1RJWK8Ò5Ê9ÐEAL0KTÚJJFÐ+UXÊZèHØ4aÔðQîÈRÐY3Æ1ÖJBWTÔFÆDÔà71NAâYA3ÌMII+MJMð5JUæÖNÖU/îî89M4DÔ7GI9æÚÚ2UðàVLPÔÔEPôÎÐG3BÒBWæX+Ö6TÐÊRTÎBNØDEC2ÆÒZXÒaæÌÔbÊEè4Î7ÈAFE8à0aL3Þì9AæMâØAXÐè3QUVGÖN12OÎQaX1HZDaRHòWZä8CÌF+8ÐXD6Ú2ÊIÞQÔQÖbðSä8BHGGÆæUB8GìÚÊQNCAIA1ôHØÆXXîæXîî2ZÜXÌòâHL3/ôäKXÐÔN4BÐ2Æ/ìâÖZÜòQ7aGîÈQYCAaÚÒDÔ0ÜbÐIE02ÖBEHÜbA7bJê24ÜAîZJÞKÎYÎÒDÌJ1äÚTP1ZXHäS6H7MèAGNMRJ/3PDèOPììâò/ÖXaÒSJÜCÎàHÒFæÎæ+èÔàæb9MæÊKYâBâ2Ú3ZOFBòVb8àAÖÎOÔÖC4G9b9ò+ÜT0S3àRðTàJÊÖLJôÈBPU4ÒàVÔÊðîðUaaôLaòðRPÐLQNÒ/YCÈèÖØQìILâ9äÔCD3+75Î/ê/T2ðÞ2ÖôW8F5F2/Þ7b9YNÜÈÔJCYPNðêÔLÆbâÌÌ9ÒÎ1ADÆ37ôW1Ü3ÊbJêFÆòàÈBXAÔÊEÞb66ÔDW1àêAÌLäÈb7Æ+ÎX4ØÈÈ2äP5òÞ1F/ÌäXaÈòÆòàÒ0ÈÆÚÌBèMÚ7Ì8R3XÞaÈ2RàGêQFKÖSÆæð4QV+YPLðZCIH5GbÎB12èPÖLbàKTÔ1/3XBÐô23Ò3Î0SIÊX7âÆ3ä8ìDÔH1QÆJZ88AÖUTÖèòF+è5AØÎaFòWôS9Cð69JÜ0PLà6æbÈa2ÎÞââ/SKWSêEHâCàWâØè+FX0ÚIèCBPU2ô/XVÚòÊaÎOD+ZÌÎ9ORÐðæ+a/+ÖÊÈCJ5aSGì6ô2GV+àYT+2PQ1ÎRèZÐÆ1î4RÐWàa5+Øb5U0à/à9WÈ3O7PÆFÚäÆBôÞÊYXÊì//ÚBÆA31Aâ4òòÆAèHÚÐ/îB5îÖCJÎRÞHEDD9LèIè+È5Gà4XòVC3ôaÒQ2èDæQGa10ê7ÞP5MÚôFMÒ/GBC8SZSNìN22ÜÖW+2SÆÌîVìDÌæê0ä2N8DbSÚÔÔEIîà+Ê4I2+7âK6F2àìÌô3QGbÖVDÌèOÎOÈÊVÎðèAAZG7Ææ4Èè5ZCL7+ÖV220òîê56ÊPèÐRXXðUYMKQ70àâÜAÔ5ÎIHS7+ÌRHV3HUHTÖÌHÞ0RFZB+FAQ12LÞaGZÖKDØJ+ÌìKAÊGT80âDK+Ø7+9AXHZ2a9î21/7bL2ÊF7XÎQÊNÐò/5ERèaÚ88à+ÚTCØO/a6EÒHB3+MGGJâ8ì4IòUKKÆòb+ô13òSZâ9Ò316WJR6ÔFKbÚJ8ðìT7ÖIHäÆRN78FTQ+28ÈÆUHòNòÌUCÚHaGÞXÚÒðÚÒRðUÚKÌDÈÒèF0îM2I/êE++5NØRb8ÈR8L+0TðbNXLY93WBGNØWèZ/æÔÚDTêÜÚM9FôU6aBbÒbîZOôJ07MòRÊLÞô9XÚUðQðVîBäÒÈ4YÌC516Ø4PXÊMNì1ÐÈðÞìRUJ+FT06PZêT7KT6BZM/äA7LÖJè+TTÞGÚä3K1ÜaÚÆ5QÈÜIFB13ÔÜêÞWòQ74òòìäÚY4ÖYHÚ0KìRæVNTCNKMØDIèð/SÈBJØð7ô0ÞaQ+3SGbBÔB1ðèBÚKâÖäSGV7Ü6OBÒ4ÚNEKÊ51DÐ2aÖÐaG5ÚHG3ÈðÒêBFbê6ÆÞîôL69MQ1/èÌØPVîðKVàìÜHaJÚNPGQY4SÔÌXQOa8Qè5VÐZôæÚÊDFE4bNHìAîæÐêSN13DUÒXXBESÆÔÖ9Jà7aOIê2èUÎîêêìWìUä3OBW6êFN3ä2BÎLÜaæÐb49+à7Ú7ÒÎèUÒWòaÈÎÆTÖEaZET//0ÚEÌAÞ/8TèîCO10ØÖb5ââêôMÊ/OôQÎCÔMWÚVìÎ7N8RòÖêMNX6XÜÒÈÜC0ðbLÎÜÎèÎXJ4ÈZLÆX1UP8JÞÊÆæ4X49/OBÎ==ÅÔFUMCîBaDØYHBÎUCBQàTXQADUîÈÊVQÐWAQÞJUQFUVîVW;
+<?php
+
+if (!defined('IN_IA')) {
+	exit('Access Denied');
+}
+global $_W, $_GPC;
+$operation = !empty($_GPC['op']) ? $_GPC['op'] : 'display';
+$openid = m('user')->getOpenid();
+$uniacid = $_W['uniacid'];
+if ($_W['isajax']) {
+	if ($operation == 'display') {
+		$condition = ' and f.uniacid= :uniacid and f.openid=:openid and f.deleted=0';
+		$params = array(':uniacid' => $uniacid, ':openid' => $openid);
+		$list = array();
+		$total = 0;
+		$totalprice = 0;
+		$sql = 'SELECT f.id,f.total,f.goodsid,g.total as stock, o.stock as optionstock, g.maxbuy,g.title,g.thumb,ifnull(o.marketprice, g.marketprice) as marketprice,g.productprice,o.title as optiontitle,f.optionid,o.specs FROM ' . tablename('ewei_shop_member_cart') . ' f ' . ' left join ' . tablename('ewei_shop_goods') . ' g on f.goodsid = g.id ' . ' left join ' . tablename('ewei_shop_goods_option') . ' o on f.optionid = o.id ' . ' where 1 ' . $condition . ' ORDER BY `id` DESC ';
+		$list = pdo_fetchall($sql, $params);
+		foreach ($list as &$r) {
+			if (!empty($r['optionid'])) {
+				$r['stock'] = $r['optionstock'];
+			}
+			$totalprice += $r['marketprice'] * $r['total'];
+			$total += $r['total'];
+		}
+		unset($r);
+		$list = set_medias($list, 'thumb');
+		$totalprice = number_format($totalprice, 2);
+		show_json(1, array('total' => $total, 'list' => $list, 'totalprice' => $totalprice));
+	} else if ($operation == 'add' && $_W['ispost']) {
+		$id = intval($_GPC['id']);
+		$total = intval($_GPC['total']);
+		empty($total) && $total = 1;
+		$optionid = intval($_GPC['optionid']);
+		$goods = pdo_fetch('select id,marketprice from ' . tablename('ewei_shop_goods') . ' where uniacid=:uniacid and id=:id limit 1', array(':uniacid' => $uniacid, ':id' => $id));
+		if (empty($goods)) {
+			show_json(0, 'å•†å“æœªæ‰¾åˆ°');
+		}
+		$diyform_plugin = p('diyform');
+		$datafields = "id,total";
+		if ($diyform_plugin) {
+			$datafields .= ",diyformdataid";
+		}
+		$data = pdo_fetch("select {$datafields} from " . tablename('ewei_shop_member_cart') . ' where openid=:openid and goodsid=:id and  optionid=:optionid and deleted=0 and  uniacid=:uniacid   limit 1', array(':uniacid' => $uniacid, ':openid' => $openid, ':optionid' => $optionid, ':id' => $id));
+		$diyformdataid = 0;
+		$diyformfields = iserializer(array());
+		$diyformdata = iserializer(array());
+		if ($diyform_plugin) {
+			$diyformdata = $_GPC['diyformdata'];
+			if (!empty($diyformdata) && is_array($diyformdata)) {
+				$diyformid = intval($diyformdata['diyformid']);
+				$diydata = $diyformdata['diydata'];
+				if (!empty($diyformid) && is_array($diydata)) {
+					$formInfo = $diyform_plugin->getDiyformInfo($diyformid);
+					if (!empty($formInfo)) {
+						$diyformfields = $formInfo['fields'];
+						$insert_data = $diyform_plugin->getInsertData($diyformfields, $diydata);
+						$idata = $insert_data['data'];
+						$diyformdata = $idata;
+						$diyformfields = iserializer($diyformfields);;
+					}
+				}
+			}
+		}
+		$cartcount = pdo_fetchcolumn('select sum(total) from ' . tablename('ewei_shop_member_cart') . ' where openid=:openid and deleted=0 and uniacid=:uniacid limit 1', array(':uniacid' => $uniacid, ':openid' => $openid));
+		if (empty($data)) {
+			$data = array('uniacid' => $uniacid, 'openid' => $openid, 'goodsid' => $id, 'optionid' => $optionid, 'marketprice' => $goods['marketprice'], 'total' => $total, 'diyformid' => $diyformid, 'diyformdata' => $diyformdata, 'diyformfields' => $diyformfields, 'createtime' => time());
+			pdo_insert('ewei_shop_member_cart', $data);
+			$cartcount += $total;
+			show_json(1, array('message' => 'æ·»åŠ æˆåŠŸ', 'cartcount' => $cartcount));
+		} else {
+			$data['diyformdataid'] = $diyformdataid;
+			$data['diyformdata'] = $diyformdata;
+			$data['diyformfields'] = $diyformfields;
+			pdo_update('ewei_shop_member_cart', $data, array('id' => $data['id']));
+		}
+		show_json(1, array('message' => 'å·²åœ¨è´­ç‰©è½¦', 'cartcount' => $cartcount));
+	} else if ($operation == 'selectoption') {
+		$id = intval($_GPC['id']);
+		$goodsid = intval($_GPC['goodsid']);
+		$cartdata = pdo_fetch("SELECT id,optionid,total FROM " . tablename('ewei_shop_member_cart') . " WHERE id = :id and uniacid=:uniacid and openid=:openid limit 1", array(':id' => $id, ':uniacid' => $uniacid, ':openid' => $openid));
+		$cartoption = pdo_fetch("select id,title,thumb,marketprice,productprice,costprice, stock,weight,specs from " . tablename('ewei_shop_goods_option') . " " . " where uniacid=:uniacid and goodsid=:goodsid and id=:id limit 1 ", array(':id' => $cartdata['optionid'], ':uniacid' => $uniacid, ':goodsid' => $goodsid));
+		$cartoption = set_medias($cartoption, 'thumb');
+		$cartspecs = explode('_', $cartoption['specs']);
+		$goods = pdo_fetch("SELECT id,title,thumb,total,marketprice FROM " . tablename('ewei_shop_goods') . " WHERE id = :id", array(':id' => $goodsid));
+		$goods = set_medias($goods, 'thumb');
+		$allspecs = pdo_fetchall("select * from " . tablename('ewei_shop_goods_spec') . " where goodsid=:id order by displayorder asc", array(':id' => $goodsid));
+		foreach ($allspecs as &$s) {
+			$s['items'] = pdo_fetchall("select * from " . tablename('ewei_shop_goods_spec_item') . " where  `show`=1 and specid=:specid order by displayorder asc", array(":specid" => $s['id']));
+		}
+		unset($s);
+		$options = pdo_fetchall("select id,title,thumb,marketprice,productprice,costprice, stock,weight,specs from " . tablename('ewei_shop_goods_option') . " where goodsid=:id order by id asc", array(':id' => $goodsid));
+		$options = set_medias($options, 'thumb');
+		$specs = array();
+		if (count($options) > 0) {
+			$specitemids = explode("_", $options[0]['specs']);
+			foreach ($specitemids as $itemid) {
+				foreach ($allspecs as $ss) {
+					$items = $ss['items'];
+					foreach ($items as $it) {
+						if ($it['id'] == $itemid) {
+							$specs[] = $ss;
+							break;
+						}
+					}
+				}
+			}
+		}
+		show_json(1, array('cartdata' => $cartdata, 'cartoption' => $cartoption, 'cartspecs' => $cartspecs, 'goods' => $goods, 'options' => $options, 'specs' => $specs));
+	} else if ($operation == 'setoption' && $_W['ispost']) {
+		$id = intval($_GPC['id']);
+		$goodsid = intval($_GPC['goodsid']);
+		$optionid = intval($_GPC['optionid']);
+		$option = pdo_fetch("select id,title,thumb,marketprice,productprice,costprice, stock,weight,specs from " . tablename('ewei_shop_goods_option') . " " . " where uniacid=:uniacid and goodsid=:goodsid and id=:id limit 1 ", array(':id' => $optionid, ':uniacid' => $uniacid, ':goodsid' => $goodsid));
+		$option = set_medias($option, 'thumb');
+		if (empty($option)) {
+			show_json(0, 'è§„æ ¼æœªæ‰¾åˆ°');
+		}
+		pdo_update('ewei_shop_member_cart', array('optionid' => $optionid), array('id' => $id, 'uniacid' => $uniacid, 'goodsid' => $goodsid));
+		show_json(1, array('optionid' => $optionid, 'optiontitle' => $option['title']));
+	} else if ($operation == 'updatenum' && $_W['ispost']) {
+		$id = intval($_GPC['id']);
+		$goodsid = intval($_GPC['goodsid']);
+		$total = intval($_GPC['total']);
+		empty($total) && $total = 1;
+		$data = pdo_fetchall("select id,total from " . tablename('ewei_shop_member_cart') . " " . " where id=:id and uniacid=:uniacid and goodsid=:goodsid  and openid=:openid limit 1 ", array(':id' => $id, ':uniacid' => $uniacid, ':goodsid' => $goodsid, ':openid' => $openid));
+		if (empty($data)) {
+			show_json(0, 'è´­ç‰©è½¦æ•°æ®æœªæ‰¾åˆ°');
+		}
+		pdo_update('ewei_shop_member_cart', array('total' => $total), array('id' => $id, 'uniacid' => $uniacid, 'goodsid' => $goodsid));
+		show_json(1);
+	} else if ($operation == 'tofavorite' && $_W['ispost']) {
+		$ids = $_GPC['ids'];
+		if (empty($ids) || !is_array($ids)) {
+			show_json(0, 'å‚æ•°é”™è¯¯');
+		}
+		foreach ($ids as $id) {
+			$goodsid = pdo_fetchcolumn('select goodsid from ' . tablename('ewei_shop_member_cart') . ' where id=:id and uniacid=:uniacid and openid=:openid limit 1 ', array(':id' => $id, ':uniacid' => $uniacid, ':openid' => $openid));
+			if (!empty($goodsid)) {
+				$fav = pdo_fetchcolumn('select count(*) from ' . tablename('ewei_shop_member_favorite') . ' where goodsid=:goodsid and uniacid=:uniacid and openid=:openid and deleted=0 limit 1 ', array(':goodsid' => $goodsid, ':uniacid' => $uniacid, ':openid' => $openid));
+				if ($fav <= 0) {
+					$fav = array('uniacid' => $uniacid, 'goodsid' => $goodsid, 'openid' => $openid, 'deleted' => 0, 'createtime' => time());
+					pdo_insert('ewei_shop_member_favorite', $fav);
+				}
+			}
+		}
+		$sql = "update " . tablename('ewei_shop_member_cart') . ' set deleted=1 where uniacid=:uniacid and openid=:openid and id in (' . implode(',', $ids) . ')';
+		pdo_query($sql, array(':uniacid' => $uniacid, ':openid' => $openid));
+		show_json(1);
+	} else if ($operation == 'remove' && $_W['ispost']) {
+		$ids = $_GPC['ids'];
+		if (empty($ids) || !is_array($ids)) {
+			show_json(0, 'å‚æ•°é”™è¯¯');
+		}
+		$sql = "update " . tablename('ewei_shop_member_cart') . ' set deleted=1 where uniacid=:uniacid and openid=:openid and id in (' . implode(',', $ids) . ')';
+		pdo_query($sql, array(':uniacid' => $uniacid, ':openid' => $openid));
+		show_json(1);
+	}
+}
+include $this->template('shop/cart');

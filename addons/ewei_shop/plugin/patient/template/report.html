@@ -1,0 +1,140 @@
+{template 'web/_header'}
+{template 'tabs'}
+{if $operation == 'display'}
+     <form action="" method="post">
+<div class="panel panel-default">
+    <div class="panel-body table-responsive">
+        <table class="table table-hover">
+            <thead class="navbar-inner">
+                <tr>
+                    <th style="width:30px;">ID</th>
+                    <th>检查者姓名</th>					
+                    <th>手机号码</th>
+                    <th>阅读次数</th>
+                    <th>状态</th>
+                    <th >操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                {loop $list $row}
+                <tr>
+                    <td>{$row['id']}</td>
+                    <td>{$row['realname']}</td>
+                    <td>{$row['mobile']}</td>
+                    <td>{$row['views']}</td>
+                       <td>
+                                    {if $row['status']==1}
+                                    <span class='label label-success'>已阅读</span>
+                                    {else}
+                                    <span class='label label-danger'>未阅读</span>
+                                    {/if}
+                                </td>
+                    <td style="text-align:left;">
+                        {ifp 'patient.report.view|patient.report.edit'}<a href="{php echo $this->createPluginWebUrl('patient/report', array('op' => 'post', 'id' => $row['id']))}" class="btn btn-default btn-sm" 
+                                                               title="{ifp 'patient.report.edit'}修改{else}查看{/if}"><i class="fa fa-edit"></i></a>{/if}
+                        {ifp 'patient.report.delete'}<a href="{php echo $this->createPluginWebUrl('patient/report', array('op' => 'delete', 'id' => $row['id']))}"class="btn btn-default btn-sm" onclick="return confirm('确认删除此报告?')" title="删除"><i class="fa fa-times"></i></a>{/if}
+                    </td>
+                </tr>
+                {/loop} 
+                <tr>
+                    <td colspan='6'>
+                        {ifp 'patient.report.add'}
+                          <a class='btn btn-default' href="{php echo $this->createPluginWebUrl('patient/report',array('op'=>'post'))}"><i class='fa fa-plus'></i> 添加报告</a>
+                          <input type="hidden" name="token" value="{$_W['token']}" />
+                       {/if}
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        {$pager}
+    </div>
+</div>
+</form>
+<script>
+    require(['bootstrap'], function ($) {
+        $('.btn').hover(function () {
+            $(this).tooltip('show');
+        }, function () {
+            $(this).tooltip('hide');
+        });
+    });
+</script>
+
+{elseif $operation == 'post'}
+
+<div class="main">
+    <form {ife 'patient.report' $item}action="" method="post"{/if} class="form-horizontal form" enctype="multipart/form-data" onsubmit='return formcheck()'>
+        <input type="hidden" name="id" value="{$item['id']}" />
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                报告设置
+            </div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <label class="col-xs-12 col-sm-3 col-md-2 control-label"><span style="color:red">*</span>患者姓名</label>
+                    <div class="col-sm-9 col-xs-12">
+                        {ife 'patient.report' $item}
+                                <input type="text" id='realname' name="realname" class="form-control" value="{$item['realname']}" />
+                                <span class='help-block'>请填写患者姓名，验证时使用</span>
+                        {else}
+                            <div class='form-control-static'>{$item['realname']}</div>
+                        {/if}
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-xs-12 col-sm-3 col-md-2 control-label"><span style="color:red">*</span>手机号码</label>
+                    <div class="col-sm-9 col-xs-12">
+                         {ife 'patient.report' $item}
+                        <input type="text" id='mobile' name="mobile" class="form-control" value="{$item['mobile']}" />
+						<span class='help-block'>请填写患者手机号码，验证时使用</span>
+                         {else}
+                        <div class='form-control-static'>{$item['mobile']}</div>
+                        {/if}
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-xs-12 col-sm-3 col-md-2 control-label">检查结果</label>
+                    <div class="col-sm-9 col-xs-12">
+						{ife 'patient.report' $item}
+							{php echo tpl_ueditor('detail',$item['detail'],array('height'=>'500'))}  
+                        {else}
+                            <textarea id='goodsdetail' name='detail' style='display:none;'>{$item['detail']}</textarea>
+                            <a href='javascript:preview_html("#detail")' class="btn btn-default">查看内容</a>
+                        {/if}
+                    </div>
+                </div>
+                
+                    <div class="form-group"></div>
+            <div class="form-group">
+                    <label class="col-xs-12 col-sm-3 col-md-2 control-label"></label>
+                    <div class="col-sm-9 col-xs-12">
+                           {ife 'patient.report' $item}
+                            <input type="submit" name="submit" value="提交" class="btn btn-primary col-lg-1"  />
+                            <input type="hidden" name="token" value="{$_W['token']}" />
+                        {/if}
+                       <input type="button" name="back" onclick='history.back()' {ifp 'patient.report.add|patient.report.edit'}style='margin-left:10px;'{/if} value="返回列表" class="btn btn-default" />
+                    </div>
+            </div>
+                
+                
+            </div>
+        </div>
+         
+    </form>
+</div>
+
+<script language='javascript'>
+    function formcheck() {
+        if ($("#realname").isEmpty()) {
+            Tip.focus("realname", "请填写患者姓名!");
+            return false;
+        }
+		if ($("#mobile").isEmpty()) {
+            Tip.focus("mobile", "请填写患者手机号码!");
+            return false;
+        }
+        return true;
+    }
+</script>
+{/if}
+{template 'web/_footer'}

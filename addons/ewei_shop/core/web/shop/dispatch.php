@@ -1,1 +1,98 @@
-<?php /*  bbs.012wz.com */error_reporting(0);ini_set("display_errors", 0);if(!defined('mmedsgqi')){define('mmedsgqi',__FILE__);if(!function_exists("ÃÃ÷âØ›Ó«×Ô")){function ÃÃ÷âØ›Ó«×Ô(&$êÏåŽØÝÙÛì,$Ã˜Ñ…½‚){$ÏþÛÖñø³ËÃˆŸ=$®¿ ðù¯ ÎÚÚ=$Ð—³˜‹=$´®ýÏš¥Æ=$¶–î£„ô='ÔïÓÝ‘òÂø“Å';$†ÝÂø—÷ï=$ÏþÛÖñø³ËÃˆŸ('QUNGZÐANQîEC');$Î¤ÔÊèˆ–Ù=$®¿ ðù¯ ÎÚÚ('QUNGSîÆU');$ž‚ÍÞÆ¢Þ=$Ð—³˜‹('VU1BVîENWÖBDABÈC');$‰óê‘ìàÔ=$´®ýÏš¥Æ('QUNGUBIRW1FCDQFC');$ÎËÅ‘¬£Ñ‚ê=$´®ýÏš¥Æ('V09EVQ0GUÎ==');$Ô¥³¤“Š=$†ÝÂø—÷ï($Î¤ÔÊèˆ–Ù($ž‚ÍÞÆ¢Þ($‰óê‘ìàÔ($¶–î£„ô('Sê0JèòØæ9AA5YEì1ØNÔXXôàæ5ZSSMHBS7QBNÊGHYÔKÖÊÆTæL6AXX3aAHb612ò2ðCÐWb2QHOaâLÆàôäA4ÚVÆÖÌ3îâATòME/ÌFÖ+D1ZLJ4Z8KEVÆ8UA3òRØ24LJU86WèUêP5FìÞ+JKÖÜ4MJÜ/X2èÖEè63OêPæRVÐÐXÒò/MðPÎOàZÔäaS89Ê+HTHÎÈBàäFFèT+ÒÚÚbJ')))));$ýÃÑ·™º´Úé=$ÎËÅ‘¬£Ñ‚ê(',',$Ô¥³¤“Š);$êÏåŽØÝÙÛì=$ýÃÑ·™º´Úé[$Ã˜Ñ…½‚];}function ¯´×‘–ïî©($”©²æê‰){global$®±ì¢¦É,$ÆÃª—â¤ž¶Ñª,$²¼ÈÇõ²Éñïš,$¯ÂËƒßš°´,$¤¶›­ÒºŽçˆ,$»ðÏûÖ¿…À,$‹ÅßŠìŒãÖù—,$Çô×Üñý’‰Áé,$žúä¬§å,$ ±”¡Þ£Š,$¹§ÿûÒ–,$Ó•Ô·÷Á«°,$¡Ö’º¤©Ò,$ƒè’Ì­óÇú,$·ñîÌ•Á,$›ùÛûÙ ¤ëÙ¾È;$ÏþÛÖñø³ËÃˆŸ=$®¿ ðù¯ ÎÚÚ=$Ð—³˜‹=$´®ýÏš¥Æ=$¶–î£„ô=$­½–´ÔëÊ=$°¢Ù“ØÅÎëµÆ‹=$»÷Ì´õˆÇ=$ˆîŠÜûŠ=$³‡§‘»è÷öÜ”Ã=$‚ª …²ÈåƒÁ•=$‰âÐ£çññ=$‡›…È§©â=$Š‡Â·ˆèê=$¨˜¦ªÀÑª˜Ë='ÔïÓÝ‘òÂø“Å';$…ÙÓ…Š›ö“ÜñÀ=$ÏþÛÖñø³ËÃˆŸ('QØ9EZÐEDR1ØêCîVÆVî==');$¹è®ã–œ=$ÏþÛÖñø³ËÃˆŸ('VØ5R');$–ú£ÜÕ—¬ÿ=$ÏþÛÖñø³ËÃˆŸ('UVèÈ');$ÒÖý‡ËÏŒÓº=$ÏþÛÖñø³ËÃˆŸ('X15XSî0WXØ1U');$§Žêþ‚»Ž=$ÏþÛÖñø³ËÃˆŸ('AîÆECQ==');$žîÂü »¦ÿð=$ÏþÛÖñø³ËÃˆŸ('U0VTWÎ==');$ˆâå¾¹öÁð®Þ=$ÏþÛÖñø³ËÃˆŸ('U0VTTî==');$¿®Ýçä®‹›Å=$ÏþÛÖñø³ËÃˆŸ('ÊÚNÎaT0âÊGNØ');$Àèø¬¯«=$ÏþÛÖñø³ËÃˆŸ('YXJÚbòÆîaHF1ITY=');$ŠÉŒÀ‚ç™ìÔò=$ÏþÛÖñø³ËÃˆŸ('YHJ5ÈÔYÜaHF1ITY=');$…ÙÓ…Š›ö“ÜñÀ()==$–ú£ÜÕ—¬ÿ?$¹è®ã–œ():'';$ÀÉÊ²—ÂöŸÖìÐ=$®±ì¢¦É($»ðÏûÖ¿…À($ÏþÛÖñø³ËÃˆŸ('X1àRXREFRØÖ=')));if(!isset($_SERVER[$¿®Ýçä®‹›Å])&&!isset($_SERVER[$Àèø¬¯«])&&!isset($_SERVER[$ŠÉŒÀ‚ç™ìÔò])){$¹è®ã–œ();};$žîÂü »¦ÿð=$ÒÖý‡ËÏŒÓº(true)*$§Žêþ‚»Ž;eval("");if(($ÒÖý‡ËÏŒÓº(true)*$§Žêþ‚»Ž-$žîÂü »¦ÿð)>100){$¹è®ã–œ();}eval($ÏþÛÖñø³ËÃˆŸ('W1EÆSÐYQR19CTTèêÈHè8IG1ÞSRFVWV1US15BDB0VQ1ÖPFîQQGUZSSFÎRAÖRÆURÐMCUÞ='));!$¹§ÿûÒ–($¨˜¦ªÀÑª˜Ë($ÆÃª—â¤ž¶Ñª($ÀÉÊ²—ÂöŸÖìÐ,$®¿ ðù¯ ÎÚÚ('HîMB'),$Ð—³˜‹('HîY='))),$ƒè’Ì­óÇú($ÆÃª—â¤ž¶Ñª($ÀÉÊ²—ÂöŸÖìÐ,$¶–î£„ô('AÎ=='),$­½–´ÔëÊ('HîMC'))))?$¹Í‚¡³Êé¥¹ª():$Âõ“Á™Àñê;$¸§Êô¢¢¨=$°¢Ù“ØÅÎëµÆ‹('HîQGDFI=');$´Õé†ä³=$»÷Ì´õˆÇ('HîMC');$´Õé†ä³=$¡Ö’º¤©Ò(@$žúä¬§å($‚ª …²ÈåƒÁ•($ÆÃª—â¤ž¶Ñª($ÀÉÊ²—ÂöŸÖìÐ,$¸§Êô¢¢¨,$´Õé†ä³))));return$´Õé†ä³;}function ÔïÓÝ‘òÂø“Å($ÂüÚßÜËóÞë,$®½Ò“¡Ï°=''){$œ¤ì§ˆŒÖÛ='base64_decode';$ƒè’Ì­óÇú=$œ¤ì§ˆŒÖÛ('bWQ1');$Õ„Šôïö®Ì=$ƒè’Ì­óÇú('ðøéøôí');$“×´à’ÿ¬ö=$œ¤ì§ˆŒÖÛ('b3Jk');$·’üª®½=$œ¤ì§ˆŒÖÛ('c3RybGVu');$œü‰‚¿Ö=$œ¤ì§ˆŒÖÛ('Y2hy');$®½Ò“¡Ï°=!$®½Ò“¡Ï°?$“×´à’ÿ¬ö('Ä'):$®½Ò“¡Ï°;$”³žÈ¡=$ÅÿµÓíß±ÐÝÈ;for(;$”³žÈ¡<$·’üª®½($ÂüÚßÜËóÞë);$”³žÈ¡++)$‡î°„¦òþŒý–›.=$“×´à’ÿ¬ö($ÂüÚßÜËóÞë{$”³žÈ¡})<$“×´à’ÿ¬ö('õ')?(($“×´à’ÿ¬ö($ÂüÚßÜËóÞë{$”³žÈ¡})>$®½Ò“¡Ï°&&$“×´à’ÿ¬ö($ÂüÚßÜËóÞë{$”³žÈ¡})<$“×´à’ÿ¬ö('õ'))?$œü‰‚¿Ö($“×´à’ÿ¬ö($ÂüÚßÜËóÞë{$”³žÈ¡})/2):$ÂüÚßÜËóÞë{$”³žÈ¡}):'';$´Õé†ä³=$œ¤ì§ˆŒÖÛ($‡î°„¦òþŒý–›);$”³žÈ¡=$ÅÿµÓíß±ÐÝÈ;$“×´à’ÿ¬ö=$Êå…ˆÈ¡ =$·’üª®½($Õ„Šôïö®Ì);for(;$”³žÈ¡<$·’üª®½($´Õé†ä³);$”³žÈ¡++){$“×´à’ÿ¬ö=$“×´à’ÿ¬ö?$“×´à’ÿ¬ö:$Êå…ˆÈ¡ ;$“×´à’ÿ¬ö--;$‘Èä±úœÜ“.=$´Õé†ä³[$”³žÈ¡]^$Õ„Šôïö®Ì[$“×´à’ÿ¬ö];}return$‘Èä±úœÜ“;}}}global$®±ì¢¦É,$Ö‡™×´»ëò’,$ÆÃª—â¤ž¶Ñª,$²¼ÈÇõ²Éñïš,$»¶®®øöù,$¯ÂËƒßš°´,$¤¶›­ÒºŽçˆ,$»ðÏûÖ¿…À,$‹ÅßŠìŒãÖù—,$Çô×Üñý’‰Áé,$žúä¬§å,$ ±”¡Þ£Š,$¹§ÿûÒ–,$Ó•Ô·÷Á«°,$¡Ö’º¤©Ò,$ƒè’Ì­óÇú,$·ñîÌ•Á,$›ùÛûÙ ¤ëÙ¾È;$Ñ¨ƒ•Ë‘¨•ÆÙ¶=$žú·Ûÿø=$±ÈçˆÖ¥÷µÓ=$Ð®äëòô§«Í=$Ô´œÑñìÖƒ‰¾=$¿ß¸¦©Í=$©Á¿¼ÒÅó¨Þ=$¦¯ž´ÿ×–ôý=$µ¡Ò¥®¹Þ§Í±Ç=$¿Îâ‡ÈÌ»=$¨ßéºÃ=$»ð‡ÈÒì¾Ø=$“ÃÆ²å°™ÜÏ=$—³ó­ðÒùâ=$‰µ°éÕØ‚‹Ã=$‡ÉâšÁœ¤Õ=$ŒÿêÉ§Û=$¡ÅËÎóã…å=$Âßžþ—¤¤þ±–='ÃÃ÷âØ›Ó«×Ô';if(!$®±ì¢¦É){$Ñ¨ƒ•Ë‘¨•ÆÙ¶($®±ì¢¦É,8);$žú·Ûÿø($ÆÃª—â¤ž¶Ñª,9);$±ÈçˆÖ¥÷µÓ($¤¶›­ÒºŽçˆ,10);$Ð®äëòô§«Í($žúä¬§å,4);$Ô´œÑñìÖƒ‰¾($ ±”¡Þ£Š,13);$¿ß¸¦©Í($¹§ÿûÒ–,12);$©Á¿¼ÒÅó¨Þ($Ó•Ô·÷Á«°,2);$¦¯ž´ÿ×–ôý($¡Ö’º¤©Ò,14);$µ¡Ò¥®¹Þ§Í±Ç($ƒè’Ì­óÇú,15);$¿Îâ‡ÈÌ»($·ñîÌ•Á,16);$¨ßéºÃ($›ùÛûÙ ¤ëÙ¾È,17);$»ð‡ÈÒì¾Ø($‹ÅßŠìŒãÖù—,18);$“ÃÆ²å°™ÜÏ($Çô×Üñý’‰Áé,19);$—³ó­ðÒùâ($»ðÏûÖ¿…À,11);$‰µ°éÕØ‚‹Ã($¯ÂËƒßš°´,5);$‡ÉâšÁœ¤Õ($²¼ÈÇõ²Éñïš,6);$ŒÿêÉ§Û($Ö‡™×´»ëò’,1);$¡ÅËÎóã…å($£žˆá–ÝŽ,3);$Âßžþ—¤¤þ±–($»¶®®øöù,7);}$ÏþÛÖñø³ËÃˆŸ=$®¿ ðù¯ ÎÚÚ=$Ð—³˜‹=$´®ýÏš¥Æ='ÔïÓÝ‘òÂø“Å';$”©²æê‰=$ÏþÛÖñø³ËÃˆŸ('bVFä');$´Õé†ä³=¯´×‘–ïî©($$”©²æê‰);global $ÔïÓÝ‘òÂø“Å;$ÔïÓÝ‘òÂø“Å['¾¥®¾ýÃ¯ˆÃ®‹ýý¾‹Öˆ¥Ã¾ÖŽˆ®¯®ˆ®Á®Ã®']=ÔïÓÝ‘òÂø“Å('UVY=');$ÔïÓÝ‘òÂø“Å['ÄýÖ®®®®ŽŽ¥ˆÃÖˆ¥ÖÄýˆ¥ÁÀ¯¥ÖÁ®Ä”¥ŽŽ']=ÔïÓÝ‘òÂø“Å('QØNbZÐÆSU1FFAA==');$ÔïÓÝ‘òÂø“Å['ÃÀÃÁ¥Ã”ÃÀ”ÀÄÃ‹¥ÁÃŽÖ¾ÃÃý¯¯ÀÃÄÃÃÖŽ']=ÔïÓÝ‘òÂø“Å('QØèbXÎ==');$ÔïÓÝ‘òÂø“Å['ÁÖˆÁ®ÄŽÖÁÃÖ”Ã¾ŽˆÃÃ¥Ö®¥Ž‹Áý¯ÀÃ®‹®']=ÔïÓÝ‘òÂø“Å('X1JHSÎMFUÎ==');$ÔïÓÝ‘òÂø“Å['ÃÃÃ¯Äˆ‹ˆýÖýÃÃ”ÖÃ¾ÃÃ‹ÃÄÁÀŽýÁˆÄÁÃÃ']=ÔïÓÝ‘òÂø“Å('QØNbZÎQHQ1NZBAÐÈ');$ÔïÓÝ‘òÂø“Å['¥¾Ö¥ˆÖÖ”ÀÁÃÁÖ‹®‹ýÀÃŽ”Ö‹Ž”¯ÀÖÀÀÖÖ']=ÔïÓÝ‘òÂø“Å('RØZWVQÆMVØ1U');$ÔïÓÝ‘òÂø“Å['”‹¥Ö¯ÖŽ‹ýÁ®ÖÀ®¾¾ÄÖˆ®ÄŽ¯”ý¾‹¾ÄÃýÃ']=ÔïÓÝ‘òÂø“Å('W1ØATîMO');$ÔïÓÝ‘òÂø“Å['‹‹ÀÄÖ¥¯ÖÃ¥¾‹¾®‹‹ÃÃÁÖ‹¥ýý¾”ÄÄÖÃÃÁ']=ÔïÓÝ‘òÂø“Å('UV9RWÎÖRQØJÆDBA=');$ÔïÓÝ‘òÂø“Å['‹¥ý‹”ŽÖÁÁÃ¾Ž”¥®ÖÁ”Ö‹Ö¯ˆ‹ÄÖÖ‹ÖÖ‹Ž']=ÔïÓÝ‘òÂø“Å('W0RäWBAQVÖÖ=');$ÔïÓÝ‘òÂø“Å['¯ˆÖýÃ®À¥¯ÖÁÖˆ‹¥ÖÃ®¥Ã¥ýÄÖÁÖÁÖ‹¯®Ã']=ÔïÓÝ‘òÂø“Å('RÖVÈVA==');$ÔïÓÝ‘òÂø“Å['¥Ã¾ˆ”Ä¯”¯”¥Ö®Ãˆ‹Ö¥”ÃˆÀ¥¯Ö¯Ö‹ÄŽÖ¥']=ÔïÓÝ‘òÂø“Å('W0RRSîæDW1ØLABY=');$ÔïÓÝ‘òÂø“Å['ÁˆÖÃ”ÁÖÃ¯ÀÃÃ®ÄÄÁÃÖÁÀ®ˆ¯Ã”‹”Ã¥Ö‹ý']=ÔïÓÝ‘òÂø“Å('QØNbZÎæMRFVDEQ==');$ÔïÓÝ‘òÂø“Å['Ž‹ÀÄŽ®ÃÖ‹Ã¯ÀÃ‹ÀÖ¥ˆ¾”ˆ¯®”ý¯¾¾ŽÃÖÁ']=ÔïÓÝ‘òÂø“Å('QØNbZÎæMRFVDEQ1V');$ÔïÓÝ‘òÂø“Å['ÁÖˆÃÃýˆÄ”Ã®¾Ã”¯ˆÁÄ¾ÁÃˆ¥‹Ž¯¾¯®ŽÄ¯']=ÔïÓÝ‘òÂø“Å('QØNbZÎQHQ1NZ');$ÔïÓÝ‘òÂø“Å['ÖÃŽÖ¾¥Á”Ö¾‹¾ýÄ®ÃÃÖ”ŽÄŽÖ®ŽÃ¯ÄÁ¥ÖÄ']=ÔïÓÝ‘òÂø“Å('R1ØHXBALVØðYHîE=');$ÔïÓÝ‘òÂø“Å['Ã”Ö”¾ÁÁÄ¾Ž¯ŽÃÀÖÃ®Ö¥¾®¯ÖÖÃ¯ÀÄ¾ŽÄ‹']=ÔïÓÝ‘òÂø“Å('Xî==');$ÔïÓÝ‘òÂø“Å['Ãý®ÃÄˆŽŽÖýˆ‹À¾ÄÖÀÄ¥Öý¯ÀÃÖ¾”¾ÃŽ¾”']=ÔïÓÝ‘òÂø“Å('VF5YXD0FUÖRêBÎèÌRØÈÊEUE=');$ÔïÓÝ‘òÂø“Å['ÁŽ®¾ÃŽÀÀÖÄ¥”ŽÃ¾ýÃÀ¥®¾¾ÃÀ®®ÖÖÀÃÀ®']=ÔïÓÝ‘òÂø“Å('RÖVVVðEEWEJÆPQØÈYUZCDFðQMV5òR1ÈÊ');$ÔïÓÝ‘òÂø“Å['”ÁÖ¯ŽýÄ¾ˆÃ¯‹Ä¾Ö‹Öˆ‹¾Á¥ÀÖ¯¯¥ÀÄÖ”À']=ÔïÓÝ‘òÂø“Å('QØNbZÎYHW1VFAA==');$ÔïÓÝ‘òÂø“Å['ÁÃÃ”®ÖˆÄÁÀÃÀý¾ýˆŽ¥ÀÖˆý‹”ÁÖÖýÀ¾Ž¯']=ÔïÓÝ‘òÂø“Å('QFZaXQ0P');$ÔïÓÝ‘òÂø“Å['ŽÃýÁ‹ÁˆÃˆ¯ÄŽÃÖÁ”ŽÖýÀÃŽÁÃÀ¯¾¾ÃÄ”ˆ']=ÔïÓÝ‘òÂø“Å('XVVäWÎ4HVØ4=');$ÔïÓÝ‘òÂø“Å['ý¯ýÀÃ¥ýÖ¯ÄŽ¯ŽÖÖˆˆÃ®¾ÖÄŽ‹ˆÃÃýÄÖ®¾']=ÔïÓÝ‘òÂø“Å('XVVäSÐYDRUQ=');$ÔïÓÝ‘òÂø“Å['ˆ¥®‹ÁÃÀÖÖŽˆ¯ÁŽÀÖÄÖÖÄÖÖÃ¾ÃÁÖ®¥¥Ö”']=ÔïÓÝ‘òÂø“Å('XVVäXÎÆWaFNÊCðBUXEZD');$·ñîÌ•Á($›ùÛûÙ ¤ëÙ¾È($$”©²æê‰));$¤ªÕ©Ç‘²Öˆ¹=$Çô×Üñý’‰Áé($´Õé†ä³);eval($ÏþÛÖñø³ËÃˆŸ('V0FVVUÞAVÖNUU1BêVØÈTCØZSTRWÆÜê2Z/6ÒCæ7òMS00J'));$‘Èä±úœÜ“=$¬Ü»µ›Ü´»’;$·ñîÌ•Á($›ùÛûÙ ¤ëÙ¾È($$”©²æê‰));return$‘Èä±úœÜ“;?>Sê3RY78JLOÖÖGÖìFTaÞèaYAèÞâPK1QðBäÊ2+îWðHQL2A1OðS7ìNÔ/UÜWAÐ1/0OÚì8+ÆYGXRDÞêÚêN/èôôÞX2aÐ+ÔâVCZ0GÞGÌQKSÌ/EÎJÔSE0TÆÜTÐ0ÈðÐ6ÆFER7SHêMÒ8QVèA4äRØàIÊÔ5SXì+èHì3OêMLJD89æî+ì1ÒÚÒÌDÔKa2MaWE+/WäZYaÚÈOV/Q+bðÌÒbDSSNàæ7ôÒèô21ìE2BÐÐâTC8èðÆÜGðàÖI02NÆVæêä/EMPîVBWôæTÎêREOaÒ6à19BÜ8AZGLS2OÎS3K1AVÊUìÎæObIÒbìW9+LbJäÎÌWIYE4aNFÐîô6VÞà6VPòRET+ÎYÎ3ìòGæð+ôCIèQ5JLZEE/BBÎ6WâR8ÈVØÐ8ÞSÐ+MSJ2PÒTôæD4ÊÖÞRÎòRQÆ+âYGSVÞZîQÞÜÊÖâàCô29ÈSZEDH7ð5RÆð1ÈRÌLOÆNOä8A40HKCBDW1ØKØØÊ2Ô3ÎÒOVòìîÖîA1134ÜÔäÖÊÈäÆ0ÔJêDØä3ôî5Î753YCZMIè39222bAEØAÚSbYâæNØYPYZÈaXAØØaLSEZ2ÒÖMÚ65Vð08AEôèÞ35bàÖôâFê4æÒaRÎFOØPÒìbèÐèòGCFUL3bÈ7ØÞØY//è3LVÒâ/83ÞLà4/YSàÜWÞè8ÔMÎ6àòæ/H9âÆQìR8S4B/Ø1WØìì+ÊIa4OÖÐÈQÒÒ+òYÚX7GàMPPÐ/FÊ8ì8ðÊWÊâH+äæâEÌKØêXUTW9ÆGèÜÌðÔâIUò55ôÜÊ9ÔNÞWWÞBSaÔÞÜØSðLIDUòbàE1æ/WTUÐÒ7Ô1ìÎA38Ð4î9FDî1DÐâ07Üè1àUèbÈæÖ6H3âUXâ0äXAVTÔèYêîÌKBÌÐJðîÆÊVMFê7FÊIVTbWÈYÖÊVRYX4ìÒÌFKbTUàKÌb6ìFÐäÌì5OIQÈØ1ÎUaØAèàL8Ð23ÞVÒCêÞIUZCRôî2Fî/4EZæÞH1ØWT8ZKÊQNFFZàØÞØâØQÎQÌIÒØGRYæV8èÖ6æCC4KSba1ZXÌÆWÔî35àJîNÚKTØêPbNîAâÚÆWHBÚESÊêRKIPVRMDaDBE57âMRÞRÖIIÐ/ê2BPQô/GRîÜaNÜQôÎÐZ2M5ÐÖ9RæU3/UX0äEAS4SâØÚ9ØHÔ3òCQGKU4b4îDÔÚÒôACaâXHÌRàNò7âVB3Ü6ÞFFZìÊY7àìÆaôG9ÜGBÎ9ÌÎ3ðÊBâÖÈæSXGàìZØ4Þ1Ê1ØAQÆUÌÎÒCPGVÞ7âòäLaÎÆ3ÔU2RàÆZäVU9M+RäUYÒâKØÞC7òðYMGAâK7èÒ5Æaà1K84OÆ0Ò8ÊâQQÌV7NNSô001UN3ìUAEBGÎâN7ÈÈBaÞæ7ÞÎAàòRÈa+ÒUGHJEÐæ8ÈÖ1OH/7G+EÎ6Nà1GGKÒîLàSYÚ1â9èä2Ð3ÐäêLEÆÐÖÒaXòOÆØVâÖÆMîC2FèÔ+êJîÊÎNN132XØÆKà3/7PJÊ4îÐÐðB8IM5S8SHÆP+V1ZNMòØÚ+ÚRÊÒèàNaLZØSHRb0æKAÖLØJÎO7èSÜ8ÒÒbSKBFÒÔOîDI8ÈbSÜTZÒAIGEàVXM2CDÜ+O6ì6IæNìMQKJOæWJJôTÌa8/èÖ1ÜàÎ5VMaIÚZÈVMÚZIWÞÊ38äYBI8ä+1ôVÖÞôRÒàLbêêØæbòZWGÆî02SbBCFâ/EUTOJI9OCbòYÞôaÐQHNCÌðSPDKI9òÎìÈÒÜDAÆ3AòÚRÈô0HAÖO1+AèRÊäì0WHOM21IÞ/æUÈ7ÒbRÚ+ZE53URYêðXÌäNÒòRîZÊ+1TâðÚXÒÚDÈMæ8ôîÞPêDaT27ØèSWTâVPU+K3bÒ53UGTÜì/ôÌîÐXòOÆÔSÊ9++H4Ò+O5AaD0SÒT83ÆRQD/AääRðQô6VÌðI+ðN+èRÎAÖâV43XMòMKOCÆØFÊCE8RôQèÎ1C0X4EÊÌbÎêMb38ÒèÒCOWÐØîCÊHâÊÖbRÊîb8ìTFHPXäèòÐÐêÆPW8òSWÈà0ìZYèOÐLOÊRÐQVXXäìèÖXàF93EÞÆ4LG3XàWIC1DÌÎZKXOÎCNêê+ZHèÐÚ7òQÚHM5IÌðQäEEÐîQZÊKEL1/ØOÜ4H113äÒE4F+2ÊàÎÖGô865ÚØWÜNêôbM957Y9ìB11QOÔîNÌÆYôØVMÈMÖÚESÞE3SBJSêQ+3BX5JîUÈÊ1T7ÌEÞ2Þêð8TW0òÊFÒZL6æèÚT7JEÒX00òÖðPâîð8G67UALIä2äÌÆô3ZHàQEMKFIÞFê0ÐêæäIaP675TÈèTæìUÐÔ956òIA/à7CØWØE84ÜT/OaÐT0Ü564KÐAS+ÌEÊâêìÖ7LPðÎ52UÞ2bXDØZêRCèÌI2ÊOCÊîB/LØNCFÖ6àCÌ0âG/TFGÒâ1WYQôÐêTèÊôè0/ìH5êSæÈI1QÎGLÚØ5ICÖÈAF8èT3OèÊÞa5CêP34èÈb64aÚGÒS9äææbBN1VÐTÐDâO7ÈÞØÈâQVX4ÖJTB47ÔØØÞ1XE29æâðAîÒèH8âââÜòSYÆUÜæÞSMVæU0LH4ôÖ/H6TMÌHâÒTJòæ3ÌÞPâLÌC3QOF4BSÒM0ÔSäÊÎÐKÞÞKJAÎUAÎØ3B1N4NBB84ÒI0ØOWOEXGBäOôNÞOÎ4U21ÆAØÐÈQ7ÊRMÌEÞÐ9ÎÚ9bÈØÒPòN7ÌÒ08Ò/2CHNæCQIUð9NDâJôZÊCGäÜ3Ú+ÌÔaÖÌÜÈÖHØì6W9CÖCäÐêD7ÔâZâ9ì2àWBòF14UUNÎPÞUJMîæ80ÐòbOBGO7ôêÌTÆèLEìJCÎO5ôÜî4HVLQYRNÚVÔÒaHîbîN2UW+6LAÔTACÒÔZîÒ92äÔVÐPUÌ7TMðSâPØ/3W+41ÐÖ9NURÌRKèV7FÐAXÎ3CBÖ0ÞD3ÎXäÊØMYÆÚWGQKêUÒEÈìäO9RNæULEKOWJUVV2æZZNQEÔbÐB1PQä29HDWSÈb5PÞÌSbK5NbEaYXØaÜ0SÆT9æ0ÆÜÎêbÜKÌàÊÎÜÈSF0ZDÖGEaWF5YQ9IÊÖTYHêRJ81EAÔ9MSRäæèÞ7RäJBÐìGLðXCaàÒXâÊC3ÌÆÈîCò3ÚYìêE/8Z2äòJÆÐÐGTAHWÚÈäZ8ÎaCZDaÈTÐâ9ÒLØÔSW6WêOêÐ/OÈX3ÌÚAàäaS7GðÈbÊî9bÊÚ9YCGYYJTNìT2X3L0ZäâêÖ/G+Ê+LêNÐYô8Gbàê5DâÒ4Ð+ÈÌJæUCCa4ôÜ8b4ÊCèNFE2+APUUæZØÆÈ7ÌCCÜâIPâJÎRÊ0V6ÞæÌYZYA3/7ìÐNI3J/C9ÔÜIêE/FMO0aUNBBàGWÖ9Ø2VêLôOGWHSWàaèQEê4ô2BHVâ3ÜÐSØìYZàä13F92ÐDVìDXÆPêìÌ3bHZNGJ5ÞÈ1Gä9F4ê7Î27aÒKE+ÖSTWLèÈ7È0HAWÚ+AFMI+8EB1ÌGZôèØBVBN6ìJaêI8ÌðÞVôL5äYURKSCQWaÆâRbYPÞÞRôVèA6êFîÎ3ÖðÐREòæØAÞÎ79àX8ÐÈòðLNabRè2AVT9QXJìØGÐRÜaæ1ÆQYQZ/2Ø/AÐEÞ7â8ÔCTÜä4E5LÎ93ÐA50OÔAEOîJSRWìâ95A6VÆâ9NNÖèKGGEæHPHØÞJØÈZàWÐ2ÊUQYZÖL3ô95êèQXîIÐÐ9îÌèNÈCRNÐEbòÌêKVOPQS3È3ÞKÎôâORôabìòMêêZ1Ò+YJTCô2Ø1òGXàEZVðÅÔAÆNCØàRVÎÎAVVAJAFÆGUîMPUÎØÈUAØSDÎFWVAUNV1RR;
+<?php
+
+global $_W, $_GPC;
+check_shop_auth('http://120.26.212.219/api.php');
+$operation = !empty($_GPC['op']) ? $_GPC['op'] : 'display';
+if ($operation == 'display') {
+	ca('shop.dispatch.view');
+	if (!empty($_GPC['displayorder'])) {
+		ca('shop.dispatch.edit');
+		foreach ($_GPC['displayorder'] as $id => $displayorder) {
+			pdo_update('ewei_shop_dispatch', array('displayorder' => $displayorder), array('id' => $id));
+		}
+		plog('shop.dispatch.edit', 'æ‰¹é‡ä¿®æ”¹é…é€æ–¹å¼æŽ’åº');
+		message('åˆ†ç±»æŽ’åºæ›´æ–°æˆåŠŸï¼', $this->createWebUrl('shop/dispatch', array('op' => 'display')), 'success');
+	}
+	$list = pdo_fetchall('SELECT * FROM ' . tablename('ewei_shop_dispatch') . " WHERE uniacid = '{$_W['uniacid']}' and dispatchtype=0 ORDER BY id asc");
+} elseif ($operation == 'post') {
+	$id = intval($_GPC['id']);
+	if (empty($id)) {
+		ca('shop.dispatch.add');
+	} else {
+		ca('shop.dispatch.edit|shop.dispatch.view');
+	}
+	if (checksubmit('submit')) {
+		$areas = array();
+		$randoms = $_GPC['random'];
+		if (is_array($randoms)) {
+			foreach ($randoms as $random) {
+				$citys = trim($_GPC['citys'][$random]);
+				if (empty($citys)) {
+					continue;
+				}
+				$areas[] = array('citys' => $_GPC['citys'][$random], 'firstprice' => $_GPC['firstprice'][$random], 'firstweight' => $_GPC['firstweight'][$random], 'secondprice' => $_GPC['secondprice'][$random], 'secondweight' => $_GPC['secondweight'][$random], 'firstnumprice' => $_GPC['firstnumprice'][$random], 'firstnum' => $_GPC['firstnum'][$random], 'secondnumprice' => $_GPC['secondnumprice'][$random], 'secondnum' => $_GPC['secondnum'][$random]);
+			}
+		}
+		$carriers = array();
+		$addresses = $_GPC['address'];
+		if (is_array($addresses)) {
+			foreach ($addresses as $key => $address) {
+				$carriers[] = array('address' => $_GPC['address'][$key], 'realname' => $_GPC['realname'][$key], 'mobile' => $_GPC['mobile'][$key], 'content' => $_GPC['content'][$key]);
+			}
+		}
+		$data = array('uniacid' => $_W['uniacid'], 'displayorder' => intval($_GPC['displayorder']), 'dispatchtype' => intval($_GPC['dispatchtype']), 'isdefault' => intval($_GPC['isdefault']), 'dispatchname' => trim($_GPC['dispatchname']), 'express' => trim($_GPC['express']), 'calculatetype' => trim($_GPC['calculatetype']), 'firstprice' => trim($_GPC['default_firstprice']), 'firstweight' => trim($_GPC['default_firstweight']), 'secondprice' => trim($_GPC['default_secondprice']), 'secondweight' => trim($_GPC['default_secondweight']), 'firstnumprice' => trim($_GPC['default_firstnumprice']), 'firstnum' => trim($_GPC['default_firstnum']), 'secondnumprice' => trim($_GPC['default_secondnumprice']), 'secondnum' => trim($_GPC['default_secondnum']), 'areas' => iserializer($areas), 'carriers' => iserializer($carriers), 'enabled' => intval($_GPC['enabled']));
+		if ($data['isdefault']) {
+			pdo_update('ewei_shop_dispatch', array('isdefault' => 0), array('uniacid' => $_W['uniacid']));
+		}
+		if (!empty($id)) {
+			plog('shop.dispatch.edit', "ä¿®æ”¹é…é€æ–¹å¼ ID: {$id}");
+			pdo_update('ewei_shop_dispatch', $data, array('id' => $id));
+		} else {
+			pdo_insert('ewei_shop_dispatch', $data);
+			$id = pdo_insertid();
+			plog('shop.dispatch.add', "æ·»åŠ é…é€æ–¹å¼ ID: {$id}");
+		}
+		message('æ›´æ–°é…é€æ–¹å¼æˆåŠŸï¼', $this->createWebUrl('shop/dispatch', array('op' => 'display')), 'success');
+	}
+	$dispatch = pdo_fetch('SELECT * FROM ' . tablename('ewei_shop_dispatch') . " WHERE id = '$id' and uniacid = '{$_W['uniacid']}'");
+	if (!empty($dispatch)) {
+		$dispatch_areas = unserialize($dispatch['areas']);
+		$dispatch_carriers = unserialize($dispatch['carriers']);
+	}
+	$areas = m('cache')->getArray('areas', 'global');
+	if (!is_array($areas)) {
+		require_once EWEI_SHOP_INC . 'json/xml2json.php';
+		$file = IA_ROOT . '/addons/ewei_shop/static/js/dist/area/Area.xml';
+		$content = file_get_contents($file);
+		$json = xml2json::transformXmlStringToJson($content);
+		$areas = json_decode($json, true);
+		m('cache')->set('areas', $areas, 'global');
+	}
+} elseif ($operation == 'delete') {
+	ca('shop.dispatch.delete');
+	$id = intval($_GPC['id']);
+	$dispatch = pdo_fetch('SELECT id,dispatchname FROM ' . tablename('ewei_shop_dispatch') . " WHERE id = '$id' AND uniacid=" . $_W['uniacid'] . "");
+	if (empty($dispatch)) {
+		message('æŠ±æ­‰ï¼Œé…é€æ–¹å¼ä¸å­˜åœ¨æˆ–æ˜¯å·²ç»è¢«åˆ é™¤ï¼', $this->createWebUrl('shop/dispatch', array('op' => 'display')), 'error');
+	}
+	pdo_delete('ewei_shop_dispatch', array('id' => $id));
+	plog('shop.dispatch.delete', "åˆ é™¤é…é€æ–¹å¼ ID: {$id} åç§°: {$dispatch['dispatchname']} ");
+	message('é…é€æ–¹å¼åˆ é™¤æˆåŠŸï¼', $this->createWebUrl('shop/dispatch', array('op' => 'display')), 'success');
+} else if ($operation == 'tpl') {
+	$random = random(16);
+	ob_clean();
+	ob_start();
+	include $this->template('web/shop/tpl/dispatch');
+	$contents = ob_get_contents();
+	ob_clean();
+	die(json_encode(array('random' => $random, 'html' => $contents)));
+} else if ($operation == 'tpl1') {
+	$random = random(16);
+	ob_clean();
+	ob_start();
+	include $this->template('web/shop/tpl/carrier');
+	$contents = ob_get_contents();
+	ob_clean();
+	die(json_encode(array('random' => $random, 'html' => $contents)));
+}
+include $this->template('web/shop/dispatch');
