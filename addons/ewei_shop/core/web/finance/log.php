@@ -169,6 +169,7 @@ if ($op == 'display') {
 			}
     }
 
+    // TODO： 添加返现付款功能
     pdo_insert('ewei_shop_goods_refund_hist', array('ordersn' => $ordersn,'goodssn' => $goodssn, 'refund_id' => $_GPC["refund_id"], 'price' => $_GPC['single_refund_price'],'time_refund' => time()));
     message('返现成功!', referer(), 'success');
 
@@ -246,10 +247,25 @@ if ($op == 'display') {
 	if ($action == "delete") {
 		pdo_delete('ewei_shop_goods_refund', array('id' => $_GPC['id']));
 		message('成功删除!', referer(), 'success');
-	} elseif ($action == "insert") {
+	} elseif ($action == "upsert") {
 
-	} elseif ($action == "update") {
-
+    $data = array(
+      "goodssn" => $_GPC['update_goodssn'],
+      "period" => intval($_GPC['update_period']),
+      "single_refund_price" => floatval($_GPC['update_single_refund_price']),
+      "num_refund" => intval($_GPC['update_num_refund']),
+      "created" => time(),
+      "activate" => intval($_GPC['update_activate']),
+      "start_date" => strtotime($_GPC['time']['start']),
+      "end_date" => strtotime($_GPC['time']['end'])
+    );
+    if(intval($_GPC['refund_id']) != 0) {
+      pdo_update('ewei_shop_goods_refund', $data, array("id" => intval($_GPC['refund_id'])));
+      message('成功更新!', referer(), 'success');
+    } else {
+      pdo_insert('ewei_shop_goods_refund', $data, $replace = FALSE);
+      message('成功添加!', referer(), 'success');
+    }
 	} else {
 		message('Undefined Action', '', 'error');
 	}
