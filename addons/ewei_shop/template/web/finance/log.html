@@ -126,43 +126,107 @@
 </div>
 {if $_GPC['type']==2}
   <div class="panel panel-info">
-    <div class="panel-heading">返现配置管理 <a class='btn btn-info btn-sm pull-right' onclick="return confirm('确认添加?')" href="">添加</a></div>
+    <div class="panel-heading">返现配置管理 <button type="button" class='btn btn-info btn-sm pull-right' data-toggle="modal" data-target="#myModal">添加</button></div>
     <div class="panel-body">
+      <form action="./index.php" method="get" class="form-horizontal" role="form" id="form1">
+        <input type="hidden" name="c" value="site" />
+        <input type="hidden" name="a" value="entry" />
+        <input type="hidden" name="m" value="ewei_shop" />
+        <input type="hidden" name="do" value="finance" />
+        <input type="hidden" name="p" value="log" />
+        <input type="hidden" name="type" value="{$_GPC['type']}" />
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">返现配置</h4>
+              </div>
+              <div class="modal-body">
+                <div class="form-group">
+                  <label class="col-md-4 col-xs-12 control-label">返现商品</label>
+                  <div class="col-md-8 col-xs-12">
+                      <input type="text" class="form-control"  name="update_goodssn" value="" placeholder='商品编号'/>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-md-4 col-xs-12 control-label">返现周期（月）</label>
+                  <div class="col-md-8 col-xs-12">
+                      <input type="text" class="form-control"  name="update_period" value="" placeholder='返现周期（月）'/>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-md-4 col-xs-12 control-label">单笔返现金额</label>
+                  <div class="col-md-8 col-xs-12">
+                      <input type="text" class="form-control"  name="update_single_refund_price" value="" placeholder='单笔返现金额'/>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-md-4 col-xs-12 control-label">总返现次数</label>
+                  <div class="col-md-8 col-xs-12">
+                      <input type="text" class="form-control"  name="update_num_refund" value="" placeholder='总返现次数'/>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-md-4 col-xs-12 control-label">启用</label>
+                  <div class="col-md-8 col-xs-12">
+                      <input type="text" class="form-control"  name="update_activate" value="" placeholder='0 or 1'/>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-md-4 col-xs-12 control-label">起止日期</label>
+                  <div class="col-md-8 col-xs-12">
+                    {php echo tpl_form_field_daterange('update_time', array('starttime'=>date('Y-m-d H:i', $starttime),'endtime'=>date('Y-m-d  H:i', $endtime)),true);}
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                <button type="button" class="btn btn-primary">确认</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </form>
       <table class="table table-hover">
-        <thead class="navbar-inner">
-          <tr>
-            <th style='width:120px;'>返现商品</th>
-            <th style='width:120px;'>返现周期（月）</th>
-            <th style='width:120px;'>单笔返现金额</th>
-            <th style='width:120px;'>总返现次数</th>
-            <th style='width:120px;'>启用</th>
-            <th style='width:120px;'>开始日期</th>
-            <th style='width:120px;'>结束日期</th>
-            <th style='width:120px;'>操作</th>
-          </tr>
-        </thead>
-        <tbody>
-          {loop $refundlist $item}
-          <tr>
-            <td>{$item['goodssn']}</td>
-            <td>{$item['period']}</td>
-            <td>{$item['single_refund_price']}</td>
-            <td>{$item['num_refund']}</td>
-            <td>{if $item['activate']}Yes{else}no{/if}</td>
-            <td>{php echo date('Y-m-d H:i',$item['start_date'])}</td>
-            <td>
-              {if $item['createtime']}
-                {php echo date('Y-m-d H:i',$item['end_date'])}
-              {/if}
-            </td>
-            <td>
-              <a class='btn btn-warning' onclick="return confirm('确认修改?')" href="">更改</a>
-              <a class='btn btn-danger' onclick="return confirm('确认删除?')" href="">删除</a>
-            </td>
-          </tr>
-          {/loop}
-        </tbody>
-      </table>
+          <thead class="navbar-inner">
+            <tr>
+              <th style='width:120px;'>返现商品</th>
+              <th style='width:120px;'>返现周期（月）</th>
+              <th style='width:120px;'>单笔返现金额</th>
+              <th style='width:120px;'>总返现次数</th>
+              <th style='width:120px;'>启用</th>
+              <th style='width:120px;'>开始日期</th>
+              <th style='width:120px;'>结束日期</th>
+              <th style='width:120px;'>操作</th>
+            </tr>
+          </thead>
+          <tbody>
+            {loop $refundlist $item}
+            <tr>
+              <td>{$item['goodssn']}</td>
+              <td>{$item['period']}</td>
+              <td>{$item['single_refund_price']}</td>
+              <td>{$item['num_refund']}</td>
+              <td>{if $item['activate']}Yes{else}no{/if}</td>
+              <td>{php echo date('Y-m-d H:i',$item['start_date'])}</td>
+              <td>
+                {if $item['createtime']}
+                  {php echo date('Y-m-d H:i',$item['end_date'])}
+                {/if}
+              </td>
+              <td>
+                <!-- {php echo $this->createWebUrl('finance/log',array('op'=>'pay','paytype'=>'wechat','id' => $row['id']));} -->
+                <button type="button" class='btn btn-warning' data-toggle="modal" data-target="#myModal">更改</button>
+                <a class='btn btn-danger' onclick="return confirm('确认删除?')" href="{php echo $this->createWebUrl('finance/log',array_merge(array('op'=>'refund','action'=>'delete','id' => $row['id']),$item));}">删除</a>
+              </td>
+            </tr>
+            {/loop}
+          </tbody>
+        </table>
     </div>
   </div>
 {/if}

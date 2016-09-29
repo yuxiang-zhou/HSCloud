@@ -124,7 +124,7 @@ if ($op == 'display') {
   	}
   	$total = pdo_fetchcolumn("select count(*) from " . tablename('ewei_shop_member_log') . " log " . " left join " . tablename('ewei_shop_member') . " m on m.openid=log.openid and m.uniacid= log.uniacid" . " left join " . tablename('ewei_shop_member_group') . " g on m.groupid=g.id" . " left join " . tablename('ewei_shop_member_level') . " l on m.level =l.id" . " where 1 {$condition} ", $params);
   } else {
-    $sql_columns = "SELECT m.id as mid, m.realname,m.avatar,m.weixin,m.nickname,m.mobile,grp.groupname,o.ordersn, og.goodssn, m.nickname, og.price, o.ordersn, gr.single_refund_price, gr.num_refund, gr.period, SUM(grh.price) AS refunded_price, MAX(grh.time_refund) AS createtime, COUNT(grh.id) AS num_refunded ";
+    $sql_columns = "SELECT m.id as mid, m.realname,m.avatar,m.weixin,m.nickname,m.mobile,grp.groupname,o.ordersn, og.goodssn, m.nickname, og.price, o.ordersn, gr.single_refund_price, gr.num_refund, gr.period, gr.id AS refund_id, SUM(grh.price) AS refunded_price, MAX(grh.time_refund) AS createtime, COUNT(grh.refund_id) AS num_refunded ";
 
     $sql_tables = "FROM hs_ewei_shop_order AS o ";
     $sql_tables .= "INNER JOIN hs_ewei_shop_order_goods AS og ";
@@ -138,9 +138,9 @@ if ($op == 'display') {
     $sql_tables .= "INNER JOIN hs_ewei_shop_goods_refund AS gr ";
     $sql_tables .= "ON gr.goodssn=og.goodssn ";
     $sql_tables .= "LEFT JOIN hs_ewei_shop_goods_refund_hist AS grh ";
-    $sql_tables .= "ON grh.ordersn=o.ordersn AND grh.goodssn=og.goodssn ";
+    $sql_tables .= "ON grh.refund_id=gr.id AND grh.ordersn=o.ordersn AND grh.goodssn=og.goodssn ";
     $sql_tables .= "WHERE gr.activate > 0 AND o.createtime > gr.start_date ";
-    $sql_tables .= "GROUP BY o.ordersn,og.goodssn ";
+    $sql_tables .= "GROUP BY o.ordersn,og.goodssn,gr.id ";
 
     $sql_limits = " LIMIT " . ($pindex - 1) * $psize . ',' . $psize . ' ';
 
@@ -150,28 +150,26 @@ if ($op == 'display') {
     $refundlist = pdo_fetchall("SELECT * FROM hs_ewei_shop_goods_refund");
   }
 	$pager = pagination($total, $pindex, $psize);
-} else if ($op == 'pay') {
-
+} elseif ($op == 'pay') {
 	$paytype = $_GPC['paytype'];
   if ($paytype == 'cashback') {
     $ordersn = $_GPC['ordersn'];
     $goodssn = $_GPC['goodssn'];
     $lastdate = date('Y-m-d H:i',$_GPC['createtime']);
-
-    if ($_GPC['num'] > 0) {
-      $lastFYtime = time('F Y', $_GPC['createtime']);
-      $lastmonthFYtime = time('-'.$_GPC['period'].' month');
-
-      if ($_GPC['num'] >= $_GPC['num_refund']) {
+    if ($_GPC['num_refunded'] > 0) {
+      if ($_GPC['num_refunded'] >= $_GPC['num_refund']) {
         message('返现已于 '.$lastdate.' 完成!', '', 'error');
       }
-
-      if ($lastFYtime == $lastmonthFYtime) {
-        message('本月已于'.$lastdate.'返现!', '', 'error');
-      }
+			$lastFYtime = new DateTime('NOW');
+			$lastFYtime->setTimestamp($_GPC['createtime']);
+			$lastmonthFYtime = new DateTime('-'.strval($_GPC['period']).' month');
+			$interval = $lastmonthFYtime->diff($lastFYtime);
+			if ($interval->y == 0 && $interval->m == 0)  {
+				message('本月已于 '.$lastdate.' 返现!', '', 'error');
+			}
     }
 
-    pdo_insert('ewei_shop_goods_refund_hist', array('ordersn' => $ordersn,'goodssn' => $goodssn,'price' => $_GPC['single_refund_price'],'time_refund' => time()));
+    pdo_insert('ewei_shop_goods_refund_hist', array('ordersn' => $ordersn,'goodssn' => $goodssn, 'refund_id' => $_GPC["refund_id"], 'price' => $_GPC['single_refund_price'],'time_refund' => time()));
     message('返现成功!', referer(), 'success');
 
   } else {
@@ -243,6 +241,18 @@ if ($op == 'display') {
   	}
   }
 
+} elseif ($op=='refund') {
+	$action = $_GPC['action'];
+	if ($action == "delete") {
+		pdo_delete('ewei_shop_goods_refund', array('id' => $_GPC['id']));
+		message('成功删除!', referer(), 'success');
+	} elseif ($action == "insert") {
+
+	} elseif ($action == "update") {
+
+	} else {
+		message('Undefined Action', '', 'error');
+	}
 }
 load()->func('tpl');
 include $this->template('web/finance/log');
