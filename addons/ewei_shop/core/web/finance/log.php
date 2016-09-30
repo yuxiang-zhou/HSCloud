@@ -159,6 +159,7 @@ if ($op == 'display') {
     $goodssn = $_GPC['goodssn'];
     $lastdate = date('Y-m-d H:i',$_GPC['createtime']);
 
+		// cashback validation
     if ($_GPC['num_refunded'] > 0) {
       if ($_GPC['num_refunded'] >= $_GPC['num_refund']) {
         message('返现已于 '.$lastdate.' 完成!', '', 'error');
@@ -172,7 +173,6 @@ if ($op == 'display') {
 			}
     }
 
-
     // variable definition
     // $openid = "oliVJuIGcwJ91Qg63VzEydTR_ZE8";
     // $money = 1.1;
@@ -180,10 +180,19 @@ if ($op == 'display') {
     $money = floatval($_GPC['single_refund_price']);
 
     $member = m('member')->getMember($openid);
-    $set = m('common')->getSysset(array('trade'));
-    $logno = m('common')->createNO('member_log', 'logno', 'RC');
-  	$log = array('uniacid' => $_W['uniacid'], 'logno' => $logno, 'title' => $set['shop']['name'] . "销售返现", 'openid' => $openid, 'type' => 0, 'createtime' => time(), 'status' => 0, 'money' => $money);
-
+    $set = m('common')->getSysset('shop');
+    $logno = m('common')->createNO('member_log', 'logno', 'RB');
+  	$log = array(
+			'uniacid' => $_W['uniacid'],
+			'logno' => $logno,
+			'title' => $set['name'] . "销售返现",
+			'openid' => $openid, 'type' => 0,
+			'createtime' => time(), 'status' => 0,
+			'type' => 2,
+			'status' => 1,
+			'money' => $money
+		);
+		message("功能测试中！", '', 'error');
     // execute
     $result = m('finance')->pay($openid, 1, $money * 100.0, $logno, $set['name'].'销售返现');
 
@@ -199,7 +208,14 @@ if ($op == 'display') {
     plog('finance.cashback', "销售返现 ID: {$log['id']} 金额: {$log['money']} <br/>会员信息:  ID: {$member['id']} / {$member['openid']}/{$member['nickname']}/{$member['realname']}/{$member['mobile']}");
 
     // log cashback
-    pdo_insert('ewei_shop_goods_refund_hist', array('ordersn' => $ordersn,'goodssn' => $goodssn, 'refund_id' => $_GPC["refund_id"], 'price' => $money,'time_refund' => time()));
+    pdo_insert('ewei_shop_goods_refund_hist', array(
+			'ordersn' => $ordersn,
+			'goodssn' => $goodssn,
+			'refund_id' => $_GPC["refund_id"],
+			'price' => $money,
+			'time_refund' => time(),
+			'logno' => $logno
+		));
 
     message('返现成功!', referer(), 'success');
 
