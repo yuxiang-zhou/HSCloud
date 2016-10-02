@@ -174,8 +174,6 @@ if ($op == 'display') {
     }
 
     // variable definition
-    // $openid = "oliVJuIGcwJ91Qg63VzEydTR_ZE8";
-    // $money = 1.1;
     $openid = $_GPC['openid'];
     $money = floatval($_GPC['single_refund_price']);
 
@@ -192,7 +190,7 @@ if ($op == 'display') {
 			'status' => 1,
 			'money' => $money
 		);
-		message("功能测试中！", '', 'error');
+
     // execute
     $result = m('finance')->pay($openid, 1, $money * 100.0, $logno, $set['name'].'销售返现');
 
