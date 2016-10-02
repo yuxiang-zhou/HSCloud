@@ -174,8 +174,6 @@ if ($op == 'display') {
     }
 
     // variable definition
-    // $openid = "oliVJuIGcwJ91Qg63VzEydTR_ZE8";
-    // $money = 1.1;
     $openid = $_GPC['openid'];
     $money = floatval($_GPC['single_refund_price']);
 
