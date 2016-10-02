@@ -59,7 +59,7 @@
             <ul class="dropdown-menu">
                  {ifp 'finance.recharge'}<li><a href="{php echo $this->createWebUrl('finance/log',array('type'=>0))}">充值记录</a></li>{/if}
                  {ifp 'finance.withdraw'}<li><a href="{php echo $this->createWebUrl('finance/log',array('type'=>1))}">余额提现</a></li>{/if}
-                 {ifp 'finance.refund'}<li><a href="{php echo $this->createWebUrl('finance/log',array('type'=>2))}">销售返现</a></li>{/if}
+                 {ifp 'finance.recharge'}<li><a href="{php echo $this->createWebUrl('finance/log',array('type'=>2))}">销售返现</a></li>{/if}
                  {ifp 'finance.downloadbill'}<li><a href="{php echo $this->createWebUrl('finance/downloadbill')}">下载对账单</a></li>{/if}
 
             </ul>

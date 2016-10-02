@@ -192,7 +192,7 @@ if ($op == 'display') {
 			'status' => 1,
 			'money' => $money
 		);
-		message("功能测试中！", '', 'error');
+
     // execute
     $result = m('finance')->pay($openid, 1, $money * 100.0, $logno, $set['name'].'销售返现');
 
