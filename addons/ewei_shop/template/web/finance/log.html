@@ -19,7 +19,11 @@
             </div>
 
              <div class="form-group">
-                <label class="col-xs-12 col-sm-2 col-md-2 col-lg-1 control-label">充值单号</label>
+                {if $_GPC['type'] == 2}
+                  <label class="col-xs-12 col-sm-2 col-md-2 col-lg-1 control-label">订单号</label>
+                {else}
+                  <label class="col-xs-12 col-sm-2 col-md-2 col-lg-1 control-label">充值单号</label>
+                {/if}
                 <div class="col-sm-8 col-lg-9 col-xs-12">
                     <input type="text" class="form-control"  name="logno" value="{$_GPC['logno']}" placeholder='可搜索充值单号'/>
                 </div>
@@ -319,11 +323,7 @@
                     <td   class='hidden-xs'>{if empty($row['levelname'])}普通会员{else}{$row['levelname']}{/if}</td>
                     <td   class='hidden-xs'>{if empty($row['groupname'])}无分组{else}{$row['groupname']}{/if}</td>
                     <td>
-                      {$row['refunded_price']}
-                      {if $_GPC['type']==2}
-                      {else}
-                        {$row['money']}
-                      {/if}
+                      {$row['money']}
                     </td>
                     <td>
                       {if $row['createtime']}
@@ -375,7 +375,10 @@
 
                     <td>
                       {if $_GPC['type']==2}
-                        <a class='btn btn-danger' onclick="return confirm('确认返现{$row['single_refund_price']}?')" href="{php echo $this->createWebUrl('finance/log',array_merge(array('op'=>'pay','paytype'=>'cashback'),$row));}">返现</a>
+                      <a class='btn btn-danger' onclick="return confirm('确认返现{$row['single_refund_price']}?')" href="{php echo $this->createWebUrl('finance/log',array_merge(array('op'=>'pay','paytype'=>'cashback'),$row));}">返现</a>
+                      {if count($row['hist']) > 0}
+                        <a class='btn btn-info' data-toggle="collapse" data-target="#{$row['unique_id']}" aria-expanded="false" aria-controls="{$row['unique_id']}">详情</a>
+                      {/if}
                       {else}
                         {ifp 'member.member.view'}
                         <a class='btn btn-default' href="{php echo $this->createWebUrl('member',array('op'=>'detail','id' => $row['mid']));}">用户信息</a>
@@ -397,6 +400,41 @@
                       {/if}
                     </td>
                 </tr>
+                {if $_GPC['type']==2}
+                <tr><td colspan='13' style="padding: 0px"><div class="collapse" id="{$row['unique_id']}">
+                  {if count($row['hist']) > 0}
+                  <div class="panel panel-default">
+                    <div class="panel-heading">详情</div>
+                    <div class="panel-body ">
+                      <table class="table table-hover">
+                        <thead class="navbar-inner">
+                          <tr>
+                            <th style='width:120px;'>返现ID</th>
+                            <th style='width:120px;'>返现规则ID</th>
+                            <th style='width:120px;'>返现商品</th>
+                            <th style='width:120px;'>订单号</th>
+                            <th style='width:120px;'>返现金额</th>
+                            <th style='width:120px;'>返现时间</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {loop $row['hist'] $item}
+                          <tr>
+                            <td>{$item['id']}</td>
+                            <td>{$item['refund_id']}</td>
+                            <td>{$item['goodssn']}</td>
+                            <td>{$item['ordersn']}</td>
+                            <td>{$item['price']}</td>
+                            <td>{php echo date('Y-m-d H:i',$item['time_refund'])}</td>
+                          </tr>
+                          {/loop}
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  {/if}
+                </div></td></tr>
+                {/if}
                 {/loop}
             </tbody>
         </table>
