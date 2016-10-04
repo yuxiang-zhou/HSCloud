@@ -9,7 +9,7 @@
     {/if}
     {ifp 'finance.recharge.view'}<li {if empty($_GPC['p']) || ( $_GPC['p'] == 'log' && $_GPC['type']==0)} class="active" {/if}><a href="{php echo $this->createWebUrl('finance/log',array('type'=>0))}">充值记录</a></li>{/if}
     {ifp 'finance.withdraw.view'}<li {if $_GPC['p'] == 'log' && $_GPC['type']==1} class="active" {/if}><a href="{php echo $this->createWebUrl('finance/log',array('type'=>1))}">提现申请</a></li>{/if}
-    {ifp 'finance.refund.view'}<li {if $_GPC['p'] == 'log' && $_GPC['type']==2} class="active" {/if}><a href="{php echo $this->createWebUrl('finance/log',array('type'=>2))}">销售返现</a></li>{/if}
+    {ifp 'finance.recharge.view'}<li {if $_GPC['p'] == 'log' && $_GPC['type']==2} class="active" {/if}><a href="{php echo $this->createWebUrl('finance/log',array('type'=>2))}">销售返现</a></li>{/if}
     {ifp 'finance.downloadbill'}<li {if $_GPC['p'] == 'downloadbill' } class="active" {/if}><a href="{php echo $this->createWebUrl('finance/downloadbill')}">下载对账单</a></li>{/if}
 
 </ul>
