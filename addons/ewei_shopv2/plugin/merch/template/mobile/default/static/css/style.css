@@ -1,0 +1,106 @@
+.page-merch-register .regbg {
+    width:100%;
+}
+.page-merch-register .fui-navbar {
+    background:rgba(0,0,0,0)
+}
+.page-merch-register .fui-navbar:before {
+    display:none;
+}
+.page-merch-register .fui-navbar .btn {
+    border:none;
+}
+.page-merch-register .fui-navbar .btn-reg {
+    width:10%; background:rgba(0,0,0,0.5);
+}
+.fui-header.fui-header-success .back:before ,
+.fui-header.fui-header-warning .back:before ,
+.fui-header.fui-header-primary .back:before ,
+.fui-header.fui-header-danger .back:before {
+    border-color:#fff;
+}
+
+.fui-header.fui-header-success a ,
+.fui-header.fui-header-warning a ,
+.fui-header.fui-header-primary a ,
+.fui-header.fui-header-danger a {
+    color:#fff;
+}
+
+
+.fui-alert {
+    position: relative;
+    margin:.5rem .2rem;
+    padding:.3rem .5rem;
+    font-size:.7rem;
+    color:#FFFFFF;
+    -ms-word-break: break-all;
+    word-break: break-all;
+}
+.fui-alert.fui-alert-default {
+    background:#dbdbdb;
+    border:1px solid #d9d9d9  ;
+}
+
+.fui-alert.fui-alert-success {
+     background:#44cc42;
+     border:1px solid #04ab02;
+}
+
+.fui-alert.fui-alert-warning {
+    background:#ec9d4d;
+    border:1px solid #ff9326 ;
+}
+
+.fui-alert.fui-alert-primary {
+     background:#17b0e2;
+     border:1px solid #0290be  ;
+}
+
+.fui-alert.fui-alert-danger {
+    background:#f76464;
+    border:1px solid #ef4f4f   ;
+}
+
+.fui-modal,
+.verify-pop {
+    position: fixed;
+}
+
+.verify-pop .qrcode {
+    width: 250px;
+    margin-left: -125px;
+    border-radius: 0.5rem;
+    height: auto;
+    overflow: hidden;
+}
+
+.verify-pop.pop .qrcode {
+    width: 70%;
+    height: 15rem;
+    margin-left: -35%;
+    overflow: hidden;
+    display: block;
+}
+
+.verify-pop.pop .qrcode .inner {
+    padding: 0.5rem;
+    height: 12rem;
+}
+
+.verify-pop.pop .qrcode .inner .title {
+    text-align: center;
+    font-size: 1rem;
+    height: 1.5rem;
+}
+
+.verify-pop.pop .qrcode .inner .text {
+    width: 100%;
+    word-wrap: break-word;
+    font-size: 0.7rem;
+    color: #666;
+    line-height: 1rem;
+    height: 10rem;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}

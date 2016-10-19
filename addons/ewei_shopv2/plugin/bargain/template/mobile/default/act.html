@@ -1,0 +1,98 @@
+{template '_header'}
+
+<div class="fui-header">
+    <div class="fui-header-left">
+        <a class="back"></a>
+    </div>
+    <div class="title">我发起的砍价</div>
+    <div class="fui-header-right"></div>
+</div>
+
+
+<div class="fui-page-group"><div class="fui-page  fui-page-current shop-index-page" id="fui-page-1474531884976">
+    <div class="fui-content navbar">
+        																																																																						<div id="recommand">
+
+
+        <div class="fui-goods-group border">
+
+
+            <div style="margin-top: 2.2rem"></div>
+            {loop $goods $key $value}
+
+            <div class="fui-goods-item" data-goodsid="8">
+                <a href="{php echo mobileUrl('bargain/bargain',array('id'=>$value[0]['actor_id'],));}" class="external">
+                    <div class="image" data-lazyloaded="true" style="background-image: url({php $tt = json_decode($value[0]['images'],true);echo tomedia($tt[0]);});">
+
+                    </div>
+                </a>
+                <div class="detail">
+                    <a href="{php echo mobileUrl('bargain/bargain',array('id'=>$value[0]['actor_id'],));}" class="external">
+                        <div class="name">{$value[0]['title']}</div>
+                    </a>
+{if $value[0]['type'] == 0}
+                    <div class="price">
+                        <span class="text">当前价 ￥{$value[0]['now_price']}</span>
+
+                        {if $value[0]['label_swi'] == 0}<s style="color: #BBBBBB">原价￥{$value[0]['now_price']}</s>{/if}
+                        {if $value[0]['label_swi'] == 2}<span style="color: #ffffff;background-color: palevioletred">已结束</span>{/if}
+                        {if $value[0]['label_swi'] == 1}<span style="color: #ffffff;background-color: darkblue">超过砍价限时</span>{/if}
+                        {if $value[0]['label_swi'] == 3}<span style="color: #ffffff;background-color: darkgreen">已到底价</span>{/if}
+                    </div>
+{/if}
+                    {if $value[0]['type'] == 1}
+                    <div class="price">
+                        <span class="text">当前价 ￥{$value[0]['now_price']}</span>
+                        {if $value[0]['label_swi'] == 0}<span style="color: #ffffff;background-color: #00a137">底价￥{$value[0]['end_price']}</span>{/if}
+                        {if $value[0]['label_swi'] == 2}<span style="color: #ffffff;background-color: palevioletred">已结束</span>{/if}
+                        {if $value[0]['label_swi'] == 1}<span style="color: #ffffff;background-color: darkblue">超过砍价限时</span>{/if}
+                        {if $value[0]['label_swi'] == 3}<span style="color: #ffffff;background-color: darkgreen">已到底价</span>{/if}
+                    </div>
+                    {/if}
+                </div>
+            </div>
+            {/loop}
+
+
+
+        </div>
+
+
+    </div>
+
+
+    </div>
+</div>
+    </div>
+
+
+
+<div class="fui-navbar">
+
+    <a href="{php echo mobileUrl();}" class="external nav-item">
+        <span class="icon icon-home"></span>
+        <span class="label">商城首页</span>
+    </a>
+
+    <a href="{php echo mobileUrl('bargain');}" class="external nav-item">
+        <span class="icon icon-all"></span>
+        <span class="label">全部砍价</span>
+    </a>
+
+
+    <a href="{php echo mobileUrl('bargain/act');}" class="external nav-item active" id="menucart">
+        <span class="icon icon-all1"></span>
+        <span class="label">砍价中</span>
+    </a>
+    <a href="{php echo mobileUrl('bargain/purchase');}" class="external nav-item">
+        <span class="icon icon-money"></span>
+        <span class="label">已购买</span>
+    </a>
+</div>
+
+
+    <span style="display:none"></span>
+
+
+</div>
+{template '_footer'}

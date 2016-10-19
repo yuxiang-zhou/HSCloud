@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://www.mitusky.com" versionCode="0.6,0.7,0.8">
+	<application setting="false">
+		<name><![CDATA[人人商城V2]]></name>
+		<identifie><![CDATA[ewei_shopv2]]></identifie>
+		<version><![CDATA[2.7.0]]></version>
+		<type><![CDATA[business]]></type>
+		<ability><![CDATA[人人商城(分销),多用户分权，淘宝商品一键转换，多种插件支持。]]></ability>
+		<description><![CDATA[人人商城(分销)，多项信息模板，强大的自定义规格设置]]></description>
+		<author><![CDATA[米兔源码]]></author>
+		<url><![CDATA[http://www.mitusky.com]]></url>
+	</application>
+	<platform>
+		<subscribes>
+			<message type="text" />
+			<message type="image" />
+			<message type="voice" />
+			<message type="video" />
+			<message type="shortvideo" />
+			<message type="location" />
+			<message type="link" />
+			<message type="subscribe" />
+			<message type="unsubscribe" />
+			<message type="qr" />
+			<message type="trace" />
+			<message type="click" />
+			<message type="view" />
+			<message type="merchant_order" />
+		</subscribes>
+		<handles>
+			<message type="text" />
+			<message type="image" />
+			<message type="voice" />
+			<message type="video" />
+			<message type="shortvideo" />
+			<message type="location" />
+			<message type="link" />
+			<message type="subscribe" />
+			<message type="qr" />
+			<message type="trace" />
+			<message type="click" />
+			<message type="merchant_order" />
+		</handles>
+		<rule embed="false" />
+		<card embed="false" />
+	</platform>
+	<bindings>
+		<cover>
+			<entry title="商城入口" do="shop" state="" direct="false" />
+		</cover>
+		<menu>
+			<entry title="商城管理" do="shop" state="" direct="false" />
+			<entry title="在线更新" do="download" state="" direct="false" />
+		</menu>
+	</bindings>
+	<permissions>
+	</permissions>
+	<install><![CDATA[install.php]]></install>
+	<uninstall><![CDATA[DROP TABLE IF EXISTS `ewei_shop_adv`;
+DROP TABLE IF EXISTS `ewei_shop_article`;
+DROP TABLE IF EXISTS `ewei_shop_article_category`;
+DROP TABLE IF EXISTS `ewei_shop_article_log`;
+DROP TABLE IF EXISTS `ewei_shop_article_report`;
+DROP TABLE IF EXISTS `ewei_shop_article_share`;
+DROP TABLE IF EXISTS `ewei_shop_article_sys`;
+DROP TABLE IF EXISTS `ewei_shop_banner`;
+DROP TABLE IF EXISTS `ewei_shop_carrier`;
+DROP TABLE IF EXISTS `ewei_shop_category`;
+DROP TABLE IF EXISTS `ewei_shop_commission_apply`;
+DROP TABLE IF EXISTS `ewei_shop_commission_bank`;
+DROP TABLE IF EXISTS `ewei_shop_commission_clickcount`;
+DROP TABLE IF EXISTS `ewei_shop_commission_level`;
+DROP TABLE IF EXISTS `ewei_shop_commission_log`;
+DROP TABLE IF EXISTS `ewei_shop_commission_rank`;
+DROP TABLE IF EXISTS `ewei_shop_commission_shop`;
+DROP TABLE IF EXISTS `ewei_shop_coupon`;
+DROP TABLE IF EXISTS `ewei_shop_coupon_category`;
+DROP TABLE IF EXISTS `ewei_shop_coupon_data`;
+DROP TABLE IF EXISTS `ewei_shop_coupon_guess`;
+DROP TABLE IF EXISTS `ewei_shop_coupon_log`;
+DROP TABLE IF EXISTS `ewei_shop_creditshop_adv`;
+DROP TABLE IF EXISTS `ewei_shop_creditshop_category`;
+DROP TABLE IF EXISTS `ewei_shop_creditshop_goods`;
+DROP TABLE IF EXISTS `ewei_shop_creditshop_log`;
+DROP TABLE IF EXISTS `ewei_shop_customer`;
+DROP TABLE IF EXISTS `ewei_shop_customer_category`;
+DROP TABLE IF EXISTS `ewei_shop_customer_guestbook`;
+DROP TABLE IF EXISTS `ewei_shop_customer_robot`;
+DROP TABLE IF EXISTS `ewei_shop_designer`;
+DROP TABLE IF EXISTS `ewei_shop_designer_menu`;
+DROP TABLE IF EXISTS `ewei_shop_dispatch`;
+DROP TABLE IF EXISTS `ewei_shop_diyform_category`;
+DROP TABLE IF EXISTS `ewei_shop_diyform_data`;
+DROP TABLE IF EXISTS `ewei_shop_diyform_temp`;
+DROP TABLE IF EXISTS `ewei_shop_diyform_type`;
+DROP TABLE IF EXISTS `ewei_shop_diypage`;
+DROP TABLE IF EXISTS `ewei_shop_diypage_menu`;
+DROP TABLE IF EXISTS `ewei_shop_diypage_template`;
+DROP TABLE IF EXISTS `ewei_shop_diypage_template_category`;
+DROP TABLE IF EXISTS `ewei_shop_exhelper_express`;
+DROP TABLE IF EXISTS `ewei_shop_exhelper_senduser`;
+DROP TABLE IF EXISTS `ewei_shop_exhelper_sys`;
+DROP TABLE IF EXISTS `ewei_shop_express`;
+DROP TABLE IF EXISTS `ewei_shop_feedback`;
+DROP TABLE IF EXISTS `ewei_shop_form`;
+DROP TABLE IF EXISTS `ewei_shop_form_category`;
+DROP TABLE IF EXISTS `ewei_shop_globonus_bill`;
+DROP TABLE IF EXISTS `ewei_shop_globonus_billo`;
+DROP TABLE IF EXISTS `ewei_shop_globonus_billp`;
+DROP TABLE IF EXISTS `ewei_shop_globonus_level`;
+DROP TABLE IF EXISTS `ewei_shop_goods`;
+DROP TABLE IF EXISTS `ewei_shop_goods_comment`;
+DROP TABLE IF EXISTS `ewei_shop_goods_group`;
+DROP TABLE IF EXISTS `ewei_shop_goods_option`;
+DROP TABLE IF EXISTS `ewei_shop_goods_param`;
+DROP TABLE IF EXISTS `ewei_shop_goods_spec`;
+DROP TABLE IF EXISTS `ewei_shop_goods_spec_item`;
+DROP TABLE IF EXISTS `ewei_shop_groups_adv`;
+DROP TABLE IF EXISTS `ewei_shop_groups_category`;
+DROP TABLE IF EXISTS `ewei_shop_groups_goods`;
+DROP TABLE IF EXISTS `ewei_shop_groups_goods_atlas`;
+DROP TABLE IF EXISTS `ewei_shop_groups_order`;
+DROP TABLE IF EXISTS `ewei_shop_groups_order_refund`;
+DROP TABLE IF EXISTS `ewei_shop_groups_paylog`;
+DROP TABLE IF EXISTS `ewei_shop_groups_set`;
+DROP TABLE IF EXISTS `ewei_shop_groups_verify`;
+DROP TABLE IF EXISTS `ewei_shop_mc_merchant`;
+DROP TABLE IF EXISTS `ewei_shop_member`;
+DROP TABLE IF EXISTS `ewei_shop_member_address`;
+DROP TABLE IF EXISTS `ewei_shop_member_cart`;
+DROP TABLE IF EXISTS `ewei_shop_member_favorite`;
+DROP TABLE IF EXISTS `ewei_shop_member_group`;
+DROP TABLE IF EXISTS `ewei_shop_member_history`;
+DROP TABLE IF EXISTS `ewei_shop_member_level`;
+DROP TABLE IF EXISTS `ewei_shop_member_log`;
+DROP TABLE IF EXISTS `ewei_shop_member_message_template`;
+DROP TABLE IF EXISTS `ewei_shop_member_rank`;
+DROP TABLE IF EXISTS `ewei_shop_merch_account`;
+DROP TABLE IF EXISTS `ewei_shop_merch_adv`;
+DROP TABLE IF EXISTS `ewei_shop_merch_banner`;
+DROP TABLE IF EXISTS `ewei_shop_merch_bill`;
+DROP TABLE IF EXISTS `ewei_shop_merch_billo`;
+DROP TABLE IF EXISTS `ewei_shop_merch_category`;
+DROP TABLE IF EXISTS `ewei_shop_merch_category_swipe`;
+DROP TABLE IF EXISTS `ewei_shop_merch_clearing`;
+DROP TABLE IF EXISTS `ewei_shop_merch_group`;
+DROP TABLE IF EXISTS `ewei_shop_merch_nav`;
+DROP TABLE IF EXISTS `ewei_shop_merch_notice`;
+DROP TABLE IF EXISTS `ewei_shop_merch_perm_log`;
+DROP TABLE IF EXISTS `ewei_shop_merch_perm_role`;
+DROP TABLE IF EXISTS `ewei_shop_merch_reg`;
+DROP TABLE IF EXISTS `ewei_shop_merch_saler`;
+DROP TABLE IF EXISTS `ewei_shop_merch_store`;
+DROP TABLE IF EXISTS `ewei_shop_merch_user`;
+DROP TABLE IF EXISTS `ewei_shop_multi_shop`;
+DROP TABLE IF EXISTS `ewei_shop_nav`;
+DROP TABLE IF EXISTS `ewei_shop_notice`;
+DROP TABLE IF EXISTS `ewei_shop_order`;
+DROP TABLE IF EXISTS `ewei_shop_order_comment`;
+DROP TABLE IF EXISTS `ewei_shop_order_goods`;
+DROP TABLE IF EXISTS `ewei_shop_order_refund`;
+DROP TABLE IF EXISTS `ewei_shop_perm_log`;
+DROP TABLE IF EXISTS `ewei_shop_perm_plugin`;
+DROP TABLE IF EXISTS `ewei_shop_perm_role`;
+DROP TABLE IF EXISTS `ewei_shop_perm_user`;
+DROP TABLE IF EXISTS `ewei_shop_plugin`;
+DROP TABLE IF EXISTS `ewei_shop_poster`;
+DROP TABLE IF EXISTS `ewei_shop_poster_log`;
+DROP TABLE IF EXISTS `ewei_shop_poster_qr`;
+DROP TABLE IF EXISTS `ewei_shop_poster_scan`;
+DROP TABLE IF EXISTS `ewei_shop_postera`;
+DROP TABLE IF EXISTS `ewei_shop_postera_log`;
+DROP TABLE IF EXISTS `ewei_shop_postera_qr`;
+DROP TABLE IF EXISTS `ewei_shop_qa_adv`;
+DROP TABLE IF EXISTS `ewei_shop_qa_category`;
+DROP TABLE IF EXISTS `ewei_shop_qa_question`;
+DROP TABLE IF EXISTS `ewei_shop_qa_set`;
+DROP TABLE IF EXISTS `ewei_shop_refund_address`;
+DROP TABLE IF EXISTS `ewei_shop_sale_coupon`;
+DROP TABLE IF EXISTS `ewei_shop_sale_coupon_data`;
+DROP TABLE IF EXISTS `ewei_shop_saler`;
+DROP TABLE IF EXISTS `ewei_shop_store`;
+DROP TABLE IF EXISTS `ewei_shop_sysset`;
+DROP TABLE IF EXISTS `ewei_shop_system_adv`;
+DROP TABLE IF EXISTS `ewei_shop_system_article`;
+DROP TABLE IF EXISTS `ewei_shop_system_banner`;
+DROP TABLE IF EXISTS `ewei_shop_system_case`;
+DROP TABLE IF EXISTS `ewei_shop_system_category`;
+DROP TABLE IF EXISTS `ewei_shop_system_company_article`;
+DROP TABLE IF EXISTS `ewei_shop_system_company_category`;
+DROP TABLE IF EXISTS `ewei_shop_system_copyright`;
+DROP TABLE IF EXISTS `ewei_shop_system_copyright_notice`;
+DROP TABLE IF EXISTS `ewei_shop_system_guestbook`;
+DROP TABLE IF EXISTS `ewei_shop_system_link`;
+DROP TABLE IF EXISTS `ewei_shop_system_site`;
+DROP TABLE IF EXISTS `ewei_shop_virtual_category`;
+DROP TABLE IF EXISTS `ewei_shop_virtual_data`;
+DROP TABLE IF EXISTS `ewei_shop_virtual_type`;
+]]></uninstall>
+	<upgrade><![CDATA[
+	INSERT INTO `ims_ewei_shop_plugin` VALUES ('30','33','printer','小票打印机','1.0','官方','1','tool','1','','','1','0'),('31','33','bargain','砍价活动','1.0','官方','1','tool','1','../addons/ewei_shopv2/static/images/bargain.jpg','','0','0');
+
+	
+	]]></upgrade>
+</manifest>

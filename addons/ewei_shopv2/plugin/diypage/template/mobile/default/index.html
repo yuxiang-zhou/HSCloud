@@ -1,0 +1,52 @@
+{template '_header'}
+<script>document.title = "{if !empty($page)&&!empty($page['data']['page']['title'])}{$page['data']['page']['title']}{else}{$_W['shopset']['shop']['name']}{/if}"; </script>
+<link href="../addons/ewei_shopv2/plugin/diypage/static/css/foxui.diy.css?v=201610091000"rel="stylesheet"type="text/css"/>
+{if $page['type']==4}
+    {template 'commission/common'}
+{/if}
+<div class='fui-page  fui-page-current {if $page['type']==3}member-page{elseif $page['type']==4}page-commission-index{/if}' style="top: 0;">
+    {if !empty($page['data']['page']['followbar'])}
+        {php $this->followBar(true)}
+    {/if}
+    {if !is_weixin()}
+    <div class="fui-header">
+        <div class="fui-header-left">
+            {if $page['type']==1}
+            <a href="{php echo mobileUrl()}" class="external"><i class="icon icon-home"></i> </a>
+            {/if}
+        </div>
+        <div class="title">{if !empty($page)&&!empty($page['data']['page']['title'])}{$page['data']['page']['title']}{else}{$_W['shopset']['shop']['name']}{/if}</div>
+        <div class="fui-header-right"></div>
+    </div>
+    {/if}
+    <div class="fui-content {if $page['diymenu']>-1}navbar{/if}" id="container" style="background-color: {$page['data']['page']['background']}; {if $page['diymenu']>-1}padding-bottom: 0;{/if}">
+        <div class="fui-mask fui-mask-transparent visible"></div>
+        <div class="fui-loader ">
+            <span class="fui-preloader fui-preloader-white"></span>
+        </div>
+        <div id="copyright" style="display: none;">
+            {template '_copyright'}
+        </div>
+    </div>
+
+    {if $page['diymenu']>-1}
+        {php $this->footerMenus($page['diymenu'])}
+    {/if}
+
+    {php $diypage=true}
+
+    {if !empty($page['data']['page']['diylayer'])}
+        {php echo $this->diyLayer()}
+    {/if}
+
+    {template 'diypage/_template'}
+
+    <script language="javascript">
+        require(['../addons/ewei_shopv2/plugin/diypage/static/js/mobile.js'], function(modal){
+            modal.init({diypage: {php echo json_encode($page)}, attachurl: "{$_W['attachurl']}"});
+        });
+    </script>
+
+</div>
+
+{template '_footer'}

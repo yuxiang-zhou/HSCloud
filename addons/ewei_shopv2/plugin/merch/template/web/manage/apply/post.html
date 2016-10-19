@@ -1,0 +1,71 @@
+{template '_header'}
+<div class="page-heading">
+    <span class='pull-right'>
+        <input type="button" name="back" onclick='history.back()' value="返回" class="btn btn-default" />
+    </span>
+    <h2>申请提现
+    </h2>
+</div>
+<form {ife 'merch.apply.list.post' $item}action="" method="post"{/if} class="form-horizontal form-validate" enctype="multipart/form-data">
+
+<div class="row">
+    <div class="col-sm-6">
+        <div style="border: 1px solid #e7eaec" class="ibox float-e-margins">
+            <div class="ibox-title">
+                <label class="label label-primary  pull-right">抽成比例 {$item['payrate']}%</label>
+                <h5>可提现金额(抽成后)</h5>
+            </div>
+            <div class="ibox-content">
+                <h1 class="no-margins yesterday-count"><span id="bonusmoney_pay">{$item['realpricerate']}</span> 元</h1>
+                <div class="stat-percent font-bold text-info"></div>
+                <small>抽成前的金额: {$item['realprice']} 元</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div style="border: 1px solid #e7eaec" class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>订单金额</h5>
+            </div>
+            <div class="ibox-content">
+                <h1 class="no-margins today-count">{$item['orderprice']} 元</h1>
+                <div class="stat-percent font-bold text-success"></div>
+                <small>订单个数: {$order_num} 个</small>
+            </div>
+        </div>
+    </div>
+    <!--<div class="col-sm-4">-->
+        <!--<div style="border: 1px solid #e7eaec" class="ibox float-e-margins">-->
+            <!--<div class="ibox-title">-->
+                <!--<h5>股东已结算</h5>-->
+            <!--</div>-->
+            <!--<div class="ibox-content">-->
+                <!--<h1 class="no-margins seven-count"><span id="partnercount1">{$data['partnercount1']}</span> 个 </h1>-->
+                <!--<div class="stat-percent font-bold text-warning"></div>-->
+                <!--<small>股东数量: {$data['partnercount']}</small>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+
+</div>
+{if $item['realprice'] > 0}
+{template 'apply/table'}
+{/if}
+
+<div class="form-group" style="margin-top:20px;">
+    <div class="col-sm-12" style="text-align: right;">
+
+        <div class="col-sm-9 col-xs-12">
+            {if $item['realprice'] > 0}
+                {ife 'merch.apply.list.add' $item}
+                <input type="submit" value="提交申请" class="btn btn-primary"  />
+                {/if}
+            {/if}
+            <input type="button" name="back" onclick='history.back()' value="返回" class="btn btn-default" />
+        </div>
+
+    </div>
+</div>
+</form>
+
+{template '_footer'}

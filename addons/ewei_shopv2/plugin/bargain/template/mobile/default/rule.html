@@ -1,0 +1,16 @@
+{template '_header'}
+
+<div class="fui-header ">
+    <div class="fui-header-left">
+        <a class="back" id="btn-back"></a>
+    </div>
+    <div class="title">
+        规则说明
+    </div>
+</div>
+
+
+<div class="fui-content">{php echo htmlspecialchars_decode($rule['rule']);}<br>
+
+</div>
+{template '_footer'}
