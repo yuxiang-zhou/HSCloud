@@ -291,6 +291,7 @@
 
                     {if $_GPC['type']==2}<th style='width:120px;'>商品编号</th>{/if}
                     {if $_GPC['type']==2}<th style='width:120px;'>商品价格</th>{/if}
+                    {if $_GPC['type']==2}<th style='width:120px;'>购买数量</th>{/if}
                     {if $_GPC['type']==2}<th style='width:120px;'>返现比例</th>{/if}
 
                     <!-- status and actions -->
@@ -353,6 +354,8 @@
                     {if $_GPC['type']==2}<td>{$row['goodssn']}</td>{/if}
                     <!-- 商品价格 -->
                     {if $_GPC['type']==2}<td>{$row['price']}</td>{/if}
+                    <!-- 购买数量 -->
+                    {if $_GPC['type']==2}<td>{$row['total']}</td>{/if}
                     <!-- 返现比例 -->
                     {if $_GPC['type']==2}<td>{php echo number_format(100.0*$row['single_refund_price']*$row['num_refund'] / $row['price'],2)}%</td>{/if}
 
@@ -375,7 +378,7 @@
 
                     <td>
                       {if $_GPC['type']==2}
-                      <a class='btn btn-danger' onclick="return confirm('确认返现{$row['single_refund_price']}?')" href="{php echo $this->createWebUrl('finance/log',array_merge(array('op'=>'pay','paytype'=>'cashback'),$row));}">返现</a>
+                      <a class='btn btn-danger' onclick="return confirm('确认返现{php echo $row['single_refund_price'] * $row['total']}?')" href="{php echo $this->createWebUrl('finance/log',array_merge(array('op'=>'pay','paytype'=>'cashback'),$row));}">返现</a>
                       {if count($row['hist']) > 0}
                         <a class='btn btn-info' data-toggle="collapse" data-target="#{$row['unique_id']}" aria-expanded="false" aria-controls="{$row['unique_id']}">详情</a>
                       {/if}

@@ -275,8 +275,7 @@ if ($operation == 'display') {
 					}
 				}
 			}
-			$goods .= "" . $og['title'] . '
-';
+			$goods .= "" . $og['title'] . '';
 			if (!empty($og['optiontitle'])) {
 				$goods .= ' 规格: ' . $og['optiontitle'];
 			}
@@ -292,14 +291,12 @@ if ($operation == 'display') {
 			if (!empty($og['productsn'])) {
 				$goods .= ' 商品条码: ' . $og['productsn'];
 			}
-			$goods .= ' 单价: ' . ($og['price'] / $og['total']) . ' 折扣后: ' . ($og['realprice'] / $og['total']) . ' 数量: ' . $og['total'] . ' 总价: ' . $og['price'] . ' 折扣后: ' . $og['realprice'] . '
- ';
+			$goods .= ' 单价: ' . ($og['price'] / $og['total']) . ' 折扣后: ' . ($og['realprice'] / $og['total']) . ' 数量: ' . $og['total'] . ' 总价: ' . $og['price'] . ' 折扣后: ' . $og['realprice'] . '';
 			if ($plugin_diyform && !empty($og['diyformfields']) && !empty($og['diyformdata'])) {
 				$diyformdata_array = $plugin_diyform->getDatas(iunserializer($og['diyformfields']), iunserializer($og['diyformdata']));
 				$diyformdata = "";
 				foreach ($diyformdata_array as $da) {
-					$diyformdata .= $da['name'] . ': ' . $da['value'] . '
-';
+					$diyformdata .= $da['name'] . ': ' . $da['value'] . '';
 				}
 				$og['goods_diyformdata'] = $diyformdata;
 			}
@@ -408,8 +405,7 @@ if ($operation == 'display') {
 				$diyformdata_array = p('diyform')->getDatas(iunserializer($row['diyformfields']), iunserializer($row['diyformdata']));
 				$diyformdata = "";
 				foreach ($diyformdata_array as $da) {
-					$diyformdata .= $da['name'] . ': ' . $da['value'] . '
-';
+					$diyformdata .= $da['name'] . ': ' . $da['value'] . '';
 				}
 				$row['order_diyformdata'] = $diyformdata;
 			}
@@ -829,6 +825,8 @@ if ($operation == 'display') {
 	}
 	exit;
 }
+
+
 function sortByTime($_var_0, $_var_1)
 {
 	if ($_var_0['ts'] == $_var_1['ts']) {
@@ -1061,6 +1059,13 @@ function order_list_close($_var_21)
 	message('订单关闭操作成功！', order_list_backurl(), 'success');
 }
 
+
+// $_var_8 is ordersn
+// $_var_21 is $item
+// $_var_22 is $refund_order
+// $_var_26 is $shop
+// $_var_27 is $refund_status
+// $_var_28 is $refund_content
 function order_list_refund($_var_21)
 {
 	global $_W, $_GPC;
@@ -1069,15 +1074,18 @@ function order_list_refund($_var_21)
 	if (empty($_var_21['refundid'])) {
 		message('订单未申请退款，不需处理！');
 	}
+
 	$_var_22 = pdo_fetch('select * from ' . tablename('ewei_shop_order_refund') . ' where id=:id and status=0 limit 1', array(':id' => $_var_21['refundid']));
 	if (empty($_var_22)) {
 		pdo_update('ewei_shop_order', array('refundid' => 0), array('id' => $_var_21['id'], 'uniacid' => $_W['uniacid']));
 		message('未找到退款申请，不需处理！');
 	}
+
 	if (empty($_var_22['refundno'])) {
 		$_var_22['refundno'] = m('common')->createNO('order_refund', 'refundno', 'SR');
 		pdo_update('ewei_shop_order_refund', array('refundno' => $_var_22['refundno']), array('id' => $_var_22['id']));
 	}
+
 	$_var_27 = intval($_GPC['refundstatus']);
 	$_var_28 = $_GPC['refundcontent'];
 	if ($_var_27 == 0) {
@@ -1088,20 +1096,28 @@ function order_list_refund($_var_21)
 			$_var_29 = sprintf('%02d', $_var_21['ordersn2']);
 			$_var_8 .= 'GJ' . $_var_29;
 		}
+
+    // get total prices
 		$_var_30 = $_var_22['price'];
 		$_var_31 = pdo_fetchall('SELECT g.id,g.credit, o.total,o.realprice FROM ' . tablename('ewei_shop_order_goods') . ' o left join ' . tablename('ewei_shop_goods') . ' g on o.goodsid=g.id ' . ' WHERE o.orderid=:orderid and o.uniacid=:uniacid', array(':orderid' => $_var_21['id'], ':uniacid' => $_W['uniacid']));
 		$_var_32 = 0;
 		foreach ($_var_31 as $_var_33) {
 			$_var_32 += $_var_33['credit'] * $_var_33['total'];
 		}
+
 		$_var_34 = 0;
+    // 余额支付
 		if ($_var_21['paytype'] == 1) {
 			m('member')->setCredit($_var_21['openid'], 'credit2', $_var_30, array(0, $_var_26['name'] . "退款: {$_var_30}元 订单号: " . $_var_21['ordersn']));
 			$_var_35 = true;
+
+    // 微信支付
 		} else if ($_var_21['paytype'] == 21) {
 			$_var_30 = round($_var_30 - $_var_21['deductcredit2'], 2);
 			$_var_35 = m('finance')->refund($_var_21['openid'], $_var_8, $_var_22['refundno'], $_var_21['price'] * 100, $_var_30 * 100);
 			$_var_34 = 2;
+
+    // 其他支付方式使用企业退款
 		} else {
 			if ($_var_30 < 1) {
 				message('退款金额必须大于1元，才能使用微信企业付款退款!', '', 'error');
@@ -1110,9 +1126,13 @@ function order_list_refund($_var_21)
 			$_var_35 = m('finance')->pay($_var_21['openid'], 1, $_var_30 * 100, $_var_22['refundno'], $_var_26['name'] . "退款: {$_var_30}元 订单号: " . $_var_21['ordersn']);
 			$_var_34 = 1;
 		}
+
+
 		if (is_error($_var_35)) {
 			message($_var_35['message'], '', 'error');
 		}
+
+    // 积分管理
 		if ($_var_32 > 0) {
 			m('member')->setCredit($_var_21['openid'], 'credit1', -$_var_32, array(0, $_var_26['name'] . "退款扣除积分: {$_var_32} 订单号: " . $_var_21['ordersn']));
 		}
@@ -1124,6 +1144,7 @@ function order_list_refund($_var_21)
 				m('member')->setCredit($_var_21['openid'], 'credit2', $_var_21['deductcredit2'], array('0', $_var_26['name'] . "购物返还抵扣余额 积分: {$_var_21['deductcredit2']} 订单号: {$_var_21['ordersn']}"));
 			}
 		}
+    // 订单管理
 		pdo_update('ewei_shop_order_refund', array('reply' => '', 'status' => 1, 'refundtype' => $_var_34), array('id' => $_var_21['refundid']));
 		m('notice')->sendOrderMessage($_var_21['id'], true);
 		pdo_update('ewei_shop_order', array('refundid' => 0, 'status' => -1, 'refundtime' => time()), array('id' => $_var_21['id'], 'uniacid' => $_W['uniacid']));
