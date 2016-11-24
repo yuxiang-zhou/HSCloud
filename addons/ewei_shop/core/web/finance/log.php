@@ -21,7 +21,7 @@ if ($op == 'display') {
 	} elseif ($type == 0) {
 		ca('finance.recharge.view');
 	} elseif ($type == 2) {
-    ca('finance.refund.view');
+    ca('finance.recharge.view');
   }
 
   // member search query params
@@ -237,7 +237,7 @@ if ($op == 'display') {
 
     // variable definition
     $openid = $_GPC['openid'];
-    $money = floatval($_GPC['single_refund_price']) * floatval($row['total']);
+    $money = floatval($_GPC['single_refund_price']) * floatval($_GPC['total']);
 
     $member = m('member')->getMember($openid);
     $set = m('common')->getSysset('shop');
