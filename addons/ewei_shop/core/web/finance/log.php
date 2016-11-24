@@ -71,7 +71,9 @@ if ($op == 'display') {
 	if ($_GPC['status'] != '') {
     if($type != 2) {
       $condition .= ' AND log.status=' . intval($_GPC['status']);
-    }
+    } else {
+			$condition .= ' AND num_refunded>0';
+		}
 	}
 
   // log params
