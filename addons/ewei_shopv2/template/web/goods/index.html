@@ -159,6 +159,7 @@
 
             {if $goodsfrom!='cycle'}
             <td  style="overflow:visible;">
+                {if $item['status']==2}<span class="label label-danger">赠品</span>{else}
                 <span class='label {if $item['status']==1}label-success{else}label-default{/if}' 
                       {ifp 'goods.edit'}
                       data-toggle='ajaxSwitch' 
@@ -170,6 +171,7 @@
                       {/if}
                       >
                       {if $item['status']==1}上架{else}下架{/if}</span>
+                {/if}
                 {if !empty($item['merchid'])}
                 <br>
                 <span class='label {if $item['checked']==0}label-success{else}label-warning{/if}'

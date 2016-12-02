@@ -1,4 +1,7 @@
 {template '_header'}
+<style>
+    .fui-list-media img{height:2.5rem;}
+</style>
 <div class='fui-page order-list-page'>
     <div class="fui-header">
         <div class="fui-header-left">
@@ -60,11 +63,12 @@
                 </div>
                 <%each order.goods as g%>
                 <div class="fui-list goods-list">
-                    <div class="fui-list-media">
+                    <div class="fui-list-media" style="<%if g.status==2%>padding-left:0.5rem;<%/if%>">
                         <img data-lazy="<%g.thumb%>" class="round">
                     </div>
                     <div class="fui-list-inner">
                         <div class="text goodstitle"><%g.title%></div>
+                        <%if g.status==2%><span class="fui-label fui-label-danger">赠品</span><%/if%>
                         <%if g.optionid!='0'%><div class='subtitle'><%g.optiontitle%></div><%/if%>
 
                     </div>

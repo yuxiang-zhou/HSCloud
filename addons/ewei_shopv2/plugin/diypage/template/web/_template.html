@@ -198,12 +198,17 @@
                         </div>
                         <div class="detail">
                             <%if params.showtitle=='1'%>
-                                <div class="name" style="color: <%style.titlecolor%>;"><%item.title%></div>
+                                <div class="name" style="color: <%style.titlecolor%>;">
+                                    <%if item.bargain>0%>
+                                    <label style="background-color: <%style.buybtncolor%>; padding: 0px 2px; color: #fff; font-size: 0.6rem">砍价</label>
+                                    <%/if%>
+                                    <%item.title%>
+                                </div>
                             <%/if%>
                             <%if params.showprice=='1'%>
                                 <div class="price">
                                     <span class="text" style="color: <%style.pricecolor%>;">￥<%item.price%></span>
-                                    <%if style.buystyle!=''%>
+                                    <%if style.buystyle!='' && item.bargain==0%>
                                         <%if style.buystyle=='buybtn-1'%>
                                             <span class="buy" style="background-color: <%style.buybtncolor%>;"><i class="icon icon-cart"></i></span>
                                         <%/if%>
@@ -213,6 +218,9 @@
                                         <%if style.buystyle=='buybtn-3'%>
                                             <span class="buy buybtn-3" style="background-color: <%style.buybtncolor%>;">购买</span>
                                         <%/if%>
+                                    <%/if%>
+                                    <%if item.bargain>0%>
+                                    <span class="buy" style="background-color: <%style.buybtncolor%>;">砍</span>
                                     <%/if%>
                                 </div>
                             <%/if%>
@@ -389,7 +397,9 @@
                     <div class="fui-list-info">
                         <div class="title" style="color: <%style.textcolor%>;">用户昵称</div>
                         <div class="subtitle" style="color: <%style.textlight%>;">&lt;分销商等级&gt;</div>
+                        <%if params.hideup==0 || !params.hideup%>
                         <div class="text" style="color: <%style.textcolor%>;">推荐人: 总店</div>
+                        <%/if%>
                     </div>
                 </div>
                 <%if params.seticon%>
@@ -427,7 +437,9 @@
                 <div class="face <%style.headstyle%>"><img src="../addons/ewei_shopv2/static/images/nopic100.jpg"></div>
                 <div class="name">用户昵称</div>
                 <div class="level">[分销商等级]</div>
+                <%if params.hideup==0 || !params.hideup%>
                 <div class="level">推荐人: 总店</div>
+                <%/if%>
             </div>
             <div class="child">
                 <div class="title" style="color: <%style.textcolor%>;">可提现佣金</div>
@@ -459,7 +471,307 @@
     </div>
 </script>
 
+<!-- 商品详情页 -->
+<script type="text/html" id="tpl_show_detail_tab">
+    <div class="drag fixed nodelete" data-itemid="<%itemid%>">
+        <div class="fui-tab fui-tab-danger" style="background: <%style.background%>">
+            <nav class="tab active" style="color: <%style.activecolor%>; border-color: <%style.activecolor%>;"><%params.goodstext||'商品'%></nav>
+            <nav class="tab" style="color: <%style.textcolor%>;"><%params.detailtext||'详情'%></nav>
+            <nav class="tab" style="color: <%style.textcolor%>;">参数</nav>
+            <nav class="tab" style="color: <%style.textcolor%>;">评价</nav>
+        </div>
+    </div>
+</script>
 
+<script type="text/html" id="tpl_show_detail_swipe">
+    <div class="drag" data-itemid="<%itemid%>">
+        <div class="diy-swipe">
+            <img src="../addons/ewei_shopv2/plugin/diypage/static/template/detail1/goods.jpg">
+            <div class="dots <%style.dotalign||'left'%> <%style.dotstyle||'rectangle'%>" style="padding: 0 <%style.leftright||'10'%>px; bottom: <%style.bottom||'10'%>px; opacity: <%style.opacity||'0.8'%>;">
+                <span style="background: <%style.background||'#000000'%>;"></span>
+                <span style="background: <%style.background||'#000000'%>;"></span>
+                <span style="background: <%style.background||'#000000'%>;"></span>
+            </div>
+        </div>
+    </div>
+</script>
+
+<script type="text/html" id="tpl_show_detail_info">
+    <div class="drag" data-itemid="<%itemid%>">
+        <div class="fui-cell-group fui-detail-group" style="background: <%style.background%>; margin-top: <%style.margintop%>px; margin-bottom: <%style.marginbottom%>px;">
+            <div class="fui-cell">
+                <div class="fui-cell-text name" style="color: <%style.titlecolor%>;">新款个性创意iphone6s手机壳磨砂苹果6情侣保护套i6日韩国简约潮</div>
+                <a class="fui-cell-remark share" id="btn-share">
+                    <i class="icon icon-share"></i>
+                    <p><%params.share%></p>
+                </a>
+            </div>
+            <div class="fui-cell goods-subtitle">
+                <span class="text-danger" style="color: <%style.subtitlecolor%>;">四角防摔气囊，送纳米防爆膜</span>
+            </div>
+            <div class="fui-cell">
+                <div class="fui-cell-text price">
+                    <span class="text-danger" style="color: <%style.pricecolor%>;">￥58 <span class="original" style="color: <%style.textcolor%>;">￥128</span></span>
+                </div>
+            </div>
+            <div class="fui-cell"style="padding-bottom: 4px">
+                <div class="fui-labeltext fui-labeltext-danger" style="border-color: <%style.timecolor%>;">
+                    <div class="label" style="font-size: 14px; height: 1.45rem; background: <%style.timecolor%>;">距离限时购结束</div>
+                    <div class="text"><span class="day number" style="color: <%style.timetextcolor%>;">0</span><span class="time">天</span><span class="hour number" style="color: <%style.timetextcolor%>;">04</span><span class="time">小时</span><span class="minute number" style="color: <%style.timetextcolor%>;">32</span><span class="time">分</span><span class="second number" style="color: <%style.timetextcolor%>;">26</span><span class="time">秒</span>
+                    </div>
+                </div>
+            </div>
+            <div class="fui-cell">
+                <div class="fui-cell-text flex" style="color: <%style.textcolor%>;">
+                    <span>快递:  10.00</span>
+                    <span>销量:  3,663 件</span>
+                    <span>山东 济南</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+
+<script type="text/html" id="tpl_show_detail_sale">
+    <div class="drag" data-itemid="<%itemid%>">
+        <div class="fui-cell-group fui-cell-click  fui-sale-group" style="background: <%style.background%>; margin-top: <%style.margintop%>px; margin-bottom: <%style.marginbottom%>px;">
+            <%each data as sale%>
+            <%if sale.type=='erci'%>
+            <div class="fui-cell">
+                <div class="fui-cell-text" style="color: <%style.textcolor%>;">此商品二次购买 可享受 <span class="text-danger" style="color: <%style.salecolorhigh%>;"> 5 </span> 折优惠</div>
+            </div>
+            <%/if%>
+            <%if sale.type=='huiyuan'%>
+            <div class="fui-cell">
+                <div class="fui-cell-text" style="color: <%style.textcolor%>;">您的会员等级是<span class="text-danger" style="color: <%style.salecolorhigh%>;"> VIP </span>可享受 <span class="text-danger" style="color: <%style.salecolorhigh%>;">￥10</span> 的价格</div>
+            </div>
+            <%/if%>
+            <%if sale.type=='youhui'%>
+            <div class="fui-cell">
+                <div class="fui-cell-text" style="color: <%style.textcolor%>;">优惠 全场满 <span class="text-danger" style="color: <%style.textcolorhigh%>;">￥100</span> 包邮</div>
+                <div class="fui-cell-remark"></div>
+            </div>
+            <%/if%>
+            <%if sale.type=='jifen'%>
+            <div class="fui-cell">
+                <div class="fui-cell-text" style="color: <%style.textcolor%>;">积分  购买赠送 <span class="text-danger" style="color: <%style.textcolorhigh%>;">20</span> 积分</div>
+                <div class="fui-cell-remark"></div>
+            </div>
+            <%/if%>
+            <%if sale.type=='bupeisong'%>
+            <div class="fui-cell">
+                <div class="fui-cell-text" style="color: <%style.textcolor%>;">不配送区域: 天津辖区 天津辖县</div>
+                <div class="fui-cell-remark"></div>
+            </div>
+            <%/if%>
+            <%if sale.type=='biaoqian'%>
+            <div class="fui-cell">
+                <div class="fui-cell-text">
+                    <span class="label label-danger" style="border-radius: 5px;">货到付款</span>
+                    <span class="label label-danger" style="border-radius: 5px;">正品保证</span>
+                    <span class="label label-danger" style="border-radius: 5px;">保修</span>
+                    <span class="label label-danger" style="border-radius: 5px;">发票</span>
+                </div>
+            </div>
+            <%/if%>
+            <%/each%>
+        </div>
+    </div>
+</script>
+
+<script type="text/html" id="tpl_show_detail_spec">
+    <div class="drag" data-itemid="<%itemid%>">
+        <div class="fui-cell-group fui-cell-click" style="background: <%style.background%>; margin-top: <%style.margintop%>px; margin-bottom: <%style.marginbottom%>px;">
+            <div class="fui-cell">
+                <div class="fui-cell-text option-selector" style="color: <%style.textcolor%>;">请选择颜色、分类等</div>
+                <div class="fui-cell-remark"></div>
+            </div>
+        </div>
+    </div>
+</script>
+
+<script type="text/html" id="tpl_show_detail_navbar">
+    <div class="drag fixed nodelete" data-itemid="<%itemid%>">
+        <div class="fui-navbar bottom-buttons" style="background: <%style.background%>;">
+            <%if params.hidelike<1%>
+                <%if params.hidelike==0%><%define iconclass="icon-like"%><%define icontext="关注"%><%/if%>
+                <%if params.hidelike==-1%><%define iconclass="icon-shop"%><%define icontext="店铺"%><%/if%>
+                <%if params.hidelike==-2%><%define iconclass="icon-cart"%><%define icontext="购物车"%><%/if%>
+                <%if params.hidelike==-3%><%define iconclass=params.likeiconclass||'icon-like'%><%define icontext=params.liketext||'关注'%><%/if%>
+                <nav class="nav-item ">
+                    <span class="icon <%iconclass%>" style="color: <%style.iconcolor%>;"></span>
+                    <span class="label" style="color: <%style.textcolor%>;"><%icontext%></span>
+                </nav>
+            <%/if%>
+            <%if params.hideshop<1%>
+                <%if params.hideshop==0%><%define iconclass="icon-shop"%><%define icontext="店铺"%><%/if%>
+                <%if params.hideshop==-1%><%define iconclass="icon-like"%><%define icontext="关注"%><%/if%>
+                <%if params.hideshop==-2%><%define iconclass="icon-cart"%><%define icontext="购物车"%><%/if%>
+                <%if params.hideshop==-3%><%define iconclass=params.shopiconclass||'icon-shop'%><%define icontext=params.shoptext||'店铺'%><%/if%>
+                <nav class="nav-item">
+                    <span class="icon <%iconclass%>" style="color: <%style.iconcolor%>;"></span>
+                    <span class="label" style="color: <%style.textcolor%>;"><%icontext%></span>
+                </nav>
+            <%/if%>
+            <%if params.hidecart<1%>
+                <%if params.hidecart==0%><%define iconclass="icon-cart"%><%define icontext="购物车"%><%/if%>
+                <%if params.hidecart==-1%><%define iconclass="icon-like"%><%define icontext="关注"%><%/if%>
+                <%if params.hidecart==-2%><%define iconclass="icon-shop"%><%define icontext="店铺"%><%/if%>
+                <%if params.hidecart==-3%><%define iconclass=params.carticonclass||'icon-cart'%><%define icontext=params.carttext||'购物车'%><%/if%>
+                <nav class="nav-item">
+                    <%if params.hidecart==0%>
+                        <span class="badge" style="background: <%style.dotcolor%>;">3</span>
+                    <%/if%>
+                    <span class="icon <%iconclass%>" style="color: <%style.iconcolor%>;"></span>
+                    <span class="label" style="color: <%style.textcolor%>;"><%icontext%></span>
+                </nav>
+            <%/if%>
+            <%if params.hidecartbtn==0%>
+            <nav class="nav-item btn cartbtn" style="background: <%style.cartcolor%>;">加入购物车</nav>
+            <%/if%>
+            <nav class="nav-item btn buybtn" style="background: <%style.buycolor%>;"><%params.textbuy||'立刻购买'%></nav>
+        </div>
+    </div>
+</script>
+
+<script type="text/html" id="tpl_show_detail_shop">
+    <div class="drag" data-itemid="<%itemid%>">
+        <div class="fui-cell-group fui-shop-group" style="background: <%style.background%>; margin-top: <%style.margintop%>px; margin-bottom: <%style.marginbottom%>px;">
+            <div class="fui-list">
+                <div class="fui-list-media <%params.logostyle%>">
+                    <img src="<%imgsrc params.shoplogo||'../addons/ewei_shopv2/static/images/designer.jpg'%>">
+                </div>
+                <div class="fui-list-inner">
+                    <div class="title" style="color: <%style.shopnamecolor%>;"><%params.shopname||'XX商城'%></div>
+                    <div class="subtitle" style="color: <%style.shopdesccolor%>;"><%params.shopdesc||'这里是XX商城简介商城简介商城简介商城简介商城简介'%></div>
+                </div>
+            </div>
+            <%if params.hidenum==0 || params.hidenum==''%>
+            <div class="fui-cell">
+                <div class="fui-cell-text center" style="color: <%style.goodsnumcolor%>;">300<p style="color: <%style.goodstextcolor%>;">全部</p></div>
+                <div class="fui-cell-text center" style="color: <%style.goodsnumcolor%>;">6<p style="color: <%style.goodstextcolor%>;">新品</p></div>
+                <div class="fui-cell-text center" style="color: <%style.goodsnumcolor%>;">5<p style="color: <%style.goodstextcolor%>;">促销</p></div>
+            </div>
+            <%/if%>
+            <div class="fui-cell btns">
+                <div class="fui-cell-text center">
+                    <a class="btn btn-default-o" style="border-color: <%style.leftnavcolor%>; color: <%style.leftnavcolor%>;"><%params.leftnavtext%></a>
+                    <a class="btn btn-default-o" style="border-color: <%style.rightnavcolor%>; color: <%style.rightnavcolor%>;"><%params.rightnavtext%></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+
+<script type="text/html" id="tpl_show_detail_comment">
+    <div class="drag" data-itemid="<%itemid%>">
+        <div class="fui-cell-group fui-comment-group" style="margin-top: <%style.margintop%>px; margin-bottom: <%style.marginbottom%>px; background: <%style.background%>;">
+            <div class="fui-cell fui-cell-click">
+                <div class="fui-cell-text desc" style="color: <%style.subcolor%>;">评价(1)</div>
+                <div class="fui-cell-text desc label" style="color: <%style.subcolor%>;"><span style="color: <%style.maincolor%>;">100%</span> 好评</div>
+                <div class="fui-cell-remark"></div>
+            </div>
+            <div class="fui-cell" style="padding: 0 0.5rem 0.5rem;">
+                <div class="fui-cell-text comment ">
+                    <div class="info">
+                        <div class="star">
+                            <span class="shine" style="color: <%style.maincolor%>;">★</span>
+                            <span class="shine" style="color: <%style.maincolor%>;">★</span>
+                            <span class="shine" style="color: <%style.maincolor%>;">★</span>
+                            <span class="shine" style="color: <%style.maincolor%>;">★</span>
+                            <span class="shine" style="color: <%style.maincolor%>;">★</span>
+                        </div>
+                        <div class="date" style="color: <%style.subcolor%>;">用户** 2016-10-25 17:09</div>
+                    </div>
+                    <div class="remark" style="color: <%style.textcolor%>;">商品很不错！我很喜欢！必须5星好评！</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+
+<script type="text/html" id="tpl_show_detail_pullup">
+    <div class="drag fixed" data-itemid="<%itemid%>">
+        <div class="fui-cell-group" style="margin-top: <%style.margintop%>px; background: <%style.background%>;">
+            <div class="fui-cell">
+                <div class="fui-cell-text text-center look-detail" style="color: <%style.textcolor%>;"><i class="icon icon-fold"></i> <span>上拉查看图文详情</span></div>
+            </div>
+        </div>
+    </div>
+</script>
+
+<script type="text/html" id="tpl_show_detail_buyshow">
+    <div class="drag" data-itemid="<%itemid%>">
+        <div class="fui-cell-group" style="margin-top: <%style.margintop%>px; margin-bottom: <%style.marginbottom%>px; background: <%style.background%>;">
+            <div class="fui-cell">
+                <div class="feii-cell-text">
+                    <p>此处为购买后可见区域</p>
+                    <p>此处为购买后可见区域</p>
+                    <p>此处为购买后可见区域</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+
+<script type="text/html" id="tpl_show_detail_store">
+    <div class="drag" data-itemid="<%itemid%>">
+        <div class="fui-according-group" style="background: <%style.background%>; margin-top: <%style.margintop%>px; margin-bottom: <%style.marginbottom%>px;">
+            <div class="fui-according expanded">
+                <div class="fui-according-header">
+                    <i class="icon icon-shop"></i>
+                    <span class="text" style="color: <%style.titlecolor%>;">适用门店</span>
+                    <span class="remark"><div class="badge">1</div></span>
+                </div>
+                <div class="fui-according-content store-container" style="height: auto;">
+                    <div class="fui-list store-item">
+                        <div class="fui-list-media">
+                            <i class="icon icon-shop"></i>
+                        </div>
+                        <div class="fui-list-inner store-inner">
+                            <div class="title" style="font-size: 14px; color: <%style.shopnamecolor%>;"><span class="storename">总店001</span></div>
+                            <div class="text" style="font-size: 12px; color: <%style.shopinfocolor%>;">地址: <span class="realname">山东省济南市市中区XXXXX路XXXX号</span></div>
+                            <div class="text" style="font-size: 12px; color: <%style.shopinfocolor%>;">电话: <span class="address">0531-88888888</span></div>
+                        </div>
+                        <div class="fui-list-angle ">
+                            <a><i class=" icon icon-phone" style="color: <%style.navtelcolor||'green'%>"></i></a>
+                            <br>
+                            <a><i class="icon icon-location" style="color: <%style.navlocationcolor||'#ff9900'%>"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div id="nearStore" style="display:none">
+                    <div class="fui-list store-item" id="nearStoreHtml"></div>
+                </div>
+            </div></div>
+    </div>
+</script>
+
+<script type="text/html" id="tpl_show_detail_package">
+    <div class="drag" data-itemid="<%itemid%>">
+        <div class="fui-cell-group fui-comment-group" style="background: <%style.background%>; margin-top: <%style.margintop%>px; margin-bottom: <%style.marginbottom%>px;">
+            <div class="fui-cell fui-cell-click">
+                <div class="fui-cell-text desc" style="color: <%style.textcolor%>;">相关套餐</div>
+                <div class="fui-cell-text desc label" style="color: <%style.textcolor%>;">更多套餐</div>
+                <div class="fui-cell-remark"></div>
+            </div>
+            <div class="fui-cell">
+                <div class="fui-cell-text comment ">
+                    <div class="fui-list package-list">
+                        <div class="fui-list-inner package-goods" style="padding: 0;">
+                            <img src="../addons/ewei_shopv2/plugin/diypage/static/template/detail1/goods.jpg" class="package-goods-img" alt="戴尔显示器24寸">
+                            <span>粉+深蓝情侣套装</span>
+                        </div>
+                        <div class="fui-list-inner package-goods">
+                            <img src="../addons/ewei_shopv2/plugin/diypage/static/template/detail1/goods.jpg" class="package-goods-img" alt="新款个性创意iphone6s手机壳磨砂苹果6情侣保护套i6日韩国简约潮">
+                            <span>粉+深蓝情侣套装2</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
 
 <!-- 另存为模板 弹出层 -->
 <div class="modal fade" id="saveTempModal" aria-hidden="false">

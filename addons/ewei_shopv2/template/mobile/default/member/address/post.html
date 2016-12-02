@@ -36,7 +36,7 @@
 
             
             <a id="btn-submit" class='external btn btn-danger block'>保存地址</a>
-              {if is_weixin()}
+              {if is_weixin() && $_W['shopset']['trade']['shareaddress']}
                  <a id="btn-address" class='btn btn-success block'>读取微信地址</a>
               {/if}
 
@@ -46,7 +46,7 @@
     <script language='javascript'>
 
         require(['biz/member/address'], function (modal) {
-            modal.initPost({shareAddress: {php echo json_encode($shareaddress_config)}});
+            modal.initPost();
         });</script>
 </div>
 

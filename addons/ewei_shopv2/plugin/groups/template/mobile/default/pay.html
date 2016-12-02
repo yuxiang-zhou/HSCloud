@@ -25,7 +25,7 @@
 
 
 		<div class='fui-list-group' style="margin-top:10px;">
-			{if $wechat['success'] || $payinfo['wechat']}
+			{if $wechat['success'] || (is_h5app() && $payinfo['wechat'])}
 			<div class='fui-list pay-btn' data-type='wechat'>
 				<div class='fui-list-media'>
 					<i class='icon icon-wechat wechat'></i>

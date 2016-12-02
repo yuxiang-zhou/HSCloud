@@ -71,6 +71,8 @@
 
         <th style="width:100px;">申请订单个数{if $status > 1}<br>通过申请订单个数{/if}</th>
 
+        <th style='width:100px;'>提现方式</th>
+
         {if $status==-1}
         <th style='width:100px;'>无效时间</th>
 
@@ -102,7 +104,13 @@
         <td>{$row['payrate']}%</td>
         <td>{$row['ordernum']}{if $status > 1}<br>{$row['passordernum']}{/if}</td>
 
-        <td >
+        <td>
+            <span class='label {if empty($row['applytype'])}label-success{else if $row['applytype']=='2'}label-warning{else if $row['applytype']=='3'}label-primary{/if}'>
+            {$apply_type[$row['applytype']]}
+            </span>
+        </td>
+
+        <td>
             {if $row['status']!=1}<a data-toggle='popover' data-content="
                          {if $status>=1 && $row['status']!=1}申请时间: <br/>{php echo date('Y-m-d',$row['applytime'])}<br/>{php echo date('H:i',$row['applytime'])}{/if}
                          {if $status>=2 && $row['status']!=2}<br/>审核时间: <br/>{php echo date('Y-m-d',$row['checktime'])}<br/>{php echo date('H:i',$row['checktime'])}{/if}

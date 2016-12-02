@@ -65,7 +65,7 @@
             <td  style="overflow:visible;position:relative">
                 {ifp 'bargain.act'}<a  class='btn btn-default btn-sm' data-toggle="ajaxRemove" href="{php echo webUrl('bargain/recover',array('goods'=>$value['goods_id']));}" data-confirm='对应商品将重新上架，你确认要这么做吗？'><i class='fa fa-hand-o-up'></i> 上架</a>{/if}
                 {ifp 'bargain.react'}<a  class='btn btn-default btn-sm' href="{php echo webUrl('bargain/react',array('actid'=>$value['id']));}" title="编辑"><i class='fa fa-edit'></i> 编辑</a>{/if}
-                {ifp 'bargain.huishou'}<a  class='btn btn-default btn-sm' data-toggle="ajaxRemove" href="{php echo webUrl('bargain/delete',array('id'=>$value['id']));}" data-confirm='确认删除此商品？'><i class='fa fa-trash'></i> 删除</a>{/if}
+                {ifp 'bargain.huishou'}<a  class='btn btn-default btn-sm' data-toggle="ajaxRemove" href="{php echo webUrl('bargain/huishou',array('id'=>$value['id']));}" data-confirm='确认删除此商品？'><i class='fa fa-trash'></i> 删除</a>{/if}
 
             </td>
         </tr>

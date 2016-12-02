@@ -1,5 +1,101 @@
 <?php
-pdo_query("CREATE TABLE IF NOT EXISTS `ims_ewei_shop_adv` (
+pdo_query("CREATE TABLE IF NOT EXISTS `ims_ewei_shop_abonus_bill` (
+`id` int(11) NOT NULL AUTO_INCREMENT,
+`uniacid` int(11) DEFAULT '0',
+`billno` varchar(100) DEFAULT '',
+`paytype` int(11) DEFAULT '0',
+`year` int(11) DEFAULT '0',
+`month` int(11) DEFAULT '0',
+`week` int(11) DEFAULT '0',
+`ordercount` int(11) DEFAULT '0',
+`ordermoney` decimal(10,2) DEFAULT '0.00',
+`paytime` int(11) DEFAULT '0',
+`aagentcount1` int(11) DEFAULT '0',
+`aagentcount2` int(11) DEFAULT '0',
+`aagentcount3` int(11) DEFAULT '0',
+`bonusmoney1` decimal(10,2) DEFAULT '0.00',
+`bonusmoney_send1` decimal(10,2) DEFAULT '0.00',
+`bonusmoney_pay1` decimal(10,2) DEFAULT '0.00',
+`bonusmoney2` decimal(10,2) DEFAULT '0.00',
+`bonusmoney_send2` decimal(10,2) DEFAULT '0.00',
+`bonusmoney_pay2` decimal(10,2) DEFAULT '0.00',
+`bonusmoney3` decimal(10,2) DEFAULT '0.00',
+`bonusmoney_send3` decimal(10,2) DEFAULT '0.00',
+`bonusmoney_pay3` decimal(10,2) DEFAULT '0.00',
+`createtime` int(11) DEFAULT '0',
+`status` tinyint(3) DEFAULT '0',
+`starttime` int(11) DEFAULT '0',
+`endtime` int(11) DEFAULT '0',
+`confirmtime` int(11) DEFAULT '0',
+PRIMARY KEY (`id`),
+KEY `idx_uniacid` (`uniacid`),
+KEY `idx_paytype` (`paytype`),
+KEY `idx_createtime` (`createtime`),
+KEY `idx_paytime` (`paytime`),
+KEY `idx_status` (`status`),
+KEY `idx_month` (`month`),
+KEY `idx_week` (`week`),
+KEY `idx_year` (`year`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_abonus_billo` (
+`id` int(11) NOT NULL AUTO_INCREMENT,
+`uniacid` int(11) DEFAULT '0',
+`billid` int(11) DEFAULT '0',
+`orderid` int(11) DEFAULT '0',
+`ordermoney` decimal(10,2) DEFAULT '0.00',
+PRIMARY KEY (`id`),
+KEY `idx_billid` (`billid`),
+KEY `idx_uniacid` (`uniacid`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_abonus_billp` (
+`id` int(11) NOT NULL AUTO_INCREMENT,
+`uniacid` int(11) DEFAULT '0',
+`billid` int(11) DEFAULT '0',
+`openid` varchar(255) DEFAULT '',
+`payno` varchar(255) DEFAULT '',
+`paytype` tinyint(3) DEFAULT '0',
+`bonus1` decimal(10,4) DEFAULT '0.0000',
+`bonus2` decimal(10,4) DEFAULT '0.0000',
+`bonus3` decimal(10,4) DEFAULT '0.0000',
+`money1` decimal(10,2) DEFAULT '0.00',
+`realmoney1` decimal(10,2) DEFAULT '0.00',
+`paymoney1` decimal(10,2) DEFAULT '0.00',
+`money2` decimal(10,2) DEFAULT '0.00',
+`realmoney2` decimal(10,2) DEFAULT '0.00',
+`paymoney2` decimal(10,2) DEFAULT '0.00',
+`money3` decimal(10,2) DEFAULT '0.00',
+`realmoney3` decimal(10,2) DEFAULT '0.00',
+`paymoney3` decimal(10,2) DEFAULT '0.00',
+`chargemoney1` decimal(10,2) DEFAULT '0.00',
+`chargemoney2` decimal(10,2) DEFAULT '0.00',
+`chargemoney3` decimal(10,2) DEFAULT '0.00',
+`charge` decimal(10,2) DEFAULT '0.00',
+`status` tinyint(3) DEFAULT '0',
+`reason` varchar(255) DEFAULT '',
+`paytime` int(11) DEFAULT '0',
+PRIMARY KEY (`id`),
+KEY `idx_billid` (`billid`),
+KEY `idx_uniacid` (`uniacid`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_abonus_level` (
+`id` int(11) NOT NULL AUTO_INCREMENT,
+`uniacid` int(11) NOT NULL,
+`levelname` varchar(50) DEFAULT '',
+`bonus1` decimal(10,4) DEFAULT '0.0000',
+`bonus2` decimal(10,4) DEFAULT '0.0000',
+`bonus3` decimal(10,4) DEFAULT '0.0000',
+`ordermoney` decimal(10,2) DEFAULT '0.00',
+`ordercount` int(11) DEFAULT '0',
+`bonusmoney` decimal(10,2) DEFAULT '0.00',
+`downcount` int(11) DEFAULT '0',
+PRIMARY KEY (`id`),
+KEY `idx_uniacid` (`uniacid`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_adv` (
 `id` int(11) NOT NULL AUTO_INCREMENT,
 `uniacid` int(11) DEFAULT '0',
 `advname` varchar(50) DEFAULT '',
@@ -152,6 +248,73 @@ KEY `idx_enabled` (`enabled`),
 KEY `idx_displayorder` (`displayorder`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_bargain_account` (
+`id` int(11) NOT NULL,
+`mall_name` varchar(255),
+`banner` varchar(255),
+`mall_title` varchar(255),
+`mall_content` varchar(255),
+`mall_logo` varchar(255),
+`message` int(11) DEFAULT '0',
+`partin` int(11) DEFAULT '0',
+`rule` text,
+`end_message` int(11) DEFAULT '0'
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_bargain_actor` (
+`id` int(11) NOT NULL AUTO_INCREMENT,
+`goods_id` int(11) NOT NULL,
+`now_price` decimal(9,2) NOT NULL,
+`created_time` datetime NOT NULL,
+`update_time` datetime NOT NULL,
+`bargain_times` int(10) NOT NULL,
+`openid` varchar(50) NOT NULL DEFAULT '',
+`nickname` varchar(20) NOT NULL,
+`head_image` varchar(200) NOT NULL,
+`bargain_price` decimal(9,2) NOT NULL,
+`status` tinyint(2) NOT NULL,
+`account_id` int(11) NOT NULL,
+`initiate` tinyint(4) NOT NULL DEFAULT '0',
+`order` int(11) DEFAULT '0',
+PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_bargain_goods` (
+`id` int(11) NOT NULL AUTO_INCREMENT,
+`account_id` int(11) NOT NULL,
+`goods_id` varchar(20) NOT NULL,
+`end_price` decimal(10,2) NOT NULL,
+`start_time` datetime NOT NULL,
+`end_time` datetime NOT NULL,
+`status` tinyint(2) NOT NULL,
+`type` tinyint(2) NOT NULL,
+`user_set` text,
+`rule` text,
+`act_times` int(11) NOT NULL,
+`mode` tinyint(4) NOT NULL,
+`total_time` int(11) NOT NULL,
+`each_time` int(11) NOT NULL,
+`time_limit` int(11) NOT NULL,
+`probability` text NOT NULL,
+`custom` varchar(255),
+`maximum` int(11),
+`initiate` tinyint(4) NOT NULL DEFAULT '0',
+`myself` tinyint(3) DEFAULT '0',
+PRIMARY KEY (`id`),
+KEY `goods_id` (`goods_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_bargain_record` (
+`id` int(11) NOT NULL AUTO_INCREMENT,
+`actor_id` int(11) NOT NULL,
+`bargain_price` decimal(9,2) NOT NULL,
+`openid` varchar(50) NOT NULL DEFAULT '',
+`nickname` varchar(20) NOT NULL,
+`head_image` varchar(200) NOT NULL,
+`bargain_time` datetime NOT NULL,
+PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
 CREATE TABLE IF NOT EXISTS `ims_ewei_shop_carrier` (
 `id` int(11) NOT NULL AUTO_INCREMENT,
 `uniacid` int(11) DEFAULT '0',
@@ -214,6 +377,7 @@ CREATE TABLE IF NOT EXISTS `ims_ewei_shop_commission_apply` (
 `alipay` varchar(50) NOT NULL DEFAULT '',
 `bankname` varchar(50) NOT NULL DEFAULT '',
 `bankcard` varchar(50) NOT NULL DEFAULT '',
+`realname` varchar(50) NOT NULL DEFAULT '',
 PRIMARY KEY (`id`),
 KEY `idx_uniacid` (`uniacid`),
 KEY `idx_mid` (`mid`),
@@ -273,7 +437,7 @@ CREATE TABLE IF NOT EXISTS `ims_ewei_shop_commission_log` (
 `realmoney` decimal(10,2) DEFAULT '0.00',
 `charge` decimal(10,2) DEFAULT '0.00',
 `deductionmoney` decimal(10,2) DEFAULT '0.00',
-`type` tinyint(3) NOT NULL DEFAULT '0',
+`type` tinyint(3) DEFAULT '0',
 PRIMARY KEY (`id`),
 KEY `idx_uniacid` (`uniacid`),
 KEY `idx_applyid` (`applyid`),
@@ -375,6 +539,19 @@ CREATE TABLE IF NOT EXISTS `ims_ewei_shop_coupon` (
 `displayorder` int(11) DEFAULT '0',
 `pwdkey2` varchar(255) DEFAULT '',
 `merchid` int(11) DEFAULT '0',
+`limitgoodtype` tinyint(1) DEFAULT '0',
+`limitgoodcatetype` tinyint(1) DEFAULT '0',
+`limitgoodcateids` varchar(500) DEFAULT '',
+`limitgoodids` varchar(500) DEFAULT '',
+`islimitlevel` tinyint(1) DEFAULT '0',
+`limitmemberlevels` varchar(500) DEFAULT '',
+`limitagentlevels` varchar(500) DEFAULT '',
+`limitpartnerlevels` varchar(500) DEFAULT '',
+`limitaagentlevels` varchar(500) DEFAULT '',
+`tagtitle` varchar(20) DEFAULT '',
+`settitlecolor` tinyint(1) DEFAULT '0',
+`titlecolor` varchar(10) DEFAULT '',
+`limitdiscounttype` tinyint(1) DEFAULT '1',
 PRIMARY KEY (`id`),
 KEY `idx_uniacid` (`uniacid`),
 KEY `idx_coupontype` (`coupontype`),
@@ -413,6 +590,8 @@ CREATE TABLE IF NOT EXISTS `ims_ewei_shop_coupon_data` (
 `back` tinyint(3) DEFAULT '0',
 `backtime` int(11) DEFAULT '0',
 `merchid` int(11) DEFAULT '0',
+`isnew` tinyint(1) DEFAULT '1',
+`nocount` tinyint(1) DEFAULT '1',
 PRIMARY KEY (`id`),
 KEY `idx_couponid` (`couponid`),
 KEY `idx_gettype` (`gettype`)
@@ -819,6 +998,7 @@ CREATE TABLE IF NOT EXISTS `ims_ewei_shop_exhelper_express` (
 `height` decimal(10,2) DEFAULT '0.00',
 `bg` varchar(255) DEFAULT '',
 `isdefault` tinyint(3) DEFAULT '0',
+`merchid` int(11) DEFAULT '0',
 PRIMARY KEY (`id`),
 KEY `idx_uniacid` (`uniacid`),
 KEY `idx_isdefault` (`isdefault`)
@@ -834,6 +1014,7 @@ CREATE TABLE IF NOT EXISTS `ims_ewei_shop_exhelper_senduser` (
 `senderaddress` varchar(255) DEFAULT '',
 `sendercity` varchar(255),
 `isdefault` tinyint(3) DEFAULT '0',
+`merchid` int(11) DEFAULT '0',
 PRIMARY KEY (`id`),
 KEY `idx_uniacid` (`uniacid`),
 KEY `idx_isdefault` (`isdefault`)
@@ -847,6 +1028,7 @@ CREATE TABLE IF NOT EXISTS `ims_ewei_shop_exhelper_sys` (
 `ip_cloud` varchar(255) NOT NULL DEFAULT '',
 `port_cloud` int(11) NOT NULL DEFAULT '8000',
 `is_cloud` int(1) NOT NULL DEFAULT '0',
+`merchid` int(11) DEFAULT '0',
 PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
@@ -988,7 +1170,7 @@ CREATE TABLE IF NOT EXISTS `ims_ewei_shop_goods` (
 `title` varchar(100) DEFAULT '',
 `thumb` varchar(255) DEFAULT '',
 `unit` varchar(5) DEFAULT '',
-`description` varchar(1000),
+`description` varchar(1000) DEFAULT '',
 `content` text,
 `goodssn` varchar(50) DEFAULT '',
 `productsn` varchar(50) DEFAULT '',
@@ -1055,10 +1237,10 @@ CREATE TABLE IF NOT EXISTS `ims_ewei_shop_goods` (
 `discounts` text,
 `nocommission` tinyint(3) DEFAULT '0',
 `hidecommission` tinyint(3) DEFAULT '0',
+`artid` int(11) DEFAULT '0',
 `pcates` text,
 `tcates` text,
 `cates` text,
-`artid` int(11) DEFAULT '0',
 `detail_logo` varchar(255) DEFAULT '',
 `detail_shopname` varchar(255) DEFAULT '',
 `detail_btntext1` varchar(255) DEFAULT '',
@@ -1066,7 +1248,7 @@ CREATE TABLE IF NOT EXISTS `ims_ewei_shop_goods` (
 `detail_btntext2` varchar(255) DEFAULT '',
 `detail_btnurl2` varchar(255) DEFAULT '',
 `detail_totaltitle` varchar(255) DEFAULT '',
-`saleupdate31820` tinyint(3) DEFAULT '0',
+`saleupdate33219` tinyint(3) DEFAULT '0',
 `deduct2` decimal(10,2) DEFAULT '0.00',
 `ednum` int(11) DEFAULT '0',
 `edmoney` decimal(10,2) DEFAULT '0.00',
@@ -1109,17 +1291,25 @@ CREATE TABLE IF NOT EXISTS `ims_ewei_shop_goods` (
 `showtotal` tinyint(1) unsigned NOT NULL DEFAULT '0',
 `subtitle` varchar(255) DEFAULT '',
 `sharebtn` tinyint(1) NOT NULL DEFAULT '0',
-`minpriceupdated` tinyint(1) DEFAULT '0',
-`catesinit3` text,
-`showtotaladd` tinyint(1) DEFAULT '0',
 `merchid` int(11) DEFAULT '0',
 `checked` tinyint(3) DEFAULT '0',
 `thumb_first` tinyint(3) DEFAULT '0',
 `merchsale` tinyint(1) DEFAULT '0',
+`catesinit3` text,
+`showtotaladd` tinyint(1) DEFAULT '0',
 `keywords` varchar(255) DEFAULT '',
 `catch_id` varchar(255) DEFAULT '',
 `catch_url` varchar(255) DEFAULT '',
 `catch_source` varchar(255) DEFAULT '',
+`labelname` text,
+`autoreceive` int(11) DEFAULT '0',
+`cannotrefund` tinyint(3) DEFAULT '0',
+`bargain` int(11) DEFAULT '0',
+`buyagain` decimal(10,2) DEFAULT '0.00',
+`buyagain_islong` tinyint(1) DEFAULT '0',
+`buyagain_condition` tinyint(1) DEFAULT '0',
+`buyagain_sale` tinyint(1) DEFAULT '0',
+`buyagain_commission` text,
 PRIMARY KEY (`id`),
 KEY `idx_uniacid` (`uniacid`),
 KEY `idx_pcate` (`pcate`),
@@ -1166,6 +1356,23 @@ CREATE TABLE IF NOT EXISTS `ims_ewei_shop_goods_group` (
 PRIMARY KEY (`id`),
 KEY `idx_uniacid` (`uniacid`),
 KEY `idx_enabled` (`enabled`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_goods_label` (
+`id` int(11) NOT NULL AUTO_INCREMENT,
+`uniacid` int(11) NOT NULL DEFAULT '0',
+`label` varchar(255) NOT NULL DEFAULT '',
+`labelname` text NOT NULL,
+`status` tinyint(3) NOT NULL DEFAULT '0',
+`displayorder` int(11) NOT NULL DEFAULT '0',
+PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_goods_labelstyle` (
+`id` int(11) NOT NULL AUTO_INCREMENT,
+`uniacid` int(11) NOT NULL,
+`style` int(3) NOT NULL,
+PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 CREATE TABLE IF NOT EXISTS `ims_ewei_shop_goods_option` (
@@ -1271,14 +1478,21 @@ CREATE TABLE IF NOT EXISTS `ims_ewei_shop_groups_goods` (
 `id` int(11) NOT NULL AUTO_INCREMENT,
 `displayorder` int(11) unsigned DEFAULT '0',
 `uniacid` int(11) DEFAULT '0',
+`goodssn` varchar(50),
+`productsn` varchar(50),
 `title` varchar(255) NOT NULL DEFAULT '',
 `category` tinyint(3) unsigned NOT NULL DEFAULT '0',
+`showstock` tinyint(2) NOT NULL,
 `stock` int(11) NOT NULL DEFAULT '0',
 `price` decimal(10,2) DEFAULT '0.00',
 `groupsprice` decimal(10,2) DEFAULT '0.00',
-`singleprice` decimal(10,2) DEFAULT '0.00',
 `goodsnum` int(11) NOT NULL DEFAULT '1',
+`purchaselimit` int(11) NOT NULL DEFAULT '0',
+`single` tinyint(2) NOT NULL DEFAULT '0',
+`singleprice` decimal(10,2) DEFAULT '0.00',
 `units` varchar(255) NOT NULL DEFAULT '件',
+`dispatchtype` tinyint(2) NOT NULL,
+`dispatchid` int(11) NOT NULL,
 `freight` decimal(10,2) DEFAULT '0.00',
 `endtime` int(11) unsigned NOT NULL DEFAULT '0',
 `groupnum` int(10) NOT NULL DEFAULT '0',
@@ -1288,26 +1502,18 @@ CREATE TABLE IF NOT EXISTS `ims_ewei_shop_groups_goods` (
 `content` text,
 `createtime` int(11) unsigned NOT NULL DEFAULT '0',
 `status` tinyint(3) NOT NULL DEFAULT '0',
-`ishot` tinyint(3) NOT NULL DEFAULT '0',
+`isindex` tinyint(3) NOT NULL DEFAULT '0',
 `deleted` tinyint(3) NOT NULL DEFAULT '0',
 `goodsid` int(11) NOT NULL DEFAULT '0',
 `followneed` tinyint(2) NOT NULL DEFAULT '0',
 `followtext` varchar(255),
+`followurl` varchar(255),
 `share_title` varchar(255),
 `share_icon` varchar(255),
 `share_desc` varchar(500),
-`goodssn` varchar(50),
-`productsn` varchar(50),
-`showstock` tinyint(2) NOT NULL,
-`purchaselimit` int(11) NOT NULL DEFAULT '0',
-`single` tinyint(2) NOT NULL DEFAULT '0',
-`dispatchtype` tinyint(2) NOT NULL,
-`dispatchid` int(11) NOT NULL,
-`isindex` tinyint(3) NOT NULL DEFAULT '0',
-`followurl` varchar(255),
 `deduct` decimal(10,2) NOT NULL DEFAULT '0.00',
-`rights` tinyint(2) NOT NULL DEFAULT '1',
 `thumb_url` text,
+`rights` tinyint(2) NOT NULL DEFAULT '1',
 `gid` int(11) DEFAULT '0',
 `discount` tinyint(3) DEFAULT '0',
 `headstype` tinyint(3),
@@ -1325,8 +1531,7 @@ PRIMARY KEY (`id`),
 KEY `idx_uniacid` (`uniacid`),
 KEY `idx_type` (`category`),
 KEY `idx_createtime` (`createtime`),
-KEY `idx_status` (`status`),
-KEY `idx_istop` (`isindex`)
+KEY `idx_status` (`status`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 CREATE TABLE IF NOT EXISTS `ims_ewei_shop_groups_goods_atlas` (
@@ -1343,27 +1548,24 @@ CREATE TABLE IF NOT EXISTS `ims_ewei_shop_groups_order` (
 `orderno` varchar(45) NOT NULL,
 `groupnum` int(11) NOT NULL,
 `paytime` int(11) NOT NULL,
+`credit` int(11) DEFAULT '0',
+`creditmoney` decimal(11,2) DEFAULT '0.00',
 `price` decimal(11,2) DEFAULT '0.00',
 `freight` decimal(11,2) DEFAULT '0.00',
 `status` int(9) NOT NULL,
 `pay_type` varchar(45),
+`dispatchid` int(11),
+`addressid` int(11) NOT NULL DEFAULT '0',
+`address` varchar(255),
 `goodid` int(11) NOT NULL,
 `teamid` int(11) NOT NULL,
 `is_team` int(2) NOT NULL,
 `heads` int(11) DEFAULT '0',
+`discount` decimal(10,2) DEFAULT '0.00',
 `starttime` int(11) NOT NULL,
+`canceltime` int(11) NOT NULL DEFAULT '0',
 `endtime` int(45) NOT NULL,
 `createtime` int(11) NOT NULL,
-`success` int(2) NOT NULL DEFAULT '0',
-`delete` int(2) NOT NULL DEFAULT '0',
-`deleted` int(2) NOT NULL DEFAULT '0',
-`credit` int(11) DEFAULT '0',
-`creditmoney` decimal(11,2) DEFAULT '0.00',
-`dispatchid` int(11),
-`addressid` int(11) NOT NULL DEFAULT '0',
-`address` varchar(255),
-`discount` decimal(10,2) DEFAULT '0.00',
-`canceltime` int(11) NOT NULL DEFAULT '0',
 `finishtime` int(11) NOT NULL DEFAULT '0',
 `refundid` int(11) NOT NULL DEFAULT '0',
 `refundstate` tinyint(2) NOT NULL DEFAULT '0',
@@ -1376,6 +1578,8 @@ CREATE TABLE IF NOT EXISTS `ims_ewei_shop_groups_order` (
 `remarkclose` text,
 `remarksend` text,
 `message` varchar(255),
+`success` int(2) NOT NULL DEFAULT '0',
+`deleted` int(2) NOT NULL DEFAULT '0',
 `realname` varchar(20),
 `mobile` varchar(11),
 `isverify` tinyint(3) DEFAULT '0',
@@ -1454,14 +1658,14 @@ CREATE TABLE IF NOT EXISTS `ims_ewei_shop_groups_set` (
 `uniacid` varchar(45),
 `groups` int(2) NOT NULL DEFAULT '0',
 `followurl` varchar(255),
+`followqrcode` varchar(255),
 `groupsurl` varchar(255),
 `share_title` varchar(255),
 `share_icon` varchar(255),
 `share_desc` varchar(255),
+`share_url` varchar(255),
 `groups_description` text,
 `description` int(2) NOT NULL DEFAULT '0',
-`followqrcode` varchar(255),
-`share_url` varchar(255),
 `creditdeduct` tinyint(2) NOT NULL DEFAULT '0',
 `groupsdeduct` tinyint(2) NOT NULL DEFAULT '0',
 `credit` int(11) NOT NULL DEFAULT '1',
@@ -1488,25 +1692,6 @@ CREATE TABLE IF NOT EXISTS `ims_ewei_shop_groups_verify` (
 `verifier` varchar(45) DEFAULT '0',
 `isverify` tinyint(3) DEFAULT '0',
 `verifytime` int(11) DEFAULT '0',
-PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
-CREATE TABLE IF NOT EXISTS `ims_ewei_shop_mc_merchant` (
-`id` int(11) NOT NULL,
-`uniacid` int(11) NOT NULL,
-`merchant_no` varchar(255) NOT NULL DEFAULT '',
-`username` varchar(255) NOT NULL DEFAULT '',
-`password` varchar(32) NOT NULL DEFAULT '',
-`salt` varchar(8) NOT NULL DEFAULT '',
-`contact_name` varchar(255) NOT NULL DEFAULT '',
-`contact_mobile` varchar(16) NOT NULL DEFAULT '',
-`contact_address` varchar(255) NOT NULL DEFAULT '',
-`type` tinyint(4) NOT NULL,
-`status` tinyint(4) NOT NULL,
-`createtime` int(11) NOT NULL,
-`validitytime` int(11) NOT NULL,
-`industry` varchar(255) NOT NULL DEFAULT '',
-`remark` varchar(1000) NOT NULL DEFAULT '',
 PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
@@ -1596,7 +1781,8 @@ CREATE TABLE IF NOT EXISTS `ims_ewei_shop_member` (
 `diyauthorfields` text,
 `authorid` int(11) DEFAULT '0',
 `comefrom` varchar(20),
-`openid_qq` varchar(32),
+`openid_qq` varchar(50),
+`openid_wx` varchar(50),
 PRIMARY KEY (`id`),
 KEY `idx_uniacid` (`uniacid`),
 KEY `idx_shareid` (`agentid`),
@@ -1644,8 +1830,8 @@ CREATE TABLE IF NOT EXISTS `ims_ewei_shop_member_cart` (
 `diyformfields` text,
 `diyformid` int(11) DEFAULT '0',
 `selected` tinyint(1) DEFAULT '1',
-`selectedadd` tinyint(1) DEFAULT '1',
 `merchid` int(11) DEFAULT '0',
+`selectedadd` tinyint(1) DEFAULT '1',
 PRIMARY KEY (`id`),
 KEY `idx_uniacid` (`uniacid`),
 KEY `idx_goodsid` (`goodsid`),
@@ -1722,11 +1908,11 @@ CREATE TABLE IF NOT EXISTS `ims_ewei_shop_member_log` (
 `gives` decimal(10,2),
 `couponid` int(11) DEFAULT '0',
 `transid` varchar(255) DEFAULT '',
+`isborrow` tinyint(3) DEFAULT '0',
+`borrowopenid` varchar(100) DEFAULT '',
 `realmoney` decimal(10,2) DEFAULT '0.00',
 `charge` decimal(10,2) DEFAULT '0.00',
 `deductionmoney` decimal(10,2) DEFAULT '0.00',
-`isborrow` tinyint(3) DEFAULT '0',
-`borrowopenid` varchar(100) DEFAULT '',
 `remark` varchar(255) NOT NULL DEFAULT '',
 `apppay` tinyint(3) NOT NULL DEFAULT '0',
 PRIMARY KEY (`id`),
@@ -1751,6 +1937,34 @@ CREATE TABLE IF NOT EXISTS `ims_ewei_shop_member_message_template` (
 `createtime` int(11) DEFAULT '0',
 `sendtimes` int(11) DEFAULT '0',
 `sendcount` int(11) DEFAULT '0',
+PRIMARY KEY (`id`),
+KEY `idx_uniacid` (`uniacid`),
+KEY `idx_createtime` (`createtime`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_member_printer` (
+`id` int(11) NOT NULL AUTO_INCREMENT,
+`uniacid` int(11) DEFAULT '0',
+`title` varchar(255) DEFAULT '',
+`type` tinyint(3) DEFAULT '0',
+`print_data` text,
+`createtime` int(11) DEFAULT '0',
+PRIMARY KEY (`id`),
+KEY `idx_uniacid` (`uniacid`),
+KEY `idx_createtime` (`createtime`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_member_printer_template` (
+`id` int(11) NOT NULL AUTO_INCREMENT,
+`uniacid` int(11) DEFAULT '0',
+`title` varchar(255) DEFAULT '',
+`type` tinyint(3) DEFAULT '0',
+`print_title` varchar(255) DEFAULT '',
+`print_style` varchar(255) DEFAULT '',
+`print_data` text,
+`code` varchar(500) DEFAULT '',
+`qrcode` varchar(500) DEFAULT '',
+`createtime` int(11) DEFAULT '0',
 PRIMARY KEY (`id`),
 KEY `idx_uniacid` (`uniacid`),
 KEY `idx_createtime` (`createtime`)
@@ -1886,11 +2100,14 @@ CREATE TABLE IF NOT EXISTS `ims_ewei_shop_merch_clearing` (
 `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
 `uniacid` int(11) NOT NULL DEFAULT '0',
 `merchid` int(11) NOT NULL DEFAULT '0',
+`clearno` varchar(64) NOT NULL DEFAULT '',
 `goodsprice` decimal(10,2) NOT NULL DEFAULT '0.00',
 `dispatchprice` decimal(10,2) NOT NULL DEFAULT '0.00',
 `deductprice` decimal(10,2) NOT NULL DEFAULT '0.00',
 `deductcredit2` decimal(10,2) NOT NULL DEFAULT '0.00',
 `discountprice` decimal(10,2) NOT NULL DEFAULT '0.00',
+`deductenough` decimal(10,2) NOT NULL DEFAULT '0.00',
+`merchdeductenough` decimal(10,2) NOT NULL DEFAULT '0.00',
 `isdiscountprice` decimal(10,2) NOT NULL DEFAULT '0.00',
 `price` decimal(10,2) NOT NULL DEFAULT '0.00',
 `createtime` int(10) unsigned NOT NULL DEFAULT '0',
@@ -1898,14 +2115,11 @@ CREATE TABLE IF NOT EXISTS `ims_ewei_shop_merch_clearing` (
 `endtime` int(10) unsigned NOT NULL DEFAULT '0',
 `status` tinyint(1) NOT NULL DEFAULT '0',
 `realprice` decimal(10,2) NOT NULL DEFAULT '0.00',
-`remark` varchar(2000) NOT NULL DEFAULT '',
 `realpricerate` decimal(10,2) NOT NULL DEFAULT '0.00',
 `finalprice` decimal(10,2) NOT NULL DEFAULT '0.00',
+`remark` varchar(2000) NOT NULL DEFAULT '',
 `paytime` int(11) NOT NULL DEFAULT '0',
 `payrate` decimal(10,2) NOT NULL DEFAULT '0.00',
-`clearno` varchar(64) NOT NULL DEFAULT '',
-`deductenough` decimal(10,2) NOT NULL DEFAULT '0.00',
-`merchdeductenough` decimal(10,2) NOT NULL DEFAULT '0.00',
 PRIMARY KEY (`id`),
 KEY `uniacid` (`uniacid`),
 KEY `merchid` (`merchid`),
@@ -2075,28 +2289,16 @@ CREATE TABLE IF NOT EXISTS `ims_ewei_shop_merch_user` (
 `payrate` decimal(10,2) NOT NULL DEFAULT '0.00',
 `isrecommand` tinyint(1) DEFAULT '0',
 `cateid` int(11) DEFAULT '0',
+`address` varchar(255) DEFAULT '',
+`tel` varchar(255) DEFAULT '',
+`lat` varchar(255) DEFAULT '',
+`lng` varchar(255) DEFAULT '',
 PRIMARY KEY (`id`),
 KEY `idx_uniacid` (`uniacid`),
 KEY `idx_status` (`status`),
 KEY `idx_groupid` (`groupid`),
 KEY `idx_regid` (`regid`),
 KEY `idx_cateid` (`cateid`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
-CREATE TABLE IF NOT EXISTS `ims_ewei_shop_multi_shop` (
-`id` int(11) NOT NULL AUTO_INCREMENT,
-`uniacid` int(11) DEFAULT '0',
-`uid` int(11) DEFAULT '0',
-`name` varchar(255) DEFAULT '',
-`company` varchar(255) DEFAULT '',
-`sales` varchar(255) DEFAULT '',
-`starttime` int(11) DEFAULT '0',
-`endtime` int(11) DEFAULT '0',
-`applytime` int(11) DEFAULT '0',
-`jointime` int(11) DEFAULT '0',
-`status` tinyint(3) DEFAULT '0',
-`refusecontent` text,
-PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 CREATE TABLE IF NOT EXISTS `ims_ewei_shop_nav` (
@@ -2204,8 +2406,8 @@ CREATE TABLE IF NOT EXISTS `ims_ewei_shop_order` (
 `verifyinfo` text,
 `verifytype` tinyint(1) DEFAULT '0',
 `verifycodes` text,
-`invoicename` varchar(255) DEFAULT '',
 `merchid` int(11) DEFAULT '0',
+`invoicename` varchar(255) DEFAULT '',
 `ismerch` tinyint(1) DEFAULT '0',
 `parentid` int(11) DEFAULT '0',
 `isparent` tinyint(1) DEFAULT '0',
@@ -2220,6 +2422,10 @@ CREATE TABLE IF NOT EXISTS `ims_ewei_shop_order` (
 `borrowopenid` varchar(100) DEFAULT '',
 `merchisdiscountprice` decimal(10,2) NOT NULL DEFAULT '0.00',
 `apppay` tinyint(3) NOT NULL DEFAULT '0',
+`coupongoodprice` decimal(10,2) DEFAULT '1.00',
+`buyagainprice` decimal(10,2) DEFAULT '0.00',
+`ispackage` tinyint(3) DEFAULT '0',
+`packageid` int(11) DEFAULT '0',
 PRIMARY KEY (`id`),
 KEY `idx_uniacid` (`uniacid`),
 KEY `idx_openid` (`openid`),
@@ -2307,7 +2513,7 @@ CREATE TABLE IF NOT EXISTS `ims_ewei_shop_order_goods` (
 `diyformdataid` int(11) DEFAULT '0',
 `diyformdata` text,
 `diyformfields` text,
-`openid` varchar(255) DEFAULT '',
+`openid` varchar(255),
 `printstate` int(11) NOT NULL DEFAULT '0',
 `printstate2` int(11) NOT NULL DEFAULT '0',
 `rstate` tinyint(3) DEFAULT '0',
@@ -2316,6 +2522,7 @@ CREATE TABLE IF NOT EXISTS `ims_ewei_shop_order_goods` (
 `parentorderid` int(11) DEFAULT '0',
 `merchsale` tinyint(3) NOT NULL DEFAULT '0',
 `isdiscountprice` decimal(10,2) NOT NULL DEFAULT '0.00',
+`canbuyagain` tinyint(1) DEFAULT '0',
 PRIMARY KEY (`id`),
 KEY `idx_uniacid` (`uniacid`),
 KEY `idx_orderid` (`orderid`),
@@ -2374,6 +2581,41 @@ CREATE TABLE IF NOT EXISTS `ims_ewei_shop_order_refund` (
 PRIMARY KEY (`id`),
 KEY `idx_createtime` (`createtime`),
 KEY `idx_uniacid` (`uniacid`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_package` (
+`id` int(11) NOT NULL AUTO_INCREMENT,
+`uniacid` int(11) NOT NULL DEFAULT '0',
+`title` varchar(255) NOT NULL,
+`price` decimal(10,2) NOT NULL DEFAULT '0.00',
+`freight` decimal(10,2) NOT NULL DEFAULT '0.00',
+`thumb` varchar(255) NOT NULL,
+`starttime` int(11) NOT NULL DEFAULT '0',
+`endtime` int(11) NOT NULL DEFAULT '0',
+`goodsid` varchar(255) NOT NULL,
+`cash` tinyint(3) NOT NULL DEFAULT '0',
+`share_title` varchar(255) NOT NULL,
+`share_icon` varchar(255) NOT NULL,
+`share_desc` varchar(500) NOT NULL,
+`status` tinyint(3) NOT NULL DEFAULT '0',
+`deleted` tinyint(3) NOT NULL DEFAULT '0',
+`displayorder` int(11) NOT NULL DEFAULT '0',
+PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_package_goods` (
+`id` int(11) NOT NULL AUTO_INCREMENT,
+`uniacid` int(11) NOT NULL,
+`pid` int(11) NOT NULL,
+`goodsid` int(11) NOT NULL,
+`title` varchar(255) NOT NULL,
+`thumb` varchar(255) NOT NULL,
+`price` decimal(10,2) NOT NULL DEFAULT '0.00',
+`option` varchar(255) NOT NULL,
+`goodssn` varchar(255) NOT NULL,
+`productsn` varchar(255) NOT NULL,
+`hasoption` tinyint(3) NOT NULL DEFAULT '0',
+PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 CREATE TABLE IF NOT EXISTS `ims_ewei_shop_perm_log` (
@@ -2452,11 +2694,11 @@ CREATE TABLE IF NOT EXISTS `ims_ewei_shop_plugin` (
 `author` varchar(20) DEFAULT '',
 `status` int(11) DEFAULT '0',
 `category` varchar(255) DEFAULT '',
+`isv2` tinyint(3) DEFAULT '0',
 `thumb` varchar(255) DEFAULT '',
 `desc` text,
 `iscom` tinyint(3) DEFAULT '0',
 `deprecated` tinyint(3) DEFAULT '0',
-`isv2` tinyint(3) DEFAULT '0',
 PRIMARY KEY (`id`),
 KEY `idx_displayorder` (`displayorder`),
 KEY `idx_identity` (`identity`)
@@ -2484,7 +2726,6 @@ CREATE TABLE IF NOT EXISTS `ims_ewei_shop_poster` (
 `submoney` decimal(10,2) DEFAULT '0.00',
 `reccredit` int(11) DEFAULT '0',
 `recmoney` decimal(10,2) DEFAULT '0.00',
-`paytype` tinyint(1) NOT NULL DEFAULT '0',
 `scantext` varchar(255) DEFAULT '',
 `subtext` varchar(255) DEFAULT '',
 `beagent` tinyint(3) DEFAULT '0',
@@ -2492,6 +2733,7 @@ CREATE TABLE IF NOT EXISTS `ims_ewei_shop_poster` (
 `isopen` tinyint(3) DEFAULT '0',
 `opentext` varchar(255) DEFAULT '',
 `openurl` varchar(255) DEFAULT '',
+`paytype` tinyint(1) NOT NULL DEFAULT '0',
 `templateid` varchar(255) DEFAULT '',
 `subpaycontent` text,
 `recpaycontent` varchar(255) DEFAULT '',
@@ -2613,7 +2855,7 @@ CREATE TABLE IF NOT EXISTS `ims_ewei_shop_postera` (
 `status` tinyint(3) DEFAULT '0',
 `goodsid` int(11) DEFAULT '0',
 `starttext` varchar(255) DEFAULT '',
-`endtext` varchar(255),
+`endtext` varchar(255) DEFAULT '',
 `resptype` tinyint(3) DEFAULT '0',
 `resptext` text,
 `testflag` tinyint(1) DEFAULT '0',
@@ -2725,6 +2967,7 @@ CREATE TABLE IF NOT EXISTS `ims_ewei_shop_qa_set` (
 `enter_title` varchar(255) NOT NULL DEFAULT '',
 `enter_img` varchar(255) NOT NULL DEFAULT '',
 `enter_desc` varchar(255) NOT NULL DEFAULT '',
+`share` tinyint(3) NOT NULL DEFAULT '0',
 PRIMARY KEY (`id`),
 KEY `idx_unaicid` (`uniacid`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
@@ -2984,6 +3227,33 @@ KEY `idx_isrecommand` (`isrecommand`),
 KEY `idx_displayorder` (`displayorder`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_sns_complain` (
+`id` int(11) NOT NULL AUTO_INCREMENT,
+`uniacid` int(11) NOT NULL DEFAULT '0',
+`type` tinyint(3) NOT NULL,
+`postsid` int(11) NOT NULL DEFAULT '0',
+`defendant` varchar(255) NOT NULL DEFAULT '0',
+`complainant` varchar(255) NOT NULL DEFAULT '0',
+`complaint_type` int(10) NOT NULL DEFAULT '0',
+`complaint_text` text NOT NULL,
+`images` text NOT NULL,
+`createtime` int(11) NOT NULL DEFAULT '0',
+`checkedtime` int(11) NOT NULL DEFAULT '0',
+`checked` tinyint(3) NOT NULL DEFAULT '0',
+`checked_note` varchar(255) NOT NULL,
+`deleted` tinyint(3) NOT NULL DEFAULT '0',
+PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_sns_complaincate` (
+`id` int(11) NOT NULL AUTO_INCREMENT,
+`uniacid` int(11) NOT NULL,
+`name` varchar(255) NOT NULL,
+`status` tinyint(3) NOT NULL DEFAULT '0',
+`displayorder` int(11) NOT NULL DEFAULT '0',
+PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
 CREATE TABLE IF NOT EXISTS `ims_ewei_shop_sns_level` (
 `id` int(11) NOT NULL AUTO_INCREMENT,
 `uniacid` int(11) DEFAULT '0',
@@ -3057,6 +3327,7 @@ CREATE TABLE IF NOT EXISTS `ims_ewei_shop_sns_post` (
 `deletedtime` int(11) DEFAULT '0',
 `checked` tinyint(3),
 `checktime` int(11) DEFAULT '0',
+`isadmin` tinyint(3) NOT NULL DEFAULT '0',
 PRIMARY KEY (`id`),
 KEY `idx_uniacid` (`uniacid`),
 KEY `idx_bid` (`bid`),
@@ -3089,6 +3360,9 @@ CREATE TABLE IF NOT EXISTS `ims_ewei_shop_store` (
 `saletime` varchar(255) DEFAULT '',
 `desc` text,
 `displayorder` int(11) DEFAULT '0',
+`order_printer` varchar(500) DEFAULT '',
+`order_template` int(11) DEFAULT '0',
+`ordertype` varchar(500) DEFAULT '',
 PRIMARY KEY (`id`),
 KEY `idx_uniacid` (`uniacid`),
 KEY `idx_status` (`status`)
@@ -3294,6 +3568,341 @@ KEY `idx_cate` (`cate`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 ");
+if(pdo_tableexists('ims_ewei_shop_abonus_bill')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_bill',  'id')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_bill')." ADD `id` int(11) NOT NULL AUTO_INCREMENT;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_bill')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_bill',  'uniacid')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_bill')." ADD `uniacid` int(11) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_bill')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_bill',  'billno')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_bill')." ADD `billno` varchar(100) DEFAULT '';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_bill')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_bill',  'paytype')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_bill')." ADD `paytype` int(11) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_bill')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_bill',  'year')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_bill')." ADD `year` int(11) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_bill')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_bill',  'month')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_bill')." ADD `month` int(11) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_bill')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_bill',  'week')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_bill')." ADD `week` int(11) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_bill')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_bill',  'ordercount')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_bill')." ADD `ordercount` int(11) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_bill')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_bill',  'ordermoney')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_bill')." ADD `ordermoney` decimal(10,2) DEFAULT '0.00';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_bill')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_bill',  'paytime')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_bill')." ADD `paytime` int(11) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_bill')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_bill',  'aagentcount1')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_bill')." ADD `aagentcount1` int(11) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_bill')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_bill',  'aagentcount2')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_bill')." ADD `aagentcount2` int(11) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_bill')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_bill',  'aagentcount3')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_bill')." ADD `aagentcount3` int(11) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_bill')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_bill',  'bonusmoney1')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_bill')." ADD `bonusmoney1` decimal(10,2) DEFAULT '0.00';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_bill')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_bill',  'bonusmoney_send1')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_bill')." ADD `bonusmoney_send1` decimal(10,2) DEFAULT '0.00';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_bill')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_bill',  'bonusmoney_pay1')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_bill')." ADD `bonusmoney_pay1` decimal(10,2) DEFAULT '0.00';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_bill')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_bill',  'bonusmoney2')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_bill')." ADD `bonusmoney2` decimal(10,2) DEFAULT '0.00';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_bill')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_bill',  'bonusmoney_send2')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_bill')." ADD `bonusmoney_send2` decimal(10,2) DEFAULT '0.00';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_bill')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_bill',  'bonusmoney_pay2')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_bill')." ADD `bonusmoney_pay2` decimal(10,2) DEFAULT '0.00';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_bill')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_bill',  'bonusmoney3')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_bill')." ADD `bonusmoney3` decimal(10,2) DEFAULT '0.00';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_bill')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_bill',  'bonusmoney_send3')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_bill')." ADD `bonusmoney_send3` decimal(10,2) DEFAULT '0.00';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_bill')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_bill',  'bonusmoney_pay3')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_bill')." ADD `bonusmoney_pay3` decimal(10,2) DEFAULT '0.00';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_bill')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_bill',  'createtime')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_bill')." ADD `createtime` int(11) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_bill')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_bill',  'status')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_bill')." ADD `status` tinyint(3) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_bill')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_bill',  'starttime')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_bill')." ADD `starttime` int(11) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_bill')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_bill',  'endtime')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_bill')." ADD `endtime` int(11) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_bill')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_bill',  'confirmtime')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_bill')." ADD `confirmtime` int(11) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_billo')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_billo',  'id')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_billo')." ADD `id` int(11) NOT NULL AUTO_INCREMENT;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_billo')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_billo',  'uniacid')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_billo')." ADD `uniacid` int(11) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_billo')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_billo',  'billid')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_billo')." ADD `billid` int(11) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_billo')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_billo',  'orderid')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_billo')." ADD `orderid` int(11) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_billo')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_billo',  'ordermoney')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_billo')." ADD `ordermoney` decimal(10,2) DEFAULT '0.00';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_billp')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_billp',  'id')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_billp')." ADD `id` int(11) NOT NULL AUTO_INCREMENT;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_billp')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_billp',  'uniacid')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_billp')." ADD `uniacid` int(11) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_billp')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_billp',  'billid')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_billp')." ADD `billid` int(11) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_billp')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_billp',  'openid')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_billp')." ADD `openid` varchar(255) DEFAULT '';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_billp')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_billp',  'payno')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_billp')." ADD `payno` varchar(255) DEFAULT '';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_billp')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_billp',  'paytype')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_billp')." ADD `paytype` tinyint(3) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_billp')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_billp',  'bonus1')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_billp')." ADD `bonus1` decimal(10,4) DEFAULT '0.0000';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_billp')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_billp',  'bonus2')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_billp')." ADD `bonus2` decimal(10,4) DEFAULT '0.0000';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_billp')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_billp',  'bonus3')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_billp')." ADD `bonus3` decimal(10,4) DEFAULT '0.0000';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_billp')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_billp',  'money1')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_billp')." ADD `money1` decimal(10,2) DEFAULT '0.00';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_billp')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_billp',  'realmoney1')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_billp')." ADD `realmoney1` decimal(10,2) DEFAULT '0.00';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_billp')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_billp',  'paymoney1')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_billp')." ADD `paymoney1` decimal(10,2) DEFAULT '0.00';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_billp')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_billp',  'money2')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_billp')." ADD `money2` decimal(10,2) DEFAULT '0.00';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_billp')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_billp',  'realmoney2')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_billp')." ADD `realmoney2` decimal(10,2) DEFAULT '0.00';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_billp')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_billp',  'paymoney2')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_billp')." ADD `paymoney2` decimal(10,2) DEFAULT '0.00';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_billp')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_billp',  'money3')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_billp')." ADD `money3` decimal(10,2) DEFAULT '0.00';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_billp')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_billp',  'realmoney3')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_billp')." ADD `realmoney3` decimal(10,2) DEFAULT '0.00';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_billp')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_billp',  'paymoney3')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_billp')." ADD `paymoney3` decimal(10,2) DEFAULT '0.00';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_billp')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_billp',  'chargemoney1')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_billp')." ADD `chargemoney1` decimal(10,2) DEFAULT '0.00';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_billp')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_billp',  'chargemoney2')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_billp')." ADD `chargemoney2` decimal(10,2) DEFAULT '0.00';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_billp')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_billp',  'chargemoney3')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_billp')." ADD `chargemoney3` decimal(10,2) DEFAULT '0.00';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_billp')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_billp',  'charge')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_billp')." ADD `charge` decimal(10,2) DEFAULT '0.00';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_billp')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_billp',  'status')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_billp')." ADD `status` tinyint(3) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_billp')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_billp',  'reason')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_billp')." ADD `reason` varchar(255) DEFAULT '';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_billp')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_billp',  'paytime')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_billp')." ADD `paytime` int(11) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_level')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_level',  'id')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_level')." ADD `id` int(11) NOT NULL AUTO_INCREMENT;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_level')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_level',  'uniacid')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_level')." ADD `uniacid` int(11) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_level')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_level',  'levelname')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_level')." ADD `levelname` varchar(50) DEFAULT '';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_level')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_level',  'bonus1')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_level')." ADD `bonus1` decimal(10,4) DEFAULT '0.0000';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_level')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_level',  'bonus2')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_level')." ADD `bonus2` decimal(10,4) DEFAULT '0.0000';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_level')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_level',  'bonus3')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_level')." ADD `bonus3` decimal(10,4) DEFAULT '0.0000';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_level')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_level',  'ordermoney')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_level')." ADD `ordermoney` decimal(10,2) DEFAULT '0.00';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_level')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_level',  'ordercount')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_level')." ADD `ordercount` int(11) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_level')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_level',  'bonusmoney')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_level')." ADD `bonusmoney` decimal(10,2) DEFAULT '0.00';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_abonus_level')) {
+	if(!pdo_fieldexists('ims_ewei_shop_abonus_level',  'downcount')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_abonus_level')." ADD `downcount` int(11) DEFAULT '0';");
+	}	
+}
 if(pdo_tableexists('ims_ewei_shop_adv')) {
 	if(!pdo_fieldexists('ims_ewei_shop_adv',  'id')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_adv')." ADD `id` int(11) NOT NULL AUTO_INCREMENT;");
@@ -3799,6 +4408,261 @@ if(pdo_tableexists('ims_ewei_shop_banner')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_banner')." ADD `shopid` int(11) DEFAULT '0';");
 	}	
 }
+if(pdo_tableexists('ims_ewei_shop_bargain_account')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_account',  'id')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_account')." ADD `id` int(11) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_account')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_account',  'mall_name')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_account')." ADD `mall_name` varchar(255);");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_account')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_account',  'banner')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_account')." ADD `banner` varchar(255);");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_account')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_account',  'mall_title')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_account')." ADD `mall_title` varchar(255);");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_account')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_account',  'mall_content')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_account')." ADD `mall_content` varchar(255);");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_account')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_account',  'mall_logo')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_account')." ADD `mall_logo` varchar(255);");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_account')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_account',  'message')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_account')." ADD `message` int(11) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_account')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_account',  'partin')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_account')." ADD `partin` int(11) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_account')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_account',  'rule')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_account')." ADD `rule` text;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_account')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_account',  'end_message')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_account')." ADD `end_message` int(11) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_actor')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_actor',  'id')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_actor')." ADD `id` int(11) NOT NULL AUTO_INCREMENT;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_actor')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_actor',  'goods_id')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_actor')." ADD `goods_id` int(11) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_actor')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_actor',  'now_price')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_actor')." ADD `now_price` decimal(9,2) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_actor')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_actor',  'created_time')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_actor')." ADD `created_time` datetime NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_actor')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_actor',  'update_time')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_actor')." ADD `update_time` datetime NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_actor')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_actor',  'bargain_times')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_actor')." ADD `bargain_times` int(10) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_actor')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_actor',  'openid')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_actor')." ADD `openid` varchar(50) NOT NULL DEFAULT '';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_actor')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_actor',  'nickname')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_actor')." ADD `nickname` varchar(20) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_actor')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_actor',  'head_image')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_actor')." ADD `head_image` varchar(200) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_actor')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_actor',  'bargain_price')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_actor')." ADD `bargain_price` decimal(9,2) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_actor')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_actor',  'status')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_actor')." ADD `status` tinyint(2) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_actor')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_actor',  'account_id')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_actor')." ADD `account_id` int(11) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_actor')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_actor',  'initiate')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_actor')." ADD `initiate` tinyint(4) NOT NULL DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_actor')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_actor',  'order')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_actor')." ADD `order` int(11) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_goods',  'id')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_goods')." ADD `id` int(11) NOT NULL AUTO_INCREMENT;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_goods',  'account_id')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_goods')." ADD `account_id` int(11) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_goods',  'goods_id')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_goods')." ADD `goods_id` varchar(20) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_goods',  'end_price')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_goods')." ADD `end_price` decimal(10,2) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_goods',  'start_time')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_goods')." ADD `start_time` datetime NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_goods',  'end_time')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_goods')." ADD `end_time` datetime NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_goods',  'status')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_goods')." ADD `status` tinyint(2) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_goods',  'type')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_goods')." ADD `type` tinyint(2) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_goods',  'user_set')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_goods')." ADD `user_set` text;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_goods',  'rule')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_goods')." ADD `rule` text;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_goods',  'act_times')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_goods')." ADD `act_times` int(11) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_goods',  'mode')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_goods')." ADD `mode` tinyint(4) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_goods',  'total_time')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_goods')." ADD `total_time` int(11) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_goods',  'each_time')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_goods')." ADD `each_time` int(11) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_goods',  'time_limit')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_goods')." ADD `time_limit` int(11) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_goods',  'probability')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_goods')." ADD `probability` text NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_goods',  'custom')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_goods')." ADD `custom` varchar(255);");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_goods',  'maximum')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_goods')." ADD `maximum` int(11);");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_goods',  'initiate')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_goods')." ADD `initiate` tinyint(4) NOT NULL DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_goods',  'myself')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_goods')." ADD `myself` tinyint(3) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_record')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_record',  'id')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_record')." ADD `id` int(11) NOT NULL AUTO_INCREMENT;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_record')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_record',  'actor_id')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_record')." ADD `actor_id` int(11) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_record')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_record',  'bargain_price')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_record')." ADD `bargain_price` decimal(9,2) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_record')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_record',  'openid')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_record')." ADD `openid` varchar(50) NOT NULL DEFAULT '';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_record')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_record',  'nickname')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_record')." ADD `nickname` varchar(20) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_record')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_record',  'head_image')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_record')." ADD `head_image` varchar(200) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_bargain_record')) {
+	if(!pdo_fieldexists('ims_ewei_shop_bargain_record',  'bargain_time')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_bargain_record')." ADD `bargain_time` datetime NOT NULL;");
+	}	
+}
 if(pdo_tableexists('ims_ewei_shop_carrier')) {
 	if(!pdo_fieldexists('ims_ewei_shop_carrier',  'id')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_carrier')." ADD `id` int(11) NOT NULL AUTO_INCREMENT;");
@@ -4019,6 +4883,11 @@ if(pdo_tableexists('ims_ewei_shop_commission_apply')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_commission_apply')." ADD `bankcard` varchar(50) NOT NULL DEFAULT '';");
 	}	
 }
+if(pdo_tableexists('ims_ewei_shop_commission_apply')) {
+	if(!pdo_fieldexists('ims_ewei_shop_commission_apply',  'realname')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_commission_apply')." ADD `realname` varchar(50) NOT NULL DEFAULT '';");
+	}	
+}
 if(pdo_tableexists('ims_ewei_shop_commission_bank')) {
 	if(!pdo_fieldexists('ims_ewei_shop_commission_bank',  'id')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_commission_bank')." ADD `id` int(11) NOT NULL AUTO_INCREMENT;");
@@ -4176,7 +5045,7 @@ if(pdo_tableexists('ims_ewei_shop_commission_log')) {
 }
 if(pdo_tableexists('ims_ewei_shop_commission_log')) {
 	if(!pdo_fieldexists('ims_ewei_shop_commission_log',  'type')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_commission_log')." ADD `type` tinyint(3) NOT NULL DEFAULT '0';");
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_commission_log')." ADD `type` tinyint(3) DEFAULT '0';");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_commission_rank')) {
@@ -4559,6 +5428,71 @@ if(pdo_tableexists('ims_ewei_shop_coupon')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_coupon')." ADD `merchid` int(11) DEFAULT '0';");
 	}	
 }
+if(pdo_tableexists('ims_ewei_shop_coupon')) {
+	if(!pdo_fieldexists('ims_ewei_shop_coupon',  'limitgoodtype')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_coupon')." ADD `limitgoodtype` tinyint(1) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_coupon')) {
+	if(!pdo_fieldexists('ims_ewei_shop_coupon',  'limitgoodcatetype')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_coupon')." ADD `limitgoodcatetype` tinyint(1) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_coupon')) {
+	if(!pdo_fieldexists('ims_ewei_shop_coupon',  'limitgoodcateids')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_coupon')." ADD `limitgoodcateids` varchar(500) DEFAULT '';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_coupon')) {
+	if(!pdo_fieldexists('ims_ewei_shop_coupon',  'limitgoodids')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_coupon')." ADD `limitgoodids` varchar(500) DEFAULT '';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_coupon')) {
+	if(!pdo_fieldexists('ims_ewei_shop_coupon',  'islimitlevel')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_coupon')." ADD `islimitlevel` tinyint(1) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_coupon')) {
+	if(!pdo_fieldexists('ims_ewei_shop_coupon',  'limitmemberlevels')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_coupon')." ADD `limitmemberlevels` varchar(500) DEFAULT '';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_coupon')) {
+	if(!pdo_fieldexists('ims_ewei_shop_coupon',  'limitagentlevels')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_coupon')." ADD `limitagentlevels` varchar(500) DEFAULT '';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_coupon')) {
+	if(!pdo_fieldexists('ims_ewei_shop_coupon',  'limitpartnerlevels')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_coupon')." ADD `limitpartnerlevels` varchar(500) DEFAULT '';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_coupon')) {
+	if(!pdo_fieldexists('ims_ewei_shop_coupon',  'limitaagentlevels')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_coupon')." ADD `limitaagentlevels` varchar(500) DEFAULT '';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_coupon')) {
+	if(!pdo_fieldexists('ims_ewei_shop_coupon',  'tagtitle')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_coupon')." ADD `tagtitle` varchar(20) DEFAULT '';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_coupon')) {
+	if(!pdo_fieldexists('ims_ewei_shop_coupon',  'settitlecolor')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_coupon')." ADD `settitlecolor` tinyint(1) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_coupon')) {
+	if(!pdo_fieldexists('ims_ewei_shop_coupon',  'titlecolor')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_coupon')." ADD `titlecolor` varchar(10) DEFAULT '';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_coupon')) {
+	if(!pdo_fieldexists('ims_ewei_shop_coupon',  'limitdiscounttype')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_coupon')." ADD `limitdiscounttype` tinyint(1) DEFAULT '1';");
+	}	
+}
 if(pdo_tableexists('ims_ewei_shop_coupon_category')) {
 	if(!pdo_fieldexists('ims_ewei_shop_coupon_category',  'id')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_coupon_category')." ADD `id` int(11) NOT NULL AUTO_INCREMENT;");
@@ -4652,6 +5586,16 @@ if(pdo_tableexists('ims_ewei_shop_coupon_data')) {
 if(pdo_tableexists('ims_ewei_shop_coupon_data')) {
 	if(!pdo_fieldexists('ims_ewei_shop_coupon_data',  'merchid')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_coupon_data')." ADD `merchid` int(11) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_coupon_data')) {
+	if(!pdo_fieldexists('ims_ewei_shop_coupon_data',  'isnew')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_coupon_data')." ADD `isnew` tinyint(1) DEFAULT '1';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_coupon_data')) {
+	if(!pdo_fieldexists('ims_ewei_shop_coupon_data',  'nocount')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_coupon_data')." ADD `nocount` tinyint(1) DEFAULT '1';");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_coupon_guess')) {
@@ -5934,6 +6878,11 @@ if(pdo_tableexists('ims_ewei_shop_exhelper_express')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_exhelper_express')." ADD `isdefault` tinyint(3) DEFAULT '0';");
 	}	
 }
+if(pdo_tableexists('ims_ewei_shop_exhelper_express')) {
+	if(!pdo_fieldexists('ims_ewei_shop_exhelper_express',  'merchid')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_exhelper_express')." ADD `merchid` int(11) DEFAULT '0';");
+	}	
+}
 if(pdo_tableexists('ims_ewei_shop_exhelper_senduser')) {
 	if(!pdo_fieldexists('ims_ewei_shop_exhelper_senduser',  'id')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_exhelper_senduser')." ADD `id` int(11) NOT NULL AUTO_INCREMENT;");
@@ -5979,6 +6928,11 @@ if(pdo_tableexists('ims_ewei_shop_exhelper_senduser')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_exhelper_senduser')." ADD `isdefault` tinyint(3) DEFAULT '0';");
 	}	
 }
+if(pdo_tableexists('ims_ewei_shop_exhelper_senduser')) {
+	if(!pdo_fieldexists('ims_ewei_shop_exhelper_senduser',  'merchid')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_exhelper_senduser')." ADD `merchid` int(11) DEFAULT '0';");
+	}	
+}
 if(pdo_tableexists('ims_ewei_shop_exhelper_sys')) {
 	if(!pdo_fieldexists('ims_ewei_shop_exhelper_sys',  'id')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_exhelper_sys')." ADD `id` int(11) NOT NULL AUTO_INCREMENT;");
@@ -6012,6 +6966,11 @@ if(pdo_tableexists('ims_ewei_shop_exhelper_sys')) {
 if(pdo_tableexists('ims_ewei_shop_exhelper_sys')) {
 	if(!pdo_fieldexists('ims_ewei_shop_exhelper_sys',  'is_cloud')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_exhelper_sys')." ADD `is_cloud` int(1) NOT NULL DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_exhelper_sys')) {
+	if(!pdo_fieldexists('ims_ewei_shop_exhelper_sys',  'merchid')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_exhelper_sys')." ADD `merchid` int(11) DEFAULT '0';");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_express')) {
@@ -6456,7 +7415,7 @@ if(pdo_tableexists('ims_ewei_shop_goods')) {
 }
 if(pdo_tableexists('ims_ewei_shop_goods')) {
 	if(!pdo_fieldexists('ims_ewei_shop_goods',  'description')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_goods')." ADD `description` varchar(1000);");
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_goods')." ADD `description` varchar(1000) DEFAULT '';");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_goods')) {
@@ -6790,6 +7749,11 @@ if(pdo_tableexists('ims_ewei_shop_goods')) {
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_goods',  'artid')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_goods')." ADD `artid` int(11) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_goods')) {
 	if(!pdo_fieldexists('ims_ewei_shop_goods',  'pcates')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_goods')." ADD `pcates` text;");
 	}	
@@ -6802,11 +7766,6 @@ if(pdo_tableexists('ims_ewei_shop_goods')) {
 if(pdo_tableexists('ims_ewei_shop_goods')) {
 	if(!pdo_fieldexists('ims_ewei_shop_goods',  'cates')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_goods')." ADD `cates` text;");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_goods')) {
-	if(!pdo_fieldexists('ims_ewei_shop_goods',  'artid')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_goods')." ADD `artid` int(11) DEFAULT '0';");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_goods')) {
@@ -6845,8 +7804,8 @@ if(pdo_tableexists('ims_ewei_shop_goods')) {
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_goods')) {
-	if(!pdo_fieldexists('ims_ewei_shop_goods',  'saleupdate31820')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_goods')." ADD `saleupdate31820` tinyint(3) DEFAULT '0';");
+	if(!pdo_fieldexists('ims_ewei_shop_goods',  'saleupdate33219')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_goods')." ADD `saleupdate33219` tinyint(3) DEFAULT '0';");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_goods')) {
@@ -7060,21 +8019,6 @@ if(pdo_tableexists('ims_ewei_shop_goods')) {
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_goods')) {
-	if(!pdo_fieldexists('ims_ewei_shop_goods',  'minpriceupdated')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_goods')." ADD `minpriceupdated` tinyint(1) DEFAULT '0';");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_goods')) {
-	if(!pdo_fieldexists('ims_ewei_shop_goods',  'catesinit3')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_goods')." ADD `catesinit3` text;");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_goods')) {
-	if(!pdo_fieldexists('ims_ewei_shop_goods',  'showtotaladd')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_goods')." ADD `showtotaladd` tinyint(1) DEFAULT '0';");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_goods')) {
 	if(!pdo_fieldexists('ims_ewei_shop_goods',  'merchid')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_goods')." ADD `merchid` int(11) DEFAULT '0';");
 	}	
@@ -7095,6 +8039,16 @@ if(pdo_tableexists('ims_ewei_shop_goods')) {
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_goods',  'catesinit3')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_goods')." ADD `catesinit3` text;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_goods',  'showtotaladd')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_goods')." ADD `showtotaladd` tinyint(1) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_goods')) {
 	if(!pdo_fieldexists('ims_ewei_shop_goods',  'keywords')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_goods')." ADD `keywords` varchar(255) DEFAULT '';");
 	}	
@@ -7112,6 +8066,51 @@ if(pdo_tableexists('ims_ewei_shop_goods')) {
 if(pdo_tableexists('ims_ewei_shop_goods')) {
 	if(!pdo_fieldexists('ims_ewei_shop_goods',  'catch_source')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_goods')." ADD `catch_source` varchar(255) DEFAULT '';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_goods',  'labelname')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_goods')." ADD `labelname` text;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_goods',  'autoreceive')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_goods')." ADD `autoreceive` int(11) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_goods',  'cannotrefund')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_goods')." ADD `cannotrefund` tinyint(3) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_goods',  'bargain')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_goods')." ADD `bargain` int(11) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_goods',  'buyagain')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_goods')." ADD `buyagain` decimal(10,2) DEFAULT '0.00';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_goods',  'buyagain_islong')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_goods')." ADD `buyagain_islong` tinyint(1) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_goods',  'buyagain_condition')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_goods')." ADD `buyagain_condition` tinyint(1) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_goods',  'buyagain_sale')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_goods')." ADD `buyagain_sale` tinyint(1) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_goods',  'buyagain_commission')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_goods')." ADD `buyagain_commission` text;");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_goods_comment')) {
@@ -7177,6 +8176,51 @@ if(pdo_tableexists('ims_ewei_shop_goods_group')) {
 if(pdo_tableexists('ims_ewei_shop_goods_group')) {
 	if(!pdo_fieldexists('ims_ewei_shop_goods_group',  'enabled')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_goods_group')." ADD `enabled` tinyint(1) NOT NULL DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_goods_label')) {
+	if(!pdo_fieldexists('ims_ewei_shop_goods_label',  'id')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_goods_label')." ADD `id` int(11) NOT NULL AUTO_INCREMENT;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_goods_label')) {
+	if(!pdo_fieldexists('ims_ewei_shop_goods_label',  'uniacid')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_goods_label')." ADD `uniacid` int(11) NOT NULL DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_goods_label')) {
+	if(!pdo_fieldexists('ims_ewei_shop_goods_label',  'label')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_goods_label')." ADD `label` varchar(255) NOT NULL DEFAULT '';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_goods_label')) {
+	if(!pdo_fieldexists('ims_ewei_shop_goods_label',  'labelname')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_goods_label')." ADD `labelname` text NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_goods_label')) {
+	if(!pdo_fieldexists('ims_ewei_shop_goods_label',  'status')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_goods_label')." ADD `status` tinyint(3) NOT NULL DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_goods_label')) {
+	if(!pdo_fieldexists('ims_ewei_shop_goods_label',  'displayorder')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_goods_label')." ADD `displayorder` int(11) NOT NULL DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_goods_labelstyle')) {
+	if(!pdo_fieldexists('ims_ewei_shop_goods_labelstyle',  'id')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_goods_labelstyle')." ADD `id` int(11) NOT NULL AUTO_INCREMENT;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_goods_labelstyle')) {
+	if(!pdo_fieldexists('ims_ewei_shop_goods_labelstyle',  'uniacid')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_goods_labelstyle')." ADD `uniacid` int(11) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_goods_labelstyle')) {
+	if(!pdo_fieldexists('ims_ewei_shop_goods_labelstyle',  'style')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_goods_labelstyle')." ADD `style` int(3) NOT NULL;");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_goods_option')) {
@@ -7475,6 +8519,16 @@ if(pdo_tableexists('ims_ewei_shop_groups_goods')) {
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_groups_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_groups_goods',  'goodssn')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_goods')." ADD `goodssn` varchar(50);");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_groups_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_groups_goods',  'productsn')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_goods')." ADD `productsn` varchar(50);");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_groups_goods')) {
 	if(!pdo_fieldexists('ims_ewei_shop_groups_goods',  'title')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_goods')." ADD `title` varchar(255) NOT NULL DEFAULT '';");
 	}	
@@ -7482,6 +8536,11 @@ if(pdo_tableexists('ims_ewei_shop_groups_goods')) {
 if(pdo_tableexists('ims_ewei_shop_groups_goods')) {
 	if(!pdo_fieldexists('ims_ewei_shop_groups_goods',  'category')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_goods')." ADD `category` tinyint(3) unsigned NOT NULL DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_groups_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_groups_goods',  'showstock')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_goods')." ADD `showstock` tinyint(2) NOT NULL;");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_groups_goods')) {
@@ -7500,18 +8559,38 @@ if(pdo_tableexists('ims_ewei_shop_groups_goods')) {
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_groups_goods')) {
-	if(!pdo_fieldexists('ims_ewei_shop_groups_goods',  'singleprice')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_goods')." ADD `singleprice` decimal(10,2) DEFAULT '0.00';");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_groups_goods')) {
 	if(!pdo_fieldexists('ims_ewei_shop_groups_goods',  'goodsnum')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_goods')." ADD `goodsnum` int(11) NOT NULL DEFAULT '1';");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_groups_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_groups_goods',  'purchaselimit')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_goods')." ADD `purchaselimit` int(11) NOT NULL DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_groups_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_groups_goods',  'single')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_goods')." ADD `single` tinyint(2) NOT NULL DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_groups_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_groups_goods',  'singleprice')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_goods')." ADD `singleprice` decimal(10,2) DEFAULT '0.00';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_groups_goods')) {
 	if(!pdo_fieldexists('ims_ewei_shop_groups_goods',  'units')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_goods')." ADD `units` varchar(255) NOT NULL DEFAULT '件';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_groups_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_groups_goods',  'dispatchtype')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_goods')." ADD `dispatchtype` tinyint(2) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_groups_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_groups_goods',  'dispatchid')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_goods')." ADD `dispatchid` int(11) NOT NULL;");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_groups_goods')) {
@@ -7560,8 +8639,8 @@ if(pdo_tableexists('ims_ewei_shop_groups_goods')) {
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_groups_goods')) {
-	if(!pdo_fieldexists('ims_ewei_shop_groups_goods',  'ishot')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_goods')." ADD `ishot` tinyint(3) NOT NULL DEFAULT '0';");
+	if(!pdo_fieldexists('ims_ewei_shop_groups_goods',  'isindex')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_goods')." ADD `isindex` tinyint(3) NOT NULL DEFAULT '0';");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_groups_goods')) {
@@ -7585,6 +8664,11 @@ if(pdo_tableexists('ims_ewei_shop_groups_goods')) {
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_groups_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_groups_goods',  'followurl')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_goods')." ADD `followurl` varchar(255);");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_groups_goods')) {
 	if(!pdo_fieldexists('ims_ewei_shop_groups_goods',  'share_title')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_goods')." ADD `share_title` varchar(255);");
 	}	
@@ -7600,63 +8684,18 @@ if(pdo_tableexists('ims_ewei_shop_groups_goods')) {
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_groups_goods')) {
-	if(!pdo_fieldexists('ims_ewei_shop_groups_goods',  'goodssn')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_goods')." ADD `goodssn` varchar(50);");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_groups_goods')) {
-	if(!pdo_fieldexists('ims_ewei_shop_groups_goods',  'productsn')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_goods')." ADD `productsn` varchar(50);");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_groups_goods')) {
-	if(!pdo_fieldexists('ims_ewei_shop_groups_goods',  'showstock')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_goods')." ADD `showstock` tinyint(2) NOT NULL;");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_groups_goods')) {
-	if(!pdo_fieldexists('ims_ewei_shop_groups_goods',  'purchaselimit')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_goods')." ADD `purchaselimit` int(11) NOT NULL DEFAULT '0';");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_groups_goods')) {
-	if(!pdo_fieldexists('ims_ewei_shop_groups_goods',  'single')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_goods')." ADD `single` tinyint(2) NOT NULL DEFAULT '0';");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_groups_goods')) {
-	if(!pdo_fieldexists('ims_ewei_shop_groups_goods',  'dispatchtype')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_goods')." ADD `dispatchtype` tinyint(2) NOT NULL;");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_groups_goods')) {
-	if(!pdo_fieldexists('ims_ewei_shop_groups_goods',  'dispatchid')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_goods')." ADD `dispatchid` int(11) NOT NULL;");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_groups_goods')) {
-	if(!pdo_fieldexists('ims_ewei_shop_groups_goods',  'isindex')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_goods')." ADD `isindex` tinyint(3) NOT NULL DEFAULT '0';");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_groups_goods')) {
-	if(!pdo_fieldexists('ims_ewei_shop_groups_goods',  'followurl')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_goods')." ADD `followurl` varchar(255);");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_groups_goods')) {
 	if(!pdo_fieldexists('ims_ewei_shop_groups_goods',  'deduct')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_goods')." ADD `deduct` decimal(10,2) NOT NULL DEFAULT '0.00';");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_groups_goods')) {
-	if(!pdo_fieldexists('ims_ewei_shop_groups_goods',  'rights')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_goods')." ADD `rights` tinyint(2) NOT NULL DEFAULT '1';");
+	if(!pdo_fieldexists('ims_ewei_shop_groups_goods',  'thumb_url')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_goods')." ADD `thumb_url` text;");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_groups_goods')) {
-	if(!pdo_fieldexists('ims_ewei_shop_groups_goods',  'thumb_url')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_goods')." ADD `thumb_url` text;");
+	if(!pdo_fieldexists('ims_ewei_shop_groups_goods',  'rights')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_goods')." ADD `rights` tinyint(2) NOT NULL DEFAULT '1';");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_groups_goods')) {
@@ -7770,6 +8809,16 @@ if(pdo_tableexists('ims_ewei_shop_groups_order')) {
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_groups_order')) {
+	if(!pdo_fieldexists('ims_ewei_shop_groups_order',  'credit')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_order')." ADD `credit` int(11) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_groups_order')) {
+	if(!pdo_fieldexists('ims_ewei_shop_groups_order',  'creditmoney')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_order')." ADD `creditmoney` decimal(11,2) DEFAULT '0.00';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_groups_order')) {
 	if(!pdo_fieldexists('ims_ewei_shop_groups_order',  'price')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_order')." ADD `price` decimal(11,2) DEFAULT '0.00';");
 	}	
@@ -7787,6 +8836,21 @@ if(pdo_tableexists('ims_ewei_shop_groups_order')) {
 if(pdo_tableexists('ims_ewei_shop_groups_order')) {
 	if(!pdo_fieldexists('ims_ewei_shop_groups_order',  'pay_type')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_order')." ADD `pay_type` varchar(45);");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_groups_order')) {
+	if(!pdo_fieldexists('ims_ewei_shop_groups_order',  'dispatchid')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_order')." ADD `dispatchid` int(11);");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_groups_order')) {
+	if(!pdo_fieldexists('ims_ewei_shop_groups_order',  'addressid')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_order')." ADD `addressid` int(11) NOT NULL DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_groups_order')) {
+	if(!pdo_fieldexists('ims_ewei_shop_groups_order',  'address')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_order')." ADD `address` varchar(255);");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_groups_order')) {
@@ -7810,8 +8874,18 @@ if(pdo_tableexists('ims_ewei_shop_groups_order')) {
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_groups_order')) {
+	if(!pdo_fieldexists('ims_ewei_shop_groups_order',  'discount')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_order')." ADD `discount` decimal(10,2) DEFAULT '0.00';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_groups_order')) {
 	if(!pdo_fieldexists('ims_ewei_shop_groups_order',  'starttime')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_order')." ADD `starttime` int(11) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_groups_order')) {
+	if(!pdo_fieldexists('ims_ewei_shop_groups_order',  'canceltime')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_order')." ADD `canceltime` int(11) NOT NULL DEFAULT '0';");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_groups_order')) {
@@ -7822,56 +8896,6 @@ if(pdo_tableexists('ims_ewei_shop_groups_order')) {
 if(pdo_tableexists('ims_ewei_shop_groups_order')) {
 	if(!pdo_fieldexists('ims_ewei_shop_groups_order',  'createtime')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_order')." ADD `createtime` int(11) NOT NULL;");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_groups_order')) {
-	if(!pdo_fieldexists('ims_ewei_shop_groups_order',  'success')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_order')." ADD `success` int(2) NOT NULL DEFAULT '0';");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_groups_order')) {
-	if(!pdo_fieldexists('ims_ewei_shop_groups_order',  'delete')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_order')." ADD `delete` int(2) NOT NULL DEFAULT '0';");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_groups_order')) {
-	if(!pdo_fieldexists('ims_ewei_shop_groups_order',  'deleted')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_order')." ADD `deleted` int(2) NOT NULL DEFAULT '0';");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_groups_order')) {
-	if(!pdo_fieldexists('ims_ewei_shop_groups_order',  'credit')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_order')." ADD `credit` int(11) DEFAULT '0';");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_groups_order')) {
-	if(!pdo_fieldexists('ims_ewei_shop_groups_order',  'creditmoney')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_order')." ADD `creditmoney` decimal(11,2) DEFAULT '0.00';");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_groups_order')) {
-	if(!pdo_fieldexists('ims_ewei_shop_groups_order',  'dispatchid')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_order')." ADD `dispatchid` int(11);");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_groups_order')) {
-	if(!pdo_fieldexists('ims_ewei_shop_groups_order',  'addressid')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_order')." ADD `addressid` int(11) NOT NULL DEFAULT '0';");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_groups_order')) {
-	if(!pdo_fieldexists('ims_ewei_shop_groups_order',  'address')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_order')." ADD `address` varchar(255);");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_groups_order')) {
-	if(!pdo_fieldexists('ims_ewei_shop_groups_order',  'discount')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_order')." ADD `discount` decimal(10,2) DEFAULT '0.00';");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_groups_order')) {
-	if(!pdo_fieldexists('ims_ewei_shop_groups_order',  'canceltime')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_order')." ADD `canceltime` int(11) NOT NULL DEFAULT '0';");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_groups_order')) {
@@ -7932,6 +8956,16 @@ if(pdo_tableexists('ims_ewei_shop_groups_order')) {
 if(pdo_tableexists('ims_ewei_shop_groups_order')) {
 	if(!pdo_fieldexists('ims_ewei_shop_groups_order',  'message')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_order')." ADD `message` varchar(255);");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_groups_order')) {
+	if(!pdo_fieldexists('ims_ewei_shop_groups_order',  'success')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_order')." ADD `success` int(2) NOT NULL DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_groups_order')) {
+	if(!pdo_fieldexists('ims_ewei_shop_groups_order',  'deleted')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_order')." ADD `deleted` int(2) NOT NULL DEFAULT '0';");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_groups_order')) {
@@ -8245,6 +9279,11 @@ if(pdo_tableexists('ims_ewei_shop_groups_set')) {
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_groups_set')) {
+	if(!pdo_fieldexists('ims_ewei_shop_groups_set',  'followqrcode')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_set')." ADD `followqrcode` varchar(255);");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_groups_set')) {
 	if(!pdo_fieldexists('ims_ewei_shop_groups_set',  'groupsurl')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_set')." ADD `groupsurl` varchar(255);");
 	}	
@@ -8265,6 +9304,11 @@ if(pdo_tableexists('ims_ewei_shop_groups_set')) {
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_groups_set')) {
+	if(!pdo_fieldexists('ims_ewei_shop_groups_set',  'share_url')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_set')." ADD `share_url` varchar(255);");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_groups_set')) {
 	if(!pdo_fieldexists('ims_ewei_shop_groups_set',  'groups_description')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_set')." ADD `groups_description` text;");
 	}	
@@ -8272,16 +9316,6 @@ if(pdo_tableexists('ims_ewei_shop_groups_set')) {
 if(pdo_tableexists('ims_ewei_shop_groups_set')) {
 	if(!pdo_fieldexists('ims_ewei_shop_groups_set',  'description')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_set')." ADD `description` int(2) NOT NULL DEFAULT '0';");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_groups_set')) {
-	if(!pdo_fieldexists('ims_ewei_shop_groups_set',  'followqrcode')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_set')." ADD `followqrcode` varchar(255);");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_groups_set')) {
-	if(!pdo_fieldexists('ims_ewei_shop_groups_set',  'share_url')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_set')." ADD `share_url` varchar(255);");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_groups_set')) {
@@ -8392,81 +9426,6 @@ if(pdo_tableexists('ims_ewei_shop_groups_verify')) {
 if(pdo_tableexists('ims_ewei_shop_groups_verify')) {
 	if(!pdo_fieldexists('ims_ewei_shop_groups_verify',  'verifytime')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_groups_verify')." ADD `verifytime` int(11) DEFAULT '0';");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_mc_merchant')) {
-	if(!pdo_fieldexists('ims_ewei_shop_mc_merchant',  'id')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_mc_merchant')." ADD `id` int(11) NOT NULL;");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_mc_merchant')) {
-	if(!pdo_fieldexists('ims_ewei_shop_mc_merchant',  'uniacid')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_mc_merchant')." ADD `uniacid` int(11) NOT NULL;");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_mc_merchant')) {
-	if(!pdo_fieldexists('ims_ewei_shop_mc_merchant',  'merchant_no')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_mc_merchant')." ADD `merchant_no` varchar(255) NOT NULL DEFAULT '';");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_mc_merchant')) {
-	if(!pdo_fieldexists('ims_ewei_shop_mc_merchant',  'username')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_mc_merchant')." ADD `username` varchar(255) NOT NULL DEFAULT '';");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_mc_merchant')) {
-	if(!pdo_fieldexists('ims_ewei_shop_mc_merchant',  'password')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_mc_merchant')." ADD `password` varchar(32) NOT NULL DEFAULT '';");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_mc_merchant')) {
-	if(!pdo_fieldexists('ims_ewei_shop_mc_merchant',  'salt')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_mc_merchant')." ADD `salt` varchar(8) NOT NULL DEFAULT '';");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_mc_merchant')) {
-	if(!pdo_fieldexists('ims_ewei_shop_mc_merchant',  'contact_name')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_mc_merchant')." ADD `contact_name` varchar(255) NOT NULL DEFAULT '';");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_mc_merchant')) {
-	if(!pdo_fieldexists('ims_ewei_shop_mc_merchant',  'contact_mobile')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_mc_merchant')." ADD `contact_mobile` varchar(16) NOT NULL DEFAULT '';");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_mc_merchant')) {
-	if(!pdo_fieldexists('ims_ewei_shop_mc_merchant',  'contact_address')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_mc_merchant')." ADD `contact_address` varchar(255) NOT NULL DEFAULT '';");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_mc_merchant')) {
-	if(!pdo_fieldexists('ims_ewei_shop_mc_merchant',  'type')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_mc_merchant')." ADD `type` tinyint(4) NOT NULL;");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_mc_merchant')) {
-	if(!pdo_fieldexists('ims_ewei_shop_mc_merchant',  'status')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_mc_merchant')." ADD `status` tinyint(4) NOT NULL;");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_mc_merchant')) {
-	if(!pdo_fieldexists('ims_ewei_shop_mc_merchant',  'createtime')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_mc_merchant')." ADD `createtime` int(11) NOT NULL;");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_mc_merchant')) {
-	if(!pdo_fieldexists('ims_ewei_shop_mc_merchant',  'validitytime')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_mc_merchant')." ADD `validitytime` int(11) NOT NULL;");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_mc_merchant')) {
-	if(!pdo_fieldexists('ims_ewei_shop_mc_merchant',  'industry')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_mc_merchant')." ADD `industry` varchar(255) NOT NULL DEFAULT '';");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_mc_merchant')) {
-	if(!pdo_fieldexists('ims_ewei_shop_mc_merchant',  'remark')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_mc_merchant')." ADD `remark` varchar(1000) NOT NULL DEFAULT '';");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_member')) {
@@ -8896,7 +9855,12 @@ if(pdo_tableexists('ims_ewei_shop_member')) {
 }
 if(pdo_tableexists('ims_ewei_shop_member')) {
 	if(!pdo_fieldexists('ims_ewei_shop_member',  'openid_qq')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_member')." ADD `openid_qq` varchar(32);");
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_member')." ADD `openid_qq` varchar(50);");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_member')) {
+	if(!pdo_fieldexists('ims_ewei_shop_member',  'openid_wx')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_member')." ADD `openid_wx` varchar(50);");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_member_address')) {
@@ -9030,13 +9994,13 @@ if(pdo_tableexists('ims_ewei_shop_member_cart')) {
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_member_cart')) {
-	if(!pdo_fieldexists('ims_ewei_shop_member_cart',  'selectedadd')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_member_cart')." ADD `selectedadd` tinyint(1) DEFAULT '1';");
+	if(!pdo_fieldexists('ims_ewei_shop_member_cart',  'merchid')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_member_cart')." ADD `merchid` int(11) DEFAULT '0';");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_member_cart')) {
-	if(!pdo_fieldexists('ims_ewei_shop_member_cart',  'merchid')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_member_cart')." ADD `merchid` int(11) DEFAULT '0';");
+	if(!pdo_fieldexists('ims_ewei_shop_member_cart',  'selectedadd')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_member_cart')." ADD `selectedadd` tinyint(1) DEFAULT '1';");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_member_favorite')) {
@@ -9245,6 +10209,16 @@ if(pdo_tableexists('ims_ewei_shop_member_log')) {
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_member_log')) {
+	if(!pdo_fieldexists('ims_ewei_shop_member_log',  'isborrow')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_member_log')." ADD `isborrow` tinyint(3) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_member_log')) {
+	if(!pdo_fieldexists('ims_ewei_shop_member_log',  'borrowopenid')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_member_log')." ADD `borrowopenid` varchar(100) DEFAULT '';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_member_log')) {
 	if(!pdo_fieldexists('ims_ewei_shop_member_log',  'realmoney')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_member_log')." ADD `realmoney` decimal(10,2) DEFAULT '0.00';");
 	}	
@@ -9257,16 +10231,6 @@ if(pdo_tableexists('ims_ewei_shop_member_log')) {
 if(pdo_tableexists('ims_ewei_shop_member_log')) {
 	if(!pdo_fieldexists('ims_ewei_shop_member_log',  'deductionmoney')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_member_log')." ADD `deductionmoney` decimal(10,2) DEFAULT '0.00';");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_member_log')) {
-	if(!pdo_fieldexists('ims_ewei_shop_member_log',  'isborrow')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_member_log')." ADD `isborrow` tinyint(3) DEFAULT '0';");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_member_log')) {
-	if(!pdo_fieldexists('ims_ewei_shop_member_log',  'borrowopenid')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_member_log')." ADD `borrowopenid` varchar(100) DEFAULT '';");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_member_log')) {
@@ -9342,6 +10306,86 @@ if(pdo_tableexists('ims_ewei_shop_member_message_template')) {
 if(pdo_tableexists('ims_ewei_shop_member_message_template')) {
 	if(!pdo_fieldexists('ims_ewei_shop_member_message_template',  'sendcount')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_member_message_template')." ADD `sendcount` int(11) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_member_printer')) {
+	if(!pdo_fieldexists('ims_ewei_shop_member_printer',  'id')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_member_printer')." ADD `id` int(11) NOT NULL AUTO_INCREMENT;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_member_printer')) {
+	if(!pdo_fieldexists('ims_ewei_shop_member_printer',  'uniacid')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_member_printer')." ADD `uniacid` int(11) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_member_printer')) {
+	if(!pdo_fieldexists('ims_ewei_shop_member_printer',  'title')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_member_printer')." ADD `title` varchar(255) DEFAULT '';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_member_printer')) {
+	if(!pdo_fieldexists('ims_ewei_shop_member_printer',  'type')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_member_printer')." ADD `type` tinyint(3) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_member_printer')) {
+	if(!pdo_fieldexists('ims_ewei_shop_member_printer',  'print_data')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_member_printer')." ADD `print_data` text;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_member_printer')) {
+	if(!pdo_fieldexists('ims_ewei_shop_member_printer',  'createtime')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_member_printer')." ADD `createtime` int(11) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_member_printer_template')) {
+	if(!pdo_fieldexists('ims_ewei_shop_member_printer_template',  'id')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_member_printer_template')." ADD `id` int(11) NOT NULL AUTO_INCREMENT;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_member_printer_template')) {
+	if(!pdo_fieldexists('ims_ewei_shop_member_printer_template',  'uniacid')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_member_printer_template')." ADD `uniacid` int(11) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_member_printer_template')) {
+	if(!pdo_fieldexists('ims_ewei_shop_member_printer_template',  'title')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_member_printer_template')." ADD `title` varchar(255) DEFAULT '';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_member_printer_template')) {
+	if(!pdo_fieldexists('ims_ewei_shop_member_printer_template',  'type')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_member_printer_template')." ADD `type` tinyint(3) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_member_printer_template')) {
+	if(!pdo_fieldexists('ims_ewei_shop_member_printer_template',  'print_title')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_member_printer_template')." ADD `print_title` varchar(255) DEFAULT '';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_member_printer_template')) {
+	if(!pdo_fieldexists('ims_ewei_shop_member_printer_template',  'print_style')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_member_printer_template')." ADD `print_style` varchar(255) DEFAULT '';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_member_printer_template')) {
+	if(!pdo_fieldexists('ims_ewei_shop_member_printer_template',  'print_data')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_member_printer_template')." ADD `print_data` text;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_member_printer_template')) {
+	if(!pdo_fieldexists('ims_ewei_shop_member_printer_template',  'code')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_member_printer_template')." ADD `code` varchar(500) DEFAULT '';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_member_printer_template')) {
+	if(!pdo_fieldexists('ims_ewei_shop_member_printer_template',  'qrcode')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_member_printer_template')." ADD `qrcode` varchar(500) DEFAULT '';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_member_printer_template')) {
+	if(!pdo_fieldexists('ims_ewei_shop_member_printer_template',  'createtime')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_member_printer_template')." ADD `createtime` int(11) DEFAULT '0';");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_member_rank')) {
@@ -9755,6 +10799,11 @@ if(pdo_tableexists('ims_ewei_shop_merch_clearing')) {
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_merch_clearing')) {
+	if(!pdo_fieldexists('ims_ewei_shop_merch_clearing',  'clearno')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_merch_clearing')." ADD `clearno` varchar(64) NOT NULL DEFAULT '';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_merch_clearing')) {
 	if(!pdo_fieldexists('ims_ewei_shop_merch_clearing',  'goodsprice')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_merch_clearing')." ADD `goodsprice` decimal(10,2) NOT NULL DEFAULT '0.00';");
 	}	
@@ -9777,6 +10826,16 @@ if(pdo_tableexists('ims_ewei_shop_merch_clearing')) {
 if(pdo_tableexists('ims_ewei_shop_merch_clearing')) {
 	if(!pdo_fieldexists('ims_ewei_shop_merch_clearing',  'discountprice')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_merch_clearing')." ADD `discountprice` decimal(10,2) NOT NULL DEFAULT '0.00';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_merch_clearing')) {
+	if(!pdo_fieldexists('ims_ewei_shop_merch_clearing',  'deductenough')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_merch_clearing')." ADD `deductenough` decimal(10,2) NOT NULL DEFAULT '0.00';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_merch_clearing')) {
+	if(!pdo_fieldexists('ims_ewei_shop_merch_clearing',  'merchdeductenough')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_merch_clearing')." ADD `merchdeductenough` decimal(10,2) NOT NULL DEFAULT '0.00';");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_merch_clearing')) {
@@ -9815,11 +10874,6 @@ if(pdo_tableexists('ims_ewei_shop_merch_clearing')) {
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_merch_clearing')) {
-	if(!pdo_fieldexists('ims_ewei_shop_merch_clearing',  'remark')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_merch_clearing')." ADD `remark` varchar(2000) NOT NULL DEFAULT '';");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_merch_clearing')) {
 	if(!pdo_fieldexists('ims_ewei_shop_merch_clearing',  'realpricerate')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_merch_clearing')." ADD `realpricerate` decimal(10,2) NOT NULL DEFAULT '0.00';");
 	}	
@@ -9830,6 +10884,11 @@ if(pdo_tableexists('ims_ewei_shop_merch_clearing')) {
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_merch_clearing')) {
+	if(!pdo_fieldexists('ims_ewei_shop_merch_clearing',  'remark')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_merch_clearing')." ADD `remark` varchar(2000) NOT NULL DEFAULT '';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_merch_clearing')) {
 	if(!pdo_fieldexists('ims_ewei_shop_merch_clearing',  'paytime')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_merch_clearing')." ADD `paytime` int(11) NOT NULL DEFAULT '0';");
 	}	
@@ -9837,21 +10896,6 @@ if(pdo_tableexists('ims_ewei_shop_merch_clearing')) {
 if(pdo_tableexists('ims_ewei_shop_merch_clearing')) {
 	if(!pdo_fieldexists('ims_ewei_shop_merch_clearing',  'payrate')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_merch_clearing')." ADD `payrate` decimal(10,2) NOT NULL DEFAULT '0.00';");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_merch_clearing')) {
-	if(!pdo_fieldexists('ims_ewei_shop_merch_clearing',  'clearno')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_merch_clearing')." ADD `clearno` varchar(64) NOT NULL DEFAULT '';");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_merch_clearing')) {
-	if(!pdo_fieldexists('ims_ewei_shop_merch_clearing',  'deductenough')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_merch_clearing')." ADD `deductenough` decimal(10,2) NOT NULL DEFAULT '0.00';");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_merch_clearing')) {
-	if(!pdo_fieldexists('ims_ewei_shop_merch_clearing',  'merchdeductenough')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_merch_clearing')." ADD `merchdeductenough` decimal(10,2) NOT NULL DEFAULT '0.00';");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_merch_group')) {
@@ -10394,64 +11438,24 @@ if(pdo_tableexists('ims_ewei_shop_merch_user')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_merch_user')." ADD `cateid` int(11) DEFAULT '0';");
 	}	
 }
-if(pdo_tableexists('ims_ewei_shop_multi_shop')) {
-	if(!pdo_fieldexists('ims_ewei_shop_multi_shop',  'id')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_multi_shop')." ADD `id` int(11) NOT NULL AUTO_INCREMENT;");
+if(pdo_tableexists('ims_ewei_shop_merch_user')) {
+	if(!pdo_fieldexists('ims_ewei_shop_merch_user',  'address')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_merch_user')." ADD `address` varchar(255) DEFAULT '';");
 	}	
 }
-if(pdo_tableexists('ims_ewei_shop_multi_shop')) {
-	if(!pdo_fieldexists('ims_ewei_shop_multi_shop',  'uniacid')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_multi_shop')." ADD `uniacid` int(11) DEFAULT '0';");
+if(pdo_tableexists('ims_ewei_shop_merch_user')) {
+	if(!pdo_fieldexists('ims_ewei_shop_merch_user',  'tel')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_merch_user')." ADD `tel` varchar(255) DEFAULT '';");
 	}	
 }
-if(pdo_tableexists('ims_ewei_shop_multi_shop')) {
-	if(!pdo_fieldexists('ims_ewei_shop_multi_shop',  'uid')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_multi_shop')." ADD `uid` int(11) DEFAULT '0';");
+if(pdo_tableexists('ims_ewei_shop_merch_user')) {
+	if(!pdo_fieldexists('ims_ewei_shop_merch_user',  'lat')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_merch_user')." ADD `lat` varchar(255) DEFAULT '';");
 	}	
 }
-if(pdo_tableexists('ims_ewei_shop_multi_shop')) {
-	if(!pdo_fieldexists('ims_ewei_shop_multi_shop',  'name')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_multi_shop')." ADD `name` varchar(255) DEFAULT '';");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_multi_shop')) {
-	if(!pdo_fieldexists('ims_ewei_shop_multi_shop',  'company')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_multi_shop')." ADD `company` varchar(255) DEFAULT '';");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_multi_shop')) {
-	if(!pdo_fieldexists('ims_ewei_shop_multi_shop',  'sales')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_multi_shop')." ADD `sales` varchar(255) DEFAULT '';");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_multi_shop')) {
-	if(!pdo_fieldexists('ims_ewei_shop_multi_shop',  'starttime')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_multi_shop')." ADD `starttime` int(11) DEFAULT '0';");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_multi_shop')) {
-	if(!pdo_fieldexists('ims_ewei_shop_multi_shop',  'endtime')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_multi_shop')." ADD `endtime` int(11) DEFAULT '0';");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_multi_shop')) {
-	if(!pdo_fieldexists('ims_ewei_shop_multi_shop',  'applytime')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_multi_shop')." ADD `applytime` int(11) DEFAULT '0';");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_multi_shop')) {
-	if(!pdo_fieldexists('ims_ewei_shop_multi_shop',  'jointime')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_multi_shop')." ADD `jointime` int(11) DEFAULT '0';");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_multi_shop')) {
-	if(!pdo_fieldexists('ims_ewei_shop_multi_shop',  'status')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_multi_shop')." ADD `status` tinyint(3) DEFAULT '0';");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_multi_shop')) {
-	if(!pdo_fieldexists('ims_ewei_shop_multi_shop',  'refusecontent')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_multi_shop')." ADD `refusecontent` text;");
+if(pdo_tableexists('ims_ewei_shop_merch_user')) {
+	if(!pdo_fieldexists('ims_ewei_shop_merch_user',  'lng')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_merch_user')." ADD `lng` varchar(255) DEFAULT '';");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_nav')) {
@@ -10920,13 +11924,13 @@ if(pdo_tableexists('ims_ewei_shop_order')) {
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_order')) {
-	if(!pdo_fieldexists('ims_ewei_shop_order',  'invoicename')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_order')." ADD `invoicename` varchar(255) DEFAULT '';");
+	if(!pdo_fieldexists('ims_ewei_shop_order',  'merchid')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_order')." ADD `merchid` int(11) DEFAULT '0';");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_order')) {
-	if(!pdo_fieldexists('ims_ewei_shop_order',  'merchid')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_order')." ADD `merchid` int(11) DEFAULT '0';");
+	if(!pdo_fieldexists('ims_ewei_shop_order',  'invoicename')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_order')." ADD `invoicename` varchar(255) DEFAULT '';");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_order')) {
@@ -10997,6 +12001,26 @@ if(pdo_tableexists('ims_ewei_shop_order')) {
 if(pdo_tableexists('ims_ewei_shop_order')) {
 	if(!pdo_fieldexists('ims_ewei_shop_order',  'apppay')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_order')." ADD `apppay` tinyint(3) NOT NULL DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_order')) {
+	if(!pdo_fieldexists('ims_ewei_shop_order',  'coupongoodprice')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_order')." ADD `coupongoodprice` decimal(10,2) DEFAULT '1.00';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_order')) {
+	if(!pdo_fieldexists('ims_ewei_shop_order',  'buyagainprice')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_order')." ADD `buyagainprice` decimal(10,2) DEFAULT '0.00';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_order')) {
+	if(!pdo_fieldexists('ims_ewei_shop_order',  'ispackage')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_order')." ADD `ispackage` tinyint(3) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_order')) {
+	if(!pdo_fieldexists('ims_ewei_shop_order',  'packageid')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_order')." ADD `packageid` int(11) DEFAULT '0';");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_order_comment')) {
@@ -11326,7 +12350,7 @@ if(pdo_tableexists('ims_ewei_shop_order_goods')) {
 }
 if(pdo_tableexists('ims_ewei_shop_order_goods')) {
 	if(!pdo_fieldexists('ims_ewei_shop_order_goods',  'openid')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_order_goods')." ADD `openid` varchar(255) DEFAULT '';");
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_order_goods')." ADD `openid` varchar(255);");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_order_goods')) {
@@ -11367,6 +12391,11 @@ if(pdo_tableexists('ims_ewei_shop_order_goods')) {
 if(pdo_tableexists('ims_ewei_shop_order_goods')) {
 	if(!pdo_fieldexists('ims_ewei_shop_order_goods',  'isdiscountprice')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_order_goods')." ADD `isdiscountprice` decimal(10,2) NOT NULL DEFAULT '0.00';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_order_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_order_goods',  'canbuyagain')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_order_goods')." ADD `canbuyagain` tinyint(1) DEFAULT '0';");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_order_refund')) {
@@ -11527,6 +12556,141 @@ if(pdo_tableexists('ims_ewei_shop_order_refund')) {
 if(pdo_tableexists('ims_ewei_shop_order_refund')) {
 	if(!pdo_fieldexists('ims_ewei_shop_order_refund',  'merchid')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_order_refund')." ADD `merchid` int(11) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_package')) {
+	if(!pdo_fieldexists('ims_ewei_shop_package',  'id')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_package')." ADD `id` int(11) NOT NULL AUTO_INCREMENT;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_package')) {
+	if(!pdo_fieldexists('ims_ewei_shop_package',  'uniacid')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_package')." ADD `uniacid` int(11) NOT NULL DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_package')) {
+	if(!pdo_fieldexists('ims_ewei_shop_package',  'title')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_package')." ADD `title` varchar(255) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_package')) {
+	if(!pdo_fieldexists('ims_ewei_shop_package',  'price')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_package')." ADD `price` decimal(10,2) NOT NULL DEFAULT '0.00';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_package')) {
+	if(!pdo_fieldexists('ims_ewei_shop_package',  'freight')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_package')." ADD `freight` decimal(10,2) NOT NULL DEFAULT '0.00';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_package')) {
+	if(!pdo_fieldexists('ims_ewei_shop_package',  'thumb')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_package')." ADD `thumb` varchar(255) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_package')) {
+	if(!pdo_fieldexists('ims_ewei_shop_package',  'starttime')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_package')." ADD `starttime` int(11) NOT NULL DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_package')) {
+	if(!pdo_fieldexists('ims_ewei_shop_package',  'endtime')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_package')." ADD `endtime` int(11) NOT NULL DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_package')) {
+	if(!pdo_fieldexists('ims_ewei_shop_package',  'goodsid')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_package')." ADD `goodsid` varchar(255) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_package')) {
+	if(!pdo_fieldexists('ims_ewei_shop_package',  'cash')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_package')." ADD `cash` tinyint(3) NOT NULL DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_package')) {
+	if(!pdo_fieldexists('ims_ewei_shop_package',  'share_title')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_package')." ADD `share_title` varchar(255) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_package')) {
+	if(!pdo_fieldexists('ims_ewei_shop_package',  'share_icon')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_package')." ADD `share_icon` varchar(255) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_package')) {
+	if(!pdo_fieldexists('ims_ewei_shop_package',  'share_desc')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_package')." ADD `share_desc` varchar(500) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_package')) {
+	if(!pdo_fieldexists('ims_ewei_shop_package',  'status')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_package')." ADD `status` tinyint(3) NOT NULL DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_package')) {
+	if(!pdo_fieldexists('ims_ewei_shop_package',  'deleted')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_package')." ADD `deleted` tinyint(3) NOT NULL DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_package')) {
+	if(!pdo_fieldexists('ims_ewei_shop_package',  'displayorder')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_package')." ADD `displayorder` int(11) NOT NULL DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_package_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_package_goods',  'id')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_package_goods')." ADD `id` int(11) NOT NULL AUTO_INCREMENT;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_package_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_package_goods',  'uniacid')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_package_goods')." ADD `uniacid` int(11) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_package_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_package_goods',  'pid')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_package_goods')." ADD `pid` int(11) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_package_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_package_goods',  'goodsid')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_package_goods')." ADD `goodsid` int(11) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_package_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_package_goods',  'title')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_package_goods')." ADD `title` varchar(255) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_package_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_package_goods',  'thumb')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_package_goods')." ADD `thumb` varchar(255) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_package_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_package_goods',  'price')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_package_goods')." ADD `price` decimal(10,2) NOT NULL DEFAULT '0.00';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_package_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_package_goods',  'option')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_package_goods')." ADD `option` varchar(255) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_package_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_package_goods',  'goodssn')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_package_goods')." ADD `goodssn` varchar(255) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_package_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_package_goods',  'productsn')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_package_goods')." ADD `productsn` varchar(255) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_package_goods')) {
+	if(!pdo_fieldexists('ims_ewei_shop_package_goods',  'hasoption')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_package_goods')." ADD `hasoption` tinyint(3) NOT NULL DEFAULT '0';");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_perm_log')) {
@@ -11740,6 +12904,11 @@ if(pdo_tableexists('ims_ewei_shop_plugin')) {
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_plugin')) {
+	if(!pdo_fieldexists('ims_ewei_shop_plugin',  'isv2')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_plugin')." ADD `isv2` tinyint(3) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_plugin')) {
 	if(!pdo_fieldexists('ims_ewei_shop_plugin',  'thumb')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_plugin')." ADD `thumb` varchar(255) DEFAULT '';");
 	}	
@@ -11757,11 +12926,6 @@ if(pdo_tableexists('ims_ewei_shop_plugin')) {
 if(pdo_tableexists('ims_ewei_shop_plugin')) {
 	if(!pdo_fieldexists('ims_ewei_shop_plugin',  'deprecated')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_plugin')." ADD `deprecated` tinyint(3) DEFAULT '0';");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_plugin')) {
-	if(!pdo_fieldexists('ims_ewei_shop_plugin',  'isv2')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_plugin')." ADD `isv2` tinyint(3) DEFAULT '0';");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_poster')) {
@@ -11870,11 +13034,6 @@ if(pdo_tableexists('ims_ewei_shop_poster')) {
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_poster')) {
-	if(!pdo_fieldexists('ims_ewei_shop_poster',  'paytype')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_poster')." ADD `paytype` tinyint(1) NOT NULL DEFAULT '0';");
-	}	
-}
-if(pdo_tableexists('ims_ewei_shop_poster')) {
 	if(!pdo_fieldexists('ims_ewei_shop_poster',  'scantext')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_poster')." ADD `scantext` varchar(255) DEFAULT '';");
 	}	
@@ -11907,6 +13066,11 @@ if(pdo_tableexists('ims_ewei_shop_poster')) {
 if(pdo_tableexists('ims_ewei_shop_poster')) {
 	if(!pdo_fieldexists('ims_ewei_shop_poster',  'openurl')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_poster')." ADD `openurl` varchar(255) DEFAULT '';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_poster')) {
+	if(!pdo_fieldexists('ims_ewei_shop_poster',  'paytype')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_poster')." ADD `paytype` tinyint(1) NOT NULL DEFAULT '0';");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_poster')) {
@@ -12346,7 +13510,7 @@ if(pdo_tableexists('ims_ewei_shop_postera')) {
 }
 if(pdo_tableexists('ims_ewei_shop_postera')) {
 	if(!pdo_fieldexists('ims_ewei_shop_postera',  'endtext')) {
-		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_postera')." ADD `endtext` varchar(255);");
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_postera')." ADD `endtext` varchar(255) DEFAULT '';");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_postera')) {
@@ -12677,6 +13841,11 @@ if(pdo_tableexists('ims_ewei_shop_qa_set')) {
 if(pdo_tableexists('ims_ewei_shop_qa_set')) {
 	if(!pdo_fieldexists('ims_ewei_shop_qa_set',  'enter_desc')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_qa_set')." ADD `enter_desc` varchar(255) NOT NULL DEFAULT '';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_qa_set')) {
+	if(!pdo_fieldexists('ims_ewei_shop_qa_set',  'share')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_qa_set')." ADD `share` tinyint(3) NOT NULL DEFAULT '0';");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_refund_address')) {
@@ -13544,6 +14713,101 @@ if(pdo_tableexists('ims_ewei_shop_sns_category')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_sns_category')." ADD `isrecommand` tinyint(3) DEFAULT '0';");
 	}	
 }
+if(pdo_tableexists('ims_ewei_shop_sns_complain')) {
+	if(!pdo_fieldexists('ims_ewei_shop_sns_complain',  'id')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_sns_complain')." ADD `id` int(11) NOT NULL AUTO_INCREMENT;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_sns_complain')) {
+	if(!pdo_fieldexists('ims_ewei_shop_sns_complain',  'uniacid')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_sns_complain')." ADD `uniacid` int(11) NOT NULL DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_sns_complain')) {
+	if(!pdo_fieldexists('ims_ewei_shop_sns_complain',  'type')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_sns_complain')." ADD `type` tinyint(3) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_sns_complain')) {
+	if(!pdo_fieldexists('ims_ewei_shop_sns_complain',  'postsid')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_sns_complain')." ADD `postsid` int(11) NOT NULL DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_sns_complain')) {
+	if(!pdo_fieldexists('ims_ewei_shop_sns_complain',  'defendant')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_sns_complain')." ADD `defendant` varchar(255) NOT NULL DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_sns_complain')) {
+	if(!pdo_fieldexists('ims_ewei_shop_sns_complain',  'complainant')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_sns_complain')." ADD `complainant` varchar(255) NOT NULL DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_sns_complain')) {
+	if(!pdo_fieldexists('ims_ewei_shop_sns_complain',  'complaint_type')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_sns_complain')." ADD `complaint_type` int(10) NOT NULL DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_sns_complain')) {
+	if(!pdo_fieldexists('ims_ewei_shop_sns_complain',  'complaint_text')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_sns_complain')." ADD `complaint_text` text NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_sns_complain')) {
+	if(!pdo_fieldexists('ims_ewei_shop_sns_complain',  'images')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_sns_complain')." ADD `images` text NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_sns_complain')) {
+	if(!pdo_fieldexists('ims_ewei_shop_sns_complain',  'createtime')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_sns_complain')." ADD `createtime` int(11) NOT NULL DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_sns_complain')) {
+	if(!pdo_fieldexists('ims_ewei_shop_sns_complain',  'checkedtime')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_sns_complain')." ADD `checkedtime` int(11) NOT NULL DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_sns_complain')) {
+	if(!pdo_fieldexists('ims_ewei_shop_sns_complain',  'checked')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_sns_complain')." ADD `checked` tinyint(3) NOT NULL DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_sns_complain')) {
+	if(!pdo_fieldexists('ims_ewei_shop_sns_complain',  'checked_note')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_sns_complain')." ADD `checked_note` varchar(255) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_sns_complain')) {
+	if(!pdo_fieldexists('ims_ewei_shop_sns_complain',  'deleted')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_sns_complain')." ADD `deleted` tinyint(3) NOT NULL DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_sns_complaincate')) {
+	if(!pdo_fieldexists('ims_ewei_shop_sns_complaincate',  'id')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_sns_complaincate')." ADD `id` int(11) NOT NULL AUTO_INCREMENT;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_sns_complaincate')) {
+	if(!pdo_fieldexists('ims_ewei_shop_sns_complaincate',  'uniacid')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_sns_complaincate')." ADD `uniacid` int(11) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_sns_complaincate')) {
+	if(!pdo_fieldexists('ims_ewei_shop_sns_complaincate',  'name')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_sns_complaincate')." ADD `name` varchar(255) NOT NULL;");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_sns_complaincate')) {
+	if(!pdo_fieldexists('ims_ewei_shop_sns_complaincate',  'status')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_sns_complaincate')." ADD `status` tinyint(3) NOT NULL DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_sns_complaincate')) {
+	if(!pdo_fieldexists('ims_ewei_shop_sns_complaincate',  'displayorder')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_sns_complaincate')." ADD `displayorder` int(11) NOT NULL DEFAULT '0';");
+	}	
+}
 if(pdo_tableexists('ims_ewei_shop_sns_level')) {
 	if(!pdo_fieldexists('ims_ewei_shop_sns_level',  'id')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_sns_level')." ADD `id` int(11) NOT NULL AUTO_INCREMENT;");
@@ -13799,6 +15063,11 @@ if(pdo_tableexists('ims_ewei_shop_sns_post')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_sns_post')." ADD `checktime` int(11) DEFAULT '0';");
 	}	
 }
+if(pdo_tableexists('ims_ewei_shop_sns_post')) {
+	if(!pdo_fieldexists('ims_ewei_shop_sns_post',  'isadmin')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_sns_post')." ADD `isadmin` tinyint(3) NOT NULL DEFAULT '0';");
+	}	
+}
 if(pdo_tableexists('ims_ewei_shop_store')) {
 	if(!pdo_fieldexists('ims_ewei_shop_store',  'id')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_store')." ADD `id` int(11) NOT NULL AUTO_INCREMENT;");
@@ -13877,6 +15146,21 @@ if(pdo_tableexists('ims_ewei_shop_store')) {
 if(pdo_tableexists('ims_ewei_shop_store')) {
 	if(!pdo_fieldexists('ims_ewei_shop_store',  'displayorder')) {
 		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_store')." ADD `displayorder` int(11) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_store')) {
+	if(!pdo_fieldexists('ims_ewei_shop_store',  'order_printer')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_store')." ADD `order_printer` varchar(500) DEFAULT '';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_store')) {
+	if(!pdo_fieldexists('ims_ewei_shop_store',  'order_template')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_store')." ADD `order_template` int(11) DEFAULT '0';");
+	}	
+}
+if(pdo_tableexists('ims_ewei_shop_store')) {
+	if(!pdo_fieldexists('ims_ewei_shop_store',  'ordertype')) {
+		pdo_query("ALTER TABLE ".tablename('ims_ewei_shop_store')." ADD `ordertype` varchar(500) DEFAULT '';");
 	}	
 }
 if(pdo_tableexists('ims_ewei_shop_sysset')) {

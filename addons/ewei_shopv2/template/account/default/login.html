@@ -15,7 +15,7 @@
     {if is_h5app()}
     <div class="fui-header">
         <div class="fui-header-left">
-            <a href="javascript:;" class="back"> </a>
+            <a class="back"> </a>
         </div>
         <div class="title">用户登录</div>
         <div class="fui-header-right" data-nomenu="true"></div>
@@ -58,7 +58,7 @@
                     </div>
                     <div class="icons">
                         {if !empty($sns['wx'])}
-                        <div class="item btn-sns" data-sns="wx"><i class="icon icon-wechat1"></i></div>
+                        <div class="item btn-sns" data-sns="wx" {if is_ios()}style="display: none;" id="threeWX"{/if}><i class="icon icon-wechat1"></i></div>
                         {/if}
                         {if !empty($sns['qq'])}
                         <div class="item btn-sns" data-sns="qq"><i class="icon icon-qq" style="font-size: 1.5rem"></i></div>
@@ -68,7 +68,6 @@
             {/if}
         {/if}
 
-
         <script language='javascript'>
             require(['biz/member/account'], function (modal) {
                 modal.initLogin({backurl:'{$backurl}'});
@@ -76,4 +75,8 @@
         </script>
     </div>
 </div>
+
+{if is_ios}
+    {php $initWX=true}
+{/if}
 {template '_footer'}

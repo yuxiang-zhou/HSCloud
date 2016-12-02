@@ -16,7 +16,6 @@
 <ul>
     {ifp 'sysset.trade'}<li  {if $_W['routes']=='sysset.trade'}class="active"{/if}><a href="{php echo webUrl('sysset/trade')}">交易设置</a></li>{/if}
     {ifp 'sysset.payset'}<li  {if $_W['routes']=='sysset.payset'}class="active"{/if}><a href="{php echo webUrl('sysset/payset')}">支付方式</a></li>{/if}
-    {ifp 'sysset.trade'}<li  {if $_W['routes']=='sysset.cashback'}class="active"{/if}><a href="{php echo webUrl('sysset/cashback')}">销售返现</a></li>{/if}
 </ul>
 {/if}
 

@@ -26,7 +26,7 @@
 		    </div>
 		    <div class='bar' >
 			<span class='pull-right'>
-			    <a href="{php echo mobileUrl('member/address/post',array('id'=>$address['id']))}" data-nocache="true">
+			    <a class="external" href="{php echo mobileUrl('member/address/post',array('id'=>$address['id']))}" data-nocache="true">
 				<i class='icon icon-edit2'></i> 编辑
 			    </a>
 			    &nbsp;&nbsp;
@@ -46,7 +46,7 @@
 
     </div>
     <div class='fui-navbar'>
-	<a href="{php echo mobileUrl('member/address/post')}" class='nav-item btn btn-danger' data-nocache="true"><i class="icon icon-add"></i> 新建地址</a>
+	<a href="{php echo mobileUrl('member/address/post')}" class='nav-item btn btn-danger external' data-nocache="true"><i class="icon icon-add"></i> 新建地址</a>
     </div>
     <script id="tpl_address_item" type="text/html">
 	<div class="fui-list-group address-item" style='margin-top:5px;' data-addressid="<%address.id%>">
@@ -58,7 +58,7 @@
 		    </div>
 		    <div class='bar' >
 			<span class='pull-right'>
-			    <a href="{php echo mobileUrl('member/address/post')}&id=<%address.id%>" data-nocache='true'>
+			    <a class="external" href="{php echo mobileUrl('member/address/post')}&id=<%address.id%>" data-nocache='true'>
 				<i class='icon icon-edit'></i> 编辑 
 			    </a>
 			    &nbsp;&nbsp;

@@ -39,13 +39,13 @@
 
 {loop $res $key $value}
             <div class="fui-goods-item" data-goodsid="8">
-                <a href="{php echo mobileUrl('bargain/detail',array('id'=>$value['id']));}" class="external">
+                <a href="{php echo mobileUrl('bargain/detail',array('id'=>$value['id']));}">
                     <div class="image" style="background-image: url({php echo tomedia($value['images']);})">
 
                     </div>
                 </a>
                 <div class="detail">
-                    <a href="{php echo mobileUrl('bargain/detail',array('id'=>$value['id']));}" class="external">
+                    <a href="{php echo mobileUrl('bargain/detail',array('id'=>$value['id']));}">
                         <div class="name">{$value['title']}</div>
                     </a>
 {if $value['type']==1}
@@ -74,9 +74,9 @@
 
 
 
-    <div class="fui-navbar">
+    <div class="fui-navbar footer-nav bordert" style="z-index:10;padding:0;position:absolute">
 
-        <a href="{php echo mobileUrl();}" class="external nav-item">
+        <a href="{php echo mobileUrl();}" class="nav-item">
             <span class="icon icon-home"></span>
             <span class="label">商城首页</span>
         </a>
@@ -87,11 +87,11 @@
         </a>
 
 
-        <a href="{php echo mobileUrl('bargain/act');}" class="external nav-item " id="menucart">
+        <a href="{php echo mobileUrl('bargain/act');}" class="external nav-item" id="menucart">
             <span class="icon icon-all1"></span>
             <span class="label">砍价中</span>
         </a>
-        <a href="{php echo mobileUrl('bargain/purchase');}" class="external nav-item  ">
+        <a href="{php echo mobileUrl('bargain/purchase');}" class="external nav-item">
             <span class="icon icon-money"></span>
             <span class="label">已购买</span>
         </a>

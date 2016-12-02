@@ -18,7 +18,6 @@
                 <input type="text" name="marketprice" id="marketprice" class="form-control" value="{$this_goods['marketprice']}" readonly>
                 <span class="input-group-addon">元</span>
             </div>
-
         </div>
     </div>
     <div class="form-group">
@@ -33,35 +32,45 @@
     <div class="form-group">
         <label class="col-sm-2 control-label">显示底价</label>
         <div class="col-sm-9 col-xs-12">
-            <label class="radio-inline">{if $this_act['type']==0}
-                <label>不显示</label>
-            </label>{/if}{if $this_act['type']==1}
             <label class="radio-inline">
-                <label>显示</label>
-            </label>{/if}
+                <input type="radio" name="display" value="0" class="valid" {if $this_act['type']==0}checked{/if} /> <s></s>不显示
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="display" value="1" class="valid" {if $this_act['type']==1}checked{/if} /> 显示
+            </label>
         </div>
     </div>
     <div class="form-group">
         <label class="col-sm-2 control-label">没到底价</label>
         <div class="col-sm-9 col-xs-12">
-            {if $this_act['mode']==0}<label class="radio-inline">
-                <label>可以下单</label>
-            </label>{/if}{if $this_act['mode']==1}
             <label class="radio-inline">
-                <label>不可下单</label>
-            </label>{/if}
+                <input type="radio" name="order_set" value="0" class="valid" {if $this_act['mode']==0}checked{/if} > 可以下单
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="order_set" value="1" class="valid" {if $this_act['mode']==1}checked{/if} > 不可下单
+            </label>
         </div>
     </div>
-
+    <div class="form-group">
+        <label class="col-sm-2 control-label">自己砍价</label>
+        <div class="col-sm-9 col-xs-12">
+            <label class="radio-inline">
+                <input type="radio" name="myself" value="1" aria-invalid="false" class="valid" {if $this_act['myself']==1}checked{/if}> 允许
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="myself" value="0"  class="valid" aria-invalid="false" {if $this_act['myself']==0}checked{/if}> 禁止
+            </label>
+        </div>
+    </div>
     <div class="form-group">
         <label class="col-sm-2 control-label">发起次数</label>
         <div class="col-sm-9 col-xs-12">
             {if $this_act['initiate']==0}
             <label class="radio-inline">
-                <label>允许多次发起同一个商品的砍价</label>
+                <label style="color: #ff3f4b">允许多次发起同一个商品的砍价</label>
             </label>{/if}{if $this_act['initiate']==1}
             <label class="radio-inline">
-                <label>每个商品只允许发起一次砍价</label>
+                <label style="color: #ff3f4b">每个商品只允许发起一次砍价</label>
             </label>{/if}
         </div>
     </div>
@@ -161,7 +170,7 @@
     <div class="form-group">
         <label class="col-sm-2 control-label">【分享】商品标题</label>
         <div class="col-sm-9 col-xs-12">
-            <input type="text" name="goods_share_title" class="form-control" value="">
+            <input type="text" name="goods_share_title" class="form-control" value="{$user_set['goods_title']}">
         </div>
     </div>
 

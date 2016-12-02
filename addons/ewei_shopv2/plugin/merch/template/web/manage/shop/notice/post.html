@@ -63,7 +63,7 @@
         <label class="col-sm-2 control-label">公告内容</label>
         <div class="col-sm-9 col-xs-12">    
             {ife 'shop.notice' $notice}
-            	{php echo tpl_ueditor('detail',$notice['detail'])}
+            	{php echo tpl_ueditor('detail',$notice['detail'],array('dest_dir'=>'merch/'.$_W['merchid']))}
             {else}
 	            <textarea id='detail' style='display:none'>{$notice['detail']}</textarea>
 	            <a href='javascript:preview_html("#detail")' class="btn btn-default">查看内容</a>

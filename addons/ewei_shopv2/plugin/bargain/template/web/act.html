@@ -1,6 +1,6 @@
 {template '_header'}
 <div style="margin-top: 50px"></div>
-{if $if_act_swi}
+{if !$temp['bargain']}
 <form action="" method="post" class="form-horizontal form-search form-validate">
     <h3>砍价活动设置</h3>
     <hr>
@@ -51,6 +51,17 @@
             </label>
             <label class="radio-inline">
                 <input type="radio" name="order_set" value="1" class="valid" aria-invalid="false"> 不可下单
+            </label>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">自己砍价</label>
+        <div class="col-sm-9 col-xs-12">
+            <label class="radio-inline">
+                <input type="radio" name="myself" value="1" aria-invalid="false" class="valid" checked> 允许
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="myself" value="0"  class="valid" aria-invalid="false"> 禁止
             </label>
         </div>
     </div>
@@ -294,7 +305,7 @@
         </div>
     </div>
 </form>{/if}
-{if !$if_act_swi}<br><br>
+{if $temp['bargain']>0}<br><br>
 <h2><i class="glyphicon glyphicon-check" style="color: limegreen"></i> 此商品已经成功发起了砍价活动</h2>
 <br>
     <!--<span style="margin-left: 20px">如需重新发起或请先删除已发起的活动</span>-->

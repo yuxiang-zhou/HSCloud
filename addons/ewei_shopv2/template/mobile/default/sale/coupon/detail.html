@@ -32,7 +32,9 @@
 				</div>
 				<div class="coupon-detail-head-info">
 					<span>{$coupon['title2']}{$coupon['title3']}</span>
-					{if $pass}
+					{if $coupon['canget']===false}
+						<a href="javascript:void(0);"><p  style="color:#ccc;">以达到{$coupon['gettypestr']}上限</p></a>
+					{elseif $pass}
 						<a href="javascript:void(0);"  id="btncoupon"><p>立即{$coupon['gettypestr']}</p></a>
 					{else}
 						<a href="javascript:void(0);"><p>未达到{$coupon['gettypestr']}权限</p></a>

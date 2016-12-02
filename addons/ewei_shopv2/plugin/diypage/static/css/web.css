@@ -11,7 +11,7 @@
     background: #fff;
     padding: 10px;
     overflow: hidden;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .diy-phone .phone-head {
@@ -108,32 +108,41 @@
     z-index: 10;
 }
 
-
-
-.diy-phone .phone-main .drag.selected .btn-del,
-.diy-phone .phone-main .drag.selected .btn-edit,
-.diy-phone .phone-main .drag:hover .btn-del,
-.diy-phone .phone-main .drag:hover .btn-edit {
-    display: block;
+.diy-phone .phone-main .drag.fixed:before {
+    cursor: default;
 }
 
-.diy-phone .phone-main .drag .btn-del,
-.diy-phone .phone-main .drag .btn-edit {
+.diy-phone .phone-main .drag .btn-edit-del {
+    height: 16px;
+    position: absolute;
+    right: 2px;
+    bottom: 2px;
+    display: none;
+}
+
+.diy-phone .phone-main .drag .btn-edit-del > div {
     width: 32px;
+    height: 16px;
     line-height: 16px;
-    background: rgba(0,0,0,.4);
+    display: inline-block;
     text-align: center;
     font-size: 10px;
     color: #fff;
-    position: absolute;
-    bottom: 2px;
-    right: 2px;
+    background: rgba(0,0,0,.4);
+    margin-left: 2px;
     cursor: pointer;
-    display: none;
+    position: relative;
     z-index: 11;
 }
-.diy-phone .phone-main .drag .btn-edit {
-    right: 38px;
+
+
+.diy-phone .phone-main .drag.selected .btn-edit-del ,
+.diy-phone .phone-main .drag:hover .btn-edit-del {
+    display: block;
+}
+
+.diy-phone .phone-main .drag.nodelete .btn-edit-del .btn-del {
+    display: none;
 }
 
 .diy-phone .phone-main a {
@@ -159,7 +168,7 @@
     border-radius: 5px;
     margin-top: 55px;
     display: none;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 .diy-editor .editor-arrow {
     height: 0;
@@ -390,6 +399,10 @@
     padding: 5px 0;
     margin: 0 5px 5px 0;
     text-align: center;
+}
+
+.diy-menu .navs nav.special {
+    background: #f4f4f4;
 }
 
 .diy-menu .navs nav:hover {

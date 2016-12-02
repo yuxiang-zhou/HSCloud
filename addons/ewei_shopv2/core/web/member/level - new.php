@@ -1,11 +1,11 @@
 ﻿<?php
-if (!defined('IN_IA'))
+if (!defined('IN_IA')) 
 {
 	exit('Access Denied');
 }
-class Level_EweiShopV2Page extends WebPage
+class Level_EweiShopV2Page extends WebPage 
 {
-	public function main()
+	public function main() 
 	{
 		global $_W;
 		global $_GPC;
@@ -14,11 +14,11 @@ class Level_EweiShopV2Page extends WebPage
 		$default = array('id' => 'default', 'levelname' => (empty($set['shop']['levelname']) ? '普通等级' : $set['shop']['levelname']), 'discount' => $set['shop']['leveldiscount'], 'ordermoney' => 0, 'ordercount' => 0);
 		$condition = ' and uniacid=:uniacid';
 		$params = array(':uniacid' => $_W['uniacid']);
-		if ($_GPC['enabled'] != '')
+		if ($_GPC['enabled'] != '') 
 		{
 			$condition .= ' and enabled=' . intval($_GPC['enabled']);
 		}
-		if (!empty($_GPC['keyword']))
+		if (!empty($_GPC['keyword'])) 
 		{
 			$_GPC['keyword'] = trim($_GPC['keyword']);
 			$condition .= ' and ( levelname like :levelname)';
@@ -28,15 +28,15 @@ class Level_EweiShopV2Page extends WebPage
 		$list = array_merge(array($default), $others);
 		include $this->template();
 	}
-	public function add()
+	public function add() 
 	{
 		$this->post();
 	}
-	public function edit()
+	public function edit() 
 	{
 		$this->post();
 	}
-	protected function post()
+	protected function post() 
 	{
 		global $_W;
 		global $_GPC;
@@ -44,33 +44,33 @@ class Level_EweiShopV2Page extends WebPage
 		$id = trim($_GPC['id']);
 		$set = $_S;
 		$setdata = pdo_fetch('select * from ' . tablename('ewei_shop_sysset') . ' where uniacid=:uniacid limit 1', array(':uniacid' => $_W['uniacid']));
-		if ($id == 'default')
+		if ($id == 'default') 
 		{
 			$level = array('id' => 'default', 'levelname' => (empty($set['shop']['levelname']) ? '普通等级' : $set['shop']['levelname']), 'discount' => $set['shop']['leveldiscount'], 'ordermoney' => 0, 'ordercount' => 0);
 		}
-		else
+		else 
 		{
 			$level = pdo_fetch('SELECT * FROM ' . tablename('ewei_shop_member_level') . ' WHERE id=:id and uniacid=:uniacid limit 1', array(':uniacid' => $_W['uniacid'], ':id' => intval($id)));
 		}
-		if ($_W['ispost'])
+		if ($_W['ispost']) 
 		{
 			$enabled = intval($_GPC['enabled']);
 			//$data = array('uniacid' => $_W['uniacid'], 'level' => intval($_GPC['level']), 'levelname' => trim($_GPC['levelname']), 'ordercount' => intval($_GPC['ordercount']), 'ordermoney' => $_GPC['ordermoney'], 'discount' => trim($_GPC['discount']), 'enabled' => $enabled);
 			//修改加入进货返点
 			$data = array('uniacid' => $_W['uniacid'], 'level' => intval($_GPC['level']), 'levelname' => trim($_GPC['levelname']), 'rate1' => floatval($_GPC['rate1']), 'rate2' => floatval($_GPC['rate2']), 'rate3' => floatval($_GPC['rate3']), 'ordercount' => intval($_GPC['ordercount']), 'ordermoney' => $_GPC['ordermoney'], 'discount' => $_GPC['discount'], 'enabled' => $enabled);
-			if (!empty($id))
+			if (!empty($id)) 
 			{
-				if ($id == 'default')
+				if ($id == 'default') 
 				{
 					$updatecontent = '<br/>等级名称: ' . $set['shop']['levelname'] . '->' . $data['levelname'] . '<br/>折扣: ' . $set['shop']['leveldiscount'] . '->' . $data['discount'];
 					$set['shop']['levelname'] = $data['levelname'];
 					$set['shop']['leveldiscount'] = $data['discount'];
 					$data = array('uniacid' => $_W['uniacid'], 'sets' => iserializer($set));
-					if (empty($setdata))
+					if (empty($setdata)) 
 					{
 						pdo_insert('ewei_shop_sysset', $data);
 					}
-					else
+					else 
 					{
 						pdo_update('ewei_shop_sysset', $data, array('uniacid' => $_W['uniacid']));
 					}
@@ -78,14 +78,14 @@ class Level_EweiShopV2Page extends WebPage
 					m('cache')->set('sysset', $setdata);
 					plog('member.level.edit', '修改会员默认等级' . $updatecontent);
 				}
-				else
+				else 
 				{
 					$updatecontent = '<br/>等级名称: ' . $level['levelname'] . '->' . $data['levelname'] . '<br/>折扣: ' . $level['leveldiscount'] . '->' . $data['discount'];
 					pdo_update('ewei_shop_member_level', $data, array('id' => $id, 'uniacid' => $_W['uniacid']));
 					plog('member.level.edit', '修改会员等级 ID: ' . $id . $updatecontent);
 				}
 			}
-			else
+			else 
 			{
 				pdo_insert('ewei_shop_member_level', $data);
 				$id = pdo_insertid();
@@ -95,41 +95,41 @@ class Level_EweiShopV2Page extends WebPage
 		}
 		$level_array = array();
 		$i = 0;
-		while ($i < 101)
+		while ($i < 101) 
 		{
 			$level_array[$i] = $i;
 			++$i;
 		}
 		include $this->template();
 	}
-	public function delete()
+	public function delete() 
 	{
 		global $_W;
 		global $_GPC;
 		$id = intval($_GPC['id']);
-		if (empty($id))
+		if (empty($id)) 
 		{
 			$id = ((is_array($_GPC['ids']) ? implode(',', $_GPC['ids']) : 0));
 		}
 		$items = pdo_fetchall('SELECT id,levelname FROM ' . tablename('ewei_shop_member_level') . ' WHERE id in( ' . $id . ' ) AND uniacid=' . $_W['uniacid']);
-		foreach ($items as $item )
+		foreach ($items as $item ) 
 		{
 			pdo_delete('ewei_shop_member_level', array('id' => $item['id']));
 			plog('member.level.delete', '删除等级 ID: ' . $item['id'] . ' 标题: ' . $item['levelname'] . ' ');
 		}
 		show_json(1, array('url' => referer()));
 	}
-	public function enabled()
+	public function enabled() 
 	{
 		global $_W;
 		global $_GPC;
 		$id = intval($_GPC['id']);
-		if (empty($id))
+		if (empty($id)) 
 		{
 			$id = ((is_array($_GPC['ids']) ? implode(',', $_GPC['ids']) : 0));
 		}
 		$items = pdo_fetchall('SELECT id,levelname FROM ' . tablename('ewei_shop_member_level') . ' WHERE id in( ' . $id . ' ) AND uniacid=' . $_W['uniacid']);
-		foreach ($items as $item )
+		foreach ($items as $item ) 
 		{
 			pdo_update('ewei_shop_member_level', array('enabled' => intval($_GPC['enabled'])), array('id' => $item['id']));
 			plog('member.level.edit', (('修改会员等级状态<br/>ID: ' . $item['id'] . '<br/>标题: ' . $item['levelname'] . '<br/>状态: ' . $_GPC['enabled']) == 1 ? '启用' : '禁用'));

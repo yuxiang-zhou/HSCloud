@@ -20,6 +20,9 @@
 				statusbar: "{php echo intval($_W['shopset']['wap']['statusbar'])}",
 				payinfo: {php echo json_encode($payinfo)}
 			});
+			{if $initWX}
+			modal.initWX();
+			{/if}
 		});
 	</script>
 	{template 'headmenu'}

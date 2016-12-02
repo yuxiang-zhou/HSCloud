@@ -19,9 +19,8 @@
                 <label class="col-sm-2 control-label must">选择优惠券</label>
                  <div class="col-sm-9 col-xs-12">
                  <select name="couponid" class="form-control"  id="value_5">
-                     <option value="">请选择优惠券</option>
                      {loop $coupons $coupon}
-                     <option value="{$coupon['id']}">{$coupon['couponname']}</option>
+                     <option value="{$coupon['id']}" {if $coupon['id']==$couponid}selected{/if} >{$coupon['couponname']}</option>
                      {/loop}
                  </select>
 
@@ -90,6 +89,7 @@
             </div>
             <div class="form-group choose choose_3" style='display:none '>
                 <label class="col-sm-2 control-label" >选择会员分组</label>
+
                 <div class="col-sm-8 col-lg-9 col-xs-12">
                     <select name="send_group" class="form-control"  id="value_3">
                         <option value="">全部</option>

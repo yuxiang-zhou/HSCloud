@@ -6,9 +6,12 @@
    {ifp 'sale.enough'}<li {if $_W['routes']=='sale.enough'}class="active"{/if}><a href="{php echo webUrl('sale/enough')}">满额立减</a></li>{/if}
    {ifp 'sale.enoughfree'}<li {if $_W['routes']=='sale.enoughfree'}class="active"{/if}><a href="{php echo webUrl('sale/enoughfree')}">满额包邮</a></li>{/if}
    {ifp 'sale.recharge'}<li {if $_W['routes']=='sale.recharge'}class="active"{/if}><a href="{php echo webUrl('sale/recharge')}">充值优惠</a></li>{/if}
+    {ifp 'sale.package'}<li {if $_W['routes']=='sale.package'}class="active"{/if}><a href="{php echo webUrl('sale/package')}">套餐管理</a></li>{/if}
+    {ifp 'sale.gift'}<li {if $_W['routes']=='sale.gift'}class="active"{/if}><a href="{php echo webUrl('sale/gift')}">赠品管理</a></li>{/if}
 </ul>
 {/if}
 {/if}
+
 {if com("coupon")}
 {ifp 'sale.coupon.view|sale.coupon.category|sale.coupon.log|sale.coupon.set'}
   <div class='menu-header'>优惠券</div>

@@ -44,6 +44,7 @@ define(['core', 'tpl'], function (core, tpl) {
                 var signed = _this.data('signed');
                 var date = _this.data('date');
                 var day = _this.data('day');
+                var month = _this.data('month');
 
                 if(modal.params.signold<1){
                     return;
@@ -55,6 +56,11 @@ define(['core', 'tpl'], function (core, tpl) {
                 if (day >= modal.params.today || signed) {
                     return
                 }
+
+                if(month<modal.params.month){
+                    return
+                }
+
                 if (doing) {
                     FoxUI.alert('正在执行, 请稍等.');
                     return

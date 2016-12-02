@@ -81,6 +81,7 @@
 					<nav data-href="{php echo mobileUrl('order', array('status'=>1), $full)}" class="btn btn-default btn-sm" title="待发货订单">待发货订单</nav>
 					<nav data-href="{php echo mobileUrl('order', array('status'=>2), $full)}" class="btn btn-default btn-sm" title="待收货订单">待收货订单</nav>
 					<nav data-href="{php echo mobileUrl('order', array('status'=>4), $full)}" class="btn btn-default btn-sm" title="退换货订单">退换货订单</nav>
+					<nav data-href="{php echo mobileUrl('order', array('status'=>3), $full)}" class="btn btn-default btn-sm" title="已完成订单">已完成订单</nav>
 					<nav data-href="{php echo mobileUrl('member/favorite', null, $full)}" class="btn btn-default btn-sm" title="我的收藏">我的收藏</nav>
 					<nav data-href="{php echo mobileUrl('member/history', null, $full)}" class="btn btn-default btn-sm" title="我的足迹">我的足迹</nav>
 					<nav data-href="{php echo mobileUrl('member/recharge', null, $full)}" class="btn btn-default btn-sm" title="会员充值">会员充值</nav>
@@ -147,6 +148,10 @@
 						<nav data-href="{php echo mobileUrl('qa', null, $full)}" class="btn btn-default btn-sm" title="商城首页">帮助首页</nav>
 						<nav data-href="{php echo mobileUrl('qa/category', null, $full)}" class="btn btn-default btn-sm" title="全部分类">全部分类</nav>
 						<nav data-href="{php echo mobileUrl('qa/question', null, $full)}" class="btn btn-default btn-sm" title="全部问题">全部问题</nav>
+					{/if}
+					{if p('bargain')}
+						<div class="page-header"><h4><i class="fa fa-folder-open-o"></i> {php echo m('plugin')->getName('bargain')}</h4></div>
+						<nav data-href="{php echo mobileUrl('bargain', null, $full)}" class="btn btn-default btn-sm" title="砍价首页">砍价首页</nav>
 					{/if}
 				</div>
 				

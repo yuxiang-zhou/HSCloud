@@ -1,4 +1,7 @@
 {template '_header'}
+<style>
+    .fui-list-media img{height:2.5rem;}
+</style>
 <div class='fui-page order-detail-page'>
     <div class="fui-header">
         <div class="fui-header-left">
@@ -40,7 +43,7 @@
                         ({if $order['status'] ==1}申请退款{else}申请售后{/if}中)
                         {/if}
                     </div>
-                    <div class='text'>订单金额(含运费): ￥{$order['price']}<span></div>
+                    <div class='text'>订单金额(含运费): &yen; {$order['price']}<span></div>
                 </div>
                 <div class='fui-list-media'>
                     {if empty($order['status'])}
@@ -143,16 +146,17 @@
             <a href="{php echo mobileUrl('goods/detail',array('id'=>$g['goodsid']))}">
 
                 <div class="fui-list goods-list">
-                    <div class="fui-list-media">
+                    <div class="fui-list-media" {if $g['status']==2}style="padding-left:0.5rem;"{/if}>
                         <img src="{php echo tomedia($g['thumb'])}" class="round">
                     </div>
                     <div class="fui-list-inner">
                         <div class="text goodstitle">{$g['title']}</div>
+                        {if $g['status']==2}<span class="fui-label fui-label-danger">赠品</span>{/if}
                         {if !empty($g['optionid'])}<div class='subtitle'>{$g['optiontitle']}</div>{/if}
 
                     </div>
                     <div class='fui-list-angle'>
-                        ￥<span class='marketprice'>{$g['price']}<br/>   x{$g['total']}
+                        &yen; <span class='marketprice'>{$g['price']}<br/>   x{$g['total']}
                     </div>
 
                 </div>
@@ -322,63 +326,72 @@
         <div class='fui-cell-group price-cell-group'>
             <div class="fui-cell">
                 <div class="fui-cell-label">商品小计</div>
-                <div class="fui-cell-info"></div>
-                <div class="fui-cell-remark noremark">￥{$order['goodsprice']}</div>
+                <div class="fui-cell-info">{if $order['ispackage']}<span class="text-danger" style="font-size: 0.6rem;">(套餐总价)</span>{/if}</div>
+                <div class="fui-cell-remark noremark">&yen; {$order['goodsprice']}</div>
             </div>
             <div class="fui-cell">
                 <div class="fui-cell-label">运费</div>
                 <div class="fui-cell-info"></div>
-                <div class="fui-cell-remark noremark">￥{$order['dispatchprice']}</div>
+                <div class="fui-cell-remark noremark">&yen; {$order['dispatchprice']}</div>
             </div>
+            {if !$order['ispackage']}
+                {if $order['deductenough']>0}
+                <div class="fui-cell">
+                    <div class="fui-cell-label">满额立减</div>
+                    <div class="fui-cell-info"></div>
+                    <div class="fui-cell-remark noremark">-&yen; {$order['deductenough']}</div>
+                </div>
+                {/if}
 
-            {if $order['deductenough']>0}
-            <div class="fui-cell">
-                <div class="fui-cell-label">满额立减</div>
-                <div class="fui-cell-info"></div>
-                <div class="fui-cell-remark noremark">-￥{$order['deductenough']}</div>
-            </div>
-            {/if}
+                {if $order['couponprice']>0}
+                <div class="fui-cell">
+                    <div class="fui-cell-label"  style='width:auto;'>优惠券优惠</div>
+                    <div class="fui-cell-info"></div>
+                    <div class="fui-cell-remark noremark">-&yen; {$order['couponprice']}</div>
+                </div>
+                {/if}
 
-            {if $order['couponprice']>0}
-            <div class="fui-cell">
-                <div class="fui-cell-label"  style='width:auto;'>优惠券优惠</div>
-                <div class="fui-cell-info"></div>
-                <div class="fui-cell-remark noremark">-￥{$order['couponprice']}</div>
-            </div>
-            {/if}
+                {if $order['buyagainprice']>0}
+                <div class="fui-cell">
+                    <div class="fui-cell-label">重复购买优惠</div>
+                    <div class="fui-cell-info"></div>
+                    <div class="fui-cell-remark noremark">-&yen; {$order['buyagainprice']}</div>
+                </div>
+                {/if}
 
-            {if $order['discountprice']>0}
-            <div class="fui-cell">
-                <div class="fui-cell-label">会员优惠</div>
-                <div class="fui-cell-info"></div>
-                <div class="fui-cell-remark noremark">-￥{$order['discountprice']}</div>
-            </div>
-            {/if}
-            {if $order['isdiscountprice']>0}
-            <div class="fui-cell">
-                <div class="fui-cell-label">促销优惠</div>
-                <div class="fui-cell-info"></div>
-                <div class="fui-cell-remark noremark">-￥{$order['isdiscountprice']}</div>
-            </div>
-            {/if}
-            {if $order['deductprice']>0}
-            <div class="fui-cell">
-                <div class="fui-cell-label">{$_W['shopset']['trade']['credittext']}抵扣</div>
-                <div class="fui-cell-info"></div>
-                <div class="fui-cell-remark noremark">-￥{$order['deductprice']}</div>
-            </div>
-            {/if}
-            {if $order['deductcredit2']>0}
-            <div class="fui-cell">
-                <div class="fui-cell-label">{$_W['shopset']['trade']['moneytext']}抵扣</div>
-                <div class="fui-cell-info"></div>
-                <div class="fui-cell-remark noremark">-￥{$order['deductcredit2']}</div>
-            </div>
+                {if $order['discountprice']>0}
+                <div class="fui-cell">
+                    <div class="fui-cell-label">会员优惠</div>
+                    <div class="fui-cell-info"></div>
+                    <div class="fui-cell-remark noremark">-&yen; {$order['discountprice']}</div>
+                </div>
+                {/if}
+                {if $order['isdiscountprice']>0}
+                <div class="fui-cell">
+                    <div class="fui-cell-label">促销优惠</div>
+                    <div class="fui-cell-info"></div>
+                    <div class="fui-cell-remark noremark">-&yen; {$order['isdiscountprice']}</div>
+                </div>
+                {/if}
+                {if $order['deductprice']>0}
+                <div class="fui-cell">
+                    <div class="fui-cell-label">{$_W['shopset']['trade']['credittext']}抵扣</div>
+                    <div class="fui-cell-info"></div>
+                    <div class="fui-cell-remark noremark">-&yen; {$order['deductprice']}</div>
+                </div>
+                {/if}
+                {if $order['deductcredit2']>0}
+                <div class="fui-cell">
+                    <div class="fui-cell-label">{$_W['shopset']['trade']['moneytext']}抵扣</div>
+                    <div class="fui-cell-info"></div>
+                    <div class="fui-cell-remark noremark">-&yen; {$order['deductcredit2']}</div>
+                </div>
+                {/if}
             {/if}
             <div class="fui-cell">
                 <div class="fui-cell-label" style='width:auto;'>实付费(含运费)</div>
                 <div class="fui-cell-info"></div>
-                <div class="fui-cell-remark noremark"><span class='text-danger'>￥<span style='font-size:.8rem'>{$order['price']}</span></span></div>
+                <div class="fui-cell-remark noremark"><span class='text-danger'>&yen; <span style='font-size:.8rem'>{$order['price']}</span></span></div>
             </div>
         </div>
 

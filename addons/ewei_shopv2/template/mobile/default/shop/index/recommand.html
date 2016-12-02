@@ -14,13 +14,13 @@
 		
 			<%each list as item%>
 				<div class="fui-goods-item" data-goodsid="<%item.id%>">
-					<a <%if item.bargain>0%>class="external" href="{php echo mobileUrl('bargain/detail')}&id=<%item.bargain%>"<%else%>href="{php echo mobileUrl('goods/detail')}&id=<%item.id%>"<%/if%>>
+					<a <%if item.bargain>0%>href="{php echo mobileUrl('bargain/detail')}&id=<%item.bargain%>"<%else%>href="{php echo mobileUrl('goods/detail')}&id=<%item.id%>"<%/if%>>
 						<div class="image" data-lazy-background="<%item.thumb%>">
 							<%if item.total<=0%><div class="salez" style="background-image: url('{php echo tomedia($_W['shopset']['shop']['saleout'])}'); "></div><%/if%>
 						</div>
 					</a>
 					<div class="detail">
-						<a <%if item.bargain>0%>class="external" href="{php echo mobileUrl('bargain/detail')}&id=<%item.bargain%>"<%else%>href="{php echo mobileUrl('goods/detail')}&id=<%item.id%>"<%/if%>>
+						<a <%if item.bargain>0%>href="{php echo mobileUrl('bargain/detail')}&id=<%item.bargain%>"<%else%>href="{php echo mobileUrl('goods/detail')}&id=<%item.id%>"<%/if%>>
 							<div class="name"><%item.title%></div>
 						</a>
 						<div class="price">

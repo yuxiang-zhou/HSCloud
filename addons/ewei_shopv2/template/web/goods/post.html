@@ -1,109 +1,103 @@
 {php $no_left =true;}
 {template '_header'}
+
 <script type="text/javascript" src="../addons/ewei_shopv2/static/js/dist/area/cascade.js"></script>
 <style type='text/css'>
-
-           .tabs-container .form-group {overflow: hidden;}
-          .tabs-container .tabs-left > .nav-tabs {
-		width: 120px;;
-          }
-          .tabs-container .tabs-left .panel-body {
-		margin-left: 120px;
-		width:880px;
-		text-align:left;
-           }
-	.tab-goods .nav li { width:120px; text-align:right; }
-
-	.spec_item_thumb {position:relative;width:30px;height:20px;padding:0;border-left:none;}
-          .spec_item_thumb i { position:absolute;top:-5px;right:-5px; }
+    .tabs-container .form-group {overflow: hidden;}
+    .tabs-container .tabs-left > .nav-tabs {width: 120px;}
+    .tabs-container .tabs-left .panel-body {margin-left: 120px; width: 880px; text-align: left;}
+    .tab-goods .nav li {width: 120px; text-align: right;}
+    .spec_item_thumb {position: relative; width: 30px; height: 20px; padding: 0; border-left: none;}
+    .spec_item_thumb i {position: absolute; top: -5px; right: -5px;}
 </style>
 
 
 
 <div class="page-heading">
-
 	<span class='pull-right'>
-
 		{ifp 'goods.add'}
-                            <a class="btn btn-primary btn-sm" href="{php echo webUrl('goods/add')}" >添加商品</a>
+        <a class="btn btn-primary btn-sm" href="{php echo webUrl('goods/add')}" >添加商品</a>
 		{/if}
-
-		<a class="btn btn-default btn-sm" href="{php echo webUrl('goods',array('goodsfrom'=>$_GPC['goodsfrom'], 'page'=>$_GPC['page']))}">返回列表</a>
-
-
-	</span>
+        <a class="btn btn-default btn-sm" href="{php echo webUrl('goods',array('goodsfrom'=>$_GPC['goodsfrom'], 'page'=>$_GPC['page']))}">返回列表</a>
+    </span>
     <h2>{if !empty($item['id'])}编辑{else}添加{/if}商品 <small>{if !empty($item['id'])}修改【<span class="text-info">{$item['title']}</span>】{/if}{if !empty($merch_user['merchname'])}商户名称:【<span class="text-info">{$merch_user['merchname']}</span>】{/if}</small></h2>
 </div>
 
 <form {ife 'goods' $item}action="" method="post"{/if} class="form-horizontal form-validate" enctype="multipart/form-data">
-    <!--<form action="" method="post" class="form-horizontal" enctype="multipart/form-data">-->
     <input type="hidden" id="tab" name="tab" value="#tab_basic" />
     <div class="tabs-container tab-goods">
-                    <div class="tabs-left">
-                    <ul class="nav nav-tabs" id="myTab">
-                    <li  {if empty($_GPC['tab']) || $_GPC['tab']=='basic'}class="active"{/if}><a href="#tab_basic">基本</a></li>
-                    <li  {if $_GPC['tab']=='option'}class="active"{/if} ><a href="#tab_option">库存/规格</a></li>
-                    <li {if $_GPC['tab']=='param'}class="active"{/if} ><a href="#tab_param">参数</a></li>
+        <div class="tabs-left">
+            <ul class="nav nav-tabs" id="myTab">
+                <li  {if empty($_GPC['tab']) || $_GPC['tab']=='basic'}class="active"{/if}><a href="#tab_basic">基本</a></li>
+                <li  {if $_GPC['tab']=='option'}class="active"{/if} ><a href="#tab_option">库存/规格</a></li>
+                <li {if $_GPC['tab']=='param'}class="active"{/if} ><a href="#tab_param">参数</a></li>
                 <li {if $_GPC['tab']=='des'}class="active"{/if} ><a href="#tab_des">详情</a></li>
-                    <li {if $_GPC['tab']=='buy'}class="active"{/if} ><a href="#tab_buy">购买权限</a></li>
-						<li {if $_GPC['tab']=='sale'}class="active"{/if} ><a href="#tab_sale">营销</a></li>
-						<li {if $_GPC['tab']=='discount'}class="active"{/if} ><a href="#tab_discount">补贴与折扣</a></li>
-		  <li {if $_GPC['tab']=='share'}class="active"{/if} ><a href="#tab_share">分享关注</a></li>
-                    <li {if $_GPC['tab']=='notice'}class="active"{/if} ><a href="#tab_notice">下单通知</a></li>
+                <li {if $_GPC['tab']=='buy'}class="active"{/if} ><a href="#tab_buy">购买权限</a></li>
+                <li {if $_GPC['tab']=='sale'}class="active"{/if} ><a href="#tab_sale">营销</a></li>
+                <li {if $_GPC['tab']=='discount'}class="active"{/if} ><a href="#tab_discount">补贴与折扣</a></li>
+                <li {if $_GPC['tab']=='share'}class="active"{/if} ><a href="#tab_share">分享关注</a></li>
+                <li {if $_GPC['tab']=='notice'}class="active"{/if} ><a href="#tab_notice">下单通知</a></li>
 
-		{if !empty($com_set['level'])}
-                    <li {if $_GPC['tab']=='sell'}class="active"{/if}><a href="#tab_sell">分销</a></li>
-                    {/if}
-            {if $merchid == 0}
-		    <li {if $_GPC['tab']=='verify'}class="active"{/if}><a href="#tab_verify">线下核销</a></li>
-            {/if}
-
-                       {if p('diyform')}
-			<li {if $_GPC['tab']=='diyform'}class="active"{/if}><a href="#tab_diyform">自定义表单</a></li>
-                    {/if}
-                    {if $merchid == 0}
-                    <li {if $_GPC['tab']=='detaildiy'}class="active"{/if}><a href="#tab_detaildiy">店铺信息</a></li>
-                    {/if}
-                    <li {if $_GPC['tab']=='repeat'}class="active"{/if}><a href="#tab_repeat">重复购买</a></li>
-                        </ul>
-                   <div class="tab-content ">
-                    <div class="tab-pane   {if empty($_GPC['tab']) || $_GPC['tab']=='basic'}active{/if}" id="tab_basic"><div class="panel-body">{template 'goods/tab/basic'}</div></div>
-                <div class="tab-pane  {if $_GPC['tab']=='option'}active{/if}" id="tab_option"> <div class="panel-body">{template 'goods/tab/option'}</div></div>
-                    <div class="tab-pane {if $_GPC['tab']=='param'}active{/if}" id="tab_param"> <div class="panel-body">{template 'goods/tab/param'}</div></div>
-	<div class="tab-pane {if $_GPC['tab']=='des'}active{/if}" id="tab_des"> <div class="panel-body" style='padding:0;'>{template 'goods/tab/des'}</div></div>
-	<div class="tab-pane {if $_GPC['tab']=='buy'}active{/if}" id="tab_buy"> <div class="panel-body">{template 'goods/tab/buy'}</div></div>
-                    <div class="tab-pane {if $_GPC['tab']=='sale'}active{/if}" id="tab_sale"> <div class="panel-body">{template 'goods/tab/sale'}</div></div>
-					   <div class="tab-pane {if $_GPC['tab']=='discount'}active{/if}" id="tab_discount"> <div class="panel-body">{template 'goods/tab/discount'}</div></div>
-                    <div class="tab-pane {if $_GPC['tab']=='share'}active{/if}" id="tab_share"> <div class="panel-body">{template 'goods/tab/share'}</div></div>
-                    <div class="tab-pane  {if $_GPC['tab']=='notice'}active{/if}" id="tab_notice"> <div class="panel-body">{template 'goods/tab/notice'}</div></div>
-
-	{if p('commission') && !empty($com_set['level'])}
-                    <div class="tab-pane {if $_GPC['tab']=='sell'}active{/if}" id="tab_sell"> <div class="panel-body">{template 'commission/goods'}</div></div>
+                {if !empty($com_set['level'])}
+                <li {if $_GPC['tab']=='sell'}class="active"{/if}><a href="#tab_sell">分销</a></li>
                 {/if}
 
-                    {if $merchid == 0}
-                    <div class="tab-pane {if $_GPC['tab']=='verify'}active{/if}" id="tab_verify"> <div class="panel-body">{template 'goods/tab/verify'}</div></div>
-                    {/if}
-                    {if p('diyform')}
-                    <div class="tab-pane {if $_GPC['tab']=='diyform'}active{/if}" id="tab_diyform"> <div class="panel-body">{template 'diyform/goods'}</div></div>
-                    {/if}
-                       {if $merchid == 0}
-		<div class="tab-pane {if $_GPC['tab']=='detaildiy'}active{/if}" id="tab_detaildiy"> <div class="panel-body">{template 'goods/tab/detaildiy'}</div></div>
-                       {/if}
-                       <div class="tab-pane {if $_GPC['tab']=='repeat'}active{/if}" id="tab_repeat"> <div class="panel-body">{template 'goods/tab/repeat'}</div></div>
-                   </div>
+                {if $merchid == 0}
+                <li {if $_GPC['tab']=='verify'}class="active"{/if}><a href="#tab_verify">线下核销</a></li>
+                {/if}
 
-                    </div>
+                {if p('diyform')}
+                <li {if $_GPC['tab']=='diyform'}class="active"{/if}><a href="#tab_diyform">自定义表单</a></li>
+                {/if}
 
-                </div>
+                {if $merchid == 0}
+                <li {if $_GPC['tab']=='detaildiy'}class="active"{/if}><a href="#tab_detaildiy">店铺信息</a></li>
+                {/if}
+
+                {if p('diypage')}
+                <li {if $_GPC['tab']=='diypage'}class="active"{/if}><a href="#tab_diypage">自定义模板</a></li>
+                {/if}
+            </ul>
+
+            <div class="tab-content ">
+                <div class="tab-pane   {if empty($_GPC['tab']) || $_GPC['tab']=='basic'}active{/if}" id="tab_basic"><div class="panel-body">{template 'goods/tab/basic'}</div></div>
+                <div class="tab-pane  {if $_GPC['tab']=='option'}active{/if}" id="tab_option"> <div class="panel-body">{template 'goods/tab/option'}</div></div>
+                <div class="tab-pane {if $_GPC['tab']=='param'}active{/if}" id="tab_param"> <div class="panel-body">{template 'goods/tab/param'}</div></div>
+                <div class="tab-pane {if $_GPC['tab']=='des'}active{/if}" id="tab_des"> <div class="panel-body" style='padding:0;'>{template 'goods/tab/des'}</div></div>
+                <div class="tab-pane {if $_GPC['tab']=='buy'}active{/if}" id="tab_buy"> <div class="panel-body">{template 'goods/tab/buy'}</div></div>
+                <div class="tab-pane {if $_GPC['tab']=='sale'}active{/if}" id="tab_sale"> <div class="panel-body">{template 'goods/tab/sale'}</div></div>
+                <div class="tab-pane {if $_GPC['tab']=='discount'}active{/if}" id="tab_discount"> <div class="panel-body">{template 'goods/tab/discount'}</div></div>
+                <div class="tab-pane {if $_GPC['tab']=='share'}active{/if}" id="tab_share"> <div class="panel-body">{template 'goods/tab/share'}</div></div>
+                <div class="tab-pane  {if $_GPC['tab']=='notice'}active{/if}" id="tab_notice"> <div class="panel-body">{template 'goods/tab/notice'}</div></div>
+
+                {if p('commission') && !empty($com_set['level'])}
+                <div class="tab-pane {if $_GPC['tab']=='sell'}active{/if}" id="tab_sell"> <div class="panel-body">{template 'commission/goods'}</div></div>
+                {/if}
+
+                {if $merchid == 0}
+                <div class="tab-pane {if $_GPC['tab']=='verify'}active{/if}" id="tab_verify"> <div class="panel-body">{template 'goods/tab/verify'}</div></div>
+                {/if}
+
+                {if p('diyform')}
+                <div class="tab-pane {if $_GPC['tab']=='diyform'}active{/if}" id="tab_diyform"> <div class="panel-body">{template 'diyform/goods'}</div></div>
+                {/if}
+
+                {if $merchid == 0}
+                <div class="tab-pane {if $_GPC['tab']=='detaildiy'}active{/if}" id="tab_detaildiy"> <div class="panel-body">{template 'goods/tab/detaildiy'}</div></div>
+                {/if}
+
+                {if p('diypage')}
+                <div class="tab-pane {if $_GPC['tab']=='diypage'}active{/if}" id="tab_diypage"> <div class="panel-body">{template 'diypage/invoke/goods'}</div></div>
+                {/if}
+            </div>
+        </div>
+    </div>
 
 	<div class='panel-body' style='position:fixed;bottom:0;width:1000px; text-align: right;z-index:10; '>
-
-
-		{ife 'goods' $item}
-                          <input type="submit" value="保存商品" class="btn btn-primary"/>
-                  {/if}
-        </div>
+        {ife 'goods' $item}
+        <input type="submit" value="保存商品" class="btn btn-primary"/>
+        {/if}
+    </div>
 </form>
 
 

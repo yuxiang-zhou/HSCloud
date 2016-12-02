@@ -76,7 +76,7 @@
             <div class="form-group">
                 <label class="col-sm-2 control-label"></label>
                 <div class="col-sm-9 col-xs-12">
-                    {php echo tpl_form_field_multi_image('reply_images',iunserializer($item['reply_images']))}
+                    {php echo tpl_form_field_multi_image('reply_images',iunserializer($item['reply_images']),array('dest_dir'=>'merch/'.$_W['merchid']))}
                 </div>
             </div>
             {if !empty($item['append_content'])}
@@ -112,7 +112,7 @@
             <div class="form-group">
                 <label class="col-sm-2 control-label"></label>
                 <div class="col-sm-9 col-xs-12">
-                    {php echo tpl_form_field_multi_image('append_reply_images',iunserializer($item['append_reply_images']))}
+                    {php echo tpl_form_field_multi_image('append_reply_images',iunserializer($item['append_reply_images']),array('dest_dir'=>'merch/'.$_W['merchid']))}
                 </div>
             </div>
             {/if}

@@ -164,6 +164,9 @@
             {if cv('pstore')}
             <option value="pstore">门店类</option>
             {/if}
+            {if cv('bargain')}
+            <option value="bargain">砍价类</option>
+            {/if}
 		</select>
 	</div>
 	<div class="panel-body tm tm-upgrade" style="display:none">
@@ -331,6 +334,16 @@
             <div class="panel-heading tm tm-merch" style="display:none">入驻申请(用户)</div>
             <div class="panel-body tm tm-merch" style="display:none">
                 <a href='JavaScript:' class="btn btn-default btn-sm">驳回原因</a>
+            </div>
+
+            <div class="panel-heading tm tm-bargain" style="display:none">砍价类</div>
+            <div class="panel-body tm tm-bargain" style="display:none">
+                <a href='JavaScript:' class="btn btn-default btn-sm">砍价金额</a>
+                <a href='JavaScript:' class="btn btn-default btn-sm">当前金额</a>
+                <a href='JavaScript:' class="btn btn-default btn-sm">砍价时间</a>
+                <a href='JavaScript:' class="btn btn-default btn-sm">砍价人昵称</a>
+                <a href='JavaScript:' class="btn btn-default btn-sm">砍掉或增加</a>
+                <a href='JavaScript:' class="btn btn-default btn-sm">成功或失败</a>
             </div>
 
             <div class="panel-heading tm tm-pstore" style="display:none">申请通知</div>

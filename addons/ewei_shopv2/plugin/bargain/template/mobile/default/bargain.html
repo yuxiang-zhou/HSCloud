@@ -10,9 +10,9 @@
 </div>
 {/if}
 
-<link rel="stylesheet" type="text/css" href="/addons/ewei_shopv2/plugin/bargain/static/css/iconfont.css">
-<link rel="stylesheet" type="text/css" href="/addons/ewei_shopv2/plugin/bargain/static/css/style.css">
-<link rel="stylesheet" type="text/css" href="/addons/ewei_shopv2/plugin/bargain/static/css/bargain.css">
+<link rel="stylesheet" type="text/css" href="../addons/ewei_shopv2/plugin/bargain/static/css/iconfont.css">
+<link rel="stylesheet" type="text/css" href="../addons/ewei_shopv2/plugin/bargain/static/css/style.css">
+<link rel="stylesheet" type="text/css" href="../addons/ewei_shopv2/plugin/bargain/static/css/bargain.css">
 
 
     <script type="text/javascript">
@@ -95,13 +95,13 @@
                     <h2>{$res['nickname']}</h2>
                     <p>开砍时间：{$res['created_time']}</p>
                 </div>
-                <div><a href="{php echo mobileUrl('bargain');}" class="external">
+                <div><a href="{php echo mobileUrl('bargain');}">
                     <span class="icon icon-home1" style="float: right;width: 66px;color: red"> 首页</span></a>
                 </div>
             </div>
 
             <div class="bargain-shop">
-                <a class="external" href="{php echo mobileUrl('bargain/detail',array('id'=>$res2['id']));}">
+                <a href="{php echo mobileUrl('bargain/detail',array('id'=>$res2['id']));}">
                     <div class="bargain-shop-top fui-list">
                         <div class="fui-list-media">
                             <img src="{php $tt = json_decode($res2['images']);echo tomedia($tt[0]);}" alt="">
@@ -124,28 +124,35 @@
                     <div class="bargain-shop-price-item fui-list-inner">
                         <i style="background: #fafafa">已砍金额</i>
                         <p>
-                            <span class="price"><i>&yen;</i>{$res['bargain_price']}</span>
+                            <span class="price"><i>&yen;</i>{php echo -1*$res['bargain_price'];}</span>
                             <span>砍价次数 {$res['bargain_times']} 次</span>
                         </p>
                     </div>
                 </div>
             </div>
-            {if $swi == 111}
+            {if $swi === 111}
             <div class="bargain-shop-shop">
-                {if $trade_swi==0}<span><a href="{php echo mobileUrl('order/create',array('bargainid'=>$res['id'],))}" class="left external">立即购买</a></span>{/if}
-                {if $trade_swi==1}<span><a href="#" class="left external" style="background-color:#ccc;">已经下单</a></span>{/if}
-                {if $trade_swi==2}<span><a href="#" class="left external" style="background-color:#ccc;">已经结束</a></span>{/if}
-                {if $trade_swi==3}<span><a href="#" class="left external" style="background-color:#ccc;">库存不足</a></span>{/if}
-                {if $trade_swi==4}<span><a href="#" class="left external" style="background-color:#ccc;">没到底价</a></span>{/if}
-                <span><a onclick="show()" class="right external"><i class="fu"></i>找人帮砍</a></span>
+
+
+                {if $trade_swi==0}<span><a href="{php echo mobileUrl('order/create',array('bargainid'=>$res['id'],))}" class="left">立即购买</a></span>{/if}
+                {if $trade_swi==1}<span><a href="#" class="left " style="background-color:#ccc;">已经下单</a></span>{/if}
+                {if $trade_swi==2}<span><a href="#" class="left " style="background-color:#ccc;">已经结束</a></span>{/if}
+                {if $trade_swi==3}<span><a href="#" class="left " style="background-color:#ccc;">库存不足</a></span>{/if}
+                {if $trade_swi==4}<span><a href="#" class="left " style="background-color:#ccc;">没到底价</a></span>{/if}
+                {if $trade_swi==1}<span><a href="{php echo mobileUrl('order/detail',array('id'=>$res['order']));}" class="right "><i class="icon icon-cart"></i> 查看订单</a></span>{/if}
+
+                {if $myself_swi && $trade_swi!=1}<span><a onclick="bargain()" class="right" id="fuceng"><i class="fu"></i>砍一刀</a></span>{/if}
+
+                {if !$myself_swi && $trade_swi!=1}<span><a href="javascript:void(0)" onclick="FoxUI.alert('请复制链接发送给您的好友')" class="right "><i class="fu"></i>找人帮砍</a></span>{/if}
             </div>
             {/if}
-            {if $swi == 222}
+            {if $swi === 222}
             <div class="bargain-shop-shop">
-                <span><a href="{php echo mobileUrl('bargain/detail')}&id={$res2['id']}" class="left external">我也要砍</a></span>
-                <span onclick="bargain()" id="fuceng"><a class="right external"><i class="fu"></i>帮砍一刀</a></span>
+                <span><a href="{php echo mobileUrl('bargain/detail')}&id={$res2['id']}" class="left">我也要砍</a></span>
+                <span onclick="bargain()" id="fuceng"><a class="right "><i class="fu"></i>帮砍一刀</a></span>
             </div>
             {/if}
+
             <div class="bargain-list">
                 <div class="bargain-list-top" id="bargainTab">
                     <a href="javascript:void(0);" data="family" class="active">亲友团</a>
@@ -174,10 +181,12 @@
                             {/if}
                         </ul>
                     </div>
-                    <div class="bargain-list-content-item" id="detail"  style="margin:0cm 0.3cm 0cm 0.3cm;">
+
+                    <div class="bargain-list-content-item" id="detail">
+                        <div class="detail-info content content-images">
                         {php echo $ewei_detail['content'];}
-                    </div>
-                    <div class="bargain-list-content-item" id="rule"  style="margin:0cm 1cm 0cm 1cm;">
+                    </div></div>
+                    <div class="bargain-list-content-item" id="rule"  style="margin:0cm 1cm 0cm 1cm;margin-top: 20px">
                         {if $res2['rule'] != null}{php echo htmlspecialchars_decode($res2['rule']);}{/if}
                         {if $res2['rule'] == null}{php echo htmlspecialchars_decode($account_set['rule']);}{/if}
                     </div>
@@ -197,11 +206,15 @@
                     </div>{/if}
                 </div>
             </div>
+            <br>
+            {template '_copyright'}
         </div>
+
     </div>
+
 </div>
 
-<div id="mcover" onclick="this.style.display='none';" style="display: none;z-index: 1;"><div id="alert-mask" style="position:absolute;z-index:1;"></div><img src="/addons/ewei_shopv2/plugin/bargain/static/images/tishi.png" style="position:absolute;z-index:2;margin-left: 30px;margin-top: 58px"></div>
+<!--<div id="mcover" onclick="this.style.display='none';" style="display: none;z-index: 1;"><div id="alert-mask" style="position:absolute;z-index:1;"></div><img src="/addons/ewei_shopv2/plugin/bargain/static/images/tishi.png" style="position:absolute;z-index:2;margin-top: 20%;margin-left: 10%;width: 80%"></div>-->
 <script type="text/javascript">
     $(function(){
         $("#bargainTab a").on("click",function(){

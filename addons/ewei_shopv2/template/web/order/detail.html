@@ -68,6 +68,13 @@
                     <td  style='border:none;text-align:right;'>运费：</td>
                     <td  style='border:none;text-align:right;'>￥{php echo number_format( $item['olddispatchprice'],2)}</td>
                 </tr>
+                {if !$item['ispackage']}
+                {if $item['taskdiscountprice']>0 }
+                <tr>
+                    <td  style='border:none;text-align:right;'>任务活动优惠：</td>
+                    <td  style='border:none;text-align:right;;'>-￥{php echo number_format( $item['taskdiscountprice'],2)}</td>
+                </tr>
+                {/if}
                 {if $item['discountprice']>0}
                 <tr>
                     <td  style='border:none;text-align:right;'>会员折扣：</td>
@@ -109,6 +116,13 @@
                     <td  style='border:none;text-align:right;'>促销优惠：</td>
                     <td  style='border:none;text-align:right;;'>-￥{php echo number_format( $item['isdiscountprice'],2)}</td>
                 </tr>
+                {/if}
+                {if $item['buyagainprice']>0}
+                <tr>
+                    <td  style='border:none;text-align:right;'>重复购买优惠：</td>
+                    <td  style='border:none;text-align:right;;'>-￥{php echo number_format( $item['buyagainprice'],2)}</td>
+                </tr>
+                {/if}
                 {/if}
                 {if intval($item['changeprice'])!=0}
                 <tr>
@@ -530,7 +544,7 @@
                             {if $item['merchid'] == 0 && $item['ismerch'] == 0}
                             {php $detial_flag = 1}{template 'order/ops'}
                             &nbsp;&nbsp;
-                            {if $item['status'] ==0}
+                            {if $item['status'] ==0 && $item['ispackage']==0}
                             {ifp 'order.op.changeprice'}
                             <a class='op'  data-toggle='ajaxModal' href="{php echo webUrl('order/op/changeprice',array('id'=>$item['id']))}">订单改价</a>&nbsp;&nbsp;
                             {/if}
@@ -662,6 +676,9 @@
     <div class="panel panel-default">
         <div class="panel-heading">
             <span>商品信息</span>
+            {if $item['ispackage']}
+            <span class="text-danger" style="color:red;">（套餐优惠价：&yen;{php echo number_format($item['price'],2)}{if $item['dispatchprice'] }，含运费：&yen;{php echo number_format($item['dispatchprice'],2)}{/if}）</span>
+            {/if}
         </div>
         <div class="panel-body table-responsive">
             <table class="table table-hover">
@@ -669,8 +686,9 @@
                 <tr>
                     <th style="width:200px">标题</th>
                     <th>规格/编号/条码</th>
-                    <th>单价(元)/数量</th>
-                    <th>折扣前/折扣后(元)</th>
+                    <th style="text-align: center;">单价(元)/数量</th>
+                    <th style="text-align: center;">{if $item['ispackage']}商品价格(元){else}折扣前/折扣后(元){/if}</th>
+
                     {if !empty($goods['diyformdata']) && $goods['diyformdata'] != 'false'}
                     <th style="width:80px;"></th>
                     {/if}
@@ -690,11 +708,16 @@
                     <td>{if !empty($goods['optionname'])}<span style="white-space:normal;">规格：<span class="label-info" style="font-family: 微软雅黑;font-size: 12px;font-weight: 600;">{$goods['optionname']}</span></span>{/if}
                         {if !empty($goods['goodssn'])}<br/>编码:{$goods['goodssn']}{/if}
                         {if !empty($goods['productsn'])}<br/>条码:{$goods['productsn']}{/if}</td>
-                    <td>{$goods['marketprice']}
+                    <td style="text-align: right;">{$goods['marketprice']}
                         <br/>x{$goods['total']}</td>
-                    <td style='color:red;font-weight:bold;'>{$goods['orderprice']}/{$goods['realprice']}
-                        {if intval($goods['changeprice'])!=0}
-                        <br/>(改价{if $goods['changeprice']>0}+{/if}{php echo number_format(abs($goods['changeprice']),2)})
+                    <td style='color:red;font-weight:bold;text-align: right;'>
+                        {if $item['ispackage']}
+                            &yen;{php echo number_format($goods['marketprice'],2)}
+                        {else}
+                            {$goods['orderprice']}/{$goods['realprice']}
+                            {if intval($goods['changeprice'])!=0}
+                            <br/>(改价{if $goods['changeprice']>0}+{/if}{php echo number_format(abs($goods['changeprice']),2)})
+                            {/if}
                         {/if}
                     </td>
 

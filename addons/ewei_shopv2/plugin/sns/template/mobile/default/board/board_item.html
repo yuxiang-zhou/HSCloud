@@ -42,7 +42,7 @@
             {else}
             <a href='javascript:;'><i class="icon icon-good"></i> (<span><%row.goodcount%></span>)</a>
             {/if}
-            <a href="javascript:void(0);" data-id="<%row.id%>" class="link-complain"><span>投诉</span></a>
+            <a data-nocache='true' href="{php echo mobileUrl('sns/post')}&id=<%row.id%>"><span>投诉</span></a><!-- data-id="<%row.id%>" class="link-complain"-->
 
 
         </div>

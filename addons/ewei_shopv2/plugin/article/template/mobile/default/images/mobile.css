@@ -14,7 +14,7 @@
 .fui-article-page .fui-article-content .fui-article-notread {height: 8rem; background: #F4F4F4; margin: 0.5rem; padding-top: 2.5rem; border: 0.1rem dashed #999; display: none;}
 .fui-article-page .fui-article-content .fui-article-notread p {line-height: 1.5rem; text-align: center; font-size: 0.8rem; color: #666;}
 .fui-article-page .fui-article-content .fui-article-gps {font-size: 0.8rem; text-align: center; line-height: 2rem; color: #666; padding-top: 2rem; padding-bottom: 5rem;}
-.fui-article-page .fui-article-content img {display: block; max-width: 100%; border: 0;}
+.fui-article-page .fui-article-content img {vertical-align:bottom; max-width: 100%; border: 0;}
 
 .article-index-page .fui-list-group {margin-top: 0.3rem;}
 .article-index-page .fui-list-group .round {border-radius: 2.5rem;}

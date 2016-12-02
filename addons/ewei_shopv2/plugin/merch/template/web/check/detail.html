@@ -34,6 +34,8 @@
 
 {template 'merch/manage/apply/box'}
 
+{template 'merch/manage/apply/applytype'}
+
 <form action="./index.php" method="get" class="form-horizontal" role="form" id="form1">
     <input type="hidden" name="c" value="site"/>
     <input type="hidden" name="a" value="entry"/>
@@ -80,16 +82,23 @@
 
         {ifp 'merch.check.pay'}
             {if $item['status']==2}
-            <div class="page-toolbar row m-b-sm m-t-sm">
-                <div class="col-sm-7 pull-right" style="width: 200px;">
-                    <div class="input-group">
-                        <input type="text" class="form-control input-sm" id="finalprice" name="finalprice" value="{$item['passrealpricerate']}" placeholder="打款金额"/>
-                        <span class="input-group-btn">
-                        <button class="btn btn-sm btn-danger" id="btnpay" type="button"> 确认打款</button>
-                        </span>
+
+
+                <div class="page-toolbar row m-b-sm m-t-sm">
+                    <div class="col-sm-7 pull-right" style="width: 320px;">
+                        <div class="input-group">
+                            <input type="text" class="form-control input-sm" id="finalprice" name="finalprice" value="{$item['passrealpricerate']}" placeholder="打款金额"/>
+                            <span class="input-group-btn">
+                             {if $item['applytype']==0}
+                            <button class="btn btn-sm btn-danger" id="btnpay" type="button" style="margin-left: 20px;"> 确认打款</button>
+                            {/if}
+                            <button class="btn btn-sm btn-warning" id="btnpayhand" type="button" style="margin-left: 20px;">手动处理</button>
+                            </span>
+                        </div>
                     </div>
                 </div>
-            </div>
+
+
             {/if}
         {/if}
 
@@ -145,10 +154,43 @@
                     type: 'post',
                     dataType: 'json',
                     data: {
-                        id: "{$item['id']}", 'finalprice': finalprice
+                        id: "{$item['id']}", 'finalprice': finalprice, 'handpay': 0
                     },
                     success: function (ret) {
                         $('#btnpay').button('reset');
+
+                        var result = ret.result;
+                        if (ret.status != 1) {
+                            tip.msgbox.err(result.message);
+                            return;
+                        }
+                        location.href = biz.url("merch.check.status{$status}");
+                    }
+                });
+            });
+        });
+
+        $('#btnpayhand').click(function () {
+            if ($('#finalprice').isEmpty()) {
+                tip.msgbox.err('请输入打款金额!');
+                return;
+            }
+            var applytype = $('#applytype').val();
+            var msg = '手动处理 , 系统不进行任何打款操作!<br/>请确认你已通过线下方式为商户打款!!!<br/>是否进行手动处理?';
+            var finalprice = $('#finalprice').val();
+
+            tip.confirm(msg,function(){
+                $('#btnpayhand').button('loading');
+
+                $.ajax({
+                    url: "{php echo webUrl('merch/check/merchpay')}",
+                    type: 'post',
+                    dataType: 'json',
+                    data: {
+                        id: "{$item['id']}", 'finalprice': finalprice, 'handpay': 1
+                    },
+                    success: function (ret) {
+                        $('#btnpayhand').button('reset');
 
                         var result = ret.result;
                         if (ret.status != 1) {

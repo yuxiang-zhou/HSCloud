@@ -27,6 +27,43 @@
                 </div>
             </div>
         </form>
+        <ul class="sortMenu fui-list">
+            <li class="fui-list-inner" id="sortmenu_rule" data-class="sortmenu_rule"><span id="sortmenu_rule_text">附近</span><i class="icon icon-down"></i></li>
+            <li class="fui-list-inner" id="sortmenu_cate" data-class="sortmenu_cate"><span id="sortmenu_cate_text">分类</span><i class="icon icon-down"></i></li>
+            <li class="fui-list-inner" id="sortmenu_sort" data-class="sortmenu_sort"><span id="sortmenu_sort_text">智能排序</span><i class="icon icon-down"></i></li>
+            <div class="sortmenu_rule" style="display: none;">
+                <ul>
+                    <li range="500" text="附近">附近</li>
+                    <li range="0.5" text="500米">500米</li>
+                    <li range="1" text="1000米">1000米</li>
+                    <li range="2" text="2000米">2000米</li>
+                    <li range="5" text="5000米">5000米</li>
+                    <li range="10000" text="5000米以上">5000米以上</li>
+                </ul>
+            </div>
+            <div class="sortmenu_cate" style="display: none;">
+                <ul>
+                    <li cateid="0" text="全部分类" class="on"><i class="fa fa-th-large"></i>&nbsp;全部分类</li>
+
+                    {loop $category $item}
+                    <li cateid="{$item['id']}" text="{$item['catename']}">
+                        <span class="imgWrap" style="">
+                        <img src="{$item['thumb']}" class="thumb_url">
+                        </span>
+                        &nbsp;{$item['catename']}
+                    </li>
+                    {/loop}
+
+                </ul>
+            </div>
+            <div class="sortmenu_sort" style="display: none;">
+                <ul>
+                    <li sorttype="0" text="距离最近">距离最近</li>
+                    <li sorttype="1" text="最新入驻">最新入驻</li>
+                 </ul>
+            </div>
+        </ul>
+        <div class="fui-mask-m sort-mask" style="display: none;"></div>
 
         <div class="fui-cell-group qa-title">
             <div class="fui-cell">
@@ -44,25 +81,64 @@
     </div>
     <script id='tpl_merch_list_user' type='text/html'>
         <%each list as value%>
-            <a class="fui-list external" href="{php echo mobileUrl('merch')}&merchid=<%value.id%>">
+            <div  class="fui-list store-item"
+                  data-lng="<%value.lng%>"
+                  data-lat="<%value.lat%>">
+
+
                 <div class="fui-list-media">
-                    <img src="<%value.logo%>" class="round">
-                    <!--<div class="badge">1</div>-->
+                    <div class="fui-list-media">
+                        <a href="<%value.merch_url%>">
+                        <img src="<%value.logo%>" class="round">
+                        </a>
+                     </div>
                 </div>
-                <div class="fui-list-inner">
-                    <div class="row">
-                        <div class="row-text"><%value.merchname%></div>
-                        <!--<div class="row-remark">11:11</div>-->
-                        <div class="angle"></div>
+                <div class="fui-list-inner store-inner">
+                    <a href="<%value.merch_url%>">
+                    <div class="title"> <span class='storename'><%value.merchname%></span></div>
+                    <%if value.address!=''%>
+                    <div class="text">
+                        地址: <span class='realname'><%value.address%></span>
                     </div>
-                    <div class="subtitle"><%value.desc%></div>
+                    <%/if%>
+
+                    <%if value.tel!=''%>
+                    <div class="text">
+                        电话: <span class='address'><%value.tel%></span>
+                    </div>
+                    <%/if%>
+
+                    <%if value.catename!=''%>
+                    <div class="text">
+                        分类: <span class='address'><%value.catename%></span>
+                    </div>
+                    <%/if%>
+
+                    <div class="text location" style="color:green;">
+                        <%if value.distance<100000%>
+                        距离您:<%value.distance%>km
+                        <%else%>
+                        <%/if%>
+                    </div>
+                    </a>
                 </div>
-            </a>
+
+
+                <div class="fui-list-angle ">
+                    <%if value.tel!=''%><a href="tel:<%value.tel%>" class='external '><i class=' icon icon-phone' style='color:green'></i></a><%/if%>
+                    <a href="<%value.url%>" class='external' ><i class='icon icon-location' style='color:#f90'></i></a>
+                </div>
+            </div>
         <%/each%>
+
+        <div id="nearStore" style="display:none">
+            <div class='fui-list store-item' id='nearStoreHtml'></div>
+        </div>
+
     </script>
     <script language="javascript">
         require(['../addons/ewei_shopv2/plugin/merch/static/js/list.js'], function (modal) {
-            modal.init({cateid:'{$_GPC['cate']}',keyword:'{$_GPC['keyword']}'});
+            modal.init({cateid:'{$_GPC['cateid']}',keyword:'{$_GPC['keyword']}'});
         })
     </script>
     {php $this->footerMenus()}

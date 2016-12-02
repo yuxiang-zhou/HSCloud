@@ -91,13 +91,13 @@
 <script type='text/html' id='tpl_goods_list'>
      <%each list as g%>
 	 <div class="fui-goods-item" data-goodsid="<%g.id%>">
-	  <a <%if g.bargain>0%>class="external" href="{php echo mobileUrl('bargain/detail')}&id=<%g.bargain%>"<%else%>href="{php echo mobileUrl('goods/detail')}&id=<%g.id%>"<%/if%>>
+	  <a <%if g.bargain>0%>href="{php echo mobileUrl('bargain/detail')}&id=<%g.bargain%>"<%else%>href="{php echo mobileUrl('goods/detail')}&id=<%g.id%>"<%/if%>>
 	  <div class="image" data-lazy-background="<%g.thumb%>">
 		  <%if g.total<=0%><div class="salez" style="background-image: url('{php echo tomedia($_W['shopset']['shop']['saleout'])}'); "></div><%/if%>
 	  </div>
         </a>
 	<div class="detail">
-	   <a <%if g.bargain>0%>class="external" href="{php echo mobileUrl('bargain/detail')}&id=<%g.bargain%>"<%else%>href="{php echo mobileUrl('goods/detail')}&id=<%g.id%>"<%/if%>>
+	   <a <%if g.bargain>0%>href="{php echo mobileUrl('bargain/detail')}&id=<%g.bargain%>"<%else%>href="{php echo mobileUrl('goods/detail')}&id=<%g.id%>"<%/if%>>
 	           <div class="name"><%g.title%></div>
 	   </a>
 	           <div class="price">
@@ -134,7 +134,8 @@
 					cate: "{$_GPC['cate']}",
 					order: "{$_GPC['order']}",
 					by: "{$_GPC['by']}",
-					merchid: "{$_GPC['merchid']}"
+					merchid: "{$_GPC['merchid']}",
+					frommyshop: "{php echo intval($_GPC['frommyshop'])}"
 				});
             });</script>
     {php $this->footerMenus()}

@@ -19,7 +19,7 @@
 .lynn_index_list_ul{display: block;}
 .lynn_index_list_li{border-bottom:0.3rem solid #eee;padding:0.3rem 0.5rem;background: #fff;}
 .lynn_index_list_a{width:4rem;height:4rem;margin:0;}
-.lynn_index_list_a img{width:100%;height:100%;}
+.lynn_index_list_a.fui-list-media img{width:100%;height:100%;}
 .lynn_index_list_info{padding:0 0 0 0.4rem;}
 .lynn_index_list_info > h3{font-size:0.8rem;height:1rem;color:#051b28;display: block;overflow: hidden;}
 .lynn_index_list_info > p{font-size:0.6rem;color:#959595;height:1.4rem;line-height: 0.7rem;overflow: hidden;display: block;margin:0.1rem 0;}

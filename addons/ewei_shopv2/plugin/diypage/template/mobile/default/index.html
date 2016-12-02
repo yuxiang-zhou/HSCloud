@@ -20,13 +20,12 @@
     </div>
     {/if}
     <div class="fui-content {if $page['diymenu']>-1}navbar{/if}" id="container" style="background-color: {$page['data']['page']['background']}; {if $page['diymenu']>-1}padding-bottom: 0;{/if}">
-        <div class="fui-mask fui-mask-transparent visible"></div>
-        <div class="fui-loader ">
-            <span class="fui-preloader fui-preloader-white"></span>
-        </div>
-        <div id="copyright" style="display: none;">
+        {if !empty($diyitems)}
+            {loop $diyitems $diyitem}
+                {template 'diypage/template/tpl_'.$diyitem['id']}
+            {/loop}
             {template '_copyright'}
-        </div>
+        {/if}
     </div>
 
     {if $page['diymenu']>-1}
@@ -39,11 +38,24 @@
         {php echo $this->diyLayer()}
     {/if}
 
-    {template 'diypage/_template'}
+
 
     <script language="javascript">
+        $(".fui-notice").each(function () {
+            var _this = $(this);
+            var speed = _this.data('speed') * 1000;
+            setInterval(function () {
+                var length = _this.find("li").length;
+                if (length > 1) {
+                    _this.find("ul").animate({marginTop: "-1rem"}, 500, function () {
+                        $(this).css({marginTop: "0px"}).find("li:first").appendTo(this)
+                    })
+                }
+            }, speed)
+        });
+
         require(['../addons/ewei_shopv2/plugin/diypage/static/js/mobile.js'], function(modal){
-            modal.init({diypage: {php echo json_encode($page)}, attachurl: "{$_W['attachurl']}"});
+            //modal.init({diypage: {php echo json_encode($page1)}, attachurl: "{$_W['attachurl']}"});
         });
     </script>
 

@@ -191,12 +191,17 @@
                     <%if params.showtitle==1 || params.showprice==1%>
                         <div class="detail">
                             <%if params.showtitle=='1'%>
-                                <div class="name" style="color: <%style.titlecolor%>;"><%item.title%></div>
+                                <div class="name" style="color: <%style.titlecolor%>;">
+                                    <%if item.bargain>0%>
+                                    <label style="background-color: <%style.buybtncolor%>; padding: 0px 2px; color: #fff; font-size: 0.6rem">砍价</label>
+                                    <%/if%>
+                                    <%item.title%>
+                                </div>
                             <%/if%>
                             <%if params.showprice=='1'%>
                                 <div class="price">
                                     <span class="text" style="color: <%style.pricecolor%>;">￥<%item.price%></span>
-                                    <%if style.buystyle!=''%>
+                                    <%if style.buystyle!='' && item.bargain==0%>
                                         <%if style.buystyle=='buybtn-1'%>
                                             <span class="buy" style="background-color: <%style.buybtncolor%>;"><i class="icon icon-cart"></i></span>
                                         <%/if%>
@@ -206,6 +211,9 @@
                                         <%if style.buystyle=='buybtn-3'%>
                                             <span class="buy buybtn-3" style="background-color: <%style.buybtncolor%>;">购买</span>
                                         <%/if%>
+                                    <%/if%>
+                                    <%if item.bargain>0%>
+                                    <span class="buy" style="background-color: <%style.buybtncolor%>;">砍</span>
                                     <%/if%>
                                 </div>
                             <%/if%>

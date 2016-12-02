@@ -52,7 +52,7 @@
                     </div>
                     <div class="icons">
                         {if !empty($sns['wx'])}
-                            <div class="item green btn-sns" data-sns="wx"><i class="icon icon-wechat1"></i></div>
+                            <div class="item green btn-sns" data-sns="wx" {if is_ios()}style="display: none;" id="threeWX"{/if}><i class="icon icon-wechat1"></i></div>
                         {/if}
                         {if !empty($sns['qq'])}
                             <div class="item blue btn-sns" data-sns="qq"><i class="icon icon-qq" style="font-size: 1.5rem"></i></div>
@@ -69,4 +69,8 @@
         </script>
     </div>
 </div>
+
+{if is_ios()}
+    {php $initWX=true}
+{/if}
 {template '_footer'}

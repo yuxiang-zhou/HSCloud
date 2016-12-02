@@ -46,26 +46,3 @@
 					  </div>
                     {/if}
                 </div>
-<div class="form-group">
-    <label class="col-sm-2 control-label">退还方式</label>
-    <div class="col-sm-9 col-xs-12" >
-          {ife 'sale.coupon' $item}
-        <label class="radio-inline">
-            <input type="radio" name="returntype" value="0" {if $item['returntype'] == 0}checked="true"{/if}  onclick="$('.returntype').hide()"/> 不可退还
-        </label>
-        <label class="radio-inline">
-            <input type="radio" name="returntype" value="1" {if $item['returntype'] == 1}checked="true"{/if} onclick="$('.returntype').show()" /> 下单取消可退还
-        </label>
-        
-		  <span class='help-block'>会员使用过的优惠券在订单取消或退款后是否自动退回到会员账户</span>
-		
-          {else} <div class='form-control-static'>
-             {if $item['returntype']==0}
-             不可退还
-             {else}
-             下单取消可退还
-             {/if}
-          </div>
-          {/if}
-    </div>
-</div>				         

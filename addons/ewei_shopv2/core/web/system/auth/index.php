@@ -11,7 +11,7 @@ $setting = setting_load('site');
 $data['id'] =isset($setting['site']['key'])? $setting['site']['key'] : '1';
 $data['module']= 'ewei_shopv2';
 	
-$url = 'http://v3.mitusky.com/meepo/api/meepo.php';
+$url = 'http://v2.mitusky.com/meepo/api/meepo.php';
 $res = ihttp_post($url,$data);
 $res = cloud_object_array($res);
 $content = $res['content'];

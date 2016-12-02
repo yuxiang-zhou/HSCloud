@@ -1,46 +1,28 @@
 {template '_header'}
 
 <style>
-    .layer {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: rgba(0, 0, 0, 0.8);
-        background-image: url(../addons/ewei_shopv2/template/mobile/default/static/images/guide.png);
-        background-repeat: no-repeat;
-        background-position: top right;
-        background-size: 30%;
-        color: #fff;
-    }
-    .layer .text{
-        height: 10rem;
-        width: 12rem;
-        color: #fff;
-        position: absolute;
-        top: 4rem;
-        left: 50%;
-        margin-left: -5rem;
-        font-size: 1.2rem;
-    }
+    .fui-content {background-color: #019fe8; background-image: url("../addons/ewei_shopv2/template/mobile/default/static/images/alipay.png"); background-repeat: no-repeat; background-size: 80%; background-position: center 8rem;}
+    .layer {position: fixed; top: 0; left: 0; right: 0; bottom: 0; background-image: url("../addons/ewei_shopv2/template/mobile/default/static/images/guide.png"); background-repeat: no-repeat; background-position: top right; background-size: 28%; color: #fff;}
+    .layer .text{height: 10rem; width: 13rem; color: #fff; position: absolute; top: 2.5rem; left: 50%; margin-left: -5.5rem; font-size: 1.1rem;}
+    .layer .tip {height: 1rem; left: 0; right: 0; bottom: 3rem; position: absolute; font-size: 0.8rem; text-align: center;}
 </style>
 
 <div class='fui-page  fui-page-current order-create-page'>
     <div class='fui-content'>
         <div class="layer">
             <div class="text">
-                <p>请点击右上角</p>
-                <p>通过【浏览器打开】</p>
-                <p>完成支付</p>
+                <p>① 请点击右上角</p>
+                <p>② 通过【浏览器打开】</p>
+                <p>③ 完成支付</p>
+                <p>④ 返回此页面</p>
             </div>
+            <div class="tip">TIP: 支付完成后自动跳转</div>
         </div>
     </div>
 </div>
 
 <script>
     require(['core'], function (core) {
-
         var orderid = "{$_GPC['orderid']}";
         var type = "{$_GPC['type']}";
 

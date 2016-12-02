@@ -17,17 +17,9 @@
                 <option value='0' {if $_GPC['status']=='0'}selected{/if}>申请中</option>
                 <option value='-1' {if $_GPC['status']=='-1'}selected{/if}>失败</option>
             </select>
-
-
         </div>
 
         <div class="col-sm-8 pull-right" style='text-align: right'>
-
-
-
-
-
-
             <select name='groupid' class='form-control  input-sm select-md' style="width:140px;float: right;"  >
                 <option value=''>会员分组</option>
                 {loop $groups $group}
@@ -94,9 +86,8 @@
         <th style='width:90px;'>粉丝</th>
         <th style='width:100px;'>会员信息</th>
 
-        <th style='width:80px;'>提现金额</th>
-        <th style='width:80px;'>实际到账金额</th>
-        <th style='width:60px;'>手续费金额</th>
+        <th style='width:100px;'>提现金额<br/>实际到账金额<br/>手续费金额</th>
+        <th style='width:200px;'>提现方式</th>
 
         <th style='width:90px;'>提现时间</th>
         <th style='width:80px;'>状态</th>
@@ -126,9 +117,29 @@
 
         </td>
         <td>{$row['realname']}<br/>{$row['mobile']}</td>
-        <td>{$row['money']}</td>
-        <td>{$row['realmoney']}</td>
-        <td>{$row['deductionmoney']}</td>
+        <td>{$row['money']}<br/>{$row['realmoney']}<br/>{$row['deductionmoney']}</td>
+        <td>
+
+            {if empty($row['applytype'])}
+            <span class='label label-success'>{$row['typestr']}</span>
+            {else if $row['applytype']=='2'}
+            <span class='label label-warning'>{$row['typestr']}</span>
+            {else if $row['applytype']=='3'}
+            <span class='label label-primary'>{$row['typestr']}</span>
+            {/if}
+
+            {if $row['applytype'] == 2}
+            <br/>
+            姓名:{$row['realname']}<br/>
+            帐号:{$row['alipay']}
+            {else if $row['applytype'] == 3}
+            <br/>
+            姓名:{$row['applyrealname']}<br/>
+            银行:{$row['bankname']}<br/>
+            帐号:{$row['bankcard']}
+            {/if}
+        </td>
+
         <td>{php echo date('Y-m-d',$row['createtime'])}<br/>{php echo date('H:i',$row['createtime'])}</td>
         <td>
             {if $row['status']==0}
@@ -150,8 +161,10 @@
 
                     {if $row['status']==0 || $row['status']==-1}
 
+                    {if $row['applytype'] < 2}
                     {ifp 'finance.log.wechat'}
                     <li> <a data-toggle='ajaxPost' data-confirm="确认微信钱包提现?" href="{php echo webUrl('finance/log/wechat',array('id' => $row['id']));}">微信提现</a>	</li>
+                    {/if}
                     {/if}
 
                     {ifp 'finance.log.manual'}

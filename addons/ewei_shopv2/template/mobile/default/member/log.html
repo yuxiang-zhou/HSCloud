@@ -37,7 +37,7 @@
                     <%log.money%> 元
 
                 </div>
-                <div class='text'> <%if log.type==1%>(实际<%if log.status==1%>到账<%else%>金额<%/if%>:<%if log.deductionmoney>0%><%log.realmoney%><%else%><%log.money%><%/if%>元,手续费:<%log.deductionmoney%> 元)
+                <div class='text'> <%if log.type==1%>(提现方式:<%log.typestr%>,实际<%if log.status==1%>到账<%else%>金额<%/if%>:<%if log.deductionmoney>0%><%log.realmoney%><%else%><%log.money%><%/if%>元,手续费:<%log.deductionmoney%> 元)
                     <%/if%></div>
                 <div class='text'><%log.createtime%></div>
             </div>

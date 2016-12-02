@@ -52,7 +52,7 @@ padding:0 0.5rem;}
 .coupon-index-list-info{border:none;padding:0 0.5rem 0 0.8rem;margin-top:1.8rem;}
 .coupon-index-list-left .fui-list:before{border:none;}
 .coupon-index-list-info .fui-list-media img{width:3.5rem;height:3.5rem;border:1px solid #e6e6e6;}
-.coupon-index-list-info .fui-list-inner h3{font-size:0.8rem;color:#051b28;height:1.5rem;overflow: hidden;}
+.coupon-index-list-info .fui-list-inner h3{font-size:0.8rem;color:#051b28;height:1.5rem;overflow: hidden;line-height: 1.5rem;}
 .coupon-index-list-info .fui-list-inner p{font-size:0.6rem;color:#999999;height:1rem;overflow: hidden;}
 .coupon-list > i{width:0.6rem;height:0.6rem;display:block;-webkit-border-radius: 1rem;border-radius: 1rem;background: #efeff4;position: absolute;
 z-index: 10;}

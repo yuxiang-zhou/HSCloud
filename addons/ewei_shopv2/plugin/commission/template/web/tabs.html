@@ -2,9 +2,10 @@
 <ul>
     {ifp 'commission.agent'}<li {if $_W['routes']=='commission.agent'}class="active"{/if}><a href="{php echo webUrl('commission/agent')}">分销商管理</a></li>{/if}
     {ifp 'commission.increase'}<li  {if $_W['routes']=='commission.increase'}class="active"{/if}><a href="{php echo webUrl('commission/increase')}">分销商增长趋势统计</a></li>{/if}
-	
-   {ifp 'commission.level'}<li {if $_W['routes']=='commission.level'}class="active"{/if}><a href="{php echo webUrl('commission/level')}">分销商等级</a></li>{/if}
-    
+    {ifp 'commission.level'}<li {if $_W['routes']=='commission.level'}class="active"{/if}><a href="{php echo webUrl('commission/level')}">分销商等级</a></li>{/if}
+    {ifp 'commission.statistics.order'}<li {if $_W['routes']=='commission.statistics.order'}class="active"{/if}><a href="{php echo webUrl('commission/statistics/order')}">分销订单</a></li>{/if}
+    {ifp 'commission.statistics.agent'}<li {if $_W['routes']=='commission.statistics.agent'}class="active"{/if}><a href="{php echo webUrl('commission/statistics/agent')}">分销商统计</a></li>{/if}
+
     
 
 </ul>

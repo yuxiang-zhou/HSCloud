@@ -5,7 +5,7 @@
 	<div class="fui-goods-group {if empty($goodsstyle)} block{/if} border">
 		{loop $indexrecommands $item}
 			<div class="fui-goods-item" data-goodsid="{$item['id']}">
-				<a href="{php echo mobileUrl('goods/detail', array('id'=>$item['id']))}" data-nocache='true'>
+				<a href="{php echo mobileUrl('goods/detail', array('id'=>$item['id']))}{if !empty($frommyshop)}&frommyshop=1{/if}" data-nocache='true'>
 					<div class="image" data-lazy-background="{php echo tomedia($item['thumb'])}">
 						{if $item['total']<=0}<div class="salez" style="background-image: url('{php echo tomedia($_W['shopset']['shop']['saleout'])}'); "></div>{/if}
 					</div>

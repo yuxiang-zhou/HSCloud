@@ -40,7 +40,7 @@
             </div>
             {else}
             {if $wechat['success'] || (is_h5app() &&$payinfo['wechat'])}
-            <div class='fui-list pay-btn' data-type='wechat'>
+            <div class='fui-list pay-btn' data-type='wechat' {if is_h5app()&&is_ios()}style="display: none;" id="threeWX"{/if}>
                 <div class='fui-list-media'>
                     <i class='icon icon-wechat wechat'></i>
                 </div>
@@ -103,4 +103,8 @@
         modal.init({php echo json_encode($payinfo)});
     });</script>
 </div>
+
+{if is_ios()}
+    {php $initWX=true}
+{/if}
 {template '_footer'}

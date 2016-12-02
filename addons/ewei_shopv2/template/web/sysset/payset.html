@@ -7,7 +7,7 @@
 <form action="" method="post" class="form-horizontal form-validate" enctype="multipart/form-data" >
     <div class="page-heading">
         <span class="pull-right">
-            {ifp 'sysset.pay.edit'}
+            {ifp 'sysset.payset.edit'}
                 <input type="submit" value="提交" class="btn btn-primary"  />
             {/if}
         </span>
@@ -49,7 +49,7 @@
                         <label class="col-sm-2 control-label">CERT证书文件</label>
                         <div class="col-sm-9 col-xs-12">
                             <input type="hidden" name="data[weixin_cert]" value="{$data['weixin_cert']}"/>
-                            {ifp 'sysset.pay.edit'}
+                            {ifp 'sysset.payset.edit'}
                             <input type="file" name="weixin_cert_file" class="form-control" />
                             <span class="help-block">
                                 {if !empty($sec['cert'])}
@@ -71,7 +71,7 @@
                         <label class="col-sm-2 control-label">KEY密钥文件</label>
                         <div class="col-sm-9 col-xs-12">
                             <input type="hidden" name="data[weixin_key]"  value="{$data['weixin_key']}"/>
-                            {ifp 'sysset.pay.edit'}
+                            {ifp 'sysset.payset.edit'}
                             <input type="file" name="weixin_key_file" class="form-control" />
                             <span class="help-block">
                                {if !empty($sec['key'])}
@@ -94,7 +94,7 @@
                         <label class="col-sm-2 control-label">ROOT文件</label>
                         <div class="col-sm-9 col-xs-12">
                             <input type="hidden" name="data[weixin_root]" value="{$data['weixin_root']}"/>
-                            {ifp 'sysset.pay.edit'}
+                            {ifp 'sysset.payset.edit'}
 
                             <input type="file" name="weixin_root_file" class="form-control" />
                             <span class="help-block">
@@ -136,7 +136,7 @@
                 <div class="form-group" >
                     <label class="col-xs-12 col-sm-3 col-md-2 control-label must">服务商公众号(AppId)</label>
                     <div class="col-sm-9">
-                        {ifp 'sysset.pay.edit'}
+                        {ifp 'sysset.payset.edit'}
                         <input type="text" name="data[appid_sub]" class="form-control" value="{$sec['appid_sub']}"/>
                         {else}
                         <div class='form-control-static'>{$sec['appid_sub']}</div>
@@ -147,7 +147,7 @@
                 <div class="form-group" >
                     <label class="col-xs-12 col-sm-3 col-md-2 control-label must">服务商微信支付商户号(Mch_Id)</label>
                     <div class="col-sm-9">
-                        {ifp 'sysset.pay.edit'}
+                        {ifp 'sysset.payset.edit'}
                         <input type="text" name="data[mchid_sub]" class="form-control" value="{$sec['mchid_sub']}"/>
                         {else}
                         <div class='form-control-static'>{$sec['mchid_sub']}</div>
@@ -158,7 +158,7 @@
                 <div class="form-group" >
                     <label class="col-xs-12 col-sm-3 col-md-2 control-label must">公众号(AppId 必填)</label>
                     <div class="col-sm-9">
-                        {ifp 'sysset.pay.edit'}
+                        {ifp 'sysset.payset.edit'}
                         <input type="text" name="data[sub_appid_sub]" class="form-control" value="{$sec['sub_appid_sub']}"/>
                         {else}
                         <div class='form-control-static'>{$sec['sub_appid_sub']}</div>
@@ -169,7 +169,7 @@
                 <div class="form-group" >
                     <label class="col-xs-12 col-sm-3 col-md-2 control-label must">微信支付商户号(Mch_Id)</label>
                     <div class="col-sm-9">
-                        {ifp 'sysset.pay.edit'}
+                        {ifp 'sysset.payset.edit'}
                         <input type="text" name="data[sub_mchid_sub]" class="form-control" value="{$sec['sub_mchid_sub']}"/>
                         {else}
                         <div class='form-control-static'>{$sec['sub_mchid_sub']}</div>
@@ -180,8 +180,9 @@
                 <div class="form-group" >
                     <label class="col-xs-12 col-sm-3 col-md-2 control-label must">微信支付密钥(APIKEY)</label>
                     <div class="col-sm-9">
-                        {ifp 'sysset.pay.edit'}
+                        {ifp 'sysset.payset.edit'}
                         <input type="text" name="data[apikey_sub]" class="form-control" value="{$sec['apikey_sub']}"/>
+                        <div class="help-block">服务商的 APIKEY,并不是子商户的APIKEY</div>
                         {else}
                         <div class='form-control-static'>{$sec['apikey_sub']}</div>
                         {/if}
@@ -192,7 +193,7 @@
                     <label class="col-sm-2 control-label">CERT证书文件</label>
                     <div class="col-sm-9 col-xs-12">
                         <input type="hidden" name="data[weixin_sub_cert]" value="{$data['weixin_sub_cert']}"/>
-                        {ifp 'sysset.pay.edit'}
+                        {ifp 'sysset.payset.edit'}
 
                         <input type="file" name="weixin_sub_cert_file" class="form-control" />
                             <span class="help-block">
@@ -216,7 +217,7 @@
                     <label class="col-sm-2 control-label">KEY密钥文件</label>
                     <div class="col-sm-9 col-xs-12">
                         <input type="hidden" name="data[weixin_sub_key]"  value="{$data['weixin_sub_key']}"/>
-                        {ifp 'sysset.pay.edit'}
+                        {ifp 'sysset.payset.edit'}
 
                         <input type="file" name="weixin_sub_key_file" class="form-control" />
                             <span class="help-block">
@@ -240,7 +241,7 @@
                     <label class="col-sm-2 control-label">ROOT文件</label>
                     <div class="col-sm-9 col-xs-12">
                         <input type="hidden" name="data[weixin_sub_root]" value="{$data['weixin_sub_root']}"/>
-                        {ifp 'sysset.pay.edit'}
+                        {ifp 'sysset.payset.edit'}
 
                         <input type="file" name="weixin_sub_root_file" class="form-control" />
                             <span class="help-block">
@@ -278,7 +279,7 @@
             <div class="form-group" >
                 <label class="col-xs-12 col-sm-3 col-md-2 control-label must">公众号(AppId)</label>
                 <div class="col-sm-9">
-                    {ifp 'sysset.pay.edit'}
+                    {ifp 'sysset.payset.edit'}
                     <input type="text" name="data[appid]" class="form-control" value="{$sec['appid']}"/>
                     {else}
                     <div class='form-control-static'>{$sec['appid']}</div>
@@ -289,7 +290,7 @@
             <div class="form-group" >
                 <label class="col-xs-12 col-sm-3 col-md-2 control-label must">微信支付商户号(Mch_Id)</label>
                 <div class="col-sm-9">
-                    {ifp 'sysset.pay.edit'}
+                    {ifp 'sysset.payset.edit'}
                     <input type="text" name="data[mchid]" class="form-control" value="{$sec['mchid']}"/>
                     {else}
                     <div class='form-control-static'>{$sec['mchid']}</div>
@@ -300,7 +301,7 @@
             <div class="form-group" >
                 <label class="col-xs-12 col-sm-3 col-md-2 control-label must">微信支付密钥(APIKEY)</label>
                 <div class="col-sm-9">
-                    {ifp 'sysset.pay.edit'}
+                    {ifp 'sysset.payset.edit'}
                     <input type="text" name="data[apikey]" class="form-control" value="{$sec['apikey']}"/>
                     {else}
                     <div class='form-control-static'>{$sec['apikey']}</div>
@@ -312,7 +313,7 @@
                 <label class="col-sm-2 control-label">CERT证书文件</label>
                 <div class="col-sm-9 col-xs-12">
                     <input type="hidden" name="data[weixin_jie_cert]" value="{$data['weixin_jie_cert']}"/>
-                    {ifp 'sysset.pay.edit'}
+                    {ifp 'sysset.payset.edit'}
 
                     <input type="file" name="weixin_jie_cert_file" class="form-control" />
                             <span class="help-block">
@@ -336,7 +337,7 @@
                 <label class="col-sm-2 control-label">KEY密钥文件</label>
                 <div class="col-sm-9 col-xs-12">
                     <input type="hidden" name="data[weixin_jie_key]"  value="{$data['weixin_jie_key']}"/>
-                    {ifp 'sysset.pay.edit'}
+                    {ifp 'sysset.payset.edit'}
 
                     <input type="file" name="weixin_jie_key_file" class="form-control" />
                             <span class="help-block">
@@ -360,7 +361,7 @@
                 <label class="col-sm-2 control-label">ROOT文件</label>
                 <div class="col-sm-9 col-xs-12">
                     <input type="hidden" name="data[weixin_jie_root]" value="{$data['weixin_jie_root']}"/>
-                    {ifp 'sysset.pay.edit'}
+                    {ifp 'sysset.payset.edit'}
 
                     <input type="file" name="weixin_jie_root_file" class="form-control" />
                             <span class="help-block">
@@ -401,7 +402,7 @@
         <div class="form-group" >
             <label class="col-xs-12 col-sm-3 col-md-2 control-label must">服务商公众号(AppId)</label>
             <div class="col-sm-9">
-                {ifp 'sysset.pay.edit'}
+                {ifp 'sysset.payset.edit'}
                 <input type="text" name="data[appid_jie_sub]" class="form-control" value="{$sec['appid_jie_sub']}"/>
                 {else}
                 <div class='form-control-static'>{$sec['appid_jie_sub']}</div>
@@ -412,7 +413,7 @@
         <div class="form-group" >
             <label class="col-xs-12 col-sm-3 col-md-2 control-label must">服务商微信支付商户号(Mch_Id)</label>
             <div class="col-sm-9">
-                {ifp 'sysset.pay.edit'}
+                {ifp 'sysset.payset.edit'}
                 <input type="text" name="data[mchid_jie_sub]" class="form-control" value="{$sec['mchid_jie_sub']}"/>
                 {else}
                 <div class='form-control-static'>{$sec['mchid_jie_sub']}</div>
@@ -423,7 +424,7 @@
         <div class="form-group" >
             <label class="col-xs-12 col-sm-3 col-md-2 control-label must">公众号(AppId)</label>
             <div class="col-sm-9">
-                {ifp 'sysset.pay.edit'}
+                {ifp 'sysset.payset.edit'}
                 <input type="text" name="data[sub_appid_jie_sub]" class="form-control" value="{$sec['sub_appid_jie_sub']}"/>
                 {else}
                 <div class='form-control-static'>{$sec['sub_appid_jie_sub']}</div>
@@ -434,7 +435,7 @@
         <div class="form-group" >
             <label class="col-xs-12 col-sm-3 col-md-2 control-label must">微信支付商户号(Mch_Id)</label>
             <div class="col-sm-9">
-                {ifp 'sysset.pay.edit'}
+                {ifp 'sysset.payset.edit'}
                 <input type="text" name="data[sub_mchid_jie_sub]" class="form-control" value="{$sec['sub_mchid_jie_sub']}"/>
                 {else}
                 <div class='form-control-static'>{$sec['sub_mchid_jie_sub']}</div>
@@ -445,8 +446,9 @@
         <div class="form-group" >
             <label class="col-xs-12 col-sm-3 col-md-2 control-label must">微信支付密钥(APIKEY)</label>
             <div class="col-sm-9">
-                {ifp 'sysset.pay.edit'}
+                {ifp 'sysset.payset.edit'}
                 <input type="text" name="data[apikey_jie_sub]" class="form-control" value="{$sec['apikey_jie_sub']}"/>
+                <div class="help-block">服务商的 APIKEY,并不是子商户的APIKEY</div>
                 {else}
                 <div class='form-control-static'>{$sec['apikey_jie_sub']}</div>
                 {/if}
@@ -457,7 +459,7 @@
             <label class="col-sm-2 control-label">CERT证书文件</label>
             <div class="col-sm-9 col-xs-12">
                 <input type="hidden" name="data[weixin_jie_sub_cert]" value="{$data['weixin_jie_sub_cert']}"/>
-                {ifp 'sysset.pay.edit'}
+                {ifp 'sysset.payset.edit'}
 
                 <input type="file" name="weixin_jie_sub_cert_file" class="form-control" />
                             <span class="help-block">
@@ -481,7 +483,7 @@
             <label class="col-sm-2 control-label">KEY密钥文件</label>
             <div class="col-sm-9 col-xs-12">
                 <input type="hidden" name="data[weixin_jie_sub_key]"  value="{$data['weixin_jie_sub_key']}"/>
-                {ifp 'sysset.pay.edit'}
+                {ifp 'sysset.payset.edit'}
 
                 <input type="file" name="weixin_jie_sub_key_file" class="form-control" />
                             <span class="help-block">
@@ -505,7 +507,7 @@
             <label class="col-sm-2 control-label">ROOT文件</label>
             <div class="col-sm-9 col-xs-12">
                 <input type="hidden" name="data[weixin_jie_sub_root]" value="{$data['weixin_jie_sub_root']}"/>
-                {ifp 'sysset.pay.edit'}
+                {ifp 'sysset.payset.edit'}
 
                 <input type="file" name="weixin_jie_sub_root_file" class="form-control" />
                             <span class="help-block">
@@ -582,7 +584,7 @@
             <div class="form-group" >
                 <label class="col-xs-12 col-sm-3 col-md-2 control-label must">微信AppId</label>
                 <div class="col-sm-9">
-                    {ifp 'sysset.pay.edit'}
+                    {ifp 'sysset.payset.edit'}
                     <input type="text" name="data[app_wechat_appid]" class="form-control" value="{if !empty($sec['app_wechat']['appid'])}{$sec['app_wechat']['appid']}{/if}"/>
                     {else}
                     <div class='form-control-static'>{if !empty($sec['app_wechat']['appid'])}{$sec['app_wechat']['appid']}{/if}</div>
@@ -593,7 +595,7 @@
             <div class="form-group" >
                 <label class="col-xs-12 col-sm-3 col-md-2 control-label must">微信AppSecret</label>
                 <div class="col-sm-9">
-                    {ifp 'sysset.pay.edit'}
+                    {ifp 'sysset.payset.edit'}
                     <input type="text" name="data[app_wechat_appsecret]" class="form-control" value="{if !empty($sec['app_wechat']['appsecret'])}{$sec['app_wechat']['appsecret']}{/if}"/>
                     {else}
                     <div class='form-control-static'>{if !empty($sec['app_wechat']['appsecret'])}{$sec['app_wechat']['appsecret']}{/if}</div>
@@ -604,7 +606,7 @@
             <div class="form-group" >
                 <label class="col-xs-12 col-sm-3 col-md-2 control-label must">微信商户名称</label>
                 <div class="col-sm-9">
-                    {ifp 'sysset.pay.edit'}
+                    {ifp 'sysset.payset.edit'}
                     <input type="text" name="data[app_wechat_merchname]" class="form-control" value="{if !empty($sec['app_wechat']['merchname'])}{$sec['app_wechat']['merchname']}{/if}"/>
                     {else}
                     <div class='form-control-static'>{if !empty($sec['app_wechat']['merchname'])}{$sec['app_wechat']['merchname']}{/if}</div>
@@ -615,7 +617,7 @@
             <div class="form-group" >
                 <label class="col-xs-12 col-sm-3 col-md-2 control-label must">微信商户ID</label>
                 <div class="col-sm-9">
-                    {ifp 'sysset.pay.edit'}
+                    {ifp 'sysset.payset.edit'}
                     <input type="text" name="data[app_wechat_merchid]" class="form-control" value="{if !empty($sec['app_wechat']['merchid'])}{$sec['app_wechat']['merchid']}{/if}"/>
                     {else}
                     <div class='form-control-static'>{if !empty($sec['app_wechat']['merchid'])}{$sec['app_wechat']['merchid']}{/if}</div>
@@ -626,7 +628,7 @@
             <div class="form-group" >
                 <label class="col-xs-12 col-sm-3 col-md-2 control-label must">微信商户API密钥</label>
                 <div class="col-sm-9">
-                    {ifp 'sysset.pay.edit'}
+                    {ifp 'sysset.payset.edit'}
                     <input type="text" name="data[app_wechat_apikey]" class="form-control" value="{if !empty($sec['app_wechat']['apikey'])}{$sec['app_wechat']['apikey']}{/if}"/>
                     {else}
                     <div class='form-control-static'>{if !empty($sec['app_wechat']['apikey'])}{$sec['app_wechat']['apikey']}{/if}</div>
@@ -638,7 +640,7 @@
                 <label class="col-sm-2 control-label">CERT证书文件</label>
                 <div class="col-sm-9 col-xs-12">
                     <input type="hidden" name="data[app_wechat_cert]" value="{$data['app_wechat_cert']}"/>
-                    {ifp 'sysset.pay.edit'}
+                    {ifp 'sysset.payset.edit'}
 
                     <input type="file" name="app_wechat_cert_file" class="form-control" />
                             <span class="help-block">
@@ -662,7 +664,7 @@
                 <label class="col-sm-2 control-label">KEY密钥文件</label>
                 <div class="col-sm-9 col-xs-12">
                     <input type="hidden" name="data[app_wechat_key]"  value="{$data['app_wechat_key']}"/>
-                    {ifp 'sysset.pay.edit'}
+                    {ifp 'sysset.payset.edit'}
 
                     <input type="file" name="app_wechat_key_file" class="form-control" />
                             <span class="help-block">
@@ -686,7 +688,7 @@
                 <label class="col-sm-2 control-label">ROOT文件</label>
                 <div class="col-sm-9 col-xs-12">
                     <input type="hidden" name="data[app_wechat_root]" value="{$data['app_wechat_root']}"/>
-                    {ifp 'sysset.pay.edit'}
+                    {ifp 'sysset.payset.edit'}
 
                     <input type="file" name="app_wechat_root_file" class="form-control" />
                             <span class="help-block">
@@ -726,7 +728,7 @@
         <div class="form-group" >
             <label class="col-xs-12 col-sm-3 col-md-2 control-label must">支付宝公钥(public_key)</label>
             <div class="col-sm-9">
-                {ifp 'sysset.pay.edit'}
+                {ifp 'sysset.payset.edit'}
                 <textarea name="data[app_alipay_public_key]" rows="4" class="form-control">{if !empty($sec['app_alipay']['public_key'])}{$sec['app_alipay']['public_key']}{/if}</textarea>
                 <div class="help-block">一行且不能有空格</div>
                 {else}
