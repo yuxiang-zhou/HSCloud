@@ -378,27 +378,27 @@
 
                     <td>
                       {if $_GPC['type']==2}
-                      <a class='btn btn-danger' onclick="return confirm('确认返现{php echo $row['single_refund_price'] * $row['total']}?')" href="{php echo $this->createWebUrl('finance/log',array_merge(array('op'=>'pay','paytype'=>'cashback'),$row));}">返现</a>
-                      {if count($row['hist']) > 0}
-                        <a class='btn btn-info' data-toggle="collapse" data-target="#{$row['unique_id']}" aria-expanded="false" aria-controls="{$row['unique_id']}">详情</a>
-                      {/if}
+                        <a class='btn btn-danger' onclick="return confirm('确认返现{php echo $row['single_refund_price'] * $row['total']}?')" href="{php echo $this->createWebUrl('finance/log',array_merge(array('op'=>'pay','paytype'=>'cashback'),$row));}">返现</a>
+                        {if count($row['hist']) > 0}
+                          <a class='btn btn-info' data-toggle="collapse" data-target="#{$row['unique_id']}" aria-expanded="false" aria-controls="{$row['unique_id']}">详情</a>
+                        {/if}
                       {else}
                         {ifp 'member.member.view'}
-                        <a class='btn btn-default' href="{php echo $this->createWebUrl('member',array('op'=>'detail','id' => $row['mid']));}">用户信息</a>
-                        {/if}
-                          {if $row['type']==0 && $row['status']==1}
-                              {if $row['rechargetype']=='alipay' || $row['rechargetype']=='wechat'}
-                                {ifp 'finance.recharge.refund'}
-                                  <a class='btn btn-danger' onclick="return confirm('确认退款到微信钱包?')" href="{php echo $this->createWebUrl('finance/log',array('op'=>'pay','paytype'=>'refund','id' => $row['id']));}">退款</a>
-                              {/if}
+                          <a class='btn btn-default' href="{php echo $this->createWebUrl('member',array('op'=>'detail','id' => $row['mid']));}">用户信息</a>
                           {/if}
-                        {/if}
-                        {if $row['type']==1 && $row['status']==0}
-                          {ifp 'finance.withdraw.withdraw'}
-                          <a class='btn btn-default' onclick="return confirm('确认微信钱包提现?')" href="{php echo $this->createWebUrl('finance/log',array('op'=>'pay','paytype'=>'wechat','id' => $row['id']));}">微信提现</a>
-                          <a class='btn btn-default' onclick="return confirm('确认手动提现完成?')" href="{php echo $this->createWebUrl('finance/log',array('op'=>'pay','paytype'=>'manual','id' => $row['id']));}">手动提现</a>
-                          <a class='btn btn-default' onclick="return confirm('确认拒绝提现申请?')" href="{php echo $this->createWebUrl('finance/log',array('op'=>'pay','paytype'=>'refuse','id' => $row['id']));}">拒绝</a>
-                        {/if}
+                            {if $row['type']==0 && $row['status']==1}
+                                {if $row['rechargetype']=='alipay' || $row['rechargetype']=='wechat'}
+                                  {ifp 'finance.recharge.refund'}
+                                    <a class='btn btn-danger' onclick="return confirm('确认退款到微信钱包?')" href="{php echo $this->createWebUrl('finance/log',array('op'=>'pay','paytype'=>'refund','id' => $row['id']));}">退款</a>
+                                {/if}
+                            {/if}
+                          {/if}
+                          {if $row['type']==1 && $row['status']==0}
+                            {ifp 'finance.withdraw.withdraw'}
+                            <a class='btn btn-default' onclick="return confirm('确认微信钱包提现?')" href="{php echo $this->createWebUrl('finance/log',array('op'=>'pay','paytype'=>'wechat','id' => $row['id']));}">微信提现</a>
+                            <a class='btn btn-default' onclick="return confirm('确认手动提现完成?')" href="{php echo $this->createWebUrl('finance/log',array('op'=>'pay','paytype'=>'manual','id' => $row['id']));}">手动提现</a>
+                            <a class='btn btn-default' onclick="return confirm('确认拒绝提现申请?')" href="{php echo $this->createWebUrl('finance/log',array('op'=>'pay','paytype'=>'refuse','id' => $row['id']));}">拒绝</a>
+                          {/if}
                         {/if}
                       {/if}
                     </td>
