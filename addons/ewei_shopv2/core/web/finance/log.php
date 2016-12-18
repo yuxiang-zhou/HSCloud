@@ -438,9 +438,69 @@ class Log_EweiShopV2Page extends WebPage
 
   public function cashback_fn()
   {
-    show_json(0, 'Test!');
 
-    show_json(0, '未找到记录!');
+    $ordersn = $_GPC['ordersn'];
+    $goodssn = $_GPC['goodssn'];
+    $lastdate = date('Y-m-d H:i',$_GPC['createtime']);
+
+		// cashback validation
+    if ($_GPC['num_refunded'] > 0) {
+      if ($_GPC['num_refunded'] >= $_GPC['num_refund']) {
+        show_json(0, '返现已于 '.$lastdate.' 完成!');
+      }
+			$lastFYtime = new DateTime('NOW');
+			$lastFYtime->setTimestamp($_GPC['createtime']);
+			$lastmonthFYtime = new DateTime('-'.strval($_GPC['period']).' month');
+			$interval = $lastmonthFYtime->diff($lastFYtime);
+			if ($interval->y == 0 && $interval->m == 0)  {
+        show_json(0, '本月已于 '.$lastdate.' 返现!');
+			}
+    }
+
+    // variable definition
+    $openid = $_GPC['openid'];
+    $money = floatval($_GPC['single_refund_price']) * floatval($_GPC['total']);
+
+    $member = m('member')->getMember($openid);
+    $set = m('common')->getSysset('shop');
+    $logno = m('common')->createNO('member_log', 'logno', 'RB');
+  	$log = array(
+			'uniacid' => $_W['uniacid'],
+			'logno' => $logno,
+			'title' => $set['name'] . "销售返现",
+			'openid' => $openid, 'type' => 0,
+			'createtime' => time(), 'status' => 0,
+			'type' => 2,
+			'status' => 1,
+			'money' => $money
+		);
+
+    // execute
+    $result = m('finance')->pay($openid, 1, $money * 100.0, $logno, $set['name'].'销售返现');
+
+    // error handling
+    if (is_error($result)) {
+      show_json(0, '返现失败: ' . $result['message']);
+    }
+
+    // notify user
+  	pdo_insert('ewei_shop_member_log', $log);
+  	$logid = pdo_insertid();
+    m('notice')->sendMemberLogMessage($logid);
+    plog('finance.cashback', "销售返现 ID: {$log['id']} 金额: {$log['money']} <br/>会员信息:  ID: {$member['id']} / {$member['openid']}/{$member['nickname']}/{$member['realname']}/{$member['mobile']}");
+
+    // log cashback
+    pdo_insert('ewei_shop_goods_cashback_hist', array(
+			'ordersn' => $ordersn,
+			'goodssn' => $goodssn,
+			'refund_id' => $_GPC["refund_id"],
+			'price' => $money,
+			'time_refund' => time(),
+			'logno' => $logno
+		));
+
+    show_json(0, '返现成功!');
+
   }
 }
 ?>

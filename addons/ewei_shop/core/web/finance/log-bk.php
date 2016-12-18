@@ -71,7 +71,9 @@ if ($op == 'display') {
 	if ($_GPC['status'] != '') {
     if($type != 2) {
       $condition .= ' AND log.status=' . intval($_GPC['status']);
-    }
+    } else {
+			$condition .= ' AND num_refunded>0';
+		}
 	}
 
   // log params
@@ -237,7 +239,7 @@ if ($op == 'display') {
 
     // variable definition
     $openid = $_GPC['openid'];
-    $money = floatval($_GPC['single_refund_price']) * floatval($row['total']);
+    $money = floatval($_GPC['single_refund_price']) * floatval($_GPC['total']);
 
     $member = m('member')->getMember($openid);
     $set = m('common')->getSysset('shop');
