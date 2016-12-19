@@ -214,6 +214,16 @@
 {/if}
 {/if}
 
+{if (!empty($goods['cashback']))}
+<div class='fui-cell-group  fui-sale-group' style='margin-top:0'>
+    <div class='fui-cell'>
+        <div class='fui-cell-text'>
+          消费返 <span class="text-danger">{$goods['cashback']['total']} (占 {php echo number_format($goods['cashback']['percent'],0)}%)</span>元
+        </div>
+    </div>
+</div>
+{/if}
+
 {if (!empty($goods['deduct']) && $goods['deduct'] != '0.00')  || !empty($goods['credit'])}
 <div class='fui-cell-group  fui-sale-group' style='margin-top:0'>
     <div class='fui-cell'>

@@ -87,14 +87,19 @@
         <div class="fui-list-inner">
             <a href="{php echo mobileUrl('goods/detail',array('id'=>$g['goodsid']))}">
                 <div class="text">
-                    {if empty($g['isnodiscount']) && !empty($g['dflag'])}<span class='fui-label fui-label-danger'>折扣</span>{/if}
-                    {$g['title']}
+                    {if empty($g['isnodiscount']) && !empty($g['dflag'])}
+                    <span class='fui-label fui-label-danger'>折扣</span>
+                    {/if}
+
+                    {$g['title']} {if !empty($g['cashback'])}<span style='color:#AAAAAA'> (90天后分{$g['cashback']['num_refund']}个月共补贴{$g['cashback']['total']}元)</span>{/if}
+
                 </div>
                 {if !empty($g['optionid'])}
                 <div class="text">
                     {$g['optiontitle']}
                 </div>
                 {/if}
+
             </a>
         </div>
         <div class='fui-list-angle'>
@@ -185,7 +190,7 @@
 {else}
 <div class="fui-cell-group sm ">
     <div class="fui-cell">
-        <div class="fui-cell-info"><input type="text" class="fui-input" id='remark' placeholder="选填: 买家留言(50字以内)" maxlength="50"></div>
+        <div class="fui-cell-info"><input type="text" class="fui-input" id='remark' placeholder="选填: 买家留言(50 字以内)" maxlength="50"></div>
     </div>
 </div>
 {/if}
