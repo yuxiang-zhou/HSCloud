@@ -230,7 +230,7 @@ if ($op == 'display') {
       }
 			$lastFYtime = new DateTime('NOW');
 			$lastFYtime->setTimestamp($_GPC['createtime']);
-			$lastmonthFYtime = new DateTime('-'.strval($_GPC['period']).' month');
+			$lastmonthFYtime = new DateTime('NOW');
 			$interval = $lastmonthFYtime->diff($lastFYtime);
 			if ($interval->y == 0 && $interval->m == 0)  {
 				message('本月已于 '.$lastdate.' 返现!', '', 'error');
@@ -239,7 +239,7 @@ if ($op == 'display') {
 
     // variable definition
     $openid = $_GPC['openid'];
-    $money = floatval($_GPC['single_refund_price']) * floatval($_GPC['total']);
+    $money = floatval($_GPC['custom']);
 
     $member = m('member')->getMember($openid);
     $set = m('common')->getSysset('shop');

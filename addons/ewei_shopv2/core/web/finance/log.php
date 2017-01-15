@@ -450,7 +450,7 @@ class Log_EweiShopV2Page extends WebPage
       }
 			$lastFYtime = new DateTime('NOW');
 			$lastFYtime->setTimestamp($_GPC['createtime']);
-			$lastmonthFYtime = new DateTime('-'.strval($_GPC['period']).' month');
+			$lastmonthFYtime = new DateTime('NOW');
 			$interval = $lastmonthFYtime->diff($lastFYtime);
 			if ($interval->y == 0 && $interval->m == 0)  {
         show_json(0, '本月已于 '.$lastdate.' 返现!');
@@ -474,6 +474,8 @@ class Log_EweiShopV2Page extends WebPage
 			'status' => 1,
 			'money' => $money
 		);
+
+    show_json(0, '返现失败: ' . 'Test');
 
     // execute
     $result = m('finance')->pay($openid, 1, $money * 100.0, $logno, $set['name'].'销售返现');
