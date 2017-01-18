@@ -90,7 +90,7 @@
                     return;
                 }
                 $(this).data('status',1).text('保存中')
-                var posturl = biz.url("diypage/temp/category/add")
+                var posturl = biz.url("diypage/temp/category/add", null, {if $_W['plugin']='merch'&&!empty($_W['merchid'])}1{else}0{/if})
                 $.post(posturl, {
                     name: name
                 }, function (ret) {

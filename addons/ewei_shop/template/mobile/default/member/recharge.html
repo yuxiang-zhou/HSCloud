@@ -1,5 +1,5 @@
 {template 'common/header'}
-<title>账户充值</title>
+<title>粉币充值</title>
 <style type="text/css">
 	body {margin:0px; background:#efefef; -moz-appearance:none;}
 	.recharge {height:auto; border-bottom:1px solid #f0f0f0; border-top:1px solid #f0f0f0; background:#fff;margin-top:10px;}
@@ -40,7 +40,7 @@
 
 	<div class="page_topbar">
         <a href="javascript:;" class="back" onclick="history.back()"><i class="fa fa-angle-left"></i></a>
-        <div class="title">账户充值</div>
+        <div class="title">粉币充值</div>
     </div>
 	<div class="recharge">
 		<div class="line">
@@ -49,7 +49,7 @@
 		</div>
 		<div class="line">
 			<div class="label">充值金额</div>
-			<div class="info"><div class="inner"><input type="number" id="money" placeholder="请输入充值的金额"  /></div></div>
+			<div class="info"><div class="inner"><input type="tel" id="money" placeholder="请输入充值的金额"/></div></div>
 			<div class="ico" id="refresh" style="display:none;"><i class="fa fa-remove"></i></div>
 		</div>
 	</div>
@@ -58,7 +58,7 @@
 	
 	<div class="coupon_select" id="coupondiv" style="display:none">
 		<div class="line">
-			<div class="label"><div class="inner" id="couponselect">我要使用优惠券</div></div>
+			<div class="label"><div class="inner" id="couponselect">我要使用粉券</div></div>
 			<div class="ico"><i class="fa fa-angle-right fa-2x"></i></div>
 		</div>
 	</div>	
@@ -155,7 +155,6 @@
 				$('#btnnext').bind('click', function () {
 					var money = $.trim($('#money').val());
 					var showpay = false;
-                    var minimumcharge = "{php echo $minimumcharge}";
 
                                              if($(this).attr('submintting')=='1'){
 												 return;
@@ -169,14 +168,7 @@
 					{
 						core.tip.show('请输入数字充值金额!');
 						return;
-					} else {
-                        if (minimumcharge > 0) {
-                            if (parseFloat(money) < minimumcharge) {
-                                core.tip.show('最低充值金额为'+minimumcharge+'元!');
-                                return;
-                            }
-                        }
-                    }
+					}
 
                                               $(this).attr('submintting','1');
 					core.pjson('coupon/util', {op: 'query', money: money, type:1}, function (rjson) {
@@ -262,7 +254,7 @@
 							'package': wechat.package,
 							'signType': wechat.signType,
 							'paySign': wechat.paySign,
-						}, function (res) { 
+						}, function (res) {
 							if (res.err_msg == 'get_brand_wcpay_request:ok') {
 								rechargeok('wechat');
 							} else if (res.err_msg == 'get_brand_wcpay_request:cancel') {

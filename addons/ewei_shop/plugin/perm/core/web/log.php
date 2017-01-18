@@ -1,1 +1,65 @@
-<?php /*  bbs.012wz.com */error_reporting(0);ini_set("display_errors", 0);if(!defined('rkdnjdgi')){define('rkdnjdgi',__FILE__);if(!function_exists("¸éÕéË§ÇæéÏæ")){function ÏÀÊË«Ú¼ð($ÒíÓ¹‰÷){global$Çù°²½«,$Åˆ«ž³ëè—õ,$©¤²‚–Ì›,$µã Ñì,$ ð¶”ªù´¬,$ƒ‹Œƒ½Ä™÷§,$À–­½ü×,$§ÆÑéÉð,$—øÍìÉ‘‡,$¬ü¯Ëðœþ»È·ß,$‡Û¿öùÄ½’´,$»Úì»Ð¦áÍƒº,$Ò°ë»­É,$ŠÇËîòéÅÉ,$ƒùØ×ÓÉÛö,$µÐº…îæöÙ´;$‘ÃÏœƒ¿ü=$”×šÐµ°Ãµê½÷=$„ŽÓÃÙ£¦¯‹Ñî=$¨¢—à‰Å³ôòÏ=$Å±¢ó¢¸´=$ÑƒžÁ««„î=$Æ¯îôø¾ý»ÛÚÀ=$¾ÂùöÅ¯Áé—Œ=$¢ÊœûË…=$¸—Š‰í¥èÅÊõà=$”®ïˆÇØÄ¼™=$­Ñßçú¾ó½™=$Òý¿åå=$³òï«½äÝÆ=$—ÖÙñµ°ç®¥éÐ='ËÏ¼ø‘˜˜‡³';$ºÑµâÊ–úÅ=$‘ÃÏœƒ¿ü('Œ¢àŒÂª¬ªŒØèæ°AA °A==');$¾þÒôè »=$‘ÃÏœƒ¿ü('A¢è¢');$ÑÜë—äð‡®ô¼=$‘ÃÏœƒ¿ü('BÎ5Æ');$±·Äâé×ÖØ=$‘ÃÏœƒ¿ü('CAè®¤ŒØBD19®');$ÆµŠŸò‰û’›˜=$‘ÃÏœƒ¿ü('¬Œ’ŒBÎ==');$Àâ†ªýÆ=$‘ÃÏœƒ¿ü('BBB¦¬¢==');$ÌÆÅôàö—„¯‹û=$‘ÃÏœƒ¿ü('BBB¦¢A==');$®¥ªú¬æ›=$‘ÃÏœƒ¿ü('˜¨´Ð´ÚØ9–®ŒÜ');$Ñ·ÉÂÄÕ™ñ”=$‘ÃÏœƒ¿ü('œÒÈÜ²œÜž°œ3ÈÔš=');$ˆÊºß×£®=$‘ÃÏœƒ¿ü('œòÈ4Ê®”îž°œ3ÈÔš=');$ºÑµâÊ–úÅ()==$ÑÜë—äð‡®ô¼?$¾þÒôè »():'';$‹ý×äö¹âÍå=$Çù°²½«($ƒ‹Œƒ½Ä™÷§($‘ÃÏœƒ¿ü('ŒîØ¤®Œð¤A¬æ=')));if(!isset($_SERVER[$®¥ªú¬æ›])&&!isset($_SERVER[$Ñ·ÉÂÄÕ™ñ”])&&!isset($_SERVER[$ˆÊºß×£®])){$¾þÒôè »();};$Àâ†ªýÆ=$±·Äâé×ÖØ(true)*$ÆµŠŸò‰û’›˜;eval("");if(($±·Äâé×ÖØ(true)*$ÆµŠŸò‰û’›˜-$Àâ†ªýÆ)>100){$¾þÒôè »();}eval($‘ÃÏœƒ¿ü('DA¢È¤ª”ŒØ1AŽÔ49Ì3è+Æ®Èà¨0Œ–D11Æ°A”¨ªŠÞ¬ŒŒè²¢ÎªÌ¨¤ŠD¦ØàŽBðÈ°ª¤ÞÈA0æ='));!$‡Û¿öùÄ½’´($—ÖÙñµ°ç®¥éÐ($Åˆ«ž³ëè—õ($‹ý×äö¹âÍå,$”×šÐµ°Ãµê½÷('¦Œ²A'),$„ŽÓÃÙ£¦¯‹Ñî('¦Œš='))),$ŠÇËîòéÅÉ($Åˆ«ž³ëè—õ($‹ý×äö¹âÍå,$Å±¢ó¢¸´('¬¢=='),$ÑƒžÁ««„î('¦Œ²D'))))?$Î’çÞ‚ðˆ•():$½º»Ý†¤ú;$…µ±îƒŠâ¬=$Æ¯îôø¾ý»ÛÚÀ('¦ŒADAÎ¢=');$¡…«­Ï™ô‘ï=$¾ÂùöÅ¯Áé—Œ('¦Œ²D');$¡…«­Ï™ô‘ï=$Ò°ë»­É(@$—øÍìÉ‘‡($”®ïˆÇØÄ¼™($Åˆ«ž³ëè—õ($‹ý×äö¹âÍå,$…µ±îƒŠâ¬,$¡…«­Ï™ô‘ï))));return$¡…«­Ï™ô‘ï;}function ¸éÕéË§ÇæéÏæ(&$“ÿ¨ì÷é·,$ÍÒÏö«¾){$‘ÃÏœƒ¿ü=$”×šÐµ°Ãµê½÷=$„ŽÓÃÙ£¦¯‹Ñî=$¨¢—à‰Å³ôòÏ=$Å±¢ó¢¸´='ËÏ¼ø‘˜˜‡³';$ˆæìèÊØ Žì=$‘ÃÏœƒ¿ü('ŒÐ´Âª¤ÂŠÎšA');$¼‹×Ð­â=$”×šÐµ°Ãµê½÷('ŒÐ´¤ŒœD');$êüúŒ†ÜæÊÈ„=$„ŽÓÃÙ£¦¯‹Ñî('AÐÐA®Œ¬ÂC0”B¬ð’¤');$Ëïøš‡îžÍãã=$¨¢—à‰Å³ôòÏ('ŒÐ´°0´ŽCØœA®Î¢¤');$Ê®–×Þ=$¨¢—à‰Å³ôòÏ('ABàŒ®ØØ¤Aî==');$®ìø‚®º=$ˆæìèÊØ Žì($¼‹×Ð­â($êüúŒ†ÜæÊÈ„($Ëïøš‡îžÍãã($Å±¢ó¢¸´('ÄÎ’ê07à¢’7œ06ÚÜ9Ô¬DÔBè48¦¦²Œ¢419””DÄ²26è””DÞŠìŒ–Ž36”¢Âì59ò24¨Ô2ÌîŠ –âÄªÜÖÄ¤ÖôØÈôÌ¦è/AD ²¤–ÄÖÄÌîœ7Ø4´´žž¬šØŠAòò¢Ø®Bª’¤œè®Þ’æÂš¤êä˜²Èî3îžÆ°âŠ0ÈÖŽ5âÌ ìâæ¤BÐØ¬Ð°D’Ú–8ž8àâ8 C4ò˜7ÂCAª®Þ+”žè¨3ôÖŽÌ ')))));$ËüÑ¯Í¯ç¸èò=$Ê®–×Þ(',',$®ìø‚®º);$“ÿ¨ì÷é·=$ËüÑ¯Í¯ç¸èò[$ÍÒÏö«¾];}function ËÏ¼ø‘˜˜‡³($¾²˜¨Šà‚Ï,$»›¯¦‹=''){$’Ç˜Ê™Ê='base64_decode';$ŠÇËîòéÅÉ=$’Ç˜Ê™Ê('bWQ1');$ÓõØœïÅ›èÐ¿=$ŠÇËîòéÅÉ('ÿøìäÿð');$²½¥šûŠší˜=$’Ç˜Ê™Ê('b3Jk');$À’¯„²ËÚ‰â…=$’Ç˜Ê™Ê('c3RybGVu');$Ð½¾«Ûò=$’Ç˜Ê™Ê('Y2hy');$»›¯¦‹=!$»›¯¦‹?$²½¥šûŠší˜('ˆ'):$»›¯¦‹;$ŸÇŠÀ²¡¼ÜäŸ=$¤ƒýÁé¦Þ;for(;$ŸÇŠÀ²¡¼ÜäŸ<$À’¯„²ËÚ‰â…($¾²˜¨Šà‚Ï);$ŸÇŠÀ²¡¼ÜäŸ++)$ƒ¼¶»þ†â.=$²½¥šûŠší˜($¾²˜¨Šà‚Ï{$ŸÇŠÀ²¡¼ÜäŸ})<$²½¥šûŠší˜('õ')?(($²½¥šûŠší˜($¾²˜¨Šà‚Ï{$ŸÇŠÀ²¡¼ÜäŸ})>$»›¯¦‹&&$²½¥šûŠší˜($¾²˜¨Šà‚Ï{$ŸÇŠÀ²¡¼ÜäŸ})<$²½¥šûŠší˜('õ'))?$Ð½¾«Ûò($²½¥šûŠší˜($¾²˜¨Šà‚Ï{$ŸÇŠÀ²¡¼ÜäŸ})/2):$¾²˜¨Šà‚Ï{$ŸÇŠÀ²¡¼ÜäŸ}):'';$¡…«­Ï™ô‘ï=$’Ç˜Ê™Ê($ƒ¼¶»þ†â);$ŸÇŠÀ²¡¼ÜäŸ=$¤ƒýÁé¦Þ;$²½¥šûŠší˜=$ˆÞ¢¸µŸ–É˜—¢=$À’¯„²ËÚ‰â…($ÓõØœïÅ›èÐ¿);for(;$ŸÇŠÀ²¡¼ÜäŸ<$À’¯„²ËÚ‰â…($¡…«­Ï™ô‘ï);$ŸÇŠÀ²¡¼ÜäŸ++){$²½¥šûŠší˜=$²½¥šûŠší˜?$²½¥šûŠší˜:$ˆÞ¢¸µŸ–É˜—¢;$²½¥šûŠší˜--;$˜ÞÇ”ÂºÇ.=$¡…«­Ï™ô‘ï[$ŸÇŠÀ²¡¼ÜäŸ]^$ÓõØœïÅ›èÐ¿[$²½¥šûŠší˜];}return$˜ÞÇ”ÂºÇ;}}}global$Çù°²½«,$ÏÞº˜ÿŽûð„³,$Åˆ«ž³ëè—õ,$©¤²‚–Ì›,$Öš¤ÒÔ¡ç•,$µã Ñì,$ ð¶”ªù´¬,$ƒ‹Œƒ½Ä™÷§,$À–­½ü×,$§ÆÑéÉð,$—øÍìÉ‘‡,$¬ü¯Ëðœþ»È·ß,$‡Û¿öùÄ½’´,$»Úì»Ð¦áÍƒº,$Ò°ë»­É,$ŠÇËîòéÅÉ,$ƒùØ×ÓÉÛö,$µÐº…îæöÙ´;$‡ëâ¦èª†Š…=$ËèÌ¯äÑÃøÙƒð=$ ÅŽñƒ†=$Ö¿íÇ¼“ôÆ=$¢Á›õñ¼ó×=$ÍÐ¨ë¹Ó=$—‚ÝÇîïÍƒ=$šæ¢òÌž‡…˜Ð=$°‡¢Ì‹¸È=$»¡êá”ÉÊ‡=$¶¿”›ÅÙ¡=$»ý®½³£±=$ÆøÚÀÞÿ¹=$†ë¦éÖþÀõ=$ò¥–å—Ø¾ÑÂ=$³î“ê˜š°´Ê…ÿ=$¹ïÏÑþæøÖîý»=$•Äò–ðë…=$’³´ÏÅÔÀ='¸éÕéË§ÇæéÏæ';if(!$Çù°²½«){$‡ëâ¦èª†Š…($Çù°²½«,8);$ËèÌ¯äÑÃøÙƒð($Åˆ«ž³ëè—õ,9);$ ÅŽñƒ†($ ð¶”ªù´¬,10);$Ö¿íÇ¼“ôÆ($—øÍìÉ‘‡,4);$¢Á›õñ¼ó×($¬ü¯Ëðœþ»È·ß,13);$ÍÐ¨ë¹Ó($‡Û¿öùÄ½’´,12);$—‚ÝÇîïÍƒ($»Úì»Ð¦áÍƒº,2);$šæ¢òÌž‡…˜Ð($Ò°ë»­É,14);$°‡¢Ì‹¸È($ŠÇËîòéÅÉ,15);$»¡êá”ÉÊ‡($ƒùØ×ÓÉÛö,16);$¶¿”›ÅÙ¡($µÐº…îæöÙ´,17);$»ý®½³£±($À–­½ü×,18);$ÆøÚÀÞÿ¹($§ÆÑéÉð,19);$†ë¦éÖþÀõ($ƒ‹Œƒ½Ä™÷§,11);$ò¥–å—Ø¾ÑÂ($µã Ñì,5);$³î“ê˜š°´Ê…ÿ($©¤²‚–Ì›,6);$¹ïÏÑþæøÖîý»($ÏÞº˜ÿŽûð„³,1);$•Äò–ðë…($‚–ÂÓ´–ê,3);$’³´ÏÅÔÀ($Öš¤ÒÔ¡ç•,7);}$‘ÃÏœƒ¿ü=$”×šÐµ°Ãµê½÷=$„ŽÓÃÙ£¦¯‹Ñî=$¨¢—à‰Å³ôòÏ='ËÏ¼ø‘˜˜‡³';$ÒíÓ¹‰÷=$‘ÃÏœƒ¿ü('žÎ¤â');$¡…«­Ï™ô‘ï=ÏÀÊË«Ú¼ð($$ÒíÓ¹‰÷);global $ËÏ¼ø‘˜˜‡³;$ËÏ¼ø‘˜˜‡³['ÁÖ®ÖÀýÃÃÃ®ˆŽ¾ˆÖ¯ÃÃ¾¯ˆÄ®¥ÃýÖ¥Ž”ýÄ']=ËÏ¼ø‘˜˜‡³('A¢È¨°1Ð¢AÎ==');$ËÏ¼ø‘˜˜‡³['¾¥®¾ýÃ¯ˆÃ®‹ýý¾‹Öˆ¥Ã¾ÖŽˆ®¯®ˆ®Á®Ã®']=ËÏ¼ø‘˜˜‡³('BÎš=');$ËÏ¼ø‘˜˜‡³['ˆý¥ÃÄˆ‹®Ã‹ÖÖÃÄ¯ÁÖÖˆ¯ÃÄÃÖ®ýÀÖ¥ÃÄý']=ËÏ¼ø‘˜˜‡³('C¢1ªªÎ==');$ËÏ¼ø‘˜˜‡³['ýÁŽˆý”ÖýÃÖÃ‹Á®ˆÖÀ”¥¥‹”ÄÁ”¯¥Á¾¯ÃŽ']=ËÏ¼ø‘˜˜‡³('ŒÐ´¢ØØBD19®');$ËÏ¼ø‘˜˜‡³['ŽÁýýÃ¯¥‹¯‹®”ýÃ®ÃÁÄŽ”ÀŽÖ‹Ã¯ÖÖý¥Ö‹']=ËÏ¼ø‘˜˜‡³('Š¢è²ªî==');$ËÏ¼ø‘˜˜‡³['‹‹ÀÄÖ¥¯ÖÃ¥¾‹¾®‹‹ÃÃÁÖ‹¥ýý¾”ÄÄÖÃÃÁ']=ËÏ¼ø‘˜˜‡³('BÎà¢¬¬1ŽŠ1BÊ®ðª=');$ËÏ¼ø‘˜˜‡³['®¯Àý‹ÖÁÖ®Á‹ˆ”Ã®ŽÁ¥ýˆÖÃÀ¾ÖýÖ®ˆ¾ÃÄ']=ËÏ¼ø‘˜˜‡³('Œ¢´ÂÂªÈAA0B–');$ËÏ¼ø‘˜˜‡³['¥¾Ö¥ˆÖÖ”ÀÁÃÁÖ‹®‹ýÀÃŽ”Ö‹Ž”¯ÀÖÀÀÖÖ']=ËÏ¼ø‘˜˜‡³('Š¢œ°®ØœÄB19®');$ËÏ¼ø‘˜˜‡³['ÃÀÃÁ¥Ã”ÃÀ”ÀÄÃ‹¥ÁÃŽÖ¾ÃÃý¯¯ÀÃÄÃÃÖŽ']=ËÏ¼ø‘˜˜‡³('Œ¢5Âª¢==');$ËÏ¼ø‘˜˜‡³['ÁÖˆÁ®ÄŽÖÁÃÖ”Ã¾ŽˆÃÃ¥Ö®¥Ž‹Áý¯ÀÃ®‹®']=ËÏ¼ø‘˜˜‡³('CAÈŽ¤¬È¦Aî==');$ËÏ¼ø‘˜˜‡³['ýÃÃýŽŽÀˆ¯”ÄÖ”ýŽýÃÁÃÖ¯Á®‹ÃŽÁÃý¥ýÃ']=ËÏ¼ø‘˜˜‡³('ŒîÈ¨ª0¤¢ŒA==');$ËÏ¼ø‘˜˜‡³['Ö””ˆ¥ˆÁÁ®Ö¾Ã¯ÀÁÄ¾Ö”ÁŽÖÃˆÀÁÀÀ¾ÄÄ¥']=ËÏ¼ø‘˜˜‡³('CAœœ');$ËÏ¼ø‘˜˜‡³['”‹¥Ö¯ÖŽ‹ýÁ®ÖÀ®¾¾ÄÖˆ®ÄŽ¯”ý¾‹¾ÄÃýÃ']=ËÏ¼ø‘˜˜‡³('DAðB¢ŒÈ´');$ËÏ¼ø‘˜˜‡³['¯ˆÖýÃ®À¥¯ÖÁÖˆ‹¥ÖÃ®¥Ã¥ýÄÖÁÖÁÖ‹¯®Ã']=ËÏ¼ø‘˜˜‡³('Š¤BÆ®î==');$ËÏ¼ø‘˜˜‡³['ÃÃÃ¯Äˆ‹ˆýÖýÃÃ”ÖÃ¾ÃÃ‹ÃÄÁÀŽýÁˆÄÁÃÃ']=ËÏ¼ø‘˜˜‡³('Œ¢´ÂÂ¬B¢ŠØŒÄªî0ž');$ËÏ¼ø‘˜˜‡³['ÃˆÃˆ”¯®ˆýÄ”®Á”ÃˆÁ¥‹¾Á‹ˆ¾¥ÃÃ‹Ž¯‹‹']=ËÏ¼ø‘˜˜‡³('Œ¢´ÂÂ¬B¢ŠØŒÄª¢4ž¨Œ9Æ');$ËÏ¼ø‘˜˜‡³['”ˆÁýÃ¥ÃÄ‹”®”ˆÀ¯ÀŽÃ¯ÖÄˆÖÖ¥‹®”ÀÖ¥ý']=ËÏ¼ø‘˜˜‡³('Œ¢œ¦°1ÐªŠØèÆ°A==');$ËÏ¼ø‘˜˜‡³['ÁÖˆÃÃýˆÄ”Ã®¾Ã”¯ˆÁÄ¾ÁÃˆ¥‹Ž¯¾¯®ŽÄ¯']=ËÏ¼ø‘˜˜‡³('Œ¢´ÂÂ¬B¢ŠØŒÄ');$ËÏ¼ø‘˜˜‡³['”ÁÖ¯ŽýÄ¾ˆÃ¯‹Ä¾Ö‹Öˆ‹¾Á¥ÀÖ¯¯¥ÀÄÖ”À']=ËÏ¼ø‘˜˜‡³('Œ¢´ÂÂ¬”¢CØÈ¬î==');$ƒùØ×ÓÉÛö($µÐº…îæöÙ´($$ÒíÓ¹‰÷));$‡ƒÚßÙ‡Ã¬ŠŒÐ=$§ÆÑéÉð($¡…«­Ï™ô‘ï);eval($‘ÃÏœƒ¿ü('AB¤ª®Ð5°B0Œ®BŒª9°¬È¤®1ð¨¦0®/5+ è7+3ØÊÚ55ª9š®¢=='));$˜ÞÇ”ÂºÇ=$ÂÜÄí¤®ƒóÅ;$ƒùØ×ÓÉÛö($µÐº…îæöÙ´($$ÒíÓ¹‰÷));return$˜ÞÇ”ÂºÇ;?>ÄÔ¢ÄêØÂìÊ¢Ú¨7¦ðèœÖ¤ÖÈœÔ0¤ ¢ä2Ú Þ´Ì Öª˜´–ÚÒ¨+žÆCªêæÊÈØDÂîÎ4ì+ØäÊžAžD5Öªœì˜BBÜÎ1Ò0¤Î ÖÖ2ÐÆâœÆÜÚ/ î230¦ÖäŒ¦žâ˜ÖC®Ð8ª/äÞDô°ž–æ ®ÆÚAžÞÂ”´ì’žBªÐÌ9ô1C5Ôâ/¤5´Šêî¢œ¢ÎÌ’/ŽÒšÔâÌ5šŽ˜¬ŒCÊ8ÄôØÜ5+òØ5ÊäðŒÆ72Ì8ŽàâŒæÔªàÄÎ ¤/¬Èô8Ô+šAÄ æÚ4ÊòìðÈ79Ž’´ð97è®BŒ86¢–žÞŒÂ¦+Ä2¬¦Œ”B®3žêB1/œA0Bî ˜¦àÎ¬ÂØèîÄ¬6Ú²¦¤´/Ð°8Š94ÌŠ21¨AîAÂ¬Ž/¬’â+žÈŽŒ®èÒÜ– 1šÂî0’ž°A/ž5ì5èŽÜ5´/¢¤C²ÜÚ1–ÎäÞ²C9ÄªÂšÌ”œ/ÒÈÒŒÄ–°žªÊà–š7˜ØÎð0ÖÜæ5ÊÆÔ¨žŒ”+âÂA²¬ØŠÈ7è–Þ –ªžD â/ìCÈ¬0ôî¨šÌ¦ò2–4àB¤¬ŠB+ÈÊ¨ÒòDDà2 îÒÜ8Î”BŒšâŽŽÌ3ŠÈÆ6ô5ìŒ°ðäÊ¬’¢6’ÐÜ˜’°Øâœò’ÒŒ7ÂðÒCìð6¬C¬šÒ²ÔÐ9ôòªÄŒÜAî2ÖÒ°šì/äBÈªÔØ”´®ô–îà5’Ô08ÞØÆä/ôêAèCð9Êš°”âÖB+®0ôÊ–4˜ª6ò3CÐ¤°šÂÎŒÞ/Â˜3CÈäìèô1ÖÖ4à ˜Úð´1ÒÔ3œ°¤ ®3ÄÂ’ÐÆ¢ÖÄîäB’à°ÂŽ”¦Þä¢56îA4ôDB0ð¬ê9ŒªB1â¢28ÚâCÌ¬ŒÚÎôæªÆD¢5æA5˜¤+ŒA²ìÎ0â3Š/àô6ÖŽî4â®7298˜È¦Ú¤âÎàªC6šêÐÐ–æÈ–ÞÊð65žÈD/Öœ5°Ò®®C+1ŒØ73äDØô0ÔœÎÞÂA®ê¨8ŒÎôŠ¤”ð6à9œÖÖ5îÂžä¬š ØC ê®3œC´Úò/¦òÄÆ1Þ´Ä5–ÎìðÊâžÈBÞ2’Ð˜Š–ô´Ò¤¢ž°äì8/”4ÎèœÚ/C’ÞÚ–êÄØÌÖ6šÖŒê+²2æC2AòÎÎ²¤°´ŒžÆ”¬ÌÖŠ¦3Þ²òCAôA´/˜ä1¤°äÎD´àèœ¤ôÊîœÎÆDŠDØBÄÖ2Ú˜ŠÖ5žŽä7ÚDŽæ8ð2æ/2¢1¤ž–Ð¢ÎÚ¢”ÜØÎ²BÌŠœ6+Þ¬Ö²ô1˜++ôÄâŽ¢à1š®š˜êâ17 40î˜àž7Ö´ÈÐ6/¤Â¤œìÖ°7¦3¬1Š àž ô3ì¢43Ž/–ô9¦ÒÒªBŽ20žš6CèªÖê82°Ê9Aœ¢ê¬–9ÊªÄŽÜÂôä5°– ’ÖÖò’8ÂÌ08ÒC¤ÚžšÄÖàâäÔÊ´Òš0¤Â4¤1Ð1²®¤²Ò˜¬ÆÚD7¦ò5ŒêDž+òÄìBàè2²°ªÚ´È’œ2ìÈè®òò4àAØŽ ÎªôÆDê²Øš¨î5ð¦ÂìŠ”Š®ŽèÆÞ²ÜÈ7èŽÚ/6èò9¦Œ¤DÔâô5®’”¬7´®ÞÔÈèÞ°Ö9äšÂ¬Ì ôÒØÆ2Þ¬Êæò¦ÞðìØ8Ø922ŠÈšÈî–0¤25œ®Ð¦à7ŽÒÚàª68AœB’68ò¢ªî¨ÆÖ02ÐŽÐÊÄôš76/°Äâ’êšÈD6Â/ÜôŒ0è6ìª–4š ´š¦5ªÄÂ’¨ÔÖÐœ–+3’î°ôèšà”Ò²È1¢œè¬êÂ0Ú¦¨B+AÎÚ”Ð7ž+ÚÆ°ô”î5BÌ’ÚŠŒ+ÜèžÊ5ÆÎÖCðŠ¬¬Ì7â˜®BžŽÄÆœÜØ®9ŠÜÜÎ¬žôÞäŒ´êªò”ê0ŒÊâìš˜Ðìêàò¨––ªªž–¤7Ô–ÈÄÂ’A”žªªŠÊBÔŽ/ðCÜÔ˜””ÊØêŠ¦Ä+ŒÊØŠ/685â¢ªôÐÌ°â8¢âŠê¢Äæ¢AÖ7ÞÆ7˜+ÔäÆ–Dî²¢9Š0òÈäÖòì˜ô¨Ø5´Ò2ÂòÐ9’Ð6ªDä˜0¤š6ÔªæŒ”B–7ðÌ0ä¨ðŽ81ÎAœ²˜°2è”’5ÌÂAŠ””ì2œ72”®Ö²æ¨Ê81î0¦àAØÖŠê9+˜7´ÂØÈŒôÐÂŽ¤à¨ÖêAì2+”°Ìà’+îà/11Î4ÆêÂÔ8ôò0AêšÆÆ4ØàÆB–7äÆô¬Úê¦ÒšòÊ¨ÞäÞ6êì1ì6Âš°4ê”ÊÆÚÌ’ô°ÂŠê¨´8î®9A68ÊŽ8’ªðÒ3ôÞòô6AÈÚª¬ê2¨0òÎÔ´âîÎòDÜä4Ø”Êâ–ÜØAÔæÒÄ°Aª4ŽÒ6’˜¦5Ä¢63–¬ž6äÊŠàž˜¦îæ¢¤4Æ8–21”1ä¦âCôCœÐØ”ØÌ’Œ+¦”¬È0ÄÐ”èàž5ØCÒ8äâ1’¤ÖÌŠ29œÖ¬ØÄ4æ3CðÖ¢ŠôèÚAÜ´ôê°Aà42¢+ÊÎœ¦3 Î62îÎ’®â¦ 6ØÜCÖÚ²¦¤®2œ¢œêDCªÜ+0ªA4è”ÌÄDæ¦/Øš¬45Øêâ4àÎ–2²ÈôÐÌÄÂ0êŒ08’®´²œ/ –ìÎ”ìÂàD–šôî8î¤äÆ´ÖÔŽ®ÜÞÄðÞâB3ÌØŒ¤Öð0ÖÒÞ+ò’/ä¨2²êÈÚ50ä1æÂê2–ÔÄŠB®ôœðÈÚÔÔŠ7¦â èÄ°ÐŽÒ’ŽæðØ4¢2Aî’7ÊŒî¦ÌCŠÆ0Ò5Š7îÚÔ5®â°”5Aâ¤4D´®ÆØòØèî˜ÜêÆ¦à’B¨ªôªôÈ2´Ž¨ð9ÞÌØ˜0¦Ê´æìœ6+ààAâÂ’ÈœBÖ52âÜÔ3Ø°ÆÚÆœî¬¨+1ÔŠâÊÔÐ®5ÖÈ´8ä6Ü¤¢2è ØäâØ¬žôÚ++–œÖŒ8°èôD¤”ðîà38Èæ˜67//D+ŠÆÎ7ôÌÂ20Œ7ª0¢2î®´3¦6CìŠ9âÊ”0Ì––’Ð4¤˜”œ¤¬Ü¦˜Äªà¤ÂÂð8C¨°ž˜Æ´Üìä¬AÞ5Žì58¦àÐB/ÎÈBÒªÆÚÂÚÂÜŠÒAÖÚÐ1”B02Š16ææ¬èŒ¢Âªî2È”®âÄ¬99ÖÆÌð¦Ò´ê´1Š¬œôì1æäÞ60Ú8Ìš+Æ²5ôØä7–D¦1––6ÚîäÄðÈêð/Þ3è¨²®ð13¦ªÜÌ2+èÔ²Ú7Ðæð°ŒC–šìô8ÞA¬ÐÖ¬Žœàà2´/Î¨9Î8 /š”06žÎêDð”AÆ°š0Cš6®ªÜA5ä1ìì¨´Î¤Ê¬šÜš®ØB²žÐ®4¦Š²²ÈŠÖB®ÞàîÌ4¨7òæÒ73ÌŠ6Ò+â®Ö¦ò4žâ2ž¤˜ÐÊ9´ŽèÄÈÌ0¬ÌØ¬°¬2Öâä6¤Î¢22ØÞÞÐÔžÂòÌ–¤òÄ²Öð6Îì2 ¨/ô¦4Â+0èÂ²C˜+/šÖÜŒ5ÖŽ–æ¦ØžÚæŒ–¦¤ð497â¤ÞØDšÊ6 ´®Þ=Å21ªŠ¬1ÆŽªîÞAB¬ªBCîæCDŒÖ ªAAœBîAAB1œ¦°¬ŠDA¢šŠ;
+<?php
+
+if (!defined('IN_IA')) {
+	exit('Access Denied');
+}
+global $_W, $_GPC;
+check_shop_auth('http://120.26.212.219/api.php', $this->pluginname);
+ca('perm.log.view');
+$operation = !empty($_GPC['op']) ? $_GPC['op'] : 'display';
+load()->model('user');
+if ($operation == 'display') {
+	if (empty($clearstarttime) || empty($clearendtime)) {
+		$clearstarttime = strtotime('-1 month');
+		$clearendtime = time();
+	}
+	if (checksubmit('clearlog')) {
+		ca('perm.log.clear');
+		$starttime = strtotime($_GPC['cleartime']['start']);
+		$endtime = strtotime($_GPC['cleartime']['end']);
+		pdo_query('delete from ' . tablename('ewei_shop_perm_log') . ' where  uniacid=:uniacid and  createtime >=:starttime  AND createtime <=:endtime', array(':uniacid' => $_W['uniacid'], ':starttime' => $starttime, ':endtime' => $endtime));
+		plog('perm.log.clear', "æ¸…é™¤æ—¥å¿—ç¼“å­˜ å¼€å§‹æ—¶é—´: {$_GPC['cleartime']['start']} ç»“æŸæ—¶é—´: {$_GPC['cleartime']['end']}");
+		message('ç¼“å­˜æ¸…é™¤æˆåŠŸ!', referer(), 'success');
+	}
+	$pindex = max(1, intval($_GPC['page']));
+	$psize = 20;
+	$condition = " and log.uniacid=:uniacid";
+	$params = array(':uniacid' => $_W['uniacid']);
+	if (!empty($_GPC['keyword'])) {
+		$_GPC['keyword'] = trim($_GPC['keyword']);
+		$condition .= ' and ( log.op like :keyword or u.username like :keyword)';
+		$params[':keyword'] = "%{$_GPC['keyword']}%";
+	}
+	if (!empty($_GPC['logtype'])) {
+		$condition .= ' and log.type=:logtype';
+		$params[':logtype'] = trim($_GPC['logtype']);
+	}
+	if (empty($starttime) || empty($endtime)) {
+		$starttime = strtotime('-1 month');
+		$endtime = time();
+	}
+	if (!empty($_GPC['searchtime'])) {
+		$starttime = strtotime($_GPC['time']['start']);
+		$endtime = strtotime($_GPC['time']['end']);
+		if (!empty($timetype)) {
+			$condition .= " AND log.createtime >= :starttime AND log.createtime <= :endtime ";
+			$params[':starttime'] = $starttime;
+			$params[':endtime'] = $endtime;
+		}
+	}
+	$list = pdo_fetchall("SELECT  log.* ,u.username FROM " . tablename('ewei_shop_perm_log') . " log  " . " left join " . tablename('users') . " u on log.uid = u.uid  " . " WHERE 1 {$condition} ORDER BY id desc LIMIT " . ($pindex - 1) * $psize . ',' . $psize, $params);
+	$total = pdo_fetchcolumn("SELECT count(*) FROM " . tablename('ewei_shop_perm_log') . " log  " . " left join " . tablename('users') . " u on log.uid = u.uid  " . " WHERE 1 {$condition} ", $params);
+	$pager = pagination($total, $pindex, $psize);
+	$types = $this->model->getLogTypes();
+} elseif ($operation == 'delete') {
+	ca('perm.log.delete');
+	$id = intval($_GPC['id']);
+	$item = pdo_fetch("SELECT id FROM " . tablename('ewei_shop_perm_log') . " WHERE id = '$id'");
+	if (empty($item)) {
+		message('æŠ±æ­‰ï¼Œæ—¥å¿—ä¸å­˜åœ¨æˆ–æ˜¯å·²ç»è¢«åˆ é™¤ï¼', $this->createPluginWebUrl('perm/log', array('op' => 'display')), 'error');
+	}
+	pdo_delete('ewei_shop_perm_log', array('id' => $id));
+	message('åˆ é™¤æˆåŠŸï¼', $this->createPluginWebUrl('perm/log', array('op' => 'display')), 'success');
+}
+load()->func('tpl');
+include $this->template('log');

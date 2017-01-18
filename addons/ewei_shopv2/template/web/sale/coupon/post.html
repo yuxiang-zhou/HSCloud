@@ -3,14 +3,15 @@
 
 	<span class='pull-right'>
 		  {ifp 'sale.coupon.add'}
-					 <a class='btn btn-primary btn-sm' href="{php echo webUrl('sale/coupon/add')}"><i class='fa fa-plus'></i> 添加购物优惠券</a>
-		<a class='btn btn-warning btn-sm' href="{php echo webUrl('sale/coupon/add',array('type'=>1))}"><i class='fa fa-plus'></i> 添加充值优惠券</a>
-				       {/if}
+				 	<a class='btn btn-primary btn-sm' href="{php echo webUrl('sale/coupon/add')}"><i class='fa fa-plus'></i> 添加购物优惠券</a>
+					<a class='btn btn-warning btn-sm' href="{php echo webUrl('sale/coupon/add',array('type'=>1))}"><i class='fa fa-plus'></i> 添加充值优惠券</a>
+					<a class='btn btn-info btn-sm' href="{php echo webUrl('sale/coupon/add',array('type'=>2))}"><i class='fa fa-plus'></i> 添加收银台优惠券</a>
+	   		{/if}
 		<a class="btn btn-default  btn-sm" href="{php echo webUrl('sale/coupon')}">返回列表</a>
 
 
 	</span>
-	<h2>{if !empty($item['id'])}编辑{else}添加{/if}{if $type==0}购物{else}充值{/if}优惠券 <small>{if !empty($item['id'])}修改【{$item['couponname']}】{/if}</small></h2>
+	<h2>{if !empty($item['id'])}编辑{else}添加{/if}{if $type==0}购物{elseif $type==1}充值{elseif $type==2}收银台{/if}优惠券 <small>{if !empty($item['id'])}修改【{$item['couponname']}】{/if}</small></h2>
 </div>
 
 <form {ife 'sale.coupon' $item}action="" method='post'{/if} class='form-horizontal form-validate'>

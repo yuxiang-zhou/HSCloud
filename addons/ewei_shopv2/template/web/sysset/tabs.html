@@ -21,10 +21,10 @@
 
 
 {ifp 'sysset.notice|sysset.tmessage|sysset.sms.temp'}
-<div class='menu-header'>模板消息</div>
+<div class='menu-header'>消息推送</div>
 <ul>
     {ifp 'sysset.notice'}<li  {if $_W['routes']=='sysset.notice'}class="active"{/if}><a href="{php echo webUrl('sysset/notice')}">消息提醒</a></li>{/if}
-    {ifp 'sysset.tmessage'}<li {if $_W['routes']=='sysset.tmessage'}class="active"{/if}><a href="{php echo webUrl('sysset/tmessage')}">模板消息库</a></li>{/if}
+    {ifp 'sysset.tmessage'}<li {if $_W['routes']=='sysset.tmessage'}class="active"{/if}><a href="{php echo webUrl('sysset/tmessage')}">自定义消息库</a></li>{/if}
     {if com('sms')}
     {ifp 'sysset.sms.temp'}
     <li {if $_W['routes']=='sysset.sms.temp'}class="active"{/if}><a href="{php echo webUrl('sysset/sms/temp')}">短信消息库</a></li>

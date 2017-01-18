@@ -6,7 +6,7 @@
             <ul>
                 {loop $diyitem['data'] $noticeitem}
                     {if $diyitem['params']['noticedata']==0}
-                        <li><a href="{if !empty($noticeitem['linkurl'])}{$noticeitem['linkurl']}{else}{php echo mobileUrl('shop/notice/detail', array('id'=>$noticeitem['id']))}{/if}" style="color: {$diyitem['style']['color']};" data-nocache="true">{$noticeitem['title']}</a></li>
+                        <li><a href="{if !empty($noticeitem['linkurl'])}{$noticeitem['linkurl']}{else}{php echo mobileUrl('shop/notice/detail', array('id'=>$noticeitem['id'], 'merchid'=>$page['merch']))}{/if}" style="color: {$diyitem['style']['color']};" data-nocache="true">{$noticeitem['title']}</a></li>
                     {elseif $diyitem['params']['noticedata']==1}
                         <li><a href="{$noticeitem['linkurl']}" style="color: {$diyitem['style']['color']};" data-nocache="true">{$noticeitem['title']}</a></li>
                     {/if}

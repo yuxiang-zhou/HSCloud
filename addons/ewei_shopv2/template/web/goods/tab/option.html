@@ -340,11 +340,12 @@
 	}
 
 	html += '<th><div class=""><div style="padding-bottom:10px;text-align:center;">库存</div><div class="input-group"><input type="text" class="form-control  input-sm option_stock_all"VALUE=""/><span class="input-group-addon"><a href="javascript:;" class="fa fa-angle-double-down" title="批量设置" onclick="setCol(\'option_stock\');"></a></span></div></div></th>';
+	html += '<th><div class=""><div style="padding-bottom:10px;text-align:center;">预售价</div><div class="input-group"><input type="text" class="form-control  input-sm option_presell_all"VALUE=""/><span class="input-group-addon"><a href="javascript:;" class="fa fa-angle-double-down" title="批量设置" onclick="setCol(\'option_presell\');"></a></span></div></div></th>';
 	html += '<th><div class=""><div style="padding-bottom:10px;text-align:center;">现价</div><div class="input-group"><input type="text" class="form-control  input-sm option_marketprice_all"VALUE=""/><span class="input-group-addon"><a href="javascript:;" class="fa fa-angle-double-down" title="批量设置" onclick="setCol(\'option_marketprice\');"></a></span></div></div></th>';
 	html+='<th><div class=""><div style="padding-bottom:10px;text-align:center;">原价</div><div class="input-group"><input type="text" class="form-control  input-sm option_productprice_all"VALUE=""/><span class="input-group-addon"><a href="javascript:;" class="fa fa-angle-double-down" title="批量设置" onclick="setCol(\'option_productprice\');"></a></span></div></div></th>';
 	html+='<th><div class=""><div style="padding-bottom:10px;text-align:center;">成本价</div><div class="input-group"><input type="text" class="form-control  input-sm option_costprice_all"VALUE=""/><span class="input-group-addon"><a href="javascript:;" class="fa fa-angle-double-down" title="批量设置" onclick="setCol(\'option_costprice\');"></a></span></div></div></th>';
-                   html+='<th><div class=""><div style="padding-bottom:10px;text-align:center;">编码</div><div class="input-group"><input type="text" class="form-control  input-sm option_goodssn_all"VALUE=""/><span class="input-group-addon"><a href="javascript:;" class="fa fa-angle-double-down" title="批量设置" onclick="setCol(\'option_goodssn\');"></a></span></div></div></th>';
-                   html+='<th><div class=""><div style="padding-bottom:10px;text-align:center;">条码</div><div class="input-group"><input type="text" class="form-control  input-sm option_productsn_all"VALUE=""/><span class="input-group-addon"><a href="javascript:;" class="fa fa-angle-double-down" title="批量设置" onclick="setCol(\'option_productsn\');"></a></span></div></div></th>';
+	html+='<th><div class=""><div style="padding-bottom:10px;text-align:center;">编码</div><div class="input-group"><input type="text" class="form-control  input-sm option_goodssn_all"VALUE=""/><span class="input-group-addon"><a href="javascript:;" class="fa fa-angle-double-down" title="批量设置" onclick="setCol(\'option_goodssn\');"></a></span></div></div></th>';
+	html+='<th><div class=""><div style="padding-bottom:10px;text-align:center;">条码</div><div class="input-group"><input type="text" class="form-control  input-sm option_productsn_all"VALUE=""/><span class="input-group-addon"><a href="javascript:;" class="fa fa-angle-double-down" title="批量设置" onclick="setCol(\'option_productsn\');"></a></span></div></div></th>';
 	html+='<th><div class=""><div style="padding-bottom:10px;text-align:center;">重量（克）</div><div class="input-group"><input type="text" class="form-control  input-sm option_weight_all"VALUE=""/><span class="input-group-addon"><a href="javascript:;" class="fa fa-angle-double-down" title="批量设置" onclick="setCol(\'option_weight\');"></a></span></div></div></th>';
 	html+='</tr></thead>';
 	
@@ -381,12 +382,13 @@
 		ids =ids.join('_');
 		titles= titles.join('+');
 	
-		var val ={ id : "",title:titles, stock : "",costprice : "",productprice : "",marketprice : "",weight:"",productsn:"",goodssn:"",virtual:virtuals };
+		var val ={ id : "",title:titles, stock : "",presell : "",costprice : "",productprice : "",marketprice : "",weight:"",productsn:"",goodssn:"",virtual:virtuals };
 		if( $(".option_id_" + ids).length>0){
 			val ={
 				id : $(".option_id_" + ids+":eq(0)").val(),
 				title: titles,
 				stock : $(".option_stock_" + ids+":eq(0)").val(),
+				presell : $(".option_presell_" + ids+":eq(0)").val(),
 				costprice : $(".option_costprice_" + ids+":eq(0)").val(),
 				productprice : $(".option_productprice_" + ids+":eq(0)").val(),
 				marketprice : $(".option_marketprice_" + ids +":eq(0)").val(),
@@ -404,6 +406,7 @@
 		hh += '<input data-name="option_title_' + ids +'" type="hidden" class="form-control option_title option_title_' + ids +'" value="' +(val.title=='undefined'?'':val.title )+'"/></td>';
         hh += '<input data-name="option_virtual_' + ids +'" type="hidden" class="form-control option_virtual option_virtual_' + ids +'" value="' +(val.virtual=='undefined'?'':val.virtual )+'"/></td>';
 		hh += '</td>';
+		hh += '<td><input data-name="option_presell_' + ids+'" type="text" class="form-control option_presell option_presell_' + ids +'" value="' +(val.presell=='undefined'?'':val.presell )+'"/></td>';
 		hh += '<td><input data-name="option_marketprice_' + ids+'" type="text" class="form-control option_marketprice option_marketprice_' + ids +'" value="' +(val.marketprice=='undefined'?'':val.marketprice )+'"/></td>';
 		hh += '<td><input data-name="option_productprice_' + ids+'" type="text" class="form-control option_productprice option_productprice_' + ids +'" " value="' +(val.productprice=='undefined'?'':val.productprice )+'"/></td>';
 		hh += '<td><input data-name="option_costprice_' +ids+'" type="text" class="form-control option_costprice option_costprice_' + ids +'" " value="' +(val.costprice=='undefined'?'':val.costprice )+'"/></td>';
@@ -548,6 +551,7 @@
 				{/if}
 				{/loop}
 				costprice: "",
+				presell: "",
 				productprice: "",
 				marketprice: "",
 				weight: "",
@@ -569,8 +573,10 @@
 				{/if}
 					{/loop}
 					costprice: $(".discount_costprice_" + ids + ":eq(0)").val(),
+					presell: $(".discount_presell_" + ids + ":eq(0)").val(),
 					productprice: $(".discount_productprice_" + ids + ":eq(0)").val(),
 					marketprice: $(".discount_marketprice_" + ids + ":eq(0)").val(),
+					presell: $(".discount_presell_" + ids + ":eq(0)").val(),
 					goodssn: $(".discount_goodssn_" + ids + ":eq(0)").val(),
 					productsn: $(".discount_productsn_" + ids + ":eq(0)").val(),
 					weight: $(".discount_weight_" + ids + ":eq(0)").val(),
@@ -722,6 +728,7 @@
 			{/if}
 			{/loop}
 			costprice: "",
+					presell: "",
 					productprice: "",
 					marketprice: "",
 					weight: "",
@@ -745,6 +752,7 @@
 				costprice: $(".isdiscount_discounts_costprice_" + ids + ":eq(0)").val(),
 						productprice: $(".isdiscount_discounts_productprice_" + ids + ":eq(0)").val(),
 						marketprice: $(".isdiscount_discounts_marketprice_" + ids + ":eq(0)").val(),
+						presell: $(".isdiscount_discounts_presell_" + ids + ":eq(0)").val(),
 						goodssn: $(".isdiscount_discounts_goodssn_" + ids + ":eq(0)").val(),
 						productsn: $(".isdiscount_discounts_productsn_" + ids + ":eq(0)").val(),
 						weight: $(".isdiscount_discounts_weight_" + ids + ":eq(0)").val(),
@@ -893,6 +901,7 @@
 			{/if}
 			{/loop}
 			costprice: "",
+					presell: "",
 					productprice: "",
 					marketprice: "",
 					weight: "",
@@ -920,6 +929,7 @@
 					id: $(".commission_id_" + ids + ":eq(0)").val(),
 					title: titles,
 					costprice: $(".commission_costprice_" + ids + ":eq(0)").val(),
+					presell: $(".commission_presell_" + ids + ":eq(0)").val(),
 						productprice: $(".commission_productprice_" + ids + ":eq(0)").val(),
 						marketprice: $(".commission_marketprice_" + ids + ":eq(0)").val(),
 						goodssn: $(".commission_goodssn_" + ids + ":eq(0)").val(),

@@ -9,10 +9,19 @@
                     src="{if empty($user['logo'])}{EWEI_SHOPV2_LOCAL}static/images/nopic100.jpg{else}{php echo tomedia($user['logo'])}{/if}" style="width:65px;height:65px;border-radius:5px">
 
                 </div>
-                <div class="col-sm-10"  style="padding-left:10px">
+                <div class="col-sm-7"  style="padding-left:10px">
                      <h3>{$user['merchname']}</h3>
                      <p>{$user['desc']}</p>
-                     <p class='form-control-static'>店铺链接: <a href='javascript:;' class="js-clip" title='点击复制链接' data-url="{php echo $url}" >{php echo $url}</a></p>
+                     <p class='form-control-static'>
+                         店铺链接: <a href='javascript:;' class="js-clip" title='点击复制链接' data-url="{php echo $url}" >{php echo $url}</a>
+                        <span style="cursor: pointer;" data-toggle="popover" data-trigger="hover" data-html="true"
+                              data-content="<img src='{$qrcode}' width='130' alt='链接二维码'>" data-placement="auto right">
+                            <i class="glyphicon glyphicon-qrcode"></i>
+                        </span>
+                     </p>
+                </div>
+
+                <div class="col-sm-3"  style="padding-left:10px" id="qrcode">
                 </div>
 
                 <div class="col-sm-1" style="padding-left: 0"><a class="btn btn-primary btn-sm" href="{php echo merchUrl('sysset')}" style="color: #fff"> 点击修改</a></div>
@@ -20,6 +29,7 @@
 
             </div>
         </div>
+
 
     </div>
     <div class="row">
@@ -113,6 +123,14 @@
     </div>
 
 <script type="text/javascript">
+    require(['jquery.qrcode'],function(q){
+        $("#qrcode").qrcode({
+            width: 150, //宽度
+            height:150, //高度
+            text: "{php echo $url}"
+        });
+    });
+
     $(document).ready(function(){
         $.ajax({
             type: "GET",

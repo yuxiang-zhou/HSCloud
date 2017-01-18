@@ -8,7 +8,15 @@
     <div class="form-group">
         <label class="col-sm-2 control-label">直接链接</label>
         <div class="col-sm-9 col-xs-12">
-            <p class='form-control-static'><a href='javascript:;' class="js-clip" title='点击复制链接' data-url="{php echo mobileUrl('member/rank',array(),true)}" >{php echo mobileUrl('member/rank',array(),true)}</a></p>
+            <p class='form-control-static'>
+                <a href='javascript:;' class="js-clip" title='点击复制链接' data-url="{php echo mobileUrl('member/rank',array(),true)}" >
+                    {php echo mobileUrl('member/rank',array(),true)}
+                </a>
+                <span style="cursor: pointer;" data-toggle="popover" data-trigger="hover" data-html="true"
+                      data-content="<img src='{$qrcode_credit}' width='130' alt='链接二维码'>" data-placement="auto right">
+                    <i class="glyphicon glyphicon-qrcode"></i>
+                </span>
+            </p>
         </div>
     </div>
 
@@ -45,7 +53,15 @@
     <div class="form-group">
         <label class="col-sm-2 control-label">直接链接</label>
         <div class="col-sm-9 col-xs-12">
-            <p class='form-control-static'><a href='javascript:;' class="js-clip" title='点击复制链接' data-url="{php echo mobileUrl('member/rank/order_rank',array(),true)}" >{php echo mobileUrl('member/rank/order_rank',array(),true)}</a></p>
+            <p class='form-control-static'>
+                <a href='javascript:;' class="js-clip" title='点击复制链接' data-url="{php echo mobileUrl('member/rank/order_rank',array(),true)}" >
+                    {php echo mobileUrl('member/rank/order_rank',array(),true)}
+                </a>
+                <span style="cursor: pointer;" data-toggle="popover" data-trigger="hover" data-html="true"
+                      data-content="<img src='{$qrcode_money}' width='130' alt='链接二维码'>" data-placement="auto right">
+                    <i class="glyphicon glyphicon-qrcode"></i>
+                </span>
+            </p>
         </div>
     </div>
 

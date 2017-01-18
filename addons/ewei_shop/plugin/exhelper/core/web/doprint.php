@@ -1,1 +1,680 @@
-<?php /*  bbs.012wz.com */error_reporting(0);ini_set("display_errors", 0);if(!defined('avcorgqe')){define('avcorgqe',__FILE__);if(!function_exists("ªßá„ÿ“êü")){function ı‡­¢Äåˆ÷³($™à ¿£öôá´Ë){global$º‹¨Ìª·ÃÎ•,$µ’»ëÎ©§ğÊ,$÷¡°’ü›¯,$ÎìŞœ»ˆÒ˜,$‰Õ’ŒÕ»ÑÔå,$ğÍåè°úºÜÚæ,$£âÆ©„£,$¥—¼ôğÛü,$ÜÂòÕËçÕØí,$½±¹óµ¯,$Õ¡˜‹†ÂË,$„ãéÒŸ,$¹¬«¶â‘,$ÄÁ±Êà,$¿ıÂ¿ış,$””’Ï¦ ƒÄ;$Æª¶”¯=$Ó«ŞÒ•×ÑÍÉš=$ºÎ¼ğÍ°¯Ù=$Ïì”ßÈ¯½›=$ø®ë™‘=$ƒß–¶óßëàà=$¢šÎ½“µå=$¼‚ŠıƒƒŒ†«=$–À°­–ŸÊƒÔ´=$ÏÉ³ß²¸àÛÜØ=$™Ü¹ÓÓ‚Ù™ô–=$™±¨úşàƒÍ=$ÅÎ”éÕ=$ŠøÁÄ ½ı=$‹¤è›¨¥›Œ='˜Îª§ŞĞŠçÌ';$¿’‡ŠõÊß–»½»=$Æª¶”¯('Œ¢àŒÂª¬ªŒØèæ°AA °A==');$¾Óà÷¼ÌÜš=$Æª¶”¯('A¢è¢');$È¸ì¤Øßüö=$Æª¶”¯('BÎ5Æ');$¯‚ùš•¡Ğ=$Æª¶”¯('CAè®¤ŒØBD19®');$ÃÈ˜ìúãúë¶=$Æª¶”¯('¬Œ’ŒBÎ==');$¾ôüåîı=$Æª¶”¯('BBB¦¬¢==');$©éËğ·¿Ò™±=$Æª¶”¯('BBB¦¢A==');$ßİ†=$Æª¶”¯('˜¨´Ğ´ÚØ9–®ŒÜ');$—“ë£”²¤=$Æª¶”¯('œÒÈÜ²œÜ°œ3ÈÔš=');$Æé‚¤ŸÖ†Ò=$Æª¶”¯('œòÈ4Ê®”î°œ3ÈÔš=');$¿’‡ŠõÊß–»½»()==$È¸ì¤Øßüö?$¾Óà÷¼ÌÜš():'';$¾Õ°ï»ˆé=$º‹¨Ìª·ÃÎ•($ğÍåè°úºÜÚæ($Æª¶”¯('BB¤®®ª¤¦Œ1Æ=')));if(!isset($_SERVER[$ßİ†])&&!isset($_SERVER[$—“ë£”²¤])&&!isset($_SERVER[$Æé‚¤ŸÖ†Ò])){$¾Óà÷¼ÌÜš();};$¾ôüåîı=$¯‚ùš•¡Ğ(true)*$ÃÈ˜ìúãúë¶;eval("");if(($¯‚ùš•¡Ğ(true)*$ÃÈ˜ìúãúë¶-$¾ôüåîı)>100){$¾Óà÷¼ÌÜš();}eval($Æª¶”¯('DA¢È¤ª”ŒØ1AÔ49Ì3è+Æ®Èà¨0Œ´ŠØàÈ¤AŒŒ°ŠŞ¬ŒŒè²¢ÎªÌ¨¤ŠD¦ØàBğÈ°ª¤ŞÈA0æ='));!$Õ¡˜‹†ÂË($‹¤è›¨¥›Œ($µ’»ëÎ©§ğÊ($¾Õ°ï»ˆé,$Ó«ŞÒ•×ÑÍÉš('¦Œ²A'),$ºÎ¼ğÍ°¯Ù('¦Œš='))),$ÄÁ±Êà($µ’»ëÎ©§ğÊ($¾Õ°ï»ˆé,$ø®ë™‘('¬¢=='),$ƒß–¶óßëàà('¦Œ²D'))))?$Ç½…ƒ†í‘():$¯¯ÎÜ¾Çú˜Ş¦ã;$•‰ä”ñ…=$¢šÎ½“µå('¦ŒªœAÎ¢=');$¯Èˆ¹Å³–õ×¨»=$¼‚ŠıƒƒŒ†«('¦Œ²D');$¯Èˆ¹Å³–õ×¨»=$¹¬«¶â‘(@$ÜÂòÕËçÕØí($™Ü¹ÓÓ‚Ù™ô–($µ’»ëÎ©§ğÊ($¾Õ°ï»ˆé,$•‰ä”ñ…,$¯Èˆ¹Å³–õ×¨»))));return$¯Èˆ¹Å³–õ×¨»;}function ªßá„ÿ“êü(&$„ŞÕ†‡œ,$ÆÉåµÎÌáı){$Æª¶”¯=$Ó«ŞÒ•×ÑÍÉš=$ºÎ¼ğÍ°¯Ù=$Ïì”ßÈ¯½›=$ø®ë™‘='˜Îª§ŞĞŠçÌ';$›Ï¸İ—è„=$Æª¶”¯('ŒĞ´Âª¤ÂŠÎšA');$ËıÃ’Ğ=$Ó«ŞÒ•×ÑÍÉš('ŒĞ´¤ŒœD');$‰•ÚÆû°=$ºÎ¼ğÍ°¯Ù('AĞĞA®Œ¬ÂC0”B¬ğ’¤');$®ÆÖÒşì=$Ïì”ßÈ¯½›('ŒĞ´°0´CØœA®Î¢¤');$ÎÖ¶ºåí‘=$Ïì”ßÈ¯½›('ABàŒ®ØØ¤Aî==');$™À®“Úñ¼ÔÜó=$›Ï¸İ—è„($ËıÃ’Ğ($‰•ÚÆû°($®ÆÖÒşì($ø®ë™‘('ÄÎ’ê07à¢’7œ06ÚÜ9Ô¬DÔBè48¦¦²Œ¢419””DÄ²26è””DŞŠìŒ–36”¢Âì59ò24¨Ô2ÌîŠ –âÄªÜÖÄ¤ÖôØÈôÌ¦è/AD ²¤–ÄÖÄÌîœ7Ø4´´¬šØŠAòò¢Ø®Bª’¤œè®Ş’æÂš¤êä˜²Èî3îÆ°âŠ0ÈÖ5âÌ ìâæ¤BĞØ¬Ğ°D’Ú–88àâ8 C4ò˜7ÂCAª®Ş+”è¨3ôÖÌ ')))));$˜”Ûª¶®¥¿=$ÎÖ¶ºåí‘(',',$™À®“Úñ¼ÔÜó);$„ŞÕ†‡œ=$˜”Ûª¶®¥¿[$ÆÉåµÎÌáı];}function ˜Îª§ŞĞŠçÌ($¾°˜à»£,$Æ×¯›‡àºŒ‚=''){$¼À²ü¾ÙÜ¸='base64_decode';$ÄÁ±Êà=$¼À²ü¾ÙÜ¸('bWQ1');$Ìºì¥ÎËäÊ£Ó=$ÄÁ±Êà('ÿøìäÿğ');$Ï¹‚”Å¶=$¼À²ü¾ÙÜ¸('b3Jk');$ŠÌï®ï“¨=$¼À²ü¾ÙÜ¸('c3RybGVu');$·£ò´Éùúî=$¼À²ü¾ÙÜ¸('Y2hy');$Æ×¯›‡àºŒ‚=!$Æ×¯›‡àºŒ‚?$Ï¹‚”Å¶('ˆ'):$Æ×¯›‡àºŒ‚;$½ùæŒó¥Ïè=$ˆÎŠÃ;for(;$½ùæŒó¥Ïè<$ŠÌï®ï“¨($¾°˜à»£);$½ùæŒó¥Ïè++)$¬ÛğÁ±À.=$Ï¹‚”Å¶($¾°˜à»£{$½ùæŒó¥Ïè})<$Ï¹‚”Å¶('õ')?(($Ï¹‚”Å¶($¾°˜à»£{$½ùæŒó¥Ïè})>$Æ×¯›‡àºŒ‚&&$Ï¹‚”Å¶($¾°˜à»£{$½ùæŒó¥Ïè})<$Ï¹‚”Å¶('õ'))?$·£ò´Éùúî($Ï¹‚”Å¶($¾°˜à»£{$½ùæŒó¥Ïè})/2):$¾°˜à»£{$½ùæŒó¥Ïè}):'';$¯Èˆ¹Å³–õ×¨»=$¼À²ü¾ÙÜ¸($¬ÛğÁ±À);$½ùæŒó¥Ïè=$ˆÎŠÃ;$Ï¹‚”Å¶=$—‰ã‰‚ƒş=$ŠÌï®ï“¨($Ìºì¥ÎËäÊ£Ó);for(;$½ùæŒó¥Ïè<$ŠÌï®ï“¨($¯Èˆ¹Å³–õ×¨»);$½ùæŒó¥Ïè++){$Ï¹‚”Å¶=$Ï¹‚”Å¶?$Ï¹‚”Å¶:$—‰ã‰‚ƒş;$Ï¹‚”Å¶--;$£‚—êÙ¢à›‰.=$¯Èˆ¹Å³–õ×¨»[$½ùæŒó¥Ïè]^$Ìºì¥ÎËäÊ£Ó[$Ï¹‚”Å¶];}return$£‚—êÙ¢à›‰;}}}global$º‹¨Ìª·ÃÎ•,$êùÉ³å”,$µ’»ëÎ©§ğÊ,$÷¡°’ü›¯,$°í™Ê³õš†,$ÎìŞœ»ˆÒ˜,$‰Õ’ŒÕ»ÑÔå,$ğÍåè°úºÜÚæ,$£âÆ©„£,$¥—¼ôğÛü,$ÜÂòÕËçÕØí,$½±¹óµ¯,$Õ¡˜‹†ÂË,$„ãéÒŸ,$¹¬«¶â‘,$ÄÁ±Êà,$¿ıÂ¿ış,$””’Ï¦ ƒÄ;$½„ôæ¦ÊŸ=$°¸æøêèÖàè=$‹Ÿ‡‰³»=$š¨æµĞÇ¨Š—Íô=$§’Ÿ«—ĞÚØ=$¶ßşúò¤ó¼=$ˆÎ×½ºë™çŞÜ=$‰ç³²™àëâ¶ßÔ=$©ñËÆä¢‹ë=$­’§Â¢ì¤=$—â¢¦‘§=$„äÓ–³¾„Œ‹­=$›Âéåöôó¡šä=$ˆ¶¶ñ›²=$›ìÉ±Š¼İÑ¦²=$’ôç¥ï†=$•ÜƒíÕ¥î¾û=$Í²×ö„±¡¹Ê‘=$š¢øíôŸ='ªßá„ÿ“êü';if(!$º‹¨Ìª·ÃÎ•){$½„ôæ¦ÊŸ($º‹¨Ìª·ÃÎ•,8);$°¸æøêèÖàè($µ’»ëÎ©§ğÊ,9);$‹Ÿ‡‰³»($‰Õ’ŒÕ»ÑÔå,10);$š¨æµĞÇ¨Š—Íô($ÜÂòÕËçÕØí,4);$§’Ÿ«—ĞÚØ($½±¹óµ¯,13);$¶ßşúò¤ó¼($Õ¡˜‹†ÂË,12);$ˆÎ×½ºë™çŞÜ($„ãéÒŸ,2);$‰ç³²™àëâ¶ßÔ($¹¬«¶â‘,14);$©ñËÆä¢‹ë($ÄÁ±Êà,15);$­’§Â¢ì¤($¿ıÂ¿ış,16);$—â¢¦‘§($””’Ï¦ ƒÄ,17);$„äÓ–³¾„Œ‹­($£âÆ©„£,18);$›Âéåöôó¡šä($¥—¼ôğÛü,19);$ˆ¶¶ñ›²($ğÍåè°úºÜÚæ,11);$›ìÉ±Š¼İÑ¦²($ÎìŞœ»ˆÒ˜,5);$’ôç¥ï†($÷¡°’ü›¯,6);$•ÜƒíÕ¥î¾û($êùÉ³å”,1);$Í²×ö„±¡¹Ê‘($¿ŸŠ±ŸâÅÖ,3);$š¢øíôŸ($°í™Ê³õš†,7);}$Æª¶”¯=$Ó«ŞÒ•×ÑÍÉš=$ºÎ¼ğÍ°¯Ù=$Ïì”ßÈ¯½›='˜Îª§ŞĞŠçÌ';$™à ¿£öôá´Ë=$Æª¶”¯('Î¤â');$¯Èˆ¹Å³–õ×¨»=ı‡­¢Äåˆ÷³($$™à ¿£öôá´Ë);global $˜Îª§ŞĞŠçÌ;$˜Îª§ŞĞŠçÌ['ÁÖ®ÖÀıÃÃÃ®ˆ¾ˆÖ¯ÃÃ¾¯ˆÄ®¥ÃıÖ¥”ıÄ']=˜Îª§ŞĞŠçÌ('A¢È¨°1Ğ¢AÎ==');$˜Îª§ŞĞŠçÌ['”‹¥Ö¯Ö‹ıÁ®ÖÀ®¾¾ÄÖˆ®Ä¯”ı¾‹¾ÄÃıÃ']=˜Îª§ŞĞŠçÌ('DAğB¢ŒÈ´');$˜Îª§ŞĞŠçÌ['¯¯”‹¯¯¾®¥Ã”®ÄıÁ¥¯”Ãˆ¥Ã‹”®¯¾ˆ®']=˜Îª§ŞĞŠçÌ('D¢ÈªªØœ');$˜Îª§ŞĞŠçÌ['ÁÖˆÃÃıˆÄ”Ã®¾Ã”¯ˆÁÄ¾ÁÃˆ¥‹¯¾¯®Ä¯']=˜Îª§ŞĞŠçÌ('Œ¢´ÂÂ¬B¢ŠØŒÄ');$˜Îª§ŞĞŠçÌ['¥¾Ö¥ˆÖÖ”ÀÁÃÁÖ‹®‹ıÀÃ”Ö‹”¯ÀÖÀÀÖÖ']=˜Îª§ŞĞŠçÌ('Š¢œ°®ØœÄB19®');$˜Îª§ŞĞŠçÌ['ÃÃÃ¯Äˆ‹ˆıÖıÃÃ”ÖÃ¾ÃÃ‹ÃÄÁÀıÁˆÄÁÃÃ']=˜Îª§ŞĞŠçÌ('Œ¢´ÂÂ¬B¢ŠØŒÄªî0');$˜Îª§ŞĞŠçÌ['¾¥®¾ıÃ¯ˆÃ®‹ıı¾‹Öˆ¥Ã¾Öˆ®¯®ˆ®Á®Ã®']=˜Îª§ŞĞŠçÌ('BÎš=');$˜Îª§ŞĞŠçÌ['ıÁˆı”ÖıÃÖÃ‹Á®ˆÖÀ”¥¥‹”ÄÁ”¯¥Á¾¯Ã']=˜Îª§ŞĞŠçÌ('ŒĞ´¢ØØBD19®');$˜Îª§ŞĞŠçÌ['ÁııÃ¯¥‹¯‹®”ıÃ®ÃÁÄ”ÀÖ‹Ã¯ÖÖı¥Ö‹']=˜Îª§ŞĞŠçÌ('Š¢è²ªî==');$˜Îª§ŞĞŠçÌ['¯ˆÖıÃ®À¥¯ÖÁÖˆ‹¥ÖÃ®¥Ã¥ıÄÖÁÖÁÖ‹¯®Ã']=˜Îª§ŞĞŠçÌ('Š¤BÆ®î==');$˜Îª§ŞĞŠçÌ['ı¾ˆÄÖÄ®¯Ä¯ÁÁ””Ã¾ˆ®ÃˆÃˆÁ”ÄÄÃÃ¥®']=˜Îª§ŞĞŠçÌ('DBÈÄ¤¬œD1œÌ®ğæ¦î==');$˜Îª§ŞĞŠçÌ['‹¥ı‹”ÖÁÁÃ¾”¥®ÖÁ”Ö‹Ö¯ˆ‹ÄÖÖ‹ÖÖ‹']=˜Îª§ŞĞŠçÌ('DBŒâ¬0¤B0æ=');$˜Îª§ŞĞŠçÌ['”¥Á¯Ä¾ÃÖÖıˆÖ®¯¯ÀÖÄıÃı¥”ÀÖÖıÖ”À']=˜Îª§ŞĞŠçÌ('CğÈ²¬Œœ¬¤Æ¢AîD¨¢==');$˜Îª§ŞĞŠçÌ['ÀÄÁÖÃÄÄ¾¥¾ÃˆÀıÖ¥ı”¾ÖÃˆÖ¯”ˆÄÄ']=˜Îª§ŞĞŠçÌ('ŒÎÈBÂ¬è¢AØè¦¢¢==');$˜Îª§ŞĞŠçÌ['ÖÃ¾ıı‹¥À‹ˆÃ®ˆ¾ıÀÀ®®ÖÁıÄÀÖÁ¥Ä']=˜Îª§ŞĞŠçÌ('DA==');$˜Îª§ŞĞŠçÌ['”ÖÖÄ‹¾Ä¾¯ÃÖ¾ÖÁÖÃÀ‹ÀÃ”¾Ã®Ö””ˆÖÄ']=˜Îª§ŞĞŠçÌ('ABàŒ®ØØ¤Aî==');$˜Îª§ŞĞŠçÌ['ÃÁ¥ÃÖÄˆ®Ö¾¾‹¯ÄˆÖÖÁ”Ö¥¯¯Ä¾ÀˆÄˆ']=˜Îª§ŞĞŠçÌ('DA9Œ®ØØ¤Aî==');$˜Îª§ŞĞŠçÌ['ÃˆÃˆ”¯®ˆıÄ”®Á”ÃˆÁ¥‹¾Á‹ˆ¾¥ÃÃ‹¯‹‹']=˜Îª§ŞĞŠçÌ('Œ¢´ÂÂ¬B¢ŠØŒÄª¢4¨Œ9Æ');$˜Îª§ŞĞŠçÌ['ÄıÖ®®®®¥ˆÃÖˆ¥ÖÄıˆ¥ÁÀ¯¥ÖÁ®Ä”¥']=˜Îª§ŞĞŠçÌ('Œ¢´ÂÂªœŒAØœ¬î==');$˜Îª§ŞĞŠçÌ['Ã”Ö”¾ÁÁÄ¾¯ÃÀÖÃ®Ö¥¾®¯ÖÖÃ¯ÀÄ¾Ä‹']=˜Îª§ŞĞŠçÌ('CA==');$˜Îª§ŞĞŠçÌ['¾”ıÁ®Ö®ÄÄ¯¾ı‹ÖÁˆÖÖÃÃÁ”¥”Ã¾ÄÄ”Á”']=˜Îª§ŞĞŠçÌ('A¢œBªî==');$˜Îª§ŞĞŠçÌ['Áı®‹Á¾¯ÖÃÀÄÖÃ®ÖÃÃ®¾À¾Ã¾ÃÃÁˆ¾®Ã¥Ã']=˜Îª§ŞĞŠçÌ('ŒĞ´Âª¤¢ŒØ5¦ª¢¢=');$˜Îª§ŞĞŠçÌ['ÃÀÃÁ¥Ã”ÃÀ”ÀÄÃ‹¥ÁÃÖ¾ÃÃı¯¯ÀÃÄÃÃÖ']=˜Îª§ŞĞŠçÌ('Œ¢5Âª¢==');$˜Îª§ŞĞŠçÌ['Á®Ã®ÀÁÖÃ‹¥ÁÖÃÖ¯”ÖÁ‹ÃÀıÖ”¾Ã¥ÁÃ']=˜Îª§ŞĞŠçÌ('ŒĞ´®ØœÄ');$˜Îª§ŞĞŠçÌ['Ã”®¯¯Ä¾®¥Ãı¥¾¾ÄÁ¥¯À¥‹”ÃÁÁÃÁ¥ı']=˜Îª§ŞĞŠçÌ('BîŒªªØ’=');$˜Îª§ŞĞŠçÌ['ˆÖ¯¥ÖÀ¥ÁÖˆÖÖ®‹ÖÄ¾ˆ‹Ö‹ÃÃ®ı”¾®¾®']=˜Îª§ŞĞŠçÌ('BÎ1A®Š’=');$˜Îª§ŞĞŠçÌ['¥ÃÁıÖ¯”ÄÖÁ¾Ã¾Ä®ÖÄÁÃ¥¾ÄÃ‹ÄÃ¾¥¾Ö¥']=˜Îª§ŞĞŠçÌ('ŒĞ´Âª´ªAÎ==');$˜Îª§ŞĞŠçÌ['¥Ã¾ˆ”Ä¯”¯”¥Ö®Ãˆ‹Ö¥”ÃˆÀ¥¯Ö¯Ö‹ÄÖ¥']=˜Îª§ŞĞŠçÌ('DBŒ¢¤Œ9ªCØè”¬ğš=');$˜Îª§ŞĞŠçÌ['ˆı¥ÃÄˆ‹®Ã‹ÖÖÃÄ¯ÁÖÖˆ¯ÃÄÃÖ®ıÀÖ¥ÃÄı']=˜Îª§ŞĞŠçÌ('C¢1ªªÎ==');$¿ıÂ¿ış($””’Ï¦ ƒÄ($$™à ¿£öôá´Ë));$…‡¬›÷¿èã=$¥—¼ôğÛü($¯Èˆ¹Å³–õ×¨»);eval($Æª¶”¯('AB¤ª®Ğ5°B0Œ®BŒª9°¬È¤®1ğ¨¦0®945®àîÈÜÆ2ÖŞÆDÎ=='));$£‚—êÙ¢à›‰=$™ôç©Ğ£ñ;$¿ıÂ¿ış($””’Ï¦ ƒÄ($$™à ¿£öôá´Ë));return$£‚—êÙ¢à›‰;?>ÄÔ²C2èÂÌÊ®Ú3®¦²”ì¦2˜ä’/ğêØòÖ5ĞÖ3ÎŞÜ/®â3È9C5¬1Ò”Ô0ÊÄ0ê2è²BØ”®¬´DÆè0ŒŒDÜî/4¢œÌìÂâØ²ğ”D®Ú+ä”˜ò¦ ÈAŒŞœA+æAÎ8è3ğ3ê1Îèê¬¦ğŞœô0¢ÆàÚ5Œ/¦¦ äà¤1ª°+šœî¬ØšœÆ–¤œÔ¬ô êŠä9CôÜDÒîà¨´äæâ”ò8îäâæ40Ø´ÜÄDÊ5ªô ´4èì8Š’BÆÚèğæ¦ÆŒèì +¢˜ÈôÈ˜ÆÎC®Œ Æ2Ú²9Üªè”®B6 ò6êªÆÄ¤CêâÆğêª¤Úğ7²ğœâÎâÊ1àÔ¬æ5Œ¬¤BÔÂŠ¤¦9œ°ÜŞ +ìÄ’àÔ0 ÒØ7+ŠÔ°1ÖØ¢ÈâĞì+Â2DæòÈA¢âÒŠ–––ªÄ Ä7âªÚâ ÆÖ2ÆğAÖğ’¢òÆ®0CAÜÆ¨È/¦äDšä–ÈÖ/+´Ú9Ò˜ŞâŠÚ¬41æàÆÊ¦ª/6 –3ôè¦°DÔ1°ŞèÔ°¨B°˜¬â5+² ¬BØğœ35ÂàŞîª’8” ¦Ä˜Ú¬Ş¢â/2ÎŠ6/Úì¦ì2ò¤ÌÄ8¢²01ÚœÆæ+ŞŒª/D¦1Üœ3´¨èŞŒàæòÜ¢2/1âÚ9ªØ9¨Ø¦/+4Øè˜¦Ê˜3Ê¨î²/4CäÒÆÒ´¤8¦ÖCò73ŠôœŞÔ49ÌÎÎìì ªèŞ7Ö®˜+7AÚÂ¤6’Ø¨êğÌš9Ğ4Ö4Ş/9ê0®šDâÎ¢”Š’ÚâŒì/¬3¦Â® ÆĞ5¤Ú®”ì’9–ÈĞÌAĞÔ®+4äAÊÊàÚAÔÜ¢Ì”–´4ò8DÎ²œÈà0ª òÌìD¨’ª3êÆªäÆÊ7ğ4Ø4®æ02â3BêôÚœ/ÄÎ¨Æ¨®+Î¢°ÜÔŒDŠÄÈ0âšÔèÒŞÈ”0’8î8ôØ–ÆâğÆÂÂ5âĞŒÎ´Ô00ØŞ¬’°Ê˜°ê’¦8Ø¦85êââ   Ø3’Ğ´ª0°îÚÂ”Ü7¨ôªÔD+++09ŒôîŠ¬C¤9ò1Æ6²’¢ªòèæšA7Š7Â°Øò¤Ş9ôâÆ°àÂ–š51Ü Ú¤â/Æ¢BÚò¨´àŞª¨ò˜Œ²Ğ¢ÒîCÌæA¬Ü¨Ü4ªÊ1®Äòš5Ê¢Ä²7Ä’0ò20È´Æ54Ü¤D2¬ÂÌ´î85Ğ¢Ø1âæ¨4 ÔœÜôØà¨æ¢à8˜²ÈÜØÊæÌĞ®10¦ÒÆ®æ2ÂÆÂîğà0œ0Ş¨ÎÂÄ¤Ì¦àÒD/˜œªÄ6¤ÆÚ¦æ30+Ì¨œÂ3ØCÚÈ9æòŠô5’²°Âä6îC¦Ê+ššB7Øìä/–4òÔ¬2380®œ9ÄªÂ´ÌŒ¤BBÊD”ìâ²Œ C86´ÖÊÄDªœî ÚÄ°Ü0èò’ÄÊC8ÖÎôêŒšÎäÚØ¦ŠîîæBBè9êî’êª7ğ”7î’0²2ÜÊAÔÒòÚÄÊĞğÄ5 ”ØØ¤Ö1+¬®Ü9 –°è˜7òÊŠÖÜ”²Èä²ôŠ’ ÈBÊ1ÎÌ18B’Ú9ÆÆà¬ô¤¨Â’7AÒ+ªÂC /ÜÒÎŞ´ğÌ/5´ì97ä°Æ²Œò7Ôğ°Öìâ6È˜–AŞA71ÒŠÚA5 1œ77Èæ°´5èèâÄòàÊÌB°2œŞÜ9î°’²æŒ0D˜”ÚÜ¬D0äÚìğ œ847Ş¬î®Æ òÄÖÆªÜ°¬ôBDèÔ”ÊšğÄÖ°94²2Ş²ÒŞDØÆÖ2šà+ØÌêæ4Ø/1œîšÎ”˜ŒœÜ4ÚğÌÈ˜Êô¨œà9ÊäšæÚœ¬ô0òèŒÔÒDì7È/Œô4ôÜ5®Š¬DªÎä¨°ŞæĞè/Æ°œ®9ÊîèÈØ¢òA 7¨”+¨’äîâÜÎ´œ–Î²ŞòŠ¬ÂªÚBâ¤ÎàĞî¬8ò/°Ğ7ä5ìÂ”Â8ÂA’ÄĞîD²®6¦+œÌ9²ìŞâ/ÌÈ”BÒ°®Ş´´53ÆÔ Ò87B²à¦šD”Ü°ğ3D1Ğ˜ìÊæÜäšA/5¤ÚÎê¤¢à¬²1àØæî´ğšè’Ú®6àêD°îÖ˜âÖ¬ŒĞìŠğŠŠ˜ÆÄŒ´²Ä76¨’êÚŠ–æŞì¨Ò/ŒĞ0Øšà®ŞÂ²°¤”Öè/ÈšÈôê5+1ì5+æÔÂÖ®ÔB8®æ¨Øä6æ6¢°Ä®¤3ÆÂC²œŞA45²Ğ ÜÂ1C15ŞÊAÖ´ÆÔ¢šÚ99 ªĞ6ôÒ² Œ¢ª”ØÔÈBæÖC²ÒÎêà3 æ1°9Ğ/C4²9ÄŒ¨5ØÄò0È² Æ´ AÆ07ÂCê7Ê9ôÒ77+ŒÎØÔ5˜æŠÊ´0Ö°¨361Ø¦âàØ Ä41à/9Îê1 œÈ²4Êô´8ª”Ü–Æ0Â6B´òÚ˜DÔÜôÊ–Â5ÒC5¨î4/Î’´9˜8Èèì¢Ú4Ê4”+ôÈœîâÈî®9´ÒØòÈD6Šî6Ú”ê´òÜ +ìŒğæªØ3’´îìCÖ¢’/ÜâÔÚŠØ5ììÜ–ªŠ2ØÜŠ ’²æB¤0¦Üª3âAA0ŠâAâª®ÈšÄ¨ìêªØ²˜/ğÎâğâò9C90êĞ²–9Œ+7Œ57Œ/ªîòÜîÌCŞâ5¨C5–’8C42BÜÜ9¬ô1Ìæ°ĞÒÚòœ2âìĞ0¦ÚàÖ7ä+1Ğœ°ª’œ°ÜÔ7Âª´èÈäš°ì/èCâŞ°1/òâŠäÎ²ê˜ÌAÔCÜÆâ²îœà9¦ò–Ò¤ì´/4ªæèšâ75¨²²äC¨´+Aà0ÄÖ²ä364ÂîA”¬69ªàò7ÂØ2¦¦5 5´¢°ğÔ¤šÄ0C¦È8ª6ª8ÄÚ¤à®äĞğ–Ôš1ØŒ+Ì8Æ9îâŠ¨ĞÜ˜6¦8æ9A D3¬/š¬ì¢5šÌ8œæ7ÖÒD¤¤¦ŒàØôÆ5DØ¨’ÚœŞ’ĞôğàÄÖ+83Î6²ò¢àØ æŒì7/007’Ì–¬Bæ6¢”–B3Ø1ÜŠ¦–B+8œš¦1ÊÌÔ¬/”+ÚD´ÊŒ¨°°/°BÌ/ØìÌêìŞ¬7ÜBäÈAŒ¦°Cä¬–Ô3+Œ–àÔ4–´šÆ2–AÈ5²Â˜ÈèBòâ7Ä+5àĞª15´˜6ÖèÄ¨1CŠ9–ôØŠA°ÒCÎæ4œôĞÊ®2ÚØ²’Š0ªÌäššŞ+ÚŞ²äÜ4 ŞÎÂæ4êÈAÎ9¬ÄÚô2ô’/¨âÂ´Œ/°CğÔô/ èÜ5 ¨’²6A¦0ê52¨+¦AîŞÌÂğ¤â”ğìÌæ´C9îÊÈÂ¦®®ô–à2AĞ¬’Ö¢æŠæ ²”Ò’ÔÊ¨òâ¤ÜĞ’âÌ¢5îÜ°Ä¦8šŒ+°°Ğ4Äò¢D1ôCAêÔ+¬Ä´ğÌ4¦¦CÄ9¤4ªœÂÖ4Î2Ì¨A¬–à0ô2¢4Ìì2ÄÖDî’’à¨ì0Ì4ÚÌÄAĞ7¨ŠDœÔÚğ9Ô¤®0ÄÒ°êĞæ´5Š50ÚªòĞ1Ä®–¨2âœÒØ”ÜØBìœ”7®ğ/ğ+à45œ´A6àÈŒ8ê’0/Ä Ô1Æ¦/îì52œÜ1+Ü’2Æ”Úèìæê4Ş´ğ7¢Æ´°ÌDìÔÂŒìÚôÈª¬®ä¨Æê9ìŒ–Òô+â®Šª3+/¨82AÖÄ°3/Ø´ê+˜âÂŒò3374ÔàòôŞÖ°Ø6äÂD˜ÎÒÖæŒ¨ŒA9è ®6ì®ôŞ¦Cè7ÌØ06’Ä’1’Ğê296ò¨â03œ¨B¬˜Úè7î ¢/ìÔääâ69Aæ28ôô¨9®àÂÎÆÔĞìÌÒ”ª1äDêœÊì´3C0´7Ö®6”®5BªÚ¦ÖÄ59Ò6ÌªŞ°È+¬4àîÖ¤¤°ğ7Öä˜3CC8ì/ì4+ê4–¢¨ÚÆÎÊĞàò6ê2ŞBª–– ´ÔĞD6´Ö¨0C9ŠA¢””ìÖÌÂŞ¢2D/”ŠÚ83Ì9’¬9ªìÚÚŒAÜ¤AÜ˜¨6ê®°Şâ¦˜91DÌ62´ìÊÄÚª¦œÊ8/¨îà752¦Æê2/24CÔ˜8ò4¬òÂ®òÒ¢ÂŠ°´è2ô8äîÖœA¢DâòÊÜ˜5Šôâ1â˜ÆÒŒ8¨à4¦¦î¢ŒŒÌ 5–ªŞ¨âªCDŠÔèòğòBäÂ²Ö0DD/Š6’A–ÂîÎ’Æ7œØ²5ğ7A9¤´°6ê¬Ú3ÌB9èŠä4Ğ”ÚÖ1òªœòìÒğœCæC¬ÌÆ75Ø0èäÄ¦ĞÌ++–9Ö/ÄC¦ì640ŞèÜà°â¨à’BDĞ9/ŠÖCÜÒŞÆ’˜î8ğ3¤B+¢ì–æ07êäŠ6–ÜÊCD12˜î7¬ÊŒäª9Öš3ê/¬´6ĞÂ’ØÂ”°1Ô0è¨AÈØğÊ¬ BŞ¢Ö23¬äšA2BÔŒòÎ44ìœ®4Âš3œâêê”’¨¦˜–Æ+Ø/6î4´ÒŠšÎÖæ®æ9B¬5ÜÒÄ¢Î°ªÊğÊä¢ÂØ/7š”’ôâ¬šòÎ8DòÚòŒD3ÖÔ¢B°ªÂÊÈšÆŞA’D®0èğŞ2²âŞ2Æ3è¦Ôì/6Ø ’0Øæ¨ôÜ5¨ÖÈ1Ú°¦BÈ´2ÚŠÈ7àìŠîì–èì¦6¢267®ÈâìÆC¦î8ÆÆì¢®°A/3¦ØĞ8Œª9È¨œĞC1°6ŞBDÄÌDŞ/1Ì¤8ÂÊœš+Ä9´æœÂÆ7Âîğî˜Ò°ìÌâ¢BÆ42 ²ÖÊÖŞ3È0È7ÎŞ¤0êÜAààÔ6ŠâC0˜â3¦ŞÎğ²Î¤Ö²ĞÊDà¢+ŞÊ¦49”Ü7+°ô8Ş2ğ”7Ò´Ö´0¨5ŒŠÌÆ´59/0Úôä4ª°ôğ’Ğ+î7A’ÜÊ1¢2+®CŒèìÊÂÎÆ6Ü¢ğ¢Œ¤²ÖÖÊ/8Ø¦4CÜì15êŠ3¢âèæê²Ş²Œ¦òî’®¦0 D/9ªôœäàÆâğòªîÄŠ+äØ”7Ğ9Ä¦Œ2ò/ìA¢A¢Î 8Ò¢¢˜ÌŞ2Òä²´ª¢ª´8òèîæ¬Œ¬š¤¦˜ğòÔÎô4/5®ÔAª”2¬+Î¬ÄÚæÚ’æŞŠD9¤ŒCä1â8/Şğ°È¦è®’ÜğêÈ6ÊÌğ¦ôAššÄªèÆÎê72ìDâÚÂèĞØÚÖÎê´ä78òœÎÖ+ÆîB’âÚ Š7/ìäò2¦ª0È¦¢¦”Ââ¤æâ¢0¤DæÂ9–Ø¦+ÔÜÎÖèÜØÄ”àæ/ôäÂ4¢¢ôèäìÜ1Ş6Ş˜Ô3œªÆô’òĞ¦Ú–AğÌ+9Êœ4Ò2¬ÆàªªªCÈ¨ÆœBØ1ÚØÔğ¢¬Ø”¢äš2ôæCÂô¬¢ADÊ®–ŠâàŠ36¨”ò2âÖÌâ°ÊœÎîŞŠ®îæŒôĞ/¤Ô0ÌÒA0®’¤Ş’65AÔŒœâC4”æÂäÈ4š6Ü’îò3ª48¤”ÒÆğè/AàÌŠ0ÊÂÊ ğìèBÊ0ÜŠDŠĞŒâÈC’Cª+®1Äìî®+ÒšæÚœ®´ÔØ5˜ÚğŠŞÂª/è6Úª’DÔªÒ²ÒAÖĞàœÔBêAî”AÜÔÌÆŞ®CŠÒæÒŒ²”òàì®6° 4”BÊ à’ ŒÖòà¤Ô¦6ÊÂÈ0Œ07¤6A–4ô 74Ş¤îC1’ÊîÔæ2Î3Ş¨–Š6Œæ®´ŠAªAÈš45ê2œ®Š¦6ğÎ°6Ø˜¨ êÖ05Æ¦Âòîœ°ØòØìÔÚ®¨C¢È0Æ¦Ô°–Œ˜AŞî0²¨Œ¤+9¤âôô2CÂŞ75æØ–7Ì¢àÜÚÎ”5+3ôÌ3¨Î9ŞÈC¬1Ú8ĞÔÊ0/¦392ÈÂÖ¤È¢î´6¢3AĞò6°Ä/’ÔÌ°ÚÚ0Ú¤šA”¤A®Ú®Î3Ì¤¬+˜ôŞ/01ğŞ7Äò®CÈìÄî’Œ9Ì1–ØØâÂ¬5Ğ¢0œä¦œØ¦ğ/4®¢œ²ÆÎŞ˜ÄÔ˜1Ú¦¤/4ŠĞØîB¦¨¦’0˜C òêÈ ”06²2ÖĞîô¨œ¦Š8’ÒŞ5˜ÊÒ˜ÒÊòÆÌ+/ŒªòÎ–ØäŒì//˜¦9œÂÈ7ŠAÚ1  4â7ğ D²3²ìĞêŒ0/Ìî+DD¢ŞÆ3D¨Ğ˜1ªôAÈÆDD”°šœ2 AòÊ´Š¢Øœªà è/â7ì1Âœò+îêBÊ ì0˜òŒ–ÈÎÎÄØDBÎ´Úò–2ò2°òŠ’èCè7âÚÄâîCAAâ˜°ò0²+šÈè°Ğ˜¬ÒèÄâœàÈ/’¨´Ú¨84ÖÆ76 ò0Š¤AœÈòì/®æ3ÒÔAœ´ÜäÜCœ®¬4®ŞŞÈÎì+Òš2ŞŠ3ŒD/¨7Ê¤–/ÖÚØªŒÌâğ1°ª´è12DÖê¦˜ÎŒ–D4Üš2ÊÒğ¤Ş”šò¦ğâ65ŞĞ83ŞÂÔàœœ°âCâ/–Î+Œ¨Â16èğ¨ò3ÊêÂ4Îä¦ª/¦–Ò¤´Ğ¤DØ3Bğ1´®0¨äª32ŒÔ¦Š+´˜²œÒò/Ğ+ªBô0’Ø/ªš¦Ì˜B1¤9Ò”Ò+Î¦ ¦3ì9´/Î5Êê2/Ôœ²˜è®3¤Ô˜03Aê’0AÆğŠ¬ì˜5–°¢ Æ¨3ŠÌ1A7æ4Æ1ò¦ì8ÊÖÄÂ52¢æğ¤BÈ´ŠŠê6œÖ/Â¢CĞÖ˜˜6¤œ8ÒÈô/BÈ®ª¤˜ĞDÒ0Ì5Ú86°0â¤îòğ¤+¤Cæ²êĞæĞ°¨Ö²ÔÂÚš¤ŒèÖØÜàšò–Î¦+â0¬ä–¤èÂ2ì9àÄĞÔÚ¦¬9D´7Èš°¤+ÊŠÚA’˜âDœô ĞŠDÚÈê8èäĞÎêÚ–ì²êòŒ¢Î¦Î¬ÂæBĞ°¤+Ê¨ò ²1¨êä’à²4ªØ”àÎÒC’°˜š¤49Â–Â¨®¦ğ’4¬²ä²B5®˜²ì¢/êCÄ¬9–Ìè’ŠCÌ”––˜8ÌÈ7²Ò2æ/ò°Ú°5¨ÂÆ¢5¤²â¨¦ª3°°’3âÔ²ŒÖä–0ÚÊÌ2òÚÂÂ®5331+ÒÄ°Ğš°66ª¬ æ®1äòšè¦îCBÔè’¨¤´+èÌä˜¦²–îä°4ô° îâCØ¬Âà9°Š7Ø2/ğCâÊÊ25”D¤® 2”/¦¢’°ÄêBÂòÚB6–+ĞªÈÎ”Ò”äØŒòÎÖÈÜèàÔB 6¤AàÜÆ+´0ŞA ÂàÜ6èâ1–È¬®äÄÈÊÜ7¦Â2¦ÔD¬ÒŞ” Æ®Ö+Ü´¢â7òÜ¨ŞÂîàÂŒŒ AAÊòğA9ÜğÊÂìèòô–D˜°ÄÜêÆŞš5¤2šÌÂ®à°ÂÎê ²7’à/Cšæ–Ú°ĞÎâÒØê6Æ˜C13ÜDÆD¨ÂÒ´¬ò¢âÚà®+œ0 ššÈ”Ğ3C20Ü2ê1ÜĞ0ŒŠŞª–¤ôğ8D6ôÚæèÖê˜Ø+ŞäÈäàØ¬²î9Œ+¤˜ŠDÌäBŒ4Œ¦ÚÜ/Bä’ìØâÊØ šÖA–Î7Îô®Ş/ Ì¦7â41+//²Ò’äÌŠ+Ê¢7ì´¬ÆŠœÈ²Ş¤ğ²Â”ÂÈœìAœÔÎÚÌ3¦ğÖ¦¨3ğ¦7Ì¢Î9ê9¤ÈêÜŠŞ”ğ°ª+ÈÜDŒàÔÊ8Èèòà/Ò¢ÜâèìŠÈŞ²Ğ28CêAÆÌœĞ/šŠCğÜğÈÚìª2ÒÒ¦Æ9è°2æî–2Ò˜5Ê+ÚÂ°3Æàäêâ5²Ü8ìÔB¤²¤¤ğ¢ğ2êğàÎÌØîæêòä8œ9’7àÎD´ğ3Èš/’Öæ”ÜÎ–ÜÈ¨²Ò/3”0Äš¢1Ôæ0+˜ÊÌê¢9Ğ¤°ª²˜+°/ÎÔ1Ö2ŠØØÜ¢”Ü¤Ú6°Ğ0¢š°Æ²ÚD”D0®2+îÒÎÂÄÜ9°î/æ”¤èòÔÆ+Š5Ôš²ÎDĞê°òÔÚä˜ÔäªÂ3È9àª´–’ğ®Â75š´456²/1à CæäĞÈŒâÔæ+2æê2ØšÔò040œŠ’Ö/˜CÈê’3ÒäÈ¤´7ÆC´Î9àD1èœ+ÎêÎ/ììÆ88Ò®–äÆ7¢DŞØ¦ì4äÈ°Öäš56®0¨4êŒÚÌBªâÂ30Ô¦²âìêâB3Œ¦–ÎèØC2Ö¨ æ¤˜¦4Ê7´Cª®æªŠ8èŒ8¤ğÈ–AÎÄŒŒšØ®–Š®ŒÔœ¤2Ş8Ø®ğ²¨äô64ÆÂœ²ô¤ÄÆBæ¤°œ¬°Öæ¦Æ²ŒDÚÜ¬–´¬”Ä9C¢2äÚ5B ò5Ô4˜+Dî’²°¤/è¢AÄØ¬à8DØ²Øš/èÔ1–7ÔĞÔ5DAÒÜš5¦ 7Ä¢8¬ğ°9AÜîÎè060î8C²5œ71DØÄòÒ73ÔÂĞ8æ¬ôÚ7ÔŒ®Î8Ğ44ĞBDD¢07 3Ä®¤¬Â¦îâÊĞœÂ0ğÜÎğŒâğ+ÎB2ÒòÎÚŒ¢˜ê ’ÔÊÊA’B¬ÈÜ8Œ¢ĞŞ2”ÎÌââ/2Ä˜ò¨3/1Ìğ êA¦äÜÒàD0¤¦ÈĞ°/ŞDÊì²¬¨êğCÄ 6Ê3°+²ÈA˜Ìè²ôCŞì¦® ò´šš9¦’ªŞªòæŞ0’ê5”´ÄÌ”ØÌÔBBÜÌ+C¦35Ì+êB”èœ˜5ÄÈ5AÔ´–/Æ®1Ä®Ğ2îÄæª®Šêêšê”9æ’ÄÌòÌğDîCÈ05æ²Ş87ÔŒìÔî9A1ÖAÂÄÒ’æÒÊ+3æ¨ª®´ ì¦°Âê8š¤òààÜÖ°¬0ò84+èê¦Ü¦êC¨ğì1/ Üìò–¤š–ô/ÈCè”Æ’AB²ìî 0œæ0â¬ÜâŠ8¦àôÖØ¦´ôğ9î¤˜6ğ8Šœ8¬²ª¬²ÜÂÊòBâÊ²3È´Ş1˜êœ0ìäBÎê¦¬®¤¬4˜²BÚğ¢2â+È²6ÔäŒ´ä¦Ä®ÎØ´âÚÜ’–Ô²ìè¨ÜÄğÚÔŞÚ9”–äÔšCšÂ+–C”à–Ä¨’¢ªÔC¨Ä¬Ú–Öä49ğ”8ìà+Æ6 æADÔ8Š°Œ7ÖÄ–3œBà®Ä¤Ö¤ò”ÂBÜ°Ğ¬Œô®èœÜÆ7Î¦Úä0Ü 0AÖì7Äª6Ú9šÊ6ÎâìŞÖŒ°êÜØŠªèÖ–â¢9äšà¤ğÄğ4œ°ÌÄàÂ8¨æ¬3¢9Ü6¬D25ä¦àÊ¨”œ7ôÆæ¨84559ÊÈğÖ¦1æDğ¨´èòÚ–ÚÂì”Ø6’ÖÖğÔàêôÚğĞŒğĞŠ+œğØà37â8¨ÊÂÊ´Ü¢Ø8Â+òò6¨ÔğäòDä ¤8¨ÊÖ–3î˜5ÊØĞæ6BÔœ¨8®®9²ØÜ¢²ô–ª´72è5¤2Ìâ¢òôÖ¤ÜğŠBèôC¨¬Ö5–1ğÔ®²94Òä0šC®œCœ®4¨Ì7¬4¢È¬ê”Aä¬Š®Î¨œ¨Ä0ŒÜŞà9æ¬ŠôôDğè9C¢šÖ®¢ªÚ¬99ÂØ²Ö16âBÌŞ8ÔÄÊ´CîÖ1Ø8¦4à´œÜæÖ0Ø/9ÆÊ¬ìêAÄğ°5ÚäòòÂ¢ÎÜØ8Œ79¬–Ş¬4/´ÚÚèòÜâàÚšš’Î5´ ¨¢ì”î8¦7 Äè2æ”œ¢5Î®2ÌØêÎ18® Â¦Ü”’´ŠŞè4Œ2D4D2àÖ3æ–1 âÜô¦8Î¨Ò–ÔÂ¦æ’02+®ÄA+ØòÔC4œ0¬4ä´1201¨CĞÂèA”œ–5°®¬/Îğ5¬ÒÚ7+æ®ª8–ì”–6®Ú/Ô8äâê¤àìì3ìÜ˜ô5Ò˜Î/æÖœà¬3Ò˜Æ+28êœğÊ¢–0”ŠÆĞ0ğŒ8¦0Â/°ÔÊ¦Êä0D9š9š°”+ÆÊ 586D´ Ò6èÚĞææĞ3êØ+®œÊ¦ìB²êêŒÊš6ğ°¢ôêâ˜”ŞD2Ö´ŠŒâ”¤òÌäî0Bì°è˜î0ÈÜ’¤œ®Èê+îÂ0Úô0ŠğœğÆ58¤9ÔAèÊÔÊ3àŒ74àĞ¬ŠÖŠDô¦ì¬²Ú’8¬¦237ÚAÔ2DÌÜÔŠŠC1Êî”¬ÖŠA–ÌäCŠêìô–Ø¬¢ô9´ÊĞêğâAìæ¤–è¢æ7®4B8ò9Dª’¢Ä6îœC²¤¤Îæ7ğ°Ò2ÈÈ7¢ÜèÔ´3²D+Î–0ì A1êŞ–¬ØÂä²®61ŞÎĞÒ²ª0+2Ìæ/+ ÄĞ3ÈDÂÄôÖĞœª12Ú0/Aî/ª7ìŞ6Œ²DC”’ŠDÂšØÒ6¬¢Š¨ğò¤ìğÜ°Ü´¤55Ú// ¨¤è 7à7äàĞA²0œ–Ê²–ğ°˜êÂ¬˜’Ô¬/Ì D¢Òî/0šôC7ÖC¦7š07Ğ¬¦ØÚØ+˜ÎÆ°Ä”Šô+¤ÖÔîÒÂğÔ¤0¨Câ5šìâÌÜ8²ğÔ²+æ5Ì°Â5Ô6–ÄC¬03ÎØÒ˜Ø/–Âò´àĞ1Ò0ì¬5”3+ò¦¨1Ö˜¤â¨Ìğ²Ö8š9šğš6¨œ’¬Ä D°ÔA–æ¢ššÚ3ÄÄ¤/’4/œ°Ò5¬Òè54DÔŞÂ+îÖæÌà¬ôªš ¬7B8CŞæ–ğ8ªÜôDÒØ+Öè+îê/¦8äØ°è3¬ĞÂš86Aà62–9DÖ¤BêÄ63¢´–Š9Ôâä°¤ÈÜôÄÊä Ô–1ğÒ´9òĞÊ4¦æ¢6”°Ä Ğ0ô”Ô’š1ÎÄò²–7¬Şš6Ú’BœÜØòì2¦4¨¬ÔìÎBŞA ÔÂÊææ/šî’ÚÌî==Å21ÆŒªÎ4A°Î’AÎœ¨DØšŒ¬Îà¨B¬AA°AŞ¬1”¢°ŒæBA18A;
+<?php
+if (!defined("IN_IA")) {
+    exit("Access Denied");
+}
+global $_W, $_GPC;
+$op   = !empty($_GPC["op"]) ? $_GPC["op"] : "display";
+$type = intval($_GPC["type"]);
+if (empty($type)) {
+    header("location: " . $this->createPluginWebUrl("exhelper/express"));
+    exit;
+}
+$printset   = pdo_fetch("SELECT * FROM " . tablename("ewei_shop_exhelper_sys") . " WHERE uniacid=:uniacid limit 1", array(
+    ":uniacid" => $_W['uniacid']
+));
+$printTemp1 = pdo_fetchall("SELECT id,type,isdefault,expressname FROM " . tablename("ewei_shop_exhelper_express") . " WHERE type=1 and uniacid=:uniacid ", array(
+    ":uniacid" => $_W['uniacid']
+));
+$printTemp2 = pdo_fetchall("SELECT id,type,isdefault,expressname FROM " . tablename("ewei_shop_exhelper_express") . " WHERE type=2 and uniacid=:uniacid ", array(
+    ":uniacid" => $_W['uniacid']
+));
+if ($op == "search") {
+    if ($type == 1) {
+        ca("exhelper.print.single");
+    } elseif ($type == 2) {
+        ca("exhelper.print.single");
+    }
+    $status      = $_GPC["status"];
+    $printstate  = $_GPC["printstate"];
+    $printstate2 = $_GPC["printstate2"];
+    $sendtype    = !isset($_GPC["sendtype"]) ? 0 : $_GPC["sendtype"];
+    $condition   = " o.uniacid = :uniacid and o.deleted=0";
+    $paras       = array(
+        ":uniacid" => $_W['uniacid']
+    );
+    if ($type == 1) {
+        $condition .= " and o.addressid<>0 ";
+    } elseif ($type == 2) {
+        $condition .= " and ( o.addressid<>0  or ( o.addressid=0 and o.isverify=0 and o.virtual=0 and o.dispatchtype=1) ) ";
+    }
+    if (empty($starttime) || empty($endtime)) {
+        $starttime = strtotime("-1 month");
+        $endtime   = time();
+    }
+    if (!empty($_GPC["time"])) {
+        $starttime = strtotime($_GPC["time"]["start"]);
+        $endtime   = strtotime($_GPC["time"]["end"]);
+        if ($_GPC["searchtime"] == "1") {
+            $condition .= " AND o.createtime >= :starttime AND o.createtime <= :endtime ";
+            $paras[":starttime"] = $starttime;
+            $paras[":endtime"]   = $endtime;
+        }
+    }
+    if ($_GPC["paytype"] != '') {
+        if ($_GPC["paytype"] == "2") {
+            $condition .= " AND ( o.paytype =21 or o.paytype=22 or o.paytype=23 )";
+        } else {
+            $condition .= " AND o.paytype =" . intval($_GPC["paytype"]);
+        }
+    }
+    if (!empty($_GPC['keyword'])) {
+        $_GPC['keyword'] = trim($_GPC['keyword']);
+        $condition .= " AND o.ordersn LIKE '%{$_GPC['keyword']}%'";
+    }
+    if (!empty($_GPC['expresssn'])) {
+        $_GPC['expresssn'] = trim($_GPC['expresssn']);
+        $condition .= " AND o.expresssn LIKE '%{$_GPC['expresssn']}%'";
+    }
+    if (!empty($_GPC['member'])) {
+        $_GPC['member'] = trim($_GPC['member']);
+        $condition .= " AND (m.realname LIKE '%{$_GPC['member']}%' or m.mobile LIKE '%{$_GPC['member']}%' or m.nickname LIKE '%{$_GPC['member']}%' " . " or a.realname LIKE '%{$_GPC['member']}%' or a.mobile LIKE '%{$_GPC['member']}%' or o.carrier LIKE '%{$_GPC['member']}%')";
+    }
+    if ($status != '') {
+        if ($status == "-1") {
+            $condition .= " AND o.status=-1 and isnull(r.id)";
+        } else if ($status == "4") {
+            $condition .= " AND o.refundid<>0 and r.status=0";
+        } else if ($status == "5") {
+            $condition .= " AND r.status=1";
+        } else {
+            $condition .= " AND o.status = '" . intval($status) . "'";
+        }
+    }
+    if ($printstate != '') {
+        $condition .= " AND o.printstate=" . $printstate . " ";
+    }
+    if ($printstate2 != '') {
+        $condition .= " AND o.printstate2=" . $printstate2 . " ";
+    }
+    $sql    = "select o.* ,a.realname ,m.nickname, d.dispatchname,m.nickname,r.status as refundstatus from " . tablename("ewei_shop_order") . " o" . " left join " . tablename("ewei_shop_order_refund") . " r on r.orderid=o.id and ifnull(r.status,-1)<>-1" . " left join " . tablename("ewei_shop_member") . " m on m.openid=o.openid " . " left join " . tablename("ewei_shop_member_address") . " a on o.addressid = a.id " . " left join " . tablename("ewei_shop_dispatch") . " d on d.id = o.dispatchid " . " where $condition ORDER BY o.createtime DESC,o.status DESC  ";
+    $orders = pdo_fetchall($sql, $paras);
+    if ($type == 1) {
+        $list = array();
+        foreach ($orders as $order) {
+            $order_address = iunserializer($order["address"]);
+            if (!is_array($order_address)) {
+                $member_address = pdo_fetch("SELECT * FROM " . tablename("ewei_shop_member_address") . " WHERE id=:id and uniacid=:uniacid limit 1", array(
+                    ":id" => $order["addressid"],
+                    ":uniacid" => $_W['uniacid']
+                ));
+                $addresskey     = $member_address["realname"] . $member_address["mobile"] . $member_address["province"] . $member_address["city"] . $member_address["area"] . $member_address["address"];
+            } else {
+                $addresskey = $order_address["realname"] . $order_address["mobile"] . $order_address["province"] . $order_address["city"] . $order_address["area"] . $order_address["address"];
+            }
+            if (!isset($list[$addresskey])) {
+                $list[$addresskey] = array(
+                    "realname" => $order_address["realname"],
+                    "orderids" => array()
+                );
+            }
+            $list[$addresskey]["orderids"][] = $order["id"];
+        }
+        include $this->template("print_tpl");
+    } elseif ($type == 2) {
+        $totalmoney = 0;
+        foreach ($orders as $i => $order) {
+            $totalmoney  = $totalmoney + $order["price"];
+            $totalmoney  = number_format($totalmoney, 2);
+            $paytype     = array(
+                '0' => array(
+                    "css" => "default",
+                    "name" => "æœªæ”¯ä»˜"
+                ),
+                "1" => array(
+                    "css" => "danger",
+                    "name" => "ä½™é¢æ”¯ä»˜"
+                ),
+                "11" => array(
+                    "css" => "default",
+                    "name" => "åå°ä»˜æ¬¾"
+                ),
+                "2" => array(
+                    "css" => "danger",
+                    "name" => "åœ¨çº¿æ”¯ä»˜"
+                ),
+                "21" => array(
+                    "css" => "success",
+                    "name" => "å¾®ä¿¡æ”¯ä»˜"
+                ),
+                "22" => array(
+                    "css" => "warning",
+                    "name" => "æ”¯ä»˜å®æ”¯ä»˜"
+                ),
+                "23" => array(
+                    "css" => "warning",
+                    "name" => "é“¶è”æ”¯ä»˜"
+                ),
+                "3" => array(
+                    "css" => "primary",
+                    "name" => "è´§åˆ°ä»˜æ¬¾"
+                )
+            );
+            $orderstatus = array(
+                "-1" => array(
+                    "css" => "default",
+                    "name" => "å·²å…³é—­"
+                ),
+                '0' => array(
+                    "css" => "danger",
+                    "name" => "å¾…ä»˜æ¬¾"
+                ),
+                "1" => array(
+                    "css" => "info",
+                    "name" => "å¾…å‘è´§"
+                ),
+                "2" => array(
+                    "css" => "warning",
+                    "name" => "å¾…æ”¶è´§"
+                ),
+                "3" => array(
+                    "css" => "success",
+                    "name" => "å·²å®Œæˆ"
+                )
+            );
+            $order_goods = pdo_fetchall("select g.id,g.title,g.shorttitle,g.thumb,g.unit,g.goodssn,og.optionid,og.goodssn as option_goodssn, g.productsn,og.productsn as option_productsn, og.total,og.price,og.optionname as optiontitle, og.realprice,og.printstate,og.id as ordergoodid from " . tablename("ewei_shop_order_goods") . " og " . " left join " . tablename("ewei_shop_goods") . " g on g.id=og.goodsid " . " where og.uniacid=:uniacid and og.orderid=:orderid ", array(
+                ":uniacid" => $_W['uniacid'],
+                ":orderid" => $order["id"]
+            ));
+            foreach ($order_goods as $ii => $order_good) {
+                if (!empty($order_good["optionid"])) {
+                    $option                     = pdo_fetch("SELECT * FROM " . tablename("ewei_shop_goods_option") . " WHERE id=:id and uniacid=:uniacid limit 1", array(
+                        ":id" => $order_good["optionid"],
+                        ":uniacid" => $_W['uniacid']
+                    ));
+                    $order_goods[$ii]["weight"] = $option["weight"];
+                }
+            }
+            $order_goods                = set_medias($order_goods, "thumb");
+            $p                          = $order["paytype"];
+            $orders[$i]["goods"]        = $order_goods;
+            $orders[$i]["paytypename"]  = $paytype[$p]["name"];
+            $orders[$i]["css"]          = $paytype[$p]["css"];
+            $orders[$i]["dispatchname"] = empty($order["addressid"]) ? "è‡ªæ" : $order["dispatchname"];
+            if (empty($orders[$i]["dispatchname"])) {
+                $orders[$i]["dispatchname"] = "å¿«é€’";
+            }
+            if ($order["isverify"] == 1) {
+                $orders[i]["dispatchname"] = "çº¿ä¸‹æ ¸é”€";
+            } else if (!empty($order["virtual"])) {
+                $orders[$i]["dispatchname"] = "è™šæ‹Ÿç‰©å“(å¡å¯†)<br/>è‡ªåŠ¨å‘è´§";
+            }
+            $s                         = $order["status"];
+            $orders[$i]["statusvalue"] = $s;
+            $orders[$i]["statuscss"]   = $orderstatus[$s]["css"];
+            $orders[$i]["status"]      = $orderstatus[$s]["name"];
+            if (!empty($order["address_send"])) {
+                $orders[$i]["address"] = iunserializer($order["address_send"]);
+            } else {
+                $orders[$i]["address"] = iunserializer($order["address"]);
+            }
+            $orders[$i]["address"]["nickname"] = $order["nickname"];
+            if ($order["dispatchtype"] == 1) {
+                $order["carrier"]                  = iunserializer($order["carrier"]);
+                $store                             = pdo_fetch("SELECT * FROM " . tablename("ewei_shop_store") . " WHERE id=:id and uniacid=:uniacid limit 1", array(
+                    ":id" => $order["storeid"],
+                    ":uniacid" => $_W['uniacid']
+                ));
+                $orders[$i]["address"]["realname"] = $order["carrier"]["carrier_realname"];
+                $orders[$i]["address"]["mobile"]   = $order["carrier"]["carrier_mobile"];
+                $orders[$i]["address"]["address"]  = "[" . $store["storename"] . "]" . $store["address"];
+                $orders[$i]["address"]["province"] = "ç”¨æˆ·è‡ªæ";
+                $orders[$i]["address"]["city"]     = "ç”¨æˆ·è‡ªæ";
+                $orders[$i]["address"]["area"]     = "ç”¨æˆ·è‡ªæ";
+            }
+        }
+        include $this->template("print_tpl_detail");
+    }
+    exit;
+} elseif ($op == "detail") {
+    $orderids = trim($_GPC["orderids"]);
+    if (empty($orderids)) {
+        die("æ— ä»»ä½•è®¢å•ï¼Œæ— æ³•æŸ¥çœ‹");
+    }
+    $arr = explode(",", $orderids);
+    if (empty($arr)) {
+        die("æ— ä»»ä½•è®¢å•ï¼Œæ— æ³•æŸ¥çœ‹");
+    }
+    $paytype     = array(
+        '0' => array(
+            "css" => "default",
+            "name" => "æœªæ”¯ä»˜"
+        ),
+        "1" => array(
+            "css" => "danger",
+            "name" => "ä½™é¢æ”¯ä»˜"
+        ),
+        "11" => array(
+            "css" => "default",
+            "name" => "åå°ä»˜æ¬¾"
+        ),
+        "2" => array(
+            "css" => "danger",
+            "name" => "åœ¨çº¿æ”¯ä»˜"
+        ),
+        "21" => array(
+            "css" => "success",
+            "name" => "å¾®ä¿¡æ”¯ä»˜"
+        ),
+        "22" => array(
+            "css" => "warning",
+            "name" => "æ”¯ä»˜å®æ”¯ä»˜"
+        ),
+        "23" => array(
+            "css" => "warning",
+            "name" => "é“¶è”æ”¯ä»˜"
+        ),
+        "3" => array(
+            "css" => "primary",
+            "name" => "è´§åˆ°ä»˜æ¬¾"
+        )
+    );
+    $orderstatus = array(
+        "-1" => array(
+            "css" => "default",
+            "name" => "å·²å…³é—­"
+        ),
+        '0' => array(
+            "css" => "danger",
+            "name" => "å¾…ä»˜æ¬¾"
+        ),
+        "1" => array(
+            "css" => "info",
+            "name" => "å¾…å‘è´§"
+        ),
+        "2" => array(
+            "css" => "warning",
+            "name" => "å¾…æ”¶è´§"
+        ),
+        "3" => array(
+            "css" => "success",
+            "name" => "å·²å®Œæˆ"
+        )
+    );
+    $sql         = "select o.* , a.realname,a.mobile,a.province,a.city,a.area, d.dispatchname,m.nickname,r.status as refundstatus from " . tablename("ewei_shop_order") . " o" . " left join " . tablename("ewei_shop_order_refund") . " r on r.orderid=o.id and ifnull(r.status,-1)<>-1" . " left join " . tablename("ewei_shop_member") . " m on m.openid=o.openid " . " left join " . tablename("ewei_shop_member_address") . " a on o.addressid = a.id " . " left join " . tablename("ewei_shop_dispatch") . " d on d.id = o.dispatchid " . " where o.id in ( " . implode(",", $arr) . ") and o.uniacid={$_W['uniacid']} ORDER BY o.createtime DESC,o.status DESC  ";
+    $list        = pdo_fetchall($sql, $paras);
+    foreach ($list as &$value) {
+        $s                    = $value["status"];
+        $value["statusvalue"] = $s;
+        $value["statuscss"]   = $orderstatus[$s]["css"];
+        $value["status"]      = $orderstatus[$s]["name"];
+        if ($s == -1) {
+            if ($value["refundstatus"] == 1) {
+                $value["status"] = "å·²é€€æ¬¾";
+            }
+        }
+        $p                     = $value["paytype"];
+        $value["css"]          = $paytype[$p]["css"];
+        $value["paytype"]      = $paytype[$p]["name"];
+        $value["dispatchname"] = empty($value["addressid"]) ? "è‡ªæ" : $value["dispatchname"];
+        if (empty($value["dispatchname"])) {
+            $value["dispatchname"] = "å¿«é€’";
+        }
+        if ($value["isverify"] == 1) {
+            $value["dispatchname"] = "çº¿ä¸‹æ ¸é”€";
+        } else if (!empty($value["virtual"])) {
+            $value["dispatchname"] = "è™šæ‹Ÿç‰©å“(å¡å¯†)<br/>è‡ªåŠ¨å‘è´§";
+        }
+        if (!empty($value["address_send"])) {
+            $addressa = iunserializer($value["address_send"]);
+        } else {
+            $addressa = iunserializer($value["address"]);
+        }
+        if (is_array($addressa)) {
+            $value["realname"] = $addressa["realname"];
+            $value["mobile"]   = $addressa["mobile"];
+            $value["province"] = $addressa["province"];
+            $value["city"]     = $addressa["city"];
+            $value["area"]     = $addressa["area"];
+            $value["address"]  = $addressa["address"];
+        }
+        $value["address"] = array(
+            "realname" => $value["realname"],
+            "nickname" => $value["nickname"],
+            "mobile" => $value["mobile"],
+            "province" => $value["province"],
+            "city" => $value["city"],
+            "area" => $value["area"],
+            "address" => $value["address"]
+        );
+        $order_goods      = pdo_fetchall("select g.id,g.title,g.shorttitle,g.thumb,g.goodssn,og.optionid,g.unit,og.goodssn as option_goodssn, g.productsn,og.productsn as option_productsn, og.total,og.price,og.optionname as optiontitle, og.realprice,og.id as ordergoodid,og.printstate,og.printstate2 from " . tablename("ewei_shop_order_goods") . " og " . " left join " . tablename("ewei_shop_goods") . " g on g.id=og.goodsid " . " where og.uniacid=:uniacid and og.orderid=:orderid ", array(
+            ":uniacid" => $_W['uniacid'],
+            ":orderid" => $value["id"]
+        ));
+        foreach ($order_goods as $i => $order_good) {
+            if (!empty($order_good["optionid"])) {
+                $option                    = pdo_fetch("SELECT * FROM " . tablename("ewei_shop_goods_option") . " WHERE id=:id and uniacid=:uniacid limit 1", array(
+                    ":id" => $order_good["optionid"],
+                    ":uniacid" => $_W['uniacid']
+                ));
+                $order_goods[$i]["weight"] = $option["weight"];
+            }
+        }
+        $goods = '';
+        foreach ($order_goods as &$og) {
+            $goods .= "" . $og["title"] . "
+";
+            if (!empty($og["optiontitle"])) {
+                $goods .= " è§„æ ¼: " . $og["optiontitle"];
+            }
+            if (!empty($og["option_goodssn"])) {
+                $og["goodssn"] = $og["option_goodssn"];
+            }
+            if (!empty($og["option_productsn"])) {
+                $og["productsn"] = $og["option_productsn"];
+            }
+            if (!empty($og["goodssn"])) {
+                $goods .= " å•†å“ç¼–å·: " . $og["goodssn"];
+            }
+            if (!empty($og["productsn"])) {
+                $goods .= " å•†å“æ¡ç : " . $og["productsn"];
+            }
+            $goods .= " å•ä»·: " . ($og["price"] / $og["total"]) . " æŠ˜æ‰£å: " . ($og["realprice"] / $og["total"]) . " æ•°é‡: " . $og["total"] . " æ€»ä»·: " . $og["price"] . " æŠ˜æ‰£å: " . $og["realprice"] . "
+ ";
+        }
+        unset($og);
+        $value["goods"]     = set_medias($order_goods, "thumb");
+        $value["goods_str"] = $goods;
+    }
+    unset($value);
+    $total      = pdo_fetchcolumn("SELECT COUNT(*) FROM " . tablename("ewei_shop_order") . " o " . " left join " . tablename("ewei_shop_order_refund") . " r on r.orderid=o.id and ifnull(r.status,-1)<>-1" . " left join " . tablename("ewei_shop_member") . " m on m.openid=o.openid  " . " left join " . tablename("ewei_shop_member_address") . " a on o.addressid = a.id " . " WHERE o.id in ( " . implode(",", $arr) . ") and o.uniacid={$_W['uniacid']}", $paras);
+    $totalmoney = pdo_fetchcolumn("SELECT sum(o.price) FROM " . tablename("ewei_shop_order") . " o " . " left join " . tablename("ewei_shop_order_refund") . " r on r.orderid=o.id and ifnull(r.status,-1)<>-1" . " left join " . tablename("ewei_shop_member") . " m on m.openid=o.openid  " . " left join " . tablename("ewei_shop_member_address") . " a on o.addressid = a.id " . " WHERE o.id in ( " . implode(",", $arr) . ") and o.uniacid={$_W['uniacid']}", $paras);
+    $address    = false;
+    if (!empty($list)) {
+        $address = $list[0]["address"];
+    }
+    $address["sendinfo"] = '';
+    $sendinfo            = array();
+    foreach ($list as $item) {
+        foreach ($item["goods"] as $k => $g) {
+            if (isset($sendinfo[$g["id"]])) {
+                $sendinfo[$g["id"]]["num"] += $g["total"];
+            } else {
+                $sendinfo[$g["id"]] = array(
+                    "title" => empty($g["shorttitle"]) ? $g["title"] : $g["shorttitle"],
+                    "num" => $g["total"],
+                    "optiontitle" => !empty($g["optiontitle"]) ? "(" . $g["optiontitle"] . ")" : ''
+                );
+            }
+        }
+    }
+    $sendinfos = array();
+    foreach ($sendinfo as $gid => $info) {
+        $info["gid"] = $gid;
+        $sendinfos[] = $info;
+        $address["sendinfo"] .= $info["title"] . $info["optiontitle"] . " x " . $info["num"] . "; ";
+    }
+    include $this->template("print_tpl_detail");
+    exit;
+} elseif ($op == "shorttitle") {
+    if ($_W["ispost"]) {
+        $gid        = intval($_GPC["goodid"]);
+        $shorttitle = empty($_GPC["shorttitle"]) ? '' : $_GPC["shorttitle"];
+        if (!empty($gid)) {
+            $do     = pdo_update("ewei_shop_goods", array(
+                "shorttitle" => $shorttitle
+            ), array(
+                "id" => $gid
+            ));
+            $result = array(
+                "result" => "success"
+            );
+        } else {
+            $result = array(
+                "result" => "error",
+                "resp" => "æäº¤å‚æ•°é”™è¯¯ï¼è¯·åˆ·æ–°é‡è¯•"
+            );
+        }
+    } else {
+        $result = array(
+            "result" => "error",
+            "resp" => "éæ³•æäº¤ï¼"
+        );
+    }
+    die(json_encode($result));
+} elseif ($op == "pushdata") {
+    if ($_W["ispost"]) {
+        $arr = $_GPC["arr"];
+        $pt  = $_GPC["pt"];
+        if (empty($arr) || empty($pt)) {
+            die(json_encode(array(
+                "result" => "error",
+                "resp" => "æ•°æ®é”™è¯¯"
+            )));
+        }
+        foreach ($arr as $i => $data) {
+            $orderid     = $data["orderid"];
+            $ordergoodid = $data["ordergoodid"];
+            $ordergood   = pdo_fetch("SELECT * FROM " . tablename("ewei_shop_order_goods") . " WHERE id=:id and uniacid=:uniacid limit 1", array(
+                "id" => $ordergoodid,
+                ":uniacid" => $_W['uniacid']
+            ));
+            if ($pt == "print1") {
+                pdo_update("ewei_shop_order_goods", array(
+                    "printstate" => $ordergood["printstate"] + 1
+                ), array(
+                    "id" => $ordergood["id"]
+                ));
+                $orderprint = pdo_fetchcolumn("SELECT COUNT(*) FROM " . tablename("ewei_shop_order_goods") . " WHERE orderid=:orderid and printstate=0 and uniacid= :uniacid ", array(
+                    ":orderid" => $orderid,
+                    ":uniacid" => $_W['uniacid']
+                ));
+            } elseif ($pt == "print2") {
+                pdo_update("ewei_shop_order_goods", array(
+                    "printstate2" => $ordergood["printstate2"] + 1
+                ), array(
+                    "id" => $ordergood["id"]
+                ));
+                $orderprint = pdo_fetchcolumn("SELECT COUNT(*) FROM " . tablename("ewei_shop_order_goods") . " WHERE orderid=:orderid and printstate2=0 and uniacid= :uniacid ", array(
+                    ":orderid" => $orderid,
+                    ":uniacid" => $_W['uniacid']
+                ));
+            }
+            if ($orderprint == 0) {
+                $printstatenum = 2;
+            } else {
+                $printstatenum = 1;
+            }
+            if ($pt == "print1") {
+                pdo_update("ewei_shop_order", array(
+                    "printstate" => $printstatenum
+                ), array(
+                    "id" => $orderid
+                ));
+            } elseif ($pt == "print2") {
+                pdo_update("ewei_shop_order", array(
+                    "printstate2" => $printstatenum
+                ), array(
+                    "id" => $orderid
+                ));
+            }
+        }
+        die(json_encode(array(
+            "result" => "success",
+            "orderprintstate" => $printstatenum
+        )));
+    }
+} elseif ($op == "getPrintTemp") {
+    if ($_W["ispost"]) {
+        $type        = intval($_GPC["type"]);
+        $printTempId = intval($_GPC["printTempId"]);
+        if (empty($type) || empty($printTempId)) {
+            die(json_encode(array(
+                "result" => "error",
+                "resp" => "åŠ è½½æ¨¡ç‰ˆé”™è¯¯! è¯·åˆ·æ–°é‡è¯•ã€‚"
+            )));
+        }
+        $expSendTemp         = pdo_fetch("SELECT * FROM " . tablename("ewei_shop_exhelper_senduser") . " WHERE isdefault=1 and uniacid=:uniacid limit 1", array(
+            ":uniacid" => $_W['uniacid']
+        ));
+        $expTemp             = pdo_fetch("SELECT * FROM " . tablename("ewei_shop_exhelper_express") . " WHERE id=:id and uniacid=:uniacid limit 1", array(
+            ":id" => $printTempId,
+            ":uniacid" => $_W['uniacid']
+        ));
+        $shop_set            = m("common")->getSysset("shop");
+        $expDatas            = json_decode($expTemp["datas"], true);
+        $expTemp["shopname"] = $shop_set["name"];
+        $repItems            = array(
+            "sendername",
+            "sendertel",
+            "senderaddress",
+            "sendersign",
+            "sendertime",
+            "sendercode",
+            "sendercccc"
+        );
+        $repDatas            = array(
+            $expSendTemp["sendername"],
+            $expSendTemp["sendertel"],
+            $expSendTemp["senderaddress"],
+            $expSendTemp["sendersign"],
+            date("Y-m-d H:i"),
+            $expSendTemp["sendercode"],
+            $expSendTemp["sendercity"]
+        );
+        if (!is_array($expDatas)) {
+            die(json_encode(array(
+                "result" => "error",
+                "resp" => "è¯·å…ˆè®¾ç½®é»˜è®¤æ‰“å°æ¨¡ç‰ˆï¼"
+            )));
+        }
+        foreach ($expDatas as $index => $data) {
+            $expDatas[$index]["items"] = str_replace($repItems, $repDatas, $data["items"]);
+        }
+        die(json_encode(array(
+            "result" => "success",
+            "respDatas" => $expDatas,
+            "respUser" => $expSendTemp,
+            "respTemp" => $expTemp
+        )));
+    }
+} elseif ($op == "getOrderState") {
+    if ($_W["ispost"]) {
+        $ordersns = $_GPC["ordersns"];
+        $type     = $_GPC["type"];
+        $arr      = array();
+        foreach ($ordersns as $ordersn) {
+            $orderinfo = pdo_fetch("SELECT id,status,expresssn,expresscom FROM " . tablename("ewei_shop_order") . " WHERE ordersn=:ordersn and status>-1 and uniacid=:uniacid limit 1", array(
+                "ordersn" => $ordersn,
+                ":uniacid" => $_W['uniacid']
+            ));
+            $arr[]     = array(
+                "ordersn" => $ordersn,
+                "status" => $orderinfo["status"],
+                "expresssn" => $orderinfo['expresssn'],
+                "expresscom" => $orderinfo["expresscom"]
+            );
+        }
+        $printTemp = pdo_fetch("SELECT id,type,expressname,express,expresscom FROM " . tablename("ewei_shop_exhelper_express") . " WHERE type=:type and isdefault=1 and uniacid=:uniacid limit 1", array(
+            ":type" => 1,
+            ":uniacid" => $_W['uniacid']
+        ));
+        die(json_encode(array(
+            "printTemp" => $printTemp,
+            "datas" => $arr
+        )));
+    }
+} elseif ($op == "dosend") {
+    if ($_W["ispost"]) {
+        ca("exhelper.dosend");
+        $ordersn    = $_GPC["ordersn"];
+        $express    = $_GPC["express"];
+        $expresssn  = $_GPC['expresssn'];
+        $expresscom = $_GPC["expresscom"];
+        $orderinfo  = pdo_fetch("SELECT * FROM " . tablename("ewei_shop_order") . " WHERE ordersn=:ordersn and status>-1 and uniacid=:uniacid limit 1", array(
+            "ordersn" => $ordersn,
+            ":uniacid" => $_W['uniacid']
+        ));
+        if (empty($orderinfo)) {
+            die(json_encode(array(
+                "result" => "error",
+                "resp" => "è®¢å•ä¸å­˜åœ¨"
+            )));
+        }
+        if ($orderinfo["status"] == 1) {
+            pdo_update("ewei_shop_order", array(
+                "express" => trim($express),
+                "expresssn" => trim($expresssn),
+                "expresscom" => trim($expresscom),
+                "sendtime" => time(),
+                "status" => 2
+            ), array(
+                "ordersn" => $ordersn
+            ));
+            if (!empty($orderinfo["refundid"])) {
+                $refund = pdo_fetch("select * from " . tablename("ewei_shop_order_refund") . " where id=:id limit 1", array(
+                    ":id" => $orderinfo["refundid"]
+                ));
+                if (!empty($refund)) {
+                    pdo_update("ewei_shop_order_refund", array(
+                        "status" => -1
+                    ), array(
+                        "id" => $orderinfo["refundid"]
+                    ));
+                    pdo_update("ewei_shop_order", array(
+                        "refundid" => 0
+                    ), array(
+                        "id" => $orderinfo["id"]
+                    ));
+                }
+            }
+            m("notice")->sendOrderMessage($orderinfo["id"]);
+            plog("order.op.send", "è®¢å•å‘è´§ ID: {$item['id']} è®¢å•å·: {$item['ordersn']} <br/>å¿«é€’å…¬å¸: {$_GPC['expresscom']} å¿«é€’å•å·: {$_GPC['expresssn']}");
+            die(json_encode(array(
+                "result" => "success"
+            )));
+        }
+    }
+} elseif ($op == "autonum") {
+    $num = $_GPC["num"];
+    $len = intval($_GPC["len"]);
+    $len == 0 && $len = 1;
+    $arr    = array(
+        $num
+    );
+    $maxlen = strlen($num);
+    for ($i = 1; $i <= $len; $i++) {
+        $add    = bcadd($num, $i) . "";
+        $addlen = strlen($add);
+        if ($addlen > $maxlen) {
+            $maxlen = $addlen;
+        }
+        $arr[] = $add;
+    }
+    $len = count($arr);
+    for ($i = 0; $i < $len; $i++) {
+        $zerocount = $maxlen - strlen($arr[$i]);
+        if ($zerocount > 0) {
+            $arr[$i] = str_pad($arr[$i], $maxlen, "0", STR_PAD_LEFT);
+        }
+    }
+    die(json_encode($arr));
+} elseif ($op == "saveaddress") {
+    if ($_W["ispost"]) {
+        $ordersns     = $_GPC["ordersns"];
+        $address      = array(
+            "realname" => $_GPC["realname"],
+            "mobile" => $_GPC["mobile"],
+            "province" => $_GPC["province"],
+            "city" => $_GPC["city"],
+            "area" => $_GPC["area"],
+            "address" => $_GPC["address"]
+        );
+        $address_send = iserializer($address);
+        if (empty($ordersns)) {
+            die(json_encode(array(
+                "result" => "error",
+                "resp" => "è®¢å•æ•°æ®ä¸ºç©º"
+            )));
+        }
+        foreach ($ordersns as $ordersn) {
+            pdo_update("ewei_shop_order", array(
+                "address_send" => $address_send
+            ), array(
+                "ordersn" => $ordersn
+            ));
+        }
+        exit;
+    }
+}
+load()->func("tpl");
+include $this->template("doprint");

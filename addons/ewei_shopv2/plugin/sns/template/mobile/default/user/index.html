@@ -12,7 +12,7 @@
     </div>
     {/if}
 
-    <div class="fui-content">
+    <div class="fui-content navbar">
              <div class="user-bg">
                  <img data-lazy="../addons/ewei_shopv2/plugin/sns/template/mobile/default/images/userbg.png" class="bg" style="display: block"/>
                  <img data-lazy="{$member['avatar']}" class="head" />
@@ -28,8 +28,8 @@
             <span class="post">
                 话题数: {$postcount} 关注数: {$followcount} <br/>
                 社区积分: {$member['sns_credit']}
-                {if !empty($this->set['crediturl'])}
-                <a href="{$this->set['crediturl']}"><i class="icon icon-question"></i></a>
+                {if !empty($set['crediturl'])}
+                <a href="{$set['crediturl']}"><i class="icon icon-question"></i></a>
                 {/if}
             </span>
             <span class="sign">
@@ -151,4 +151,5 @@
 
 </div>
 
+{php $this->footerMenus()}
 {template '_footer'}

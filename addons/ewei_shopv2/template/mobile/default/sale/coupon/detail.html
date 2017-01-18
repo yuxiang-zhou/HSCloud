@@ -33,7 +33,7 @@
 				<div class="coupon-detail-head-info">
 					<span>{$coupon['title2']}{$coupon['title3']}</span>
 					{if $coupon['canget']===false}
-						<a href="javascript:void(0);"><p  style="color:#ccc;">以达到{$coupon['gettypestr']}上限</p></a>
+						<a href="javascript:void(0);"><p  style="color:#ccc;">已达到{$coupon['gettypestr']}上限</p></a>
 					{elseif $pass}
 						<a href="javascript:void(0);"  id="btncoupon"><p>立即{$coupon['gettypestr']}</p></a>
 					{else}
@@ -51,7 +51,7 @@
 						<strong>领取限制</strong>
 						{if $coupon['islimitlevel']=='1'}
 							<p>用户必须达到以下条件之一:</p>
-							{if !empty($coupon['limitmemberlevels'])}
+							{if !empty($coupon['limitmemberlevels'])|| $coupon['limitmemberlevels']==='0'}
 								<p>		会员:  {$meblvname}
 									{loop $level1 $l1}
 										{$l1['levelname']}
@@ -116,6 +116,11 @@
 					</div>
 					<div class="coupon-detail-content-info-bot">
 						<strong>使用限制</strong>
+
+						{if $coupon['coupontype']=='2'}
+						<p>本优惠卷只能在收银台中使用</p>
+						{/if}
+
 						{if $coupon['limitdiscounttype']=='1'}
 							<p>不允许与促销优惠同时使用</p>
 						{elseif $coupon['limitdiscounttype']=='2'}
@@ -140,7 +145,7 @@
 							{/loop}
 						</p>
 						{/if}
-						{if $coupon['limitgoodtype']=='0'&& $coupon['limitgoodtype']=='0'&&$coupon['limitdiscounttype']=='0'}
+						{if $coupon['limitgoodtype']=='0'&& $coupon['limitgoodtype']=='0'&&$coupon['limitdiscounttype']=='0'&&$coupon['coupontype']!='2'}
 						<p>无</p>
 						{/if}
 					</div>

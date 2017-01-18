@@ -104,7 +104,7 @@
             {php echo date('Y-m-d',$row['applytime'])}<br/>{php echo date('H:i',$row['applytime'])}
         </td>
         <td style="overflow:visible;">
-            {ifp 'merch.apply.detail'}
+            {ifp 'merch.check.detail'}
                 <a class='btn btn-default btn-sm' href="{php echo webUrl('merch/check/detail',array('id' => $row['id'], 'status' => $status))}">详情</a>
             {/if}
             {if $row['status'] != '2'}

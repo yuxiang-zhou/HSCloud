@@ -84,12 +84,28 @@
     <label class="col-sm-2 control-label">微信号</label>
     <div class="col-sm-9 col-xs-12">
         {ifp 'member.list.edit'}
-        <input type="text" name="data[weixin]" class="form-control" value="{$member['weixin']}"  />
+        <input type="text" name="data[weixin]" class="form-control" value="{$member['weixin']}" />
         {else}
         <div class='form-control-static'>{$member['weixin']}</div>
         {/if}
     </div>
 </div>
+
+<div class="form-group">
+    <label class="col-sm-2 control-label">积分上限</label>
+    <div class="col-sm-9">
+        <div class="form-control-static" style="padding: 0;">
+            <label class="radio-inline" style="padding-top: 10px; padding-bottom: 10px;"><input type="radio" class="btn-maxcredit" value="0" {if empty($member['diymaxcredit'])}checked{/if} {ifp 'finance.recharge.credit1'} name="data[diymaxcredit]" {else}disabled{/if}>读取系统设置</label>
+            <label class="radio-inline" style="padding-top: 10px; padding-bottom: 10px;"><input type="radio" class="btn-maxcredit" value="1" {if !empty($member['diymaxcredit'])}checked{/if} {ifp 'finance.recharge.credit1'} name="data[diymaxcredit]" {else}disabled{/if}>自定义</label>
+            <input type="number" class="form-control  maxcreditinput" value="{php echo intval($member['maxcredit'])}" style="display: {if empty($member['diymaxcredit'])}none{else}inline-block{/if}; width: 150px;" {ifp 'finance.recharge.credit1'} name="data[maxcredit]" {else}disabled{/if}>
+        </div>
+
+        {ifp 'finance.recharge.credit1'}
+        <span class='help-block text-danger'>会员积分上限，0为不限制(后台手动充值不限制，已持有积分不限制，保存后生效)</span>
+        {/if}
+    </div>
+</div>
+
 <div class="form-group">
     <label class="col-sm-2 control-label">积分</label>
     <div class="col-sm-3">
@@ -103,9 +119,9 @@
         {else}
         <div class='form-control-static'>{$member['credit1']}</div>
         {/if}
-
     </div>
 </div>
+
 <div class="form-group">
     <label class="col-sm-2 control-label">余额</label>
     <div class="col-sm-3">
@@ -227,3 +243,16 @@
     </div>
     {/loop}
 {/if}
+
+<script type="text/javascript">
+    $(function () {
+        $(".btn-maxcredit").unbind('click').click(function () {
+            var val = $(this).val();
+            if(val==1){
+                $(".maxcreditinput").css({'display':'inline-block'});
+            }else{
+                $(".maxcreditinput").css({'display':'none'});
+            }
+        });
+    })
+</script>

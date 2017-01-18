@@ -1,5 +1,5 @@
 {template 'common/header'}
-<title>分享页面</title>
+<title>分享</title>
 <style type="text/css">
 body {margin:0px; background:#f4f4f4;}
 .top {height:68px; background:#fff; border-bottom:#e3e3e3; overflow:hidden;}
@@ -27,6 +27,7 @@ body {margin:0px; background:#f4f4f4;}
 
 
 </style> 
+<!-- 商品码显示信息
  {if !empty($goods)}
       <div class="top">
     	<div class="ico"><i class="fa fa-cny"></i></div>
@@ -36,7 +37,7 @@ body {margin:0px; background:#f4f4f4;}
         </div>
     </div>
     {/if}
-    
+-->    
     <!-- 系统生成图片 开始 -->
     <div class="img">
         <img id='posterimg' style='display:none' />
@@ -45,19 +46,19 @@ body {margin:0px; background:#f4f4f4;}
 	<div class="info">
     	<div class="title">
         	<div class="ico"><i class="fa fa-cubes"></i></div>
-            <div class="text">如何赚钱</div>
+            <div class="text">如何分享</div>
         </div>
         <div class="con">
           <div class="line">
            	<div class="t1">第一步</div>
                 <div class="t2">
-                	<div class="t3">转发商品链接或商品图片给微信好友；</div>
+                	<div class="t3">转发如上链接或图片给微信好友；</div>
                 </div>
           </div>
           <div class="line">
            	<div class="t1">第二步</div>
                 <div class="t2">
-                	<div class="t3">从您转发的链接或图片进入商城的好友，{if $this->set['become_child']==1}如果您的好友下单，{/if}{if $this->set['become_child']==2}如果您的好友下单并付款，{/if}系统将自动锁定成为您的客户, 他们在微信商城中购买任何商品，您都可以获得{php echo $this->set['texts']['commission1']}；</div>
+                	<div class="t3">从您转发的链接或图片进入天香赋的好友，{if $this->set['become_child']==1}如果您的好友下单，{/if}{if $this->set['become_child']==2}如果您的好友下单并付款，{/if}系统将自动锁定成为您的香粉, 他们在微信商城中购买任何商品，您都可以获得{php echo $this->set['texts']['commission1']}；</div>
                 </div>
           </div>
           <div class="line">
@@ -67,7 +68,7 @@ body {margin:0px; background:#f4f4f4;}
                 </div>
           </div>
   	    </div>
-        <div class="info2">说明：分享后会带有独有的推荐码，您的好友访问之后，系统会自动检测并记录客户关系。如果您的好友已被其他人抢先发展成了客户，他就不能成为您的客户，以最早发展成为客户为准。</div>
+        <div class="info2">说明：分享后会带有独有的推荐码，您的好友访问之后，系统会自动检测并记录客户关系。如果您的好友已被其他人抢先发展成了香粉，他就不能成为您的香粉，以最早发展成为香粉为准。</div>
 	</div>
 
     <!-- 底部浮层 开始 -->

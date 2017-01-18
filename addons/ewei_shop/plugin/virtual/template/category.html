@@ -53,8 +53,14 @@
          html+='</td><td></td></tr>';;
          $('#tbody-items').append(html);
     }
-
+    require(['bootstrap'], function ($) {
+        $('.btn').hover(function () {
+            $(this).tooltip('show');
+        }, function () {
+            $(this).tooltip('hide');
+        });
+    });
 </script>
  
-{template 'web/_footer'}
+{template 'common/footer'}
 

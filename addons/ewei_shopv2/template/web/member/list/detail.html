@@ -36,8 +36,15 @@
 				<div id="tab-basic" class="tab-pane active">{template 'member/detail/basic'}</div>
 				<div id="tab-trade" class="tab-pane">{template 'member/detail/trade'}</div>
 				{if $hascommission}
-                                                                                {ifp 'commission.agent.main'}
-				<div id="tab-commission" class="tab-pane">{template 'member/detail/commission'}</div>
+                {ifp 'commission.agent.main'}
+
+				<div id="tab-commission" class="tab-pane">
+                    {if p('cmember')}
+                    {template 'cmember/commission'}
+                    {else}
+                    {template 'member/detail/commission'}
+                    {/if}
+                </div>
 				{/if}
 				{/if}
 

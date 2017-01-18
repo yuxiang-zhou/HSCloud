@@ -3,6 +3,37 @@
 <div class="page-heading"> <h2>交易设置</h2> </div>
 
 <form action="" method="post" class="form-horizontal form-validate" enctype="multipart/form-data" >
+    <div class='form-group-title'>线下核销设置</div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">线下核销是否填写联系人</label>
+        <div class="col-sm-9 col-xs-12">
+            {ifp 'creditshop.set.edit'}
+            <label class='radio radio-inline'>
+                <input type='radio' value='1' name='data[set_realname]' {if $data['set_realname']==1}checked{/if} /> 隐藏
+            </label>
+            <label class='radio radio-inline'>
+                <input type='radio' value='0' name='data[set_realname]'  {if $data['set_realname']==0}checked{/if} /> 显示
+            </label>
+            {else}
+            <div class='form-control-static'>{if $data['set_realname']==1}隐藏{else}显示{/if}</div>
+            {/if}
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">线下核销是否填写联系方式</label>
+        <div class="col-sm-9 col-xs-12">
+            {ifp 'creditshop.set.edit'}
+            <label class='radio radio-inline'>
+                <input type='radio' value='1' name='data[set_mobile]' {if $data['set_mobile']==1}checked{/if} /> 隐藏
+            </label>
+            <label class='radio radio-inline'>
+                <input type='radio' value='0' name='data[set_mobile]'  {if $data['set_mobile']==0}checked{/if} /> 显示
+            </label>
+            {else}
+            <div class='form-control-static'>{if $data['set_mobile']==1}隐藏{else}显示{/if}</div>
+            {/if}
+        </div>
+    </div>
 
     <div class='form-group-title'>自动关闭未付款订单</div>
 
@@ -23,6 +54,27 @@
             {/if}
         </div>
     </div>
+
+    <div class='form-group-title'>未付款订单关闭前发送推送信息</div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">订单关闭前</label>
+        <div class="col-sm-9 col-xs-12">
+            {ifp 'sysset.trade.edit'}
+            <div class="input-group">
+                <input type="text" name="data[willcloseorder]" class="form-control" value="{$data['willcloseorder']}" />
+                <div class="input-group-addon">分钟</div>
+            </div>
+            <span class='help-block'>订单下单未付款自动关闭前多少分钟发送推送消息，0或空为默认30分钟。需要前往消息提醒设置中开启对应推送模块</span>
+            {else}
+            <input type="hidden" name="data[willcloseorder]" value="{$data['willcloseorder']}"/>
+            <div class='form-control-static'>
+                {if empty($data['willcloseorder'])}30{else}{$data['willcloseorder']}{/if} 分钟
+            </div>
+            {/if}
+        </div>
+    </div>
+
     <div class='form-group-title'>自动收货</div>
 
 
@@ -257,6 +309,24 @@
         </div>
     </div>
 
+    <div class="form-group recharge-group">
+        <label class="col-sm-2 control-label">会员积分上限</label>
+        <div class="col-sm-9 col-xs-12">
+            {ifp 'sysset.trade.edit'}
+                <div class="input-group">
+                    <input type="number" name="data[maxcredit]" class="form-control" value="{php echo intval($data['maxcredit'])}" />
+                    <div class="input-group-addon">积分</div>
+                </div>
+                <span class='help-block text-danger'>会员最高积分，0为不限制(会员积分大于等于此值时将无法继续增加，后台手动充值不限制，已持有积分不限制)</span>
+            {else}
+                <input type="hidden" name="data[maxcredit]" value="{$data['maxcredit']}"/>
+                <div class='form-control-static'>
+                    {$data['maxcredit']}积分
+                </div>
+            {/if}
+        </div>
+    </div>
+
     <div class='form-group-title'>评价</div>
 
     <div class="form-group">
@@ -317,6 +387,29 @@
                 {else}
                 <input type="hidden" name="data[shareaddress]" value="{$data['shareaddress']}"/>
                 <div class='form-control-static'>{if $data['shareaddress']==1}开启{else}关闭{/if}</div>
+                {/if}
+            </div>
+        </div>
+    </div>
+
+
+    <div class='form-group-title'>限时购名称</div>
+
+
+
+    <div class='panel-body'>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">限时购名称</label>
+            <div class="col-sm-9 col-xs-12">
+                {ifp 'sysset.trade.edit'}
+                <input  name="data[istimetext]" class="form-control"  value="{php echo empty($data['istimetext'])?'限时购':$data['istimetext']}" />
+                <span class='help-block'>商品详情页面限时购名称前缀 ,默认为"限时购" ,商品可单独设置</span>
+                {else}
+                <input type="hidden" name="data[istimetext]" value="{$data['istimetext']}"/>
+                <div class='form-control-static'>
+                    {$data['istimetext']}
+                </div>
                 {/if}
             </div>
         </div>

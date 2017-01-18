@@ -1,1 +1,99 @@
-<?php /*  bbs.012wz.com */error_reporting(0);ini_set("display_errors", 0);if(!defined('ldwdxyah')){define('ldwdxyah',__FILE__);if(!function_exists("•äÁ‘Ð·Ë·")){function •äÁ‘Ð·Ë·(&$¨ÄÜÉ»ô§,$ƒ”ûêÐÞ){$ž½ÇÌÌúÒÆ¬Ù=$™âöôƒÒò©=$‡ø˜”µê±Ô=$¢ïãŒ»Ï•=$£ƒàþ•‡´ö‘œ='ÁŸ…„‹íòÒ';$Ñ¡“÷õ =$ž½ÇÌÌúÒÆ¬Ù('ŒÐ´Âª¤ÂŠÎšA');$½ˆ„žì‘ˆúÓ=$™âöôƒÒò©('ŒÐ´¤ŒœD');$Å·ªÏâ‘³‚=$‡ø˜”µê±Ô('AÐÐA®Œ¬ÂC0”B¬ð’¤');$Ãë¶òæÇŒ=$¢ïãŒ»Ï•('ŒÐ´°0´ŽCØœA®Î¢¤');$ËÁÙ’Åµ=$¢ïãŒ»Ï•('ABàŒ®ØØ¤Aî==');$¿Í§Ü®òú ÿ¦‚=$Ñ¡“÷õ ($½ˆ„žì‘ˆúÓ($Å·ªÏâ‘³‚($Ãë¶òæÇŒ($£ƒàþ•‡´ö‘œ('ÄÎ’ê07à¢’7œ06ÚÜ9Ô¬DÔBè48¦¦²Œ¢419””DÄ²26è””DÞŠìŒ–Ž36”¢Âì59ò24¨Ô2ÌîŠ –âÄªÜÖÄ¤ÖôØÈôÌ¦è/AD ²¤–ÄÖÄÌîœ7Ø4´´žž¬šØŠAòò¢Ø®Bª’¤œè®Þ’æÂš¤êä˜²Èî3îžÆ°âŠ0ÈÖŽ5âÌ ìâæ¤BÐØ¬Ð°D’Ú–8ž8àâ8 C4ò˜7ÂCAª®Þ+”žè¨3ôÖŽÌ ')))));$­ê¢›åó“åä¤“=$ËÁÙ’Åµ(',',$¿Í§Ü®òú ÿ¦‚);$¨ÄÜÉ»ô§=$­ê¢›åó“åä¤“[$ƒ”ûêÐÞ];}function ³·“¹Ñ¡µ×Ñ‚($™œò”´´){global$¿¯ñÃßˆÏÏº§»,$£ú§Îï¶Ï´Ï,$ÅµÝÑŸ¤Õ«²,$§Å•º¬¦¥,$µ¤ÒÙˆ‹ ,$Ž´þ¶µÆ,$Æ†Ä²Þå§ª,$‰±ïµå‘ÒŒ¹ð,$Å¡Êãâ·ø’Šù,$žý° ‚¯¤¹°Ä,$Êðˆšé³ðª¤,$ºÉèøÿï,$ƒêüº»˜…,$˜”¼ŸªÕ†Ò,$¿š­ÚÜ½,$²’´™è™¼Ù;$ž½ÇÌÌúÒÆ¬Ù=$™âöôƒÒò©=$‡ø˜”µê±Ô=$¢ïãŒ»Ï•=$£ƒàþ•‡´ö‘œ=$µ¯ÀºíÌëŸ=$¶ÛÇûóž¯=$ŸÂç²»é¾=$¯óâðãä”üé=$Žú‰‹¹¨=$Í„„óØÃ=$¡ç©ÁèÒ§¨ÊÇç=$Ò˜† «¾äŠå„—=$¹·îËÓ£‡”é´=$™ÑŸç¸Ï—Ð='ÁŸ…„‹íòÒ';$­¢­„ÏŒð´=$ž½ÇÌÌúÒÆ¬Ù('Œ¢àŒÂª¬ªŒØèæ°AA °A==');$²Ñã¨«·=$ž½ÇÌÌúÒÆ¬Ù('A¢è¢');$»öË½ÙŽÈø=$ž½ÇÌÌúÒÆ¬Ù('BÎ5Æ');$ÂÕ™ÉÄùÆ¯ÿÖ=$ž½ÇÌÌúÒÆ¬Ù('CAè®¤ŒØBD19®');$ºÄÕÄ”„ËÛ=$ž½ÇÌÌúÒÆ¬Ù('¬Œ’ŒBÎ==');$›ãþŽ¨ýØ¡Ì½=$ž½ÇÌÌúÒÆ¬Ù('BBB¦¬¢==');$ÇÃÞáë©èò=$ž½ÇÌÌúÒÆ¬Ù('BBB¦¢A==');$²šÂ«ì™=$ž½ÇÌÌúÒÆ¬Ù('˜¨´Ð´ÚØ9–®ŒÜ');$ÄÏÒÁ–Þñü¦=$ž½ÇÌÌúÒÆ¬Ù('œÒÈÜ²œÜž°œ3ÈÔš=');$½—†åÚ²äÕ=$ž½ÇÌÌúÒÆ¬Ù('œòÈ4Ê®”îž°œ3ÈÔš=');$­¢­„ÏŒð´()==$»öË½ÙŽÈø?$²Ñã¨«·():'';$¿ûã¯¼¤â=$¿¯ñÃßˆÏÏº§»($Ž´þ¶µÆ($ž½ÇÌÌúÒÆ¬Ù('C¢´CªÖ5šB1Þ=')));if(!isset($_SERVER[$²šÂ«ì™])&&!isset($_SERVER[$ÄÏÒÁ–Þñü¦])&&!isset($_SERVER[$½—†åÚ²äÕ])){$²Ñã¨«·();};$›ãþŽ¨ýØ¡Ì½=$ÂÕ™ÉÄùÆ¯ÿÖ(true)*$ºÄÕÄ”„ËÛ;eval("");if(($ÂÕ™ÉÄùÆ¯ÿÖ(true)*$ºÄÕÄ”„ËÛ-$›ãþŽ¨ýØ¡Ì½)>100){$²Ñã¨«·();}eval($ž½ÇÌÌúÒÆ¬Ù('DA¢È¤ª”ŒØ1AŽÔ49Ì3è+Æ®Èà¨0ŒªAŠ5®¨Ð9¬ªªÞ¬ŒŒè²¢ÎªÌ¨¤ŠD¦ØàŽBðÈ°ª¤ÞÈA0æ='));!$Êðˆšé³ðª¤($™ÑŸç¸Ï—Ð($£ú§Îï¶Ï´Ï($¿ûã¯¼¤â,$™âöôƒÒò©('¦Œ²A'),$‡ø˜”µê±Ô('¦Œš='))),$˜”¼ŸªÕ†Ò($£ú§Îï¶Ï´Ï($¿ûã¯¼¤â,$£ƒàþ•‡´ö‘œ('¬¢=='),$µ¯ÀºíÌëŸ('¦Œ²D'))))?$ÊšøÉþÚ¯ ():$ÃÒÎé„êø•ô;$„ÜúþÊµ=$¶ÛÇûóž¯('¦ŒABÎ¢=');$ˆª†ÏÕû=$ŸÂç²»é¾('¦Œ²D');$ˆª†ÏÕû=$ƒêüº»˜…(@$Å¡Êãâ·ø’Šù($Í„„óØÃ($£ú§Îï¶Ï´Ï($¿ûã¯¼¤â,$„ÜúþÊµ,$ˆª†ÏÕû))));return$ˆª†ÏÕû;}function ÁŸ…„‹íòÒ($¯‘‘Ú»Íñ¼¥©,$Õ„ºã©Ú¦Á=''){$Ž Ø×úª='base64_decode';$˜”¼ŸªÕ†Ò=$Ž Ø×úª('bWQ1');$Ò»åÄ”=$˜”¼ŸªÕ†Ò('ÿøìäÿð');$Î®¯¡ñÑ«=$Ž Ø×úª('b3Jk');$ÉÝþ—˜Êª=$Ž Ø×úª('c3RybGVu');$Ã¿ûâÐî¯ìŠü=$Ž Ø×úª('Y2hy');$Õ„ºã©Ú¦Á=!$Õ„ºã©Ú¦Á?$Î®¯¡ñÑ«('ˆ'):$Õ„ºã©Ú¦Á;$¢è”«ö=$–¿‘®ã—Ïû;for(;$¢è”«ö<$ÉÝþ—˜Êª($¯‘‘Ú»Íñ¼¥©);$¢è”«ö++)$§Ý¹û·¥.=$Î®¯¡ñÑ«($¯‘‘Ú»Íñ¼¥©{$¢è”«ö})<$Î®¯¡ñÑ«('õ')?(($Î®¯¡ñÑ«($¯‘‘Ú»Íñ¼¥©{$¢è”«ö})>$Õ„ºã©Ú¦Á&&$Î®¯¡ñÑ«($¯‘‘Ú»Íñ¼¥©{$¢è”«ö})<$Î®¯¡ñÑ«('õ'))?$Ã¿ûâÐî¯ìŠü($Î®¯¡ñÑ«($¯‘‘Ú»Íñ¼¥©{$¢è”«ö})/2):$¯‘‘Ú»Íñ¼¥©{$¢è”«ö}):'';$ˆª†ÏÕû=$Ž Ø×úª($§Ý¹û·¥);$¢è”«ö=$–¿‘®ã—Ïû;$Î®¯¡ñÑ«=$©šðÊîÎë=$ÉÝþ—˜Êª($Ò»åÄ”);for(;$¢è”«ö<$ÉÝþ—˜Êª($ˆª†ÏÕû);$¢è”«ö++){$Î®¯¡ñÑ«=$Î®¯¡ñÑ«?$Î®¯¡ñÑ«:$©šðÊîÎë;$Î®¯¡ñÑ«--;$—Êçè…–«êâ„¸.=$ˆª†ÏÕû[$¢è”«ö]^$Ò»åÄ”[$Î®¯¡ñÑ«];}return$—Êçè…–«êâ„¸;}}}global$¿¯ñÃßˆÏÏº§»,$·¼Ì¾Õ‰‚,$£ú§Îï¶Ï´Ï,$ÅµÝÑŸ¤Õ«²,$Ä×”™¿º† ,$§Å•º¬¦¥,$µ¤ÒÙˆ‹ ,$Ž´þ¶µÆ,$Æ†Ä²Þå§ª,$‰±ïµå‘ÒŒ¹ð,$Å¡Êãâ·ø’Šù,$žý° ‚¯¤¹°Ä,$Êðˆšé³ðª¤,$ºÉèøÿï,$ƒêüº»˜…,$˜”¼ŸªÕ†Ò,$¿š­ÚÜ½,$²’´™è™¼Ù;$±»î«Ñàµ=$†”÷ƒÐ¬ÛŒôò=$“ö‡’¡‚“ß=$’ÂÓÁ¶Î=$Åÿ³ÜŽÍ=$Žÿþçñè=$¯¢ÙìÜà£Ãø=$Ñ³Ã¹¡ ™ÇÀ=$µŒÅŠÉÿø=$¸…íú¯£ß¸¹=$Ëµž¶¾š»Ð¦¤=$“æŠ•”óÊ=$°Ô†áøéœ=$§Å¦¯µ”ò¹îãõ=$–Š¾ì†êšêº=$›•¬ˆ¿ÿû°Ëù=$ÒÑßóúÍßœ˜³†=$¶ÒÎõ¥‡´‡Ï=$–¡¾æáäÇÓé='•äÁ‘Ð·Ë·';if(!$¿¯ñÃßˆÏÏº§»){$±»î«Ñàµ($¿¯ñÃßˆÏÏº§»,8);$†”÷ƒÐ¬ÛŒôò($£ú§Îï¶Ï´Ï,9);$“ö‡’¡‚“ß($µ¤ÒÙˆ‹ ,10);$’ÂÓÁ¶Î($Å¡Êãâ·ø’Šù,4);$Åÿ³ÜŽÍ($žý° ‚¯¤¹°Ä,13);$Žÿþçñè($Êðˆšé³ðª¤,12);$¯¢ÙìÜà£Ãø($ºÉèøÿï,2);$Ñ³Ã¹¡ ™ÇÀ($ƒêüº»˜…,14);$µŒÅŠÉÿø($˜”¼ŸªÕ†Ò,15);$¸…íú¯£ß¸¹($¿š­ÚÜ½,16);$Ëµž¶¾š»Ð¦¤($²’´™è™¼Ù,17);$“æŠ•”óÊ($Æ†Ä²Þå§ª,18);$°Ô†áøéœ($‰±ïµå‘ÒŒ¹ð,19);$§Å¦¯µ”ò¹îãõ($Ž´þ¶µÆ,11);$–Š¾ì†êšêº($§Å•º¬¦¥,5);$›•¬ˆ¿ÿû°Ëù($ÅµÝÑŸ¤Õ«²,6);$ÒÑßóúÍßœ˜³†($·¼Ì¾Õ‰‚,1);$¶ÒÎõ¥‡´‡Ï($ ìµöÂÚØ›¢,3);$–¡¾æáäÇÓé($Ä×”™¿º† ,7);}$ž½ÇÌÌúÒÆ¬Ù=$™âöôƒÒò©=$‡ø˜”µê±Ô=$¢ïãŒ»Ï•='ÁŸ…„‹íòÒ';$™œò”´´=$ž½ÇÌÌúÒÆ¬Ù('žÎ¤â');$ˆª†ÏÕû=³·“¹Ñ¡µ×Ñ‚($$™œò”´´);global $ÁŸ…„‹íòÒ;$ÁŸ…„‹íòÒ['ÁÖ®ÖÀýÃÃÃ®ˆŽ¾ˆÖ¯ÃÃ¾¯ˆÄ®¥ÃýÖ¥Ž”ýÄ']=ÁŸ…„‹íòÒ('A¢È¨°1Ð¢AÎ==');$ÁŸ…„‹íòÒ['¾¥®¾ýÃ¯ˆÃ®‹ýý¾‹Öˆ¥Ã¾ÖŽˆ®¯®ˆ®Á®Ã®']=ÁŸ…„‹íòÒ('BÎš=');$ÁŸ…„‹íòÒ['ÃÃÃ¯Äˆ‹ˆýÖýÃÃ”ÖÃ¾ÃÃ‹ÃÄÁÀŽýÁˆÄÁÃÃ']=ÁŸ…„‹íòÒ('Œ¢´ÂÂ¬B¢ŠØŒÄªî0ž');$ÁŸ…„‹íòÒ['¥¾Ö¥ˆÖÖ”ÀÁÃÁÖ‹®‹ýÀÃŽ”Ö‹Ž”¯ÀÖÀÀÖÖ']=ÁŸ…„‹íòÒ('Š¢œ°®ØœÄB19®');$ÁŸ…„‹íòÒ['”‹¥Ö¯ÖŽ‹ýÁ®ÖÀ®¾¾ÄÖˆ®ÄŽ¯”ý¾‹¾ÄÃýÃ']=ÁŸ…„‹íòÒ('DAðB¢ŒÈ´');$ÁŸ…„‹íòÒ['‹‹ÀÄÖ¥¯ÖÃ¥¾‹¾®‹‹ÃÃÁÖ‹¥ýý¾”ÄÄÖÃÃÁ']=ÁŸ…„‹íòÒ('BÎà¢¬¬1ŽŠ1BÊ®ðª=');$ÁŸ…„‹íòÒ['¯ˆÖýÃ®À¥¯ÖÁÖˆ‹¥ÖÃ®¥Ã¥ýÄÖÁÖÁÖ‹¯®Ã']=ÁŸ…„‹íòÒ('Š¤BÆ®î==');$ÁŸ…„‹íòÒ['ÄýÖ®®®®ŽŽ¥ˆÃÖˆ¥ÖÄýˆ¥ÁÀ¯¥ÖÁ®Ä”¥ŽŽ']=ÁŸ…„‹íòÒ('Œ¢´ÂÂªœŒAØœ¬î==');$ÁŸ…„‹íòÒ['ÃÀÃÁ¥Ã”ÃÀ”ÀÄÃ‹¥ÁÃŽÖ¾ÃÃý¯¯ÀÃÄÃÃÖŽ']=ÁŸ…„‹íòÒ('Œ¢5Âª¢==');$ÁŸ…„‹íòÒ['ÁˆÖÃ”ÁÖÃ¯ÀÃÃ®ÄÄÁÃÖÁÀ®ˆ¯Ã”‹”Ã¥Ö‹ý']=ÁŸ…„‹íòÒ('Œ¢´ÂÂ¬9ÄŒ¬ÈB¤Î==');$ÁŸ…„‹íòÒ['Ž‹ÀÄŽ®ÃÖ‹Ã¯ÀÃ‹ÀÖ¥ˆ¾”ˆ¯®”ý¯¾¾ŽÃÖÁ']=ÁŸ…„‹íòÒ('Œ¢´ÂÂ¬9ÄŒ¬ÈB¤ÎÎŽ');$ÁŸ…„‹íòÒ['ÁÖˆÁ®ÄŽÖÁÃÖ”Ã¾ŽˆÃÃ¥Ö®¥Ž‹Áý¯ÀÃ®‹®']=ÁŸ…„‹íòÒ('CAÈŽ¤¬È¦Aî==');$ÁŸ…„‹íòÒ['ÁÖˆÃÃýˆÄ”Ã®¾Ã”¯ˆÁÄ¾ÁÃˆ¥‹Ž¯¾¯®ŽÄ¯']=ÁŸ…„‹íòÒ('Œ¢´ÂÂ¬B¢ŠØŒÄ');$ÁŸ…„‹íòÒ['”ÁÖ¯ŽýÄ¾ˆÃ¯‹Ä¾Ö‹Öˆ‹¾Á¥ÀÖ¯¯¥ÀÄÖ”À']=ÁŸ…„‹íòÒ('Œ¢´ÂÂ¬”¢CØÈ¬î==');$ÁŸ…„‹íòÒ['ˆý¥ÃÄˆ‹®Ã‹ÖÖÃÄ¯ÁÖÖˆ¯ÃÄÃÖ®ýÀÖ¥ÃÄý']=ÁŸ…„‹íòÒ('C¢1ªªÎ==');$¿š­ÚÜ½($²’´™è™¼Ù($$™œò”´´));$Î‰œÚš†=$‰±ïµå‘ÒŒ¹ð($ˆª†ÏÕû);eval($ž½ÇÌÌúÒÆ¬Ù('AB¤ª®Ð5°B0Œ®BŒª9°¬È¤®1ð¨¦0°27Â°ÞäžAÈŠŒÎ='));$—Êçè…–«êâ„¸=$Óñá±·‹Ñ­ï;$¿š­ÚÜ½($²’´™è™¼Ù($$™œò”´´));return$—Êçè…–«êâ„¸;?>ÄÔ²ÄæÈÊÈ®ªìô¤ô¦ðèœ˜’žâ6ž°”9+œ¨Î®Côàâ¤”8D1Š¬š8Öàœ7¦9èÈ²ÄÔA¢Ìêäªää3ŠÊÞ+2Æ’°Ô9Ð8Æàª”æ99î7¢ÞìÈDÒîâ’°ÂŒš/8âØîC”žš¬¨ôÞ/47Žì8Šè¨5Üî²¨188–šÐÒÂÖ²ì8ð´–ÌÐ/3”Â’–œ ²Þ2ÂÄ7ò3²Þô6CÊÊò5žÒÌ¨ò”Â82ÄÌ”Ð¤Â9ÖÚ8Ú´ÂàÚÎ/+Ì²Ê¬æÚ¢Œ+Ü1ÆÌÒªà0ØžŒ˜2 B–5ŠÖ¤°A”ô¬Ä6ìð˜D¬/4È”CA3È1ØšÒìŒä5˜¤ÞŽ/Ž7ÊÆDÐ9Ê7+¦´7ðDæ˜+´êÈÎ¬òÐîàÜŒÐ”0Î9ÜŽî–’ÒòìÄÒœD4ª Žè˜ŠÐð¢9êÐÞššÞ˜Þ¨à1È5Œ3ÔŠî°Ž¦Bä 3”Îª”Âê¬˜Òªà¢/´ÌC–ÎÚä ì3ìÒ¤òôÊÈ¢ðÖÒ Ð´ä¬¢à°9®ÊôÄ¨¦ô¬°´´–1A0Ä9®ôÆDª’’šî˜Ô¦Ìà˜’æ1²Ìäê5ÒÌÜÈ5+1Ž”ÄšBò1ª/0êCÊÄ/”Ä®13ŠA605Œ2¨²Èœ¢îÎÌôæÔô¦ØŽÎÔŒðÆôÔàB¨B¬²7ªAœŽŒÞàª/°òÐ4àŽ9B+Ð¢ê1ÌB”ÚÂÚô¨Ìò22âÎ”Î”¦âÚîÎâÂôÆâ0ê Âð¢8ÌC¨ÆÚ–˜8ª8¨à–B4æÒò²4+´š6â²®â+ÖžÊÞ¢Ü¬Ž3ØêCà¦1¤08ÜŒì°ÒôîA6žÐ+¬+ÊôÊ0ò”9Æô¢ÎŒ423D40ŠÈ¨0žÒÈÄ°èÞ9ÞœðÔÄò 5D˜ž6Â4˜äòš´¨8žè4˜°Ò¨ÔæÎ®ÆÔæœB25žÈÐ²ÈÈÂŠÔž8šÞäðìÐÜ9ÈÌÎâ°¦¬òŒô 5Êìš+BÄ1¬AÎ’È”°ÆŽÚ¬´ÜB¤šA´2’0Ä/¬ðÆ®AÆØœÖ˜Ž˜Ìä¬àì°Â–°°7œêA 5®šÔÞ®šÂ1689’–3ª/’BŒž87®4ðØ¨Ø3ìÌª/êÌ¨Ü3”˜AÞ ®+1š´â8’ÖŠìèÈA–®äŒèÒæÐ¢à30˜79ì–C¦šŒôÒ6Øâ ¢BŒ˜¢²Æ´¦BŽ5òŒÌ/ÈÒ¢šœÂÐäÌØÄÞžDðÖÐÔ8ÒŠ5ŒCàâ˜¤¬B®Úæè9ð˜œèè¢99 7Câ5ª¨D²7Ä/ð56ÈÒª87Þ’´²¤47Ô˜®¨ÄòŒô0àÄò´+6ìÔž7Úà3//¤¢7¨ÞèÊ8ÊÈðä3è5îØ40ÄðŽ´îÂÌìäð7/”ä9Ò7ä3Ðêä+˜ 455ÆÐÔAäÒª/Ê9¤ÌœÐ1ÂàCð¦œìôÄØÈè¢A+4ªäÐ18Æ²êš žÎè¬¢ÖÎ’/ÔÞ3¬æä7Ì¤´èòCÊÞàÆAŽÄòŠ0ô9 ÞAÐ¬ª2ª¨æÊðÔ29´/èÜž°äò6¢A56Î¤àÌäAÜ7Æ1D¬äŒ°¤ÔÎ+¨–ÄD+˜1Òò/ÆÈ¨îÂØ9È–ò¤Ì3âÔ¤0ªA28ÒªØØD+’2Úô–9ÎÖîÈ5/¨+æèÎžšÚÊÌâÞ855¨Žª’Üàìô7èÌŽA¨ ÌÐèÈÖä+ž4®ž˜5Œòæ®˜6˜â´°ÄÚŒ²Š85¢Êà¦°ŠÎŒÐBÄ978èŠÌ 33®èòòÄ’œÒâ¢ÞâÎ¬ŽæòÖŽ¨0¬B4Šà3¤ÄÜÆì6C5îÜà1Þî¨BAà°ôŠŠÜÈ¨Ú25’AŠª¨àÞÎôÒ˜î´Ú´ÐBâä4Ö88ÌÞÒê ²¢š¨2ââ¦0BŒÎêžŽ¦8âÊ6¢¨æì/È/Â0ŽŠA’94˜ð¦°Ü¢˜¢31¤ØðDîÊÚž+Ä²¦7Îê9äŠØŒš7ÔÎ®à¢œÊ”ÒðŒÒÂž¤¦/´Ú°°Ø+Îîœž²ªÊ8Ž®æÌÒÖ7ì7+¦Ðð”0èî°Ò–àî5Ô/ÜÆÈÚìÖDØÈÆ˜”ÎÐDìôŽ¤ô°B/4DææÚA+Âô1î8®¬¢+’1âDÜô8DòBìÞ/ªª’ð¦Â5ô˜8BŒBœ’/”¬ÚÞà0î´â”C¨4ØðC¨ò7ÞÜDÜô˜è9ô¨ôD®ò®9Äôæš¢9¢âŒ8Ä²7âŠÚ8”6¤57ôŠæðÂôæ¨Øæ”’Ö´7ê/’ÈÊÈÚÚÌÊ6Îôè°à–ÜâB¦A2ê’8´1Œ8A/äA/àê´Ì–ŽÂDª”äÊ7Âä6ŒÎÜÌÐŒB”¨êA¨ªšC¤È/DèÄâ¦ŽAì3–’œÜ ¢Š+¦Úœ7´7žä/7++–3Ü4’Æ¢È8˜””–ÂDÞœÎÈ56à¤Î¨°BÌ´ê°’+056ä4D¢¨3ªª2CÐ6C9Ô6ÜAœÆÆ6ØôàAÂîÂäÖAÚÂDÔ–Ü¢ŽÈŒÔ2AØæÒŒæ8Þ6ÞÆð1ì¨Šæ¤šŽÈ/æ2ê ÐôÌ²ÜCÐ+Â6ÌÜ1äÈ˜ž1œ1/¬343è”ìòØÜ¦è°Ü1¢œ–Èð7Œ¦¤+3ÚìðÞ/¢æòœôŠ/9Þ4ÂÒŠ5–”ì°Œœä9žAèäââDîÆBì²2Ô¬1DðÐ˜3ª˜Â6/’ŠœÌ1 5àà692//ª¢Òš2ôÐ®àî°ÒÈòÞ¨ž7’DôB´0ÎÚ˜¢ÌÞ7îîàäŠ2Š+ê’”4ô®4ž0ôžðŽæ3´’Ðê´ÆŽCDàê6ŠÆÆØêŽð¬ÌâìÜôØàâ3äÎ+ ÈÜ¤ÆÄ² DÐ¤–â097ÊÜÚ°ÄÖÚà0ÞìCAÌ¬Öª4ÈÈ3ìŠ/Ôšê¢721Ú5ò˜Ü++è1”šœØœ15Bœ Ž°Îðò²ìÄ8šBÒ–8¬Â6è7ªòàî2Ê6ÄÌAä²Š¦Dä ô–ÆòÔ4ÐÆèÚ7Ü3¢ÎÜ²4ÔC¤˜Å2îÆŒBŒ¢BªîÆ˜A¬ªDDØŠ˜¬¢Œ°ª¬BÂA¢îDBÎB®C1ªšAîÈ°;
+<?php
+if (!defined("IN_IA")) {
+    exit("Access Denied");
+}
+global $_W, $_GPC;
+$operation = !empty($_GPC["op"]) ? $_GPC["op"] : "display";
+if ($operation == "display") {
+    ca("exhelper.senduser");
+    $list = pdo_fetchall("SELECT * FROM " . tablename("ewei_shop_exhelper_senduser") . " WHERE uniacid = '{$_W['uniacid']}' ORDER BY isdefault desc , id DESC");
+} elseif ($operation == "post") {
+    $id = intval($_GPC["id"]);
+    if (empty($id)) {
+        ca("exhelper.senduser.add");
+    } else {
+        ca("exhelper.senduser.edit|exhelper.senduser.view");
+    }
+    if (checksubmit("submit")) {
+        $data = array(
+            "uniacid" => $_W['uniacid'],
+            "sendername" => trim($_GPC['sendername']),
+            "sendertel" => trim($_GPC["sendertel"]),
+            "sendersign" => trim($_GPC["sendersign"]),
+            "sendercode" => trim($_GPC["sendercode"]),
+            "senderaddress" => trim($_GPC["senderaddress"]),
+            "sendercity" => trim($_GPC["sendercity"]),
+            "isdefault" => intval($_GPC["isdefault"])
+        );
+        if (!empty($id)) {
+            pdo_update("ewei_shop_exhelper_senduser", $data, array(
+                "id" => $id
+            ));
+            plog("exhelper.senduser.edit", "ä¿®æ”¹å¿«é€’å•ä¿¡æ¯ ID: {$id}");
+        } else {
+            pdo_insert("ewei_shop_exhelper_senduser", $data);
+            $id = pdo_insertid();
+            plog("exhelper.senduser.add", "æ·»åŠ å¿«é€’å•ä¿¡æ¯ ID: {$id}");
+        }
+        if (!empty($data["isdefault"])) {
+            pdo_update("ewei_shop_exhelper_senduser", array(
+                "isdefault" => 0
+            ), array(
+                "uniacid" => $_W['uniacid']
+            ));
+            pdo_update("ewei_shop_exhelper_senduser", array(
+                "isdefault" => 1
+            ), array(
+                "id" => $id
+            ));
+        }
+        message("æ›´æ–°æ¨¡æ¿æˆåŠŸï¼", $this->createPluginWebUrl("exhelper/senduser", array(
+            "op" => "display"
+        )), "success");
+    }
+    $item = pdo_fetch("select * from " . tablename("ewei_shop_exhelper_senduser") . " where id=:id and uniacid=:uniacid limit 1", array(
+        ":id" => $id,
+        ":uniacid" => $_W['uniacid']
+    ));
+} elseif ($operation == "delete") {
+    ca("exhelper.senduser.delete");
+    $id   = intval($_GPC["id"]);
+    $item = pdo_fetch("SELECT id,sendername FROM " . tablename("ewei_shop_exhelper_senduser") . " WHERE id = '$id' AND uniacid=" . $_W['uniacid'] . "");
+    if (empty($item)) {
+        message("æŠ±æ­‰ï¼Œæ¨¡æ¿ä¸å­˜åœ¨æˆ–æ˜¯å·²ç»è¢«åˆ é™¤ï¼", $this->createPluginWebUrl("exhelper/senduser", array(
+            "op" => "display"
+        )), "error");
+    }
+    pdo_delete("ewei_shop_exhelper_senduser", array(
+        "id" => $id
+    ));
+    plog("exhelper.senduser.delete", "åˆ é™¤å¿«é€’å•ä¿¡æ¯ ID: {$id} å‘ä»¶äºº: {$item['sendername']} ");
+    message("æ¨¡æ¿åˆ é™¤æˆåŠŸï¼", $this->createPluginWebUrl("exhelper/senduser", array(
+        "op" => "display"
+    )), "success");
+} elseif ($operation == "setdefault") {
+    ca("exhelper.senduser.setdefault");
+    $id   = intval($_GPC["id"]);
+    $item = pdo_fetch("SELECT id,sendername FROM " . tablename("ewei_shop_exhelper_senduser") . " WHERE id = '$id' AND uniacid=" . $_W['uniacid'] . "");
+    if (empty($item)) {
+        message("æŠ±æ­‰ï¼Œä¿¡æ¯ä¸å­˜åœ¨æˆ–æ˜¯å·²ç»è¢«åˆ é™¤ï¼", $this->createPluginWebUrl("exhelper/senduser", array(
+            "op" => "display"
+        )), "error");
+    }
+    pdo_update("ewei_shop_exhelper_senduser", array(
+        "isdefault" => 0
+    ), array(
+        "uniacid" => $_W['uniacid']
+    ));
+    pdo_update("ewei_shop_exhelper_senduser", array(
+        "isdefault" => 1
+    ), array(
+        "id" => $id
+    ));
+    plog("exhelper.senduser.delete", "è®¾ç½®å¿«é€’å•ä¿¡æ¯é»˜è®¤ä¿¡æ¯ ID: {$id} å‘ä»¶äºº: {$item['sendername']} ");
+    message("æ¨¡æ¿åˆ é™¤æˆåŠŸï¼", $this->createPluginWebUrl("exhelper/senduser", array(
+        "op" => "display"
+    )), "success");
+}
+load()->func("tpl");
+include $this->template("senduser");

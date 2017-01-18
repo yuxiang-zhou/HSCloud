@@ -36,6 +36,10 @@
         <div class="col-sm-9 col-xs-12">
             <div class="form-control-static">
                 <a data-href="{php echo mobileUrl('qa', null, true)}" class="js-clip">{php echo mobileUrl('qa', null, true)}</a>
+                <span style="cursor: pointer;" data-toggle="popover" data-trigger="hover" data-html="true"
+                      data-content="<img src='{$qrcode}' width='130' alt='链接二维码'>" data-placement="auto right">
+                    <i class="glyphicon glyphicon-qrcode"></i>
+                </span>
             </div>
         </div>
     </div>

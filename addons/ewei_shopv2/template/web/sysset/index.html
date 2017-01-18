@@ -100,7 +100,7 @@
                     <div class="col-sm-9 col-xs-12">
                         {ifp 'sysset.shop.edit'}
                         {php echo tpl_form_field_image('data[saleout]', $data['saleout'])}
-                        <span class='help-block'>商城首页店招，建议尺寸80*80，空则不显示</span>
+                        <span class='help-block'>商品售罄图标，建议尺寸80*80，空则不显示</span>
                         {else}
                         <input type="hidden" name="data[saleout]" value="{$data['saleout']}"/>
                         {if !empty($data['saleout'])}
@@ -108,6 +108,23 @@
                         <img src="{php echo tomedia($data['saleout'])}" style='width:200px;border:1px solid #ccc;padding:1px' />
                         </a>
                         {/if}
+                        {/if}
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">加载图标</label>
+                    <div class="col-sm-9 col-xs-12">
+                        {ifp 'sysset.shop.edit'}
+                            {php echo tpl_form_field_image('data[loading]', $data['loading'])}
+                            <span class='help-block'>商品列表图片加载图标，建议尺寸100*100(根据实际需求调整)，空则不显示</span>
+                        {else}
+                            <input type="hidden" name="data[loading]" value="{$data['loading']}"/>
+                            {if !empty($data['loading'])}
+                                <a href=""{php echo tomedia($data['loading'])}" target='_blank'>
+                                <img src="{php echo tomedia($data['loading'])}" style='width:200px;border:1px solid #ccc;padding:1px' />
+                                </a>
+                            {/if}
                         {/if}
                     </div>
                 </div>
@@ -123,7 +140,22 @@
                         {/if}
                     </div>
             </div>
-				
+
+            <div class="form-group">
+                <label class="col-sm-2 control-label">开启导航条</label>
+                <div class="col-sm-9 col-xs-12">
+                    {ifp 'sysset.shop.edit'}
+                    <label class="radio-inline"><input type="radio" name="data[funbar]" value="0" {if empty($data['funbar'])}checked=""{/if}> 关闭</label>
+                    <label class="radio-inline"><input type="radio" name="data[funbar]" value="1" {if intval($data['funbar'])==1}checked=""{/if}> 样式一(左侧满屏可折叠)</label>
+                    <label class="radio-inline"><input type="radio" name="data[funbar]" value="2" {if intval($data['funbar'])==2}checked=""{/if}> 样式二(右侧跟随)</label>
+                    {else}
+                    <input type="hidden" name="data[name]" value="{$data['name']}"/>
+                    <div class='form-control-static'>{if empty($data['funbar'])}关闭{else}开启{/if}</div>
+                    {/if}
+                    <div class="help-block"> 如果开启此选项，导航内容请到导航条中编辑</div>
+                </div>
+            </div>
+				 
   
 	 
             <div class="form-group">

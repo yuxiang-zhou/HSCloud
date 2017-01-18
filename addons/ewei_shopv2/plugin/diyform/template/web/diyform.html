@@ -51,4 +51,8 @@
 
     {else if $value['data_type'] == 9}
     {php echo $datas[$key]['province']!='请选择省份'?$datas[$key]['province']:''}-{php echo $datas[$key]['city']!='请选择城市'?$datas[$key]['city']:''}
+    {else if $value['data_type'] == 10}
+    {php echo $datas[$key]['name1']}
+    <br/>
+    {php echo $datas[$key]['name2']}
     {/if}

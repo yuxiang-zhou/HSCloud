@@ -1,8 +1,8 @@
 <?php
 /*
- * 大数据商城
+ * 人人商城
  * 
- * @author 微赞
+ * @author ewei 狸小狐 QQ:22185157 
  */
 if(!defined('IN_IA')) {
      exit('Access Denied');

@@ -42,12 +42,18 @@
     </td>
     <td  style="overflow:visible;position:relative;text-align: right;">
         {ifp 'sale.package.edit|sale.package.view'}
-        <a  class='btn btn-default btn-sm' href="{php echo webUrl('sale/package/edit', array('type'=>$_GPC['type'],'id' => $item['id'],'page'=>$page))}" title="{ifp 'sale.package.edit'}编辑{else}查看{/if}"><i class='fa fa-edit'></i> {ifp 'sale.package.edit'}编辑{else}查看{/if}</a>
+        <a  class='btn btn-default btn-sm' href="{php echo webUrl('sale/package/edit', array('type'=>$_GPC['type'],'id' => $item['id'],'page'=>$page))}" title="{ifp 'sale.package.edit'}编辑{else}查看{/if}"><i class='fa fa-edit'></i></a>
         {/if}
         {ifp 'sale.package.delete1'}
-        <a  class='btn btn-default btn-sm' data-toggle='ajaxRemove' href="{php echo webUrl('sale/package/delete1', array('id' => $item['id']))}" data-confirm='如果此活动存在购买记录，会无法关联到商品, 确认要彻底删除吗?？'><i class='fa fa-remove'></i> 彻底删除</a>
+        <a  class='btn btn-default btn-sm' data-toggle='ajaxRemove' href="{php echo webUrl('sale/package/delete1', array('id' => $item['id']))}" data-confirm='如果此活动存在购买记录，会无法关联到商品, 确认要彻底删除吗?？'><i class='fa fa-remove'></i></a>
         {/if}
-        <a href="javascript:;" class='btn btn-default btn-sm js-clip' data-url="{php echo mobileUrl('sale/package', array('id' => $item['id']),true)}"><i class='fa fa-link'></i> 复制链接</a>
+        <a href="javascript:;" class='btn btn-default btn-sm js-clip' data-url="{php echo mobileUrl('goods/package/detail', array('pid' => $item['id']),true)}">
+            <i class='fa fa-link'></i> 复制链接
+        </a>
+        <a href="javascript:void(0);" class="btn btn-default btn-sm" data-toggle="popover" data-trigger="hover" data-html="true"
+           data-content="<img src='{$item['qrcode']}' width='130' alt='链接二维码'>" data-placement="auto right">
+            <i class="glyphicon glyphicon-qrcode"></i>
+        </a>
     </td>
 </tr>
 <tr>

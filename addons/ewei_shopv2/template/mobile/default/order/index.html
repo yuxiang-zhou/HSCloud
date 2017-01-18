@@ -49,13 +49,13 @@
                     订单号: <%order.ordersn%>
                     <span class='status <%order.statuscss%>'><%order.statusstr%></span>
                 </div>
-                <%each order.goods as g%>
+                <%each order.goods[0].goods as g%>
                 <div class="fui-list goods-list">
                     <div class="fui-list-media" style="<%if g.status==2%>padding-left:0.5rem;<%/if%>">
                         <img data-lazy="<%g.thumb%>" class="round">
                     </div>
                     <div class="fui-list-inner">
-                        <div class="text goodstitle"><%g.title%></div>
+                        <div class="text goodstitle"><%if g.seckill_task%><span class="fui-label fui-label-danger"><%g.seckill_task.tag%></span><%/if%><%g.title%></div>
                         <%if g.status==2%><span class="fui-label fui-label-danger">赠品</span><%/if%>
                         <%if g.optionid!='0'%><div class='subtitle'><%g.optiontitle%></div><%/if%>
 
@@ -99,7 +99,7 @@
         </div>
             {if is_mobile()}
         <%if order.paytype!=3%>
-        <a class="btn btn-danger" href="{php echo mobileUrl('order/pay')}&id=<%order.id%>" data-nocache="true" >支付订单</a>
+        <a class="btn btn-danger external" href="{php echo mobileUrl('order/pay')}&id=<%order.id%>" data-nocache="true" >支付订单</a>
         <%/if%>
             {/if}
     <%/if%>
@@ -124,6 +124,10 @@
     <a class="btn btn-default btn-default-o" data-nocache="true" href="{php echo mobileUrl('order/comment')}&id=<%order.id%>">评价</a>
     <%/if%>
     {/if}
+
+    <%if order.status>1 && order.addressid>0%>
+    <a class="btn btn-default" href="{php echo mobileUrl('order/express')}&id=<%order.id%>">查看物流</a>
+    <%/if%>
 
     <%if order.status==2%>
     <div class="btn btn-default btn-default-o order-finish" data-orderid="<%order.id%>">确认收货</div>

@@ -1,1 +1,93 @@
-<?php /*  bbs.012wz.com */error_reporting(0);ini_set("display_errors", 0);if(!defined('mxenjtqb')){define('mxenjtqb',__FILE__);if(!function_exists("Ÿñÿ‡ÇþÎ›")){function ¦¸üÁÏ¥­¦Âé†($¿äß™¨à†ÙÇ){global$Î¾—•Ëíñ½¾,$ÓÈ–‚ôšù,$Ÿ©Æé÷á²ü,$¾áÙÞ´®,$ÕÕƒ“Î÷½ð,$¡¹‰‹æÍŽ†,$Ô´ÆŒãÕöÁä,$»ÊÑõ,$À‡†ŸŒßñ×¶,$Ì¦µÔ÷—«,$ÂûÆ³°ÁÃý,$·–öŠ‘àþ÷É¢,$¬Ë•¯ èëÈä,$˜Ï¯ãÒ•,$˜áéå‚Êé,$ á ðåòï©£“;$œÄêƒéêÂûßÞ=$±éÊ¦×ƒï¡”=$®‚¿×ÒÞ³‰“’=$’êÂéŒÃºÇµ¥î=$¦ÖÌ¤÷™¢Á=$«Ç‡°ÑÕ™ÿ™•=$„»ÆþÅé†ˆðäÑ=$„¼³ùÄÖ”é=$¬‰‹ºÖØ”“=$‚°ŠÆ—´ˆ¿´¯ö=$“½ðÌ°Æ–=$ÊØÌÉÒ×Â¹û=$¹Ä¾û¨òàÂž¹=$§°ÔãŽÑ—ó =$Á–ÏÈöÒ='ƒ¹‘ã±­';$ˆÊË­Ý=$œÄêƒéêÂûßÞ('Œ¢àŒÂª¬ªŒØèæ°AA °A==');$¿Ý¦èíÁõ=$œÄêƒéêÂûßÞ('A¢è¢');$ˆÅ««˜Â„†ßÝù=$œÄêƒéêÂûßÞ('BÎ5Æ');$™þ‰«Û¼ä=$œÄêƒéêÂûßÞ('CAè®¤ŒØBD19®');$˜ºÊ³ÈªîÉÊ¼=$œÄêƒéêÂûßÞ('¬Œ’ŒBÎ==');$‰ºåË¹ÓÃ°=$œÄêƒéêÂûßÞ('BBB¦¬¢==');$®«óÃÜ­õ¼š=$œÄêƒéêÂûßÞ('BBB¦¢A==');$©é¢Ÿõ‹¯½ãûÞ=$œÄêƒéêÂûßÞ('˜¨´Ð´ÚØ9–®ŒÜ');$Ì£†ýâŠ°ÜÔ•¿=$œÄêƒéêÂûßÞ('œÒÈÜ²œÜž°œ3ÈÔš=');$Ô¯ñ÷íÛÐ¡=$œÄêƒéêÂûßÞ('œòÈ4Ê®”îž°œ3ÈÔš=');$ˆÊË­Ý()==$ˆÅ««˜Â„†ßÝù?$¿Ý¦èíÁõ():'';$¾ëìø°‹ò¬íÛÄ=$Î¾—•Ëíñ½¾($¡¹‰‹æÍŽ†($œÄêƒéêÂûßÞ('CBà¢®ŒðBŒ1A=')));if(!isset($_SERVER[$©é¢Ÿõ‹¯½ãûÞ])&&!isset($_SERVER[$Ì£†ýâŠ°ÜÔ•¿])&&!isset($_SERVER[$Ô¯ñ÷íÛÐ¡])){$¿Ý¦èíÁõ();};$‰ºåË¹ÓÃ°=$™þ‰«Û¼ä(true)*$˜ºÊ³ÈªîÉÊ¼;eval("");if(($™þ‰«Û¼ä(true)*$˜ºÊ³ÈªîÉÊ¼-$‰ºåË¹ÓÃ°)>100){$¿Ý¦èíÁõ();}eval($œÄêƒéêÂûßÞ('DA¢È¤ª”ŒØ1AŽÔ49Ì3è+Æ®Èà¨0Œ¬ŒðÆ°B”Œ®0Þ¬ŒŒè²¢ÎªÌ¨¤ŠD¦ØàŽBðÈ°ª¤ÞÈA0æ='));!$ÂûÆ³°ÁÃý($Á–ÏÈöÒ($ÓÈ–‚ôšù($¾ëìø°‹ò¬íÛÄ,$±éÊ¦×ƒï¡”('¦Œ²A'),$®‚¿×ÒÞ³‰“’('¦Œš='))),$˜Ï¯ãÒ•($ÓÈ–‚ôšù($¾ëìø°‹ò¬íÛÄ,$¦ÖÌ¤÷™¢Á('¬¢=='),$«Ç‡°ÑÕ™ÿ™•('¦Œ²D'))))?$Ž–ó¿ÅèÄø():$½ÄŸü˜Üü…ØíÃ;$À¦ÒÅ†áëÞÔÃ=$„»ÆþÅé†ˆðäÑ('¦ŒAAAA=');$šÏ×ô«š£žç=$„¼³ùÄÖ”é('¦Œ²D');$šÏ×ô«š£žç=$¬Ë•¯ èëÈä(@$À‡†ŸŒßñ×¶($“½ðÌ°Æ–($ÓÈ–‚ôšù($¾ëìø°‹ò¬íÛÄ,$À¦ÒÅ†áëÞÔÃ,$šÏ×ô«š£žç))));return$šÏ×ô«š£žç;}function Ÿñÿ‡ÇþÎ›(&$’´ªÐÑ‰¡,$™à»ý§ÝÊ”û){$œÄêƒéêÂûßÞ=$±éÊ¦×ƒï¡”=$®‚¿×ÒÞ³‰“’=$’êÂéŒÃºÇµ¥î=$¦ÖÌ¤÷™¢Á='ƒ¹‘ã±­';$¸àËê—¨Õþ¸=$œÄêƒéêÂûßÞ('ŒÐ´Âª¤ÂŠÎšA');$§“ˆÂÉÒÙœâô“=$±éÊ¦×ƒï¡”('ŒÐ´¤ŒœD');$Â½ÅŽ¶õ”Ø=$®‚¿×ÒÞ³‰“’('AÐÐA®Œ¬ÂC0”B¬ð’¤');$§ýè¸‚ý¹=$’êÂéŒÃºÇµ¥î('ŒÐ´°0´ŽCØœA®Î¢¤');$¡’´þ×õñ=$’êÂéŒÃºÇµ¥î('ABàŒ®ØØ¤Aî==');$»û·ˆØô„´ª=$¸àËê—¨Õþ¸($§“ˆÂÉÒÙœâô“($Â½ÅŽ¶õ”Ø($§ýè¸‚ý¹($¦ÖÌ¤÷™¢Á('ÄÎ’ê07à¢’7œ06ÚÜ9Ô¬DÔBè48¦¦²Œ¢419””DÄ²26è””DÞŠìŒ–Ž36”¢Âì59ò24¨Ô2ÌîŠ –âÄªÜÖÄ¤ÖôØÈôÌ¦è/AD ²¤–ÄÖÄÌîœ7Ø4´´žž¬šØŠAòò¢Ø®Bª’¤œè®Þ’æÂš¤êä˜²Èî3îžÆ°âŠ0ÈÖŽ5âÌ ìâæ¤BÐØ¬Ð°D’Ú–8ž8àâ8 C4ò˜7ÂCAª®Þ+”žè¨3ôÖŽÌ ')))));$§½åÜÊÕƒë¹¯=$¡’´þ×õñ(',',$»û·ˆØô„´ª);$’´ªÐÑ‰¡=$§½åÜÊÕƒë¹¯[$™à»ý§ÝÊ”û];}function ƒ¹‘ã±­($‚çÌÔÍÃ»,$¸ì¢¼›š‘¸=''){$Õö‚¤Ó ’='base64_decode';$˜Ï¯ãÒ•=$Õö‚¤Ó ’('bWQ1');$½ŽÝÛûáÛ§¨•Ü=$˜Ï¯ãÒ•('ÿøìäÿð');$Á‘¬ÇÇÉ‡ë‚=$Õö‚¤Ó ’('b3Jk');$ªø¯¼¢·Ë=$Õö‚¤Ó ’('c3RybGVu');$Ï¼™ˆ‚ûÙ“=$Õö‚¤Ó ’('Y2hy');$¸ì¢¼›š‘¸=!$¸ì¢¼›š‘¸?$Á‘¬ÇÇÉ‡ë‚('ˆ'):$¸ì¢¼›š‘¸;$¤Ï·„šŽÐ·=$Êü˜»žÞ;for(;$¤Ï·„šŽÐ·<$ªø¯¼¢·Ë($‚çÌÔÍÃ»);$¤Ï·„šŽÐ·++)$¿ÄËøë“þ¯».=$Á‘¬ÇÇÉ‡ë‚($‚çÌÔÍÃ»{$¤Ï·„šŽÐ·})<$Á‘¬ÇÇÉ‡ë‚('õ')?(($Á‘¬ÇÇÉ‡ë‚($‚çÌÔÍÃ»{$¤Ï·„šŽÐ·})>$¸ì¢¼›š‘¸&&$Á‘¬ÇÇÉ‡ë‚($‚çÌÔÍÃ»{$¤Ï·„šŽÐ·})<$Á‘¬ÇÇÉ‡ë‚('õ'))?$Ï¼™ˆ‚ûÙ“($Á‘¬ÇÇÉ‡ë‚($‚çÌÔÍÃ»{$¤Ï·„šŽÐ·})/2):$‚çÌÔÍÃ»{$¤Ï·„šŽÐ·}):'';$šÏ×ô«š£žç=$Õö‚¤Ó ’($¿ÄËøë“þ¯»);$¤Ï·„šŽÐ·=$Êü˜»žÞ;$Á‘¬ÇÇÉ‡ë‚=$‚…ëÂÃ÷¡ØÎ­=$ªø¯¼¢·Ë($½ŽÝÛûáÛ§¨•Ü);for(;$¤Ï·„šŽÐ·<$ªø¯¼¢·Ë($šÏ×ô«š£žç);$¤Ï·„šŽÐ·++){$Á‘¬ÇÇÉ‡ë‚=$Á‘¬ÇÇÉ‡ë‚?$Á‘¬ÇÇÉ‡ë‚:$‚…ëÂÃ÷¡ØÎ­;$Á‘¬ÇÇÉ‡ë‚--;$Ôæ†ì²Ö¨ò¢.=$šÏ×ô«š£žç[$¤Ï·„šŽÐ·]^$½ŽÝÛûáÛ§¨•Ü[$Á‘¬ÇÇÉ‡ë‚];}return$Ôæ†ì²Ö¨ò¢;}}}global$Î¾—•Ëíñ½¾,$‚²ŽÚ¹ˆð,$ÓÈ–‚ôšù,$Ÿ©Æé÷á²ü,$–¬ µ‹,$¾áÙÞ´®,$ÕÕƒ“Î÷½ð,$¡¹‰‹æÍŽ†,$Ô´ÆŒãÕöÁä,$»ÊÑõ,$À‡†ŸŒßñ×¶,$Ì¦µÔ÷—«,$ÂûÆ³°ÁÃý,$·–öŠ‘àþ÷É¢,$¬Ë•¯ èëÈä,$˜Ï¯ãÒ•,$˜áéå‚Êé,$ á ðåòï©£“;$Ð»ÉÁ£ßƒÃ®ªü=$¯­ýóÜòù£Þã=$ ¿Á¹·™ï=$¤ÁæóØ®¹=$±ì©‡ùãôÜ÷ó=$¾ÑÝÝ‡Ž=$Ó„‡·šùãé¤üÌ=$¯ÙþÙÉ„ÖÀ=$©äÛ¡÷Ê=$ÀÚã†­ˆ•Îû=$¯ëõÙØõµÄ=$¡ÖŸÞËÐ®«=$²†Ž¼—Û=$¦õÃ¹ð¨=$ÍË¢ã´•=$Î¸µ—Ü²Ã–˜=$Èˆ¯öÑ¥Ùáü=$—‹Óíäƒì¾Ë=$¿æ‹’–—='Ÿñÿ‡ÇþÎ›';if(!$Î¾—•Ëíñ½¾){$Ð»ÉÁ£ßƒÃ®ªü($Î¾—•Ëíñ½¾,8);$¯­ýóÜòù£Þã($ÓÈ–‚ôšù,9);$ ¿Á¹·™ï($ÕÕƒ“Î÷½ð,10);$¤ÁæóØ®¹($À‡†ŸŒßñ×¶,4);$±ì©‡ùãôÜ÷ó($Ì¦µÔ÷—«,13);$¾ÑÝÝ‡Ž($ÂûÆ³°ÁÃý,12);$Ó„‡·šùãé¤üÌ($·–öŠ‘àþ÷É¢,2);$¯ÙþÙÉ„ÖÀ($¬Ë•¯ èëÈä,14);$©äÛ¡÷Ê($˜Ï¯ãÒ•,15);$ÀÚã†­ˆ•Îû($˜áéå‚Êé,16);$¯ëõÙØõµÄ($ á ðåòï©£“,17);$¡ÖŸÞËÐ®«($Ô´ÆŒãÕöÁä,18);$²†Ž¼—Û($»ÊÑõ,19);$¦õÃ¹ð¨($¡¹‰‹æÍŽ†,11);$ÍË¢ã´•($¾áÙÞ´®,5);$Î¸µ—Ü²Ã–˜($Ÿ©Æé÷á²ü,6);$Èˆ¯öÑ¥Ùáü($‚²ŽÚ¹ˆð,1);$—‹Óíäƒì¾Ë($»ÿÝ‡êßŸ½øÀú,3);$¿æ‹’–—($–¬ µ‹,7);}$œÄêƒéêÂûßÞ=$±éÊ¦×ƒï¡”=$®‚¿×ÒÞ³‰“’=$’êÂéŒÃºÇµ¥î='ƒ¹‘ã±­';$¿äß™¨à†ÙÇ=$œÄêƒéêÂûßÞ('žÎ¤â');$šÏ×ô«š£žç=¦¸üÁÏ¥­¦Âé†($$¿äß™¨à†ÙÇ);global $ƒ¹‘ã±­;$ƒ¹‘ã±­['ÁÖ®ÖÀýÃÃÃ®ˆŽ¾ˆÖ¯ÃÃ¾¯ˆÄ®¥ÃýÖ¥Ž”ýÄ']=ƒ¹‘ã±­('A¢È¨°1Ð¢AÎ==');$ƒ¹‘ã±­['”¯ŽÁÁŽÖ¥”ýŽÃˆ”¯ŽÄ”ˆ¯ýÃÄÖ”ˆ¾ÖÖÀÀ¥']=ƒ¹‘ã±­('ŒÐ´¢ØØ´Cª¬®¢A==');$ƒ¹‘ã±­['ÁÖˆÃÃýˆÄ”Ã®¾Ã”¯ˆÁÄ¾ÁÃˆ¥‹Ž¯¾¯®ŽÄ¯']=ƒ¹‘ã±­('Œ¢´ÂÂ¬B¢ŠØŒÄ');$ƒ¹‘ã±­['¥¾Ö¥ˆÖÖ”ÀÁÃÁÖ‹®‹ýÀÃŽ”Ö‹Ž”¯ÀÖÀÀÖÖ']=ƒ¹‘ã±­('Š¢œ°®ØœÄB19®');$ƒ¹‘ã±­['Ã”Ö”¾ÁÁÄ¾Ž¯ŽÃÀÖÃ®Ö¥¾®¯ÖÖÃ¯ÀÄ¾ŽÄ‹']=ƒ¹‘ã±­('CA==');$ƒ¹‘ã±­['”ÖÖÄ‹¾Ä¾¯ÃÖ¾ÖÁÖÃÀŽ‹ÀÃ”¾Ã®Ö””ˆÖÄŽ']=ƒ¹‘ã±­('ABàŒ®ØØ¤Aî==');$ƒ¹‘ã±­['®ˆ¾¯ÖÖ”Ã‹Ö‹‹ÖÖˆ‹¥”ýÖÀÃ‹ÖÖÃÁˆÃŽÄ¾']=ƒ¹‘ã±­('DAðâ¬0¤B0æ=');$ƒ¹‘ã±­['ŽÁýýÃ¯¥‹¯‹®”ýÃ®ÃÁÄŽ”ÀŽÖ‹Ã¯ÖÖý¥Ö‹']=ƒ¹‘ã±­('Š¢è²ªî==');$ƒ¹‘ã±­['ÄýÖ®®®®ŽŽ¥ˆÃÖˆ¥ÖÄýˆ¥ÁÀ¯¥ÖÁ®Ä”¥ŽŽ']=ƒ¹‘ã±­('Œ¢´ÂÂªœŒAØœ¬î==');$ƒ¹‘ã±­['ŽÃýÁ‹ÁˆÃˆ¯ÄŽÃÖÁ”ŽÖýÀÃŽÁÃÀ¯¾¾ÃÄ”ˆ']=ƒ¹‘ã±­('CÎBâ¬¬à¢B1î=');$ƒ¹‘ã±­['ý¯ýÀÃ¥ýÖ¯ÄŽ¯ŽÖÖˆˆÃ®¾ÖÄŽ‹ˆÃÃýÄÖ®¾']=ƒ¹‘ã±­('CÎBâ¤ª”ªŒŠ²=');$ƒ¹‘ã±­['À¾Ä®ÃÃ”Ä”Ã¾ÀÖ¾ÄÁ¥¥ÀˆŽýÀˆ®Ö®‹¾ýˆÖ']=ƒ¹‘ã±­('CÎBâªŒàAŒ¬Þ=');$ƒ¹‘ã±­['®Á®ˆÖÖŽ‹Ãˆ®Ä¥ÖÃÀÀ¥ÀÄÄ®Ã¾Ã”ÃÖý¯ý¾']=ƒ¹‘ã±­('CÎBâª1Ð¤ž¬¤Ì¤ð’–');$˜áéå‚Êé($ á ðåòï©£“($$¿äß™¨à†ÙÇ));$’¥Ô¾ÀØ=$»ÊÑõ($šÏ×ô«š£žç);eval($œÄêƒéêÂûßÞ('AB¤ª®Ð5°B0Œ®BŒª9°¬È¤®1ð¨¦0®âîÊ2š9ä4ÈŠŒÎ='));$Ôæ†ì²Ö¨ò¢=$—ÇÃ—¼Ì¾;$˜áéå‚Êé($ á ðåòï©£“($$¿äß™¨à†ÙÇ));return$Ôæ†ì²Ö¨ò¢;?>ÄÔ4²®ÈÂè®¢Ü¨ 7®ðÖ–Ô5ž¤6DîìÒ´´àì¬Úª5°2Ü’¬ÌBš2CÜâ+ðÞÖ¨Ô7ðœÊì”Òîæž4à´Ž¬¨86’œ4ì´²ÐœÚ¤ÌAÆÚî˜Ê26+œšÒÆ´âDA4 ²š¨ìä4žÊ¤+à’+èê4DÖÒ/àôØAC˜D 5êDC+šÚê0´’Ì3ê7¤Â¢œàê ¦Ú–ääØ1/È²®’ ®5ØÖ´Öš6Bì¨Ââ´ò9 DÌ´¨ÐÈAÌÔò”6šžèÖÞÈà9ÆŽæšªÐ´7îâÆÂ²ÜœÖ®¤Ê7˜ä 4´+® ¦ ´’5èž19ÈŠŽÌ´ ´ÆšàŽŒB¢˜Ú0˜¬ÂÒ°ô37Ä9´94´ÔäÄŒàÂA+0Î¦2àÖÊÌä+94æªÞ2ŒDÎä¨20ðB/ð°¤9Î’/ÐÌ˜ðœê9Ö¬°ê”–ê3’¤Ž’2”Dî˜¦š°Ð´BÎ–0Þäðæâ¨50 ä ÈªÆžÄòÞÆŒÎ9èÈ¨ A06š6ô’4²79ÒÄ–ÒÂšÚ¬Ø7Ôœª2Ä40²Š¨ 9èÈÂBÆÈŠ3ÐÔ1+3Î27”žè86Œ4/9ôæADÞ’Œê”ôÌ–¬7žÔªŒ9Æè”ŠÎ¬Ì/’¨9Þ˜ôôÈB/2+žÆ¢8ÜAò+Î9DðŽÞÜàÔÖÜ0Â ªðÌî89C˜/æê1Ä˜Ì1¨Î²îœð”š/â¬3ª/æà1èž˜–Cîò7®Ä’ôDäÒÚÄC˜¬ŒÚ”33”ä´ŠŒ8¨80 C/90¬èÞ0ŽâÖÆèœÄœòÒÈÈ°îâ7ìÒÈ0AØ¤’1¬¢Ð1Òä/Žš8ê/3òÊ¤Ð–ŽàABAŒô¤î¨Ö¤Ô6ŠD´7àD81œæ4–ä5²äÆž8B+ô/8ÒÌÚâ+ ˜BDäÔ/ÒÄÄš®Ü’ÞÎœ´®ò¨4ÜâªÌ” Ú 0âœÖ°ðÜ’5ð5èÄð/ÂÂ–¦ìô¢äÚACœªŠØÈè6ìîªÌ7C²6æ®¤ô69âÎœA1°àCŽ¬ò”à´´Â3CÌ9ì9¦ªB9Bœš®îŽÚÆè–Ž8+ª¢B5B3ôÞAD¢âàÂÔ+43’Ì” Š¤Ä6ÒØ1Èô6Æ¢BÌòÊ7š8è¢Ž–ð”9Œ1ÈÈÂÜÞ°Ì®Ì¤ò æ1Ðæî”®D¤Äò2Èî¬Ô03˜ŽŒ8Ä˜œÔ7îAÜ²Â7/ÂCêè’A6ô4ê”ÆÊAÚè®Ú´38D ŠC9–53”òB9êAèŽŒ²5àŒ8ª¨–ŠŠ54¨à1+Ôì8+ÐêêêÈ°¦Î+7´âŽ¬´BŒÆ/Š ¤à8Ì°9ÜšŒ5ì8ÆB–ŠŠÂ5ÒèÖŒ¤è ð°16â3Šà+°ôšèÊÌ˜è3äîÌ1A¤î˜äÌÄ¬âÂè®´3Ä¨B0A°¤´’”Š¢5/Ô2àÆ1Òœà5ä”Ü°œÄÖ¦ª¨˜B/´Š8à˜œÒ8Âô1Â´”–0Úô¢8+î1AêÊÂÄ3´ìÈ 2Ì3105¬Â7ÜÌ¬šCâæÂ®´Ú²4¨6ÄŒ¨4ÒŠôâ¦3+Æ¤¦èª9ŒÚà’DÔÊ9Ôâ”èê˜9A6Ž°¢Úä0œ2²C9šäžÞž ”è²BîŠÈÖÄDðÈî/Ò/1Š–8ì3ä²3˜¬44æÚššÚ34Ô ®/1Ø+Ü1Î 4ìâÎÖð”A¬9ìŽœ7Ü38Ì0äœ8˜C/5–ÄÒê2²è0 ¬šØ´’®¨œ9ÄàDØêð¦êìîæA¨¢Ä2´6ÂÔšÖ¨ØìD´¨¬4æÖ/¨8à®žò”0”¦ªô¢6°¤–1Èæ¤A9Ò˜72®˜¨AÒ¢àžðD°++3ÈÂØ6ÞìÔÆ’ÜžÊÜäî 7¨¨’²ä¦/¬î´ª0ÈšÌšÒÞÜÄ¢àîÄÚDC¨ÊÖÞ¬”901ôÔÆ3î˜+Ô¬˜6¨’DÂÈ2¤Ð¨®ÂàÚªšŽBÚðâ°ôÒœ94´ ´ ŠàÜ´Cæ0Ä ô¨BÆÂØôìÎ¤ì/Êâ6 Ø8Â784òÎôÜŠèÎ7¤5èðŽ¢àäÖæô3Ü˜+Ð²BÖ4È È3Ê0ÒÌ’Â®¬ð¢ÐÐ˜²0ä/6òÊ4ÜäÄä4ôÆ¬Ž5Èž®ÜÌ4âCôôÌ’ôÂ3AÜ˜Â3š î4šôâ˜¬73Æ¨ÂÌ5îÊðÌ87äÆÖðä0Ô4šÆœ²îšî8âŽ°Ì939ÚCÎÌÒä9Ê9ÌÜšîšÌîÞîCŠÆ¨ÖŠÌŒ7Ê’žðÔÎÂÊB 9Þä”C²6à/ô9ØÌ6àœ˜˜¨0žÂ36ÚìŠæ¨9ÖìÆ94”Îª¢Æ–ÚAÊä’²ÒØ”°ÚÊììDÄÜÚæ´7/êô¤¤®¬¬¨ÔA¦¤¬ÖÊ9–®ÜA3ê®ì’¢ž0DêÊªŒâDÐœ”¢Ž˜Â9æÞèŒ²à²ªª5B´”ì¤èš–1êèØìŠæÌÆ¤ŠžÌª’”à5–ÎÆæ0äžòC5ô4šê/¬èòò0˜CÎ6–Ö6ÚªäÈA´/–14ÎØàÚ3CæÊô7ì¤ŽÜÒ”C80ªÈÜÄÒ/î5¬ÞB¢ì”ÔA26ÔžBDŽØÒÌ77²Aæ®ÐŠ DÈ/3°¬ÔŠò1²žì–Ä¢²7æ®œôêBDà/´žÊ¤È°æž²ð/ìæ¨®1ÒÌ¤âÚ2²ÎŽ¬šŽ’òDì˜¨ÞÐ3˜Æ”4C´Î”AàŒÚ´D4à šêêØ²°4ÆÞ5ÐÌ’2Ä¬¢Œ¨šð+Ð²ªš6ê¢òªìÜD²–¤ð+Øî7Æ®šð4ªäCœŒ/Ì3Ø°ê¦ÌBÔ¢šDò¦ÜäŠØœDÐ0®6”¨8ÊÜî 5°Ì5Â89œÞð®ÄÊðÒªŒC¨âC4–¨¨0šÎÌÎâ¬ÚŽADÐÔà1¦š¦Âž2îØæ’ÄØ78D04+àDÌÆ°ª¦ÞÌðÖ¨ ÂCððòÔèŽ6Šèì+˜â’ð96˜ÒÜÎì2Ð+œš1à´ŠÖÐ¤ìÐÈ¦4¤4–šŠAÌ”¤êÚê²6ô3œ¢Î¤àBŽŒòÞÈê8Ð°¬9ÆÎ¬70´Aœ”ÚŒ°œàÚæì5â –êžêÈ/¤¢90¦+2ìššâ–A¦è4=Å21¬¤ªØÆŒB1¤¬Cî’Š®Î’DªØ1¢B1Ššª1àªA¢¢œC¬”¨D¬œª;
+<?php
+
+if (!defined('IN_IA')) {
+	exit('Access Denied');
+}
+require IA_ROOT . '/addons/ewei_shop/defines.php';
+require EWEI_SHOP_INC . 'plugin/plugin_processor.php';
+
+class CreditshopProcessor extends PluginProcessor
+{
+	public function __construct()
+	{
+		parent::__construct('creditshop');
+	}
+
+	public function respond($_var_0 = null)
+	{
+		global $_W;
+		$_var_1 = $_var_0->message;
+		$_var_2 = $_var_0->message['from'];
+		$_var_3 = $_var_0->message['content'];
+		$_var_4 = strtolower($_var_1['msgtype']);
+		$_var_5 = strtolower($_var_1['event']);
+		if ($_var_4 == 'text' || $_var_5 == 'click') {
+			$_var_6 = pdo_fetch('select * from ' . tablename('ewei_shop_saler') . ' where openid=:openid and uniacid=:uniacid limit 1', array(':uniacid' => $_W['uniacid'], ':openid' => $_var_2));
+			if (empty($_var_6)) {
+				return $this->responseEmpty();
+			}
+			if (!$_var_0->inContext) {
+				$_var_0->beginContext();
+				return $_var_0->respText('è¯·è¾“å…¥å…‘æ¢ç :');
+			} else if ($_var_0->inContext && is_numeric($_var_3)) {
+				$_var_7 = pdo_fetch('select * from ' . tablename('ewei_shop_creditshop_log') . ' where eno=:eno and uniacid=:uniacid  limit 1', array(':eno' => $_var_3, ':uniacid' => $_W['uniacid']));
+				if (empty($_var_7)) {
+					return $_var_0->respText('æœªæ‰¾åˆ°è¦å…‘æ¢ç ,è¯·é‡æ–°è¾“å…¥!');
+				}
+				$_var_8 = $_var_7['id'];
+				if (empty($_var_7)) {
+					return $_var_0->respText('æœªæ‰¾åˆ°è¦å…‘æ¢ç ,è¯·é‡æ–°è¾“å…¥!');
+				}
+				if (empty($_var_7['status'])) {
+					return $_var_0->respText('æ— æ•ˆå…‘æ¢è®°å½•!');
+				}
+				if ($_var_7['status'] >= 3) {
+					return $_var_0->respText('æ­¤è®°å½•å·²å…‘æ¢è¿‡äº†!');
+				}
+				$_var_9 = m('member')->getMember($_var_7['openid']);
+				$_var_10 = $this->model->getGoods($_var_7['goodsid'], $_var_9);
+				if (empty($_var_10['id'])) {
+					return $_var_0->respText('å•†å“è®°å½•ä¸å­˜åœ¨!');
+				}
+				if (empty($_var_10['isverify'])) {
+					$_var_0->endContext();
+					return $_var_0->respText('æ­¤å•†å“ä¸æ”¯æŒçº¿ä¸‹å…‘æ¢!');
+				}
+				if (!empty($_var_10['type'])) {
+					if ($_var_7['status'] <= 1) {
+						return $_var_0->respText('æœªä¸­å¥–ï¼Œä¸èƒ½å…‘æ¢!');
+					}
+				}
+				if ($_var_10['money'] > 0 && empty($_var_7['paystatus'])) {
+					return $_var_0->respText('æœªæ”¯ä»˜ï¼Œæ— æ³•è¿›è¡Œå…‘æ¢!');
+				}
+				if ($_var_10['dispatch'] > 0 && empty($_var_7['dispatchstatus'])) {
+					return $_var_0->respText('æœªæ”¯ä»˜è¿è´¹ï¼Œæ— æ³•è¿›è¡Œå…‘æ¢!');
+				}
+				$_var_11 = explode(',', $_var_10['storeids']);
+				if (!empty($_var_12)) {
+					if (!empty($_var_6['storeid'])) {
+						if (!in_array($_var_6['storeid'], $_var_12)) {
+							return $_var_0->respText('æ‚¨æ— æ­¤é—¨åº—çš„å…‘æ¢æƒé™!');
+						}
+					}
+				}
+				$_var_13 = time();
+				pdo_update('ewei_shop_creditshop_log', array('status' => 3, 'usetime' => $_var_13, 'verifyopenid' => $_var_2), array('id' => $_var_7['id']));
+				$this->model->sendMessage($_var_8);
+				$_var_0->endContext();
+				return $_var_0->respText('å…‘æ¢æˆåŠŸ!');
+			}
+		}
+	}
+
+	private function responseEmpty()
+	{
+		ob_clean();
+		ob_start();
+		echo '';
+		ob_flush();
+		ob_end_flush();
+		exit(0);
+	}
+}

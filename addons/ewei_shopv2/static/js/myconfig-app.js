@@ -10,7 +10,8 @@ require.config({
         'foxui.picker':'../dist/foxui/js/foxui.picker.min',
         'foxui.citydata':'../dist/foxui/js/foxui.citydata.min',
         'jquery.qrcode':'../dist/jquery/jquery.qrcode.min',
-        'ydb':'../dist/Ydb/YdbOnline'
+        'ydb':'../dist/Ydb/YdbOnline',
+        'swiper':'../dist/swiper/swiper.min'
     },
     shim: {
         'foxui':{

@@ -113,9 +113,11 @@
 {/if}
 
 {if empty($type)}
-{template 'sale/coupon/post/consume'}
-{else}
-{template 'sale/coupon/post/recharge'}
+	{template 'sale/coupon/post/consume'}
+{elseif $type==1}
+	{template 'sale/coupon/post/recharge'}
+{elseif $type==2}
+	{template 'sale/coupon/post/cashier'}
 {/if}
 
 

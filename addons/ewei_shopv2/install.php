@@ -1,7 +1,161 @@
 <?php
 pdo_query("
+DROP TABLE IF EXISTS `ims_ewei_message_mass_sign`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_message_mass_sign` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) DEFAULT '0',
+  `openid` varchar(50) DEFAULT NULL,
+  `nickname` varchar(50) DEFAULT NULL,
+  `taskid` int(11) DEFAULT NULL,
+  `status` tinyint(1) DEFAULT NULL,
+  `log` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+DROP TABLE IF EXISTS `ims_ewei_message_mass_task`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_message_mass_task` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) DEFAULT '0',
+  `title` varchar(255) DEFAULT '',
+  `status` tinyint(1) DEFAULT '0',
+  `processnum` int(11) DEFAULT '1',
+  `sendnum` int(11) DEFAULT '0',
+  `messagetype` tinyint(1) DEFAULT '0',
+  `templateid` int(11) DEFAULT '0',
+  `resptitle` varchar(255) DEFAULT NULL,
+  `respthumb` varchar(255) DEFAULT NULL,
+  `respdesc` varchar(255) DEFAULT NULL,
+  `respurl` varchar(255) DEFAULT NULL,
+  `sendlimittype` tinyint(1) DEFAULT '0',
+  `send_openid` text,
+  `send_level` int(11) DEFAULT NULL,
+  `send_group` int(11) DEFAULT NULL,
+  `send_agentlevel` int(11) DEFAULT NULL,
+  `customertype` tinyint(1) DEFAULT '0',
+  `resdesc2` varchar(255) DEFAULT '',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+DROP TABLE IF EXISTS `ims_ewei_message_mass_template`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_message_mass_template` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) DEFAULT '0',
+  `title` varchar(255) DEFAULT '',
+  `template_id` varchar(255) DEFAULT '',
+  `first` text NOT NULL,
+  `firstcolor` varchar(255) DEFAULT '',
+  `data` text NOT NULL,
+  `remark` text NOT NULL,
+  `remarkcolor` varchar(255) DEFAULT '',
+  `url` varchar(255) NOT NULL,
+  `createtime` int(11) DEFAULT '0',
+  `sendtimes` int(11) DEFAULT '0',
+  `sendcount` int(11) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_abonus_bill`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_abonus_bill` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) DEFAULT '0',
+  `billno` varchar(100) DEFAULT '',
+  `paytype` int(11) DEFAULT '0',
+  `year` int(11) DEFAULT '0',
+  `month` int(11) DEFAULT '0',
+  `week` int(11) DEFAULT '0',
+  `ordercount` int(11) DEFAULT '0',
+  `ordermoney` decimal(10,2) DEFAULT '0.00',
+  `paytime` int(11) DEFAULT '0',
+  `aagentcount1` int(11) DEFAULT '0',
+  `aagentcount2` int(11) DEFAULT '0',
+  `aagentcount3` int(11) DEFAULT '0',
+  `bonusmoney1` decimal(10,2) DEFAULT '0.00',
+  `bonusmoney_send1` decimal(10,2) DEFAULT '0.00',
+  `bonusmoney_pay1` decimal(10,2) DEFAULT '0.00',
+  `bonusmoney2` decimal(10,2) DEFAULT '0.00',
+  `bonusmoney_send2` decimal(10,2) DEFAULT '0.00',
+  `bonusmoney_pay2` decimal(10,2) DEFAULT '0.00',
+  `bonusmoney3` decimal(10,2) DEFAULT '0.00',
+  `bonusmoney_send3` decimal(10,2) DEFAULT '0.00',
+  `bonusmoney_pay3` decimal(10,2) DEFAULT '0.00',
+  `createtime` int(11) DEFAULT '0',
+  `status` tinyint(3) DEFAULT '0',
+  `starttime` int(11) DEFAULT '0',
+  `endtime` int(11) DEFAULT '0',
+  `confirmtime` int(11) DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `idx_uniacid` (`uniacid`),
+  KEY `idx_paytype` (`paytype`),
+  KEY `idx_createtime` (`createtime`),
+  KEY `idx_paytime` (`paytime`),
+  KEY `idx_status` (`status`),
+  KEY `idx_month` (`month`),
+  KEY `idx_week` (`week`),
+  KEY `idx_year` (`year`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_abonus_billo`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_abonus_billo` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) DEFAULT '0',
+  `billid` int(11) DEFAULT '0',
+  `orderid` int(11) DEFAULT '0',
+  `ordermoney` decimal(10,2) DEFAULT '0.00',
+  PRIMARY KEY (`id`),
+  KEY `idx_billid` (`billid`),
+  KEY `idx_uniacid` (`uniacid`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_abonus_billp`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_abonus_billp` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) DEFAULT '0',
+  `billid` int(11) DEFAULT '0',
+  `openid` varchar(255) DEFAULT '',
+  `payno` varchar(255) DEFAULT '',
+  `paytype` tinyint(3) DEFAULT '0',
+  `bonus1` decimal(10,4) DEFAULT '0.0000',
+  `bonus2` decimal(10,4) DEFAULT '0.0000',
+  `bonus3` decimal(10,4) DEFAULT '0.0000',
+  `money1` decimal(10,2) DEFAULT '0.00',
+  `realmoney1` decimal(10,2) DEFAULT '0.00',
+  `paymoney1` decimal(10,2) DEFAULT '0.00',
+  `money2` decimal(10,2) DEFAULT '0.00',
+  `realmoney2` decimal(10,2) DEFAULT '0.00',
+  `paymoney2` decimal(10,2) DEFAULT '0.00',
+  `money3` decimal(10,2) DEFAULT '0.00',
+  `realmoney3` decimal(10,2) DEFAULT '0.00',
+  `paymoney3` decimal(10,2) DEFAULT '0.00',
+  `chargemoney1` decimal(10,2) DEFAULT '0.00',
+  `chargemoney2` decimal(10,2) DEFAULT '0.00',
+  `chargemoney3` decimal(10,2) DEFAULT '0.00',
+  `charge` decimal(10,2) DEFAULT '0.00',
+  `status` tinyint(3) DEFAULT '0',
+  `reason` varchar(255) DEFAULT '',
+  `paytime` int(11) DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `idx_billid` (`billid`),
+  KEY `idx_uniacid` (`uniacid`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_abonus_level`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_abonus_level` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) NOT NULL,
+  `levelname` varchar(50) DEFAULT '',
+  `bonus1` decimal(10,4) DEFAULT '0.0000',
+  `bonus2` decimal(10,4) DEFAULT '0.0000',
+  `bonus3` decimal(10,4) DEFAULT '0.0000',
+  `ordermoney` decimal(10,2) DEFAULT '0.00',
+  `ordercount` int(11) DEFAULT '0',
+  `bonusmoney` decimal(10,2) DEFAULT '0.00',
+  `downcount` int(11) DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `idx_uniacid` (`uniacid`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
 DROP TABLE IF EXISTS `ims_ewei_shop_adv`;
-CREATE TABLE `ims_ewei_shop_adv` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_adv` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `advname` varchar(50) DEFAULT '',
@@ -14,10 +168,10 @@ CREATE TABLE `ims_ewei_shop_adv` (
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_enabled` (`enabled`),
   KEY `idx_displayorder` (`displayorder`)
-) ENGINE=MyISAM AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=15 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_article`;
-CREATE TABLE `ims_ewei_shop_article` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_article` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `article_title` varchar(255) NOT NULL DEFAULT '',
   `resp_desc` text NOT NULL,
@@ -41,6 +195,7 @@ CREATE TABLE `ims_ewei_shop_article` (
   `page_set_option_noshare_tl` int(1) NOT NULL DEFAULT '0',
   `page_set_option_noshare_msg` int(1) NOT NULL DEFAULT '0',
   `article_keyword` varchar(255) NOT NULL DEFAULT '',
+  `article_keyword2` varchar(255) NOT NULL DEFAULT '',
   `article_report` int(1) NOT NULL DEFAULT '0',
   `product_advs_type` int(1) NOT NULL DEFAULT '0',
   `product_advs_title` varchar(255) NOT NULL DEFAULT '',
@@ -48,8 +203,8 @@ CREATE TABLE `ims_ewei_shop_article` (
   `product_advs_link` varchar(255) NOT NULL DEFAULT '',
   `product_advs` text NOT NULL,
   `article_state` int(1) NOT NULL DEFAULT '0',
-  `network_attachment` varchar(255) DEFAULT '',
   `uniacid` int(11) NOT NULL DEFAULT '0',
+  `network_attachment` varchar(255) DEFAULT '',
   `article_rule_credittotal` int(11) DEFAULT '0',
   `article_rule_moneytotal` decimal(10,2) DEFAULT '0.00',
   `article_rule_credit2` int(11) NOT NULL DEFAULT '0',
@@ -63,7 +218,6 @@ CREATE TABLE `ims_ewei_shop_article` (
   `article_endtime` int(11) DEFAULT '0',
   `article_hasendtime` tinyint(3) DEFAULT '0',
   `displayorder` int(11) DEFAULT '0',
-  `article_keyword2` varchar(255) NOT NULL DEFAULT '',
   `article_advance` int(11) DEFAULT '0',
   `article_virtualadd` tinyint(3) DEFAULT '0',
   `article_visit` tinyint(3) DEFAULT '0',
@@ -71,25 +225,24 @@ CREATE TABLE `ims_ewei_shop_article` (
   `article_visit_tip` varchar(500) DEFAULT '',
   PRIMARY KEY (`id`),
   KEY `idx_article_title` (`article_title`),
-  KEY `idx_article_content` (`article_content`(10)),
   KEY `idx_article_keyword` (`article_keyword`),
   KEY `idx_uniacid` (`uniacid`)
-) ENGINE=MyISAM AUTO_INCREMENT=15 DEFAULT CHARSET=utf8 COMMENT='营销文章';
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=530 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_article_category`;
-CREATE TABLE `ims_ewei_shop_article_category` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_article_category` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `category_name` varchar(255) NOT NULL DEFAULT '',
-  `uniacid` int(11) NOT NULL DEFAULT '0',
   `displayorder` int(11) NOT NULL DEFAULT '0',
   `isshow` tinyint(1) NOT NULL DEFAULT '0',
+  `uniacid` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_category_name` (`category_name`)
-) ENGINE=MyISAM AUTO_INCREMENT=12 DEFAULT CHARSET=utf8 COMMENT='营销表单分类';
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=33 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_article_log`;
-CREATE TABLE `ims_ewei_shop_article_log` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_article_log` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `aid` int(11) NOT NULL DEFAULT '0',
   `read` int(11) NOT NULL DEFAULT '0',
@@ -100,10 +253,10 @@ CREATE TABLE `ims_ewei_shop_article_log` (
   KEY `idx_aid` (`aid`),
   KEY `idx_openid` (`openid`),
   KEY `idx_uniacid` (`uniacid`)
-) ENGINE=MyISAM AUTO_INCREMENT=621 DEFAULT CHARSET=utf8 COMMENT='点赞/阅读记录';
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=30604 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_article_report`;
-CREATE TABLE `ims_ewei_shop_article_report` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_article_report` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `mid` int(11) NOT NULL DEFAULT '0',
   `openid` varchar(255) NOT NULL DEFAULT '',
@@ -112,10 +265,10 @@ CREATE TABLE `ims_ewei_shop_article_report` (
   `cons` varchar(255) NOT NULL DEFAULT '',
   `uniacid` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='用户举报记录';
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_article_share`;
-CREATE TABLE `ims_ewei_shop_article_share` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_article_share` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `aid` int(11) NOT NULL DEFAULT '0',
   `share_user` int(11) NOT NULL DEFAULT '0',
@@ -127,26 +280,26 @@ CREATE TABLE `ims_ewei_shop_article_share` (
   PRIMARY KEY (`id`),
   KEY `idx_aid` (`aid`),
   KEY `idx_uniacid` (`uniacid`)
-) ENGINE=MyISAM AUTO_INCREMENT=63 DEFAULT CHARSET=utf8 COMMENT='用户分享数据';
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=34124 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_article_sys`;
-CREATE TABLE `ims_ewei_shop_article_sys` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_article_sys` (
   `uniacid` int(11) NOT NULL DEFAULT '0',
   `article_message` varchar(255) NOT NULL DEFAULT '',
   `article_title` varchar(255) NOT NULL DEFAULT '',
   `article_image` varchar(300) NOT NULL DEFAULT '',
   `article_shownum` int(11) NOT NULL DEFAULT '0',
   `article_keyword` varchar(255) NOT NULL DEFAULT '',
-  `article_temp` int(11) NOT NULL DEFAULT '0',
   `article_source` varchar(255) NOT NULL DEFAULT '',
+  `article_temp` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`uniacid`),
   KEY `idx_article_message` (`article_message`),
   KEY `idx_article_keyword` (`article_keyword`),
   KEY `idx_article_title` (`article_title`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='文章设置';
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_banner`;
-CREATE TABLE `ims_ewei_shop_banner` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_banner` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `bannername` varchar(50) DEFAULT '',
@@ -159,10 +312,81 @@ CREATE TABLE `ims_ewei_shop_banner` (
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_enabled` (`enabled`),
   KEY `idx_displayorder` (`displayorder`)
-) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=7 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_bargain_account`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_bargain_account` (
+  `id` int(11) NOT NULL,
+  `mall_name` varchar(255) DEFAULT NULL,
+  `banner` varchar(255) DEFAULT NULL,
+  `mall_title` varchar(255) DEFAULT NULL,
+  `mall_content` varchar(255) DEFAULT NULL,
+  `mall_logo` varchar(255) DEFAULT NULL,
+  `message` int(11) DEFAULT '0',
+  `partin` int(11) DEFAULT '0',
+  `rule` text,
+  `end_message` int(11) DEFAULT '0'
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_bargain_actor`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_bargain_actor` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `goods_id` int(11) NOT NULL,
+  `now_price` decimal(9,2) NOT NULL,
+  `created_time` datetime NOT NULL,
+  `update_time` datetime NOT NULL,
+  `bargain_times` int(10) NOT NULL,
+  `openid` varchar(50) NOT NULL DEFAULT '',
+  `nickname` varchar(20) NOT NULL,
+  `head_image` varchar(200) NOT NULL,
+  `bargain_price` decimal(9,2) NOT NULL,
+  `status` tinyint(2) NOT NULL,
+  `account_id` int(11) NOT NULL,
+  `initiate` tinyint(4) NOT NULL DEFAULT '0',
+  `order` int(11) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2688 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_bargain_goods`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_bargain_goods` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `account_id` int(11) NOT NULL,
+  `goods_id` varchar(20) NOT NULL,
+  `end_price` decimal(10,2) NOT NULL,
+  `start_time` datetime NOT NULL,
+  `end_time` datetime NOT NULL,
+  `status` tinyint(2) NOT NULL,
+  `type` tinyint(2) NOT NULL,
+  `user_set` text,
+  `rule` text,
+  `act_times` int(11) NOT NULL,
+  `mode` tinyint(4) NOT NULL,
+  `total_time` int(11) NOT NULL,
+  `each_time` int(11) NOT NULL,
+  `time_limit` int(11) NOT NULL,
+  `probability` text NOT NULL,
+  `custom` varchar(255) DEFAULT NULL,
+  `maximum` int(11) DEFAULT NULL,
+  `initiate` tinyint(4) NOT NULL DEFAULT '0',
+  `myself` tinyint(3) DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `goods_id` (`goods_id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=30 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_bargain_record`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_bargain_record` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `actor_id` int(11) NOT NULL,
+  `bargain_price` decimal(9,2) NOT NULL,
+  `openid` varchar(50) NOT NULL DEFAULT '',
+  `nickname` varchar(20) NOT NULL,
+  `head_image` varchar(200) NOT NULL,
+  `bargain_time` datetime NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=19550 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_carrier`;
-CREATE TABLE `ims_ewei_shop_carrier` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_carrier` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `realname` varchar(50) DEFAULT '',
@@ -175,10 +399,227 @@ CREATE TABLE `ims_ewei_shop_carrier` (
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_deleted` (`deleted`),
   KEY `idx_createtime` (`createtime`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_cashier_category`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_cashier_category` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) DEFAULT '0',
+  `catename` varchar(255) DEFAULT '',
+  `createtime` int(11) DEFAULT '0',
+  `status` tinyint(1) DEFAULT '0',
+  `displayorder` int(11) DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `idx_uniacid` (`uniacid`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_cashier_clearing`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_cashier_clearing` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) DEFAULT '0',
+  `cashierid` int(11) DEFAULT '0',
+  `clearno` varchar(64) DEFAULT '',
+  `status` tinyint(3) DEFAULT '0',
+  `money` decimal(10,2) DEFAULT '0.00',
+  `realmoney` decimal(10,2) DEFAULT '0.00',
+  `remark` varchar(500) DEFAULT '',
+  `orderids` text,
+  `createtime` int(11) DEFAULT '0',
+  `paytime` int(11) DEFAULT '0',
+  `deleted` tinyint(3) DEFAULT '0',
+  `paytype` tinyint(1) DEFAULT '0',
+  `payinfo` varchar(1000) DEFAULT '',
+  `charge` decimal(10,2) DEFAULT '0.00',
+  PRIMARY KEY (`id`),
+  KEY `uniacid` (`uniacid`),
+  KEY `storeid` (`cashierid`),
+  KEY `status` (`status`),
+  KEY `createtime` (`createtime`),
+  KEY `deleted` (`deleted`),
+  KEY `clearno` (`clearno`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_cashier_goods`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_cashier_goods` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) DEFAULT '0',
+  `cashierid` int(11) DEFAULT '0',
+  `createtime` int(10) unsigned DEFAULT '0',
+  `title` varchar(255) DEFAULT '',
+  `image` varchar(255) DEFAULT '',
+  `categoryid` tinyint(1) DEFAULT '0',
+  `price` decimal(10,2) DEFAULT '0.00',
+  `total` int(11) DEFAULT '0',
+  `status` tinyint(1) DEFAULT '0',
+  `goodssn` varchar(50) DEFAULT '',
+  PRIMARY KEY (`id`),
+  KEY `uniacid` (`uniacid`),
+  KEY `cashierid` (`cashierid`),
+  KEY `goodssn` (`goodssn`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_cashier_goods_category`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_cashier_goods_category` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) DEFAULT '0',
+  `cashierid` int(11) DEFAULT '0',
+  `catename` varchar(255) DEFAULT '',
+  `createtime` int(11) DEFAULT '0',
+  `status` tinyint(1) DEFAULT '0',
+  `displayorder` int(11) DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `idx_uniacid` (`uniacid`),
+  KEY `idx_cashierid` (`cashierid`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_cashier_operator`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_cashier_operator` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) DEFAULT '0',
+  `cashierid` int(11) DEFAULT '0',
+  `title` varchar(255) DEFAULT '',
+  `manageopenid` varchar(50) DEFAULT '',
+  `username` varchar(255) DEFAULT '',
+  `password` varchar(50) DEFAULT '',
+  `salt` varchar(8) DEFAULT '',
+  `perm` text,
+  `createtime` int(10) unsigned DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `uniacid` (`uniacid`),
+  KEY `cashierid` (`cashierid`),
+  KEY `manageopenid` (`manageopenid`),
+  KEY `username` (`username`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_cashier_order`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_cashier_order` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) DEFAULT '0',
+  `ordersn` varchar(255) DEFAULT '',
+  `price` decimal(10,2) DEFAULT '0.00',
+  `openid` varchar(50) DEFAULT '',
+  `payopenid` varchar(50) DEFAULT '',
+  `createtime` int(10) unsigned DEFAULT '0',
+  `status` tinyint(4) DEFAULT '0',
+  `paytime` int(10) unsigned DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_cashier_pay_log`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_cashier_pay_log` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) DEFAULT '0',
+  `cashierid` int(11) DEFAULT '0',
+  `operatorid` int(11) DEFAULT '0',
+  `openid` varchar(50) DEFAULT '',
+  `paytype` tinyint(3) DEFAULT NULL,
+  `logno` varchar(255) DEFAULT '',
+  `title` varchar(255) DEFAULT '',
+  `createtime` int(11) DEFAULT '0',
+  `status` int(11) DEFAULT '0',
+  `money` decimal(10,2) DEFAULT '0.00',
+  `paytime` int(11) DEFAULT '0',
+  `is_applypay` tinyint(1) DEFAULT '0',
+  `randommoney` decimal(10,2) DEFAULT '0.00',
+  `enough` decimal(10,2) DEFAULT '0.00',
+  `mobile` varchar(20) DEFAULT '',
+  `deduction` decimal(10,2) DEFAULT '0.00',
+  `discountmoney` decimal(10,2) DEFAULT '0.00',
+  `discount` decimal(5,2) DEFAULT '0.00',
+  `isgoods` tinyint(1) DEFAULT '0',
+  `orderid` int(11) DEFAULT '0',
+  `orderprice` decimal(10,2) DEFAULT '0.00',
+  `goodsprice` decimal(10,2) DEFAULT '0.00',
+  `couponpay` decimal(10,2) DEFAULT '0.00',
+  `payopenid` varchar(50) DEFAULT '',
+  `nosalemoney` decimal(10,2) DEFAULT '0.00',
+  `coupon` int(11) DEFAULT '0',
+  `usecoupon` int(11) DEFAULT '0',
+  `usecouponprice` decimal(10,2) DEFAULT '0.00',
+  `present_credit1` tinyint(4) DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `idx_uniacid` (`uniacid`),
+  KEY `idx_type` (`paytype`),
+  KEY `idx_createtime` (`createtime`),
+  KEY `idx_status` (`status`),
+  KEY `idx_storeid` (`cashierid`),
+  KEY `idx_logno` (`logno`),
+  KEY `is_applypay` (`is_applypay`),
+  KEY `orderid` (`orderid`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=8 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_cashier_pay_log_goods`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_cashier_pay_log_goods` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `cashierid` int(11) DEFAULT '0',
+  `logid` int(11) DEFAULT '0',
+  `goodsid` int(11) DEFAULT '0',
+  `price` decimal(10,2) DEFAULT '0.00',
+  `total` int(11) DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `logid` (`logid`),
+  KEY `goodsid` (`goodsid`),
+  KEY `cashierid` (`cashierid`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_cashier_qrcode`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_cashier_qrcode` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) DEFAULT '0',
+  `cashierid` int(11) DEFAULT '0',
+  `title` varchar(255) DEFAULT '',
+  `goodstitle` varchar(255) DEFAULT '',
+  `money` decimal(10,2) DEFAULT '0.00',
+  `createtime` int(10) unsigned DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `uniacid` (`uniacid`),
+  KEY `cashierid` (`cashierid`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_cashier_user`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_cashier_user` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) DEFAULT '0',
+  `storeid` int(11) DEFAULT '0',
+  `merchid` int(11) DEFAULT '0',
+  `setmeal` tinyint(3) DEFAULT '0',
+  `title` varchar(255) DEFAULT '',
+  `logo` varchar(255) DEFAULT '',
+  `manageopenid` varchar(50) DEFAULT '',
+  `isopen_commission` tinyint(1) DEFAULT '0',
+  `name` varchar(50) DEFAULT '',
+  `mobile` varchar(50) DEFAULT '',
+  `categoryid` int(11) DEFAULT '0',
+  `wechat_status` tinyint(1) DEFAULT '0',
+  `wechatpay` text,
+  `alipay_status` tinyint(1) DEFAULT '0',
+  `alipay` text,
+  `withdraw` decimal(10,2) DEFAULT '0.00',
+  `openid` varchar(50) DEFAULT '',
+  `diyformfields` text,
+  `diyformdata` text,
+  `createtime` int(11) DEFAULT '0',
+  `username` varchar(255) DEFAULT '',
+  `password` varchar(32) DEFAULT '',
+  `salt` char(8) DEFAULT '',
+  `lifetimestart` int(10) unsigned DEFAULT '0',
+  `lifetimeend` int(10) unsigned DEFAULT '0',
+  `status` tinyint(1) DEFAULT '0',
+  `set` longtext,
+  `deleted` tinyint(1) DEFAULT '0',
+  `can_withdraw` tinyint(1) DEFAULT '0',
+  `show_paytype` tinyint(1) DEFAULT '0',
+  `couponid` varchar(255) DEFAULT '',
+  `management` varchar(1000) DEFAULT '',
+  PRIMARY KEY (`id`),
+  KEY `uniacid` (`uniacid`),
+  KEY `openid` (`manageopenid`),
+  KEY `username` (`username`),
+  KEY `status` (`status`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_category`;
-CREATE TABLE `ims_ewei_shop_category` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_category` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `name` varchar(50) DEFAULT NULL,
@@ -189,9 +630,9 @@ CREATE TABLE `ims_ewei_shop_category` (
   `displayorder` tinyint(3) unsigned DEFAULT '0',
   `enabled` tinyint(1) DEFAULT '1',
   `ishome` tinyint(3) DEFAULT '0',
+  `level` tinyint(3) DEFAULT NULL,
   `advimg` varchar(255) DEFAULT '',
   `advurl` varchar(500) DEFAULT '',
-  `level` tinyint(3) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_displayorder` (`displayorder`),
@@ -199,10 +640,10 @@ CREATE TABLE `ims_ewei_shop_category` (
   KEY `idx_parentid` (`parentid`),
   KEY `idx_isrecommand` (`isrecommand`),
   KEY `idx_ishome` (`ishome`)
-) ENGINE=MyISAM AUTO_INCREMENT=1174 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=94 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_commission_apply`;
-CREATE TABLE `ims_ewei_shop_commission_apply` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_commission_apply` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `applyno` varchar(255) DEFAULT '',
@@ -226,6 +667,13 @@ CREATE TABLE `ims_ewei_shop_commission_apply` (
   `alipay` varchar(50) NOT NULL DEFAULT '',
   `bankname` varchar(50) NOT NULL DEFAULT '',
   `bankcard` varchar(50) NOT NULL DEFAULT '',
+  `realname` varchar(50) NOT NULL DEFAULT '',
+  `alipay1` varchar(50) NOT NULL DEFAULT '',
+  `bankname1` varchar(50) NOT NULL DEFAULT '',
+  `bankcard1` varchar(50) NOT NULL DEFAULT '',
+  `repurchase` decimal(10,2) DEFAULT '0.00',
+  `sendmoney` decimal(10,2) DEFAULT '0.00',
+  `senddata` text,
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_mid` (`mid`),
@@ -234,10 +682,10 @@ CREATE TABLE `ims_ewei_shop_commission_apply` (
   KEY `idx_applytime` (`applytime`),
   KEY `idx_status` (`status`),
   KEY `idx_invalidtime` (`invalidtime`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=80 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_commission_bank`;
-CREATE TABLE `ims_ewei_shop_commission_bank` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_commission_bank` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) NOT NULL DEFAULT '0',
   `bankname` varchar(255) NOT NULL DEFAULT '',
@@ -246,10 +694,10 @@ CREATE TABLE `ims_ewei_shop_commission_bank` (
   `displayorder` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_commission_clickcount`;
-CREATE TABLE `ims_ewei_shop_commission_clickcount` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_commission_clickcount` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `openid` varchar(255) DEFAULT '',
@@ -259,26 +707,26 @@ CREATE TABLE `ims_ewei_shop_commission_clickcount` (
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_openid` (`openid`),
   KEY `idx_from_openid` (`from_openid`)
-) ENGINE=MyISAM AUTO_INCREMENT=301 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=10717 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_commission_level`;
-CREATE TABLE `ims_ewei_shop_commission_level` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_commission_level` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) NOT NULL,
   `levelname` varchar(50) DEFAULT '',
   `commission1` decimal(10,2) DEFAULT '0.00',
   `commission2` decimal(10,2) DEFAULT '0.00',
   `commission3` decimal(10,2) DEFAULT '0.00',
-  `commissionmoney` decimal(10,2) DEFAULT '0.00',
   `ordermoney` decimal(10,2) DEFAULT '0.00',
-  `downcount` varchar(255) DEFAULT '',
   `ordercount` int(11) DEFAULT '0',
+  `downcount` varchar(255) DEFAULT '',
+  `commissionmoney` decimal(10,2) DEFAULT '0.00',
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`)
-) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_commission_log`;
-CREATE TABLE `ims_ewei_shop_commission_log` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_commission_log` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `applyid` int(11) DEFAULT '0',
@@ -289,16 +737,16 @@ CREATE TABLE `ims_ewei_shop_commission_log` (
   `realmoney` decimal(10,2) DEFAULT '0.00',
   `charge` decimal(10,2) DEFAULT '0.00',
   `deductionmoney` decimal(10,2) DEFAULT '0.00',
-  `type` tinyint(3) NOT NULL DEFAULT '0',
+  `type` tinyint(3) DEFAULT '0',
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_applyid` (`applyid`),
   KEY `idx_mid` (`mid`),
   KEY `idx_createtime` (`createtime`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=76 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_commission_rank`;
-CREATE TABLE `ims_ewei_shop_commission_rank` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_commission_rank` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) NOT NULL,
   `type` tinyint(4) NOT NULL DEFAULT '0',
@@ -307,10 +755,10 @@ CREATE TABLE `ims_ewei_shop_commission_rank` (
   `title` varchar(255) NOT NULL DEFAULT '',
   `content` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_commission_repurchase`;
-CREATE TABLE `ims_ewei_shop_commission_repurchase` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_commission_repurchase` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `openid` varchar(50) DEFAULT '',
@@ -322,10 +770,10 @@ CREATE TABLE `ims_ewei_shop_commission_repurchase` (
   KEY `applyid` (`applyid`),
   KEY `openid` (`openid`),
   KEY `uniacid` (`uniacid`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_commission_shop`;
-CREATE TABLE `ims_ewei_shop_commission_shop` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_commission_shop` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `mid` int(11) DEFAULT '0',
@@ -339,10 +787,10 @@ CREATE TABLE `ims_ewei_shop_commission_shop` (
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_mid` (`mid`)
-) ENGINE=MyISAM AUTO_INCREMENT=51 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=6 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_coupon`;
-CREATE TABLE `ims_ewei_shop_coupon` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_coupon` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `catid` int(11) DEFAULT '0',
@@ -380,6 +828,7 @@ CREATE TABLE `ims_ewei_shop_coupon` (
   `remark` varchar(1000) DEFAULT '',
   `descnoset` tinyint(3) DEFAULT '0',
   `pwdkey` varchar(255) DEFAULT '',
+  `pwdkey2` varchar(255) DEFAULT '',
   `pwdsuc` text,
   `pwdfail` text,
   `pwdurl` varchar(255) DEFAULT '',
@@ -393,8 +842,20 @@ CREATE TABLE `ims_ewei_shop_coupon` (
   `pwdexit` varchar(255) DEFAULT '',
   `pwdexitstr` text,
   `displayorder` int(11) DEFAULT '0',
-  `pwdkey2` varchar(255) DEFAULT '',
   `merchid` int(11) DEFAULT '0',
+  `limitgoodtype` tinyint(1) DEFAULT '0',
+  `limitgoodcatetype` tinyint(1) DEFAULT '0',
+  `limitgoodcateids` varchar(500) DEFAULT '',
+  `limitgoodids` varchar(500) DEFAULT '',
+  `islimitlevel` tinyint(1) DEFAULT '0',
+  `limitmemberlevels` varchar(500) DEFAULT '',
+  `limitagentlevels` varchar(500) DEFAULT '',
+  `limitpartnerlevels` varchar(500) DEFAULT '',
+  `limitaagentlevels` varchar(500) DEFAULT '',
+  `tagtitle` varchar(20) DEFAULT '',
+  `settitlecolor` tinyint(1) DEFAULT '0',
+  `titlecolor` varchar(10) DEFAULT '',
+  `limitdiscounttype` tinyint(1) DEFAULT '1',
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_coupontype` (`coupontype`),
@@ -404,10 +865,10 @@ CREATE TABLE `ims_ewei_shop_coupon` (
   KEY `idx_status` (`status`),
   KEY `idx_givetype` (`backtype`),
   KEY `idx_catid` (`catid`)
-) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=17 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_coupon_category`;
-CREATE TABLE `ims_ewei_shop_coupon_category` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_coupon_category` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `name` varchar(255) DEFAULT '',
@@ -418,10 +879,10 @@ CREATE TABLE `ims_ewei_shop_coupon_category` (
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_displayorder` (`displayorder`),
   KEY `idx_status` (`status`)
-) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_coupon_data`;
-CREATE TABLE `ims_ewei_shop_coupon_data` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_coupon_data` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `openid` varchar(255) DEFAULT '',
@@ -435,13 +896,30 @@ CREATE TABLE `ims_ewei_shop_coupon_data` (
   `back` tinyint(3) DEFAULT '0',
   `backtime` int(11) DEFAULT '0',
   `merchid` int(11) DEFAULT '0',
+  `isnew` tinyint(1) DEFAULT '1',
+  `nocount` tinyint(1) DEFAULT '1',
   PRIMARY KEY (`id`),
   KEY `idx_couponid` (`couponid`),
   KEY `idx_gettype` (`gettype`)
-) ENGINE=MyISAM AUTO_INCREMENT=15 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=56 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_coupon_goodsendtask`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_coupon_goodsendtask` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) DEFAULT NULL,
+  `goodsid` int(11) DEFAULT '0',
+  `couponid` int(11) DEFAULT '0',
+  `starttime` int(11) DEFAULT '0',
+  `endtime` int(11) DEFAULT '0',
+  `sendnum` int(11) DEFAULT '1',
+  `num` int(11) DEFAULT '0',
+  `sendpoint` tinyint(1) DEFAULT '0',
+  `status` tinyint(1) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_coupon_guess`;
-CREATE TABLE `ims_ewei_shop_coupon_guess` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_coupon_guess` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `couponid` int(11) DEFAULT '0',
@@ -453,10 +931,10 @@ CREATE TABLE `ims_ewei_shop_coupon_guess` (
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_couponid` (`couponid`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_coupon_log`;
-CREATE TABLE `ims_ewei_shop_coupon_log` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_coupon_log` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `logno` varchar(255) DEFAULT '',
@@ -476,10 +954,52 @@ CREATE TABLE `ims_ewei_shop_coupon_log` (
   KEY `idx_paystatus` (`paystatus`),
   KEY `idx_createtime` (`createtime`),
   KEY `idx_getfrom` (`getfrom`)
-) ENGINE=MyISAM AUTO_INCREMENT=15 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=58 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_coupon_sendshow`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_coupon_sendshow` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `showkey` varchar(20) NOT NULL,
+  `uniacid` int(11) NOT NULL,
+  `openid` varchar(255) NOT NULL,
+  `coupondataid` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=7 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_coupon_sendtasks`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_coupon_sendtasks` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) DEFAULT NULL,
+  `enough` decimal(10,2) DEFAULT '0.00',
+  `couponid` int(11) DEFAULT '0',
+  `starttime` int(11) DEFAULT '0',
+  `endtime` int(11) DEFAULT '0',
+  `sendnum` int(11) DEFAULT '1',
+  `num` int(11) DEFAULT '0',
+  `sendpoint` tinyint(1) DEFAULT '0',
+  `status` tinyint(1) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_coupon_taskdata`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_coupon_taskdata` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) DEFAULT NULL,
+  `openid` varchar(50) DEFAULT NULL,
+  `taskid` int(11) DEFAULT '0',
+  `couponid` int(11) DEFAULT '0',
+  `sendnum` int(11) DEFAULT '0',
+  `tasktype` tinyint(1) DEFAULT '0',
+  `orderid` int(11) DEFAULT '0',
+  `parentorderid` int(11) DEFAULT '0',
+  `createtime` int(11) DEFAULT '0',
+  `status` tinyint(1) DEFAULT '0',
+  `sendpoint` tinyint(1) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=15 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_creditshop_adv`;
-CREATE TABLE `ims_ewei_shop_creditshop_adv` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_creditshop_adv` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `advname` varchar(50) DEFAULT '',
@@ -491,10 +1011,10 @@ CREATE TABLE `ims_ewei_shop_creditshop_adv` (
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_enabled` (`enabled`),
   KEY `idx_displayorder` (`displayorder`)
-) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_creditshop_category`;
-CREATE TABLE `ims_ewei_shop_creditshop_category` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_creditshop_category` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `name` varchar(50) DEFAULT NULL,
@@ -508,10 +1028,41 @@ CREATE TABLE `ims_ewei_shop_creditshop_category` (
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_displayorder` (`displayorder`),
   KEY `idx_enabled` (`enabled`)
-) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=15 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_creditshop_comment`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_creditshop_comment` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) NOT NULL DEFAULT '0',
+  `logid` int(11) NOT NULL DEFAULT '0',
+  `logno` varchar(50) NOT NULL DEFAULT '',
+  `goodsid` int(11) NOT NULL DEFAULT '0',
+  `openid` varchar(50) DEFAULT NULL,
+  `nickname` varchar(50) DEFAULT NULL,
+  `headimg` varchar(255) DEFAULT NULL,
+  `level` tinyint(3) NOT NULL DEFAULT '0',
+  `content` varchar(255) DEFAULT NULL,
+  `images` text,
+  `time` int(11) NOT NULL DEFAULT '0',
+  `reply_content` varchar(255) DEFAULT NULL,
+  `reply_images` text,
+  `reply_time` int(11) NOT NULL DEFAULT '0',
+  `append_content` varchar(255) DEFAULT NULL,
+  `append_images` text,
+  `append_time` int(11) NOT NULL DEFAULT '0',
+  `append_reply_content` varchar(255) DEFAULT NULL,
+  `append_reply_images` text,
+  `append_reply_time` int(11) NOT NULL DEFAULT '0',
+  `istop` tinyint(3) NOT NULL DEFAULT '0',
+  `checked` tinyint(3) NOT NULL DEFAULT '0',
+  `append_checked` tinyint(3) NOT NULL DEFAULT '0',
+  `virtual` tinyint(3) NOT NULL DEFAULT '0',
+  `deleted` tinyint(3) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_creditshop_goods`;
-CREATE TABLE `ims_ewei_shop_creditshop_goods` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_creditshop_goods` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `displayorder` int(11) DEFAULT '0',
@@ -566,6 +1117,34 @@ CREATE TABLE `ims_ewei_shop_creditshop_goods` (
   `goodstype` tinyint(3) DEFAULT '0',
   `couponid` int(11) DEFAULT '0',
   `goodsid` int(11) DEFAULT '0',
+  `merchid` int(11) NOT NULL DEFAULT '0',
+  `productprice` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `mincredit` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `minmoney` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `maxcredit` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `maxmoney` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `dispatchtype` tinyint(3) NOT NULL DEFAULT '0',
+  `dispatchid` int(11) NOT NULL DEFAULT '0',
+  `verifytype` tinyint(3) NOT NULL DEFAULT '0',
+  `verifynum` int(11) NOT NULL DEFAULT '0',
+  `grant1` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `grant2` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `goodssn` varchar(255) NOT NULL,
+  `productsn` varchar(255) NOT NULL,
+  `weight` int(11) NOT NULL,
+  `showtotal` tinyint(3) NOT NULL,
+  `totalcnf` tinyint(3) NOT NULL DEFAULT '0',
+  `usetime` int(11) NOT NULL DEFAULT '0',
+  `hasoption` tinyint(3) NOT NULL DEFAULT '0',
+  `noticedetailshow` tinyint(3) NOT NULL DEFAULT '0',
+  `detailshow` tinyint(3) NOT NULL DEFAULT '0',
+  `packetmoney` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `surplusmoney` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `packetlimit` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `packettype` tinyint(3) NOT NULL DEFAULT '0',
+  `minpacketmoney` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `packettotal` int(11) NOT NULL DEFAULT '0',
+  `packetsurplus` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_type` (`type`),
@@ -580,10 +1159,10 @@ CREATE TABLE `ims_ewei_shop_creditshop_goods` (
   KEY `idx_timestart` (`timestart`),
   KEY `idx_timeend` (`timeend`),
   KEY `idx_goodstype` (`goodstype`)
-) ENGINE=MyISAM AUTO_INCREMENT=20 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=487 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_creditshop_log`;
-CREATE TABLE `ims_ewei_shop_creditshop_log` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_creditshop_log` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `logno` varchar(255) DEFAULT '',
@@ -603,19 +1182,89 @@ CREATE TABLE `ims_ewei_shop_creditshop_log` (
   `expresssn` varchar(255) DEFAULT '',
   `expresscom` varchar(255) DEFAULT '',
   `verifyopenid` varchar(255) DEFAULT '',
+  `transid` varchar(255) DEFAULT '',
+  `dispatchtransid` varchar(255) DEFAULT '',
   `storeid` int(11) DEFAULT '0',
   `realname` varchar(255) DEFAULT '',
   `mobile` varchar(255) DEFAULT '',
   `couponid` int(11) DEFAULT '0',
   `dupdate1` tinyint(3) DEFAULT '0',
-  `transid` varchar(255) DEFAULT '',
-  `dispatchtransid` varchar(255) DEFAULT '',
   `address` text,
+  `optionid` int(11) NOT NULL DEFAULT '0',
+  `time_send` int(11) NOT NULL DEFAULT '0',
+  `time_finish` int(11) NOT NULL DEFAULT '0',
+  `iscomment` tinyint(3) NOT NULL DEFAULT '0',
+  `dispatchtime` int(11) NOT NULL DEFAULT '0',
+  `verifynum` int(11) NOT NULL DEFAULT '1',
+  `verifytime` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=54 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=62 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_creditshop_option`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_creditshop_option` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) DEFAULT '0',
+  `goodsid` int(10) DEFAULT '0',
+  `title` varchar(50) DEFAULT '',
+  `thumb` varchar(60) DEFAULT '',
+  `credit` int(10) NOT NULL DEFAULT '0',
+  `money` decimal(10,2) DEFAULT '0.00',
+  `total` int(11) DEFAULT '0',
+  `weight` decimal(10,2) DEFAULT '0.00',
+  `displayorder` int(11) DEFAULT '0',
+  `specs` text,
+  `skuId` varchar(255) DEFAULT '',
+  `goodssn` varchar(255) DEFAULT '',
+  `productsn` varchar(255) DEFAULT '',
+  `virtual` int(11) DEFAULT '0',
+  `exchange_stock` int(11) NOT NULL DEFAULT '-1',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_creditshop_spec`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_creditshop_spec` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) DEFAULT '0',
+  `goodsid` int(11) DEFAULT '0',
+  `title` varchar(50) DEFAULT '',
+  `description` varchar(1000) DEFAULT '',
+  `displaytype` tinyint(3) DEFAULT '0',
+  `content` text,
+  `displayorder` int(11) DEFAULT '0',
+  `propId` varchar(255) DEFAULT '',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_creditshop_spec_item`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_creditshop_spec_item` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) DEFAULT '0',
+  `specid` int(11) DEFAULT '0',
+  `title` varchar(255) DEFAULT '',
+  `thumb` varchar(255) DEFAULT '',
+  `show` int(11) DEFAULT '0',
+  `displayorder` int(11) DEFAULT '0',
+  `valueId` varchar(255) DEFAULT '',
+  `virtual` int(11) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_creditshop_verify`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_creditshop_verify` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) DEFAULT '0',
+  `openid` varchar(45) DEFAULT '0',
+  `logid` int(11) DEFAULT '0',
+  `verifycode` varchar(45) DEFAULT NULL,
+  `storeid` int(11) DEFAULT '0',
+  `verifier` varchar(45) DEFAULT '0',
+  `isverify` tinyint(3) DEFAULT '0',
+  `verifytime` int(11) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=8 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_customer`;
-CREATE TABLE `ims_ewei_shop_customer` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_customer` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `kf_id` varchar(255) DEFAULT NULL,
@@ -627,19 +1276,19 @@ CREATE TABLE `ims_ewei_shop_customer` (
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_createtime` (`createtime`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_customer_category`;
-CREATE TABLE `ims_ewei_shop_customer_category` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_customer_category` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `name` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_customer_guestbook`;
-CREATE TABLE `ims_ewei_shop_customer_guestbook` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_customer_guestbook` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `openid` varchar(255) DEFAULT '',
@@ -653,10 +1302,10 @@ CREATE TABLE `ims_ewei_shop_customer_guestbook` (
   `createtime` int(11) DEFAULT '0',
   `deleted` tinyint(3) DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_customer_robot`;
-CREATE TABLE `ims_ewei_shop_customer_robot` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_customer_robot` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `cate` int(11) DEFAULT '0',
@@ -668,10 +1317,10 @@ CREATE TABLE `ims_ewei_shop_customer_robot` (
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_cate` (`cate`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_designer`;
-CREATE TABLE `ims_ewei_shop_designer` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_designer` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) NOT NULL DEFAULT '0',
   `pagename` varchar(255) NOT NULL DEFAULT '',
@@ -683,13 +1332,12 @@ CREATE TABLE `ims_ewei_shop_designer` (
   `setdefault` tinyint(3) NOT NULL DEFAULT '0',
   `datas` text NOT NULL,
   PRIMARY KEY (`id`),
-  KEY `idx_uniacid` (`uniacid`),
   KEY `idx_pagetype` (`pagetype`),
-  FULLTEXT KEY `idx_keyword` (`keyword`)
-) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+  KEY `idx_uniacid` (`uniacid`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_designer_menu`;
-CREATE TABLE `ims_ewei_shop_designer_menu` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_designer_menu` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `menuname` varchar(255) DEFAULT '',
@@ -698,13 +1346,13 @@ CREATE TABLE `ims_ewei_shop_designer_menu` (
   `menus` text,
   `params` text,
   PRIMARY KEY (`id`),
-  KEY `idx_uniacid` (`uniacid`),
+  KEY `idx_createtime` (`createtime`),
   KEY `idx_isdefault` (`isdefault`),
-  KEY `idx_createtime` (`createtime`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+  KEY `idx_uniacid` (`uniacid`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_dispatch`;
-CREATE TABLE `ims_ewei_shop_dispatch` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_dispatch` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `dispatchname` varchar(50) DEFAULT '',
@@ -730,19 +1378,19 @@ CREATE TABLE `ims_ewei_shop_dispatch` (
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_displayorder` (`displayorder`)
-) ENGINE=MyISAM AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=11 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_diyform_category`;
-CREATE TABLE `ims_ewei_shop_diyform_category` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_diyform_category` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `name` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`)
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_diyform_data`;
-CREATE TABLE `ims_ewei_shop_diyform_data` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_diyform_data` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) NOT NULL DEFAULT '0',
   `typeid` int(11) NOT NULL DEFAULT '0',
@@ -755,10 +1403,10 @@ CREATE TABLE `ims_ewei_shop_diyform_data` (
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_typeid` (`typeid`),
   KEY `idx_cid` (`cid`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_diyform_temp`;
-CREATE TABLE `ims_ewei_shop_diyform_temp` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_diyform_temp` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) NOT NULL DEFAULT '0',
   `typeid` int(11) DEFAULT '0',
@@ -774,10 +1422,10 @@ CREATE TABLE `ims_ewei_shop_diyform_temp` (
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_cid` (`cid`)
-) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=169 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_diyform_type`;
-CREATE TABLE `ims_ewei_shop_diyform_type` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_diyform_type` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) NOT NULL DEFAULT '0',
   `cate` int(11) DEFAULT '0',
@@ -789,10 +1437,10 @@ CREATE TABLE `ims_ewei_shop_diyform_type` (
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_cate` (`cate`)
-) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=14 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_diypage`;
-CREATE TABLE `ims_ewei_shop_diypage` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_diypage` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) NOT NULL DEFAULT '0',
   `type` tinyint(1) NOT NULL DEFAULT '0',
@@ -802,30 +1450,32 @@ CREATE TABLE `ims_ewei_shop_diypage` (
   `lastedittime` int(11) NOT NULL DEFAULT '0',
   `keyword` varchar(255) NOT NULL DEFAULT '',
   `diymenu` int(11) NOT NULL DEFAULT '0',
+  `merch` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_type` (`type`),
   KEY `idx_keyword` (`keyword`),
   KEY `idx_lastedittime` (`lastedittime`),
   KEY `idx_createtime` (`createtime`)
-) ENGINE=MyISAM AUTO_INCREMENT=18 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=62 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_diypage_menu`;
-CREATE TABLE `ims_ewei_shop_diypage_menu` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_diypage_menu` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) NOT NULL DEFAULT '0',
   `name` varchar(255) NOT NULL DEFAULT '',
   `data` text NOT NULL,
   `createtime` int(11) NOT NULL DEFAULT '0',
   `lastedittime` int(11) NOT NULL DEFAULT '0',
+  `merch` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_createtime` (`createtime`),
   KEY `idx_lastedittime` (`lastedittime`)
-) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=56 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_diypage_template`;
-CREATE TABLE `ims_ewei_shop_diypage_template` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_diypage_template` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) NOT NULL DEFAULT '0',
   `type` tinyint(3) NOT NULL DEFAULT '0',
@@ -835,23 +1485,164 @@ CREATE TABLE `ims_ewei_shop_diypage_template` (
   `tplid` int(11) DEFAULT '0',
   `cate` int(11) DEFAULT '0',
   `deleted` tinyint(3) DEFAULT '0',
+  `merch` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_type` (`type`),
   KEY `idx_cate` (`cate`)
-) ENGINE=MyISAM AUTO_INCREMENT=15 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=22 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_diypage_template_category`;
-CREATE TABLE `ims_ewei_shop_diypage_template_category` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_diypage_template_category` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) NOT NULL DEFAULT '0',
   `name` varchar(255) NOT NULL DEFAULT '',
+  `merch` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_exchange_cart`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_exchange_cart` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) DEFAULT NULL,
+  `openid` varchar(100) DEFAULT NULL,
+  `goodsid` int(11) DEFAULT NULL,
+  `total` int(10) DEFAULT '1',
+  `marketprice` decimal(10,2) DEFAULT NULL,
+  `optionid` int(11) DEFAULT NULL,
+  `selected` tinyint(1) DEFAULT '1',
+  `deleted` tinyint(1) DEFAULT '0',
+  `merchid` int(11) DEFAULT '0',
+  `title` varchar(255) DEFAULT NULL,
+  `groupid` int(11) DEFAULT NULL,
+  `serial` varchar(255) DEFAULT '',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_exchange_code`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_exchange_code` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `groupid` int(11) NOT NULL DEFAULT '0',
+  `uniacid` int(11) NOT NULL DEFAULT '0',
+  `endtime` datetime NOT NULL DEFAULT '2016-10-01 00:00:00',
+  `status` int(2) NOT NULL DEFAULT '1',
+  `openid` varchar(255) NOT NULL DEFAULT '',
+  `count` int(11) NOT NULL DEFAULT '0',
+  `key` varchar(255) NOT NULL DEFAULT '',
+  `type` int(11) NOT NULL DEFAULT '0',
+  `scene` int(11) NOT NULL DEFAULT '0',
+  `qrcode_url` varchar(255) NOT NULL DEFAULT '',
+  `serial` varchar(255) NOT NULL DEFAULT '',
+  `balancestatus` int(11) DEFAULT '1',
+  `redstatus` int(11) DEFAULT '1',
+  `scorestatus` int(11) DEFAULT '1',
+  `couponstatus` int(11) DEFAULT '1',
+  `goodsstatus` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`,`key`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_exchange_group`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_exchange_group` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(255) NOT NULL DEFAULT '',
+  `type` int(2) NOT NULL DEFAULT '0',
+  `endtime` datetime NOT NULL DEFAULT '2016-10-01 00:00:00',
+  `mode` int(2) NOT NULL DEFAULT '0',
+  `status` int(2) NOT NULL DEFAULT '0',
+  `max` int(2) NOT NULL DEFAULT '0',
+  `value` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `uniacid` int(11) NOT NULL DEFAULT '0',
+  `starttime` datetime NOT NULL DEFAULT '2016-10-01 00:00:00',
+  `goods` text,
+  `score` int(11) NOT NULL DEFAULT '0',
+  `coupon` text,
+  `use` int(11) NOT NULL DEFAULT '0',
+  `total` int(11) NOT NULL DEFAULT '0',
+  `red` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `balance` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `balance_left` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `balance_right` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `red_left` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `red_right` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `score_left` int(11) NOT NULL DEFAULT '0',
+  `score_right` int(11) NOT NULL DEFAULT '0',
+  `balance_type` int(11) NOT NULL,
+  `red_type` int(11) NOT NULL,
+  `score_type` int(11) NOT NULL,
+  `title_reply` varchar(255) NOT NULL DEFAULT '',
+  `img` varchar(255) NOT NULL DEFAULT '',
+  `content` varchar(255) NOT NULL DEFAULT '',
+  `rule` text NOT NULL,
+  `coupon_type` varchar(255) DEFAULT NULL,
+  `basic_content` varchar(500) NOT NULL DEFAULT '',
+  `reply_type` int(11) NOT NULL DEFAULT '0',
+  `code_type` int(11) NOT NULL DEFAULT '0',
+  `binding` int(11) NOT NULL DEFAULT '0',
+  `showcount` int(11) DEFAULT '0',
+  `postage` decimal(10,2) DEFAULT '0.00',
+  `postage_type` int(11) DEFAULT '0',
+  `banner` varchar(800) DEFAULT '',
+  `keyword_reply` int(11) DEFAULT '0',
+  `reply_status` int(11) DEFAULT '1',
+  `reply_keyword` varchar(255) DEFAULT '',
+  `input_banner` varchar(255) DEFAULT '',
+  `diypage` int(11) NOT NULL DEFAULT '0',
+  `sendname` varchar(255) DEFAULT '',
+  `wishing` varchar(255) DEFAULT '',
+  `actname` varchar(255) DEFAULT '',
+  `remark` varchar(255) DEFAULT '',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_exchange_query`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_exchange_query` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) NOT NULL DEFAULT '0',
+  `openid` varchar(255) NOT NULL DEFAULT '',
+  `querykey` varchar(255) NOT NULL DEFAULT '',
+  `querytime` int(11) NOT NULL DEFAULT '0',
+  `unfreeze` int(11) NOT NULL DEFAULT '0',
+  `errorcount` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`,`openid`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_exchange_record`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_exchange_record` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `key` varchar(255) NOT NULL DEFAULT '',
+  `uniacid` int(11) DEFAULT NULL,
+  `goods` text,
+  `orderid` varchar(255) NOT NULL DEFAULT '',
+  `time` int(11) NOT NULL,
+  `openid` varchar(255) NOT NULL DEFAULT '',
+  `mode` int(11) NOT NULL DEFAULT '0',
+  `balance` decimal(11,0) DEFAULT '0',
+  `red` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `coupon` text,
+  `score` int(11) NOT NULL DEFAULT '0',
+  `nickname` varchar(255) NOT NULL DEFAULT '',
+  `groupid` int(11) NOT NULL DEFAULT '0',
+  `title` varchar(255) NOT NULL DEFAULT '',
+  `serial` varchar(255) NOT NULL DEFAULT '',
+  `ordersn` varchar(255) NOT NULL DEFAULT '',
+  `goods_title` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`,`key`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_exchange_setting`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_exchange_setting` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) NOT NULL DEFAULT '0',
+  `freeze` int(11) NOT NULL DEFAULT '0',
+  `mistake` int(11) NOT NULL DEFAULT '0',
+  `grouplimit` int(11) NOT NULL DEFAULT '0',
+  `alllimit` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`,`uniacid`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_exhelper_express`;
-CREATE TABLE `ims_ewei_shop_exhelper_express` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_exhelper_express` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `type` int(1) NOT NULL DEFAULT '1',
@@ -863,13 +1654,14 @@ CREATE TABLE `ims_ewei_shop_exhelper_express` (
   `height` decimal(10,2) DEFAULT '0.00',
   `bg` varchar(255) DEFAULT '',
   `isdefault` tinyint(3) DEFAULT '0',
+  `merchid` int(11) DEFAULT '0',
   PRIMARY KEY (`id`),
-  KEY `idx_uniacid` (`uniacid`),
-  KEY `idx_isdefault` (`isdefault`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+  KEY `idx_isdefault` (`isdefault`),
+  KEY `idx_uniacid` (`uniacid`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_exhelper_senduser`;
-CREATE TABLE `ims_ewei_shop_exhelper_senduser` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_exhelper_senduser` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `sendername` varchar(255) DEFAULT '',
@@ -879,35 +1671,37 @@ CREATE TABLE `ims_ewei_shop_exhelper_senduser` (
   `senderaddress` varchar(255) DEFAULT '',
   `sendercity` varchar(255) DEFAULT NULL,
   `isdefault` tinyint(3) DEFAULT '0',
+  `merchid` int(11) DEFAULT '0',
   PRIMARY KEY (`id`),
-  KEY `idx_uniacid` (`uniacid`),
-  KEY `idx_isdefault` (`isdefault`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+  KEY `idx_isdefault` (`isdefault`),
+  KEY `idx_uniacid` (`uniacid`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_exhelper_sys`;
-CREATE TABLE `ims_ewei_shop_exhelper_sys` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_exhelper_sys` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) NOT NULL DEFAULT '0',
   `ip` varchar(20) NOT NULL DEFAULT 'localhost',
-  `port` int(11) NOT NULL DEFAULT '8000',
   `ip_cloud` varchar(255) NOT NULL DEFAULT '',
+  `port` int(11) NOT NULL DEFAULT '8000',
   `port_cloud` int(11) NOT NULL DEFAULT '8000',
   `is_cloud` int(1) NOT NULL DEFAULT '0',
+  `merchid` int(11) DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_express`;
-CREATE TABLE `ims_ewei_shop_express` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_express` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(50) DEFAULT '',
   `express` varchar(50) DEFAULT '',
   `status` tinyint(1) DEFAULT '1',
   `displayorder` tinyint(3) unsigned DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=91 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=92 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_feedback`;
-CREATE TABLE `ims_ewei_shop_feedback` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_feedback` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `openid` varchar(50) DEFAULT '0',
@@ -924,10 +1718,10 @@ CREATE TABLE `ims_ewei_shop_feedback` (
   KEY `idx_feedbackid` (`feedbackid`),
   KEY `idx_createtime` (`createtime`),
   KEY `idx_transid` (`transid`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_form`;
-CREATE TABLE `ims_ewei_shop_form` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_form` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `displayorder` int(11) DEFAULT '0',
@@ -938,18 +1732,47 @@ CREATE TABLE `ims_ewei_shop_form` (
   `values` text,
   `cate` int(11) DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_form_category`;
-CREATE TABLE `ims_ewei_shop_form_category` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_form_category` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `name` varchar(255) DEFAULT '',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_funbar`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_funbar` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uid` int(11) NOT NULL DEFAULT '0',
+  `datas` text,
+  `uniacid` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_gift`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_gift` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) NOT NULL DEFAULT '0',
+  `title` varchar(255) NOT NULL,
+  `thumb` varchar(255) NOT NULL,
+  `activity` tinyint(3) NOT NULL DEFAULT '1',
+  `orderprice` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `goodsid` varchar(255) NOT NULL,
+  `giftgoodsid` varchar(255) NOT NULL,
+  `starttime` int(11) NOT NULL DEFAULT '0',
+  `endtime` int(11) NOT NULL DEFAULT '0',
+  `status` tinyint(3) NOT NULL DEFAULT '0',
+  `displayorder` int(11) NOT NULL DEFAULT '0',
+  `share_title` varchar(255) NOT NULL,
+  `share_icon` varchar(255) NOT NULL,
+  `share_desc` text NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_globonus_bill`;
-CREATE TABLE `ims_ewei_shop_globonus_bill` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_globonus_bill` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `billno` varchar(100) DEFAULT '',
@@ -980,10 +1803,10 @@ CREATE TABLE `ims_ewei_shop_globonus_bill` (
   KEY `idx_month` (`month`),
   KEY `idx_week` (`week`),
   KEY `idx_year` (`year`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_globonus_billo`;
-CREATE TABLE `ims_ewei_shop_globonus_billo` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_globonus_billo` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `billid` int(11) DEFAULT '0',
@@ -992,10 +1815,10 @@ CREATE TABLE `ims_ewei_shop_globonus_billo` (
   PRIMARY KEY (`id`),
   KEY `idx_billid` (`billid`),
   KEY `idx_uniacid` (`uniacid`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_globonus_billp`;
-CREATE TABLE `ims_ewei_shop_globonus_billp` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_globonus_billp` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `billid` int(11) DEFAULT '0',
@@ -1014,10 +1837,10 @@ CREATE TABLE `ims_ewei_shop_globonus_billp` (
   PRIMARY KEY (`id`),
   KEY `idx_billid` (`billid`),
   KEY `idx_uniacid` (`uniacid`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_globonus_level`;
-CREATE TABLE `ims_ewei_shop_globonus_level` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_globonus_level` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) NOT NULL,
   `levelname` varchar(50) DEFAULT '',
@@ -1029,14 +1852,15 @@ CREATE TABLE `ims_ewei_shop_globonus_level` (
   `downcount` int(11) DEFAULT '0',
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`)
-) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_goods`;
-CREATE TABLE `ims_ewei_shop_goods` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_goods` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `pcate` int(11) DEFAULT '0',
   `ccate` int(11) DEFAULT '0',
+  `tcate` int(11) DEFAULT '0',
   `type` tinyint(1) DEFAULT '1',
   `status` tinyint(1) DEFAULT '1',
   `displayorder` int(11) DEFAULT '0',
@@ -1067,6 +1891,9 @@ CREATE TABLE `ims_ewei_shop_goods` (
   `isnew` tinyint(1) DEFAULT '0',
   `ishot` tinyint(1) DEFAULT '0',
   `isdiscount` tinyint(1) DEFAULT '0',
+  `isdiscount_title` varchar(255) DEFAULT '',
+  `isdiscount_time` int(11) DEFAULT '0',
+  `isdiscount_discounts` text,
   `isrecommand` tinyint(1) DEFAULT '0',
   `issendfree` tinyint(1) DEFAULT '0',
   `istime` tinyint(1) DEFAULT '0',
@@ -1082,6 +1909,7 @@ CREATE TABLE `ims_ewei_shop_goods` (
   `commission2_pay` decimal(10,2) DEFAULT '0.00',
   `commission3_rate` decimal(10,2) DEFAULT '0.00',
   `commission3_pay` decimal(10,2) DEFAULT '0.00',
+  `commission` text,
   `score` decimal(10,2) DEFAULT '0.00',
   `taobaoid` varchar(255) DEFAULT '',
   `taotaoid` varchar(255) DEFAULT '',
@@ -1099,12 +1927,12 @@ CREATE TABLE `ims_ewei_shop_goods` (
   `isverify` tinyint(3) DEFAULT '0',
   `storeids` text,
   `noticeopenid` varchar(255) DEFAULT '',
-  `tcate` int(11) DEFAULT '0',
   `noticetype` text,
   `needfollow` tinyint(3) DEFAULT '0',
-  `followtip` varchar(255) DEFAULT '',
   `followurl` varchar(255) DEFAULT '',
+  `followtip` varchar(255) DEFAULT '',
   `deduct` decimal(10,2) DEFAULT '0.00',
+  `shorttitle` varchar(255) DEFAULT '',
   `virtual` int(11) DEFAULT '0',
   `ccates` text,
   `discounts` text,
@@ -1112,20 +1940,19 @@ CREATE TABLE `ims_ewei_shop_goods` (
   `hidecommission` tinyint(3) DEFAULT '0',
   `pcates` text,
   `tcates` text,
-  `artid` int(11) DEFAULT '0',
   `detail_logo` varchar(255) DEFAULT '',
   `detail_shopname` varchar(255) DEFAULT '',
+  `detail_totaltitle` varchar(255) DEFAULT '',
   `detail_btntext1` varchar(255) DEFAULT '',
   `detail_btnurl1` varchar(255) DEFAULT '',
   `detail_btntext2` varchar(255) DEFAULT '',
   `detail_btnurl2` varchar(255) DEFAULT '',
-  `detail_totaltitle` varchar(255) DEFAULT '',
   `cates` text,
-  `saleupdate40170` tinyint(3) DEFAULT '0',
+  `artid` int(11) DEFAULT '0',
   `deduct2` decimal(10,2) DEFAULT '0.00',
   `ednum` int(11) DEFAULT '0',
-  `edmoney` decimal(10,2) DEFAULT '0.00',
   `edareas` text,
+  `edmoney` decimal(10,2) DEFAULT '0.00',
   `diyformtype` tinyint(1) DEFAULT '0',
   `diyformid` int(11) DEFAULT '0',
   `diymode` tinyint(1) DEFAULT '0',
@@ -1133,11 +1960,6 @@ CREATE TABLE `ims_ewei_shop_goods` (
   `dispatchid` int(11) DEFAULT '0',
   `dispatchprice` decimal(10,2) DEFAULT '0.00',
   `manydeduct` tinyint(1) DEFAULT '0',
-  `shorttitle` varchar(255) DEFAULT '',
-  `isdiscount_title` varchar(255) DEFAULT '',
-  `isdiscount_time` int(11) DEFAULT '0',
-  `isdiscount_discounts` text,
-  `commission` text,
   `saleupdate37975` tinyint(3) DEFAULT '0',
   `shopid` int(11) DEFAULT '0',
   `allcates` text,
@@ -1174,6 +1996,34 @@ CREATE TABLE `ims_ewei_shop_goods` (
   `catch_id` varchar(255) DEFAULT '',
   `catch_url` varchar(255) DEFAULT '',
   `catch_source` varchar(255) DEFAULT '',
+  `labelname` text,
+  `autoreceive` int(11) DEFAULT '0',
+  `cannotrefund` tinyint(3) DEFAULT '0',
+  `bargain` int(11) DEFAULT '0',
+  `buyagain` decimal(10,2) DEFAULT '0.00',
+  `buyagain_islong` tinyint(1) DEFAULT '0',
+  `buyagain_condition` tinyint(1) DEFAULT '0',
+  `buyagain_sale` tinyint(1) DEFAULT '0',
+  `buyagain_commission` text,
+  `diypage` int(11) DEFAULT NULL,
+  `cashier` tinyint(1) DEFAULT '0',
+  `isendtime` tinyint(3) NOT NULL DEFAULT '0',
+  `usetime` int(11) NOT NULL DEFAULT '0',
+  `endtime` int(11) NOT NULL DEFAULT '0',
+  `merchdisplayorder` int(11) NOT NULL DEFAULT '0',
+  `exchange_stock` int(11) DEFAULT '0',
+  `exchange_postage` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `ispresell` tinyint(3) NOT NULL DEFAULT '0',
+  `presellprice` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `presellover` tinyint(3) NOT NULL DEFAULT '0',
+  `presellovertime` int(11) NOT NULL,
+  `presellstart` tinyint(3) NOT NULL DEFAULT '0',
+  `preselltimestart` int(11) NOT NULL DEFAULT '0',
+  `presellend` tinyint(3) NOT NULL DEFAULT '0',
+  `preselltimeend` int(11) NOT NULL DEFAULT '0',
+  `presellsendtype` tinyint(3) NOT NULL DEFAULT '0',
+  `presellsendstatrttime` int(11) NOT NULL DEFAULT '0',
+  `presellsendtime` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_pcate` (`pcate`),
@@ -1186,17 +2036,14 @@ CREATE TABLE `ims_ewei_shop_goods` (
   KEY `idx_issendfree` (`issendfree`),
   KEY `idx_istime` (`istime`),
   KEY `idx_deleted` (`deleted`),
-  KEY `idx_tcate` (`tcate`),
   KEY `idx_scate` (`tcate`),
   KEY `idx_merchid` (`merchid`),
   KEY `idx_checked` (`checked`),
-  FULLTEXT KEY `idx_buylevels` (`buylevels`),
-  FULLTEXT KEY `idx_showgroups` (`showgroups`),
-  FULLTEXT KEY `idx_buygroups` (`buygroups`)
-) ENGINE=MyISAM AUTO_INCREMENT=198 DEFAULT CHARSET=utf8;
+  KEY `idx_productsn` (`productsn`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=516 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_goods_comment`;
-CREATE TABLE `ims_ewei_shop_goods_comment` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_goods_comment` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `goodsid` int(10) DEFAULT '0',
@@ -1210,10 +2057,10 @@ CREATE TABLE `ims_ewei_shop_goods_comment` (
   KEY `idx_goodsid` (`goodsid`),
   KEY `idx_openid` (`openid`),
   KEY `idx_createtime` (`createtime`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_goods_group`;
-CREATE TABLE `ims_ewei_shop_goods_group` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_goods_group` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) NOT NULL DEFAULT '0',
   `name` varchar(255) NOT NULL DEFAULT '',
@@ -1222,10 +2069,29 @@ CREATE TABLE `ims_ewei_shop_goods_group` (
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_enabled` (`enabled`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=6 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_goods_label`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_goods_label` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) NOT NULL DEFAULT '0',
+  `label` varchar(255) NOT NULL DEFAULT '',
+  `labelname` text NOT NULL,
+  `status` tinyint(3) NOT NULL DEFAULT '0',
+  `displayorder` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_goods_labelstyle`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_goods_labelstyle` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) NOT NULL,
+  `style` int(3) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_goods_option`;
-CREATE TABLE `ims_ewei_shop_goods_option` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_goods_option` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `goodsid` int(10) DEFAULT '0',
@@ -1242,14 +2108,18 @@ CREATE TABLE `ims_ewei_shop_goods_option` (
   `goodssn` varchar(255) DEFAULT '',
   `productsn` varchar(255) DEFAULT '',
   `virtual` int(11) DEFAULT '0',
+  `exchange_stock` int(11) DEFAULT '0',
+  `exchange_postage` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `presellprice` decimal(10,2) NOT NULL DEFAULT '0.00',
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_goodsid` (`goodsid`),
-  KEY `idx_displayorder` (`displayorder`)
-) ENGINE=MyISAM AUTO_INCREMENT=393 DEFAULT CHARSET=utf8;
+  KEY `idx_displayorder` (`displayorder`),
+  KEY `idx_productsn` (`productsn`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=497 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_goods_param`;
-CREATE TABLE `ims_ewei_shop_goods_param` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_goods_param` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `goodsid` int(10) DEFAULT '0',
@@ -1260,10 +2130,10 @@ CREATE TABLE `ims_ewei_shop_goods_param` (
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_goodsid` (`goodsid`),
   KEY `idx_displayorder` (`displayorder`)
-) ENGINE=MyISAM AUTO_INCREMENT=1085 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=241 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_goods_spec`;
-CREATE TABLE `ims_ewei_shop_goods_spec` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_goods_spec` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `goodsid` int(11) DEFAULT '0',
@@ -1277,10 +2147,10 @@ CREATE TABLE `ims_ewei_shop_goods_spec` (
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_goodsid` (`goodsid`),
   KEY `idx_displayorder` (`displayorder`)
-) ENGINE=MyISAM AUTO_INCREMENT=91 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=85 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_goods_spec_item`;
-CREATE TABLE `ims_ewei_shop_goods_spec_item` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_goods_spec_item` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `specid` int(11) DEFAULT '0',
@@ -1295,10 +2165,10 @@ CREATE TABLE `ims_ewei_shop_goods_spec_item` (
   KEY `idx_specid` (`specid`),
   KEY `idx_show` (`show`),
   KEY `idx_displayorder` (`displayorder`)
-) ENGINE=MyISAM AUTO_INCREMENT=283 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=247 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_groups_adv`;
-CREATE TABLE `ims_ewei_shop_groups_adv` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_groups_adv` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `advname` varchar(50) DEFAULT '',
@@ -1310,10 +2180,10 @@ CREATE TABLE `ims_ewei_shop_groups_adv` (
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_enabled` (`enabled`),
   KEY `idx_displayorder` (`displayorder`)
-) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=6 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_groups_category`;
-CREATE TABLE `ims_ewei_shop_groups_category` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_groups_category` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `name` varchar(50) DEFAULT NULL,
@@ -1327,10 +2197,10 @@ CREATE TABLE `ims_ewei_shop_groups_category` (
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_displayorder` (`displayorder`),
   KEY `idx_enabled` (`enabled`)
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=8 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_groups_goods`;
-CREATE TABLE `ims_ewei_shop_groups_goods` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_groups_goods` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `displayorder` int(11) unsigned DEFAULT '0',
   `uniacid` int(11) DEFAULT '0',
@@ -1388,18 +2258,18 @@ CREATE TABLE `ims_ewei_shop_groups_goods` (
   KEY `idx_type` (`category`),
   KEY `idx_createtime` (`createtime`),
   KEY `idx_status` (`status`)
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=10 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_groups_goods_atlas`;
-CREATE TABLE `ims_ewei_shop_groups_goods_atlas` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_groups_goods_atlas` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `g_id` int(11) NOT NULL,
   `thumb` varchar(145) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_groups_order`;
-CREATE TABLE `ims_ewei_shop_groups_order` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_groups_order` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) NOT NULL DEFAULT '0',
   `openid` varchar(45) NOT NULL,
@@ -1447,11 +2317,13 @@ CREATE TABLE `ims_ewei_shop_groups_order` (
   `printstate` int(11) NOT NULL DEFAULT '0',
   `printstate2` int(11) NOT NULL DEFAULT '0',
   `apppay` tinyint(3) NOT NULL DEFAULT '0',
+  `isborrow` tinyint(1) DEFAULT '0',
+  `borrowopenid` varchar(50) DEFAULT '',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_groups_order_refund`;
-CREATE TABLE `ims_ewei_shop_groups_order_refund` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_groups_order_refund` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) NOT NULL DEFAULT '0',
   `openid` varchar(45) NOT NULL DEFAULT '',
@@ -1484,10 +2356,10 @@ CREATE TABLE `ims_ewei_shop_groups_order_refund` (
   `rexpresscom` varchar(100) DEFAULT NULL,
   `rexpresssn` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_groups_paylog`;
-CREATE TABLE `ims_ewei_shop_groups_paylog` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_groups_paylog` (
   `plid` bigint(11) unsigned NOT NULL AUTO_INCREMENT,
   `type` varchar(20) NOT NULL,
   `uniacid` int(11) NOT NULL,
@@ -1511,10 +2383,10 @@ CREATE TABLE `ims_ewei_shop_groups_paylog` (
   KEY `idx_tid` (`tid`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `uniontid` (`uniontid`)
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_groups_set`;
-CREATE TABLE `ims_ewei_shop_groups_set` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_groups_set` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` varchar(45) DEFAULT NULL,
   `groups` int(2) NOT NULL DEFAULT '0',
@@ -1541,10 +2413,10 @@ CREATE TABLE `ims_ewei_shop_groups_set` (
   `headsmoney` decimal(10,2) DEFAULT '0.00',
   `headsdiscount` int(11) DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_groups_verify`;
-CREATE TABLE `ims_ewei_shop_groups_verify` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_groups_verify` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `openid` varchar(45) DEFAULT '0',
@@ -1555,30 +2427,10 @@ CREATE TABLE `ims_ewei_shop_groups_verify` (
   `isverify` tinyint(3) DEFAULT '0',
   `verifytime` int(11) DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
-DROP TABLE IF EXISTS `ims_ewei_shop_mc_merchant`;
-CREATE TABLE `ims_ewei_shop_mc_merchant` (
-  `id` int(11) NOT NULL,
-  `uniacid` int(11) NOT NULL,
-  `merchant_no` varchar(255) NOT NULL DEFAULT '',
-  `username` varchar(255) NOT NULL DEFAULT '',
-  `password` varchar(32) NOT NULL DEFAULT '',
-  `salt` varchar(8) NOT NULL DEFAULT '',
-  `contact_name` varchar(255) NOT NULL DEFAULT '',
-  `contact_mobile` varchar(16) NOT NULL DEFAULT '',
-  `contact_address` varchar(255) NOT NULL DEFAULT '',
-  `type` tinyint(4) NOT NULL,
-  `status` tinyint(4) NOT NULL,
-  `createtime` int(11) NOT NULL,
-  `validitytime` int(11) NOT NULL,
-  `industry` varchar(255) NOT NULL DEFAULT '',
-  `remark` varchar(1000) NOT NULL DEFAULT '',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_member`;
-CREATE TABLE `ims_ewei_shop_member` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_member` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `uid` int(11) DEFAULT '0',
@@ -1610,21 +2462,21 @@ CREATE TABLE `ims_ewei_shop_member` (
   `city` varchar(255) DEFAULT '',
   `area` varchar(255) DEFAULT '',
   `childtime` int(11) DEFAULT '0',
-  `inviter` int(11) DEFAULT '0',
   `agentnotupgrade` int(11) DEFAULT '0',
+  `inviter` int(11) DEFAULT '0',
   `agentselectgoods` tinyint(3) DEFAULT '0',
   `agentblack` int(11) DEFAULT '0',
+  `username` varchar(255) DEFAULT '',
   `fixagentid` tinyint(3) DEFAULT '0',
   `diymemberid` int(11) DEFAULT '0',
-  `diymemberfields` text,
-  `diymemberdata` text,
   `diymemberdataid` int(11) DEFAULT '0',
+  `diymemberdata` text,
   `diycommissionid` int(11) DEFAULT '0',
-  `diycommissionfields` text,
-  `diycommissiondata` text,
   `diycommissiondataid` int(11) DEFAULT '0',
+  `diycommissiondata` text,
   `isblack` int(11) DEFAULT '0',
-  `username` varchar(255) DEFAULT '',
+  `diymemberfields` text,
+  `diycommissionfields` text,
   `commission_total` decimal(10,2) DEFAULT '0.00',
   `endtime2` int(11) DEFAULT '0',
   `ispartner` tinyint(3) DEFAULT '0',
@@ -1664,7 +2516,10 @@ CREATE TABLE `ims_ewei_shop_member` (
   `diyauthorfields` text,
   `authorid` int(11) DEFAULT '0',
   `comefrom` varchar(20) DEFAULT NULL,
-  `openid_qq` varchar(32) DEFAULT NULL,
+  `openid_qq` varchar(50) DEFAULT NULL,
+  `openid_wx` varchar(50) DEFAULT NULL,
+  `diymaxcredit` tinyint(3) DEFAULT '0',
+  `maxcredit` int(11) DEFAULT '0',
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_shareid` (`agentid`),
@@ -1674,11 +2529,12 @@ CREATE TABLE `ims_ewei_shop_member` (
   KEY `idx_isagent` (`isagent`),
   KEY `idx_uid` (`uid`),
   KEY `idx_groupid` (`groupid`),
-  KEY `idx_level` (`level`)
-) ENGINE=MyISAM AUTO_INCREMENT=2188 DEFAULT CHARSET=utf8;
+  KEY `idx_level` (`level`),
+  KEY `idx_mobile` (`mobile`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=35030 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_member_address`;
-CREATE TABLE `ims_ewei_shop_member_address` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_member_address` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `openid` varchar(50) DEFAULT '0',
@@ -1696,10 +2552,10 @@ CREATE TABLE `ims_ewei_shop_member_address` (
   KEY `idx_openid` (`openid`),
   KEY `idx_isdefault` (`isdefault`),
   KEY `idx_deleted` (`deleted`)
-) ENGINE=MyISAM AUTO_INCREMENT=83 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=67 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_member_cart`;
-CREATE TABLE `ims_ewei_shop_member_cart` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_member_cart` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `openid` varchar(100) DEFAULT '',
@@ -1714,17 +2570,17 @@ CREATE TABLE `ims_ewei_shop_member_cart` (
   `diyformfields` text,
   `diyformid` int(11) DEFAULT '0',
   `selected` tinyint(1) DEFAULT '1',
-  `selectedadd` tinyint(1) DEFAULT '1',
   `merchid` int(11) DEFAULT '0',
+  `selectedadd` tinyint(1) DEFAULT '1',
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_goodsid` (`goodsid`),
   KEY `idx_openid` (`openid`),
   KEY `idx_deleted` (`deleted`)
-) ENGINE=MyISAM AUTO_INCREMENT=63 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=70 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_member_favorite`;
-CREATE TABLE `ims_ewei_shop_member_favorite` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_member_favorite` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `goodsid` int(10) DEFAULT '0',
@@ -1739,18 +2595,18 @@ CREATE TABLE `ims_ewei_shop_member_favorite` (
   KEY `idx_openid` (`openid`),
   KEY `idx_deleted` (`deleted`),
   KEY `idx_createtime` (`createtime`)
-) ENGINE=MyISAM AUTO_INCREMENT=26 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=120 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_member_group`;
-CREATE TABLE `ims_ewei_shop_member_group` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_member_group` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `groupname` varchar(255) DEFAULT '',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=8 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_member_history`;
-CREATE TABLE `ims_ewei_shop_member_history` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_member_history` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `goodsid` int(10) DEFAULT '0',
@@ -1765,10 +2621,10 @@ CREATE TABLE `ims_ewei_shop_member_history` (
   KEY `idx_openid` (`openid`),
   KEY `idx_deleted` (`deleted`),
   KEY `idx_createtime` (`createtime`)
-) ENGINE=MyISAM AUTO_INCREMENT=2234 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4914 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_member_level`;
-CREATE TABLE `ims_ewei_shop_member_level` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_member_level` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) NOT NULL,
   `level` int(11) DEFAULT '0',
@@ -1780,10 +2636,10 @@ CREATE TABLE `ims_ewei_shop_member_level` (
   `enabledadd` tinyint(1) DEFAULT '0',
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`)
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=8 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_member_log`;
-CREATE TABLE `ims_ewei_shop_member_log` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_member_log` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `openid` varchar(255) DEFAULT '',
@@ -1794,9 +2650,9 @@ CREATE TABLE `ims_ewei_shop_member_log` (
   `status` int(11) DEFAULT '0',
   `money` decimal(10,2) DEFAULT '0.00',
   `rechargetype` varchar(255) DEFAULT '',
+  `transid` varchar(255) DEFAULT '',
   `gives` decimal(10,2) DEFAULT NULL,
   `couponid` int(11) DEFAULT '0',
-  `transid` varchar(255) DEFAULT '',
   `realmoney` decimal(10,2) DEFAULT '0.00',
   `charge` decimal(10,2) DEFAULT '0.00',
   `deductionmoney` decimal(10,2) DEFAULT '0.00',
@@ -1804,16 +2660,23 @@ CREATE TABLE `ims_ewei_shop_member_log` (
   `borrowopenid` varchar(100) DEFAULT '',
   `remark` varchar(255) NOT NULL DEFAULT '',
   `apppay` tinyint(3) NOT NULL DEFAULT '0',
+  `alipay` varchar(50) NOT NULL DEFAULT '',
+  `bankname` varchar(50) NOT NULL DEFAULT '',
+  `bankcard` varchar(50) NOT NULL DEFAULT '',
+  `realname` varchar(50) NOT NULL DEFAULT '',
+  `applytype` tinyint(3) NOT NULL DEFAULT '0',
+  `sendmoney` decimal(10,2) DEFAULT '0.00',
+  `senddata` text,
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_openid` (`openid`),
   KEY `idx_type` (`type`),
   KEY `idx_createtime` (`createtime`),
   KEY `idx_status` (`status`)
-) ENGINE=MyISAM AUTO_INCREMENT=106 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=23 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_member_message_template`;
-CREATE TABLE `ims_ewei_shop_member_message_template` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_member_message_template` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `title` varchar(255) DEFAULT '',
@@ -1827,22 +2690,68 @@ CREATE TABLE `ims_ewei_shop_member_message_template` (
   `createtime` int(11) DEFAULT '0',
   `sendtimes` int(11) DEFAULT '0',
   `sendcount` int(11) DEFAULT '0',
+  `typecode` varchar(30) DEFAULT '',
+  `messagetype` tinyint(1) DEFAULT '0',
+  `send_desc` varchar(255) DEFAULT '',
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_createtime` (`createtime`)
-) ENGINE=MyISAM AUTO_INCREMENT=26 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=8 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_member_message_template_type`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_member_message_template_type` (
+  `id` int(11) NOT NULL,
+  `name` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
+  `typecode` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
+  `templatecode` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
+  `templateid` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
+  `templatename` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
+  `content` varchar(1000) CHARACTER SET utf8mb4 DEFAULT NULL,
+  `showtotaladd` tinyint(1) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_member_printer`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_member_printer` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) DEFAULT '0',
+  `title` varchar(255) DEFAULT '',
+  `type` tinyint(3) DEFAULT '0',
+  `print_data` text,
+  `createtime` int(11) DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `idx_uniacid` (`uniacid`),
+  KEY `idx_createtime` (`createtime`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_member_printer_template`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_member_printer_template` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) DEFAULT '0',
+  `title` varchar(255) DEFAULT '',
+  `type` tinyint(3) DEFAULT '0',
+  `print_title` varchar(255) DEFAULT '',
+  `print_style` varchar(255) DEFAULT '',
+  `print_data` text,
+  `code` varchar(500) DEFAULT '',
+  `qrcode` varchar(500) DEFAULT '',
+  `createtime` int(11) DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `idx_uniacid` (`uniacid`),
+  KEY `idx_createtime` (`createtime`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_member_rank`;
-CREATE TABLE `ims_ewei_shop_member_rank` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_member_rank` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(10) unsigned NOT NULL,
   `status` tinyint(4) NOT NULL,
   `num` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_merch_account`;
-CREATE TABLE `ims_ewei_shop_merch_account` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_merch_account` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `openid` varchar(255) DEFAULT '',
@@ -1860,10 +2769,10 @@ CREATE TABLE `ims_ewei_shop_merch_account` (
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_merchid` (`merchid`),
   KEY `idx_status` (`status`)
-) ENGINE=MyISAM AUTO_INCREMENT=95 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=49 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_merch_adv`;
-CREATE TABLE `ims_ewei_shop_merch_adv` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_merch_adv` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `advname` varchar(50) DEFAULT NULL,
@@ -1875,10 +2784,10 @@ CREATE TABLE `ims_ewei_shop_merch_adv` (
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_merchid` (`merchid`)
-) ENGINE=MyISAM AUTO_INCREMENT=26 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=28 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_merch_banner`;
-CREATE TABLE `ims_ewei_shop_merch_banner` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_merch_banner` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `bannername` varchar(50) DEFAULT '',
@@ -1892,10 +2801,10 @@ CREATE TABLE `ims_ewei_shop_merch_banner` (
   KEY `idx_enabled` (`enabled`),
   KEY `idx_displayorder` (`displayorder`),
   KEY `idx_merchid` (`merchid`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=7 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_merch_bill`;
-CREATE TABLE `ims_ewei_shop_merch_bill` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_merch_bill` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) NOT NULL DEFAULT '0',
   `applyno` varchar(255) NOT NULL DEFAULT '',
@@ -1922,14 +2831,20 @@ CREATE TABLE `ims_ewei_shop_merch_bill` (
   `passorderids` text NOT NULL,
   `passordernum` int(11) NOT NULL DEFAULT '0',
   `passorderprice` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `alipay` varchar(50) NOT NULL DEFAULT '',
+  `bankname` varchar(50) NOT NULL DEFAULT '',
+  `bankcard` varchar(50) NOT NULL DEFAULT '',
+  `applyrealname` varchar(50) NOT NULL DEFAULT '',
+  `applytype` tinyint(3) NOT NULL DEFAULT '0',
+  `handpay` tinyint(3) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_merchid` (`merchid`),
   KEY `idx_status` (`status`)
-) ENGINE=MyISAM AUTO_INCREMENT=26 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=7 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_merch_billo`;
-CREATE TABLE `ims_ewei_shop_merch_billo` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_merch_billo` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) NOT NULL DEFAULT '0',
   `billid` int(11) NOT NULL DEFAULT '0',
@@ -1937,10 +2852,10 @@ CREATE TABLE `ims_ewei_shop_merch_billo` (
   `ordermoney` decimal(10,2) NOT NULL DEFAULT '0.00',
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`)
-) ENGINE=MyISAM AUTO_INCREMENT=54 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=20 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_merch_category`;
-CREATE TABLE `ims_ewei_shop_merch_category` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_merch_category` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `catename` varchar(255) DEFAULT '',
@@ -1951,10 +2866,10 @@ CREATE TABLE `ims_ewei_shop_merch_category` (
   `isrecommand` tinyint(1) DEFAULT '0',
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`)
-) ENGINE=MyISAM AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=9 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_merch_category_swipe`;
-CREATE TABLE `ims_ewei_shop_merch_category_swipe` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_merch_category_swipe` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `title` varchar(255) DEFAULT '',
@@ -1964,10 +2879,10 @@ CREATE TABLE `ims_ewei_shop_merch_category_swipe` (
   `thumb` varchar(500) DEFAULT '',
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`)
-) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_merch_clearing`;
-CREATE TABLE `ims_ewei_shop_merch_clearing` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_merch_clearing` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) NOT NULL DEFAULT '0',
   `merchid` int(11) NOT NULL DEFAULT '0',
@@ -1997,10 +2912,10 @@ CREATE TABLE `ims_ewei_shop_merch_clearing` (
   KEY `starttime` (`starttime`),
   KEY `endtime` (`endtime`),
   KEY `status` (`status`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_merch_group`;
-CREATE TABLE `ims_ewei_shop_merch_group` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_merch_group` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `groupname` varchar(255) DEFAULT '',
@@ -2013,10 +2928,10 @@ CREATE TABLE `ims_ewei_shop_merch_group` (
   `finishchecked` tinyint(1) DEFAULT '0',
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`)
-) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_merch_nav`;
-CREATE TABLE `ims_ewei_shop_merch_nav` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_merch_nav` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `navname` varchar(255) DEFAULT '',
@@ -2029,10 +2944,10 @@ CREATE TABLE `ims_ewei_shop_merch_nav` (
   KEY `idx_status` (`status`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_merchid` (`merchid`)
-) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=7 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_merch_notice`;
-CREATE TABLE `ims_ewei_shop_merch_notice` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_merch_notice` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `displayorder` int(11) DEFAULT '0',
@@ -2046,10 +2961,10 @@ CREATE TABLE `ims_ewei_shop_merch_notice` (
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_merchid` (`merchid`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_merch_perm_log`;
-CREATE TABLE `ims_ewei_shop_merch_perm_log` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_merch_perm_log` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uid` int(11) DEFAULT '0',
   `uniacid` int(11) DEFAULT '0',
@@ -2064,10 +2979,10 @@ CREATE TABLE `ims_ewei_shop_merch_perm_log` (
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_merchid` (`merchid`),
   KEY `uid` (`uid`)
-) ENGINE=MyISAM AUTO_INCREMENT=489 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=372 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_merch_perm_role`;
-CREATE TABLE `ims_ewei_shop_merch_perm_role` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_merch_perm_role` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `merchid` int(11) DEFAULT '0',
@@ -2080,10 +2995,10 @@ CREATE TABLE `ims_ewei_shop_merch_perm_role` (
   KEY `idx_status` (`status`),
   KEY `idx_deleted` (`deleted`),
   KEY `merchid` (`merchid`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_merch_reg`;
-CREATE TABLE `ims_ewei_shop_merch_reg` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_merch_reg` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `openid` varchar(255) DEFAULT '',
@@ -2098,10 +3013,10 @@ CREATE TABLE `ims_ewei_shop_merch_reg` (
   `applytime` int(11) DEFAULT '0',
   `reason` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=112 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=48 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_merch_saler`;
-CREATE TABLE `ims_ewei_shop_merch_saler` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_merch_saler` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `storeid` int(11) DEFAULT '0',
   `uniacid` int(11) DEFAULT '0',
@@ -2113,10 +3028,10 @@ CREATE TABLE `ims_ewei_shop_merch_saler` (
   KEY `idx_storeid` (`storeid`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_merchid` (`merchid`)
-) ENGINE=MyISAM AUTO_INCREMENT=23 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=48 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_merch_store`;
-CREATE TABLE `ims_ewei_shop_merch_store` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_merch_store` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `storename` varchar(255) DEFAULT '',
@@ -2139,10 +3054,10 @@ CREATE TABLE `ims_ewei_shop_merch_store` (
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_status` (`status`),
   KEY `idx_merchid` (`merchid`)
-) ENGINE=MyISAM AUTO_INCREMENT=39 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=51 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_merch_user`;
-CREATE TABLE `ims_ewei_shop_merch_user` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_merch_user` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `regid` int(11) DEFAULT '0',
@@ -2169,16 +3084,20 @@ CREATE TABLE `ims_ewei_shop_merch_user` (
   `payrate` decimal(10,2) NOT NULL DEFAULT '0.00',
   `isrecommand` tinyint(1) DEFAULT '0',
   `cateid` int(11) DEFAULT '0',
+  `address` varchar(255) DEFAULT '',
+  `tel` varchar(255) DEFAULT '',
+  `lat` varchar(255) DEFAULT '',
+  `lng` varchar(255) DEFAULT '',
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_status` (`status`),
   KEY `idx_groupid` (`groupid`),
   KEY `idx_regid` (`regid`),
   KEY `idx_cateid` (`cateid`)
-) ENGINE=MyISAM AUTO_INCREMENT=97 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=48 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_multi_shop`;
-CREATE TABLE `ims_ewei_shop_multi_shop` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_multi_shop` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `uid` int(11) DEFAULT '0',
@@ -2192,10 +3111,10 @@ CREATE TABLE `ims_ewei_shop_multi_shop` (
   `status` tinyint(3) DEFAULT '0',
   `refusecontent` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_nav`;
-CREATE TABLE `ims_ewei_shop_nav` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_nav` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `navname` varchar(255) DEFAULT '',
@@ -2206,10 +3125,10 @@ CREATE TABLE `ims_ewei_shop_nav` (
   PRIMARY KEY (`id`),
   KEY `idx_status` (`status`),
   KEY `idx_uniacid` (`uniacid`)
-) ENGINE=MyISAM AUTO_INCREMENT=14 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=13 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_notice`;
-CREATE TABLE `ims_ewei_shop_notice` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_notice` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `displayorder` int(11) DEFAULT '0',
@@ -2222,10 +3141,10 @@ CREATE TABLE `ims_ewei_shop_notice` (
   `shopid` int(11) DEFAULT '0',
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=11 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_order`;
-CREATE TABLE `ims_ewei_shop_order` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_order` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `openid` varchar(50) DEFAULT '',
@@ -2263,8 +3182,8 @@ CREATE TABLE `ims_ewei_shop_order` (
   `isverify` tinyint(3) DEFAULT '0',
   `verified` tinyint(3) DEFAULT '0',
   `verifyopenid` varchar(255) DEFAULT '',
-  `verifycode` varchar(255) DEFAULT '',
   `verifytime` int(11) DEFAULT '0',
+  `verifycode` varchar(255) DEFAULT '',
   `verifystoreid` int(11) DEFAULT '0',
   `deductprice` decimal(10,2) DEFAULT '0.00',
   `deductcredit` int(10) DEFAULT '0',
@@ -2287,12 +3206,12 @@ CREATE TABLE `ims_ewei_shop_order` (
   `diyformfields` text,
   `diyformid` int(11) DEFAULT '0',
   `storeid` int(11) DEFAULT '0',
+  `closereason` text,
+  `remarksaler` text,
   `printstate` tinyint(1) DEFAULT '0',
   `printstate2` tinyint(1) DEFAULT '0',
   `address_send` text,
   `refundstate` tinyint(3) DEFAULT '0',
-  `closereason` text,
-  `remarksaler` text,
   `remarkclose` text,
   `remarksend` text,
   `ismr` int(1) NOT NULL DEFAULT '0',
@@ -2316,8 +3235,17 @@ CREATE TABLE `ims_ewei_shop_order` (
   `isabonus` tinyint(3) DEFAULT '0',
   `isborrow` tinyint(3) DEFAULT '0',
   `borrowopenid` varchar(100) DEFAULT '',
-  `merchisdiscountprice` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `merchisdiscountprice` decimal(10,2) DEFAULT '0.00',
   `apppay` tinyint(3) NOT NULL DEFAULT '0',
+  `coupongoodprice` decimal(10,2) DEFAULT '1.00',
+  `buyagainprice` decimal(10,2) DEFAULT '0.00',
+  `ispackage` tinyint(3) DEFAULT '0',
+  `packageid` int(11) DEFAULT '0',
+  `taskdiscountprice` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `seckilldiscountprice` decimal(10,2) DEFAULT '0.00',
+  `verifyendtime` int(11) NOT NULL DEFAULT '0',
+  `willcancelmessage` tinyint(1) DEFAULT '0',
+  `sendtype` tinyint(3) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_openid` (`openid`),
@@ -2328,10 +3256,10 @@ CREATE TABLE `ims_ewei_shop_order` (
   KEY `idx_paytime` (`paytime`),
   KEY `idx_finishtime` (`finishtime`),
   KEY `idx_merchid` (`merchid`)
-) ENGINE=MyISAM AUTO_INCREMENT=157 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1048 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_order_comment`;
-CREATE TABLE `ims_ewei_shop_order_comment` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_order_comment` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `orderid` int(11) DEFAULT '0',
@@ -2359,10 +3287,10 @@ CREATE TABLE `ims_ewei_shop_order_comment` (
   KEY `idx_openid` (`openid`),
   KEY `idx_createtime` (`createtime`),
   KEY `idx_orderid` (`orderid`)
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=6 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_order_goods`;
-CREATE TABLE `ims_ewei_shop_order_goods` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_order_goods` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `orderid` int(11) DEFAULT '0',
@@ -2403,19 +3331,31 @@ CREATE TABLE `ims_ewei_shop_order_goods` (
   `changeprice` decimal(10,2) DEFAULT '0.00',
   `oldprice` decimal(10,2) DEFAULT '0.00',
   `commissions` text,
-  `diyformid` int(11) DEFAULT '0',
-  `diyformdataid` int(11) DEFAULT '0',
   `diyformdata` text,
   `diyformfields` text,
+  `diyformdataid` int(11) DEFAULT '0',
   `openid` varchar(255) DEFAULT '',
-  `printstate` int(11) NOT NULL DEFAULT '0',
-  `printstate2` int(11) NOT NULL DEFAULT '0',
+  `diyformid` int(11) DEFAULT '0',
   `rstate` tinyint(3) DEFAULT '0',
   `refundtime` int(11) DEFAULT '0',
+  `printstate` int(11) NOT NULL DEFAULT '0',
+  `printstate2` int(11) NOT NULL DEFAULT '0',
   `merchid` int(11) DEFAULT '0',
   `parentorderid` int(11) DEFAULT '0',
   `merchsale` tinyint(3) NOT NULL DEFAULT '0',
   `isdiscountprice` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `canbuyagain` tinyint(1) DEFAULT '0',
+  `seckill` tinyint(3) DEFAULT '0',
+  `seckill_taskid` int(11) DEFAULT '0',
+  `seckill_roomid` int(11) DEFAULT '0',
+  `seckill_timeid` int(11) DEFAULT '0',
+  `sendtype` tinyint(3) NOT NULL DEFAULT '0',
+  `expresscom` varchar(30) NOT NULL,
+  `expresssn` varchar(50) NOT NULL,
+  `express` varchar(255) NOT NULL,
+  `sendtime` int(11) NOT NULL,
+  `finishtime` int(11) NOT NULL,
+  `remarksend` text NOT NULL,
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_orderid` (`orderid`),
@@ -2436,10 +3376,10 @@ CREATE TABLE `ims_ewei_shop_order_goods` (
   KEY `idx_paytime1` (`paytime1`),
   KEY `idx_paytime2` (`paytime2`),
   KEY `idx_paytime3` (`paytime3`)
-) ENGINE=MyISAM AUTO_INCREMENT=162 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1053 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_order_refund`;
-CREATE TABLE `ims_ewei_shop_order_refund` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_order_refund` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `orderid` int(11) DEFAULT '0',
@@ -2452,6 +3392,8 @@ CREATE TABLE `ims_ewei_shop_order_refund` (
   `status` tinyint(3) DEFAULT '0',
   `reply` text,
   `refundtype` tinyint(3) DEFAULT '0',
+  `realprice` decimal(10,2) DEFAULT '0.00',
+  `refundtime` int(11) DEFAULT '0',
   `orderprice` decimal(10,2) DEFAULT '0.00',
   `applyprice` decimal(10,2) DEFAULT '0.00',
   `imgs` text,
@@ -2464,39 +3406,93 @@ CREATE TABLE `ims_ewei_shop_order_refund` (
   `operatetime` int(11) DEFAULT '0',
   `sendtime` int(11) DEFAULT '0',
   `returntime` int(11) DEFAULT '0',
-  `refundtime` int(11) DEFAULT '0',
   `rexpress` varchar(100) DEFAULT '',
   `rexpresscom` varchar(100) DEFAULT '',
   `rexpresssn` varchar(100) DEFAULT '',
   `refundaddressid` int(11) DEFAULT '0',
   `endtime` int(11) DEFAULT '0',
-  `realprice` decimal(10,2) DEFAULT '0.00',
   `merchid` int(11) DEFAULT '0',
   PRIMARY KEY (`id`),
   KEY `idx_createtime` (`createtime`),
   KEY `idx_uniacid` (`uniacid`)
-) ENGINE=MyISAM AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=28 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_package`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_package` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) NOT NULL DEFAULT '0',
+  `title` varchar(255) NOT NULL,
+  `price` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `freight` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `thumb` varchar(255) NOT NULL,
+  `starttime` int(11) NOT NULL DEFAULT '0',
+  `endtime` int(11) NOT NULL DEFAULT '0',
+  `goodsid` varchar(255) NOT NULL,
+  `cash` tinyint(3) NOT NULL DEFAULT '0',
+  `share_title` varchar(255) NOT NULL,
+  `share_icon` varchar(255) NOT NULL,
+  `share_desc` varchar(500) NOT NULL,
+  `status` tinyint(3) NOT NULL DEFAULT '0',
+  `deleted` tinyint(3) NOT NULL DEFAULT '0',
+  `displayorder` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_package_goods`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_package_goods` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) NOT NULL,
+  `pid` int(11) NOT NULL,
+  `goodsid` int(11) NOT NULL,
+  `title` varchar(255) NOT NULL,
+  `thumb` varchar(255) NOT NULL,
+  `price` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `option` varchar(255) NOT NULL,
+  `goodssn` varchar(255) NOT NULL,
+  `productsn` varchar(255) NOT NULL,
+  `hasoption` tinyint(3) NOT NULL DEFAULT '0',
+  `marketprice` decimal(10,2) DEFAULT '0.00',
+  `packageprice` decimal(10,2) DEFAULT '0.00',
+  `commission1` decimal(10,2) DEFAULT '0.00',
+  `commission2` decimal(10,2) DEFAULT '0.00',
+  `commission3` decimal(10,2) DEFAULT '0.00',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_package_goods_option`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_package_goods_option` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) NOT NULL DEFAULT '0',
+  `goodsid` int(11) NOT NULL DEFAULT '0',
+  `optionid` int(11) NOT NULL DEFAULT '0',
+  `pid` int(11) NOT NULL DEFAULT '0',
+  `title` varchar(255) NOT NULL,
+  `packageprice` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `marketprice` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `commission1` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `commission2` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `commission3` decimal(10,2) NOT NULL DEFAULT '0.00',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_perm_log`;
-CREATE TABLE `ims_ewei_shop_perm_log` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_perm_log` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uid` int(11) DEFAULT '0',
   `uniacid` int(11) DEFAULT '0',
   `name` varchar(255) DEFAULT '',
   `type` varchar(255) DEFAULT '',
   `op` text,
-  `createtime` int(11) DEFAULT '0',
   `ip` varchar(255) DEFAULT '',
+  `createtime` int(11) DEFAULT '0',
   PRIMARY KEY (`id`),
   KEY `idx_uid` (`uid`),
   KEY `idx_createtime` (`createtime`),
-  KEY `idx_uniacid` (`uniacid`),
-  FULLTEXT KEY `idx_type` (`type`),
-  FULLTEXT KEY `idx_op` (`op`)
-) ENGINE=MyISAM AUTO_INCREMENT=6706 DEFAULT CHARSET=utf8;
+  KEY `idx_uniacid` (`uniacid`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=15297 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_perm_plugin`;
-CREATE TABLE `ims_ewei_shop_perm_plugin` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_perm_plugin` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `acid` int(11) DEFAULT '0',
   `uid` int(11) DEFAULT '0',
@@ -2506,28 +3502,27 @@ CREATE TABLE `ims_ewei_shop_perm_plugin` (
   `datas` text,
   PRIMARY KEY (`id`),
   KEY `idx_uid` (`uid`),
-  KEY `idx_acid` (`acid`),
-  KEY `idx_type` (`type`),
-  KEY `idx_uniacid` (`acid`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+  KEY `idx_uniacid` (`acid`),
+  KEY `idx_type` (`type`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=9 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_perm_role`;
-CREATE TABLE `ims_ewei_shop_perm_role` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_perm_role` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `rolename` varchar(255) DEFAULT '',
   `status` tinyint(3) DEFAULT '0',
   `perms` text,
-  `deleted` tinyint(3) DEFAULT '0',
   `perms2` text,
+  `deleted` tinyint(3) DEFAULT '0',
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_status` (`status`),
   KEY `idx_deleted` (`deleted`)
-) ENGINE=MyISAM AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=21 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_perm_user`;
-CREATE TABLE `ims_ewei_shop_perm_user` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_perm_user` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `uid` int(11) DEFAULT '0',
@@ -2536,40 +3531,39 @@ CREATE TABLE `ims_ewei_shop_perm_user` (
   `roleid` int(11) DEFAULT '0',
   `status` int(11) DEFAULT '0',
   `perms` text,
+  `perms2` text,
   `deleted` tinyint(3) DEFAULT '0',
   `realname` varchar(255) DEFAULT '',
   `mobile` varchar(255) DEFAULT '',
-  `perms2` text,
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_uid` (`uid`),
   KEY `idx_roleid` (`roleid`),
   KEY `idx_status` (`status`),
   KEY `idx_deleted` (`deleted`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=26 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_plugin`;
-CREATE TABLE `ims_ewei_shop_plugin` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_plugin` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `displayorder` int(11) DEFAULT '0',
   `identity` varchar(50) DEFAULT '',
+  `category` varchar(255) DEFAULT '',
   `name` varchar(50) DEFAULT '',
   `version` varchar(10) DEFAULT '',
   `author` varchar(20) DEFAULT '',
   `status` int(11) DEFAULT '0',
-  `category` varchar(255) DEFAULT '',
   `thumb` varchar(255) DEFAULT '',
   `desc` text,
   `iscom` tinyint(3) DEFAULT '0',
   `deprecated` tinyint(3) DEFAULT '0',
   `isv2` tinyint(3) DEFAULT '0',
   PRIMARY KEY (`id`),
-  KEY `idx_displayorder` (`displayorder`),
-  FULLTEXT KEY `idx_identity` (`identity`)
-) ENGINE=MyISAM AUTO_INCREMENT=31 DEFAULT CHARSET=utf8;
+  KEY `idx_displayorder` (`displayorder`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=44 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_poster`;
-CREATE TABLE `ims_ewei_shop_poster` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_poster` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `type` tinyint(3) DEFAULT '0',
@@ -2577,9 +3571,12 @@ CREATE TABLE `ims_ewei_shop_poster` (
   `bg` varchar(255) DEFAULT '',
   `data` text,
   `keyword` varchar(255) DEFAULT '',
+  `keyword2` varchar(255) DEFAULT '',
   `times` int(11) DEFAULT '0',
   `follows` int(11) DEFAULT '0',
   `isdefault` tinyint(3) DEFAULT '0',
+  `resptype` tinyint(3) DEFAULT '0',
+  `resptext` text,
   `resptitle` varchar(255) DEFAULT '',
   `respthumb` varchar(255) DEFAULT '',
   `createtime` int(11) DEFAULT '0',
@@ -2591,7 +3588,6 @@ CREATE TABLE `ims_ewei_shop_poster` (
   `submoney` decimal(10,2) DEFAULT '0.00',
   `reccredit` int(11) DEFAULT '0',
   `recmoney` decimal(10,2) DEFAULT '0.00',
-  `paytype` tinyint(1) NOT NULL DEFAULT '0',
   `scantext` varchar(255) DEFAULT '',
   `subtext` varchar(255) DEFAULT '',
   `beagent` tinyint(3) DEFAULT '0',
@@ -2599,17 +3595,15 @@ CREATE TABLE `ims_ewei_shop_poster` (
   `isopen` tinyint(3) DEFAULT '0',
   `opentext` varchar(255) DEFAULT '',
   `openurl` varchar(255) DEFAULT '',
-  `templateid` varchar(255) DEFAULT '',
+  `paytype` tinyint(1) NOT NULL DEFAULT '0',
   `subpaycontent` text,
   `recpaycontent` varchar(255) DEFAULT '',
+  `templateid` varchar(255) DEFAULT '',
   `entrytext` varchar(255) DEFAULT '',
   `reccouponid` int(11) DEFAULT '0',
   `reccouponnum` int(11) DEFAULT '0',
   `subcouponid` int(11) DEFAULT '0',
   `subcouponnum` int(11) DEFAULT '0',
-  `resptype` tinyint(3) DEFAULT '0',
-  `resptext` text,
-  `keyword2` varchar(255) DEFAULT '',
   `resptext11` text,
   `reward_totle` varchar(500) DEFAULT '',
   PRIMARY KEY (`id`),
@@ -2618,71 +3612,10 @@ CREATE TABLE `ims_ewei_shop_poster` (
   KEY `idx_times` (`times`),
   KEY `idx_isdefault` (`isdefault`),
   KEY `idx_createtime` (`createtime`)
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
-
-DROP TABLE IF EXISTS `ims_ewei_shop_poster_log`;
-CREATE TABLE `ims_ewei_shop_poster_log` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `uniacid` int(11) DEFAULT '0',
-  `openid` varchar(255) DEFAULT '',
-  `posterid` int(11) DEFAULT '0',
-  `from_openid` varchar(255) DEFAULT '',
-  `subcredit` int(11) DEFAULT '0',
-  `submoney` decimal(10,2) DEFAULT '0.00',
-  `reccredit` int(11) DEFAULT '0',
-  `recmoney` decimal(10,2) DEFAULT '0.00',
-  `createtime` int(11) DEFAULT '0',
-  `reccouponid` int(11) DEFAULT '0',
-  `reccouponnum` int(11) DEFAULT '0',
-  `subcouponid` int(11) DEFAULT '0',
-  `subcouponnum` int(11) DEFAULT '0',
-  PRIMARY KEY (`id`),
-  KEY `idx_uniacid` (`uniacid`),
-  KEY `idx_openid` (`openid`),
-  KEY `idx_createtime` (`createtime`),
-  KEY `idx_posterid` (`posterid`),
-  FULLTEXT KEY `idx_from_openid` (`from_openid`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
-
-DROP TABLE IF EXISTS `ims_ewei_shop_poster_qr`;
-CREATE TABLE `ims_ewei_shop_poster_qr` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `acid` int(10) unsigned NOT NULL,
-  `openid` varchar(100) NOT NULL DEFAULT '',
-  `type` tinyint(3) DEFAULT '0',
-  `sceneid` int(11) DEFAULT '0',
-  `mediaid` varchar(255) DEFAULT '',
-  `ticket` varchar(250) NOT NULL,
-  `url` varchar(80) NOT NULL,
-  `createtime` int(10) unsigned NOT NULL,
-  `goodsid` int(11) DEFAULT '0',
-  `qrimg` varchar(1000) DEFAULT '',
-  `scenestr` varchar(255) DEFAULT '',
-  `posterid` int(11) DEFAULT '0',
-  PRIMARY KEY (`id`),
-  KEY `idx_acid` (`acid`),
-  KEY `idx_sceneid` (`sceneid`),
-  KEY `idx_type` (`type`),
-  FULLTEXT KEY `idx_openid` (`openid`)
-) ENGINE=MyISAM AUTO_INCREMENT=18 DEFAULT CHARSET=utf8;
-
-DROP TABLE IF EXISTS `ims_ewei_shop_poster_scan`;
-CREATE TABLE `ims_ewei_shop_poster_scan` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `uniacid` int(11) DEFAULT '0',
-  `posterid` int(11) DEFAULT '0',
-  `openid` varchar(255) DEFAULT '',
-  `from_openid` varchar(255) DEFAULT '',
-  `scantime` int(11) DEFAULT '0',
-  PRIMARY KEY (`id`),
-  KEY `idx_uniacid` (`uniacid`),
-  KEY `idx_posterid` (`posterid`),
-  KEY `idx_scantime` (`scantime`),
-  FULLTEXT KEY `idx_openid` (`openid`)
-) ENGINE=MyISAM AUTO_INCREMENT=31 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=8 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_postera`;
-CREATE TABLE `ims_ewei_shop_postera` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_postera` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `type` tinyint(3) DEFAULT '0',
@@ -2691,7 +3624,10 @@ CREATE TABLE `ims_ewei_shop_postera` (
   `bg` varchar(255) DEFAULT '',
   `data` text,
   `keyword` varchar(255) DEFAULT '',
+  `keyword2` varchar(255) DEFAULT '',
   `isdefault` tinyint(3) DEFAULT '0',
+  `resptype` tinyint(3) DEFAULT '0',
+  `resptext` text,
   `resptitle` varchar(255) DEFAULT '',
   `respthumb` varchar(255) DEFAULT '',
   `createtime` int(11) DEFAULT '0',
@@ -2725,20 +3661,17 @@ CREATE TABLE `ims_ewei_shop_postera` (
   `goodsid` int(11) DEFAULT '0',
   `starttext` varchar(255) DEFAULT '',
   `endtext` varchar(255) DEFAULT NULL,
-  `resptype` tinyint(3) DEFAULT '0',
-  `resptext` text,
   `testflag` tinyint(1) DEFAULT '0',
-  `keyword2` varchar(255) DEFAULT '',
   `reward_totle` varchar(500) DEFAULT '',
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_type` (`type`),
   KEY `idx_isdefault` (`isdefault`),
   KEY `idx_createtime` (`createtime`)
-) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_postera_log`;
-CREATE TABLE `ims_ewei_shop_postera_log` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_postera_log` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `openid` varchar(255) DEFAULT '',
@@ -2757,12 +3690,11 @@ CREATE TABLE `ims_ewei_shop_postera_log` (
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_openid` (`openid`),
   KEY `idx_createtime` (`createtime`),
-  KEY `idx_posteraid` (`posterid`),
-  FULLTEXT KEY `idx_from_openid` (`from_openid`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+  KEY `idx_posteraid` (`posterid`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_postera_qr`;
-CREATE TABLE `ims_ewei_shop_postera_qr` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_postera_qr` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `acid` int(10) unsigned NOT NULL,
   `openid` varchar(100) NOT NULL DEFAULT '',
@@ -2777,15 +3709,74 @@ CREATE TABLE `ims_ewei_shop_postera_qr` (
   `qrimg` varchar(1000) DEFAULT '',
   `expire` int(11) DEFAULT '0',
   `endtime` int(11) DEFAULT '0',
+  `qrtime` varchar(32) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `idx_acid` (`acid`),
   KEY `idx_sceneid` (`sceneid`),
   KEY `idx_type` (`type`),
   KEY `idx_posterid` (`posterid`)
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_poster_log`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_poster_log` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) DEFAULT '0',
+  `openid` varchar(255) DEFAULT '',
+  `posterid` int(11) DEFAULT '0',
+  `from_openid` varchar(255) DEFAULT '',
+  `subcredit` int(11) DEFAULT '0',
+  `submoney` decimal(10,2) DEFAULT '0.00',
+  `reccredit` int(11) DEFAULT '0',
+  `recmoney` decimal(10,2) DEFAULT '0.00',
+  `createtime` int(11) DEFAULT '0',
+  `reccouponid` int(11) DEFAULT '0',
+  `reccouponnum` int(11) DEFAULT '0',
+  `subcouponid` int(11) DEFAULT '0',
+  `subcouponnum` int(11) DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `idx_uniacid` (`uniacid`),
+  KEY `idx_openid` (`openid`),
+  KEY `idx_createtime` (`createtime`),
+  KEY `idx_posterid` (`posterid`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3351 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_poster_qr`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_poster_qr` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `acid` int(10) unsigned NOT NULL,
+  `openid` varchar(100) NOT NULL DEFAULT '',
+  `type` tinyint(3) DEFAULT '0',
+  `sceneid` int(11) DEFAULT '0',
+  `mediaid` varchar(255) DEFAULT '',
+  `ticket` varchar(250) NOT NULL,
+  `url` varchar(80) NOT NULL,
+  `createtime` int(10) unsigned NOT NULL,
+  `goodsid` int(11) DEFAULT '0',
+  `qrimg` varchar(1000) DEFAULT '',
+  `posterid` int(11) DEFAULT '0',
+  `scenestr` varchar(255) DEFAULT '',
+  PRIMARY KEY (`id`),
+  KEY `idx_acid` (`acid`),
+  KEY `idx_sceneid` (`sceneid`),
+  KEY `idx_type` (`type`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=649 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_poster_scan`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_poster_scan` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) DEFAULT '0',
+  `posterid` int(11) DEFAULT '0',
+  `openid` varchar(255) DEFAULT '',
+  `from_openid` varchar(255) DEFAULT '',
+  `scantime` int(11) DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `idx_uniacid` (`uniacid`),
+  KEY `idx_posterid` (`posterid`),
+  KEY `idx_scantime` (`scantime`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=965 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_qa_adv`;
-CREATE TABLE `ims_ewei_shop_qa_adv` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_qa_adv` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `advname` varchar(50) DEFAULT '',
@@ -2797,10 +3788,10 @@ CREATE TABLE `ims_ewei_shop_qa_adv` (
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_enabled` (`enabled`),
   KEY `idx_displayorder` (`displayorder`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_qa_category`;
-CREATE TABLE `ims_ewei_shop_qa_category` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_qa_category` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `name` varchar(50) DEFAULT NULL,
@@ -2812,10 +3803,10 @@ CREATE TABLE `ims_ewei_shop_qa_category` (
   KEY `idx_displayorder` (`displayorder`),
   KEY `idx_enabled` (`enabled`),
   KEY `idx_uniacid` (`uniacid`)
-) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_qa_question`;
-CREATE TABLE `ims_ewei_shop_qa_question` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_qa_question` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) NOT NULL DEFAULT '0',
   `cate` int(11) NOT NULL DEFAULT '0',
@@ -2830,10 +3821,10 @@ CREATE TABLE `ims_ewei_shop_qa_question` (
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_status` (`status`)
-) ENGINE=MyISAM AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_qa_set`;
-CREATE TABLE `ims_ewei_shop_qa_set` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_qa_set` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) NOT NULL DEFAULT '0',
   `showmember` tinyint(3) NOT NULL DEFAULT '0',
@@ -2842,14 +3833,16 @@ CREATE TABLE `ims_ewei_shop_qa_set` (
   `enter_title` varchar(255) NOT NULL DEFAULT '',
   `enter_img` varchar(255) NOT NULL DEFAULT '',
   `enter_desc` varchar(255) NOT NULL DEFAULT '',
+  `share` tinyint(3) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`),
   KEY `idx_unaicid` (`uniacid`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_refund_address`;
-CREATE TABLE `ims_ewei_shop_refund_address` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_refund_address` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
+  `openid` varchar(50) DEFAULT '0',
   `title` varchar(20) DEFAULT '',
   `name` varchar(20) DEFAULT '',
   `tel` varchar(20) DEFAULT '',
@@ -2862,17 +3855,29 @@ CREATE TABLE `ims_ewei_shop_refund_address` (
   `zipcode` varchar(255) DEFAULT '',
   `content` text,
   `deleted` tinyint(1) DEFAULT '0',
-  `openid` varchar(50) DEFAULT '0',
   `merchid` int(11) DEFAULT '0',
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_openid` (`openid`),
   KEY `idx_isdefault` (`isdefault`),
   KEY `idx_deleted` (`deleted`)
-) ENGINE=MyISAM AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_saler`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_saler` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `storeid` int(11) DEFAULT '0',
+  `uniacid` int(11) DEFAULT '0',
+  `openid` varchar(255) DEFAULT '',
+  `status` tinyint(3) DEFAULT '0',
+  `salername` varchar(255) DEFAULT '',
+  PRIMARY KEY (`id`),
+  KEY `idx_storeid` (`storeid`),
+  KEY `idx_uniacid` (`uniacid`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=76 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_sale_coupon`;
-CREATE TABLE `ims_ewei_shop_sale_coupon` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_sale_coupon` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `name` varchar(255) DEFAULT '',
@@ -2884,10 +3889,10 @@ CREATE TABLE `ims_ewei_shop_sale_coupon` (
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_createtime` (`createtime`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_sale_coupon_data`;
-CREATE TABLE `ims_ewei_shop_sale_coupon_data` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_sale_coupon_data` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `openid` varchar(255) DEFAULT '',
@@ -2903,23 +3908,111 @@ CREATE TABLE `ims_ewei_shop_sale_coupon_data` (
   KEY `idx_gettype` (`gettype`),
   KEY `idx_usedtime` (`usedtime`),
   KEY `idx_orderid` (`orderid`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
-DROP TABLE IF EXISTS `ims_ewei_shop_saler`;
-CREATE TABLE `ims_ewei_shop_saler` (
+DROP TABLE IF EXISTS `ims_ewei_shop_seckill_adv`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_seckill_adv` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `storeid` int(11) DEFAULT '0',
   `uniacid` int(11) DEFAULT '0',
-  `openid` varchar(255) DEFAULT '',
-  `status` tinyint(3) DEFAULT '0',
-  `salername` varchar(255) DEFAULT '',
+  `advname` varchar(50) DEFAULT '',
+  `link` varchar(255) DEFAULT '',
+  `thumb` varchar(255) DEFAULT '',
+  `displayorder` int(11) DEFAULT '0',
+  `enabled` int(11) DEFAULT '0',
   PRIMARY KEY (`id`),
-  KEY `idx_storeid` (`storeid`),
+  KEY `idx_displayorder` (`displayorder`),
+  KEY `idx_enabled` (`enabled`),
   KEY `idx_uniacid` (`uniacid`)
-) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_seckill_category`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_seckill_category` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) DEFAULT '0',
+  `name` varchar(255) DEFAULT '',
+  PRIMARY KEY (`id`),
+  KEY `idx_uniacid` (`uniacid`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_seckill_task`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_seckill_task` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) DEFAULT '0',
+  `cateid` int(11) DEFAULT '0',
+  `title` varchar(255) DEFAULT '',
+  `enabled` tinyint(3) DEFAULT '0',
+  `page_title` varchar(255) DEFAULT '',
+  `share_title` varchar(255) DEFAULT '',
+  `share_desc` varchar(255) DEFAULT '',
+  `share_icon` varchar(255) DEFAULT '',
+  `tag` varchar(10) DEFAULT '',
+  `closesec` int(11) DEFAULT '0',
+  `oldshow` tinyint(3) DEFAULT '0',
+  `times` text,
+  `createtime` int(11) DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `idx_uniacid` (`uniacid`),
+  KEY `idx_status` (`enabled`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=6 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_seckill_task_goods`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_seckill_task_goods` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) DEFAULT '0',
+  `displayorder` int(11) DEFAULT '0',
+  `taskid` int(11) DEFAULT '0',
+  `roomid` int(11) DEFAULT '0',
+  `timeid` int(11) DEFAULT '0',
+  `goodsid` int(11) DEFAULT '0',
+  `optionid` int(11) DEFAULT '0',
+  `price` decimal(10,2) DEFAULT '0.00',
+  `total` int(11) DEFAULT '0',
+  `maxbuy` int(11) DEFAULT '0',
+  `totalmaxbuy` int(11) DEFAULT '0',
+  `commission1` decimal(10,2) DEFAULT '0.00',
+  `commission2` decimal(10,2) DEFAULT '0.00',
+  `commission3` decimal(10,2) DEFAULT '0.00',
+  PRIMARY KEY (`id`),
+  KEY `idx_uniacid` (`uniacid`),
+  KEY `idx_goodsid` (`goodsid`),
+  KEY `idx_optionid` (`optionid`),
+  KEY `idx_displayorder` (`displayorder`),
+  KEY `idx_taskid` (`taskid`),
+  KEY `idx_roomid` (`roomid`),
+  KEY `idx_time` (`timeid`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=11 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_seckill_task_room`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_seckill_task_room` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) DEFAULT '0',
+  `displayorder` int(11) DEFAULT '0',
+  `taskid` int(11) DEFAULT '0',
+  `title` varchar(255) DEFAULT '',
+  `enabled` tinyint(3) DEFAULT '0',
+  `page_title` varchar(255) DEFAULT '',
+  `share_title` varchar(255) DEFAULT '',
+  `share_desc` varchar(255) DEFAULT '',
+  `share_icon` varchar(255) DEFAULT '',
+  `oldshow` tinyint(3) DEFAULT '0',
+  `tag` varchar(10) DEFAULT '',
+  `createtime` int(11) DEFAULT '0',
+  `diypage` int(11) DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `idx_taskid` (`taskid`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_seckill_task_time`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_seckill_task_time` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) DEFAULT '0',
+  `taskid` int(11) DEFAULT '0',
+  `time` tinyint(3) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=9 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_sign_records`;
-CREATE TABLE `ims_ewei_shop_sign_records` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_sign_records` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) NOT NULL DEFAULT '0',
   `time` int(11) NOT NULL DEFAULT '0',
@@ -2932,10 +4025,10 @@ CREATE TABLE `ims_ewei_shop_sign_records` (
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_time` (`time`),
   KEY `idx_type` (`type`)
-) ENGINE=MyISAM AUTO_INCREMENT=602 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3127 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_sign_set`;
-CREATE TABLE `ims_ewei_shop_sign_set` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_sign_set` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) NOT NULL DEFAULT '0',
   `iscenter` tinyint(3) NOT NULL DEFAULT '0',
@@ -2962,10 +4055,10 @@ CREATE TABLE `ims_ewei_shop_sign_set` (
   `sign_rule` text NOT NULL,
   `share` tinyint(3) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=6 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_sign_user`;
-CREATE TABLE `ims_ewei_shop_sign_user` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_sign_user` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) NOT NULL DEFAULT '0',
   `openid` varchar(255) NOT NULL DEFAULT '',
@@ -2974,10 +4067,10 @@ CREATE TABLE `ims_ewei_shop_sign_user` (
   `sum` int(11) NOT NULL DEFAULT '0',
   `signdate` varchar(10) DEFAULT '',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=146 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=361 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_sms`;
-CREATE TABLE `ims_ewei_shop_sms` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_sms` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) NOT NULL DEFAULT '0',
   `name` varchar(255) NOT NULL DEFAULT '',
@@ -2989,10 +4082,10 @@ CREATE TABLE `ims_ewei_shop_sms` (
   `data` text NOT NULL,
   `status` tinyint(3) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_sms_set`;
-CREATE TABLE `ims_ewei_shop_sms_set` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_sms_set` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) NOT NULL DEFAULT '0',
   `juhe` tinyint(3) NOT NULL DEFAULT '0',
@@ -3015,10 +4108,10 @@ CREATE TABLE `ims_ewei_shop_sms_set` (
   `emay_mobile` varchar(11) NOT NULL DEFAULT '',
   `emay_warn_time` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_sns_adv`;
-CREATE TABLE `ims_ewei_shop_sns_adv` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_sns_adv` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `advname` varchar(50) DEFAULT '',
@@ -3030,10 +4123,10 @@ CREATE TABLE `ims_ewei_shop_sns_adv` (
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_enabled` (`enabled`),
   KEY `idx_displayorder` (`displayorder`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=15 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_sns_board`;
-CREATE TABLE `ims_ewei_shop_sns_board` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_sns_board` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `cid` int(11) DEFAULT '0',
@@ -3082,10 +4175,10 @@ CREATE TABLE `ims_ewei_shop_sns_board` (
   KEY `idx_enabled` (`enabled`),
   KEY `idx_displayorder` (`displayorder`),
   KEY `idx_cid` (`cid`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=42 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_sns_board_follow`;
-CREATE TABLE `ims_ewei_shop_sns_board_follow` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_sns_board_follow` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `bid` int(11) DEFAULT '0',
@@ -3094,10 +4187,10 @@ CREATE TABLE `ims_ewei_shop_sns_board_follow` (
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_bid` (`bid`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=35 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_sns_category`;
-CREATE TABLE `ims_ewei_shop_sns_category` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_sns_category` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `name` varchar(50) DEFAULT NULL,
@@ -3112,10 +4205,39 @@ CREATE TABLE `ims_ewei_shop_sns_category` (
   KEY `idx_enabled` (`enabled`),
   KEY `idx_isrecommand` (`isrecommand`),
   KEY `idx_displayorder` (`displayorder`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=37 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_sns_complain`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_sns_complain` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) NOT NULL DEFAULT '0',
+  `type` tinyint(3) NOT NULL,
+  `postsid` int(11) NOT NULL DEFAULT '0',
+  `defendant` varchar(255) NOT NULL DEFAULT '0',
+  `complainant` varchar(255) NOT NULL DEFAULT '0',
+  `complaint_type` int(10) NOT NULL DEFAULT '0',
+  `complaint_text` text NOT NULL,
+  `images` text NOT NULL,
+  `createtime` int(11) NOT NULL DEFAULT '0',
+  `checkedtime` int(11) NOT NULL DEFAULT '0',
+  `checked` tinyint(3) NOT NULL DEFAULT '0',
+  `checked_note` varchar(255) NOT NULL,
+  `deleted` tinyint(3) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_sns_complaincate`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_sns_complaincate` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `status` tinyint(3) NOT NULL DEFAULT '0',
+  `displayorder` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_sns_level`;
-CREATE TABLE `ims_ewei_shop_sns_level` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_sns_level` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `levelname` varchar(255) DEFAULT '',
@@ -3126,10 +4248,10 @@ CREATE TABLE `ims_ewei_shop_sns_level` (
   `bg` varchar(255) DEFAULT '',
   PRIMARY KEY (`id`),
   KEY `idx_enabled` (`enabled`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_sns_like`;
-CREATE TABLE `ims_ewei_shop_sns_like` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_sns_like` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `openid` varchar(255) DEFAULT '',
@@ -3137,10 +4259,10 @@ CREATE TABLE `ims_ewei_shop_sns_like` (
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_pid` (`pid`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=131 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_sns_manage`;
-CREATE TABLE `ims_ewei_shop_sns_manage` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_sns_manage` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `bid` int(11) DEFAULT '0',
@@ -3149,10 +4271,10 @@ CREATE TABLE `ims_ewei_shop_sns_manage` (
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_bid` (`bid`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=46 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_sns_member`;
-CREATE TABLE `ims_ewei_shop_sns_member` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_sns_member` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `openid` varchar(255) DEFAULT NULL,
@@ -3163,10 +4285,10 @@ CREATE TABLE `ims_ewei_shop_sns_member` (
   `isblack` tinyint(3) DEFAULT '0',
   `notupgrade` tinyint(3) DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=433 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_sns_post`;
-CREATE TABLE `ims_ewei_shop_sns_post` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_sns_post` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `bid` int(11) DEFAULT '0',
@@ -3192,6 +4314,7 @@ CREATE TABLE `ims_ewei_shop_sns_post` (
   `deletedtime` int(11) DEFAULT '0',
   `checked` tinyint(3) DEFAULT NULL,
   `checktime` int(11) DEFAULT '0',
+  `isadmin` tinyint(3) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_bid` (`bid`),
@@ -3205,10 +4328,10 @@ CREATE TABLE `ims_ewei_shop_sns_post` (
   KEY `idx_deletetime` (`deletedtime`),
   KEY `idx_checked` (`checked`),
   KEY `idx_rpid` (`rpid`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=115 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_store`;
-CREATE TABLE `ims_ewei_shop_store` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_store` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `storename` varchar(255) DEFAULT '',
@@ -3217,21 +4340,24 @@ CREATE TABLE `ims_ewei_shop_store` (
   `lat` varchar(255) DEFAULT '',
   `lng` varchar(255) DEFAULT '',
   `status` tinyint(3) DEFAULT '0',
+  `type` tinyint(1) DEFAULT '0',
   `realname` varchar(255) DEFAULT '',
   `mobile` varchar(255) DEFAULT '',
   `fetchtime` varchar(255) DEFAULT '',
-  `type` tinyint(1) DEFAULT '0',
   `logo` varchar(255) DEFAULT '',
   `saletime` varchar(255) DEFAULT '',
   `desc` text,
   `displayorder` int(11) DEFAULT '0',
+  `order_printer` varchar(500) DEFAULT '',
+  `order_template` int(11) DEFAULT '0',
+  `ordertype` varchar(500) DEFAULT '',
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_status` (`status`)
-) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=76 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_sysset`;
-CREATE TABLE `ims_ewei_shop_sysset` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_sysset` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `sets` longtext,
@@ -3239,10 +4365,10 @@ CREATE TABLE `ims_ewei_shop_sysset` (
   `sec` text,
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`)
-) ENGINE=MyISAM AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=20 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_system_adv`;
-CREATE TABLE `ims_ewei_shop_system_adv` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_system_adv` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `title` varchar(255) DEFAULT '',
   `thumb` varchar(255) DEFAULT '',
@@ -3252,10 +4378,10 @@ CREATE TABLE `ims_ewei_shop_system_adv` (
   `module` varchar(255) DEFAULT '',
   `status` tinyint(3) DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_system_article`;
-CREATE TABLE `ims_ewei_shop_system_article` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_system_article` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `title` varchar(255) DEFAULT '',
   `author` varchar(255) DEFAULT '',
@@ -3266,10 +4392,10 @@ CREATE TABLE `ims_ewei_shop_system_article` (
   `cate` int(11) DEFAULT '0',
   `status` tinyint(3) DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_system_banner`;
-CREATE TABLE `ims_ewei_shop_system_banner` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_system_banner` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `title` varchar(255) DEFAULT '',
   `thumb` varchar(255) DEFAULT '',
@@ -3279,10 +4405,10 @@ CREATE TABLE `ims_ewei_shop_system_banner` (
   `status` tinyint(3) DEFAULT '0',
   `background` varchar(10) DEFAULT '',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_system_case`;
-CREATE TABLE `ims_ewei_shop_system_case` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_system_case` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `title` varchar(255) DEFAULT '',
   `thumb` varchar(255) DEFAULT '',
@@ -3292,28 +4418,28 @@ CREATE TABLE `ims_ewei_shop_system_case` (
   `cate` int(11) DEFAULT '0',
   `description` varchar(255) DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_system_casecategory`;
-CREATE TABLE `ims_ewei_shop_system_casecategory` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_system_casecategory` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(255) DEFAULT '',
   `displayorder` int(11) DEFAULT '0',
   `status` int(11) DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_system_category`;
-CREATE TABLE `ims_ewei_shop_system_category` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_system_category` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(255) DEFAULT '',
   `displayorder` int(11) DEFAULT '0',
   `status` int(11) DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_system_company_article`;
-CREATE TABLE `ims_ewei_shop_system_company_article` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_system_company_article` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `title` varchar(255) DEFAULT '',
   `author` varchar(255) DEFAULT '',
@@ -3324,19 +4450,19 @@ CREATE TABLE `ims_ewei_shop_system_company_article` (
   `cate` int(11) DEFAULT '0',
   `status` tinyint(3) DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_system_company_category`;
-CREATE TABLE `ims_ewei_shop_system_company_category` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_system_company_category` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(255) DEFAULT '',
   `displayorder` int(11) DEFAULT '0',
   `status` int(11) DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_system_copyright`;
-CREATE TABLE `ims_ewei_shop_system_copyright` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_system_copyright` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT NULL,
   `copyright` text,
@@ -3346,10 +4472,10 @@ CREATE TABLE `ims_ewei_shop_system_copyright` (
   `title` varchar(255) DEFAULT '',
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`)
-) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=8 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_system_copyright_notice`;
-CREATE TABLE `ims_ewei_shop_system_copyright_notice` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_system_copyright_notice` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `title` varchar(255) DEFAULT '',
   `author` varchar(255) DEFAULT '',
@@ -3358,10 +4484,10 @@ CREATE TABLE `ims_ewei_shop_system_copyright_notice` (
   `displayorder` int(11) DEFAULT '0',
   `status` tinyint(3) DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_system_guestbook`;
-CREATE TABLE `ims_ewei_shop_system_guestbook` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_system_guestbook` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `title` varchar(255) NOT NULL DEFAULT '',
   `content` varchar(255) NOT NULL DEFAULT '',
@@ -3371,10 +4497,10 @@ CREATE TABLE `ims_ewei_shop_system_guestbook` (
   `clientip` varchar(64) NOT NULL DEFAULT '',
   `mobile` varchar(11) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_system_link`;
-CREATE TABLE `ims_ewei_shop_system_link` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_system_link` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(255) NOT NULL DEFAULT '',
   `url` varchar(255) NOT NULL DEFAULT '',
@@ -3382,38 +4508,161 @@ CREATE TABLE `ims_ewei_shop_system_link` (
   `displayorder` int(11) DEFAULT NULL,
   `status` tinyint(3) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_system_setting`;
-CREATE TABLE `ims_ewei_shop_system_setting` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_system_setting` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(10) DEFAULT NULL,
   `background` varchar(10) DEFAULT '',
   `casebanner` varchar(255) DEFAULT '',
   `contact` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_system_site`;
-CREATE TABLE `ims_ewei_shop_system_site` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_system_site` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `type` varchar(32) NOT NULL DEFAULT '',
   `content` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_task_adv`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_task_adv` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) DEFAULT '0',
+  `advname` varchar(50) DEFAULT '',
+  `link` varchar(255) DEFAULT '',
+  `thumb` varchar(255) DEFAULT '',
+  `displayorder` int(11) DEFAULT '0',
+  `enabled` int(11) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_task_default`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_task_default` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) NOT NULL DEFAULT '0',
+  `data` text,
+  `addtime` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_task_join`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_task_join` (
+  `join_id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) NOT NULL DEFAULT '0',
+  `join_user` varchar(100) NOT NULL DEFAULT '',
+  `task_id` int(11) NOT NULL DEFAULT '0',
+  `task_type` tinyint(1) NOT NULL DEFAULT '0',
+  `needcount` tinyint(3) NOT NULL DEFAULT '0',
+  `completecount` tinyint(3) NOT NULL DEFAULT '0',
+  `reward_data` text,
+  `is_reward` tinyint(1) NOT NULL DEFAULT '0',
+  `failtime` int(11) NOT NULL DEFAULT '0',
+  `addtime` int(11) DEFAULT '0',
+  PRIMARY KEY (`join_id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=401 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_task_joiner`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_task_joiner` (
+  `complete_id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) NOT NULL DEFAULT '0',
+  `task_user` varchar(100) NOT NULL DEFAULT '',
+  `joiner_id` varchar(100) NOT NULL DEFAULT '',
+  `join_id` int(11) NOT NULL DEFAULT '0',
+  `task_id` int(11) NOT NULL DEFAULT '0',
+  `task_type` tinyint(1) NOT NULL DEFAULT '0',
+  `join_status` tinyint(1) NOT NULL DEFAULT '1',
+  `addtime` int(11) DEFAULT NULL,
+  PRIMARY KEY (`complete_id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=212 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_task_log`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_task_log` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) NOT NULL DEFAULT '0',
+  `openid` varchar(100) NOT NULL DEFAULT '',
+  `from_openid` varchar(100) NOT NULL DEFAULT '',
+  `join_id` int(11) NOT NULL DEFAULT '0',
+  `taskid` int(11) DEFAULT '0',
+  `task_type` tinyint(1) NOT NULL DEFAULT '0',
+  `subdata` text,
+  `recdata` text,
+  `createtime` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=212 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_task_poster`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_task_poster` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) DEFAULT NULL,
+  `days` int(11) NOT NULL DEFAULT '0',
+  `title` varchar(255) DEFAULT NULL,
+  `bg` varchar(255) DEFAULT '',
+  `data` text,
+  `keyword` varchar(255) DEFAULT NULL,
+  `resptype` tinyint(1) NOT NULL DEFAULT '0',
+  `resptext` text,
+  `resptitle` varchar(255) DEFAULT NULL,
+  `respthumb` varchar(255) DEFAULT NULL,
+  `respdesc` varchar(255) DEFAULT NULL,
+  `respurl` varchar(255) DEFAULT NULL,
+  `createtime` int(11) DEFAULT NULL,
+  `waittext` varchar(255) DEFAULT NULL,
+  `oktext` varchar(255) DEFAULT NULL,
+  `scantext` varchar(255) DEFAULT NULL,
+  `beagent` tinyint(1) NOT NULL DEFAULT '0',
+  `bedown` tinyint(1) NOT NULL DEFAULT '0',
+  `timestart` int(11) DEFAULT NULL,
+  `timeend` int(11) DEFAULT NULL,
+  `is_repeat` tinyint(1) DEFAULT '0',
+  `getposter` varchar(255) DEFAULT NULL,
+  `status` tinyint(1) DEFAULT NULL,
+  `starttext` varchar(255) DEFAULT NULL,
+  `endtext` varchar(255) DEFAULT NULL,
+  `reward_data` text,
+  `needcount` tinyint(3) NOT NULL DEFAULT '0',
+  `is_delete` tinyint(1) NOT NULL DEFAULT '0',
+  `poster_type` tinyint(1) DEFAULT '1',
+  `reward_days` int(11) DEFAULT '0',
+  `titleicon` text,
+  `poster_banner` text,
+  `is_goods` tinyint(1) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=8 ;
+
+DROP TABLE IF EXISTS `ims_ewei_shop_task_poster_qr`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_task_poster_qr` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `acid` int(11) NOT NULL DEFAULT '0',
+  `openid` varchar(100) NOT NULL,
+  `posterid` int(11) NOT NULL DEFAULT '0',
+  `type` tinyint(1) NOT NULL DEFAULT '0',
+  `sceneid` int(11) NOT NULL DEFAULT '0',
+  `mediaid` varchar(255) DEFAULT NULL,
+  `ticket` varchar(255) NOT NULL,
+  `url` varchar(255) NOT NULL,
+  `createtime` int(11) DEFAULT NULL,
+  `qrimg` varchar(1000) DEFAULT NULL,
+  `expire` int(11) DEFAULT NULL,
+  `endtime` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=381 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_virtual_category`;
-CREATE TABLE `ims_ewei_shop_virtual_category` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_virtual_category` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) DEFAULT '0',
   `name` varchar(50) DEFAULT NULL,
   `merchid` int(11) DEFAULT '0',
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_virtual_data`;
-CREATE TABLE `ims_ewei_shop_virtual_data` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_virtual_data` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) NOT NULL DEFAULT '0',
   `typeid` int(11) NOT NULL DEFAULT '0',
@@ -3430,10 +4679,10 @@ CREATE TABLE `ims_ewei_shop_virtual_data` (
   KEY `idx_typeid` (`typeid`),
   KEY `idx_usetime` (`usetime`),
   KEY `idx_orderid` (`orderid`)
-) ENGINE=MyISAM AUTO_INCREMENT=1001 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 DROP TABLE IF EXISTS `ims_ewei_shop_virtual_type`;
-CREATE TABLE `ims_ewei_shop_virtual_type` (
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_virtual_type` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uniacid` int(11) NOT NULL DEFAULT '0',
   `cate` int(11) DEFAULT '0',
@@ -3445,11 +4694,317 @@ CREATE TABLE `ims_ewei_shop_virtual_type` (
   PRIMARY KEY (`id`),
   KEY `idx_uniacid` (`uniacid`),
   KEY `idx_cate` (`cate`)
-) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
-INSERT INTO `ims_ewei_shop_diypage_template` VALUES ('1','0','2','系统模板01','eyJwYWdlIjp7InR5cGUiOiIyIiwidGl0bGUiOiJcdTMwMTBcdTZhMjFcdTY3N2ZcdTMwMTFcdTdjZmJcdTdlZGZcdTZhMjFcdTY3N2YwMSIsIm5hbWUiOiJcdTMwMTBcdTZhMjFcdTY3N2ZcdTMwMTFcdTdjZmJcdTdlZGZcdTZhMjFcdTY3N2YwMSIsImRlc2MiOiIiLCJpY29uIjoiIiwia2V5d29yZCI6IiIsImJhY2tncm91bmQiOiIjZmFmYWZhIiwiZGl5bWVudSI6Ii0xIn0sIml0ZW1zIjp7Ik0xNDY1ODAyOTg0ODg1Ijp7InN0eWxlIjp7ImRvdHN0eWxlIjoicm91bmQiLCJkb3RhbGlnbiI6ImNlbnRlciIsImJhY2tncm91bmQiOiIjZmZmZmZmIiwibGVmdHJpZ2h0IjoiNSIsImJvdHRvbSI6IjEwIiwib3BhY2l0eSI6IjAuOCJ9LCJkYXRhIjp7IkMxNDY1ODAyOTg0ODg1Ijp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQxXC9iYW5uZXJfMS5qcGciLCJsaW5rdXJsIjoiIn0sIkMxNDY1ODAyOTg0ODg2Ijp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQxXC9iYW5uZXJfMi5qcGciLCJsaW5rdXJsIjoiIn0sIk0xNDY1ODAzMDE0ODM3Ijp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQxXC9iYW5uZXJfMy5qcGciLCJsaW5rdXJsIjoiIn19LCJpZCI6ImJhbm5lciJ9LCJNMTQ2NTgwMzY5MjkzMiI6eyJzdHlsZSI6eyJoZWlnaHQiOiIxMCIsImJhY2tncm91bmQiOiIjZmZmZmZmIn0sImlkIjoiYmxhbmsifSwiTTE0NjU4MDMzMTk4NTMiOnsic3R5bGUiOnsibmF2c3R5bGUiOiIiLCJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsInJvd251bSI6IjUifSwiZGF0YSI6eyJDMTQ2NTgwMzMxOTg1MyI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0MVwvbWVudV8xLnBuZyIsImxpbmt1cmwiOiIiLCJ0ZXh0IjoiXHU2NWIwXHU1NGMxIiwiY29sb3IiOiIjNjY2NjY2In0sIkMxNDY1ODAzMzE5ODU0Ijp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQxXC9tZW51XzIucG5nIiwibGlua3VybCI6IiIsInRleHQiOiJcdTcwZWRcdTUzNTYiLCJjb2xvciI6IiM2NjY2NjYifSwiQzE0NjU4MDMzMTk4NTUiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDFcL21lbnVfMy5wbmciLCJsaW5rdXJsIjoiIiwidGV4dCI6Ilx1NGZjM1x1OTUwMCIsImNvbG9yIjoiIzY2NjY2NiJ9LCJDMTQ2NTgwMzMxOTg1NiI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0MVwvbWVudV80LnBuZyIsImxpbmt1cmwiOiIiLCJ0ZXh0IjoiXHU4YmEyXHU1MzU1IiwiY29sb3IiOiIjNjY2NjY2In0sIk0xNDY1ODAzMzQ3MDQ1Ijp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQxXC9tZW51XzUucG5nIiwibGlua3VybCI6IiIsInRleHQiOiJcdTdiN2VcdTUyMzAiLCJjb2xvciI6IiM2NjY2NjYifX0sImlkIjoibWVudSJ9LCJNMTQ2NTgwMzM1OTEwMCI6eyJzdHlsZSI6eyJuYXZzdHlsZSI6IiIsImJhY2tncm91bmQiOiIjZmZmZmZmIiwicm93bnVtIjoiNSJ9LCJkYXRhIjp7IkMxNDY1ODAzMzU5MTAwIjp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQxXC9tZW51XzYucG5nIiwibGlua3VybCI6IiIsInRleHQiOiJcdTRlMGFcdTg4NjMiLCJjb2xvciI6IiM2NjY2NjYifSwiQzE0NjU4MDMzNTkxMDEiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDFcL21lbnVfNy5wbmciLCJsaW5rdXJsIjoiIiwidGV4dCI6Ilx1NGUwYlx1ODg2MyIsImNvbG9yIjoiIzY2NjY2NiJ9LCJDMTQ2NTgwMzM1OTEwMiI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0MVwvbWVudV84LnBuZyIsImxpbmt1cmwiOiIiLCJ0ZXh0IjoiXHU5NzhiXHU1YjUwIiwiY29sb3IiOiIjNjY2NjY2In0sIkMxNDY1ODAzMzU5MTAzIjp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQxXC9tZW51XzkucG5nIiwibGlua3VybCI6IiIsInRleHQiOiJcdTUxODVcdTg4NjMiLCJjb2xvciI6IiM2NjY2NjYifSwiTTE0NjU4MDM0NTA4MjciOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDFcL21lbnVfMTAucG5nIiwibGlua3VybCI6IiIsInRleHQiOiJcdTUxNjhcdTkwZTgiLCJjb2xvciI6IiM2NjY2NjYifX0sImlkIjoibWVudSJ9LCJNMTQ2NTgwMzcwMDEzMiI6eyJzdHlsZSI6eyJoZWlnaHQiOiIxMCIsImJhY2tncm91bmQiOiIjZmZmZmZmIn0sImlkIjoiYmxhbmsifSwiTTE0NjU4MDM2MjE5ODAiOnsicGFyYW1zIjp7Imljb251cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2Mlwvc3RhdGljXC9pbWFnZXNcL2hvdGRvdC5qcGciLCJub3RpY2VkYXRhIjoiMSIsInNwZWVkIjoiNCIsIm5vdGljZW51bSI6IjUifSwic3R5bGUiOnsiYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJpY29uY29sb3IiOiIjZmQ1NDU0IiwiY29sb3IiOiIjNjY2NjY2In0sImRhdGEiOnsiQzE0NjU4MDM2MjE5ODAiOnsidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTdiMmNcdTRlMDBcdTY3NjFcdTgxZWFcdTViOWFcdTRlNDlcdTUxNmNcdTU0NGFcdTc2ODRcdTY4MDdcdTk4OTgiLCJsaW5rdXJsIjoiaHR0cDpcL1wvd3d3LmJhaWR1LmNvbSJ9LCJDMTQ2NTgwMzYyMTk4MSI6eyJ0aXRsZSI6Ilx1OGZkOVx1OTFjY1x1NjYyZlx1N2IyY1x1NGU4Y1x1Njc2MVx1ODFlYVx1NWI5YVx1NGU0OVx1NTE2Y1x1NTQ0YVx1NzY4NFx1NjgwN1x1OTg5OCIsImxpbmt1cmwiOiJodHRwOlwvXC93d3cuYmFpZHUuY29tIn19LCJpZCI6Im5vdGljZSJ9LCJNMTQ2NTgwMzkzMjQ2MCI6eyJwYXJhbXMiOnsicm93IjoiMiJ9LCJkYXRhIjp7IkMxNDY1ODAzOTMyNDYwIjp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQxXC9waWN0dXJld18xLmpwZyIsImxpbmt1cmwiOiIifSwiQzE0NjU4MDM5MzI0NjMiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDFcL3BpY3R1cmV3XzIuanBnIiwibGlua3VybCI6IiJ9fSwiaWQiOiJwaWN0dXJldyIsInN0eWxlIjp7InBhZGRpbmd0b3AiOiIxNiIsInBhZGRpbmdsZWZ0IjoiNCJ9fSwiTTE0NjU4MDQwMjU1MDgiOnsicGFyYW1zIjp7InRpdGxlIjoiXHU2NWIwXHU1NGMxXHU0ZTBhXHU1ZTAyIiwiaWNvbiI6Imljb24tbmV3In0sInN0eWxlIjp7ImJhY2tncm91bmQiOiIjZmZmZmZmIiwiY29sb3IiOiIjZjA2MjkyIiwidGV4dGFsaWduIjoiY2VudGVyIiwiZm9udHNpemUiOiIxOCIsInBhZGRpbmd0b3AiOiI1IiwicGFkZGluZ2xlZnQiOiI1In0sImlkIjoidGl0bGUifSwiTTE0NjU4MTMzNjgwODUiOnsicGFyYW1zIjp7InNob3d0aXRsZSI6IjEiLCJzaG93cHJpY2UiOiIxIiwiZ29vZHNkYXRhIjoiMCIsImNhdGVpZCI6IiIsImNhdGVuYW1lIjoiIiwiZ3JvdXBpZCI6IiIsImdyb3VwbmFtZSI6IiIsImdvb2Rzc29ydCI6IjAiLCJnb29kc251bSI6IjYiLCJzaG93aWNvbiI6IjAiLCJpY29ucG9zaXRpb24iOiJsZWZ0IHRvcCJ9LCJzdHlsZSI6eyJsaXN0c3R5bGUiOiJibG9jayIsImJ1eXN0eWxlIjoiYnV5YnRuLTEiLCJnb29kc2ljb24iOiJyZWNvbW1hbmQiLCJwcmljZWNvbG9yIjoiI2VkMjgyMiIsImljb25wYWRkaW5ndG9wIjoiMCIsImljb25wYWRkaW5nbGVmdCI6IjAiLCJidXlidG5jb2xvciI6IiNmZTU0NTUiLCJpY29uem9vbSI6IjEwMCIsInRpdGxlY29sb3IiOiIjMjYyNjI2In0sImRhdGEiOnsiQzE0NjU4MTMzNjgwODUiOnsidGh1bWIiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvZ29vZHMtMS5qcGciLCJwcmljZSI6IjIwLjAwIiwidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTU1NDZcdTU0YzFcdTY4MDdcdTk4OTgiLCJnaWQiOiIifSwiQzE0NjU4MTMzNjgwODYiOnsidGh1bWIiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvZ29vZHMtMi5qcGciLCJwcmljZSI6IjIwLjAwIiwidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTU1NDZcdTU0YzFcdTY4MDdcdTk4OTgiLCJnaWQiOiIifSwiQzE0NjU4MTMzNjgwODciOnsidGh1bWIiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvZ29vZHMtMy5qcGciLCJwcmljZSI6IjIwLjAwIiwidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTU1NDZcdTU0YzFcdTY4MDdcdTk4OTgiLCJnaWQiOiIifSwiQzE0NjU4MTMzNjgwODgiOnsidGh1bWIiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvZ29vZHMtNC5qcGciLCJwcmljZSI6IjIwLjAwIiwidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTU1NDZcdTU0YzFcdTY4MDdcdTk4OTgiLCJnaWQiOiIifX0sImlkIjoiZ29vZHMifSwiTTE0NjU4MDU4MjEwNjciOnsicGFyYW1zIjp7InRpdGxlIjoiXHU3MGVkXHU1MzU2XHU1NTQ2XHU1NGMxIiwiaWNvbiI6Imljb24taG90In0sInN0eWxlIjp7ImJhY2tncm91bmQiOiIjZmZmZmZmIiwiY29sb3IiOiIjZmFjMDQyIiwidGV4dGFsaWduIjoiY2VudGVyIiwiZm9udHNpemUiOiIxOCIsInBhZGRpbmd0b3AiOiI1IiwicGFkZGluZ2xlZnQiOiI1In0sImlkIjoidGl0bGUifSwiTTE0NjU4MTMzNzY4OTIiOnsicGFyYW1zIjp7InNob3d0aXRsZSI6IjEiLCJzaG93cHJpY2UiOiIxIiwiZ29vZHNkYXRhIjoiMCIsImNhdGVpZCI6IiIsImNhdGVuYW1lIjoiIiwiZ3JvdXBpZCI6IiIsImdyb3VwbmFtZSI6IiIsImdvb2Rzc29ydCI6IjAiLCJnb29kc251bSI6IjYiLCJzaG93aWNvbiI6IjEiLCJpY29ucG9zaXRpb24iOiJsZWZ0IHRvcCJ9LCJzdHlsZSI6eyJsaXN0c3R5bGUiOiJibG9jayIsImJ1eXN0eWxlIjoiYnV5YnRuLTEiLCJnb29kc2ljb24iOiJyZWNvbW1hbmQiLCJwcmljZWNvbG9yIjoiI2VkMjgyMiIsImljb25wYWRkaW5ndG9wIjoiMCIsImljb25wYWRkaW5nbGVmdCI6IjAiLCJidXlidG5jb2xvciI6IiNmZTU0NTUiLCJpY29uem9vbSI6IjEwMCIsInRpdGxlY29sb3IiOiIjMjYyNjI2In0sImRhdGEiOnsiQzE0NjU4MTMzNzY4OTIiOnsidGh1bWIiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvZ29vZHMtMS5qcGciLCJwcmljZSI6IjIwLjAwIiwidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTU1NDZcdTU0YzFcdTY4MDdcdTk4OTgiLCJnaWQiOiIifSwiQzE0NjU4MTMzNzY4OTMiOnsidGh1bWIiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvZ29vZHMtMi5qcGciLCJwcmljZSI6IjIwLjAwIiwidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTU1NDZcdTU0YzFcdTY4MDdcdTk4OTgiLCJnaWQiOiIifSwiQzE0NjU4MTMzNzY4OTQiOnsidGh1bWIiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvZ29vZHMtMy5qcGciLCJwcmljZSI6IjIwLjAwIiwidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTU1NDZcdTU0YzFcdTY4MDdcdTk4OTgiLCJnaWQiOiIifSwiQzE0NjU4MTMzNzY4OTUiOnsidGh1bWIiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvZ29vZHMtNC5qcGciLCJwcmljZSI6IjIwLjAwIiwidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTU1NDZcdTU0YzFcdTY4MDdcdTk4OTgiLCJnaWQiOiIifX0sImlkIjoiZ29vZHMifX19','../addons/ewei_shopv2/plugin/diypage/static/template/default1/preview.jpg','1','0','0'),('2','0','1','系统模板02','eyJwYWdlIjp7InR5cGUiOiIxIiwidGl0bGUiOiJcdTMwMTBcdTZhMjFcdTY3N2ZcdTMwMTFcdTdjZmJcdTdlZGZcdTZhMjFcdTY3N2YwMiIsIm5hbWUiOiJcdTMwMTBcdTZhMjFcdTY3N2ZcdTMwMTFcdTdjZmJcdTdlZGZcdTZhMjFcdTY3N2YwMiIsImRlc2MiOiIiLCJpY29uIjoiIiwia2V5d29yZCI6IiIsImJhY2tncm91bmQiOiIjZmFmYWZhIiwiZGl5bWVudSI6Ii0xIn0sIml0ZW1zIjp7Ik0xNDY1ODA4NTU2MDAxIjp7InN0eWxlIjp7ImRvdHN0eWxlIjoicm91bmQiLCJkb3RhbGlnbiI6InJpZ2h0IiwiYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJsZWZ0cmlnaHQiOiIxMCIsImJvdHRvbSI6IjEwIiwib3BhY2l0eSI6IjAuOCJ9LCJkYXRhIjp7IkMxNDY1ODA4NTU2MDAxIjp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQyXC9iYW5uZXJfMS5qcGciLCJsaW5rdXJsIjoiIn0sIkMxNDY1ODA4NTU2MDAyIjp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQyXC9iYW5uZXJfMi5qcGciLCJsaW5rdXJsIjoiIn0sIk0xNDY1ODA4NTc1MTIyIjp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQyXC9iYW5uZXJfMy5qcGciLCJsaW5rdXJsIjoiIn19LCJpZCI6ImJhbm5lciJ9LCJNMTQ2NTgwODcwNTA2NCI6eyJzdHlsZSI6eyJoZWlnaHQiOiIyMCIsImJhY2tncm91bmQiOiIjZmZmZmZmIn0sImlkIjoiYmxhbmsifSwiTTE0NjU4MDg2NzMwNDAiOnsicGFyYW1zIjp7InJvdyI6IjIifSwiZGF0YSI6eyJDMTQ2NTgwODY3MzA0MCI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0MlwvcGljdHVyZXdfMS5qcGciLCJsaW5rdXJsIjoiIn0sIkMxNDY1ODA4NjczMDQxIjp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQyXC9waWN0dXJld18yLmpwZyIsImxpbmt1cmwiOiIifX0sImlkIjoicGljdHVyZXciLCJzdHlsZSI6eyJwYWRkaW5ndG9wIjoiMCIsInBhZGRpbmdsZWZ0IjoiMCJ9fSwiTTE0NjU4MDg3MDkyODAiOnsic3R5bGUiOnsiaGVpZ2h0IjoiMjAiLCJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiJ9LCJpZCI6ImJsYW5rIn0sIk0xNDY1ODA4NzY2NTY3Ijp7InBhcmFtcyI6eyJyb3ciOiIyIn0sImRhdGEiOnsiQzE0NjU4MDg3NjY1NzAiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDJcL3BpY3R1cmV3XzMuanBnIiwibGlua3VybCI6IiJ9LCJDMTQ2NTgwODc2NjU3MSI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0MlwvcGljdHVyZXdfNC5qcGciLCJsaW5rdXJsIjoiIn19LCJpZCI6InBpY3R1cmV3Iiwic3R5bGUiOnsicGFkZGluZ3RvcCI6IjAiLCJwYWRkaW5nbGVmdCI6IjAifX0sIk0xNDY1ODA4NzkxMDcyIjp7InN0eWxlIjp7ImhlaWdodCI6IjIwIiwiYmFja2dyb3VuZCI6IiNmZmZmZmYifSwiaWQiOiJibGFuayJ9LCJNMTQ2NTgwODg3MDY4MCI6eyJkYXRhIjp7IkMxNDY1ODA4ODcwNjgwIjp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQyXC9iYW5uZXJfMy5qcGciLCJsaW5rdXJsIjoiIn19LCJpZCI6InBpY3R1cmUiLCJzdHlsZSI6eyJwYWRkaW5ndG9wIjoiMCIsInBhZGRpbmdsZWZ0IjoiMCJ9fSwiTTE0NjU4MDkwMTA0MTUiOnsic3R5bGUiOnsiaGVpZ2h0IjoiMjAiLCJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiJ9LCJpZCI6ImJsYW5rIn0sIk0xNDY1ODA4OTgxNTk5Ijp7InBhcmFtcyI6eyJyb3ciOiIyIn0sImRhdGEiOnsiQzE0NjU4MDg5ODE1OTkiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDJcL3BpY3R1cmV3XzUuanBnIiwibGlua3VybCI6IiJ9LCJDMTQ2NTgwODk4MTYwMCI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0MlwvcGljdHVyZXdfNi5qcGciLCJsaW5rdXJsIjoiIn19LCJpZCI6InBpY3R1cmV3Iiwic3R5bGUiOnsicGFkZGluZ3RvcCI6IjAiLCJwYWRkaW5nbGVmdCI6IjAifX0sIk0xNDY1ODg5MzczNTY3Ijp7InBhcmFtcyI6eyJzaG93dGl0bGUiOiIxIiwic2hvd3ByaWNlIjoiMSIsImdvb2RzZGF0YSI6IjAiLCJjYXRlaWQiOiIiLCJjYXRlbmFtZSI6IiIsImdyb3VwaWQiOiIiLCJncm91cG5hbWUiOiIiLCJnb29kc3NvcnQiOiIwIiwiZ29vZHNudW0iOiI2Iiwic2hvd2ljb24iOiIxIiwiaWNvbnBvc2l0aW9uIjoibGVmdCB0b3AifSwic3R5bGUiOnsibGlzdHN0eWxlIjoiYmxvY2siLCJidXlzdHlsZSI6ImJ1eWJ0bi0xIiwiZ29vZHNpY29uIjoicmVjb21tYW5kIiwicHJpY2Vjb2xvciI6IiNlZDI4MjIiLCJpY29ucGFkZGluZ3RvcCI6IjAiLCJpY29ucGFkZGluZ2xlZnQiOiIwIiwiYnV5YnRuY29sb3IiOiIjZmU1NDU1IiwiaWNvbnpvb20iOiIxMDAiLCJ0aXRsZWNvbG9yIjoiIzI2MjYyNiJ9LCJkYXRhIjp7IkMxNDY1ODg5MzczNTY3Ijp7InRodW1iIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC9pbWFnZXNcL2RlZmF1bHRcL2dvb2RzLTEuanBnIiwicHJpY2UiOiIyMC4wMCIsInRpdGxlIjoiXHU4ZmQ5XHU5MWNjXHU2NjJmXHU1NTQ2XHU1NGMxXHU2ODA3XHU5ODk4IiwiZ2lkIjoiIn0sIkMxNDY1ODg5MzczNTY4Ijp7InRodW1iIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC9pbWFnZXNcL2RlZmF1bHRcL2dvb2RzLTIuanBnIiwicHJpY2UiOiIyMC4wMCIsInRpdGxlIjoiXHU4ZmQ5XHU5MWNjXHU2NjJmXHU1NTQ2XHU1NGMxXHU2ODA3XHU5ODk4IiwiZ2lkIjoiIn0sIkMxNDY1ODg5MzczNTY5Ijp7InRodW1iIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC9pbWFnZXNcL2RlZmF1bHRcL2dvb2RzLTMuanBnIiwicHJpY2UiOiIyMC4wMCIsInRpdGxlIjoiXHU4ZmQ5XHU5MWNjXHU2NjJmXHU1NTQ2XHU1NGMxXHU2ODA3XHU5ODk4IiwiZ2lkIjoiIn0sIkMxNDY1ODg5MzczNTcwIjp7InRodW1iIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC9pbWFnZXNcL2RlZmF1bHRcL2dvb2RzLTQuanBnIiwicHJpY2UiOiIyMC4wMCIsInRpdGxlIjoiXHU4ZmQ5XHU5MWNjXHU2NjJmXHU1NTQ2XHU1NGMxXHU2ODA3XHU5ODk4IiwiZ2lkIjoiIn19LCJpZCI6Imdvb2RzIn0sIk0xNDY1ODg5Mzc3NDIzIjp7InBhcmFtcyI6eyJjb250ZW50IjoiUEhBZ2MzUjViR1U5SW5SbGVIUXRZV3hwWjI0NklHTmxiblJsY2pzaVB1V2J2dWVKaCthZHBlYTZrT1M2anVlOWtlZTduTys4ak9lSmlPYWRnK1c5a3VXT24rUzluT2lBaGVhSmdPYWNpVHd2Y0Q0PSJ9LCJzdHlsZSI6eyJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsInBhZGRpbmciOiIyMCJ9LCJpZCI6InJpY2h0ZXh0In19fQ==','../addons/ewei_shopv2/plugin/diypage/static/template/default2/preview.jpg','2','0','0'),('3','0','2','系统模板03','eyJwYWdlIjp7InR5cGUiOiIyIiwidGl0bGUiOiJcdTMwMTBcdTZhMjFcdTY3N2ZcdTMwMTFcdTdjZmJcdTdlZGZcdTZhMjFcdTY3N2YwMyIsIm5hbWUiOiJcdTMwMTBcdTZhMjFcdTY3N2ZcdTMwMTFcdTdjZmJcdTdlZGZcdTZhMjFcdTY3N2YwMyIsImRlc2MiOiIiLCJpY29uIjoiIiwia2V5d29yZCI6IiIsImJhY2tncm91bmQiOiIjZmFmYWZhIiwiZGl5bWVudSI6Ii0xIn0sIml0ZW1zIjp7Ik0xNDY1ODA5MjQyOTc2Ijp7InN0eWxlIjp7ImRvdHN0eWxlIjoicm91bmQiLCJkb3RhbGlnbiI6ImxlZnQiLCJiYWNrZ3JvdW5kIjoiIzM0YmVkYyIsImxlZnRyaWdodCI6IjEwIiwiYm90dG9tIjoiMTAiLCJvcGFjaXR5IjoiMC43In0sImRhdGEiOnsiQzE0NjU4MDkyNDI5NzYiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDNcL2Jhbm5lcl8xLmpwZyIsImxpbmt1cmwiOiIifSwiQzE0NjU4MDkyNDI5NzciOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDNcL2Jhbm5lcl8yLmpwZyIsImxpbmt1cmwiOiIifSwiTTE0NjU4MDkyNjU5OTIiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDNcL2Jhbm5lcl8zLmpwZyIsImxpbmt1cmwiOiIifX0sImlkIjoiYmFubmVyIn0sIk0xNDY1ODA5NTQxNTM1Ijp7InBhcmFtcyI6eyJyb3ciOiIxIn0sImRhdGEiOnsiQzE0NjU4MDk1NDE1MzUiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDNcL3BpY3R1cmV3XzEuanBnIiwibGlua3VybCI6IiJ9LCJDMTQ2NTgwOTU0MTUzNiI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0M1wvcGljdHVyZXdfMi5qcGciLCJsaW5rdXJsIjoiIn0sIkMxNDY1ODA5NTQxNTM3Ijp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQzXC9waWN0dXJld18zLmpwZyIsImxpbmt1cmwiOiIifX0sImlkIjoicGljdHVyZXciLCJzdHlsZSI6eyJwYWRkaW5ndG9wIjoiNSIsInBhZGRpbmdsZWZ0IjoiNSIsImJhY2tncm91bmQiOiIjZmFmYWZhIn19LCJNMTQ2NTgwOTc2MzQxNSI6eyJzdHlsZSI6eyJoZWlnaHQiOiI1IiwiYmFja2dyb3VuZCI6IiNmYWZhZmEifSwiaWQiOiJibGFuayJ9LCJNMTQ2NTgwOTcwOTA0MCI6eyJwYXJhbXMiOnsidGl0bGUiOiJcdTY1YjBcdTU0YzFcdTRlMGFcdTVlMDIiLCJpY29uIjoiaWNvbi1uZXcifSwic3R5bGUiOnsiYmFja2dyb3VuZCI6IiMyOGMxOTIiLCJjb2xvciI6IiNmZmZmZmYiLCJ0ZXh0YWxpZ24iOiJsZWZ0IiwiZm9udHNpemUiOiIxOCIsInBhZGRpbmd0b3AiOiI1IiwicGFkZGluZ2xlZnQiOiI1In0sImlkIjoidGl0bGUifSwiTTE0NjU4MDk3OTEyMzEiOnsicGFyYW1zIjp7InNob3d0aXRsZSI6IjEiLCJzaG93cHJpY2UiOiIxIiwiZ29vZHNkYXRhIjoiMCIsImNhdGVpZCI6IiIsImNhdGVuYW1lIjoiIiwiZ3JvdXBpZCI6IiIsImdyb3VwbmFtZSI6IiIsImdvb2Rzc29ydCI6IjAiLCJnb29kc251bSI6IjYiLCJzaG93aWNvbiI6IjAiLCJpY29ucG9zaXRpb24iOiJsZWZ0IHRvcCJ9LCJzdHlsZSI6eyJsaXN0c3R5bGUiOiJibG9jayIsImJ1eXN0eWxlIjoiYnV5YnRuLTMiLCJnb29kc2ljb24iOiJyZWNvbW1hbmQiLCJwcmljZWNvbG9yIjoiIzI4YzE5MiIsImljb25wYWRkaW5ndG9wIjoiMCIsImljb25wYWRkaW5nbGVmdCI6IjAiLCJidXlidG5jb2xvciI6IiMyOGMxOGYiLCJpY29uem9vbSI6IjEwMCIsInRpdGxlY29sb3IiOiIjMjhjMTkyIn0sImRhdGEiOnsiQzE0NjU4MDk3OTEyMzEiOnsidGh1bWIiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvZ29vZHMtMS5qcGciLCJwcmljZSI6IjIwLjAwIiwidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTU1NDZcdTU0YzFcdTY4MDdcdTk4OTgiLCJnaWQiOiIifSwiQzE0NjU4MDk3OTEyMzIiOnsidGh1bWIiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvZ29vZHMtMi5qcGciLCJwcmljZSI6IjIwLjAwIiwidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTU1NDZcdTU0YzFcdTY4MDdcdTk4OTgiLCJnaWQiOiIifSwiQzE0NjU4MDk3OTEyMzMiOnsidGh1bWIiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvZ29vZHMtMy5qcGciLCJwcmljZSI6IjIwLjAwIiwidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTU1NDZcdTU0YzFcdTY4MDdcdTk4OTgiLCJnaWQiOiIifSwiQzE0NjU4MDk3OTEyMzQiOnsidGh1bWIiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvZ29vZHMtNC5qcGciLCJwcmljZSI6IjIwLjAwIiwidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTU1NDZcdTU0YzFcdTY4MDdcdTk4OTgiLCJnaWQiOiIifX0sImlkIjoiZ29vZHMifSwiTTE0NjU4MDk5NTA4NDciOnsicGFyYW1zIjp7InRpdGxlIjoiXHU2MzhjXHU2N2RjXHU2M2E4XHU4MzUwIiwiaWNvbiI6Imljb24tYXBwcmVjaWF0ZSJ9LCJzdHlsZSI6eyJiYWNrZ3JvdW5kIjoiI2ZmYmQzMyIsImNvbG9yIjoiI2ZmZmZmZiIsInRleHRhbGlnbiI6InJpZ2h0IiwiZm9udHNpemUiOiIxOCIsInBhZGRpbmd0b3AiOiI1IiwicGFkZGluZ2xlZnQiOiI1In0sImlkIjoidGl0bGUifSwiTTE0NjU4MDk5NDMyMzEiOnsicGFyYW1zIjp7InNob3d0aXRsZSI6IjEiLCJzaG93cHJpY2UiOiIxIiwiZ29vZHNkYXRhIjoiMCIsImNhdGVpZCI6IiIsImNhdGVuYW1lIjoiIiwiZ3JvdXBpZCI6IiIsImdyb3VwbmFtZSI6IiIsImdvb2Rzc29ydCI6IjAiLCJnb29kc251bSI6IjYiLCJzaG93aWNvbiI6IjEiLCJpY29ucG9zaXRpb24iOiJsZWZ0IHRvcCJ9LCJzdHlsZSI6eyJsaXN0c3R5bGUiOiJibG9jayIsImJ1eXN0eWxlIjoiYnV5YnRuLTEiLCJnb29kc2ljb24iOiJyZWNvbW1hbmQiLCJwcmljZWNvbG9yIjoiI2VkMjgyMiIsImljb25wYWRkaW5ndG9wIjoiMCIsImljb25wYWRkaW5nbGVmdCI6IjAiLCJidXlidG5jb2xvciI6IiNmZTU0NTUiLCJpY29uem9vbSI6IjEwMCIsInRpdGxlY29sb3IiOiIjMjYyNjI2In0sImRhdGEiOnsiQzE0NjU4MDk5NDMyMzEiOnsidGh1bWIiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvZ29vZHMtMS5qcGciLCJwcmljZSI6IjIwLjAwIiwidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTU1NDZcdTU0YzFcdTY4MDdcdTk4OTgiLCJnaWQiOiIifSwiQzE0NjU4MDk5NDMyMzIiOnsidGh1bWIiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvZ29vZHMtMi5qcGciLCJwcmljZSI6IjIwLjAwIiwidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTU1NDZcdTU0YzFcdTY4MDdcdTk4OTgiLCJnaWQiOiIifSwiQzE0NjU4MDk5NDMyMzMiOnsidGh1bWIiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvZ29vZHMtMy5qcGciLCJwcmljZSI6IjIwLjAwIiwidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTU1NDZcdTU0YzFcdTY4MDdcdTk4OTgiLCJnaWQiOiIifSwiQzE0NjU4MDk5NDMyMzQiOnsidGh1bWIiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvZ29vZHMtNC5qcGciLCJwcmljZSI6IjIwLjAwIiwidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTU1NDZcdTU0YzFcdTY4MDdcdTk4OTgiLCJnaWQiOiIifX0sImlkIjoiZ29vZHMifSwiTTE0NjU4MTAwNTk2OTQiOnsicGFyYW1zIjp7ImNvbnRlbnQiOiJQSEFnYzNSNWJHVTlJblJsZUhRdFlXeHBaMjQ2SUdObGJuUmxjanNpUGp4aWNpOCtQQzl3UGp4d0lITjBlV3hsUFNKMFpYaDBMV0ZzYVdkdU9pQmpaVzUwWlhJN0lqN25pWWptbllQbWlZRG1uSWtvWXlsWVdPV1ZodVdmamp3dmNENDhjRDRtYm1KemNEczhZbkl2UGp3dmNEND0ifSwic3R5bGUiOnsiYmFja2dyb3VuZCI6IiNmZmZmZmYifSwiaWQiOiJyaWNodGV4dCJ9fX0=','../addons/ewei_shopv2/plugin/diypage/static/template/default3/preview.jpg','3','0','0'),('4','0','1','系统模板04','eyJwYWdlIjp7InR5cGUiOiIxIiwidGl0bGUiOiJcdTMwMTBcdTZhMjFcdTY3N2ZcdTMwMTFcdTdjZmJcdTdlZGZcdTZhMjFcdTY3N2YwNCIsIm5hbWUiOiJcdTMwMTBcdTZhMjFcdTY3N2ZcdTMwMTFcdTdjZmJcdTdlZGZcdTZhMjFcdTY3N2YwNCIsImRlc2MiOiIiLCJpY29uIjoiIiwia2V5d29yZCI6IiIsImJhY2tncm91bmQiOiIjZmFmYWZhIiwiZGl5bWVudSI6Ii0xIn0sIml0ZW1zIjp7Ik0xNDY1ODEwMzUyODk0Ijp7ImRhdGEiOnsiQzE0NjU4MTAzNTI4OTQiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDRcL3BpY3R1cmVfMS5wbmciLCJsaW5rdXJsIjoiIn0sIkMxNDY1ODEwMzUyODk1Ijp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQ0XC9waWN0dXJlXzIucG5nIiwibGlua3VybCI6IiJ9LCJNMTQ2NTgxMDM3MDM5OSI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0NFwvcGljdHVyZV8zLnBuZyIsImxpbmt1cmwiOiIifSwiTTE0NjU4MTAzNzE3MDEiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDRcL3BpY3R1cmVfNC5wbmciLCJsaW5rdXJsIjoiIn0sIk0xNDY1ODEwMzcyNzkxIjp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQ0XC9waWN0dXJlXzUucG5nIiwibGlua3VybCI6IiJ9fSwiaWQiOiJwaWN0dXJlIiwic3R5bGUiOnsicGFkZGluZ3RvcCI6IjAiLCJwYWRkaW5nbGVmdCI6IjAifX0sIk0xNDY1ODg5OTQ0NzY5Ijp7InBhcmFtcyI6eyJjb250ZW50IjoiUEhBZ2MzUjViR1U5SW5SbGVIUXRZV3hwWjI0NklHTmxiblJsY2pzaVB1V2J2dWVKaCthZHBlYTZrT1M2anVlOWtlZTduTys4ak9lSmlPYWRnK1c5a3VXT24rUzluT2lBaGVhSmdPYWNpVHd2Y0Q0PSJ9LCJzdHlsZSI6eyJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsInBhZGRpbmciOiIyMCJ9LCJpZCI6InJpY2h0ZXh0In19fQ==','../addons/ewei_shopv2/plugin/diypage/static/template/default4/preview.jpg','4','0','0'),('5','0','2','系统模板05','eyJwYWdlIjp7InR5cGUiOiIyIiwidGl0bGUiOiJcdTMwMTBcdTZhMjFcdTY3N2ZcdTMwMTFcdTdjZmJcdTdlZGZcdTZhMjFcdTY3N2YwNSIsIm5hbWUiOiJcdTMwMTBcdTZhMjFcdTY3N2ZcdTMwMTFcdTdjZmJcdTdlZGZcdTZhMjFcdTY3N2YwNSIsImRlc2MiOiIiLCJpY29uIjoiIiwia2V5d29yZCI6InQ1IiwiYmFja2dyb3VuZCI6IiNmYWZhZmEiLCJkaXltZW51IjoiLTEifSwiaXRlbXMiOnsiTTE0NjU4MTA3NTE4MDciOnsic3R5bGUiOnsiZG90c3R5bGUiOiJyb3VuZCIsImRvdGFsaWduIjoibGVmdCIsImJhY2tncm91bmQiOiIjZmZmZmZmIiwibGVmdHJpZ2h0IjoiMTAiLCJib3R0b20iOiIxMCIsIm9wYWNpdHkiOiIwLjcifSwiZGF0YSI6eyJDMTQ2NTgxMDc1MTgwNyI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0NVwvYmFubmVyXzEuanBnIiwibGlua3VybCI6IiJ9LCJDMTQ2NTgxMDc1MTgwOCI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0NVwvYmFubmVyXzIuanBnIiwibGlua3VybCI6IiJ9LCJNMTQ2NTgxMDc2NjQ4NiI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0NVwvYmFubmVyXzMuanBnIiwibGlua3VybCI6IiJ9fSwiaWQiOiJiYW5uZXIifSwiTTE0NjU4MTA5NzA0OTQiOnsic3R5bGUiOnsibmF2c3R5bGUiOiIiLCJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsInJvd251bSI6IjQifSwiZGF0YSI6eyJDMTQ2NTgxMDk3MDQ5NCI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0NVwvbWVudV8xLnBuZyIsImxpbmt1cmwiOiIiLCJ0ZXh0IjoiSE9NRSIsImNvbG9yIjoiIzY2NjY2NiJ9LCJDMTQ2NTgxMDk3MDQ5NSI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0NVwvbWVudV8yLnBuZyIsImxpbmt1cmwiOiIiLCJ0ZXh0IjoiTkVXIiwiY29sb3IiOiIjNjY2NjY2In0sIkMxNDY1ODEwOTcwNDk2Ijp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQ1XC9tZW51XzMucG5nIiwibGlua3VybCI6IiIsInRleHQiOiJIT1QiLCJjb2xvciI6IiM2NjY2NjYifSwiQzE0NjU4MTA5NzA0OTciOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDVcL21lbnVfNC5wbmciLCJsaW5rdXJsIjoiIiwidGV4dCI6IkxJU1QiLCJjb2xvciI6IiM2NjY2NjYifX0sImlkIjoibWVudSJ9LCJNMTQ2NTgxMTA5OTI0MCI6eyJwYXJhbXMiOnsicm93IjoiMyJ9LCJkYXRhIjp7IkMxNDY1ODExMDk5MjQwIjp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQ1XC9waWN0dXJld18xLmpwZyIsImxpbmt1cmwiOiIifSwiQzE0NjU4MTEwOTkyNDEiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDVcL3BpY3R1cmV3XzQuanBnIiwibGlua3VybCI6IiJ9LCJDMTQ2NTgxMTA5OTI0MyI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0NVwvcGljdHVyZXdfMS5qcGciLCJsaW5rdXJsIjoiIn19LCJpZCI6InBpY3R1cmV3Iiwic3R5bGUiOnsiYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJwYWRkaW5ndG9wIjoiNSIsInBhZGRpbmdsZWZ0IjoiNSJ9fSwiTTE0NjU4MTIzOTAxNzQiOnsicGFyYW1zIjp7InJvdyI6IjIifSwiZGF0YSI6eyJDMTQ2NTgxMjM5MDE3NSI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0NVwvcGljdHVyZXdfMy5qcGciLCJsaW5rdXJsIjoiIn0sIkMxNDY1ODEyMzkwMTc2Ijp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQ1XC9waWN0dXJld18zLmpwZyIsImxpbmt1cmwiOiIifX0sImlkIjoicGljdHVyZXciLCJzdHlsZSI6eyJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsInBhZGRpbmd0b3AiOiIwIiwicGFkZGluZ2xlZnQiOiI1In19LCJNMTQ2NTg3MjQ4NTQ4NiI6eyJzdHlsZSI6eyJoZWlnaHQiOiIxMCIsImJhY2tncm91bmQiOiIjZmFmYWZhIn0sImlkIjoiYmxhbmsifSwiTTE0NjU4MTExNzQ5NTgiOnsiZGF0YSI6eyJDMTQ2NTgxMTE3NDk1OSI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0NVwvcGljdHVyZV8xLmpwZyIsImxpbmt1cmwiOiIifX0sImlkIjoicGljdHVyZSIsInN0eWxlIjp7InBhZGRpbmd0b3AiOiIwIiwicGFkZGluZ2xlZnQiOiIwIn19LCJNMTQ2NTgxMjQxMTM4MSI6eyJwYXJhbXMiOnsic2hvd3RpdGxlIjoiMSIsInNob3dwcmljZSI6IjEiLCJnb29kc2RhdGEiOiIwIiwiY2F0ZWlkIjoiIiwiY2F0ZW5hbWUiOiIiLCJncm91cGlkIjoiIiwiZ3JvdXBuYW1lIjoiIiwiZ29vZHNzb3J0IjoiMCIsImdvb2RzbnVtIjoiNiIsInNob3dpY29uIjoiMSIsImljb25wb3NpdGlvbiI6ImxlZnQgdG9wIn0sInN0eWxlIjp7Imxpc3RzdHlsZSI6ImJsb2NrIiwiYnV5c3R5bGUiOiJidXlidG4tMSIsImdvb2RzaWNvbiI6InJlY29tbWFuZCIsInByaWNlY29sb3IiOiIjZWQyODIyIiwiaWNvbnBhZGRpbmd0b3AiOiIwIiwiaWNvbnBhZGRpbmdsZWZ0IjoiMCIsImJ1eWJ0bmNvbG9yIjoiI2ZlNTQ1NSIsImljb256b29tIjoiMTAwIiwidGl0bGVjb2xvciI6IiMyNjI2MjYifSwiZGF0YSI6eyJDMTQ2NTgxMjQxMTM4MSI6eyJ0aHVtYiI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvaW1hZ2VzXC9kZWZhdWx0XC9nb29kcy0xLmpwZyIsInByaWNlIjoiMjAuMDAiLCJ0aXRsZSI6Ilx1OGZkOVx1OTFjY1x1NjYyZlx1NTU0Nlx1NTRjMVx1NjgwN1x1OTg5OCIsImdpZCI6IiJ9LCJDMTQ2NTgxMjQxMTM4MiI6eyJ0aHVtYiI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvaW1hZ2VzXC9kZWZhdWx0XC9nb29kcy0yLmpwZyIsInByaWNlIjoiMjAuMDAiLCJ0aXRsZSI6Ilx1OGZkOVx1OTFjY1x1NjYyZlx1NTU0Nlx1NTRjMVx1NjgwN1x1OTg5OCIsImdpZCI6IiJ9LCJDMTQ2NTgxMjQxMTM4MyI6eyJ0aHVtYiI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvaW1hZ2VzXC9kZWZhdWx0XC9nb29kcy0zLmpwZyIsInByaWNlIjoiMjAuMDAiLCJ0aXRsZSI6Ilx1OGZkOVx1OTFjY1x1NjYyZlx1NTU0Nlx1NTRjMVx1NjgwN1x1OTg5OCIsImdpZCI6IiJ9LCJDMTQ2NTgxMjQxMTM4NCI6eyJ0aHVtYiI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvaW1hZ2VzXC9kZWZhdWx0XC9nb29kcy00LmpwZyIsInByaWNlIjoiMjAuMDAiLCJ0aXRsZSI6Ilx1OGZkOVx1OTFjY1x1NjYyZlx1NTU0Nlx1NTRjMVx1NjgwN1x1OTg5OCIsImdpZCI6IiJ9fSwiaWQiOiJnb29kcyJ9LCJNMTQ2NTgxMjQ2Njg5MyI6eyJwYXJhbXMiOnsiY29udGVudCI6IlBIQWdjM1I1YkdVOUluUmxlSFF0WVd4cFoyNDZJR05sYm5SbGNqc2lQanhpY2k4K1BDOXdQanh3SUhOMGVXeGxQU0owWlhoMExXRnNhV2R1T2lCalpXNTBaWEk3SWo3a3U2WGt1SXJsbTc3bmlZZmxuWWZtbmFYbXVwRGt1bzdudlpIbnU1enZ2SXpuaVlqbW5ZUGx2WkxsanBcL2t2WnpvZ0lYbWlZRG1uSW5qZ0lJOEwzQStQSEErUEdKeUx6NDhMM0ErIn0sInN0eWxlIjp7ImJhY2tncm91bmQiOiIjZmZmZmZmIn0sImlkIjoicmljaHRleHQifX19','../addons/ewei_shopv2/plugin/diypage/static/template/default5/preview.jpg','5','0','0'),('6','0','1','系统模板06','eyJwYWdlIjp7InR5cGUiOiIxIiwidGl0bGUiOiJcdTMwMTBcdTZhMjFcdTY3N2ZcdTMwMTFcdTdjZmJcdTdlZGZcdTZhMjFcdTY3N2YwNiIsIm5hbWUiOiJcdTMwMTBcdTZhMjFcdTY3N2ZcdTMwMTFcdTdjZmJcdTdlZGZcdTZhMjFcdTY3N2YwNiIsImRlc2MiOiIiLCJpY29uIjoiIiwia2V5d29yZCI6IiIsImJhY2tncm91bmQiOiIjZmFmYWZhIiwiZGl5bWVudSI6Ii0xIn0sIml0ZW1zIjp7Ik0xNDY1ODEyNjAyOTMzIjp7ImRhdGEiOnsiQzE0NjU4MTI2MDI5MzMiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDZcL3BpY3R1cmVfMS5qcGciLCJsaW5rdXJsIjoiIn0sIkMxNDY1ODEyNjAyOTM0Ijp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQ2XC9waWN0dXJlXzIuanBnIiwibGlua3VybCI6IiJ9LCJNMTQ2NTgxMjYwNDQ5NCI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0NlwvcGljdHVyZV8zLmpwZyIsImxpbmt1cmwiOiIifSwiTTE0NjU4MTI2MDUyNDUiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDZcL3BpY3R1cmVfNC5qcGciLCJsaW5rdXJsIjoiIn0sIk0xNDY1ODEyNjA1OTgwIjp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQ2XC9waWN0dXJlXzUuanBnIiwibGlua3VybCI6IiJ9LCJNMTQ2NTgxMjYwNzA0NSI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0NlwvcGljdHVyZV82LmpwZyIsImxpbmt1cmwiOiIifX0sImlkIjoicGljdHVyZSIsInN0eWxlIjp7InBhZGRpbmd0b3AiOiIwIiwicGFkZGluZ2xlZnQiOiIwIn19LCJNMTQ2NTg5MDE4NDY1MCI6eyJwYXJhbXMiOnsiY29udGVudCI6IlBIQWdjM1I1YkdVOUluUmxlSFF0WVd4cFoyNDZJR05sYm5SbGNqc2lQdVdidnVlSmgrYWRwZWE2a09TNmp1ZTlrZWU3bk8rOGpPZUppT2FkZytXOWt1V09uK1M5bk9pQWhlYUpnT2FjaVR3dmNEND0ifSwic3R5bGUiOnsiYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJwYWRkaW5nIjoiMjAifSwiaWQiOiJyaWNodGV4dCJ9fX0=','../addons/ewei_shopv2/plugin/diypage/static/template/default6/preview.jpg','6','0','0'),('7','0','2','系统模板07','eyJwYWdlIjp7InR5cGUiOiIyIiwidGl0bGUiOiJcdTMwMTBcdTZhMjFcdTY3N2ZcdTMwMTFcdTdjZmJcdTdlZGZcdTZhMjFcdTY3N2YwNyIsIm5hbWUiOiJcdTMwMTBcdTZhMjFcdTY3N2ZcdTMwMTFcdTdjZmJcdTdlZGZcdTZhMjFcdTY3N2YwNyIsImRlc2MiOiIiLCJpY29uIjoiIiwia2V5d29yZCI6IiIsImJhY2tncm91bmQiOiIjZmFmYWZhIiwiZGl5bWVudSI6Ii0xIn0sIml0ZW1zIjp7Ik0xNDY1ODEyNjkxMzg5Ijp7ImRhdGEiOnsiQzE0NjU4MTI2OTEzODkiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDdcL3BpY3R1cmVfMS5qcGciLCJsaW5rdXJsIjoiIn19LCJpZCI6InBpY3R1cmUiLCJzdHlsZSI6eyJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsInBhZGRpbmd0b3AiOiIwIiwicGFkZGluZ2xlZnQiOiIwIn19LCJNMTQ2NTgxMjcyODgyMSI6eyJwYXJhbXMiOnsicGxhY2Vob2xkZXIiOiJcdThiZjdcdThmOTNcdTUxNjVcdTUxNzNcdTk1MmVcdTViNTdcdThmZGJcdTg4NGNcdTY0MWNcdTdkMjIifSwic3R5bGUiOnsiaW5wdXRiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsImJhY2tncm91bmQiOiIjZjFmMWYyIiwiaWNvbmNvbG9yIjoiI2I0YjRiNCIsImNvbG9yIjoiIzk5OTk5OSIsInBhZGRpbmd0b3AiOiIxMCIsInBhZGRpbmdsZWZ0IjoiMTAiLCJ0ZXh0YWxpZ24iOiJsZWZ0Iiwic2VhcmNoc3R5bGUiOiIifSwiaWQiOiJzZWFyY2gifSwiTTE0NjU4MTI3MzkxOTciOnsicGFyYW1zIjp7InJvdyI6IjMifSwiZGF0YSI6eyJDMTQ2NTgxMjczOTE5NyI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0N1wvcGljdHVyZXdfMS5qcGciLCJsaW5rdXJsIjoiIn0sIkMxNDY1ODEyNzM5MTk4Ijp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQ3XC9waWN0dXJld18yLmpwZyIsImxpbmt1cmwiOiIifSwiQzE0NjU4MTI3MzkxOTkiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDdcL3BpY3R1cmV3XzMuanBnIiwibGlua3VybCI6IiJ9fSwiaWQiOiJwaWN0dXJldyIsInN0eWxlIjp7ImJhY2tncm91bmQiOiIjZmZmZmZmIiwicGFkZGluZ3RvcCI6IjAiLCJwYWRkaW5nbGVmdCI6IjUifX0sIk0xNDY1ODEyNzg0NTY1Ijp7ImRhdGEiOnsiQzE0NjU4MTI3ODQ1NjUiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDdcL3BpY3R1cmVfMy5qcGciLCJsaW5rdXJsIjoiIn0sIk0xNDY1ODEyODE5OTQ4Ijp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQ3XC9waWN0dXJlXzIuanBnIiwibGlua3VybCI6IiJ9fSwiaWQiOiJwaWN0dXJlIiwic3R5bGUiOnsiYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJwYWRkaW5ndG9wIjoiNCIsInBhZGRpbmdsZWZ0IjoiMCJ9fSwiTTE0NjU4MTI4NzU5ODgiOnsicGFyYW1zIjp7InJvdyI6IjIifSwiZGF0YSI6eyJDMTQ2NTgxMjg3NTk4OCI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0N1wvcGljdHVyZXdfNC5qcGciLCJsaW5rdXJsIjoiIn0sIkMxNDY1ODEyODc1OTg5Ijp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQ3XC9waWN0dXJld181LmpwZyIsImxpbmt1cmwiOiIifSwiQzE0NjU4MTI4NzU5OTAiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDdcL3BpY3R1cmV3XzYuanBnIiwibGlua3VybCI6IiJ9LCJDMTQ2NTgxMjg3NTk5MSI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0N1wvcGljdHVyZXdfNy5qcGciLCJsaW5rdXJsIjoiIn19LCJpZCI6InBpY3R1cmV3Iiwic3R5bGUiOnsiYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJwYWRkaW5ndG9wIjoiMCIsInBhZGRpbmdsZWZ0IjoiMCJ9fSwiTTE0NjU4NzI4OTQxMjAiOnsic3R5bGUiOnsiaGVpZ2h0IjoiMTAiLCJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiJ9LCJpZCI6ImJsYW5rIn0sIk0xNDY1ODcyODMyODk1Ijp7InBhcmFtcyI6eyJ0aXRsZSI6Ilx1NzBlZFx1OTUwMFx1NTU0Nlx1NTRjMSIsImljb24iOiIifSwic3R5bGUiOnsiYmFja2dyb3VuZCI6IiNmMjMyNGMiLCJjb2xvciI6IiNmZmZmZmYiLCJ0ZXh0YWxpZ24iOiJjZW50ZXIiLCJmb250c2l6ZSI6IjE4IiwicGFkZGluZ3RvcCI6IjUiLCJwYWRkaW5nbGVmdCI6IjUifSwiaWQiOiJ0aXRsZSJ9LCJNMTQ2NTgxMjkwNDA1MyI6eyJwYXJhbXMiOnsic2hvd3RpdGxlIjoiMSIsInNob3dwcmljZSI6IjEiLCJnb29kc2RhdGEiOiIwIiwiY2F0ZWlkIjoiIiwiY2F0ZW5hbWUiOiIiLCJncm91cGlkIjoiIiwiZ3JvdXBuYW1lIjoiIiwiZ29vZHNzb3J0IjoiMCIsImdvb2RzbnVtIjoiNiIsInNob3dpY29uIjoiMSIsImljb25wb3NpdGlvbiI6ImxlZnQgdG9wIn0sInN0eWxlIjp7Imxpc3RzdHlsZSI6ImJsb2NrIiwiYnV5c3R5bGUiOiJidXlidG4tMSIsImdvb2RzaWNvbiI6InJlY29tbWFuZCIsInByaWNlY29sb3IiOiIjZWQyODIyIiwiaWNvbnBhZGRpbmd0b3AiOiIwIiwiaWNvbnBhZGRpbmdsZWZ0IjoiMCIsImJ1eWJ0bmNvbG9yIjoiI2ZlNTQ1NSIsImljb256b29tIjoiMTAwIiwidGl0bGVjb2xvciI6IiMyNjI2MjYifSwiZGF0YSI6eyJDMTQ2NTgxMjkwNDA1MyI6eyJ0aHVtYiI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvaW1hZ2VzXC9kZWZhdWx0XC9nb29kcy0xLmpwZyIsInByaWNlIjoiMjAuMDAiLCJ0aXRsZSI6Ilx1OGZkOVx1OTFjY1x1NjYyZlx1NTU0Nlx1NTRjMVx1NjgwN1x1OTg5OCIsImdpZCI6IiJ9LCJDMTQ2NTgxMjkwNDA1NCI6eyJ0aHVtYiI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvaW1hZ2VzXC9kZWZhdWx0XC9nb29kcy0yLmpwZyIsInByaWNlIjoiMjAuMDAiLCJ0aXRsZSI6Ilx1OGZkOVx1OTFjY1x1NjYyZlx1NTU0Nlx1NTRjMVx1NjgwN1x1OTg5OCIsImdpZCI6IiJ9LCJDMTQ2NTgxMjkwNDA1NSI6eyJ0aHVtYiI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvaW1hZ2VzXC9kZWZhdWx0XC9nb29kcy0zLmpwZyIsInByaWNlIjoiMjAuMDAiLCJ0aXRsZSI6Ilx1OGZkOVx1OTFjY1x1NjYyZlx1NTU0Nlx1NTRjMVx1NjgwN1x1OTg5OCIsImdpZCI6IiJ9LCJDMTQ2NTgxMjkwNDA1NiI6eyJ0aHVtYiI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvaW1hZ2VzXC9kZWZhdWx0XC9nb29kcy00LmpwZyIsInByaWNlIjoiMjAuMDAiLCJ0aXRsZSI6Ilx1OGZkOVx1OTFjY1x1NjYyZlx1NTU0Nlx1NTRjMVx1NjgwN1x1OTg5OCIsImdpZCI6IiJ9fSwiaWQiOiJnb29kcyJ9LCJNMTQ2NTg4ODU1MjYwNiI6eyJwYXJhbXMiOnsiY29udGVudCI6IlBIQWdjM1I1YkdVOUluUmxlSFF0WVd4cFoyNDZJR05sYm5SbGNqc2lQdVdidnVlSmgrYWRwZWE2a09TNmp1ZTlrZWU3bk8rOGpPZUppT2FkZytXOWt1V09uK1M5bk9pQWhlYUpnT2FjaVR3dmNEND0ifSwic3R5bGUiOnsiYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJwYWRkaW5nIjoiMjAifSwiaWQiOiJyaWNodGV4dCJ9fX0=','../addons/ewei_shopv2/plugin/diypage/static/template/default7/preview.jpg','7','0','0'),('8','0','2','系统模板08','eyJwYWdlIjp7InR5cGUiOiIyIiwidGl0bGUiOiJcdTMwMTBcdTZhMjFcdTY3N2ZcdTMwMTFcdTdjZmJcdTdlZGZcdTZhMjFcdTY3N2YwOCIsIm5hbWUiOiJcdTMwMTBcdTZhMjFcdTY3N2ZcdTMwMTFcdTdjZmJcdTdlZGZcdTZhMjFcdTY3N2YwOCIsImRlc2MiOiIiLCJpY29uIjoiIiwia2V5d29yZCI6IiIsImJhY2tncm91bmQiOiIjZmFmYWZhIiwiZGl5bWVudSI6Ii0xIn0sIml0ZW1zIjp7Ik0xNDY1ODEyOTk3MDQ1Ijp7ImRhdGEiOnsiQzE0NjU4MTI5OTcwNDUiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDhcL3BpY3R1cmVfMS5qcGciLCJsaW5rdXJsIjoiIn19LCJpZCI6InBpY3R1cmUiLCJzdHlsZSI6eyJwYWRkaW5ndG9wIjoiMCIsInBhZGRpbmdsZWZ0IjoiMCJ9fSwiTTE0NjU4MTMwMTc1NDkiOnsicGFyYW1zIjp7InJvdyI6IjMifSwiZGF0YSI6eyJDMTQ2NTgxMzAxNzU1MCI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0OFwvcGljdHVyZXdfMS5qcGciLCJsaW5rdXJsIjoiIn0sIkMxNDY1ODEzMDE3NTUxIjp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQ4XC9waWN0dXJld18yLmpwZyIsImxpbmt1cmwiOiIifSwiQzE0NjU4MTMwMTc1NTIiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDhcL3BpY3R1cmV3XzMuanBnIiwibGlua3VybCI6IiJ9fSwiaWQiOiJwaWN0dXJldyIsInN0eWxlIjp7ImJhY2tncm91bmQiOiIjZmZmZmZmIiwicGFkZGluZ3RvcCI6IjAiLCJwYWRkaW5nbGVmdCI6IjAifX0sIk0xNDY1ODEzMDQyODc2Ijp7ImRhdGEiOnsiQzE0NjU4MTMwNDI4NzYiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDhcL3BpY3R1cmVfMi5qcGciLCJsaW5rdXJsIjoiIn0sIkMxNDY1ODEzMDQyODc3Ijp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQ4XC9waWN0dXJlXzMuanBnIiwibGlua3VybCI6IiJ9fSwiaWQiOiJwaWN0dXJlIiwic3R5bGUiOnsicGFkZGluZ3RvcCI6IjAiLCJwYWRkaW5nbGVmdCI6IjAifX0sIk0xNDY1ODEzMDg4ODA0Ijp7InBhcmFtcyI6eyJyb3ciOiI0In0sImRhdGEiOnsiQzE0NjU4MTMwODg4MDQiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDhcL3BpY3R1cmV3XzQuanBnIiwibGlua3VybCI6IiJ9LCJDMTQ2NTgxMzA4ODgwNSI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0OFwvcGljdHVyZXdfNS5qcGciLCJsaW5rdXJsIjoiIn0sIkMxNDY1ODEzMDg4ODA2Ijp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQ4XC9waWN0dXJld182LmpwZyIsImxpbmt1cmwiOiIifSwiQzE0NjU4MTMwODg4MDciOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDhcL3BpY3R1cmV3XzcuanBnIiwibGlua3VybCI6IiJ9fSwiaWQiOiJwaWN0dXJldyIsInN0eWxlIjp7ImJhY2tncm91bmQiOiIjZmZmZmZmIiwicGFkZGluZ3RvcCI6IjAiLCJwYWRkaW5nbGVmdCI6IjAifX0sIk0xNDY1ODEzMTMxMzgwIjp7InBhcmFtcyI6eyJzaG93dGl0bGUiOiIxIiwic2hvd3ByaWNlIjoiMSIsImdvb2RzZGF0YSI6IjAiLCJjYXRlaWQiOiIiLCJjYXRlbmFtZSI6IiIsImdyb3VwaWQiOiIiLCJncm91cG5hbWUiOiIiLCJnb29kc3NvcnQiOiIwIiwiZ29vZHNudW0iOiI2Iiwic2hvd2ljb24iOiIxIiwiaWNvbnBvc2l0aW9uIjoibGVmdCB0b3AifSwic3R5bGUiOnsibGlzdHN0eWxlIjoiYmxvY2siLCJidXlzdHlsZSI6ImJ1eWJ0bi0xIiwiZ29vZHNpY29uIjoicmVjb21tYW5kIiwicHJpY2Vjb2xvciI6IiNlZDI4MjIiLCJpY29ucGFkZGluZ3RvcCI6IjAiLCJpY29ucGFkZGluZ2xlZnQiOiIwIiwiYnV5YnRuY29sb3IiOiIjZmU1NDU1IiwiaWNvbnpvb20iOiIxMDAiLCJ0aXRsZWNvbG9yIjoiIzI2MjYyNiJ9LCJkYXRhIjp7IkMxNDY1ODEzMTMxMzgwIjp7InRodW1iIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC9pbWFnZXNcL2RlZmF1bHRcL2dvb2RzLTEuanBnIiwicHJpY2UiOiIyMC4wMCIsInRpdGxlIjoiXHU4ZmQ5XHU5MWNjXHU2NjJmXHU1NTQ2XHU1NGMxXHU2ODA3XHU5ODk4IiwiZ2lkIjoiIn0sIkMxNDY1ODEzMTMxMzgxIjp7InRodW1iIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC9pbWFnZXNcL2RlZmF1bHRcL2dvb2RzLTIuanBnIiwicHJpY2UiOiIyMC4wMCIsInRpdGxlIjoiXHU4ZmQ5XHU5MWNjXHU2NjJmXHU1NTQ2XHU1NGMxXHU2ODA3XHU5ODk4IiwiZ2lkIjoiIn0sIkMxNDY1ODEzMTMxMzgyIjp7InRodW1iIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC9pbWFnZXNcL2RlZmF1bHRcL2dvb2RzLTMuanBnIiwicHJpY2UiOiIyMC4wMCIsInRpdGxlIjoiXHU4ZmQ5XHU5MWNjXHU2NjJmXHU1NTQ2XHU1NGMxXHU2ODA3XHU5ODk4IiwiZ2lkIjoiIn0sIkMxNDY1ODEzMTMxMzgzIjp7InRodW1iIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC9pbWFnZXNcL2RlZmF1bHRcL2dvb2RzLTQuanBnIiwicHJpY2UiOiIyMC4wMCIsInRpdGxlIjoiXHU4ZmQ5XHU5MWNjXHU2NjJmXHU1NTQ2XHU1NGMxXHU2ODA3XHU5ODk4IiwiZ2lkIjoiIn19LCJpZCI6Imdvb2RzIn0sIk0xNDY1ODg4ODMxMjc4Ijp7InBhcmFtcyI6eyJjb250ZW50IjoiUEhBZ2MzUjViR1U5SW5SbGVIUXRZV3hwWjI0NklHTmxiblJsY2pzaVB1V2J2dWVKaCthZHBlYTZrT1M2anVlOWtlZTduTys4ak9lSmlPYWRnK1c5a3VXT24rUzluT2lBaGVhSmdPYWNpVHd2Y0Q0PSJ9LCJzdHlsZSI6eyJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsInBhZGRpbmciOiIyMCJ9LCJpZCI6InJpY2h0ZXh0In19fQ==','../addons/ewei_shopv2/plugin/diypage/static/template/default8/preview.jpg','8','0','0');
+DROP TABLE IF EXISTS `ims_ewei_takephotoa_fans`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_takephotoa_fans` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `rid` int(11) DEFAULT '0',
+  `openid` varchar(255) DEFAULT '' COMMENT '用户openid',
+  `nickname` varchar(255) DEFAULT '' COMMENT '用户昵称',
+  `headimgurl` varchar(255) DEFAULT '' COMMENT '用户头像',
+  `score` decimal(10,2) DEFAULT '0.00' COMMENT '平均',
+  `img` varchar(255) DEFAULT '' COMMENT '成绩截图',
+  `createtime` int(10) DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `idx_rid` (`rid`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
 
-INSERT INTO `ims_ewei_shop_express` VALUES ('1','顺丰','shunfeng','1','0'),('2','申通','shentong','1','0'),('3','韵达快运','yunda','1','0'),('4','天天快递','tiantian','1','0'),('5','圆通速递','yuantong','1','0'),('6','中通速递','zhongtong','1','0'),('7','ems快递','ems','1','0'),('8','汇通快运','huitongkuaidi','1','0'),('9','全峰快递','quanfengkuaidi','1','0'),('10','宅急送','zhaijisong','1','0'),('11','aae全球专递','aae','1','0'),('12','安捷快递','anjie','1','0'),('13','安信达快递','anxindakuaixi','1','0'),('14','彪记快递','biaojikuaidi','1','0'),('15','bht','bht','1','0'),('16','百福东方国际物流','baifudongfang','1','0'),('17','中国东方（COE）','coe','1','0'),('18','长宇物流','changyuwuliu','1','0'),('19','大田物流','datianwuliu','1','0'),('20','德邦物流','debangwuliu','1','0'),('21','dhl','dhl','1','0'),('22','dpex','dpex','1','0'),('23','d速快递','dsukuaidi','1','0'),('24','递四方','disifang','1','0'),('25','fedex（国外）','fedex','1','0'),('26','飞康达物流','feikangda','1','0'),('27','凤凰快递','fenghuangkuaidi','1','0'),('28','飞快达','feikuaida','1','0'),('29','国通快递','guotongkuaidi','1','0'),('30','港中能达物流','ganzhongnengda','1','0'),('31','广东邮政物流','guangdongyouzhengwuliu','1','0'),('32','共速达','gongsuda','1','0'),('33','恒路物流','hengluwuliu','1','0'),('34','华夏龙物流','huaxialongwuliu','1','0'),('35','海红','haihongwangsong','1','0'),('36','海外环球','haiwaihuanqiu','1','0'),('37','佳怡物流','jiayiwuliu','1','0'),('38','京广速递','jinguangsudikuaijian','1','0'),('39','急先达','jixianda','1','0'),('40','佳吉物流','jjwl','1','0'),('41','加运美物流','jymwl','1','0'),('42','金大物流','jindawuliu','1','0'),('43','嘉里大通','jialidatong','1','0'),('44','晋越快递','jykd','1','0'),('45','快捷速递','kuaijiesudi','1','0'),('46','联邦快递（国内）','lianb','1','0'),('47','联昊通物流','lianhaowuliu','1','0'),('48','龙邦物流','longbanwuliu','1','0'),('49','立即送','lijisong','1','0'),('50','乐捷递','lejiedi','1','0'),('51','民航快递','minghangkuaidi','1','0'),('52','美国快递','meiguokuaidi','1','0'),('53','门对门','menduimen','1','0'),('54','OCS','ocs','1','0'),('55','配思货运','peisihuoyunkuaidi','1','0'),('56','全晨快递','quanchenkuaidi','1','0'),('57','全际通物流','quanjitong','1','0'),('58','全日通快递','quanritongkuaidi','1','0'),('59','全一快递','quanyikuaidi','1','0'),('60','如风达','rufengda','1','0'),('61','三态速递','santaisudi','1','0'),('62','盛辉物流','shenghuiwuliu','1','0'),('63','速尔物流','sue','1','0'),('64','盛丰物流','shengfeng','1','0'),('65','赛澳递','saiaodi','1','0'),('66','天地华宇','tiandihuayu','1','0'),('67','tnt','tnt','1','0'),('68','ups','ups','1','0'),('69','万家物流','wanjiawuliu','1','0'),('70','文捷航空速递','wenjiesudi','1','0'),('71','伍圆','wuyuan','1','0'),('72','万象物流','wxwl','1','0'),('73','新邦物流','xinbangwuliu','1','0'),('74','信丰物流','xinfengwuliu','1','0'),('75','亚风速递','yafengsudi','1','0'),('76','一邦速递','yibangwuliu','1','0'),('77','优速物流','youshuwuliu','1','0'),('78','邮政包裹挂号信','youzhengguonei','1','0'),('79','邮政国际包裹挂号信','youzhengguoji','1','0'),('80','远成物流','yuanchengwuliu','1','0'),('81','源伟丰快递','yuanweifeng','1','0'),('82','元智捷诚快递','yuanzhijiecheng','1','0'),('83','运通快递','yuntongkuaidi','1','0'),('84','越丰物流','yuefengwuliu','1','0'),('85','源安达','yad','1','0'),('86','银捷速递','yinjiesudi','1','0'),('87','中铁快运','zhongtiekuaiyun','1','0'),('88','中邮物流','zhongyouwuliu','1','0'),('89','忠信达','zhongxinda','1','0'),('90','芝麻开门','zhimakaimen','1','0');
+DROP TABLE IF EXISTS `ims_ewei_takephotoa_fans_score`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_takephotoa_fans_score` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `rid` int(11) DEFAULT '0',
+  `openid` varchar(255) DEFAULT '' COMMENT '用户openid',
+  `score` decimal(10,2) DEFAULT '0.00' COMMENT '平均',
+  `createtime` int(10) DEFAULT '0',
+  `img` varchar(255) DEFAULT '',
+  PRIMARY KEY (`id`),
+  KEY `idx_rid` (`rid`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
-INSERT INTO `ims_ewei_shop_plugin` VALUES ('1','1','qiniu','七牛存储','1.0','官方','1','tool','../addons/ewei_shopv2/static/images/qiniu.jpg',NULL,'1','0','0'),('2','2','taobao','淘宝助手','1.0','官方','1','tool','../addons/ewei_shopv2/static/images/taobao.jpg',NULL,'0','0','0'),('3','3','commission','人人分销','1.0','官方','1','biz','../addons/ewei_shopv2/static/images/commission.jpg',NULL,'0','0','0'),('4','4','poster','超级海报','1.2','官方','1','sale','../addons/ewei_shopv2/static/images/poster.jpg',NULL,'0','0','0'),('5','5','verify','O2O核销','1.0','官方','1','biz','../addons/ewei_shopv2/static/images/verify.jpg',NULL,'1','0','0'),('6','6','tmessage','会员群发','1.0','官方','1','tool','../addons/ewei_shopv2/static/images/tmessage.jpg',NULL,'1','0','0'),('7','7','perm','分权系统','1.0','官方','1','help','../addons/ewei_shopv2/static/images/perm.jpg',NULL,'1','0','0'),('8','8','sale','营销宝','1.0','官方','1','sale','../addons/ewei_shopv2/static/images/sale.jpg',NULL,'1','0','0'),('9','9','designer','店铺装修','1.0','官方','1','help','../addons/ewei_shopv2/static/images/designer.jpg',NULL,'0','1','0'),('10','10','creditshop','积分商城','1.0','官方','1','biz','../addons/ewei_shopv2/static/images/creditshop.jpg',NULL,'0','0','0'),('11','11','virtual','虚拟物品','1.0','官方','1','biz','../addons/ewei_shopv2/static/images/virtual.jpg',NULL,'1','0','0'),('12','11','article','文章营销','1.0','官方','1','help','../addons/ewei_shopv2/static/images/article.jpg',NULL,'0','0','0'),('13','13','coupon','超级券','1.0','官方','1','sale','../addons/ewei_shopv2/static/images/coupon.jpg',NULL,'1','0','0'),('14','14','postera','活动海报','1.0','官方','1','sale','../addons/ewei_shopv2/static/images/postera.jpg',NULL,'0','0','0'),('15','15','diyform','自定义表单','1.0','官方','1','help','../addons/ewei_shopv2/static/images/diyform.jpg',NULL,'0','0','0'),('16','16','system','系统工具','1.0','官方','0','help','../addons/ewei_shopv2/static/images/system.jpg',NULL,'0','1','0'),('17','16','exhelper','快递助手','1.0','官方','1','help','../addons/ewei_shopv2/static/images/exhelper.jpg',NULL,'0','0','0'),('18','19','groups','人人拼团','1.0','官方','1','biz','../addons/ewei_shopv2/static/images/groups.jpg','','0','0','0'),('19','20','diypage','店铺装修V2','2.0','官方','1','help','../addons/ewei_shopv2/static/images/designer.jpg','','0','0','0'),('20','23','merch','多商户','1.0','官方','1','biz','../addons/ewei_shopv2/static/images/merch.jpg','','0','0','1'),('21','25','globonus','全民股东','1.0','官方','1','biz','../addons/ewei_shopv2/static/images/globonus.jpg','','0','0','1'),('22','26','qa','帮助中心','1.0','官方','1','help','../addons/ewei_shopv2/static/images/qa.jpg','','0','0','1'),('25','29','sign','积分签到','1.0','官方','1','tool','../addons/ewei_shopv2/static/images/sign.jpg','','0','0','1'),('24','27','sms','短信提醒','1.0','官方','1','tool','../addons/ewei_shopv2/static/images/sms.jpg','','1','0','1'),('26','30','sns','人人社区','1.0','官方','1','sale','../addons/ewei_shopv2/static/images/sns.jpg','','0','0','1'),('27','33','wap','全网通','1.0','官方','1','tool','','','1','0','1'),('28','34','h5app','H5APP','1.0','官方','1','tool','','','1','0','1');
+DROP TABLE IF EXISTS `ims_ewei_takephotoa_reply`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_takephotoa_reply` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) DEFAULT '0',
+  `rid` int(11) DEFAULT '0',
+  `title` varchar(255) DEFAULT '',
+  `description` varchar(255) DEFAULT '',
+  `thumb` varchar(255) DEFAULT '',
+  `starttime` int(11) DEFAULT '0',
+  `endtime` int(11) DEFAULT '0',
+  `bgimg` varchar(255) DEFAULT '',
+  `helpimg` varchar(255) DEFAULT '',
+  `shareimg` varchar(255) DEFAULT '',
+  `titleimg` varchar(255) DEFAULT '',
+  `cameraimg` varchar(255) DEFAULT '',
+  `numberimg` varchar(255) DEFAULT '',
+  `items` text COMMENT '物品',
+  `follow_url` varchar(1000) DEFAULT '',
+  `share_url` varchar(1000) DEFAULT '',
+  `viewnum` int(11) DEFAULT '0',
+  `status` tinyint(1) DEFAULT '0',
+  `share_desc` varchar(500) DEFAULT '',
+  `share_icon` varchar(255) DEFAULT '',
+  `share_title` varchar(255) DEFAULT '',
+  `createtime` int(11) DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `idx_uniacid` (`uniacid`),
+  KEY `idx_rid` (`rid`),
+  KEY `idx_status` (`status`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
+
+DROP TABLE IF EXISTS `ims_ewei_takephotoa_sysset`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_takephotoa_sysset` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) DEFAULT '0',
+  `oauth2` tinyint(1) DEFAULT '0',
+  `appid` varchar(255) DEFAULT '',
+  `appsecret` varchar(255) DEFAULT '',
+  PRIMARY KEY (`id`),
+  KEY `idx_uniacid` (`uniacid`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
+
+
+
+
+
+DROP TABLE IF EXISTS `ims_ewei_shop_diypage_template`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_diypage_template` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(11) NOT NULL DEFAULT '0',
+  `type` tinyint(3) NOT NULL DEFAULT '0',
+  `name` varchar(255) NOT NULL DEFAULT '',
+  `data` longtext NOT NULL,
+  `preview` varchar(255) NOT NULL DEFAULT '',
+  `tplid` int(11) DEFAULT '0',
+  `cate` int(11) DEFAULT '0',
+  `deleted` tinyint(3) DEFAULT '0',
+  `merch` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `idx_uniacid` (`uniacid`),
+  KEY `idx_type` (`type`),
+  KEY `idx_cate` (`cate`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=22 ;
+
+INSERT INTO `ims_ewei_shop_diypage_template` (`id`, `uniacid`, `type`, `name`, `data`, `preview`, `tplid`, `cate`, `deleted`, `merch`) VALUES
+(1, 0, 2, '系统模板01', 'eyJwYWdlIjp7InR5cGUiOiIyIiwidGl0bGUiOiJcdTMwMTBcdTZhMjFcdTY3N2ZcdTMwMTFcdTdjZmJcdTdlZGZcdTZhMjFcdTY3N2YwMSIsIm5hbWUiOiJcdTMwMTBcdTZhMjFcdTY3N2ZcdTMwMTFcdTdjZmJcdTdlZGZcdTZhMjFcdTY3N2YwMSIsImRlc2MiOiIiLCJpY29uIjoiIiwia2V5d29yZCI6IiIsImJhY2tncm91bmQiOiIjZmFmYWZhIiwiZGl5bWVudSI6Ii0xIn0sIml0ZW1zIjp7Ik0xNDY1ODAyOTg0ODg1Ijp7InN0eWxlIjp7ImRvdHN0eWxlIjoicm91bmQiLCJkb3RhbGlnbiI6ImNlbnRlciIsImJhY2tncm91bmQiOiIjZmZmZmZmIiwibGVmdHJpZ2h0IjoiNSIsImJvdHRvbSI6IjEwIiwib3BhY2l0eSI6IjAuOCJ9LCJkYXRhIjp7IkMxNDY1ODAyOTg0ODg1Ijp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQxXC9iYW5uZXJfMS5qcGciLCJsaW5rdXJsIjoiIn0sIkMxNDY1ODAyOTg0ODg2Ijp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQxXC9iYW5uZXJfMi5qcGciLCJsaW5rdXJsIjoiIn0sIk0xNDY1ODAzMDE0ODM3Ijp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQxXC9iYW5uZXJfMy5qcGciLCJsaW5rdXJsIjoiIn19LCJpZCI6ImJhbm5lciJ9LCJNMTQ2NTgwMzY5MjkzMiI6eyJzdHlsZSI6eyJoZWlnaHQiOiIxMCIsImJhY2tncm91bmQiOiIjZmZmZmZmIn0sImlkIjoiYmxhbmsifSwiTTE0NjU4MDMzMTk4NTMiOnsic3R5bGUiOnsibmF2c3R5bGUiOiIiLCJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsInJvd251bSI6IjUifSwiZGF0YSI6eyJDMTQ2NTgwMzMxOTg1MyI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0MVwvbWVudV8xLnBuZyIsImxpbmt1cmwiOiIiLCJ0ZXh0IjoiXHU2NWIwXHU1NGMxIiwiY29sb3IiOiIjNjY2NjY2In0sIkMxNDY1ODAzMzE5ODU0Ijp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQxXC9tZW51XzIucG5nIiwibGlua3VybCI6IiIsInRleHQiOiJcdTcwZWRcdTUzNTYiLCJjb2xvciI6IiM2NjY2NjYifSwiQzE0NjU4MDMzMTk4NTUiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDFcL21lbnVfMy5wbmciLCJsaW5rdXJsIjoiIiwidGV4dCI6Ilx1NGZjM1x1OTUwMCIsImNvbG9yIjoiIzY2NjY2NiJ9LCJDMTQ2NTgwMzMxOTg1NiI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0MVwvbWVudV80LnBuZyIsImxpbmt1cmwiOiIiLCJ0ZXh0IjoiXHU4YmEyXHU1MzU1IiwiY29sb3IiOiIjNjY2NjY2In0sIk0xNDY1ODAzMzQ3MDQ1Ijp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQxXC9tZW51XzUucG5nIiwibGlua3VybCI6IiIsInRleHQiOiJcdTdiN2VcdTUyMzAiLCJjb2xvciI6IiM2NjY2NjYifX0sImlkIjoibWVudSJ9LCJNMTQ2NTgwMzM1OTEwMCI6eyJzdHlsZSI6eyJuYXZzdHlsZSI6IiIsImJhY2tncm91bmQiOiIjZmZmZmZmIiwicm93bnVtIjoiNSJ9LCJkYXRhIjp7IkMxNDY1ODAzMzU5MTAwIjp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQxXC9tZW51XzYucG5nIiwibGlua3VybCI6IiIsInRleHQiOiJcdTRlMGFcdTg4NjMiLCJjb2xvciI6IiM2NjY2NjYifSwiQzE0NjU4MDMzNTkxMDEiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDFcL21lbnVfNy5wbmciLCJsaW5rdXJsIjoiIiwidGV4dCI6Ilx1NGUwYlx1ODg2MyIsImNvbG9yIjoiIzY2NjY2NiJ9LCJDMTQ2NTgwMzM1OTEwMiI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0MVwvbWVudV84LnBuZyIsImxpbmt1cmwiOiIiLCJ0ZXh0IjoiXHU5NzhiXHU1YjUwIiwiY29sb3IiOiIjNjY2NjY2In0sIkMxNDY1ODAzMzU5MTAzIjp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQxXC9tZW51XzkucG5nIiwibGlua3VybCI6IiIsInRleHQiOiJcdTUxODVcdTg4NjMiLCJjb2xvciI6IiM2NjY2NjYifSwiTTE0NjU4MDM0NTA4MjciOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDFcL21lbnVfMTAucG5nIiwibGlua3VybCI6IiIsInRleHQiOiJcdTUxNjhcdTkwZTgiLCJjb2xvciI6IiM2NjY2NjYifX0sImlkIjoibWVudSJ9LCJNMTQ2NTgwMzcwMDEzMiI6eyJzdHlsZSI6eyJoZWlnaHQiOiIxMCIsImJhY2tncm91bmQiOiIjZmZmZmZmIn0sImlkIjoiYmxhbmsifSwiTTE0NjU4MDM2MjE5ODAiOnsicGFyYW1zIjp7Imljb251cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2Mlwvc3RhdGljXC9pbWFnZXNcL2hvdGRvdC5qcGciLCJub3RpY2VkYXRhIjoiMSIsInNwZWVkIjoiNCIsIm5vdGljZW51bSI6IjUifSwic3R5bGUiOnsiYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJpY29uY29sb3IiOiIjZmQ1NDU0IiwiY29sb3IiOiIjNjY2NjY2In0sImRhdGEiOnsiQzE0NjU4MDM2MjE5ODAiOnsidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTdiMmNcdTRlMDBcdTY3NjFcdTgxZWFcdTViOWFcdTRlNDlcdTUxNmNcdTU0NGFcdTc2ODRcdTY4MDdcdTk4OTgiLCJsaW5rdXJsIjoiaHR0cDpcL1wvd3d3LmJhaWR1LmNvbSJ9LCJDMTQ2NTgwMzYyMTk4MSI6eyJ0aXRsZSI6Ilx1OGZkOVx1OTFjY1x1NjYyZlx1N2IyY1x1NGU4Y1x1Njc2MVx1ODFlYVx1NWI5YVx1NGU0OVx1NTE2Y1x1NTQ0YVx1NzY4NFx1NjgwN1x1OTg5OCIsImxpbmt1cmwiOiJodHRwOlwvXC93d3cuYmFpZHUuY29tIn19LCJpZCI6Im5vdGljZSJ9LCJNMTQ2NTgwMzkzMjQ2MCI6eyJwYXJhbXMiOnsicm93IjoiMiJ9LCJkYXRhIjp7IkMxNDY1ODAzOTMyNDYwIjp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQxXC9waWN0dXJld18xLmpwZyIsImxpbmt1cmwiOiIifSwiQzE0NjU4MDM5MzI0NjMiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDFcL3BpY3R1cmV3XzIuanBnIiwibGlua3VybCI6IiJ9fSwiaWQiOiJwaWN0dXJldyIsInN0eWxlIjp7InBhZGRpbmd0b3AiOiIxNiIsInBhZGRpbmdsZWZ0IjoiNCJ9fSwiTTE0NjU4MDQwMjU1MDgiOnsicGFyYW1zIjp7InRpdGxlIjoiXHU2NWIwXHU1NGMxXHU0ZTBhXHU1ZTAyIiwiaWNvbiI6Imljb24tbmV3In0sInN0eWxlIjp7ImJhY2tncm91bmQiOiIjZmZmZmZmIiwiY29sb3IiOiIjZjA2MjkyIiwidGV4dGFsaWduIjoiY2VudGVyIiwiZm9udHNpemUiOiIxOCIsInBhZGRpbmd0b3AiOiI1IiwicGFkZGluZ2xlZnQiOiI1In0sImlkIjoidGl0bGUifSwiTTE0NjU4MTMzNjgwODUiOnsicGFyYW1zIjp7InNob3d0aXRsZSI6IjEiLCJzaG93cHJpY2UiOiIxIiwiZ29vZHNkYXRhIjoiMCIsImNhdGVpZCI6IiIsImNhdGVuYW1lIjoiIiwiZ3JvdXBpZCI6IiIsImdyb3VwbmFtZSI6IiIsImdvb2Rzc29ydCI6IjAiLCJnb29kc251bSI6IjYiLCJzaG93aWNvbiI6IjAiLCJpY29ucG9zaXRpb24iOiJsZWZ0IHRvcCJ9LCJzdHlsZSI6eyJsaXN0c3R5bGUiOiJibG9jayIsImJ1eXN0eWxlIjoiYnV5YnRuLTEiLCJnb29kc2ljb24iOiJyZWNvbW1hbmQiLCJwcmljZWNvbG9yIjoiI2VkMjgyMiIsImljb25wYWRkaW5ndG9wIjoiMCIsImljb25wYWRkaW5nbGVmdCI6IjAiLCJidXlidG5jb2xvciI6IiNmZTU0NTUiLCJpY29uem9vbSI6IjEwMCIsInRpdGxlY29sb3IiOiIjMjYyNjI2In0sImRhdGEiOnsiQzE0NjU4MTMzNjgwODUiOnsidGh1bWIiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvZ29vZHMtMS5qcGciLCJwcmljZSI6IjIwLjAwIiwidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTU1NDZcdTU0YzFcdTY4MDdcdTk4OTgiLCJnaWQiOiIifSwiQzE0NjU4MTMzNjgwODYiOnsidGh1bWIiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvZ29vZHMtMi5qcGciLCJwcmljZSI6IjIwLjAwIiwidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTU1NDZcdTU0YzFcdTY4MDdcdTk4OTgiLCJnaWQiOiIifSwiQzE0NjU4MTMzNjgwODciOnsidGh1bWIiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvZ29vZHMtMy5qcGciLCJwcmljZSI6IjIwLjAwIiwidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTU1NDZcdTU0YzFcdTY4MDdcdTk4OTgiLCJnaWQiOiIifSwiQzE0NjU4MTMzNjgwODgiOnsidGh1bWIiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvZ29vZHMtNC5qcGciLCJwcmljZSI6IjIwLjAwIiwidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTU1NDZcdTU0YzFcdTY4MDdcdTk4OTgiLCJnaWQiOiIifX0sImlkIjoiZ29vZHMifSwiTTE0NjU4MDU4MjEwNjciOnsicGFyYW1zIjp7InRpdGxlIjoiXHU3MGVkXHU1MzU2XHU1NTQ2XHU1NGMxIiwiaWNvbiI6Imljb24taG90In0sInN0eWxlIjp7ImJhY2tncm91bmQiOiIjZmZmZmZmIiwiY29sb3IiOiIjZmFjMDQyIiwidGV4dGFsaWduIjoiY2VudGVyIiwiZm9udHNpemUiOiIxOCIsInBhZGRpbmd0b3AiOiI1IiwicGFkZGluZ2xlZnQiOiI1In0sImlkIjoidGl0bGUifSwiTTE0NjU4MTMzNzY4OTIiOnsicGFyYW1zIjp7InNob3d0aXRsZSI6IjEiLCJzaG93cHJpY2UiOiIxIiwiZ29vZHNkYXRhIjoiMCIsImNhdGVpZCI6IiIsImNhdGVuYW1lIjoiIiwiZ3JvdXBpZCI6IiIsImdyb3VwbmFtZSI6IiIsImdvb2Rzc29ydCI6IjAiLCJnb29kc251bSI6IjYiLCJzaG93aWNvbiI6IjEiLCJpY29ucG9zaXRpb24iOiJsZWZ0IHRvcCJ9LCJzdHlsZSI6eyJsaXN0c3R5bGUiOiJibG9jayIsImJ1eXN0eWxlIjoiYnV5YnRuLTEiLCJnb29kc2ljb24iOiJyZWNvbW1hbmQiLCJwcmljZWNvbG9yIjoiI2VkMjgyMiIsImljb25wYWRkaW5ndG9wIjoiMCIsImljb25wYWRkaW5nbGVmdCI6IjAiLCJidXlidG5jb2xvciI6IiNmZTU0NTUiLCJpY29uem9vbSI6IjEwMCIsInRpdGxlY29sb3IiOiIjMjYyNjI2In0sImRhdGEiOnsiQzE0NjU4MTMzNzY4OTIiOnsidGh1bWIiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvZ29vZHMtMS5qcGciLCJwcmljZSI6IjIwLjAwIiwidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTU1NDZcdTU0YzFcdTY4MDdcdTk4OTgiLCJnaWQiOiIifSwiQzE0NjU4MTMzNzY4OTMiOnsidGh1bWIiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvZ29vZHMtMi5qcGciLCJwcmljZSI6IjIwLjAwIiwidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTU1NDZcdTU0YzFcdTY4MDdcdTk4OTgiLCJnaWQiOiIifSwiQzE0NjU4MTMzNzY4OTQiOnsidGh1bWIiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvZ29vZHMtMy5qcGciLCJwcmljZSI6IjIwLjAwIiwidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTU1NDZcdTU0YzFcdTY4MDdcdTk4OTgiLCJnaWQiOiIifSwiQzE0NjU4MTMzNzY4OTUiOnsidGh1bWIiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvZ29vZHMtNC5qcGciLCJwcmljZSI6IjIwLjAwIiwidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTU1NDZcdTU0YzFcdTY4MDdcdTk4OTgiLCJnaWQiOiIifX0sImlkIjoiZ29vZHMifX19', '../addons/ewei_shopv2/plugin/diypage/static/template/default1/preview.jpg', 1, 0, 0, 0),
+(2, 0, 1, '系统模板02', 'eyJwYWdlIjp7InR5cGUiOiIxIiwidGl0bGUiOiJcdTMwMTBcdTZhMjFcdTY3N2ZcdTMwMTFcdTdjZmJcdTdlZGZcdTZhMjFcdTY3N2YwMiIsIm5hbWUiOiJcdTMwMTBcdTZhMjFcdTY3N2ZcdTMwMTFcdTdjZmJcdTdlZGZcdTZhMjFcdTY3N2YwMiIsImRlc2MiOiIiLCJpY29uIjoiIiwia2V5d29yZCI6IiIsImJhY2tncm91bmQiOiIjZmFmYWZhIiwiZGl5bWVudSI6Ii0xIn0sIml0ZW1zIjp7Ik0xNDY1ODA4NTU2MDAxIjp7InN0eWxlIjp7ImRvdHN0eWxlIjoicm91bmQiLCJkb3RhbGlnbiI6InJpZ2h0IiwiYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJsZWZ0cmlnaHQiOiIxMCIsImJvdHRvbSI6IjEwIiwib3BhY2l0eSI6IjAuOCJ9LCJkYXRhIjp7IkMxNDY1ODA4NTU2MDAxIjp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQyXC9iYW5uZXJfMS5qcGciLCJsaW5rdXJsIjoiIn0sIkMxNDY1ODA4NTU2MDAyIjp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQyXC9iYW5uZXJfMi5qcGciLCJsaW5rdXJsIjoiIn0sIk0xNDY1ODA4NTc1MTIyIjp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQyXC9iYW5uZXJfMy5qcGciLCJsaW5rdXJsIjoiIn19LCJpZCI6ImJhbm5lciJ9LCJNMTQ2NTgwODcwNTA2NCI6eyJzdHlsZSI6eyJoZWlnaHQiOiIyMCIsImJhY2tncm91bmQiOiIjZmZmZmZmIn0sImlkIjoiYmxhbmsifSwiTTE0NjU4MDg2NzMwNDAiOnsicGFyYW1zIjp7InJvdyI6IjIifSwiZGF0YSI6eyJDMTQ2NTgwODY3MzA0MCI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0MlwvcGljdHVyZXdfMS5qcGciLCJsaW5rdXJsIjoiIn0sIkMxNDY1ODA4NjczMDQxIjp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQyXC9waWN0dXJld18yLmpwZyIsImxpbmt1cmwiOiIifX0sImlkIjoicGljdHVyZXciLCJzdHlsZSI6eyJwYWRkaW5ndG9wIjoiMCIsInBhZGRpbmdsZWZ0IjoiMCJ9fSwiTTE0NjU4MDg3MDkyODAiOnsic3R5bGUiOnsiaGVpZ2h0IjoiMjAiLCJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiJ9LCJpZCI6ImJsYW5rIn0sIk0xNDY1ODA4NzY2NTY3Ijp7InBhcmFtcyI6eyJyb3ciOiIyIn0sImRhdGEiOnsiQzE0NjU4MDg3NjY1NzAiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDJcL3BpY3R1cmV3XzMuanBnIiwibGlua3VybCI6IiJ9LCJDMTQ2NTgwODc2NjU3MSI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0MlwvcGljdHVyZXdfNC5qcGciLCJsaW5rdXJsIjoiIn19LCJpZCI6InBpY3R1cmV3Iiwic3R5bGUiOnsicGFkZGluZ3RvcCI6IjAiLCJwYWRkaW5nbGVmdCI6IjAifX0sIk0xNDY1ODA4NzkxMDcyIjp7InN0eWxlIjp7ImhlaWdodCI6IjIwIiwiYmFja2dyb3VuZCI6IiNmZmZmZmYifSwiaWQiOiJibGFuayJ9LCJNMTQ2NTgwODg3MDY4MCI6eyJkYXRhIjp7IkMxNDY1ODA4ODcwNjgwIjp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQyXC9iYW5uZXJfMy5qcGciLCJsaW5rdXJsIjoiIn19LCJpZCI6InBpY3R1cmUiLCJzdHlsZSI6eyJwYWRkaW5ndG9wIjoiMCIsInBhZGRpbmdsZWZ0IjoiMCJ9fSwiTTE0NjU4MDkwMTA0MTUiOnsic3R5bGUiOnsiaGVpZ2h0IjoiMjAiLCJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiJ9LCJpZCI6ImJsYW5rIn0sIk0xNDY1ODA4OTgxNTk5Ijp7InBhcmFtcyI6eyJyb3ciOiIyIn0sImRhdGEiOnsiQzE0NjU4MDg5ODE1OTkiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDJcL3BpY3R1cmV3XzUuanBnIiwibGlua3VybCI6IiJ9LCJDMTQ2NTgwODk4MTYwMCI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0MlwvcGljdHVyZXdfNi5qcGciLCJsaW5rdXJsIjoiIn19LCJpZCI6InBpY3R1cmV3Iiwic3R5bGUiOnsicGFkZGluZ3RvcCI6IjAiLCJwYWRkaW5nbGVmdCI6IjAifX0sIk0xNDY1ODg5MzczNTY3Ijp7InBhcmFtcyI6eyJzaG93dGl0bGUiOiIxIiwic2hvd3ByaWNlIjoiMSIsImdvb2RzZGF0YSI6IjAiLCJjYXRlaWQiOiIiLCJjYXRlbmFtZSI6IiIsImdyb3VwaWQiOiIiLCJncm91cG5hbWUiOiIiLCJnb29kc3NvcnQiOiIwIiwiZ29vZHNudW0iOiI2Iiwic2hvd2ljb24iOiIxIiwiaWNvbnBvc2l0aW9uIjoibGVmdCB0b3AifSwic3R5bGUiOnsibGlzdHN0eWxlIjoiYmxvY2siLCJidXlzdHlsZSI6ImJ1eWJ0bi0xIiwiZ29vZHNpY29uIjoicmVjb21tYW5kIiwicHJpY2Vjb2xvciI6IiNlZDI4MjIiLCJpY29ucGFkZGluZ3RvcCI6IjAiLCJpY29ucGFkZGluZ2xlZnQiOiIwIiwiYnV5YnRuY29sb3IiOiIjZmU1NDU1IiwiaWNvbnpvb20iOiIxMDAiLCJ0aXRsZWNvbG9yIjoiIzI2MjYyNiJ9LCJkYXRhIjp7IkMxNDY1ODg5MzczNTY3Ijp7InRodW1iIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC9pbWFnZXNcL2RlZmF1bHRcL2dvb2RzLTEuanBnIiwicHJpY2UiOiIyMC4wMCIsInRpdGxlIjoiXHU4ZmQ5XHU5MWNjXHU2NjJmXHU1NTQ2XHU1NGMxXHU2ODA3XHU5ODk4IiwiZ2lkIjoiIn0sIkMxNDY1ODg5MzczNTY4Ijp7InRodW1iIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC9pbWFnZXNcL2RlZmF1bHRcL2dvb2RzLTIuanBnIiwicHJpY2UiOiIyMC4wMCIsInRpdGxlIjoiXHU4ZmQ5XHU5MWNjXHU2NjJmXHU1NTQ2XHU1NGMxXHU2ODA3XHU5ODk4IiwiZ2lkIjoiIn0sIkMxNDY1ODg5MzczNTY5Ijp7InRodW1iIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC9pbWFnZXNcL2RlZmF1bHRcL2dvb2RzLTMuanBnIiwicHJpY2UiOiIyMC4wMCIsInRpdGxlIjoiXHU4ZmQ5XHU5MWNjXHU2NjJmXHU1NTQ2XHU1NGMxXHU2ODA3XHU5ODk4IiwiZ2lkIjoiIn0sIkMxNDY1ODg5MzczNTcwIjp7InRodW1iIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC9pbWFnZXNcL2RlZmF1bHRcL2dvb2RzLTQuanBnIiwicHJpY2UiOiIyMC4wMCIsInRpdGxlIjoiXHU4ZmQ5XHU5MWNjXHU2NjJmXHU1NTQ2XHU1NGMxXHU2ODA3XHU5ODk4IiwiZ2lkIjoiIn19LCJpZCI6Imdvb2RzIn0sIk0xNDY1ODg5Mzc3NDIzIjp7InBhcmFtcyI6eyJjb250ZW50IjoiUEhBZ2MzUjViR1U5SW5SbGVIUXRZV3hwWjI0NklHTmxiblJsY2pzaVB1V2J2dWVKaCthZHBlYTZrT1M2anVlOWtlZTduTys4ak9lSmlPYWRnK1c5a3VXT24rUzluT2lBaGVhSmdPYWNpVHd2Y0Q0PSJ9LCJzdHlsZSI6eyJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsInBhZGRpbmciOiIyMCJ9LCJpZCI6InJpY2h0ZXh0In19fQ==', '../addons/ewei_shopv2/plugin/diypage/static/template/default2/preview.jpg', 2, 0, 0, 0),
+(3, 0, 2, '系统模板03', 'eyJwYWdlIjp7InR5cGUiOiIyIiwidGl0bGUiOiJcdTMwMTBcdTZhMjFcdTY3N2ZcdTMwMTFcdTdjZmJcdTdlZGZcdTZhMjFcdTY3N2YwMyIsIm5hbWUiOiJcdTMwMTBcdTZhMjFcdTY3N2ZcdTMwMTFcdTdjZmJcdTdlZGZcdTZhMjFcdTY3N2YwMyIsImRlc2MiOiIiLCJpY29uIjoiIiwia2V5d29yZCI6IiIsImJhY2tncm91bmQiOiIjZmFmYWZhIiwiZGl5bWVudSI6Ii0xIn0sIml0ZW1zIjp7Ik0xNDY1ODA5MjQyOTc2Ijp7InN0eWxlIjp7ImRvdHN0eWxlIjoicm91bmQiLCJkb3RhbGlnbiI6ImxlZnQiLCJiYWNrZ3JvdW5kIjoiIzM0YmVkYyIsImxlZnRyaWdodCI6IjEwIiwiYm90dG9tIjoiMTAiLCJvcGFjaXR5IjoiMC43In0sImRhdGEiOnsiQzE0NjU4MDkyNDI5NzYiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDNcL2Jhbm5lcl8xLmpwZyIsImxpbmt1cmwiOiIifSwiQzE0NjU4MDkyNDI5NzciOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDNcL2Jhbm5lcl8yLmpwZyIsImxpbmt1cmwiOiIifSwiTTE0NjU4MDkyNjU5OTIiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDNcL2Jhbm5lcl8zLmpwZyIsImxpbmt1cmwiOiIifX0sImlkIjoiYmFubmVyIn0sIk0xNDY1ODA5NTQxNTM1Ijp7InBhcmFtcyI6eyJyb3ciOiIxIn0sImRhdGEiOnsiQzE0NjU4MDk1NDE1MzUiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDNcL3BpY3R1cmV3XzEuanBnIiwibGlua3VybCI6IiJ9LCJDMTQ2NTgwOTU0MTUzNiI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0M1wvcGljdHVyZXdfMi5qcGciLCJsaW5rdXJsIjoiIn0sIkMxNDY1ODA5NTQxNTM3Ijp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQzXC9waWN0dXJld18zLmpwZyIsImxpbmt1cmwiOiIifX0sImlkIjoicGljdHVyZXciLCJzdHlsZSI6eyJwYWRkaW5ndG9wIjoiNSIsInBhZGRpbmdsZWZ0IjoiNSIsImJhY2tncm91bmQiOiIjZmFmYWZhIn19LCJNMTQ2NTgwOTc2MzQxNSI6eyJzdHlsZSI6eyJoZWlnaHQiOiI1IiwiYmFja2dyb3VuZCI6IiNmYWZhZmEifSwiaWQiOiJibGFuayJ9LCJNMTQ2NTgwOTcwOTA0MCI6eyJwYXJhbXMiOnsidGl0bGUiOiJcdTY1YjBcdTU0YzFcdTRlMGFcdTVlMDIiLCJpY29uIjoiaWNvbi1uZXcifSwic3R5bGUiOnsiYmFja2dyb3VuZCI6IiMyOGMxOTIiLCJjb2xvciI6IiNmZmZmZmYiLCJ0ZXh0YWxpZ24iOiJsZWZ0IiwiZm9udHNpemUiOiIxOCIsInBhZGRpbmd0b3AiOiI1IiwicGFkZGluZ2xlZnQiOiI1In0sImlkIjoidGl0bGUifSwiTTE0NjU4MDk3OTEyMzEiOnsicGFyYW1zIjp7InNob3d0aXRsZSI6IjEiLCJzaG93cHJpY2UiOiIxIiwiZ29vZHNkYXRhIjoiMCIsImNhdGVpZCI6IiIsImNhdGVuYW1lIjoiIiwiZ3JvdXBpZCI6IiIsImdyb3VwbmFtZSI6IiIsImdvb2Rzc29ydCI6IjAiLCJnb29kc251bSI6IjYiLCJzaG93aWNvbiI6IjAiLCJpY29ucG9zaXRpb24iOiJsZWZ0IHRvcCJ9LCJzdHlsZSI6eyJsaXN0c3R5bGUiOiJibG9jayIsImJ1eXN0eWxlIjoiYnV5YnRuLTMiLCJnb29kc2ljb24iOiJyZWNvbW1hbmQiLCJwcmljZWNvbG9yIjoiIzI4YzE5MiIsImljb25wYWRkaW5ndG9wIjoiMCIsImljb25wYWRkaW5nbGVmdCI6IjAiLCJidXlidG5jb2xvciI6IiMyOGMxOGYiLCJpY29uem9vbSI6IjEwMCIsInRpdGxlY29sb3IiOiIjMjhjMTkyIn0sImRhdGEiOnsiQzE0NjU4MDk3OTEyMzEiOnsidGh1bWIiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvZ29vZHMtMS5qcGciLCJwcmljZSI6IjIwLjAwIiwidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTU1NDZcdTU0YzFcdTY4MDdcdTk4OTgiLCJnaWQiOiIifSwiQzE0NjU4MDk3OTEyMzIiOnsidGh1bWIiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvZ29vZHMtMi5qcGciLCJwcmljZSI6IjIwLjAwIiwidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTU1NDZcdTU0YzFcdTY4MDdcdTk4OTgiLCJnaWQiOiIifSwiQzE0NjU4MDk3OTEyMzMiOnsidGh1bWIiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvZ29vZHMtMy5qcGciLCJwcmljZSI6IjIwLjAwIiwidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTU1NDZcdTU0YzFcdTY4MDdcdTk4OTgiLCJnaWQiOiIifSwiQzE0NjU4MDk3OTEyMzQiOnsidGh1bWIiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvZ29vZHMtNC5qcGciLCJwcmljZSI6IjIwLjAwIiwidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTU1NDZcdTU0YzFcdTY4MDdcdTk4OTgiLCJnaWQiOiIifX0sImlkIjoiZ29vZHMifSwiTTE0NjU4MDk5NTA4NDciOnsicGFyYW1zIjp7InRpdGxlIjoiXHU2MzhjXHU2N2RjXHU2M2E4XHU4MzUwIiwiaWNvbiI6Imljb24tYXBwcmVjaWF0ZSJ9LCJzdHlsZSI6eyJiYWNrZ3JvdW5kIjoiI2ZmYmQzMyIsImNvbG9yIjoiI2ZmZmZmZiIsInRleHRhbGlnbiI6InJpZ2h0IiwiZm9udHNpemUiOiIxOCIsInBhZGRpbmd0b3AiOiI1IiwicGFkZGluZ2xlZnQiOiI1In0sImlkIjoidGl0bGUifSwiTTE0NjU4MDk5NDMyMzEiOnsicGFyYW1zIjp7InNob3d0aXRsZSI6IjEiLCJzaG93cHJpY2UiOiIxIiwiZ29vZHNkYXRhIjoiMCIsImNhdGVpZCI6IiIsImNhdGVuYW1lIjoiIiwiZ3JvdXBpZCI6IiIsImdyb3VwbmFtZSI6IiIsImdvb2Rzc29ydCI6IjAiLCJnb29kc251bSI6IjYiLCJzaG93aWNvbiI6IjEiLCJpY29ucG9zaXRpb24iOiJsZWZ0IHRvcCJ9LCJzdHlsZSI6eyJsaXN0c3R5bGUiOiJibG9jayIsImJ1eXN0eWxlIjoiYnV5YnRuLTEiLCJnb29kc2ljb24iOiJyZWNvbW1hbmQiLCJwcmljZWNvbG9yIjoiI2VkMjgyMiIsImljb25wYWRkaW5ndG9wIjoiMCIsImljb25wYWRkaW5nbGVmdCI6IjAiLCJidXlidG5jb2xvciI6IiNmZTU0NTUiLCJpY29uem9vbSI6IjEwMCIsInRpdGxlY29sb3IiOiIjMjYyNjI2In0sImRhdGEiOnsiQzE0NjU4MDk5NDMyMzEiOnsidGh1bWIiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvZ29vZHMtMS5qcGciLCJwcmljZSI6IjIwLjAwIiwidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTU1NDZcdTU0YzFcdTY4MDdcdTk4OTgiLCJnaWQiOiIifSwiQzE0NjU4MDk5NDMyMzIiOnsidGh1bWIiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvZ29vZHMtMi5qcGciLCJwcmljZSI6IjIwLjAwIiwidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTU1NDZcdTU0YzFcdTY4MDdcdTk4OTgiLCJnaWQiOiIifSwiQzE0NjU4MDk5NDMyMzMiOnsidGh1bWIiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvZ29vZHMtMy5qcGciLCJwcmljZSI6IjIwLjAwIiwidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTU1NDZcdTU0YzFcdTY4MDdcdTk4OTgiLCJnaWQiOiIifSwiQzE0NjU4MDk5NDMyMzQiOnsidGh1bWIiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvZ29vZHMtNC5qcGciLCJwcmljZSI6IjIwLjAwIiwidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTU1NDZcdTU0YzFcdTY4MDdcdTk4OTgiLCJnaWQiOiIifX0sImlkIjoiZ29vZHMifSwiTTE0NjU4MTAwNTk2OTQiOnsicGFyYW1zIjp7ImNvbnRlbnQiOiJQSEFnYzNSNWJHVTlJblJsZUhRdFlXeHBaMjQ2SUdObGJuUmxjanNpUGp4aWNpOCtQQzl3UGp4d0lITjBlV3hsUFNKMFpYaDBMV0ZzYVdkdU9pQmpaVzUwWlhJN0lqN25pWWptbllQbWlZRG1uSWtvWXlsWVdPV1ZodVdmamp3dmNENDhjRDRtYm1KemNEczhZbkl2UGp3dmNEND0ifSwic3R5bGUiOnsiYmFja2dyb3VuZCI6IiNmZmZmZmYifSwiaWQiOiJyaWNodGV4dCJ9fX0=', '../addons/ewei_shopv2/plugin/diypage/static/template/default3/preview.jpg', 3, 0, 0, 0),
+(4, 0, 1, '系统模板04', 'eyJwYWdlIjp7InR5cGUiOiIxIiwidGl0bGUiOiJcdTMwMTBcdTZhMjFcdTY3N2ZcdTMwMTFcdTdjZmJcdTdlZGZcdTZhMjFcdTY3N2YwNCIsIm5hbWUiOiJcdTMwMTBcdTZhMjFcdTY3N2ZcdTMwMTFcdTdjZmJcdTdlZGZcdTZhMjFcdTY3N2YwNCIsImRlc2MiOiIiLCJpY29uIjoiIiwia2V5d29yZCI6IiIsImJhY2tncm91bmQiOiIjZmFmYWZhIiwiZGl5bWVudSI6Ii0xIn0sIml0ZW1zIjp7Ik0xNDY1ODEwMzUyODk0Ijp7ImRhdGEiOnsiQzE0NjU4MTAzNTI4OTQiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDRcL3BpY3R1cmVfMS5wbmciLCJsaW5rdXJsIjoiIn0sIkMxNDY1ODEwMzUyODk1Ijp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQ0XC9waWN0dXJlXzIucG5nIiwibGlua3VybCI6IiJ9LCJNMTQ2NTgxMDM3MDM5OSI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0NFwvcGljdHVyZV8zLnBuZyIsImxpbmt1cmwiOiIifSwiTTE0NjU4MTAzNzE3MDEiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDRcL3BpY3R1cmVfNC5wbmciLCJsaW5rdXJsIjoiIn0sIk0xNDY1ODEwMzcyNzkxIjp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQ0XC9waWN0dXJlXzUucG5nIiwibGlua3VybCI6IiJ9fSwiaWQiOiJwaWN0dXJlIiwic3R5bGUiOnsicGFkZGluZ3RvcCI6IjAiLCJwYWRkaW5nbGVmdCI6IjAifX0sIk0xNDY1ODg5OTQ0NzY5Ijp7InBhcmFtcyI6eyJjb250ZW50IjoiUEhBZ2MzUjViR1U5SW5SbGVIUXRZV3hwWjI0NklHTmxiblJsY2pzaVB1V2J2dWVKaCthZHBlYTZrT1M2anVlOWtlZTduTys4ak9lSmlPYWRnK1c5a3VXT24rUzluT2lBaGVhSmdPYWNpVHd2Y0Q0PSJ9LCJzdHlsZSI6eyJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsInBhZGRpbmciOiIyMCJ9LCJpZCI6InJpY2h0ZXh0In19fQ==', '../addons/ewei_shopv2/plugin/diypage/static/template/default4/preview.jpg', 4, 0, 0, 0),
+(5, 0, 2, '系统模板05', 'eyJwYWdlIjp7InR5cGUiOiIyIiwidGl0bGUiOiJcdTMwMTBcdTZhMjFcdTY3N2ZcdTMwMTFcdTdjZmJcdTdlZGZcdTZhMjFcdTY3N2YwNSIsIm5hbWUiOiJcdTMwMTBcdTZhMjFcdTY3N2ZcdTMwMTFcdTdjZmJcdTdlZGZcdTZhMjFcdTY3N2YwNSIsImRlc2MiOiIiLCJpY29uIjoiIiwia2V5d29yZCI6InQ1IiwiYmFja2dyb3VuZCI6IiNmYWZhZmEiLCJkaXltZW51IjoiLTEifSwiaXRlbXMiOnsiTTE0NjU4MTA3NTE4MDciOnsic3R5bGUiOnsiZG90c3R5bGUiOiJyb3VuZCIsImRvdGFsaWduIjoibGVmdCIsImJhY2tncm91bmQiOiIjZmZmZmZmIiwibGVmdHJpZ2h0IjoiMTAiLCJib3R0b20iOiIxMCIsIm9wYWNpdHkiOiIwLjcifSwiZGF0YSI6eyJDMTQ2NTgxMDc1MTgwNyI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0NVwvYmFubmVyXzEuanBnIiwibGlua3VybCI6IiJ9LCJDMTQ2NTgxMDc1MTgwOCI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0NVwvYmFubmVyXzIuanBnIiwibGlua3VybCI6IiJ9LCJNMTQ2NTgxMDc2NjQ4NiI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0NVwvYmFubmVyXzMuanBnIiwibGlua3VybCI6IiJ9fSwiaWQiOiJiYW5uZXIifSwiTTE0NjU4MTA5NzA0OTQiOnsic3R5bGUiOnsibmF2c3R5bGUiOiIiLCJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsInJvd251bSI6IjQifSwiZGF0YSI6eyJDMTQ2NTgxMDk3MDQ5NCI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0NVwvbWVudV8xLnBuZyIsImxpbmt1cmwiOiIiLCJ0ZXh0IjoiSE9NRSIsImNvbG9yIjoiIzY2NjY2NiJ9LCJDMTQ2NTgxMDk3MDQ5NSI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0NVwvbWVudV8yLnBuZyIsImxpbmt1cmwiOiIiLCJ0ZXh0IjoiTkVXIiwiY29sb3IiOiIjNjY2NjY2In0sIkMxNDY1ODEwOTcwNDk2Ijp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQ1XC9tZW51XzMucG5nIiwibGlua3VybCI6IiIsInRleHQiOiJIT1QiLCJjb2xvciI6IiM2NjY2NjYifSwiQzE0NjU4MTA5NzA0OTciOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDVcL21lbnVfNC5wbmciLCJsaW5rdXJsIjoiIiwidGV4dCI6IkxJU1QiLCJjb2xvciI6IiM2NjY2NjYifX0sImlkIjoibWVudSJ9LCJNMTQ2NTgxMTA5OTI0MCI6eyJwYXJhbXMiOnsicm93IjoiMyJ9LCJkYXRhIjp7IkMxNDY1ODExMDk5MjQwIjp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQ1XC9waWN0dXJld18xLmpwZyIsImxpbmt1cmwiOiIifSwiQzE0NjU4MTEwOTkyNDEiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDVcL3BpY3R1cmV3XzQuanBnIiwibGlua3VybCI6IiJ9LCJDMTQ2NTgxMTA5OTI0MyI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0NVwvcGljdHVyZXdfMS5qcGciLCJsaW5rdXJsIjoiIn19LCJpZCI6InBpY3R1cmV3Iiwic3R5bGUiOnsiYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJwYWRkaW5ndG9wIjoiNSIsInBhZGRpbmdsZWZ0IjoiNSJ9fSwiTTE0NjU4MTIzOTAxNzQiOnsicGFyYW1zIjp7InJvdyI6IjIifSwiZGF0YSI6eyJDMTQ2NTgxMjM5MDE3NSI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0NVwvcGljdHVyZXdfMy5qcGciLCJsaW5rdXJsIjoiIn0sIkMxNDY1ODEyMzkwMTc2Ijp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQ1XC9waWN0dXJld18zLmpwZyIsImxpbmt1cmwiOiIifX0sImlkIjoicGljdHVyZXciLCJzdHlsZSI6eyJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsInBhZGRpbmd0b3AiOiIwIiwicGFkZGluZ2xlZnQiOiI1In19LCJNMTQ2NTg3MjQ4NTQ4NiI6eyJzdHlsZSI6eyJoZWlnaHQiOiIxMCIsImJhY2tncm91bmQiOiIjZmFmYWZhIn0sImlkIjoiYmxhbmsifSwiTTE0NjU4MTExNzQ5NTgiOnsiZGF0YSI6eyJDMTQ2NTgxMTE3NDk1OSI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0NVwvcGljdHVyZV8xLmpwZyIsImxpbmt1cmwiOiIifX0sImlkIjoicGljdHVyZSIsInN0eWxlIjp7InBhZGRpbmd0b3AiOiIwIiwicGFkZGluZ2xlZnQiOiIwIn19LCJNMTQ2NTgxMjQxMTM4MSI6eyJwYXJhbXMiOnsic2hvd3RpdGxlIjoiMSIsInNob3dwcmljZSI6IjEiLCJnb29kc2RhdGEiOiIwIiwiY2F0ZWlkIjoiIiwiY2F0ZW5hbWUiOiIiLCJncm91cGlkIjoiIiwiZ3JvdXBuYW1lIjoiIiwiZ29vZHNzb3J0IjoiMCIsImdvb2RzbnVtIjoiNiIsInNob3dpY29uIjoiMSIsImljb25wb3NpdGlvbiI6ImxlZnQgdG9wIn0sInN0eWxlIjp7Imxpc3RzdHlsZSI6ImJsb2NrIiwiYnV5c3R5bGUiOiJidXlidG4tMSIsImdvb2RzaWNvbiI6InJlY29tbWFuZCIsInByaWNlY29sb3IiOiIjZWQyODIyIiwiaWNvbnBhZGRpbmd0b3AiOiIwIiwiaWNvbnBhZGRpbmdsZWZ0IjoiMCIsImJ1eWJ0bmNvbG9yIjoiI2ZlNTQ1NSIsImljb256b29tIjoiMTAwIiwidGl0bGVjb2xvciI6IiMyNjI2MjYifSwiZGF0YSI6eyJDMTQ2NTgxMjQxMTM4MSI6eyJ0aHVtYiI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvaW1hZ2VzXC9kZWZhdWx0XC9nb29kcy0xLmpwZyIsInByaWNlIjoiMjAuMDAiLCJ0aXRsZSI6Ilx1OGZkOVx1OTFjY1x1NjYyZlx1NTU0Nlx1NTRjMVx1NjgwN1x1OTg5OCIsImdpZCI6IiJ9LCJDMTQ2NTgxMjQxMTM4MiI6eyJ0aHVtYiI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvaW1hZ2VzXC9kZWZhdWx0XC9nb29kcy0yLmpwZyIsInByaWNlIjoiMjAuMDAiLCJ0aXRsZSI6Ilx1OGZkOVx1OTFjY1x1NjYyZlx1NTU0Nlx1NTRjMVx1NjgwN1x1OTg5OCIsImdpZCI6IiJ9LCJDMTQ2NTgxMjQxMTM4MyI6eyJ0aHVtYiI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvaW1hZ2VzXC9kZWZhdWx0XC9nb29kcy0zLmpwZyIsInByaWNlIjoiMjAuMDAiLCJ0aXRsZSI6Ilx1OGZkOVx1OTFjY1x1NjYyZlx1NTU0Nlx1NTRjMVx1NjgwN1x1OTg5OCIsImdpZCI6IiJ9LCJDMTQ2NTgxMjQxMTM4NCI6eyJ0aHVtYiI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvaW1hZ2VzXC9kZWZhdWx0XC9nb29kcy00LmpwZyIsInByaWNlIjoiMjAuMDAiLCJ0aXRsZSI6Ilx1OGZkOVx1OTFjY1x1NjYyZlx1NTU0Nlx1NTRjMVx1NjgwN1x1OTg5OCIsImdpZCI6IiJ9fSwiaWQiOiJnb29kcyJ9LCJNMTQ2NTgxMjQ2Njg5MyI6eyJwYXJhbXMiOnsiY29udGVudCI6IlBIQWdjM1I1YkdVOUluUmxlSFF0WVd4cFoyNDZJR05sYm5SbGNqc2lQanhpY2k4K1BDOXdQanh3SUhOMGVXeGxQU0owWlhoMExXRnNhV2R1T2lCalpXNTBaWEk3SWo3a3U2WGt1SXJsbTc3bmlZZmxuWWZtbmFYbXVwRGt1bzdudlpIbnU1enZ2SXpuaVlqbW5ZUGx2WkxsanBcL2t2WnpvZ0lYbWlZRG1uSW5qZ0lJOEwzQStQSEErUEdKeUx6NDhMM0ErIn0sInN0eWxlIjp7ImJhY2tncm91bmQiOiIjZmZmZmZmIn0sImlkIjoicmljaHRleHQifX19', '../addons/ewei_shopv2/plugin/diypage/static/template/default5/preview.jpg', 5, 0, 0, 0),
+(6, 0, 1, '系统模板06', 'eyJwYWdlIjp7InR5cGUiOiIxIiwidGl0bGUiOiJcdTMwMTBcdTZhMjFcdTY3N2ZcdTMwMTFcdTdjZmJcdTdlZGZcdTZhMjFcdTY3N2YwNiIsIm5hbWUiOiJcdTMwMTBcdTZhMjFcdTY3N2ZcdTMwMTFcdTdjZmJcdTdlZGZcdTZhMjFcdTY3N2YwNiIsImRlc2MiOiIiLCJpY29uIjoiIiwia2V5d29yZCI6IiIsImJhY2tncm91bmQiOiIjZmFmYWZhIiwiZGl5bWVudSI6Ii0xIn0sIml0ZW1zIjp7Ik0xNDY1ODEyNjAyOTMzIjp7ImRhdGEiOnsiQzE0NjU4MTI2MDI5MzMiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDZcL3BpY3R1cmVfMS5qcGciLCJsaW5rdXJsIjoiIn0sIkMxNDY1ODEyNjAyOTM0Ijp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQ2XC9waWN0dXJlXzIuanBnIiwibGlua3VybCI6IiJ9LCJNMTQ2NTgxMjYwNDQ5NCI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0NlwvcGljdHVyZV8zLmpwZyIsImxpbmt1cmwiOiIifSwiTTE0NjU4MTI2MDUyNDUiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDZcL3BpY3R1cmVfNC5qcGciLCJsaW5rdXJsIjoiIn0sIk0xNDY1ODEyNjA1OTgwIjp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQ2XC9waWN0dXJlXzUuanBnIiwibGlua3VybCI6IiJ9LCJNMTQ2NTgxMjYwNzA0NSI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0NlwvcGljdHVyZV82LmpwZyIsImxpbmt1cmwiOiIifX0sImlkIjoicGljdHVyZSIsInN0eWxlIjp7InBhZGRpbmd0b3AiOiIwIiwicGFkZGluZ2xlZnQiOiIwIn19LCJNMTQ2NTg5MDE4NDY1MCI6eyJwYXJhbXMiOnsiY29udGVudCI6IlBIQWdjM1I1YkdVOUluUmxlSFF0WVd4cFoyNDZJR05sYm5SbGNqc2lQdVdidnVlSmgrYWRwZWE2a09TNmp1ZTlrZWU3bk8rOGpPZUppT2FkZytXOWt1V09uK1M5bk9pQWhlYUpnT2FjaVR3dmNEND0ifSwic3R5bGUiOnsiYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJwYWRkaW5nIjoiMjAifSwiaWQiOiJyaWNodGV4dCJ9fX0=', '../addons/ewei_shopv2/plugin/diypage/static/template/default6/preview.jpg', 6, 0, 0, 0),
+(7, 0, 2, '系统模板07', 'eyJwYWdlIjp7InR5cGUiOiIyIiwidGl0bGUiOiJcdTMwMTBcdTZhMjFcdTY3N2ZcdTMwMTFcdTdjZmJcdTdlZGZcdTZhMjFcdTY3N2YwNyIsIm5hbWUiOiJcdTMwMTBcdTZhMjFcdTY3N2ZcdTMwMTFcdTdjZmJcdTdlZGZcdTZhMjFcdTY3N2YwNyIsImRlc2MiOiIiLCJpY29uIjoiIiwia2V5d29yZCI6IiIsImJhY2tncm91bmQiOiIjZmFmYWZhIiwiZGl5bWVudSI6Ii0xIn0sIml0ZW1zIjp7Ik0xNDY1ODEyNjkxMzg5Ijp7ImRhdGEiOnsiQzE0NjU4MTI2OTEzODkiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDdcL3BpY3R1cmVfMS5qcGciLCJsaW5rdXJsIjoiIn19LCJpZCI6InBpY3R1cmUiLCJzdHlsZSI6eyJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsInBhZGRpbmd0b3AiOiIwIiwicGFkZGluZ2xlZnQiOiIwIn19LCJNMTQ2NTgxMjcyODgyMSI6eyJwYXJhbXMiOnsicGxhY2Vob2xkZXIiOiJcdThiZjdcdThmOTNcdTUxNjVcdTUxNzNcdTk1MmVcdTViNTdcdThmZGJcdTg4NGNcdTY0MWNcdTdkMjIifSwic3R5bGUiOnsiaW5wdXRiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsImJhY2tncm91bmQiOiIjZjFmMWYyIiwiaWNvbmNvbG9yIjoiI2I0YjRiNCIsImNvbG9yIjoiIzk5OTk5OSIsInBhZGRpbmd0b3AiOiIxMCIsInBhZGRpbmdsZWZ0IjoiMTAiLCJ0ZXh0YWxpZ24iOiJsZWZ0Iiwic2VhcmNoc3R5bGUiOiIifSwiaWQiOiJzZWFyY2gifSwiTTE0NjU4MTI3MzkxOTciOnsicGFyYW1zIjp7InJvdyI6IjMifSwiZGF0YSI6eyJDMTQ2NTgxMjczOTE5NyI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0N1wvcGljdHVyZXdfMS5qcGciLCJsaW5rdXJsIjoiIn0sIkMxNDY1ODEyNzM5MTk4Ijp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQ3XC9waWN0dXJld18yLmpwZyIsImxpbmt1cmwiOiIifSwiQzE0NjU4MTI3MzkxOTkiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDdcL3BpY3R1cmV3XzMuanBnIiwibGlua3VybCI6IiJ9fSwiaWQiOiJwaWN0dXJldyIsInN0eWxlIjp7ImJhY2tncm91bmQiOiIjZmZmZmZmIiwicGFkZGluZ3RvcCI6IjAiLCJwYWRkaW5nbGVmdCI6IjUifX0sIk0xNDY1ODEyNzg0NTY1Ijp7ImRhdGEiOnsiQzE0NjU4MTI3ODQ1NjUiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDdcL3BpY3R1cmVfMy5qcGciLCJsaW5rdXJsIjoiIn0sIk0xNDY1ODEyODE5OTQ4Ijp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQ3XC9waWN0dXJlXzIuanBnIiwibGlua3VybCI6IiJ9fSwiaWQiOiJwaWN0dXJlIiwic3R5bGUiOnsiYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJwYWRkaW5ndG9wIjoiNCIsInBhZGRpbmdsZWZ0IjoiMCJ9fSwiTTE0NjU4MTI4NzU5ODgiOnsicGFyYW1zIjp7InJvdyI6IjIifSwiZGF0YSI6eyJDMTQ2NTgxMjg3NTk4OCI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0N1wvcGljdHVyZXdfNC5qcGciLCJsaW5rdXJsIjoiIn0sIkMxNDY1ODEyODc1OTg5Ijp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQ3XC9waWN0dXJld181LmpwZyIsImxpbmt1cmwiOiIifSwiQzE0NjU4MTI4NzU5OTAiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDdcL3BpY3R1cmV3XzYuanBnIiwibGlua3VybCI6IiJ9LCJDMTQ2NTgxMjg3NTk5MSI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0N1wvcGljdHVyZXdfNy5qcGciLCJsaW5rdXJsIjoiIn19LCJpZCI6InBpY3R1cmV3Iiwic3R5bGUiOnsiYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJwYWRkaW5ndG9wIjoiMCIsInBhZGRpbmdsZWZ0IjoiMCJ9fSwiTTE0NjU4NzI4OTQxMjAiOnsic3R5bGUiOnsiaGVpZ2h0IjoiMTAiLCJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiJ9LCJpZCI6ImJsYW5rIn0sIk0xNDY1ODcyODMyODk1Ijp7InBhcmFtcyI6eyJ0aXRsZSI6Ilx1NzBlZFx1OTUwMFx1NTU0Nlx1NTRjMSIsImljb24iOiIifSwic3R5bGUiOnsiYmFja2dyb3VuZCI6IiNmMjMyNGMiLCJjb2xvciI6IiNmZmZmZmYiLCJ0ZXh0YWxpZ24iOiJjZW50ZXIiLCJmb250c2l6ZSI6IjE4IiwicGFkZGluZ3RvcCI6IjUiLCJwYWRkaW5nbGVmdCI6IjUifSwiaWQiOiJ0aXRsZSJ9LCJNMTQ2NTgxMjkwNDA1MyI6eyJwYXJhbXMiOnsic2hvd3RpdGxlIjoiMSIsInNob3dwcmljZSI6IjEiLCJnb29kc2RhdGEiOiIwIiwiY2F0ZWlkIjoiIiwiY2F0ZW5hbWUiOiIiLCJncm91cGlkIjoiIiwiZ3JvdXBuYW1lIjoiIiwiZ29vZHNzb3J0IjoiMCIsImdvb2RzbnVtIjoiNiIsInNob3dpY29uIjoiMSIsImljb25wb3NpdGlvbiI6ImxlZnQgdG9wIn0sInN0eWxlIjp7Imxpc3RzdHlsZSI6ImJsb2NrIiwiYnV5c3R5bGUiOiJidXlidG4tMSIsImdvb2RzaWNvbiI6InJlY29tbWFuZCIsInByaWNlY29sb3IiOiIjZWQyODIyIiwiaWNvbnBhZGRpbmd0b3AiOiIwIiwiaWNvbnBhZGRpbmdsZWZ0IjoiMCIsImJ1eWJ0bmNvbG9yIjoiI2ZlNTQ1NSIsImljb256b29tIjoiMTAwIiwidGl0bGVjb2xvciI6IiMyNjI2MjYifSwiZGF0YSI6eyJDMTQ2NTgxMjkwNDA1MyI6eyJ0aHVtYiI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvaW1hZ2VzXC9kZWZhdWx0XC9nb29kcy0xLmpwZyIsInByaWNlIjoiMjAuMDAiLCJ0aXRsZSI6Ilx1OGZkOVx1OTFjY1x1NjYyZlx1NTU0Nlx1NTRjMVx1NjgwN1x1OTg5OCIsImdpZCI6IiJ9LCJDMTQ2NTgxMjkwNDA1NCI6eyJ0aHVtYiI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvaW1hZ2VzXC9kZWZhdWx0XC9nb29kcy0yLmpwZyIsInByaWNlIjoiMjAuMDAiLCJ0aXRsZSI6Ilx1OGZkOVx1OTFjY1x1NjYyZlx1NTU0Nlx1NTRjMVx1NjgwN1x1OTg5OCIsImdpZCI6IiJ9LCJDMTQ2NTgxMjkwNDA1NSI6eyJ0aHVtYiI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvaW1hZ2VzXC9kZWZhdWx0XC9nb29kcy0zLmpwZyIsInByaWNlIjoiMjAuMDAiLCJ0aXRsZSI6Ilx1OGZkOVx1OTFjY1x1NjYyZlx1NTU0Nlx1NTRjMVx1NjgwN1x1OTg5OCIsImdpZCI6IiJ9LCJDMTQ2NTgxMjkwNDA1NiI6eyJ0aHVtYiI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvaW1hZ2VzXC9kZWZhdWx0XC9nb29kcy00LmpwZyIsInByaWNlIjoiMjAuMDAiLCJ0aXRsZSI6Ilx1OGZkOVx1OTFjY1x1NjYyZlx1NTU0Nlx1NTRjMVx1NjgwN1x1OTg5OCIsImdpZCI6IiJ9fSwiaWQiOiJnb29kcyJ9LCJNMTQ2NTg4ODU1MjYwNiI6eyJwYXJhbXMiOnsiY29udGVudCI6IlBIQWdjM1I1YkdVOUluUmxlSFF0WVd4cFoyNDZJR05sYm5SbGNqc2lQdVdidnVlSmgrYWRwZWE2a09TNmp1ZTlrZWU3bk8rOGpPZUppT2FkZytXOWt1V09uK1M5bk9pQWhlYUpnT2FjaVR3dmNEND0ifSwic3R5bGUiOnsiYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJwYWRkaW5nIjoiMjAifSwiaWQiOiJyaWNodGV4dCJ9fX0=', '../addons/ewei_shopv2/plugin/diypage/static/template/default7/preview.jpg', 7, 0, 0, 0),
+(8, 0, 2, '系统模板08', 'eyJwYWdlIjp7InR5cGUiOiIyIiwidGl0bGUiOiJcdTMwMTBcdTZhMjFcdTY3N2ZcdTMwMTFcdTdjZmJcdTdlZGZcdTZhMjFcdTY3N2YwOCIsIm5hbWUiOiJcdTMwMTBcdTZhMjFcdTY3N2ZcdTMwMTFcdTdjZmJcdTdlZGZcdTZhMjFcdTY3N2YwOCIsImRlc2MiOiIiLCJpY29uIjoiIiwia2V5d29yZCI6IiIsImJhY2tncm91bmQiOiIjZmFmYWZhIiwiZGl5bWVudSI6Ii0xIn0sIml0ZW1zIjp7Ik0xNDY1ODEyOTk3MDQ1Ijp7ImRhdGEiOnsiQzE0NjU4MTI5OTcwNDUiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDhcL3BpY3R1cmVfMS5qcGciLCJsaW5rdXJsIjoiIn19LCJpZCI6InBpY3R1cmUiLCJzdHlsZSI6eyJwYWRkaW5ndG9wIjoiMCIsInBhZGRpbmdsZWZ0IjoiMCJ9fSwiTTE0NjU4MTMwMTc1NDkiOnsicGFyYW1zIjp7InJvdyI6IjMifSwiZGF0YSI6eyJDMTQ2NTgxMzAxNzU1MCI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0OFwvcGljdHVyZXdfMS5qcGciLCJsaW5rdXJsIjoiIn0sIkMxNDY1ODEzMDE3NTUxIjp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQ4XC9waWN0dXJld18yLmpwZyIsImxpbmt1cmwiOiIifSwiQzE0NjU4MTMwMTc1NTIiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDhcL3BpY3R1cmV3XzMuanBnIiwibGlua3VybCI6IiJ9fSwiaWQiOiJwaWN0dXJldyIsInN0eWxlIjp7ImJhY2tncm91bmQiOiIjZmZmZmZmIiwicGFkZGluZ3RvcCI6IjAiLCJwYWRkaW5nbGVmdCI6IjAifX0sIk0xNDY1ODEzMDQyODc2Ijp7ImRhdGEiOnsiQzE0NjU4MTMwNDI4NzYiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDhcL3BpY3R1cmVfMi5qcGciLCJsaW5rdXJsIjoiIn0sIkMxNDY1ODEzMDQyODc3Ijp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQ4XC9waWN0dXJlXzMuanBnIiwibGlua3VybCI6IiJ9fSwiaWQiOiJwaWN0dXJlIiwic3R5bGUiOnsicGFkZGluZ3RvcCI6IjAiLCJwYWRkaW5nbGVmdCI6IjAifX0sIk0xNDY1ODEzMDg4ODA0Ijp7InBhcmFtcyI6eyJyb3ciOiI0In0sImRhdGEiOnsiQzE0NjU4MTMwODg4MDQiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDhcL3BpY3R1cmV3XzQuanBnIiwibGlua3VybCI6IiJ9LCJDMTQ2NTgxMzA4ODgwNSI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0OFwvcGljdHVyZXdfNS5qcGciLCJsaW5rdXJsIjoiIn0sIkMxNDY1ODEzMDg4ODA2Ijp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQ4XC9waWN0dXJld182LmpwZyIsImxpbmt1cmwiOiIifSwiQzE0NjU4MTMwODg4MDciOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDhcL3BpY3R1cmV3XzcuanBnIiwibGlua3VybCI6IiJ9fSwiaWQiOiJwaWN0dXJldyIsInN0eWxlIjp7ImJhY2tncm91bmQiOiIjZmZmZmZmIiwicGFkZGluZ3RvcCI6IjAiLCJwYWRkaW5nbGVmdCI6IjAifX0sIk0xNDY1ODEzMTMxMzgwIjp7InBhcmFtcyI6eyJzaG93dGl0bGUiOiIxIiwic2hvd3ByaWNlIjoiMSIsImdvb2RzZGF0YSI6IjAiLCJjYXRlaWQiOiIiLCJjYXRlbmFtZSI6IiIsImdyb3VwaWQiOiIiLCJncm91cG5hbWUiOiIiLCJnb29kc3NvcnQiOiIwIiwiZ29vZHNudW0iOiI2Iiwic2hvd2ljb24iOiIxIiwiaWNvbnBvc2l0aW9uIjoibGVmdCB0b3AifSwic3R5bGUiOnsibGlzdHN0eWxlIjoiYmxvY2siLCJidXlzdHlsZSI6ImJ1eWJ0bi0xIiwiZ29vZHNpY29uIjoicmVjb21tYW5kIiwicHJpY2Vjb2xvciI6IiNlZDI4MjIiLCJpY29ucGFkZGluZ3RvcCI6IjAiLCJpY29ucGFkZGluZ2xlZnQiOiIwIiwiYnV5YnRuY29sb3IiOiIjZmU1NDU1IiwiaWNvbnpvb20iOiIxMDAiLCJ0aXRsZWNvbG9yIjoiIzI2MjYyNiJ9LCJkYXRhIjp7IkMxNDY1ODEzMTMxMzgwIjp7InRodW1iIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC9pbWFnZXNcL2RlZmF1bHRcL2dvb2RzLTEuanBnIiwicHJpY2UiOiIyMC4wMCIsInRpdGxlIjoiXHU4ZmQ5XHU5MWNjXHU2NjJmXHU1NTQ2XHU1NGMxXHU2ODA3XHU5ODk4IiwiZ2lkIjoiIn0sIkMxNDY1ODEzMTMxMzgxIjp7InRodW1iIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC9pbWFnZXNcL2RlZmF1bHRcL2dvb2RzLTIuanBnIiwicHJpY2UiOiIyMC4wMCIsInRpdGxlIjoiXHU4ZmQ5XHU5MWNjXHU2NjJmXHU1NTQ2XHU1NGMxXHU2ODA3XHU5ODk4IiwiZ2lkIjoiIn0sIkMxNDY1ODEzMTMxMzgyIjp7InRodW1iIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC9pbWFnZXNcL2RlZmF1bHRcL2dvb2RzLTMuanBnIiwicHJpY2UiOiIyMC4wMCIsInRpdGxlIjoiXHU4ZmQ5XHU5MWNjXHU2NjJmXHU1NTQ2XHU1NGMxXHU2ODA3XHU5ODk4IiwiZ2lkIjoiIn0sIkMxNDY1ODEzMTMxMzgzIjp7InRodW1iIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC9pbWFnZXNcL2RlZmF1bHRcL2dvb2RzLTQuanBnIiwicHJpY2UiOiIyMC4wMCIsInRpdGxlIjoiXHU4ZmQ5XHU5MWNjXHU2NjJmXHU1NTQ2XHU1NGMxXHU2ODA3XHU5ODk4IiwiZ2lkIjoiIn19LCJpZCI6Imdvb2RzIn0sIk0xNDY1ODg4ODMxMjc4Ijp7InBhcmFtcyI6eyJjb250ZW50IjoiUEhBZ2MzUjViR1U5SW5SbGVIUXRZV3hwWjI0NklHTmxiblJsY2pzaVB1V2J2dWVKaCthZHBlYTZrT1M2anVlOWtlZTduTys4ak9lSmlPYWRnK1c5a3VXT24rUzluT2lBaGVhSmdPYWNpVHd2Y0Q0PSJ9LCJzdHlsZSI6eyJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsInBhZGRpbmciOiIyMCJ9LCJpZCI6InJpY2h0ZXh0In19fQ==', '../addons/ewei_shopv2/plugin/diypage/static/template/default8/preview.jpg', 8, 0, 0, 0),
+(9, 63, 2, 'king', 'eyJwYWdlIjp7InR5cGUiOiIyIiwidGl0bGUiOiJcdTMwMTBcdTZhMjFcdTY3N2ZcdTMwMTFcdTdjZmJcdTdlZGZcdTZhMjFcdTY3N2YwNSIsIm5hbWUiOiJcdTMwMTBcdTZhMjFcdTY3N2ZcdTMwMTFcdTdjZmJcdTdlZGZcdTZhMjFcdTY3N2YwNSIsImRlc2MiOiIiLCJpY29uIjoiIiwia2V5d29yZCI6IiIsImJhY2tncm91bmQiOiIjZmFmYWZhIiwiZGl5bWVudSI6Ii0xIn0sIml0ZW1zIjp7Ik0xNDY1ODEwNzUxODA3Ijp7InN0eWxlIjp7ImRvdHN0eWxlIjoicm91bmQiLCJkb3RhbGlnbiI6ImxlZnQiLCJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsImxlZnRyaWdodCI6IjEwIiwiYm90dG9tIjoiMTAiLCJvcGFjaXR5IjoiMC43In0sImRhdGEiOnsiQzE0NjU4MTA3NTE4MDciOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDVcL2Jhbm5lcl8xLmpwZyIsImxpbmt1cmwiOiIifSwiQzE0NjU4MTA3NTE4MDgiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDVcL2Jhbm5lcl8yLmpwZyIsImxpbmt1cmwiOiIifSwiTTE0NjU4MTA3NjY0ODYiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDVcL2Jhbm5lcl8zLmpwZyIsImxpbmt1cmwiOiIifX0sImlkIjoiYmFubmVyIn0sIk0xNDY1ODEwOTcwNDk0Ijp7InN0eWxlIjp7Im5hdnN0eWxlIjoiIiwiYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJyb3dudW0iOiI0In0sImRhdGEiOnsiQzE0NjU4MTA5NzA0OTQiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDVcL21lbnVfMS5wbmciLCJsaW5rdXJsIjoiIiwidGV4dCI6IkhPTUUiLCJjb2xvciI6IiM2NjY2NjYifSwiQzE0NjU4MTA5NzA0OTUiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDVcL21lbnVfMi5wbmciLCJsaW5rdXJsIjoiIiwidGV4dCI6Ik5FVyIsImNvbG9yIjoiIzY2NjY2NiJ9LCJDMTQ2NTgxMDk3MDQ5NiI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0NVwvbWVudV8zLnBuZyIsImxpbmt1cmwiOiIiLCJ0ZXh0IjoiSE9UIiwiY29sb3IiOiIjNjY2NjY2In0sIkMxNDY1ODEwOTcwNDk3Ijp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQ1XC9tZW51XzQucG5nIiwibGlua3VybCI6IiIsInRleHQiOiJMSVNUIiwiY29sb3IiOiIjNjY2NjY2In19LCJpZCI6Im1lbnUifSwiTTE0NjY2ODk0NjEzMDkiOnsicGFyYW1zIjp7InBsYWNlaG9sZGVyIjoiXHU4YmY3XHU4ZjkzXHU1MTY1XHU1MTczXHU5NTJlXHU1YjU3XHU4ZmRiXHU4ODRjXHU2NDFjXHU3ZDIyIn0sInN0eWxlIjp7ImlucHV0YmFja2dyb3VuZCI6IiNmZmZmZmYiLCJiYWNrZ3JvdW5kIjoiI2YxZjFmMiIsImljb25jb2xvciI6IiNiNGI0YjQiLCJjb2xvciI6IiM5OTk5OTkiLCJwYWRkaW5ndG9wIjoiMTAiLCJwYWRkaW5nbGVmdCI6IjEwIiwidGV4dGFsaWduIjoibGVmdCIsInNlYXJjaHN0eWxlIjoiIn0sImlkIjoic2VhcmNoIn0sIk0xNDY2Njg5Mzk5MDI4Ijp7InBhcmFtcyI6eyJpY29udXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC9pbWFnZXNcL2RlZmF1bHRcL2hvdGRvdC5qcGciLCJub3RpY2VkYXRhIjoiMCIsInNwZWVkIjoiNCIsIm5vdGljZW51bSI6IjUifSwic3R5bGUiOnsiYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJpY29uY29sb3IiOiIjZmQ1NDU0IiwiY29sb3IiOiIjNjY2NjY2In0sImRhdGEiOnsiQzE0NjY2ODkzOTkwMjgiOnsidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTdiMmNcdTRlMDBcdTY3NjFcdTgxZWFcdTViOWFcdTRlNDlcdTUxNmNcdTU0NGFcdTc2ODRcdTY4MDdcdTk4OTgiLCJsaW5rdXJsIjoiIn0sIkMxNDY2Njg5Mzk5MDI5Ijp7InRpdGxlIjoiXHU4ZmQ5XHU5MWNjXHU2NjJmXHU3YjJjXHU0ZThjXHU2NzYxXHU4MWVhXHU1YjlhXHU0ZTQ5XHU1MTZjXHU1NDRhXHU3Njg0XHU2ODA3XHU5ODk4IiwibGlua3VybCI6IiJ9fSwiaWQiOiJub3RpY2UifSwiTTE0NjU4MTEwOTkyNDAiOnsicGFyYW1zIjp7InJvdyI6IjMifSwiZGF0YSI6eyJDMTQ2NTgxMTA5OTI0MCI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0NVwvcGljdHVyZXdfMS5qcGciLCJsaW5rdXJsIjoiIn0sIkMxNDY1ODExMDk5MjQxIjp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQ1XC9waWN0dXJld180LmpwZyIsImxpbmt1cmwiOiIifSwiQzE0NjU4MTEwOTkyNDMiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDVcL3BpY3R1cmV3XzEuanBnIiwibGlua3VybCI6IiJ9fSwiaWQiOiJwaWN0dXJldyIsInN0eWxlIjp7ImJhY2tncm91bmQiOiIjZmZmZmZmIiwicGFkZGluZ3RvcCI6IjUiLCJwYWRkaW5nbGVmdCI6IjUifX0sIk0xNDY1ODEyMzkwMTc0Ijp7InBhcmFtcyI6eyJyb3ciOiIyIn0sImRhdGEiOnsiQzE0NjU4MTIzOTAxNzUiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDVcL3BpY3R1cmV3XzMuanBnIiwibGlua3VybCI6IiJ9LCJDMTQ2NTgxMjM5MDE3NiI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0NVwvcGljdHVyZXdfMy5qcGciLCJsaW5rdXJsIjoiIn19LCJpZCI6InBpY3R1cmV3Iiwic3R5bGUiOnsiYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJwYWRkaW5ndG9wIjoiMCIsInBhZGRpbmdsZWZ0IjoiNSJ9fSwiTTE0NjU4NzI0ODU0ODYiOnsic3R5bGUiOnsiaGVpZ2h0IjoiMTAiLCJiYWNrZ3JvdW5kIjoiI2ZhZmFmYSJ9LCJpZCI6ImJsYW5rIn0sIk0xNDY1ODExMTc0OTU4Ijp7ImRhdGEiOnsiQzE0NjU4MTExNzQ5NTkiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDVcL3BpY3R1cmVfMS5qcGciLCJsaW5rdXJsIjoiIn19LCJpZCI6InBpY3R1cmUiLCJzdHlsZSI6eyJwYWRkaW5ndG9wIjoiMCIsInBhZGRpbmdsZWZ0IjoiMCJ9fSwiTTE0NjU4MTI0MTEzODEiOnsicGFyYW1zIjp7InNob3d0aXRsZSI6IjEiLCJzaG93cHJpY2UiOiIxIiwiZ29vZHNkYXRhIjoiMCIsImNhdGVpZCI6IiIsImNhdGVuYW1lIjoiIiwiZ3JvdXBpZCI6IiIsImdyb3VwbmFtZSI6IiIsImdvb2Rzc29ydCI6IjAiLCJnb29kc251bSI6IjYiLCJzaG93aWNvbiI6IjEiLCJpY29ucG9zaXRpb24iOiJsZWZ0IHRvcCJ9LCJzdHlsZSI6eyJsaXN0c3R5bGUiOiJibG9jayIsImJ1eXN0eWxlIjoiYnV5YnRuLTEiLCJnb29kc2ljb24iOiJyZWNvbW1hbmQiLCJwcmljZWNvbG9yIjoiI2VkMjgyMiIsImljb25wYWRkaW5ndG9wIjoiMCIsImljb25wYWRkaW5nbGVmdCI6IjAiLCJidXlidG5jb2xvciI6IiNmZTU0NTUiLCJpY29uem9vbSI6IjEwMCIsInRpdGxlY29sb3IiOiIjMjYyNjI2In0sImRhdGEiOnsiQzE0NjU4MTI0MTEzODEiOnsidGh1bWIiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvZ29vZHMtMS5qcGciLCJwcmljZSI6IjIwLjAwIiwidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTU1NDZcdTU0YzFcdTY4MDdcdTk4OTgiLCJnaWQiOiIifSwiQzE0NjU4MTI0MTEzODIiOnsidGh1bWIiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvZ29vZHMtMi5qcGciLCJwcmljZSI6IjIwLjAwIiwidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTU1NDZcdTU0YzFcdTY4MDdcdTk4OTgiLCJnaWQiOiIifSwiQzE0NjU4MTI0MTEzODMiOnsidGh1bWIiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvZ29vZHMtMy5qcGciLCJwcmljZSI6IjIwLjAwIiwidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTU1NDZcdTU0YzFcdTY4MDdcdTk4OTgiLCJnaWQiOiIifSwiQzE0NjU4MTI0MTEzODQiOnsidGh1bWIiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvZ29vZHMtNC5qcGciLCJwcmljZSI6IjIwLjAwIiwidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTU1NDZcdTU0YzFcdTY4MDdcdTk4OTgiLCJnaWQiOiIifX0sImlkIjoiZ29vZHMifSwiTTE0NjU4MTI0NjY4OTMiOnsicGFyYW1zIjp7ImNvbnRlbnQiOiJQSEFnYzNSNWJHVTlJblJsZUhRdFlXeHBaMjQ2SUdObGJuUmxjanNpUGp4aWNpOCtQQzl3UGp4d0lITjBlV3hsUFNKMFpYaDBMV0ZzYVdkdU9pQmpaVzUwWlhJN0lqN2t1NlhrdUlybG03N25pWWZsbllmbW5hWG11cERrdW83bnZaSG51NXp2dkl6bmlZam1uWVBsdlpMbGpwXC9rdlp6b2dJWG1pWURtbkluamdJSThMM0ErUEhBK1BHSnlMejQ4TDNBKyJ9LCJzdHlsZSI6eyJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiJ9LCJpZCI6InJpY2h0ZXh0In19fQ==', 'images/63/2016/06/bYppGg0GGfhuWyGz0LfBGZF2ZM5zHb.png', 0, 0, 0, 0);
+INSERT INTO `ims_ewei_shop_diypage_template` (`id`, `uniacid`, `type`, `name`, `data`, `preview`, `tplid`, `cate`, `deleted`, `merch`) VALUES
+(10, 70, 2, '201609', 'eyJwYWdlIjp7InR5cGUiOiIyIiwidGl0bGUiOiJcdTMwMTBcdTZhMjFcdTY3N2ZcdTMwMTFcdTdjZmJcdTdlZGZcdTZhMjFcdTY3N2YwNSIsIm5hbWUiOiJcdTMwMTBcdTZhMjFcdTY3N2ZcdTMwMTFcdTdjZmJcdTdlZGZcdTZhMjFcdTY3N2YwNSIsImRlc2MiOiIiLCJpY29uIjoiIiwia2V5d29yZCI6IiIsImJhY2tncm91bmQiOiIjZmFmYWZhIiwiZGl5bWVudSI6Ii0xIn0sIml0ZW1zIjp7Ik0xNDY1ODEwNzUxODA3Ijp7InN0eWxlIjp7ImRvdHN0eWxlIjoicm91bmQiLCJkb3RhbGlnbiI6ImxlZnQiLCJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsImxlZnRyaWdodCI6IjEwIiwiYm90dG9tIjoiMTAiLCJvcGFjaXR5IjoiMC43In0sImRhdGEiOnsiQzE0NjU4MTA3NTE4MDciOnsiaW1ndXJsIjoiaW1hZ2VzXC83MFwvMjAxNlwvMDlcL2UyaHM1NTFFTGhWMjNtcWVzcWlWSzA1OTVrMWN6TC5qcGciLCJsaW5rdXJsIjoiaHR0cDpcL1wvd2VjaGF0LnBzY21zLmNuXC9hcHBcL2luZGV4LnBocD9pPTcwJmM9ZW50cnkmaWQ9OCZkbz1kZXRhaWwmbT1oeF96aG9uZ2Nob3UifSwiQzE0NjU4MTA3NTE4MDgiOnsiaW1ndXJsIjoiaW1hZ2VzXC83MFwvMjAxNlwvMDlcL1ZXMXEyeG56TDBxbGwwMGtWa1JlTmxFazFNQlp4NS5qcGciLCJsaW5rdXJsIjoiLlwvaW5kZXgucGhwP2k9NzAmYz1lbnRyeSZtPWV3ZWlfc2hvcHYyJmRvPW1vYmlsZSZyPWdyb3VwcyJ9LCJNMTQ2NTgxMDc2NjQ4NiI6eyJpbWd1cmwiOiJpbWFnZXNcLzcwXC8yMDE2XC8wOVwvSUE3VXBOMVZTUzBLOHUwZ0phdnVGMTEyMWtBMUExLmpwZyIsImxpbmt1cmwiOiJodHRwOlwvXC93ZWNoYXQucHNjbXMuY25cL2FwcFwvaW5kZXgucGhwP2k9NzAmYz1lbnRyeSZvcD1hZGQmZG89aW5kZXgmbT1qeV9vbmVfYWN0aXZpdHkmYWN2dGlkPTE3In0sIk0xNDczNDQ0MTk0MTc5Ijp7ImltZ3VybCI6ImltYWdlc1wvNzBcLzIwMTZcLzA5XC9YNDkxSGgzMkg0OTYxdXlaWTE5OU9ac29KMnMxeTkuanBnIiwibGlua3VybCI6Imh0dHA6XC9cL3dlY2hhdC5wc2Ntcy5jblwvYXBwXC9pbmRleC5waHA/aT03MCZjPWVudHJ5Jm09ZXdlaV9zaG9wdjImZG89bW9iaWxlJnI9Y3JlZGl0c2hvcCJ9fSwiaWQiOiJiYW5uZXIifSwiTTE0NjU4MTA5NzA0OTQiOnsic3R5bGUiOnsibmF2c3R5bGUiOiIiLCJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsInJvd251bSI6IjQifSwiZGF0YSI6eyJDMTQ2NTgxMDk3MDQ5NCI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0NVwvbWVudV8xLnBuZyIsImxpbmt1cmwiOiIiLCJ0ZXh0IjoiSE9NRSIsImNvbG9yIjoiIzY2NjY2NiJ9LCJDMTQ2NTgxMDk3MDQ5NSI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0NVwvbWVudV8yLnBuZyIsImxpbmt1cmwiOiIiLCJ0ZXh0IjoiTkVXIiwiY29sb3IiOiIjNjY2NjY2In0sIkMxNDY1ODEwOTcwNDk2Ijp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQ1XC9tZW51XzMucG5nIiwibGlua3VybCI6IiIsInRleHQiOiJIT1QiLCJjb2xvciI6IiM2NjY2NjYifSwiQzE0NjU4MTA5NzA0OTciOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDVcL21lbnVfNC5wbmciLCJsaW5rdXJsIjoiIiwidGV4dCI6IkxJU1QiLCJjb2xvciI6IiM2NjY2NjYifX0sImlkIjoibWVudSJ9LCJNMTQ2NTgxMTA5OTI0MCI6eyJwYXJhbXMiOnsicm93IjoiMyJ9LCJkYXRhIjp7IkMxNDY1ODExMDk5MjQwIjp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQ1XC9waWN0dXJld18xLmpwZyIsImxpbmt1cmwiOiIifSwiQzE0NjU4MTEwOTkyNDEiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC90ZW1wbGF0ZVwvZGVmYXVsdDVcL3BpY3R1cmV3XzQuanBnIiwibGlua3VybCI6IiJ9LCJDMTQ2NTgxMTA5OTI0MyI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0NVwvcGljdHVyZXdfMS5qcGciLCJsaW5rdXJsIjoiIn19LCJpZCI6InBpY3R1cmV3Iiwic3R5bGUiOnsiYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJwYWRkaW5ndG9wIjoiNSIsInBhZGRpbmdsZWZ0IjoiNSJ9fSwiTTE0NjU4MTIzOTAxNzQiOnsicGFyYW1zIjp7InJvdyI6IjIifSwiZGF0YSI6eyJDMTQ2NTgxMjM5MDE3NSI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0NVwvcGljdHVyZXdfMy5qcGciLCJsaW5rdXJsIjoiIn0sIkMxNDY1ODEyMzkwMTc2Ijp7ImltZ3VybCI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvdGVtcGxhdGVcL2RlZmF1bHQ1XC9waWN0dXJld18zLmpwZyIsImxpbmt1cmwiOiIifX0sImlkIjoicGljdHVyZXciLCJzdHlsZSI6eyJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsInBhZGRpbmd0b3AiOiIwIiwicGFkZGluZ2xlZnQiOiI1In19LCJNMTQ2NTg3MjQ4NTQ4NiI6eyJzdHlsZSI6eyJoZWlnaHQiOiIxMCIsImJhY2tncm91bmQiOiIjZmFmYWZhIn0sImlkIjoiYmxhbmsifSwiTTE0NjU4MTExNzQ5NTgiOnsiZGF0YSI6eyJDMTQ2NTgxMTE3NDk1OSI6eyJpbWd1cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL3RlbXBsYXRlXC9kZWZhdWx0NVwvcGljdHVyZV8xLmpwZyIsImxpbmt1cmwiOiIifX0sImlkIjoicGljdHVyZSIsInN0eWxlIjp7InBhZGRpbmd0b3AiOiIwIiwicGFkZGluZ2xlZnQiOiIwIn19LCJNMTQ2NTgxMjQxMTM4MSI6eyJwYXJhbXMiOnsic2hvd3RpdGxlIjoiMSIsInNob3dwcmljZSI6IjEiLCJnb29kc2RhdGEiOiIwIiwiY2F0ZWlkIjoiIiwiY2F0ZW5hbWUiOiIiLCJncm91cGlkIjoiIiwiZ3JvdXBuYW1lIjoiIiwiZ29vZHNzb3J0IjoiMCIsImdvb2RzbnVtIjoiNiIsInNob3dpY29uIjoiMSIsImljb25wb3NpdGlvbiI6ImxlZnQgdG9wIn0sInN0eWxlIjp7Imxpc3RzdHlsZSI6ImJsb2NrIiwiYnV5c3R5bGUiOiJidXlidG4tMSIsImdvb2RzaWNvbiI6InJlY29tbWFuZCIsInByaWNlY29sb3IiOiIjZWQyODIyIiwiaWNvbnBhZGRpbmd0b3AiOiIwIiwiaWNvbnBhZGRpbmdsZWZ0IjoiMCIsImJ1eWJ0bmNvbG9yIjoiI2ZlNTQ1NSIsImljb256b29tIjoiMTAwIiwidGl0bGVjb2xvciI6IiMyNjI2MjYifSwiZGF0YSI6eyJDMTQ2NTgxMjQxMTM4MSI6eyJ0aHVtYiI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvaW1hZ2VzXC9kZWZhdWx0XC9nb29kcy0xLmpwZyIsInByaWNlIjoiMjAuMDAiLCJ0aXRsZSI6Ilx1OGZkOVx1OTFjY1x1NjYyZlx1NTU0Nlx1NTRjMVx1NjgwN1x1OTg5OCIsImdpZCI6IiJ9LCJDMTQ2NTgxMjQxMTM4MiI6eyJ0aHVtYiI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvaW1hZ2VzXC9kZWZhdWx0XC9nb29kcy0yLmpwZyIsInByaWNlIjoiMjAuMDAiLCJ0aXRsZSI6Ilx1OGZkOVx1OTFjY1x1NjYyZlx1NTU0Nlx1NTRjMVx1NjgwN1x1OTg5OCIsImdpZCI6IiJ9LCJDMTQ2NTgxMjQxMTM4MyI6eyJ0aHVtYiI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvaW1hZ2VzXC9kZWZhdWx0XC9nb29kcy0zLmpwZyIsInByaWNlIjoiMjAuMDAiLCJ0aXRsZSI6Ilx1OGZkOVx1OTFjY1x1NjYyZlx1NTU0Nlx1NTRjMVx1NjgwN1x1OTg5OCIsImdpZCI6IiJ9LCJDMTQ2NTgxMjQxMTM4NCI6eyJ0aHVtYiI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvaW1hZ2VzXC9kZWZhdWx0XC9nb29kcy00LmpwZyIsInByaWNlIjoiMjAuMDAiLCJ0aXRsZSI6Ilx1OGZkOVx1OTFjY1x1NjYyZlx1NTU0Nlx1NTRjMVx1NjgwN1x1OTg5OCIsImdpZCI6IiJ9fSwiaWQiOiJnb29kcyJ9LCJNMTQ2NTgxMjQ2Njg5MyI6eyJwYXJhbXMiOnsiY29udGVudCI6IlBIQWdjM1I1YkdVOUluUmxlSFF0WVd4cFoyNDZJR05sYm5SbGNqc2lQanhpY2k4K1BDOXdQanh3SUhOMGVXeGxQU0owWlhoMExXRnNhV2R1T2lCalpXNTBaWEk3SWo3a3U2WGt1SXJsbTc3bmlZZmxuWWZtbmFYbXVwRGt1bzdudlpIbnU1enZ2SXpuaVlqbW5ZUGx2WkxsanBcL2t2WnpvZ0lYbWlZRG1uSW5qZ0lJOEwzQStQSEErUEdKeUx6NDhMM0ErIn0sInN0eWxlIjp7ImJhY2tncm91bmQiOiIjZmZmZmZmIn0sImlkIjoicmljaHRleHQifX19', 'images/70/2016/09/e2hs551ELhV23mqesqiVK0595k1czL.jpg', 0, 0, 0, 0),
+(11, 0, 3, '会员中心01', 'eyJwYWdlIjp7InR5cGUiOiIzIiwidGl0bGUiOiJcdTRmMWFcdTU0NThcdTRlMmRcdTVmYzMiLCJuYW1lIjoiXHU0ZjFhXHU1NDU4XHU0ZTJkXHU1ZmMzIiwiZGVzYyI6IiIsImljb24iOiIiLCJrZXl3b3JkIjoiIiwiYmFja2dyb3VuZCI6IiNmYWZhZmEiLCJkaXltZW51IjoiMCIsImZvbGxvd2JhciI6IjAiLCJ2aXNpdCI6IjAiLCJ2aXNpdGxldmVsIjp7Im1lbWJlciI6IiIsImNvbW1pc3Npb24iOiIifSwibm92aXNpdCI6eyJ0aXRsZSI6IiIsImxpbmsiOiIifX0sIml0ZW1zIjp7Ik0xNDc0NTI2MTM0ODE0Ijp7InBhcmFtcyI6eyJzdHlsZSI6ImRlZmF1bHQxIiwibGV2ZWxsaW5rIjoiIiwic2V0aWNvbiI6Imljb24tc2V0dGluZ3MiLCJzZXRsaW5rIjoiIiwibGVmdG5hdiI6Ilx1NTE0NVx1NTAzYyIsImxlZnRuYXZsaW5rIjoiIiwicmlnaHRuYXYiOiJcdTUxNTFcdTYzNjIiLCJyaWdodG5hdmxpbmsiOiIifSwic3R5bGUiOnsiYmFja2dyb3VuZCI6IiNmZTU0NTUiLCJ0ZXh0Y29sb3IiOiIjZmZmZmZmIiwidGV4dGxpZ2h0IjoiI2ZlZjMxZiIsImhlYWRzdHlsZSI6IiJ9LCJpbmZvIjp7ImF2YXRhciI6IiIsIm5pY2tuYW1lIjoiIiwibGV2ZWxuYW1lIjoiIiwidGV4dG1vbmV5IjoiIiwidGV4dGNyZWRpdCI6IiIsIm1vbmV5IjoiIiwiY3JlZGl0IjoiIn0sImlkIjoibWVtYmVyIn0sIk0xNDc0NTI2MTM4OTEwIjp7InBhcmFtcyI6eyJsaW5rdXJsIjoiIiwidGl0bGUiOiJcdTdlZDFcdTViOWFcdTYyNGJcdTY3M2FcdTUzZjciLCJ0ZXh0IjoiXHU1OTgyXHU2NzljXHU2MGE4XHU3NTI4XHU2MjRiXHU2NzNhXHU1M2Y3XHU2Y2U4XHU1MThjXHU4ZmM3XHU0ZjFhXHU1NDU4XHU2MjE2XHU2MGE4XHU2MGYzXHU5MDFhXHU4ZmM3XHU1ZmFlXHU0ZmUxXHU1OTE2XHU4ZDJkXHU3MjY5XHU4YmY3XHU3ZWQxXHU1YjlhXHU2MGE4XHU3Njg0XHU2MjRiXHU2NzNhXHU1M2Y3XHU3ODAxIiwiaWNvbmNsYXNzIjoiaWNvbi1tb2JpbGUifSwic3R5bGUiOnsibWFyZ2ludG9wIjoiMTAiLCJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsInRpdGxlY29sb3IiOiIjZmYwMDExIiwidGV4dGNvbG9yIjoiIzk5OTk5OSIsImljb25jb2xvciI6IiM5OTk5OTkifSwiaWQiOiJiaW5kbW9iaWxlIn0sIk0xNDc0NTI2MTQzNDg3Ijp7InN0eWxlIjp7Im1hcmdpbnRvcCI6IjEwIiwiYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJpY29uY29sb3IiOiIjOTk5OTk5IiwidGV4dGNvbG9yIjoiIzMzMzMzMyIsInJlbWFya2NvbG9yIjoiIzg4ODg4OCJ9LCJkYXRhIjp7IkMxNDc0NTI2MTQzNDg5Ijp7InRleHQiOiJcdTYyMTFcdTc2ODRcdThiYTJcdTUzNTUiLCJsaW5rdXJsIjoiIiwiaWNvbmNsYXNzIjoiaWNvbi1saXN0IiwicmVtYXJrIjoiXHU2N2U1XHU3NzBiXHU1MTY4XHU5MGU4IiwiZG90bnVtIjoiIn19LCJpZCI6Imxpc3RtZW51In0sIk0xNDc0NTI2MTgxNDMxIjp7InBhcmFtcyI6eyJyb3dudW0iOiI0IiwiYm9yZGVyIjoiMSIsImJvcmRlcnRvcCI6IjAiLCJib3JkZXJib3R0b20iOiIxIn0sInN0eWxlIjp7ImJhY2tncm91bmQiOiIjZmZmZmZmIiwiYm9yZGVyY29sb3IiOiIjZWJlYmViIiwidGV4dGNvbG9yIjoiIzdhN2E3YSIsImljb25jb2xvciI6IiNhYWFhYWEiLCJkb3Rjb2xvciI6IiNmZjAwMTEifSwiZGF0YSI6eyJDMTQ3NDUyNjE4MTQzMSI6eyJpY29uY2xhc3MiOiJpY29uLWNhcmQiLCJ0ZXh0IjoiXHU1Zjg1XHU0ZWQ4XHU2YjNlIiwibGlua3VybCI6IiIsImRvdG51bSI6IjAifSwiQzE0NzQ1MjYxODE0MzIiOnsiaWNvbmNsYXNzIjoiaWNvbi1ib3giLCJ0ZXh0IjoiXHU1Zjg1XHU1M2QxXHU4ZDI3IiwibGlua3VybCI6IiIsImRvdG51bSI6IjAifSwiQzE0NzQ1MjYxODE0MzMiOnsiaWNvbmNsYXNzIjoiaWNvbi1kZWxpdmVyIiwidGV4dCI6Ilx1NWY4NVx1NjUzNlx1OGQyNyIsImxpbmt1cmwiOiIiLCJkb3RudW0iOiIwIn0sIkMxNDc0NTI2MTgxNDM0Ijp7Imljb25jbGFzcyI6Imljb24tZWxlY3RyaWNhbCIsInRleHQiOiJcdTkwMDBcdTYzNjJcdThkMjciLCJsaW5rdXJsIjoiIiwiZG90bnVtIjoiMCJ9fSwiaWQiOiJpY29uZ3JvdXAifSwiTTE0NzQ1MjYxOTkxMDIiOnsic3R5bGUiOnsibWFyZ2ludG9wIjoiMTAiLCJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsImljb25jb2xvciI6IiM5OTk5OTkiLCJ0ZXh0Y29sb3IiOiIjMzMzMzMzIiwicmVtYXJrY29sb3IiOiIjODg4ODg4In0sImRhdGEiOnsiQzE0NzQ1MjYxOTkxMDIiOnsidGV4dCI6Ilx1NTIwNlx1OTUwMFx1NGUyZFx1NWZjMyIsImxpbmt1cmwiOiIiLCJpY29uY2xhc3MiOiJpY29uLWdyb3VwIiwicmVtYXJrIjoiXHU2N2U1XHU3NzBiIiwiZG90bnVtIjoiIn0sIkMxNDc0NTI2MTk5MTAzIjp7InRleHQiOiJcdTc5ZWZcdTUyMDZcdTdiN2VcdTUyMzAiLCJsaW5rdXJsIjoiIiwiaWNvbmNsYXNzIjoiaWNvbi1naWZ0cyIsInJlbWFyayI6Ilx1NjdlNVx1NzcwYiIsImRvdG51bSI6IiJ9LCJDMTQ3NDUyNjE5OTEwNCI6eyJ0ZXh0IjoiXHU3OWVmXHU1MjA2XHU1NTQ2XHU1N2NlIiwibGlua3VybCI6IiIsImljb25jbGFzcyI6Imljb24tY3JlZGl0bGV2ZWwiLCJyZW1hcmsiOiJcdTY3ZTVcdTc3MGIiLCJkb3RudW0iOiIifX0sImlkIjoibGlzdG1lbnUifSwiTTE0NzQ1MjYyMjIyMDYiOnsic3R5bGUiOnsibWFyZ2ludG9wIjoiMTAiLCJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsImljb25jb2xvciI6IiM5OTk5OTkiLCJ0ZXh0Y29sb3IiOiIjMzMzMzMzIiwicmVtYXJrY29sb3IiOiIjODg4ODg4In0sImRhdGEiOnsiQzE0NzQ1MjYyMjIyMDYiOnsidGV4dCI6Ilx1OTg4Nlx1NTNkNlx1NGYxOFx1NjBlMFx1NTIzOCIsImxpbmt1cmwiOiIiLCJpY29uY2xhc3MiOiJpY29uLXNhbWUiLCJyZW1hcmsiOiJcdTY3ZTVcdTc3MGIiLCJkb3RudW0iOiIifSwiQzE0NzQ1MjYyMjIyMDciOnsidGV4dCI6Ilx1NjIxMVx1NzY4NFx1NGYxOFx1NjBlMFx1NTIzOCIsImxpbmt1cmwiOiIiLCJpY29uY2xhc3MiOiJpY29uLWNhcmQiLCJyZW1hcmsiOiJcdTY3ZTVcdTc3MGIiLCJkb3RudW0iOiIifX0sImlkIjoibGlzdG1lbnUifSwiTTE0NzQ1MjYyNTM2MTQiOnsic3R5bGUiOnsibWFyZ2ludG9wIjoiMTAiLCJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsImljb25jb2xvciI6IiM5OTk5OTkiLCJ0ZXh0Y29sb3IiOiIjMzMzMzMzIiwicmVtYXJrY29sb3IiOiIjODg4ODg4In0sImRhdGEiOnsiQzE0NzQ1MjYyNTM2MTQiOnsidGV4dCI6Ilx1NzllZlx1NTIwNlx1NjM5Mlx1ODg0YyIsImxpbmt1cmwiOiIiLCJpY29uY2xhc3MiOiJpY29uLXJhbmsiLCJyZW1hcmsiOiJcdTY3ZTVcdTc3MGIiLCJkb3RudW0iOiIifSwiQzE0NzQ1MjYyNTM2MTUiOnsidGV4dCI6Ilx1NmQ4OFx1OGQzOVx1NjM5Mlx1ODg0YyIsImxpbmt1cmwiOiIiLCJpY29uY2xhc3MiOiJpY29uLW1vbmV5IiwicmVtYXJrIjoiXHU2N2U1XHU3NzBiIiwiZG90bnVtIjoiIn19LCJpZCI6Imxpc3RtZW51In0sIk0xNDc0NTI2MjgxNzYwIjp7InN0eWxlIjp7Im1hcmdpbnRvcCI6IjEwIiwiYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJpY29uY29sb3IiOiIjOTk5OTk5IiwidGV4dGNvbG9yIjoiIzMzMzMzMyIsInJlbWFya2NvbG9yIjoiIzg4ODg4OCJ9LCJkYXRhIjp7IkMxNDc0NTI2MjgxNzYwIjp7InRleHQiOiJcdTYyMTFcdTc2ODRcdThkMmRcdTcyNjlcdThmNjYiLCJsaW5rdXJsIjoiIiwiaWNvbmNsYXNzIjoiaWNvbi1jYXJ0IiwicmVtYXJrIjoiXHU2N2U1XHU3NzBiIiwiZG90bnVtIjoiIn0sIkMxNDc0NTI2MjgxNzYxIjp7InRleHQiOiJcdTYyMTFcdTc2ODRcdTUxNzNcdTZjZTgiLCJsaW5rdXJsIjoiIiwiaWNvbmNsYXNzIjoiaWNvbi1saWtlIiwicmVtYXJrIjoiXHU2N2U1XHU3NzBiIiwiZG90bnVtIjoiIn0sIkMxNDc0NTI2MjgxNzYyIjp7InRleHQiOiJcdTYyMTFcdTc2ODRcdThkYjNcdThmZjkiLCJsaW5rdXJsIjoiIiwiaWNvbmNsYXNzIjoiaWNvbi1mb290cHJpbnQiLCJyZW1hcmsiOiJcdTY3ZTVcdTc3MGIiLCJkb3RudW0iOiIifSwiTTE0NzQ1MjYzMDA1NDMiOnsidGV4dCI6Ilx1NmQ4OFx1NjA2Zlx1NjNkMFx1OTE5Mlx1OGJiZVx1N2Y2ZSIsImxpbmt1cmwiOiIiLCJpY29uY2xhc3MiOiJpY29uLW5vdGljZSIsInJlbWFyayI6Ilx1NjdlNVx1NzcwYiIsImRvdG51bSI6IiJ9fSwiaWQiOiJsaXN0bWVudSJ9LCJNMTQ3NDUyNjMwNzI3MCI6eyJzdHlsZSI6eyJtYXJnaW50b3AiOiIxMCIsImJhY2tncm91bmQiOiIjZmZmZmZmIiwiaWNvbmNvbG9yIjoiIzk5OTk5OSIsInRleHRjb2xvciI6IiMzMzMzMzMiLCJyZW1hcmtjb2xvciI6IiM4ODg4ODgifSwiZGF0YSI6eyJDMTQ3NDUyNjMwNzI3MCI6eyJ0ZXh0IjoiXHU2NTM2XHU4ZDI3XHU1NzMwXHU1NzQwXHU3YmExXHU3NDA2IiwibGlua3VybCI6IiIsImljb25jbGFzcyI6Imljb24tYWRkcmVzcyIsInJlbWFyayI6Ilx1NjdlNVx1NzcwYiIsImRvdG51bSI6IiJ9LCJDMTQ3NDUyNjMwNzI3MSI6eyJ0ZXh0IjoiXHU1ZTJlXHU1MmE5XHU0ZTJkXHU1ZmMzIiwibGlua3VybCI6IiIsImljb25jbGFzcyI6Imljb24tcXVlc3Rpb25maWxsIiwicmVtYXJrIjoiXHU2N2U1XHU3NzBiIiwiZG90bnVtIjoiIn19LCJpZCI6Imxpc3RtZW51In0sIk0xNDc0NTk3NzI2NTU2Ijp7InBhcmFtcyI6eyJiaW5kdXJsIjoiIiwibG9nb3V0dXJsIjoiIn0sInN0eWxlIjp7InRleHRjb2xvciI6IiNmZjAwMTEiLCJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsIm1hcmdpbnRvcCI6IjEwIn0sImlkIjoibG9nb3V0In0sIk0xNDc0NTk3OTcxMjE4Ijp7InBhcmFtcyI6eyJjb250ZW50IjoiUEhBZ2MzUjViR1U5SW5SbGVIUXRZV3hwWjI0NklHTmxiblJsY2pzaVB1ZUppT2FkZythSmdPYWNpU0FvWXlrZ2VIaDQ1WldHNVorT1BDOXdQZz09In0sInN0eWxlIjp7ImJhY2tncm91bmQiOiIjZmZmZmZmIiwicGFkZGluZyI6IjIwIn0sImlkIjoicmljaHRleHQifX19', '../addons/ewei_shopv2/plugin/diypage/static/template/member1/preview.jpg', 9, 0, 0, 0),
+(12, 70, 3, '会员中心1', 'eyJwYWdlIjp7InR5cGUiOiIzIiwidGl0bGUiOiJcdTRmMWFcdTU0NThcdTRlMmRcdTVmYzMiLCJuYW1lIjoiXHU0ZjFhXHU1NDU4XHU0ZTJkXHU1ZmMzIiwiZGVzYyI6IiIsImljb24iOiIiLCJrZXl3b3JkIjoiIiwiYmFja2dyb3VuZCI6IiNmYWZhZmEiLCJkaXltZW51IjoiMCIsImZvbGxvd2JhciI6IjAiLCJ2aXNpdCI6IjAiLCJ2aXNpdGxldmVsIjp7Im1lbWJlciI6IiIsImNvbW1pc3Npb24iOiIifSwibm92aXNpdCI6eyJ0aXRsZSI6IiIsImxpbmsiOiIifX0sIml0ZW1zIjp7Ik0xNDc0NTI2MTM0ODE0Ijp7InBhcmFtcyI6eyJzdHlsZSI6ImRlZmF1bHQxIiwibGV2ZWxsaW5rIjoiIiwic2V0aWNvbiI6Imljb24tc2V0dGluZ3MiLCJzZXRsaW5rIjoiLlwvaW5kZXgucGhwP2k9NzAmYz1lbnRyeSZtPWV3ZWlfc2hvcHYyJmRvPW1vYmlsZSZyPW1lbWJlci5pbmZvIiwibGVmdG5hdiI6Ilx1NTE0NVx1NTAzYyIsImxlZnRuYXZsaW5rIjoiLlwvaW5kZXgucGhwP2k9NzAmYz1lbnRyeSZtPWV3ZWlfc2hvcHYyJmRvPW1vYmlsZSZyPW1lbWJlci5yZWNoYXJnZSIsInJpZ2h0bmF2IjoiXHU1MTUxXHU2MzYyIiwicmlnaHRuYXZsaW5rIjoiIn0sInN0eWxlIjp7ImJhY2tncm91bmQiOiIjZmU1NDU1IiwidGV4dGNvbG9yIjoiI2ZmZmZmZiIsInRleHRsaWdodCI6IiNmZWYzMWYiLCJoZWFkc3R5bGUiOiIifSwiaW5mbyI6eyJhdmF0YXIiOiIiLCJuaWNrbmFtZSI6IiIsImxldmVsbmFtZSI6IiIsInRleHRtb25leSI6IiIsInRleHRjcmVkaXQiOiIiLCJtb25leSI6IiIsImNyZWRpdCI6IiJ9LCJpZCI6Im1lbWJlciJ9LCJNMTQ3NDUyNjEzODkxMCI6eyJwYXJhbXMiOnsibGlua3VybCI6IiIsInRpdGxlIjoiXHU3ZWQxXHU1YjlhXHU2MjRiXHU2NzNhXHU1M2Y3IiwidGV4dCI6Ilx1NTk4Mlx1Njc5Y1x1NjBhOFx1NzUyOFx1NjI0Ylx1NjczYVx1NTNmN1x1NmNlOFx1NTE4Y1x1OGZjN1x1NGYxYVx1NTQ1OFx1NjIxNlx1NjBhOFx1NjBmM1x1OTAxYVx1OGZjN1x1NWZhZVx1NGZlMVx1NTkxNlx1OGQyZFx1NzI2OVx1OGJmN1x1N2VkMVx1NWI5YVx1NjBhOFx1NzY4NFx1NjI0Ylx1NjczYVx1NTNmN1x1NzgwMSIsImljb25jbGFzcyI6Imljb24tbW9iaWxlIn0sInN0eWxlIjp7Im1hcmdpbnRvcCI6IjEwIiwiYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJ0aXRsZWNvbG9yIjoiI2ZmMDAxMSIsInRleHRjb2xvciI6IiM5OTk5OTkiLCJpY29uY29sb3IiOiIjOTk5OTk5In0sImlkIjoiYmluZG1vYmlsZSJ9LCJNMTQ3NDUyNjE0MzQ4NyI6eyJzdHlsZSI6eyJtYXJnaW50b3AiOiIxMCIsImJhY2tncm91bmQiOiIjZmZmZmZmIiwiaWNvbmNvbG9yIjoiIzk5OTk5OSIsInRleHRjb2xvciI6IiMzMzMzMzMiLCJyZW1hcmtjb2xvciI6IiM4ODg4ODgifSwiZGF0YSI6eyJDMTQ3NDUyNjE0MzQ4OSI6eyJ0ZXh0IjoiXHU1NTQ2XHU1N2NlXHU4YmEyXHU1MzU1IiwibGlua3VybCI6Ii5cL2luZGV4LnBocD9pPTcwJmM9ZW50cnkmbT1ld2VpX3Nob3B2MiZkbz1tb2JpbGUmcj1vcmRlciIsImljb25jbGFzcyI6Imljb24tbGlzdCIsInJlbWFyayI6Ilx1NjdlNVx1NzcwYiIsImRvdG51bSI6IiJ9LCJNMTQ3NTIzOTQ2NDg5NSI6eyJ0ZXh0IjoiXHU2MmZjXHU1NmUyXHU4YmEyXHU1MzU1IiwibGlua3VybCI6Imh0dHA6XC9cL3dlY2hhdC5wc2Ntcy5jblwvYXBwXC9pbmRleC5waHA/aT03MCZjPWVudHJ5Jm09ZmVuZ19maWdodGdyb3VwcyZkbz1vcmRlciZhYz1vcmRlciYiLCJpY29uY2xhc3MiOiJpY29uLXJvdW5kcmlnaHQiLCJyZW1hcmsiOiJcdTY3ZTVcdTc3MGIiLCJkb3RudW0iOiIifX0sImlkIjoibGlzdG1lbnUifSwiTTE0NzQ1MjYxODE0MzEiOnsicGFyYW1zIjp7InJvd251bSI6IjQiLCJib3JkZXIiOiIxIiwiYm9yZGVydG9wIjoiMCIsImJvcmRlcmJvdHRvbSI6IjEifSwic3R5bGUiOnsiYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJib3JkZXJjb2xvciI6IiNlYmViZWIiLCJ0ZXh0Y29sb3IiOiIjN2E3YTdhIiwiaWNvbmNvbG9yIjoiI2FhYWFhYSIsImRvdGNvbG9yIjoiI2ZmMDAxMSJ9LCJkYXRhIjp7IkMxNDc0NTI2MTgxNDMxIjp7Imljb25jbGFzcyI6Imljb24tY2FyZCIsInRleHQiOiJcdTVmODVcdTRlZDhcdTZiM2UiLCJsaW5rdXJsIjoiLlwvaW5kZXgucGhwP2k9NzAmYz1lbnRyeSZtPWV3ZWlfc2hvcHYyJmRvPW1vYmlsZSZyPW9yZGVyJnN0YXR1cz0wIiwiZG90bnVtIjoiMCJ9LCJDMTQ3NDUyNjE4MTQzMiI6eyJpY29uY2xhc3MiOiJpY29uLWJveCIsInRleHQiOiJcdTVmODVcdTUzZDFcdThkMjciLCJsaW5rdXJsIjoiLlwvaW5kZXgucGhwP2k9NzAmYz1lbnRyeSZtPWV3ZWlfc2hvcHYyJmRvPW1vYmlsZSZyPW9yZGVyJnN0YXR1cz0xIiwiZG90bnVtIjoiMCJ9LCJDMTQ3NDUyNjE4MTQzMyI6eyJpY29uY2xhc3MiOiJpY29uLWRlbGl2ZXIiLCJ0ZXh0IjoiXHU1Zjg1XHU2NTM2XHU4ZDI3IiwibGlua3VybCI6Ii5cL2luZGV4LnBocD9pPTcwJmM9ZW50cnkmbT1ld2VpX3Nob3B2MiZkbz1tb2JpbGUmcj1vcmRlciZzdGF0dXM9MiIsImRvdG51bSI6IjAifSwiQzE0NzQ1MjYxODE0MzQiOnsiaWNvbmNsYXNzIjoiaWNvbi1lbGVjdHJpY2FsIiwidGV4dCI6Ilx1OTAwMFx1NjM2Mlx1OGQyNyIsImxpbmt1cmwiOiIuXC9pbmRleC5waHA/aT03MCZjPWVudHJ5Jm09ZXdlaV9zaG9wdjImZG89bW9iaWxlJnI9b3JkZXImc3RhdHVzPTQiLCJkb3RudW0iOiIwIn19LCJpZCI6Imljb25ncm91cCJ9LCJNMTQ3NDUyNjE5OTEwMiI6eyJzdHlsZSI6eyJtYXJnaW50b3AiOiIxMCIsImJhY2tncm91bmQiOiIjZmZmZmZmIiwiaWNvbmNvbG9yIjoiIzk5OTk5OSIsInRleHRjb2xvciI6IiMzMzMzMzMiLCJyZW1hcmtjb2xvciI6IiM4ODg4ODgifSwiZGF0YSI6eyJDMTQ3NDUyNjE5OTEwMiI6eyJ0ZXh0IjoiXHU1MjA2XHU5NTAwXHU0ZTJkXHU1ZmMzIiwibGlua3VybCI6IiIsImljb25jbGFzcyI6Imljb24tZ3JvdXAiLCJyZW1hcmsiOiJcdTY3ZTVcdTc3MGIiLCJkb3RudW0iOiIifSwiQzE0NzQ1MjYxOTkxMDMiOnsidGV4dCI6Ilx1NzllZlx1NTIwNlx1N2I3ZVx1NTIzMCIsImxpbmt1cmwiOiIuXC9pbmRleC5waHA/aT03MCZjPWVudHJ5Jm09ZXdlaV9zaG9wdjImZG89bW9iaWxlJnI9c2lnbiIsImljb25jbGFzcyI6Imljb24tZ2lmdHMiLCJyZW1hcmsiOiJcdTY3ZTVcdTc3MGIiLCJkb3RudW0iOiIifSwiQzE0NzQ1MjYxOTkxMDQiOnsidGV4dCI6Ilx1NzllZlx1NTIwNlx1NTU0Nlx1NTdjZSIsImxpbmt1cmwiOiIuXC9pbmRleC5waHA/aT03MCZjPWVudHJ5Jm09ZXdlaV9zaG9wdjImZG89bW9iaWxlJnI9Y3JlZGl0c2hvcCIsImljb25jbGFzcyI6Imljb24tY3JlZGl0bGV2ZWwiLCJyZW1hcmsiOiJcdTY3ZTVcdTc3MGIiLCJkb3RudW0iOiIifX0sImlkIjoibGlzdG1lbnUifSwiTTE0NzQ1MjYyMjIyMDYiOnsic3R5bGUiOnsibWFyZ2ludG9wIjoiMTAiLCJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsImljb25jb2xvciI6IiM5OTk5OTkiLCJ0ZXh0Y29sb3IiOiIjMzMzMzMzIiwicmVtYXJrY29sb3IiOiIjODg4ODg4In0sImRhdGEiOnsiQzE0NzQ1MjYyMjIyMDYiOnsidGV4dCI6Ilx1OTg4Nlx1NTNkNlx1NGYxOFx1NjBlMFx1NTIzOCIsImxpbmt1cmwiOiIuXC9pbmRleC5waHA/aT03MCZjPWVudHJ5Jm09ZXdlaV9zaG9wdjImZG89bW9iaWxlJnI9c2FsZS5jb3Vwb24iLCJpY29uY2xhc3MiOiJpY29uLXNhbWUiLCJyZW1hcmsiOiJcdTY3ZTVcdTc3MGIiLCJkb3RudW0iOiIifSwiQzE0NzQ1MjYyMjIyMDciOnsidGV4dCI6Ilx1NjIxMVx1NzY4NFx1NGYxOFx1NjBlMFx1NTIzOCIsImxpbmt1cmwiOiIuXC9pbmRleC5waHA/aT03MCZjPWVudHJ5Jm09ZXdlaV9zaG9wdjImZG89bW9iaWxlJnI9c2FsZS5jb3Vwb24ubXkiLCJpY29uY2xhc3MiOiJpY29uLWNhcmQiLCJyZW1hcmsiOiJcdTY3ZTVcdTc3MGIiLCJkb3RudW0iOiIifX0sImlkIjoibGlzdG1lbnUifSwiTTE0NzQ1MjYyNTM2MTQiOnsic3R5bGUiOnsibWFyZ2ludG9wIjoiMTAiLCJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsImljb25jb2xvciI6IiM5OTk5OTkiLCJ0ZXh0Y29sb3IiOiIjMzMzMzMzIiwicmVtYXJrY29sb3IiOiIjODg4ODg4In0sImRhdGEiOnsiQzE0NzQ1MjYyNTM2MTQiOnsidGV4dCI6Ilx1NzllZlx1NTIwNlx1NjM5Mlx1ODg0YyIsImxpbmt1cmwiOiIuXC9pbmRleC5waHA/aT03MCZjPWVudHJ5Jm09ZXdlaV9zaG9wdjImZG89bW9iaWxlJnI9bWVtYmVyLnJhbmsiLCJpY29uY2xhc3MiOiJpY29uLXJhbmsiLCJyZW1hcmsiOiJcdTY3ZTVcdTc3MGIiLCJkb3RudW0iOiIifSwiQzE0NzQ1MjYyNTM2MTUiOnsidGV4dCI6Ilx1NmQ4OFx1OGQzOVx1NjM5Mlx1ODg0YyIsImxpbmt1cmwiOiIuXC9pbmRleC5waHA/aT03MCZjPWVudHJ5Jm09ZXdlaV9zaG9wdjImZG89bW9iaWxlJnI9bWVtYmVyLnJhbmsub3JkZXJfcmFuayIsImljb25jbGFzcyI6Imljb24tbW9uZXkiLCJyZW1hcmsiOiJcdTY3ZTVcdTc3MGIiLCJkb3RudW0iOiIifX0sImlkIjoibGlzdG1lbnUifSwiTTE0NzQ1MjYyODE3NjAiOnsic3R5bGUiOnsibWFyZ2ludG9wIjoiMTAiLCJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsImljb25jb2xvciI6IiM5OTk5OTkiLCJ0ZXh0Y29sb3IiOiIjMzMzMzMzIiwicmVtYXJrY29sb3IiOiIjODg4ODg4In0sImRhdGEiOnsiQzE0NzQ1MjYyODE3NjAiOnsidGV4dCI6Ilx1NjIxMVx1NzY4NFx1OGQyZFx1NzI2OVx1OGY2NiIsImxpbmt1cmwiOiIuXC9pbmRleC5waHA/aT03MCZjPWVudHJ5Jm09ZXdlaV9zaG9wdjImZG89bW9iaWxlJnI9bWVtYmVyLmNhcnQiLCJpY29uY2xhc3MiOiJpY29uLWNhcnQiLCJyZW1hcmsiOiJcdTY3ZTVcdTc3MGIiLCJkb3RudW0iOiIifSwiQzE0NzQ1MjYyODE3NjEiOnsidGV4dCI6Ilx1NjIxMVx1NzY4NFx1NTE3M1x1NmNlOCIsImxpbmt1cmwiOiIuXC9pbmRleC5waHA/aT03MCZjPWVudHJ5Jm09ZXdlaV9zaG9wdjImZG89bW9iaWxlJnI9bWVtYmVyLmZhdm9yaXRlIiwiaWNvbmNsYXNzIjoiaWNvbi1saWtlIiwicmVtYXJrIjoiXHU2N2U1XHU3NzBiIiwiZG90bnVtIjoiIn0sIkMxNDc0NTI2MjgxNzYyIjp7InRleHQiOiJcdTYyMTFcdTc2ODRcdThkYjNcdThmZjkiLCJsaW5rdXJsIjoiLlwvaW5kZXgucGhwP2k9NzAmYz1lbnRyeSZtPWV3ZWlfc2hvcHYyJmRvPW1vYmlsZSZyPW1lbWJlci5oaXN0b3J5IiwiaWNvbmNsYXNzIjoiaWNvbi1mb290cHJpbnQiLCJyZW1hcmsiOiJcdTY3ZTVcdTc3MGIiLCJkb3RudW0iOiIifSwiTTE0NzQ1MjYzMDA1NDMiOnsidGV4dCI6Ilx1NmQ4OFx1NjA2Zlx1NjNkMFx1OTE5Mlx1OGJiZVx1N2Y2ZSIsImxpbmt1cmwiOiIuXC9pbmRleC5waHA/aT03MCZjPWVudHJ5Jm09ZXdlaV9zaG9wdjImZG89bW9iaWxlJnI9bWVtYmVyLm5vdGljZSIsImljb25jbGFzcyI6Imljb24tbm90aWNlIiwicmVtYXJrIjoiXHU2N2U1XHU3NzBiIiwiZG90bnVtIjoiIn19LCJpZCI6Imxpc3RtZW51In0sIk0xNDc0NTI2MzA3MjcwIjp7InN0eWxlIjp7Im1hcmdpbnRvcCI6IjEwIiwiYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJpY29uY29sb3IiOiIjOTk5OTk5IiwidGV4dGNvbG9yIjoiIzMzMzMzMyIsInJlbWFya2NvbG9yIjoiIzg4ODg4OCJ9LCJkYXRhIjp7IkMxNDc0NTI2MzA3MjcwIjp7InRleHQiOiJcdTY1MzZcdThkMjdcdTU3MzBcdTU3NDBcdTdiYTFcdTc0MDYiLCJsaW5rdXJsIjoiLlwvaW5kZXgucGhwP2k9NzAmYz1lbnRyeSZtPWV3ZWlfc2hvcHYyJmRvPW1vYmlsZSZyPW1lbWJlci5hZGRyZXNzIiwiaWNvbmNsYXNzIjoiaWNvbi1hZGRyZXNzIiwicmVtYXJrIjoiXHU2N2U1XHU3NzBiIiwiZG90bnVtIjoiIn0sIkMxNDc0NTI2MzA3MjcxIjp7InRleHQiOiJcdTVlMmVcdTUyYTlcdTRlMmRcdTVmYzMiLCJsaW5rdXJsIjoiLlwvaW5kZXgucGhwP2k9NzAmYz1lbnRyeSZtPWV3ZWlfc2hvcHYyJmRvPW1vYmlsZSZyPXFhIiwiaWNvbmNsYXNzIjoiaWNvbi1xdWVzdGlvbmZpbGwiLCJyZW1hcmsiOiJcdTY3ZTVcdTc3MGIiLCJkb3RudW0iOiIifX0sImlkIjoibGlzdG1lbnUifSwiTTE0NzQ1OTc3MjY1NTYiOnsicGFyYW1zIjp7ImJpbmR1cmwiOiIiLCJsb2dvdXR1cmwiOiIifSwic3R5bGUiOnsidGV4dGNvbG9yIjoiI2ZmMDAxMSIsImJhY2tncm91bmQiOiIjZmZmZmZmIiwibWFyZ2ludG9wIjoiMTAifSwiaWQiOiJsb2dvdXQifSwiTTE0NzQ1OTc5NzEyMTgiOnsicGFyYW1zIjp7ImNvbnRlbnQiOiJQSEFnYzNSNWJHVTlJblJsZUhRdFlXeHBaMjQ2SUdObGJuUmxjanNpUHVlSmlPYWRnK2FKZ09hY2lTQW9ZeWtnZUhoNDVaV0c1WitPUEM5d1BnPT0ifSwic3R5bGUiOnsiYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJwYWRkaW5nIjoiMjAifSwiaWQiOiJyaWNodGV4dCJ9fX0=', '', 0, 0, 0, 0),
+(13, 0, 4, '分销中心01', 'eyJwYWdlIjp7InR5cGUiOiI0IiwidGl0bGUiOiJcdThiZjdcdThmOTNcdTUxNjVcdTk4NzVcdTk3NjJcdTY4MDdcdTk4OTgiLCJuYW1lIjoiXHU2NzJhXHU1NDdkXHU1NDBkXHU5ODc1XHU5NzYyIiwiZGVzYyI6IiIsImljb24iOiIiLCJrZXl3b3JkIjoiIiwiYmFja2dyb3VuZCI6IiNmYWZhZmEiLCJkaXltZW51IjoiLTEiLCJmb2xsb3diYXIiOiIwIiwidmlzaXQiOiIwIiwidmlzaXRsZXZlbCI6eyJtZW1iZXIiOiIiLCJjb21taXNzaW9uIjoiIn0sIm5vdmlzaXQiOnsidGl0bGUiOiIiLCJsaW5rIjoiIn19LCJpdGVtcyI6eyJNMTQ3NTk3NjIxMDU0NiI6eyJwYXJhbXMiOnsic3R5bGUiOiJkZWZhdWx0MSIsInNldGljb24iOiJpY29uLXNldHRpbmdzIiwic2V0bGluayI6IiIsImxlZnRuYXYiOiJcdTYzZDBcdTczYjAxIiwibGVmdG5hdmxpbmsiOiIiLCJyaWdodG5hdiI6Ilx1NjNkMFx1NzNiMDIiLCJyaWdodG5hdmxpbmsiOiIiLCJjZW50ZXJuYXYiOiJcdTYzZDBcdTczYjAiLCJjZW50ZXJuYXZsaW5rIjoiIn0sInN0eWxlIjp7ImJhY2tncm91bmQiOiIjZmU1NDU1IiwidGV4dGNvbG9yIjoiI2ZmZmZmZiIsInRleHRsaWdodCI6IiNmZWYzMWYifSwiaWQiOiJtZW1iZXJjIn0sIk0xNDc1OTc2MjEyMzA1Ijp7InBhcmFtcyI6eyJyb3dudW0iOiIzIn0sInN0eWxlIjp7ImJhY2tncm91bmQiOiIjZmZmZmZmIiwidGlwY29sb3IiOiIjZmViMzEyIn0sImRhdGEiOnsiQzE0NzU5NzYyMTIzMDUiOnsiaWNvbmNsYXNzIjoiaWNvbi1tb25leSIsImljb25jb2xvciI6IiNmZWIzMTIiLCJ0ZXh0IjoiXHU1MjA2XHU5NTAwXHU0ZjYzXHU5MWQxIiwidGV4dGNvbG9yIjoiIzY2NjY2NiIsImxpbmt1cmwiOiIiLCJ0aXBudW0iOiIwLjAwIiwidGlwdGV4dCI6Ilx1NTE0MyJ9LCJDMTQ3NTk3NjIxMjMwNiI6eyJpY29uY2xhc3MiOiJpY29uLWxpc3QiLCJpY29uY29sb3IiOiIjNTBiNmZlIiwidGV4dCI6Ilx1NGY2M1x1OTFkMVx1NjYwZVx1N2VjNiIsInRleHRjb2xvciI6IiM2NjY2NjYiLCJsaW5rdXJsIjoiIiwidGlwbnVtIjoiNTAiLCJ0aXB0ZXh0IjoiXHU3YjE0In0sIkMxNDc1OTc2MjEyMzA4Ijp7Imljb25jbGFzcyI6Imljb24tbWFuYWdlb3JkZXIiLCJpY29uY29sb3IiOiIjZmY3NDFkIiwidGV4dCI6Ilx1NjNkMFx1NzNiMFx1NjYwZVx1N2VjNiIsInRleHRjb2xvciI6IiM2NjY2NjYiLCJsaW5rdXJsIjoiIiwidGlwbnVtIjoiMTAiLCJ0aXB0ZXh0IjoiXHU3YjE0In0sIkMxNDc1OTc2MjEyMzA5Ijp7Imljb25jbGFzcyI6Imljb24tZ3JvdXAiLCJpY29uY29sb3IiOiIjZmY3NDFkIiwidGV4dCI6Ilx1NjIxMVx1NzY4NFx1NGUwYlx1N2ViZiIsInRleHRjb2xvciI6IiM2NjY2NjYiLCJsaW5rdXJsIjoiIiwidGlwbnVtIjoiMiIsInRpcHRleHQiOiJcdTRlYmEifSwiQzE0NzU5NzYyMTIzMTAiOnsiaWNvbmNsYXNzIjoiaWNvbi1xcmNvZGUiLCJpY29uY29sb3IiOiIjZmViMzEyIiwidGV4dCI6Ilx1NjNhOFx1NWU3Zlx1NGU4Y1x1N2VmNFx1NzgwMSIsInRleHRjb2xvciI6IiM2NjY2NjYiLCJsaW5rdXJsIjoiIiwidGlwbnVtIjoiIiwidGlwdGV4dCI6IiJ9LCJDMTQ3NTk3NjIxMjMxMSI6eyJpY29uY2xhc3MiOiJpY29uLXNob3BmaWxsIiwiaWNvbmNvbG9yIjoiIzUwYjZmZSIsInRleHQiOiJcdTVjMGZcdTVlOTdcdThiYmVcdTdmNmUiLCJ0ZXh0Y29sb3IiOiIjNjY2NjY2IiwibGlua3VybCI6IiIsInRpcG51bSI6IiIsInRpcHRleHQiOiIifSwiQzE0NzU5NzYyMTIzMTIiOnsiaWNvbmNsYXNzIjoiaWNvbi1yYW5rIiwiaWNvbmNvbG9yIjoiI2ZmNzQxZCIsInRleHQiOiJcdTRmNjNcdTkxZDFcdTYzOTJcdTU0MGQiLCJ0ZXh0Y29sb3IiOiIjNjY2NjY2IiwibGlua3VybCI6IiIsInRpcG51bSI6IiIsInRpcHRleHQiOiIifX0sImlkIjoiYmxvY2tncm91cCJ9fX0=', '../addons/ewei_shopv2/plugin/diypage/static/template/commission1/preview.jpg', 10, 0, 0, 0),
+(14, 0, 5, '商品详情', 'eyJwYWdlIjp7InR5cGUiOiI1IiwidGl0bGUiOiJcdTU1NDZcdTU0YzFcdThiZTZcdTYwYzUiLCJuYW1lIjoiXHU1NTQ2XHU1NGMxXHU4YmU2XHU2MGM1XHU5ODc1IiwiZGVzYyI6IiIsImljb24iOiIiLCJrZXl3b3JkIjoiIiwiYmFja2dyb3VuZCI6IiNmYWZhZmEiLCJkaXltZW51IjoiLTEiLCJmb2xsb3diYXIiOiIwIiwidmlzaXQiOiIwIiwidmlzaXRsZXZlbCI6eyJtZW1iZXIiOiIiLCJjb21taXNzaW9uIjoiIn0sIm5vdmlzaXQiOnsidGl0bGUiOiIiLCJsaW5rIjoiIn19LCJpdGVtcyI6eyJNMTQ3NzUzOTc2NzU4MyI6eyJ0eXBlIjoiNSIsIm1heCI6IjEiLCJwYXJhbXMiOnsiZ29vZHN0ZXh0IjoiXHU1NTQ2XHU1NGMxIiwiZGV0YWlsdGV4dCI6Ilx1OGJlNlx1NjBjNSJ9LCJzdHlsZSI6eyJiYWNrZ3JvdW5kIjoiI2Y3ZjdmNyIsInRleHRjb2xvciI6IiM2NjY2NjYiLCJhY3RpdmVjb2xvciI6IiNlZjRmNGYifSwiaWQiOiJkZXRhaWxfdGFiIn0sIk0xNDc3NTM5NzY4MDkzIjp7InR5cGUiOiI1IiwibWF4IjoiMSIsInN0eWxlIjp7ImRvdHN0eWxlIjoicm91bmQiLCJkb3RhbGlnbiI6ImxlZnQiLCJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsImxlZnRyaWdodCI6IjEwIiwiYm90dG9tIjoiMTAiLCJvcGFjaXR5IjoiMC44In0sImlkIjoiZGV0YWlsX3N3aXBlIn0sIk0xNDgwNTg2MTg5Njc1Ijp7InR5cGUiOiI1IiwibWF4IjoiMSIsInBhcmFtcyI6eyJidXlidG50ZXh0IjoiXHU1MzlmXHU0ZWY3XHU4ZDJkXHU0ZTcwIn0sInN0eWxlIjp7ImJnbGVmdCI6IiNlZjRmNGYiLCJiZ3JpZ2h0IjoiI2ZmZWYzMiIsInByaWNlY29sb3IiOiIjZmZmZmZmIiwibWFya2V0cHJpY2Vjb2xvciI6IiNmZmZmZmYiLCJ0YWdjb2xvciI6IiNmZmZmZmYiLCJzdGF0dXNjb2xvciI6IiNlZjRmNGYiLCJwcm9jZXNzdGV4dGNvbG9yIjoiI2ZmZmZmZmYiLCJwcm9jZXNzY29sb3IiOiIjZmZlZjMyIiwiYmdsZWZ0d2FpdCI6IiMwMGI5NTAiLCJiZ3JpZ2h0d2FpdCI6IiMwMGI5NTAiLCJ0aW1lY29sb3IiOiIjZmZmZmZmIiwidGltZWJnY29sb3IiOiIjNTgyZTE5IiwicHJpY2Vjb2xvcndhaXQiOiIjZmZmZmZmIiwibWFya2V0cHJpY2Vjb2xvcndhaXQiOiIjZmZmZmZmIiwidGFnY29sb3J3YWl0IjoiI2ZmZmZmZiIsInN0YXR1c2NvbG9yd2FpdCI6IiNmZmZmZmYiLCJ0aW1lY29sb3J3YWl0IjoiI2ZmZmZmZiIsInRpbWViZ2NvbG9yd2FpdCI6IiMwMDM3MTgiLCJidXlidG50ZXh0d2FpdCI6IiNmZmZmZmYiLCJidXlidG5iZ3dhaXQiOiIjMDBiOTUwIn0sImlkIjoiZGV0YWlsX3NlY2tpbGwifSwiTTE0Nzc1Mzk3Njg2OTQiOnsidHlwZSI6IjUiLCJtYXgiOiIxIiwicGFyYW1zIjp7InNoYXJlIjoiXHU1MjA2XHU0ZWFiIiwic2hhcmVfbGluayI6IiJ9LCJzdHlsZSI6eyJtYXJnaW50b3AiOiIwIiwibWFyZ2luYm90dG9tIjoiMCIsImJhY2tncm91bmQiOiIjZmZmZmZmIiwidGl0bGVjb2xvciI6IiMzMzMzMzMiLCJzdWJ0aXRsZWNvbG9yIjoiI2VmNGY0ZiIsInByaWNlY29sb3IiOiIjZWY0ZjRmIiwidGV4dGNvbG9yIjoiI2MwYzBjMCIsInRpbWVjb2xvciI6IiNlZjRmNGYiLCJ0aW1ldGV4dGNvbG9yIjoiI2VmNGY0ZiJ9LCJpZCI6ImRldGFpbF9pbmZvIn0sIk0xNDc3NTM5NzY5MzY2Ijp7InR5cGUiOiI1IiwibWF4IjoiMSIsInN0eWxlIjp7Im1hcmdpbnRvcCI6IjAiLCJtYXJnaW5ib3R0b20iOiIwIiwiYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJ0ZXh0Y29sb3IiOiIjNjY2NjY2IiwidGV4dGNvbG9yaGlnaCI6IiNlZjRmNGYifSwiZGF0YSI6eyJDMTQ3NzUzOTc2OTM2NiI6eyJuYW1lIjoiXHU0ZThjXHU2YjIxXHU4ZDJkXHU0ZTcwIiwidHlwZSI6ImVyY2kifSwiQzE0Nzc1Mzk3NjkzNjciOnsibmFtZSI6Ilx1NGYxYVx1NTQ1OFx1NGVmNyIsInR5cGUiOiJodWl5dWFuIn0sIkMxNDc3NTM5NzY5MzY4Ijp7Im5hbWUiOiJcdTRmMThcdTYwZTAiLCJ0eXBlIjoieW91aHVpIn0sIkMxNDc3NTM5NzY5MzY5Ijp7Im5hbWUiOiJcdTc5ZWZcdTUyMDYiLCJ0eXBlIjoiamlmZW4ifSwiQzE0Nzc1Mzk3NjkzNzAiOnsibmFtZSI6Ilx1NGUwZFx1OTE0ZFx1OTAwMVx1NTMzYVx1NTdkZiIsInR5cGUiOiJidXBlaXNvbmcifSwiQzE0Nzc1Mzk3NjkzNzEiOnsibmFtZSI6Ilx1NTU0Nlx1NTRjMVx1NjgwN1x1N2I3ZSIsInR5cGUiOiJiaWFvcWlhbiJ9fSwiaWQiOiJkZXRhaWxfc2FsZSJ9LCJNMTQ3NzUzOTc3MDA3OSI6eyJ0eXBlIjoiNSIsIm1heCI6IjEiLCJzdHlsZSI6eyJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsInRleHRjb2xvciI6IiMzMzMzMzMiLCJtYXJnaW50b3AiOiIxMCIsIm1hcmdpbmJvdHRvbSI6IjAifSwiaWQiOiJkZXRhaWxfc3BlYyJ9LCJNMTQ3NzUzOTc3MDc5MCI6eyJ0eXBlIjoiNSIsIm1heCI6IjEiLCJzdHlsZSI6eyJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsIm1hcmdpbnRvcCI6IjEwIiwibWFyZ2luYm90dG9tIjoiMCIsInRleHRjb2xvciI6IiM3YzdjN2MifSwiaWQiOiJkZXRhaWxfcGFja2FnZSJ9LCJNMTQ3NzUzOTc3MTczNSI6eyJ0eXBlIjoiNSIsIm1heCI6IjEiLCJwYXJhbXMiOnsic2hvcGxvZ28iOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2Mlwvc3RhdGljXC9pbWFnZXNcL2Rlc2lnbmVyLmpwZyIsInNob3BuYW1lIjoiIiwic2hvcGRlc2MiOiIiLCJoaWRlbnVtIjoiMCIsImxlZnRuYXZ0ZXh0IjoiXHU1MTY4XHU5MGU4XHU1NTQ2XHU1NGMxIiwibGVmdG5hdmxpbmsiOiIiLCJyaWdodG5hdnRleHQiOiJcdThmZGJcdTVlOTdcdTkwMWJcdTkwMWIiLCJyaWdodG5hdmxpbmsiOiIifSwic3R5bGUiOnsibWFyZ2ludG9wIjoiMTAiLCJtYXJnaW5ib3R0b20iOiIwIiwiYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJnb29kc251bWNvbG9yIjoiIzMzMzMzMyIsImdvb2RzdGV4dGNvbG9yIjoiIzdjN2M3YyIsInJpZ2h0bmF2Y29sb3IiOiIjN2M3YzdjIiwic2hvcG5hbWVjb2xvciI6IiMzMzMzMzMiLCJzaG9wZGVzY2NvbG9yIjoiIzQ0NDQ0NCJ9LCJpZCI6ImRldGFpbF9zaG9wIn0sIk0xNDc3NTM5NzcyOTU5Ijp7InR5cGUiOiI1IiwibWF4IjoiMSIsInN0eWxlIjp7ImJhY2tncm91bmQiOiIjZmZmZmZmIiwibWFyZ2ludG9wIjoiMTAiLCJtYXJnaW5ib3R0b20iOiIwIiwidGl0bGVjb2xvciI6IiMzMzMzMzMiLCJzaG9wbmFtZWNvbG9yIjoiIzMzMzMzMyIsInNob3BpbmZvY29sb3IiOiIjNjY2NjY2IiwibmF2dGVsY29sb3IiOiIjMDA4MDAwIiwibmF2bG9jYXRpb25jb2xvciI6IiNmZjk5MDAifSwiaWQiOiJkZXRhaWxfc3RvcmUifSwiTTE0Nzc1Mzk3NzM3OTkiOnsidHlwZSI6IjUiLCJtYXgiOiIxIiwic3R5bGUiOnsiYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJtYXJnaW50b3AiOiIxMCIsIm1hcmdpbmJvdHRvbSI6IjAifSwiaWQiOiJkZXRhaWxfYnV5c2hvdyJ9LCJNMTQ3NzUzOTc3NDY3OSI6eyJ0eXBlIjoiNSIsIm1heCI6IjEiLCJzdHlsZSI6eyJtYXJnaW50b3AiOiIxMCIsIm1hcmdpbmJvdHRvbSI6IjEwIiwiYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJtYWluY29sb3IiOiIjZmQ1NDU0Iiwic3ViY29sb3IiOiIjN2M3YzdjIiwidGV4dGNvbG9yIjoiIzMzMzMzMyJ9LCJpZCI6ImRldGFpbF9jb21tZW50In0sIk0xNDc3NTM5Nzc2NjE1Ijp7InR5cGUiOiI1IiwibWF4IjoiMSIsInN0eWxlIjp7Im1hcmdpbnRvcCI6IjEwIiwiYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJ0ZXh0Y29sb3IiOiIjMzMzMzMzIn0sImlkIjoiZGV0YWlsX3B1bGx1cCJ9LCJNMTQ3NzUzOTc3NzM5OSI6eyJ0eXBlIjoiNSIsIm1heCI6IjEiLCJwYXJhbXMiOnsiaGlkZWxpa2UiOiIwIiwiaGlkZXNob3AiOiIwIiwiaGlkZWNhcnQiOiIwIiwiaGlkZWNhcnRidG4iOiIwIiwidGV4dGJ1eSI6Ilx1N2FjYlx1NTIzYlx1OGQyZFx1NGU3MCJ9LCJzdHlsZSI6eyJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsInRleHRjb2xvciI6IiM5OTk5OTkiLCJpY29uY29sb3IiOiIjOTk5OTk5IiwiY2FydGNvbG9yIjoiI2ZlOTQwMiIsImJ1eWNvbG9yIjoiI2ZkNTU1NSIsImRvdGNvbG9yIjoiI2ZmMDAxMSJ9LCJpZCI6ImRldGFpbF9uYXZiYXIifX19', '../addons/ewei_shopv2/plugin/diypage/static/template/detail1/preview.jpg', 11, 0, 0, 0),
+(15, 0, 7, '整点秒杀', 'eyJwYWdlIjp7InR5cGUiOiI3IiwidGl0bGUiOiJcdTY1NzRcdTcwYjlcdTc5ZDJcdTY3NDAiLCJuYW1lIjoiXHU2NTc0XHU3MGI5XHU3OWQyXHU2NzQwIiwiZGVzYyI6IiIsImljb24iOiIiLCJrZXl3b3JkIjoiIiwiYmFja2dyb3VuZCI6IiNmYWZhZmEiLCJkaXltZW51IjoiLTEiLCJmb2xsb3diYXIiOiIwIiwidmlzaXQiOiIwIiwidmlzaXRsZXZlbCI6eyJtZW1iZXIiOiIiLCJjb21taXNzaW9uIjoiIn0sIm5vdmlzaXQiOnsidGl0bGUiOiIiLCJsaW5rIjoiIn19LCJpdGVtcyI6eyJNMTQ4MDQ5ODExNTc4MCI6eyJ0eXBlIjoiNyIsIm1heCI6IjEiLCJzdHlsZSI6eyJtYXJnaW50b3AiOiIwIiwiYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJjb2xvciI6IiMzMzMzMzMiLCJiZ2NvbG9yIjoiI2ZmZmZmZiIsInNlbGVjdGVkY29sb3IiOiIjZmYzMzAwIiwic2VsZWN0ZWRiZ2NvbG9yIjoiI2ZmZmZmZiJ9LCJpZCI6InNlY2tpbGxfdGltZXMifSwiTTE0ODA0OTgxMTgwMTkiOnsidHlwZSI6IjciLCJtYXgiOiIxIiwic3R5bGUiOnsibWFyZ2ludG9wIjoiMTAiLCJtYXJnaW5ib3R0b20iOiIwIiwiYmFja2dyb3VuZCI6IiNmZmZmZmYifSwiaWQiOiJzZWNraWxsX2FkdnMifSwiTTE0ODA0OTgxMTcwNDMiOnsidHlwZSI6IjciLCJtYXgiOiIxIiwic3R5bGUiOnsibWFyZ2ludG9wIjoiMTAiLCJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsImNvbG9yIjoiIzMzMzMzMyIsImJnY29sb3IiOiIjZmZmZmZmIiwic2VsZWN0ZWRjb2xvciI6IiNlZjRmNGYiLCJzZWxlY3RlZGJnY29sb3IiOiIjZmZmZmZmIn0sImlkIjoic2Vja2lsbF9yb29tcyJ9LCJNMTQ4MDQ5ODExODQ1MyI6eyJ0eXBlIjoiNyIsIm1heCI6IjEiLCJwYXJhbXMiOnsidGl0bGV0ZXh0IjoiXHU1MTQ4XHU0ZTBiXHU1MzU1XHU1MTQ4XHU1Zjk3XHU1NGU2fiIsInRpdGxlb3ZlcnRleHQiOiJcdThmZDhcdTUzZWZcdTRlZTVcdTdlZTdcdTdlZWRcdTYyYTJcdThkMmRcdTU0ZTZ+IiwidGl0bGV3YWl0dGV4dCI6Ilx1NTM3M1x1NWMwNlx1NWYwMFx1NTljYiBcdTUxNDhcdTRlMGJcdTUzNTVcdTUxNDhcdTVmOTdcdTU0ZTYiLCJidG50ZXh0IjoiXHU2MmEyXHU4ZDJkXHU0ZTJkIiwiYnRub3ZlcnRleHQiOiJcdTVkZjJcdTYyYTJcdTViOGMiLCJidG53YWl0dGV4dCI6Ilx1N2I0OVx1NWY4NVx1NjJhMlx1OGQyZCJ9LCJzdHlsZSI6eyJtYXJnaW50b3AiOiIxMCIsIm1hcmdpbmJvdHRvbSI6IjAiLCJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsInRvcGJnY29sb3IiOiIjZjBmMmY1IiwidG9wY29sb3IiOiIjMzMzMzMzIiwidGltZWJnY29sb3IiOiIjNDY0NTUzIiwidGltZWNvbG9yIjoiI2ZmZmZmZiIsInRpdGxlY29sb3IiOiIjMzMzMzMzIiwicHJpY2Vjb2xvciI6IiNlZjRmNGYiLCJtYXJrZXRwcmljZWNvbG9yIjoiIzk0OTU5OCIsImJ0bmJnY29sb3IiOiIjZWY0ZjRmIiwiYnRub3ZlcmJnY29sb3IiOiIjZjdmN2Y3IiwiYnRud2FpdGJnY29sb3IiOiIjMDRiZTAyIiwiYnRuY29sb3IiOiIjZmZmZmZmIiwiYnRub3ZlcmNvbG9yIjoiIzMzMzMzMyIsImJ0bndhaXRjb2xvciI6IiNmZmZmZmYiLCJwcm9jZXNzdGV4dGNvbG9yIjoiI2QwZDFkMiIsInByb2Nlc3NiZ2NvbG9yIjoiI2ZmOGY4ZiJ9LCJpZCI6InNlY2tpbGxfbGlzdCJ9fX0=', '../addons/ewei_shopv2/plugin/diypage/static/template/seckill/preview.png', 12, 0, 0, 0),
+(16, 0, 6, '积分商城', 'eyJwYWdlIjp7InR5cGUiOiI2IiwidGl0bGUiOiJcdTc5ZWZcdTUyMDZcdTU1NDZcdTU3Y2UiLCJuYW1lIjoiXHU2ZDRiXHU4YmQ1XHU3OWVmXHU1MjA2XHU1NTQ2XHU1N2NlXHU5ODc1XHU5NzYyIiwiZGVzYyI6IiIsImljb24iOiIiLCJrZXl3b3JkIjoiIiwiYmFja2dyb3VuZCI6IiNmYWZhZmEiLCJkaXltZW51IjoiLTEiLCJmb2xsb3diYXIiOiIwIiwidmlzaXQiOiIwIiwidmlzaXRsZXZlbCI6eyJtZW1iZXIiOiIiLCJjb21taXNzaW9uIjoiIn0sIm5vdmlzaXQiOnsidGl0bGUiOiIiLCJsaW5rIjoiIn19LCJpdGVtcyI6eyJNMTQ3OTI2MTA2MTY0NSI6eyJzdHlsZSI6eyJkb3RzdHlsZSI6InJvdW5kIiwiZG90YWxpZ24iOiJjZW50ZXIiLCJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsImxlZnRyaWdodCI6IjUiLCJib3R0b20iOiI1Iiwib3BhY2l0eSI6IjAuOCJ9LCJkYXRhIjp7IkMxNDc5MjYxMDYxNjQ1Ijp7ImltZ3VybCI6Imh0dHA6XC9cL29mNm9kaGRxMS5ia3QuY2xvdWRkbi5jb21cLzA2M2E2ZWM4NGY0NWE3MGQ2Y2NhOGQ4ZjI2NWQxYjcyLmpwZyIsImxpbmt1cmwiOiIuXC9pbmRleC5waHA/aT0xMiZjPWVudHJ5Jm09ZXdlaV9zaG9wdjImZG89bW9iaWxlJnI9Y3JlZGl0c2hvcC5kZXRhaWwmaWQ9MTE3In0sIkMxNDc5MjYxMDYxNjQ2Ijp7ImltZ3VybCI6Imh0dHA6XC9cL29mNm9kaGRxMS5ia3QuY2xvdWRkbi5jb21cLzQwMTgzYzEyY2M0MWIxYWYwMjY3NDIwYzUwNjQyODliLmpwZyIsImxpbmt1cmwiOiIuXC9pbmRleC5waHA/aT0xMiZjPWVudHJ5Jm09ZXdlaV9zaG9wdjImZG89bW9iaWxlJnI9Y3JlZGl0c2hvcC5saXN0cyJ9fSwiaWQiOiJiYW5uZXIifSwiTTE0NzkyNjgxMTQxNjEiOnsic3R5bGUiOnsibWFyZ2ludG9wIjoiMTAiLCJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiJ9LCJkYXRhIjp7IkMxNDc5MjY4MTE0MTYxIjp7InRleHQiOiJcdTYyMTFcdTc2ODRcdTc5ZWZcdTUyMDYiLCJpY29uY2xhc3MiOiJpY29uLWppZmVuIiwidGV4dGNvbG9yIjoiIzY2NjY2NiIsImljb25jb2xvciI6IiM2NjY2NjYiLCJsaW5rdXJsIjoiLlwvaW5kZXgucGhwP2k9MTImYz1lbnRyeSZtPWV3ZWlfc2hvcHYyJmRvPW1vYmlsZSZyPWNyZWRpdHNob3AuY3JlZGl0bG9nIn0sIkMxNDc5MjY4MTE0MTYyIjp7InRleHQiOiJcdTUxNTFcdTYzNjJcdThiYjBcdTVmNTUiLCJpY29uY2xhc3MiOiJpY29uLWxpc3QiLCJ0ZXh0Y29sb3IiOiIjNjY2NjY2IiwiaWNvbmNvbG9yIjoiIzY2NjY2NiIsImxpbmt1cmwiOiIuXC9pbmRleC5waHA/aT0xMiZjPWVudHJ5Jm09ZXdlaV9zaG9wdjImZG89bW9iaWxlJnI9Y3JlZGl0c2hvcC5sb2cifX0sImlkIjoibWVudTIifSwiTTE0NzkyOTA3OTU0MjciOnsicGFyYW1zIjp7InBsYWNlaG9sZGVyIjoiXHU4YmY3XHU4ZjkzXHU1MTY1XHU1MTczXHU5NTJlXHU1YjU3XHU4ZmRiXHU4ODRjXHU2NDFjXHU3ZDIyIiwiZ29vZHN0eXBlIjoiMSJ9LCJzdHlsZSI6eyJpbnB1dGJhY2tncm91bmQiOiIjZmZmZmZmIiwiYmFja2dyb3VuZCI6IiNmMWYxZjIiLCJpY29uY29sb3IiOiIjYjRiNGI0IiwiY29sb3IiOiIjOTk5OTk5IiwicGFkZGluZ3RvcCI6IjYiLCJwYWRkaW5nbGVmdCI6IjEwIiwidGV4dGFsaWduIjoibGVmdCIsInNlYXJjaHN0eWxlIjoiIn0sImlkIjoic2VhcmNoIn0sIk0xNDc5NTQ0NjE5NDQwIjp7InN0eWxlIjp7ImhlaWdodCI6IjEwIiwiYmFja2dyb3VuZCI6IiNmYWZhZmEifSwiaWQiOiJibGFuayJ9LCJNMTQ3OTI2MTA3NjMzMyI6eyJzdHlsZSI6eyJuYXZzdHlsZSI6IiIsImJhY2tncm91bmQiOiIjZmZmZmZmIiwicm93bnVtIjoiNCIsInNob3d0eXBlIjoiMCIsInNob3dkb3QiOiIxIiwicGFnZW51bSI6IjgifSwiZGF0YSI6eyJDMTQ3OTI2MTA3NjMzMyI6eyJpbWd1cmwiOiJodHRwOlwvXC9vZjZvZGhkcTEuYmt0LmNsb3VkZG4uY29tXC9mNGM0ZWZlNjEwMzJiNGE5N2VjYTAzNWM3ZTcyNTA2OC5wbmciLCJsaW5rdXJsIjoiIiwidGV4dCI6Ilx1NzNiMFx1OTFkMVx1N2VhMlx1NTMwNSIsImNvbG9yIjoiIzY2NjY2NiJ9LCJDMTQ3OTI2MTA3NjMzNCI6eyJpbWd1cmwiOiJodHRwOlwvXC9vZjZvZGhkcTEuYmt0LmNsb3VkZG4uY29tXC83MTg2ZWI1NDE2OWExMzU1YTcwMjQxNjA1OGY1ODg2My5wbmciLCJsaW5rdXJsIjoiIiwidGV4dCI6Ilx1N2NiZVx1N2Y4ZVx1NWI5ZVx1NzI2OSIsImNvbG9yIjoiIzY2NjY2NiJ9LCJDMTQ3OTI2MTA3NjMzNSI6eyJpbWd1cmwiOiJodHRwOlwvXC9vZjZvZGhkcTEuYmt0LmNsb3VkZG4uY29tXC85NzFhODQxYzI1NzdlZDlhYjQyNDJlOTkxZjU5YWE1My5wbmciLCJsaW5rdXJsIjoiIiwidGV4dCI6Ilx1NGYxOFx1NjBlMFx1NTIzOCIsImNvbG9yIjoiIzY2NjY2NiJ9LCJDMTQ3OTI2MTA3NjMzNiI6eyJpbWd1cmwiOiJodHRwOlwvXC9vZjZvZGhkcTEuYmt0LmNsb3VkZG4uY29tXC80NWE3NDYwOTRlOWM5NmY2ZTY5Njg0OWFlNmYxMDFhZS5wbmciLCJsaW5rdXJsIjoiIiwidGV4dCI6Ilx1NGY1OVx1OTg5ZFx1NTk1Nlx1NTJiMSIsImNvbG9yIjoiIzY2NjY2NiJ9fSwiaWQiOiJtZW51In0sIk0xNDc5MjYxNDUwNzM0Ijp7InN0eWxlIjp7Im1hcmdpbnRvcCI6IjEwIiwiYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJpY29uY29sb3IiOiIjOTk5OTk5IiwidGV4dGNvbG9yIjoiIzMzMzMzMyIsInJlbWFya2NvbG9yIjoiIzg4ODg4OCJ9LCJkYXRhIjp7IkMxNDc5MjYxNDUwNzM0Ijp7InRleHQiOiJcdTdjYmVcdTdmOGVcdTViOWVcdTcyNjlcdTYyYmRcdTU5NTYiLCJsaW5rdXJsIjoiIiwiaWNvbmNsYXNzIjoiaWNvbi1naWZ0cyIsInJlbWFyayI6Ilx1NjZmNFx1NTkxYSIsImRvdG51bSI6IiJ9fSwiaWQiOiJsaXN0bWVudSJ9LCJNMTQ3OTU0Mzc4MTg2NyI6eyJwYXJhbXMiOnsiZ29vZHN0eXBlIjoiMSIsInNob3d0aXRsZSI6IjEiLCJzaG93cHJpY2UiOiIxIiwic2hvd3RhZyI6IjIiLCJnb29kc2RhdGEiOiI1IiwiY2F0ZWlkIjoiIiwiY2F0ZW5hbWUiOiIiLCJncm91cGlkIjoiIiwiZ3JvdXBuYW1lIjoiIiwiZ29vZHNzb3J0IjoiMCIsImdvb2RzbnVtIjoiNiIsInNob3dpY29uIjoiMSIsImljb25wb3NpdGlvbiI6ImxlZnQgdG9wIiwicHJvZHVjdHByaWNlIjoiMSIsImdvb2Rzc2Nyb2xsIjoiMSJ9LCJzdHlsZSI6eyJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsImxpc3RzdHlsZSI6ImJsb2NrIiwiYnV5c3R5bGUiOiJidXlidG4tMSIsImdvb2RzaWNvbiI6InJlY29tbWFuZCIsInByaWNlY29sb3IiOiIjZWQyODIyIiwiaWNvbnBhZGRpbmd0b3AiOiIwIiwiaWNvbnBhZGRpbmdsZWZ0IjoiMCIsImJ1eWJ0bmNvbG9yIjoiI2ZlNTQ1NSIsImljb256b29tIjoiMTAwIiwidGl0bGVjb2xvciI6IiMyNjI2MjYiLCJ0YWdiYWNrZ3JvdW5kIjoiI2ZlNTQ1NSJ9LCJkYXRhIjp7IkMxNDc5NTQzNzgxODY3Ijp7InRodW1iIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC9pbWFnZXNcL2RlZmF1bHRcL2dvb2RzLTEuanBnIiwicHJpY2UiOiIyMC4wMCIsInRpdGxlIjoiXHU4ZmQ5XHU5MWNjXHU2NjJmXHU1NTQ2XHU1NGMxXHU2ODA3XHU5ODk4IiwiZ2lkIjoiIiwiYmFyZ2FpbiI6IjAiLCJjcmVkaXQiOiIwIiwiY3R5cGUiOiIxIn0sIkMxNDc5NTQzNzgxODY4Ijp7InRodW1iIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC9pbWFnZXNcL2RlZmF1bHRcL2dvb2RzLTIuanBnIiwicHJpY2UiOiIyMC4wMCIsInRpdGxlIjoiXHU4ZmQ5XHU5MWNjXHU2NjJmXHU1NTQ2XHU1NGMxXHU2ODA3XHU5ODk4IiwiZ2lkIjoiIiwiYmFyZ2FpbiI6IjAiLCJjcmVkaXQiOiIwIiwiY3R5cGUiOiIxIn0sIkMxNDc5NTQzNzgxODY5Ijp7InRodW1iIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC9pbWFnZXNcL2RlZmF1bHRcL2dvb2RzLTMuanBnIiwicHJpY2UiOiIyMC4wMCIsInRpdGxlIjoiXHU4ZmQ5XHU5MWNjXHU2NjJmXHU1NTQ2XHU1NGMxXHU2ODA3XHU5ODk4IiwiZ2lkIjoiIiwiYmFyZ2FpbiI6IjAiLCJjcmVkaXQiOiIwIiwiY3R5cGUiOiIwIn0sIkMxNDc5NTQzNzgxODcwIjp7InRodW1iIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC9pbWFnZXNcL2RlZmF1bHRcL2dvb2RzLTQuanBnIiwicHJpY2UiOiIyMC4wMCIsInRpdGxlIjoiXHU4ZmQ5XHU5MWNjXHU2NjJmXHU1NTQ2XHU1NGMxXHU2ODA3XHU5ODk4IiwiZ2lkIjoiIiwiYmFyZ2FpbiI6IjAiLCJjcmVkaXQiOiIwIiwiY3R5cGUiOiIwIn19LCJpZCI6Imdvb2RzIn0sIk0xNDc5MjYxNTk0MDc3Ijp7InN0eWxlIjp7Im1hcmdpbnRvcCI6IjEwIiwiYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJpY29uY29sb3IiOiIjOTk5OTk5IiwidGV4dGNvbG9yIjoiIzMzMzMzMyIsInJlbWFya2NvbG9yIjoiIzg4ODg4OCJ9LCJkYXRhIjp7IkMxNDc5MjYxNTk0MDc3Ijp7InRleHQiOiJcdTU1NDZcdTU3Y2VcdTRmMThcdTYwZTBcdTUyMzgiLCJsaW5rdXJsIjoiIiwiaWNvbmNsYXNzIjoiaWNvbi1naWZ0cyIsInJlbWFyayI6Ilx1NjZmNFx1NTkxYSIsImRvdG51bSI6IiJ9fSwiaWQiOiJsaXN0bWVudSJ9LCJNMTQ3OTI2MTY1NTkxOSI6eyJwYXJhbXMiOnsic2hvd3RpdGxlIjoiMSIsInNob3dwcmljZSI6IjEiLCJnb29kc2RhdGEiOiIxIiwiY2F0ZWlkIjoiOTAiLCJjYXRlbmFtZSI6Ilx1NmQ0Ylx1OGJkNVx1NTIwNlx1N2M3YjAxMCIsImdyb3VwaWQiOiIiLCJncm91cG5hbWUiOiIiLCJnb29kc3NvcnQiOiIwIiwiZ29vZHNudW0iOiI2Iiwic2hvd2ljb24iOiIxIiwiaWNvbnBvc2l0aW9uIjoibGVmdCB0b3AiLCJnb29kc3R5cGUiOiIxIiwiZ29vZHNzY3JvbGwiOiIwIn0sInN0eWxlIjp7Imxpc3RzdHlsZSI6IiIsImJ1eXN0eWxlIjoiYnV5YnRuLTEiLCJnb29kc2ljb24iOiJyZWNvbW1hbmQiLCJwcmljZWNvbG9yIjoiI2VkMjgyMiIsImljb25wYWRkaW5ndG9wIjoiMCIsImljb25wYWRkaW5nbGVmdCI6IjAiLCJidXlidG5jb2xvciI6IiNmZTU0NTUiLCJpY29uem9vbSI6IjEwMCIsInRpdGxlY29sb3IiOiIjMjYyNjI2In0sImRhdGEiOnsiQzE0NzkyNjE2NTU5MTkiOnsidGh1bWIiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvZ29vZHMtMS5qcGciLCJwcmljZSI6IjIwLjAwIiwidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTU1NDZcdTU0YzFcdTY4MDdcdTk4OTgiLCJnaWQiOiIiLCJiYXJnYWluIjoiMCJ9LCJDMTQ3OTI2MTY1NTkyMCI6eyJ0aHVtYiI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvaW1hZ2VzXC9kZWZhdWx0XC9nb29kcy0yLmpwZyIsInByaWNlIjoiMjAuMDAiLCJ0aXRsZSI6Ilx1OGZkOVx1OTFjY1x1NjYyZlx1NTU0Nlx1NTRjMVx1NjgwN1x1OTg5OCIsImdpZCI6IiIsImJhcmdhaW4iOiIwIn0sIkMxNDc5MjYxNjU1OTIxIjp7InRodW1iIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC9pbWFnZXNcL2RlZmF1bHRcL2dvb2RzLTMuanBnIiwicHJpY2UiOiIyMC4wMCIsInRpdGxlIjoiXHU4ZmQ5XHU5MWNjXHU2NjJmXHU1NTQ2XHU1NGMxXHU2ODA3XHU5ODk4IiwiZ2lkIjoiIiwiYmFyZ2FpbiI6IjAifSwiQzE0NzkyNjE2NTU5MjIiOnsidGh1bWIiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvZ29vZHMtNC5qcGciLCJwcmljZSI6IjIwLjAwIiwidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTU1NDZcdTU0YzFcdTY4MDdcdTk4OTgiLCJnaWQiOiIiLCJiYXJnYWluIjoiMCJ9fSwiaWQiOiJnb29kcyJ9fX0=', '../addons/ewei_shopv2/plugin/diypage/static/template/creditshop/preview.png', 13, 0, 0, 0),
+(17, 0, 8, '兑换中心', 'eyJwYWdlIjp7InR5cGUiOiI4IiwidGl0bGUiOiJcdTUxNTFcdTYzNjJcdTRlMmRcdTVmYzMiLCJuYW1lIjoiXHU1MTUxXHU2MzYyXHU0ZTJkXHU1ZmMzXHU2YTIxXHU2NzdmIiwiZGVzYyI6IiIsImljb24iOiIiLCJrZXl3b3JkIjoiIiwiYmFja2dyb3VuZCI6IiNmYWZhZmEiLCJkaXltZW51IjoiLTEiLCJkaXlsYXllciI6IjAiLCJkaXlnb3RvcCI6IjAiLCJmb2xsb3diYXIiOiIwIiwidmlzaXQiOiIwIiwidmlzaXRsZXZlbCI6eyJtZW1iZXIiOiIiLCJjb21taXNzaW9uIjoiIn0sIm5vdmlzaXQiOnsidGl0bGUiOiIiLCJsaW5rIjoiIn19LCJpdGVtcyI6eyJNMTQ4MjM3Mjk0MjA3NSI6eyJtYXgiOiIxIiwidHlwZSI6IjgiLCJwYXJhbXMiOnsiZGF0YXR5cGUiOiIwIn0sInN0eWxlIjp7ImRvdHN0eWxlIjoicm91bmQiLCJkb3RhbGlnbiI6ImNlbnRlciIsImJhY2tncm91bmQiOiIjZmZmZmZmIiwibGVmdHJpZ2h0IjoiNSIsImJvdHRvbSI6IjUiLCJvcGFjaXR5IjoiMC44In0sImRhdGEiOnsiQzE0ODIzNzI5NDIwNzUiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC9pbWFnZXNcL2RlZmF1bHRcL2Jhbm5lci0xLmpwZyIsImxpbmt1cmwiOiIifSwiQzE0ODIzNzI5NDIwNzYiOnsiaW1ndXJsIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC9pbWFnZXNcL2RlZmF1bHRcL2Jhbm5lci0yLmpwZyIsImxpbmt1cmwiOiIifX0sImlkIjoiZXhjaGFuZ2VfYmFubmVyIn0sIk0xNDgyMzcyOTQyNTE1Ijp7Im1heCI6IjEiLCJ0eXBlIjoiOCIsInBhcmFtcyI6eyJwcmV2aWV3IjoiMCIsInRpdGxlIjoiXHU1MTUxXHU2MzYyXHU3ODAxXHU1MTUxXHU2MzYyIiwicGxhY2Vob2xkZXIiOiJcdThiZjdcdThmOTNcdTUxNjVcdTUxNTFcdTYzNjJcdTc4MDEiLCJidG50ZXh0IjoiXHU3YWNiXHU1MzczXHU1MTUxXHU2MzYyIiwiYmFja2J0biI6Ilx1OGZkNFx1NTZkZVx1OTFjZFx1NjViMFx1OGY5M1x1NTE2NVx1NTE1MVx1NjM2Mlx1NzgwMSIsImV4YnRudGV4dCI6Ilx1NTE1MVx1NjM2MiIsImV4YnRuMnRleHQiOiJcdTVkZjJcdTUxNTFcdTYzNjIiLCJjcmVkaXRpY29uIjoiLi5cL2FkZG9uc1wvZXdlaV9zaG9wdjJcL3BsdWdpblwvZGl5cGFnZVwvc3RhdGljXC9pbWFnZXNcL2RlZmF1bHRcL2ljb25fY3JlZGl0LnBuZyIsIm1vbmV5aWNvbiI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvaW1hZ2VzXC9kZWZhdWx0XC9pY29uX21vbmV5LnBuZyIsImNvdXBvbmljb24iOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvaWNvbl9jb3Vwb24ucG5nIiwicmVkYmFnaWNvbiI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvaW1hZ2VzXC9kZWZhdWx0XC9pY29uX3JlZGJhZy5wbmciLCJnb29kc2ljb24iOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvaWNvbl9nb29kcy5wbmcifSwic3R5bGUiOnsidGl0bGVjb2xvciI6IiM0NDQ0NDQiLCJidG5jb2xvciI6IiNmZmZmZmYiLCJidG5iYWNrZ3JvdW5kIjoiI2VkNTU2NSIsImlucHV0Y29sb3IiOiIjNjY2NjY2IiwiaW5wdXRiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsImlucHV0Ym9yZGVyIjoiI2VmZWZlZiIsImNvZGVjb2xvciI6IiM0NDQ0NDQiLCJudW1jb2xvciI6IiM5OTk5OTkiLCJleGJ0bmNvbG9yIjoiI2ZmZmZmZiIsImV4YnRuYmFja2dyb3VuZCI6IiNlZDU1NjUiLCJleGJ0bjJjb2xvciI6IiNmZmZmZmYiLCJleGJ0bjJiYWNrZ3JvdW5kIjoiI2NjY2NjYyIsImJhY2tidG5jb2xvciI6IiM0NDQ0NDQiLCJiYWNrYnRuYm9yZGVyIjoiI2U3ZWFlYyIsImJhY2tidG5iYWNrZ3JvdW5kIjoiI2Y3ZjdmNyIsImdvb2RzdGl0bGUiOiIjNDQ0NDQ0IiwiZ29vZHNwcmljZSI6IiNhYWFhYWEifSwiaWQiOiJleGNoYW5nZV9pbnB1dCJ9LCJNMTQ4MjM3Mjk0MzE3MyI6eyJtYXgiOiIxIiwidHlwZSI6IjgiLCJwYXJhbXMiOnsicnVsZXRpdGxlIjoiXHU1MTUxXHU2MzYyXHU4OWM0XHU1MjE5In0sInN0eWxlIjp7InJ1bGV0aXRsZWNvbG9yIjoiIzU1NTU1NSJ9LCJpZCI6ImV4Y2hhbmdlX3J1bGUifX19', '../addons/ewei_shopv2/plugin/diypage/static/template/exchange/preview.png', 14, 0, 0, 0);
+INSERT INTO `ims_ewei_shop_diypage_template` (`id`, `uniacid`, `type`, `name`, `data`, `preview`, `tplid`, `cate`, `deleted`, `merch`) VALUES
+(18, 90, 3, '会员中心2', 'eyJwYWdlIjp7InR5cGUiOiIzIiwidGl0bGUiOiJcdTRmMWFcdTU0NThcdTRlMmRcdTVmYzMiLCJuYW1lIjoiXHU0ZjFhXHU1NDU4XHU0ZTJkXHU1ZmMzIiwiZGVzYyI6IiIsImljb24iOiIiLCJrZXl3b3JkIjoiIiwiYmFja2dyb3VuZCI6IiNmYWZhZmEiLCJkaXltZW51IjoiMCIsImZvbGxvd2JhciI6IjEiLCJ2aXNpdCI6IjAiLCJ2aXNpdGxldmVsIjp7Im1lbWJlciI6IiIsImNvbW1pc3Npb24iOiIifSwibm92aXNpdCI6eyJ0aXRsZSI6IiIsImxpbmsiOiIifSwiZGl5Z290b3AiOiIxIiwiZGl5bGF5ZXIiOiIxIn0sIml0ZW1zIjp7Ik0xNDc0NTI2MTM0ODE0Ijp7InBhcmFtcyI6eyJzdHlsZSI6ImRlZmF1bHQyIiwibGV2ZWxsaW5rIjoiIiwic2V0aWNvbiI6Imljb24tc2V0dGluZ3MiLCJzZXRsaW5rIjoiLlwvaW5kZXgucGhwP2k9OTAmYz1lbnRyeSZtPWV3ZWlfc2hvcHYyJmRvPW1vYmlsZSZyPW1lbWJlci5pbmZvIiwibGVmdG5hdiI6Ilx1NTE0NVx1NTAzYyIsImxlZnRuYXZsaW5rIjoiIiwicmlnaHRuYXYiOiJcdTUxNTFcdTYzNjIiLCJyaWdodG5hdmxpbmsiOiIifSwic3R5bGUiOnsiYmFja2dyb3VuZCI6IiMxZWM4YzQiLCJ0ZXh0Y29sb3IiOiIjZmZmZmZmIiwidGV4dGxpZ2h0IjoiI2Y3MmIyMCIsImhlYWRzdHlsZSI6IiJ9LCJpbmZvIjp7ImF2YXRhciI6IiIsIm5pY2tuYW1lIjoiIiwibGV2ZWxuYW1lIjoiIiwidGV4dG1vbmV5IjoiIiwidGV4dGNyZWRpdCI6IiIsIm1vbmV5IjoiIiwiY3JlZGl0IjoiIn0sImlkIjoibWVtYmVyIn0sIk0xNDgwOTUyMzU2NTQ5Ijp7InN0eWxlIjp7Im1hcmdpbnRvcCI6IjAiLCJiYWNrZ3JvdW5kIjoiIzFlYzhjNCJ9LCJkYXRhIjp7IkMxNDgwOTUyMzU2NTQ5Ijp7InRleHQiOiJcdTRlY2FcdTY1ZTVcdTdiN2VcdTUyMzAiLCJpY29uY2xhc3MiOiJpY29uLWxvY2F0aW9uZmlsbCIsInRleHRjb2xvciI6IiNmZmZmZmYiLCJpY29uY29sb3IiOiIjZmZmZmZmIiwibGlua3VybCI6Imh0dHA6XC9cL3ZpcC5wc2Ntcy5jblwvYXBwXC9pbmRleC5waHA/aT05MCZjPWVudHJ5Jm09ZXdlaV9zaG9wdjImZG89bW9iaWxlJnI9c2lnbiJ9LCJDMTQ4MDk1MjM1NjU1MCI6eyJ0ZXh0IjoiXHU2MjExXHU3Njg0XHU0ZWZiXHU1MmExIiwiaWNvbmNsYXNzIjoiaWNvbi10aW1lZmlsbCIsInRleHRjb2xvciI6IiNmZmZmZmYiLCJpY29uY29sb3IiOiIjZmZmZmZmIiwibGlua3VybCI6Ii5cL2luZGV4LnBocD9pPTkwJmM9ZW50cnkmbT1ld2VpX3Nob3B2MiZkbz1tb2JpbGUmcj10YXNrIn0sIk0xNDgwOTUzNDgzNDU1Ijp7InRleHQiOiJcdTk4ODZcdTRmMThcdTYwZTBcdTUyMzgiLCJpY29uY2xhc3MiOiJpY29uLWNob2ljZW5lc3NmaWxsIiwidGV4dGNvbG9yIjoiI2ZmZmZmZiIsImljb25jb2xvciI6IiNmZmZmZmYiLCJsaW5rdXJsIjoiLlwvaW5kZXgucGhwP2k9OTAmYz1lbnRyeSZtPWV3ZWlfc2hvcHYyJmRvPW1vYmlsZSZyPXNhbGUuY291cG9uIn19LCJpZCI6Im1lbnUyIn0sIk0xNDgwOTUwMTA2OTM1Ijp7InBhcmFtcyI6eyJyb3dudW0iOiI0IiwiYm9yZGVyIjoiMCIsImJvcmRlcnRvcCI6IjAiLCJib3JkZXJib3R0b20iOiIwIn0sInN0eWxlIjp7ImJhY2tncm91bmQiOiIjZmZmZmZmIiwiYm9yZGVyY29sb3IiOiIjZWJlYmViIiwidGV4dGNvbG9yIjoiIzFlYzhjNCIsImljb25jb2xvciI6IiMxZWM4YzQiLCJkb3Rjb2xvciI6IiNmZjAwMTEifSwiZGF0YSI6eyJNMTQ4MDk1MTY5NjUwNiI6eyJpY29uY2xhc3MiOiJpY29uLXRpbWVmaWxsIiwidGV4dCI6Ilx1NjU3NFx1NzBiOVx1NzlkMlx1Njc0MCIsImxpbmt1cmwiOiIuXC9pbmRleC5waHA/aT05MCZjPWVudHJ5Jm09ZXdlaV9zaG9wdjImZG89bW9iaWxlJnI9c2Vja2lsbCIsImRvdG51bSI6IjAifSwiQzE0ODA5NTAxMDY5MzUiOnsiaWNvbmNsYXNzIjoiaWNvbi1xaWFuZyIsInRleHQiOiJcdTk2NTBcdTY1ZjZcdTYyYTJcdThkMmQiLCJsaW5rdXJsIjoiLlwvaW5kZXgucGhwP2k9OTAmYz1lbnRyeSZtPWV3ZWlfc2hvcHYyJmRvPW1vYmlsZSZyPWdvb2RzJmlzdGltZT0xIiwiZG90bnVtIjoiMCJ9LCJDMTQ4MDk1MDEwNjkzNiI6eyJpY29uY2xhc3MiOiJpY29uLXBlb3BsZTIiLCJ0ZXh0IjoiXHU5NDljXHU2MGUwXHU1NmUyXHU4ZDJkIiwibGlua3VybCI6IiIsImRvdG51bSI6IjAifSwiQzE0ODA5NTAxMDY5MzciOnsiaWNvbmNsYXNzIjoiaWNvbi1yZXBhaXJmaWxsIiwidGV4dCI6Ilx1NzVhZlx1NzJjMlx1NzgwZFx1NGVmNyIsImxpbmt1cmwiOiIuXC9pbmRleC5waHA/aT05MCZjPWVudHJ5Jm09ZXdlaV9zaG9wdjImZG89bW9iaWxlJnI9YmFyZ2FpbiIsImRvdG51bSI6IjAifX0sImlkIjoiaWNvbmdyb3VwIn0sIk0xNDc0NTI2MTQzNDg3Ijp7InN0eWxlIjp7Im1hcmdpbnRvcCI6IjEwIiwiYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJpY29uY29sb3IiOiIjMWVjOGM0IiwidGV4dGNvbG9yIjoiIzFlYzhjNCIsInJlbWFya2NvbG9yIjoiI2ZmODAwMCJ9LCJkYXRhIjp7IkMxNDc0NTI2MTQzNDg5Ijp7InRleHQiOiJcdTYyMTFcdTc2ODRcdThiYTJcdTUzNTUiLCJsaW5rdXJsIjoiLlwvaW5kZXgucGhwP2k9OTAmYz1lbnRyeSZtPWV3ZWlfc2hvcHYyJmRvPW1vYmlsZSZyPW9yZGVyIiwiaWNvbmNsYXNzIjoiaWNvbi1saXN0IiwicmVtYXJrIjoiXHU2N2U1XHU3NzBiXHU1MTY4XHU5MGU4IiwiZG90bnVtIjoiIn19LCJpZCI6Imxpc3RtZW51In0sIk0xNDc0NTI2MTgxNDMxIjp7InBhcmFtcyI6eyJyb3dudW0iOiI1IiwiYm9yZGVyIjoiMSIsImJvcmRlcnRvcCI6IjAiLCJib3JkZXJib3R0b20iOiIxIn0sInN0eWxlIjp7ImJhY2tncm91bmQiOiIjZmZmZmZmIiwiYm9yZGVyY29sb3IiOiIjZWJlYmViIiwidGV4dGNvbG9yIjoiIzFlYzhjNCIsImljb25jb2xvciI6IiMxZWM4YzQiLCJkb3Rjb2xvciI6IiNmZjAwMTEifSwiZGF0YSI6eyJDMTQ3NDUyNjE4MTQzMSI6eyJpY29uY2xhc3MiOiJpY29uLWNhcmQiLCJ0ZXh0IjoiXHU1Zjg1XHU0ZWQ4XHU2YjNlIiwibGlua3VybCI6Ii5cL2luZGV4LnBocD9pPTkwJmM9ZW50cnkmbT1ld2VpX3Nob3B2MiZkbz1tb2JpbGUmcj1vcmRlciZzdGF0dXM9MCIsImRvdG51bSI6IjAifSwiQzE0NzQ1MjYxODE0MzIiOnsiaWNvbmNsYXNzIjoiaWNvbi1ib3giLCJ0ZXh0IjoiXHU1Zjg1XHU1M2QxXHU4ZDI3IiwibGlua3VybCI6Ii5cL2luZGV4LnBocD9pPTkwJmM9ZW50cnkmbT1ld2VpX3Nob3B2MiZkbz1tb2JpbGUmcj1vcmRlciZzdGF0dXM9MSIsImRvdG51bSI6IjAifSwiQzE0NzQ1MjYxODE0MzMiOnsiaWNvbmNsYXNzIjoiaWNvbi1kZWxpdmVyIiwidGV4dCI6Ilx1NWY4NVx1NjUzNlx1OGQyNyIsImxpbmt1cmwiOiIuXC9pbmRleC5waHA/aT05MCZjPWVudHJ5Jm09ZXdlaV9zaG9wdjImZG89bW9iaWxlJnI9b3JkZXImc3RhdHVzPTIiLCJkb3RudW0iOiIwIn0sIkMxNDc0NTI2MTgxNDM0Ijp7Imljb25jbGFzcyI6Imljb24tcmVmcmVzaCIsInRleHQiOiJcdTkwMDBcdTYzNjJcdThkMjciLCJsaW5rdXJsIjoiLlwvaW5kZXgucGhwP2k9OTAmYz1lbnRyeSZtPWV3ZWlfc2hvcHYyJmRvPW1vYmlsZSZyPW9yZGVyJnN0YXR1cz00IiwiZG90bnVtIjoiMCJ9LCJNMTQ4MjIyNzQ2MjgzNiI6eyJpY29uY2xhc3MiOiJpY29uLWRlbGl2ZXIxIiwidGV4dCI6Ilx1OTE0ZFx1OTAwMVx1OGJmNFx1NjYwZSIsImxpbmt1cmwiOiJodHRwOlwvXC92aXAucHNjbXMuY25cL2FwcFwvaW5kZXgucGhwP2k9OTAmYz1lbnRyeSZtPWV3ZWlfc2hvcHYyJmRvPW1vYmlsZSZyPXFhLmRldGFpbCZtaWQ9MTIxNzkmaWQ9MSIsImRvdG51bSI6IjAifX0sImlkIjoiaWNvbmdyb3VwIn0sIk0xNDgwOTUyMDA0OTA3Ijp7InBhcmFtcyI6eyJ0aXRsZSI6Ilx1NjIxMVx1NzY4NFx1NWRlNVx1NTE3NyIsImljb24iOiJpY29uLXJlcGFpciJ9LCJzdHlsZSI6eyJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsImNvbG9yIjoiI2ZmODAwMCIsInRleHRhbGlnbiI6ImxlZnQiLCJmb250c2l6ZSI6IjE0IiwicGFkZGluZ3RvcCI6IjUiLCJwYWRkaW5nbGVmdCI6IjUifSwiaWQiOiJ0aXRsZSJ9LCJNMTQ4MDk1MjI2NDk5MyI6eyJwYXJhbXMiOnsicm93bnVtIjoiMyIsImJvcmRlciI6IjEiLCJib3JkZXJ0b3AiOiIxIiwiYm9yZGVyYm90dG9tIjoiMCJ9LCJzdHlsZSI6eyJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsImJvcmRlcmNvbG9yIjoiI2ViZWJlYiIsInRleHRjb2xvciI6IiMxZWM4YzQiLCJpY29uY29sb3IiOiIjMWVjOGM0IiwiZG90Y29sb3IiOiIjZmYwMDExIn0sImRhdGEiOnsiQzE0ODA5NTIyNjQ5OTMiOnsiaWNvbmNsYXNzIjoiaWNvbi1mYXZvcmZpbGwiLCJ0ZXh0IjoiXHU2MjExXHU3Njg0XHU2NTM2XHU4NWNmIiwibGlua3VybCI6Ii5cL2luZGV4LnBocD9pPTkwJmM9ZW50cnkmbT1ld2VpX3Nob3B2MiZkbz1tb2JpbGUmcj1tZW1iZXIuZmF2b3JpdGUiLCJkb3RudW0iOiIwIn0sIkMxNDgwOTUyMjY0OTk0Ijp7Imljb25jbGFzcyI6Imljb24tYWN0aXZpdHlmaWxsIiwidGV4dCI6Ilx1NjIxMVx1NzY4NFx1OGRiM1x1OGZmOSIsImxpbmt1cmwiOiIuXC9pbmRleC5waHA/aT05MCZjPWVudHJ5Jm09ZXdlaV9zaG9wdjImZG89bW9iaWxlJnI9bWVtYmVyLmhpc3RvcnkiLCJkb3RudW0iOiIwIn0sIkMxNDgwOTUyMjY0OTk1Ijp7Imljb25jbGFzcyI6Imljb24tY2FydGZpbGwiLCJ0ZXh0IjoiXHU2MjExXHU3Njg0XHU4ZDJkXHU3MjY5XHU4ZjY2IiwibGlua3VybCI6Ii5cL2luZGV4LnBocD9pPTkwJmM9ZW50cnkmbT1ld2VpX3Nob3B2MiZkbz1tb2JpbGUmcj1tZW1iZXIuY2FydCIsImRvdG51bSI6IjAifX0sImlkIjoiaWNvbmdyb3VwIn0sIk0xNDgwOTUyODI4MTE2Ijp7InBhcmFtcyI6eyJyb3dudW0iOiIzIiwiYm9yZGVyIjoiMSIsImJvcmRlcnRvcCI6IjAiLCJib3JkZXJib3R0b20iOiIxIn0sInN0eWxlIjp7ImJhY2tncm91bmQiOiIjZmZmZmZmIiwiYm9yZGVyY29sb3IiOiIjZWJlYmViIiwidGV4dGNvbG9yIjoiIzFlYzhjNCIsImljb25jb2xvciI6IiMxZWM4YzQiLCJkb3Rjb2xvciI6IiNmZjAwMTEifSwiZGF0YSI6eyJDMTQ4MDk1MjgyODExNiI6eyJpY29uY2xhc3MiOiJpY29uLWNhcmQiLCJ0ZXh0IjoiXHU2MjExXHU3Njg0XHU1NzMwXHU1NzQwIiwibGlua3VybCI6Ii5cL2luZGV4LnBocD9pPTkwJmM9ZW50cnkmbT1ld2VpX3Nob3B2MiZkbz1tb2JpbGUmcj1tZW1iZXIuYWRkcmVzcyIsImRvdG51bSI6IjAifSwiQzE0ODA5NTI4MjgxMTciOnsiaWNvbmNsYXNzIjoiaWNvbi1ib3giLCJ0ZXh0IjoiXHU2MjExXHU3Njg0XHU4ZDQ0XHU2NTk5IiwibGlua3VybCI6Ii5cL2luZGV4LnBocD9pPTkwJmM9ZW50cnkmbT1ld2VpX3Nob3B2MiZkbz1tb2JpbGUmcj1tZW1iZXIuaW5mbyIsImRvdG51bSI6IjAifSwiQzE0ODA5NTI4MjgxMTgiOnsiaWNvbmNsYXNzIjoiaWNvbi1kZWxpdmVyIiwidGV4dCI6Ilx1NjIxMVx1NzY4NFx1NTIzOCIsImxpbmt1cmwiOiIuXC9pbmRleC5waHA/aT05MCZjPWVudHJ5Jm09ZXdlaV9zaG9wdjImZG89bW9iaWxlJnI9c2FsZS5jb3Vwb24ubXkiLCJkb3RudW0iOiIwIn19LCJpZCI6Imljb25ncm91cCJ9LCJNMTQ4MDk1MjAzMTY1MyI6eyJwYXJhbXMiOnsidGl0bGUiOiJcdTRlOTJcdTUyYThcdTc1MWZcdTZkM2IiLCJpY29uIjoiaWNvbi13ZWNoYXQxIn0sInN0eWxlIjp7ImJhY2tncm91bmQiOiIjZmZmZmZmIiwiY29sb3IiOiIjZmY4MDAwIiwidGV4dGFsaWduIjoibGVmdCIsImZvbnRzaXplIjoiMTQiLCJwYWRkaW5ndG9wIjoiNSIsInBhZGRpbmdsZWZ0IjoiNSJ9LCJpZCI6InRpdGxlIn0sIk0xNDgwOTUyNjgxNjcyIjp7InBhcmFtcyI6eyJyb3dudW0iOiI0IiwiYm9yZGVyIjoiMSIsImJvcmRlcnRvcCI6IjEiLCJib3JkZXJib3R0b20iOiIxIn0sInN0eWxlIjp7ImJhY2tncm91bmQiOiIjZmZmZmZmIiwiYm9yZGVyY29sb3IiOiIjZWJlYmViIiwidGV4dGNvbG9yIjoiIzFlYzhjNCIsImljb25jb2xvciI6IiMxZWM4YzQiLCJkb3Rjb2xvciI6IiNmZjAwMTEifSwiZGF0YSI6eyJDMTQ4MDk1MjY4MTY3MyI6eyJpY29uY2xhc3MiOiJpY29uLWNhcmQiLCJ0ZXh0IjoiXHU2MjExXHU3Njg0XHU3OTNlXHU1MzNhIiwibGlua3VybCI6Ii5cL2luZGV4LnBocD9pPTkwJmM9ZW50cnkmbT1ld2VpX3Nob3B2MiZkbz1tb2JpbGUmcj1zbnMiLCJkb3RudW0iOiIwIn0sIkMxNDgwOTUyNjgxNjc0Ijp7Imljb25jbGFzcyI6Imljb24tYm94IiwidGV4dCI6Ilx1NjIxMVx1NzY4NFx1NjY1Mlx1NTZmZSIsImxpbmt1cmwiOiJodHRwOlwvXC92aXAucHNjbXMuY25cL2FwcFwvaW5kZXgucGhwP2k9OTAmYz1lbnRyeSZkbz10b3BpY2xpc3QmbT13YXRlcl9saXZlIiwiZG90bnVtIjoiMCJ9LCJDMTQ4MDk1MjY4MTY3NSI6eyJpY29uY2xhc3MiOiJpY29uLWRlbGl2ZXIiLCJ0ZXh0IjoiXHU3ZjhlXHU5OGRmXHU5NWVlXHU5NWVlIiwibGlua3VybCI6Imh0dHA6XC9cL3ZpcC5wc2Ntcy5jblwvYXBwXC9pbmRleC5waHA/aT05MCZjPWVudHJ5JmRvPWluZGV4Jm09aW1lZXBvc19mdm9pY2UiLCJkb3RudW0iOiIwIn0sIkMxNDgwOTUyNjgxNjc2Ijp7Imljb25jbGFzcyI6Imljb24tZWxlY3RyaWNhbCIsInRleHQiOiJcdTcwZjlcdTk5NmFcdTY1NTlcdTdhMGIiLCJsaW5rdXJsIjoiLlwvaW5kZXgucGhwP2k9OTAmYz1lbnRyeSZtPWV3ZWlfc2hvcHYyJmRvPW1vYmlsZSZyPWFydGljbGUubGlzdCIsImRvdG51bSI6IjAifX0sImlkIjoiaWNvbmdyb3VwIn0sIk0xNDgwOTUzMDI4NDExIjp7InBhcmFtcyI6eyJyb3dudW0iOiI0IiwiYm9yZGVyIjoiMSIsImJvcmRlcnRvcCI6IjEiLCJib3JkZXJib3R0b20iOiIxIn0sInN0eWxlIjp7ImJhY2tncm91bmQiOiIjZmZmZmZmIiwiYm9yZGVyY29sb3IiOiIjZWJlYmViIiwidGV4dGNvbG9yIjoiIzFlYzhjNCIsImljb25jb2xvciI6IiMxZWM4YzQiLCJkb3Rjb2xvciI6IiNmZjAwMTEifSwiZGF0YSI6eyJDMTQ4MDk1MzAyODQxMSI6eyJpY29uY2xhc3MiOiJpY29uLWNhcmQiLCJ0ZXh0IjoiXHU3OWVmXHU1MjA2XHU2MzkyXHU4ODRjIiwibGlua3VybCI6Ii5cL2luZGV4LnBocD9pPTkwJmM9ZW50cnkmbT1ld2VpX3Nob3B2MiZkbz1tb2JpbGUmcj1tZW1iZXIucmFuayIsImRvdG51bSI6IjAifSwiQzE0ODA5NTMwMjg0MTIiOnsiaWNvbmNsYXNzIjoiaWNvbi1ib3giLCJ0ZXh0IjoiXHU2ZDg4XHU4ZDM5XHU2MzkyXHU4ODRjIiwibGlua3VybCI6Ii5cL2luZGV4LnBocD9pPTkwJmM9ZW50cnkmbT1ld2VpX3Nob3B2MiZkbz1tb2JpbGUmcj1tZW1iZXIucmFuay5vcmRlcl9yYW5rIiwiZG90bnVtIjoiMCJ9LCJDMTQ4MDk1MzAyODQxMyI6eyJpY29uY2xhc3MiOiJpY29uLWRlbGl2ZXIiLCJ0ZXh0IjoiXHU1ZTJlXHU1MmE5XHU0ZTJkXHU1ZmMzIiwibGlua3VybCI6Ii5cL2luZGV4LnBocD9pPTkwJmM9ZW50cnkmbT1ld2VpX3Nob3B2MiZkbz1tb2JpbGUmcj1xYSIsImRvdG51bSI6IjAifSwiQzE0ODA5NTMwMjg0MTQiOnsiaWNvbmNsYXNzIjoiaWNvbi1lbGVjdHJpY2FsIiwidGV4dCI6Ilx1NjIxMVx1NzY4NFx1NmQ4OFx1NjA2ZiIsImxpbmt1cmwiOiIuXC9pbmRleC5waHA/aT05MCZjPWVudHJ5Jm09ZXdlaV9zaG9wdjImZG89bW9iaWxlJnI9bWVtYmVyLm5vdGljZSIsImRvdG51bSI6IjAifX0sImlkIjoiaWNvbmdyb3VwIn19fQ==', '', 0, 0, 0, 0),
+(19, 90, 5, '商品详情（蓝色）', 'eyJwYWdlIjp7InR5cGUiOiI1IiwidGl0bGUiOiJcdTU1NDZcdTU0YzFcdThiZTZcdTYwYzUiLCJuYW1lIjoiXHU1NTQ2XHU1NGMxXHU4YmU2XHU2MGM1XHU5ODc1IiwiZGVzYyI6IiIsImljb24iOiIiLCJrZXl3b3JkIjoiIiwiYmFja2dyb3VuZCI6IiNmYWZhZmEiLCJkaXltZW51IjoiLTEiLCJmb2xsb3diYXIiOiIwIiwidmlzaXQiOiIwIiwidmlzaXRsZXZlbCI6eyJtZW1iZXIiOiIiLCJjb21taXNzaW9uIjoiIn0sIm5vdmlzaXQiOnsidGl0bGUiOiIiLCJsaW5rIjoiIn19LCJpdGVtcyI6eyJNMTQ3NzUzOTc2NzU4MyI6eyJ0eXBlIjoiNSIsIm1heCI6IjEiLCJwYXJhbXMiOnsiZ29vZHN0ZXh0IjoiXHU1NTQ2XHU1NGMxIiwiZGV0YWlsdGV4dCI6Ilx1OGJlNlx1NjBjNSJ9LCJzdHlsZSI6eyJiYWNrZ3JvdW5kIjoiI2Y3ZjdmNyIsInRleHRjb2xvciI6IiMxZWM4YzQiLCJhY3RpdmVjb2xvciI6IiNmZjgwMDAifSwiaWQiOiJkZXRhaWxfdGFiIn0sIk0xNDc3NTM5NzY4MDkzIjp7InR5cGUiOiI1IiwibWF4IjoiMSIsInN0eWxlIjp7ImRvdHN0eWxlIjoicm91bmQiLCJkb3RhbGlnbiI6ImxlZnQiLCJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsImxlZnRyaWdodCI6IjEwIiwiYm90dG9tIjoiMTAiLCJvcGFjaXR5IjoiMC44In0sImlkIjoiZGV0YWlsX3N3aXBlIn0sIk0xNDgwNTg2MTg5Njc1Ijp7InR5cGUiOiI1IiwibWF4IjoiMSIsInBhcmFtcyI6eyJidXlidG50ZXh0IjoiXHU1MzlmXHU0ZWY3XHU4ZDJkXHU0ZTcwIn0sInN0eWxlIjp7ImJnbGVmdCI6IiM4MDgwMDAiLCJiZ3JpZ2h0IjoiI2ZmODAwMCIsInByaWNlY29sb3IiOiIjZmY4MDAwIiwibWFya2V0cHJpY2Vjb2xvciI6IiNmZmZmZmYiLCJ0YWdjb2xvciI6IiNmZmZmZmYiLCJzdGF0dXNjb2xvciI6IiNmZmZmZmYiLCJwcm9jZXNzdGV4dGNvbG9yIjoiI2ZmZmZmZmYiLCJwcm9jZXNzY29sb3IiOiIjZmZlZjMyIiwiYmdsZWZ0d2FpdCI6IiMwMGI5NTAiLCJiZ3JpZ2h0d2FpdCI6IiMwMGI5NTAiLCJ0aW1lY29sb3IiOiIjZmZmZmZmIiwidGltZWJnY29sb3IiOiIjNTgyZTE5IiwicHJpY2Vjb2xvcndhaXQiOiIjZmZmZmZmIiwibWFya2V0cHJpY2Vjb2xvcndhaXQiOiIjZmZmZmZmIiwidGFnY29sb3J3YWl0IjoiI2ZmZmZmZiIsInN0YXR1c2NvbG9yd2FpdCI6IiNmZmZmZmYiLCJ0aW1lY29sb3J3YWl0IjoiI2ZmZmZmZiIsInRpbWViZ2NvbG9yd2FpdCI6IiMwMDM3MTgiLCJidXlidG50ZXh0d2FpdCI6IiNmZmZmZmYiLCJidXlidG5iZ3dhaXQiOiIjMDBiOTUwIn0sImlkIjoiZGV0YWlsX3NlY2tpbGwifSwiTTE0Nzc1Mzk3Njg2OTQiOnsidHlwZSI6IjUiLCJtYXgiOiIxIiwicGFyYW1zIjp7InNoYXJlIjoiXHU1MjA2XHU0ZWFiIiwic2hhcmVfbGluayI6IiJ9LCJzdHlsZSI6eyJtYXJnaW50b3AiOiIwIiwibWFyZ2luYm90dG9tIjoiMCIsImJhY2tncm91bmQiOiIjZmZmZmZmIiwidGl0bGVjb2xvciI6IiMxZWM4YzQiLCJzdWJ0aXRsZWNvbG9yIjoiI2ZmODAwMCIsInByaWNlY29sb3IiOiIjZmY4MDAwIiwidGV4dGNvbG9yIjoiI2MwYzBjMCIsInRpbWVjb2xvciI6IiNlZjRmNGYiLCJ0aW1ldGV4dGNvbG9yIjoiI2VmNGY0ZiJ9LCJpZCI6ImRldGFpbF9pbmZvIn0sIk0xNDc3NTM5NzY5MzY2Ijp7InR5cGUiOiI1IiwibWF4IjoiMSIsInN0eWxlIjp7Im1hcmdpbnRvcCI6IjAiLCJtYXJnaW5ib3R0b20iOiIwIiwiYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJ0ZXh0Y29sb3IiOiIjMWVjOGM0IiwidGV4dGNvbG9yaGlnaCI6IiNmZjgwMDAifSwiZGF0YSI6eyJDMTQ3NzUzOTc2OTM2NiI6eyJuYW1lIjoiXHU0ZThjXHU2YjIxXHU4ZDJkXHU0ZTcwIiwidHlwZSI6ImVyY2kifSwiQzE0Nzc1Mzk3NjkzNjciOnsibmFtZSI6Ilx1NGYxYVx1NTQ1OFx1NGVmNyIsInR5cGUiOiJodWl5dWFuIn0sIkMxNDc3NTM5NzY5MzY4Ijp7Im5hbWUiOiJcdTRmMThcdTYwZTAiLCJ0eXBlIjoieW91aHVpIn0sIkMxNDc3NTM5NzY5MzY5Ijp7Im5hbWUiOiJcdTc5ZWZcdTUyMDYiLCJ0eXBlIjoiamlmZW4ifSwiQzE0Nzc1Mzk3NjkzNzAiOnsibmFtZSI6Ilx1NGUwZFx1OTE0ZFx1OTAwMVx1NTMzYVx1NTdkZiIsInR5cGUiOiJidXBlaXNvbmcifSwiQzE0Nzc1Mzk3NjkzNzEiOnsibmFtZSI6Ilx1NTU0Nlx1NTRjMVx1NjgwN1x1N2I3ZSIsInR5cGUiOiJiaWFvcWlhbiJ9fSwiaWQiOiJkZXRhaWxfc2FsZSJ9LCJNMTQ3NzUzOTc3MDA3OSI6eyJ0eXBlIjoiNSIsIm1heCI6IjEiLCJzdHlsZSI6eyJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsInRleHRjb2xvciI6IiMxZWM4YzQiLCJtYXJnaW50b3AiOiI2IiwibWFyZ2luYm90dG9tIjoiMCJ9LCJpZCI6ImRldGFpbF9zcGVjIn0sIk0xNDc3NTM5NzcwNzkwIjp7InR5cGUiOiI1IiwibWF4IjoiMSIsInN0eWxlIjp7ImJhY2tncm91bmQiOiIjZmZmZmZmIiwibWFyZ2ludG9wIjoiMTAiLCJtYXJnaW5ib3R0b20iOiIwIiwidGV4dGNvbG9yIjoiIzFlYzhjNCJ9LCJpZCI6ImRldGFpbF9wYWNrYWdlIn0sIk0xNDc3NTM5NzcxNzM1Ijp7InR5cGUiOiI1IiwibWF4IjoiMSIsInBhcmFtcyI6eyJzaG9wbG9nbyI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9zdGF0aWNcL2ltYWdlc1wvZGVzaWduZXIuanBnIiwic2hvcG5hbWUiOiIiLCJzaG9wZGVzYyI6IiIsImhpZGVudW0iOiIwIiwibGVmdG5hdnRleHQiOiJcdTUxNjhcdTkwZThcdTU1NDZcdTU0YzEiLCJsZWZ0bmF2bGluayI6IiIsInJpZ2h0bmF2dGV4dCI6Ilx1OGZkYlx1NWU5N1x1OTAxYlx1OTAxYiIsInJpZ2h0bmF2bGluayI6IiJ9LCJzdHlsZSI6eyJtYXJnaW50b3AiOiIxMCIsIm1hcmdpbmJvdHRvbSI6IjAiLCJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsImdvb2RzbnVtY29sb3IiOiIjZmY4MDAwIiwiZ29vZHN0ZXh0Y29sb3IiOiIjMWVjOGM0IiwicmlnaHRuYXZjb2xvciI6IiMxZWM4YzQiLCJzaG9wbmFtZWNvbG9yIjoiIzFlYzhjNCIsInNob3BkZXNjY29sb3IiOiIjZmY4MDAwIiwibGVmdG5hdmNvbG9yIjoiIzFlYzhjNCJ9LCJpZCI6ImRldGFpbF9zaG9wIn0sIk0xNDc3NTM5NzcyOTU5Ijp7InR5cGUiOiI1IiwibWF4IjoiMSIsInN0eWxlIjp7ImJhY2tncm91bmQiOiIjZmZmZmZmIiwibWFyZ2ludG9wIjoiMTAiLCJtYXJnaW5ib3R0b20iOiIwIiwidGl0bGVjb2xvciI6IiNmZjgwMDAiLCJzaG9wbmFtZWNvbG9yIjoiIzFlYzhjNCIsInNob3BpbmZvY29sb3IiOiIjMWVjOGM0IiwibmF2dGVsY29sb3IiOiIjZmY4MDAwIiwibmF2bG9jYXRpb25jb2xvciI6IiNmZjk5MDAifSwiaWQiOiJkZXRhaWxfc3RvcmUifSwiTTE0Nzc1Mzk3NzM3OTkiOnsidHlwZSI6IjUiLCJtYXgiOiIxIiwic3R5bGUiOnsiYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJtYXJnaW50b3AiOiIxMCIsIm1hcmdpbmJvdHRvbSI6IjAifSwiaWQiOiJkZXRhaWxfYnV5c2hvdyJ9LCJNMTQ3NzUzOTc3NDY3OSI6eyJ0eXBlIjoiNSIsIm1heCI6IjEiLCJzdHlsZSI6eyJtYXJnaW50b3AiOiIxMCIsIm1hcmdpbmJvdHRvbSI6IjEwIiwiYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJtYWluY29sb3IiOiIjZWIyNjAzIiwic3ViY29sb3IiOiIjMWVjOGM0IiwidGV4dGNvbG9yIjoiIzMzMzMzMyJ9LCJpZCI6ImRldGFpbF9jb21tZW50In0sIk0xNDc3NTM5Nzc2NjE1Ijp7InR5cGUiOiI1IiwibWF4IjoiMSIsInN0eWxlIjp7Im1hcmdpbnRvcCI6IjEwIiwiYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJ0ZXh0Y29sb3IiOiIjMzMzMzMzIn0sImlkIjoiZGV0YWlsX3B1bGx1cCJ9LCJNMTQ3NzUzOTc3NzM5OSI6eyJ0eXBlIjoiNSIsIm1heCI6IjEiLCJwYXJhbXMiOnsiaGlkZWxpa2UiOiIwIiwiaGlkZXNob3AiOiIxIiwiaGlkZWNhcnQiOiIxIiwiaGlkZWNhcnRidG4iOiIwIiwidGV4dGJ1eSI6Ilx1N2FjYlx1NTIzYlx1OGQyZFx1NGU3MCJ9LCJzdHlsZSI6eyJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsInRleHRjb2xvciI6IiNmZjAwMDAiLCJpY29uY29sb3IiOiIjZmYwMDAwIiwiY2FydGNvbG9yIjoiIzFlYzhjNCIsImJ1eWNvbG9yIjoiI2RlMDEyNyIsImRvdGNvbG9yIjoiI2ZmODAwMCJ9LCJpZCI6ImRldGFpbF9uYXZiYXIifX19', '', 0, 0, 0, 0),
+(20, 90, 2, '商城首页（蓝色）', 'eyJwYWdlIjp7InR5cGUiOiIyIiwidGl0bGUiOiJcdTZkNzdcdTc4MDFcdTZlMTRcdTVlMDJ8XHU2ZDc3XHU5YzljXHU1MjMwXHU1YmI2IiwibmFtZSI6Ilx1NTU0Nlx1NTdjZVx1OTk5Nlx1OTg3NSIsImRlc2MiOiIiLCJpY29uIjoiIiwia2V5d29yZCI6IiIsImJhY2tncm91bmQiOiIjZmFmYWZhIiwiZGl5bWVudSI6IjgiLCJkaXlsYXllciI6IjEiLCJkaXlnb3RvcCI6IjEiLCJmb2xsb3diYXIiOiIwIn0sIml0ZW1zIjp7Ik0xNDgyMzg3NDUzMDY2Ijp7InBhcmFtcyI6eyJwbGFjZWhvbGRlciI6Ilx1OGJmN1x1OGY5M1x1NTE2NVx1NTE3M1x1OTUyZVx1NWI1N1x1OGZkYlx1ODg0Y1x1NjQxY1x1N2QyMiIsImdvb2RzdHlwZSI6IjAifSwic3R5bGUiOnsiaW5wdXRiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsImJhY2tncm91bmQiOiIjMWVjOGM0IiwiaWNvbmNvbG9yIjoiI2I0YjRiNCIsImNvbG9yIjoiIzk5OTk5OSIsInBhZGRpbmd0b3AiOiIxMCIsInBhZGRpbmdsZWZ0IjoiMTAiLCJ0ZXh0YWxpZ24iOiJjZW50ZXIiLCJzZWFyY2hzdHlsZSI6InJhZGl1cyJ9LCJpZCI6InNlYXJjaCJ9LCJNMTQ2NTgxMDc1MTgwNyI6eyJzdHlsZSI6eyJkb3RzdHlsZSI6InJvdW5kIiwiZG90YWxpZ24iOiJjZW50ZXIiLCJiYWNrZ3JvdW5kIjoiIzBlMTQ0OSIsImxlZnRyaWdodCI6IjEwIiwiYm90dG9tIjoiMTAiLCJvcGFjaXR5IjoiMC43In0sImRhdGEiOnsiQzE0NjU4MTA3NTE4MDciOnsiaW1ndXJsIjoiaHR0cDpcL1wvN3hzMHdlLmNvbTIuejAuZ2xiLnFpbml1Y2RuLmNvbVwvaW1hZ2VzXC85MFwvMjAxNlwvMTJcL0lwaVd4YjBxNzNsbGxtWFhXbVZsQnZMbHpYUEhiWC5qcGciLCJsaW5rdXJsIjoiaHR0cDpcL1wvdmlwLnBzY21zLmNuXC9hcHBcL2luZGV4LnBocD9pPTkwJmM9ZW50cnkmbT1ld2VpX3Nob3B2MiZkbz1tb2JpbGUmcj1nb29kcy5kZXRhaWwmaWQ9MjkzIn0sIk0xNDgyMzg3MDE5NTI2Ijp7ImltZ3VybCI6Imh0dHA6XC9cLzd4czB3ZS5jb20yLnowLmdsYi5xaW5pdWNkbi5jb21cL2ltYWdlc1wvOTBcLzIwMTZcLzEyXC9TYjRQQmM2ejZ0bkszbmJQODlOb1RETjhCQk55a3kuanBnIiwibGlua3VybCI6Ii5cL2luZGV4LnBocD9pPTkwJmM9ZW50cnkmbT1ld2VpX3Nob3B2MiZkbz1tb2JpbGUmcj1nb29kcy5kZXRhaWwmaWQ9MzA4In0sIk0xNDgyMzg3MDQwNzMzIjp7ImltZ3VybCI6Imh0dHA6XC9cLzd4czB3ZS5jb20yLnowLmdsYi5xaW5pdWNkbi5jb21cL2ltYWdlc1wvOTBcLzIwMTZcLzEyXC93UXlPNUFZa2syTU96Q0Q3V09EVzQ1Qk93d0tETTUuanBnIiwibGlua3VybCI6Ii5cL2luZGV4LnBocD9pPTkwJmM9ZW50cnkmbT1ld2VpX3Nob3B2MiZkbz1tb2JpbGUmcj1nb29kcy5kZXRhaWwmaWQ9NDA5In19LCJpZCI6ImJhbm5lciJ9LCJNMTQ4MjE3MjQ5NjI3MiI6eyJzdHlsZSI6eyJtYXJnaW50b3AiOiIwIiwiYmFja2dyb3VuZCI6IiNmZmZmZmYifSwiZGF0YSI6eyJDMTQ4MjE3MjQ5NjI3MiI6eyJ0ZXh0IjoiXHU3YjdlXHU1MjMwXHU2NzA5XHU1OTU2IiwiaWNvbmNsYXNzIjoiaWNvbi1zcXVhcmVjaGVja2ZpbGwiLCJ0ZXh0Y29sb3IiOiIjZmYwMDAwIiwiaWNvbmNvbG9yIjoiIzFlYzhjNCIsImxpbmt1cmwiOiIuXC9pbmRleC5waHA/aT05MCZjPWVudHJ5Jm09ZXdlaV9zaG9wdjImZG89bW9iaWxlJnI9c2lnbiJ9LCJDMTQ4MjE3MjQ5NjI3MyI6eyJ0ZXh0IjoiXHU2MjExXHU3Njg0XHU0ZWZiXHU1MmExIiwiaWNvbmNsYXNzIjoiaWNvbi1wYXkiLCJ0ZXh0Y29sb3IiOiIjZmYwMDAwIiwiaWNvbmNvbG9yIjoiIzFlYzhjNCIsImxpbmt1cmwiOiIuXC9pbmRleC5waHA/aT05MCZjPWVudHJ5Jm09ZXdlaV9zaG9wdjImZG89bW9iaWxlJnI9dGFzayJ9fSwiaWQiOiJtZW51MiJ9LCJNMTQ4MjQ4MTI4MDc4OCI6eyJzdHlsZSI6eyJuYXZzdHlsZSI6IiIsImJhY2tncm91bmQiOiIjZmZmZmZmIiwicm93bnVtIjoiNSIsInNob3d0eXBlIjoiMCIsInBhZ2VudW0iOiI4Iiwic2hvd2RvdCI6IjEifSwiZGF0YSI6eyJDMTQ4MjQ4MTI4MDc4OCI6eyJpbWd1cmwiOiJodHRwOlwvXC83eHMwd2UuY29tMi56MC5nbGIucWluaXVjZG4uY29tXC9pbWFnZXNcLzkwXC8yMDE2XC8xMlwvZTBBMWR6M1NkWDUyV2E5d3JTRTFUMEZmVEtaM0tXLmpwZyIsImxpbmt1cmwiOiIuXC9pbmRleC5waHA/aT05MCZjPWVudHJ5Jm09ZXdlaV9zaG9wdjImZG89bW9iaWxlJnI9c2Vja2lsbCIsInRleHQiOiJcdTY1NzRcdTcwYjlcdTc5ZDJcdTY3NDAiLCJjb2xvciI6IiM2NjY2NjYifSwiQzE0ODI0ODEyODA3ODkiOnsiaW1ndXJsIjoiaHR0cDpcL1wvN3hzMHdlLmNvbTIuejAuZ2xiLnFpbml1Y2RuLmNvbVwvaW1hZ2VzXC85MFwvMjAxNlwvMTJcL1pLY1VrMDAwY3J6bHJOYzBTWDBrSzNTMEt4MWNSci5qcGciLCJsaW5rdXJsIjoiLlwvaW5kZXgucGhwP2k9OTAmYz1lbnRyeSZtPWV3ZWlfc2hvcHYyJmRvPW1vYmlsZSZyPWdyb3VwcyIsInRleHQiOiJcdTk0OWNcdTYwZTBcdTU2ZTJcdThkMmQiLCJjb2xvciI6IiM2NjY2NjYifSwiQzE0ODI0ODEyODA3OTAiOnsiaW1ndXJsIjoiaHR0cDpcL1wvN3hzMHdlLmNvbTIuejAuZ2xiLnFpbml1Y2RuLmNvbVwvaW1hZ2VzXC85MFwvMjAxNlwvMTJcL1c2cVl4NDJUNTJWMjJSNjZ4azRaNTJrNjJ4TlhXdC5qcGciLCJsaW5rdXJsIjoiLlwvaW5kZXgucGhwP2k9OTAmYz1lbnRyeSZtPWV3ZWlfc2hvcHYyJmRvPW1vYmlsZSZyPWJhcmdhaW4iLCJ0ZXh0IjoiXHU3NWFmXHU3MmMyXHU3ODBkXHU0ZWY3IiwiY29sb3IiOiIjNjY2NjY2In0sIkMxNDgyNDgxMjgwNzkxIjp7ImltZ3VybCI6Imh0dHA6XC9cLzd4czB3ZS5jb20yLnowLmdsYi5xaW5pdWNkbi5jb21cL2ltYWdlc1wvOTBcLzIwMTZcLzEyXC9VdTBlVWNuU2hDVWhac2JPMHI4cGVKZ3oxZTgwcHAuanBnIiwibGlua3VybCI6Imh0dHA6XC9cL3ZpcC5wc2Ntcy5jblwvYXBwXC9pbmRleC5waHA/aT05MCZjPWVudHJ5Jm09ZXdlaV9zaG9wdjImZG89bW9iaWxlJnI9c2hvcC5jYXRlZ29yeSIsInRleHQiOiJcdTUxNjhcdTkwZThcdTUyMDZcdTdjN2IiLCJjb2xvciI6IiM2NjY2NjYifSwiTTE0ODI0ODEyOTA3MjUiOnsiaW1ndXJsIjoiaHR0cDpcL1wvN3hzMHdlLmNvbTIuejAuZ2xiLnFpbml1Y2RuLmNvbVwvaW1hZ2VzXC85MFwvMjAxNlwvMTJcL1d0MHV2Vjk2MGYyYTljbFhjMmY2TGwyMDJxOTJDOS5qcGciLCJsaW5rdXJsIjoiLlwvaW5kZXgucGhwP2k9OTAmYz1lbnRyeSZtPWV3ZWlfc2hvcHYyJmRvPW1vYmlsZSZyPWNyZWRpdHNob3AiLCJ0ZXh0IjoiXHU3OWVmXHU1MjA2XHU1MTUxXHU2MzYyIiwiY29sb3IiOiIjNjY2NjY2In19LCJpZCI6Im1lbnUifSwiTTE0ODA5NTU0Nzk1NzQiOnsicGFyYW1zIjp7Imljb251cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvaG90ZG90LmpwZyIsIm5vdGljZWRhdGEiOiIwIiwic3BlZWQiOiIyIiwibm90aWNlbnVtIjoiNSJ9LCJzdHlsZSI6eyJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsImljb25jb2xvciI6IiNmZDU0NTQiLCJjb2xvciI6IiM2NjY2NjYifSwiZGF0YSI6eyJDMTQ4MDk1NTQ3OTU3NSI6eyJ0aXRsZSI6Ilx1OGZkOVx1OTFjY1x1NjYyZlx1N2IyY1x1NGUwMFx1Njc2MVx1ODFlYVx1NWI5YVx1NGU0OVx1NTE2Y1x1NTQ0YVx1NzY4NFx1NjgwN1x1OTg5OCIsImxpbmt1cmwiOiIifSwiQzE0ODA5NTU0Nzk1NzYiOnsidGl0bGUiOiJcdThmZDlcdTkxY2NcdTY2MmZcdTdiMmNcdTRlOGNcdTY3NjFcdTgxZWFcdTViOWFcdTRlNDlcdTUxNmNcdTU0NGFcdTc2ODRcdTY4MDdcdTk4OTgiLCJsaW5rdXJsIjoiIn19LCJpZCI6Im5vdGljZSJ9LCJNMTQ4MDcwNDQ3OTE2NSI6eyJtYXgiOiIxIiwicGFyYW1zIjp7Imljb251cmwiOiIuLlwvYWRkb25zXC9ld2VpX3Nob3B2MlwvcGx1Z2luXC9kaXlwYWdlXC9zdGF0aWNcL2ltYWdlc1wvZGVmYXVsdFwvc2Vja2lsbC5qcGciLCJoaWRlYm9yZGVyIjoiMCIsInRhZyI6IiJ9LCJzdHlsZSI6eyJtYXJnaW50b3AiOiIxMCIsImJhY2tncm91bmQiOiIjZmZmZmZmIiwidGl0bGVjb2xvciI6IiM0NDQ0NDQiLCJ0aW1lY29sb3IiOiIjNDQ0NDQ0IiwidGltZXNpZ25jb2xvciI6IiM0NDQ0NDQiLCJ0aW1lYmdjb2xvciI6IiNmZmZmZmYiLCJ0aW1lYm9yZGVyY29sb3IiOiIjZDlkOWQ5IiwibW9yZWNvbG9yIjoiIzg4ODg4OCIsIm1hcmtldHByaWNlY29sb3IiOiIjZWY0ZjRmIiwicHJvZHVjdHByaWNlY29sb3IiOiIjOTk5OTk5In0sImlkIjoic2Vja2lsbGdyb3VwIn0sIk0xNDgyNDY3NjU4ODIxIjp7InN0eWxlIjp7InBhZGRpbmd0b3AiOiIwIiwicGFkZGluZ2xlZnQiOiIwIn0sImRhdGEiOnsiQzE0ODI0Njc2NTg4MjEiOnsiaW1ndXJsIjoiaHR0cDpcL1wvN3hzMHdlLmNvbTIuejAuZ2xiLnFpbml1Y2RuLmNvbVwvaW1hZ2VzXC85MFwvMjAxNlwvMTJcL1FzNUFTTEhLQVg1NU5ObUE2aDZsc0M5OTZTUVhYOS5qcGciLCJsaW5rdXJsIjoiaHR0cDpcL1wvdmlwLnBzY21zLmNuXC9hcHBcL2luZGV4LnBocD9pPTkwJmM9ZW50cnkmbT1ld2VpX3Nob3B2MiZkbz1tb2JpbGUmcj1iYXJnYWluLmRldGFpbCZtaWQ9MTMwMjImaWQ9NCJ9fSwiaWQiOiJwaWN0dXJlIn0sIk0xNDgwOTU2MjMyNjU3Ijp7InN0eWxlIjp7ImhlaWdodCI6IjIiLCJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsImJvcmRlciI6IiMwMDAwMDAiLCJwYWRkaW5nIjoiMTAiLCJsaW5lc3R5bGUiOiJzb2xpZCIsImJvcmRlcmNvbG9yIjoiIzBlMTQ0OSJ9LCJpZCI6ImxpbmUifSwiTTE0ODIzOTMxMzI0NTEiOnsicGFyYW1zIjp7Imdvb2RzdHlwZSI6IjAiLCJzaG93dGl0bGUiOiIxIiwic2hvd3ByaWNlIjoiMSIsInNob3d0YWciOiIwIiwiZ29vZHNkYXRhIjoiMCIsImNhdGVpZCI6IiIsImNhdGVuYW1lIjoiIiwiZ3JvdXBpZCI6IiIsImdyb3VwbmFtZSI6IiIsImdvb2Rzc29ydCI6IjAiLCJnb29kc251bSI6IjYiLCJzaG93aWNvbiI6IjIiLCJpY29ucG9zaXRpb24iOiJsZWZ0IHRvcCIsInByb2R1Y3RwcmljZSI6IjEiLCJzaG93cHJvZHVjdHByaWNlIjoiMSIsInNob3dzYWxlcyI6IjAiLCJwcm9kdWN0cHJpY2V0ZXh0IjoiXHU1MzlmXHU0ZWY3Iiwic2FsZXN0ZXh0IjoiXHU5NTAwXHU5MWNmIiwicHJvZHVjdHByaWNlbGluZSI6IjAiLCJnb29kc2ljb25zcmMiOiJpbWFnZXNcLzkwXC8yMDE2XC8xMlwvbmFycGxpTFhBTnF5TktTbkVYbEJzYWFSUnNBQWJrLnBuZyJ9LCJzdHlsZSI6eyJiYWNrZ3JvdW5kIjoiI2ZhZmFmYSIsImxpc3RzdHlsZSI6ImJsb2NrIHRocmVlIiwiYnV5c3R5bGUiOiJidXlidG4tMSIsImdvb2RzaWNvbiI6InJlY29tbWFuZCIsInByaWNlY29sb3IiOiIjZWQyODIyIiwicHJvZHVjdHByaWNlY29sb3IiOiIjNzc3Nzc3IiwiaWNvbnBhZGRpbmd0b3AiOiIwIiwiaWNvbnBhZGRpbmdsZWZ0IjoiMCIsImJ1eWJ0bmNvbG9yIjoiIzFlYzhjNCIsImljb256b29tIjoiMTAwIiwidGl0bGVjb2xvciI6IiMyNjI2MjYiLCJ0YWdiYWNrZ3JvdW5kIjoiI2ZlNTQ1NSIsInNhbGVzY29sb3IiOiIjNzc3Nzc3In0sImRhdGEiOnsiQzYxNTEzOTYyOTQiOnsidGh1bWIiOiJodHRwOlwvXC83eHMwd2UuY29tMi56MC5nbGIucWluaXVjZG4uY29tXC9pbWFnZXNcLzkwXC8yMDE2XC8xMlwvQTNaOTNOTkg5cDlnZ0dOVUduWFB4UHJMeFJnZ0V6LmpwZyIsInRpdGxlIjoiXHU4ZmRiXHU1M2UzXHU1OTI3XHU4OTdmXHU2ZDBiXHU0ZTA5XHU2NTg3XHU5YzdjXHU1MjNhXHU4ZWFiMTAwZyoyIFx1ODI3Mlx1NmNmZFx1OWM5Y1x1NGVhZSBcdTgwODlcdThkMjhcdTgwYTVcdTdmOGUgXHU1MTY1XHU1M2UzXHU3MjNkXHU2ZWQxIiwicHJpY2UiOiI0Ni4wMCIsImdpZCI6IjI5MyIsInRvdGFsIjoiNTAwIiwiYmFyZ2FpbiI6IjAiLCJwcm9kdWN0cHJpY2UiOiI2MC4wMCIsImNyZWRpdCI6IiIsImN0eXBlIjoiIiwiZ3R5cGUiOiIiLCJzYWxlcyI6IjAifSwiQzk5Nzc1NTI1MjkiOnsidGh1bWIiOiJodHRwOlwvXC83eHMwd2UuY29tMi56MC5nbGIucWluaXVjZG4uY29tXC9pbWFnZXNcLzkwXC8yMDE2XC8xMlwvaURGMnhJNkZlZWZGUkY5WDRSZjRGNkYwckxYeDZxLmpwZyIsInRpdGxlIjoiXHU1MzU3XHU3ZjhlXHU4NjdlXHU3Njg3XHU3MjRjXHU1Mzg0XHU3NGRjXHU1OTFhXHU1YzE0XHU4NjdlNTAwZyg1MC02MCkgXHU1OGYzXHU4NTg0XHU0ZjUzXHU4MGE1IFx1ODA4OVx1OGQyOFx1N2QyN1x1NWJjNiIsInByaWNlIjoiMzUuMDAiLCJnaWQiOiIzMDgiLCJ0b3RhbCI6IjUwMCIsImJhcmdhaW4iOiIwIiwicHJvZHVjdHByaWNlIjoiMzkuMDAiLCJjcmVkaXQiOiIiLCJjdHlwZSI6IiIsImd0eXBlIjoiIiwic2FsZXMiOiIwIn0sIkM1NzE5MjQ5NTk0Ijp7InRodW1iIjoiaHR0cDpcL1wvN3hzMHdlLmNvbTIuejAuZ2xiLnFpbml1Y2RuLmNvbVwvaW1hZ2VzXC85MFwvMjAxNlwvMTJcL0lYVjRGODhCOE12UGI4ajRQWjRmUHdiVnBQNDdoWC5qcGciLCJ0aXRsZSI6Ilx1NmQ3N1x1NzgwMVx1NmUxNFx1NWUwMlx1OTRmNlx1OWNkNVx1OWM3YzQwMGciLCJwcmljZSI6IjIyMC4wMCIsImdpZCI6IjQwOSIsInRvdGFsIjoiNTAwIiwiYmFyZ2FpbiI6IjAiLCJwcm9kdWN0cHJpY2UiOiIzNjAuMDAiLCJjcmVkaXQiOiIiLCJjdHlwZSI6IiIsImd0eXBlIjoiIiwic2FsZXMiOiIwIn19LCJpZCI6Imdvb2RzIn0sIk0xNDgyMTczNjg3NDk2Ijp7InBhcmFtcyI6eyJ0aXRsZSI6Ilx1NjNhOFx1ODM1MFx1NTU0Nlx1NTRjMSIsImljb24iOiJpY29uLXJvdW5kcmlnaHQifSwic3R5bGUiOnsiYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJjb2xvciI6IiMwZTE0NDkiLCJ0ZXh0YWxpZ24iOiJsZWZ0IiwiZm9udHNpemUiOiIxNCIsInBhZGRpbmd0b3AiOiI1IiwicGFkZGluZ2xlZnQiOiI4In0sImlkIjoidGl0bGUifSwiTTE0ODIxNzM3NTUzMjciOnsicGFyYW1zIjp7Imdvb2RzdHlwZSI6IjAiLCJzaG93dGl0bGUiOiIxIiwic2hvd3ByaWNlIjoiMSIsInNob3d0YWciOiIwIiwiZ29vZHNkYXRhIjoiNSIsImNhdGVpZCI6IiIsImNhdGVuYW1lIjoiIiwiZ3JvdXBpZCI6IiIsImdyb3VwbmFtZSI6IiIsImdvb2Rzc29ydCI6IjAiLCJnb29kc251bSI6IjIwIiwic2hvd2ljb24iOiIyIiwiaWNvbnBvc2l0aW9uIjoibGVmdCB0b3AiLCJwcm9kdWN0cHJpY2UiOiIxIiwic2hvd3Byb2R1Y3RwcmljZSI6IjEiLCJzaG93c2FsZXMiOiIxIiwicHJvZHVjdHByaWNldGV4dCI6Ilx1NTM5Zlx1NGVmNyIsInNhbGVzdGV4dCI6Ilx1OTUwMFx1OTFjZiIsInByb2R1Y3RwcmljZWxpbmUiOiIxIiwiZ29vZHNzY3JvbGwiOiIxIn0sInN0eWxlIjp7ImJhY2tncm91bmQiOiIjZmFmYWZhIiwibGlzdHN0eWxlIjoiYmxvY2sgdGhyZWUiLCJidXlzdHlsZSI6ImJ1eWJ0bi0zIiwiZ29vZHNpY29uIjoicmVjb21tYW5kIiwicHJpY2Vjb2xvciI6IiNlZDI4MjIiLCJwcm9kdWN0cHJpY2Vjb2xvciI6IiM3Nzc3NzciLCJpY29ucGFkZGluZ3RvcCI6IjAiLCJpY29ucGFkZGluZ2xlZnQiOiIwIiwiYnV5YnRuY29sb3IiOiIjMWVjOGM0IiwiaWNvbnpvb20iOiIxMDAiLCJ0aXRsZWNvbG9yIjoiIzI2MjYyNiIsInRhZ2JhY2tncm91bmQiOiIjZmU1NDU1Iiwic2FsZXNjb2xvciI6IiM3Nzc3NzcifSwiZGF0YSI6eyJDMTQ4MjE3Mzc1NTMyNyI6eyJ0aHVtYiI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvaW1hZ2VzXC9kZWZhdWx0XC9nb29kcy0xLmpwZyIsInByaWNlIjoiMjAuMDAiLCJ0aXRsZSI6Ilx1OGZkOVx1OTFjY1x1NjYyZlx1NTU0Nlx1NTRjMVx1NjgwN1x1OTg5OCIsImdpZCI6IiIsImJhcmdhaW4iOiIwIiwiY3JlZGl0IjoiMCIsImN0eXBlIjoiMSJ9LCJDMTQ4MjE3Mzc1NTMyOCI6eyJ0aHVtYiI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvaW1hZ2VzXC9kZWZhdWx0XC9nb29kcy0yLmpwZyIsInByaWNlIjoiMjAuMDAiLCJ0aXRsZSI6Ilx1OGZkOVx1OTFjY1x1NjYyZlx1NTU0Nlx1NTRjMVx1NjgwN1x1OTg5OCIsImdpZCI6IiIsImJhcmdhaW4iOiIwIiwiY3JlZGl0IjoiMCIsImN0eXBlIjoiMSJ9LCJDMTQ4MjE3Mzc1NTMyOSI6eyJ0aHVtYiI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvaW1hZ2VzXC9kZWZhdWx0XC9nb29kcy0zLmpwZyIsInByaWNlIjoiMjAuMDAiLCJ0aXRsZSI6Ilx1OGZkOVx1OTFjY1x1NjYyZlx1NTU0Nlx1NTRjMVx1NjgwN1x1OTg5OCIsImdpZCI6IiIsImJhcmdhaW4iOiIwIiwiY3JlZGl0IjoiMCIsImN0eXBlIjoiMCJ9LCJDMTQ4MjE3Mzc1NTMzMCI6eyJ0aHVtYiI6Ii4uXC9hZGRvbnNcL2V3ZWlfc2hvcHYyXC9wbHVnaW5cL2RpeXBhZ2VcL3N0YXRpY1wvaW1hZ2VzXC9kZWZhdWx0XC9nb29kcy00LmpwZyIsInByaWNlIjoiMjAuMDAiLCJ0aXRsZSI6Ilx1OGZkOVx1OTFjY1x1NjYyZlx1NTU0Nlx1NTRjMVx1NjgwN1x1OTg5OCIsImdpZCI6IiIsImJhcmdhaW4iOiIwIiwiY3JlZGl0IjoiMCIsImN0eXBlIjoiMCJ9fSwiaWQiOiJnb29kcyJ9LCJNMTQ4MjQ2NjQzMzg5MyI6eyJzdHlsZSI6eyJwYWRkaW5ndG9wIjoiMCIsInBhZGRpbmdsZWZ0IjoiMCJ9LCJkYXRhIjp7IkMxNDgyNDY2NDMzODkzIjp7ImltZ3VybCI6Imh0dHA6XC9cLzd4czB3ZS5jb20yLnowLmdsYi5xaW5pdWNkbi5jb21cL2ltYWdlc1wvOTBcLzIwMTZcLzEyXC9iMnpHZ0UyelNFTkIzMzBocXpIMnU0dXFaMm8wcXEuanBnIiwibGlua3VybCI6Ii5cL2luZGV4LnBocD9pPTkwJmM9ZW50cnkmbT1ld2VpX3Nob3B2MiZkbz1tb2JpbGUmcj1jcmVkaXRzaG9wIn19LCJpZCI6InBpY3R1cmUifSwiTTE0ODIxNzM2Mzg2MDMiOnsicGFyYW1zIjp7InRpdGxlIjoiXHU2NWIwXHU1NGMxXHU0ZTBhXHU2N2I2IiwiaWNvbiI6Imljb24tbGlnaHRmaWxsIiwibGluayI6Ii5cL2luZGV4LnBocD9pPTkwJmM9ZW50cnkmbT1ld2VpX3Nob3B2MiZkbz1tb2JpbGUmcj1nb29kcyZpc25ldz0xIn0sInN0eWxlIjp7ImJhY2tncm91bmQiOiIjZmZmZmZmIiwiY29sb3IiOiIjMGUxNDQ5IiwidGV4dGFsaWduIjoibGVmdCIsImZvbnRzaXplIjoiMTQiLCJwYWRkaW5ndG9wIjoiNSIsInBhZGRpbmdsZWZ0IjoiOCJ9LCJpZCI6InRpdGxlIn0sIk0xNDY1ODEyNDExMzgxIjp7InBhcmFtcyI6eyJzaG93dGl0bGUiOiIxIiwic2hvd3ByaWNlIjoiMSIsImdvb2RzZGF0YSI6IjMiLCJjYXRlaWQiOiIiLCJjYXRlbmFtZSI6IiIsImdyb3VwaWQiOiIiLCJncm91cG5hbWUiOiIiLCJnb29kc3NvcnQiOiIwIiwiZ29vZHNudW0iOiIyMCIsInNob3dpY29uIjoiMCIsImljb25wb3NpdGlvbiI6ImxlZnQgdG9wIiwiZ29vZHNzY3JvbGwiOiIwIiwic2hvd3Byb2R1Y3RwcmljZSI6IjEiLCJzaG93c2FsZXMiOiIxIiwicHJvZHVjdHByaWNlbGluZSI6IjEiLCJnb29kc2ljb25zcmMiOiJpbWFnZXNcLzkwXC8yMDE2XC8xMlwvTm02UDlEUjdpaVg5bU9kYng3SnJYSWJkNEQ1NjlQLnBuZyJ9LCJzdHlsZSI6eyJsaXN0c3R5bGUiOiJibG9jayIsImJ1eXN0eWxlIjoiYnV5YnRuLTMiLCJnb29kc2ljb24iOiJpc25ldyIsInByaWNlY29sb3IiOiIjZmYwMDAwIiwiaWNvbnBhZGRpbmd0b3AiOiIwIiwiaWNvbnBhZGRpbmdsZWZ0IjoiMCIsImJ1eWJ0bmNvbG9yIjoiIzFlYzhjNCIsImljb256b29tIjoiMTAwIiwidGl0bGVjb2xvciI6IiMyNjI2MjYifSwiZGF0YSI6eyJDMjE1MDUyMDU0NCI6eyJ0aHVtYiI6Imh0dHA6XC9cLzd4czB3ZS5jb20yLnowLmdsYi5xaW5pdWNkbi5jb21cL2ltYWdlc1wvOTBcLzIwMTZcLzEyXC9IOE45MXBCaWZDUkE3N2ZWTkVGbDdhaUk5WjdpbDIuanBnIiwidGl0bGUiOiJ0ZXN0IiwicHJpY2UiOiIwLjAxIiwiZ2lkIjoiMzgwIiwidG90YWwiOiI5NiIsImJhcmdhaW4iOiIwIiwicHJvZHVjdHByaWNlIjoiMC4wMCIsImNyZWRpdCI6IiIsImN0eXBlIjoiIiwiZ3R5cGUiOiIiLCJzYWxlcyI6IjAifX0sImlkIjoiZ29vZHMifX19', '', 0, 0, 0, 0),
+(21, 90, 3, '淘宝模式会员中心', 'eyJwYWdlIjp7InR5cGUiOiIzIiwidGl0bGUiOiJcdTRmMWFcdTU0NThcdTRlMmRcdTVmYzMiLCJuYW1lIjoiXHU0ZjFhXHU1NDU4XHU0ZTJkXHU1ZmMzXHVmZjA4XHU4NGRkXHU4MjcyXHVmZjA5IiwiZGVzYyI6IiIsImljb24iOiIiLCJrZXl3b3JkIjoiIiwiYmFja2dyb3VuZCI6IiNmYWZhZmEiLCJkaXltZW51IjoiMCIsImZvbGxvd2JhciI6IjEiLCJ2aXNpdCI6IjAiLCJ2aXNpdGxldmVsIjp7Im1lbWJlciI6IiIsImNvbW1pc3Npb24iOiIifSwibm92aXNpdCI6eyJ0aXRsZSI6IiIsImxpbmsiOiIifSwiZGl5Z290b3AiOiIxIiwiZGl5bGF5ZXIiOiIxIn0sIml0ZW1zIjp7Ik0xNDc0NTI2MTM0ODE0Ijp7InBhcmFtcyI6eyJzdHlsZSI6ImRlZmF1bHQyIiwibGV2ZWxsaW5rIjoiIiwic2V0aWNvbiI6Imljb24tc2V0dGluZ3MiLCJzZXRsaW5rIjoiLlwvaW5kZXgucGhwP2k9OTAmYz1lbnRyeSZtPWV3ZWlfc2hvcHYyJmRvPW1vYmlsZSZyPW1lbWJlci5pbmZvIiwibGVmdG5hdiI6Ilx1NTE0NVx1NTAzYyIsImxlZnRuYXZsaW5rIjoiIiwicmlnaHRuYXYiOiJcdTUxNTFcdTYzNjIiLCJyaWdodG5hdmxpbmsiOiIifSwic3R5bGUiOnsiYmFja2dyb3VuZCI6IiMxZWM4YzQiLCJ0ZXh0Y29sb3IiOiIjZmZmZmZmIiwidGV4dGxpZ2h0IjoiI2Y3MmIyMCIsImhlYWRzdHlsZSI6IiJ9LCJpbmZvIjp7ImF2YXRhciI6IiIsIm5pY2tuYW1lIjoiIiwibGV2ZWxuYW1lIjoiIiwidGV4dG1vbmV5IjoiIiwidGV4dGNyZWRpdCI6IiIsIm1vbmV5IjoiIiwiY3JlZGl0IjoiIn0sImlkIjoibWVtYmVyIn0sIk0xNDgwOTUyMzU2NTQ5Ijp7InN0eWxlIjp7Im1hcmdpbnRvcCI6IjAiLCJiYWNrZ3JvdW5kIjoiIzFlYzhjNCJ9LCJkYXRhIjp7IkMxNDgwOTUyMzU2NTQ5Ijp7InRleHQiOiJcdTRlY2FcdTY1ZTVcdTdiN2VcdTUyMzAiLCJpY29uY2xhc3MiOiJpY29uLWxvY2F0aW9uZmlsbCIsInRleHRjb2xvciI6IiNmZmZmZmYiLCJpY29uY29sb3IiOiIjZmZmZmZmIiwibGlua3VybCI6Imh0dHA6XC9cL3ZpcC5wc2Ntcy5jblwvYXBwXC9pbmRleC5waHA/aT05MCZjPWVudHJ5Jm09ZXdlaV9zaG9wdjImZG89bW9iaWxlJnI9c2lnbiJ9LCJDMTQ4MDk1MjM1NjU1MCI6eyJ0ZXh0IjoiXHU2MjExXHU3Njg0XHU0ZWZiXHU1MmExIiwiaWNvbmNsYXNzIjoiaWNvbi10aW1lZmlsbCIsInRleHRjb2xvciI6IiNmZmZmZmYiLCJpY29uY29sb3IiOiIjZmZmZmZmIiwibGlua3VybCI6Ii5cL2luZGV4LnBocD9pPTkwJmM9ZW50cnkmbT1ld2VpX3Nob3B2MiZkbz1tb2JpbGUmcj10YXNrIn0sIk0xNDgwOTUzNDgzNDU1Ijp7InRleHQiOiJcdTk4ODZcdTRmMThcdTYwZTBcdTUyMzgiLCJpY29uY2xhc3MiOiJpY29uLWNob2ljZW5lc3NmaWxsIiwidGV4dGNvbG9yIjoiI2ZmZmZmZiIsImljb25jb2xvciI6IiNmZmZmZmYiLCJsaW5rdXJsIjoiLlwvaW5kZXgucGhwP2k9OTAmYz1lbnRyeSZtPWV3ZWlfc2hvcHYyJmRvPW1vYmlsZSZyPXNhbGUuY291cG9uIn19LCJpZCI6Im1lbnUyIn0sIk0xNDgwOTUwMTA2OTM1Ijp7InBhcmFtcyI6eyJyb3dudW0iOiI0IiwiYm9yZGVyIjoiMCIsImJvcmRlcnRvcCI6IjAiLCJib3JkZXJib3R0b20iOiIwIn0sInN0eWxlIjp7ImJhY2tncm91bmQiOiIjZmZmZmZmIiwiYm9yZGVyY29sb3IiOiIjZWJlYmViIiwidGV4dGNvbG9yIjoiIzFlYzhjNCIsImljb25jb2xvciI6IiMxZWM4YzQiLCJkb3Rjb2xvciI6IiNmZjAwMTEifSwiZGF0YSI6eyJNMTQ4MDk1MTY5NjUwNiI6eyJpY29uY2xhc3MiOiJpY29uLXRpbWVmaWxsIiwidGV4dCI6Ilx1NjU3NFx1NzBiOVx1NzlkMlx1Njc0MCIsImxpbmt1cmwiOiIuXC9pbmRleC5waHA/aT05MCZjPWVudHJ5Jm09ZXdlaV9zaG9wdjImZG89bW9iaWxlJnI9c2Vja2lsbCIsImRvdG51bSI6IjAifSwiQzE0ODA5NTAxMDY5MzUiOnsiaWNvbmNsYXNzIjoiaWNvbi1xaWFuZyIsInRleHQiOiJcdTk2NTBcdTY1ZjZcdTYyYTJcdThkMmQiLCJsaW5rdXJsIjoiLlwvaW5kZXgucGhwP2k9OTAmYz1lbnRyeSZtPWV3ZWlfc2hvcHYyJmRvPW1vYmlsZSZyPWdvb2RzJmlzdGltZT0xIiwiZG90bnVtIjoiMCJ9LCJDMTQ4MDk1MDEwNjkzNiI6eyJpY29uY2xhc3MiOiJpY29uLXBlb3BsZTIiLCJ0ZXh0IjoiXHU5NDljXHU2MGUwXHU1NmUyXHU4ZDJkIiwibGlua3VybCI6IiIsImRvdG51bSI6IjAifSwiQzE0ODA5NTAxMDY5MzciOnsiaWNvbmNsYXNzIjoiaWNvbi1yZXBhaXJmaWxsIiwidGV4dCI6Ilx1NzVhZlx1NzJjMlx1NzgwZFx1NGVmNyIsImxpbmt1cmwiOiIuXC9pbmRleC5waHA/aT05MCZjPWVudHJ5Jm09ZXdlaV9zaG9wdjImZG89bW9iaWxlJnI9YmFyZ2FpbiIsImRvdG51bSI6IjAifX0sImlkIjoiaWNvbmdyb3VwIn0sIk0xNDc0NTI2MTQzNDg3Ijp7InN0eWxlIjp7Im1hcmdpbnRvcCI6IjEwIiwiYmFja2dyb3VuZCI6IiNmZmZmZmYiLCJpY29uY29sb3IiOiIjMWVjOGM0IiwidGV4dGNvbG9yIjoiIzFlYzhjNCIsInJlbWFya2NvbG9yIjoiI2ZmODAwMCJ9LCJkYXRhIjp7IkMxNDc0NTI2MTQzNDg5Ijp7InRleHQiOiJcdTYyMTFcdTc2ODRcdThiYTJcdTUzNTUiLCJsaW5rdXJsIjoiLlwvaW5kZXgucGhwP2k9OTAmYz1lbnRyeSZtPWV3ZWlfc2hvcHYyJmRvPW1vYmlsZSZyPW9yZGVyIiwiaWNvbmNsYXNzIjoiaWNvbi1saXN0IiwicmVtYXJrIjoiXHU2N2U1XHU3NzBiXHU1MTY4XHU5MGU4IiwiZG90bnVtIjoiIn19LCJpZCI6Imxpc3RtZW51In0sIk0xNDc0NTI2MTgxNDMxIjp7InBhcmFtcyI6eyJyb3dudW0iOiI1IiwiYm9yZGVyIjoiMSIsImJvcmRlcnRvcCI6IjAiLCJib3JkZXJib3R0b20iOiIxIn0sInN0eWxlIjp7ImJhY2tncm91bmQiOiIjZmZmZmZmIiwiYm9yZGVyY29sb3IiOiIjZWJlYmViIiwidGV4dGNvbG9yIjoiIzFlYzhjNCIsImljb25jb2xvciI6IiMxZWM4YzQiLCJkb3Rjb2xvciI6IiNmZjAwMTEifSwiZGF0YSI6eyJDMTQ3NDUyNjE4MTQzMSI6eyJpY29uY2xhc3MiOiJpY29uLWNhcmQiLCJ0ZXh0IjoiXHU1Zjg1XHU0ZWQ4XHU2YjNlIiwibGlua3VybCI6Ii5cL2luZGV4LnBocD9pPTkwJmM9ZW50cnkmbT1ld2VpX3Nob3B2MiZkbz1tb2JpbGUmcj1vcmRlciZzdGF0dXM9MCIsImRvdG51bSI6IjAifSwiQzE0NzQ1MjYxODE0MzIiOnsiaWNvbmNsYXNzIjoiaWNvbi1ib3giLCJ0ZXh0IjoiXHU1Zjg1XHU1M2QxXHU4ZDI3IiwibGlua3VybCI6Ii5cL2luZGV4LnBocD9pPTkwJmM9ZW50cnkmbT1ld2VpX3Nob3B2MiZkbz1tb2JpbGUmcj1vcmRlciZzdGF0dXM9MSIsImRvdG51bSI6IjAifSwiQzE0NzQ1MjYxODE0MzMiOnsiaWNvbmNsYXNzIjoiaWNvbi1kZWxpdmVyIiwidGV4dCI6Ilx1NWY4NVx1NjUzNlx1OGQyNyIsImxpbmt1cmwiOiIuXC9pbmRleC5waHA/aT05MCZjPWVudHJ5Jm09ZXdlaV9zaG9wdjImZG89bW9iaWxlJnI9b3JkZXImc3RhdHVzPTIiLCJkb3RudW0iOiIwIn0sIkMxNDc0NTI2MTgxNDM0Ijp7Imljb25jbGFzcyI6Imljb24tcmVmcmVzaCIsInRleHQiOiJcdTkwMDBcdTYzNjJcdThkMjciLCJsaW5rdXJsIjoiLlwvaW5kZXgucGhwP2k9OTAmYz1lbnRyeSZtPWV3ZWlfc2hvcHYyJmRvPW1vYmlsZSZyPW9yZGVyJnN0YXR1cz00IiwiZG90bnVtIjoiMCJ9LCJNMTQ4MjIyNzQ2MjgzNiI6eyJpY29uY2xhc3MiOiJpY29uLWRlbGl2ZXIxIiwidGV4dCI6Ilx1OTE0ZFx1OTAwMVx1OGJmNFx1NjYwZSIsImxpbmt1cmwiOiJodHRwOlwvXC92aXAucHNjbXMuY25cL2FwcFwvaW5kZXgucGhwP2k9OTAmYz1lbnRyeSZtPWV3ZWlfc2hvcHYyJmRvPW1vYmlsZSZyPXFhLmRldGFpbCZtaWQ9MTIxNzkmaWQ9MSIsImRvdG51bSI6IjAifX0sImlkIjoiaWNvbmdyb3VwIn0sIk0xNDgwOTUyMDA0OTA3Ijp7InBhcmFtcyI6eyJ0aXRsZSI6Ilx1NjIxMVx1NzY4NFx1NWRlNVx1NTE3NyIsImljb24iOiJpY29uLXJlcGFpciJ9LCJzdHlsZSI6eyJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsImNvbG9yIjoiI2ZmODAwMCIsInRleHRhbGlnbiI6ImxlZnQiLCJmb250c2l6ZSI6IjE0IiwicGFkZGluZ3RvcCI6IjUiLCJwYWRkaW5nbGVmdCI6IjUifSwiaWQiOiJ0aXRsZSJ9LCJNMTQ4MDk1MjI2NDk5MyI6eyJwYXJhbXMiOnsicm93bnVtIjoiMyIsImJvcmRlciI6IjEiLCJib3JkZXJ0b3AiOiIxIiwiYm9yZGVyYm90dG9tIjoiMCJ9LCJzdHlsZSI6eyJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiIsImJvcmRlcmNvbG9yIjoiI2ViZWJlYiIsInRleHRjb2xvciI6IiMxZWM4YzQiLCJpY29uY29sb3IiOiIjMWVjOGM0IiwiZG90Y29sb3IiOiIjZmYwMDExIn0sImRhdGEiOnsiQzE0ODA5NTIyNjQ5OTMiOnsiaWNvbmNsYXNzIjoiaWNvbi1mYXZvcmZpbGwiLCJ0ZXh0IjoiXHU2MjExXHU3Njg0XHU2NTM2XHU4NWNmIiwibGlua3VybCI6Ii5cL2luZGV4LnBocD9pPTkwJmM9ZW50cnkmbT1ld2VpX3Nob3B2MiZkbz1tb2JpbGUmcj1tZW1iZXIuZmF2b3JpdGUiLCJkb3RudW0iOiIwIn0sIkMxNDgwOTUyMjY0OTk0Ijp7Imljb25jbGFzcyI6Imljb24tYWN0aXZpdHlmaWxsIiwidGV4dCI6Ilx1NjIxMVx1NzY4NFx1OGRiM1x1OGZmOSIsImxpbmt1cmwiOiIuXC9pbmRleC5waHA/aT05MCZjPWVudHJ5Jm09ZXdlaV9zaG9wdjImZG89bW9iaWxlJnI9bWVtYmVyLmhpc3RvcnkiLCJkb3RudW0iOiIwIn0sIkMxNDgwOTUyMjY0OTk1Ijp7Imljb25jbGFzcyI6Imljb24tY2FydGZpbGwiLCJ0ZXh0IjoiXHU2MjExXHU3Njg0XHU4ZDJkXHU3MjY5XHU4ZjY2IiwibGlua3VybCI6Ii5cL2luZGV4LnBocD9pPTkwJmM9ZW50cnkmbT1ld2VpX3Nob3B2MiZkbz1tb2JpbGUmcj1tZW1iZXIuY2FydCIsImRvdG51bSI6IjAifX0sImlkIjoiaWNvbmdyb3VwIn0sIk0xNDgwOTUyODI4MTE2Ijp7InBhcmFtcyI6eyJyb3dudW0iOiIzIiwiYm9yZGVyIjoiMSIsImJvcmRlcnRvcCI6IjAiLCJib3JkZXJib3R0b20iOiIxIn0sInN0eWxlIjp7ImJhY2tncm91bmQiOiIjZmZmZmZmIiwiYm9yZGVyY29sb3IiOiIjZWJlYmViIiwidGV4dGNvbG9yIjoiIzFlYzhjNCIsImljb25jb2xvciI6IiMxZWM4YzQiLCJkb3Rjb2xvciI6IiNmZjAwMTEifSwiZGF0YSI6eyJDMTQ4MDk1MjgyODExNiI6eyJpY29uY2xhc3MiOiJpY29uLWNhcmQiLCJ0ZXh0IjoiXHU2MjExXHU3Njg0XHU1NzMwXHU1NzQwIiwibGlua3VybCI6Ii5cL2luZGV4LnBocD9pPTkwJmM9ZW50cnkmbT1ld2VpX3Nob3B2MiZkbz1tb2JpbGUmcj1tZW1iZXIuYWRkcmVzcyIsImRvdG51bSI6IjAifSwiQzE0ODA5NTI4MjgxMTciOnsiaWNvbmNsYXNzIjoiaWNvbi1ib3giLCJ0ZXh0IjoiXHU2MjExXHU3Njg0XHU4ZDQ0XHU2NTk5IiwibGlua3VybCI6Ii5cL2luZGV4LnBocD9pPTkwJmM9ZW50cnkmbT1ld2VpX3Nob3B2MiZkbz1tb2JpbGUmcj1tZW1iZXIuaW5mbyIsImRvdG51bSI6IjAifSwiQzE0ODA5NTI4MjgxMTgiOnsiaWNvbmNsYXNzIjoiaWNvbi1kZWxpdmVyIiwidGV4dCI6Ilx1NjIxMVx1NzY4NFx1NTIzOCIsImxpbmt1cmwiOiIuXC9pbmRleC5waHA/aT05MCZjPWVudHJ5Jm09ZXdlaV9zaG9wdjImZG89bW9iaWxlJnI9c2FsZS5jb3Vwb24ubXkiLCJkb3RudW0iOiIwIn19LCJpZCI6Imljb25ncm91cCJ9LCJNMTQ4MDk1MjAzMTY1MyI6eyJwYXJhbXMiOnsidGl0bGUiOiJcdTRlOTJcdTUyYThcdTc1MWZcdTZkM2IiLCJpY29uIjoiaWNvbi13ZWNoYXQxIn0sInN0eWxlIjp7ImJhY2tncm91bmQiOiIjZmZmZmZmIiwiY29sb3IiOiIjZmY4MDAwIiwidGV4dGFsaWduIjoibGVmdCIsImZvbnRzaXplIjoiMTQiLCJwYWRkaW5ndG9wIjoiNSIsInBhZGRpbmdsZWZ0IjoiNSJ9LCJpZCI6InRpdGxlIn0sIk0xNDgwOTUyNjgxNjcyIjp7InBhcmFtcyI6eyJyb3dudW0iOiI0IiwiYm9yZGVyIjoiMSIsImJvcmRlcnRvcCI6IjEiLCJib3JkZXJib3R0b20iOiIxIn0sInN0eWxlIjp7ImJhY2tncm91bmQiOiIjZmZmZmZmIiwiYm9yZGVyY29sb3IiOiIjZWJlYmViIiwidGV4dGNvbG9yIjoiIzFlYzhjNCIsImljb25jb2xvciI6IiMxZWM4YzQiLCJkb3Rjb2xvciI6IiNmZjAwMTEifSwiZGF0YSI6eyJDMTQ4MDk1MjY4MTY3MyI6eyJpY29uY2xhc3MiOiJpY29uLWNhcmQiLCJ0ZXh0IjoiXHU2MjExXHU3Njg0XHU3OTNlXHU1MzNhIiwibGlua3VybCI6Ii5cL2luZGV4LnBocD9pPTkwJmM9ZW50cnkmbT1ld2VpX3Nob3B2MiZkbz1tb2JpbGUmcj1zbnMiLCJkb3RudW0iOiIwIn0sIkMxNDgwOTUyNjgxNjc0Ijp7Imljb25jbGFzcyI6Imljb24tYm94IiwidGV4dCI6Ilx1NjIxMVx1NzY4NFx1NjY1Mlx1NTZmZSIsImxpbmt1cmwiOiJodHRwOlwvXC92aXAucHNjbXMuY25cL2FwcFwvaW5kZXgucGhwP2k9OTAmYz1lbnRyeSZkbz10b3BpY2xpc3QmbT13YXRlcl9saXZlIiwiZG90bnVtIjoiMCJ9LCJDMTQ4MDk1MjY4MTY3NSI6eyJpY29uY2xhc3MiOiJpY29uLWRlbGl2ZXIiLCJ0ZXh0IjoiXHU3ZjhlXHU5OGRmXHU5NWVlXHU5NWVlIiwibGlua3VybCI6Imh0dHA6XC9cL3ZpcC5wc2Ntcy5jblwvYXBwXC9pbmRleC5waHA/aT05MCZjPWVudHJ5JmRvPWluZGV4Jm09aW1lZXBvc19mdm9pY2UiLCJkb3RudW0iOiIwIn0sIkMxNDgwOTUyNjgxNjc2Ijp7Imljb25jbGFzcyI6Imljb24tZWxlY3RyaWNhbCIsInRleHQiOiJcdTcwZjlcdTk5NmFcdTY1NTlcdTdhMGIiLCJsaW5rdXJsIjoiLlwvaW5kZXgucGhwP2k9OTAmYz1lbnRyeSZtPWV3ZWlfc2hvcHYyJmRvPW1vYmlsZSZyPWFydGljbGUubGlzdCIsImRvdG51bSI6IjAifX0sImlkIjoiaWNvbmdyb3VwIn0sIk0xNDgwOTUzMDI4NDExIjp7InBhcmFtcyI6eyJyb3dudW0iOiI0IiwiYm9yZGVyIjoiMSIsImJvcmRlcnRvcCI6IjEiLCJib3JkZXJib3R0b20iOiIxIn0sInN0eWxlIjp7ImJhY2tncm91bmQiOiIjZmZmZmZmIiwiYm9yZGVyY29sb3IiOiIjZWJlYmViIiwidGV4dGNvbG9yIjoiIzFlYzhjNCIsImljb25jb2xvciI6IiMxZWM4YzQiLCJkb3Rjb2xvciI6IiNmZjAwMTEifSwiZGF0YSI6eyJDMTQ4MDk1MzAyODQxMSI6eyJpY29uY2xhc3MiOiJpY29uLWNhcmQiLCJ0ZXh0IjoiXHU3OWVmXHU1MjA2XHU2MzkyXHU4ODRjIiwibGlua3VybCI6Ii5cL2luZGV4LnBocD9pPTkwJmM9ZW50cnkmbT1ld2VpX3Nob3B2MiZkbz1tb2JpbGUmcj1tZW1iZXIucmFuayIsImRvdG51bSI6IjAifSwiQzE0ODA5NTMwMjg0MTIiOnsiaWNvbmNsYXNzIjoiaWNvbi1ib3giLCJ0ZXh0IjoiXHU2ZDg4XHU4ZDM5XHU2MzkyXHU4ODRjIiwibGlua3VybCI6Ii5cL2luZGV4LnBocD9pPTkwJmM9ZW50cnkmbT1ld2VpX3Nob3B2MiZkbz1tb2JpbGUmcj1tZW1iZXIucmFuay5vcmRlcl9yYW5rIiwiZG90bnVtIjoiMCJ9LCJDMTQ4MDk1MzAyODQxMyI6eyJpY29uY2xhc3MiOiJpY29uLWRlbGl2ZXIiLCJ0ZXh0IjoiXHU1ZTJlXHU1MmE5XHU0ZTJkXHU1ZmMzIiwibGlua3VybCI6Ii5cL2luZGV4LnBocD9pPTkwJmM9ZW50cnkmbT1ld2VpX3Nob3B2MiZkbz1tb2JpbGUmcj1xYSIsImRvdG51bSI6IjAifSwiQzE0ODA5NTMwMjg0MTQiOnsiaWNvbmNsYXNzIjoiaWNvbi1lbGVjdHJpY2FsIiwidGV4dCI6Ilx1NjIxMVx1NzY4NFx1NmQ4OFx1NjA2ZiIsImxpbmt1cmwiOiIuXC9pbmRleC5waHA/aT05MCZjPWVudHJ5Jm09ZXdlaV9zaG9wdjImZG89bW9iaWxlJnI9bWVtYmVyLm5vdGljZSIsImRvdG51bSI6IjAifX0sImlkIjoiaWNvbmdyb3VwIn19fQ==', '', 0, 0, 0, 0);
+
+DROP TABLE IF EXISTS `ims_ewei_shop_express`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_express` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(50) DEFAULT '',
+  `express` varchar(50) DEFAULT '',
+  `status` tinyint(1) DEFAULT '1',
+  `displayorder` tinyint(3) unsigned DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=92 ;
+
+INSERT INTO `ims_ewei_shop_express` (`id`, `name`, `express`, `status`, `displayorder`) VALUES
+(1, '顺丰', 'shunfeng', 1, 0),
+(2, '申通', 'shentong', 1, 0),
+(3, '韵达快运', 'yunda', 1, 0),
+(4, '天天快递', 'tiantian', 1, 0),
+(5, '圆通速递', 'yuantong', 1, 0),
+(6, '中通速递', 'zhongtong', 1, 0),
+(7, 'ems快递', 'ems', 1, 0),
+(8, '百世汇通', 'huitongkuaidi', 1, 0),
+(9, '全峰快递', 'quanfengkuaidi', 1, 0),
+(10, '宅急送', 'zhaijisong', 1, 0),
+(11, 'aae全球专递', 'aae', 1, 0),
+(12, '安捷快递', 'anjie', 1, 0),
+(13, '安信达快递', 'anxindakuaixi', 1, 0),
+(14, '彪记快递', 'biaojikuaidi', 1, 0),
+(15, 'bht', 'bht', 1, 0),
+(16, '百福东方国际物流', 'baifudongfang', 1, 0),
+(17, '中国东方（COE）', 'coe', 1, 0),
+(18, '长宇物流', 'changyuwuliu', 1, 0),
+(19, '大田物流', 'datianwuliu', 1, 0),
+(20, '德邦物流', 'debangwuliu', 1, 0),
+(21, 'dhl', 'dhl', 1, 0),
+(22, 'dpex', 'dpex', 1, 0),
+(23, 'd速快递', 'dsukuaidi', 1, 0),
+(24, '递四方', 'disifang', 1, 0),
+(25, 'fedex（国外）', 'fedex', 1, 0),
+(26, '飞康达物流', 'feikangda', 1, 0),
+(27, '凤凰快递', 'fenghuangkuaidi', 1, 0),
+(28, '飞快达', 'feikuaida', 1, 0),
+(29, '国通快递', 'guotongkuaidi', 1, 0),
+(30, '港中能达物流', 'ganzhongnengda', 1, 0),
+(31, '广东邮政物流', 'guangdongyouzhengwuliu', 1, 0),
+(32, '共速达', 'gongsuda', 1, 0),
+(33, '恒路物流', 'hengluwuliu', 1, 0),
+(34, '华夏龙物流', 'huaxialongwuliu', 1, 0),
+(35, '海红', 'haihongwangsong', 1, 0),
+(36, '海外环球', 'haiwaihuanqiu', 1, 0),
+(37, '佳怡物流', 'jiayiwuliu', 1, 0),
+(38, '京广速递', 'jinguangsudikuaijian', 1, 0),
+(39, '急先达', 'jixianda', 1, 0),
+(40, '佳吉物流', 'jiajiwuliu', 1, 0),
+(41, '加运美物流', 'jymwl', 1, 0),
+(42, '金大物流', 'jindawuliu', 1, 0),
+(43, '嘉里大通', 'jialidatong', 1, 0),
+(44, '晋越快递', 'jykd', 1, 0),
+(45, '快捷速递', 'kuaijiesudi', 1, 0),
+(46, '联邦快递（国内）', 'lianb', 1, 0),
+(47, '联昊通物流', 'lianhaowuliu', 1, 0),
+(48, '龙邦物流', 'longbanwuliu', 1, 0),
+(49, '立即送', 'lijisong', 1, 0),
+(50, '乐捷递', 'lejiedi', 1, 0),
+(51, '民航快递', 'minghangkuaidi', 1, 0),
+(52, '美国快递', 'meiguokuaidi', 1, 0),
+(53, '门对门', 'menduimen', 1, 0),
+(54, 'OCS', 'ocs', 1, 0),
+(55, '配思货运', 'peisihuoyunkuaidi', 1, 0),
+(56, '全晨快递', 'quanchenkuaidi', 1, 0),
+(57, '全际通物流', 'quanjitong', 1, 0),
+(58, '全日通快递', 'quanritongkuaidi', 1, 0),
+(59, '全一快递', 'quanyikuaidi', 1, 0),
+(60, '如风达', 'rufengda', 1, 0),
+(61, '三态速递', 'santaisudi', 1, 0),
+(62, '盛辉物流', 'shenghuiwuliu', 1, 0),
+(63, '速尔物流', 'sue', 1, 0),
+(64, '盛丰物流', 'shengfeng', 1, 0),
+(65, '赛澳递', 'saiaodi', 1, 0),
+(66, '天地华宇', 'tiandihuayu', 1, 0),
+(67, 'tnt', 'tnt', 1, 0),
+(68, 'ups', 'ups', 1, 0),
+(69, '万家物流', 'wanjiawuliu', 1, 0),
+(70, '文捷航空速递', 'wenjiesudi', 1, 0),
+(71, '伍圆', 'wuyuan', 1, 0),
+(72, '万象物流', 'wxwl', 1, 0),
+(73, '新邦物流', 'xinbangwuliu', 1, 0),
+(74, '信丰物流', 'xinfengwuliu', 1, 0),
+(75, '亚风速递', 'yafengsudi', 1, 0),
+(76, '一邦速递', 'yibangwuliu', 1, 0),
+(77, '优速物流', 'youshuwuliu', 1, 0),
+(78, '邮政快递包裹', 'youzhengguonei', 1, 0),
+(79, '邮政国际包裹挂号信', 'youzhengguoji', 1, 0),
+(80, '远成物流', 'yuanchengwuliu', 1, 0),
+(81, '源伟丰快递', 'yuanweifeng', 1, 0),
+(82, '元智捷诚快递', 'yuanzhijiecheng', 1, 0),
+(83, '运通快递', 'yuntongkuaidi', 1, 0),
+(84, '越丰物流', 'yuefengwuliu', 1, 0),
+(85, '源安达', 'yad', 1, 0),
+(86, '银捷速递', 'yinjiesudi', 1, 0),
+(87, '中铁快运', 'zhongtiekuaiyun', 1, 0),
+(88, '中邮物流', 'zhongyouwuliu', 1, 0),
+(89, '忠信达', 'zhongxinda', 1, 0),
+(90, '芝麻开门', 'zhimakaimen', 1, 0),
+(91, '安能物流', 'annengwuliu', 1, 0);
+
+DROP TABLE IF EXISTS `ims_ewei_shop_member_message_template_type`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_member_message_template_type` (
+  `id` int(11) NOT NULL,
+  `name` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
+  `typecode` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
+  `templatecode` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
+  `templateid` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
+  `templatename` varchar(255) CHARACTER SET utf8mb4 DEFAULT NULL,
+  `content` varchar(1000) CHARACTER SET utf8mb4 DEFAULT NULL,
+  `showtotaladd` tinyint(1) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8;
+
+INSERT INTO `ims_ewei_shop_member_message_template_type` (`id`, `name`, `typecode`, `templatecode`, `templateid`, `templatename`, `content`, `showtotaladd`) VALUES
+(1, '订单付款通知', 'saler_pay', 'OPENTM405584202', 'GVAklFptEZhcFoHdeohJZipUTMZioIoSoSERCglTPWI', '订单付款通知', '{{first.DATA}}订单编号：{{keyword1.DATA}}商品名称：{{keyword2.DATA}}商品数量：{{keyword3.DATA}}支付金额：{{keyword4.DATA}}{{remark.DATA}}', 0),
+(2, '自提订单提交成功通知', 'carrier', 'OPENTM201594720', 'GEi1gmx-qHylqczQ5OIdMikD73jDpHqyno-aWkoYaDI', '订单付款通知', '{{first.DATA}}自提码：{{keyword1.DATA}}商品详情：{{keyword2.DATA}}提货地址：{{keyword3.DATA}}提货时间：{{keyword4.DATA}}{{remark.DATA}}', 0),
+(3, '订单取消通知', 'cancel', 'OPENTM201764653', 'e23pj9O3l5Uk5NnSQfr9c6VWW-ndmakpwjW7Dr9Jhnk', '订单关闭提醒', '{{first.DATA}}订单商品：{{keyword1.DATA}}订单编号：{{keyword2.DATA}}下单时间：{{keyword3.DATA}}订单金额：{{keyword4.DATA}}关闭时间：{{keyword5.DATA}}{{remark.DATA}}', 0),
+(4, '订单即将取消通知', 'willcancel', 'OPENTM201764653', 'e23pj9O3l5Uk5NnSQfr9c6VWW-ndmakpwjW7Dr9Jhnk', '订单关闭提醒', '{{first.DATA}}订单商品：{{keyword1.DATA}}订单编号：{{keyword2.DATA}}下单时间：{{keyword3.DATA}}订单金额：{{keyword4.DATA}}关闭时间：{{keyword5.DATA}}{{remark.DATA}}', 0),
+(5, '订单支付成功通知', 'pay', 'OPENTM405584202', 'vaipg2xhQ1ki-957ZX3c5DUbBnXC2H4x5SSzP3Odc4c', '订单支付通知', '{{first.DATA}}订单编号：{{keyword1.DATA}}商品名称：{{keyword2.DATA}}商品数量：{{keyword3.DATA}}支付金额：{{keyword4.DATA}}{{remark.DATA}}', 0),
+(6, '订单发货通知', 'send', 'OPENTM401874827', '', '订单发货通知', '{{first.DATA}}订单编号：{{keyword1.DATA}}快递公司：{{keyword2.DATA}}快递单号：{{keyword3.DATA}}{{remark.DATA}}', 0),
+(7, '自动发货通知(虚拟物品及卡密)', 'virtualsend', 'OPENTM207793687', '', '自动发货通知', '{{first.DATA}}商品名称：{{keyword1.DATA}}订单号：{{keyword2.DATA}}订单金额：{{keyword3.DATA}}卡密信息：{{keyword4.DATA}}{{remark.DATA}}', 0),
+(8, '订单状态更新(修改收货地址)(修改价格)', 'orderstatus', 'TM00017', '', '订单付款通知', '{{first.DATA}}订单编号: {{OrderSn.DATA}}订单状态: {{OrderStatus.DATA}}{{remark.DATA}}', 0),
+(9, '退款成功通知', 'refund1', 'TM00430', '', '退款成功通知', '{{first.DATA}}退款金额：{{orderProductPrice.DATA}}商品详情：{{orderProductName.DATA}}订单编号：{{orderName.DATA}}{{remark.DATA}}', 0),
+(10, '换货成功通知', 'refund3', 'OPENTM200605630', '', '任务处理通知', '{{first.DATA}}任务名称：{{keyword1.DATA}}通知类型：{{keyword2.DATA}}{{remark.DATA}}', 0),
+(11, '退款申请驳回通知', 'refund2', 'OPENTM200605630', '', '任务处理通知', '{{first.DATA}}任务名称：{{keyword1.DATA}}通知类型：{{keyword2.DATA}}{{remark.DATA}}', 0),
+(12, '充值成功通知', 'recharge_ok', 'OPENTM207727673', '', '充值成功提醒', '{{first.DATA}}充值金额：{{keyword1.DATA}}充值时间：{{keyword2.DATA}}账户余额：{{keyword3.DATA}}{{remark.DATA}}', 0),
+(13, '提现成功通知', 'withdraw_ok', 'OPENTM207422808', '', '提现通知', '{{first.DATA}}申请提现金额：{{keyword1.DATA}}取提现手续费：{{keyword2.DATA}}实际到账金额：{{keyword3.DATA}}提现渠道：{{keyword4.DATA}}{{remark.DATA}}', 0),
+(14, '会员升级通知(任务处理通知)', 'upgrade', 'OPENTM200605630', 'IuyVCXR15rS0uCXZRXXJe_6785ummJ1pizy0icQ8Emw', '任务处理通知', '{{first.DATA}}任务名称：{{keyword1.DATA}}通知类型：{{keyword2.DATA}}{{remark.DATA}}', 0),
+(15, '充值成功通知（后台管理员手动）', 'backrecharge_ok', 'OPENTM207727673', '', '充值成功提醒', '{{first.DATA}}充值金额：{{keyword1.DATA}}充值时间：{{keyword2.DATA}}账户余额：{{keyword3.DATA}}{{remark.DATA}}', 0),
+(16, '积分变动提醒', 'backpoint_ok', 'OPENTM207509450', '', '积分变动提醒', '{{first.DATA}}获得时间：{{keyword1.DATA}}获得积分：{{keyword2.DATA}}获得原因：{{keyword3.DATA}}当前积分：{{keyword4.DATA}}{{remark.DATA}}', 0),
+(17, '换货发货通知', 'refund4', 'OPENTM401874827', '', '订单发货通知', '{{first.DATA}}订单编号：{{keyword1.DATA}}快递公司：{{keyword2.DATA}}快递单号：{{keyword3.DATA}}{{remark.DATA}}', 0),
+(18, '砍价活动通知', 'bargain', NULL, NULL, NULL, NULL, 0),
+(19, '拼团活动通知', 'groups', NULL, NULL, NULL, NULL, 0),
+(20, '人人分销通知', 'commission', NULL, NULL, NULL, NULL, 0),
+(21, '商品付款通知', 'saler_goodpay', 'OPENTM200605630', '', '任务处理通知', '{{first.DATA}}任务名称：{{keyword1.DATA}}通知类型：{{keyword2.DATA}}{{remark.DATA}}', 0);
+
+DROP TABLE IF EXISTS `ims_ewei_shop_plugin`;
+CREATE TABLE IF NOT EXISTS `ims_ewei_shop_plugin` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `displayorder` int(11) DEFAULT '0',
+  `identity` varchar(50) DEFAULT '',
+  `category` varchar(255) DEFAULT '',
+  `name` varchar(50) DEFAULT '',
+  `version` varchar(10) DEFAULT '',
+  `author` varchar(20) DEFAULT '',
+  `status` int(11) DEFAULT '0',
+  `thumb` varchar(255) DEFAULT '',
+  `desc` text,
+  `iscom` tinyint(3) DEFAULT '0',
+  `deprecated` tinyint(3) DEFAULT '0',
+  `isv2` tinyint(3) DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `idx_displayorder` (`displayorder`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=44 ;
+
+INSERT INTO `ims_ewei_shop_plugin` (`id`, `displayorder`, `identity`, `category`, `name`, `version`, `author`, `status`, `thumb`, `desc`, `iscom`, `deprecated`, `isv2`) VALUES
+(1, 1, 'qiniu', 'tool', '七牛存储', '1.0', '官方', 1, '../addons/ewei_shopv2/static/images/qiniu.jpg', '', 1, 0, 0),
+(2, 1, 'taobao', 'tool', '淘宝助手', '1.0', '官方', 1, '../addons/ewei_shopv2/static/images/taobao.jpg', '', 0, 0, 0),
+(3, 2, 'commission', 'biz', '人人分销', '1.0', '官方', 1, '../addons/ewei_shopv2/static/images/commission.jpg', '', 0, 0, 0),
+(4, 3, 'poster', 'sale', '超级海报', '1.2', '官方', 1, '../addons/ewei_shopv2/static/images/poster.jpg', '', 0, 0, 0),
+(5, 5, 'verify', 'biz', 'O2O核销', '1.0', '官方', 1, '../addons/ewei_shopv2/static/images/verify.jpg', '', 1, 0, 0),
+(6, 6, 'perm', 'help', '分权系统', '1.0', '官方', 1, '../addons/ewei_shopv2/static/images/perm.jpg', '', 1, 0, 0),
+(7, 7, 'tmessage', 'tool', '会员群发', '1.0', '官方', 1, '../addons/ewei_shopv2/static/images/tmessage.jpg', '', 1, 0, 0),
+(8, 8, 'sale', 'sale', '营销宝', '1.0', '官方', 1, '../addons/ewei_shopv2/static/images/sale.jpg', '', 1, 0, 0),
+(9, 4, 'creditshop', 'biz', '积分商城', '1.0', '官方', 1, '../addons/ewei_shopv2/static/images/creditshop.jpg', '', 0, 0, 0),
+(10, 5, 'exhelper', 'tool', '快递助手', '1.0', '官方', 1, '../addons/ewei_shopv2/static/images/exhelper.jpg', '', 0, 0, 0),
+(11, 11, 'virtual', 'biz', '虚拟物品', '1.0', '官方', 1, '../addons/ewei_shopv2/static/images/virtual.jpg', '', 1, 0, 0),
+(12, 15, 'coupon', 'sale', '优惠券', '1.0', '官方', 1, '../addons/ewei_shopv2/static/images/coupon.jpg', '', 1, 0, 0),
+(13, 8, 'postera', 'sale', '活动海报', '1.0', '官方', 1, '../addons/ewei_shopv2/static/images/postera.jpg', '', 0, 0, 0),
+(14, 18, 'system', 'tool', '系统工具', '1.0', ' 官方', 0, '../addons/ewei_shopv2/static/images/system.jpg', '', 0, 1, 0),
+(15, 7, 'diyform', 'tool', '表单助手', '1.0', '官方', 1, '../addons/ewei_shopv2/static/images/diyform.jpg', '', 0, 0, 0),
+(16, 6, 'article', 'help', '文章营销', '1.0', '官方', 1, '../addons/ewei_shopv2/static/images/article.jpg', '', 0, 0, 0),
+(17, 12, 'designer', 'help', '店铺装修', '1.0', '官方', 1, '../addons/ewei_shopv2/static/images/designer.jpg', '', 0, 1, 0),
+(18, 9, 'groups', 'biz', '人人拼团', '1.0', '官方', 1, '../addons/ewei_shopv2/static/images/groups.jpg', '', 0, 0, 0),
+(19, 10, 'diypage', 'help', '店铺装修', '2.0', '官方', 1, '../addons/ewei_shopv2/static/images/designer.jpg', '', 0, 0, 0),
+(20, 12, 'globonus', 'biz', '全民股东', '1.0', '官方', 1, '../addons/ewei_shopv2/static/images/globonus.jpg', '', 0, 0, 1),
+(21, 13, 'qa', 'help', '帮助中心', '1.0', '官方', 1, '../addons/ewei_shopv2/static/images/qa.jpg', '', 0, 0, 1),
+(22, 27, 'sms', 'tool', '短信提醒', '1.0', '官方', 1, '../addons/ewei_shopv2/static/images/sms.jpg', '', 1, 0, 1),
+(43, 30, 'sns', 'sale', '人人社区', '1.0', '官方', 1, '../addons/ewei_shopv2/static/images/sns.jpg', '', 0, 0, 1),
+(25, 33, 'wap', 'tool', '全网通', '1.0', '官方', 1, '../addons/ewei_shopv2/static/images/wap.jpg', '', 1, 0, 1),
+(26, 34, 'h5app', 'tool', 'H5APP', '1.0', '官方', 1, '../addons/ewei_shopv2/static/images/h5app.jpg', '', 1, 0, 1),
+(27, 33, 'printer', 'tool', '小票打印机', '1.0', '官方', 1, '../addons/ewei_shopv2/static/images/printer.jpg', '', 1, 0, 1),
+(28, 17, 'bargain', 'biz', '砍价活动', '1.0', '官方', 1, '../addons/ewei_shopv2/static/images/bargain.jpg', '', 0, 0, 1),
+(29, 14, 'abonus', 'biz', '区域代理', '1.0', '官方', 1, '../addons/ewei_shopv2/static/images/abonus.jpg', '', 0, 0, 1),
+(30, 11, 'merch', 'biz', '商户入驻', '1.0', '官方', 1, '../addons/ewei_shopv2/static/images/merch.jpg', '', 0, 0, 1),
+(31, 18, 'task', 'sale', '任务中心', '1.0', '官方', 1, '../addons/ewei_shopv2/static/images/task.jpg', '', 0, 0, 1),
+(32, 19, 'cashier', 'biz', '收银台', '1.0', '官方', 1, '../addons/ewei_shopv2/static/images/cashier.jpg', '', 0, 0, 1),
+(42, 29, 'sign', 'tool', '积分签到', '1.0', '官方', 1, '../addons/ewei_shopv2/static/images/sign.jpg', '', 0, 0, 1),
+(37, 20, 'messages', 'tool', '消息群发', '1.0', '官方', 1, '../addons/ewei_shopv2/static/images/messages.jpg', '', 0, 0, 1),
+(38, 21, 'seckill', 'sale', '整点秒杀', '1.0', '官方', 1, '../addons/ewei_shopv2/static/images/seckill.jpg', '', 0, 0, 1),
+(39, 39, 'exchange', 'biz', '兑换中心', '1.0', '官方', 1, '../addons/ewei_shopv2/static/images/exchange.jpg', '', 0, 0, 1);
+
+
 ");

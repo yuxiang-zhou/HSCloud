@@ -1,223 +1,685 @@
-<?php //0003d
-// EWEI_SHOPV2
-// FOXTEAM QQ/TEL: 400-009-7827
+<?php
 
-?>
-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
+/*
+ * 人人商城V2
+ * 
+ * @author ewei 狸小狐 QQ:22185157 
+ */
+if (!defined('IN_IA')) {
+	exit('Access Denied');
+}
+
+class Goods_EweiShopV2Page extends PluginWebPage {
+
+	function main() {
+		global $_W, $_GPC;
+		$pindex = max(1, intval($_GPC['page']));
+		$psize = 20;
+		$condition = ' uniacid = :uniacid AND deleted = :deleted';
+		$params = array(':uniacid' => $_W['uniacid'], ':deleted' => '0');
+		if (!empty($_GPC['keyword'])) {
+			$_GPC['keyword'] = trim($_GPC['keyword']);
+			$condition .= ' AND title LIKE :title';
+			$params[':title'] = '%' . trim($_GPC['keyword']) . '%';
+		}
+		if ($_GPC['status'] != '') {
+			$condition .= ' AND status = :status';
+			$params[':status'] = intval($_GPC['status']);
+		}
+		if ($_GPC['cate'] != '') {
+			$condition .= ' AND cate = :cate';
+			$params[':cate'] = intval($_GPC['cate']);
+		}
+		$sql = 'SELECT * FROM ' . tablename('ewei_shop_creditshop_goods') . " where  1 and {$condition} ORDER BY displayorder DESC,id DESC LIMIT " . ($pindex - 1) * $psize . ',' . $psize;
+		$list = pdo_fetchall($sql, $params);
+		$total = pdo_fetchcolumn('SELECT COUNT(*) FROM ' . tablename('ewei_shop_creditshop_goods') . " where 1 and {$condition}", $params);
+		$pager = pagination($total, $pindex, $psize);
+		$category = pdo_fetchall("select id,name,thumb from " . tablename('ewei_shop_creditshop_category') . ' where uniacid=:uniacid order by displayorder desc', array(':uniacid' => $_W['uniacid']), 'id');
+		include $this->template();
+	}
+
+	function add() {
+		$this->post();
+	}
+
+	function edit() {
+		$this->post();
+	}
+
+	protected function post() {
+		global $_W, $_GPC;
+		$id = intval($_GPC['id']);
+		$merchid = 0;//intval($_GPC['merchid']);
+
+		$item = pdo_fetch("SELECT * FROM " . tablename('ewei_shop_creditshop_goods') . " WHERE id =:id and uniacid=:uniacid limit 1", array(':uniacid' => $_W['uniacid'], ':id' => $id));
+		if(!empty($item)){
+			$url = mobileUrl('creditshop/detail',array('id'=>$item['id']), true);
+			$qrcode = m('qrcode')->createQrcode($url);
+		}
+		//会员权限
+		if ($item['showlevels'] != '') {
+			$item['showlevels'] = explode(',', $item['showlevels']);
+		}
+		if ($item['buylevels'] != '') {
+			$item['buylevels'] = explode(',', $item['buylevels']);
+		}
+		if ($item['showgroups'] != '') {
+			$item['showgroups'] = explode(',', $item['showgroups']);
+		}
+		if ($item['buygroups'] != '') {
+			$item['buygroups'] = explode(',', $item['buygroups']);
+		}
+
+		//兑换门店
+		$stores = array();
+		if (!empty($item['storeids'])) {
+			$stores = pdo_fetchall('select id,storename from ' . tablename('ewei_shop_store') . ' where id in (' . $item['storeids'] . ' ) and uniacid=' . $_W['uniacid']);
+		}
+		//单独通知人
+		if (!empty($item['noticeopenid'])) {
+			$saler = m('member')->getMember($item['noticeopenid']);
+		}
+		$endtime = empty($item['endtime']) ? date('Y-m-d H:i', time()) : date('Y-m-d H:i', $item['endtime']);
+		$levels = m('member')->getLevels();
+		$groups = m('member')->getGroups();
+		$category = pdo_fetchall("select id,name,thumb from " . tablename('ewei_shop_creditshop_category') . ' where uniacid=:uniacid order by displayorder desc', array(':uniacid' => $_W['uniacid']));
+
+		if(empty($item['goodstype']) || $item['goodstype']==0){
+			$goods = pdo_fetch("SELECT * FROM " . tablename('ewei_shop_goods') . " WHERE id =:id and status=1 and deleted=0 and uniacid=:uniacid limit 1", array(':uniacid' => $_W['uniacid'], ':id' => $item['goodsid']));
+		}elseif($item['goodstype']==1){
+			$coupon = pdo_fetch("SELECT * FROM " . tablename('ewei_shop_coupon') . " WHERE id =:id and uniacid=:uniacid limit 1", array(':uniacid' => $_W['uniacid'], ':id' => $item['couponid']));
+		}
+		$goodstype = $item['goodstype'];
+		$type = $item['type'];
+		$isverify = $item['isverify'];
+		$levels = m('member')->getLevels();
+		foreach($levels as &$l){
+			$l['key'] ='level'.$l['id'];
+		}
+		unset($l);
+		$levels =array_merge(array(
+			array(
+				'id'=>0,
+				'key'=>'default',
+				'levelname'=>empty($_W['shopset']['shop']['levelname'])?'默认会员':$_W['shopset']['shop']['levelname']
+			)
+		),$levels);
+
+		$allspecs = pdo_fetchall("select * from " . tablename('ewei_shop_creditshop_spec') . " where goodsid=:id order by displayorder asc", array(":id" => $id));
+		foreach ($allspecs as &$s) {
+			$s['items'] = pdo_fetchall("select a.id,a.specid,a.title,a.thumb,a.show,a.displayorder,a.valueId,a.virtual,b.title as title2 from " . tablename('ewei_shop_creditshop_spec_item') . " a left join " . tablename('ewei_shop_virtual_type') . " b on b.id=a.virtual  where a.specid=:specid order by a.displayorder asc", array(":specid" => $s['id']));
+		}
+		unset($s);
+
+		//处理规格项
+		$html = "";
+		$discounts_html='';
+		$commission_html='';
+		$isdiscount_discounts_html='';
+		$options = pdo_fetchall("select * from " . tablename('ewei_shop_creditshop_option') . " where goodsid=:id order by id asc", array(':id' => $id));
+		//排序好的specs
+		$specs = array();
+		//找出数据库存储的排列顺序
+		if (count($options) > 0) {
+			$specitemids = explode("_", $options[0]['specs']);
+			foreach ($specitemids as $itemid) {
+				foreach ($allspecs as $ss) {
+					$items = $ss['items'];
+					foreach ($items as $it) {
+						if ($it['id'] == $itemid) {
+							$specs[] = $ss;
+							break;
+						}
+					}
+				}
+			}
+			$html = '';
+			$html .= '<table class="table table-bordered table-condensed">';
+			$html .= '<thead>';
+			$html .= '<tr class="active">';
+			$discounts_html .= '<table class="table table-bordered table-condensed">';
+			$discounts_html .= '<thead>';
+			$discounts_html .= '<tr class="active">';
+			$commission_html .= '<table class="table table-bordered table-condensed">';
+			$commission_html .= '<thead>';
+			$commission_html .= '<tr class="active">';
+			$isdiscount_discounts_html .= '<table class="table table-bordered table-condensed">';
+			$isdiscount_discounts_html .= '<thead>';
+			$isdiscount_discounts_html .= '<tr class="active">';
+			$len = count($specs);
+			$newlen = 1; //多少种组合
+			$h = array(); //显示表格二维数组
+			$rowspans = array(); //每个列的rowspan
+			for ($i = 0; $i < $len; $i++) {
+				//表头
+				$html .= "<th>" . $specs[$i]['title'] . "</th>";
+				$discounts_html .= "<th>" . $specs[$i]['title'] . "</th>";
+				$commission_html .= "<th>" . $specs[$i]['title'] . "</th>";
+				$isdiscount_discounts_html .= "<th>" . $specs[$i]['title'] . "</th>";
+				//计算多种组合
+				$itemlen = count($specs[$i]['items']);
+				if ($itemlen <= 0) {
+					$itemlen = 1;
+				}
+				$newlen *= $itemlen;
+				//初始化 二维数组
+				$h = array();
+				for ($j = 0; $j < $newlen; $j++) {
+					$h[$i][$j] = array();
+				}
+				//计算rowspan
+				$l = count($specs[$i]['items']);
+				$rowspans[$i] = 1;
+				for ($j = $i + 1; $j < $len; $j++) {
+					$rowspans[$i]*= count($specs[$j]['items']);
+				}
+			}
+			$canedit = ce('goods',$item);
+			if($canedit){
+				$html .= '<th><div class=""><div style="padding-bottom:10px;text-align:center;">库存</div><div class="input-group"><input type="text" class="form-control input-sm option_total_all"  VALUE=""/><span class="input-group-addon" ><a href="javascript:;" class="fa fa-angle-double-down" title="批量设置" onclick="setCol(\'option_total\');"></a></span></div></div></th>';
+				$html .= '<th><div class=""><div style="padding-bottom:10px;text-align:center;">积分</div>
+<div class="input-group"><input type="text" class="form-control  input-sm option_credit_all"  VALUE=""/><span class="input-group-addon">
+<a href="javascript:;" class="fa fa-angle-double-down" title="批量设置" onclick="setCol(\'option_credit\');"></a></span></div></div></th>';
+				$html .= '<th><div class=""><div style="padding-bottom:10px;text-align:center;">金额</div>
+<div class="input-group"><input type="text" class="form-control input-sm option_money_all"  VALUE=""/><span class="input-group-addon">
+<a href="javascript:;" class="fa fa-angle-double-down" title="批量设置" onclick="setCol(\'option_money\');"></a></span></div></div></th>';
+				$html .= '<th><div class=""><div style="padding-bottom:10px;text-align:center;">编码</div><div class="input-group"><input type="text" class="form-control input-sm option_goodssn_all"  VALUE=""/><span class="input-group-addon"><a href="javascript:;" class="fa fa-angle-double-down" title="批量设置" onclick="setCol(\'option_goodssn\');"></a></span></div></div></th>';
+				$html .= '<th><div class=""><div style="padding-bottom:10px;text-align:center;">条码</div><div class="input-group"><input type="text" class="form-control input-sm option_productsn_all"  VALUE=""/><span class="input-group-addon"><a href="javascript:;" class="fa fa-angle-double-down" title="批量设置" onclick="setCol(\'option_productsn\');"></a></span></div></div></th>';
+				$html .= '<th><div class=""><div style="padding-bottom:10px;text-align:center;">重量（克）</div><div class="input-group"><input type="text" class="form-control input-sm option_weight_all"  VALUE=""/><span class="input-group-addon"><a href="javascript:;" class="fa fa-angle-double-down" title="批量设置" onclick="setCol(\'option_weight\');"></a></span></div></div></th>';
+			}else {
+				$html .= '<th><div class=""><div style="padding-bottom:10px;text-align:center;">库存</div></div></th>';
+				$html .= '<th"><div class=""><div style="padding-bottom:10px;text-align:center;">积分</div></div></th>';
+				$html .= '<th><div class=""><div style="padding-bottom:10px;text-align:center;">金额</div></div></th>';
+				$html .= '<th><div class=""><div style="padding-bottom:10px;text-align:center;">商品编码</div></div></th>';
+				$html .= '<th><div class=""><div style="padding-bottom:10px;text-align:center;">商品条码</div></div></th>';
+				$html .= '<th><div class=""><div style="padding-bottom:10px;text-align:center;">重量（克）</div></th>';
+			}
+			$html .= '</tr></thead>';
+			$discounts_html .= '</tr></thead>';
+			$isdiscount_discounts_html .= '</tr></thead>';
+			$commission_html .= '</tr></thead>';
+
+			for ($m = 0; $m < $len; $m++) {
+				$k = 0;
+				$kid = 0;
+				$n = 0;
+				for ($j = 0; $j < $newlen; $j++) {
+					$rowspan = $rowspans[$m];
+					if ($j % $rowspan == 0) {
+						$h[$m][$j] = array("html" => "<td class='full' rowspan='" . $rowspan . "'>" . $specs[$m]['items'][$kid]['title'] . "</td>", "id" => $specs[$m]['items'][$kid]['id']);
+					} else {
+						$h[$m][$j] = array("html" => "", "id" => $specs[$m]['items'][$kid]['id']);
+					}
+					$n++;
+					if ($n == $rowspan) {
+						$kid++;
+						if ($kid > count($specs[$m]['items']) - 1) {
+							$kid = 0;
+						}
+						$n = 0;
+					}
+				}
+			}
+			$hh = "";
+			$dd = "";
+			$isdd = "";
+			$cc = "";
+			for ($i = 0; $i < $newlen; $i++) {
+				$hh.="<tr>";
+				$dd.="<tr>";
+				$isdd.="<tr>";
+				$cc.="<tr>";
+				$ids = array();
+				for ($j = 0; $j < $len; $j++) {
+					$hh.=$h[$j][$i]['html'];
+					$dd.=$h[$j][$i]['html'];
+					$isdd.=$h[$j][$i]['html'];
+					$cc.=$h[$j][$i]['html'];
+					$ids[] = $h[$j][$i]['id'];
+				}
+				$ids = implode("_", $ids);
+				$val = array("id" => "", "title" => "", "total" => "", "credit" => "", "money" => "", "weight" => "",'virtual'=>'');
+
+				foreach ($options as $o) {
+					if ($ids === $o['specs']) {
+						$val = array(
+							"id" => $o['id'],
+							"title" => $o['title'],
+							"total" => $o['total'],
+							"credit" => $o['credit'],
+							"money" => $o['money'],
+							"goodssn"=>$o['goodssn'],
+							"productsn"=>$o['productsn'],
+							"weight" => $o['weight'],
+							'virtual'=>$o['virtual']
+						);
+						$discount_val = array(
+							"id" => $o['id'],
+						);
+						break;
+					}
+				}
+				if($canedit){
+					foreach ($levels as $level) {
+						$dd .= '<td>';
+						$isdd .= '<td>';
+						if($level['key']=='default')
+						{
+							$dd .= '<input data-name="discount_level_'.$level['key'].'_' . $ids . '"  type="text" class="form-control discount_'.$level['key'].' discount_'.$level['key'].'_' . $ids . '" value="' . $discounts_val[$level['key']] . '"/> ';
+							$isdd .= '<input data-name="isdiscount_discounts_level_'.$level['key'].'_' . $ids . '"  type="text" class="form-control isdiscount_discounts_'.$level['key'].' isdiscount_discounts_'.$level['key'].'_' . $ids . '" value="' . $isdiscounts_val[$level['key']] . '"/> ';
+						}
+						else
+						{
+							$dd .= '<input data-name="discount_level_'.$level['id'].'_' . $ids . '"  type="text" class="form-control discount_level'.$level['id'].' discount_level'.$level['id'].'_' . $ids . '" value="' . $discounts_val['level'.$level['id']] . '"/> ';
+							$isdd .= '<input data-name="isdiscount_discounts_level_'.$level['id'].'_' . $ids . '"  type="text" class="form-control isdiscount_discounts_level'.$level['id'].' isdiscount_discounts_level'.$level['id'].'_' . $ids . '" value="' . $isdiscounts_val['level'.$level['id']] . '"/> ';
+						}
+						$dd .= '</td>';
+						$isdd .= '</td>';
+					}
+					$dd .= '<input data-name="discount_id_' . $ids . '"  type="hidden" class="form-control discount_id discount_id_' . $ids . '" value="' . $discounts_val['id'] . '"/>';
+					$dd .= '<input data-name="discount_ids"  type="hidden" class="form-control discount_ids discount_ids_' . $ids . '" value="' . $ids . '"/>';
+					$dd .= '<input data-name="discount_title_' . $ids . '"  type="hidden" class="form-control discount_title discount_title_' . $ids . '" value="' . $discounts_val['title'] . '"/>';
+					$dd .= '<input data-name="discount_virtual_' . $ids . '"  type="hidden" class="form-control discount_title discount_virtual_' . $ids . '" value="' . $discounts_val['virtual'] . '"/>';
+					$dd .= "</tr>";
+
+					$isdd .= '<input data-name="isdiscount_discounts_id_' . $ids . '"  type="hidden" class="form-control isdiscount_discounts_id isdiscount_discounts_id_' . $ids . '" value="' . $isdiscounts_val['id'] . '"/>';
+					$isdd .= '<input data-name="isdiscount_discounts_ids"  type="hidden" class="form-control isdiscount_discounts_ids isdiscount_discounts_ids_' . $ids . '" value="' . $ids . '"/>';
+					$isdd .= '<input data-name="isdiscount_discounts_title_' . $ids . '"  type="hidden" class="form-control isdiscount_discounts_title isdiscount_discounts_title_' . $ids . '" value="' . $isdiscounts_val['title'] . '"/>';
+					$isdd .= '<input data-name="isdiscount_discounts_virtual_' . $ids . '"  type="hidden" class="form-control isdiscount_discounts_title isdiscount_discounts_virtual_' . $ids . '" value="' . $isdiscounts_val['virtual'] . '"/>';
+					$isdd .= "</tr>";
+
+					$cc .= '<input data-name="commission_id_' . $ids . '"  type="hidden" class="form-control commission_id commission_id_' . $ids . '" value="' . $commissions_val['id'] . '"/>';
+					$cc .= '<input data-name="commission_ids"  type="hidden" class="form-control commission_ids commission_ids_' . $ids . '" value="' . $ids . '"/>';
+					$cc .= '<input data-name="commission_title_' . $ids . '"  type="hidden" class="form-control commission_title commission_title_' . $ids . '" value="' . $commissions_val['title'] . '"/>';
+					$cc .= '<input data-name="commission_virtual_' . $ids . '"  type="hidden" class="form-control commission_title commission_virtual_' . $ids . '" value="' . $commissions_val['virtual'] . '"/>';
+					$cc .= "</tr>";
+					$hh .= '<td>';
+					$hh .= '<input data-name="option_total_' . $ids . '"  type="text" class="form-control option_total option_total_' . $ids . '" value="' . $val['total'] . '"/>';
+					$hh .= '</td>';
+					$hh .= '<input data-name="option_id_' . $ids . '"  type="hidden" class="form-control option_id option_id_' . $ids . '" value="' . $val['id'] . '"/>';
+					$hh .= '<input data-name="option_ids"  type="hidden" class="form-control option_ids option_ids_' . $ids . '" value="' . $ids . '"/>';
+					$hh .= '<input data-name="option_title_' . $ids . '"  type="hidden" class="form-control option_title option_title_' . $ids . '" value="' . $val['title'] . '"/>';
+					$hh .= '<input data-name="option_virtual_' . $ids . '"  type="hidden" class="form-control option_virtual option_virtual_' . $ids . '" value="' . $val['virtual'] . '"/>';
+					$hh .= '<td><input data-name="option_credit_' . $ids . '" type="text" class="form-control option_credit option_credit_' . $ids . '" value="' . $val['credit'] . '"/></td>';
+					$hh .= '<td><input data-name="option_money_' . $ids . '" type="text" class="form-control option_money option_money_' . $ids . '" " value="' . $val['money'] . '"/></td>';
+					$hh .= '<td><input data-name="option_goodssn_' . $ids . '" type="text" class="form-control option_goodssn option_goodssn_' . $ids . '" " value="' . $val['goodssn'] . '"/></td>';
+					$hh .= '<td><input data-name="option_productsn_' . $ids . '" type="text" class="form-control option_productsn option_productsn_' . $ids . '" " value="' . $val['productsn'] . '"/></td>';
+					$hh .= '<td><input data-name="option_weight_' . $ids . '" type="text" class="form-control option_weight option_weight_' . $ids . '" " value="' . $val['weight'] . '"/></td>';
+					$hh .= '</tr>';
+				} else{
+					$hh .= '<td>' . $val['total'] . '</td>';
+					$hh .= '<td>' . $val['credit'] . '</td>';
+					$hh .= '<td>' . $val['money'] . '</td>';
+					$hh .= '<td>' . $val['goodssn'] . '</td>';
+					$hh .= '<td>' . $val['productsn'] . '</td>';
+					$hh .= '<td>' . $val['weight'] . '</td>';
+					$hh .= '</tr>';
+				}
+			}
+			$discounts_html .= $dd;
+			$discounts_html .= "</table>";
+			$isdiscount_discounts_html .= $isdd;
+			$isdiscount_discounts_html .= "</table>";
+			$html .= $hh;
+			$html .= "</table>";
+			$commission_html .= $cc;
+			$commission_html .= "</table>";
+		}
+		//查询快递模板
+		$dispatch_data = pdo_fetchall('select * from ' . tablename('ewei_shop_dispatch') . ' where uniacid=:uniacid and merchid=:merchid and enabled=1 order by displayorder desc', array(':uniacid' => $_W['uniacid'], ':merchid' =>$merchid));
+
+
+		if ($_W['ispost']) {
+			$data = array(
+				'uniacid' => $_W['uniacid'],
+				'displayorder' => intval($_GPC['displayorder']),
+				'goodstype' => intval($_GPC['goodstype']),
+				'goodsid' => intval($_GPC['goodsid']),			//商品
+				'couponid' => intval($_GPC['couponid']),			//优惠券
+				'grant1' => floatval($_GPC['grant1']),			//余额
+				'grant2' => floatval($_GPC['grant2']),			//红包
+				'packetmoney' => floatval($_GPC['packetmoney']),		//红包总金额
+				'packetlimit' => floatval($_GPC['packetlimit']),		//红包限制金额
+				'packettotal' => intval($_GPC['packettotal']),			//红包总数
+				'packettype' => intval($_GPC['packettype']),			//红包类型 0 固定金额 1 随机金额
+				'minpacketmoney' => floatval($_GPC['minpacketmoney']),	//随机金额最小金额
+
+				'title' => trim($_GPC['title']),
+				'cate' => intval($_GPC['cate']),
+				'thumb' => save_media($_GPC['thumb']),
+				'price' => floatval($_GPC['price']),
+				'productprice' => floatval($_GPC['productprice']),
+				'credit' => intval($_GPC['credit']),
+				'money' => trim($_GPC['money']),
+				'dispatchtype' => intval($_GPC['dispatchtype']),
+				'dispatchid' => intval($_GPC['dispatchid']),
+				'dispatch' => floatval($_GPC['dispatch']),
+				'istop' => intval($_GPC['istop']),
+				'isrecommand' => intval($_GPC['isrecommand']),
+				'istime' => intval($_GPC['istime']),
+				'timestart' => strtotime($_GPC['timestart']),
+				'timeend' => strtotime($_GPC['timeend']),
+				'goodsdetail' => m('common')->html_images($_GPC['goodsdetail']),
+
+				'goodssn' => trim($_GPC['goodssn']),
+				'productsn' => trim($_GPC['productsn']),
+				'weight' => intval($_GPC['weight']),
+				'total' => intval($_GPC['total']),
+				'showtotal' => intval($_GPC['showtotal']),
+				'totalcnf' => intval($_GPC['totalcnf']),
+				'hasoption' => intval($_GPC['hasoption']),
+
+				'status' => intval($_GPC['status']),
+				'type' => intval($_GPC['type']),
+				'area' => trim($_GPC['area']),
+				'chanceday' => intval($_GPC['chanceday']),
+				'chance' => intval($_GPC['chance']),
+				'totalday' => intval($_GPC['totalday']),
+				//'usecredit2' => intval($_GPC['usecredit2']),			//优先支付方式
+				'rate1' => trim($_GPC['rate1']),
+				'rate2' => trim($_GPC['rate2']),
+				'isendtime' => intval($_GPC['isendtime']),
+				'usetime' => intval($_GPC['usetime']) >= 0 ? intval($_GPC['usetime']) : 0 ,
+				'endtime' => strtotime($_GPC['endtime']),
+				'detailshow' => intval($_GPC['detailshow']),
+				'noticedetailshow' => intval($_GPC['noticedetailshow']),
+				'detail' => m('common')->html_images($_GPC['detail']),
+				'noticedetail' => m('common')->html_images($_GPC['noticedetail']),
+
+				'showlevels' => is_array($_GPC['showlevels']) ? implode(",", $_GPC['showlevels']) : '',
+				'buylevels' => is_array($_GPC['buylevels']) ? implode(",", $_GPC['buylevels']) : '',
+				'showgroups' => is_array($_GPC['showgroups']) ? implode(",", $_GPC['showgroups']) : '',
+				'buygroups' => is_array($_GPC['buygroups']) ? implode(",", $_GPC['buygroups']) : '',
+
+				'subtitle' => trim($_GPC['subtitle']),
+				'subdetail' => m('common')->html_images($_GPC['subdetail']),
+				'isverify' => intval($_GPC['isverify']),
+				'verifytype' => intval($_GPC['verifytype']),
+				'verifynum' => intval($_GPC['verifynum']),
+				'storeids' => is_array($_GPC['storeids']) ? implode(',', $_GPC['storeids']) : '',
+				'noticeopenid' => trim($_GPC['noticeopenid']),
+
+				'followneed' => intval($_GPC['followneed']),
+				'followtext' => trim($_GPC['followtext']),
+				'share_title' => trim($_GPC['share_title']),
+				'share_icon' => save_media($_GPC['share_icon']),
+				'share_desc' => trim($_GPC['share_desc'])
+			);
+			if ($isverify) {
+				//如果为线下兑换，自动取消运费
+				$data['dispatch'] = 0;
+				if($data['verifytype'] == 1 && $data['verifynum'] < 1){
+					$data['verifynum'] = 1;
+				}
+				if($data['verifytype'] == 0){
+					$data['verifynum'] = 1;
+				}
+			}
+			if($data['credit']<=0){
+				show_json(0,'请正确填写积分！');
+			}
+			if($data['money']<0){
+				show_json(0,'请正确填写金额！');
+			}
+			if($data['goodstype']==2 && $data['grant1']<=0){
+				show_json(0,'请正确填写余额！');
+			}
+			$data['vip'] = (!empty($data['showlevels']) || !empty($data['showgroups']) ) ? 1 : 0;
+
+			if (!empty($id)) {
+				$data['goodstype'] = $goodstype;
+				$data['type'] = $type;
+				$data['isverify'] = $isverify;
+				//红包
+				$data['packetmoney'] = $item['packetmoney'];
+				$data['surplusmoney'] = $item['surplusmoney'];
+				$data['packettotal'] = $item['packettotal'];
+				$data['packetsurplus'] = $item['packetsurplus'];
+				$data['grant2'] = $item['grant2'];
+				$data['packettype'] = $item['packettype'];
+				$data['minpacketmoney'] = $item['minpacketmoney'];
+
+				pdo_update('ewei_shop_creditshop_goods', $data, array('id' => $id, 'uniacid' => $_W['uniacid']));
+				plog('creditshop.goods.edit', "编辑积分商城商品 ID: {$id} <br/>商品名称: {$data['title']}");
+			} else {
+				if($data['goodstype']==3 || $data['packetmoney'] > 0 || $data['packettotal'] > 0){
+					if($data['packettype']==0){
+						if($data['grant2'] < 1){
+							show_json(0,'红包最少为1元，请正确填写！');
+						}
+						if($data['packetmoney']!=$data['grant2']*$data['packettotal']){
+							show_json(0,'请正确填写红包金额和数量！');
+						}
+					}else{
+						if($data['minpacketmoney'] < 1){
+							show_json(0,'红包随机金额最少为1元，请正确填写！');
+						}
+						if($data['packetmoney'] < $data['minpacketmoney']*$data['packettotal']){
+							show_json(0,'请正确填写红包金额和数量！');
+						}
+					}
+				}
+				$data['surplusmoney'] = $data['packetmoney'];
+				$data['packetsurplus'] = $data['packettotal'];
+
+				pdo_insert('ewei_shop_creditshop_goods', $data);
+				$id = pdo_insertid();
+				plog('creditshop.goods.add', "添加积分商城商品 ID: {$id}  <br/>商品名称: {$data['title']}");
+			}
+
+			if($data['hasoption']){
+				$totalstocks = 0;
+				//处理商品规格
+				$files = $_FILES;
+				$spec_ids = $_POST['spec_id'];
+				$spec_titles = $_POST['spec_title'];
+				$specids = array();
+				$len = count($spec_ids);
+				$specids = array();
+				$spec_items = array();
+				for ($k = 0; $k < $len; $k++) {
+					$spec_id = "";
+					$get_spec_id = $spec_ids[$k];
+					$a = array(
+						"uniacid" => $_W['uniacid'],
+						"goodsid" => $id,
+						"displayorder" => $k,
+						"title" => $spec_titles[$get_spec_id]
+					);
+					if (is_numeric($get_spec_id)) {
+						pdo_update("ewei_shop_creditshop_spec", $a, array("id" => $get_spec_id));
+						$spec_id = $get_spec_id;
+					} else {
+						pdo_insert("ewei_shop_creditshop_spec", $a);
+						$spec_id = pdo_insertid();
+					}
+					//子项
+					$spec_item_ids = $_POST["spec_item_id_" . $get_spec_id];
+					$spec_item_titles = $_POST["spec_item_title_" . $get_spec_id];
+					$spec_item_shows = $_POST["spec_item_show_" . $get_spec_id];
+					$spec_item_thumbs = $_POST["spec_item_thumb_" . $get_spec_id];
+					$spec_item_oldthumbs = $_POST["spec_item_oldthumb_" . $get_spec_id];
+					$spec_item_virtuals = $_POST["spec_item_virtual_" . $get_spec_id];
+
+					$itemlen = count($spec_item_ids);
+					$itemids = array();
+					for ($n = 0; $n < $itemlen; $n++) {
+						$item_id = "";
+						$get_item_id = $spec_item_ids[$n];
+						$d = array(
+							"uniacid" => $_W['uniacid'],
+							"specid" => $spec_id,
+							"displayorder" => $n,
+							"title" => $spec_item_titles[$n],
+							"show" => $spec_item_shows[$n],
+							"thumb" => save_media($spec_item_thumbs[$n]),
+							"virtual" => $data['type'] == 3 ? $spec_item_virtuals[$n] : 0
+						);
+						$f = "spec_item_thumb_" . $get_item_id;
+						if (is_numeric($get_item_id)) {
+							pdo_update("ewei_shop_creditshop_spec_item", $d, array("id" => $get_item_id));
+							$item_id = $get_item_id;
+						} else {
+							pdo_insert("ewei_shop_creditshop_spec_item", $d);
+							$item_id = pdo_insertid();
+						}
+						$itemids[] = $item_id;
+						//临时记录，用于保存规格项
+						$d['get_id'] = $get_item_id;
+						$d['id'] = $item_id;
+						$spec_items[] = $d;
+					}
+					//删除其他的
+					if (count($itemids) > 0) {
+						pdo_query("delete from " . tablename('ewei_shop_creditshop_spec_item') . " where uniacid={$_W['uniacid']} and specid=$spec_id and id not in (" . implode(",", $itemids) . ")");
+					} else {
+						pdo_query("delete from " . tablename('ewei_shop_creditshop_spec_item') . " where uniacid={$_W['uniacid']} and specid=$spec_id");
+					}
+					//更新规格项id
+					pdo_update("ewei_shop_creditshop_spec", array("content" => serialize($itemids)), array("id" => $spec_id));
+					$specids[] = $spec_id;
+				}
+				//删除其他的
+				if (count($specids) > 0) {
+					pdo_query("delete from " . tablename('ewei_shop_creditshop_spec') . " where uniacid={$_W['uniacid']} and goodsid=$id and id not in (" . implode(",", $specids) . ")");
+				} else {
+					pdo_query("delete from " . tablename('ewei_shop_creditshop_spec') . " where uniacid={$_W['uniacid']} and goodsid=$id");
+				}
+				//保存规格
+				$optionArray = json_decode($_POST['optionArray'],true);
+				$option_idss = $optionArray['option_ids'];
+				$len = count($option_idss);
+				$optionids = array();
+				$levelArray = array();
+				for ($k = 0; $k < $len; $k++) {
+					$option_id = "";
+					$ids = $option_idss[$k];
+					$get_option_id = $optionArray['option_id'][$k];
+
+					$idsarr = explode("_", $ids);
+					$newids = array();
+					foreach ($idsarr as $key => $ida) {
+						foreach ($spec_items as $it) {
+							if ($it['get_id'] == $ida) {
+								$newids[] = $it['id'];
+								break;
+							}
+						}
+					}
+
+					$newids = implode("_", $newids);
+					$a = array(
+						"uniacid" => $_W['uniacid'],
+						"title" => $optionArray['option_title'][$k],
+						"credit" => $optionArray['option_credit'][$k],
+						"money" => $optionArray['option_money'][$k],
+						"total" => $optionArray['option_total'][$k],
+						"weight" => $optionArray['option_weight'][$k],
+						"goodssn" => $optionArray['option_goodssn'][$k],
+						"productsn" => $optionArray['option_productsn'][$k],
+						"goodsid" => $id,
+						"specs" => $newids,
+						'virtual' => $data['type'] == 3 ? $optionArray['option_virtual'][$k] : 0,
+					);
+
+					$totalstocks+=$a['total'];
+					if (empty($get_option_id)) {
+						pdo_insert("ewei_shop_creditshop_option", $a);
+						$option_id = pdo_insertid();
+					} else {
+						pdo_update("ewei_shop_creditshop_option", $a, array('id' => $get_option_id));
+						$option_id = $get_option_id;
+					}
+					$optionids[] = $option_id;
+				}
+				//更新最低价格，最低积分
+				if (count($optionids) > 0 && $data['hasoption'] !== 0) {
+					pdo_query("delete from " . tablename('ewei_shop_creditshop_option') . " where goodsid=$id and id not in ( " . implode(',', $optionids) . ")");
+
+					//更新最低价和最高价
+					$sql = "update ".tablename('ewei_shop_creditshop_goods')." g set
+					g.mincredit = (select min(credit) from ".tablename('ewei_shop_creditshop_option')." where goodsid = $id),
+					g.minmoney = (select min(money) from ".tablename('ewei_shop_creditshop_option')." where goodsid = $id),
+					g.maxcredit = (select max(credit) from ".tablename('ewei_shop_creditshop_option')." where goodsid = $id),
+					g.maxmoney = (select max(money) from ".tablename('ewei_shop_creditshop_option')." where goodsid = $id)
+					where g.id = $id and g.hasoption=1";
+
+					pdo_query($sql);
+				} else {
+					pdo_query("delete from " . tablename('ewei_shop_creditshop_option') . " where goodsid=$id");
+					$sql = "update ".tablename('ewei_shop_creditshop_goods')." set minmoney = money,maxmoney = money,mincredit = credit,maxcredit = credit where id = $id and hasoption=0;";
+					pdo_query($sql);
+				}
+				//总库存
+				if ($data['hasoption'] !== 0) {
+					pdo_update("ewei_shop_creditshop_goods", array("total" => $totalstocks), array("id" => $id));
+				}
+			}
+
+			show_json(1, array('url' => webUrl('creditshop/goods/edit', array('id' => $id, 'tab' => str_replace("#tab_", "", $_GPC['tab'])))));
+		}
+		include $this->template();
+	}
+
+	function delete() {
+		global $_W, $_GPC;
+		$id = intval($_GPC['id']);
+		if (empty($id)) {
+			$id = is_array($_GPC['ids']) ? implode(',', $_GPC['ids']) : 0;
+		}
+		$items = pdo_fetchall("SELECT id,title FROM " . tablename('ewei_shop_creditshop_goods') . " WHERE id in( $id ) AND uniacid=" . $_W['uniacid']);
+		foreach ($items as $item) {
+			pdo_update('ewei_shop_creditshop_goods', array('deleted' => 1), array('id' =>$item['id'], 'uniacid' => $_W['uniacid']));
+			plog('creditshop.goods.delete', "删除积分商城商品 ID: {$item['id']}  <br/>商品名称: {$item['title']} ");
+		}
+		show_json(1, array('url' => referer()));
+	}
+
+	function property() {
+		global $_W, $_GPC;
+		$id = intval($_GPC['id']);
+		$type = trim($_GPC['type']);
+
+		$value = intval($_GPC['value']);
+		if (in_array($type, array('istop', 'isrecommand', 'status', 'displayorder','title'))) {
+
+			pdo_update("ewei_shop_creditshop_goods", array($type => $value), array("id" => $id, "uniacid" => $_W['uniacid']));
+			$statusstr = "";
+			if ($type == 'istop') {
+				$typestr = "置顶";
+				$statusstr = $value == 1 ? '置顶' : '取消置顶';
+			} else if ($type == 'isrecommand') {
+				$typestr = "推荐";
+				$statusstr = $value == 1 ? '推荐' : '取消推荐';
+			} else if ($type == 'status') {
+				$typestr = "上下架";
+				$statusstr = $value == 1 ? '上架' : '下架';
+			} else if ($type == 'displayorder') {
+				$typestr = "排序";
+				$statusstr = "序号 {$value}";
+			}
+			plog('creditshop.goods.edit', "修改积分商城商品{$typestr}状态   ID: {$id} {$statusstr} ");
+		}
+		show_json(1);
+	}
+
+    function query(){
+        global $_W, $_GPC;
+        $kwd = trim($_GPC['keyword']);
+
+        $params = array();
+        $params[':uniacid'] = $_W['uniacid'];
+        $condition=" and status=1 and deleted=0 and uniacid=:uniacid";
+        if (!empty($kwd)) {
+            $condition.=" AND `title` LIKE :keywords";
+            $params[':keywords'] = "%{$kwd}%";
+        }
+
+        $list = pdo_fetchall('SELECT *, money as minprice FROM ' . tablename('ewei_shop_creditshop_goods') . " WHERE 1 {$condition} order by createtime desc", $params);
+        $list = set_medias($list, array('thumb'));
+
+        include $this->template();
+
+    }
+
+}

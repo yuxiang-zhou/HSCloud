@@ -73,25 +73,6 @@
 </head>
 
 <body> 
-	{if !$areaok}
-	<style type='text/css'>
-					body { background:#fff}
-	</style>
-	    <div class="rich_primary">
-        <div class="rich_title">{$article['article_title']}</div>
-		<div class="rich_mate">
-            <div class="rich_mate_text">{$article['article_date_v']}</div>
-            <div class="rich_mate_text">{$article['article_author']}</div>
-            <a href="{if !empty($shop['share']['followurl'])}{$shop['share']['followurl']}{else}javascript:;{/if}"><div class="rich_mate_text href">{$article['article_mp']}</div></a>
-        </div>
-		</div>
-	<div class='areastop'>
-		<div class="title">抱歉！</div>
-		<div class="content">此文章仅限 {$article['article_areas']} 地区阅读!</div>
-		<div class="footer"><a href="{php echo $this->createPluginMobileUrl('article/article')}">>> 或者您可以看看其他的文章!</a></div>
-	</div>
-      
-	{else}
     <div class="rich_primary">
         <div class="rich_title">{$article['article_title']}</div>
         <div class="rich_mate">
@@ -104,7 +85,7 @@
         </div>
         <div class="rich_tool">
             {if !empty($article['article_linkurl'])}<a href="{$article['article_linkurl']}"><div class="rich_tool_text link">阅读原文</div></a>{/if}
-            {if !empty($openid)}
+            {if !empty($_W['openid'])}
                 <div class="rich_tool_text">阅读 {$readnum}</div>
                 <div class="rich_tool_text" id="likebtn">
                     <div class="rich_tool_like {if !empty($state['like'])}rich_tool_likeon{/if}"></div>
@@ -144,10 +125,9 @@
                     <a href="{if !empty($article['product_advs_link'])}{$article['product_advs_link']}{else}javascript:;{/if}">{$article['product_advs_more']}</a>
                 {/if}
             </div>
-        </div> 
+        </div>
     {/if}
 <script type="text/javascript" src="../addons/ewei_shop/plugin/article/template/imgsrc/swipe.js"></script>
 <script type="text/javascript" src="../addons/ewei_shop/plugin/article/template/imgsrc/swipe.config.js"></script>
-{/if}
 </body>
 </html>

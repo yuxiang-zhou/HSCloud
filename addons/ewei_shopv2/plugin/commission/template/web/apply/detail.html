@@ -75,7 +75,11 @@
                 <p>
                     <b>申请佣金: </b><span style='color:red'>{$apply['commission']}</span> 元  
                 </p>
-
+                {if (float)$apply['sendmoney']}
+                <p>
+                    <b>已打款(红包才有): </b><span style='color:red'>{$apply['sendmoney']}</span> 元
+                </p>
+                {/if}
                 <p>
                     <b>打款方式: </b>
                     {if empty($apply['type'])}

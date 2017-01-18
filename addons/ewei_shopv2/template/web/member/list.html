@@ -145,14 +145,14 @@
                     <td> 
 		 
 						{if empty($row['followed'])}
-                        {if empty($row['uid'])}
-                        <label class='label label-default'>未关注</label>
+                            {if empty($row['unfollowtime'])}
+                                <label class='label label-default'>未关注</label>
+                            {else}
+                                <label class='label label-warning'>取消关注</label>
+                            {/if}
                         {else}
-                        <label class='label label-warning'>取消关注</label>
+                            <label class='label label-success'>已关注</label>
                         {/if}
-                        {else}
-                    <label class='label label-success'>已关注</label>
-                    {/if}
 					
 					<br/><label class='label {if $row['isblack']==1}label-error{else}label-primary{/if}' 
 										  {ifp 'member.list.edit'}

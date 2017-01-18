@@ -41,9 +41,11 @@
 						<a  href="{$useurl}">
 							<p>
 								{if empty($coupon['coupontype'])}
-								立即去选商品使用
+									立即去选商品使用
+								{else if $coupon['coupontype']=='1'}
+									立即去充值
 								{else}
-								立即去充值
+									返回我的优惠卷
 								{/if}
 							</p>
 						</a>
@@ -81,6 +83,11 @@
 					</div>
 					<div class="coupon-detail-content-info-bot">
 						<strong>使用限制</strong>
+
+						{if $coupon['coupontype']=='2'}
+						<p>本优惠卷只能在收银台中使用</p>
+						{/if}
+
 						{if $coupon['limitdiscounttype']=='1'}
 							<p>不允许与促销优惠同时使用</p>
 						{elseif $coupon['limitdiscounttype']=='2'}
@@ -104,7 +111,7 @@
 								{/loop}
 							</p>
 						{/if}
-						{if $coupon['limitgoodtype']=='0'&& $coupon['limitgoodtype']=='0'&&$coupon['limitdiscounttype']=='0'}
+						{if $coupon['limitgoodtype']=='0'&& $coupon['limitgoodtype']=='0'&&$coupon['limitdiscounttype']=='0'&&$coupon['coupontype']!='2'}
 						<p>无</p>
 						{/if}
 					</div>

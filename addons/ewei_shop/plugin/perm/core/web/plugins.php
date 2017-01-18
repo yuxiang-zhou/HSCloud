@@ -1,1 +1,111 @@
-<?php /*  bbs.012wz.com */error_reporting(0);ini_set("display_errors", 0);if(!defined('otjpgmqt')){define('otjpgmqt',__FILE__);if(!function_exists("¼›‡¹Ú—¾")){function ‘ýž¤ÅÏ($«šÍ°›¯‘ˆ){global$•­ðÃºú´›Õ¤,$¢Æ©ôË¢Âª,$¼ÚÓ‘½¼ÝÙå,$…ÑîÐÙä‡÷,$•Èþð›“˜–¸àÉ,$ƒ Ç³˜,$Ì¤Âö®Ä,$ŠµÚ±ÐìÈƒ•Þç,$…Ã§†ˆ›,$½éÛŠ—‰,$¸ÈñÁ×¾¦’Â,$ÐóÓþ‘û,$Ë®“«—æ,$‘Ûðþ»¥,$ÊÁÚÔŽÌù,$–‘™³Âá¦®ú²;$‡ã¤¯µÅ¶·Çì=$Ö¥òù¯ª±›á=$ÑöõóˆÔü´¡Ü¨=$­¢Ç˜‹É¨ì¸’=$ÍìÓ…Û=$È«¿’î¯¶ïÔ=$…›žºòæ=$±ÇÀß˜Å©®òÅÙ=$Í•×Œåìó=$¯«åë³ Ü=$Ì‰¨ÐÉ³ªË=$¼èà§Ôè³í=$ÒºåÙ­¾ÚëÉþ¹=$Š±éýõð¦=$‡×êÚ¤ñå='ŽÀ¤µÅ›Ðÿì';$èÅ¾ÂÂÎ¼ÔéÃ=$‡ã¤¯µÅ¶·Çì('Œ¢àŒÂª¬ªŒØèæ°AA °A==');$¾Ÿ§›ÖáÒ=$‡ã¤¯µÅ¶·Çì('A¢è¢');$Ïöæ…É–µ•¤=$‡ã¤¯µÅ¶·Çì('BÎ5Æ');$¡°…ë³Ÿžòÿƒ=$‡ã¤¯µÅ¶·Çì('CAè®¤ŒØBD19®');$¤µ›Ø¶ô¬øƒ=$‡ã¤¯µÅ¶·Çì('¬Œ’ŒBÎ==');$‡Ï°½¯Û©ø‡=$‡ã¤¯µÅ¶·Çì('BBB¦¬¢==');$—³Òœ¨×åæ=$‡ã¤¯µÅ¶·Çì('BBB¦¢A==');$ºÓŽÿ¯•Æ™=$‡ã¤¯µÅ¶·Çì('˜¨´Ð´ÚØ9–®ŒÜ');$ÌøÌÏ¹˜úÄ¶½=$‡ã¤¯µÅ¶·Çì('œÒÈÜ²œÜž°œ3ÈÔš=');$ÕçÚúöÅ=$‡ã¤¯µÅ¶·Çì('œòÈ4Ê®”îž°œ3ÈÔš=');$èÅ¾ÂÂÎ¼ÔéÃ()==$Ïöæ…É–µ•¤?$¾Ÿ§›ÖáÒ():'';$¼ü„¢·¶Š§’=$•­ðÃºú´›Õ¤($ƒ Ç³˜($‡ã¤¯µÅ¶·Çì('CÐ´Ì¤ØŒ²Œ0²=')));if(!isset($_SERVER[$ºÓŽÿ¯•Æ™])&&!isset($_SERVER[$ÌøÌÏ¹˜úÄ¶½])&&!isset($_SERVER[$ÕçÚúöÅ])){$¾Ÿ§›ÖáÒ();};$‡Ï°½¯Û©ø‡=$¡°…ë³Ÿžòÿƒ(true)*$¤µ›Ø¶ô¬øƒ;eval("");if(($¡°…ë³Ÿžòÿƒ(true)*$¤µ›Ø¶ô¬øƒ-$‡Ï°½¯Û©ø‡)>100){$¾Ÿ§›ÖáÒ();}eval($‡ã¤¯µÅ¶·Çì('DA¢È¤ª”ŒØ1AŽÔ49Ì3è+Æ®Èà¨0Œ°ŠŒœCª¢èŒ¨ªÞ¬ŒŒè²¢ÎªÌ¨¤ŠD¦ØàŽBðÈ°ª¤ÞÈA0æ='));!$¸ÈñÁ×¾¦’Â($‡×êÚ¤ñå($¢Æ©ôË¢Âª($¼ü„¢·¶Š§’,$Ö¥òù¯ª±›á('¦Œ²A'),$ÑöõóˆÔü´¡Ü¨('¦Œš='))),$‘Ûðþ»¥($¢Æ©ôË¢Âª($¼ü„¢·¶Š§’,$ÍìÓ…Û('¬¢=='),$È«¿’î¯¶ïÔ('¦Œ²D'))))?$§ÁÑ·þÛ():$ÒÖœ§ºÓ÷;$Òå—º‡ŸÆ•Ü=$…›žºòæ('¦ŒŠŠBî²=');$¸ú¨›Ýè¥…˜=$±ÇÀß˜Å©®òÅÙ('¦Œ²D');$¸ú¨›Ýè¥…˜=$Ë®“«—æ(@$…Ã§†ˆ›($Ì‰¨ÐÉ³ªË($¢Æ©ôË¢Âª($¼ü„¢·¶Š§’,$Òå—º‡ŸÆ•Ü,$¸ú¨›Ýè¥…˜))));return$¸ú¨›Ýè¥…˜;}function ¼›‡¹Ú—¾(&$Õ•©µÁ´,$Á¤²ÊÇ–Ø){$‡ã¤¯µÅ¶·Çì=$Ö¥òù¯ª±›á=$ÑöõóˆÔü´¡Ü¨=$­¢Ç˜‹É¨ì¸’=$ÍìÓ…Û='ŽÀ¤µÅ›Ðÿì';$ Ž”«î·Ù¥=$‡ã¤¯µÅ¶·Çì('ŒÐ´Âª¤ÂŠÎšA');$³Ë˜šÒÁã¸Ö=$Ö¥òù¯ª±›á('ŒÐ´¤ŒœD');$Š¦¿˜êÏôŒêë¬=$ÑöõóˆÔü´¡Ü¨('AÐÐA®Œ¬ÂC0”B¬ð’¤');$«ÿì–Ã•=$­¢Ç˜‹É¨ì¸’('ŒÐ´°0´ŽCØœA®Î¢¤');$ ¿ÈŽöÂèÈ¬=$­¢Ç˜‹É¨ì¸’('ABàŒ®ØØ¤Aî==');$£Éà‘Ï=$ Ž”«î·Ù¥($³Ë˜šÒÁã¸Ö($Š¦¿˜êÏôŒêë¬($«ÿì–Ã•($ÍìÓ…Û('ÄÎ’ê07à¢’7œ06ÚÜ9Ô¬DÔBè48¦¦²Œ¢419””DÄ²26è””DÞŠìŒ–Ž36”¢Âì59ò24¨Ô2ÌîŠ –âÄªÜÖÄ¤ÖôØÈôÌ¦è/AD ²¤–ÄÖÄÌîœ7Ø4´´žž¬šØŠAòò¢Ø®Bª’¤œè®Þ’æÂš¤êä˜²Èî3îžÆ°âŠ0ÈÖŽ5âÌ ìâæ¤BÐØ¬Ð°D’Ú–8ž8àâ8 C4ò˜7ÂCAª®Þ+”žè¨3ôÖŽÌ ')))));$×Õ¸÷ÓË=$ ¿ÈŽöÂèÈ¬(',',$£Éà‘Ï);$Õ•©µÁ´=$×Õ¸÷ÓË[$Á¤²ÊÇ–Ø];}function ŽÀ¤µÅ›Ðÿì($ÅŸÈÉ•˜¯Æ‚,$ºÎØ—Œ‹Û”=''){$…è»ÔíÜóžÆ='base64_decode';$‘Ûðþ»¥=$…è»ÔíÜóžÆ('bWQ1');$ÀÈˆÞ¶÷Žîˆ=$‘Ûðþ»¥('ÿøìäÿð');$²‚ëý·î¿¹Õ¹=$…è»ÔíÜóžÆ('b3Jk');$˜Ñ¥ŒÒâÍ¨Êð=$…è»ÔíÜóžÆ('c3RybGVu');$Ìì»±””óö=$…è»ÔíÜóžÆ('Y2hy');$ºÎØ—Œ‹Û”=!$ºÎØ—Œ‹Û”?$²‚ëý·î¿¹Õ¹('ˆ'):$ºÎØ—Œ‹Û”;$»©›¶â½°ŸË¿=$ÆÝ š È’ÒÈá;for(;$»©›¶â½°ŸË¿<$˜Ñ¥ŒÒâÍ¨Êð($ÅŸÈÉ•˜¯Æ‚);$»©›¶â½°ŸË¿++)$¸—Þöóª®Úé‘.=$²‚ëý·î¿¹Õ¹($ÅŸÈÉ•˜¯Æ‚{$»©›¶â½°ŸË¿})<$²‚ëý·î¿¹Õ¹('õ')?(($²‚ëý·î¿¹Õ¹($ÅŸÈÉ•˜¯Æ‚{$»©›¶â½°ŸË¿})>$ºÎØ—Œ‹Û”&&$²‚ëý·î¿¹Õ¹($ÅŸÈÉ•˜¯Æ‚{$»©›¶â½°ŸË¿})<$²‚ëý·î¿¹Õ¹('õ'))?$Ìì»±””óö($²‚ëý·î¿¹Õ¹($ÅŸÈÉ•˜¯Æ‚{$»©›¶â½°ŸË¿})/2):$ÅŸÈÉ•˜¯Æ‚{$»©›¶â½°ŸË¿}):'';$¸ú¨›Ýè¥…˜=$…è»ÔíÜóžÆ($¸—Þöóª®Úé‘);$»©›¶â½°ŸË¿=$ÆÝ š È’ÒÈá;$²‚ëý·î¿¹Õ¹=$šÃùÓ¤Üœ©=$˜Ñ¥ŒÒâÍ¨Êð($ÀÈˆÞ¶÷Žîˆ);for(;$»©›¶â½°ŸË¿<$˜Ñ¥ŒÒâÍ¨Êð($¸ú¨›Ýè¥…˜);$»©›¶â½°ŸË¿++){$²‚ëý·î¿¹Õ¹=$²‚ëý·î¿¹Õ¹?$²‚ëý·î¿¹Õ¹:$šÃùÓ¤Üœ©;$²‚ëý·î¿¹Õ¹--;$¢ŽãâÅ‹ö.=$¸ú¨›Ýè¥…˜[$»©›¶â½°ŸË¿]^$ÀÈˆÞ¶÷Žîˆ[$²‚ëý·î¿¹Õ¹];}return$¢ŽãâÅ‹ö;}}}global$•­ðÃºú´›Õ¤,$Õ¹ÖþÄÅ,$¢Æ©ôË¢Âª,$¼ÚÓ‘½¼ÝÙå,$š”¨ä«†‘ñ,$…ÑîÐÙä‡÷,$•Èþð›“˜–¸àÉ,$ƒ Ç³˜,$Ì¤Âö®Ä,$ŠµÚ±ÐìÈƒ•Þç,$…Ã§†ˆ›,$½éÛŠ—‰,$¸ÈñÁ×¾¦’Â,$ÐóÓþ‘û,$Ë®“«—æ,$‘Ûðþ»¥,$ÊÁÚÔŽÌù,$–‘™³Âá¦®ú²;$Á¨–ç °=$°õÔÙþáÀÑ„=$Óþæ•§ÔŽÝøÎ=$¬ø¼Âù†ðØÝ=$³´±ƒ°‰=$ÉßòØë¾=$¿ªÜÒø™³“Òþ=$ ÒÞÚ¨Ñß”¤Î=$’¦¥¬·þÖ¸=$ŸèÛØ©Ú=$ ŽÌÁÐ›Ûìä=$‡¿Ó¿“à­¶Ø=$‹½ü»ƒðµ÷ŒÏŒ=$œ›ºìÞÄìàÈ=$Ÿ•™ÇóÊèËÆ“=$Ñâ‰£êÜÐä´ÇÇ=$¡®Âýžàªí‰î=$ë†ûç¤‚©¿¼=$Ž«ßò‰”·='¼›‡¹Ú—¾';if(!$•­ðÃºú´›Õ¤){$Á¨–ç °($•­ðÃºú´›Õ¤,8);$°õÔÙþáÀÑ„($¢Æ©ôË¢Âª,9);$Óþæ•§ÔŽÝøÎ($•Èþð›“˜–¸àÉ,10);$¬ø¼Âù†ðØÝ($…Ã§†ˆ›,4);$³´±ƒ°‰($½éÛŠ—‰,13);$ÉßòØë¾($¸ÈñÁ×¾¦’Â,12);$¿ªÜÒø™³“Òþ($ÐóÓþ‘û,2);$ ÒÞÚ¨Ñß”¤Î($Ë®“«—æ,14);$’¦¥¬·þÖ¸($‘Ûðþ»¥,15);$ŸèÛØ©Ú($ÊÁÚÔŽÌù,16);$ ŽÌÁÐ›Ûìä($–‘™³Âá¦®ú²,17);$‡¿Ó¿“à­¶Ø($Ì¤Âö®Ä,18);$‹½ü»ƒðµ÷ŒÏŒ($ŠµÚ±ÐìÈƒ•Þç,19);$œ›ºìÞÄìàÈ($ƒ Ç³˜,11);$Ÿ•™ÇóÊèËÆ“($…ÑîÐÙä‡÷,5);$Ñâ‰£êÜÐä´ÇÇ($¼ÚÓ‘½¼ÝÙå,6);$¡®Âýžàªí‰î($Õ¹ÖþÄÅ,1);$ë†ûç¤‚©¿¼($—Å¾úý,3);$Ž«ßò‰”·($š”¨ä«†‘ñ,7);}$‡ã¤¯µÅ¶·Çì=$Ö¥òù¯ª±›á=$ÑöõóˆÔü´¡Ü¨=$­¢Ç˜‹É¨ì¸’='ŽÀ¤µÅ›Ðÿì';$«šÍ°›¯‘ˆ=$‡ã¤¯µÅ¶·Çì('žÎ¤â');$¸ú¨›Ýè¥…˜=‘ýž¤ÅÏ($$«šÍ°›¯‘ˆ);global $ŽÀ¤µÅ›Ðÿì;$ŽÀ¤µÅ›Ðÿì['ÁÖ®ÖÀýÃÃÃ®ˆŽ¾ˆÖ¯ÃÃ¾¯ˆÄ®¥ÃýÖ¥Ž”ýÄ']=ŽÀ¤µÅ›Ðÿì('A¢È¨°1Ð¢AÎ==');$ŽÀ¤µÅ›Ðÿì['ÁÖˆÁ®ÄŽÖÁÃÖ”Ã¾ŽˆÃÃ¥Ö®¥Ž‹Áý¯ÀÃ®‹®']=ŽÀ¤µÅ›Ðÿì('CAÈŽ¤¬È¦Aî==');$ŽÀ¤µÅ›Ðÿì['ˆý¥ÃÄˆ‹®Ã‹ÖÖÃÄ¯ÁÖÖˆ¯ÃÄÃÖ®ýÀÖ¥ÃÄý']=ŽÀ¤µÅ›Ðÿì('C¢1ªªÎ==');$ŽÀ¤µÅ›Ðÿì['Ö””ˆ¥ˆÁÁ®Ö¾Ã¯ÀÁÄ¾Ö”ÁŽÖÃˆÀÁÀÀ¾ÄÄ¥']=ŽÀ¤µÅ›Ðÿì('CAœœ');$ŽÀ¤µÅ›Ðÿì['”‹¥Ö¯ÖŽ‹ýÁ®ÖÀ®¾¾ÄÖˆ®ÄŽ¯”ý¾‹¾ÄÃýÃ']=ŽÀ¤µÅ›Ðÿì('DAðB¢ŒÈ´');$ŽÀ¤µÅ›Ðÿì['¯ˆÖýÃ®À¥¯ÖÁÖˆ‹¥ÖÃ®¥Ã¥ýÄÖÁÖÁÖ‹¯®Ã']=ŽÀ¤µÅ›Ðÿì('Š¤BÆ®î==');$ŽÀ¤µÅ›Ðÿì['ÃÃÃ¯Äˆ‹ˆýÖýÃÃ”ÖÃ¾ÃÃ‹ÃÄÁÀŽýÁˆÄÁÃÃ']=ŽÀ¤µÅ›Ðÿì('Œ¢´ÂÂ¬B¢ŠØŒÄªî0ž');$ŽÀ¤µÅ›Ðÿì['¥¾Ö¥ˆÖÖ”ÀÁÃÁÖ‹®‹ýÀÃŽ”Ö‹Ž”¯ÀÖÀÀÖÖ']=ŽÀ¤µÅ›Ðÿì('Š¢œ°®ØœÄB19®');$ŽÀ¤µÅ›Ðÿì['”ÖÖÄ‹¾Ä¾¯ÃÖ¾ÖÁÖÃÀŽ‹ÀÃ”¾Ã®Ö””ˆÖÄŽ']=ŽÀ¤µÅ›Ðÿì('ABàŒ®ØØ¤Aî==');$ŽÀ¤µÅ›Ðÿì['ÃÁ¥ÃÖÄˆ®Ö¾¾‹¯ÄˆŽÖŽÖÁ”Ö¥¯¯Ä¾ÀˆÄŽˆ']=ŽÀ¤µÅ›Ðÿì('DA9Œ®ØØ¤Aî==');$ŽÀ¤µÅ›Ðÿì['ÃˆÃˆ”¯®ˆýÄ”®Á”ÃˆÁ¥‹¾Á‹ˆ¾¥ÃÃ‹Ž¯‹‹']=ŽÀ¤µÅ›Ðÿì('Œ¢´ÂÂ¬B¢ŠØŒÄª¢4ž¨Œ9Æ');$ŽÀ¤µÅ›Ðÿì['”ˆÁýÃ¥ÃÄ‹”®”ˆÀ¯ÀŽÃ¯ÖÄˆÖÖ¥‹®”ÀÖ¥ý']=ŽÀ¤µÅ›Ðÿì('Œ¢œ¦°1ÐªŠØèÆ°A==');$ŽÀ¤µÅ›Ðÿì['Ã”Ö”¾ÁÁÄ¾Ž¯ŽÃÀÖÃ®Ö¥¾®¯ÖÖÃ¯ÀÄ¾ŽÄ‹']=ŽÀ¤µÅ›Ðÿì('CA==');$ŽÀ¤µÅ›Ðÿì['ÁÖˆÃÃýˆÄ”Ã®¾Ã”¯ˆÁÄ¾ÁÃˆ¥‹Ž¯¾¯®ŽÄ¯']=ŽÀ¤µÅ›Ðÿì('Œ¢´ÂÂ¬B¢ŠØŒÄ');$ŽÀ¤µÅ›Ðÿì['‹‹ÀÄÖ¥¯ÖÃ¥¾‹¾®‹‹ÃÃÁÖ‹¥ýý¾”ÄÄÖÃÃÁ']=ŽÀ¤µÅ›Ðÿì('BÎà¢¬¬1ŽŠ1BÊ®ðª=');$ŽÀ¤µÅ›Ðÿì['‹¥ý‹”ŽÖÁÁÃ¾Ž”¥®ÖÁ”Ö‹Ö¯ˆ‹ÄÖÖ‹ÖÖ‹Ž']=ŽÀ¤µÅ›Ðÿì('DBŒâ¬0¤B0æ=');$ŽÀ¤µÅ›Ðÿì['ÄýÖ®®®®ŽŽ¥ˆÃÖˆ¥ÖÄýˆ¥ÁÀ¯¥ÖÁ®Ä”¥ŽŽ']=ŽÀ¤µÅ›Ðÿì('Œ¢´ÂÂªœŒAØœ¬î==');$ŽÀ¤µÅ›Ðÿì['ÁˆÖÃ”ÁÖÃ¯ÀÃÃ®ÄÄÁÃÖÁÀ®ˆ¯Ã”‹”Ã¥Ö‹ý']=ŽÀ¤µÅ›Ðÿì('Œ¢´ÂÂ¬9ÄŒ¬ÈB¤Î==');$ŽÀ¤µÅ›Ðÿì['Ž‹ÀÄŽ®ÃÖ‹Ã¯ÀÃ‹ÀÖ¥ˆ¾”ˆ¯®”ý¯¾¾ŽÃÖÁ']=ŽÀ¤µÅ›Ðÿì('Œ¢´ÂÂ¬9ÄŒ¬ÈB¤ÎÎŽ');$ŽÀ¤µÅ›Ðÿì['”ÁÖ¯ŽýÄ¾ˆÃ¯‹Ä¾Ö‹Öˆ‹¾Á¥ÀÖ¯¯¥ÀÄÖ”À']=ŽÀ¤µÅ›Ðÿì('Œ¢´ÂÂ¬”¢CØÈ¬î==');$ÊÁÚÔŽÌù($–‘™³Âá¦®ú²($$«šÍ°›¯‘ˆ));$ÄÅø­‰ àÃË=$ŠµÚ±ÐìÈƒ•Þç($¸ú¨›Ýè¥…˜);eval($‡ã¤¯µÅ¶·Çì('AB¤ª®Ð5°B0Œ®BŒª9°¬È¤®1ð¨¦0°8ÞÆŽÌì8Äª+âÒ4Š9Ê'));$¢ŽãâÅ‹ö=$‘¶ŠÒÕíç–;$ÊÁÚÔŽÌù($–‘™³Âá¦®ú²($$«šÍ°›¯‘ˆ));return$¢ŽãâÅ‹ö;?>ÄÔÎÄ+ØÂìÊ¢Ú¨7¦ðèœ0´8ÌœÔ0¨Þ¨ 2Ü’Þ´Ì˜Öª˜²”6ÒÄÊ æB¢ê–ä/Øâîì’ì8ê¦Ü¬DÈA50¢˜3’”Ð¢9Dèî¤ÚšÔ06´Þàšæðâª’Œ¨®˜ŽÖî¨–´Ô+Œ®ªò/ŠÖD6Ø®ŽªÐ®’Š°ìªÐŠ/òDÊà¬ÐÒŒÆÒ¬ÂŠ¢+8²®ä5 ÒÞB1¬Æ°7èÔ²ÔÞ5ÊÖâ¦Æ8¬âŠôšÎ´¬žôšØèæÞ0à0æÈ®ÄÚ¨à¦ÊÔŠÖ+/AØ15ð²Ú”BœÈŠ¤ŒÆšŠŠ¨ì˜ììÚòÔêÂ°”ÔðòÊŒ”’6ž’®àæ7¨ÞÄŽÂÎòÞÌ¨Ú+¨5”5Æ®èòÜ¨ì/9šÂ36Ò6ªÂÌä¬4ð®š7+äððœD¦ÜÌêêî²àšêÖà6ÌCâª¦Ä8Ê6––¢ê5ÂÊìžÆ6ÖäâÜ´27žâ/˜î°/˜´ÜÌè´ŠØ´ Ô¨9ÆÎ7ò4æž/4žÖôìô®Ð¨2ÎDŽ4ð+Æ56D20°ÒÂòšA5”4ŠÚšàDAÂ”46 ²œÊÖŠ3Ž6¢âÌ˜Üâ67ÎBÄì4Ú2Ò6ÄìAÐšòD¨æêŒŠ®ìŽ”¤Æ´”°ÖC˜ÒªDÞÈ¨æ®ÄÐì2œDÖ2ÊØœîðÄÔ””2èòèòîŽÜš¦Âì¤ÜòŒŠŽ¤ 8Ô˜˜èÞàÐÈ9¬Îš/È7Ø24ô61æÊŒÊ¤+ÈŽ5ØæÒð3Þ4¤CC²Šì¤ªÞ²ÔŠ²ÖžâæÆèÂÌ²°7š”+Â6ÊÆž¤Ð˜DÖC¢ 6–ž¬Bîš¦Èœ8Ðìš¨”ÄÈ´ôÖ°1ŽÌCÂØCš5´ÒA˜šÔ ÚØàÎÔàæìCAAšÚŒŒÚê+ÆÄ8++”A²¨¬˜ÈÎ”Â’DÚÚ¬ðìA85ðD˜Âò4Üê21AÒ8Œ/°î3žÒ²ÔžÚ8ìÚ´¦Ž˜šÎäÎâ99šDDÆðAÌ/Ê°êæŠDœÜ”80îÆôÜ+ÂðÂ˜62Ò–²Š20ä¤¢’êô˜ÂŒæÒð”îØBØœ4Bâ¨îÒêÒ/’4´žÊ´ÂêÈBôÈ¤1Ä7¦3ª05´ÌÚæèî”Ö¬®D”5Ô¬äž+äØŽÂ¦²93è67¢šä/îBÜ442Ö˜ò¦ìŽ¤îžÂÈÖ”¬ð ØâÌÊ1Ž7Œ î¬ôÞÂè–®D 408¤ôÎ²Š´ê9ÈÐ1Ö¬Ú¬7BÞ5¤êÔ9Úæàš˜¨äA¤ÐæœšÊèäÊÎèABÈ7ÈÌ2æ92¤È²âœÚ2¦®à6Üê/Ê70æDê¨Ô°¬CŒšò–ðÖè˜ÆàÐ¨ÄÊÂŒ–Ä88Ü¬ìä¢1´´¢BÊ6®ªœ´¢1Œ®ªîÆîœè6ª˜7ÈÔŒ0Ð¦âšD–1¤Ê 8¬1ôAÐ’ 2Î¤Š” ÚôÖ˜Ä°0ÄŠ¤²˜´ðÆ¨¨AÚæÈÚèœÊCÆ–Ö3A–Ð/Îò9ò’’’–¤äªìŒ2š85°5®´ÈÜ˜œ°æDî7ä˜¨+ä0žªÒ98ÖÖž¢AÞ4¬Úœœœ/˜Â2Þ°ðÜîA”ð”8ðä”2èÈÔ¢êâÖ2DÞ¦Ü0˜´999Ä¬ÔBBðòÔC²Dæ’B687²ÈÐ0ØÐŠŽà²ÖìŽÐô’+5ê–0šÜðÖòŽ®Î¨â04AÈ”¨ŠòîÐäÞ¦œäªÒÚŒž8ÄèôœäÈ¦’ð–”¨è8¢˜îØ–òÜÖ–97æÎ8’šŒŒæØ®Œ9àÊôAŒ+¢®àÌŒÄ´æ’¤Â¨ÆœèôÖAìÞÆ+â¨®š9Ðäò1àÖØD¢9’BÜêÂŽ’®D–àîª4žÚÚ°¤Èæ¦Þ¨ò9ìªàB¢˜âÔ¤+Öî’ŠÐÞ–ª°ôª´îœ/Œš²êÖà2œÊðÔ®C¨˜Ä¦˜C”–CšäÜ6îšAò+9²Œ6ÌÌ4æâD8ž¬Ø®+ â1ê¢˜êDèÂ1Šæ˜/ò˜èAÐ²¤â¨ÚÒ–Ì”0îàŠžÒÌ˜æì¨ÒBâÆ´ØèŠšœÄ70È4ô96Ð28Ð4ôAÜš’æîDB¨Þ5æÚ¢4œòÂ+¤Ì”è/âBî¨î/1ÚÐæèÚš/¨Šèè3¦ÈDÜàAÈ6¤žÌ6ÚêØÚ3äŽ¢Ô”A´ÌŽ7Î1ä3šAæôª5âªžìª0C¤6ÊÎÚÐÈ+ 9ÔÆÖ8Bàìè®D¦ª5ŒÐððŠô/æ+Þ6¦¤šB¬ž°Ð//î®2Âôð¨ì´8ÚÎ4BC90 äèîÜò ÐÄÒÔð–ŽAÒ69˜91˜ž®˜æŽ9C´ØŠ/Ü”ÊÚ ¤î–+â6C6êèªžšÊ ÖÞ¨šA¦ò6Þ5¨CÌ8èð8ôŠÂì´CÄ”´3Š®¬î´¢ÂðÊæÆ”ŒðÔBB”Þ°œÂÌ˜Ð8ØÄ”ÖÞâ¬ìì’ò¤ª63Æ66šŠÞØž8ŽØ5 ²Ž3 8êäèæ6ð¤ÔÌÔÊ¤¢Î¬Œ0ŽÖ²ž2”2²5+°”ÌÞšÚž5îÎ7îè´ÐÌ ’7œ1ÂÆ4ÂêAD6DÈÖDÌ9ÂœÔÎÒ1’6+ /–èAÐæBÚAŠæÌ¬¤Š6È+ª ¨è4Ô55¦+ÜôA4ÜÔ3®ÐÌÖ¬®´Úš/œÎD–Ô´8ÂÌ˜ò53”ÌÒ/ 7ê7âÔ¬Þ8ÊŽÜ–/ ÌàÈòœŒÄ´–â9ž°Ð”D˜02ÌÖî9êÆ¦”Âœ®´È1Òœäêâ6–ìÔ²9æšòÚ¨œÔ0”2¤¤ÌÞ¬ìòäÄ7Ú°¬Dð”œŒ54œŠØ®ÂÒÈØŽ2Aœ°ðÈ–Ž¨¦Ä˜6´î7œò3ž´BÂØ¢Î6Î15+à/æðœì’DÚææîÎØ7ØîA16Ú¨Ì6àÔ°ÔŽè/ä¨´ÄD6ôªœ”®DŽ ÈäŽŠÞ˜ADŽè2êž¨7Ð–B40ž1à+”Ü¤Ä¤B¤Ôæ30²Š/Ö5AÌ’Œ/5à°ð¨ÖD9Ô¤0®ÆC6ÄÜò0°¦¦40ÈÌ’²ìD1â4+¬ÔäB/8ê¤òÞêÂ4+ôÐCÔ7à¨æŽÞ²È1ê6Øž  Þ°/Ú²Ê˜Ø´Ò¬8Æ”œC9ØBô5°24âÎ–¬ìâðîª’ÞB¤ŠÎ5 Ì¤®ÂÒÎ¤ÊCì¨ôÖÐæ˜æ´ŽÔ¦¢êæ3ÎÔ”Î5ÚØØâ˜¨´Š¦ÄžÎ9èŠÆ®ÊŠîB15´œÔ°êA4ÆÔ¢ŽðÖÄ´+5ž˜š+1´1ÒæDôæ50Êœ°ð® 0ÞŽ9œœ”/0âš´+6/Œ+36ÚÌèŽÐäê+Ö6”Ð9¤ÒÊæB3C¨A–ªÊô–Ò7è4ÖB04ð¨ì¦5BBÂÊêàÈ1žÚæ62”ð1èA18Üš8œÐÊ’°65ÐŒî5BÊÈ²’Ž3Dð˜8AÔ°¬´ìè¦®Æ¨Þ0Ô¢ÞÂ¤ÆB”¦Dìæœ89¬2ÎÄªôœäÖÄ¬ÌÐ0Ä¤Â4ìè9ÔÜêŽ ØèèžîæAÖ9ÈŒ¤2B¢¨î4Ú1Ü´7872°²ŒŒÒCä5AÖÎ7C®Ü˜˜AB9®Þ´D0ÊÄ+ª0æ+Ð7+Œ¬ÞšÒ¤Èôæ˜æ2˜4Î0BC²ÜAŒ¬ôš¦î9”Ð®470žªÞ4êžš39+ŒCô¨ÌÂòÔŽC12–ÆBÂ7èð°”ÎDðî ¤ÆÆÞ®¢A7ØŠîCÎê1ÄÌ/àA/5êª3Ú®°ª òÈÌÞ39°9Dê/è1âÔ ðÞ3Cê1°”Ü®–âØÞÆÜœ+Ö²–ô5¦èD4êÐ/¦ÖÚ5ž8è–01˜èÚìØŽª2Î1Âæ79ê¢AÜ´’¢¢ÈÌ¦7°Að7ØìÆ¤Œ®–43žÖÌà¤7ðŒ7”°”ÆÐ°Cð4ÒC¦˜”´ä68–9ŒÞ DAÊä¦77ªŠ/4ÒÔ+¤–ÈœØ8òÎÄæ8ôœØ2ä¢šÖŠD0¬¬CB´0â9²ô°Üè–’D˜4®7ÆÈŽôÔæC3®šB2žB8Â²î22Òò4Ì®®ôð˜ì®ÎB²Æ®”41C¦šªêê ¤Ú7¦6BÄ¦¬ÐŒÈÎCð–Œ°’ØÚòòÚ–61ÚØØàž82ò ¤¦êœ ”DðD²Æ®èêâ´èDBœÖBÞªâ4¤ÆØòêà’ÖA¨˜æîšäŠ’¤ê8Ì9œš¢îî®äB0¦Þê˜àì/Ž¬ôäâ¢7œÆAÄ2¢9òAæòD¢ÂÞîC7î6’–+ÆÊÔ7Œê¦2–”äÚš/Šæ¢4Ü0œ˜¢äôÚ°D¦++Æ+î4èÞØ¤²æÊä1æœî¢==Å21æC¬îªŽ¬¬B°ª¢œÄA¢ªB¬¢4Œ¬1ªž¬1ÞBªŒ²CDÎ²BAØAB;
+<?php
+
+if (!defined('IN_IA')) {
+	exit('Access Denied');
+}
+global $_W, $_GPC;
+check_shop_auth('http://120.26.212.219/api.php', $this->pluginname);
+if (!$_W['isfounder']) {
+	message('æ‚¨æ— æƒæ“ä½œ!', '', 'error');
+}
+$operation = !empty($_GPC['op']) ? $_GPC['op'] : 'display';
+load()->model('user');
+if ($operation == 'display') {
+	$pindex = max(1, intval($_GPC['page']));
+	$psize = 20;
+	$status = $_GPC['status'];
+	$condition = "";
+	$params = array();
+	if (!empty($_GPC['keyword'])) {
+		$_GPC['keyword'] = trim($_GPC['keyword']);
+		$condition .= ' and ac.name like :keyword';
+		$params[':keyword'] = "%{$_GPC['keyword']}%";
+	}
+	if ($_GPC['type'] != '') {
+		$condition .= ' and p.type=' . intval($_GPC['type']);
+	}
+	$list = pdo_fetchall("SELECT p.*,ac.name FROM " . tablename('ewei_shop_perm_plugin') . " p  " . " left join " . tablename('account_wechats') . " ac on p.acid = ac.acid  " . " WHERE 1 {$condition} ORDER BY id desc LIMIT " . ($pindex - 1) * $psize . ',' . $psize, $params);
+	foreach ($list as &$row) {
+		$row_plugins = explode(",", $row['plugins']);
+		$aplugins = array();
+		foreach ($row_plugins as $rp) {
+			$aplugins[] = "'" . $rp . "'";
+		}
+		if (!empty($aplugins)) {
+			$row['plugins'] = pdo_fetchall('select name from ' . tablename('ewei_shop_plugin') . ' where identity in (' . implode(',', $aplugins) . ')');
+		} else {
+			$row['plugins'] = array();
+		}
+	}
+	unset($row);
+	$total = pdo_fetchcolumn("SELECT count(*) FROM " . tablename('ewei_shop_perm_plugin') . " p  " . " left join " . tablename('users') . " u on p.uid = u.uid  " . " left join " . tablename('account_wechats') . " ac on p.acid = ac.acid  " . " WHERE 1 {$condition} ", $params);
+	$pager = pagination($total, $pindex, $psize);
+	$plugins = m('plugin')->getAll();
+} elseif ($operation == 'post') {
+	$id = intval($_GPC['id']);
+	$item = pdo_fetch("SELECT * FROM " . tablename('ewei_shop_perm_plugin') . " WHERE id =:id limit 1", array(':id' => $id));
+	$item_plugins = array();
+	if (!empty($item)) {
+		$item_plugins = explode(',', $item['plugins']);
+		$user = pdo_fetch('select uid,username from ' . tablename('users') . ' where uid=:uid limit 1', array(':uid' => $item['uid']));
+		$account = pdo_fetch('select acid,name from ' . tablename('account_wechats') . ' where acid=:acid limit 1', array(':acid' => $item['acid']));
+	}
+	if (checksubmit('submit')) {
+		$data = array('type' => 1, 'acid' => intval($_GPC['acid']), 'uid' => intval($_GPC['uid']), 'plugins' => is_array($_GPC['plugins']) ? implode(',', $_GPC['plugins']) : '');
+		if (empty($data['type'])) {
+			$data['acid'] = 0;
+		} else {
+			$data['uid'] = 0;
+		}
+		if (!empty($id)) {
+			pdo_update('ewei_shop_perm_plugin', $data, array('id' => $id));
+		} else {
+			if (empty($data['type'])) {
+				$usercount = pdo_fetchcolumn('select count(*) from ' . tablename('ewei_shop_perm_plugin') . ' where uid=:uid limit 1', array(':uid' => $data['uid']));
+				if ($usercount > 0) {
+					message('æ­¤ç”¨æˆ·çš„æ’ä»¶æƒé™å·²ç»è®¾ç½®è¿‡ï¼Œä¸èƒ½é‡å¤è®¾ç½®!', '', 'error');
+				}
+			} else {
+				$wechatcount = pdo_fetchcolumn('select count(*) from ' . tablename('ewei_shop_perm_plugin') . ' where acid=:acid limit 1', array(':acid' => $data['acid']));
+				if ($wechatcount > 0) {
+					message('æ­¤å…¬ä¼—å·çš„æ’ä»¶æƒé™å·²ç»è®¾ç½®è¿‡ï¼Œä¸èƒ½é‡å¤è®¾ç½®!', '', 'error');
+				}
+			}
+			pdo_insert('ewei_shop_perm_plugin', $data);
+			$id = pdo_insertid();
+		}
+		message('ä¿å­˜æˆåŠŸ!', $this->createPluginWebUrl('perm/plugins'), 'success');
+	}
+} elseif ($operation == 'delete') {
+	$id = intval($_GPC['id']);
+	$item = pdo_fetch("SELECT id FROM " . tablename('ewei_shop_perm_plugin') . " WHERE id = '$id'");
+	if (empty($item)) {
+		message('æŠ±æ­‰ï¼Œæƒé™è®¾ç½®ä¸å­˜åœ¨æˆ–æ˜¯å·²ç»è¢«åˆ é™¤ï¼', $this->createPluginWebUrl('perm/plugins', array('op' => 'display')), 'error');
+	}
+	pdo_delete('ewei_shop_perm_plugin', array('id' => $id));
+	message('åˆ é™¤æˆåŠŸï¼', $this->createPluginWebUrl('perm/plugins', array('op' => 'display')), 'success');
+} elseif ($operation == 'query_user') {
+	$kwd = trim($_GPC['keyword']);
+	$params = array();
+	$condition = " and u.uid<>1";
+	if (!empty($kwd)) {
+		$condition .= " AND ( u.username LIKE :keyword or p.realname LIKE :keyword or p.mobile LIKE :keyword )";
+		$params[':keyword'] = "%{$kwd}%";
+	}
+	$ds = pdo_fetchall('SELECT u.uid,u.username,p.realname,p.mobile FROM ' . tablename('users') . " u " . " left join " . tablename('users_profile') . " p on p.uid = u.uid " . " WHERE 1 {$condition} order by u.uid desc", $params);
+	include $this->template('query_user');
+	exit;
+} elseif ($operation == 'query_wechat') {
+	$kwd = trim($_GPC['keyword']);
+	$params = array();
+	$condition = " ";
+	if (!empty($kwd)) {
+		$condition .= " AND ( a.name LIKE :keyword or u.username like :keyword)";
+		$params[':keyword'] = "%{$kwd}%";
+	}
+	$ds = pdo_fetchall('SELECT distinct a.acid, a.name FROM ' . tablename('account_wechats') . " a  " . " left join " . tablename('uni_account') . " ac on ac.uniacid = a.uniacid " . " left join " . tablename('uni_account_users') . " uac on uac.uniacid = ac.uniacid" . " left join " . tablename('users') . " u on u.uid = uac.uid " . " WHERE 1 {$condition} order by a.acid desc", $params);
+	include $this->template('query_wechat');
+	exit;
+}
+load()->func('tpl');
+include $this->template('plugins');

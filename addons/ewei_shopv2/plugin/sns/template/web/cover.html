@@ -5,7 +5,13 @@
            <div class="form-group">
                 <label class="col-sm-2 control-label">直接链接</label>
                 <div class="col-sm-9 col-xs-12">
-                    <p class='form-control-static'><a href='javascript:;' class="js-clip" title='点击复制链接' data-url="{php echo mobileUrl('sns',null,true)}" >{php echo mobileUrl('sns',null,true)}</a></p>
+                    <p class='form-control-static'>
+                        <a href='javascript:;' class="js-clip" title='点击复制链接' data-url="{php echo mobileUrl('sns',null,true)}" >{php echo mobileUrl('sns',null,true)}</a>
+                        <span style="cursor: pointer;" data-toggle="popover" data-trigger="hover" data-html="true"
+                              data-content="<img src='{$qrcode}' width='130' alt='链接二维码'>" data-placement="auto right">
+                            <i class="glyphicon glyphicon-qrcode"></i>
+                        </span>
+                    </p>
                 </div>
             </div>
             
@@ -57,13 +63,13 @@
                 <label class="col-sm-2 control-label">状态</label>
                 <div class="col-sm-9">
                 	{ifp 'creditshop.cover.edit'}
+                        <label class="radio-inline">
+                            <input type="radio" name="cover[status]" value="1" {if $rule['status']==1} checked="checked"{/if}/>
+                            启用
+                        </label>
 	                    <label class="radio-inline">
 	                        <input type="radio" name="cover[status]" value="0" {if empty($rule['status'])} checked="checked"{/if}/>
 	                               禁用
-	                    </label>
-	                    <label class="radio-inline">
-	                        <input type="radio" name="cover[status]" value="1" {if $rule['status']==1} checked="checked"{/if}/>
-	                               启用
 	                    </label>
                     {else}
                     	<div class='form-control-static'>{if $data['status']==1}启用{else}禁用{/if}</div>

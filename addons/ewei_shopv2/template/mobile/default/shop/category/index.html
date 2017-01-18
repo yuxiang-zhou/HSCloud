@@ -38,13 +38,13 @@
     <%if recommend == 1%>
     <div class="fui-icon-group selecter">
         <a class="fui-icon-col external" href="{php echo mobileUrl('goods')}">
-            <div class="icon radius"><i class="icon icon-category"></i></div>
+            <div class="icon {if empty($set['style'])}radius{/if}"><i class="icon icon-category"></i></div>
             <div class="text">所有商品</div>
         </a>
         {if $category_set['level']<=2}
             <%each recommend_children as child%>
                 <a class="fui-icon-col external" href="{php echo mobileUrl('goods')}&cate=<%child.id%>">
-                    <div class="icon radius"><img src="<%child.thumb%>" onerror="this.src='{EWEI_SHOPV2_STATIC}images/nopic100.jpg'; this.title='图片未找到.'"></div>
+                    <div class="icon {if empty($set['style'])}radius{/if}"><img src="<%child.thumb%>" onerror="this.src='{EWEI_SHOPV2_STATIC}images/nopic100.jpg'; this.title='图片未找到.'"></div>
                     <div class="text"><%child.name%></div>
                 </a>
             <%/each%>
@@ -53,7 +53,7 @@
 
             <%each recommend_children as child%>
                 <a class="fui-icon-col show" data-children="<%child.id%>" data-pid="recommend" data-src="<%child.advimg%>" data-href="<%child.advurl%>" href="javascript:">
-                    <div class="icon radius">
+                    <div class="icon {if empty($set['style'])}radius{/if}">
                         <img src="<%child.thumb%>" onerror="this.src='{EWEI_SHOPV2_STATIC}images/nopic100.jpg'; this.title='图片未找到.'">
                     </div>
                     <div class="text"><%child.name%></div>
@@ -63,7 +63,7 @@
 
         <%each recommend_grandchildren as grandchild%>
         <a class="fui-icon-col external" href="{php echo mobileUrl('goods')}&cate=<%grandchild.id%>">
-            <div class="icon radius"><img src="<%grandchild.thumb%>" onerror="this.src='{EWEI_SHOPV2_STATIC}images/nopic100.jpg'; this.title='图片未找到.'"></div>
+            <div class="icon {if empty($set['style'])}radius{/if}"><img src="<%grandchild.thumb%>" onerror="this.src='{EWEI_SHOPV2_STATIC}images/nopic100.jpg'; this.title='图片未找到.'"></div>
             <div class="text"><%grandchild.name%></div>
         </a>
         <%/each%>
@@ -74,12 +74,12 @@
     <a class="fui-title">所有分类</a>
     <div class="fui-icon-group selecter">
         <a class="fui-icon-col external" href="{php echo mobileUrl('goods')}">
-            <div class="icon radius"><i class="icon icon-category"></i></div>
+            <div class="icon {if empty($set['style'])}radius{/if}"><i class="icon icon-category"></i></div>
             <div class="text">所有商品</div>
         </a>
         <%each parent[0] as cate%>
         <a class="fui-icon-col external" href="{php echo mobileUrl('goods')}&cate=<%cate.id%>">
-            <div class="icon radius"><img src="<%cate.advimg%>" onerror="this.src='{EWEI_SHOPV2_STATIC}images/nopic100.jpg'; this.title='图片未找到.'"></div>
+            <div class="icon {if empty($set['style'])}radius{/if}"><img src="<%cate.advimg%>" onerror="this.src='{EWEI_SHOPV2_STATIC}images/nopic100.jpg'; this.title='图片未找到.'"></div>
             <div class="text"><%cate.name%></div>
         </a>
         <%/each%>
@@ -89,7 +89,7 @@
     <div class="fui-icon-group selecter">
         <%each children as child%>
         <a class="fui-icon-col external" href="{php echo mobileUrl('goods')}&cate=<%child.id%>">
-            <div class="icon radius"><img src="<%child.thumb%>" onerror="this.src='{EWEI_SHOPV2_STATIC}images/nopic100.jpg'; this.title='图片未找到.'"></div>
+            <div class="icon {if empty($set['style'])}radius{/if}"><img src="<%child.thumb%>" onerror="this.src='{EWEI_SHOPV2_STATIC}images/nopic100.jpg'; this.title='图片未找到.'"></div>
             <div class="text"><%child.name%></div>
         </a>
         <%/each%>
@@ -102,7 +102,7 @@
     <div class="fui-icon-group selecter">
         <%each grandchildren[child.id] as grandchild%>
         <a class="fui-icon-col external" href="{php echo mobileUrl('goods')}&cate=<%grandchild.id%>">
-            <div class="icon radius"><img src="<%grandchild.thumb%>" onerror="this.src='{EWEI_SHOPV2_STATIC}images/nopic100.jpg'; this.title='图片未找到.'"></div>
+            <div class="icon {if empty($set['style'])}radius{/if}"><img src="<%grandchild.thumb%>" onerror="this.src='{EWEI_SHOPV2_STATIC}images/nopic100.jpg'; this.title='图片未找到.'"></div>
             <div class="text"><%grandchild.name%></div>
         </a>
         <%/each%>
@@ -112,7 +112,7 @@
     <div class="fui-icon-group selecter">
     <%each children as child%>
     <a class="fui-icon-col show" data-children="<%child.id%>" data-pid="<%child.parentid%>"  data-src="<%child.advimg%>" data-href="<%child.advurl%>" href="javascript:">
-        <div class="icon radius"><img src="<%child.thumb%>" onerror="this.src='{EWEI_SHOPV2_STATIC}images/nopic100.jpg'; this.title='图片未找到.'"></div>
+        <div class="icon {if empty($set['style'])}radius{/if}"><img src="<%child.thumb%>" onerror="this.src='{EWEI_SHOPV2_STATIC}images/nopic100.jpg'; this.title='图片未找到.'"></div>
         <div class="text"><%child.name%></div>
     </a>
     <%/each%>
@@ -125,12 +125,12 @@
 <script id='tpl_shop_category_show_list' type='text/html'>
     <div class="fui-icon-group selecter">
         <a class="fui-icon-col prev" data-prev="<%pid%>">
-            <div class="icon radius"><i class="icon icon-toleft"></i></div>
+            <div class="icon {if empty($set['style'])}radius{/if}"><i class="icon icon-toleft"></i></div>
             <div class="text">返回上一级</div>
         </a>
         <%each children as child%>
         <a class="fui-icon-col external" href="{php echo mobileUrl('goods')}&cate=<%child.id%>">
-            <div class="icon radius"><img src="<%child.thumb%>" onerror="this.src='{EWEI_SHOPV2_STATIC}images/nopic100.jpg'; this.title='图片未找到.'"></div>
+            <div class="icon {if empty($set['style'])}radius{/if}"><img src="<%child.thumb%>" onerror="this.src='{EWEI_SHOPV2_STATIC}images/nopic100.jpg'; this.title='图片未找到.'"></div>
             <div class="text"><%child.name%></div>
         </a>
         <%/each%>

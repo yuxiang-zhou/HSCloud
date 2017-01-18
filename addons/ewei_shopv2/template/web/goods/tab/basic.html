@@ -67,15 +67,19 @@
         <input type="hidden" name="goodstype" value="{$item['type']}">
         {ife 'goods' $item}
 
-        <label class="radio-inline"><input type="radio" name="type" value="1" {if !empty($item['id'])}disabled{/if} {if empty($item['type']) || $item['type'] == 1}checked="true"{/if} onclick="$('#product').show();$('#type_virtual').hide();$('.entity').show();" /> 实体商品</label>
-        <label class="radio-inline"><input type="radio" name="type" value="2" {if !empty($item['id'])}disabled{/if}  {if $item['type'] == 2}checked="true"{/if}  onclick="$('#product').hide();$('#type_virtual').hide();$('.entity').hide();" /> 虚拟商品</label>
+        <label class="radio-inline"><input type="radio" name="type" value="1" {if !empty($item['id'])}disabled{/if} {if empty($item['type']) || $item['type'] == 1}checked="true"{/if} onclick="type_change(1);" /> 实体商品</label>
+        <label class="radio-inline"><input type="radio" name="type" value="2" {if !empty($item['id'])}disabled{/if}  {if $item['type'] == 2}checked="true"{/if}  onclick="type_change(2);" /> 虚拟商品</label>
 
         {if com('virtual')}
-        <label class="radio-inline"><input type="radio" name="type" value="3" {if !empty($item['id'])}disabled{/if}  {if $item['type'] == 3}checked="true"{/if}  onclick="$('#type_virtual').show();$('.entity').hide();" /> 虚拟物品(卡密)</label>
+        <label class="radio-inline"><input type="radio" name="type" value="3" {if !empty($item['id'])}disabled{/if}  {if $item['type'] == 3}checked="true"{/if}  onclick="type_change(3);" /> 虚拟物品(卡密)</label>
         {/if}
 
         {if p('mr')}
-        <label class="radio-inline"><input type="radio" name="type" value="10" {if !empty($item['id'])}disabled{/if}  {if $item['type'] == 10}checked="true"{/if}  onclick="$('#type_virtual').hide();$('#product').hide();$('.entity').hide();" /> 话费流量充值</label>
+        <label class="radio-inline"><input type="radio" name="type" value="10" {if !empty($item['id'])}disabled{/if}  {if $item['type'] == 10}checked="true"{/if}  onclick="type_change(10);" /> 话费流量充值</label>
+        {/if}
+
+        {if p('ccard')}
+        <label class="radio-inline"><input type="radio" name="type" value="20" {if !empty($item['id'])}disabled{/if}  {if $item['type'] == 20}checked="true"{/if}  onclick="type_change(20);" /> 充值卡</label>
         {/if}
 
         <span class="help-block">商品类型，商品保存后无法修改，请谨慎选择</span>
@@ -91,7 +95,117 @@
         {/if}
     </div>
 </div>
-
+<div class="form-group splitter dispatch_info" {if ($item['type'] == 2 || $item['type'] == 3 || $item['type'] == 10)}style="display: none;"{/if}></div>
+<div class="form-group dispatch_info" {if !empty($item['type']) && $item['type'] > 1}style="display: none;"{/if}>
+    <label class="col-sm-2 control-label">预售设置</label>
+    <div class="col-sm-9 col-xs-12">
+        {ife 'goods' $item}
+        <label class="radio-inline"><input type="radio" name="ispresell" value="0"  {if empty($item['ispresell'])}checked="true"{/if}/> 否</label>
+        <label class="radio-inline"><input type="radio" name="ispresell" value="1" {if $item['ispresell'] == 1}checked="true"{/if}   /> 是</label>
+        <span class="help-block">提示：是否开启商品预售设置</span>
+        {else}
+        <div class='form-control-static'>{if empty($item['ispresell'])}否{else}是{/if}</div>
+        {/if}
+    </div>
+</div>
+<div class="form-group presell_info" {if empty($item['ispresell']) || $item['ispresell'] > 1}style="display: none;"{/if}>
+    <label class="col-sm-2 control-label must">预售价格</label>
+    <div class="col-sm-9 col-xs-12">
+        {ife 'goods' $item}
+        <div class="input-group">
+            <input type="text" name="presellprice" id="presellprice" class="form-control" value="{$item['presellprice']}" />
+            <span class="input-group-addon">元</span>
+        </div>
+        <span class='help-block'>尽量填写完整，有助于于商品销售的数据分析</span>
+        {else}
+        <div class='form-control-static'>预售：{$item['presellprice']} 元</div>
+        {/if}
+    </div>
+</div>
+<div class="form-group presell_info" {if empty($item['ispresell']) || $item['ispresell'] > 1}style="display: none;"{/if}>
+    <label class="col-sm-2 control-label">预售时间</label>
+    <div class="col-sm-9 col-xs-12">
+        {ife 'goods' $item}
+        <div class="input-group">
+            <span class="input-group-addon">
+                <input type="checkbox" name="presellstart" value="1" id="presellstart" {if $item['presellstart'] == 1}checked="true"{/if} />
+                预售开始时间
+            </span>
+            {php echo tpl_form_field_date('preselltimestart', !empty($item['preselltimestart']) ? date('Y-m-d H:i',$item['preselltimestart']) : date('Y-m-d H:i'),true)}
+            <span class="input-group-addon">
+                <input type="checkbox" name="presellend" value="1" id="presellend" {if $item['presellend'] == 1}checked="true"{/if} />
+                预售结束时间
+            </span>
+            {php echo tpl_form_field_date('preselltimeend', !empty($item['preselltimeend']) ? date('Y-m-d H:i',$item['preselltimeend']) : date('Y-m-d H:i'),true)}
+        </div>
+        <span class='help-block'>尽量填写完整，有助于于商品销售的数据分析</span>
+        {else}
+        <div class='form-control-static'>
+            {if $item['ispresell']==1} {php echo date('Y-m-d H:i',$item['preselltimestart'])} - {php echo date('Y-m-d H:i',$item['preselltimeend'])} {/if}
+        </div>
+        {/if}
+    </div>
+</div>
+<div class="form-group presell_info" {if empty($item['ispresell']) || $item['ispresell'] > 1}style="display: none;"{/if}>
+    <label class="col-sm-2 control-label">发货时间</label>
+    <div class="col-sm-6 col-xs-6" style='padding-left:0'>
+        {ife 'goods' $item}
+        <div class="input-group">
+            <span class='input-group-addon' style='border:none'>
+                <label class="radio-inline" style='margin-top:-7px;' >
+                    <input type="radio" name="presellsendtype" value="0" {if empty($item['presellsendtype'])}checked="true"{/if}   /> 固定时间
+                </label>
+            </span>
+            {php echo tpl_form_field_date('presellsendstatrttime', !empty($item['presellsendstatrttime']) ? date('Y-m-d H:i',$item['presellsendstatrttime']) : date('Y-m-d H:i'),true)}
+        </div>
+        {else}
+        <div class='form-control-static'>
+            {if $item['presellsendtype']==0}固定时间{/if} {date('Y-m-d H:i',$item['presellsendstatrttime'])}
+        </div>
+        {/if}
+    </div>
+</div>
+<div class="form-group presell_info" {if empty($item['type']) || $item['type'] > 1}style="display: none;"{/if}>
+    <label class="col-sm-2 control-label"></label>
+    <div class="col-sm-6 col-xs-6" style='padding-left:0'>
+        {ife 'goods' $item}
+        <div class="input-group">
+            <span class='input-group-addon' style='border:none'>
+                <label class="radio-inline"  style='margin-top:-7px;' >
+                    <input type="radio"name="presellsendtype" value="1" {if $item['presellsendtype'] == 1}checked="true"{/if}  /> 购买时间
+                </label>
+            </span>
+            <span class="input-group-addon">购买后</span>
+            <input type="text" name="presellsendtime" id="presellsendtime" class="form-control" value="{$item['presellsendtime']}" />
+            <span class="input-group-addon">天发货</span>
+        </div>
+        {else}
+        <div class='form-control-static'>
+            {if $item['presellsendtype']==1}购买时间{/if} 购买后 {$item['presellsendtime']} 天发货
+        </div>
+        {/if}
+    </div>
+</div>
+<div class="form-group presell_info" {if empty($item['ispresell']) || $item['ispresell'] > 1}style="display: none;"{/if}>
+    <label class="col-sm-2 control-label">预售结束设置</label>
+    <div class="col-sm-9 col-xs-12">
+        {ife 'goods' $item}
+        <div class="input-group">
+                <span class="input-group-addon">
+                    <input type="checkbox" name="presellover" value="1" id="presellover" {if $item['presellover'] == 1}checked="true"{/if} />
+                    预售结束
+                </span>
+            <input type="text" name="presellovertime" id="presellovertime" class="form-control" value="{$item['presellovertime']}" />
+            <span class="input-group-addon">天后，商品转为正常销售</span>
+        </div>
+        <span class='help-block'>如不选择，则商品预售结束商品下架</span>
+        {else}
+        <div class='form-control-static'>
+            {if $item['presellover']==1} 预售结束{$item['presellovertime']}天后，商品转为正常销售 {/if}
+        </div>
+        {/if}
+    </div>
+</div>
 
 <div class="form-group send-group" style="{if $item['type'] != 2}display: none;{/if}">
     <label class="col-sm-2 control-label">自动发货</label>
@@ -283,8 +397,6 @@
 <div class="form-group dispatch_info" {if ($item['type'] == 2 || $item['type'] == 3 || $item['type'] == 10)}style="display: none;"{/if}>
 <label class="col-sm-2 control-label"></label>
 <div class="col-sm-6 col-xs-6" style='padding-left:0'>
-
-
     <div class="input-group">
         <span class='input-group-addon' style='border:none'><label class="radio-inline"  style='margin-top:-7px;' ><input type="radio"name="dispatchtype" value="1" {if $item['dispatchtype'] == 1}checked="true"{/if}  /> 统一邮费</label></span>
         <input type="text" name="dispatchprice" id="dispatchprice" class="form-control" value="{$item['dispatchprice']}" />
@@ -324,6 +436,20 @@
     </div>
 </div>
 
+{if p('cashier')}
+<div class="form-group">
+    <label class="col-sm-2 control-label">支持收银台</label>
+    <div class="col-sm-9 col-xs-12">
+        {ife 'goods' $item}
+        <label class="checkbox-inline"><input type="checkbox" name="cashier" value="1" {if !empty($item['cashier'])}checked="true"{/if}/> 支持</label>
+        {else}
+        <div class='form-control-static'>{if !empty($item['cashier'])}支持{else}不支持{/if}</div>
+        {/if}
+        <div class='help-block'>上架或者不上架,收银台都能查到!</div>
+    </div>
+</div>
+{/if}
+
 <div class="form-group">
     <label class="col-sm-2 control-label">货到付款</label>
     <div class="col-sm-9 col-xs-12">
@@ -342,7 +468,7 @@
         {ife 'goods' $item}
         <label class="checkbox-inline"><input type="checkbox" name="invoice" value="1" {if !empty($item['invoice'])}checked="true"{/if}/> 支持</label>
         {else}
-        <div class='form-control-static'>{if !empty($item['cash'])}支持{else}不支持{/if}</div>
+        <div class='form-control-static'>{if !empty($item['invoice'])}支持{else}不支持{/if}</div>
         {/if}
     </div>
 </div>
@@ -389,10 +515,10 @@
     <label class="col-sm-2 control-label">上架</label>
     <div class="col-sm-9 col-xs-12">
         {ife 'goods' $item}
-        <label class="radio-inline"><input type="radio" name="status" value="0" {if empty($item['status'])}checked="true"{/if}/> 否</label>
-        <label class="radio-inline"><input type="radio" name="status" value="1" {if $item['status'] == 1}checked="true"{/if}   /> 上架</label>
-        <label class="radio-inline"><input type="radio" name="status" value="2" {if $item['status'] == 2}checked="true"{/if}   /> 赠品上架</label>
-        <span class="help-block"></span>
+        <label class="radio-inline"><input type="radio" name="status" value="0" {if $item['status'] == 2}disabled{/if} {if empty($item['status'])}checked="true"{/if}/> 否</label>
+        <label class="radio-inline"><input type="radio" name="status" value="1" {if $item['status'] == 2}disabled{/if} {if $item['status'] == 1}checked="true"{/if}   /> 上架</label>
+        <label class="radio-inline"><input type="radio" name="status" value="2" {if $item['status'] == 2}disabled{/if} {if $item['status'] == 2}checked="true"{/if}   /> 赠品上架</label>
+        <span class="help-block">赠品上架之后，状态不可更改。</span>
         {else}
         <div class='form-control-static'>{if empty($item['status'])}否{else}是{/if}</div>
         {/if}

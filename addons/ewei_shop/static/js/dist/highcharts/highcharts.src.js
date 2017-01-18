@@ -7404,7 +7404,7 @@ Axis.prototype = {
 			axis.tickInterval = axis.postProcessTickInterval(axis.tickInterval);
 		}
 
-		// In column-like charts, don't cramp in more ticks than there are points (#333)
+		// In column-like charts, don't cramp in more ticks than there are points (#1943)
 		if (axis.pointRange) {
 			axis.tickInterval = mathMax(axis.pointRange, axis.tickInterval);
 		}
@@ -7753,7 +7753,7 @@ Axis.prototype = {
 			dataMax = this.dataMax,
 			options = this.options;
 
-		// Prevent pinch zooming out of range. Check for defined is for #336. #1734.
+		// Prevent pinch zooming out of range. Check for defined is for #1946. #1734.
 		if (!this.allowZoomOutside) {
 			if (defined(dataMin) && newMin <= mathMin(dataMin, pick(options.min, dataMin))) {
 				newMin = UNDEFINED;

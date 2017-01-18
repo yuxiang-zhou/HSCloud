@@ -5,7 +5,14 @@
 		<div class="fui-header-left">
 			<a class="back" href="{php echo mobileUrl('order')}"></a>
 		</div>
-		<div class="title">支付成功</div>
+		<div class="title">
+			{if $_GPC['result']=='seckill_refund'}
+			支付失败
+			{else}
+			支付成功
+			{/if}
+
+		</div>
 		<div class="fui-header-right" data-nomenu="true">&nbsp;</div>
 	</div>
 
@@ -14,7 +21,9 @@
 	<div class='fui-list-group result-list ' style="margin-top: 0;">
 	    <div class='fui-list'>
 		<div class='fui-list-media'>
-		    
+			{if $_GPC['result']=='seckill_refund'}
+					<i class='icon icon-cry'></i>
+			{else}
 		                   {if !empty($address)}<i class='icon icon-deliver'></i>{/if}
 			
 			{if !empty($order['dispatchtype']) && empty($order['isverify'])}<i class='icon icon-store'></i>{/if}
@@ -30,18 +39,29 @@
 			    <i class='icon icon-check'></i>
 			    {/if}
 			{/if}
+			{/if}
 			
 		     </div>
 		<div class='fui-list-inner'>
 		    <div class='title'>
-			{if $order['paytype']==3}
-			订单提交支付
-			{else}
-			订单支付成功
-			{/if}
+				{if $_GPC['result']=='seckill_refund'}
+				订单支付失败
+				{else}
+				{if $order['paytype']==3}
+				订单提交支付
+				{else}
+				订单支付成功
+				{/if}
+				{/if}
+
 		    </div>
 		    <div class='text'>
-				
+
+				{if $_GPC['result']=='seckill_refund'}
+				 支付超时，秒杀失败，系统会自动退款，如果未收到退款，请联系客服!
+				{else}
+
+
 			{if !empty($address)}您的包裹整装待发{/if}
 			
 			{if !empty($order['dispatchtype']) && empty($order['isverify'])}您可以到您选择的自提点取货了{/if}
@@ -57,6 +77,7 @@
 			         您已经支付成功
 			    {/if}
 			{/if}
+				{/if}
 	
 		    </div>
 		</div>
@@ -160,6 +181,7 @@
 		<div class="fui-cell-info"></div>
 		<div class="fui-cell-remark noremark"><span class='text-danger'>￥{php echo number_format($order['price'],2)}</span></div>
 	    </div>
+		{if $_GPC['result']!='seckill_refund'}
 	{if !empty($order['virtual']) || !empty($order['isvirtualsend'])}
 	 
 	    <div class="fui-cell">
@@ -169,6 +191,7 @@
 	    </div>
  
 	{/if}
+		{/if}
 	</div>
 	 
 	<div class='row'>

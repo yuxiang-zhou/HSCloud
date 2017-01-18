@@ -1,5 +1,5 @@
 {template 'common/header'}
-<title>个人中心</title>
+<title>香粉中心</title>
 <style type="text/css">
     body {margin:0px; background:#eee; -moz-appearance:none;}
     a {text-decoration:none;}
@@ -16,6 +16,7 @@
     
     .header .user-gold .draw {width:80px; height:30px; background:#6c9; float:right;}
     .header .user .set {height:26px; width:26px; float:right; margin-top:10px;}
+    .header .user .setr {height:26px; width:auto; float:right; margin-top:15px;}
 
     .header .user-op { height:35px; width:94%; padding:5px 3%; border-bottom:1px solid #ddd; background:#fff; font-size:16px; line-height:35px; }
     .take {height:30px; width:auto; padding:0 10px; line-height:30px; font-size:16px; float:right; background:#ff6600; border-radius:5px; margin-top:5px; color:#fff;}
@@ -23,14 +24,16 @@
     
     .order {height:135px; width:100%; background:#fff; margin-top:20px; border-bottom:1px solid #ddd;}
     .order_all {height:100px; width:100%; padding:16px 0px; color:#666;}
-    .order_pub {height:18px; float:left; border-left:1px solid #eee; padding-top:5px; text-align:center; color:#666; position:relative;}
+    .order_pub {height:45px; float:left; border-left:1px solid #eee; padding-top:5px; text-align:center; color:#666; position:relative;}
     .order_pub span {height:16px; width:16px; background:#f30; border-radius:8px; position:absolute; top:0; right:25%; font-size:12px; color:#fff; line-height:16px;}
     .order_1 {width:24%;}
     .order_2 {width:25%;}
     .order_3 {width:25%;}
     .order_4 {width:25%;}
 
+    .list_all {height:20px; width:100%; padding:16px 0px; color:#666;}
     .list1 {height:44px; width:94%; background:#fff; padding:0px 3%; margin-top:20px; border-bottom:1px solid #ddd; border-top:1px solid #ddd; line-height:44px; color:#666;}
+    .list11 {height:20px; width:45%; float:left; border-left:1px solid #eee; padding-top:0px; text-align:center; color:#666; position:relative;}
     .list1 i {font-size:20px; margin-right:10px;}
     .allorder {float:right; color:#aaa; margin-right:45px; text-decoration:none;}
 
@@ -47,59 +50,141 @@
 <script id="member_center" type="text/html">
     <div class="header">
         <div class="user">
-            <div class="user-head"><img src="<%member.avatar%>" /></div>
+            <div class="user-head"  onclick="location.href='{php echo $this->createPluginMobileUrl('commission/shares',array('myqr'=>'4'))}'"><img src="<%member.avatar%>" /></div>
             <div class="user-info">
                 <div class="user-name"><%member.nickname%></div>
                 <div class="user-other" {if !empty($set['shop']['levelurl'])}onclick='location.href="{$set['shop']['levelurl']}"'{/if}>[<%level.levelname%>] {if !empty($set['shop']['levelurl'])}<i class='fa fa-question-circle' ></i>{/if}
                 </div>
             </div>
-            <div class="set" onclick='location.href="{php echo $this->createMobileUrl('member/info')}"'><i class="fa fa-gear" style="font-size:26px; color:#fff;"></i></div>
-        </div>
+			{if $hascom}
+			<div class="setr" onclick='location.href="{php echo $this->createPluginMobileUrl('commission')}"'><i class="fa fa-home" style="font-size:22px; color:#fff;">{php echo $pset['texts']['center']}</i></div>
+			{else}}
+			<div class="setr" onclick='location.href="{php echo $this->createPluginMobileUrl('commission/register')}"'><i class="fa fa-home" style="font-size:22px; color:#fff;">{php echo $pset['texts']['become']}</i></div>
+			{/if}
+<!--      
+			<div class="set" onclick='location.href="{php echo $this->createMobileUrl('member/info')}"'><i class="fa fa-gear" style="font-size:26px; color:#fff;"></i></div>
+            <div class="set" onclick='location.href="{php echo $this->createPluginMobileUrl('commission/shares',array('myqr'=>'4'))}"'><i class="fa fa-qrcode" style="font-size:26px; color:#fff;"></i></div>
+-->
+			</div>
 
 </div>
- <div class="cart" style='margin-top:-20px;'>
-     <a href="javascript:;"><div class="list1" style=" border-bottom:0px;border-top:0px;">余额: <span style='color:#f90'><%member.credit2%></span> 
-             {if empty($set['trade']['closerecharge'])}
-             <div class="take" onclick="location.href='{php echo $this->createMobileUrl('member/recharge',array('openid'=>$openid))}'">充值</div>
-             {/if}
-                 
-         </div></a>
-    <a href="javascript:;"><div class="list1" style="margin:0px; border-bottom:0px;">积分: <%member.credit1%>
-            <%if open_creditshop%>
-            <div class="take1" onclick="location.href='{php echo $this->createPluginMobileUrl('creditshop')}'">积分兑换</div>
-            <%/if%>
+ <div class="cart" style='margin-top:5px;'>
+    <div class="list1" style="margin-top:0px;">
+        <i class="fa fa-reorder" style="color:#f03;float:left; line-height:44px;"></i>
+        <span style="float:left;">我的粉包</span>
+        {if empty($set['trade']['closerecharge'])}
+		<a href="{php echo $this->createMobileUrl('member/recharge',array('openid'=>$openid))}">
+			<i class="fa fa-angle-right" style="color:#999; font-size:26px; float:right; line-height:44px;"></i>
+			<div class="allorder">粉币充值</div>
+		</a>
+        {/if}
+    </div>
+    <div class="order_all" style='height:44px;'>
+		{if isset($set['trade']) && $set['trade']['withdraw']==1}
+        <a href="javascript:;" id="btnwithdraw"><div class="order_pub order_1" style="border:0px;"><i class="fa fa-cny" style="color:#f03;font-size:30px"></i><br>粉币</div></a>
+		{/if}
+        <a href="{php echo $this->createPluginMobileUrl('creditshop')}"><div class="order_pub order_2"><i class="fa fa-credit-card" style="color:#f03;font-size:30px"></i><br>粉豆</div></a>
+        <a href="{php echo $this->createPluginMobileUrl('coupon/my')}"><div class="order_pub order_3"><i class="fa fa-gift" style="color:#f03;font-size:30px"></i><br>粉券</div></a>
+		{if $hascom}
+        <a href="{php echo $this->createPluginMobileUrl('commission/withdraw')}"><div class="order_pub order_4"><i class="fa fa-money" style="color:#f03;font-size:30px"></i><br>粉金</div></a>
+		{/if}
+    </div>
+<!--
+    <div class="list_all">
+		<a href="javascript:;">
+		<div class="list11" style="border:0px;" {if empty($set['trade']['closerecharge'])}onclick="location.href='{php echo $this->createMobileUrl('member/recharge',array('openid'=>$openid))}'"{/if}><i class="fa fa-cny" style="color:#08b00e;"></i>余额: <span style='color:#f90'><%member.credit2%></span> 
         </div></a>
+		<a href="javascript:;"><div class="list11" <%if open_creditshop%>onclick="location.href='{php echo $this->createPluginMobileUrl('creditshop')}'"<%/if%>><i class="fa fa-credit-card" style="color:#08b00e;"></i>粉豆: <%member.credit1%>
+        </div></a>
+        <a href="{php echo $this->createPluginMobileUrl('coupon/my')}"><div class="list11" ><i class="fa fa-gift" style="color:#08b00e;"></i>粉券: <span style='color:#f90'><%counts.couponcount%></span></div></a>	
+		{if $hascom}
+		<a href="javascript:;">
+		<div class="list11"><i class="fa fa-money" style="color:#08b00e;"></i>粉金: <span style='color:#f90'><%member.commission_total%></span> 
+        </div></a>
+		{/if}
+    </div>
+-->
 </div>
 <div class="order">
     <a href="{php echo $this->createMobileUrl('order')}">
         <div class="list1" style="margin-top:0px;">
-            <i class="fa fa-reorder" style="float:left; line-height:44px;"></i>
-            <span style="float:left;">我的订单</span>
+            <i class="fa fa-reorder" style="color:#0096ff;float:left; line-height:44px;"></i>
+            <span style="float:left;">我的粉单</span>
             <i class="fa fa-angle-right" style="color:#999; font-size:26px; float:right; line-height:44px;"></i>
-            <div class="allorder">查看我的全部订单</div>
+            <div class="allorder">查看全部粉单</div>
         </div>
     </a>
     <div class="order_all">
-        <a href="{php echo $this->createMobileUrl('order',array('status'=>0))}"><div class="order_pub order_1" style="border:0px;"><i class="fa fa-credit-card" style="font-size:30px"></i><br>待付款<%if order.status0>0%><span><%order.status0%></span><%/if%></div></a>
-        <a href="{php echo $this->createMobileUrl('order',array('status'=>1))}"><div class="order_pub order_2"><i class="fa fa-suitcase" style="font-size:30px"></i><br>待发货<%if order.status1>0%><span><%order.status1%></span><%/if%></div></a>
-        <a href="{php echo $this->createMobileUrl('order',array('status'=>2))}"><div class="order_pub order_3"><i class="fa fa-truck" style="font-size:30px"></i><br>待收货<%if order.status2>0%><span><%order.status2%></span><%/if%></div></a>
-        <a href="{php echo $this->createMobileUrl('order',array('status'=>4))}"><div class="order_pub order_4"><i class="fa fa-money" style="font-size:30px"></i><br>待退款<%if order.status4>0%><span><%order.status4%></span><%/if%></div></a>
+        <a href="{php echo $this->createMobileUrl('order',array('status'=>0))}"><div class="order_pub order_1" style="border:0px;"><i class="fa fa-credit-card" style="color:#0096ff;font-size:30px"></i><br>待付款<%if order.status0>0%><span><%order.status0%></span><%/if%></div></a>
+        <a href="{php echo $this->createMobileUrl('order',array('status'=>1))}"><div class="order_pub order_2"><i class="fa fa-suitcase" style="color:#0096ff;font-size:30px"></i><br>待发货<%if order.status1>0%><span><%order.status1%></span><%/if%></div></a>
+        <a href="{php echo $this->createMobileUrl('order',array('status'=>2))}"><div class="order_pub order_3"><i class="fa fa-truck" style="color:#0096ff;font-size:30px"></i><br>待收货<%if order.status2>0%><span><%order.status2%></span><%/if%></div></a>
+        <a href="{php echo $this->createMobileUrl('order',array('status'=>4))}"><div class="order_pub order_4"><i class="fa fa-money" style="color:#0096ff;font-size:30px"></i><br>待退款<%if order.status4>0%><span><%order.status4%></span><%/if%></div></a>
     </div>
 </div>
 
+<div class="order">
+    <div class="list1" style="margin-top:0px;">
+        <i class="fa fa-reorder" style="color:#096;float:left; line-height:44px;"></i>
+        <span style="float:left;">我的粉缘</span>
+    </div>
+    <div class="order_all">
+        <a href="{php echo $this->createMobileUrl('shop/history')}"><div class="order_pub order_1" style="border:0px;"><i class="fa fa-paw" style="color:#096;font-size:30px"></i><br>香迹</div></a>
+		{if $hascom}
+        <a href="{php echo $this->createPluginMobileUrl('commission/team',array('useagent'=>1))}"><div class="order_pub order_2"><i class="fa fa-group" style="color:#096;font-size:30px"></i><br>香商</div></a>
+        <a href="{php echo $this->createPluginMobileUrl('commission/team')}"><div class="order_pub order_3"><i class="fa fa-group" style="color:#096;font-size:30px"></i><br>香军</div></a>
+        <a href="{php echo $this->createPluginMobileUrl('commission/customer')}"><div class="order_pub order_4"><i class="fa fa-user" style="color:#096;font-size:30px"></i><br>香粉</div></a>
+		{/if}
+    </div>
+</div>
+
+{if $hascom}
+<div class="order">
+    <div class="list1" style="margin-top:0px;">
+        <i class="fa fa-reorder" style="color:#b03d08;float:left; line-height:44px;"></i>
+        <span style="float:left;">我的粉码</span>
+    </div>
+    <div class="order_all">
+        <a href="{php echo $this->createPluginMobileUrl('commission/shares',array('myqr'=>'4'))}"><div class="order_pub order_1" style="border:0px;"><i class="fa fa-qrcode" style="color:#b03d08;font-size:30px"></i><br>个人码</div></a>
+        <a href="{php echo $this->createPluginMobileUrl('commission/shares')}"><div class="order_pub order_2"><i class="fa fa-qrcode" style="color:#b03d08;font-size:30px"></i><br>粉苑码</div></a>
+        <a href="{php echo $this->createPluginMobileUrl('commission/shares',array('myqr'=>'1'))}"><div class="order_pub order_3"><i class="fa fa-qrcode" style="color:#b03d08;font-size:30px"></i><br>商城码</div></a>
+        <a href="{php echo $this->createPluginMobileUrl('commission/shares',array('goodsid'=>13))}"><div class="order_pub order_4"><i class="fa fa-qrcode" style="color:#b03d08;font-size:30px"></i><br>商品码</div></a>
+    </div>
+</div>
+{/if}
+
+<div class="order">
+    <div class="list1" style="margin-top:0px;">
+        <i class="fa fa-reorder" style="color:#f90;float:left; line-height:44px;"></i>
+        <span style="float:left;">我的粉秘</span>
+		<a href="{php echo $this->createMobileUrl('member/notice')}">
+			<i class="fa fa-angle-right" style="color:#999; font-size:26px; float:right; line-height:44px;"></i>
+			<div class="allorder">消息提醒设置</div>
+		</a>
+    </div>
+    <div class="order_all">
+        <a href="{php echo $this->createMobileUrl('shop/cart')}"><div class="order_pub order_1" style="border:0px;"><i class="fa fa-shopping-cart" style="color:#f90;font-size:30px"></i><br>我的购物</div></a>
+        <a href="{php echo $this->createMobileUrl('shop/favorite')}"><div class="order_pub order_2"><i class="fa fa-heart" style="color:#f90;font-size:30px"></i><br>我的收藏</div></a>
+        <a href="{php echo $this->createMobileUrl('member/info')}"><div class="order_pub order_3"><i class="fa fa-gear" style="color:#f90;font-size:30px"></i><br>我的资料</div></a>
+        <a href="{php echo $this->createMobileUrl('shop/address')}"><div class="order_pub order_4"><i class="fa fa-street-view" style="color:#f90;font-size:30px"></i><br>我的地址</div></a>
+    </div>
+</div>
 	
+<!--
 <div class="cart">
 	{if $hascom}
 	        <a href="{php echo $this->createPluginMobileUrl('commission')}"><div class="list1" style="margin:0px; border-bottom:0px;"><i class="fa fa-home" style="color:#f10;"></i>{php echo $pset['texts']['center']}<i class="fa fa-angle-right" style="color:#999; font-size:26px; float:right; line-height:44px;"></i></div></a>	
+	{else}
+	        <a href="{php echo $this->createPluginMobileUrl('commission/register')}"><div class="list1" style="margin:0px; border-bottom:0px;"><i class="fa fa-home" style="color:#f10;"></i>{php echo $pset['texts']['become']}<i class="fa fa-angle-right" style="color:#999; font-size:26px; float:right; line-height:44px;"></i></div></a>	
 	{/if}
+
     <a href="{php echo $this->createMobileUrl('member/info')}"><div class="list1" style="margin:0px; border-bottom:0px;"><i class="fa fa-user" style="color:#A6E1EC;"></i>我的资料<i class="fa fa-angle-right" style="color:#999; font-size:26px; float:right; line-height:44px;"></i></div></a>
 </div>
 {if $hascoupon}
 <div class="cart">
      {if $hascouponcenter}
-	<a href="{php echo $this->createPluginMobileUrl('coupon')}"><div class="list1" style="margin:0px; border-bottom:0px;"><i class="fa fa-tags" style="color:#b03d08;"></i>领取优惠券 <i class="fa fa-angle-right" style="color:#999; font-size:26px; float:right; line-height:44px;"></i> </div></a>	
+	<a href="{php echo $this->createPluginMobileUrl('coupon')}"><div class="list1" style="margin:0px; border-bottom:0px;"><i class="fa fa-tags" style="color:#b03d08;"></i>领取粉券 <i class="fa fa-angle-right" style="color:#999; font-size:26px; float:right; line-height:44px;"></i> </div></a>	
     {/if}
-    <a href="{php echo $this->createPluginMobileUrl('coupon/my')}"><div class="list1" style="margin:0px; border-bottom:0px;"><i class="fa fa-gift" style="color:#08b00e;"></i>我的优惠券 <i class="fa fa-angle-right" style="color:#999; font-size:26px; float:right; line-height:44px;"></i> <span class="count"><%counts.couponcount%></span></div></a>	
+    <a href="{php echo $this->createPluginMobileUrl('coupon/my')}"><div class="list1" style="margin:0px; border-bottom:0px;"><i class="fa fa-gift" style="color:#08b00e;"></i>我的粉券 <i class="fa fa-angle-right" style="color:#999; font-size:26px; float:right; line-height:44px;"></i> <span class="count"><%counts.couponcount%></span></div></a>	
     
 </div>
 {/if}
@@ -117,9 +202,9 @@
     <a href="{php echo $this->createMobileUrl('member/log')}"><div class="list1" style="{if isset($set['trade']) && $set['trade']['withdraw']==1}margin:0px;{/if}"><i class="fa fa-file-text" style="color:#009;"></i>{if isset($set['trade']) && $set['trade']['withdraw']==1}余额明细{else}充值记录{/if}
             <i class="fa fa-angle-right" style="color:#999; font-size:26px; float:right; line-height:44px;"></i></div></a>    
    {/if}
-    
+   
 <a href="{php echo $this->createMobileUrl('shop/address')}"><div class="list1"><i class="fa fa-street-view" style="color:#99C"></i>收货地址管理<i class="fa fa-angle-right" style="color:#999; font-size:26px; float:right; line-height:44px;"></i></div></a>
-
+--> 
 
 </script>
 <script language="javascript">

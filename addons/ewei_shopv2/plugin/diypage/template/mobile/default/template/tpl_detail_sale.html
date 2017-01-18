@@ -1,10 +1,11 @@
+
 <div class="detail-sale" style="margin-top: {$diyitem['style']['margintop']}px; margin-bottom: {$diyitem['style']['marginbottom']}px;">
 
     {loop $diyitem['data'] $saledata}
 
         {if $saledata['type']=='erci'}
 
-            {if floatval($goods['buyagain'])>0}
+            {if floatval($goods['buyagain'])>0 && empty($seckillinfo)}
             <div class="fui-cell-group  fui-sale-group" style="margin-top:0; background: {$diyitem['style']['background']};">
                 <div class="fui-cell">
                     <div class="fui-cell-text" style="white-space: normal; color: {$diyitem['style']['textcolor']};">此商品二次购买 可享受 <span class="text-danger" style="color: {$diyitem['style']['textcolorhigh']};">{$goods['buyagain']}</span> 折优惠
@@ -16,7 +17,7 @@
             </div>
             {/if}
 
-        {elseif $saledata['type']=='huiyuan'}
+        {elseif $saledata['type']=='huiyuan' && empty($seckillinfo)}
 
             {if empty($goods['isdiscount']) || (!empty($goods['isdiscount']) &&$goods['isdiscount_time']<time())}
                 {if !empty($memberprice) && $memberprice!=$goods['minprice'] && !empty($level)}
@@ -53,7 +54,7 @@
             </div>
             {/if}
 
-        {elseif $saledata['type']=='youhui'}
+        {elseif $saledata['type']=='youhui' && empty($seckillinfo)}
 
             {if $hasSales}
             <div class='fui-cell-group fui-cell-click  fui-sale-group' style='margin-top:0; background: {$diyitem['style']['background']};' id="sale-picker">

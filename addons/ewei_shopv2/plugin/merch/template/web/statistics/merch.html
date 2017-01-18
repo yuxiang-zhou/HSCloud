@@ -49,7 +49,7 @@
                     <th style="width:100px;">订单会员折扣</th>
                     <th style="width:100px;">订单促销</th>
                     <th style="width:100px;">订单实收</th>
-                    <th style="width:70px;">操作</th>
+                    <!--th style="width:70px;">操作</th-->
                 </tr>
             </thead>
             <tbody>
@@ -73,12 +73,12 @@
                     <td>{$row['isdiscountprice']}</td>
                     <td>{$row['price']}</td>
                     <td style="overflow:visible;">
-                        <div class="btn-group btn-group-sm">
+                        <!--div class="btn-group btn-group-sm">
                             <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="javascript:;">操作 <span class="caret"></span></a>
                             <ul class="dropdown-menu dropdown-menu-left" role="menu" style='z-index: 9999'>
                                 <li><a href="{php echo webUrl('merch/clearing/add',array('merchid' => $row['id'],'datetime[start]'=>$_GPC['datetime']['start'],'datetime[end]'=>$_GPC['datetime']['end']));}" title="生成结算单"><i class='fa fa-edit'></i> 生成结算单</a></li>
                             </ul>
-                        </div>
+                        </div-->
                     </td>
                 </tr>
                 {/loop}

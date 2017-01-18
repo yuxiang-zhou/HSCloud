@@ -13,13 +13,13 @@
 				 
 			   <div class="input-group-btn">
 			        <button class="btn btn-default btn-sm"  type="button" data-toggle='refresh'><i class='fa fa-refresh'></i></button>
-				  {ifp 'abonus.partner.edit'}
+				  {ifp 'abonus.agent.edit'}
                                   <div class="btn-group btn-group-sm">
                                 <button data-toggle="dropdown" class="btn btn-default">黑名单 <span class="caret"></span>
                                 </button>
                                 <ul class="dropdown-menu">
-                                    <li><a class='btn' data-toggle='batch' data-href="{php echo webUrl('abonus/partner/aagentblack',array('aagentblack'=>1))}" data-confirm='确认要设置黑名单?'>设置黑名单</a></li>
-                                    <li><a class='btn'  data-toggle='batch' data-href="{php echo webUrl('abonus/partner/aagentblack',array('aagentblack'=>0))}" data-confirm='确认要取消黑名单?'>取消黑名单</a></li>
+                                    <li><a class='btn' data-toggle='batch' data-href="{php echo webUrl('abonus/agent/aagentblack',array('aagentblack'=>1))}" data-confirm='确认要设置黑名单?'>设置黑名单</a></li>
+                                    <li><a class='btn'  data-toggle='batch' data-href="{php echo webUrl('abonus/agent/aagentblack',array('aagentblack'=>0))}" data-confirm='确认要取消黑名单?'>取消黑名单</a></li>
                                 </ul>
                             </div>
                               
@@ -27,16 +27,16 @@
                                 <button data-toggle="dropdown" class="btn btn-default">审核 <span class="caret"></span>
                                 </button>
                                 <ul class="dropdown-menu">
-                                    <li><a class='btn'  data-toggle='batch' data-href="{php echo webUrl('abonus/partner/check',array('status'=>1))}"  data-confirm='确认要审核通过?'>审核通过</a></li>
-                                    <li><a class='btn'  data-toggle='batch' data-href="{php echo webUrl('abonus/partner/check',array('status'=>0))}" data-confirm='确认要取消审核?'>取消审核</a></li>
+                                    <li><a class='btn'  data-toggle='batch' data-href="{php echo webUrl('abonus/agent/check',array('status'=>1))}"  data-confirm='确认要审核通过?' disabled>审核通过</a></li>
+                                    <li><a class='btn'  data-toggle='batch' data-href="{php echo webUrl('abonus/agent/check',array('status'=>0))}" data-confirm='确认要取消审核?' disabled>取消审核</a></li>
                                 </ul>
                             </div>
                                  
 				   {/if}
 				 
                                            
-				{ifp 'abonus.partner.delete'}
-			              <button class="btn btn-default btn-sm" type="button" data-toggle='batch-remove' data-confirm="确认要删除?" data-href="{php echo webUrl('abonus/partner/delete')}"><i class='fa fa-trash'></i> 删除</button>
+				{ifp 'abonus.agent.delete'}
+			              <button class="btn btn-default btn-sm" type="button" data-toggle='batch-remove' data-confirm="确认要删除?" data-href="{php echo webUrl('abonus/agent/delete')}"><i class='fa fa-trash'></i> 删除</button>
 				 {/if}
 			   </div> 
                                </div>	
@@ -56,7 +56,7 @@
                                 
                                         <button class="btn btn-sm btn-primary" type="submit"> 搜索</button>
 										<button class="btn btn-sm btn-default" type="button" onclick="$('#moresearch').toggle()"> 其他 <i class="fa fa-angle-down"></i></button> 
-                                                                                	    {ifp 'abonus.partner.export'}
+                                                                                	    {ifp 'abonus.agent.export'}
                         <button type="submit" name="export" value="1" class="btn btn-success btn-sm">导出</button>
                         {/if}
 				</span>
@@ -132,7 +132,7 @@
             <tbody>
             {loop $list $row}
            <tr rel="pop" data-title="ID: {$row['id']} " data-content="推荐人 <br/> {if empty($row['agentid'])}
-				  {if $row['ispartner']==1}
+				  {if $row['isagent']==1}
 				      <label class='label label-primary'>总店</label>
 				      {else}
 				       <label class='label label-default'>暂无</label>
@@ -142,7 +142,7 @@
                     	{if !empty($row['parentavatar'])}
                          <img src='{$row['parentavatar']}' style='width:20px;height:20px;padding1px;border:1px solid #ccc' />
                        {/if}
-                       [{$row['partnerid']}]{if empty($row['parentname'])}未更新{else}{$row['parentname']}{/if}
+                       [{$row['agentid']}]{if empty($row['parentname'])}未更新{else}{$row['parentname']}{/if}
 					   {/if}">
                
 								<td>

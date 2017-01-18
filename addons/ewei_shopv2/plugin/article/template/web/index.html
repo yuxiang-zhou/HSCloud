@@ -83,7 +83,7 @@
 					{if !empty($article['category_name'])}
 						<label class="label label-primary">{$article['category_name']}</label><br/>
 					{/if}
-					<a href="{php echo mobileUrl('article',array('aid'=>$article['id']), true)}" target="_blank" data-toggle="tooltip" title="点击预览">{$article['article_title']}</a>
+					<a href="{php echo mobileUrl('article',array('aid'=>$article['id'], 'preview'=>1), true)}" target="_blank" data-toggle="tooltip" title="点击预览">{$article['article_title']}</a>
 				</td>
 				<td>{$article['article_keyword2']}</td>
 				<td>{php echo date('Y-m-d', strtotime($article['article_date']))}<br/>{php echo date('H:i', strtotime($article['article_date']))}</td>
@@ -110,7 +110,13 @@
 					{ifp 'article.record'}
 						<a class="btn btn-default btn-sm" href="{php echo webUrl('article/record', array('aid'=>$article['id']))}"><i class="fa fa-database"></i> 统计</a> 
 					{/if}
-					<a href="javascript:;" data-url="{php echo mobileUrl('article',array('aid'=>$article['id']), true)}" class="js-clip btn btn-default btn-sm"><i class='fa fa-link'></i> 复制链接</a> 
+					<a href="javascript:;" data-url="{php echo mobileUrl('article',array('aid'=>$article['id']), true)}" class="js-clip btn btn-default btn-sm">
+						<i class='fa fa-link'></i> 复制链接
+					</a>
+					<a href="javascript:void(0);" class="btn btn-default btn-sm" data-toggle="popover" data-trigger="hover" data-html="true"
+						  data-content="<img src='{$article['qrcode']}' width='130' alt='链接二维码'>" data-placement="auto right">
+						<i class="glyphicon glyphicon-qrcode"></i>
+					</a>
 					{ifp 'article.edit'}
 						<a class='btn btn-default btn-sm' href="{php echo webUrl('article/edit',array('aid'=>$article['id']))}"><i class="fa fa-edit"></i></a> 
 					{/if} 

@@ -57,7 +57,7 @@
 				<td style="width: 26px; padding-left: 6px;">
 					<label class="checkboxinline"><input type="checkbox" value="1" class="checkOrder" checked="checked"></label>
 				</td>
-				<td colspan="4">订单编号: {$item['ordersn']} {if !empty($item['refundid'])}<label class='label label-danger'>退款申请</label>{/if}</td>
+				<td colspan="4">订单编号: {$item['ordersn']} {if !empty($item['refundstate'])}<label class='label label-danger'>退款申请</label>{/if}</td>
 				<td class="aops" style="text-align:right;font-size:12px;" colspan="4">
 					<a class="op" href="{php echo webUrl('order/detail', array('id'=>$item['id']))}" style="margin: 0; padding: 0px 5px;" target="_blank">查看详情</a>
 					<a class="op order-print-state-express" href="javascript:;">
@@ -328,7 +328,7 @@
 							  	var _productsn = _this.data("print-productsn");	//商品条码
 							  	var _marketprice = _this.data("print-marketprice");	//商品原价
 							  	var _productprice = _this.data("print-productprice");	//商品现价
-							  	var _allprice = _this.data("print-productprice") * _this.data("print-total");	// 商品总价			
+							  	var _allprice = _this.data("print-realprice") * _this.data("print-total");	// 商品总价
 							  	var _total = _this.data("print-total");	// 商品数量
 							  	var _note = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';	//备注栏
 							  	var _goodoption = _this.data("print-option");	// 商品规格 
@@ -376,10 +376,10 @@
 						 $.each(values, function(iii,val) {
 						  		_html += '<td style="border-right:1px solid '+d.color+'; border-bottom:1px solid '+d.color+'; font-size:'+d.size+'pt; font-family:'+d.font+'; color:'+d.color+';">';
 						  		if(val=='total'){_html += "总计:"+all_total}
-						  		if(val=='productprice'){_html += "总计:"+all_productprice.toFixed(2)}
-						  		if(val=='marketprice'){_html += "总计:"+all_marketprice.toFixed(2)}
-						  		if(val=='realprice'){_html += "总计:"+all_realprice.toFixed(2)}
-						  		if(val=='allprice'){_html += "总计:"+all_allprice.toFixed(2)}
+						  		if(val=='productprice'){_html += "总计:"+parseFloat(all_productprice).toFixed(2)}
+						  		if(val=='marketprice'){_html += "总计:"+parseFloat(all_marketprice).toFixed(2)}
+						  		if(val=='realprice'){_html += "总计:"+parseFloat(all_realprice).toFixed(2)}
+						  		if(val=='allprice'){_html += "总计:"+parseFloat(all_allprice).toFixed(2)}
 						  		_html += '</td>';
 						  	});
 						  _html += '</tr>';

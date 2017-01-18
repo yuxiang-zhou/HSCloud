@@ -65,7 +65,7 @@
                 <tr>
                     <th style="width:60px; text-align: center;">ID</th>
                     <th style="width:80px;">排序</th>
-                    <th >文章标题</th>
+                    <th style="width:400px">文章标题</th>
                     <th style="text-align: center;">文章分类</th>
                     <th style="text-align: center;">文章关键字</th>
                     <th style="text-align: center;">文章创建时间</th>
@@ -105,8 +105,7 @@
                                 {if $article['article_state']==0}关闭{else}<span style='color: green;'>开启</span>{/if}
                             </td>
                             <td style="text-align: center;position: relative">
-			 <a href="javascript:;" data-url="{php echo $this->createPluginMobileUrl('article',array('aid'=>$article['id']))}" class="js-clip btn btn-default" title="复制链接"><i class='fa fa-link'></i></a>	   
-			 <a href="{php echo $this->createPluginMobileUrl('article',array('aid'=>$article['id'],'preview'=>1))}" target='_blank' class="btn btn-default" title="预览"><i class='fa fa-search'></i></a>	   
+								<a href="javascript:;" data-url="{php echo $this->createPluginMobileUrl('article',array('aid'=>$article['id']))}" class="js-clip btn btn-default" title="复制链接"><i class='fa fa-link'></i></a>	   
                                 {ifp 'article.page.edit'}
                                     <a title="编辑" class='btn btn-default' href="{php echo $this->createPluginWebUrl('article',array('op'=>'post','aid'=>$article['id']))}"><i class="fa fa-edit"></i></a>
                                     {else}-
@@ -233,7 +232,7 @@ $(function(){
                 }
             });
         });
-// 初始化调用微赞上传图片
+// 初始化调用微擎上传图片
     UE.registerUI('myinsertimage',function(editor, uiName) {
         editor.registerCommand(uiName, {
             execCommand: function() {
@@ -595,7 +594,7 @@ $(function(){
                                 <h4><i class="fa fa-folder-open-o"></i> 商城页面</h4>
                             </div>
                             <div class="btn btn-default mylink-nav" data-href="{php echo $this->createMobileUrl('shop/index')}">商城首页</div>
-                            <div class="btn btn-default mylink-nav" data-href="{php echo $this->createMobileUrl('member')}">个人中心</div>
+                            <div class="btn btn-default mylink-nav" data-href="{php echo $this->createMobileUrl('member')}">香粉中心</div>
                             <div class="btn btn-default mylink-nav" data-href="{php echo $this->createMobileUrl('plugin/commission')}">分销中心</div>
                             <div class="btn btn-default mylink-nav" data-href="{php echo $this->createMobileUrl('shop/category')}">分类页面</div>
                             <div class="btn btn-default mylink-nav" data-href="{php echo $this->createMobileUrl('shop/list')}">全部商品</div>

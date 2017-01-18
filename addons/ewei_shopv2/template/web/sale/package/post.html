@@ -63,6 +63,7 @@
                                 'type'=>'product',
                                 'value'=>$package_goods['title'],
                                 'url'=>webUrl('sale/package/query'),
+                                'optionurl'=>'sale.package.hasoption',
                                 'items'=>$package_goods,
                                 'nokeywords'=>1,
                                 'autosearch'=>1,
@@ -73,35 +74,28 @@
 
                             </div>
                             {else}
-                            {if !empty($goods)}
+                            {if !empty($package_goods)}
                             <table class="table">
                                 <thead>
                                 <tr>
-                                    <td style="width:100px;">商品名称</td>
-                                    <td></td>
-                                    <th style="width:50px;"></th>
+                                    <th style='width:80px;'>商品名称</th>
+                                    <th style='width:220px;'></th>
+                                    <th>价格/分销佣金</th>
                                 </tr>
                                 </thead>
                                 <tbody id="param-items" class="ui-sortable">
-                                {loop $goods $index $item}
-                                <tr class="multi-product-item" data-id="{$item['id']}" data-name="goodsid">
-                                    <input type="hidden" name="goodsid[{$index}]" value="519">
-                                    <input type="hidden" class="form-control img-textname" value="{$item['id']}">
+                                {loop $package_goods $index $item}
+                                <tr class="multi-product-item" data-id="{$item['goodsid']}">
+                                    <input type="hidden" class="form-control img-textname" readonly="" value="{$item['title']}">
+                                    <input type="hidden" value="{$item['goodsid']}" name="goodsid[]">
                                     <td style="width:80px;">
-                                        <img src="http://lynn.foxdev.cn/attachment/images/15/2016/04/VXqwJXJqj4iJ4QJQx76z7WWq4wjJJJ.jpg" style="width:70px;border:1px solid #ccc;padding:1px">
+                                        <img src="{php echo tomedia($item['thumb'])}" style="width:70px;border:1px solid #ccc;padding:1px">
                                     </td>
-                                    <td style="width:220px;">樱桃测试商品人人商城</td>
-                                    <td>樱桃测试商品人人商城</td>
-                                    <td><a href="javascript:void(0);" class="btn btn-default btn-sm" onclick="biz.selector_new.remove(this,'goodsid')" title="删除"><i class="fa fa-times"></i></a></td>
-                                </tr>
-
-                                <tr>
-                                    <td>
-                                        <img src="{php echo tomedia($item['thumb'])}" style='width:100px;border:1px solid #ccc;padding:1px' />
-                                    </td>
-                                    <td>{$item['thumb']}</td>
-                                    <td>
-                                        <a href="javascript:;" class="btn btn-default btn-sm" onclick="deleteParam(this)" title="删除"><i class="fa fa-times"></i></a>
+                                    <td style="width:220px;">{$item['title']}</td>
+                                    <td><a class="btn btn-default btn-sm" data-toggle="ajaxModal"
+                                       href="{php echo webUrl('sale/package/hasoption',array('goodsid'=>$item['goodsid'],'pid'=>$item['pid']))}" id="optiontitle{$item['goodsid']}">&yen;{$item['packageprice']}</a>
+                                        <input type="hidden" id="packagegoods{$item['goodsid']}" value="" name="packagegoods[{$item['goodsid']}]">
+                                        <input type="hidden" value="{$item['packageprice']},{$item['commission1']},{$item['commission2']},{$item['commission3']}" name="packgoods{$item['goodsid']}">
                                     </td>
                                 </tr>
                                 {/loop}

@@ -48,7 +48,7 @@
         },4000);
     });
 {/if}
-    
+
     $(function () {
         $('.page-content').show();
         $('.img-thumbnail').each(function () {
@@ -56,11 +56,28 @@
                 $(this).attr('src', "{EWEI_SHOPV2_LOCAL}static/images/nopic.jpg");
             }
         })
-        $.ajax({
-              url: "{php echo webUrl('util/task')}",
-			  async:false,
-              cache: false
+
+        {php $task_mode =intval(m('cache')->getString('task_mode', 'global'))}
+
+        {if $task_mode==0}
+            $.getJSON("{php echo mobileUrl('util/task')}");
+        {/if}
+
+
+
+        // GoTop
+        $(window).bind('scroll resize', function () {
+            var scrolltop = $(window).scrollTop();
+            if (scrolltop > 300) {
+                $(".page-gotop").fadeIn(300)
+            } else {
+                $(".page-gotop").fadeOut(300)
+            }
+            $(".page-gotop").unbind('click').click(function () {
+                $('body').animate({scrollTop: "0px"}, 1000)
+            })
         });
+
     });
 </script>
 <script language="javascript">myrequire(['web/init'],function(){
@@ -78,6 +95,19 @@
         <div class="sk-double-bounce2"></div>
     </div>
 </div>
+
+{if !empty($_W['shopset']['shop']['funbar'])}
+    {php echo $this->show_funbar()}
+{/if}
+
+
+{if $_W['shopset']['shop']['funbar']!=2}
+    <div class="page-gotop" title="返回顶部">
+        <p><i class="fa fa-angle-up"></i></p>
+        <p>返回</p>
+        <p>顶部</p>
+    </div>
+{/if}
 
 </body>
 </html>

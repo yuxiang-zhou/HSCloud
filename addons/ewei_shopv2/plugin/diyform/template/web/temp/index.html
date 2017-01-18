@@ -71,7 +71,7 @@
         </td>  
         <td> 
             {ifp 'diyform.temp.edit|diyform.temp.view'}<a class='btn btn-default' href="{php echo webUrl('diyform/temp/edit', array( 'id' => $item['id']))}"><i class='fa fa-edit'></i> {ifp 'diyform.temp.edit'}编辑{else}查看{/if}</a>{/if}
-            {ifp 'diyform.data'}<a class='btn btn-default' href="{php echo webUrl('diyform/data', array('typeid' => $item['id']))}" title='查看已有数据'><i class='fa fa-list'></i></a>{/if}
+            {ifp 'diyform.data'}<!--a class='btn btn-default' href="{php echo webUrl('diyform/data', array('typeid' => $item['id']))}" title='查看已有数据'><i class='fa fa-list'></i></a-->{/if}
             {ifp 'diyform.temp.delete'}
             {if !$item['err']}
             <a data-toggle='ajaxRemove' class='btn btn-default btn-sm'  href="{php echo webUrl('diyform/temp/delete', array('id' => $item['id']))}" data-confirm="确认删除此模板吗？"><i class='fa fa-remove'></i> 删除</a>{/if}

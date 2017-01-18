@@ -45,8 +45,8 @@
 }
 
 .fui-goods-item .image {
-    height: 80px;
-    width: 80px;
+    height: 4rem;
+    width: 4rem;
     float:left;
     background-size:100%;
     position: relative;
@@ -191,6 +191,36 @@
     max-height: 100%;
 }
 
+.fui-picturew .item .image {
+    position: relative;
+}
+.fui-picturew .item .image .title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    line-height: 1rem;
+    color: #fff;
+    padding: 0.4rem 0.15rem 1px;
+    font-size: 0.65rem;
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(0,0,0,0)), to(rgba(0,0,0,0.7)));
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.7));
+    display:block;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+.fui-picturew .item .text {
+    font-size: 0.75rem;
+    height: 1rem;
+    line-height: 1.2rem;
+    display:block;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
 .fui-picturew.row-2 .item {
     width: 50%;
 }
@@ -201,6 +231,10 @@
 
 .fui-picturew.row-4 .item {
     width: 25%;
+}
+
+.fui-picturew.row-5 .item {
+    width: 20%;
 }
 
 .diymenu-page {
@@ -363,7 +397,7 @@
     left: 0;
     height: 0;
     width: 100%;
-    border-top: 1px solid #000;
+    border-top: 1px solid rgba(0,0,0,0);
 }
 
 .diymenu .item .inner:after {
@@ -373,7 +407,7 @@
     left: 0;
     height: 100%;
     width: 0;
-    border-left: 1px solid #000;
+    border-left: 1px solid rgba(0,0,0,0);
 }
 
 .diymenu .item:first-child .inner:after {
@@ -542,10 +576,7 @@
 }
 
 .fui-list-media img {
-
     width:2.5rem;
-
-
 }
 
 .fui-list-media img.round {
@@ -560,7 +591,6 @@
     height: 0.9rem;
     right: -.35rem;
     line-height: 0.9rem;
-
     min-width: 0.9rem;
     padding: 0 0.15rem;
     position: absolute;
@@ -612,6 +642,7 @@
 .fui-block-group.col-5 .fui-block-child {
     width:20%
 }
+
 .fui-block-group .fui-block-child:active {background: #ececec;}
 .fui-block-group .fui-block-child .icon {height: 2.7rem; padding-top: 1rem; text-align: center; font-size: 1.4rem; line-height: 1.5rem;}
 .fui-block-group .fui-block-child .icon i { font-size:1.8rem;}
@@ -624,8 +655,6 @@
 .fui-block-group .fui-block-dots {height: 0.9rem; text-align: center; line-height: 0.6rem;}
 .fui-block-group .fui-block-dots a {height: 0.3rem; width: 0.3rem; background: #e6e6e6; border-radius: 0.4rem; display: inline-block;}
 .fui-block-group .fui-block-dots a.on {background: #fa5453;}
-
-
 
 .headinfo-m {
     position: relative;
@@ -645,7 +674,6 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     -webkit-align-items: center;
-
 }
 
 .headinfo-m .setbtn {
@@ -691,6 +719,7 @@
 .headinfo-m .child.userinfo .face.radius{
     border-radius: 10px;
 }
+
 .headinfo-m .child.userinfo .face.radius img{
     border-radius: 10px;
 }
@@ -739,4 +768,198 @@
     text-align: center;
     border-radius: 20px;
     border: 1px solid #fff;
+}
+
+.page-commission-index .headinfo {
+    border: 0;
+}
+
+.swiper-pagination-bullet-active {
+    background: #000;
+    opacity: 0.5;
+}
+.swiper-button-white {
+    background: rgba(0, 0, 0, 0.3);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.swiper-pagination {
+    position: relative;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 5px;
+}
+
+.swiper-container-autoheight .swiper-wrapper {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.fui-picturew .fui-picturew-pagination {
+    height: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 8px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    line-height: 10px;
+}
+
+.fui-picturew .fui-picturew-pagination a {
+    height: 8px;
+    width: 8px;
+    background: #000;
+    border-radius: 8px;
+    display: inline-block;
+    opacity: 0.3;
+}
+
+.fui-picturew .fui-picturew-pagination a.active {
+    opacity: 0.5;
+}
+
+.diy-coupon {
+    padding: 0 0.3rem;
+    height: auto;
+    overflow: hidden;
+
+}
+
+.diy-coupon .diy-coupon-item {
+    width: 33.33%;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.diy-coupon .diy-coupon-item .inner {
+    height: auto;
+    border: 1px solid #f01;
+    margin: 0.3rem;
+    border-radius: 0.4rem;
+    text-align: center;
+    padding: 0.2rem;
+}
+
+.diy-coupon.col-2 .diy-coupon-item {
+    width: 50%;
+}
+
+.diy-coupon.col-3 .diy-coupon-item {
+    width: 33.33%;
+}
+
+.diy-coupon .diy-coupon-item .name {
+    font-size: 0.8rem;
+}
+
+.diy-coupon .diy-coupon-item .desc {
+    font-size: 0.6rem;
+}
+
+.diy-fixedsearch {
+    height: 2.2rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.diy-fixedsearch.fixed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.diy-fixedsearch .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000000;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.diy-fixedsearch .inner {
+    position: relative;
+    z-index: 2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    color: #fff;
+    height: 2.2rem;
+    padding: 0.4rem;
+}
+
+.diy-fixedsearch .inner .leftnav {
+    height: 1.4rem;
+    line-height: 1.4rem;
+}
+
+.diy-fixedsearch .inner .rightnav {
+    height: 1.4rem;
+    line-height: 1.4rem;
+}
+
+.diy-fixedsearch .inner .leftnav img,
+.diy-fixedsearch .inner .rightnav img {
+    height: 1.4rem;
+    width: auto;
+    display: block;
+}
+
+.diy-fixedsearch .inner .leftnav .icon,
+.diy-fixedsearch .inner .rightnav .icon {
+    font-size: 1.2rem;
+}
+
+.diy-fixedsearch .inner .center {
+    height: 1.4rem;
+    width: 100%;
+    padding: 0 0.4rem;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.diy-fixedsearch .inner .center input {
+    border-radius: 0;
+    background: #fff;
+    -webkit-appearance : none;
+    height: 1.4rem;
+    border: 0;
+    width: 100%;
+    padding: 0 0.3rem;
+    font-size: 0.7rem;
+    color: #666;
+}
+
+.diy-fixedsearch .inner .center.round input {
+    border-radius: 0.2rem;
+}
+
+.diy-fixedsearch .inner .center.circle input {
+    border-radius: 1.4rem;
+}
+
+.follow_topbar ~ .diy-fixedsearch {
+    top: 2.6rem;
+}
+.fui-header ~ .diy-fixedsearch {
+    top: 2.2rem;
 }

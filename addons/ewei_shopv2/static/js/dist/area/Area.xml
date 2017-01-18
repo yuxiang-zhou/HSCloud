@@ -414,7 +414,7 @@
   <county name="汾阳市" /> 
   </city>
   </province>
- <province name="内蒙古区">
+ <province name="内蒙古自治区">
  <city name="呼和浩特市">
   <county name="市辖区" /> 
   <county name="新城区" /> 
@@ -3077,6 +3077,7 @@
   <county name="息烽县" /> 
   <county name="修文县" /> 
   <county name="清镇市" /> 
+  <county name="观山湖区" />
   </city>
  <city name="六盘水市">
   <county name="钟山区" /> 

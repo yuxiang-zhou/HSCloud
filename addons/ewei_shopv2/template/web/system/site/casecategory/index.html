@@ -35,7 +35,7 @@
             </td>
             <td>
                 {ifp 'system.site.category.delete'}
-                <a href="{php echo webUrl('system/site/category/delete', array('id' => $row['id']))}" data-toggle='ajaxRemove' class="btn btn-default btn-sm" data-confirm="确认删除此分类?"><i class="fa fa-trash"></i> 删除</a>{/if}
+                <a href="{php echo webUrl('system/site/casecategory/delete', array('id' => $row['id']))}" data-toggle='ajaxRemove' class="btn btn-default btn-sm" data-confirm="确认删除此分类?"><i class="fa fa-trash"></i> 删除</a>{/if}
             </td>
 
         </tr>

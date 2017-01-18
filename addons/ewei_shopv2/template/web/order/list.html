@@ -104,7 +104,7 @@
     <tr ><td colspan='8' style='height:20px;padding:0;border-top:none;'>&nbsp;</td></tr>
     <tr class='trorder'>
         <td colspan='4' >
-            订单编号:  {$item['ordersn']}{if $item['ispackage']}<span class="text-danger">（套餐）</span>{/if}
+            订单编号:  {$item['ordersn']}{if $item['ispackage']}&nbsp;<span class="label label-success">套餐</span>{/if}
             {if !empty($item['refundstate'])}<label class='label label-danger'>{$r_type[$item['rtype']]}申请</label>{/if}
             {if !empty($item['refundstate']) && $item['rstatus'] == 4}<label class='label label-default'>客户退回物品</label>{/if}
         </td>
@@ -128,7 +128,7 @@
             {/if}
 
             {if $item['merchid'] == 0}
-                {if $item['statusvalue'] == 2 && !empty($item['addressid'])}
+                {if ($item['statusvalue']>=2 || $item['sendtype']>0) && !empty($item['addressid'])}
                     {ifp 'order.op.send'}
                     <a class="op" data-toggle="ajaxModal"  href="{php echo webUrl('order/op/changeexpress', array('id' => $item['id']))}">修改物流</a>
                     {/if}
@@ -136,7 +136,7 @@
             {/if}
 
             <a class='op'  href="{php echo webUrl('order/detail', array('id' => $item['id']))}" >查看详情</a>
-            {if $item['addressid']!=0 && $item['statusvalue']>=2}
+            {if $item['addressid']!=0 && $item['statusvalue']>=2 && $item['sendtype']==0}
             <a class='op'  data-toggle="ajaxModal" href="{php echo webUrl('util/express', array('id' => $item['id'],'express'=>$item['express'],'expresssn'=>$item['expresssn']))}"   >物流信息</a>
             {/if}
             {if $item['merchid'] == 0}
@@ -151,7 +151,14 @@
     {loop $item['goods'] $k $g}
     <tr class='trbody'>
         <td style='overflow:hidden;'><img src="{php echo tomedia($g['thumb'])}" style='width:50px;height:50px;border:1px solid #ccc; padding:1px;'></td>
-        <td style='text-align: left;overflow:hidden;border-left:none;'  >{$g['title']}{if !empty($g['optiontitle'])}<br/>{$g['optiontitle']}{/if}<br/>{$g['goodssn']}</td>
+        <td style='text-align: left;overflow:hidden;border-left:none;'  >{if $g['seckill_task']}
+            <span class="label label-danger">{$g['seckill_task']['tag']}</span>
+            {if $g['seckill_room']}<span class="label label-primary">
+                {php echo $g['seckill_room']['tag']?:$g['seckill_room']['title']}</span>{/if}<br/>
+            {/if}
+            {if $g['ispresell']==1}<label class="fui-tag fui-tag-danger">预</label>{/if}
+            {$g['title']}
+            {if !empty($g['optiontitle'])}<br/>{$g['optiontitle']}{/if}<br/>{$g['goodssn']}</td>
         <td style='text-align:right;border-left:none;'>{php echo number_format($g['realprice']/$g['total'],2)}<br/>x{$g['total']}</td>
 
         {if $k==0}
@@ -194,6 +201,12 @@
                     <td  style='border:none;text-align:right;'>运费：</td>
                     <td  style='border:none;text-align:right;;'>￥{php echo number_format( $item['olddispatchprice'],2)}</td>
                 </tr>
+                {if $item['taskdiscountprice']>0}
+                <tr>
+                    <td  style='border:none;text-align:right;'>任务活动优惠：</td>
+                    <td  style='border:none;text-align:right;;'>-￥{php echo number_format( $item['taskdiscountprice'],2)}</td>
+                </tr>
+                {/if}
                 {if $item['discountprice']>0}
                 <tr>
                     <td  style='border:none;text-align:right;'>会员折扣：</td>
@@ -240,6 +253,12 @@
                 <tr>
                     <td  style='border:none;text-align:right;'>重复购买优惠：</td>
                     <td  style='border:none;text-align:right;;'>-￥{php echo number_format( $item['buyagainprice'],2)}</td>
+                </tr>
+                {/if}
+                  {if $item['seckilldiscountprice']>0}
+                <tr>
+                    <td  style='border:none;text-align:right;'>秒杀优惠：</td>
+                    <td  style='border:none;text-align:right;;'>-￥{php echo number_format( $item['seckilldiscountprice'],2)}</td>
                 </tr>
                 {/if}
               

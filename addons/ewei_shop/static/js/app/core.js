@@ -1,7 +1,8 @@
 /*
  * 人人商城
  * 
- * @author ewei www.012wz.com*/
+ * @author ewei 狸小狐 QQ:22185157 
+ */
 define(['jquery', 'core'], function($, core) {
 
     var core = {

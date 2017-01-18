@@ -34,12 +34,12 @@
                 <li {if $_GPC['tab']=='des'}class="active"{/if} ><a href="#tab_des">详情</a></li>
                 <li {if $_GPC['tab']=='buy'}class="active"{/if} ><a href="#tab_buy">购买权限</a></li>
                 <li {if $_GPC['tab']=='sale'}class="active"{/if} ><a href="#tab_sale">营销</a></li>
-                <li {if $_GPC['tab']=='discount'}class="active"{/if} ><a href="#tab_discount">补贴与折扣</a></li>
+                <li {if $_GPC['tab']=='discount'}class="active"{/if} ><a href="#tab_discount">会员折扣</a></li>
                 <li {if $_GPC['tab']=='share'}class="active"{/if} ><a href="#tab_share">分享关注</a></li>
-                <li {if $_GPC['tab']=='notice'}class="active"{/if} ><a href="#tab_notice">下单通知</a></li>
+                <li {if $_GPC['tab']=='notice'}class="active"{/if} ><a href="#tab_notice">付款通知</a></li>
 
                 {if !empty($com_set['level'])}
-                <li {if $_GPC['tab']=='sell'}class="active"{/if}><a href="#tab_sell">分销</a></li>
+                <li {if $_GPC['tab']=='sell'}class="active"{/if}><a href="#tab_sell" id="a_sell">{if p('ccard') && $item['type'] == 20}返佣{else}分销{/if}</a></li>
                 {/if}
 
                 {if $merchid == 0}
@@ -57,6 +57,10 @@
                 {if p('diypage')}
                 <li {if $_GPC['tab']=='diypage'}class="active"{/if}><a href="#tab_diypage">自定义模板</a></li>
                 {/if}
+
+                {if p('ccard')}
+                <li class="ccard-group {if $_GPC['tab']=='ccard'}active{/if}" {if $item['type'] != 20}style="display:none;"{/if}><a href="#tab_ccard">充值说明</a></li>
+                {/if}
             </ul>
 
             <div class="tab-content ">
@@ -71,7 +75,13 @@
                 <div class="tab-pane  {if $_GPC['tab']=='notice'}active{/if}" id="tab_notice"> <div class="panel-body">{template 'goods/tab/notice'}</div></div>
 
                 {if p('commission') && !empty($com_set['level'])}
-                <div class="tab-pane {if $_GPC['tab']=='sell'}active{/if}" id="tab_sell"> <div class="panel-body">{template 'commission/goods'}</div></div>
+                <div class="tab-pane {if $_GPC['tab']=='sell'}active{/if}" id="tab_sell"> <div class="panel-body">
+                    {if p('ccard')}
+                    {template 'ccard/goods'}
+                    {else}
+                    {template 'commission/goods'}
+                    {/if}
+                </div></div>
                 {/if}
 
                 {if $merchid == 0}
@@ -89,6 +99,11 @@
                 {if p('diypage')}
                 <div class="tab-pane {if $_GPC['tab']=='diypage'}active{/if}" id="tab_diypage"> <div class="panel-body">{template 'diypage/invoke/goods'}</div></div>
                 {/if}
+
+                {if p('ccard')}
+                <div class="tab-pane {if $_GPC['tab']=='ccard'}active{/if}" id="tab_ccard"> <div class="panel-body">{template 'ccard/explain'}</div></div>
+                {/if}
+
             </div>
         </div>
     </div>
@@ -123,7 +138,15 @@
             } else {
                 $(':checkbox[name=cash]').parent().show();
             }
-        })
+        });
+		$(':radio[name=ispresell]').click(function () {
+			window.ispresell = $("input[name='ispresell']:checked").val();
+			if(window.ispresell==0){
+				$(".presell_info").hide();
+			}else{
+				$(".presell_info").show();
+			}
+		});
 
         $(':radio[name=type]').click(function () {
             window.type = $("input[name='type']:checked").val();
@@ -327,6 +350,10 @@
 		$('.option_marketprice').each(function (index,item) {
 			option_marketprice.push($(item).val());
 		});
+		var option_presellprice = new Array();
+		$('.option_presell').each(function (index,item) {
+			option_presellprice.push($(item).val());
+		});
 
 		var option_productprice = new Array();
 		$('.option_productprice').each(function (index,item) {
@@ -358,6 +385,7 @@
 				option_id : option_id,
 				option_ids : option_ids,
 				option_title : option_title,
+				option_presellprice : option_presellprice,
 				option_marketprice : option_marketprice,
 				option_productprice : option_productprice,
 				option_costprice : option_costprice,
@@ -622,6 +650,48 @@
 		}
 		return full;
 	}
+
+    function type_change(type) {
+        var ccard = {php echo intval($ccard)};
+
+        if(type == 1) {
+            $('#product').show();
+            $('#type_virtual').hide();
+            $('.entity').show();
+        } else if(type == 2) {
+            $('#product').hide();
+            $('#type_virtual').hide();
+            $('.entity').hide();
+        } else if(type == 3) {
+            $('#type_virtual').show();
+            $('.entity').hide();
+        } else if(type == 10) {
+            $('#type_virtual').hide();
+            $('#product').hide();
+            $('.entity').hide();
+        } else if(type == 20) {
+            $('#type_virtual').hide();
+            $('#product').hide();
+            $('.entity').hide();
+            $('.ccard-group').show();
+            $('.commission-group').hide();
+            $('#a_sell').html('返佣');
+            $('.commission1-group').html('会员购买返佣');
+            $('.commission2-group').html('上级返佣');
+
+        }
+
+        if (ccard == 1 && type != 20) {
+            $('.ccard-group').hide();
+            $('.commission-group').show();
+            $('#a_sell').html('分销');
+            $('.commission1-group').html('一级分销');
+            $('.commission2-group').html('二级分销');
+        }
+
+    }
+
+
 </script>
 
 {template '_footer'}

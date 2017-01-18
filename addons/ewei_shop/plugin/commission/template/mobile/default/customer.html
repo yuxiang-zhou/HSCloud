@@ -31,18 +31,22 @@
     <div class="title" onclick='history.back()'><i class='fa fa-chevron-left'></i> {php echo $this->set['texts']['mycustomer']}({$total})</div>
 </div>
 <div class="customer_list_head">
-        <div class="info">会员信息</div>
-        <div class="num">TA的消费订单/金额</div>
+        <div class="info">香粉信息</div>
+        <div class="num">TA的消费粉单/金额</div>
 </div>
 <div id='container'></div>
 
 <script id='tpl_customer' type='text/html'>
     <%each list as user%>
     <div class="customer_list">
-        <div class="img"><img src="<%if user.nickname%><%user.avatar%><%else%>../addons/ewei_shop/plugin/commission/images/head.jpg<%/if%>"></div>
+        <div class="img"><img src="<%user.avatar%>"></div>
         <div class="left">
-        <div class="info"><%if user.nickname%><%user.nickname%><%else%>未获取<%/if%></div>
-        <%if user.weixin%>
+		<%if user.realname.length>0%>
+        <div class="info"><%user.realname%>(<%user.mobile%>)</div>
+		<%else%>
+        <div class="info"><%user.nickname%></div>
+        <%/if%>
+        <%if user.weixin!=''%>
             <div class="info"><span>微信号: <%user.weixin%></span></div>
         <%/if%>
         <div class="info"><span>注册时间: <%user.createtime%></span></div>

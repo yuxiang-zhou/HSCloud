@@ -9,6 +9,15 @@ define(['core', 'tpl', 'http://api.map.baidu.com/getscript?v=2.0&ak=ZQiFErjQB7in
         modal.range = 500;
         modal.sorttype = 0;
 
+        if (modal.cateid > 0) {
+            $('.sortmenu_cate ul li').each(function(){
+                if ($(this).attr('cateid') == modal.cateid) {
+                    $('#sortmenu_cate_text').html($(this).attr('text'));
+                }
+            });
+        }
+
+
         $(".sortMenu > li").off("click").on("click",function(){
             var menuclass = $(this).attr("data-class");
             if($("."+menuclass+"").css("display")=="none"){

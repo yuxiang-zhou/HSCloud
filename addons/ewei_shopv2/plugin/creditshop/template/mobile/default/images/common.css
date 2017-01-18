@@ -106,4 +106,66 @@
     font-size:0.7rem;
     color:#333;
 }
+.creditshop-log-list-a{background: #fff;display: block;}
+.creditshop-log-header{}
+.creditshop-log-header .fui-list-media{}
+.creditshop-log-header .fui-list-inner{}
+.credit-log-list-title{}
+.fui-list-mid .price{font-size:0.6rem;}
+.fui-list-bottom{font-size:0.6rem;}
+.fui-list-bottom .fui-list-media{color:#666;}
+
+.fui-list-bot-inner{text-align: right;}
+.fui-list-bot-inner a{margin:0;}
+
+
+
+.creditshop-creditlog-page .fui-list .fui-list-media {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.creditshop-creditlog-page .fui-list .fui-list-media .title.warning {
+    background: rgba(255, 153, 0,0.8);
+    height: 0.9rem;
+    line-height: 0.9rem;
+    padding: 0;
+    font-size: 0.6rem
+}
+
+.creditshop-creditlog-page .fui-list .fui-list-media .title.danger {
+    background: rgba(239, 79, 79,0.8);
+    height: 0.9rem;
+    line-height: 0.9rem;
+    padding: 0;
+    font-size: 0.6rem
+}
+
+.creditshop-creditlog-page .fui-list-angle {
+    width: 6rem;
+    text-align: right;
+}
+
+.creditshop-creditlog-page .fui-list-angle p {
+    font-size: 0.65rem
+}
+
+.creditshop-creditlog-page .fui-list-angle p.text-danger {
+    background: none;
+    font-size: 0.75rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

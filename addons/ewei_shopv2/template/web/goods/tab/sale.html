@@ -11,11 +11,15 @@
                     满返设置
                 </a>
             </li>
+
+            {if !is_error(redis())}
             <li style="width: auto">
                 <a data-toggle="tab" href="#tab-sale-3" aria-expanded="true">
                     抵扣设置
                 </a>
             </li>
+            {/if}
+
             <li style="width: auto">
                 <a data-toggle="tab" href="#tab-sale-4" aria-expanded="true">
                     包邮条件
@@ -28,7 +32,7 @@
                 </a>
             </li>
             -->
-			<li style="width: auto">
+            <li style="width: auto">
                 <a data-toggle="tab" href="#tab-sale-6" aria-expanded="true">
                     重复购买
                 </a>
@@ -87,7 +91,7 @@
                            value="{$item['isdiscount_title']}" />
                     <p class="help-block">
                         例如 : 季末清仓,双十一促销,品牌日 还可以输入
-                                <span id="textCount">
+                        <span id="textCount">
                                     5
                                 </span>
                         个字,不输入默认促销
@@ -118,41 +122,41 @@
 
         <div id="saletype" class="form-group" {if $item['isdiscount']!=1}style="display:none"{/if}>
         {if $merchid > 0}
-            <label class="col-sm-2 control-label">
-                手机端使用的价格
-            </label>
-            <div class="col-sm-9 col-xs-12">
-                {ife 'goods' $item}
-                <label class="radio-inline"><input type="radio" name="merchsale" value="0" {if empty($item['merchsale'])}checked="true"{/if}/> 当前设置的促销价格</label>
-                <label class="radio-inline"><input type="radio" name="merchsale" value="1" {if $item['merchsale'] == 1}checked="true"{/if}   /> 商户设置的促销价格</label>
-                <span class="help-block"></span>
-                {else}
-                <div class='form-control-static'>{if empty($item['merchsale'])}当前设置的促销价格{else}商户设置的促销价格{/if}</div>
-                {/if}
-            </div>
-        {/if}
+        <label class="col-sm-2 control-label">
+            手机端使用的价格
+        </label>
+        <div class="col-sm-9 col-xs-12">
+            {ife 'goods' $item}
+            <label class="radio-inline"><input type="radio" name="merchsale" value="0" {if empty($item['merchsale'])}checked="true"{/if}/> 当前设置的促销价格</label>
+            <label class="radio-inline"><input type="radio" name="merchsale" value="1" {if $item['merchsale'] == 1}checked="true"{/if}   /> 商户设置的促销价格</label>
+            <span class="help-block"></span>
+            {else}
+            <div class='form-control-static'>{if empty($item['merchsale'])}当前设置的促销价格{else}商户设置的促销价格{/if}</div>
+            {/if}
         </div>
+        {/if}
+    </div>
 
 
-        <div id="isdiscount_true">
+    <div id="isdiscount_true">
         <div id="isdiscount_discounts_1">
-        <div class="form-group isdiscount_discounts-info">
-            <div class="col-sm-12">
-                <div class='alert alert-danger'>
-                    详细设置促销价格 :
-                    <br>
-                    如果填写纯数字我们认为单位是元 例如填写 1 也就是促销价1元
-                    <br>
-                    如果填写百分数,我们认为是打折数 例如填写 90% 则就是打九折
+            <div class="form-group isdiscount_discounts-info">
+                <div class="col-sm-12">
+                    <div class='alert alert-danger'>
+                        详细设置促销价格 :
+                        <br>
+                        如果填写纯数字我们认为单位是元 例如填写 1 也就是促销价1元
+                        <br>
+                        如果填写百分数,我们认为是打折数 例如填写 90% 则就是打九折
+                    </div>
                 </div>
             </div>
-        </div>
-        <div id='tbisdiscount_discounts' style="padding-left:15px;">
-            <div id="isdiscount_discounts" style="padding:0;">{if $item['hasoption']==1}{$isdiscount_discounts_html}{/if}</div>
-            <div id="isdiscount_discounts_default" style="padding:0;"></div>
+            <div id='tbisdiscount_discounts' style="padding-left:15px;">
+                <div id="isdiscount_discounts" style="padding:0;">{if $item['hasoption']==1}{$isdiscount_discounts_html}{/if}</div>
+                <div id="isdiscount_discounts_default" style="padding:0;"></div>
+            </div>
         </div>
     </div>
-</div>
 </div>
 <div id="tab-sale-2" class="tab-pane">
     <div class="form-group">
@@ -163,7 +167,7 @@
             {ife 'goods' $item}
             <div class="input-group">
                 <input type="text" name="credit" id="credit" class="form-control" value="{$item['credit']}"/>
-                            <span class="input-group-addon">
+                <span class="input-group-addon">
                                 分
                             </span>
             </div>
@@ -192,7 +196,7 @@
             <div class="input-group">
                 <input type="text" name="money" id="money" class="form-control" value="{$item['money']}"
                 />
-                            <span class="input-group-addon">
+                <span class="input-group-addon">
                                 元
                             </span>
             </div>
@@ -213,6 +217,7 @@
         </div>
     </div>
 </div>
+{if !is_error(redis())}
 <div id="tab-sale-3" class="tab-pane">
     <div class="form-group">
         <label class="col-sm-2 control-label">
@@ -225,7 +230,7 @@
                                 最多抵扣
                             </span>
                 <input type="text" name="deduct" value="{$item['deduct']}" class="form-control"/>
-                            <span class="input-group-addon">
+                <span class="input-group-addon">
                                 元
                             </span>
             </div>
@@ -233,7 +238,7 @@
                 <input id="manydeduct" type="checkbox" {if $item['manydeduct']==1 }checked="true"{/if} value="1" name="manydeduct">
                 允许多件累计抵扣
             </label>
-                        <span class="help-block">
+            <span class="help-block">
                             如果设置0，则不支持积分抵扣
                         </span>
             {else}
@@ -245,7 +250,7 @@
         </div>
     </div>
 
-    <!--div class="form-group">
+    <div class="form-group">
         <label class="col-sm-2 control-label">
             余额抵扣
         </label>
@@ -270,22 +275,24 @@
             </div>
             {/if}
         </div>
-    </div-->
+    </div>
 
 </div>
+{/if}
+
 <div id="tab-sale-4" class="tab-pane">
     <div class="form-group">
         <label class="col-sm-2 control-label">单品满件包邮</label>
         <div class="col-sm-4">
             {ife 'goods' $item}
-                <div class='input-group'>
-                    <span class="input-group-addon">满</span>
-                    <input type="text" name="ednum" value="{$item['ednum']}" class="form-control"/>
-                    <span class="input-group-addon">件</span>
-                </div>
-                <span class="help-block">如果设置0或空，则不支持满件包邮</span>
+            <div class='input-group'>
+                <span class="input-group-addon">满</span>
+                <input type="text" name="ednum" value="{$item['ednum']}" class="form-control"/>
+                <span class="input-group-addon">件</span>
+            </div>
+            <span class="help-block">如果设置0或空，则不支持满件包邮</span>
             {else}
-                <div class='form-control-static'>{if empty($item['ednum'])}不支持满件包邮{else}支持 {/if}</div>
+            <div class='form-control-static'>{if empty($item['ednum'])}不支持满件包邮{else}支持 {/if}</div>
             {/if}
         </div>
     </div>
@@ -293,14 +300,14 @@
         <label class="col-sm-2 control-label">单品满额包邮</label>
         <div class="col-sm-4">
             {ife 'goods' $item}
-                <div class='input-group'>
-                    <span class="input-group-addon">满</span>
-                    <input type="text" name="edmoney" value="{$item['edmoney']}" class="form-control"/>
-                    <span class="input-group-addon">元</span>
-                </div>
-                <span class="help-block">如果设置0或空，则不支持满额包邮</span>
+            <div class='input-group'>
+                <span class="input-group-addon">满</span>
+                <input type="text" name="edmoney" value="{$item['edmoney']}" class="form-control"/>
+                <span class="input-group-addon">元</span>
+            </div>
+            <span class="help-block">如果设置0或空，则不支持满额包邮</span>
             {else}
-                <div class='form-control-static'>{if empty($item['edmoney'])}不支持满额包邮{else}支持 {/if}</div>
+            <div class='form-control-static'>{if empty($item['edmoney'])}不支持满额包邮{else}支持 {/if}</div>
             {/if}
         </div>
     </div>
@@ -308,12 +315,12 @@
         <label class="col-sm-2 control-label">不参与单品包邮地区</label>
         <div class="col-sm-9 col-xs-12">
             {ife 'goods' $item}
-                <div id="areas" class="form-control-static">{$item['edareas']}</div>
-                <a href="javascript:;" class="btn btn-default" onclick="selectAreas()">添加不参加满包邮的地区</a>
-                <input type="hidden" id='selectedareas' name="edareas" value="{$item['edareas']}"/>
-                <span class="help-block">如果设置0或空，则不支持满件包邮</span>
+            <div id="areas" class="form-control-static">{$item['edareas']}</div>
+            <a href="javascript:;" class="btn btn-default" onclick="selectAreas()">添加不参加满包邮的地区</a>
+            <input type="hidden" id='selectedareas' name="edareas" value="{$item['edareas']}"/>
+            <span class="help-block">如果设置0或空，则不支持满件包邮</span>
             {else}
-                <div class='form-control-static'>{$set['enoughareas']}</div>
+            <div class='form-control-static'>{$set['enoughareas']}</div>
             {/if}
         </div>
     </div>
@@ -321,49 +328,6 @@
 
 <div id="tab-sale-6" class="tab-pane">{template 'goods/tab/repeat'}</div>
 
-<!--
-<div id="tab-sale-5" class="tab-pane">
-
-
-    <div class="form-group">
-        <label class="col-sm-2 control-label">
-            购买完成是否赠送优惠卷
-        </label>
-        <div class="col-sm-4">
-                {ife 'goods' $item}
-                <label  class="radio-inline"><input type="radio" name="issendcoupon" value="0"  {if empty($item) || $item['issendcoupon'] == 0}checked="true"{/if} /> 否</label>
-                <label  class="radio-inline"><input type="radio" name="issendcoupon" value="1"  {if   !empty($item) && $item['issendcoupon'] == 1}checked="true"{/if} /> 是</label>
-                {else}
-                <div class='form-control-static'>
-                    {if empty($item) || $item['issendcoupon'] == 0}否{/if}
-                    {if !empty($item) && $item['issendcoupon'] == 1}是{/if}
-                </div>
-                {/if}
-        </div>
-    </div>
-
-    <div class="form-group">
-        <label class="col-sm-2 control-label">
-            选择赠送优惠卷
-        </label>
-        <div class="col-sm-4">
-
-            {ife 'goods' $item}
-                <div class='input-group'>
-                    <select name="sendcouponid" class="form-control"  id="value_5">
-                        <option value="" >请选择</option>
-                        {loop $coupons $coupon}
-                            <option value="{$coupon['id']}" {if $coupon['id']==$item['sendcouponid']}selected{/if} >{$coupon['couponname']}</option>
-                        {/loop}
-                    </select>
-                </div>
-            {else}
-                $coupon['couponname'];
-            {/if}
-        </div>
-    </div>
-</div>
--->
 </div>
 </div>
 </div>

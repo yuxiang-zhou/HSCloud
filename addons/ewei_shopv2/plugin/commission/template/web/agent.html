@@ -206,16 +206,19 @@
 										  {if $row['agentblack']==1}黑名单{else}正常{/if}</span>
                      </td>
                 <td>
-             {if empty($row['followed'])}
-                    {if empty($row['uid'])}
+
+
+                    {if empty($row['followed'])}
+                    {if empty($row['unfollowtime'])}
                     <label class='label label-default'>未关注</label>
                     {else}
                     <label class='label label-warning'>取消关注</label>
                     {/if}
                     {else}
-                    <label class='label label-primary'>已关注</label>
+                    <label class='label label-success'>已关注</label>
                     {/if}
-                    
+
+
               
                    
            

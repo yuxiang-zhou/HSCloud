@@ -5,6 +5,7 @@ define(['jquery.ui'], function (ui) {
         modal.attachurl = params.attachurl;
         modal.menu = params.menu;
         modal.id = params.id;
+        modal.merch = params.merch;
         if (!modal.menu) {
             modal.menu = {
                 name: '未命名自定义菜单',
@@ -348,11 +349,12 @@ define(['jquery.ui'], function (ui) {
             tip.msgbox.err("菜单为空！");
             return
         }
+
         $(".btn-save").data('status', 1).text("保存中...");
         if (modal.id) {
-            var posturl = biz.url("diypage/menu/edit")
+            var posturl = biz.url("diypage/menu/edit", null, modal.merch)
         } else {
-            var posturl = biz.url("diypage/menu/add")
+            var posturl = biz.url("diypage/menu/add", null, modal.merch)
         }
         $.post(posturl, {id: modal.id, menu: modal.menu}, function (ret) {
             if (ret.status == 0) {

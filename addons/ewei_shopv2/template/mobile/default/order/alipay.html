@@ -25,11 +25,21 @@
     require(['core'], function (core) {
         var orderid = "{$_GPC['orderid']}";
         var type = "{$_GPC['type']}";
+        var id = "{$_GPC['id']}";
+        var logid = "{$_GPC['logid']}";
 
         if(type==0){
             var url = core.getUrl('order/pay/orderstatus');
             var data = {id: orderid};
             var url_return = core.getUrl('order/pay/success', {id: orderid});
+        }else if(type == 20){
+            var url = core.getUrl('creditshop/detail/lottery');
+            var data = {id: id,logid:logid };
+            var url_return = core.getUrl('creditshop/log');
+        }else if(type == 21){
+            var url = core.getUrl('creditshop/log/payresult');
+            var data = {id: id};
+            var url_return = core.getUrl('creditshop/log/detail', {id: id});
         }else{
             var url = core.getUrl('member/recharge/getstatus');
             var data = {logno: orderid };

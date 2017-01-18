@@ -42,7 +42,6 @@
         {ifp 'sale.gift.delete1'}
         <a  class='btn btn-default btn-sm' data-toggle='ajaxRemove' href="{php echo webUrl('sale/gift/delete1', array('id' => $item['id']))}" data-confirm='如果此活动存在购买记录，会无法关联到商品, 确认要彻底删除吗?？'><i class='fa fa-remove'></i> 彻底删除</a>
         {/if}
-        <a href="javascript:;" style="display: none;" class='btn btn-default btn-sm js-clip' data-url="{php echo mobileUrl('sale/gift', array('id' => $item['id']),true)}"><i class='fa fa-link'></i> 复制链接</a>
     </td>
 </tr>
 <tr>

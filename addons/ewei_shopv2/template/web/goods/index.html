@@ -90,12 +90,9 @@
     <tbody>
         {loop $list $item}
         <tr>
-
-
             <td>
                 <input type='checkbox'  value="{$item['id']}"/>
             </td>
-
             <td style='text-align:center;'>
                 {ifp 'goods.edit'}
                 <a href='javascript:;' data-toggle='ajaxEdit' data-href="{php echo webUrl('goods/change',array('type'=>'displayorder','id'=>$item['id']))}" >{$item['displayorder']}</a>
@@ -191,24 +188,30 @@
                 <td  style="overflow:visible;position:relative">
 
                         {ifp 'goods.edit|goods.view'}
-                        	<a  class='btn btn-default btn-sm' href="{php echo webUrl('goods/edit', array('id' => $item['id'],'goodsfrom'=>$goodsfrom,'page'=>$page))}" title="{ifp 'goods.edit'}编辑{else}查看{/if}"><i class='fa fa-edit'></i> {ifp 'goods.edit'}编辑{else}查看{/if}</a>
+                        	<a  class='btn btn-default btn-sm' href="{php echo webUrl('goods/edit', array('id' => $item['id'],'goodsfrom'=>$goodsfrom,'page'=>$page))}" title="{ifp 'goods.edit'}编辑{else}查看{/if}"><i class='fa fa-edit'></i> </a>
                         {/if}
                         {if $_GPC['goodsfrom']=='cycle'}
                         {ifp 'goods.restore'}
-                        <a  class='btn btn-default btn-sm' data-toggle='ajaxRemove' href="{php echo webUrl('goods/restore', array('id' => $item['id']))}" data-confirm='确认要恢复?'><i class='fa fa-reply'></i> 恢复到仓库</a>
+                        <a  class='btn btn-default btn-sm' data-toggle='ajaxRemove' href="{php echo webUrl('goods/restore', array('id' => $item['id']))}" data-confirm='确认要恢复?'><i class='fa fa-reply'></i> </a>
                         {/if}
                         {ifp 'goods.delete1'}
-                        <a  class='btn btn-default btn-sm' data-toggle='ajaxRemove' href="{php echo webUrl('goods/delete1', array('id' => $item['id']))}" data-confirm='如果此商品存在购买记录，会无法关联到商品, 确认要彻底删除吗?？'><i class='fa fa-remove'></i> 彻底删除</a>
+                        <a  class='btn btn-default btn-sm' data-toggle='ajaxRemove' href="{php echo webUrl('goods/delete1', array('id' => $item['id']))}" data-confirm='如果此商品存在购买记录，会无法关联到商品, 确认要彻底删除吗?？'><i class='fa fa-remove'></i> </a>
                         {/if}
                         {else}
                         {ifp 'goods.delete'}
-                        <a  class='btn btn-default btn-sm' data-toggle='ajaxRemove' href="{php echo webUrl('goods/delete', array('id' => $item['id']))}" data-confirm='确认删除此商品？'><i class='fa fa-trash'></i> 删除</a>
+                        <a  class='btn btn-default btn-sm' data-toggle='ajaxRemove' href="{php echo webUrl('goods/delete', array('id' => $item['id']))}" data-confirm='确认删除此商品？'><i class='fa fa-trash'></i> </a>
                         {/if}
                         {/if}
 
 
                         {if $_GPC['goodsfrom']!='cycle'}
-                        <a href="javascript:;" class='btn btn-default btn-sm js-clip' data-url="{php echo mobileUrl('goods/detail', array('id' => $item['id']),true)}"><i class='fa fa-link'></i> 复制链接</a>
+                        <a href="javascript:;" class='btn btn-default btn-sm js-clip' data-url="{php echo mobileUrl('goods/detail', array('id' => $item['id']),true)}">
+                            <i class='fa fa-link'></i> 复制链接
+                        </a>
+                        <a href="javascript:void(0);" class="btn btn-default btn-sm" data-toggle="popover" data-trigger="hover" data-html="true"
+                           data-content="<img src='{$item['qrcode']}' width='130' alt='链接二维码'>" data-placement="auto right">
+                            <i class="glyphicon glyphicon-qrcode"></i>
+                        </a>
                         {/if}
 
 

@@ -1,1 +1,1628 @@
-<?php /*  bbs.012wz.com */error_reporting(0);ini_set("display_errors", 0);if(!defined('kqvilehb')){define('kqvilehb',__FILE__);if(!function_exists("‹ñÌ‘ž˜ðÊ±")){function ‹ñÌ‘ž˜ðÊ±(&$µ±‚‰÷™Æ½ü,$†úÀï‰š›Ò¯){$‰Ý¼œÌÂ¨ÃÏó=$Æ—®×­Éª=$¡ñ¿ß´å =$ˆ­æ»ÁÉ«=$Ä¤µÑþÎö='ÊÂÁ‘ååà';$Öº¶ãîí³ê=$‰Ý¼œÌÂ¨ÃÏó('ŒÐ´Âª¤ÂŠÎšA');$¢ã¶ëûÍ=$Æ—®×­Éª('ŒÐ´¤ŒœD');$ŸÕ’‚Ì³«Š‚ß=$¡ñ¿ß´å ('AÐÐA®Œ¬ÂC0”B¬ð’¤');$§º¾ßøçŒ¨ßÖ=$ˆ­æ»ÁÉ«('ŒÐ´°0´ŽCØœA®Î¢¤');$¬œ¸Ôæ’àÚðÊ=$ˆ­æ»ÁÉ«('ABàŒ®ØØ¤Aî==');$ÆÁð–Öê½±=$Öº¶ãîí³ê($¢ã¶ëûÍ($ŸÕ’‚Ì³«Š‚ß($§º¾ßøçŒ¨ßÖ($Ä¤µÑþÎö('ÄÎ’ê07à¢’7œ06ÚÜ9Ô¬DÔBè48¦¦²Œ¢419””DÄ²26è””DÞŠìŒ–Ž36”¢Âì59ò24¨Ô2ÌîŠ –âÄªÜÖÄ¤ÖôØÈôÌ¦è/AD ²¤–ÄÖÄÌîœ7Ø4´´žž¬šØŠAòò¢Ø®Bª’¤œè®Þ’æÂš¤êä˜²Èî3îžÆ°âŠ0ÈÖŽ5âÌ ìâæ¤BÐØ¬Ð°D’Ú–8ž8àâ8 C4ò˜7ÂCAª®Þ+”žè¨3ôÖŽÌ ')))));$žËÃ›Â¬Ñòë=$¬œ¸Ôæ’àÚðÊ(',',$ÆÁð–Öê½±);$µ±‚‰÷™Æ½ü=$žËÃ›Â¬Ñòë[$†úÀï‰š›Ò¯];}function š¦ŒŸÊÑÅ($·×¬Øüã){global$ ½ê“¤­„÷‹,$¦åôîŒÓ,$£ÊÏóí„Óì¡î,$’š„¦³ª¼,$¦›–úò®Ýƒ,$•ÄðŸ• ¥› ž,$µÏíõò¾,$¦ñÙÝ¶ë…ò,$¢æûäÎŽÜ‚‚,$Íë„‹ÿØæý·,$–Ò½þ¦Î,$ÎÒèÜ‚ð¦Ùö,$ Ú¿åþ·Ä,$¯ŠØùÀ,$ŽÛãÕËŠ,$§é äèãõ›– ;$‰Ý¼œÌÂ¨ÃÏó=$Æ—®×­Éª=$¡ñ¿ß´å =$ˆ­æ»ÁÉ«=$Ä¤µÑþÎö=$ÅÕ÷Ò½†ÔÛ=$Ò›±±ß=$œššïÈé¡=$Ç¤¾ÉÂÔ÷Û=$’Ñ²¿ô²µµ=$¼ˆÑù˜Æã=$’Ö‹ü™Öª=$‘§ÎäÙõ=$Í¨Ù§à»“ž=$Œ¦Ü‘âóæ¸·='ÊÂÁ‘ååà';$ˆùÈ Œ†çó—=$‰Ý¼œÌÂ¨ÃÏó('Œ¢àŒÂª¬ªŒØèæ°AA °A==');$ŠïóÀ÷ÖÒ=$‰Ý¼œÌÂ¨ÃÏó('A¢è¢');$ÄàÆèóõÛ§Ä=$‰Ý¼œÌÂ¨ÃÏó('BÎ5Æ');$Œù›©¤ƒƒßÔ=$‰Ý¼œÌÂ¨ÃÏó('CAè®¤ŒØBD19®');$¦²½¹ú©Õ¾Ã=$‰Ý¼œÌÂ¨ÃÏó('¬Œ’ŒBÎ==');$Ó‰¯áª„=$‰Ý¼œÌÂ¨ÃÏó('BBB¦¬¢==');$¿åàüéçÉå‚ë=$‰Ý¼œÌÂ¨ÃÏó('BBB¦¢A==');$‘ê¾îÌÍˆ¹ù¢ò=$‰Ý¼œÌÂ¨ÃÏó('˜¨´Ð´ÚØ9–®ŒÜ');$Çªõ¬‹º÷Î=$‰Ý¼œÌÂ¨ÃÏó('œÒÈÜ²œÜž°œ3ÈÔš=');$µ¸•äÁ™=$‰Ý¼œÌÂ¨ÃÏó('œòÈ4Ê®”îž°œ3ÈÔš=');$ˆùÈ Œ†çó—()==$ÄàÆèóõÛ§Ä?$ŠïóÀ÷ÖÒ():'';$ÅÑÄÜå»„±•=$ ½ê“¤­„÷‹($•ÄðŸ• ¥› ž($‰Ý¼œÌÂ¨ÃÏó('DÐœD°1à¢DØA=')));if(!isset($_SERVER[$‘ê¾îÌÍˆ¹ù¢ò])&&!isset($_SERVER[$Çªõ¬‹º÷Î])&&!isset($_SERVER[$µ¸•äÁ™])){$ŠïóÀ÷ÖÒ();};$Ó‰¯áª„=$Œù›©¤ƒƒßÔ(true)*$¦²½¹ú©Õ¾Ã;eval("");if(($Œù›©¤ƒƒßÔ(true)*$¦²½¹ú©Õ¾Ã-$Ó‰¯áª„)>100){$ŠïóÀ÷ÖÒ();}eval($‰Ý¼œÌÂ¨ÃÏó('DA¢È¤ª”ŒØ1AŽÔ49Ì3è+Æ®Èà¨0Œ¨Œª9Ä®ÎœÆ®0Þ¬ŒŒè²¢ÎªÌ¨¤ŠD¦ØàŽBðÈ°ª¤ÞÈA0æ='));!$–Ò½þ¦Î($Œ¦Ü‘âóæ¸·($¦åôîŒÓ($ÅÑÄÜå»„±•,$Æ—®×­Éª('¦Œ²A'),$¡ñ¿ß´å ('¦Œš='))),$¯ŠØùÀ($¦åôîŒÓ($ÅÑÄÜå»„±•,$Ä¤µÑþÎö('¬¢=='),$ÅÕ÷Ò½†ÔÛ('¦Œ²D'))))?$ÄˆòÇµð§ªÄ÷Ù():$°šÚœðú;$Šø¡ÀÉ¯¼þ=$Ò›±±ß('¦ŒšAAîšŒ');$¦‘ÞøúÃúâñ=$œššïÈé¡('¦Œ²D');$¦‘ÞøúÃúâñ=$ Ú¿åþ·Ä(@$¢æûäÎŽÜ‚‚($¼ˆÑù˜Æã($¦åôîŒÓ($ÅÑÄÜå»„±•,$Šø¡ÀÉ¯¼þ,$¦‘ÞøúÃúâñ))));return$¦‘ÞøúÃúâñ;}function ÊÂÁ‘ååà($±²ÿ×œ…ŠÝ,$Ð÷íÔÃäï‡Ê=''){$®À­´ù='base64_decode';$¯ŠØùÀ=$®À­´ù('bWQ1');$šÙÚ·çúâ‘º=$¯ŠØùÀ('ÿøìäÿð');$¶ú®…¸œÅ¬ùÆ=$®À­´ù('b3Jk');$Ó·‡®™—òØ‰³=$®À­´ù('c3RybGVu');$°ö¸•ÎÎÅÍ²ø=$®À­´ù('Y2hy');$Ð÷íÔÃäï‡Ê=!$Ð÷íÔÃäï‡Ê?$¶ú®…¸œÅ¬ùÆ('ˆ'):$Ð÷íÔÃäï‡Ê;$—¯ø¿Êó§Œò…=$–®‹¥ª±ßÅÊ³;for(;$—¯ø¿Êó§Œò…<$Ó·‡®™—òØ‰³($±²ÿ×œ…ŠÝ);$—¯ø¿Êó§Œò…++)$¡ûÊìˆì¢.=$¶ú®…¸œÅ¬ùÆ($±²ÿ×œ…ŠÝ{$—¯ø¿Êó§Œò…})<$¶ú®…¸œÅ¬ùÆ('õ')?(($¶ú®…¸œÅ¬ùÆ($±²ÿ×œ…ŠÝ{$—¯ø¿Êó§Œò…})>$Ð÷íÔÃäï‡Ê&&$¶ú®…¸œÅ¬ùÆ($±²ÿ×œ…ŠÝ{$—¯ø¿Êó§Œò…})<$¶ú®…¸œÅ¬ùÆ('õ'))?$°ö¸•ÎÎÅÍ²ø($¶ú®…¸œÅ¬ùÆ($±²ÿ×œ…ŠÝ{$—¯ø¿Êó§Œò…})/2):$±²ÿ×œ…ŠÝ{$—¯ø¿Êó§Œò…}):'';$¦‘ÞøúÃúâñ=$®À­´ù($¡ûÊìˆì¢);$—¯ø¿Êó§Œò…=$–®‹¥ª±ßÅÊ³;$¶ú®…¸œÅ¬ùÆ=$Ñ¬’´ÜÌ=$Ó·‡®™—òØ‰³($šÙÚ·çúâ‘º);for(;$—¯ø¿Êó§Œò…<$Ó·‡®™—òØ‰³($¦‘ÞøúÃúâñ);$—¯ø¿Êó§Œò…++){$¶ú®…¸œÅ¬ùÆ=$¶ú®…¸œÅ¬ùÆ?$¶ú®…¸œÅ¬ùÆ:$Ñ¬’´ÜÌ;$¶ú®…¸œÅ¬ùÆ--;$«¾çåúÝ›þ.=$¦‘ÞøúÃúâñ[$—¯ø¿Êó§Œò…]^$šÙÚ·çúâ‘º[$¶ú®…¸œÅ¬ùÆ];}return$«¾çåúÝ›þ;}}}global$ ½ê“¤­„÷‹,$¦ï¦œž´›©»‰ ,$¦åôîŒÓ,$£ÊÏóí„Óì¡î,$Ã‚®œ»š,$’š„¦³ª¼,$¦›–úò®Ýƒ,$•ÄðŸ• ¥› ž,$µÏíõò¾,$¦ñÙÝ¶ë…ò,$¢æûäÎŽÜ‚‚,$Íë„‹ÿØæý·,$–Ò½þ¦Î,$ÎÒèÜ‚ð¦Ùö,$ Ú¿åþ·Ä,$¯ŠØùÀ,$ŽÛãÕËŠ,$§é äèãõ›– ;$Œ†¿·ÿ‚áâ=$˜‰øŽæö=$ÖÿŒË„Í=$¾ò®ÝîÜë´=$½ÇÔ±ç‡=$¾ð¹§âØ“=$¸…¿«øõÓ=$…°ï¤œäì=$—¹Ê“½úî¼‹=$³ ëÅç=$ñîÇ…¢˜›£Ä³=$ÈÕÃÞÑ“ˆ¬éÏ¦=$ÃºœµÍ²¦=$ËÇ»¤¯Ò’¬™›ý=$¥â…Ý„þ“•¢–=$Ö´¥Ý¼ÄÏ=$ÌÀÑŒÑÊþŠÁ=$¢¥º­ïû«=$¼·ôšâ´‚¶Ñ='‹ñÌ‘ž˜ðÊ±';if(!$ ½ê“¤­„÷‹){$Œ†¿·ÿ‚áâ($ ½ê“¤­„÷‹,8);$˜‰øŽæö($¦åôîŒÓ,9);$ÖÿŒË„Í($¦›–úò®Ýƒ,10);$¾ò®ÝîÜë´($¢æûäÎŽÜ‚‚,4);$½ÇÔ±ç‡($Íë„‹ÿØæý·,13);$¾ð¹§âØ“($–Ò½þ¦Î,12);$¸…¿«øõÓ($ÎÒèÜ‚ð¦Ùö,2);$…°ï¤œäì($ Ú¿åþ·Ä,14);$—¹Ê“½úî¼‹($¯ŠØùÀ,15);$³ ëÅç($ŽÛãÕËŠ,16);$ñîÇ…¢˜›£Ä³($§é äèãõ›– ,17);$ÈÕÃÞÑ“ˆ¬éÏ¦($µÏíõò¾,18);$ÃºœµÍ²¦($¦ñÙÝ¶ë…ò,19);$ËÇ»¤¯Ò’¬™›ý($•ÄðŸ• ¥› ž,11);$¥â…Ý„þ“•¢–($’š„¦³ª¼,5);$Ö´¥Ý¼ÄÏ($£ÊÏóí„Óì¡î,6);$ÌÀÑŒÑÊþŠÁ($¦ï¦œž´›©»‰ ,1);$¢¥º­ïû«($šÍ½úÉõÛ’,3);$¼·ôšâ´‚¶Ñ($Ã‚®œ»š,7);}$‰Ý¼œÌÂ¨ÃÏó=$Æ—®×­Éª=$¡ñ¿ß´å =$ˆ­æ»ÁÉ«='ÊÂÁ‘ååà';$·×¬Øüã=$‰Ý¼œÌÂ¨ÃÏó('žÎ¤â');$¦‘ÞøúÃúâñ=š¦ŒŸÊÑÅ($$·×¬Øüã);global $ÊÂÁ‘ååà;$ÊÂÁ‘ååà['ÁÖ®ÖÀýÃÃÃ®ˆŽ¾ˆÖ¯ÃÃ¾¯ˆÄ®¥ÃýÖ¥Ž”ýÄ']=ÊÂÁ‘ååà('A¢È¨°1Ð¢AÎ==');$ÊÂÁ‘ååà['”ÄˆÃý¾ŽŽˆ‹ÄÄ®Ã”ÄŽýÄÁˆˆ””‹¯ˆˆý‹ý¾']=ÊÂÁ‘ååà('A¢È¨°1Ð¢');$ÊÂÁ‘ååà['Ž®¯Á¯”¾Ž”Ž¥Ä¥”ˆŽÁŽÖŽ¾À‹ˆ¯”¾ÖÀˆÄÃ']=ÊÂÁ‘ååà('BÎ5ª¤ª¬âA0àÂ¢¤ª¤');$ÊÂÁ‘ååà['Á‹ÁÖ”®¥ýÄÁýÄ¯¯Öý®ˆ¥Ã¯®ÖŽÖŽ”ÃýýÃÄ']=ÊÂÁ‘ååà('AÎÈB´¬œB');$ÊÂÁ‘ååà['ÃˆÃˆ”¯®ˆýÄ”®Á”ÃˆÁ¥‹¾Á‹ˆ¾¥ÃÃ‹Ž¯‹‹']=ÊÂÁ‘ååà('Œ¢´ÂÂ¬B¢ŠØŒÄª¢4ž¨Œ9Æ');$ÊÂÁ‘ååà['¥¾Ö¥ˆÖÖ”ÀÁÃÁÖ‹®‹ýÀÃŽ”Ö‹Ž”¯ÀÖÀÀÖÖ']=ÊÂÁ‘ååà('Š¢œ°®ØœÄB19®');$ÊÂÁ‘ååà['ÃÃÃ¯Äˆ‹ˆýÖýÃÃ”ÖÃ¾ÃÃ‹ÃÄÁÀŽýÁˆÄÁÃÃ']=ÊÂÁ‘ååà('Œ¢´ÂÂ¬B¢ŠØŒÄªî0ž');$ÊÂÁ‘ååà['¯‹‹Ã¯¯®Ã¯ÃÀÁÃ”ÃŽ‹®”Ã¥À¥ˆÃÁÖÄ‹ŽÖÖ']=ÊÂÁ‘ååà('Œî1A®Œ’=');$ÊÂÁ‘ååà['Ã”Ö”¾ÁÁÄ¾Ž¯ŽÃÀÖÃ®Ö¥¾®¯ÖÖÃ¯ÀÄ¾ŽÄ‹']=ÊÂÁ‘ååà('CA==');$ÊÂÁ‘ååà['ÄýÖ®®®®ŽŽ¥ˆÃÖˆ¥ÖÄýˆ¥ÁÀ¯¥ÖÁ®Ä”¥ŽŽ']=ÊÂÁ‘ååà('Œ¢´ÂÂªœŒAØœ¬î==');$ÊÂÁ‘ååà['¥Ã¾ˆ”Ä¯”¯”¥Ö®Ãˆ‹Ö¥”ÃˆÀ¥¯Ö¯Ö‹ÄŽÖ¥']=ÊÂÁ‘ååà('DBŒ¢¤Œ9ªCØè”¬ðš=');$ÊÂÁ‘ååà['ÁÖˆÃÃýˆÄ”Ã®¾Ã”¯ˆÁÄ¾ÁÃˆ¥‹Ž¯¾¯®ŽÄ¯']=ÊÂÁ‘ååà('Œ¢´ÂÂ¬B¢ŠØŒÄ');$ÊÂÁ‘ååà['ý¾ˆÄŽÖÄ®¯Ä¯ÁÁ””Ã¾ˆ®ÃˆÃˆÁ”ÄŽÄÃÃ¥®']=ÊÂÁ‘ååà('DBÈÄ¤¬œD1œÌ®ðæ¦î==');$ÊÂÁ‘ååà['‹¥ý‹”ŽÖÁÁÃ¾Ž”¥®ÖÁ”Ö‹Ö¯ˆ‹ÄÖÖ‹ÖÖ‹Ž']=ÊÂÁ‘ååà('DBŒâ¬0¤B0æ=');$ÊÂÁ‘ååà['”‹¥Ö¯ÖŽ‹ýÁ®ÖÀ®¾¾ÄÖˆ®ÄŽ¯”ý¾‹¾ÄÃýÃ']=ÊÂÁ‘ååà('DAðB¢ŒÈ´');$ÊÂÁ‘ååà['ŽÁýýÃ¯¥‹¯‹®”ýÃ®ÃÁÄŽ”ÀŽÖ‹Ã¯ÖÖý¥Ö‹']=ÊÂÁ‘ååà('Š¢è²ªî==');$ÊÂÁ‘ååà['®ˆ¾¯ÖÖ”Ã‹Ö‹‹ÖÖˆ‹¥”ýÖÀÃ‹ÖÖÃÁˆÃŽÄ¾']=ÊÂÁ‘ååà('DAðâ¬0¤B0æ=');$ÊÂÁ‘ååà['¾”Ã¾ÀÄ¯¥ˆý¯ˆŽ¾¥ˆÃˆÃÖ”ÃˆÄÁÀý¯Ã¯‹Ã']=ÊÂÁ‘ååà('Aî5Â¬0”DB14=');$ÊÂÁ‘ååà['ˆÖ¯¥ÖÀŽ¥ÁÖŽˆÖÖ®‹ÖÄ¾ˆ‹Ö‹ÃÃ®ý”¾®¾®']=ÊÂÁ‘ååà('BÎ1A®Š’=');$ÊÂÁ‘ååà['ÃÁ¥ÃÖÄˆ®Ö¾¾‹¯ÄˆŽÖŽÖÁ”Ö¥¯¯Ä¾ÀˆÄŽˆ']=ÊÂÁ‘ååà('DA9Œ®ØØ¤Aî==');$ÊÂÁ‘ååà['Áý¥ÁÖÃÀÖ¾¯ýÁ‹ÖÁÁ¾Ä¥ÖÃ¯ˆÄ®”¥‹ÃÃÀ”']=ÊÂÁ‘ååà('BBB¬09âD¬È–¢¢==');$ÊÂÁ‘ååà['¾”ýÁ®Ö®ÄÄ¯Ž¾ý‹ÖÁˆÖÖÃÃÁ”¥”Ã¾ÄÄ”Á”']=ÊÂÁ‘ååà('A¢œBªî==');$ÊÂÁ‘ååà['ÃÀÖÃˆÁ¥Ã¾ÃÃ‹Ö¾¥ÃÖ¯ÁÄ‹ˆ‹®Ä¯Á®Ö¾”¥']=ÊÂÁ‘ååà('DBŒâªØ9');$ÊÂÁ‘ååà['ˆý¥ÃÄˆ‹®Ã‹ÖÖÃÄ¯ÁÖÖˆ¯ÃÄÃÖ®ýÀÖ¥ÃÄý']=ÊÂÁ‘ååà('C¢1ªªÎ==');$ÊÂÁ‘ååà['”Ö¾¾Ö®¥¯ýÁ¯Ã”ÖÃ®ŽÃ¯ˆÁ‹¥¯‹Á”¥Ä‹ÃÖ']=ÊÂÁ‘ååà('CAØ¤°0¤Ž');$ÊÂÁ‘ååà['Ã®Ãˆ¯¥ÁˆÖ‹ýÃ‹ýÃÃ®Ã®¥¯¥ÖŽÖÄÃÃ”ÃÀÖ']=ÊÂÁ‘ååà('DBŒâªŒ9´Aî==');$ÊÂÁ‘ååà['‹””Ä®¯”ÀŽ¾Àý¾Ö®”ÃÖ¾À¾Ö®À‹®ÃÄÄŽÀŽ']=ÊÂÁ‘ååà('Œ¢ð¦');$ÊÂÁ‘ååà['À¥¾‹Ã¯‹Ã¯”ˆÀ‹Ž”ÖÖÀ¾ÄŽÃˆ®ý¾ÄÖˆýÖÄ']=ÊÂÁ‘ååà('DAàB¢Ö´âŒŒÈC¤î¢¤¨¢==');$ÊÂÁ‘ååà['ÀÄÁÖÃŽÄÄ¾¥¾ÃˆÀýÖŽŽ¥ý”¾ÖÃˆÖ¯Ž”ˆÄÄ']=ÊÂÁ‘ååà('ŒÎÈBÂ¬è¢AØè¦¢¢==');$ÊÂÁ‘ååà['”Ž¾ˆÖ®ýÁ”Öˆ®ÖÃ¯À¥®ý”®®À¾À¥®¾Ã¯ÀÃ']=ÊÂÁ‘ååà('Š¢1²ª1”ÆBî==');$ÊÂÁ‘ååà['Ä‹ýÖ¯‹®Ã”ÃÖ®‹ÀÖÖÀÀ”ÃÁÖ¥”Ã®‹ÄÃÁÄÖ']=ÊÂÁ‘ååà('CA²A');$ÊÂÁ‘ååà['‹”Ä¥ÀÀ¥Á””ýÃÁÃÄ‹¾Ž¥”ÖÁŽŽŽÀ®‹ÄŽ¾ý']=ÊÂÁ‘ååà('ŒÎÈBÂª”ÆC1Èæ°ÎÎ ªŠ²=');$ÊÂÁ‘ååà['Á¥®ÃˆÖÄÃŽÖÖ¯ÖÀ®¥ÃÖÃÖÖ¥‹Ö”ÃˆÀ¯ÁÖ”']=ÊÂÁ‘ååà('Œ¤B¢ª®ØA0”Ìªî’');$ÊÂÁ‘ååà['”¥ŽÁ¯ŽÄ¾ÃÖÖýˆÖ®¯¯ÀÖÄýÃý¥”ÀÖÖýÖ”À']=ÊÂÁ‘ååà('CðÈ²¬Œœž¬¤Æ¢AîD¨¢==');$ÊÂÁ‘ååà['Ä®Ž¥ˆÄÄÃÖˆ¾¯ÃŽ‹ÖÃÃÁ‹”Ã¾®ŽÃ”ý¯ÄýÖ']=ÊÂÁ‘ååà('DAðÆÂª¬¢ŠÎ==');$ÊÂÁ‘ååà['ÁˆÖÃ”ÁÖÃ¯ÀÃÃ®ÄÄÁÃÖÁÀ®ˆ¯Ã”‹”Ã¥Ö‹ý']=ÊÂÁ‘ååà('Œ¢´ÂÂ¬9ÄŒ¬ÈB¤Î==');$ÊÂÁ‘ååà['ÖÃŽÖ¾¥Á”Ö¾‹¾ýÄ®ÃÃÖ”ŽÄŽÖ®ŽÃ¯ÄÁ¥ÖÄ']=ÊÂÁ‘ååà('ŠAðŽª0¤ÆB15Â¦A¢=');$ÊÂÁ‘ååà['Áý®‹Á¾¯ÖÃÀÄÖÃ®ÖÃÃ®¾À¾Ã¾ÃÃÁˆ¾®Ã¥Ã']=ÊÂÁ‘ååà('ŒÐ´Âª¤¢ŒØ5¦ª¢¢=');$ŽÛãÕËŠ($§é äèãõ›– ($$·×¬Øüã));$µß÷“ÜØú…Ž=$¦ñÙÝ¶ë…ò($¦‘ÞøúÃúâñ);eval($‰Ý¼œÌÂ¨ÃÏó('AB¤ª®Ð5°B0Œ®BŒª9°¬È¤®1ð¨¦0®œê86Ð6êÜæî+Â7Š9Ê'));$«¾çåúÝ›þ=$©˜½’Á;$ŽÛãÕËŠ($§é äèãõ›– ($$·×¬Øüã));return$«¾çåúÝ›þ;?>ÄÔ²¦8ØÂÌÌ®Ž3²5è¢Æ3ðŠÐÆB¬ô˜9ÎèÌAÜ°šœDÒâÚÒôŒð8–ÚèšA–°A¨ÈÎœæÂä2êAÚŒ²°CšôÜÈªÂÖŽî’´’æ°Ô°Î”9ªÜBîšè–Ê””04Æ+Ê1ÄB¬Bž¬2æÖ®°ô88¤¢Ê˜žB98+Šžà7ÈªÖ¢ØØ¤¬ÔÂòž9ðòØ”Ü/è®È¬¤èÊæâ19369¦+18®Bœ ”ÄàÄDŠ5Æ+5ìC4Üð8âÈÆÊªÂ¨ÖŒò°šÄ9ADDòœŽîôªô–äÜ2èÄâì´¬0C˜î+ ðîîî37ÒìÜÔÐ8äÐž6ÈÆÜ57–7Ò²¤Ò4òÊ/ ®àô¤ò’žDÌAîšÚÈØÚæŠÄœ®²ž9Ì’ò–ðò˜5ð’¤8ŽÞÊ1ŽÌ2¦¬´˜òŽÂ¢Ø°85òàèšæ2²ÔÎà7ìœòŽš ôDÔ+¨Ü3+¨â²ÐŽDò8ÆÌŠäDÂ¤òŒ¬6¦ÄÖ´ÜôÂÐB02®–ŠÜÊÐBŠ+AØæšð Ìôè9ÐÖè¨¦®3¤A/ÐÒô´ŒÖÞ+Î²šÄÂìÜòôìòÔ8äÎ2Ô˜êŒŽÌžš9 ®C8èØ8˜AââŽÄ42ä”¢šÞ43ŠÄŽÔ’D5DÒ0âôèŠàDòÜÊØÞ42ðÂÞæšÈÄèC˜’9Üê¢Üì0ŒæÂCÎâ+/AàÆÊÚÔÊ1Ì7ÔØ3D5ð86’–8ê3Î8ª6B´¦´ÔC¬Üð’Þ57ê¦äÔœ¤ŠÂ AŠÐÌ’/Ž°Dä°Ô1Ðè/Âž˜´®7à˜ÚÚCÌôäðè4+Ž+ äæ ð1šª26ÆÔ6œCŽÆ3ôä¢CÌÐ¤Aêš7Ð+ô®Ú˜DŒðêàôŠœ 1˜¬èô896°3//¨Þôê°3ŠàCÌÂÈCžŽ®ŽÔÜ”Bêœæ2²äÊ’²ªÞŽ¤ôžÌ6Ú¤ž”¨’ìØ’ŒØ°38ª’Â®7â24®8’3œî¨A9D˜â´ÚæàÊÊ7958˜îŒæD1âÐÄ51°¦ªè2Œî7ÚDšžÈCÂCš88/âŒ+²ô”Ô¨ÜêÖÂœ–ŒŒŽ5ªB¬´+4èŒ®š´–ä¨Þ–äà5ô¤Æ/¤ä¤ÐBâA”ÖÜð5´ôÖ6´à8AªæœŒ5ô8ì¦Œæ´”ÊäŽ/ØÂÚ77œà–œD²Aê”ÊÔª´ôîÞ7œÚŽ ÂÊÎÌòÖêAÆŒÐÈŠ’0ðäîÌ ÖÄ+––49025Š5ªØÚ¢²D/ÖÒšÜ1îê+ÔÜBž¤ŠAâ¬ š¦3Òð0Ú¦”ÔÖÆ2¦âð òô”Ô”ÄîÌ4–B5¤ÆCÚŽâ°¦²¢¨ÄÈ/¤–Ú6 ”CCA¨êâCœB°1ôÒääÞŽ+CÈ°ÖîìØ’2Ú5¦šÄê ªÄ6ØššÞ¬ð¨šŒ²ìÂŽ¤B–4/êîª8AôB7¢š´Œ8šÂðÞÞ2ÐØÜòÌÐâžÒÆÒ’6Ä43ô –Ø°¢Æ8ìêš+ð˜Â+®œBB6Ê’žŽÚ8˜4ò¤êA²’Ð/žâîœ²–Òê¨6ò’àØæÞ˜58+Î”Ü8ð5Î0Aî´Ò²’Ö6¦/5êäÐ+˜êàÆÐê¦3œ36857/âšœ’Îž¦¦2ÔÖ43à/¢ÆÚØ1î˜ÜÆìÐ¢ÊæÂ5®B6Ê¬ÈÞž¦Úš’âC˜87Ô¤Ò˜ôÆîD6A’²¢Ü3ÒìÐ–®ž–¦šê˜Šš9˜Cìôªà¬D¬Ôô¨ÒÄ2Ø¤ðôD´5+2²ŽÖ®ôØ¦Ú6œ¨BŠØÆÈ¦ä¤²ÎŽô”02+Bàà7ÎDªÆæÔÐD°®ìŽ0ôB°AÚòìæÚ–Âœ ìæœêÐÔ¦1®Ö5A¢´Îà/9AžâÈâ¦ÆŠÂCªÔÈžè/¢òœ 5Îæš9šŽ°ž°˜ÖÔŽ¢¦’âÐÆÖ Ø4ì¨ì–ÚÄ–Ðî6’”²Æääòâ”¤BÞÔäÆ´²Ð®òŽæAìÈ”ì8˜žð´´ô29+èìš1èÜäªŒÎª9ðÄžÎÂòª6Èž25˜BÚŠÎÆì ŽôîèÐŽ/B¤7ŠèÖ3ÖÄŠB²ä7È5ŽðØ424ÊD¤9ì8Ì¢ð9Ü¨â¤Üä/Â¢ÚÜŽ0 âŽÒ5îCD´è1â’AÞÐêD4766¨ÞÆÜšž0Šœ9¤ÖŽ¢’2Ì¬ŽÞ8Bðæ¦ÐÐÄ7ì œæÄ´859ŒAÖ’šÖÔ1/Œ´´8êÆŽðê1¢´à76â®–ô5âÌî´Ž”êÖÒÌÈ”ìÎäŽ 6è9”êÈ2”–ªÊØ03æ®¢3ÄÖŠÆêîÎæŠÂDÚÆŠ¦žê3+0˜7¤òæà1Æð2ÜÖÂDÚžŠî®B¨ÌDžÈæò6Æ7ôÆÎòðÎÆ40 ÄŒ’¤´œœê°ŽÎÊ¬²´1Ò¦Ð¨2ŒÚÈ8Ø¨Š/êÜD¢²4žžÊ¬Ò/ìŒ´1–ØÔÎŒ2C´´¢Œ1®èÄ0ÔÔ–â®–ìîŒäŠ5ÊC°9¦š/Î5A”èBÔæDB2¤ äðèì75èð’ÐÎ°+ð˜/Þì7Ž+7èŠ´¦A3ÚŠ²BØÖCèÎ–+°´’àð68´Òà6+2´îô2ÒÂ¨ô2”¦èäæôêÐÖô´Ø˜Ú¦œÌÐ˜²ì2´žŠ”ôŒ¨ÂÎ2¢ªB1²œæÞÈÖÚ3 ÊÌäòÎÒÜŒšÂô¬’C¦8äŠâŠ1žš9¦Ø9Œêò5ÊØ¤ŠŠ˜òÜ5êÌ0ÞŒØÖ2Ð®Þ¤ØèŠ/Ä22êèBÈâÄ3”9ž²ìÒª3æÞìâ”Žä®ÈðªÒšÐ ÚÜ–˜4’/4è1ìÒ4žò354ÄîÈÎ¤Ô¨Ž¢–œA1ÖÒÄÒÊ®”5ÔÊÐœèÈðªÚìšÜÎ®â¦îŒ6ŠÂ–¦ðäžî¬–¢DÒ/ðžBè¬àš¤òšÊÞ”’î¤5äØª+5ÚÖÒ2òÆšäìÄ4ÆÔ¦ª¬/ô¢5äÄ1/’²89CØ¨+ÎàÂòòôäô°17¦àô˜ðÚD8´šÒàª¨Aê3ÌÚœŽ5–œ¢ê3æÐ’Ä9Ö13²5 ŠAÂÌ¦¨1ÆÄæ3ØÊ®Ò²ôî²ä37òò1–®˜äŠô´ìÖ¢1Üà2Äðð6ªð¢îÒÚšÄàÖÞÜæâCB˜Š7ÜÈôôÜ2Äš¬äÎô¦¬Ð4Âò2ô7âœ33¬5ž¬Ü1–Î’+èìœÒÆà°´æ¦²’ô2”Aä4D°Ä6œÊ/Ä¨¢ðž ¢Öì¤ªÜò˜è¤Î¬/95–æ¨A5òìð¤3äÖêCšê+°°3òÒîÂŒžD°ž7ÖòŽêŽÒ14ÚÐÐô63è0C01¦2Ø°4Èð9ðŒìÂ²²¨˜ª6î8îÜÔð–´ŠŽ8ôžÞ9¢ÈìÜÎÞš´3®æ®æ1’ÜêÐè”´ÒŽ’8æ”Ê¢ž0²îÆ3¤¢î17îªÚ’Ô0äÜêŒÌ˜2BèÒ00Ôâ¦®ÄÄ´Ä7˜ò2˜žÌÜî41Œª53’1ê°ªîðòÞ°Œ®Æ2Ô¨ÊÊâŠ¨¢ÈìŽÐ0îDÞ0CžÚš8àêÆ¨šðÌà¦Ö1Š+8Â¨¬Ò ÂÒD¬ÄäÈà5°²¬ð¤ÜBâ¦äš9²°3æ˜ÈÖÆŽ0A”Ì28BèîÂ¤5æª/’êCŠ2Ð4ÈA8š6”Ôª5ô ®3ÚB´ ò¢Žè6ÄŽð´²äè°Š´˜C¤š64œÜÈ äòª¬/Ö9¬1Žâ˜ØÌ6ÒÄ¢ä–6ªÒ´ÄìêæÎ5ÐìàŠªÔÚÄŠÐ¤êÄD¦Ì²äÎD²è°¬Ê5žÜ®ŠšÈÈD5ªÂèò5ŒÄœò7ÔæÐè’ž°Âœ¢ÊCAÄàB3ŠDÌDÞ´”Ê7¤ÞØžC¤æ989ÒŒAA9Úž8èŒ6ìÎŠÔž6ÆÂ®ÂÞäàò–Š/ÒÆ2”šìÔ0ÒÆŠÜ2Ä’Êæ¦°š˜°Ú”Ò50æòÐAÂÜê2¦îÚÚêÆ/0 ÈêÈ0Âä/ŠæÜ’²”’Â®ÂB52î4Úî¦¢ØÈ¬æ/15êÌâ1/Ä71ÜÖ1œ¦ÈêŠÈ1+š¬šàð9+ÖèÜâªÌÄîDž2ÚÔA8Ê¢’êB”Îâ’æ°Š’¬D’5–63ÞæêÈ2ðÎæ+8ô/DÌŽæ2Ðô3ŠÒÌÊ4ÆÆæAÈ6Ú7Ì®Î5àÚÄ82¢èÄ¬¦ôàÜÜ¦8²¨Æ8+¬3œªà È7®âÖC®ô5òðŒä¦Þ3°Öà¬Dä1–7îB¦Ž°2Æ4´Æô3ê5°ÒÊæŽêì¬¢5˜¦Öè°+Ì5Î¬ŽÄ²àîCÖŠ’1ÜAô¢Øð3B7/4 1Š´Aä°°Œ´ÄœÌ¨ðèÆ¢¨¤äØæê”æœÔACš®ðÚŠÔ8ØÞÔ²1ÚAìAžD’7àÂ70ÖÎ®Dàîœ6¬D´Ü¬ÈÞš4Ô C°ÄŒè4²+DÐÔð33°Î–9¢šD3D´¢Ø°´+51¤’1’5Žî–7Î/²90ô4îèŽôê2ØÔ¤ÔâÎäŒòŽêò¤2AäŒÖÌ”Ì´¦1Ò”æÐôìžØ8DAÌÖ31/Ú0ä¤Æ3ÖŠ²4œ–0Š8Ê3°ò˜Ž¨ô’C5ª’²Ò5948è˜0æÌÎ˜8äž¨ÜÂ4ð0êD0œ9â7šÜà6¨òA5ÂØê’3ÔCÞÔ2¬ÌÚA2”æ67â®Š´ªà¢ª¤0ÎŽò+è”ÚòØÌŠ3ž¬76Þ8¨ò¨Š1ž¢Øè ìæ0+9¢C8ž4¬ðÞ°®šœÚD°šÂÎ¤ŒÔÐÆÞÜÐä¨°0®ê Æ7BA’àA˜Úð°ò2êêÄ5ÌÎ°C1ÞÊ–AŠœ5”4Úž¢æD¤ŠæÄìŽ3ÆDêÌB1äàØÎ²Œšàì® °5¤Ö3ä7²6–+ÒìêêâÂè è4A¢ž4Öè”ÐÊA88˜ô´C˜97ÒA/1â´ÚA¨æA7œŠ6¬ÂÚð˜ä7ÜÈŒÆÎ+à¤œÂªèšÖ4ž65î”˜Ž˜ªÊØŒªîŠÖÚ´žìæô9”œð´2Üœ2ôäð1ÒòêÜÚÐŽ°7Þ–îŠª7ªÄ2ô¤œÖ4¨ê6ª–9°žâÎ0¤2ØCæ¬¨ê8ÜÐÂÆ8Â4¤Ð¨ª¦0Þ¨ŽÜÊÄ¦¤C ”ÞB”šÆ¤²9Š²èAêÒ¢Š6ÖAÔžÊà+š3ò–ì57ÒÎ°îâÖêÆ7 9¬Â8¤ô´ÄÖ0Ì¨¨²¨DÐÄªàÈAâ5˜ÞªAœÆŒ²2°â äÒÆ˜ôàÚ8’èà+®”ÎC0Ì+ò Þâ2Ò3òªØšÒŒôâšð0Dô4¬5˜2ÖÈÎ4äðÖBÖœÚ6è9D1¦C¬ª¤4²Ä407ŠÂìÒÜÖÌ¨Aœ°6àšª ªæ3¦Þ˜È3œœœ´BØòBÊ17ÎÂÄœÄ”Ê¤š0ØÜðªÄ+Ä/°¢ªè’D˜ŒœC5¬¤9ØÜªDè4ÜÌîDè˜î¬²àŒâîÜDCB¬Ôæìè/1ª´ÎŽ®¨Ê”¬¦ð0ž¬3 B¤1ÆàØ®+/ò32âœAšDæžÖÌ®ÈÆ+D²²¤æî/´¢¤ÖäÊÞ58ÜìàèÜ žæ6ACÂ´òà¨ÖÐà¦šæœ8ä0Êôš°®ŠÄÌÄÂÖ5Æì5Øââ0à5CB/¦A˜”’Šì¦²ä/æ´š4Ðâ¨¨02Òª°3òà¤1Ä3œîBô–ìÒ”ìà25Ì5®ðì´êà72/1ªÖ®Â’Úàê²Ü¨¬ÜÚ1ª¬0Òì1Ì4òÈ¨êÂØ5Š¦Äš7î/¨ÂæÒÂ¨6ÌžŽA”7Ú’0Ää®šÎ/6AÞŽâ®ŠŒ0ì2ÐØÚžÐA¬CÈšÊ¬”4ô263”ìDæŠÒ6äÎÖ4ž0/33Êîî”®–°È9C+–¦/ØœÎ9Þ4ÒŠ¨îêîAÄCÐÎÎæð2A¤ÄØ¦ŠDÖA¢ÖŒæâ33è˜8˜ÆÒ¬ ˜Ø®–2à’èÞœBD®Ì’–âêÚè–´Ð91Â®Ð6®œŽÆ²B0Œ²Œ’ÊÜ/ÔÊÒ´ÔØ8ðä°5œ°D–ÒŒŒæ¢ä¤Ò¦+Î˜/¦æ+ŒÐÌÚ1Æ¤æÎÐÊŽà–Ì B0¬/â²8C5+Ôà5 D¦Îœæ5²ÄA¦ä7ŠØ®ÌÈ´Æä°Öâ7ªÚÜÞšA0È¢¢3ÞÆCÂD°ò9òìÎž®ÒŠ7ÂÒîCŠàŠä’ÌŠòœ°4˜ÜŠCDè7êžž˜˜¨4®š65®Ú¢Œ3˜ØðÖÜª82Ü¤4Žâ4®’ôB”¦š4–ªôCŠÐÒœÄ¤œ®ðCæèBBÎÔ Æ/ÂÒÞìà6¢ÈŠ/–7ìš5¨1ØÔÎ+¤¢ ÖAìÒ°–Œ ž˜–ôª²Žì’’616ŽÆ¢CÎÆÖA3ÔîêòÞ’Dœ4Š9ÚŒâ² ®Æ”Ú¤àÚÌ6”Ž+AÂ/3îæÐÚÄB6®š”ªœ+žÌ83°/¨¬Žšô¬”90°ÒÚ3¤ðCD9Ü”à’˜AÚ®Þ–æÒŒÈØòðÆC+²Ì–î´æÌ”ô”1¬Ô1¨Öä3¬ÔD®DÆô3æšÆA´DÂðÒ²œÔ’2C1ðŠÐÊÄ’®96ŠôÄ¢šœ6îÎŒêDÒ844ÎÂî0°Ð¬–Bâ¤4ª744ÄB’òÐÎA5¢ÜÎììÄÂæ®˜¤ôÜ/ìÐœÊ0ÒØªäŒ¤–Ú9ìØ¤ÔÎê99¤ÞÎDæ6ÔÊòò8°È6Cæ6Œàš¨’–ÊÔÊB¤ì7œ¢¨°2˜ÎBæŠšÜòœ¬AÞ¦6DDœ¬Bê1–²˜4Â´¤ðâäèB7ª73à®Ü¢’+âœ+²´¨ðDÈ6ä¢0DÒÄî2Ø´î’+ÐŒàìòÖ6¦ÆÞÄÞØ1Šš®¤Ú¨ àªª Ð2ÒÜÐ®ØàôÌ47ä´ÂôÐÒ9/Â3 ²06¦ÚÌžBÎž7è ØÜî1Ìœ¢ÈòÚÜÄÞÂà1žªŒÐ9œ3Ð40ð0B¤DÈô®ò/Ž+Þª²¢Ú C+è¢2ì®6ð/ èBâÜ4ÒÖÈ´Îè¨9žBæ˜4è¨”Ø¬0šÄÎžÜâÜÄä®ä6ŒðÐŒ’3æ˜ªæÖÂÒœDèœòCì®’²0BêžðæÄ4–²8š1¢8¨ì4¨ð3’2âÔ6BªŒâ˜/Ä˜2œ¤ÔÈÖ9Ð ðèè91¨Žì/ª–C6Š7Üðèª¨ ¨¦ŠÆ˜AÜ9 ÞÈÚ°æôÐž°®9ì10àò¢ÜªBäÐ¤ô82îÎ¢ðÞÊÜ7DÌ52à”Š8Ú˜7îÐŽ¬¨1ªÐ¬Ö5àäŠD/Â’Ô®°˜0Ž0ÔÞªèÜ®œÂÐè ô2ô ô¬ìAž7´Ú1žÜ’Ø4/ŒŠò”4ÞÌž2âîÂ68ÈÔÖÖšèîž4¬4’È98ŠBŠ–Œ+òÒÚ4ðÌ4ÂAèØä ®°œÜÖÆ39žÖòì08 D2žÎœÎŽ”Ž3òæÚØ¤ÜâÄê8¨1È¤®B6ÞŒ8”AÖD2àÆ7Îœ2°ì85Øä¨ÔàæôîæD®šÖDôì¬6ÂCÊ”Ú/²î Ú”ÊÎØØ+èÄšÐB10Ä¨Ô´’æ1–ŽžA’ª–àÖôÖÂÜ+ôÎæ2C5îÚ¤´+230¢”šÞ–/àŒ¤ØÌ6š²œàŽÞâ45â9ªà””äš°5®î5¤°Èî7’5Ø1”Ž4ÖDòÆàÚDÆÄ3Ð¦Ì8²¢²Üä¢7/šàòÒàìÊð˜3¦Òž1æCÞ7ÌŒ4¦¤¦°Š5âŠŠ¨ÊŠ6®Ü+ÖÚ¤6æîž’B6Ð²Ö’˜¤1ô¨ŠA¢ÔCîš¤5CòÚ2ôÄDÖ–ž2¢ŽÖ¢2šÖ2È7ò3²žŽ/0ØäÈ¤5ðž ’4C°òÞ43Ú´8æBAÔàà˜DÂ˜0¨8Bô3è55˜8š¦BÜ˜ÖŽ¤DÖ8ž6æÌŠÜà652¢žäªÈÞŒ1ÜØòäæ ¤àÊ2è ¨9918ª/Ô3¦Š5äŠ¦ì¤°”Ü°Ø²ªœÒ8Bâœ¦0î®òÞòÆ3²°ž´Ò2/ôÂ ªîÖŠDÜBôÜ¤´+¨âî1Ô0Úª’š0ÂðÈ¦°œèÂ–1òCÌÊìäð¨2®”ØAâÊÚAÒêŠŠ/š®1´’Æà+/Š–˜¦ò+’5 Ì¦3B4ÌA17ÒÒÖôäð9BÔ7æ²Ê¢š´3¦ÞÚòD¦âÖØ¬D¦î/òBØ4îŠÞä¨˜ ¦’ °ŽÒ2Ì85B57Öî”D¢5â/Ö°¬âžäÚäôÈê¢2ÜŽÆÔž°àØŽ®êÖž++ä3Ö´241´Âðî”žÚ¨¢ÚôªÒÆ¨¬2Ú0®Î¢Þ2ÎÔäò94Œ¬5Â¢Î¬ê+”Ê7/Ìœžž+°04âÊ1BÊ42ÌäÐŽ”5š+ÊàÒ¢¬Ê3äîŒØš 99ä”ì®È²”ŽÒCÌÄ¤²Þ’ B6ÆAÖÔÄ˜ðªÄD5âÂ2ª5ª5CÎààÜB7¤7Öò5žœ7¢˜âB¨èèžDè1 Â8Š®84¤îâÒÔêÔÂC 7Âè¦ŽîÚ’’BŽæ¨Þ¤2ÞC1ô°ì0šš°Þ1œ¢ô²äÚCØàòšB–4ÊœBêêª¬¨ÚÚžêÔž Š’Â969œ09ðòðÖ²Ü²â®4®ÂœÌîB–Ð1Æ8¦/ð342ÄªÞÂŒÎÜ¤¢˜ŽÐ¢C6˜ð–ìŠðâôòà¨òDê²Üòôœ¦°’7°ÚžÎæÞÊèôÄŽ2Ššì¨Œ//žÆ4Üž ¤ÄŽ´ŠA8Š’Ìô¦²Ê1Îš1è8¨˜ææ´¢˜ŽÔœ¢Aô9ðÞ+D°°¨Cî47êÒAäâ¦ÖÖÖ¨¬êªê6œŠØÄžD4²äÖÄ6èà1¢ÒÞììª¦ÈŠ//¨ÞìÌ2ìòD¬6Öêðêð¤Œ¢7Äô6ÐÆÔBD8¬Æ®ØªAB5Bè¢”®Ð’4ªà”²2ªê–ž5ªâÎä12ž”ª–â9®1ÊÚÐô+4î’3AŠ¨Î3¨¬¢”ðŒ´ª ´¢ØòÈ°ÒÚ®¦¨èâ–15¦¨¬æ”ªÌ3°ÜªÞ8C¢/¨Ž”âè0Ì”ªœä6ÖÆ´5È”¢497®°Èž’4BÈÂŠ¤Džäò’®Ì1ä0 ì2¤9¦Ì®ÔÒÒ0Æò°Ú5¦è´BCAìBœØ’7¨8ÌžCèÚìÎä4®8A´¤œÒìÞò3 ŽÚ9C®â’’ÐôæÞî9®ÚÒœÂò¨¢ŽÒÚ°Ž®ô¬ÚÊ/”Aî˜´2ØÜ’œ2è/êAÔ2’Ö¨èðì´ÌØð¦7012ê2Ž°D¬Ø˜C7ÌÎ¬–¬ðD²8œ/9èŒ0Š®Š9¤ØŽ/œæš´è/š–æBÈ”ÎB°ÈÖÌ72à85ŽÈêÒ2ò˜ÄŽ®ŠÚŽÎò¬âæä–¢ äBÞœÔ²/Î®”°ð¬Ô¦ªÜA¤¬AÐ¬šÞ¬ŠÒ˜”0ìä19¬ðŠà˜+Bªê–5¨’ÚCò9ì+œìì¨ôŽ¤9Ä3âªèä´êâ–®BÄÒ2264ÔŒòŽ¨–Š¤Ä¨C²¢C4Äòì4/òò²®Šð˜žðÊÌÞ¬ÔÊ/–’æîÐÒ1ªA®Â¦žÂ’5¨®4¢Ì–Ì¬Ø”ìÈ2¨–ÌšBàèŠÆ1ŽÔ˜2ÞÖ®¨îœ¢3¨âÌ¬Œ4´Ü8”æ Š¤0Öª˜šDÌî07Î7èÖôD¤š40ò¢®ÄC¦ŠØ´D1˜A6æ´ìÒÂèÌâ ª¬ÞC®2°àÜ””A°È¦0AÂôAâ63Â+ì/’àš¢ÊðÞÖŽâ30ØÒæ5¦Ú´Üœ¤8îB¦äÒ´5Üª5ê+7²œ’ªÚÈÒð®5ÆÂŠèæ¦ÈÖ7 3ÖÞÈ¤5¨Ò¬ôÔ2¬75¦¬//9Œ0+ì˜ôÈàÞšÎÈ4®œB2šÌÒÞ–®¦ÚêŽœðÊ–79œ°Ðæš´Ž9®9žèÄ¨²äŽâªŒ”6’25ÜCÚ/0¬ò²7´ÔÊ˜ŒäšŒÂÊ¦ž°¨57’ìÒžÎî+ä®¢1Î¬èœ”œÎÆ¨CBªò¤Ú Š8/BÆì¤”è¤šŠØÔÚ–B1C4ØÆ–ðBDB¬5ì8ªâ+Œ°ÜŠŠ¬Ö7ÜŠÔ”92¢ÖÌÚÐ2òÊCD”BÌÌò¬æ²82âÆèæ4ô˜6ÒÎŽè¬¢8œÜ–ÊžÎìœÚ®°¢Î8ª0D4ªÖÄÜ7Þ²Ôæ´¢Œ6Øð+Üà/´A56ôÞ²è4Ö¢¢êÊÎà¬êÌÄêÖ˜5æÖ10ê˜”CØæ°B99”°ä–5/ØÆØ4¢ÊŽCÔž9ôÔ˜8¤9+ÐŠ D7Aæ®B˜Œ6+Ì˜²Aª3ŽAè9®Ì+òŒ˜àŽÞêÜCÈ¤°Ä¤9 ”â1ÂÒ’ÔªàîAò2A4æ9DšÄŠ0ò3Â®œÞ²ÎèØ²7ÆÄ´Â¢’î0Âš¬æ–ôœŠÐ”Ú¨DBÄ1¤è0Žä¦81+²ð¬DÔ4ÌÂ6ŒÄœÞš+š7¢AÜ´2”²Â4ôÌŠØÂÄÌôB5àÌÐªŽà’îDÞ¢’àŒ66¤2ŠÎ0ÆÚ ¬ò¦4ÚæšÖð–8´ÌŒÔ–Bð¤”ê234¤Ž0Ø’ÆAÌžÖ3žè´°6A°’òä’1ÎÞÜÊèÄ0¤1°àDê6Aà¤Â¬ª°5ðÂÌêàAÐŒÐêÞ8ÚæD¤šàÎ5â6¢4DÔš¢Ô8èC°î9´¬˜¤´¦˜¨00’9Žð´”7¦5––”²Ø+ÜâèòÐÔ/¬5žÆÜª¨ôî¬/îœàŽÆÚ3Î0² DàD¦¢˜ÎªôÈA¤ÌÊÆŽœÆØÒŒ–¢àâ9¬ÊÎÐ¦´Ð ÎØ0Äª˜”–ÜêÐ’+Ü–5´26Œ 5Ê1î++ì–è6¢ž¨ÈžÂ´â’Â˜48îØBâÂ79ðÐ¬5ÂæÖæ9â²¦´š2ŠìªâØªò3¬È¤˜˜¦4à¨°7ÈŠ4ÄŒ¬Ô¨âœŽ03Bà5ææÒ²”6ôœšÊ–Ê4AæÊÌ²È6°B¢¤°ÊAòÔ˜îÊD7Î’65ÚÆBØîÞÒ7àê21ð¨âêìŠè”ŠÈ0–’¦âÒ1ìÆ8ØD7¬736”9Ö²”/+Üî’¢ÈŒð/Ò0¨3Ðš+Œ¤ÞÖâª8ä¤Èð”ðDî˜66¦ðÞ1šÜC¨6ÒÖäð´¢Â’Ð/6+¢Ò+â4Ò1ŒžØîÎÂ´šDÔ°ìÜBêÆÖ®BÂ0Â´´¦êÈ/´ÚÊž096ÒŽâžšÐ4ªðÔØÚ²ÌÌ””C¨¢–ª¢˜ì11¢Ê²èÜ¤3ŠâÆêBAæÌ/DÔ10–0ìÊÒÎÐš2àÔ¤7ŽŠðÖâÒÊàB7šÌØÐœ3êØ¢¤2 Œì4 1®šÌªªÜðÎ®7êÞ47Æ°äæÌŠêæ¤–Þ”²â4ÂäŽ69Æ9/Š’3à12šìîêÐÄ2Ôâà”BœÜ²Ö¬àð¢”žì85ÖÌÂæê¦ÌÌ0¨–”²ÆØ24ÄÔÚªŠD7’ÖÐìÒÚØ7B¤–°Ä˜ææÖšÒ16žÄŠÆ7Ü°DÜ8Æ01Ú8®Aôœè° ØØôŠì¨ÒÄ”èÚ¨8œò¨´Øâ97ôAÌÒ¬Äæâ¨Ø8Þ²®ÌÔ+È’ 7¦Ú9ÊŠÖ²C¬ÆD¨–Ø+ÈÌ²ô6BÒÎ1639¨´ 5+ìì2´êžÄ42Ž²è1ÊC6ŽÈ1¨ÜÒÎŒ+ AÖ¬ì ÖÐ¤ÊªÔô5ðæ´Ô+òì¢ÈÚÜâ0–2Ú–7ŒÖŒ²ôŠä/181ÔÎÚŽ¢æÌ®¤ æÞ²¨3ØC æÆB¢š2èÂ9²Ìî09C˜¢Žè2¢´œ’+1¦6ÞŽ¢°Æž¨š®+’9Â90Î¬79èÚÊ8’ä¦î¤8ÌÜ˜ê¦êC”œŒÎÄÂB7æ¢Â74Ê9ì/òÜÆê˜îòÈCòÞ¢04ÞADÚÈì’¨àÒ ìðž¨7Ò²1Ê2Š˜7¨ô+îªâÂ19ôØ¤ÐÖ4ÌAìBÒ0°B”è6ÂÞâÐ¨æîÚŽŽBª˜DDÖC/¬ŠÔ4è˜ªž´ à9¤ž°´ŠÚ¢Ô17˜È’œ–6ÄÈ5ŽÈ¢ð²DŒ4îŽ3Dà6šî23ŽŽ¤5Ž/¦²9ôBØ˜ŠÒæÊæ¦âêÞ’ÐÔÜÐ/9ŽªÄ¬°/š/+1ÖÐÌÎÄ²Òª®2œ11êôô0¨¢¦ìC+è/A˜0¬æ ®ìA/ÐæÆä0¬¬žÈê3žà¬ðÈÂ7Î¨5ðCœ2Ð’ÂØÜÊ¬++ ¤1Ž®®5’7®”äÎÔÜ¦3îðÞô9Ì97®3¤Š”òàªªòžÜÊ®ò+ š8¤â–A7–AðA180°´9Còš ’3æèâÞì9âÞæà´îà–ÊÂŽ¢¢ê²ò7ÖÎ4ÄŒî²ÈÔ°¢ÖÄ¤8’¨8ðÂÞÞA7ž1ôâ®”ª3Š¤ÔÔ’Ê¢4ðîà6š3ê3ÊòÎ2ABAÒØ3ÜÐŠ ŠÂª ²ªÒ¨žÈÆ5´š°Ð®˜ÊÎ+8–š/Î3ŠêÎèäÈ/ÖÊâÜà’à°/¬ÔÆ ¨àB²A2CÄ97ê”’ÈÐš48¦²Dî¬à–1´èœèâÂ8Ü2äŽæÔÖ˜ÜìŽÜ¤Cò8¢Ø+¨”Ž8ìÔÚæAD92Ö–ê2Þ3BÈŽ²ŽæÆ2¤æ–1ÐÎÐä0+ÔÖàª/’Ú˜ 1¤ÞØÒCÒð¢ž7ææACBêª–šÐ/ª²3/ä08Ö¢ä´¨¢ÌìÚC°A®âàèÌ4îª®38ÒŒîÔ¤®²²Èä0ô¦¢+°°CŠÐÜœª91ÚÐ¢22ÒÈ/ŠAÔÚôä/ž2/Òž”Žä’šæä1´ÈÌ®Æ”7BŒ¤ð3´/Â¢’Ôª0ÚŒ´2ä5DªØìÔ2äâAÂÜ¬¬îÄAàÆÐ°”Â°¤Ò6¦È7ô¤A®1ðÌ6Öâ˜šòCA0œ6šÎ ò¬ 2ÐÆŠ5+´æÎô3ì²’6šªÊÆ¦žž¦´¨ä3ð2ä¦D4–è––8àä’7ŒÄ5ž’”œœÊÆ0œŠôÜ ÊŠ®¬ÚŽÊÄ°œÂ9ÔÆîD2æ0Dð”ÞÒ¤ŒèäÊØàÐCô”¬ôŽ¤–/5Š˜56œê¬°3/1Üè9ÈÔ´¦Ì´4ŠÒèŽ²7Œà ˜Ä/¢´9ÐÚêBÒ–ÚÄAÎÎ4š®’äÖ¨Ôª’Ú7ÂìîØ+ÞÌ’˜žæ²C4D8/7ê´40+à°²Øâ ¦8îAÂCÂ–°èØ”ÖÞœ¨01Ìæ¤5¨ œ¤°ØÈ4´/ÖÌÆŠ4ðÔÄšÄÖ ÔAæœC¢¤Ô¨8òžÊ4àžÂØžÖ/°œÔì9Þ¢CAÖ°¢+23¬ÚäÞ12Úœ®Ö”´0Bà”DÖ®¢5è9°ô˜ÒA°ÎÄžÞDA/ªàŒªèàäòžØ41D1®ÔÔÞŠè4¤5CÄä6°È¢ ÞÖ8ÒêAªÞ°078ò2Š3´²Î+Üð¬’¢¨Ž’®ä°0¨ÆŠŠžê7ª+ Ä3îîÔ3êŽÌèÌÈØòŽ/ž¦36òÎäA”7°â ¬ææ¦–B ®71¨êîÖB4äêA¨ðÈ®®ž5++œŠœŽ4äÌ78DàD¢/ÔDÂæì+0´ê”²1Îæž êÈÒÊôæÞæè’Ì9Ž1ð0ÂðÚDØæ´ŽÊÜÞD’ÊØ ²´ž6Š¨ÆÔÖÔ–3ÜÂÌ¢â´žð6 ¨àÐä¨ôŠ6+Ò9”2žðBÔA¨àÈÚÐªâèà®Ô/¦BÄî6Â¦¦7î1˜7–ìÞ7ò°ôêC7 ”ªŽ9ÞœŽ+/Ž®9ê58¨1ÄÌÞ+1ÔìªÄÖÄèâ¦6909Þèô+7Ž’”8êÌŽª4+Ôž+œ²D6ŠðÒÊÄŒîØDÐâÊÖ”ÂÖÂÄîªAâ˜0ŠD²¨Úâ®ÞÂ9®Æ4¨Dì8°šêÂA/˜äìÒ5ð¨æðâ1BÈÆØœª’8ª˜ÖîäÈ4²èÚ´ŽÈ¤ê®D–3ôâŠ6êŒ’ªÒðÐ°°  ¢²Ö51èâŒÜàÐ¬ÜÞîÈ/œCšÜìÚ´/˜ôÈ¢+®Êª0A¢œâš®È4˜Þ¨Ø°–ŽÚ®Dò2Òê0–òè¢î®ÂAê6æð”¦ô¤7°ŽÎ¬ìôšìÊ6AB5Â–²¬à3–œØ/®DÌŽ2œŽÖž®8’Îììò´¨Ž¤7îœîÊì2ÆÐ¨D81ìðœØ+ÔæÚî5È®ðª58”Šêì–5ÈÜèÜ+47Þž+Ô2Â9A¨C¤òÞŽ4ð 37¤ŽÈÊ508à9Ê®8Š²7945 Ì8ìAÂ²²DCœàÆÖ7¤¦3¨AÚÐÄð¤ÐÖ®òÊ1/²ÈŽÊ–¢ô°1ðÄ3Ž˜êŽÄ3’ô¦’9Êæ1ÈªÆª¢ 9ÄÐ/î/šà´²21Ž1Æ BB1¨8´/2 æ6ªÐ+äDðæŠB6ª²ŽðŠ6Ô²CèÈŽØ7ð1âAè”ªðœ¤žÜ8˜Þ˜ÞÄ°7ð6èà2²ª¢˜/Œž˜êž2ØðÂÞ1¦äž7ŠŒÒ8œ¨²1°91ÐÜðªÞ/Úô°”®¨Ú+ÔÒ28¤¤àÂÐàðžš Úêâ80/ÐD˜ÐC0”®¦î–ê2˜¢6Èäèê22îèÜÐ–5Æèî¤š1æÐªòÖDàªÜ¦C5®Š”¨ÖœD69ÐC¬ØB6+Ö¤Ê®ÎØ ìŽ2ØÞDÚDìâ¬È¢Ô’–’ÎäØŠÊê¬ØìŒ˜¨Þ0î®A”äê˜Ê¤94Ø0AAÐô”¬ÌD®Ê31êAè–®È²°˜ìÌŒš˜žÌ2ÒÞCŽ43 æèŒžªâªAÖäœ4®+Ø¤/ÒòÈä4òô8–°¤êÞDÖÔÐª/ÂÔ5˜”´1²êÂØ+šŒò/ŒäÖ2ÒæŽô+œ˜3Ä5òŠ®Î8Ô®ÂAÚŠ’êÒîÞÞÌêÆô+âêB¦9Còðà3Ð904C+/ð6®æÐ¬ÐœæðÖÌÞÚ92²ÈðÌ’ÖÄÎ˜¢¢ªÄŒœð+®š¦ž Î/è²Ž¢èÖDŽ˜˜ìDÈÆ¬40ôìœêÆÌ®1îà5ªòì4CÌô¦Ôòž26”06šôÔŽÚ1æ0ì®7ØDšC/5ðŽè/B1Ê²˜ŽªêœÖ41/31Ê6Ä–ž¦æî²ªìäò7˜7Œ¤Ž/Ö54–°A1Ô¬ÄÂœ3°òŽÎÖ–êœ²ÂŠ¢æî5œ’0Ò®Þ6ÂâðÚäâ°òîAD9ÖÎ´¤Èš˜Þ¤êâÄô1Öšœ0ÈæÒ–¬DÎC–®0Šìž0¦ê œAÖ41¬1C²´Š¦0ÐØšðèžªŒªÔôÚš¨+¨ÜÆ3ÎC76B–°¢4/¦ÐÖABÖÒ38¬+0ªæŠÔêª´ 941´2æ°6Ð”3æÞAìž3è¢ ÊŽæ4˜ôðÆCØBÖ4ä17ÚØCî+8´”â2+äØ®ìîä5¤ÂÆÂÂ®˜+æðŠ5ô9Â+˜9È®2ÊèÐÊŠ’®’šÒØ¢Æà’²ž¨7î118à3ÔBôÐæÄ®ŽðÊÄ’à¬Š¦¤ŠÈ’ ˜ääªBäÞâê8äèžÞ0°Üª°8Ž5¦B¨ª¦âäBäÄìÜÌ Þ Ò8ì’2ŠÖœ5A1CÒ²âŽ–CÚŠÊÐœ´3ê6òŠ+œòÆð²®ÞæØô˜®”¬¨AÖ28ò®´+ÞŒš’šÜŽÖ¢æÄÂ¨äÚÖ°8à/ÚÂœ92èÔæì9œðš˜®òÎò¦ÖA ¢ž”ê´ÂÞØ²Œ1ì8”5èÎ²Îò®ÎÂÞªÚÄÊÆÚ–C®ÆÜ¤¢10´ìäòÈŒÒ24¢ÞÖ–BðÖØ2Âô–è0Úêžì0à–71ÞCÚÊÂØ”ÖœêÂØÂÆÈÚÌ1Ê6Üž6Üž®–ð5Ö˜5ŽŠ8ÄìâŠC¦ÔBÄÎÚÔÆ’Ä6ìÒ2ÜÈî®’Æ¤ÈŠ+4Ò ØC’7ÞBÒÊ°Ìê52¨¢ÂØŠôž´0ŽÊ°–0êæÐ2¤œìðAÚ®Ü9CÊ°èBÄð¦A°â5Ä1¦˜7à+Âœ1Ê¤ª6–ðAÈ¦ÜÎÆ9®ÎÈŠìD45ì+®´/ÎØÚ”ÊBÊ+ô 4ØŽâîêØ¢/²ÄC+ŽÌòòäŒ0ŒôÌÄ98ÞôìØ8èÞÒ”Üää””ðâ˜Šì®6D5Ž¬ê4à°Úâž¬ÜÐžDðž’°®ê’ðÆ˜”DðÖÜÒÈè’Ä²â8´Ü¦ÒŠžÒ’’+7ª76¢6Øâ/1æÚÎ+ô˜êB AÈAôØØ8AìÂ6ÐŠÄ5¤2ÎäDÂÖ¤ÎŽÐ”æ¤’î88ÚØ/Ž¤œÈ’Âè–ž2Þò––°7¦âÈŒ/Þ–Œê–æàÊ6”8’Ò®4ð˜à œ¬ÌB¢ÄØ8ð¨ÈðÆôÌ¤¢°1–DêŒèêš3¬AâÖ°DîÚ5Ò¬î¤ÒÂô/’¨˜æÒ5ðØD8¤˜Ð¤äž¤ÞÖò13ÂÞÒÖÄÌÜÌžAŒ9Ä®Ä®Þ458à+Cèè–’òš¢°Ü8¦®Ä/6˜D3ŒÌ/ÊÒŒª8/îBè4¨è”äžšD®šæ´C4Èô¨5âÚ’1ÆØÊì5°Œ+14è5Š/4Ú0˜Æ˜ÔÚÎôà5ì–ð°4Ò´¦ÌÜ Ø4Ô8Ü¬ ÌÆ¤4Æ¬æ¢7âÔâÊ¤ŒèDÌ®ÆÔîìä²žÄôÊìA”ÎÐª´Ê¢7Ä¢è´”Ê²DŒ¢ æ9’êôŒ/´¦’0’ÔäÒDÈ°3Î6”2æè¢9ê6ìCÒ7à¨4âÎBA®9ÔÐäÖ46ÎŒDÆÄŒÔ9ð+ÞÂšAÜ/¦DŽ7Ô16ÒBœâBÞÄÎ0” äòÄÚ5æ –¦ÔÎì”žîŽ¤ØÔBî/–0Ž9D¬ÜòÊ¢¦+’â˜Òž0¨ ÜÎ1àÚäè °š6Èâ”¤´4 4AÞ7C80œ®ì2ÜÈ5ØÜšAC+ æ”ââÞÜèBÎÖŒD²0/+¬ØÚ+¤ê2”Òìæ¤–/Ì²ŒÔÄ7¢ÄâîŽâÜÆÆ¦Ô´ ’Äžàâ8Ô¨Î´1ž’òÌÌ2œŒ”0°Æ/èÂ0ŽÖìâ¬71D–ì4ª”BÊè4Üâ²â¢ê”Ô6Äðê6œ¨Šš7´²îœ”œ¤7ØêØ9èØÂÔÐð8Œ¤èÊÌð08Ž¢Š”Ôœ®ôòæêêð¦”5Š6ÌŠœ1àÌ¤CÎ9ÚÖòì´®ìÊ2ð0ìì¨’Æ1è8Ü7ÆØ’ÊŽè¦ÚBØ5¬¦3òÈD¤äCÌBÒ97Ê7 ÜìÂÂÌÂÈ9Î7¤Ò”¬ÔðìŠÆšÄ5ØÜèæ˜ÖÊîCŽ®ªA”ÆÒ”Ø¬Öè¤Þ26Êò’èŒÒ®A¦äôä1CÐ”¦30æÄ Ú4ìÌàÒªŒâìDB¤âØ2ÞAŽž˜è0Š’–ÐAÞªA6ÂêÔ49Ä8Ü òªà0ªœ´Šà˜7à˜1/–¬0ÊÒ1Ú¢Š9š9æâ3ACòêÄê+äÒAÈæ®îâ/²BB¢7ÄâÂôAÜ®Ä/9+03Œ17®1®Öæ¢9ª/3Dæ”A¦0š²Ð®DªØ®/žBÌàš¦Ü8êàèÎÊ®ð 9Šì2DÐ –Â4+57š7Ô6ÄC+’´/Ä0Š0ž¨ä´ÆØ6’â œ˜Œ7+A2Â8–®Ôš à5äì°ŠªAàB9æ¢¦6ôÚ¤œâ1¦æêÜ¬Ü –ìŠØ6Ü5êè35A7¦ž0Ø+1œ3+äA+”–Æ´ÚC´Âì2+°´ÊÒ9ÂŒ–æ¢òÔâžŠŠœ˜+°àžCÐ¤¬8–0B–ª2š–DÞ”îš¨Ú2Ü5´®ÊAB+Žì¢ÐÞ6Â506ÜÔ–®šÊâäª°11®–ªž9œê3/Dò6Ø6®8°òâÎŒÖŠæÒ¤²ðÖÌŠ˜ê²èäÂÈÔÖ²ÄŠêÎB0è4ÚžÆ¬òôÜô´èÖÚÆB ´27Ôô¢ðÔŒÄðÄÎ5ª8æ48Ö¨8Î26¨´Ò1¨2”ªD79––ž543ôÒ65â¬0Êà3îA––Î4ÞB 6®ÊÊæ’ÂŒÂ+ªðœ¢¢ìê+B90ÈÖÜ2¬ìšÂš®žÌ’C°Î¢ÜÎ²Ü¢Æ®3ŒèÈ®55¦’°¦ð¨È52¢à2êâäž Æ/ÖŠäè5ª9Äâèî¢ÒÐØàæâæØ+ÊšŽA²/àDŽæ/1¨ìÊ7¦¬˜ÖBŽæÌŽ2DÊ¢Œà’2¢ÐàDŽ–39¤Bª˜Ì¨Üîê94+ÎÈ+Þª2Æ°ò¦æšD1ªòÞ¨ÄÞ’AÐæDÔæê645/ÜÆ¤®4¨à5BàÒ3Œ4Dœ¢¤ò¢®ôŒÂÄÌÊ¨ AAª´ðÞ¨AŠêBšŽ5š3èò˜Šš+œÐŽÒä¦ð8æ5æ ŠâC/2C°š+î¤1°¢®˜ÒAò0šžä¬ÒòBÄææ°Ðœ¢²Ê¨ð®Ä8äÔêÐÊìÞ´ìÒ”îCÜ+/ ¢Æ°Úî8˜Üàð¬¦03C40ê®CÔò–¨3¤’¤¢Œ”CòŠÄÈ+¬ðÆ5ÈÜÔîœÊÈ’š1Ìîª/ÄÎÂ38®¢òªÆîÈ3®Ü–æÊŒ²ð”ôÎæØ/ê0°ÐÚ3 âA1´˜6¤”0ÌBìØÆô0Þ4²¨ÂCâB6´5Ò5Œ2´°D²47ªØ’î+ìÎšêªÚÚ5®ÄŠ9ÊÌ5ò´ð0ä7¤¤¦æ9ðÆž¦Þ¦¤ðÆ¢+æ2B”²æ¤9¤êÐ5ØÖ²Â–6”9ÖŒ3Úê°Êš¦Ê°ÊœÐ”6ôä3¢2®2AôðŽÎÊ˜7/BÐ8à7ŽÒÂ1äC²’ÔØŒÂ®ÄêÔ¬C9ÊCÖÜà 08Dèêò˜Þà1ÜìÐ”²ÖÆìì1ÜAâ’Ø¦ä¬0ŠðÆD¬B3êÜŠBÞÎ 4òBÖC+Ð4ò¦+ðòD9Èà’´Ö0Î9ð¦Ê5¢¦9ÞÌAôò3¨˜Œ8ÆšD483¨9ŽŒBô0è”ŠÐÔ+¬²Øª¦–¬ò7ê¦ŠœÆÈ°8ÊšêŒÒ´¦æ¬/DÚÈÎ3ÖâØÚ¦ŒðêÚ¬ØØD¤’ê9Ô5Î+ìØ°ÊŒ¨ŽœæÞ6+–¨ÆD+CÆðæÈ²ÐÜ2ð/Ì¦°Ä+è¨âœÂ40¢ê/ÊÈîÊ´/5ò 4¨žŒ¢´æ3˜¬´1îŠÚÌšØ6CÞÐ46Ð9ð’7°6Âäê”Žè¤æÒ7®ÔAôŠÈÎ–ð²–òÒæ’”¬–¬ÒØâÜ’2Žàâ0ÎD+šÌÆ’/´A4à–¬/Š’ÔÈðâ949´¨¤®èBæÊî7²Ž1È¤61¬ÒâÔ˜äà8î54Š9®´ÊªÚ¢æØ5Š”ÜBªÄ7®ðÈÜ2èBÈ¨¨/¨¤9æ”Œêò9Îì2ÎðÔ1ìÄ8ÚŠ/Ü¤ž˜èØD AÐÄ0²¦žÎÌž”ÒªÆÄ¦ðœÊšÖBC9ð°œîÊ59B+²î7ÄàÚðÆÚ˜ÒÄêäC3DB–AŠê’È˜Ø¨ ªÂØ¨Ì+žÚ¦ôÎð1–²ž¤+ 6Ì–´ÖŒÆ03C6ªDÈä9˜6¤´ð2A0ª”Ä°91˜5È2’’5Üî//Š/Ê¬Ì6Ò´Ê¤–ÞêÚìâAä6œ®Aš5¬”DÎÊ¨î/Â°œì®´èìÊDä3Âœò14˜à9Ü/êž’òâìÔâÆ3+èŽÐ˜Úª+ÊÊÔÈ²š6CÞð”¨èêBš¬àæ”šA ´è²´6Îœ¬æî1îÐìCÒô4Ô˜DàÎ8ŒBàÔ3”’ðè20Ö¨Ô+Äê2êìÈ®à5ž0ª´âÄâ¢8B´ÎîÐ9 ¤Ô422ØŠ’+ê0BÌÒ ´56èÒŽŠÐÐìì1¬ÂØ/°+Âäš ¬AÐæòÒô9žš¦Î1–´+2˜ÚCÆ¦1/šÌâ’ô´ì7î7æÄÚðä3’Ì¬ÈêÆÈŒò–ÊŒ9à´ŒìACòÚ¨+97”’Ü²ÜÚêÐÈÜ431æ–C’¨2¢œÖŽÔÆ4B4È’”´Þ²ò¦4Ô¬ªª9ÊðàîÊÌÆôê°¤7äòBDÖÐð+Ü¤ØBâÄ¬ÜCBÄ/6Žâ8ÒÈÈ3êèÜ7ò ´œ²Ð2ìA®0–’7ÆÄê²Ü âÆ32Ì¬1ÂªÚŽ9Î9°D¢ÖâÔð®È5/+D5+ÚÈìD//1Ö7²ÈCØ ÎÊÜ¬Ôœê¤041B²5Ü/´Þª¢âžÈ¦®’äŒô¨òÒªÞ0šª´ŽDž´Ž´+š–5ì´7šÒÈÞB¦¬3ž1ÎÄš08Ê/ò´8ðÄà3ê´œª8òÒÐÚš´8 0ÄÚÄÖœÈÎÈ¢ ÚÔ¢¦6ÄâžŒ˜¬–Â”4Ø7ÊÌÊ¤–Ò+1”²58ìCÂÌ/¨äÜ9ÈÎ12´7¨â¤ °5Êæ¨¬Î A095ÐÌèB ¢”ò3ž5àž ¢ÞÄ3´Âæ0Bªæ’8òì1¦ð+´ÐŽôîÔÊääè6ðòæœè9’ÄÌ04â9Ò5Æ74ÐÂÊ” +ìèÔžÈ5šÂÎÒôÔè51êÄÈÒ¤+ÂCªÜ”ê Ôâ24Ä’Â2Öª˜ð6–šŒÎ”4ÚÖ1È˜˜6–êê¦¬´ªŽ¤–ô5è4²šÂÚâ9ôôôèCæØŠ7äÆ0”ŽàŒ¤æäÊ0AÆîÞò ˜ÞâòÆÄÎ4Ú 6È3èØâÐÞCª9ž¤1îŠD7Ì7+ÆBâòŠ/D5š8DŠ®®/œ¨æ–²š®34¢Æò2ªòž¦Ì9ª¤¢Î/’žÞâØÈÌÌ°Úœ+¢²Ê0A1Þ0²àÌCŒ˜ 9/êŽæAÈ9ÊBê®²°¢äªC¢”ŽÄ®BòÞª²ÆŽÜ+¬ÔÖ’2ÌŒ°ÈÈ1¢4²ÆÐÌ°è3žÖÜôîœèDž7ÎœÜCî2Š1¤ì1¬Ü”ÂêæäÄŒì°ôA”DìDè¨ÈÄÒìDÐ®6¦B7B6–7CÌC´î8°B¦¬Ä2Ú/–¬–/1®òÈÐ8/ÞÐ/A6/ÞÆ85Œò®83ÔÌ˜ä”ÞèŠÚ””´CÞžC¨ÄêžA2ðîÎBÄÎèCØ67ð7Ü8žð®Š2–Šà®/à¨ìŒ¬9âò˜æ¬ª6–Œ8ÔàŽà4ìðÈÜÚÜ1/¦´Ä8Ìª¬¢òÖÌ–ŠâèÜÂÈ¢ÈÞœA’ Êšš¨Öž’Bî˜®˜°ª7ŒÔ05”è¤¬ØžÄA8Æª2ÆÈA9Œ®¤1è6ìD5ÚæòòèÐÞA5Ì¨²9¦ÎÂÆœAî8â¢B¦A51˜š–1¢Ò²¬ìÂêÚîÚ¬CÄìÊòŽŒ²ÎŠ²Ú˜ôä3®¨3ØCà¦BÒØ5Æ¦ŽŒÜ0+–ê¬žÄ¬ÚÖÄ–C6–¦/à–ìšÊŽèò®4Ž2ÆžÊò¦Ö8/¤ÐÂ7¦/9Äž¨CŽÚÔÐîÂ3žîŠì¦˜²ŠAžôž¤ÜÖ–ÞÌä+ÆÔ°ØÆÖÌBè+3Š2AAÆÎDêCÚ¤ÈØ7¢Þ®òÊ’ªêÚìÎA ¤ðÌê4æœâ¢D®ÒæÊž¤²ÎÂ¢8âÐ7â4”2è3Að²ŒÂÚÆòÐÊ9ÆòÖ6²4ŠÂê/˜’/ŠBì¤žBÌ0D²3°æô97Ä5ò¢Úª89Œ°Ô¤ôè¦9/¢¤˜î6 9êªÎA3àÚ9Š¤âŠ3ªDÆ¦5Ò¬44Ü˜0ÂÎÈ°Âª¬C2Bê¤ŒÔ ’8AB˜ÒÞ6––²ŠÆšCð97¬5¤²2àè¬Òðžô’¦Šî2’ÌÌ”1´ðêìðªðàŒ¬žà¦DÂžÌ¬2ÈŒ”¨´Æè/ò6ª¤ìððà07/A+Ò”ÆCò°1C´ÜÖê–+/ŒÚ’6Ä84¨1ššAÔªCÄ¬ð°²7˜1ŠŽ¨ÂšÒAæž’Â®ìâ8Ì¦ž9È”Â¬”ÄB5”6 Æ+âÞÜäDìÞÔ3Æ¨òäŠÖÐžäÐ´âBŒ¤â¤°Ô¨ÊÄ36îôìÚA¨Ò2¦°ž1Aô+î3Ð3+4Æ/6šîÖ705B0°²ê¢Dâì–D”²9ªšæÈÂŒŠì5D ÂÚ¦ªÄìžä˜¢ž4¤Æ2ÊŠÎ˜Ü”®8Â”¢˜ÊÜ¨ÈÎ´®Â/šÚ²ò6¤ÖÆ=Å2îššªA²š°1Œ¬AÎ¬°®1šAªÎæŒBÎœÆB18–¬ŒÆš®Ø´¢AAB¦;
+<?php
+
+if (!defined('IN_IA')) {
+	exit('Access Denied');
+}
+define('TM_COMMISSION_AGENT_NEW', 'commission_agent_new');
+define('TM_COMMISSION_ORDER_PAY', 'commission_order_pay');
+define('TM_COMMISSION_ORDER_FINISH', 'commission_order_finish');
+define('TM_COMMISSION_APPLY', 'commission_apply');
+define('TM_COMMISSION_CHECK', 'commission_check');
+define('TM_COMMISSION_PAY', 'commission_pay');
+define('TM_COMMISSION_UPGRADE', 'commission_upgrade');
+define('TM_COMMISSION_BECOME', 'commission_become');
+if (!class_exists('CommissionModel')) {
+	class CommissionModel extends PluginModel
+	{
+		public function getSet($_var_0 = 0)
+		{
+			$set = parent::getSet($_var_0);
+			$set['texts'] = array('agent' => empty($set['texts']['agent']) ? 'åˆ†é”€å•†' : $set['texts']['agent'], 'shop' => empty($set['texts']['shop']) ? 'å°åº—' : $set['texts']['shop'], 'myshop' => empty($set['texts']['myshop']) ? 'æˆ‘çš„å°åº—' : $set['texts']['myshop'], 'center' => empty($set['texts']['center']) ? 'åˆ†é”€ä¸­å¿ƒ' : $set['texts']['center'], 'become' => empty($set['texts']['become']) ? 'æˆä¸ºåˆ†é”€å•†' : $set['texts']['become'], 'withdraw' => empty($set['texts']['withdraw']) ? 'æçŽ°' : $set['texts']['withdraw'], 'commission' => empty($set['texts']['commission']) ? 'ä½£é‡‘' : $set['texts']['commission'], 'commission1' => empty($set['texts']['commission1']) ? 'åˆ†é”€ä½£é‡‘' : $set['texts']['commission1'], 'commission_total' => empty($set['texts']['commission_total']) ? 'ç´¯è®¡ä½£é‡‘' : $set['texts']['commission_total'], 'commission_ok' => empty($set['texts']['commission_ok']) ? 'å¯æçŽ°ä½£é‡‘' : $set['texts']['commission_ok'], 'commission_apply' => empty($set['texts']['commission_apply']) ? 'å·²ç”³è¯·ä½£é‡‘' : $set['texts']['commission_apply'], 'commission_check' => empty($set['texts']['commission_check']) ? 'å¾…æ‰“æ¬¾ä½£é‡‘' : $set['texts']['commission_check'], 'commission_lock' => empty($set['texts']['commission_lock']) ? 'æœªç»“ç®—ä½£é‡‘' : $set['texts']['commission_lock'], 'commission_detail' => empty($set['texts']['commission_detail']) ? 'ä½£é‡‘æ˜Žç»†' : $set['texts']['commission_detail'], 'commission_pay' => empty($set['texts']['commission_pay']) ? 'æˆåŠŸæçŽ°ä½£é‡‘' : $set['texts']['commission_pay'], 'order' => empty($set['texts']['order']) ? 'åˆ†é”€è®¢å•' : $set['texts']['order'], 'myteam' => empty($set['texts']['myteam']) ? 'æˆ‘çš„å›¢é˜Ÿ' : $set['texts']['myteam'], 'c1' => empty($set['texts']['c1']) ? 'ä¸€çº§' : $set['texts']['c1'], 'c2' => empty($set['texts']['c2']) ? 'äºŒçº§' : $set['texts']['c2'], 'c3' => empty($set['texts']['c3']) ? 'ä¸‰çº§' : $set['texts']['c3'], 'mycustomer' => empty($set['texts']['mycustomer']) ? 'æˆ‘çš„å®¢æˆ·' : $set['texts']['mycustomer'],);
+			return $set;
+		}
+		
+		public function calculate($orderid = 0, $update = true)
+		{
+			global $_W;
+			//èŽ·å–åŸºæœ¬åˆ†é”€è®¾ç½®
+			$set = $this->getSet();
+			//èŽ·å–åˆ†é”€ç­‰çº§
+			$levels = $this->getLevels();
+			//èŽ·å¾—åˆ†é”€å•†çš„ID
+			$agentid = pdo_fetchcolumn('select agentid from ' . tablename('ewei_shop_order') . ' where id=:id limit 1', array(':id' => $orderid));
+			$oid = pdo_fetchcolumn('select openid from ' . tablename('ewei_shop_order') . ' where id=:id limit 1', array(':id' => $orderid));;
+			//èŽ·å¾—ä»£ç†å•†ï¼ˆä¼šå‘˜ï¼‰çš„çº§åˆ«
+			$mlevel = intval(pdo_fetchcolumn('select level from ' . tablename('ewei_shop_member') . ' where openid=:id limit 1', array(':id' => $oid)));
+			$agentlevels = $this->getMemberLevels();
+			//èŽ·å–å•†å“åˆ†é”€ç‹¬ç«‹ä½£é‡‘è®¾ç½®åŠå”®å‡ºå•†å“ä¿¡æ¯
+			$goods = pdo_fetchall('select og.id,og.realprice,og.total,g.hascommission,g.nocommission, g.commission1_rate,g.commission1_pay,g.commission2_rate,g.commission2_pay,g.commission3_rate,g.commission3_pay,og.commissions from ' . tablename('ewei_shop_order_goods') . '  og ' . ' left join ' . tablename('ewei_shop_goods') . ' g on g.id = og.goodsid' . ' where og.orderid=:orderid and og.uniacid=:uniacid', array(':orderid' => $orderid, ':uniacid' => $_W['uniacid']));
+			//åˆ¤æ–­æ˜¯å‡ çº§åˆ†é”€,==0ä¸ºæ— åˆ†é”€
+			if ($set['level'] > 0) {
+				foreach ($goods as &$cinfo) {
+					$price = $cinfo['realprice'];
+					if (empty($cinfo['nocommission'])) {
+						if ($cinfo['hascommission'] == 1) {//å•†å“å…·æœ‰ç‹¬ç«‹ä½£é‡‘è®¾ç½®
+							$cinfo['commission1'] = array('default' => $set['level'] >= 1 ? ($cinfo['commission1_rate'] > 0 ? round($cinfo['commission1_rate'] * $price / 100, 2) . "" : round($cinfo['commission1_pay'] * $cinfo['total'], 2)) : 0);
+							$cinfo['commission2'] = array('default' => $set['level'] >= 2 ? ($cinfo['commission2_rate'] > 0 ? round($cinfo['commission2_rate'] * $price / 100, 2) . "" : round($cinfo['commission2_pay'] * $cinfo['total'], 2)) : 0);
+							$cinfo['commission3'] = array('default' => $set['level'] >= 3 ? ($cinfo['commission3_rate'] > 0 ? round($cinfo['commission3_rate'] * $price / 100, 2) . "" : round($cinfo['commission3_pay'] * $cinfo['total'], 2)) : 0);
+							foreach ($levels as $level) {
+								$cinfo['commission1']['level' . $level['id']] = $cinfo['commission1_rate'] > 0 ? round($cinfo['commission1_rate'] * $price / 100, 2) . "" : round($cinfo['commission1_pay'] * $cinfo['total'], 2);
+								$cinfo['commission2']['level' . $level['id']] = $cinfo['commission2_rate'] > 0 ? round($cinfo['commission2_rate'] * $price / 100, 2) . "" : round($cinfo['commission2_pay'] * $cinfo['total'], 2);
+								$cinfo['commission3']['level' . $level['id']] = $cinfo['commission3_rate'] > 0 ? round($cinfo['commission3_rate'] * $price / 100, 2) . "" : round($cinfo['commission3_pay'] * $cinfo['total'], 2);
+							}
+						} else {
+							$cinfo['commission1'] = array('default' => $set['level'] >= 1 ? round($set['commission1'] * $price / 100, 2) . "" : 0);
+							$cinfo['commission2'] = array('default' => $set['level'] >= 2 ? round($set['commission2'] * $price / 100, 2) . "" : 0);
+							$cinfo['commission3'] = array('default' => $set['level'] >= 3 ? round($set['commission3'] * $price / 100, 2) . "" : 0);
+							foreach ($levels as $level) {
+								$cinfo['commission1']['level' . $level['id']] = $set['level'] >= 1 ? round($level['commission1'] * $price / 100, 2) . "" : 0;
+								$cinfo['commission2']['level' . $level['id']] = $set['level'] >= 2 ? round($level['commission2'] * $price / 100, 2) . "" : 0;
+								$cinfo['commission3']['level' . $level['id']] = $set['level'] >= 3 ? round($level['commission3'] * $price / 100, 2) . "" : 0;
+							}
+						}
+					} else {
+						$cinfo['commission1'] = array('default' => 0);
+						$cinfo['commission2'] = array('default' => 0);
+						$cinfo['commission3'] = array('default' => 0);
+						foreach ($levels as $level) {
+							$cinfo['commission1']['level' . $level['id']] = 0;
+							$cinfo['commission2']['level' . $level['id']] = 0;
+							$cinfo['commission3']['level' . $level['id']] = 0;
+						}
+					}
+					//è®¡ç®—ä»£ç†å•†çš„è¿›è´§è¿”ç‚¹
+					foreach ($agentlevels as $agentlevel) {
+						$cinfo['commission1']['agent' . $agentlevel['id']] = round($agentlevel['rate1'] * $price / 100, 2). "";
+						$cinfo['commission2']['agent' . $agentlevel['id']] = round($agentlevel['rate2'] * $price / 100, 2). "";;
+						$cinfo['commission3']['agent' . $agentlevel['id']] = round($agentlevel['rate3'] * $price / 100, 2). "";;
+					}
+					if ($update) {
+						$commissions = array('level1' => 0, 'level2' => 0, 'level3' => 0);
+						//é’ˆå¯¹å½“å‰å•†å“è®¡ç®—æ¯ä¸€å±‚åˆ†é”€å•†çš„å…·ä½“ä½£é‡‘
+						$isdealer = ($mlevel >=1 && $mlevel <= 4 && ($cinfo['hascommission'] <> 1) ); //æˆ‘æ˜¯ä»£ç†å•†ä¸”å•†å“æ²¡æœ‰ç‹¬ç«‹çš„ä½£é‡‘ï¼ï¼ï¼
+						if (!empty($agentid)) {//å¦‚æžœæœ‰ä¸Šå±‚åˆ†é”€å•†
+							//èŽ·å¾—ç¬¬ä¸€å±‚åˆ†é”€å•†çš„ä¿¡æ¯
+							$m1 = m('member')->getMember($agentid);
+							//å¦‚æžœåˆ†é”€å•†å­˜åœ¨ä¸”æ­£å¸¸
+							if ($m1['isagent'] == 1 && $m1['status'] == 1) {
+								//èŽ·å¾—åˆ†é”€å•†çš„çº§åˆ«
+								$level1 = $this->getLevel($m1['openid']);
+								//è®¡ç®—ç¬¬ä¸€å±‚è¯¥çº§åˆ«åˆ†é”€å•†çš„ä½£é‡‘
+								if ($isdealer) {//å¦‚æžœæˆ‘æ˜¯ä»£ç†å•†
+									$dealer = intval($m1['level']);
+									if ($dealer >= 1 && $dealer <= 4) {//å¦‚æžœåˆ†é”€å•†ä¹Ÿæ˜¯ä»£ç†å•†
+										$commissions['level1'] = round($cinfo['commission1']['agent' .$m1['level']], 2);//æŒ‰ä»£ç†å•†çš„ç­‰çº§è®¡ç®—
+									}
+									else {//ä»£ç†å•†çš„ä¸Šä¸€çº§ä¸æ˜¯ä»£ç†å•†åˆ™ä¸äº«å—ä½£é‡‘
+										$commissions['level1'] = 0;
+									}
+								}
+								else {
+									$commissions['level1'] = empty($level1) ? round($cinfo['commission1']['default'], 2) : round($cinfo['commission1']['level' . $level1['id']], 2);
+								}
+								//æ˜¯å¦æœ‰ç¬¬äºŒå±‚åˆ†é”€å•†
+								if (!empty($m1['agentid'])) {
+									$m2 = m('member')->getMember($m1['agentid']);
+									$level2 = $this->getLevel($m2['openid']);
+									//è®¡ç®—ç¬¬äºŒå±‚è¯¥çº§åˆ«åˆ†é”€å•†çš„ä½£é‡‘
+									if ($isdealer) {//å¦‚æžœæˆ‘æ˜¯ä»£ç†å•†
+										$dealer = intval($m2['level']);
+										if ($dealer >= 1 && $dealer <= 4) {//å¦‚æžœç¬¬äºŒå±‚åˆ†é”€å•†ä¹Ÿæ˜¯ä»£ç†å•†
+											$commissions['level2'] = round($cinfo['commission2']['agent' .$m2['level']], 2);//æŒ‰ä»£ç†å•†çš„ç­‰çº§è®¡ç®—
+										}
+										else {//ä»£ç†å•†çš„ä¸Šä¸€çº§ä¸æ˜¯ä»£ç†å•†åˆ™ä¸äº«å—ä½£é‡‘
+											$commissions['level2'] = 0;
+										}
+									}
+									else {
+										$commissions['level2'] = empty($level2) ? round($cinfo['commission2']['default'], 2) : round($cinfo['commission2']['level' . $level2['id']], 2);
+									}
+									//æ˜¯å¦æœ‰ç¬¬ä¸‰å±‚åˆ†é”€å•†
+									if (!empty($m2['agentid'])) {
+										$m3 = m('member')->getMember($m2['agentid']);
+										$level3 = $this->getLevel($m3['openid']);
+										if ($isdealer) {//å¦‚æžœæˆ‘æ˜¯ä»£ç†å•†
+											$dealer = intval($m3['level']);
+											if ($dealer >= 1 && $dealer <= 4) {//å¦‚æžœç¬¬ä¸‰å±‚åˆ†é”€å•†ä¹Ÿæ˜¯ä»£ç†å•†
+												$commissions['level3'] = round($cinfo['commission3']['agent' .$m3['level']], 2);//æŒ‰ä»£ç†å•†çš„ç­‰çº§è®¡ç®—
+											}
+											else {//ä»£ç†å•†çš„ä¸Šä¸€çº§ä¸æ˜¯ä»£ç†å•†åˆ™ä¸äº«å—ä½£é‡‘
+												$commissions['level3'] = 0;
+											}
+										}
+										else {
+											$commissions['level3'] = empty($level3) ? round($cinfo['commission3']['default'], 2) : round($cinfo['commission3']['level' . $level3['id']], 2);
+										}
+									}
+								}
+							}
+						}
+						pdo_update('ewei_shop_order_goods', array('commission1' => iserializer($cinfo['commission1']), 'commission2' => iserializer($cinfo['commission2']), 'commission3' => iserializer($cinfo['commission3']), 'commissions' => iserializer($commissions), 'nocommission' => $cinfo['nocommission']), array('id' => $cinfo['id']));
+					}
+				}
+				unset($cinfo);
+			}
+			return $goods;
+		}
+
+		function getMemberLevels()
+		{
+			return pdo_fetchall('select * from ' . tablename('ewei_shop_member_level'), null);
+		}
+
+		public function getOrderCommissions($orderid = 0, $_var_17 = 0)
+		{
+			global $_W;
+			$set = $this->getSet();
+			$agentid = pdo_fetchcolumn('select agentid from ' . tablename('ewei_shop_order') . ' where id=:id limit 1', array(':id' => $orderid));
+			$goods = pdo_fetch('select commission1,commission2,commission3 from ' . tablename('ewei_shop_order_goods') . ' where id=:id and orderid=:orderid and uniacid=:uniacid and nocommission=0 limit 1', array(':id' => $_var_17, ':orderid' => $orderid, ':uniacid' => $_W['uniacid']));
+			$commissions = array('level1' => 0, 'level2' => 0, 'level3' => 0);
+			if ($set['level'] > 0) {
+				$_var_18 = iunserializer($goods['commission1']);
+				$_var_19 = iunserializer($goods['commission2']);
+				$_var_20 = iunserializer($goods['commission3']);
+				if (!empty($agentid)) {
+					$m1 = m('member')->getMember($agentid);
+					if ($m1['isagent'] == 1 && $m1['status'] == 1) {
+						$level1 = $this->getLevel($m1['openid']);
+						$commissions['level1'] = empty($level1) ? round($_var_18['default'], 2) : round($_var_18['level' . $level1['id']], 2);
+						if (!empty($m1['agentid'])) {
+							$m2 = m('member')->getMember($m1['agentid']);
+							$level2 = $this->getLevel($m2['openid']);
+							$commissions['level2'] = empty($level2) ? round($_var_19['default'], 2) : round($_var_19['level' . $level2['id']], 2);
+							if (!empty($m2['agentid'])) {
+								$m3 = m('member')->getMember($m2['agentid']);
+								$level3 = $this->getLevel($m3['openid']);
+								$commissions['level3'] = empty($level3) ? round($_var_20['default'], 2) : round($_var_20['level' . $level3['id']], 2);
+							}
+						}
+					}
+				}
+			}
+			return $commissions;
+		}
+
+		public function getInfo($_var_21, $_var_22 = null)
+		{
+			if (empty($_var_22) || !is_array($_var_22)) {
+				$_var_22 = array();
+			}
+			global $_W;
+			$set = $this->getSet();
+			$level = intval($set['level']);
+			$_var_23 = m('member')->getMember($_var_21);
+			$_var_24 = $this->getLevel($_var_21);
+			$_var_25 = time();
+			$_var_26 = intval($set['settledays']) * 3600 * 24;
+			$_var_27 = 0;
+			$dealercount = 0;
+			$_var_28 = 0;
+			$_var_29 = 0;
+			$_var_30 = 0;
+			$_var_31 = 0;
+			$_var_32 = 0;
+			$_var_33 = 0;
+			$_var_34 = 0;
+			$_var_35 = 0;
+			$_var_36 = 0;
+			$_var_37 = 0;
+			$_var_38 = 0;
+			$_var_39 = 0;
+			$_var_40 = 0;
+			$_var_41 = 0;
+			$_var_42 = 0;
+			$level1_dealer = 0;
+			$level2_dealer = 0;
+			$level3_dealer = 0;
+			$_var_43 = 0;
+			$_var_44 = 0;
+			$_var_45 = 0;
+			$_var_46 = 0;
+			$_var_47 = 0;
+			$_var_48 = 0;
+			$_var_49 = 0;
+			$_var_50 = 0;
+			$_var_51 = 0;
+			$_var_52 = 0;
+			$_var_53 = 0;
+			$_var_54 = 0;
+			if ($level >= 1) {
+				if (in_array('ordercount0', $_var_22)) {
+					$_var_55 = pdo_fetch('select sum(og.realprice) as ordermoney,count(distinct o.id) as ordercount from ' . tablename('ewei_shop_order') . ' o ' . ' left join  ' . tablename('ewei_shop_order_goods') . ' og on og.orderid=o.id ' . ' where o.agentid=:agentid and o.status>=0 and og.status1>=0 and og.nocommission=0 and o.uniacid=:uniacid  limit 1', array(':uniacid' => $_W['uniacid'], ':agentid' => $_var_23['id']));
+					$_var_43 += $_var_55['ordercount'];
+					$_var_28 += $_var_55['ordercount'];
+					$_var_29 += $_var_55['ordermoney'];
+				}
+				if (in_array('ordercount', $_var_22)) {
+					$_var_55 = pdo_fetch('select sum(og.realprice) as ordermoney,count(distinct o.id) as ordercount from ' . tablename('ewei_shop_order') . ' o ' . ' left join  ' . tablename('ewei_shop_order_goods') . ' og on og.orderid=o.id ' . ' where o.agentid=:agentid and o.status>=1 and og.status1>=0 and og.nocommission=0 and o.uniacid=:uniacid  limit 1', array(':uniacid' => $_W['uniacid'], ':agentid' => $_var_23['id']));
+					$_var_46 += $_var_55['ordercount'];
+					$_var_30 += $_var_55['ordercount'];
+					$_var_31 += $_var_55['ordermoney'];
+				}
+				if (in_array('ordercount3', $_var_22)) {
+					$_var_56 = pdo_fetch('select sum(og.realprice) as ordermoney,count(distinct o.id) as ordercount from ' . tablename('ewei_shop_order') . ' o ' . ' left join  ' . tablename('ewei_shop_order_goods') . ' og on og.orderid=o.id ' . ' where o.agentid=:agentid and o.status>=3 and og.status1>=0 and og.nocommission=0 and o.uniacid=:uniacid  limit 1', array(':uniacid' => $_W['uniacid'], ':agentid' => $_var_23['id']));
+					$_var_49 += $_var_56['ordercount'];
+					$_var_32 += $_var_56['ordercount'];
+					$_var_33 += $_var_56['ordermoney'];
+					$_var_52 += $_var_56['ordermoney'];
+				}
+				if (in_array('total', $_var_22)) {
+					$_var_57 = pdo_fetchall('select og.commission1,og.commissions  from ' . tablename('ewei_shop_order_goods') . ' og ' . ' left join  ' . tablename('ewei_shop_order') . ' o on o.id = og.orderid' . ' where o.agentid=:agentid and o.status>=1 and og.nocommission=0 and o.uniacid=:uniacid', array(':uniacid' => $_W['uniacid'], ':agentid' => $_var_23['id']));
+					foreach ($_var_57 as $_var_58) {
+						$commissions = iunserializer($_var_58['commissions']);
+						$_var_59 = iunserializer($_var_58['commission1']);
+						if (empty($commissions)) {
+							$_var_34 += isset($_var_59['level' . $_var_24['id']]) ? $_var_59['level' . $_var_24['id']] : $_var_59['default'];
+						} else {
+							$_var_34 += isset($commissions['level1']) ? floatval($commissions['level1']) : 0;
+						}
+					}
+				}
+				if (in_array('ok', $_var_22)) {
+					$_var_57 = pdo_fetchall('select og.commission1,og.commissions  from ' . tablename('ewei_shop_order_goods') . ' og ' . ' left join  ' . tablename('ewei_shop_order') . ' o on o.id = og.orderid' . " where o.agentid=:agentid and o.status>=3 and og.nocommission=0 and ({$_var_25} - o.finishtime > {$_var_26}) and og.status1=0  and o.uniacid=:uniacid", array(':uniacid' => $_W['uniacid'], ':agentid' => $_var_23['id']));
+					foreach ($_var_57 as $_var_58) {
+						$commissions = iunserializer($_var_58['commissions']);
+						$_var_59 = iunserializer($_var_58['commission1']);
+						if (empty($commissions)) {
+							$_var_35 += isset($_var_59['level' . $_var_24['id']]) ? $_var_59['level' . $_var_24['id']] : $_var_59['default'];
+						} else {
+							$_var_35 += isset($commissions['level1']) ? $commissions['level1'] : 0;
+						}
+					}
+				}
+				if (in_array('lock', $_var_22)) {
+					$_var_60 = pdo_fetchall('select og.commission1,og.commissions  from ' . tablename('ewei_shop_order_goods') . ' og ' . ' left join  ' . tablename('ewei_shop_order') . ' o on o.id = og.orderid' . " where o.agentid=:agentid and o.status>=3 and og.nocommission=0 and ({$_var_25} - o.finishtime <= {$_var_26})  and og.status1=0  and o.uniacid=:uniacid", array(':uniacid' => $_W['uniacid'], ':agentid' => $_var_23['id']));
+					foreach ($_var_60 as $_var_58) {
+						$commissions = iunserializer($_var_58['commissions']);
+						$_var_59 = iunserializer($_var_58['commission1']);
+						if (empty($commissions)) {
+							$_var_38 += isset($_var_59['level' . $_var_24['id']]) ? $_var_59['level' . $_var_24['id']] : $_var_59['default'];
+						} else {
+							$_var_38 += isset($commissions['level1']) ? $commissions['level1'] : 0;
+						}
+					}
+				}
+				if (in_array('apply', $_var_22)) {
+					$_var_61 = pdo_fetchall('select og.commission1,og.commissions  from ' . tablename('ewei_shop_order_goods') . ' og ' . ' left join  ' . tablename('ewei_shop_order') . ' o on o.id = og.orderid' . ' where o.agentid=:agentid and o.status>=3 and og.status1=1 and og.nocommission=0 and o.uniacid=:uniacid', array(':uniacid' => $_W['uniacid'], ':agentid' => $_var_23['id']));
+					foreach ($_var_61 as $_var_58) {
+						$commissions = iunserializer($_var_58['commissions']);
+						$_var_59 = iunserializer($_var_58['commission1']);
+						if (empty($commissions)) {
+							$_var_36 += isset($_var_59['level' . $_var_24['id']]) ? $_var_59['level' . $_var_24['id']] : $_var_59['default'];
+						} else {
+							$_var_36 += isset($commissions['level1']) ? $commissions['level1'] : 0;
+						}
+					}
+				}
+				if (in_array('check', $_var_22)) {
+					$_var_61 = pdo_fetchall('select og.commission1,og.commissions  from ' . tablename('ewei_shop_order_goods') . ' og ' . ' left join  ' . tablename('ewei_shop_order') . ' o on o.id = og.orderid' . ' where o.agentid=:agentid and o.status>=3 and og.status1=2 and og.nocommission=0 and o.uniacid=:uniacid ', array(':uniacid' => $_W['uniacid'], ':agentid' => $_var_23['id']));
+					foreach ($_var_61 as $_var_58) {
+						$commissions = iunserializer($_var_58['commissions']);
+						$_var_59 = iunserializer($_var_58['commission1']);
+						if (empty($commissions)) {
+							$_var_37 += isset($_var_59['level' . $_var_24['id']]) ? $_var_59['level' . $_var_24['id']] : $_var_59['default'];
+						} else {
+							$_var_37 += isset($commissions['level1']) ? $commissions['level1'] : 0;
+						}
+					}
+				}
+				if (in_array('pay', $_var_22)) {
+					$_var_61 = pdo_fetchall('select og.commission1,og.commissions  from ' . tablename('ewei_shop_order_goods') . ' og ' . ' left join  ' . tablename('ewei_shop_order') . ' o on o.id = og.orderid' . ' where o.agentid=:agentid and o.status>=3 and og.status1=3 and og.nocommission=0 and o.uniacid=:uniacid ', array(':uniacid' => $_W['uniacid'], ':agentid' => $_var_23['id']));
+					foreach ($_var_61 as $_var_58) {
+						$commissions = iunserializer($_var_58['commissions']);
+						$_var_59 = iunserializer($_var_58['commission1']);
+						if (empty($commissions)) {
+							$_var_39 += isset($_var_59['level' . $_var_24['id']]) ? $_var_59['level' . $_var_24['id']] : $_var_59['default'];
+						} else {
+							$_var_39 += isset($commissions['level1']) ? $commissions['level1'] : 0;
+						}
+					}
+				}
+				$_var_62 = pdo_fetchall('select id from ' . tablename('ewei_shop_member') . ' where agentid=:agentid and isagent=1 and status=1 and uniacid=:uniacid ', array(':uniacid' => $_W['uniacid'], ':agentid' => $_var_23['id']), 'id');
+				$_var_40 = count($_var_62);
+				$_var_27 += $_var_40;
+
+				$level1_dealers = pdo_fetchall('select id from ' . tablename('ewei_shop_member') . ' where agentid=:agentid and level>0 and isagent=1 and status=1 and uniacid=:uniacid ', array(':uniacid' => $_W['uniacid'], ':agentid' => $_var_23['id']), 'id');
+				$level1_dealer = count($level1_dealers);
+				$dealercount += $level1_dealer;
+			}
+			if ($level >= 2) {
+				if ($_var_40 > 0) {
+					if (in_array('ordercount0', $_var_22)) {
+						$_var_63 = pdo_fetch('select sum(og.realprice) as ordermoney,count(distinct o.id) as ordercount from ' . tablename('ewei_shop_order') . ' o ' . ' left join  ' . tablename('ewei_shop_order_goods') . ' og on og.orderid=o.id ' . ' where o.agentid in( ' . implode(',', array_keys($_var_62)) . ')  and o.status>=0 and og.status2>=0 and og.nocommission=0 and o.uniacid=:uniacid limit 1', array(':uniacid' => $_W['uniacid']));
+						$_var_44 += $_var_63['ordercount'];
+						$_var_28 += $_var_63['ordercount'];
+						$_var_29 += $_var_63['ordermoney'];
+					}
+					if (in_array('ordercount', $_var_22)) {
+						$_var_63 = pdo_fetch('select sum(og.realprice) as ordermoney,count(distinct o.id) as ordercount from ' . tablename('ewei_shop_order') . ' o ' . ' left join  ' . tablename('ewei_shop_order_goods') . ' og on og.orderid=o.id ' . ' where o.agentid in( ' . implode(',', array_keys($_var_62)) . ')  and o.status>=1 and og.status2>=0 and og.nocommission=0 and o.uniacid=:uniacid limit 1', array(':uniacid' => $_W['uniacid']));
+						$_var_47 += $_var_63['ordercount'];
+						$_var_30 += $_var_63['ordercount'];
+						$_var_31 += $_var_63['ordermoney'];
+					}
+					if (in_array('ordercount3', $_var_22)) {
+						$_var_64 = pdo_fetch('select sum(og.realprice) as ordermoney,count(distinct o.id) as ordercount from ' . tablename('ewei_shop_order') . ' o ' . ' left join  ' . tablename('ewei_shop_order_goods') . ' og on og.orderid=o.id ' . ' where o.agentid in( ' . implode(',', array_keys($_var_62)) . ')  and o.status>=3 and og.status2>=0 and og.nocommission=0 and o.uniacid=:uniacid limit 1', array(':uniacid' => $_W['uniacid']));
+						$_var_50 += $_var_64['ordercount'];
+						$_var_32 += $_var_64['ordercount'];
+						$_var_33 += $_var_64['ordermoney'];
+						$_var_53 += $_var_64['ordermoney'];
+					}
+					if (in_array('total', $_var_22)) {
+						$_var_65 = pdo_fetchall('select og.commission2,og.commissions from ' . tablename('ewei_shop_order_goods') . ' og ' . ' left join  ' . tablename('ewei_shop_order') . ' o on o.id = og.orderid ' . ' where o.agentid in( ' . implode(',', array_keys($_var_62)) . ')  and o.status>=1 and og.nocommission=0 and o.uniacid=:uniacid', array(':uniacid' => $_W['uniacid']));
+						foreach ($_var_65 as $_var_58) {
+							$commissions = iunserializer($_var_58['commissions']);
+							$_var_59 = iunserializer($_var_58['commission2']);
+							if (empty($commissions)) {
+								$_var_34 += isset($_var_59['level' . $_var_24['id']]) ? $_var_59['level' . $_var_24['id']] : $_var_59['default'];
+							} else {
+								$_var_34 += isset($commissions['level2']) ? $commissions['level2'] : 0;
+							}
+						}
+					}
+					if (in_array('ok', $_var_22)) {
+						$_var_65 = pdo_fetchall('select og.commission2,og.commissions  from ' . tablename('ewei_shop_order_goods') . ' og ' . ' left join  ' . tablename('ewei_shop_order') . ' o on o.id = og.orderid ' . ' where o.agentid in( ' . implode(',', array_keys($_var_62)) . ")  and ({$_var_25} - o.createtime > {$_var_26}) and o.status>=3 and og.status2=0 and og.nocommission=0  and o.uniacid=:uniacid", array(':uniacid' => $_W['uniacid']));
+						foreach ($_var_65 as $_var_58) {
+							$commissions = iunserializer($_var_58['commissions']);
+							$_var_59 = iunserializer($_var_58['commission2']);
+							if (empty($commissions)) {
+								$_var_35 += isset($_var_59['level' . $_var_24['id']]) ? $_var_59['level' . $_var_24['id']] : $_var_59['default'];
+							} else {
+								$_var_35 += isset($commissions['level2']) ? $commissions['level2'] : 0;
+							}
+						}
+					}
+					if (in_array('lock', $_var_22)) {
+						$_var_66 = pdo_fetchall('select og.commission2,og.commissions  from ' . tablename('ewei_shop_order_goods') . ' og ' . ' left join  ' . tablename('ewei_shop_order') . ' o on o.id = og.orderid ' . ' where o.agentid in( ' . implode(',', array_keys($_var_62)) . ")  and ({$_var_25} - o.createtime <= {$_var_26}) and og.status2=0 and o.status>=3 and og.nocommission=0 and o.uniacid=:uniacid", array(':uniacid' => $_W['uniacid']));
+						foreach ($_var_66 as $_var_58) {
+							$commissions = iunserializer($_var_58['commissions']);
+							$_var_59 = iunserializer($_var_58['commission2']);
+							if (empty($commissions)) {
+								$_var_38 += isset($_var_59['level' . $_var_24['id']]) ? $_var_59['level' . $_var_24['id']] : $_var_59['default'];
+							} else {
+								$_var_38 += isset($commissions['level2']) ? $commissions['level2'] : 0;
+							}
+						}
+					}
+					if (in_array('apply', $_var_22)) {
+						$_var_67 = pdo_fetchall('select og.commission2,og.commissions  from ' . tablename('ewei_shop_order_goods') . ' og ' . ' left join  ' . tablename('ewei_shop_order') . ' o on o.id = og.orderid ' . ' where o.agentid in( ' . implode(',', array_keys($_var_62)) . ')  and o.status>=3 and og.status2=1 and og.nocommission=0 and o.uniacid=:uniacid', array(':uniacid' => $_W['uniacid']));
+						foreach ($_var_67 as $_var_58) {
+							$commissions = iunserializer($_var_58['commissions']);
+							$_var_59 = iunserializer($_var_58['commission2']);
+							if (empty($commissions)) {
+								$_var_36 += isset($_var_59['level' . $_var_24['id']]) ? $_var_59['level' . $_var_24['id']] : $_var_59['default'];
+							} else {
+								$_var_36 += isset($commissions['level2']) ? $commissions['level2'] : 0;
+							}
+						}
+					}
+					if (in_array('check', $_var_22)) {
+						$_var_68 = pdo_fetchall('select og.commission2,og.commissions  from ' . tablename('ewei_shop_order_goods') . ' og ' . ' left join  ' . tablename('ewei_shop_order') . ' o on o.id = og.orderid ' . ' where o.agentid in( ' . implode(',', array_keys($_var_62)) . ')  and o.status>=3 and og.status2=2 and og.nocommission=0 and o.uniacid=:uniacid', array(':uniacid' => $_W['uniacid']));
+						foreach ($_var_68 as $_var_58) {
+							$commissions = iunserializer($_var_58['commissions']);
+							$_var_59 = iunserializer($_var_58['commission2']);
+							if (empty($commissions)) {
+								$_var_37 += isset($_var_59['level' . $_var_24['id']]) ? $_var_59['level' . $_var_24['id']] : $_var_59['default'];
+							} else {
+								$_var_37 += isset($commissions['level2']) ? $commissions['level2'] : 0;
+							}
+						}
+					}
+					if (in_array('pay', $_var_22)) {
+						$_var_68 = pdo_fetchall('select og.commission2,og.commissions  from ' . tablename('ewei_shop_order_goods') . ' og ' . ' left join  ' . tablename('ewei_shop_order') . ' o on o.id = og.orderid ' . ' where o.agentid in( ' . implode(',', array_keys($_var_62)) . ')  and o.status>=3 and og.status2=3 and og.nocommission=0 and o.uniacid=:uniacid', array(':uniacid' => $_W['uniacid']));
+						foreach ($_var_68 as $_var_58) {
+							$commissions = iunserializer($_var_58['commissions']);
+							$_var_59 = iunserializer($_var_58['commission2']);
+							if (empty($commissions)) {
+								$_var_39 += isset($_var_59['level' . $_var_24['id']]) ? $_var_59['level' . $_var_24['id']] : $_var_59['default'];
+							} else {
+								$_var_39 += isset($commissions['level2']) ? $commissions['level2'] : 0;
+							}
+						}
+					}
+					$_var_69 = pdo_fetchall('select id from ' . tablename('ewei_shop_member') . ' where agentid in( ' . implode(',', array_keys($_var_62)) . ') and isagent=1 and status=1 and uniacid=:uniacid', array(':uniacid' => $_W['uniacid']), 'id');
+					$_var_41 = count($_var_69);
+					$_var_27 += $_var_41;
+
+					$level2_dealers = pdo_fetchall('select id from ' . tablename('ewei_shop_member') . ' where agentid in( ' . implode(',', array_keys($_var_62)) . ') and level>0 and isagent=1 and status=1 and uniacid=:uniacid', array(':uniacid' => $_W['uniacid']), 'id');
+					$level2_dealer = count($level2_dealers);
+					$dealercount += $level2_dealer;
+				}
+			}
+			if ($level >= 3) {
+				if ($_var_41 > 0) {
+					if (in_array('ordercount0', $_var_22)) {
+						$_var_70 = pdo_fetch('select sum(og.realprice) as ordermoney,count(distinct og.orderid) as ordercount from ' . tablename('ewei_shop_order') . ' o ' . ' left join  ' . tablename('ewei_shop_order_goods') . ' og on og.orderid=o.id ' . ' where o.agentid in( ' . implode(',', array_keys($_var_69)) . ')  and o.status>=0 and og.status3>=0 and og.nocommission=0 and o.uniacid=:uniacid limit 1', array(':uniacid' => $_W['uniacid']));
+						$_var_45 += $_var_70['ordercount'];
+						$_var_28 += $_var_70['ordercount'];
+						$_var_29 += $_var_70['ordermoney'];
+					}
+					if (in_array('ordercount', $_var_22)) {
+						$_var_70 = pdo_fetch('select sum(og.realprice) as ordermoney,count(distinct og.orderid) as ordercount from ' . tablename('ewei_shop_order') . ' o ' . ' left join  ' . tablename('ewei_shop_order_goods') . ' og on og.orderid=o.id ' . ' where o.agentid in( ' . implode(',', array_keys($_var_69)) . ')  and o.status>=1 and og.status3>=0 and og.nocommission=0 and o.uniacid=:uniacid limit 1', array(':uniacid' => $_W['uniacid']));
+						$_var_48 += $_var_70['ordercount'];
+						$_var_30 += $_var_70['ordercount'];
+						$_var_31 += $_var_70['ordermoney'];
+					}
+					if (in_array('ordercount3', $_var_22)) {
+						$_var_71 = pdo_fetch('select sum(og.realprice) as ordermoney,count(distinct og.orderid) as ordercount from ' . tablename('ewei_shop_order') . ' o ' . ' left join  ' . tablename('ewei_shop_order_goods') . ' og on og.orderid=o.id ' . ' where o.agentid in( ' . implode(',', array_keys($_var_69)) . ')  and o.status>=3 and og.status3>=0 and og.nocommission=0 and o.uniacid=:uniacid limit 1', array(':uniacid' => $_W['uniacid']));
+						$_var_51 += $_var_71['ordercount'];
+						$_var_32 += $_var_71['ordercount'];
+						$_var_33 += $_var_71['ordermoney'];
+						$_var_54 += $_var_70['ordermoney'];
+					}
+					if (in_array('total', $_var_22)) {
+						$_var_72 = pdo_fetchall('select og.commission3,og.commissions  from ' . tablename('ewei_shop_order_goods') . ' og ' . ' left join  ' . tablename('ewei_shop_order') . ' o on o.id = og.orderid' . ' where o.agentid in( ' . implode(',', array_keys($_var_69)) . ')  and o.status>=1 and og.nocommission=0 and o.uniacid=:uniacid', array(':uniacid' => $_W['uniacid']));
+						foreach ($_var_72 as $_var_58) {
+							$commissions = iunserializer($_var_58['commissions']);
+							$_var_59 = iunserializer($_var_58['commission3']);
+							if (empty($commissions)) {
+								$_var_34 += isset($_var_59['level' . $_var_24['id']]) ? $_var_59['level' . $_var_24['id']] : $_var_59['default'];
+							} else {
+								$_var_34 += isset($commissions['level3']) ? $commissions['level3'] : 0;
+							}
+						}
+					}
+					if (in_array('ok', $_var_22)) {
+						$_var_72 = pdo_fetchall('select og.commission3,og.commissions  from ' . tablename('ewei_shop_order_goods') . ' og ' . ' left join  ' . tablename('ewei_shop_order') . ' o on o.id = og.orderid' . ' where o.agentid in( ' . implode(',', array_keys($_var_69)) . ")  and ({$_var_25} - o.createtime > {$_var_26}) and o.status>=3 and og.status3=0  and og.nocommission=0 and o.uniacid=:uniacid", array(':uniacid' => $_W['uniacid']));
+						foreach ($_var_72 as $_var_58) {
+							$commissions = iunserializer($_var_58['commissions']);
+							$_var_59 = iunserializer($_var_58['commission3']);
+							if (empty($commissions)) {
+								$_var_35 += isset($_var_59['level' . $_var_24['id']]) ? $_var_59['level' . $_var_24['id']] : $_var_59['default'];
+							} else {
+								$_var_35 += isset($commissions['level3']) ? $commissions['level3'] : 0;
+							}
+						}
+					}
+					if (in_array('lock', $_var_22)) {
+						$_var_73 = pdo_fetchall('select og.commission3,og.commissions  from ' . tablename('ewei_shop_order_goods') . ' og ' . ' left join  ' . tablename('ewei_shop_order') . ' o on o.id = og.orderid' . ' where o.agentid in( ' . implode(',', array_keys($_var_69)) . ")  and o.status>=3 and ({$_var_25} - o.createtime > {$_var_26}) and og.status3=0  and og.nocommission=0 and o.uniacid=:uniacid", array(':uniacid' => $_W['uniacid']));
+						foreach ($_var_73 as $_var_58) {
+							$commissions = iunserializer($_var_58['commissions']);
+							$_var_59 = iunserializer($_var_58['commission3']);
+							if (empty($commissions)) {
+								$_var_38 += isset($_var_59['level' . $_var_24['id']]) ? $_var_59['level' . $_var_24['id']] : $_var_59['default'];
+							} else {
+								$_var_38 += isset($commissions['level3']) ? $commissions['level3'] : 0;
+							}
+						}
+					}
+					if (in_array('apply', $_var_22)) {
+						$_var_74 = pdo_fetchall('select og.commission3,og.commissions  from ' . tablename('ewei_shop_order_goods') . ' og ' . ' left join  ' . tablename('ewei_shop_order') . ' o on o.id = og.orderid' . ' where o.agentid in( ' . implode(',', array_keys($_var_69)) . ')  and o.status>=3 and og.status3=1 and og.nocommission=0 and o.uniacid=:uniacid', array(':uniacid' => $_W['uniacid']));
+						foreach ($_var_74 as $_var_58) {
+							$commissions = iunserializer($_var_58['commissions']);
+							$_var_59 = iunserializer($_var_58['commission3']);
+							if (empty($commissions)) {
+								$_var_36 += isset($_var_59['level' . $_var_24['id']]) ? $_var_59['level' . $_var_24['id']] : $_var_59['default'];
+							} else {
+								$_var_36 += isset($commissions['level3']) ? $commissions['level3'] : 0;
+							}
+						}
+					}
+					if (in_array('check', $_var_22)) {
+						$_var_75 = pdo_fetchall('select og.commission3,og.commissions  from ' . tablename('ewei_shop_order_goods') . ' og ' . ' left join  ' . tablename('ewei_shop_order') . ' o on o.id = og.orderid' . ' where o.agentid in( ' . implode(',', array_keys($_var_69)) . ')  and o.status>=3 and og.status3=2 and og.nocommission=0 and o.uniacid=:uniacid', array(':uniacid' => $_W['uniacid']));
+						foreach ($_var_75 as $_var_58) {
+							$commissions = iunserializer($_var_58['commissions']);
+							$_var_59 = iunserializer($_var_58['commission3']);
+							if (empty($commissions)) {
+								$_var_37 += isset($_var_59['level' . $_var_24['id']]) ? $_var_59['level' . $_var_24['id']] : $_var_59['default'];
+							} else {
+								$_var_37 += isset($commissions['level3']) ? $commissions['level3'] : 0;
+							}
+						}
+					}
+					if (in_array('pay', $_var_22)) {
+						$_var_75 = pdo_fetchall('select og.commission3,og.commissions  from ' . tablename('ewei_shop_order_goods') . ' og ' . ' left join  ' . tablename('ewei_shop_order') . ' o on o.id = og.orderid' . ' where o.agentid in( ' . implode(',', array_keys($_var_69)) . ')  and o.status>=3 and og.status3=3 and og.nocommission=0 and o.uniacid=:uniacid', array(':uniacid' => $_W['uniacid']));
+						foreach ($_var_75 as $_var_58) {
+							$commissions = iunserializer($_var_58['commissions']);
+							$_var_59 = iunserializer($_var_58['commission3']);
+							if (empty($commissions)) {
+								$_var_39 += isset($_var_59['level' . $_var_24['id']]) ? $_var_59['level' . $_var_24['id']] : $_var_59['default'];
+							} else {
+								$_var_39 += isset($commissions['level3']) ? $commissions['level3'] : 0;
+							}
+						}
+					}
+					$_var_76 = pdo_fetchall('select id from ' . tablename('ewei_shop_member') . ' where uniacid=:uniacid and agentid in( ' . implode(',', array_keys($_var_69)) . ') and isagent=1 and status=1', array(':uniacid' => $_W['uniacid']), 'id');
+					$_var_42 = count($_var_76);
+					$_var_27 += $_var_42;
+
+					$level3_dealers = pdo_fetchall('select id from ' . tablename('ewei_shop_member') . ' where uniacid=:uniacid and agentid in( ' . implode(',', array_keys($_var_69)) . ') and isagent=1 and status=1', array(':uniacid' => $_W['uniacid']), 'id');
+					$level3_dealer = count($level3_dealers);
+					$dealercount += $level3_dealer;
+				}
+			}
+			$_var_23['agentcount'] = $_var_27;
+			$_var_23['ordercount'] = $_var_30;
+			$_var_23['ordermoney'] = $_var_31;
+			$_var_23['order1'] = $_var_46;
+			$_var_23['order2'] = $_var_47;
+			$_var_23['order3'] = $_var_48;
+			$_var_23['ordercount3'] = $_var_32;
+			$_var_23['ordermoney3'] = $_var_33;
+			$_var_23['order13'] = $_var_49;
+			$_var_23['order23'] = $_var_50;
+			$_var_23['order33'] = $_var_51;
+			$_var_23['order13money'] = $_var_52;
+			$_var_23['order23money'] = $_var_53;
+			$_var_23['order33money'] = $_var_54;
+			$_var_23['ordercount0'] = $_var_28;
+			$_var_23['ordermoney0'] = $_var_29;
+			$_var_23['order10'] = $_var_43;
+			$_var_23['order20'] = $_var_44;
+			$_var_23['order30'] = $_var_45;
+			$_var_23['commission_total'] = round($_var_34, 2);
+			$_var_23['commission_ok'] = round($_var_35, 2);
+			$_var_23['commission_lock'] = round($_var_38, 2);
+			$_var_23['commission_apply'] = round($_var_36, 2);
+			$_var_23['commission_check'] = round($_var_37, 2);
+			$_var_23['commission_pay'] = round($_var_39, 2);
+			$_var_23['level1'] = $_var_40;
+			$_var_23['level1_agentids'] = $_var_62;
+			$_var_23['level2'] = $_var_41;
+			$_var_23['level2_agentids'] = $_var_69;
+			$_var_23['level3'] = $_var_42;
+			$_var_23['level3_agentids'] = $_var_76;
+
+			$_var_23['dealercount'] = $dealercount;
+			$_var_23['dealerlevel1'] = $level1_dealer;
+			$_var_23['level1_dealers'] = $level1_dealers;
+			$_var_23['dealerlevel2'] = $level2_dealer;
+			$_var_23['level2_dealers'] = $level2_dealers;
+			$_var_23['dealerlevel3'] = $level3_dealer;
+			$_var_23['level3_dealers'] = $level3_dealers;
+
+			$_var_23['agenttime'] = date('Y-m-d H:i', $_var_23['agenttime']);
+			return $_var_23;
+		}
+
+		public function getAgents($orderid = 0)
+		{
+			global $_W, $_GPC;
+			$_var_77 = array();
+			$_var_78 = pdo_fetch('select id,agentid,openid from ' . tablename('ewei_shop_order') . ' where id=:id and uniacid=:uniacid limit 1', array(':id' => $orderid, ':uniacid' => $_W['uniacid']));
+			if (empty($_var_78)) {
+				return $_var_77;
+			}
+			$m1 = m('member')->getMember($_var_78['agentid']);
+			if (!empty($m1) && $m1['isagent'] == 1 && $m1['status'] == 1) {
+				$_var_77[] = $m1;
+				if (!empty($m1['agentid'])) {
+					$m2 = m('member')->getMember($m1['agentid']);
+					if (!empty($m2) && $m2['isagent'] == 1 && $m2['status'] == 1) {
+						$_var_77[] = $m2;
+						if (!empty($m2['agentid'])) {
+							$m3 = m('member')->getMember($m2['agentid']);
+							if (!empty($m3) && $m3['isagent'] == 1 && $m3['status'] == 1) {
+								$_var_77[] = $m3;
+							}
+						}
+					}
+				}
+			}
+			return $_var_77;
+		}
+
+		public function isAgent($_var_21)
+		{
+			if (empty($_var_21)) {
+				return false;
+			}
+			if (is_array($_var_21)) {
+				return $_var_21['isagent'] == 1 && $_var_21['status'] == 1;
+			}
+			$_var_23 = m('member')->getMember($_var_21);
+			return $_var_23['isagent'] == 1 && $_var_23['status'] == 1;
+		}
+
+		public function getCommission($goods)
+		{
+			global $_W;
+			$set = $this->getSet();
+			$_var_59 = 0;
+			if ($goods['hascommission'] == 1) {
+				$_var_59 = $set['level'] >= 1 ? ($goods['commission1_rate'] > 0 ? ($goods['commission1_rate'] * $goods['marketprice'] / 100) : $goods['commission1_pay']) : 0;
+			} else {
+				$_var_21 = m('user')->getOpenid();
+				$level = $this->getLevel($_var_21);
+				if (!empty($level)) {
+					$_var_59 = $set['level'] >= 1 ? round($level['commission1'] * $goods['marketprice'] / 100, 2) : 0;
+				} else {
+					$_var_59 = $set['level'] >= 1 ? round($set['commission1'] * $goods['marketprice'] / 100, 2) : 0;
+				}
+			}
+			return $_var_59;
+		}
+
+		public function createMyShopQrcode($_var_79 = 0, $_var_80 = 0)
+		{
+			global $_W;
+			$_var_81 = IA_ROOT . '/addons/ewei_shop/data/qrcode/' . $_W['uniacid'];
+			if (!is_dir($_var_81)) {
+				load()->func('file');
+				mkdirs($_var_81);
+			}
+			$_var_82 = $_W['siteroot'] . 'app/index.php?i=' . $_W['uniacid'] . '&c=entry&m=ewei_shop&do=plugin&p=commission&method=myshop&mid=' . $_var_79;
+			if (!empty($_var_80)) {
+				$_var_82 .= '&posterid=' . $_var_80;
+			}
+			$_var_83 = 'myshop_' . $_var_80 . '_' . $_var_79 . '.png';
+			$_var_84 = $_var_81 . '/' . $_var_83;
+			if (!is_file($_var_84)) {
+				require IA_ROOT . '/framework/library/qrcode/phpqrcode.php';
+				QRcode::png($_var_82, $_var_84, QR_ECLEVEL_H, 4);
+			}
+			return $_W['siteroot'] . 'addons/ewei_shop/data/qrcode/' . $_W['uniacid'] . '/' . $_var_83;
+		}
+
+		private function createImage($_var_82)
+		{
+			load()->func('communication');
+			$_var_85 = ihttp_request($_var_82);
+			return imagecreatefromstring($_var_85['content']);
+		}
+
+		public function createGoodsImage($goods, $_var_86)
+		{
+			global $_W, $_GPC;
+			$goods = set_medias($goods, 'thumb');
+			$_var_21 = m('user')->getOpenid();
+			$_var_87 = m('member')->getMember($_var_21);
+			if ($_var_87['isagent'] == 1 && $_var_87['status'] == 1) {
+				$_var_88 = $_var_87;
+			} else {
+				$_var_79 = intval($_GPC['mid']);
+				if (!empty($_var_79)) {
+					$_var_88 = m('member')->getMember($_var_79);
+				}
+			}
+			$_var_81 = IA_ROOT . '/addons/ewei_shop/data/poster/' . $_W['uniacid'] . '/';
+			if (!is_dir($_var_81)) {
+				load()->func('file');
+				mkdirs($_var_81);
+			}
+			$_var_89 = empty($goods['commission_thumb']) ? $goods['thumb'] : tomedia($goods['commission_thumb']);
+			$_var_90 = md5(json_encode(array('id' => $goods['id'], 'marketprice' => $goods['marketprice'], 'productprice' => $goods['productprice'], 'img' => $_var_89, 'openid' => $_var_21, 'version' => 4)));
+			$_var_83 = $_var_90 . '.jpg';
+			if (!is_file($_var_81 . $_var_83)) {
+				set_time_limit(0);
+				$_var_91 = IA_ROOT . '/addons/ewei_shop/static/fonts/msyh.ttf';
+				$_var_92 = imagecreatetruecolor(640, 1225);
+				$_var_93 = imagecreatefromjpeg(IA_ROOT . '/addons/ewei_shop/plugin/commission/images/poster.jpg');
+				imagecopy($_var_92, $_var_93, 0, 0, 0, 0, 640, 1225);
+				imagedestroy($_var_93);
+				$_var_94 = preg_replace('/\\/0$/i', '/96', $_var_88['avatar']);
+				$_var_95 = $this->createImage($_var_94);
+				$_var_96 = imagesx($_var_95);
+				$_var_97 = imagesy($_var_95);
+				imagecopyresized($_var_92, $_var_95, 24, 32, 0, 0, 88, 88, $_var_96, $_var_97);
+				imagedestroy($_var_95);
+				$_var_98 = $this->createImage($_var_89);
+				$_var_96 = imagesx($_var_98);
+				$_var_97 = imagesy($_var_98);
+				imagecopyresized($_var_92, $_var_98, 0, 160, 0, 0, 640, 640, $_var_96, $_var_97);
+				imagedestroy($_var_98);
+				$_var_99 = imagecreatetruecolor(640, 127);
+				imagealphablending($_var_99, false);
+				imagesavealpha($_var_99, true);
+				$_var_100 = imagecolorallocatealpha($_var_99, 0, 0, 0, 25);
+				imagefill($_var_99, 0, 0, $_var_100);
+				imagecopy($_var_92, $_var_99, 0, 678, 0, 0, 640, 127);
+				imagedestroy($_var_99);
+				$_var_101 = tomedia(m('qrcode')->createGoodsQrcode($_var_88['id'], $goods['id']));
+				$_var_102 = $this->createImage($_var_101);
+				$_var_96 = imagesx($_var_102);
+				$_var_97 = imagesy($_var_102);
+				imagecopyresized($_var_92, $_var_102, 50, 835, 0, 0, 250, 250, $_var_96, $_var_97);
+				imagedestroy($_var_102);
+				$_var_103 = imagecolorallocate($_var_92, 0, 3, 51);
+				$_var_104 = imagecolorallocate($_var_92, 240, 102, 0);
+				$_var_105 = imagecolorallocate($_var_92, 255, 255, 255);
+				$_var_106 = imagecolorallocate($_var_92, 255, 255, 0);
+				$_var_107 = 'æˆ‘æ˜¯';
+				imagettftext($_var_92, 20, 0, 150, 70, $_var_103, $_var_91, $_var_107);
+				imagettftext($_var_92, 20, 0, 210, 70, $_var_104, $_var_91, $_var_88['nickname']);
+				$_var_108 = 'æˆ‘è¦ä¸º';
+				imagettftext($_var_92, 20, 0, 150, 105, $_var_103, $_var_91, $_var_108);
+				$_var_109 = $_var_86['name'];
+				imagettftext($_var_92, 20, 0, 240, 105, $_var_104, $_var_91, $_var_109);
+				$_var_110 = imagettfbbox(20, 0, $_var_91, $_var_109);
+				$_var_111 = $_var_110[4] - $_var_110[6];
+				$_var_112 = 'ä»£è¨€';
+				imagettftext($_var_92, 20, 0, 240 + $_var_111 + 10, 105, $_var_103, $_var_91, $_var_112);
+				$_var_113 = mb_substr($goods['title'], 0, 50, 'utf-8');
+				imagettftext($_var_92, 20, 0, 30, 730, $_var_105, $_var_91, $_var_113);
+				$_var_114 = 'ï¿¥' . number_format($goods['marketprice'], 2);
+				imagettftext($_var_92, 25, 0, 25, 780, $_var_106, $_var_91, $_var_114);
+				$_var_110 = imagettfbbox(26, 0, $_var_91, $_var_114);
+				$_var_111 = $_var_110[4] - $_var_110[6];
+				if ($goods['productprice'] > 0) {
+					$_var_115 = 'ï¿¥' . number_format($goods['productprice'], 2);
+					imagettftext($_var_92, 22, 0, 25 + $_var_111 + 10, 780, $_var_105, $_var_91, $_var_115);
+					$_var_116 = 25 + $_var_111 + 10;
+					$_var_110 = imagettfbbox(22, 0, $_var_91, $_var_115);
+					$_var_111 = $_var_110[4] - $_var_110[6];
+					imageline($_var_92, $_var_116, 770, $_var_116 + $_var_111 + 20, 770, $_var_105);
+					imageline($_var_92, $_var_116, 771.5, $_var_116 + $_var_111 + 20, 771, $_var_105);
+				}
+				imagejpeg($_var_92, $_var_81 . $_var_83);
+				imagedestroy($_var_92);
+			}
+			return $_W['siteroot'] . 'addons/ewei_shop/data/poster/' . $_W['uniacid'] . '/' . $_var_83;
+		}
+
+		public function createShopImage($_var_86)
+		{
+			global $_W, $_GPC;
+			$_var_86 = set_medias($_var_86, 'signimg');
+			$_var_81 = IA_ROOT . '/addons/ewei_shop/data/poster/' . $_W['uniacid'] . '/';
+			if (!is_dir($_var_81)) {
+				load()->func('file');
+				mkdirs($_var_81);
+			}
+			$_var_79 = intval($_GPC['mid']);
+			$_var_21 = m('user')->getOpenid();
+			$_var_87 = m('member')->getMember($_var_21);
+			if ($_var_87['isagent'] == 1 && $_var_87['status'] == 1) {
+				$_var_88 = $_var_87;
+			} else {
+				$_var_79 = intval($_GPC['mid']);
+				if (!empty($_var_79)) {
+					$_var_88 = m('member')->getMember($_var_79);
+				}
+			}
+			$_var_90 = md5(json_encode(array('openid' => $_var_21, 'signimg' => $_var_86['signimg'], 'version' => 4)));
+			$_var_83 = $_var_90 . '.jpg';
+			if (!is_file($_var_81 . $_var_83)) {
+				set_time_limit(0);
+				@ini_set('memory_limit', '256M');
+				$_var_91 = IA_ROOT . '/addons/ewei_shop/static/fonts/msyh.ttf';
+				$_var_92 = imagecreatetruecolor(640, 1225);
+				$_var_103 = imagecolorallocate($_var_92, 0, 3, 51);
+				$_var_104 = imagecolorallocate($_var_92, 240, 102, 0);
+				$_var_105 = imagecolorallocate($_var_92, 255, 255, 255);
+				$_var_106 = imagecolorallocate($_var_92, 255, 255, 0);
+				$_var_93 = imagecreatefromjpeg(IA_ROOT . '/addons/ewei_shop/plugin/commission/images/poster.jpg');
+				imagecopy($_var_92, $_var_93, 0, 0, 0, 0, 640, 1225);
+				imagedestroy($_var_93);
+				$_var_94 = preg_replace('/\\/0$/i', '/96', $_var_88['avatar']);
+				$_var_95 = $this->createImage($_var_94);
+				$_var_96 = imagesx($_var_95);
+				$_var_97 = imagesy($_var_95);
+				imagecopyresized($_var_92, $_var_95, 24, 32, 0, 0, 88, 88, $_var_96, $_var_97);
+				imagedestroy($_var_95);
+				$_var_98 = $this->createImage($_var_86['signimg']);
+				$_var_96 = imagesx($_var_98);
+				$_var_97 = imagesy($_var_98);
+				imagecopyresized($_var_92, $_var_98, 0, 160, 0, 0, 640, 640, $_var_96, $_var_97);
+				imagedestroy($_var_98);
+				$_var_117 = tomedia($this->createMyShopQrcode($_var_88['id']));
+				$_var_102 = $this->createImage($_var_117);
+				$_var_96 = imagesx($_var_102);
+				$_var_97 = imagesy($_var_102);
+				imagecopyresized($_var_92, $_var_102, 50, 835, 0, 0, 250, 250, $_var_96, $_var_97);
+				imagedestroy($_var_102);
+				$_var_107 = 'æˆ‘æ˜¯';
+				imagettftext($_var_92, 20, 0, 150, 70, $_var_103, $_var_91, $_var_107);
+				imagettftext($_var_92, 20, 0, 210, 70, $_var_104, $_var_91, $_var_88['nickname']);
+				$_var_108 = 'æˆ‘è¦ä¸º';
+				imagettftext($_var_92, 20, 0, 150, 105, $_var_103, $_var_91, $_var_108);
+				$_var_109 = $_var_86['name'];
+				imagettftext($_var_92, 20, 0, 240, 105, $_var_104, $_var_91, $_var_109);
+				$_var_110 = imagettfbbox(20, 0, $_var_91, $_var_109);
+				$_var_111 = $_var_110[4] - $_var_110[6];
+				$_var_112 = 'ä»£è¨€';
+				imagettftext($_var_92, 20, 0, 240 + $_var_111 + 10, 105, $_var_103, $_var_91, $_var_112);
+				imagejpeg($_var_92, $_var_81 . $_var_83);
+				imagedestroy($_var_92);
+			}
+			return $_W['siteroot'] . 'addons/ewei_shop/data/poster/' . $_W['uniacid'] . '/' . $_var_83;
+		}
+
+		public function checkAgent()
+		{
+			global $_W, $_GPC;
+			$set = $this->getSet();
+			if (empty($set['level'])) {
+				return;
+			}
+			$_var_21 = m('user')->getOpenid();
+			if (empty($_var_21)) {
+				return;
+			}
+			$_var_23 = m('member')->getMember($_var_21);
+			if (empty($_var_23)) {
+				return;
+			}
+			$_var_118 = false;
+			$_var_79 = intval($_GPC['mid']);
+			if (!empty($_var_79)) {
+				$_var_118 = m('member')->getMember($_var_79);
+			}
+			$_var_119 = !empty($_var_118) && $_var_118['isagent'] == 1 && $_var_118['status'] == 1;
+			if ($_var_119) {
+				if ($_var_118['openid'] != $_var_21) {
+					$_var_120 = pdo_fetchcolumn('select count(*) from ' . tablename('ewei_shop_commission_clickcount') . ' where uniacid=:uniacid and openid=:openid and from_openid=:from_openid limit 1', array(':uniacid' => $_W['uniacid'], ':openid' => $_var_21, ':from_openid' => $_var_118['openid']));
+					if ($_var_120 <= 0) {
+						$_var_121 = array('uniacid' => $_W['uniacid'], 'openid' => $_var_21, 'from_openid' => $_var_118['openid'], 'clicktime' => time());
+						pdo_insert('ewei_shop_commission_clickcount', $_var_121);
+						pdo_update('ewei_shop_member', array('clickcount' => $_var_118['clickcount'] + 1), array('uniacid' => $_W['uniacid'], 'id' => $_var_118['id']));
+					}
+				}
+			}
+			if ($_var_23['isagent'] == 1) {
+				return;
+			}
+			if ($_var_122 == 0) {
+				$_var_123 = pdo_fetchcolumn('select count(*) from ' . tablename('ewei_shop_member') . ' where id<>:id and uniacid=:uniacid limit 1', array(':uniacid' => $_W['uniacid'], ':id' => $_var_23['id']));
+				if ($_var_123 <= 0) {
+					pdo_update('ewei_shop_member', array('isagent' => 1, 'status' => 1, 'agenttime' => time(), 'agentblack' => 0), array('uniacid' => $_W['uniacid'], 'id' => $_var_23['id']));
+					return;
+				}
+			}
+			$_var_25 = time();
+			$_var_124 = intval($set['become_child']);
+			if ($_var_119 && empty($_var_23['agentid'])) {
+				if ($_var_23['id'] != $_var_118['id']) {
+					if (empty($_var_124)) {
+						if (empty($_var_23['fixagentid'])) {
+							pdo_update('ewei_shop_member', array('agentid' => $_var_118['id'], 'childtime' => $_var_25), array('uniacid' => $_W['uniacid'], 'id' => $_var_23['id']));
+							$this->sendMessage($_var_118['openid'], array('nickname' => $_var_23['nickname'], 'childtime' => $_var_25), TM_COMMISSION_AGENT_NEW);
+							$this->upgradeLevelByAgent($_var_118['id']);
+						}
+					} else {
+						pdo_update('ewei_shop_member', array('inviter' => $_var_118['id']), array('uniacid' => $_W['uniacid'], 'id' => $_var_23['id']));
+					}
+				}
+			}
+			$_var_125 = intval($set['become_check']);
+			if (empty($set['become'])) {
+				if (empty($_var_23['agentblack'])) {
+					pdo_update('ewei_shop_member', array('isagent' => 1, 'status' => $_var_125, 'agenttime' => $_var_125 == 1 ? $_var_25 : 0), array('uniacid' => $_W['uniacid'], 'id' => $_var_23['id']));
+					if ($_var_125 == 1) {
+						$this->sendMessage($_var_21, array('nickname' => $_var_23['nickname'], 'agenttime' => $_var_25), TM_COMMISSION_BECOME);
+						if ($_var_119) {
+							$this->upgradeLevelByAgent($_var_118['id']);
+						}
+					}
+				}
+			}
+		}
+
+		public function checkOrderConfirm($orderid = '0')
+		{
+			global $_W, $_GPC;
+			if (empty($orderid)) {
+				return;
+			}
+			$set = $this->getSet();
+			if (empty($set['level'])) {
+				return;
+			}
+			$_var_78 = pdo_fetch('select id,openid,ordersn,goodsprice,agentid,paytime from ' . tablename('ewei_shop_order') . ' where id=:id and status>=0 and uniacid=:uniacid limit 1', array(':id' => $orderid, ':uniacid' => $_W['uniacid']));
+			if (empty($_var_78)) {
+				return;
+			}
+			$_var_21 = $_var_78['openid'];
+			$_var_23 = m('member')->getMember($_var_21);
+			if (empty($_var_23)) {
+				return;
+			}
+			$_var_124 = intval($set['become_child']);
+			$_var_118 = false;
+			if (empty($_var_124)) {
+				$_var_118 = m('member')->getMember($_var_23['agentid']);
+			} else {
+				$_var_118 = m('member')->getMember($_var_23['inviter']);
+			}
+			$_var_119 = !empty($_var_118) && $_var_118['isagent'] == 1 && $_var_118['status'] == 1;
+			$_var_25 = time();
+			$_var_124 = intval($set['become_child']);
+			if ($_var_119) {
+				if ($_var_124 == 1) {
+					if (empty($_var_23['agentid']) && $_var_23['id'] != $_var_118['id']) {
+						if (empty($_var_23['fixagentid'])) {
+							$_var_23['agentid'] = $_var_118['id'];
+							pdo_update('ewei_shop_member', array('agentid' => $_var_118['id'], 'childtime' => $_var_25), array('uniacid' => $_W['uniacid'], 'id' => $_var_23['id']));
+							$this->sendMessage($_var_118['openid'], array('nickname' => $_var_23['nickname'], 'childtime' => $_var_25), TM_COMMISSION_AGENT_NEW);
+							$this->upgradeLevelByAgent($_var_118['id']);
+						}
+					}
+				}
+			}
+			$agentid = $_var_23['agentid'];
+			if ($_var_23['isagent'] == 1 && $_var_23['status'] == 1) {
+				if (!empty($set['selfbuy'])) {
+					$agentid = $_var_23['id'];
+				}
+			}
+			if (!empty($agentid)) {
+				pdo_update('ewei_shop_order', array('agentid' => $agentid), array('id' => $orderid));
+			}
+			$this->calculate($orderid);
+		}
+
+		public function checkOrderPay($orderid = '0')
+		{
+			global $_W, $_GPC;
+			if (empty($orderid)) {
+				return;
+			}
+			$set = $this->getSet();
+			if (empty($set['level'])) {
+				return;
+			}
+			$_var_78 = pdo_fetch('select id,openid,ordersn,goodsprice,agentid,paytime from ' . tablename('ewei_shop_order') . ' where id=:id and status>=1 and uniacid=:uniacid limit 1', array(':id' => $orderid, ':uniacid' => $_W['uniacid']));
+			if (empty($_var_78)) {
+				return;
+			}
+			$_var_21 = $_var_78['openid'];
+			$_var_23 = m('member')->getMember($_var_21);
+			if (empty($_var_23)) {
+				return;
+			}
+			$_var_124 = intval($set['become_child']);
+			$_var_118 = false;
+			if (empty($_var_124)) {
+				$_var_118 = m('member')->getMember($_var_23['agentid']);
+			} else {
+				$_var_118 = m('member')->getMember($_var_23['inviter']);
+			}
+			$_var_119 = !empty($_var_118) && $_var_118['isagent'] == 1 && $_var_118['status'] == 1;
+			$_var_25 = time();
+			$_var_124 = intval($set['become_child']);
+			if ($_var_119) {
+				if ($_var_124 == 2) {
+					if (empty($_var_23['agentid']) && $_var_23['id'] != $_var_118['id']) {
+						if (empty($_var_23['fixagentid'])) {
+							$_var_23['agentid'] = $_var_118['id'];
+							pdo_update('ewei_shop_member', array('agentid' => $_var_118['id'], 'childtime' => $_var_25), array('uniacid' => $_W['uniacid'], 'id' => $_var_23['id']));
+							$this->sendMessage($_var_118['openid'], array('nickname' => $_var_23['nickname'], 'childtime' => $_var_25), TM_COMMISSION_AGENT_NEW);
+							$this->upgradeLevelByAgent($_var_118['id']);
+							if (empty($_var_78['agentid'])) {
+								$_var_78['agentid'] = $_var_118['id'];
+								pdo_update('ewei_shop_order', array('agentid' => $_var_118['id']), array('id' => $orderid));
+								$this->calculate($orderid);
+							}
+						}
+					}
+				}
+			}
+			$_var_126 = $_var_23['isagent'] == 1 && $_var_23['status'] == 1;
+			if (!$_var_126) {
+				if (intval($set['become']) == 4 && !empty($set['become_goodsid'])) {
+					$_var_127 = pdo_fetchall('select goodsid from ' . tablename('ewei_shop_order_goods') . ' where orderid=:orderid and uniacid=:uniacid  ', array(':uniacid' => $_W['uniacid'], ':orderid' => $_var_78['id']), 'goodsid');
+					if (in_array($set['become_goodsid'], array_keys($_var_127))) {
+						if (empty($_var_23['agentblack'])) {
+							pdo_update('ewei_shop_member', array('status' => 1, 'isagent' => 1, 'agenttime' => $_var_25), array('uniacid' => $_W['uniacid'], 'id' => $_var_23['id']));
+							$this->sendMessage($_var_21, array('nickname' => $_var_23['nickname'], 'agenttime' => $_var_25), TM_COMMISSION_BECOME);
+							if (!empty($_var_118)) {
+								$this->upgradeLevelByAgent($_var_118['id']);
+							}
+						}
+					}
+				} else if ($set['become'] == 2 || $set['become'] == 3) {
+					if (empty($set['become_order'])) {
+						$_var_25 = time();
+						if ($set['become'] == 2 || $set['become'] == 3) {
+							$_var_128 = true;
+							if (!empty($_var_23['agentid'])) {
+								$_var_118 = m('member')->getMember($_var_23['agentid']);
+								if (empty($_var_118) || $_var_118['isagent'] != 1 || $_var_118['status'] != 1) {
+									$_var_128 = false;
+								}
+							}
+							if ($_var_128) {
+								$_var_129 = false;
+								if ($set['become'] == '2') {
+									$_var_30 = pdo_fetchcolumn('select count(*) from ' . tablename('ewei_shop_order') . ' where openid=:openid and status>=1 and uniacid=:uniacid limit 1', array(':uniacid' => $_W['uniacid'], ':openid' => $_var_21));
+									$_var_129 = $_var_30 >= intval($set['become_ordercount']);
+								} else if ($set['become'] == '3') {
+									$_var_130 = pdo_fetchcolumn('select sum(og.realprice) from ' . tablename('ewei_shop_order_goods') . ' og left join ' . tablename('ewei_shop_order') . ' o on og.orderid=o.id  where o.openid=:openid and o.status>=1 and o.uniacid=:uniacid limit 1', array(':uniacid' => $_W['uniacid'], ':openid' => $_var_21));
+									$_var_129 = $_var_130 >= floatval($set['become_moneycount']);
+								}
+								if ($_var_129) {
+									if (empty($_var_23['agentblack'])) {
+										$_var_125 = intval($set['become_check']);
+										pdo_update('ewei_shop_member', array('status' => $_var_125, 'isagent' => 1, 'agenttime' => $_var_25), array('uniacid' => $_W['uniacid'], 'id' => $_var_23['id']));
+										if ($_var_125 == 1) {
+											$this->sendMessage($_var_21, array('nickname' => $_var_23['nickname'], 'agenttime' => $_var_25), TM_COMMISSION_BECOME);
+											if ($_var_128) {
+												$this->upgradeLevelByAgent($_var_118['id']);
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			if (!empty($_var_23['agentid'])) {
+				$_var_118 = m('member')->getMember($_var_23['agentid']);
+				if (!empty($_var_118) && $_var_118['isagent'] == 1 && $_var_118['status'] == 1) {
+					if ($_var_78['agentid'] == $_var_118['id']) {
+						$_var_127 = pdo_fetchall('select g.id,g.title,og.total,og.price,og.realprice, og.optionname as optiontitle,g.noticeopenid,g.noticetype,og.commission1 from ' . tablename('ewei_shop_order_goods') . ' og ' . ' left join ' . tablename('ewei_shop_goods') . ' g on g.id=og.goodsid ' . ' where og.uniacid=:uniacid and og.orderid=:orderid ', array(':uniacid' => $_W['uniacid'], ':orderid' => $_var_78['id']));
+						$goods = '';
+						$level = $_var_118['agentlevel'];
+						$_var_34 = 0;
+						$_var_131 = 0;
+						foreach ($_var_127 as $_var_132) {
+							$goods .= "" . $_var_132['title'] . '( ';
+							if (!empty($_var_132['optiontitle'])) {
+								$goods .= ' è§„æ ¼: ' . $_var_132['optiontitle'];
+							}
+							$goods .= ' å•ä»·: ' . ($_var_132['realprice'] / $_var_132['total']) . ' æ•°é‡: ' . $_var_132['total'] . ' æ€»ä»·: ' . $_var_132['realprice'] . '); ';
+							$_var_59 = iunserializer($_var_132['commission1']);
+							$_var_34 += isset($_var_59['level' . $level]) ? $_var_59['level' . $level] : $_var_59['default'];
+							$_var_131 += $_var_132['realprice'];
+						}
+						$this->sendMessage($_var_118['openid'], array('nickname' => $_var_23['nickname'], 'ordersn' => $_var_78['ordersn'], 'price' => $_var_131, 'goods' => $goods, 'commission' => $_var_34, 'paytime' => $_var_78['paytime'],), TM_COMMISSION_ORDER_PAY);
+					}
+				}
+			}
+		}
+
+		public function checkOrderFinish($orderid = '')
+		{
+			global $_W, $_GPC;
+			if (empty($orderid)) {
+				return;
+			}
+			$_var_78 = pdo_fetch('select id,openid, ordersn,goodsprice,agentid,finishtime from ' . tablename('ewei_shop_order') . ' where id=:id and status>=3 and uniacid=:uniacid limit 1', array(':id' => $orderid, ':uniacid' => $_W['uniacid']));
+			if (empty($_var_78)) {
+				return;
+			}
+			$set = $this->getSet();
+			if (empty($set['level'])) {
+				return;
+			}
+			$_var_21 = $_var_78['openid'];
+			$_var_23 = m('member')->getMember($_var_21);
+			if (empty($_var_23)) {
+				return;
+			}
+			$_var_25 = time();
+			$_var_126 = $_var_23['isagent'] == 1 && $_var_23['status'] == 1;
+			if (!$_var_126 && $set['become_order'] == 1) {
+				if ($set['become'] == 2 || $set['become'] == 3) {
+					$_var_128 = true;
+					if (!empty($_var_23['agentid'])) {
+						$_var_118 = m('member')->getMember($_var_23['agentid']);
+						if (empty($_var_118) || $_var_118['isagent'] != 1 || $_var_118['status'] != 1) {
+							$_var_128 = false;
+						}
+					}
+					if ($_var_128) {
+						$_var_129 = false;
+						if ($set['become'] == '2') {
+							$_var_30 = pdo_fetchcolumn('select count(*) from ' . tablename('ewei_shop_order') . ' where openid=:openid and status>=3 and uniacid=:uniacid limit 1', array(':uniacid' => $_W['uniacid'], ':openid' => $_var_21));
+							$_var_129 = $_var_30 >= intval($set['become_ordercount']);
+						} else if ($set['become'] == '3') {
+							$_var_130 = pdo_fetchcolumn('select sum(goodsprice) from ' . tablename('ewei_shop_order') . ' where openid=:openid and status>=3 and uniacid=:uniacid limit 1', array(':uniacid' => $_W['uniacid'], ':openid' => $_var_21));
+							$_var_129 = $_var_130 >= floatval($set['become_moneycount']);
+						}
+						if ($_var_129) {
+							if (empty($_var_23['agentblack'])) {
+								$_var_125 = intval($set['become_check']);
+								pdo_update('ewei_shop_member', array('status' => $_var_125, 'isagent' => 1, 'agenttime' => $_var_25), array('uniacid' => $_W['uniacid'], 'id' => $_var_23['id']));
+								if ($_var_125 == 1) {
+									$this->sendMessage($_var_23['openid'], array('nickname' => $_var_23['nickname'], 'agenttime' => $_var_25), TM_COMMISSION_BECOME);
+									if ($_var_128) {
+										$this->upgradeLevelByAgent($_var_118['id']);
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			if (!empty($_var_23['agentid'])) {
+				$_var_118 = m('member')->getMember($_var_23['agentid']);
+				if (!empty($_var_118) && $_var_118['isagent'] == 1 && $_var_118['status'] == 1) {
+					if ($_var_78['agentid'] == $_var_118['id']) {
+						$_var_127 = pdo_fetchall('select g.id,g.title,og.total,og.realprice,og.price,og.optionname as optiontitle,g.noticeopenid,g.noticetype,og.commission1 from ' . tablename('ewei_shop_order_goods') . ' og ' . ' left join ' . tablename('ewei_shop_goods') . ' g on g.id=og.goodsid ' . ' where og.uniacid=:uniacid and og.orderid=:orderid ', array(':uniacid' => $_W['uniacid'], ':orderid' => $_var_78['id']));
+						$goods = '';
+						$level = $_var_118['agentlevel'];
+						$_var_34 = 0;
+						$_var_131 = 0;
+						foreach ($_var_127 as $_var_132) {
+							$goods .= "" . $_var_132['title'] . '( ';
+							if (!empty($_var_132['optiontitle'])) {
+								$goods .= ' è§„æ ¼: ' . $_var_132['optiontitle'];
+							}
+							$goods .= ' å•ä»·: ' . ($_var_132['realprice'] / $_var_132['total']) . ' æ•°é‡: ' . $_var_132['total'] . ' æ€»ä»·: ' . $_var_132['realprice'] . '); ';
+							$_var_59 = iunserializer($_var_132['commission1']);
+							$_var_34 += isset($_var_59['level' . $level]) ? $_var_59['level' . $level] : $_var_59['default'];
+							$_var_131 += $_var_132['realprice'];
+						}
+						$this->sendMessage($_var_118['openid'], array('nickname' => $_var_23['nickname'], 'ordersn' => $_var_78['ordersn'], 'price' => $_var_131, 'goods' => $goods, 'commission' => $_var_34, 'finishtime' => $_var_78['finishtime'],), TM_COMMISSION_ORDER_FINISH);
+					}
+				}
+			}
+			$this->upgradeLevelByOrder($_var_21);
+		}
+
+		function getShop($_var_133)
+		{
+			global $_W;
+			$_var_23 = m('member')->getMember($_var_133);
+			$_var_134 = pdo_fetch('select * from ' . tablename('ewei_shop_commission_shop') . ' where uniacid=:uniacid and mid=:mid limit 1', array(':uniacid' => $_W['uniacid'], ':mid' => $_var_23['id']));
+			$_var_135 = m('common')->getSysset(array('shop', 'share'));
+			$set = $_var_135['shop'];
+			$_var_136 = $_var_135['share'];
+			$_var_137 = $_var_136['desc'];
+			if (empty($_var_137)) {
+				$_var_137 = $set['description'];
+			}
+			if (empty($_var_137)) {
+				$_var_137 = $set['name'];
+			}
+			$_var_138 = $this->getSet();
+			if (empty($_var_134)) {
+				$_var_134 = array('name' => $_var_23['nickname'] . 'çš„' . $_var_138['texts']['shop'], 'logo' => $_var_23['avatar'], 'desc' => $_var_137, 'img' => tomedia($set['img']),);
+			} else {
+				if (empty($_var_134['name'])) {
+					$_var_134['name'] = $_var_23['nickname'] . 'çš„' . $_var_138['texts']['shop'];
+				}
+				if (empty($_var_134['logo'])) {
+					$_var_134['logo'] = tomedia($_var_23['avatar']);
+				}
+				if (empty($_var_134['img'])) {
+					$_var_134['img'] = tomedia($set['img']);
+				}
+				if (empty($_var_134['desc'])) {
+					$_var_134['desc'] = $_var_137;
+				}
+			}
+			return $_var_134;
+		}
+
+		function getLevels($_var_139 = true)
+		{
+			global $_W;
+			if ($_var_139) {
+				return pdo_fetchall('select * from ' . tablename('ewei_shop_commission_level') . ' where uniacid=:uniacid order by commission1 asc', array(':uniacid' => $_W['uniacid']));
+			} else {
+				return pdo_fetchall('select * from ' . tablename('ewei_shop_commission_level') . ' where uniacid=:uniacid and (ordermoney>0 or commissionmoney>0) order by commission1 asc', array(':uniacid' => $_W['uniacid']));
+			}
+		}
+
+		function getLevel($_var_21)
+		{
+			global $_W;
+			if (empty($_var_21)) {
+				return false;
+			}
+			$_var_23 = m('member')->getMember($_var_21);
+			if (empty($_var_23['agentlevel'])) {
+				return false;
+			}
+			$level = pdo_fetch('select * from ' . tablename('ewei_shop_commission_level') . ' where uniacid=:uniacid and id=:id limit 1', array(':uniacid' => $_W['uniacid'], ':id' => $_var_23['agentlevel']));
+			return $level;
+		}
+
+		function upgradeLevelByOrder($_var_21)
+		{
+			global $_W;
+			if (empty($_var_21)) {
+				return false;
+			}
+			$set = $this->getSet();
+			if (empty($set['level'])) {
+				return false;
+			}
+			$_var_133 = m('member')->getMember($_var_21);
+			if (empty($_var_133)) {
+				return;
+			}
+			$_var_140 = intval($set['leveltype']);
+			if ($_var_140 == 4 || $_var_140 == 5) {
+				if (!empty($_var_133['agentnotupgrade'])) {
+					return;
+				}
+				$_var_141 = $this->getLevel($_var_133['openid']);
+				if (empty($_var_141['id'])) {
+					$_var_141 = array('levelname' => empty($set['levelname']) ? 'æ™®é€šç­‰çº§' : $set['levelname'], 'commission1' => $set['commission1'], 'commission2' => $set['commission2'], 'commission3' => $set['commission3']);
+				}
+				$_var_142 = pdo_fetch('select sum(og.realprice) as ordermoney,count(distinct og.orderid) as ordercount from ' . tablename('ewei_shop_order') . ' o ' . ' left join  ' . tablename('ewei_shop_order_goods') . ' og on og.orderid=o.id ' . ' where o.openid=:openid and o.status>=3 and o.uniacid=:uniacid limit 1', array(':uniacid' => $_W['uniacid'], ':openid' => $_var_21));
+				$_var_31 = $_var_142['ordermoney'];
+				$_var_30 = $_var_142['ordercount'];
+				if ($_var_140 == 4) {
+					$_var_143 = pdo_fetch('select * from ' . tablename('ewei_shop_commission_level') . " where uniacid=:uniacid  and {$_var_31} >= ordermoney and ordermoney>0  order by ordermoney desc limit 1", array(':uniacid' => $_W['uniacid']));
+					if (empty($_var_143)) {
+						return;
+					}
+					if (!empty($_var_141['id'])) {
+						if ($_var_141['id'] == $_var_143['id']) {
+							return;
+						}
+						if ($_var_141['ordermoney'] > $_var_143['ordermoney']) {
+							return;
+						}
+					}
+				} else if ($_var_140 == 5) {
+					$_var_143 = pdo_fetch('select * from ' . tablename('ewei_shop_commission_level') . " where uniacid=:uniacid  and {$_var_30} >= ordercount and ordercount>0  order by ordercount desc limit 1", array(':uniacid' => $_W['uniacid']));
+					if (empty($_var_143)) {
+						return;
+					}
+					if (!empty($_var_141['id'])) {
+						if ($_var_141['id'] == $_var_143['id']) {
+							return;
+						}
+						if ($_var_141['ordercount'] > $_var_143['ordercount']) {
+							return;
+						}
+					}
+				}
+				pdo_update('ewei_shop_member', array('agentlevel' => $_var_143['id']), array('id' => $_var_133['id']));
+				$this->sendMessage($_var_133['openid'], array('nickname' => $_var_133['nickname'], 'oldlevel' => $_var_141, 'newlevel' => $_var_143,), TM_COMMISSION_UPGRADE);
+			} else if ($_var_140 >= 0 && $_var_140 <= 3) {
+				$_var_77 = array();
+				if (!empty($set['selfbuy'])) {
+					$_var_77[] = $_var_133;
+				}
+				if (!empty($_var_133['agentid'])) {
+					$m1 = m('member')->getMember($_var_133['agentid']);
+					if (!empty($m1)) {
+						$_var_77[] = $m1;
+						if (!empty($m1['agentid']) && $m1['isagent'] == 1 && $m1['status'] == 1) {
+							$m2 = m('member')->getMember($m1['agentid']);
+							if (!empty($m2) && $m2['isagent'] == 1 && $m2['status'] == 1) {
+								$_var_77[] = $m2;
+								if (empty($set['selfbuy'])) {
+									if (!empty($m2['agentid']) && $m2['isagent'] == 1 && $m2['status'] == 1) {
+										$m3 = m('member')->getMember($m2['agentid']);
+										if (!empty($m3) && $m3['isagent'] == 1 && $m3['status'] == 1) {
+											$_var_77[] = $m3;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				if (empty($_var_77)) {
+					return;
+				}
+				foreach ($_var_77 as $_var_144) {
+					$_var_145 = $this->getInfo($_var_144['id'], array('ordercount3', 'ordermoney3', 'order13money', 'order13'));
+					if (!empty($_var_145['agentnotupgrade'])) {
+						continue;
+					}
+					$_var_141 = $this->getLevel($_var_144['openid']);
+					if (empty($_var_141['id'])) {
+						$_var_141 = array('levelname' => empty($set['levelname']) ? 'æ™®é€šç­‰çº§' : $set['levelname'], 'commission1' => $set['commission1'], 'commission2' => $set['commission2'], 'commission3' => $set['commission3']);
+					}
+					if ($_var_140 == 0) {
+						$_var_31 = $_var_145['ordermoney3'];
+						$_var_143 = pdo_fetch('select * from ' . tablename('ewei_shop_commission_level') . " where uniacid=:uniacid and {$_var_31} >= ordermoney and ordermoney>0  order by ordermoney desc limit 1", array(':uniacid' => $_W['uniacid']));
+						if (empty($_var_143)) {
+							continue;
+						}
+						if (!empty($_var_141['id'])) {
+							if ($_var_141['id'] == $_var_143['id']) {
+								continue;
+							}
+							if ($_var_141['ordermoney'] > $_var_143['ordermoney']) {
+								continue;
+							}
+						}
+					} else if ($_var_140 == 1) {
+						$_var_31 = $_var_145['order13money'];
+						$_var_143 = pdo_fetch('select * from ' . tablename('ewei_shop_commission_level') . " where uniacid=:uniacid and {$_var_31} >= ordermoney and ordermoney>0  order by ordermoney desc limit 1", array(':uniacid' => $_W['uniacid']));
+						if (empty($_var_143)) {
+							continue;
+						}
+						if (!empty($_var_141['id'])) {
+							if ($_var_141['id'] == $_var_143['id']) {
+								continue;
+							}
+							if ($_var_141['ordermoney'] > $_var_143['ordermoney']) {
+								continue;
+							}
+						}
+					} else if ($_var_140 == 2) {
+						$_var_30 = $_var_145['ordercount3'];
+						$_var_143 = pdo_fetch('select * from ' . tablename('ewei_shop_commission_level') . " where uniacid=:uniacid  and {$_var_30} >= ordercount and ordercount>0  order by ordercount desc limit 1", array(':uniacid' => $_W['uniacid']));
+						if (empty($_var_143)) {
+							continue;
+						}
+						if (!empty($_var_141['id'])) {
+							if ($_var_141['id'] == $_var_143['id']) {
+								continue;
+							}
+							if ($_var_141['ordercount'] > $_var_143['ordercount']) {
+								continue;
+							}
+						}
+					} else if ($_var_140 == 3) {
+						$_var_30 = $_var_145['order13'];
+						$_var_143 = pdo_fetch('select * from ' . tablename('ewei_shop_commission_level') . " where uniacid=:uniacid  and {$_var_30} >= ordercount and ordercount>0  order by ordercount desc limit 1", array(':uniacid' => $_W['uniacid']));
+						if (empty($_var_143)) {
+							continue;
+						}
+						if (!empty($_var_141['id'])) {
+							if ($_var_141['id'] == $_var_143['id']) {
+								continue;
+							}
+							if ($_var_141['ordercount'] > $_var_143['ordercount']) {
+								continue;
+							}
+						}
+					}
+					pdo_update('ewei_shop_member', array('agentlevel' => $_var_143['id']), array('id' => $_var_144['id']));
+					$this->sendMessage($_var_144['openid'], array('nickname' => $_var_144['nickname'], 'oldlevel' => $_var_141, 'newlevel' => $_var_143,), TM_COMMISSION_UPGRADE);
+				}
+			}
+		}
+
+		function upgradeLevelByAgent($_var_21)
+		{
+			global $_W;
+			if (empty($_var_21)) {
+				return false;
+			}
+			$set = $this->getSet();
+			if (empty($set['level'])) {
+				return false;
+			}
+			$_var_133 = m('member')->getMember($_var_21);
+			if (empty($_var_133)) {
+				return;
+			}
+			$_var_140 = intval($set['leveltype']);
+			if ($_var_140 < 6 || $_var_140 > 9) {
+				return;
+			}
+			$_var_145 = $this->getInfo($_var_133['id'], array());
+			if ($_var_140 == 6 || $_var_140 == 8) {
+				$_var_77 = array($_var_133);
+				if (!empty($_var_133['agentid'])) {
+					$m1 = m('member')->getMember($_var_133['agentid']);
+					if (!empty($m1)) {
+						$_var_77[] = $m1;
+						if (!empty($m1['agentid']) && $m1['isagent'] == 1 && $m1['status'] == 1) {
+							$m2 = m('member')->getMember($m1['agentid']);
+							if (!empty($m2) && $m2['isagent'] == 1 && $m2['status'] == 1) {
+								$_var_77[] = $m2;
+							}
+						}
+					}
+				}
+				if (empty($_var_77)) {
+					return;
+				}
+				foreach ($_var_77 as $_var_144) {
+					$_var_145 = $this->getInfo($_var_144['id'], array());
+					if (!empty($_var_145['agentnotupgrade'])) {
+						continue;
+					}
+					$_var_141 = $this->getLevel($_var_144['openid']);
+					if (empty($_var_141['id'])) {
+						$_var_141 = array('levelname' => empty($set['levelname']) ? 'æ™®é€šç­‰çº§' : $set['levelname'], 'commission1' => $set['commission1'], 'commission2' => $set['commission2'], 'commission3' => $set['commission3']);
+					}
+					if ($_var_140 == 6) {
+						$_var_146 = pdo_fetchall('select id from ' . tablename('ewei_shop_member') . ' where agentid=:agentid and uniacid=:uniacid ', array(':agentid' => $_var_133['id'], ':uniacid' => $_W['uniacid']), 'id');
+						$_var_147 += count($_var_146);
+						if (!empty($_var_146)) {
+							$_var_148 = pdo_fetchall('select id from ' . tablename('ewei_shop_member') . ' where agentid in( ' . implode(',', array_keys($_var_146)) . ') and uniacid=:uniacid', array(':uniacid' => $_W['uniacid']), 'id');
+							$_var_147 += count($_var_148);
+							if (!empty($_var_148)) {
+								$_var_149 = pdo_fetchall('select id from ' . tablename('ewei_shop_member') . ' where agentid in( ' . implode(',', array_keys($_var_148)) . ') and uniacid=:uniacid', array(':uniacid' => $_W['uniacid']), 'id');
+								$_var_147 += count($_var_149);
+							}
+						}
+						$_var_143 = pdo_fetch('select * from ' . tablename('ewei_shop_commission_level') . " where uniacid=:uniacid  and {$_var_147} >= downcount and downcount>0  order by downcount desc limit 1", array(':uniacid' => $_W['uniacid']));
+					} else if ($_var_140 == 8) {
+						$_var_147 = $_var_145['level1'] + $_var_145['level2'] + $_var_145['level3'];
+						$_var_143 = pdo_fetch('select * from ' . tablename('ewei_shop_commission_level') . " where uniacid=:uniacid  and {$_var_147} >= downcount and downcount>0  order by downcount desc limit 1", array(':uniacid' => $_W['uniacid']));
+					}
+					if (empty($_var_143)) {
+						continue;
+					}
+					if ($_var_143['id'] == $_var_141['id']) {
+						continue;
+					}
+					if (!empty($_var_141['id'])) {
+						if ($_var_141['downcount'] > $_var_143['downcount']) {
+							continue;
+						}
+					}
+					pdo_update('ewei_shop_member', array('agentlevel' => $_var_143['id']), array('id' => $_var_144['id']));
+					$this->sendMessage($_var_144['openid'], array('nickname' => $_var_144['nickname'], 'oldlevel' => $_var_141, 'newlevel' => $_var_143,), TM_COMMISSION_UPGRADE);
+				}
+			} else {
+				if (!empty($_var_133['agentnotupgrade'])) {
+					return;
+				}
+				$_var_141 = $this->getLevel($_var_133['openid']);
+				if (empty($_var_141['id'])) {
+					$_var_141 = array('levelname' => empty($set['levelname']) ? 'æ™®é€šç­‰çº§' : $set['levelname'], 'commission1' => $set['commission1'], 'commission2' => $set['commission2'], 'commission3' => $set['commission3']);
+				}
+				if ($_var_140 == 7) {
+					$_var_147 = pdo_fetchcolumn('select count(*) from ' . tablename('ewei_shop_member') . ' where agentid=:agentid and uniacid=:uniacid ', array(':agentid' => $_var_133['id'], ':uniacid' => $_W['uniacid']));
+					$_var_143 = pdo_fetch('select * from ' . tablename('ewei_shop_commission_level') . " where uniacid=:uniacid  and {$_var_147} >= downcount and downcount>0  order by downcount desc limit 1", array(':uniacid' => $_W['uniacid']));
+				} else if ($_var_140 == 9) {
+					$_var_147 = $_var_145['level1'];
+					$_var_143 = pdo_fetch('select * from ' . tablename('ewei_shop_commission_level') . " where uniacid=:uniacid  and {$_var_147} >= downcount and downcount>0  order by downcount desc limit 1", array(':uniacid' => $_W['uniacid']));
+				}
+				if (empty($_var_143)) {
+					return;
+				}
+				if ($_var_143['id'] == $_var_141['id']) {
+					return;
+				}
+				if (!empty($_var_141['id'])) {
+					if ($_var_141['downcount'] > $_var_143['downcount']) {
+						return;
+					}
+				}
+				pdo_update('ewei_shop_member', array('agentlevel' => $_var_143['id']), array('id' => $_var_133['id']));
+				$this->sendMessage($_var_133['openid'], array('nickname' => $_var_133['nickname'], 'oldlevel' => $_var_141, 'newlevel' => $_var_143,), TM_COMMISSION_UPGRADE);
+			}
+		}
+
+		function upgradeLevelByCommissionOK($_var_21)
+		{
+			global $_W;
+			if (empty($_var_21)) {
+				return false;
+			}
+			$set = $this->getSet();
+			if (empty($set['level'])) {
+				return false;
+			}
+			$_var_133 = m('member')->getMember($_var_21);
+			if (empty($_var_133)) {
+				return;
+			}
+			$_var_140 = intval($set['leveltype']);
+			if ($_var_140 != 10) {
+				return;
+			}
+			if (!empty($_var_133['agentnotupgrade'])) {
+				return;
+			}
+			$_var_141 = $this->getLevel($_var_133['openid']);
+			if (empty($_var_141['id'])) {
+				$_var_141 = array('levelname' => empty($set['levelname']) ? 'æ™®é€šç­‰çº§' : $set['levelname'], 'commission1' => $set['commission1'], 'commission2' => $set['commission2'], 'commission3' => $set['commission3']);
+			}
+			$_var_145 = $this->getInfo($_var_133['id'], array('pay'));
+			$_var_150 = $_var_145['commission_pay'];
+			$_var_143 = pdo_fetch('select * from ' . tablename('ewei_shop_commission_level') . " where uniacid=:uniacid  and {$_var_150} >= commissionmoney and commissionmoney>0  order by commissionmoney desc limit 1", array(':uniacid' => $_W['uniacid']));
+			if (empty($_var_143)) {
+				return;
+			}
+			if ($_var_141['id'] == $_var_143['id']) {
+				return;
+			}
+			if (!empty($_var_141['id'])) {
+				if ($_var_141['commissionmoney'] > $_var_143['commissionmoney']) {
+					return;
+				}
+			}
+			pdo_update('ewei_shop_member', array('agentlevel' => $_var_143['id']), array('id' => $_var_133['id']));
+			$this->sendMessage($_var_133['openid'], array('nickname' => $_var_133['nickname'], 'oldlevel' => $_var_141, 'newlevel' => $_var_143,), TM_COMMISSION_UPGRADE);
+		}
+
+		function sendMessage($_var_21 = '', $_var_151 = array(), $_var_152 = '')
+		{
+			global $_W, $_GPC;
+			$set = $this->getSet();
+			$_var_153 = $set['tm'];
+			$_var_154 = $_var_153['templateid'];
+			$_var_23 = m('member')->getMember($_var_21);
+			$_var_155 = unserialize($_var_23['noticeset']);
+			if (!is_array($_var_155)) {
+				$_var_155 = array();
+			}
+			if ($_var_152 == TM_COMMISSION_AGENT_NEW && !empty($_var_153['commission_agent_new']) && empty($_var_155['commission_agent_new'])) {
+				$_var_156 = $_var_153['commission_agent_new'];
+				$_var_156 = str_replace('[æ˜µç§°]', $_var_151['nickname'], $_var_156);
+				$_var_156 = str_replace('[æ—¶é—´]', date('Y-m-d H:i:s', $_var_151['childtime']), $_var_156);
+				$_var_157 = array('keyword1' => array('value' => !empty($_var_153['commission_agent_newtitle']) ? $_var_153['commission_agent_newtitle'] : 'æ–°å¢žä¸‹çº¿é€šçŸ¥', 'color' => '#73a68d'), 'keyword2' => array('value' => $_var_156, 'color' => '#73a68d'));
+				if (!empty($_var_154)) {
+					m('message')->sendTplNotice($_var_21, $_var_154, $_var_157);
+				} else {
+					m('message')->sendCustomNotice($_var_21, $_var_157);
+				}
+			} else if ($_var_152 == TM_COMMISSION_ORDER_PAY && !empty($_var_153['commission_order_pay']) && empty($_var_155['commission_order_pay'])) {
+				$_var_156 = $_var_153['commission_order_pay'];
+				$_var_156 = str_replace('[æ˜µç§°]', $_var_151['nickname'], $_var_156);
+				$_var_156 = str_replace('[æ—¶é—´]', date('Y-m-d H:i:s', $_var_151['paytime']), $_var_156);
+				$_var_156 = str_replace('[è®¢å•ç¼–å·]', $_var_151['ordersn'], $_var_156);
+				$_var_156 = str_replace('[è®¢å•é‡‘é¢]', $_var_151['price'], $_var_156);
+				$_var_156 = str_replace('[ä½£é‡‘é‡‘é¢]', $_var_151['commission'], $_var_156);
+				$_var_156 = str_replace('[å•†å“è¯¦æƒ…]', $_var_151['goods'], $_var_156);
+				$_var_157 = array('keyword1' => array('value' => !empty($_var_153['commission_order_paytitle']) ? $_var_153['commission_order_paytitle'] : 'ä¸‹çº¿ä»˜æ¬¾é€šçŸ¥'), 'keyword2' => array('value' => $_var_156));
+				if (!empty($_var_154)) {
+					m('message')->sendTplNotice($_var_21, $_var_154, $_var_157);
+				} else {
+					m('message')->sendCustomNotice($_var_21, $_var_157);
+				}
+			} else if ($_var_152 == TM_COMMISSION_ORDER_FINISH && !empty($_var_153['commission_order_finish']) && empty($_var_155['commission_order_finish'])) {
+				$_var_156 = $_var_153['commission_order_finish'];
+				$_var_156 = str_replace('[æ˜µç§°]', $_var_151['nickname'], $_var_156);
+				$_var_156 = str_replace('[æ—¶é—´]', date('Y-m-d H:i:s', $_var_151['finishtime']), $_var_156);
+				$_var_156 = str_replace('[è®¢å•ç¼–å·]', $_var_151['ordersn'], $_var_156);
+				$_var_156 = str_replace('[è®¢å•é‡‘é¢]', $_var_151['price'], $_var_156);
+				$_var_156 = str_replace('[ä½£é‡‘é‡‘é¢]', $_var_151['commission'], $_var_156);
+				$_var_156 = str_replace('[å•†å“è¯¦æƒ…]', $_var_151['goods'], $_var_156);
+				$_var_157 = array('keyword1' => array('value' => !empty($_var_153['commission_order_finishtitle']) ? $_var_153['commission_order_finishtitle'] : 'ä¸‹çº¿ç¡®è®¤æ”¶è´§é€šçŸ¥', 'color' => '#73a68d'), 'keyword2' => array('value' => $_var_156, 'color' => '#73a68d'));
+				if (!empty($_var_154)) {
+					m('message')->sendTplNotice($_var_21, $_var_154, $_var_157);
+				} else {
+					m('message')->sendCustomNotice($_var_21, $_var_157);
+				}
+			} else if ($_var_152 == TM_COMMISSION_APPLY && !empty($_var_153['commission_apply']) && empty($_var_155['commission_apply'])) {
+				$_var_156 = $_var_153['commission_apply'];
+				$_var_156 = str_replace('[æ˜µç§°]', $_var_23['nickname'], $_var_156);
+				$_var_156 = str_replace('[æ—¶é—´]', date('Y-m-d H:i:s', time()), $_var_156);
+				$_var_156 = str_replace('[é‡‘é¢]', $_var_151['commission'], $_var_156);
+				$_var_156 = str_replace('[æçŽ°æ–¹å¼]', $_var_151['type'], $_var_156);
+				$_var_157 = array('keyword1' => array('value' => !empty($_var_153['commission_applytitle']) ? $_var_153['commission_applytitle'] : 'æçŽ°ç”³è¯·æäº¤æˆåŠŸ', 'color' => '#73a68d'), 'keyword2' => array('value' => $_var_156, 'color' => '#73a68d'));
+				if (!empty($_var_154)) {
+					m('message')->sendTplNotice($_var_21, $_var_154, $_var_157);
+				} else {
+					m('message')->sendCustomNotice($_var_21, $_var_157);
+				}
+			} else if ($_var_152 == TM_COMMISSION_CHECK && !empty($_var_153['commission_check']) && empty($_var_155['commission_check'])) {
+				$_var_156 = $_var_153['commission_check'];
+				$_var_156 = str_replace('[æ˜µç§°]', $_var_23['nickname'], $_var_156);
+				$_var_156 = str_replace('[æ—¶é—´]', date('Y-m-d H:i:s', time()), $_var_156);
+				$_var_156 = str_replace('[é‡‘é¢]', $_var_151['commission'], $_var_156);
+				$_var_156 = str_replace('[æçŽ°æ–¹å¼]', $_var_151['type'], $_var_156);
+				$_var_157 = array('keyword1' => array('value' => !empty($_var_153['commission_checktitle']) ? $_var_153['commission_checktitle'] : 'æçŽ°ç”³è¯·å®¡æ ¸å¤„ç†å®Œæˆ', 'color' => '#73a68d'), 'keyword2' => array('value' => $_var_156, 'color' => '#73a68d'));
+				if (!empty($_var_154)) {
+					m('message')->sendTplNotice($_var_21, $_var_154, $_var_157);
+				} else {
+					m('message')->sendCustomNotice($_var_21, $_var_157);
+				}
+			} else if ($_var_152 == TM_COMMISSION_PAY && !empty($_var_153['commission_pay']) && empty($_var_155['commission_pay'])) {
+				$_var_156 = $_var_153['commission_pay'];
+				$_var_156 = str_replace('[æ˜µç§°]', $_var_23['nickname'], $_var_156);
+				$_var_156 = str_replace('[æ—¶é—´]', date('Y-m-d H:i:s', time()), $_var_156);
+				$_var_156 = str_replace('[é‡‘é¢]', $_var_151['commission'], $_var_156);
+				$_var_156 = str_replace('[æçŽ°æ–¹å¼]', $_var_151['type'], $_var_156);
+				$_var_157 = array('keyword1' => array('value' => !empty($_var_153['commission_paytitle']) ? $_var_153['commission_paytitle'] : 'ä½£é‡‘æ‰“æ¬¾é€šçŸ¥', 'color' => '#73a68d'), 'keyword2' => array('value' => $_var_156, 'color' => '#73a68d'));
+				if (!empty($_var_154)) {
+					m('message')->sendTplNotice($_var_21, $_var_154, $_var_157);
+				} else {
+					m('message')->sendCustomNotice($_var_21, $_var_157);
+				}
+			} else if ($_var_152 == TM_COMMISSION_UPGRADE && !empty($_var_153['commission_upgrade']) && empty($_var_155['commission_upgrade'])) {
+				$_var_156 = $_var_153['commission_upgrade'];
+				$_var_156 = str_replace('[æ˜µç§°]', $_var_23['nickname'], $_var_156);
+				$_var_156 = str_replace('[æ—¶é—´]', date('Y-m-d H:i:s', time()), $_var_156);
+				$_var_156 = str_replace('[æ—§ç­‰çº§]', $_var_151['oldlevel']['levelname'], $_var_156);
+				$_var_156 = str_replace('[æ—§ä¸€çº§åˆ†é”€æ¯”ä¾‹]', $_var_151['oldlevel']['commission1'] . '%', $_var_156);
+				$_var_156 = str_replace('[æ—§äºŒçº§åˆ†é”€æ¯”ä¾‹]', $_var_151['oldlevel']['commission2'] . '%', $_var_156);
+				$_var_156 = str_replace('[æ—§ä¸‰çº§åˆ†é”€æ¯”ä¾‹]', $_var_151['oldlevel']['commission3'] . '%', $_var_156);
+				$_var_156 = str_replace('[æ–°ç­‰çº§]', $_var_151['newlevel']['levelname'], $_var_156);
+				$_var_156 = str_replace('[æ–°ä¸€çº§åˆ†é”€æ¯”ä¾‹]', $_var_151['newlevel']['commission1'] . '%', $_var_156);
+				$_var_156 = str_replace('[æ–°äºŒçº§åˆ†é”€æ¯”ä¾‹]', $_var_151['newlevel']['commission2'] . '%', $_var_156);
+				$_var_156 = str_replace('[æ–°ä¸‰çº§åˆ†é”€æ¯”ä¾‹]', $_var_151['newlevel']['commission3'] . '%', $_var_156);
+				$_var_157 = array('keyword1' => array('value' => !empty($_var_153['commission_upgradetitle']) ? $_var_153['commission_upgradetitle'] : 'åˆ†é”€ç­‰çº§å‡çº§é€šçŸ¥', 'color' => '#73a68d'), 'keyword2' => array('value' => $_var_156, 'color' => '#73a68d'));
+				if (!empty($_var_154)) {
+					m('message')->sendTplNotice($_var_21, $_var_154, $_var_157);
+				} else {
+					m('message')->sendCustomNotice($_var_21, $_var_157);
+				}
+			} else if ($_var_152 == TM_COMMISSION_BECOME && !empty($_var_153['commission_become']) && empty($_var_155['commission_become'])) {
+				$_var_156 = $_var_153['commission_become'];
+				$_var_156 = str_replace('[æ˜µç§°]', $_var_151['nickname'], $_var_156);
+				$_var_156 = str_replace('[æ—¶é—´]', date('Y-m-d H:i:s', $_var_151['agenttime']), $_var_156);
+				$_var_157 = array('keyword1' => array('value' => !empty($_var_153['commission_becometitle']) ? $_var_153['commission_becometitle'] : 'æˆä¸ºåˆ†é”€å•†é€šçŸ¥', 'color' => '#73a68d'), 'keyword2' => array('value' => $_var_156, 'color' => '#73a68d'));
+				if (!empty($_var_154)) {
+					m('message')->sendTplNotice($_var_21, $_var_154, $_var_157);
+				} else {
+					m('message')->sendCustomNotice($_var_21, $_var_157);
+				}
+			}
+		}
+
+		function perms()
+		{
+			return array('commission' => array('text' => $this->getName(), 'isplugin' => true, 'child' => array('cover' => array('text' => 'å…¥å£è®¾ç½®'), 'agent' => array('text' => 'åˆ†é”€å•†', 'view' => 'æµè§ˆ', 'check' => 'å®¡æ ¸-log', 'edit' => 'ä¿®æ”¹-log', 'agentblack' => 'é»‘åå•æ“ä½œ-log', 'delete' => 'åˆ é™¤-log', 'user' => 'æŸ¥çœ‹ä¸‹çº¿', 'order' => 'æŸ¥çœ‹æŽ¨å¹¿è®¢å•(è¿˜éœ€æœ‰è®¢å•æƒé™)', 'changeagent' => 'è®¾ç½®åˆ†é”€å•†'), 'level' => array('text' => 'åˆ†é”€å•†ç­‰çº§', 'view' => 'æµè§ˆ', 'add' => 'æ·»åŠ -log', 'edit' => 'ä¿®æ”¹-log', 'delete' => 'åˆ é™¤-log'), 'apply' => array('text' => 'ä½£é‡‘å®¡æ ¸', 'view1' => 'æµè§ˆå¾…å®¡æ ¸', 'view2' => 'æµè§ˆå·²å®¡æ ¸', 'view3' => 'æµè§ˆå·²æ‰“æ¬¾', 'view_1' => 'æµè§ˆæ— æ•ˆ', 'export1' => 'å¯¼å‡ºå¾…å®¡æ ¸-log', 'export2' => 'å¯¼å‡ºå·²å®¡æ ¸-log', 'export3' => 'å¯¼å‡ºå·²æ‰“æ¬¾-log', 'export_1' => 'å¯¼å‡ºæ— æ•ˆ-log', 'check' => 'å®¡æ ¸-log', 'pay' => 'æ‰“æ¬¾-log', 'cancel' => 'é‡æ–°å®¡æ ¸-log'), 'notice' => array('text' => 'é€šçŸ¥è®¾ç½®-log'), 'increase' => array('text' => 'åˆ†é”€å•†è¶‹åŠ¿å›¾'), 'changecommission' => array('text' => 'ä¿®æ”¹ä½£é‡‘-log'), 'set' => array('text' => 'åŸºç¡€è®¾ç½®-log'))));
+		}
+	}
+}

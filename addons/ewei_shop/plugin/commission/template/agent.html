@@ -301,49 +301,6 @@
             </div>
         </div>
         <div class="form-group">
-                    <label class="col-xs-12 col-sm-3 col-md-2 control-label"><span style='color:red'>*</span> 选择分销商上级</label>
-                    <div class="col-sm-9 col-xs-12">
-                        {ife 'verify.saler' $item}
-                        <input type='hidden' id='openid' name='openid' value="{$item['openid']}" />
-                        <input type="hidden" id="agentid" name="data[agentid]" value="" />
-                        <div class='input-group'>
-                            <input type="text" name="saler" maxlength="30" value="{if !empty($memb)}{$memb['nickname']}/{$memb['realname']}/{$memb['mobile']}{/if}" id="saler" class="form-control" readonly />
-                            
-                            <div class='input-group-btn'>
-                                <button class="btn btn-default" type="button" onclick="popwin = $('#modal-module-menus').modal();">选择上级</button>
-                            </div>
-                        </div>
-                        {if !empty($saler)}
-                        <span class='help-block'><img  style="width:100px;height:100px;border:1px solid #ccc;padding:1px" src="{$saler['avatar']}"/></span>
-                        {/if}
-                        
-                        <div id="modal-module-menus"  class="modal fade" tabindex="-1">
-                            <div class="modal-dialog" style='width: 920px;'>
-                                <div class="modal-content">
-                                    <div class="modal-header"><button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button><h3>选择上级</h3></div>
-                                    <div class="modal-body" >
-                                        <div class="row">
-                                            <div class="input-group">
-                                                <input type="text" class="form-control" name="keyword" value="" id="search-kwd" placeholder="请输入粉丝昵称/姓名/手机号" />
-                                                <span class='input-group-btn'><button type="button" class="btn btn-default" onclick="search_members();">搜索</button></span>
-                                            </div>
-                                        </div>
-                                        <div id="module-menus" style="padding-top:5px;"></div>
-                                    </div>
-                                    <div class="modal-footer"><a href="#" class="btn btn-default" data-dismiss="modal" aria-hidden="true">关闭</a></div>
-                                </div>
-
-                            </div>
-                        </div>
-                        {else}
-                             {if !empty($saler)}
-                             <span class='help-block'><img  style="width:100px;height:100px;border:1px solid #ccc;padding:1px" src="{$saler['avatar']}"/><br/>
-                                 {if !empty($saler)}{$saler['nickname']}/{$saler['realname']}/{$saler['mobile']}{/if}</span>
-                            {/if}
-                        {/if}
-                    </div>
-                </div>
-        <div class="form-group">
             <label class="col-xs-12 col-sm-3 col-md-2 control-label">累计佣金</label>
             <div class="col-sm-9 col-xs-12">
                 <div class='form-control-static'> {$member['commission_total']}</div>
@@ -478,7 +435,6 @@
                     {if $value['data_type'] == 0 || $value['data_type'] == 1 || $value['data_type'] == 2 || $value['data_type'] == 6}
                     {php echo str_replace("\n","<br/>",$datas[$key])}
 
-
                     {else if $value['data_type'] == 3}
                     {if !empty($datas[$key])}
                     {loop $datas[$key] $k1 $v1}
@@ -538,38 +494,4 @@
 </form>
 
 {/if}
-<script language='javascript'>
-     function search_members() {
-           if( $.trim($('#search-kwd').val())==''){
-                 Tip.focus('#search-kwd','请输入关键词');
-                 return;
-             }
-		$("#module-menus").html("正在搜索....")
-		$.get('{php echo $this->createWebUrl('member/query')}', {
-			keyword: $.trim($('#search-kwd').val())
-		}, function(dat){
-			$('#module-menus').html(dat);
-		});
-	}
-	function select_member(o) {
-		$("#openid").val(o.openid);
-		$("#saler").val( o.nickname+ "/" + o.realname + "/" + o.mobile );
-		$("#agentid").val( o.id );
-		$(".close").click();
-	}
-        
-    function search_stores() {
-		$("#module-menus1").html("正在搜索....")
-		$.get('{php echo $this->createPluginWebUrl('verify/store',array('op'=>'query'));}', {
-			keyword: $.trim($('#search-kwd1').val())
-		}, function(dat){
-			$('#module-menus1').html(dat);
-		});
-	}
-	function select_store(o) {
-		$("#storeid").val(o.id);
-		$("#store").val( o.storename );
-		$(".close").click();
-	}
-    </script>
 {template 'web/_footer'}

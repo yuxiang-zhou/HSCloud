@@ -155,7 +155,7 @@ a {
     -ms-flex-align: center;
     align-items: center;
     font-size: 0.7rem;
-    padding-top: .3rem;
+    margin-top: .3rem;
 
 }
 
@@ -164,8 +164,16 @@ a {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
-
     color: #ed2822;
+}
+
+.fui-goods-item .detail .price .minprice {
+    font-size: 0.85rem;
+}
+
+.fui-goods-item .detail .price .productprice {
+    color: #777;
+    font-size: 0.55rem;
 }
 
 .fui-goods-item .detail .price .buy {
@@ -851,6 +859,128 @@ a {
     height: 2.2rem;
     line-height: 2.2rem;
 }
+
+
+.page-goods-detail .seckill-container {
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    overflow: hidden;
+}
+.page-goods-detail .seckill-container  .seckill-list,
+.page-goods-detail .seckill-container  .seckill-list1 {
+    background: #ef4f4f;
+}
+.page-goods-detail .seckill-container.notstart   .seckill-list,
+.page-goods-detail .seckill-container.notstart   .seckill-list1,
+.page-goods-detail .seckill-container.notstart   .seckill-list2 {
+    background:#00b950;
+}
+.page-goods-detail .seckill-container  .seckill-list{
+
+    flex:1;
+    color:#fff;
+    padding:0em .5rem;
+    margin-top:-1px;
+
+}
+
+.page-goods-detail .seckill-container  .seckill-list .fui-list-inner .text{
+
+    color:#fff;
+    height:.9rem;
+
+}
+.page-goods-detail .seckill-container  .seckill-list .seckill-price{
+    font-size:1rem;
+    color:#fff;
+    -webkit-box-align: baseline;
+    -webkit-align-items: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    width:auto;
+
+}
+.page-goods-detail .seckill-container  .seckill-list .seckill-price span{
+    font-size:1.85rem;
+}
+.page-goods-detail .seckill-container  .seckill-list .oldprice{
+    color:rgba(255,255,255,.5);
+}
+.page-goods-detail .seckill-container  .seckill-list .fui-list-media{
+
+}
+.page-goods-detail .seckill-container  .seckill-list .stitle{
+    display: inline-block;
+    border:1px solid #fff;
+    border-radius: .2rem;
+    font-size:.4rem;
+    padding:0 .2rem;
+
+}
+
+.page-goods-detail .seckill-container  .seckill-list1 .fui-list-inner .text{
+    text-align: center;
+    color:#fff;
+
+}
+.page-goods-detail .seckill-container  .seckill-list1 .fui-list-inner .text .process {
+
+    float:left;
+    width:4rem;
+    height:.6rem;
+    border:1px solid #efd74f;
+    border-radius: .5rem;
+    overflow:hidden;
+    margin-top:.3rem;
+
+}
+.page-goods-detail .seckill-container  .seckill-list1 .fui-list-inner .text .process .inner {
+    width:5rem;
+    height:.6rem;
+    background:#efd74f;
+}
+
+.page-goods-detail .seckill-container  .seckill-list2 .fui-list-inner .text {
+    font-size:.6rem;
+    text-align: center;
+    height:.95rem;
+    color:#ef4f4f
+}
+.page-goods-detail .seckill-container  .seckill-list2 .fui-list-inner .text.timer span {
+    display: inline-block;
+    background:#582e19;
+    color:#fff;
+    width:.9rem;height:.9rem;
+    border-radius: .1rem;
+    line-height:.9rem;
+
+    font-size:.5rem; text-align: center;
+}
+
+.page-goods-detail .seckill-container  .seckill-list2{
+
+    padding:0;
+    width:5rem;
+    background:#ffef32;
+}
+.page-goods-detail .seckill-container  .seckill-list2,
+.page-goods-detail .seckill-container  .seckill-list1 {
+    margin-top:-.1rem;
+}
+
+.page-goods-detail .seckill-container.notstart .seckill-list2 .fui-list-inner .text {
+    color:#fff;
+}
+.page-goods-detail .seckill-container.notstart .seckill-list2 .fui-list-inner .text.timer span{
+    background:rgba(0,0,0,.7);
+}
+.page-goods-detail .buybtn.seckill-notstart {
+    background:#00b950;
+}
+
 
 /*促销弹出 */
 .sale-picker {
@@ -2059,7 +2189,7 @@ a {
     color: #B94A48;
 }
 
-/*-- 新版优惠卷样式- */
+/*-- 新版优惠券样式- */
 .coupon-item2 {
     margin: 0.4rem;
     height: 4.4rem;
@@ -2978,6 +3108,7 @@ a {
 .page-goods-detail .follow_topbar ~ .detail-block.in {
     -webkit-transform: translate3d(0, -2.2rem, 0);
     transform: translate3d(0, -2.2rem, 0);
+    bottom: 0;
 }
 
 /* 店招*/
@@ -3320,4 +3451,523 @@ color:#fd5555;}
     margin:0;
 }
 #product span .icon{font-size:1.2rem;font-weight:bold;text-align: center;}
+
+/* 秒杀组 */
+.seckill-group {
+    margin-top: 0.5rem;
+    background-color: #fff;
+    line-height: 1.4;
+    font-size: 0.8rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.seckill-group:before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 1px;
+    border-top: 1px solid #D9D9D9;
+    color: #D9D9D9;
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: scaleY(0.5);
+    -ms-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+}
+
+.seckill-group:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid #D9D9D9;
+    color: #D9D9D9;
+    -webkit-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    -webkit-transform: scaleY(0.5);
+    -ms-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+}
+
+.seckill-group.noborder:before,
+.seckill-group.noborder:after {
+    border: 0;
+}
+
+.seckill-group .seckill-title {
+    position: relative;
+    padding: 0.5rem 0.5rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -moz-transition-duration: 300ms;
+    -webkit-transition-duration: 300ms;
+    transition-duration: 300ms;
+    -webkit-transition-property: background-color;
+    transition-property: background-color;
+}
+
+.seckill-group .seckill-title .seckill-text {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size:.75rem;
+    color:#666;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.seckill-group .seckill-title .seckill-remark {
+    color: #888;
+    text-align: right;
+    font-size: 0.7rem;
+    margin-right: .2rem;
+}
+
+.seckill-group .seckill-title .seckill-remark:after {
+    content: " ";
+    display: inline-block;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    height: 0.3rem;
+    width: 0.3rem;
+    border-width: 2px 2px 0 0;
+    border-color: #C8C8CD;
+    border-style: solid;
+    position: relative;
+    top: -1px;
+    margin-left: .3em;
+}
+
+.seckill-group .seckill-goods {
+    padding: 0 0.5rem 0.5rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.seckill-group .seckill-goods .swiper-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.seckill-group .seckill-goods .item {
+    height: auto;
+    width: 4rem;
+    float: left;
+}
+
+.seckill-group .seckill-goods .item.last-item {
+    height: auto;
+    width: 1.5rem;
+    font-size: 0.55rem;
+    color: #666;
+    text-align: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: -0.5rem;
+}
+
+.seckill-group .seckill-goods .item.last-item .inner {
+    width: 1rem;
+    text-align: right;
+}
+
+.seckill-group .seckill-goods .item .thumb {
+    height: 4rem;
+    width: 4rem;
+    margin: auto;
+    position: relative;
+}
+
+.seckill-group .seckill-goods .item .thumb img {
+    height: 4rem;
+    width: 4rem;
+    display: block;
+}
+
+.seckill-group .seckill-goods .item .thumb .tag {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #ef4f4f;
+    color: #fff;
+    font-size: 0.5rem;
+    padding: 0 0.1rem;
+    line-height: 0.65rem;
+}
+
+.seckill-group .seckill-goods .item .thumb .tag.orange {
+    background: #fe9402;
+}
+
+.seckill-group .seckill-goods .item .thumb .tag.purple {
+    background: #7e42fd;
+}
+
+.seckill-group .seckill-goods .item .thumb .tag.green {
+    background: #4fd88a;
+}
+
+.seckill-group .seckill-goods .item .marketprice {
+    color: #ef4f4f;
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    font-weight: bold;
+}
+
+.seckill-group .seckill-goods .item .productprice {
+    color: #999;
+    text-decoration: line-through;
+    font-size: 0.6rem;
+    text-align: center;
+    line-height: 0.6rem;
+}
+
+.seckill-group .killtime {
+    display: inline-block;
+    font-size: 0.65rem;
+    color: #444;
+}
+
+.seckill-group {
+    height: auto;
+}
+
+.seckill-group  img {
+    height: 0.9rem;
+    max-width: 5rem;
+    margin-right: 0.2rem
+}
+
+.seckill-group .title {
+    font-size: 0.7rem;
+    color: #444;
+    margin-right: 0.2rem;
+}
+
+.seckill-group .killtime span {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.seckill-group .killtime .item {
+    height: 0.8rem;
+    line-height: 0.75rem;
+    border: 1px solid #ddd;
+    padding: 0 0.1rem;
+    margin: 0 1px;
+}
+
+.fui-audio {
+    height: auto;
+    background: #f1f1f1;
+    margin: 0.8rem;
+    padding: 0.6rem;
+    border: 1px solid #ededed;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.fui-audio .horn {
+    width: 1.4rem;
+    height: 1.25rem;
+    background-image: url(../images/icon_audio_reading_3.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+
+.fui-audio .horn.playing {
+    -webkit-animation: audio_playing 1s infinite;
+}
+
+.fui-audio .center {
+    width: 100%;
+    padding-right: 0.5rem;
+    font-size: 0.75rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.fui-audio .center p {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.fui-audio .time {
+    font-size: 0.7rem;
+    color: #666;
+}
+
+.fui-audio .speed {
+    position: absolute;
+    bottom: -1px;
+    left: -1px;
+    width: 0%;
+    height: 0.1rem;
+    background: #44b549;
+}
+
+@-webkit-keyframes audio_playing {
+    30% {
+        background-image: url(../images/icon_audio_reading_1.png)
+    }
+    31% {
+        background-image: url(../images/icon_audio_reading_2.png)
+    }
+    61% {
+        background-image: url(../images/icon_audio_reading_2.png)
+    }
+    62% {
+        background-image: url(../images/icon_audio_reading_3.png)
+    }
+    100% {
+        background-image: url(../images/icon_audio_reading_3.png)
+    }
+}
+
+.fui-chat-item {
+    height: 2.2rem;
+    margin: 0.8rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.fui-chat-item .face {
+    height: 2.2rem;
+    width: 2.2rem;
+    background: #eee;
+    -webkit-box-shadow:0 0 2px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow:0 0 2px rgba(0, 0, 0, 0.1);
+    box-shadow:0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+.fui-chat-item .face img {
+    height: inherit;
+    width: inherit;
+    display: block;
+}
+
+.fui-chat-item .msg {
+    margin: 0 2.7rem 0 0.5rem;
+    background: #fefefe;
+    padding: 0 0.8rem;
+    position: relative;
+    border-radius: 0.25rem;
+    border: 1px solid rgba(195, 195, 195, 0.3);
+    -webkit-box-shadow:0 0 1px rgba(195, 195, 195, 0.1);
+    -moz-box-shadow:0 0 1px rgba(195, 195, 195, 0.1);
+    box-shadow:0 0 1px rgba(195, 195, 195, 0.1);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: flex-start;
+    min-width: 4rem;
+}
+
+.fui-chat-item .msg:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -0.28rem;
+    height: 0.4rem;
+    width: 0.4rem;
+    background: #fefefe;
+    margin-top: -0.2rem;
+    transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+    border: 1px solid rgba(195, 195, 195, 0.3);
+    -webkit-box-shadow:0 0 1px rgba(195, 195, 195, 0.1);
+    -moz-box-shadow:0 0 1px rgba(195, 195, 195, 0.1);
+    box-shadow:0 0 1px rgba(195, 195, 195, 0.1);
+}
+
+.fui-chat-item .msg:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -0.2rem;
+    height: 0.45rem;
+    width: 0.45rem;
+    background: #fefefe;
+    margin-top: -0.18rem;
+    transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+}
+
+.fui-chat-item .msg .horn {
+    height: 1rem;
+    width: 1.4rem;
+    background-image: url(../images/icon_audio_reading_gray_3.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+
+.fui-chat-item .msg .horn.playing {
+    -webkit-animation: chat_playing_gray 1s infinite;
+}
+
+.fui-chat-item.right {
+    justify-content: flex-end;
+}
+
+.fui-chat-item.right .msg {
+    border: 1px solid rgba(20, 80, 36, 0.15);
+    -webkit-box-shadow:0 0 1px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow:0 0 1px rgba(0, 0, 0, 0.1);
+    box-shadow:0 0 1px rgba(0, 0, 0, 0.1);
+    background: #a0e75a;
+    margin: 0 0.5rem 0 2.7rem;
+    transform:rotate(180deg);
+    -ms-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    -o-transform:rotate(180deg);
+}
+
+
+.fui-chat-item.right .msg:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -0.28rem;
+    height: 0.4rem;
+    width: 0.4rem;
+    background: #a0e75a;
+    margin-top: -0.2rem;
+    transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+    border: 1px solid rgba(20, 80, 36, 0.15);
+    -webkit-box-shadow:0 0 1px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow:0 0 1px rgba(0, 0, 0, 0.1);
+    box-shadow:0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.fui-chat-item.right .msg:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -0.2rem;
+    height: 0.5rem;
+    width: 0.5rem;
+    background: #a0e75a;
+    margin-top: -0.20rem;
+    transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+}
+
+.fui-chat-item.right .msg .horn {
+    height: 1rem;
+    width: 1.4rem;
+    background-image: url(../images/icon_audio_reading_green_3.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+
+.fui-chat-item.right .msg .horn.playing {
+    -webkit-animation: chat_playing_green 1s infinite;
+}
+
+@-webkit-keyframes chat_playing_green {
+    30% {
+        background-image: url(../images/icon_audio_reading_green_1.png)
+    }
+    31% {
+        background-image: url(../images/icon_audio_reading_green_2.png)
+    }
+    61% {
+        background-image: url(../images/icon_audio_reading_green_2.png)
+    }
+    62% {
+        background-image: url(../images/icon_audio_reading_green_3.png)
+    }
+    100% {
+        background-image: url(../images/icon_audio_reading_green_3.png)
+    }
+}
+
+@-webkit-keyframes chat_playing_gray {
+    30% {
+        background-image: url(../images/icon_audio_reading_gray_1.png)
+    }
+    31% {
+        background-image: url(../images/icon_audio_reading_gray_2.png)
+    }
+    61% {
+        background-image: url(../images/icon_audio_reading_gray_2.png)
+    }
+    62% {
+        background-image: url(../images/icon_audio_reading_gray_3.png)
+    }
+    100% {
+        background-image: url(../images/icon_audio_reading_gray_3.png)
+    }
+}
 

@@ -1,180 +1,13 @@
 define(['core', 'tpl'], function (core, tpl) {
-    var modal = {};
-    jQuery.base64 = (function ($) {
-        var _PADCHAR = "=", _ALPHA = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/", _VERSION = "1.1";
-
-        function _getbyte64(s, i) {
-            var idx = _ALPHA.indexOf(s.charAt(i));
-            if (idx === -1) {
-                throw"Cannot decode base64"
-            }
-            return idx
-        }
-
-        function _decode_chars(y, x) {
-            while (y.length > 0) {
-                var ch = y[0];
-                if (ch < 0x80) {
-                    y.shift();
-                    x.push(String.fromCharCode(ch))
-                } else if ((ch & 0x80) == 0xc0) {
-                    if (y.length < 2)break;
-                    ch = y.shift();
-                    var ch1 = y.shift();
-                    x.push(String.fromCharCode(((ch & 0x1f) << 6) + (ch1 & 0x3f)))
-                } else {
-                    if (y.length < 3)break;
-                    ch = y.shift();
-                    var ch1 = y.shift();
-                    var ch2 = y.shift();
-                    x.push(String.fromCharCode(((ch & 0x0f) << 12) + ((ch1 & 0x3f) << 6) + (ch2 & 0x3f)))
-                }
-            }
-        }
-
-        function _decode(s) {
-            var pads = 0, i, b10, imax = s.length, x = [], y = [];
-            s = String(s);
-            if (imax === 0) {
-                return s
-            }
-            if (imax % 4 !== 0) {
-                throw"Cannot decode base64"
-            }
-            if (s.charAt(imax - 1) === _PADCHAR) {
-                pads = 1;
-                if (s.charAt(imax - 2) === _PADCHAR) {
-                    pads = 2
-                }
-                imax -= 4
-            }
-            for (i = 0; i < imax; i += 4) {
-                var ch1 = _getbyte64(s, i);
-                var ch2 = _getbyte64(s, i + 1);
-                var ch3 = _getbyte64(s, i + 2);
-                var ch4 = _getbyte64(s, i + 3);
-                b10 = (_getbyte64(s, i) << 18) | (_getbyte64(s, i + 1) << 12) | (_getbyte64(s, i + 2) << 6) | _getbyte64(s, i + 3);
-                y.push(b10 >> 16);
-                y.push((b10 >> 8) & 0xff);
-                y.push(b10 & 0xff);
-                _decode_chars(y, x)
-            }
-            switch (pads) {
-                case 1:
-                    b10 = (_getbyte64(s, i) << 18) | (_getbyte64(s, i + 1) << 12) | (_getbyte64(s, i + 2) << 6);
-                    y.push(b10 >> 16);
-                    y.push((b10 >> 8) & 0xff);
-                    break;
-                case 2:
-                    b10 = (_getbyte64(s, i) << 18) | (_getbyte64(s, i + 1) << 12);
-                    y.push(b10 >> 16);
-                    break
-            }
-            _decode_chars(y, x);
-            if (y.length > 0)throw"Cannot decode base64";
-            return x.join("")
-        }
-
-        function _get_chars(ch, y) {
-            if (ch < 0x80)y.push(ch); else if (ch < 0x800) {
-                y.push(0xc0 + ((ch >> 6) & 0x1f));
-                y.push(0x80 + (ch & 0x3f))
-            } else {
-                y.push(0xe0 + ((ch >> 12) & 0xf));
-                y.push(0x80 + ((ch >> 6) & 0x3f));
-                y.push(0x80 + (ch & 0x3f))
-            }
-        }
-
-        function _encode(s) {
-            if (arguments.length !== 1) {
-                throw"SyntaxError: exactly one argument required"
-            }
-            s = String(s);
-            if (s.length === 0) {
-                return s
-            }
-            var i, b10, y = [], x = [], len = s.length;
-            i = 0;
-            while (i < len) {
-                _get_chars(s.charCodeAt(i), y);
-                while (y.length >= 3) {
-                    var ch1 = y.shift();
-                    var ch2 = y.shift();
-                    var ch3 = y.shift();
-                    b10 = (ch1 << 16) | (ch2 << 8) | ch3;
-                    x.push(_ALPHA.charAt(b10 >> 18));
-                    x.push(_ALPHA.charAt((b10 >> 12) & 0x3F));
-                    x.push(_ALPHA.charAt((b10 >> 6) & 0x3f));
-                    x.push(_ALPHA.charAt(b10 & 0x3f))
-                }
-                i++
-            }
-            switch (y.length) {
-                case 1:
-                    var ch = y.shift();
-                    b10 = ch << 16;
-                    x.push(_ALPHA.charAt(b10 >> 18) + _ALPHA.charAt((b10 >> 12) & 0x3F) + _PADCHAR + _PADCHAR);
-                    break;
-                case 2:
-                    var ch1 = y.shift();
-                    var ch2 = y.shift();
-                    b10 = (ch1 << 16) | (ch2 << 8);
-                    x.push(_ALPHA.charAt(b10 >> 18) + _ALPHA.charAt((b10 >> 12) & 0x3F) + _ALPHA.charAt((b10 >> 6) & 0x3f) + _PADCHAR);
-                    break
-            }
-            return x.join("")
-        }
-
-        return {decode: _decode, encode: _encode, VERSION: _VERSION}
-    }(jQuery));
+    var modal = {location: {lat: '0', lng: '0'}};
     modal.init = function (params) {
-        if (params.diypage.data) {
-            modal.page = params.diypage.data.page;
-            modal.items = params.diypage.data.items;
-            modal.keyword = params.diypage.keyword;
-            modal.title = modal.page.title
-        }
-        modal.attachurl = params.attachurl;
-        tpl.helper("imgsrc", function (src) {
-            if (typeof src != 'string') {
-                return ''
-            }
-            if (src.indexOf('http://') == 0 || src.indexOf('https://') == 0 || src.indexOf('../addons') == 0) {
-                return src
-            } else if (src.indexOf('images/') == 0) {
-                return modal.attachurl + src
-            }
-        });
-        tpl.helper("decode", function (content) {
-            return $.base64.decode(content)
-        });
-        tpl.helper("count", function (data) {
-            return modal.length(data)
-        });
-        tpl.helper("toArray", function (data) {
-            var oldArray = $.makeArray(data);
-            var newArray = [];
-            $.each(data, function (itemid, item) {
-                newArray.push(item)
-            });
-            return newArray
-        });
-        tpl.helper("define", function (str) {
-            var str;
-        });
-        modal.initItems()
+        modal.initNotice();
+        modal.initSwiper();
+        modal.initLocation();
+        modal.initAudio()
     };
-    modal.initItems = function () {
-        if (modal.items) {
-            var _copyright= $("#copyright").html();
-            $("#container").html('');
-            $.each(modal.items, function (itemid, item) {
-                var newItem = $.extend(true, {}, item);
-                newItem.itemid = itemid;
-                var html = tpl("tpl_show_" + item.id, newItem);
-                $("#container").append(html)
-            });
+    modal.initNotice = function () {
+        if ($(".fui-notice").length > 0) {
             $(".fui-notice").each(function () {
                 var _this = $(this);
                 var speed = _this.data('speed') * 1000;
@@ -186,21 +19,208 @@ define(['core', 'tpl'], function (core, tpl) {
                         })
                     }
                 }, speed)
-            });
-            $("#container").append(_copyright);
-        } else {
-            $("#container").text("")
+            })
         }
     };
-    modal.length = function (json) {
-        if (typeof(json) === 'undefined') {
-            return 0
+    modal.initSwiper = function () {
+
+        if($('[data-toggle="timer"]').length>0){
+            require(['../addons/ewei_shopv2/plugin/seckill/static/js/timer.js'],function(timerUtil){
+                timerUtil.initTimers();
+            });
         }
-        var jsonlen = 0;
-        for (var item in json) {
-            jsonlen++
+
+        if ($(".swiper").length > 0) {
+
+
+
+            require(['swiper'], function (modal) {
+                $(".swiper").each(function () {
+                    var obj = $(this);
+                    var ele = $(this).data('element');
+                    var container = ele + " .swiper-container";
+                    var view = $(this).data('view');
+                    var btn = $(this).data('btn');
+                    var free = $(this).data('free');
+                    var space = $(this).data('space');
+                    var callback = $(this).data('callback');
+                    var options = {
+                        pagination: container + ' .swiper-pagination',
+                        slidesPerView: view,
+                        paginationClickable: true,
+                        autoHeight: true,
+                        nextButton: container + ' .swiper-button-next',
+                        prevButton: container + ' .swiper-button-prev',
+                        spaceBetween: space > 0 ? space : 0,
+                        //preventClicks : false,
+                        preventLinksPropagation : true,
+
+                        onSlideChangeEnd: function (swiper) {
+                            if (swiper.isEnd && callback) {
+                                if (callback == 'seckill') {
+                                     location.href = core.getUrl('seckill');
+                                }
+                            }
+                        }
+                    };
+                    if (!btn) {
+                        delete options.nextButton;
+                        delete options.prevButton;
+                        $(container).find(".swiper-button-next").remove();
+                        $(container).find(".swiper-button-prev").remove()
+                    }
+                    if (free) {
+                        options.freeMode = true
+                    }
+                    var swiper = new Swiper(container, options)
+                })
+            })
         }
-        return jsonlen
+    };
+    modal.initLocation = function () {
+        if ($(".merchgroup[data-openlocation='1']").length > 0) {
+            var mapApi = 'http://api.map.baidu.com/getscript?v=2.0&ak=ZQiFErjQB7inrGpx27M1GR5w3TxZ64k7';
+            require([mapApi], function () {
+                var geoLocation = new BMap.Geolocation();
+                window.modal = modal;
+                geoLocation.getCurrentPosition(function (result) {
+                    if (this.getStatus() == BMAP_STATUS_SUCCESS) {
+                        modal.location.lat = result.point.lat;
+                        modal.location.lng = result.point.lng;
+                        modal.initMerch()
+                    } else {
+                        FoxUI.toast.show("位置获取失败!");
+                        return
+                    }
+                }, {enableHighAccuracy: true})
+            })
+        }
+    };
+    modal.initMerch = function () {
+        $(".merchgroup").each(function () {
+            var _this = $(this);
+            var item = _this.data('itemdata');
+            if (!item || !item.params.openlocation) {
+                return
+            }
+            core.json('diypage/getmerch', {
+                lat: modal.location.lat,
+                lng: modal.location.lng,
+                item: item
+            }, function (result) {
+                if (result.status == 1) {
+                    var list = result.result.list;
+                    if (list) {
+                        _this.empty();
+                        $.each(list, function (id, merch) {
+                            var thumb = merch.thumb ? merch.thumb : '../addons/ewei_shopv2/static/images/merch.jpg';
+                            var html = '';
+                            html = '<div class="fui-list jump">';
+                            html += '<a class="fui-list-media" href="' + core.getUrl("merch", {merchid: merch.id}) + '" data-nocache="true"><img src="' + thumb + '"/></a>';
+                            html += '<a class="fui-list-inner" href="' + core.getUrl("merch", {merchid: merch.id}) + '" data-nocache="true">';
+                            html += '<div class="title" style="color: ' + item.style.titlecolor + ';">' + merch.name + '</div>';
+                            if (merch.desc) {
+                                html += '<div class="subtitle" style="color: ' + item.style.textcolor + ';">' + merch.desc + '</div>'
+                            }
+                            if (merch.distance && item.params.openlocation) {
+                                html += '<div class="subtitle" style="color: ' + item.style.rangecolor + '; font-size: 0.6rem">距离您: ' + merch.distance + 'km</div>'
+                            }
+                            html += '</a>';
+                            html += '<a class="fui-remark jump" style="padding-right: 0.2rem; height: 2rem; width: 2rem; text-align: center; line-height: 2rem;" href="' + core.getUrl("merch/map", {merchid: merch.id}) + '" data-nocache="true">';
+                            html += '<i class="icon icon-location" style="color: ' + item.style.locationcolor + '; font-size: 1rem;"></i>';
+                            html += '</a>';
+                            html += '</div>';
+                            _this.append(html)
+                        });
+                        _this.show()
+                    }
+                }
+            }, true, true)
+        })
+    };
+    modal.initAudio = function () {
+        if ($(".play-audio").length > 0) {
+            $(".play-audio").each(function () {
+                var _this = $(this);
+                var autoplay = _this.data('autoplay');
+                var audio = _this.find("audio")[0];
+                var duration = audio.duration;
+                if(!isNaN(duration)){
+                    var time = modal.formatSeconds(duration);
+                    _this.find(".time").text(time).show();
+                }
+
+                if (autoplay) {
+                    //modal.playAudio(_this)
+                }
+                $(_this).click(function () {
+                    if (!audio.paused) {
+                        modal.stopAudio(_this)
+                    } else {
+                        modal.playAudio(_this)
+                    }
+                })
+            })
+        }
+    };
+    modal.playAudio = function (_this) {
+        _this.siblings().find("audio").each(function () {
+            var __this = $(this).closest(".play-audio");
+            modal.stopAudio(__this)
+        });
+        var audio = _this.find("audio")[0];
+        var duration = audio.duration;
+
+        if(!isNaN(duration)){
+            var time = modal.formatSeconds(duration);
+            _this.find(".time").text(time).show();
+        }
+
+        audio.play();
+        _this.find(".horn").addClass('playing');
+        if (audio.paused) {
+            _this.find(".speed").css({width: '0px'})
+        }
+        var timer = setInterval(function () {
+            var currentTime = audio.currentTime;
+            if (currentTime >= duration) {
+                modal.stopAudio(_this);
+                clearInterval(timer)
+            }
+            var _thiswidth = _this.outerWidth();
+            var _width = (currentTime / duration) * _thiswidth;
+            _this.find(".speed").css({width: _width + 'px'})
+        }, 1000)
+    };
+    modal.stopAudio = function (_this) {
+        var audio = _this.find("audio")[0];
+        if (audio) {
+            var stop = _this.data('pausestop');
+            if (stop) {
+                audio.currentTime = 0
+            }
+            audio.pause();
+            _this.find(".horn").removeClass('playing')
+        }
+    };
+    modal.formatSeconds = function (value) {
+        var theTime = parseInt(value);
+        var theTime1 = 0;
+        var theTime2 = 0;
+        if (theTime > 60) {
+            theTime1 = parseInt(theTime / 60);
+            theTime = parseInt(theTime % 60);
+            if (theTime1 > 60) {
+                theTime2 = parseInt(theTime1 / 60);
+                theTime1 = parseInt(theTime1 % 60)
+            }
+        }
+        var result = "" + parseInt(theTime) + "''";
+        result = "" + parseInt(theTime1) + "'" + result;
+        if (theTime2 > 0) {
+            result = "" + parseInt(theTime2) + "'" + result
+        }
+        return result
     };
     return modal
 });

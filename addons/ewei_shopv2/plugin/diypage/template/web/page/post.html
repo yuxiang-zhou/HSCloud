@@ -14,7 +14,7 @@
     </h2>
 </div>
 
-<div class="diy-phone">
+<div class="diy-phone" data-merch="{php echo intval($_W['merchid'])}">
     <div class="phone-head"></div>
     <div class="phone-body">
         <div class="phone-title" id="page">loading...</div>
@@ -44,9 +44,16 @@
                 <nav class="btn btn-warning btn-sm btn-save" data-type="savetemp">另存为模板</nav>
             {/if}
         {/if}
+        {if $pagetype=='plu'}
+            {ifp 'diypage.page.plu.savetemp'}
+                <nav class="btn btn-warning btn-sm btn-save" data-type="savetemp">另存为模板</nav>
+            {/if}
+        {/if}
         <nav class="btn btn-primary btn-sm btn-save" data-type="save">保存{if $pagetype=='mod'}模块{else}页面{/if}</nav>
-        {if $pagetype=='sys' || $pagetype=='diy'}
-            <nav class="btn btn-success btn-sm btn-save" data-type="preview">保存并预览</nav>
+        {if $pagetype=='sys' || $pagetype=='diy' || $pagetype=='plu'}
+            {if $_GPC['type']!=5 && $page['type']!=5 && $_GPC['type']!=7 && $page['type']!=7 && $_GPC['type']!=8 && $page['type']!=8}
+                <nav class="btn btn-success btn-sm btn-save" data-type="preview">保存并预览</nav>
+            {/if}
         {/if}
     </div>
 </div>
@@ -68,7 +75,10 @@
             type: {$type},
             data: {if !empty($page['data'])}{php echo json_encode($page['data'])}{else}null{/if},
             diymenu: {php echo json_encode($diymenu)},
-            levels: {if !empty($levels)}{php echo json_encode($levels)}{else}null{/if}
+            levels: {if !empty($levels)}{php echo json_encode($levels)}{else}null{/if},
+            merch: {if $_W['plugin']=='merch' && !empty($_W['merchid'])}1{else}0{/if},
+            plugins: {$hasplugins},
+            shopset: {php echo json_encode($_W['shopset']['shop'])}
         });
     });
     function selectUrlCallback(href){
@@ -90,6 +100,31 @@
     function callbackGroup (data) {
         myrequire([path],function(modal) {
             modal.callbackGroup(data);
+        });
+    }
+    function callbackMerch (data) {
+        myrequire([path],function(modal) {
+            modal.callbackMerch(data);
+        });
+    }
+    function callbackMerchCategory (data) {
+        myrequire([path],function(modal) {
+            modal.callbackMerchCategory(data);
+        });
+    }
+    function callbackMerchGroup (data) {
+        myrequire([path],function(modal) {
+            modal.callbackMerchGroup(data);
+        });
+    }
+    function callbackSeckill (data) {
+        myrequire([path],function(modal) {
+            modal.callbackSeckill(data);
+        });
+    }
+    function callbackCoupon (data) {
+        myrequire([path],function(modal) {
+            modal.callbackCoupon(data);
         });
     }
 </script>

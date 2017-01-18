@@ -75,8 +75,14 @@
             <td style="text-align: center;">
                 <img style="width:30px;height:30px;padding1px;border:1px solid #ccc" src="{php echo tomedia($row['logo'])}">
             </td>
-            <td><label class="label label-primary">{$category[$row['cid']]['name']}</label><br/>{$row['title']}
-                <br/><a href="javascript:;" class='js-clip' data-url="{php echo mobileUrl('sns/board', array('id' => $row['id']),true)}"><i class='fa fa-link'></i> 复制链接</a></td>
+            <td>
+                <label class="label label-primary">{$category[$row['cid']]['name']}</label><br/>{$row['title']}
+                <br/>
+                <a href="javascript:;" class='js-clip' data-url="{php echo mobileUrl('sns/board', array('id' => $row['id']),true)}"><i class='fa fa-link'></i> 复制链接</a>
+                <span style="cursor: pointer;" data-toggle="popover" data-trigger="hover" data-html="true" data-content="<img src='{$row['qrcode']}' width='130' alt='链接二维码'>" data-placement="auto right">
+                    <i class="glyphicon glyphicon-qrcode"></i>
+                </span>
+            </td>
             <td>{php echo number_format($row['postcount'],0)}</td>
             <td>{php echo number_format($row['followcount'],0)}</td>
             <td>

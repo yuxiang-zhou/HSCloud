@@ -4,6 +4,8 @@ define(['jquery.ui'], function (ui) {
         window.tpl = params.tpl;
         modal.attachurl = params.attachurl;
         modal.layer = params.layer;
+        modal.merch = params.merch;
+
         if (!modal.layer) {
             modal.layer = {
                 params: {
@@ -36,6 +38,8 @@ define(['jquery.ui'], function (ui) {
         })
     };
     modal.initItems = function () {
+        var layer = modal.layer;
+        layer.merch = modal.merch;
         var html = tpl("tpl_show_layer", modal.layer);
         $("#phone").html(html).show()
     };
@@ -108,7 +112,7 @@ define(['jquery.ui'], function (ui) {
             return
         }
         $(".btn-save").data('status', 1).text("保存中...");
-        var posturl = biz.url("diypage/shop/layer");
+        var posturl = biz.url("diypage/shop/layer", null, modal.merch);
         $.post(posturl, {data: modal.layer}, function (ret) {
             if (ret.status == 0) {
                 tip.msgbox.err(ret.result.message);

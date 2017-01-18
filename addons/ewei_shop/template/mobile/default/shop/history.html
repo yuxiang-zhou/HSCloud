@@ -1,5 +1,5 @@
 {template 'common/header'}
-<title>我的足迹</title>
+<title>我的香迹</title>
 <style type="text/css">
 body {margin:0px; background:#f8f8f8; -moz-appearance:none;}
 .history_no {height:40px; width:100%;  padding-top:180px; margin:50px 0px;}
@@ -32,13 +32,13 @@ body {margin:0px; background:#f8f8f8; -moz-appearance:none;}
 <script id='history_empty' type='text/html'>
      <div class="history_no"><i class="fa fa-history" style="font-size:100px;"></i><br><span style="line-height:18px; font-size:16px;">您没有浏览过任何商品</span><br>主人快去给我找点东西吧</div>
 <div class="history_no_menu">
-   <div class="history_no_nav" onclick="location.href='{php echo $this->createMobileUrl('member')}'">个人中心</div>
+   <div class="history_no_nav" onclick="location.href='{php echo $this->createMobileUrl('member')}'">香粉中心</div>
         <div class="history_no_nav"  onclick="location.href='{php echo $this->getUrl()}'">去逛逛</div>
  </div>
 </script>
 <script id="history_main" type="text/html">
       <div class="history_top">
-        <div class="title" onclick='history.back()'><i class='fa fa-chevron-left'></i> 我的足迹(<%total%>)</div>
+        <div class="title" onclick='history.back()'><i class='fa fa-chevron-left'></i> 我的香迹(<%total%>)</div>
         <div class="nav" id="removehistory">删除</div>
     </div>
     <div class="history_main"></div>
@@ -121,7 +121,7 @@ body {margin:0px; background:#f8f8f8; -moz-appearance:none;}
                                    core.tip.show('未选择商品');
                                    return;
                                }
-                              core.tip.confirm('确认从我的足迹删除这些商品?',function(){
+                              core.tip.confirm('确认从我的香迹删除这些商品?',function(){
                                            $('.history_good').attr('del',0);
                                            core.json('shop/history',{'op':'remove',ids:ids},function(json){
                                                 if(json.status==1)  {
@@ -189,7 +189,7 @@ body {margin:0px; background:#f8f8f8; -moz-appearance:none;}
                                         bindEvents();
                                         if (morejson.result.list.length <morejson.result.pagesize) {
                                           
-                                            $('.history_main').append('<div id="history_loading">已经加载完全部足迹</div>');
+                                            $('.history_main').append('<div id="history_loading">已经加载完全部香迹</div>');
                                             loaded = true;
                                             $(window).scroll = null;
                                             return;

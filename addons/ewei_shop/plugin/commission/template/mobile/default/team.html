@@ -1,5 +1,9 @@
 {template 'common/header'}
+{if $useagent>0}
+<title>我的香商</title>
+{else}
 <title>{php echo $this->set['texts']['myteam']}</title>
+{/if}
 <style type="text/css">
     body {margin:0px; background:#eee; font-family:'微软雅黑'; -moz-appearance:none;}
     a {text-decoration:none;}
@@ -28,18 +32,33 @@
 
 </style>
 <div class="team_top">
+{if $useagent>0}
+    <div class="title" onclick='history.back()'><i class='fa fa-chevron-left'></i> 我的香商({$totaldealers})</div>
+{else}
     <div class="title" onclick='history.back()'><i class='fa fa-chevron-left'></i> {php echo $this->set['texts']['myteam']}({$total})</div>
+{/if}
 </div>
 {if $total>0}
 <div class="team_tab">
+{if $useagent>0}
+    <div class="team_nav team_navon" data-level='1'  style='width:{$tabwidth}%'>{php echo $this->set['texts']['c1']}({$dealerlevel1})</div>
+    {if $this->set['level']>=2}<div class="team_nav" data-level='2'  style='width:{$tabwidth}%'>{php echo $this->set['texts']['c2']}({$dealerlevel2})</div>{/if}
+    {if $this->set['level']>=3}<div class="team_nav" data-level='3'  style='width:{$tabwidth}%'>{php echo $this->set['texts']['c3']}({$dealerlevel3})</div>{/if}
+{else}
     <div class="team_nav team_navon" data-level='1'  style='width:{$tabwidth}%'>{php echo $this->set['texts']['c1']}({$level1})</div>
     {if $this->set['level']>=2}<div class="team_nav" data-level='2'  style='width:{$tabwidth}%'>{php echo $this->set['texts']['c2']}({$level2})</div>{/if}
     {if $this->set['level']>=3}<div class="team_nav" data-level='3'  style='width:{$tabwidth}%'>{php echo $this->set['texts']['c3']}({$level3})</div>{/if}
+{/if}
 </div>
 {/if}
 <div class="team_list_head">
-        <div class="info">成员信息</div>
-        <div class="num">TA的{php echo $this->set['texts']['commission']}/成员</div>
+{if $useagent>0}
+        <div class="info">香商信息</div>
+        <div class="num">我的香商</div>
+{else}
+        <div class="info">香军信息</div>
+        <div class="num">我的粉金/香军</div>
+{/if}
 </div>
 <div id='container'></div>
 
@@ -47,18 +66,28 @@
     
     <%each list as user%>
     <div class="team_list">
-        <div class="img"><img src="<%if user.nickname%><%user.avatar%><%else%>../addons/ewei_shop/plugin/commission/images/head.jpg<%/if%>"></div>
-        <div class="info"><%if user.nickname%><%user.nickname%><%else%>未获取<%/if%><br><span><%user.agenttime%></span></div>
-        <div class="num">+<%user.commission_total%><br><span><%user.agentcount%> 个成员</span></div>
+		<div class="img"><img src="<%user.avatar%>"></div>
+
+<%if user.realname.length>0%>
+		<div class="info"><%user.realname%>(<%user.mobile%>)<br><span>注册时间：<%user.agenttime%></span></div>
+<%else%>
+		<div class="info"><%user.nickname%><br><span>注册时间：<%user.agenttime%></span></div>
+<%/if%>
+{if $useagent>0}
+		<div class="num"><span><%user.dealercount%> 个香商</span></div>
+{else}
+        <div class="num">+<%user.commission_total%><br><span><%user.agentcount%> 个香军</span></div>
+{/if}
     </div>
     <%/each%>
 </script>
 <script id='tpl_empty' type='text/html'>
-    <div class="team_no"><i class="fa fa-users" style="font-size:100px;"></i><br><span style="line-height:18px; font-size:16px;">您还没有相关成员~</span></div>
+    <div class="team_no"><i class="fa fa-users" style="font-size:100px;"></i><br><span style="line-height:18px; font-size:16px;">您还没有相关香粉~</span></div>
 </script>
 
 <script language="javascript">
     var page = 1;
+	var useagent = 0;
    var current_level = 1;
     require(['tpl', 'core'], function (tpl, core) {
 
@@ -98,7 +127,7 @@ function bindScroller(){
         function getTeam(level) {
             $('.team_nav').removeClass('team_navon');
             $('.team_nav[data-level=' + level + ']').addClass('team_navon');
-            core.pjson('commission/team', {level: level, page: page}, function (json) {
+            core.pjson('commission/team', {level: level, page: page, useagent: useagent}, function (json) {
                 if (json.result.list.length <= 0) {
                     $('#container').html(tpl('tpl_empty'));
                     return;
@@ -113,6 +142,7 @@ function bindScroller(){
 
         });
 
+		useagent = {php echo intval($_GPC['useagent']);};
         getTeam(1);
 
     })

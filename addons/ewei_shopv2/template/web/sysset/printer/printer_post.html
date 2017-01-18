@@ -38,11 +38,11 @@
                     <label class="col-sm-2 control-label">打印机类型</label>
                     <div class="col-sm-9 col-xs-12">
                         {ife 'sysset.printer' $list}
-                        {loop $printer $key $val}
-                        <label class="radio-inline">
-                            <input type="radio" name="type" value="{$key}" {if $list['type']==$key}checked=""{/if}> {$val}
-                        </label>
-                        {/loop}
+                        <select class="form-control tpl-category-parent" name="type" id="type">
+                            {loop $printer $key $val}
+                            <option value="{$key}" {if $list['type']==$key}selected="true"{/if}>{$val}</option>
+                            {/loop}
+                        </select>
                         {else}
                         <div class='form-control-static'>{$printer[$list['type']]}</div>
                         {/if}
@@ -106,6 +106,63 @@
                         {/if}
                     </div>
                 </div>
+
+                <!--365打印机s1-->
+                <div id="printer_365_s1" class="printer" {if $list['type']!=3}style="display: none"{/if}>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label" >打印机编号</label>
+                    {ife 'sysset.printer' $list}
+                    <div class="col-sm-9 title" style='padding-right:0' >
+                        <input type="text" name="printer_365_s1[deviceNo]" class="form-control" value="{$printer_365_s1['deviceNo']}"/>
+                        <span class='help-block'>打印机编号(ID)</span>
+                    </div>
+                    {else}
+                    <div class="col-sm-3">
+                        <div class='form-control-static'>{$printer_365_s1['deviceNo']}</div>
+                    </div>
+                    {/if}
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label" >打印机密钥</label>
+                    {ife 'sysset.printer' $list}
+                    <div class="col-sm-9 title" style='padding-right:0' >
+                        <input type="text" name="printer_365_s1[key]" class="form-control" value="{$printer_365_s1['key']}"/>
+                        <span class='help-block'>打印机的KEY,打印机的密钥</span>
+                    </div>
+                    {else}
+                    <div class="col-sm-3">
+                        <div class='form-control-static'>{$printer_365_s1['key']}</div>
+                    </div>
+                    {/if}
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label" >打印联数</label>
+                    {ife 'sysset.printer' $list}
+                    <div class="col-sm-9 title" style='padding-right:0' >
+                        <input type="text" name="printer_365_s1[times]" class="form-control" value="{$printer_365_s1['times']}"/>
+                        <span class='help-block'>同一订单，打印的次数</span>
+                    </div>
+                    {else}
+                    <div class="col-sm-3">
+                        <div class='form-control-static'>{$printer_365_s1['times']}</div>
+                    </div>
+                    {/if}
+                </div>
+
+                <div class="form-group">
+                    <label class="col-sm-2 control-label" >URL</label>
+                    {ife 'sysset.printer' $list}
+                    <div class="col-sm-9 title" style='padding-right:0' >
+                        <input type="text" name="printer_365_s1[url]" class="form-control" value="{php echo !empty($printer_365_s1['url']) ? $printer_365_s1['url'] : 'http://open.printcenter.cn:8080/addOrder'}"/>
+                        <span class='help-block'>打印机POST的地址,不填写的话,默认是这个!</span>
+                    </div>
+                    {else}
+                    <div class="col-sm-3">
+                        <div class='form-control-static'>{$printer_365_s1['times']}</div>
+                    </div>
+                    {/if}
+                </div>
+            </div>
 
 
                 <!--飞鹅打印机-->
@@ -248,6 +305,90 @@
                         {/if}
                     </div>
                 </div>
+
+                <!--易联云新版接口打印机-->
+                <div id="printer_yilianyun_new" class="printer" {if $list['type']!='4'}style="display: none"{/if}>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label" >终端号</label>
+                        {ife 'sysset.printer' $list}
+                        <div class="col-sm-9 title" style='padding-right:0' >
+                            <input type="text" name="printer_yilianyun_new[machine_code]" class="form-control" value="{$printer_yilianyun_new['machine_code']}"/>
+                            <span class='help-block'>打印机终端号</span>
+                        </div>
+                        {else}
+                        <div class="col-sm-3">
+                            <div class='form-control-static'>{$printer_yilianyun_new['machine_code']}</div>
+                        </div>
+                        {/if}
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label" >密钥</label>
+                        {ife 'sysset.printer' $list}
+                        <div class="col-sm-9 title" style='padding-right:0' >
+                            <input type="text" name="printer_yilianyun_new[msign]" class="form-control" value="{$printer_yilianyun_new['msign']}"/>
+                            <span class='help-block'>打印机终端密钥</span>
+                        </div>
+                        {else}
+                        <div class="col-sm-3">
+                            <div class='form-control-static'>{$printer_yilianyun_new['msign']}</div>
+                        </div>
+                        {/if}
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label" >用户ID</label>
+                        {ife 'sysset.printer' $list}
+                        <div class="col-sm-9 title" style='padding-right:0' >
+                            <input type="text" name="printer_yilianyun_new[partner]" class="form-control" value="{$printer_yilianyun_new['partner']}"/>
+                            <span class='help-block'>用户id（管理中心系统集成里获取）</span>
+                        </div>
+                        {else}
+                        <div class="col-sm-3">
+                            <div class='form-control-static'>{$printer_yilianyun_new['times']}</div>
+                        </div>
+                        {/if}
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label" >apiKey</label>
+                        {ife 'sysset.printer' $list}
+                        <div class="col-sm-9 title" style='padding-right:0' >
+                            <input type="text" name="printer_yilianyun_new[apikey]" class="form-control" value="{$printer_yilianyun_new['apikey']}"/>
+                            <span class='help-block'>apiKey（管理中心系统集成里获取）</span>
+                        </div>
+                        {else}
+                        <div class="col-sm-3">
+                            <div class='form-control-static'>{$printer_yilianyun_new['apikey']}</div>
+                        </div>
+                        {/if}
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label" >URL</label>
+                        {ife 'sysset.printer' $list}
+                        <div class="col-sm-9 title" style='padding-right:0' >
+                            <input type="text" name="printer_yilianyun_new[url]" class="form-control" value="{php echo !empty($printer_yilianyun_new['url']) ? $printer_yilianyun_new['url'] : 'http://open.10ss.net:8888'}"/>
+                            <span class='help-block'>API接口地址</span>
+                        </div>
+                        {else}
+                        <div class="col-sm-3">
+                            <div class='form-control-static'>{$printer_yilianyun_new['times']}</div>
+                        </div>
+                        {/if}
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label" >打印联数</label>
+                        {ife 'sysset.printer' $list}
+                        <div class="col-sm-9 title" style='padding-right:0' >
+                            <input type="text" name="printer_yilianyun_new[times]" class="form-control" value="{$printer_yilianyun_new['times']}"/>
+                            <span class='help-block'>同一订单，打印的次数</span>
+                        </div>
+                        {else}
+                        <div class="col-sm-3">
+                            <div class='form-control-static'>{$printer_yilianyun_new['times']}</div>
+                        </div>
+                        {/if}
+                    </div>
+                </div>
                 <div class="form-group"></div>
                   <div class="form-group">
                     <label class="col-sm-2 control-label" ></label>
@@ -271,13 +412,15 @@
             $('form').removeAttr('stop');
             return true;
         });
-        $(":input[name='type']").on('click',function () {
+        $("#type").on('change',function () {
             var $this = $(this);
             $(".printer").hide();
             switch (this.value){
                 case '0':$("#printer_365").show();break;
                 case '1':$("#printer_feie").show();break;
                 case '2':$("#printer_yilianyun").show();break;
+                case '3':$("#printer_365_s1").show();break;
+                case '4':$("#printer_yilianyun_new").show();break;
             }
         });
         require(['jquery.caret'],function(){

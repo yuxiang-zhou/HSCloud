@@ -205,7 +205,6 @@
                         }else{
                             $("#optiontitle"+{$goodsid}+"").html(""+data.result.title+"...");
                             var $objOption = $("#packagegoods"+{$goodsid}+"").nextAll();
-                            console.log($objOption);
                             if($objOption){
                                 $objOption.remove();
                             }
@@ -222,17 +221,15 @@
                 var commission2 = $("input[name='package_goods_commission2"+goodsid+"']").val();
                 var commission3 = $("input[name='package_goods_commission3"+goodsid+"']").val();
                 var packagegoods = [price,commission1,commission2,commission3];
-                console.log(packagegoods);
-
 
                 var packagegoodshtml = '<input type="hidden" value="'+packagegoods+'" name="packgoods'+{$goodsid}+'" >';
-                if($("input[name^='packgoods']").val()){
-                    $("input[name^='packgoods']").remove();
-                    $("#optiontitle"+{$goodsid}+"").after(packagegoodshtml)
+                if($("input[name='packgoods"+goodsid+"']").val()){
+                    $("input[name='packgoods"+goodsid+"']").remove();
+                    $("#optiontitle"+goodsid+"").after(packagegoodshtml)
                 }else{
-                    $("#optiontitle"+{$goodsid}+"").after(packagegoodshtml)
+                    $("#optiontitle"+goodsid+"").after(packagegoodshtml)
                 }
-                $("#optiontitle"+{$goodsid}+"").html("&yen;"+price);
+                $("#optiontitle"+goodsid+"").html("&yen;"+price);
             }
 
             //关闭弹窗

@@ -28,7 +28,7 @@
 					<div class="fui-uploader fui-uploader-sm "  {if !empty($shop['logo'])}style='display:none'{/if}
 						 data-max="1" 
 						data-count="{if !empty($shop['logo'])}1{else}0{/if}"> 
-						 <input type="file" name='imgFile0' id='imgFile0' multiple="" accept="image/*" >
+						 <input type="file" name='imgFile0' id='imgFile0'  {if !is_h5app() || (is_h5app() && is_ios())}multiple="" accept="image/*" {/if}>
 					</div>
 				 
 					
@@ -51,7 +51,7 @@
 						  data-max="1" 
 						  data-long="1"
 						  data-count="{if !empty($shop['img'])}1{else}0{/if}"> 
-						 <input type="file" name='imgFile1' id='imgFile1' multiple="" accept="image/*" >
+						 <input type="file" name='imgFile1' id='imgFile1' {if !is_h5app() || (is_h5app() && is_ios())}multiple="" accept="image/*" {/if} >
 					</div>
 					 
 					

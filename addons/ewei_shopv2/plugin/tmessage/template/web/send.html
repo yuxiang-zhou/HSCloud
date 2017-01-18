@@ -109,12 +109,12 @@
                         })
                       
                          var openids = [];
-                        function send(){
+                         function send(){
                             var btn = $('input[type=button]');
                             if(btn.attr('sending')=='1'){
                                 return;
                             }
-                           if($('#id_text').val()==''){
+                            if($('#id_text').val()==''){
                                 tip.msgbox.err('请选择群发模板!');
                                 return;
                             }
@@ -132,7 +132,7 @@
                                 dataType:'json',
                                 data: {class1:c,value1:v,id:"{$send['id']}"},
                                 success:function(data){
-                                    
+
                                     if(data.status==1){
                                         openids = data.result.openids;
                                         btn.val('共要发送给 ' + openids.length + " 个用户，准备发送!");

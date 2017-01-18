@@ -5,8 +5,9 @@
         <th>优惠券</th>
         <th>使用条件</th>
         <th>优惠</th>
-        <th>剩余数量</th>
-        <th>选择</th>
+        <th style="width: 100px;">剩余数量</th>
+        <th style="width:120px;">领券中心领取</th>
+        <th style="width: 60px;">选择</th>
     </thead>
     <tbody>   
         {loop $ds $row}
@@ -31,7 +32,8 @@
 						  {if $row['backredpack']>0}返 {$row['backredpack']} 红包;{/if}
 						  {/if}</td>
 	  <td>{$row['last']}</td>
-            <td style="width:80px;"><a href="javascript:;" onclick='biz.selector.set(this, {"id":"{$row['id']}","couponname":"{$row['couponname']}","thumb":"{$row['thumb']}","total":"{$row['total']}","money":"{$row['money']}","credit":"{$row['credit']}","usecredit2":"{$row['usecredit2']}"})'>选择</a></td>
+            <td>{if $row['gettype']==1}可以{else}不可以{/if}</td>
+            <td style="width:80px;"><a href="javascript:;" onclick='biz.selector.set(this, {php echo json_encode($row)})'>选择</a></td>
         </tr>
         {/loop}
         {if count($ds)<=0}

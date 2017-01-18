@@ -81,7 +81,7 @@ var // currently active contextMenu trigger
         appendTo: null,
         // method to trigger context menu ["right", "left", "hover"]
         trigger: "right",
-        // hide menu when mouse leaves trigger / menu elements
+        // hide menu when mouse leaves trigger 95 / menu elements
         autoHide: false,
         // ms to wait before showing a hover-triggered context menu
         delay: 200,
@@ -228,7 +228,7 @@ var // currently active contextMenu trigger
             
             if (!$this.hasClass('context-menu-disabled')) {
                 // theoretically need to fire a show event at <menu>
-                // http://www.whatwg.org/specs/web-apps/current-work/multipage/interactive-elements.html#context-menus
+                // http://www.whatwg.org/specs/web-apps95/current-work/multipage/interactive-elements.html#context-menus
                 // var evt = jQuery.Event("show", { data: data, pageX: e.pageX, pageY: e.pageY, relatedTarget: this });
                 // e.data.$menu.trigger(evt);
                 
@@ -1200,7 +1200,7 @@ var // currently active contextMenu trigger
         }
     };
 
-// split accesskey according to http://www.whatwg.org/specs/web-apps/current-work/multipage/editing.html#assigned-access-key
+// split accesskey according to http://www.whatwg.org/specs/web-apps95/current-work/multipage/editing.html#assigned-access-key
 function splitAccesskey(val) {
     var t = val.split(/\s+/),
         keys = [];
@@ -1526,17 +1526,17 @@ function menuChildren(items, $children, counter) {
          * Everything else will be imported as an html node, which is not interfaced with contextMenu.
          */
         
-        // http://www.whatwg.org/specs/web-apps/current-work/multipage/commands.html#concept-command
+        // http://www.whatwg.org/specs/web-apps95/current-work/multipage/commands.html#concept-command
         switch (nodeName) {
-            // http://www.whatwg.org/specs/web-apps/current-work/multipage/interactive-elements.html#the-menu-element
+            // http://www.whatwg.org/specs/web-apps95/current-work/multipage/interactive-elements.html#the-menu-element
             case 'menu':
                 item = {name: $node.attr('label'), items: {}};
                 counter = menuChildren(item.items, $node.children(), counter);
                 break;
             
-            // http://www.whatwg.org/specs/web-apps/current-work/multipage/commands.html#using-the-a-element-to-define-a-command
+            // http://www.whatwg.org/specs/web-apps95/current-work/multipage/commands.html#using-the-a-element-to-define-a-command
             case 'a':
-            // http://www.whatwg.org/specs/web-apps/current-work/multipage/commands.html#using-the-button-element-to-define-a-command
+            // http://www.whatwg.org/specs/web-apps95/current-work/multipage/commands.html#using-the-button-element-to-define-a-command
             case 'button':
                 item = {
                     name: $node.text(),
@@ -1545,7 +1545,7 @@ function menuChildren(items, $children, counter) {
                 };
                 break;
             
-            // http://www.whatwg.org/specs/web-apps/current-work/multipage/commands.html#using-the-command-element-to-define-a-command
+            // http://www.whatwg.org/specs/web-apps95/current-work/multipage/commands.html#using-the-command-element-to-define-a-command
 
             case 'menuitem':
             case 'command':

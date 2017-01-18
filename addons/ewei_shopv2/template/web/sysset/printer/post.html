@@ -142,6 +142,9 @@
             {if cv('order')}
             <option value="order">订单打印</option>
             {/if}
+            {if cv('cashier')}
+            <option value="cashier">收银台参数</option>
+            {/if}
 		</select>
 	</div>
             <div class="panel-heading tm tm-order" style="display:none">商品支持变量</div>
@@ -173,6 +176,27 @@
                 <a href='JavaScript:' class="btn btn-default btn-sm">门店地址</a>
                 <a href='JavaScript:' class="btn btn-default btn-sm">门店联系人</a>
                 <a href='JavaScript:' class="btn btn-default btn-sm">门店联系方式</a>
+            </div>
+
+            <div class="panel-heading tm tm-cashier" style="display:none">收银台商品支持变量</div>
+            <div class="panel-body tm tm-cashier" style="display:none">
+                <a href='JavaScript:' class="btn btn-default btn-sm">商品名称</a>
+                <a href='JavaScript:' class="btn btn-default btn-sm">商品价格</a>
+                <a href='JavaScript:' class="btn btn-default btn-sm">商品数量</a>
+                <a href='JavaScript:' class="btn btn-default btn-sm">单商品合计</a>
+            </div>
+
+            <div class="panel-heading tm tm-cashier" style="display:none">收银台打印变量</div>
+            <div class="panel-body tm tm-cashier" style="display:none">
+                <a href='JavaScript:' class="btn btn-default btn-sm">收银台名称</a>
+                <a href='JavaScript:' class="btn btn-default btn-sm">收银金额</a>
+                <a href='JavaScript:' class="btn btn-default btn-sm">收银时间</a>
+                <a href='JavaScript:' class="btn btn-default btn-sm">支付类型</a>
+                <a href='JavaScript:' class="btn btn-default btn-sm">订单编号</a>
+                <a href='JavaScript:' class="btn btn-default btn-sm">随机减金额</a>
+                <a href='JavaScript:' class="btn btn-default btn-sm">满立减金额</a>
+                <a href='JavaScript:' class="btn btn-default btn-sm">余额抵扣金额</a>
+                <a href='JavaScript:' class="btn btn-default btn-sm">操作员</a>
             </div>
 
 			<div class="panel-footer">

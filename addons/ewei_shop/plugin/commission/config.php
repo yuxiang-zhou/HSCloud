@@ -1,11 +1,6 @@
 <?php
 
-
 if (!defined('IN_IA')) {
-    exit('Access Denied');
+	exit('Access Denied');
 }
-return array(
-    'version' => '1.0',
-    'id' => 'commission',
-    'name' => '人人分销'
-);
+return array('version' => '1.0', 'id' => 'commission', 'name' => '分销管理');

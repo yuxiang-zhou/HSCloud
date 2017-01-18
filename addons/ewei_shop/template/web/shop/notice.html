@@ -34,7 +34,7 @@
                                     {/if}
                                 </td>
                     <td style="text-align:left;">
-                        {ifp 'shop.notice.view|shop.notice.edit'}<a href="{php echo $this->createWebUrl('shop/notice', array('op' => 'post', 'id' => $row['id']))}" class="btn btn-default btn-sm"  title="{ifp 'shop.notice.edit'}修改{else}查看{/if}"><i class="fa fa-edit"></i></a>{/if}
+                        {ifp 'shop.notice.view|shop.notice.edit'}<a href="{php echo $this->createWebUrl('shop/notice', array('op' => 'post', 'id' => $row['id']))}" class="btn btn-default btn-sm" data-toggle="tooltip" data-placement="top" title="{ifp 'shop.notice.edit'}修改{else}查看{/if}"><i class="fa fa-edit"></i></a>{/if}
                         {ifp 'shop.notice.delete'}<a href="{php echo $this->createWebUrl('shop/notice', array('op' => 'delete', 'id' => $row['id']))}"class="btn btn-default btn-sm" 
                                                      onclick="return confirm('确认删除此公告?')"
                                                      title="删除"><i class="fa fa-times"></i></a>{/if}
@@ -77,7 +77,7 @@
         <input type="hidden" name="id" value="{$notice['id']}" />
         <div class="panel panel-default">
             <div class="panel-heading">
-                店铺公告设置
+                云商公告设置
             </div>
             <div class="panel-body">
                 <div class="form-group">

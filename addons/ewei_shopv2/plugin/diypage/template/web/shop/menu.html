@@ -29,6 +29,8 @@
         </div>
     </div>
 
+{if $_W['plugin']!='merch' && !isset($_W['merch'])}
+
     {if p('creditshop')}
         <div class="form-group">
             <label class="col-sm-2 control-label">{php echo m('plugin')->getName('creditshop')}</label>
@@ -172,6 +174,33 @@
             </div>
         </div>
     {/if}
+
+
+        {if p('seckill')}
+        <div class="form-group">
+            <label class="col-sm-2 control-label">{php echo m('plugin')->getName('seckill')}</label>
+            <div class="col-sm-9 col-xs-12">
+                <div class="input-group">
+                    <div class="input-group-addon">微信端</div>
+                    <select class="form-control valid"{ifp 'diypage.shop.menu.save'}name="menu[seckill]"{else}readonly{/if}>
+                    <option value="">系统默认</option>
+                    {loop $list $item}
+                    <option value="{$item['id']}" {if $data['menu']['seckill']==$item['id']}selected="selected"{/if}>{$item['name']}</option>
+                    {/loop}
+                    </select>
+                    <div class="input-group-addon" style="border-left: 0; border-right: 0">WAP端</div>
+                    <select class="form-control valid"{ifp 'diypage.shop.menu.save'}name="menu[seckill_wap]"{else}readonly{/if}>
+                    <option value="">系统默认</option>
+                    {loop $list $item}
+                    <option value="{$item['id']}" {if $data['menu']['seckill_wap']==$item['id']}selected="selected"{/if}>{$item['name']}</option>
+                    {/loop}
+                    </select>
+                </div>
+            </div>
+        </div>
+        {/if}
+
+{/if}
 
     {ifp 'diypage.shop.menu.save'}
         <div class="form-group">

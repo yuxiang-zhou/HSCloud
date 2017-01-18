@@ -305,7 +305,7 @@ function tpl_form_field_category_3level($name, $parents, $children, $parentid, $
 		window._' . $name . ' = ' . json_encode($children) . ';
 	</script>';
 	if (!defined('TPL_INIT_CATEGORY_THIRD')) {
-		$html .= '
+		$html .= '	
 		<script type="text/javascript">
 			function renderCategoryThird(obj, name){
 				var index = obj.options[obj.selectedIndex].value;
@@ -315,7 +315,7 @@ function tpl_form_field_category_3level($name, $parents, $children, $parentid, $
 					var html = \'<option value="0">请选择二级分类</option>\';
 		                                                      var html1 = \'<option value="0">请选择三级分类</option>\';
 					if (!window[\'_\'+name] || !window[\'_\'+name][index]) {
-						$selectChild.html(html);
+						$selectChild.html(html); 
 		                                                                        $selectThird.html(html1);
 						return false;
 					}
@@ -367,8 +367,8 @@ function tpl_form_field_category_3level($name, $parents, $children, $parentid, $
 		}
 	}
 	$html .= '
-			</select>
-		</div>
+			</select> 
+		</div> 
 	                  <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
 			<select class="form-control tpl-category-child" id="' . $name . '_third" name="' . $name . '[thirdid]">
 				<option value="0">请选择三级分类</option>';

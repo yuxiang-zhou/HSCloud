@@ -2409,8 +2409,6 @@
   <county name="宝安区" /> 
   <county name="龙岗区" /> 
   <county name="盐田区" /> 
-  <county name="坪山新区" />
-  <county name="光明新区" />
   </city>
  <city name="珠海市">
   <county name="市辖区" /> 
@@ -2793,14 +2791,10 @@
   <county name="黔江区" /> 
   <county name="长寿区" />
   <county name="璧山区" />
-  <county name="綦江区" />
-  <county name="江津区" />
-  <county name="合川区" />
-  <county name="永川区" />
-  <county name="南川区" />
   </city>
  <city name="重庆辖县">
-  <county name="潼南县" />
+  <county name="綦江县" /> 
+  <county name="潼南县" /> 
   <county name="铜梁县" /> 
   <county name="大足县" /> 
   <county name="荣昌县" />
@@ -2820,6 +2814,12 @@
   <county name="酉阳土家族苗族自治县" /> 
   <county name="彭水苗族土家族自治县" /> 
   </city>
+ <city name="重庆辖市">
+  <county name="江津市" /> 
+  <county name="合川市" /> 
+  <county name="永川市" /> 
+  <county name="南川市" />
+  </city>
   </province>
  <province name="四川省">
  <city name="成都市">
@@ -2834,7 +2834,7 @@
   <county name="新都区" /> 
   <county name="温江区" /> 
   <county name="金堂县" /> 
-  <county name="双流区" />
+  <county name="双流县" /> 
   <county name="郫县" /> 
   <county name="大邑县" /> 
   <county name="蒲江县" /> 
@@ -3959,8 +3959,4 @@
     <city name="望德堂区"></city>
     <city name="风顺堂区"></city>
   </province>
-    <province name="境外">
-    <city name="境外地区">
-    </city>
-    </province>
   </address>

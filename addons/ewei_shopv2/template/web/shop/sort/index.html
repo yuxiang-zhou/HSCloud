@@ -14,6 +14,7 @@
     .dd-item-cube {height: 140px; background-position: 70px -290px;}
     .dd-item-banner {height: 75px; background-position: 70px -435px;}
     .dd-item-goods {height: 360px; background-position: 70px -520px;}
+    .dd-item-seckill {height: 145px; background-position: 70px -874px;}
     .dd-item .pull-left {font-size: 14px;}
 </style>
 
@@ -51,7 +52,7 @@
 </form>
 
 <script language='javascript'>
-	require(['/addons/ewei_shopv2/static/js/dist/jquery/nestable/jquery.nestable.js'], function () {
+	require(['../addons/ewei_shopv2/static/js/dist/jquery/nestable/jquery.nestable.js'], function () {
 		$('#div_nestable').nestable({maxDepth: 1});
 		$('.dd-item').addClass('full');
 		$(".dd-handle a,.dd-handle span").mousedown(function (e) {
@@ -67,6 +68,5 @@
 			$(':input[name=datas]').val(json);
 		});
 	});
-
         </script>
 {template '_footer'}

@@ -21,7 +21,7 @@
                 <span data-input="#iconsrc" data-img="#iconimg" data-toggle="selectImg" class="input-group-addon btn btn-default">选择图片</span>
             </div>
             <div class="input-group " style="margin-top:.5em;">
-                <img src="<%params.imgurl%>" onerror="this.src='../addons/ewei_shopv2/static/images/nopic.jpg';" class="img-responsive img-thumbnail" width="50" id="iconimg">
+                <img src="<%imgsrc params.imgurl%>" onerror="this.src='../addons/ewei_shopv2/static/images/nopic.jpg';" class="img-responsive img-thumbnail" width="50" id="iconimg">
                 <em class="close" style="position:absolute; top: 0px; right: -14px;" title="删除这张图片" onclick="$('#iconsrc').val('').trigger('change');$(this).prev().attr('src', '')">×</em>
             </div>
         </div>
@@ -83,8 +83,6 @@
             </div>
         </div>
 
-        <div class="line"></div>
-
         <div class="form-group">
             <div class="col-sm-2 control-label">是否启用</div>
             <div class="col-sm-10">
@@ -92,6 +90,8 @@
                 <label class="radio-inline"><input type="radio" name="isopen" value="1" class="diy-bind" data-bind-child="params" data-bind="isopen" <%if params.isopen==1%>checked="checked"<%/if%>> 启用</label>
             </div>
         </div>
-        <div class="alert alert-danger" style="margin: 0 10px;">注意：diy页面请至页面编辑中设置，此处设置为非diy页面的商城其他页面。</div>
+        <div class="line"></div>
+
+        <div class="alert alert-danger" style="margin: 0 10px;"><%if !merch%>注意：diy页面请至页面编辑中设置，此处设置为非diy页面的商城其他页面。<%else%>注意：diy页面请至页面中开启是否启用，此处设置为多商户商品详情页。<%/if%></div>
 
 </script>

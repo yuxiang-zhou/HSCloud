@@ -126,4 +126,16 @@
                     {/if}
                 </div>
            </div>
+
+            <div class="form-group">
+                <label class="col-sm-2 control-label">非分销商链接</label>
+                <div class="col-sm-9 col-xs-12">
+                    {ifp 'commission.set.edit'}
+                    <input type="text" name="data[no_commission_url]" class="form-control" value="{$data['no_commission_url']}">
+                    {else}
+                    {$data['no_commission_url']}
+                    {/if}
+                    <span class="help-block">自定义非分销商点击分销中心链接 ; 如果不填写 则走默认;</span>
+                </div>
+            </div>
         

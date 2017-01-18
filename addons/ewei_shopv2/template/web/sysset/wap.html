@@ -69,7 +69,7 @@
                         <label class="radio-inline">
                             <input type="radio" name="data[mustbind]" value="1" {if $data['mustbind']==1} checked="checked"{/if}/>是
                         </label>
-                        <div class="form-control-static">注意：设置强制绑定手机号后，在用户下单是将弹出提示并且无法下单</div>
+                        <div class="form-control-static">注意：设置强制绑定手机号后，在用户下单时将弹出提示并且无法下单</div>
                         {else}
                         <div class='form-control-static'>{if $data['mustbind']==1}是{else}否{/if}</div>
                         {/if}
@@ -133,6 +133,16 @@
             </div>
 
             <div class="tab-pane" id="tab_sms">
+
+                <div class="form-group">
+                    <label class="col-sm-2 control-label must">图形验证码</label>
+                    <div class="col-sm-9 col-xs-12">
+                        <label class="radio-inline"><input type="radio" value="0" {ifp 'sysset.wap.edit'}name="data[smsimgcode]"{else}disabled{/if} {if empty($data['smsimgcode'])} checked="checked"{/if}>关闭</label>
+                        <label class="radio-inline"><input type="radio" value="1" {ifp 'sysset.wap.edit'}name="data[smsimgcode]"{else}disabled{/if} {if !empty($data['smsimgcode'])} checked="checked"{/if}>开启</label>
+                        <div class="help-block text-danger">提示：开启后用户在请求发送短信验证码时需先填写图形二维码并验证成功(仅在用户注册、找回密码生效)</div>
+                    </div>
+                </div>
+
                 <div class="form-group">
                     <label class="col-sm-2 control-label must">用户注册</label>
                     <div class="col-sm-9 col-xs-12">

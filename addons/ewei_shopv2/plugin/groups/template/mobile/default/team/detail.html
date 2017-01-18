@@ -17,6 +17,13 @@
 	.mod_footer_lk a:last-child {padding-right: 0px; margin-right: 0px; border-right-color: currentColor; border-right-width: 0px; border-right-style: none;}
 	.address_new button {border-radius: 2px; border: 0px currentColor; border-image: none; width: 100%; height: 40px; color: rgb(255, 255, 255); line-height: 40px; font-size: 16px; margin-bottom: 10px; display: block; background-color: rgb(56, 132, 255);
 	}
+	.fui-tab.detail-tab {margin: 0;margin-top: 0.5rem;}
+
+	.fui-tab.detail-tab:before {content: '';position: absolute;left: 0;top: 0;width: 200%;border-top: 1px solid #d0d0d0;display: block;
+		-webkit-transform-origin: 0 0;transform-origin: 0 0;-webkit-transform: scale(.5, .5);transform: scale(.5, .5);}
+	.fui-tab.detail-tab:after {-webkit-transform-origin: 0 0;-ms-transform-origin: 0 0;transform-origin: 0 0;-webkit-transform: scaleY(0.5);-ms-transform: scaleY(0.5);
+		transform: scaleY(0.5);}
+	.detail-block > div{display: none;background: #fff;padding:0.2rem;border-bottom:1px solid #f0f0f0;}
 </style>
 <div class='fui-page order-list-page'>
 	<div class="fui-header">
@@ -42,14 +49,12 @@
 					{/loop}
 				</div>
 			</div>
-			{if $n==0}
+			{if $order['success']==1}
 			<img class="team_img" src="../addons/ewei_shopv2/plugin/groups/template/mobile/default/images/success.png" alt="组团成功">
-			{else}
-			{if $lasttime2 > 0}
+			{else if $lasttime2 > 0 && $order['success']==0}
 			<img class="team_img" src="../addons/ewei_shopv2/plugin/groups/template/mobile/default/images/frightin.png" alt="等待成团">
-			{else}
+			{else if $order['success']==-1}
 			<img class="team_img" src="../addons/ewei_shopv2/plugin/groups/template/mobile/default/images/fail.png" alt="团购失败">
-			{/if}
 			{/if}
 			<input type="hidden" name="title" value="{$goods['title']}" id="gname">
 			<h2 class="lynn_team_detail_title">{$goods['title']}</h2>
@@ -102,12 +107,18 @@
 				</div>
 			</div>
 		</div>
-		<dl class="lynn_team_list">
-			<dt class="lynn_team_list_top">
-				<b></b>
-				<p>查看全部团详情 <i class="iconfont icon lynn_icon">&#xe764;</i></p>
-			</dt>
-			{loop $orders $order}
+		<div class="fui-tab fui-tab-danger detail-tab" id="detailTab" style="position: initial;">
+			<a data-tab="team" class="active">拼团详情</a>
+			<a data-tab="basic">商品详情</a>
+		</div>
+		<div class="detail-block">
+			<div class="block block-team tab-team" id="team" style="display: block;">
+				<dl class="lynn_team_list">
+					<dt class="lynn_team_list_top" style="display: none;">
+						<b></b>
+						<p>查看全部团详情 <i class="iconfont icon lynn_icon">&#xe764;</i></p>
+					</dt>
+					{loop $orders $order}
 					{if $order['openid'] == $tuan_first_order['openid']}
 					<dd class="lynn_team_list_dd row">
 						<img src="{$order['avatar']}" alt="{$order['nickname']}" onerror="this.src='../addons/ewei_shopv2/plugin/groups/template/mobile/default/images/avatar.png'">
@@ -121,8 +132,19 @@
 						<span class="fr">{php echo date('Y-m-d H:i:s', $order['paytime'])} 参团</span>
 					</dd>
 					{/if}
-			{/loop}
-		</dl>
+					{/loop}
+				</dl>
+			</div>
+			<div class="block block-basic tab-basic" id="basic">
+				{if $groupsset['description']}
+					{php echo htmlspecialchars_decode($groupsset['groups_description'])}
+				{else if $goods['content']}
+					{php echo htmlspecialchars_decode($goods['content'])}
+				{else}
+				<div style="font-size:0.7rem;padding:0.2rem">暂无商品详情</div>
+				{/if}
+			</div>
+		</div>
 		<div class="step">
 			<div class="step_hd">
 				<i class="left"></i>拼团玩法<a class="step_more" href="{php echo mobileUrl('groups/team/rules')}">查看详情></a>
@@ -217,7 +239,12 @@
 			$("#cover").hide();
 			$("#guide").hide();
 		})
-		$(".lynn_team_list_dd:first").show();
+		$("#detailTab a").unbind('click').click(function () {
+			var tab = $(this).data('tab');
+			$(this).addClass('active').siblings().removeClass('active');
+			$("#"+tab).show().siblings().hide();
+		});
+		/*$(".lynn_team_list_dd:first").show();
 		$(".lynn_team_list_dd:last").show().css("border","none");
 		$(".lynn_team_list_top").on("click",function(){
 			var $lynn_team_list_dd = $(".lynn_team_list_dd:not(:first,:last)");
@@ -228,7 +255,7 @@
 				$lynn_team_list_dd.show(200);
 				$(".lynn_icon").html("&#xe765;");
 			}
-		})
+		})*/
 	})
 </script>
 {template '_footer'}

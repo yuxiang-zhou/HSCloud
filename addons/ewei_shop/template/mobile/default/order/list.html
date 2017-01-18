@@ -1,5 +1,5 @@
 {template 'common/header'}
-<title>我的订单</title>
+<title>我的粉单</title>
 <style type="text/css">
     body {margin:0px; background:#efefef; -moz-appearance:none; -webkit-appearance: none;}
     .order_topbar {height:44px; width:100%; background:#fff; border-bottom:1px solid #e3e3e3;}
@@ -41,7 +41,7 @@
 <script id='tpl_order_list' type='text/html'>
     <div class="page_topbar">
     <a href="javascript:;" class="back" onclick="history.back()"><i class="fa fa-angle-left"></i></a>
-    <div class="title">我的订单</div>
+    <div class="title">我的粉单</div>
 </div>
     <div class="order_topbar">
         {if $_GPC['status']!=4}
@@ -51,8 +51,8 @@
         <div class="nav {if $_GPC['status']=='2'}on{/if}"  data-status="2">待收货</div>
         <div class="nav {if $_GPC['status']=='3'}on{/if}"  data-status="3">已完成</div>
         {else}
-        <div class="nav {if $_GPC['status']==''}on{/if}" data-status="">其他订单</div>
-        <div class="nav {if $_GPC['status']=='4'}on{/if}"  data-status="3">退款订单</div>
+        <div class="nav {if $_GPC['status']==''}on{/if}" data-status="">其他粉单</div>
+        <div class="nav {if $_GPC['status']=='4'}on{/if}"  data-status="3">退款粉单</div>
         {/if}
     </div>
     <div id='order_container'></div>
@@ -60,7 +60,7 @@
 <script id='tpl_order' type='text/html'>
     <%each list as order%>
     <div class="order_main" data-orderid="<%order.id%>">
-        <div class="title">订单号：<%order.ordersn%><span><%order.statusstr%></span></div>
+        <div class="title">粉单号：<%order.ordersn%><span><%order.statusstr%></span></div>
         <%each order.goods as g%>      
         <div class="good">
             <div class="img"  onclick="location.href='{php echo $this->createMobileUrl('shop/detail')}&id=<%g.goodsid%>'"><img src="<%g.thumb%>"/></div>
@@ -83,12 +83,13 @@
             <div class="sub1" onclick="location.href='{php echo $this->createMobileUrl('order/pay')}&orderid=<%order.id%>&openid={$openid}'">付款</div>
 			<%/if%>
             <div class="sub2 order_cancel" style='position:relative;width:56px;'>
-                <span style='position:absolute;display:block;width:56px;'>取消订单</span>
+                <span style='position:absolute;display:block;width:56px;'>取消粉单</span>
                 <select>
                     <option value="">不取消了</option>
                     <option value="我不想买了">我不想买了</option>
                     <option value="信息填写错误，重新拍">信息填写错误，重新拍</option>
                     <option value="同城见面交易">同城见面交易</option>
+                    <option value="实体店购买">实体店购买</option>
                     <option value="其他原因">其他原因</option>
                     </select>
             </div>
@@ -111,12 +112,11 @@
                    <div class="sub2 order_comment">追加评价</div>
             <%/if%>
             <%if order.status==3 || order.status==-1%>
-                   <div class="sub2 order_delete">删除订单</div>
+                   <div class="sub2 order_delete">删除粉单</div>
             <%/if%>
-
-            <%if order.canrefund%>
-                    <%if order.refundstate>0%>
-                    <div class="sub1 order_refund"><%if order.refundstate==2%>换货<%else%>退款<%/if%>申请中</div>
+               <%if order.canrefund%>
+                    <%if order.refundid!=0%>
+                    <div class="sub1 order_refund">退款申请中</div>
                     <%else%>
                     <div class="sub1 order_refund">申请退款</div>
                   <%/if%>
@@ -129,7 +129,7 @@
     
 </script>
 <script id='tpl_empty' type='text/html'>
-    <div class="order_no"><i class="fa fa-file-text-o" style="font-size:100px;"></i><br><span style="line-height:18px; font-size:16px;">您还没有相关订单</span><br>可以去看看哪些想买的</div>
+    <div class="order_no"><i class="fa fa-file-text-o" style="font-size:100px;"></i><br><span style="line-height:18px; font-size:16px;">您还没有相关粉单</span><br>可以去看看哪些想买的</div>
     <div class="order_no_menu">
 
         <span class="order_no_nav"  onclick="location.href='{php echo $this->getUrl()}'">随便逛逛</span>
@@ -248,7 +248,7 @@
                                         $("#order_container").append(tpl('tpl_order', morejson.result));
                                         bindEvents();
                                         if (morejson.result.list.length <morejson.result.pagesize) {
-                                            $('#order_container').append('<div id="order_loading">已经加载全部订单</div>');
+                                            $('#order_container').append('<div id="order_loading">已经加载全部粉单</div>');
                                             loaded = true;
                                             return;
                                         }

@@ -276,6 +276,20 @@
     </div>
 </div>
 
+{if p('cashier')}
+<div class="form-group">
+    <label class="col-sm-2 control-label">支持收银台</label>
+    <div class="col-sm-9 col-xs-12">
+        {ife 'goods' $item}
+        <label class="checkbox-inline"><input type="checkbox" name="cashier" value="1" {if !empty($item['cashier'])}checked="true"{/if}/> 支持</label>
+        {else}
+        <div class='form-control-static'>{if !empty($item['cashier'])}支持{else}不支持{/if}</div>
+        {/if}
+        <div class='help-block'>上架或者不上架,收银台都能查到!</div>
+    </div>
+</div>
+{/if}
+
 <div class="form-group">
     <label class="col-sm-2 control-label">其他</label>
     <div class="col-sm-9 col-xs-12">

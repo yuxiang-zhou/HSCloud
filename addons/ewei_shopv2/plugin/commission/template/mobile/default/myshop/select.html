@@ -74,15 +74,15 @@
 		   {if $_W['shopset']['category']['level']!='-1'}
 		   {loop $category['parent'] $c1}
 		          {if !$c1['enabled']}{php continue;}{/if}
-			<nav data-cate="{$c['id']}">{$c1['name']}</nav>	
+			<nav data-cate="{$c1['id']}">{$c1['name']}</nav>
 			  {if intval($_W['shopset']['category']['level'])>=2}
 				{loop $category['children'][$c1['id']] $c2}
 				        {if !$c2['enabled']}{php continue;}{/if}
-					<nav data-cate="{$c2['id']}">{$c2['name']}</nav>		
+					<nav data-cate="{$c2['id']}">{$c2['name']}</nav>
 					 {if intval($_W['shopset']['category']['level'])>=3}
 					 	{loop $category['children'][$c2['id']] $c3}
 						    {if !$c3['enabled']}{php continue;}{/if}
-					             <nav data-cate="{$c3['id']}">{$c3['name']}</nav>		
+					             <nav data-cate="{$c3['id']}">{$c3['name']}</nav>
 					        {/loop}
 					 {/if}
 				{/loop}

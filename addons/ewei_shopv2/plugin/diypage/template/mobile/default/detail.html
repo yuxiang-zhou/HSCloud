@@ -14,6 +14,7 @@
     .btn-like {color: {$diypage['navbar']['style']['iconcolor']}}
     .btn-like.icon-likefill {color: #f01}
 </style>
+<link rel="stylesheet" href="../addons/ewei_shopv2/static/js/dist/swiper/swiper.min.css">
 <link href="../addons/ewei_shopv2/plugin/diypage/static/css/foxui.diy.css?v=201610091000"rel="stylesheet"type="text/css"/>
 
 <div class='fui-page fui-page-current  page-goods-detail' id='page-goods-detail-index'>
@@ -33,7 +34,7 @@
                     {if count($params)>0}
                     <a data-tab="tab3" class="tab">参数</a>
                     {/if}
-                    {if empty($_W['shopset']['trade']['closecomment'])}
+                    {if $getComments}
                     <a  data-tab="tab4" class="tab" style="display:none" id="tabcomment">评价</a>
                     {/if}
                 </div>
@@ -144,7 +145,15 @@
         {if $canAddCart && empty($diypage['navbar']['params']['hidecartbtn'])}
         <a  class="nav-item btn cartbtn" style="background: {$diypage['navbar']['style']['cartcolor']};">加入购物车</a>
         {/if}
+        {if empty($seckillinfo) || $seckillinfo['status']==0 || $seckillinfo['status']==-1}
         <a  class="nav-item btn buybtn" style="background: {$diypage['navbar']['style']['buycolor']};">{php echo !empty($diypage['navbar']['params']['textbuy'])?$diypage['navbar']['params']['textbuy']:"立刻购买"}</a>
+        {else}
+
+        <a  class="nav-item btn buybtn" style="color: {$diypage['seckill']['style']['buybtntextwait']};background: {$diypage['seckill']['style']['buybtnbgwait']};">
+            {php echo !empty($diypage['seckill']['params']['buybtn'])?$diypage['seckill']['params']['buybtn']:"原价购买"}
+        </a>
+
+        {/if}
     </div>
 {/if}
 
@@ -342,6 +351,8 @@
     <div class='content'>请点击右上角<br/>通过【发送给朋友】<br/>邀请好友购买</div>
 </div>
 
+
+
 <script language="javascript">
 
     require(['biz/goods/detail'], function (modal) {
@@ -349,7 +360,12 @@
             goodsid:"{$goods['id']}",
             getComments : "{$getComments}"
         });
-    });</script>
+    });
+
+    require(['../addons/ewei_shopv2/plugin/diypage/static/js/mobile.js'], function(diypagemodal){
+        diypagemodal.init();
+    });
+</script>
 </div>
 
 <div id="alert-picker">
@@ -428,7 +444,7 @@
 
 
 {if !empty($diypage['diylayer'])}
-        {php echo $this->diyLayer()}
+        {php echo $this->diyLayer(false, false, $goods['merchid'])}
 {/if}
 
 {template '_footer'}

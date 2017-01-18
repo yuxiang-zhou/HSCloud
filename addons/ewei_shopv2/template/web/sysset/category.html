@@ -55,6 +55,23 @@
                         {/if}
                     </div> 
                 </div>
+
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">显示样式</label>
+                    <div class="col-sm-9 col-xs-12">
+                        {ifp 'sysset.category.edit'}
+                        <label class="radio-inline">
+                            <input type="radio" name="data[style]" value="0" {if empty($data['style'])}checked{/if} /> 圆形
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="data[style]" value="1" {if $data['style']==1}checked{/if}/> 方形
+                        </label>
+                        {else}
+                        <input type="hidden" name="data[style]" value="{$data['style']}" />
+                        <div class='form-control-static'>{if empty($data['style'])}圆形{style}方形{/if}</div>
+                        {/if}
+                    </div>
+                </div>
               <div class="form-group">
                     <label class="col-sm-2 control-label">推荐分类广告</label>
                     <div class="col-sm-9 col-xs-12">

@@ -16,7 +16,7 @@
     </div>
     {/if}
 
-    <div class="fui-content">
+    <div class="fui-content navbar">
         <div class="fui-shopsign">
             <div class="store">
                 <img class="storeimg"
@@ -52,7 +52,7 @@
             </div>
 
             <div class="menu">
-                <a class="item on" href="{php echo mobileUrl('sns/board',array('id'=>$id))}">
+                <a class="item on" href="javascript:void(0);">
                     <p class="text"><i class="icon icon-home"></i> 首页</p>
                 </a>
                 <a class="item external" href="{php echo mobileUrl('sns/board/best',array('id'=>$id))}">
@@ -107,7 +107,7 @@
         <div class="title">发表话题</div>
         <div class="fui-header-right"></div>
     </div>
-    <div class="fui-content">
+    <div class="fui-content navbar">
 
         <div class="fui-cell-group" style="margin-top:0;">
 
@@ -139,7 +139,7 @@
                 <div class='fui-cell-info'>
                     <ul class="fui-images fui-images-md"></ul>
                     <div class="fui-uploader fui-uploader-md"
-                         data-max="10"
+                         data-max="{if $set['imagesnum']==0}5{else if $set['imagesnum'] > 0}{$set['imagesnum']}{/if}"
                          data-count="0">
                         <input type="file" multiple="multiple" aria-multiselectable="true" name="imgFile[]"  id="imgFile{$g['id']}" accept="image/*"  >
                     </div>
@@ -160,7 +160,7 @@
         <div class="title">投诉</div>
         <div class="fui-header-right"></div>
     </div>
-    <div class="fui-content">
+    <div class="fui-content navbar">
         <div class="fui-cell-group" style="margin-top:0;">
             <div class="complain-title">
                 我要投诉的是<span id="post_member"></span>的<span class="complain-type-span"></span>
@@ -190,7 +190,7 @@
                 <div class='fui-cell-info'>
                     <ul class="fui-images fui-images-md"></ul>
                     <div class="fui-uploader fui-uploader-md"
-                         data-max="10"
+                         data-max="{if $set['imagesnum']==0}5{else if $set['imagesnum'] > 0}{$set['imagesnum']}{/if}"
                          data-count="0">
                         <input type="file" name='complainimg[]' id='complainimg{$g['id']}' multiple="" accept="image/*" >
                     </div>
@@ -212,7 +212,5 @@
     });
     });
 </script>
-
-
-
+{php $this->footerMenus()}
 {template '_footer'}

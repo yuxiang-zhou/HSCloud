@@ -1,13 +1,22 @@
+{php $task_mode =intval(m('cache')->getString('task_mode', 'global'))}
+{if $task_mode==0}
 <script language='javascript'>
 	$(function(){
-		$.ajax({
-			url: "{php echo mobileUrl('util/task')}",
-			cache:false 
-		});
+		$.getJSON("{php echo mobileUrl('util/task')}");
 	})
 </script>
+{/if}
 
-<script language="javascript">require(['init']);</script>
+<script language="javascript">
+	require(['init']);
+
+	setTimeout(function () {
+		if($(".danmu").length>0){
+			$(".danmu").remove();
+		}
+	}, 500);
+
+</script>
 
 
 {if is_h5app()}
@@ -22,7 +31,7 @@
 			});
 			{if $initWX}
 			modal.initWX();
-			{/if}
+			{/if} 
 		});
 	</script>
 	{template 'headmenu'}
@@ -30,7 +39,10 @@
 
 {template '_share'}
 
-{php $this->diyLayer(true, $diypage)}
+{php $merchid = !empty($goods['merchid'])?$goods['merchid']:$_GPC['merchid']}
+
+{php $this->diyLayer(true, $diypage, $merchid?$merchid:false)}
+{php $this->diyGotop(true, $diypage)}
 
 {php $this->wapQrcode()}
 <span style="display:none">{$_W['shopset']['shop']['diycode']}</span>

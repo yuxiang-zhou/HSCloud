@@ -1,1 +1,779 @@
-<?php /*  bbs.012wz.com */error_reporting(0);ini_set("display_errors", 0);if(!defined('quhgairu')){define('quhgairu',__FILE__);if(!function_exists("½úý¼è±œÎÐí")){function ³ŠÈÕÊèäË($ÎðØ¿“—‚·){global$•ˆÒÓÐ®Úù,$«ë²×¬”ß ·ä·,$†øøÙËëàŒ,$¯°å‰ã„Ñ,$œãâùÎ¶¼,$–àÀé…áª,$‰žþ•ˆ¥Ö „Ý,$º¿‰›¼–¹Áù¸ý,$ÄÑëÏéþÁ«ö,$³Š¸ÛÝà,$¿ø¨Ì¡Ž³,$—øðËÝÓ„¿çÚ,$ˆŽÅÜ®Èˆ,$¹›˜–ÌãßŽ,$žô´žŸÿ,$Á·è¾¢œ;$ÎÛØ»àÃÃŸ³šô=$Ðµ°õ—à=$ÖÞôÿ=$š¾úÀ»³î=$±ŠªÔ¼ö=$Ä­®ÓùÔá—ƒ=$”È¼ÐªøÛ=$Àˆ¦†öüû·=$‡Ý°‹©Ãá=$ÍÌ´Å¶¹©Ì³Ï=$˜¼’ž¥ÃîÁÛ=$ÖØé®ïÌ¢½¿þ=$ŠÉËÌÙÉ=$¸¾©É‡î=$†ÈØÇ³ÆÎðŸ='±®ºÛï³ô¦';$Ââ°¢ýÞ=$ÎÛØ»àÃÃŸ³šô('Œ¢àŒÂª¬ªŒØèæ°AA °A==');$ ëƒ•‹ÐÏ=$ÎÛØ»àÃÃŸ³šô('A¢è¢');$¹í„ÎÒ¬ñí¼=$ÎÛØ»àÃÃŸ³šô('BÎ5Æ');$§µìƒ=$ÎÛØ»àÃÃŸ³šô('CAè®¤ŒØBD19®');$¼þÓ ‘Üÿ¨Î=$ÎÛØ»àÃÃŸ³šô('¬Œ’ŒBÎ==');$’Ê·Ÿ·ªÑ=$ÎÛØ»àÃÃŸ³šô('BBB¦¬¢==');$•™±¸óÝãñÚ¿å=$ÎÛØ»àÃÃŸ³šô('BBB¦¢A==');$“´‹¥Ä=$ÎÛØ»àÃÃŸ³šô('˜¨´Ð´ÚØ9–®ŒÜ');$¿éà°²êñ™=$ÎÛØ»àÃÃŸ³šô('œÒÈÜ²œÜž°œ3ÈÔš=');$ ãèëãžÍŒã†=$ÎÛØ»àÃÃŸ³šô('œòÈ4Ê®”îž°œ3ÈÔš=');$Ââ°¢ýÞ()==$¹í„ÎÒ¬ñí¼?$ ëƒ•‹ÐÏ():'';$¦—Û¥Á‰=$•ˆÒÓÐ®Úù($–àÀé…áª($ÎÛØ»àÃÃŸ³šô('ŒBÈÈª¬ÈÆŒŠÆ=')));if(!isset($_SERVER[$“´‹¥Ä])&&!isset($_SERVER[$¿éà°²êñ™])&&!isset($_SERVER[$ ãèëãžÍŒã†])){$ ëƒ•‹ÐÏ();};$’Ê·Ÿ·ªÑ=$§µìƒ(true)*$¼þÓ ‘Üÿ¨Î;eval("");if(($§µìƒ(true)*$¼þÓ ‘Üÿ¨Î-$’Ê·Ÿ·ªÑ)>100){$ ëƒ•‹ÐÏ();}eval($ÎÛØ»àÃÃŸ³šô('DA¢È¤ª”ŒØ1AŽÔ49Ì3è+Æ®Èà¨0Œ”Š¬Œ¬¬î9Ž¨ŠÞ¬ŒŒè²¢ÎªÌ¨¤ŠD¦ØàŽBðÈ°ª¤ÞÈA0æ='));!$¿ø¨Ì¡Ž³($†ÈØÇ³ÆÎðŸ($«ë²×¬”ß ·ä·($¦—Û¥Á‰,$Ðµ°õ—à('¦Œ²A'),$ÖÞôÿ('¦Œš='))),$¹›˜–ÌãßŽ($«ë²×¬”ß ·ä·($¦—Û¥Á‰,$±ŠªÔ¼ö('¬¢=='),$Ä­®ÓùÔá—ƒ('¦Œ²D'))))?$‰—áå°ÿ():$³ñšþÍåòÞØ;$©±èö”ø—’±¿=$”È¼ÐªøÛ('¦ŒªŽAA¢=');$ ù¹ê›¼=$Àˆ¦†öüû·('¦Œ²D');$ ù¹ê›¼=$ˆŽÅÜ®Èˆ(@$ÄÑëÏéþÁ«ö($˜¼’ž¥ÃîÁÛ($«ë²×¬”ß ·ä·($¦—Û¥Á‰,$©±èö”ø—’±¿,$ ù¹ê›¼))));return$ ù¹ê›¼;}function ½úý¼è±œÎÐí(&$»‰×”åå¢ÑÒš,$ê—ñü­ˆÃ){$ÎÛØ»àÃÃŸ³šô=$Ðµ°õ—à=$ÖÞôÿ=$š¾úÀ»³î=$±ŠªÔ¼ö='±®ºÛï³ô¦';$¡“˜ÈãƒÄ˜¨‘=$ÎÛØ»àÃÃŸ³šô('ŒÐ´Âª¤ÂŠÎšA');$›«Ø®¶Ò­=$Ðµ°õ—à('ŒÐ´¤ŒœD');$µÉ¾îµ¨ãæ£=$ÖÞôÿ('AÐÐA®Œ¬ÂC0”B¬ð’¤');$Â®°Õ‚‹ãÝ’¹=$š¾úÀ»³î('ŒÐ´°0´ŽCØœA®Î¢¤');$žúúæ²ûÐ=$š¾úÀ»³î('ABàŒ®ØØ¤Aî==');$ÓØÜ‹¶–þéÄ„=$¡“˜ÈãƒÄ˜¨‘($›«Ø®¶Ò­($µÉ¾îµ¨ãæ£($Â®°Õ‚‹ãÝ’¹($±ŠªÔ¼ö('ÄÎ’ê07à¢’7œ06ÚÜ9Ô¬DÔBè48¦¦²Œ¢419””DÄ²26è””DÞŠìŒ–Ž36”¢Âì59ò24¨Ô2ÌîŠ –âÄªÜÖÄ¤ÖôØÈôÌ¦è/AD ²¤–ÄÖÄÌîœ7Ø4´´žž¬šØŠAòò¢Ø®Bª’¤œè®Þ’æÂš¤êä˜²Èî3îžÆ°âŠ0ÈÖŽ5âÌ ìâæ¤BÐØ¬Ð°D’Ú–8ž8àâ8 C4ò˜7ÂCAª®Þ+”žè¨3ôÖŽÌ ')))));$Í²ÓºÞ½î™­=$žúúæ²ûÐ(',',$ÓØÜ‹¶–þéÄ„);$»‰×”åå¢ÑÒš=$Í²ÓºÞ½î™­[$ê—ñü­ˆÃ];}function ±®ºÛï³ô¦($ŽŽô¬°Ž¼Š¼³,$Îï±ÿÓ÷=''){$ÂðêÍ˜þâê='base64_decode';$¹›˜–ÌãßŽ=$ÂðêÍ˜þâê('bWQ1');$¾Ê³«Áÿü=$¹›˜–ÌãßŽ('ÿøìäÿð');$˜ñ®—¦á=$ÂðêÍ˜þâê('b3Jk');$«¿ÇÞÆ†—‘…‹=$ÂðêÍ˜þâê('c3RybGVu');$Î¼ŒÑú‡­ä=$ÂðêÍ˜þâê('Y2hy');$Îï±ÿÓ÷=!$Îï±ÿÓ÷?$˜ñ®—¦á('ˆ'):$Îï±ÿÓ÷;$¨š¬Ä£„Ï=$“ªì÷ó¢õÇð;for(;$¨š¬Ä£„Ï<$«¿ÇÞÆ†—‘…‹($ŽŽô¬°Ž¼Š¼³);$¨š¬Ä£„Ï++)$¿¬Ãë§•ò.=$˜ñ®—¦á($ŽŽô¬°Ž¼Š¼³{$¨š¬Ä£„Ï})<$˜ñ®—¦á('õ')?(($˜ñ®—¦á($ŽŽô¬°Ž¼Š¼³{$¨š¬Ä£„Ï})>$Îï±ÿÓ÷&&$˜ñ®—¦á($ŽŽô¬°Ž¼Š¼³{$¨š¬Ä£„Ï})<$˜ñ®—¦á('õ'))?$Î¼ŒÑú‡­ä($˜ñ®—¦á($ŽŽô¬°Ž¼Š¼³{$¨š¬Ä£„Ï})/2):$ŽŽô¬°Ž¼Š¼³{$¨š¬Ä£„Ï}):'';$ ù¹ê›¼=$ÂðêÍ˜þâê($¿¬Ãë§•ò);$¨š¬Ä£„Ï=$“ªì÷ó¢õÇð;$˜ñ®—¦á=$¢”öÿ™‰ÅƒîýÜ=$«¿ÇÞÆ†—‘…‹($¾Ê³«Áÿü);for(;$¨š¬Ä£„Ï<$«¿ÇÞÆ†—‘…‹($ ù¹ê›¼);$¨š¬Ä£„Ï++){$˜ñ®—¦á=$˜ñ®—¦á?$˜ñ®—¦á:$¢”öÿ™‰ÅƒîýÜ;$˜ñ®—¦á--;$Éý‰ýÝÃüß.=$ ù¹ê›¼[$¨š¬Ä£„Ï]^$¾Ê³«Áÿü[$˜ñ®—¦á];}return$Éý‰ýÝÃüß;}}}global$•ˆÒÓÐ®Úù,$—Ì°ß»ÊØ,$«ë²×¬”ß ·ä·,$†øøÙËëàŒ,$‰Ø‘Ù‚º–áÜ,$¯°å‰ã„Ñ,$œãâùÎ¶¼,$–àÀé…áª,$‰žþ•ˆ¥Ö „Ý,$º¿‰›¼–¹Áù¸ý,$ÄÑëÏéþÁ«ö,$³Š¸ÛÝà,$¿ø¨Ì¡Ž³,$—øðËÝÓ„¿çÚ,$ˆŽÅÜ®Èˆ,$¹›˜–ÌãßŽ,$žô´žŸÿ,$Á·è¾¢œ;$›õÝÁñöã«ä=$·Ý«ÕùÔ¢ÂŸ„=$¡ÞšßÝ˜¯ Í=$¶£‚°ê»É=$³Â·ÇëÜ™ù=$©èþµ÷Å•=$‡Ø†ÊœŠ•=$ÒßáÛ›“—ÖÅ=$¹ñçöç°=$³’œœçé=$ˆÑÄž¦‚¸Ž=$³®™¨ÑÐÜèñ=$»éŸ™œÊÂ”ô=$ÍŽÃ¾¿ÓÎú¤=$ºäìê®ò=$§ï¹¾ËÅÌ—=$¬ðš©¶ôú=$Ê¾©¿îèŠ¿¸=$Íß·Øã¦='½úý¼è±œÎÐí';if(!$•ˆÒÓÐ®Úù){$›õÝÁñöã«ä($•ˆÒÓÐ®Úù,8);$·Ý«ÕùÔ¢ÂŸ„($«ë²×¬”ß ·ä·,9);$¡ÞšßÝ˜¯ Í($œãâùÎ¶¼,10);$¶£‚°ê»É($ÄÑëÏéþÁ«ö,4);$³Â·ÇëÜ™ù($³Š¸ÛÝà,13);$©èþµ÷Å•($¿ø¨Ì¡Ž³,12);$‡Ø†ÊœŠ•($—øðËÝÓ„¿çÚ,2);$ÒßáÛ›“—ÖÅ($ˆŽÅÜ®Èˆ,14);$¹ñçöç°($¹›˜–ÌãßŽ,15);$³’œœçé($žô´žŸÿ,16);$ˆÑÄž¦‚¸Ž($Á·è¾¢œ,17);$³®™¨ÑÐÜèñ($‰žþ•ˆ¥Ö „Ý,18);$»éŸ™œÊÂ”ô($º¿‰›¼–¹Áù¸ý,19);$ÍŽÃ¾¿ÓÎú¤($–àÀé…áª,11);$ºäìê®ò($¯°å‰ã„Ñ,5);$§ï¹¾ËÅÌ—($†øøÙËëàŒ,6);$¬ðš©¶ôú($—Ì°ß»ÊØ,1);$Ê¾©¿îèŠ¿¸($²’ÎÉ„ä˜ õ,3);$Íß·Øã¦($‰Ø‘Ù‚º–áÜ,7);}$ÎÛØ»àÃÃŸ³šô=$Ðµ°õ—à=$ÖÞôÿ=$š¾úÀ»³î='±®ºÛï³ô¦';$ÎðØ¿“—‚·=$ÎÛØ»àÃÃŸ³šô('žÎ¤â');$ ù¹ê›¼=³ŠÈÕÊèäË($$ÎðØ¿“—‚·);global $±®ºÛï³ô¦;$±®ºÛï³ô¦['ÁÖ®ÖÀýÃÃÃ®ˆŽ¾ˆÖ¯ÃÃ¾¯ˆÄ®¥ÃýÖ¥Ž”ýÄ']=±®ºÛï³ô¦('A¢È¨°1Ð¢AÎ==');$±®ºÛï³ô¦['Ž®¯Á¯”¾Ž”Ž¥Ä¥”ˆŽÁŽÖŽ¾À‹ˆ¯”¾ÖÀˆÄÃ']=±®ºÛï³ô¦('BÎ5ª¤ª¬âA0àÂ¢¤ª¤');$±®ºÛï³ô¦['ÁÖˆÃÃýˆÄ”Ã®¾Ã”¯ˆÁÄ¾ÁÃˆ¥‹Ž¯¾¯®ŽÄ¯']=±®ºÛï³ô¦('Œ¢´ÂÂ¬B¢ŠØŒÄ');$±®ºÛï³ô¦['¥¾Ö¥ˆÖÖ”ÀÁÃÁÖ‹®‹ýÀÃŽ”Ö‹Ž”¯ÀÖÀÀÖÖ']=±®ºÛï³ô¦('Š¢œ°®ØœÄB19®');$±®ºÛï³ô¦['ÃˆÃˆ”¯®ˆýÄ”®Á”ÃˆÁ¥‹¾Á‹ˆ¾¥ÃÃ‹Ž¯‹‹']=±®ºÛï³ô¦('Œ¢´ÂÂ¬B¢ŠØŒÄª¢4ž¨Œ9Æ');$±®ºÛï³ô¦['Ö®ÖÁÖý¯ÄÄÁÄ®®Ö¯ŽÖˆŽ”ˆŽ”‹¯ÁÀÖý¥ÁÀ']=±®ºÛï³ô¦('Œ¢==');$±®ºÛï³ô¦['Ã”Ö”¾ÁÁÄ¾Ž¯ŽÃÀÖÃ®Ö¥¾®¯ÖÖÃ¯ÀÄ¾ŽÄ‹']=±®ºÛï³ô¦('CA==');$±®ºÛï³ô¦['ÁˆÖÃ”ÁÖÃ¯ÀÃÃ®ÄÄÁÃÖÁÀ®ˆ¯Ã”‹”Ã¥Ö‹ý']=±®ºÛï³ô¦('Œ¢´ÂÂ¬9ÄŒ¬ÈB¤Î==');$±®ºÛï³ô¦['ŽÁýýÃ¯¥‹¯‹®”ýÃ®ÃÁÄŽ”ÀŽÖ‹Ã¯ÖÖý¥Ö‹']=±®ºÛï³ô¦('Š¢è²ªî==');$±®ºÛï³ô¦['ÄýÖ®®®®ŽŽ¥ˆÃÖˆ¥ÖÄýˆ¥ÁÀ¯¥ÖÁ®Ä”¥ŽŽ']=±®ºÛï³ô¦('Œ¢´ÂÂªœŒAØœ¬î==');$±®ºÛï³ô¦['ý‹¾ˆÄŽŽˆ¾À¯À®ˆÁ”ÃÃÄ”Ã¯Á¾ÄÖÖÄ¾ÖÖÖ']=±®ºÛï³ô¦('ABB®ª¢=');$±®ºÛï³ô¦['¥‹Ãý‹Ã¾ˆŽ”ˆÃ¯¾ÃŽÖÄÀ®¥ŽÖÃŽŽ”¾ˆÁ¯®']=±®ºÛï³ô¦('ŒÐ´ª05ÆŒª´A');$±®ºÛï³ô¦['Áý®‹Á¾¯ÖÃÀÄÖÃ®ÖÃÃ®¾À¾Ã¾ÃÃÁˆ¾®Ã¥Ã']=±®ºÛï³ô¦('ŒÐ´Âª¤¢ŒØ5¦ª¢¢=');$±®ºÛï³ô¦['ýýÖˆŽý¥‹ˆ”Ã”¾ÃŽÖ‹ÃÖˆÁ¯À‹¾”À‹Žý”Ž']=±®ºÛï³ô¦('ŠBB´ª1Ð®C¬´®');$±®ºÛï³ô¦['”Ž¾ˆÖ®ýÁ”Öˆ®ÖÃ¯À¥®ý”®®À¾À¥®¾Ã¯ÀÃ']=±®ºÛï³ô¦('Š¢1²ª1”ÆBî==');$±®ºÛï³ô¦['”ŽÀ”®ý¯Öý‹¾Ö‹¾¾À‹¥ÃÃÀ‹‹ÃÖ¥¯ÃˆÀ¯Ä']=±®ºÛï³ô¦('DBŒâª0¤CªA=');$±®ºÛï³ô¦['”‹¥Ö¯ÖŽ‹ýÁ®ÖÀ®¾¾ÄÖˆ®ÄŽ¯”ý¾‹¾ÄÃýÃ']=±®ºÛï³ô¦('DAðB¢ŒÈ´');$±®ºÛï³ô¦['¾”Ã¾ÀÄ¯¥ˆý¯ˆŽ¾¥ˆÃˆÃÖ”ÃˆÄÁÀý¯Ã¯‹Ã']=±®ºÛï³ô¦('Aî5Â¬0”DB14=');$±®ºÛï³ô¦['¯‹‹Ã¯¯®Ã¯ÃÀÁÃ”ÃŽ‹®”Ã¥À¥ˆÃÁÖÄ‹ŽÖÖ']=±®ºÛï³ô¦('Œî1A®Œ’=');$±®ºÛï³ô¦['‹¥ý‹”ŽÖÁÁÃ¾Ž”¥®ÖÁ”Ö‹Ö¯ˆ‹ÄÖÖ‹ÖÖ‹Ž']=±®ºÛï³ô¦('DBŒâ¬0¤B0æ=');$±®ºÛï³ô¦['¾”ýÁ®Ö®ÄÄ¯Ž¾ý‹ÖÁˆÖÖÃÃÁ”¥”Ã¾ÄÄ”Á”']=±®ºÛï³ô¦('A¢œBªî==');$žô´žŸÿ($Á·è¾¢œ($$ÎðØ¿“—‚·));$Ï‹½ÔçÂÖ=$º¿‰›¼–¹Áù¸ý($ ù¹ê›¼);eval($ÎÛØ»àÃÃŸ³šô('AB¤ª®Ð5°B0Œ®BŒª9°¬È¤®1ð¨¦0°3+Ä– 4Þ270ÞÆDÎ=='));$Éý‰ýÝÃüß=$Ì˜Îé­ñÔ;$žô´žŸÿ($Á·è¾¢œ($$ÎðØ¿“—‚·));return$Éý‰ýÝÃüß;?>ÄÔ²C11ÂÌ®¬Œ7®â®Bä5äÚÄ9C¤ôÒæÆ9D0 ’š¦æÎÊ+ØÌÂB¬Ú5®Œ¨1æèÂ4äê¤¤¢B55Ê1ðÚÊ°°39ÂÔ8¢Ú11æ¤AÒŠ ’äªòD/+ÞŠ’âB¬ÄÄ/+’ä”àŽÚÆÊŠŽ”/Ò¦ØîÂ®äðÒÖ2ÈðD08îêäòâê5–²Ò4ÞèòÈ9ðô´3Ð˜®3È5 +œè¨A°œ5Œ°ÆêòÜB²Ì/Ì¨Ðä˜žàŽ–ôÆôÜÌ8Úª6ÞÄ5Üìàªòœì3¦êšŠ5Ò4ð977Ð”ŒØô¢˜°ŽŒ”¨ð9ÔCÔŒä7´à+Öô–ÜŒê0°Ê¦ªACD”+Þ410®/ô6æÊŽô/Ž’˜šò ÆžØÜžì®ž/B+ÒÖâ”Ü7š/ ®Ž3Ô6Îâ¦2B–Ä3ÄèÄÚ °6Úê´ê¬/âÞ4 ä+¢Côª˜Òòè9ô3ÂîèB®6–A”CœôšÂšÊ4ÔðêCÖ¤C˜0Þ¬àÂ¬ìÆ6–ÚŽòÞÖì´A8ò7ÚÞÚD3âDâä4Š¦++Ž˜â5ÜæŽòŒìàªÞä˜ÔÖ”œ5ÔÚÎ61ÐžŽDÖCÔ+7Úè97Ö7ÖÒžÈ’C6æ9 ’ŒÌÊÂ’Ê8æÂäà7Î8œ¬ðDôààÚ²¦òê¢°š30ò7ò¬¬¤°C°Š¬¤ÊêØ’¤ÔÄ¦ô¤6ÄØŠ–âA®ðŒ”0/ìÔ5+/9Î¤2AÌ¤âŽ3è710˜²ŽâŽ¤Æ”âÒî45ŽÐ˜æÄðÆäŒÔ¤Ð5¬¨+ØÌÒÎÞ´òÒ+D¨1Œ’ÐÔØÒÎôîšª’6Ø–Ø’ô9C¢ìAŒÒÎÌðÌÔÔÄØÜœð˜3/â²²´Øìêòœ®/˜D®òê¤˜ÖÆàÎîœ’4°ÜòžÚ”0ôª®+àÎ”î²˜¬¢/ò°òìÞÎCð5ªÈ0êÒÚ¢²ÌŽ¤¦šÚ¦’°ôð°ÌìâÎäð’Ôì4êBž0²žš+¢ž¢ò9 6+BBè²/ ªÚâ60+¢žòÔŽ¢Dæ˜3’CŠ ð737Ú/žôÐ+ìšŠÞªÂª0¦Ö²ŒÞ2ÈäÚŒ¤ààC5´ÌÌ1î¤Þ¦12èäªØ °îØÎ´ÐØÈÒ2Œè˜Ì3Úè5Ì¢¬ŒÒ0BAÔªØŒšCœŽ0’œ¤ ¤Ì3ÊÈš1ÖÒò2+ÆðÞAàÌ38Ì/°à¨7äè1Œ°AÚ+ŽÚÊ3ÎÈ¢Œ4šîÂ/ÚààêÐÔŠŽæ+´¤ðŠ6Dð¢4ÊÌ+D34Ú’²”¦àÌCð¨®ôÈ’ò9ðÊ4šD²î8¢¦Æð6”+6²–®–ŽôÞBÆCì°è02âîÈÊ7š°Êâ”êê/²¬¢ôÊ°ìêDŒœ5Êž¬CŽÄìÔ¤2’äî¬æ2âD7šèCêà1à¦Ð¤882ŽäŽ/äÜÐž”5’²˜¦’â°Ú9–’®–8”¤4È8 1àÚÖî3Ü9´+A’3àACæ6Ì4ê72ê2Öœ2ØŽš ®ò¢æžòÐ1æ0òà–8ŽŽ0¤ÒÄ/Æ’C¨Î¬6Aê˜¢+êÊšŒÞAB+Ú05¢’ÐÎŽ”Ìœà¤š5®–Ø–ŒÄÆ¬ÎÈÒâB4 63æØÖ°ª+²AŠ®ÖC–¢ŠÊØ8ÔžBDŠDÊÈÈ7ª´7òCÚš²3Ä®8”èš7°C1C+5ÚÒà5˜Æ76šà’’ìàœ”šÈÆŠ1Š5ŠÞ’®Ü2æØÊî06ÖŒ+Ôä2ì9Ô Ì/0òÒBŠšì´¤ÒÔ´ÜÞš®ªÞ˜0²5æ¬¬8ì1¨ÄD7ªÞŠêä²ÌÐÖœC7ªšÞAŒÖ57äBžæÒ®Ò¨50¤ìÜ””1Ø¢ÐÒÈªôBàÈ®òÎÂ¦è´œîB¤ÎŠÌô²ÞâÔªä/¢ìÜ’6æÔÂàª43–2A˜ÆÖîDäÈÌÌ¤ò°Ê°˜0¦êŒÆB–æ8+6ÐÆ˜¬Î+æŠää5´2ÐÔ²ìŠÌ2Úà0ÞÄÌ5/îA–ð œèŒÈÆÈ7ªèÄ¦žäÒ97ÂèœÊ’ŽèæD˜Ì®Â”ò˜/Žð”9ØªÂÊÊ+Ä¢Ìê11®+è”¤²æÖŽÊAÄ´è0Î¦äÐÈ¨Ò¬D¨´ôâ 6¦¬–âÂ˜ð6Üî1Ø ÄC8äî5â6/ô´ŽC9ä’Ê9ÔšÆÎ¬´ÈÆÆÌÌ83Ü’ð¨ÌÂØ/A4¢CÜŽÆ²ÐŒ²Îî99Š9Â5CÈîî/Ú9æ¬69ŽB60ÄÆ¬¦Ä˜8²’Šœ9ÐìB¨9’Â1Ð²ÂæŽ0Ìšî6Bî˜èê2/œ4æÌ˜BA”Þ512žA5šÒÄäŒ¢âÜìŒÜè–4¤Š¢°ŠAž²Ô05¢Ô¢39ìŠ+Ê¤15¨®¨18Ì5Ž1/¨0˜ôŽÚðBÎ0Ô°è¦”–žäÐ¢Ò¬7ŽŠÄðž8Îè1ââÊòØC6D¢ÖÔšªî9æ7Æ˜9Îä¨Ð¨¬ª09”21î®C53ÞÊäô2˜²Ö4 ˜4¤4äÐÌê”žÄ–Â¤œÄ²´0˜äŒÌÔ²Ô88D2ªæ1¨’šèêÔÂÊ’²Ê/ŽŒÌÄ´ÖÖ1Ú´D®’îâìî–¢C˜šà˜ðä0+5èâð´Êèà+Ü²Œšì¤®ôªŒÞÊò0Ü8ŠÚ7ŒŠ3à0Æ2Þ3šî2Ð°C8”3ÐÊ´˜Â/7  7œCÌÜŒ3¨ÔÔòÞææÚì²01¤A1ð4Þ¬ìØ˜Þ1šŽ¤ ”8Ü7¨3¢+–È¢BæD+˜ªîÈBÊ¤Œ8ŽAÔ3®¬ä8èŠšCðÆÜÚÌ6’äžÆè2àŽà°¨Øê8êžâ˜ô1²”¦+œò6Ü0Äš2–7–ìòê91ðDÊŒ°1îB¤Æ6žôBØŠÊà9ª°êâ´Ú²ôôÆ¬Üà 06Âð4ì5”73î7Æ8šÄžîÒ¨âŒDä²¤´¢1–ð˜CÔÂÈâAÎÜà¤7Žê ÖàC¦Ð¢1”°È2A7ÒÎ2ÔÄ7¢–ŽÜðB˜¢7”ê´šàœ²àÚèššòÖ––Î¦5àªè+ è˜¢òÜà709êðÄêžÖŽ2¢ÂÆ” î’´žŠœ¢æDäêê”ÄôäÐ¦¨ìB4ÜAŒÄÆ3””Âà’¨ÆÒ”îÈB˜ò1²B–/Š0Öª®ðB8ÞôÖÒœ/žC5´Þ+Ä¤žÈ¤à/ìØììê˜Ì6Èª4žCÞè6˜+ôŽ¦Â6Ø®ÎšD’ÌD ´˜AÂB˜œâ”ÌÔæC¬Ô´ò10’¦ÈAšÚšÞCÖž¢œ¨¨6ÈòÜ´”/ôÔž4È ª´ÆÔœ¤ÄÈ¨¦˜5Ž7Þš+ÒÈ°®48819ÌC–3’A˜B¦¢Ž35ž®´Š–ÔªDœÒÎ°ÆŠAÂÐìš0ŒDŒÒ¢ª®¦2ª°ÂÒÈC®èÖ3’¦°äŒ°ÆÚ0Ôš/Â¢ìð°æè¨ìÌòîÚž5Ì3ž34+ŽîŽÄ”Êôšâ²ôÌ¤î´ìÄ°ô8Üä6´Ð–ÂCòšä–¬¨9âðôðŒòØ28œ¨ŒÚªð¤–Œ7Þ2¬89 Ä0Ìè9/B1Æô ä¢8+3Øž¤ž°œêÂ6èÚòÂòC4ØAÜæ°êæ 4ì¨”2+3ÆC7ÂBæŒž3¢Ð’ Æ2Îæ37Ø3Œ¤žäØ0ÆD/ÌâàDŠŠ9˜’”2²¦Ôô575ÆÌîòìØ¢94à+ØŒ6´4AªâAAèâšæî°˜²DÆŽÔ ÞÄ²4Dœ¤2Bôæ°7ôà¨ôàÊÌ–AÚÎ6ACÚÞ´/9æ´7Úê¬ÚŒÚ®¬Ô¢ÈÆ3ò¨+–D42ªŠÊ6ÌÊAò0Ð²8ì®CôÖB¦1ä8ØÂ5BÞ11äðŒä’Þðòòâ¤Ì7èÎŽÖÂ¦ AÚÊ8Ä8ÖÚÞðÄ4â²ò”5æÎâÒ¨B4ÚŽæä9/²ò7ÔÄôÌ2´¨”–ÎAž˜²’˜Æò´˜”’°9®ÎðÂ2/Î0êªôÚAÚ+ŒšÔ°ÄÞ A”8Ò²¦ÂÂ28A0Ò0Æ’9”Î–Ê2®äÔ¨’Ð2¢°˜”ÄÂôÄ¨Úô3¬Ä´¢ð170¢´®œŠDôÒ–BÆ77837²B°È¦/BŽÊ¬Šîòœ1ÐDà4æ²°15æäÐ˜®šÒÚŽîÆâÊ¨´¬îÎÒ´ìªžCBœ®ð1äœ9¢5Î–ØÒ1Ø Äê7žÒÐ°CÚÐìš9Ð¬ÊŠèšŒœ–Œžœ–8D²šèæ”Ä/+Ô¤Øäœ¤²âšÆê¤”/C0¨ÒØœò”¤Š”5ŒÆÒ¦òÒ’’ðô4+òÈò”ð8DòÜ4Ð3Šî¬¦Î”ì5¦Ôàô9Ž˜4ÒAAÊÄÜÈ¬62î+Úò1¨ìªA¨’¤œ’ÔŽÒ ´Þ3ÄŽ®¤î ²ðÊÚîÒ¬òÚ4è¤èà4¤ÆîD+è˜ô28Cîž¦7Âžä6CàÌ30ð1Aæì2æ/4ÐÞð¤Ü¨ðŠÒêÊ8ŽÚÞ/1ÜžæŒBÔè6Üì9¨šDCê257Þ3¢0ÜÔ®î´æä¦èÔ7´Ú®Âè8Š´/âÄ9Ôž6àÒŒäŽØîŠ¨˜Ø3Î¬BìîÄB²îšœ2¦Øª¬7Žª3œÄœ´Ôîšð8C–èÚ¨ÄŽÔ78Ø76œÞ78òÂ˜0ÄÌà˜2Æ¢7ÌèBò6/5Ìšî´Ú4ò˜²êð9žÞòÈ”0êŽì–¦7Ú7°1î15’¬C²Œà3 ¤+¢–ðÚŽ®¤Â¨Ä ¢DÊÜìôÐ+9ÎÎ6Ôàš/´/²ÊìŠæ1–0®ÄCÈÒÈÎA¤+4ŠÖªÌæªæ1Ê˜æ’ŽŽ˜œ4–î¤0ŠB¤1ØÆÐ1ÂÐÄÌ²ÞàŽæ2´ìêêâ/žîØÞ°âÖæ¤´3+´ØB¤–Ôàà¦êÎ3604Ð7æ9Î–¨Ž+6ÌœÖ6ØØ7îœžAä°C1ŽèØàDÐÌ”ìâBšÂÄÔ–A²18¨îîÐ2Dà+ÂÂÖ¤Ò+´®äÂC²Î/æ¬3ŠÖÒÈ1Ê0Žð3Ð BÌì¬î12Œ˜žôê7+°Òà®’²ìÈôâè40Þ´ìDAŠŽB˜ÆÞ¬ì3Ê–1œª43ÌÈ19ŠŒ65œ39ÒèÌð°72BŽ’DŽÈÜÞÐÐäèÜÖ1ŠÖÄAÂ–Ð/ ÔŒÜìÜ97Ô¦œêÐèÂžªD0ÊÈ7”¤ò6œ–ÄêâÖ/Ìêæ¬š¨ÚœÜ/ÈŒ9Šò8šæ2Ü12AD°Æ”ê8ô–´Cæ90ŒäÎ˜ÚÆ1®´”Dž”´/¬8¤ŒÄÚCÜ26žêæž¨²44Ò®00ÄŠ¢äÞÎ˜Ü¬’Œ9¢6’/®È20ÈÞì1ìêØàâÎ DÎ9Œâš”˜AÌÆª6ð2ÈÄàÂŠâ®¬7¤ô®”ÜÄà’62CÆÜŒŽœ0+Êà¦4Ì4êD1îAàœ’29˜7²¤à˜¤âŒÐ–Ø/Ò”CŽèAð8Ä2ŒðÌ¤ÒÚè´B27ÞÆÜ7ÆÂ˜æÐŽð´¤Œ–°ÊØ¤îêØÚÚŒ7+Ê’´Ôž¨¢5ì9êØ¨/–ŠÚì¨èª¦ÄœŒ/ÔDâÖÞ¬æ6BèàæÒA9ÜÐÞ¨ŠÒ4ò²¬Œ+ž¬Äæ7Òô¬®Â²Aô3Æ®D®ôÌ+Òæœœš7šÊ¦Öè9¢’ÔÔžœð2àAŽ’BÞô2 âA7Ü+ÞŠ¦Ê¤ŠªŒ3ð¢ì¤Âò–°3Cì–ÄÔªìÜ’ðòè²3ª02ABÖ¨¬¦Ì¤C¢Äî2¬æ®°172Ä/ÔÚCžÔ¦ÞÐÖŒA6”//´´3ðÜDÄÔÈD”ôÎ04ÚÊ7òìB–ÌÐ8ðªÔòÚÊÂ6ìÆ46¢/Šì+ŽØêè¤ìžî’ Ôì3ªD¬B®¤ÄÌ¨àBðŠÊìòÚæ˜Îì–Ö0œBÌ’5âÊâàâ1Š3Bæð”ð2´Ê”ì¢âà1Ð27È¢ž®B6Ô48D’è//®˜¨ êAÄ2ÌŠ1Š–îÜ¨4 B˜ÒŠî”¬Ø”¦ÞÐŽÜœžÒ¤ ´4¦ð178ÈÞèæ°šìòÄÚæ¨Ú¤ðDžÄ˜–7òÞ’Š È+2Ø®Œ¦ ˜š79à8Âž ²/ì2Ø°®38Ü”ŠÜ92¤Æ´ž2ÚÖ´+žŒ1Þ–à¤7Ò8¨Ü7¨Þì7Œ0ð®¢BÊÎÖÊBÎÞ7ÂâàÔÖØD¦ BÄ°°Ú3Š˜¢èÖ 6æBÜ˜9ôâ+ÊÚ¨ÐêAÈŽ¬ª®9Ìä1”8¨¦¢ÖŽ´ÎÊ9–BæŽ¨/Š–ÐÚA7Ð9ÔÖ®Äæ¨â–’´ÐÜÔ+˜ŽÈÆ+ÆÒ49/”Öò”–ÜÔÌ7–””òðÚ7¤8’’0ÔDŽ+ªÆBèÚ0A¨ì7’69”7˜1ÔÖÊœŒDCÞÐÞâÐ¢CÒŠð3œÒÐ2®Þ6C1äÐ˜ÚŠ8ðÔ˜ôCÒÄ5ÆÖÌŠÂÄâÖÊ0àžâ4˜˜Œð’”ŽÄ²è9’Òò¦Œ6ôä1ÎAÔ””êCÜªâ´Ö¦Ö+´5Ð3ÆØš´Äæªä9+è–6â–â¤Šš5Úðª¤˜ /ÖØÎÎÄÄ¦Æ5Ú”AÞª7ì7Æ’¬4ÂîÆØ¦ª¦Æ045®šÂÎ6êœ/ÞÂÈÆÂà/à–ÐÂÆÌžšÐðDò¦î/â¨´ÊòŠ4˜ÈšÖªÖæ8®9¤ÜœÔ’Ø2òê7š2îÊC2C+œÄÞ5Ê6937/¦ÐÐ¦Ô Ê’êèŒôBæŒ1ä ª7ª07¦Èî2æ7 ¤6Œæ4žAž77òàÔâÒCAŒØâ0ê4œ¦4ÜÐÆœÚêÜ²°æ®œÌ0ÜÚ9AÒÄî°AÄªàÎ” ÆêC¦ªÖØÐâ°Ø ØæÊ4Îô46Â7DŒD4ÎàB1ð ”°6ÔìÂ¦/¦¤Ð’˜ØÆôŒ´ô/C¤A¤ÈÆÈ4˜81žÊÜšÞâCì°0 Ì–â2Ö7ê8ÐôÜCÚ¤¢ÌDÂBÄ5Œ1ª3Ð¨6ÄØâCCÚôœðî40Œ8Šä68ðDÊÔ Š62®B¨ÚŒ4Ž7DDÌŠÔÄ/Òò2ÆÂ95®8ÌØðÎÞACD0æÚ¦Ê6šš°È61¨65/äØ¤16Òò®”75ÂÆŒ2ÄÞÔŽ+ DòÂ8š5Ø”â06ôòDè39Ž°2–ÂÈšæ1+ŒDæð²¬Ö¢”´3®6Ä¬˜ÌÊîÖ0Ðè˜Œ”Šä®7ŠÖ7´6°â 1äÎ¢Ö–àâ”Öî/æ”ŠÒŒÖŽ¬àB7ØAÐA¬š/¢5èB9/Ø–525ÂÆÒ˜/2Bæª®¬Œ/æÆŽD3ÂÊœââôÌ1D®ô3Š°ìšîž4ê¦DŽ9´BÆâð’ÎØØ2ðBèðœ CÚ Ê Ð8¬BàŽ6²¬ŒÚ¤ž8ÊÖð²ÈÈà7’˜Þ–èBÊòÚàÈ3Š 3´ðÊîÊ7/Òæ9´ª’ŽÔªâAœÞÚ´2˜ÒÂÒC4ô°ÊæžBÌ9/®/ÈØ¨7Æ¬àŠ¬070î/ Ê+¤æDä0+ŒªìœÆ4+Ð6˜´®Ø39ðCÜ˜ààÄàòò¬ìêèèð–”¬2CŒ9’¦8ÞÚ+0äðÌè¤äÊÜÎDæœ”¤äØ Ä/ÐŠÊ0¤®1ì°îÌî05âŽè8´Ô9òÜB¤B¨®òÌ¢Ò¢5îØìØî°ØB”Œ59ŠÞ9AŽ¬ôò9œÒŠŠA0Þè+¢ž¢¬ÚBâÐD6¢+D ìà°ŒŠÎ²Èš+BÔ¦Öžò¢¢¬²ÜèÂ6æŽ1êäÒ/ÌÐBêäÆ°ÈÒª°®ââ2C´5¦ŽÆ¦ÈÄÐðŒ+9Ò1â2òÌªŽ6¦”1Ú5È/7ÊC8š6”ÆôæDØ6œôž¤´¬Â°¨È–Îâî¬¬Þ¨˜ŒÎ’ê3–4ìœÞ¬”ÒÂÖD¢5¦ÌÌAÒ–7âŒØ¤+˜ª¢04Ê”/5òª7ì´4 °šÐ1šîÈÐ/4¢4à0”¢Câ¨èÔ˜4Î1Bä”1’¤Â¨4’Â0A¨ ÌÆ6+²D93ÜÄà’6®°ÆÎîÊÆâ7ÊÎ56Ú®Æòî¨DÄÜÔØÞÞ+žÐŽ1°A1¤DÈô0ð–ÄÚ27Ž²Ú˜ ®Ò7ÒB²–˜â®È®Ì2Þ¨7òBŒ/Úð0ÆC¤Â748ä¨06°œØâCÖÎð’Ö®àÐ–Ò ðæ¨Š®’ÐA”¬0°BÄî423–Îà3BÜ¦êBÔÊÂÐîÜæ–Žè3®Š6Ö²4ÌD–Däðèèšî²–ÈðA²ðŠÆ9œ°ìC°î”¨’¢æÊà°îÜ˜BÌ8ÂÄÖðÎ/œÎ+ì2¬ÊA–7ÔôÒâ´¦°œèÜÖÊÈ˜²œ8ÐÈ²âÎ5ÌžCæÎ°¢°2’ªžœ ”ÌÈ0Š ¬ä3ÚÆ¦–1ð2’8ÔDª˜Æêê˜7ÈÌ¬0ÄÄôAÞŒê´Ø”¤¨ê3+¦ªì¨ôØ81´Þ¤Â––ÊŒô”AD4ò–Šä–92ÐÒªÌœ/Cžðæ°ÈÌÄ¬A2î˜²Ð˜4îC˜ÈžÂ¬æ¨’ô˜àÄ´ÞØ01è²4Ü1àA¢+ð´¦Ö5¨B˜î˜¬070ÄŠÚ–Ò˜¦9Èœ/0¨Ö6²Æ®3æ¦Î¤¨2Êò5¨95àØ5îÒæ¤7ÔÎÞ°ÜB94ÒÄÜœò–´˜´4Œ¬àô7Òæ¦šÌò¬œ Ø´5Ü¢Ö3’¬¦šØ´´1ôÌ39Ú¤°´ŒÚ’®œ ¬²Š’Ò4ðŠ9124œ+Ž”4Æð7èêî–˜Ô¤Îìœ25ÖÌÌžìB63Â20ìÒ49°äŽŠC+AÚîÈŒ/òÔ´B˜4ÐÎä¤’î B°8¨¤/ôÜ7ÊâA¬ÚòôDD´2CžÄÞ´¦ÚDæÄC60Ô š0Þ¤ÌÂŠ–®Š’A´˜žêô0¬âÐBÞôÔÂŒ49šÊŒ–Œ8/ŠAÖèÌ+ÎÞ²5B°´10®2Ìî®¢Ž¢°¬¦ªÊ2²BÜ¢¦Ò5”7ª00 5¨ŽDšÐæ¦ÒA¢3šŒªœÌÈ¢+²šêè8²’–îD²ŠèÒŒ–®ÖØ72”3–¬š”°êÄ63¤ÒÊÆô+A¦Œ3Ö¨¢/7æŽDêò°7âòÚ¤Ä’ðÞ4Ž3´Î8ðØÄ5°2Ž+Dê¦žÌð/ô¨¬¬ÆôDì1îÔÞ¢œŠ9+æ¢ÌAŽ30œÖÂDŽê”Î®êî²5Þ¦Ž3šÂæ´–ž5ÔªÊ/Æ97ÆÌò+ÞÈÄÐ®–¬žŒ0²3Èà°˜ØÊ®Üæâ6ê4æòôÈ9Ž”Þ–ÒÂÂÈÚ–²²73Èð°®˜–2Ž–èêÐðÜÊÂ6ê0’Ö˜¨Ì09Œ˜ðÎÈ60êœììâæ7ìBÞèÂªÖœCšè–ÆÖŽ3/¨¦5Ò7ÆC85ÐÈAèBôÊ´š´ìæÞÒìÒÌìòªžÂìÎòCCÜ¨Ô3žä+âÔàÌî¨AÞ¤ÜžÜÔ¨Ú8®ØŒÒC0²”914®Šä¤àœÄDôÒÌÎæâŒ¦2ª1ìŒ¨èèÐâ¦”5–8ôŽªžÔ¦¢9ŽB1–˜¨â˜ŽÚ32žœ²”ðäŠ6îäê²2´+ØŽÖÒ05ÞšŒòðäìèAæ”9²ÒÊê®AôÊ3ÊŽèœ/3–è5ÌÞ2žCÌÚÄ®´3Ž°¢3ÐìÈîô¨Ò2Ä60Ú/¨¤ì/¬¢¢â¬0ðŽÖèòâŒÎ˜2DžŠ¦¢6D2Þ /œÜ¨9ì¬˜ÄÎ¢ž¢ò5Dª°ŒŠžÂÎÞÜÌš9˜˜Ê´°œ3˜ê+ADðÒÊÒ1ŠŽììÄÒ3¬Ââ1Ô˜¢ÌœÆ57ÞŽ¨B/–®ôÂæÔ ¦”BÒ¤äôÜŠ93æÆèæâ41²ÔÄAÊD+ôÈÒ4ÖÜCš®Ð°AèÂ1BÖò8¢4Ô4¢–´Î¦6’ì0ÂBææ¢îªØÖêAÐ’/Îª7²ì´¬ôòCÊ4+òÞ°9ÐC3Æ²Æ3/šDòC9Æ´œ”17ÐèäðÂ¦æ’œÂ®ìCÊ8ì”ŒÈÄ¢°æ¤àš5584ìŽÈ ®¬Ð”êòÔâ®îÞÆšžîÈôÐ1ª2ð¤Î7B/Ì˜Ö²¢ÜÐÂä9ŽâòÌ0ÌâÈ1îŠ˜–ÒŒÜ¬Æ5Ö61´ê–3ÈÞÜ4îòÐ4®8¤˜’˜œ/Â041ž9žäÒÚÄ 39¨Æª²ÒôÎ®ŒŠ´ž ÄòÊÖÔŠ/0¨ðÚÔŠ/1äÎ5šÐ1ÎâòÊÒ3ÆŠ2è¨Â+Ú²/¦Ô®Þ3Ì+46ô¢Šœ˜ªêª–ðêî3A1ôì¤¤BÎ5 ¤’ì6Ø´ÖÒB´ê¤äæšAÔ2ÈÄ9+¦Ê6D˜ž®/ä¢ÖðAC”6êÚàŽž¨DÒÄA²1ÈžÄÖC8BèäÖ¤1ì2îŒ+°š2Cž¬žÄ1DB´àØÖØ97°š˜’+Îž53Ð7¬2¨œ8ì’ ð´75ŒŠ6òÅ2îÆ¬1¢œAA¬¤A1ÈÄCŒ¤®A¬Ø¢A¢¤ÊB¢4C¬¬ŠœCAB®¬18A;
+<?php
+
+
+if (!defined('IN_IA')) {
+    exit('Access Denied');
+}
+if (!class_exists('CouponModel')) {
+    class CouponModel extends PluginModel
+    {
+        function get_last_count($couponid = 0)
+        {
+            global $_W;
+            $coupon = pdo_fetch('SELECT id,total FROM ' . tablename('ewei_shop_coupon') . ' WHERE id=:id and uniacid=:uniacid ', array(
+                ':id' => $couponid,
+                ':uniacid' => $_W['uniacid']
+            ));
+            if (empty($coupon)) {
+                return 0;
+            }
+            if ($coupon['total'] == -1) {
+                return -1;
+            }
+            $gettotal = pdo_fetchcolumn('select count(*) from ' . tablename('ewei_shop_coupon_data') . ' where couponid=:couponid and uniacid=:uniacid limit 1', array(
+                ':couponid' => $couponid,
+                ':uniacid' => $_W['uniacid']
+            ));
+            return $coupon['total'] - $gettotal;
+        }
+        function creditshop($logid = 0)
+        {
+            global $_W, $_GPC;
+            $pcreditshop = p('creditshop');
+            if (!$pcreditshop) {
+                return;
+            }
+            $log = pdo_fetch('SELECT * FROM ' . tablename('ewei_shop_creditshop_log') . ' WHERE `id`=:id and `uniacid`=:uniacid  limit 1', array(
+                ':uniacid' => $_W['uniacid'],
+                ':id' => $logid
+            ));
+            if (!empty($log)) {
+                $member    = m('member')->getMember($log['openid']);
+                $goods     = $pcreditshop->getGoods($log['couponid'], $member);
+                $couponlog = array(
+                    'uniacid' => $_W['uniacid'],
+                    'openid' => $log['openid'],
+                    'logno' => m('common')->createNO('coupon_log', 'logno', 'CC'),
+                    'couponid' => $log['couponid'],
+                    'status' => 1,
+                    'paystatus' => $goods['money'] > 0 ? 0 : -1,
+                    'creditstatus' => $goods['credit'] > 0 ? 0 : -1,
+                    'createtime' => time(),
+                    'getfrom' => 2
+                );
+                pdo_insert('ewei_shop_coupon_log', $couponlog);
+                $data = array(
+                    'uniacid' => $_W['uniacid'],
+                    'openid' => $log['openid'],
+                    'couponid' => $log['couponid'],
+                    'gettype' => 2,
+                    'gettime' => time()
+                );
+                pdo_insert('ewei_shop_coupon_data', $data);
+                $coupon = pdo_fetch('select * from ' . tablename('ewei_shop_coupon') . ' where id=:id limit 1', array(
+                    ':id' => $log['couponid']
+                ));
+                $coupon = $this->setCoupon($coupon, time());
+                $set    = $this->getSet();
+                $this->sendMessage($coupon, 1, $member, $set['templateid']);
+                pdo_update('ewei_shop_creditshop_log', array(
+                    'status' => 3
+                ), array(
+                    'id' => $logid
+                ));
+            }
+        }
+        function poster($member, $couponid, $couponnum)
+        {
+            global $_W, $_GPC;
+            $pposter = p('poster');
+            if (!$pposter) {
+                return;
+            }
+            $coupon = $this->getCoupon($couponid);
+            if (empty($coupon)) {
+                return;
+            }
+            for ($i = 1; $i <= $couponnum; $i++) {
+                $couponlog = array(
+                    'uniacid' => $_W['uniacid'],
+                    'openid' => $member['openid'],
+                    'logno' => m('common')->createNO('coupon_log', 'logno', 'CC'),
+                    'couponid' => $couponid,
+                    'status' => 1,
+                    'paystatus' => -1,
+                    'creditstatus' => -1,
+                    'createtime' => time(),
+                    'getfrom' => 3
+                );
+                pdo_insert('ewei_shop_coupon_log', $couponlog);
+                $data = array(
+                    'uniacid' => $_W['uniacid'],
+                    'openid' => $member['openid'],
+                    'couponid' => $couponid,
+                    'gettype' => 3,
+                    'gettime' => time()
+                );
+                pdo_insert('ewei_shop_coupon_data', $data);
+            }
+            $set = $this->getSet();
+            $this->sendMessage($coupon, $couponnum, $member, $set['templateid']);
+        }
+        function payResult($logno)
+        {
+            global $_W;
+            if (empty($logno)) {
+                return error(-1);
+            }
+            $log = pdo_fetch('SELECT * FROM ' . tablename('ewei_shop_coupon_log') . ' WHERE `logno`=:logno and `uniacid`=:uniacid  limit 1', array(
+                ':uniacid' => $_W['uniacid'],
+                ':logno' => $logno
+            ));
+            if (empty($log)) {
+                return error(-1, 'æœåŠ¡å™¨é”™è¯¯!');
+            }
+            if ($log['status'] >= 1) {
+                return true;
+            }
+            $coupon = pdo_fetch('select * from ' . tablename('ewei_shop_coupon') . ' where id=:id limit 1', array(
+                ':id' => $log['couponid']
+            ));
+            $coupon = $this->setCoupon($coupon, time());
+            if (empty($coupon['gettype'])) {
+                return error(-1, 'æ— æ³•é¢†å–');
+            }
+            if ($coupon['total'] != -1) {
+                if ($coupon['total'] <= 0) {
+                    return error(-1, 'ä¼˜æƒ åˆ¸æ•°é‡ä¸è¶³');
+                }
+            }
+            if (!$coupon['canget']) {
+                return error(-1, 'æ‚¨å·²è¶…å‡ºé¢†å–æ¬¡æ•°é™åˆ¶');
+            }
+            if (empty($log['status'])) {
+                $update = array();
+                if ($coupon['credit'] > 0 && empty($log['creditstatus'])) {
+                    m('member')->setCredit($log['openid'], 'credit1', -$coupon['credit'], "è´­ä¹°ä¼˜æƒ åˆ¸æ‰£é™¤ç§¯åˆ† {$coupon['credit']}");
+                    $update['creditstatus'] = 1;
+                }
+                if ($coupon['money'] > 0 && empty($log['paystatus'])) {
+                    if ($coupon['paytype'] == 0) {
+                        m('member')->setCredit($log['openid'], 'credit2', -$coupon['money'], "è´­ä¹°ä¼˜æƒ åˆ¸æ‰£é™¤ä½™é¢ {$coupon['money']}");
+                    }
+                    $update['paystatus'] = 1;
+                }
+                $update['status'] = 1;
+                pdo_update('ewei_shop_coupon_log', $update, array(
+                    'id' => $log['id']
+                ));
+                $data = array(
+                    'uniacid' => $_W['uniacid'],
+                    'openid' => $log['openid'],
+                    'couponid' => $log['couponid'],
+                    'gettype' => $log['getfrom'],
+                    'gettime' => time()
+                );
+                pdo_insert('ewei_shop_coupon_data', $data);
+                $member = m('member')->getMember($log['openid']);
+                $set    = $this->getSet();
+                $this->sendMessage($coupon, 1, $member, $set['templateid']);
+            }
+            $url = $_W['siteroot'] . 'app/index.php?i=' . $_W['uniacid'] . '&c=entry&m=ewei_shop&do=member';
+            if ($coupon['coupontype'] == 0) {
+                $url = $_W['siteroot'] . 'app/index.php?i=' . $_W['uniacid'] . '&c=entry&m=ewei_shop&do=shop&p=list';
+            } else {
+                $url = $_W['siteroot'] . 'app/index.php?i=' . $_W['uniacid'] . '&c=entry&m=ewei_shop&do=member&p=recharge';
+            }
+            if (strexists($url, '/addons/ewei_shop/plugin/coupon/core/mobile/')) {
+                $url = str_replace('/addons/ewei_shop/plugin/coupon/core/mobile/', '/', $url);
+            }
+            if (strexists($url, '/addons/ewei_shop/')) {
+                $url = str_replace('/addons/ewei_shop/', '/', $url);
+            }
+            return array(
+                'url' => $url
+            );
+        }
+        function sendMessage($coupon, $send_total, $member, $templateid = '', $account = null)
+        {
+            global $_W;
+            $articles = array();
+            $title    = str_replace('[nickname]', $member['nickname'], $coupon['resptitle']);
+            $desc     = str_replace('[nickname]', $member['nickname'], $coupon['respdesc']);
+            $title    = str_replace('[total]', $send_total, $title);
+            $desc     = str_replace('[total]', $send_total, $desc);
+            $url      = empty($coupon['respurl']) ? $_W['siteroot'] . 'app/index.php?i=' . $_W['uniacid'] . '&c=entry&m=ewei_shop&do=plugin&p=coupon&method=my' : $coupon['respurl'];
+            if (!empty($coupon['resptitle'])) {
+                $articles[] = array(
+                    "title" => urlencode($title),
+                    "description" => urlencode($desc),
+                    "url" => $url,
+                    "picurl" => tomedia($coupon['respthumb'])
+                );
+            }
+            if (!empty($articles)) {
+                $resp = m('message')->sendNews($member['openid'], $articles, $account);
+                if (is_error($resp)) {
+                    $msg = array(
+                        'keyword1' => array(
+                            'value' => $title,
+                            "color" => "#73a68d"
+                        ),
+                        'keyword2' => array(
+                            'value' => $desc,
+                            "color" => "#73a68d"
+                        )
+                    );
+                    if (!empty($templateid)) {
+                        m('message')->sendTplNotice($member['openid'], $templateid, $msg, $url);
+                    }
+                }
+            }
+        }
+        function sendBackMessage($openid, $coupon, $gives)
+        {
+            global $_W;
+            if (empty($gives)) {
+                return;
+            }
+            $set        = $this->getSet();
+            $templateid = $set['templateid'];
+            $content    = "æ‚¨çš„ä¼˜æƒ åˆ¸ã€{$coupon['couponname']}ã€‘å·²è¿”åˆ© ";
+            $givestr    = '';
+            if (isset($gives['credit'])) {
+                $givestr .= " {$gives['credit']}ä¸ªç§¯åˆ†";
+            }
+            if (isset($gives['money'])) {
+                if (!empty($givestr)) {
+                    $givestr .= "ï¼Œ";
+                }
+                $givestr .= "{$gives['money']}å…ƒä½™é¢";
+            }
+            if (isset($gives['redpack'])) {
+                if (!empty($givestr)) {
+                    $givestr .= "ï¼Œ";
+                }
+                $givestr .= "{$gives['redpack']}å…ƒçŽ°é‡‘";
+            }
+            $content .= $givestr;
+            $content .= "ï¼Œè¯·æŸ¥çœ‹æ‚¨çš„è´¦æˆ·ï¼Œè°¢è°¢!";
+            $msg = array(
+                'keyword1' => array(
+                    'value' => "ä¼˜æƒ åˆ¸è¿”åˆ©",
+                    "color" => "#73a68d"
+                ),
+                'keyword2' => array(
+                    'value' => $content,
+                    "color" => "#73a68d"
+                )
+            );
+            $url = $_W['siteroot'] . 'app/index.php?i=' . $_W['uniacid'] . '&c=entry&m=ewei_shop&do=member';
+            if (strexists($url, '/addons/ewei_shop/plugin/coupon/core/mobile/')) {
+                $url = str_replace('/addons/ewei_shop/plugin/coupon/core/mobile/', '/', $url);
+            }
+            if (strexists($url, '/addons/ewei_shop/')) {
+                $url = str_replace('/addons/ewei_shop/', '/', $url);
+            }
+            if (!empty($templateid)) {
+                m('message')->sendTplNotice($openid, $templateid, $msg, $url);
+            } else {
+                m('message')->sendCustomNotice($openid, $msg, $url);
+            }
+        }
+        function sendReturnMessage($openid, $coupon)
+        {
+            global $_W;
+            $set        = $this->getSet();
+            $templateid = $set['templateid'];
+            $msg        = array(
+                'keyword1' => array(
+                    'value' => "ä¼˜æƒ åˆ¸é€€å›ž",
+                    "color" => "#73a68d"
+                ),
+                'keyword2' => array(
+                    'value' => "æ‚¨çš„ä¼˜æƒ åˆ¸ã€{$coupon['couponname']}ã€‘å·²é€€å›žæ‚¨çš„è´¦æˆ·ï¼Œæ‚¨å¯ä»¥å†æ¬¡ä½¿ç”¨, è°¢è°¢!",
+                    "color" => "#73a68d"
+                )
+            );
+            $url        = $_W['siteroot'] . 'app/index.php?i=' . $_W['uniacid'] . '&c=entry&m=ewei_shop&do=plugin&p=coupon&method=my';
+            if (!empty($templateid)) {
+                m('message')->sendTplNotice($openid, $templateid, $msg, $url);
+            } else {
+                m('message')->sendCustomNotice($openid, $msg, $url);
+            }
+        }
+        function useRechargeCoupon($log)
+        {
+            global $_W;
+            if (empty($log['couponid'])) {
+                return;
+            }
+            $data = pdo_fetch('select id,openid,couponid,used from ' . tablename('ewei_shop_coupon_data') . ' where id=:id and uniacid=:uniacid limit 1', array(
+                ':id' => $log['couponid'],
+                ':uniacid' => $_W['uniacid']
+            ));
+            if (empty($data)) {
+                return;
+            }
+            if (!empty($data['used'])) {
+                return;
+            }
+            $coupon = pdo_fetch('select enough,backcredit,backmoney,backredpack from ' . tablename('ewei_shop_coupon') . ' where id=:id and uniacid=:uniacid limit 1', array(
+                ':id' => $data['couponid'],
+                ':uniacid' => $_W['uniacid']
+            ));
+            if (empty($coupon)) {
+                return;
+            }
+            if ($coupon['enough'] > 0 && $log['money'] < $coupon['enough']) {
+                return;
+            }
+            $gives      = array();
+            $backcredit = $coupon['backcredit'];
+            if (!empty($backcredit)) {
+                if (strexists($backcredit, '%')) {
+                    $backcredit = intval(floatval(str_replace('%', '', $backcredit)) / 100 * $log['money']);
+                } else {
+                    $backcredit = intval($backcredit);
+                }
+                if ($backcredit > 0) {
+                    $gives['credit'] = $backcredit;
+                    m('member')->setCredit($data['openid'], 'credit1', $backcredit, array(
+                        0,
+                        'å……å€¼ä¼˜æƒ åˆ¸è¿”ç§¯åˆ†'
+                    ));
+                }
+            }
+            $backmoney = $coupon['backmoney'];
+            if (!empty($backmoney)) {
+                if (strexists($backmoney, '%')) {
+                    $backmoney = round(floatval(floatval(str_replace('%', '', $backmoney)) / 100 * $log['money']), 2);
+                } else {
+                    $backmoney = round(floatval($backmoney), 2);
+                }
+                if ($backmoney > 0) {
+                    $gives['money'] = $backmoney;
+                    m('member')->setCredit($data['openid'], 'credit2', $backmoney, array(
+                        0,
+                        'å……å€¼ä¼˜æƒ åˆ¸è¿”åˆ©'
+                    ));
+                }
+            }
+            $backredpack = $coupon['backredpack'];
+            if (!empty($backredpack)) {
+                if (strexists($backredpack, '%')) {
+                    $backredpack = round(floatval(floatval(str_replace('%', '', $backredpack)) / 100 * $log['money']), 2);
+                } else {
+                    $backredpack = round(floatval($backredpack), 2);
+                }
+                if ($backredpack > 0) {
+                    $gives['redpack'] = $backredpack;
+                    $backredpack      = intval($backredpack * 100);
+                    m('finance')->pay($data['openid'], 1, $backredpack, '', 'å……å€¼ä¼˜æƒ åˆ¸-è¿”çŽ°é‡‘');
+                }
+            }
+            pdo_update('ewei_shop_coupon_data', array(
+                'used' => 1,
+                'usetime' => time(),
+                'ordersn' => $log['logno']
+            ), array(
+                'id' => $data['id']
+            ));
+            $this->sendBackMessage($log['openid'], $coupon, $gives);
+        }
+        function consumeCouponCount($openid, $money = 0)
+        {
+            global $_W, $_GPC;
+            $time = time();
+            $sql  = "select count(*) from " . tablename('ewei_shop_coupon_data') . " d " . "  left join " . tablename('ewei_shop_coupon') . " c on d.couponid = c.id " . "  where d.openid=:openid and d.uniacid=:uniacid and  c.coupontype=0 and {$money}>=c.enough and d.used=0 " . " and (   (c.timelimit = 0 and ( c.timedays=0 or c.timedays*86400 + d.gettime >=unix_timestamp() ) )  or  (c.timelimit =1 and c.timestart<={$time} && c.timeend>={$time}))";
+            return pdo_fetchcolumn($sql, array(
+                ':openid' => $openid,
+                ':uniacid' => $_W['uniacid']
+            ));
+        }
+        function useConsumeCoupon($orderid = 0)
+        {
+            global $_W, $_GPC;
+            if (empty($orderid)) {
+                return;
+            }
+            $order = pdo_fetch('select ordersn,createtime,couponid from ' . tablename('ewei_shop_order') . ' where id=:id and status>=0 and uniacid=:uniacid limit 1', array(
+                ':id' => $orderid,
+                ':uniacid' => $_W['uniacid']
+            ));
+            if (empty($order)) {
+                return;
+            }
+            $coupon = false;
+            if (!empty($order['couponid'])) {
+                $coupon = $this->getCouponByDataID($order['couponid']);
+            }
+            if (empty($coupon)) {
+                return;
+            }
+            pdo_update('ewei_shop_coupon_data', array(
+                'used' => 1,
+                'usetime' => $order['createtime'],
+                'ordersn' => $order['ordersn']
+            ), array(
+                'id' => $order['couponid']
+            ));
+        }
+        function returnConsumeCoupon($order)
+        {
+            global $_W;
+            if (!is_array($order)) {
+                $order = pdo_fetch('select id,openid,ordersn,createtime,couponid,status,finishtime from ' . tablename('ewei_shop_order') . ' where id=:id and status>=0 and uniacid=:uniacid limit 1', array(
+                    ':id' => intval($order),
+                    ':uniacid' => $_W['uniacid']
+                ));
+            }
+            if (empty($order)) {
+                return;
+            }
+            $coupon = $this->getCouponByDataID($order['couponid']);
+            if (empty($coupon)) {
+                return;
+            }
+            if (!empty($coupon['returntype'])) {
+                if (!empty($coupon['used'])) {
+                    pdo_update('ewei_shop_coupon_data', array(
+                        'used' => 0,
+                        'usetime' => 0,
+                        'ordersn' => ''
+                    ), array(
+                        'id' => $order['couponid']
+                    ));
+                    $this->sendReturnMessage($order['openid'], $coupon);
+                }
+            }
+        }
+        function backConsumeCoupon($order)
+        {
+            global $_W;
+            if (!is_array($order)) {
+                $order = pdo_fetch('select id,openid,ordersn,createtime,couponid,status,finishtime,virtual from ' . tablename('ewei_shop_order') . ' where id=:id and status>=0 and uniacid=:uniacid limit 1', array(
+                    ':id' => intval($order),
+                    ':uniacid' => $_W['uniacid']
+                ));
+            }
+            if (empty($order)) {
+                return;
+            }
+            $couponid = $order['couponid'];
+            if (empty($couponid)) {
+                return;
+            }
+            $coupon = $this->getCouponByDataID($order['couponid']);
+            if (empty($coupon)) {
+                return;
+            }
+            if (!empty($coupon['back'])) {
+                return;
+            }
+            $gives   = array();
+            $canback = false;
+            if ($order['status'] == 1 && $coupon['backwhen'] == 2) {
+                $canback = true;
+            } else if ($order['status'] == 3) {
+                if (!empty($order['virtual'])) {
+                    $canback = true;
+                } else {
+                    if ($coupon['backwhen'] == 1) {
+                        $canback = true;
+                    } else if ($coupon['backwhen'] == 0) {
+                        $canback    = true;
+                        $tradeset   = m('common')->getSysset('trade');
+                        $refunddays = intval($tradeset['refunddays']);
+                        if ($refunddays > 0) {
+                            $days = intval((time() - $order['finishtime']) / 3600 / 24);
+                            if ($days <= $refunddays) {
+                                $canback = false;
+                            }
+                        }
+                    }
+                }
+            }
+            if ($canback) {
+                $ordermoney = pdo_fetchcolumn('select ifnull( sum(og.realprice),0) from ' . tablename('ewei_shop_order_goods') . ' og ' . ' left join ' . tablename('ewei_shop_order') . ' o on o.id=og.orderid ' . ' where o.id=:orderid and o.openid=:openid and o.uniacid=:uniacid ', array(
+                    ':uniacid' => $_W['uniacid'],
+                    ':openid' => $order['openid'],
+                    ':orderid' => $order['id']
+                ));
+                $backcredit = $coupon['backcredit'];
+                if (!empty($backcredit)) {
+                    if (strexists($backcredit, '%')) {
+                        $backcredit = intval(floatval(str_replace('%', '', $backcredit)) / 100 * $ordermoney);
+                    } else {
+                        $backcredit = intval($backcredit);
+                    }
+                    if ($backcredit > 0) {
+                        $gives['credit'] = $backcredit;
+                        m('member')->setCredit($order['openid'], 'credit1', $backcredit, array(
+                            0,
+                            'å……å€¼ä¼˜æƒ åˆ¸è¿”ç§¯åˆ†'
+                        ));
+                    }
+                }
+                $backmoney = $coupon['backmoney'];
+                if (!empty($backmoney)) {
+                    if (strexists($backmoney, '%')) {
+                        $backmoney = round(floatval(floatval(str_replace('%', '', $backmoney)) / 100 * $ordermoney), 2);
+                    } else {
+                        $backmoney = round(floatval($backmoney), 2);
+                    }
+                    if ($backmoney > 0) {
+                        $gives['money'] = $backmoney;
+                        m('member')->setCredit($order['openid'], 'credit2', $backmoney, array(
+                            0,
+                            'è´­ç‰©ä¼˜æƒ åˆ¸è¿”åˆ©'
+                        ));
+                    }
+                }
+                $backredpack = $coupon['backredpack'];
+                if (!empty($backredpack)) {
+                    if (strexists($backredpack, '%')) {
+                        $backredpack = round(floatval(floatval(str_replace('%', '', $backredpack)) / 100 * $ordermoney), 2);
+                    } else {
+                        $backredpack = round(floatval($backredpack), 2);
+                    }
+                    if ($backredpack > 0) {
+                        $gives['redpack'] = $backredpack;
+                        $backredpack      = intval($backredpack * 100);
+                        m('finance')->pay($order['openid'], 1, $backredpack, '', 'è´­ç‰©ä¼˜æƒ åˆ¸-è¿”çŽ°é‡‘');
+                    }
+                }
+                pdo_update('ewei_shop_coupon_data', array(
+                    'back' => 1,
+                    'backtime' => time()
+                ), array(
+                    'id' => $order['couponid']
+                ));
+                $this->sendBackMessage($order['openid'], $coupon, $gives);
+            }
+        }
+        function getCoupon($couponid = 0)
+        {
+            global $_W;
+            return pdo_fetch('select * from ' . tablename('ewei_shop_coupon') . ' where id=:id and uniacid=:uniacid limit 1', array(
+                ':id' => $couponid,
+                ':uniacid' => $_W['uniacid']
+            ));
+        }
+        function getCouponByDataID($dataid = 0)
+        {
+            global $_W;
+            $data = pdo_fetch('select id,openid,couponid,used,back,backtime from ' . tablename('ewei_shop_coupon_data') . ' where id=:id and uniacid=:uniacid limit 1', array(
+                ':id' => $dataid,
+                ':uniacid' => $_W['uniacid']
+            ));
+            if (empty($data)) {
+                return false;
+            }
+            $coupon = pdo_fetch('select * from ' . tablename('ewei_shop_coupon') . ' where id=:id and uniacid=:uniacid limit 1', array(
+                ':id' => $data['couponid'],
+                ':uniacid' => $_W['uniacid']
+            ));
+            if (empty($coupon)) {
+                return false;
+            }
+            $coupon['back']     = $data['back'];
+            $coupon['backtime'] = $data['backtime'];
+            $coupon['used']     = $data['used'];
+            $coupon['usetime']  = $data['usetime'];
+            return $coupon;
+        }
+        function setCoupon($row, $time, $withOpenid = true)
+        {
+            global $_W;
+            if ($withOpenid) {
+                $openid = m('user')->getOpenid();
+            }
+            $row['free']  = false;
+            $row['past']  = false;
+            $row['thumb'] = tomedia($row['thumb']);
+            if ($row['money'] > 0 && $row['credit'] > 0) {
+                $row['getstatus']  = 0;
+                $row['gettypestr'] = "è´­ä¹°";
+            } else if ($row['money'] > 0) {
+                $row['getstatus']  = 1;
+                $row['gettypestr'] = "è´­ä¹°";
+            } else if ($row['credit'] > 0) {
+                $row['getstatus']  = 2;
+                $row['gettypestr'] = "å…‘æ¢";
+            } else {
+                $row['getstatus']  = 3;
+                $row['gettypestr'] = "é¢†å–";
+            }
+            $row['timestr'] = "0";
+            if (empty($row['timelimit'])) {
+                if (!empty($row['timedays'])) {
+                    $row['timestr'] = 1;
+                }
+            } else {
+                if ($row['timestart'] >= $time) {
+                    $row['timestr'] = date('Y-m-d', $row['timestart']) . '-' . date('Y-m-d', $row['timeend']);
+                } else {
+                    $row['timestr'] = date('Y-m-d', $row['timeend']);
+                }
+            }
+            $row['css'] = 'deduct';
+            if ($row['backtype'] == 0) {
+                $row['backstr']    = 'ç«‹å‡';
+                $row['css']        = 'deduct';
+                $row['backpre']    = true;
+                $row['_backmoney'] = $row['deduct'];
+            } else if ($row['backtype'] == 1) {
+                $row['backstr']    = 'æŠ˜';
+                $row['css']        = 'discount';
+                $row['_backmoney'] = $row['discount'];
+            } else if ($row['backtype'] == 2) {
+                if (!empty($row['backredpack'])) {
+                    $row['backstr']    = 'è¿”çŽ°';
+                    $row['css']        = "redpack";
+                    $row['backpre']    = true;
+                    $row['_backmoney'] = $row['backredpack'];
+                } else if (!empty($row['backmoney'])) {
+                    $row['backstr']    = 'è¿”åˆ©';
+                    $row['css']        = "money";
+                    $row['backpre']    = true;
+                    $row['_backmoney'] = $row['backmoney'];
+                } else if (!empty($row['backcredit'])) {
+                    $row['backstr']    = 'è¿”ç§¯åˆ†';
+                    $row['css']        = "credit";
+                    $row['_backmoney'] = $row['backcredit'];
+                }
+            }
+            if ($withOpenid) {
+                $row['cangetmax'] = -1;
+                $row['canget']    = true;
+                if ($row['getmax'] > 0) {
+                    $gets             = pdo_fetchcolumn('select count(*) from ' . tablename('ewei_shop_coupon_data') . ' where couponid=:couponid and openid=:openid and uniacid=:uniacid and gettype=1 limit 1', array(
+                        ':couponid' => $row['id'],
+                        ':openid' => $openid,
+                        ':uniacid' => $_W['uniacid']
+                    ));
+                    $row['cangetmax'] = $row['getmax'] - $gets;
+                    if ($row['cangetmax'] <= 0) {
+                        $row['cangetmax'] = 0;
+                        $row['canget']    = false;
+                    }
+                }
+            }
+            return $row;
+        }
+        function setMyCoupon($row, $time)
+        {
+            global $_W;
+            $row['past']    = false;
+            $row['thumb']   = tomedia($row['thumb']);
+            $row['timestr'] = "";
+            if (empty($row['timelimit'])) {
+                if (!empty($row['timedays'])) {
+                    $row['timestr'] = date('Y-m-d', $row['gettime'] + $row['timedays'] * 86400);
+                    if ($row['gettime'] + $row['timedays'] * 86400 < $time) {
+                        $row['past'] = true;
+                    }
+                }
+            } else {
+                if ($row['timestart'] >= $time) {
+                    $row['timestr'] = date('Y-m-d H:i', $row['timestart']) . '-' . date('Y-m-d', $row['timeend']);
+                } else {
+                    $row['timestr'] = date('Y-m-d H:i', $row['timeend']);
+                }
+                if ($row['timeend'] < $time) {
+                    $row['past'] = true;
+                }
+            }
+            $row['css'] = 'deduct';
+            if ($row['backtype'] == 0) {
+                $row['backstr']    = 'ç«‹å‡';
+                $row['css']        = 'deduct';
+                $row['backpre']    = true;
+                $row['_backmoney'] = $row['deduct'];
+            } else if ($row['backtype'] == 1) {
+                $row['backstr']    = 'æŠ˜';
+                $row['css']        = 'discount';
+                $row['_backmoney'] = $row['discount'];
+            } else if ($row['backtype'] == 2) {
+                if (!empty($row['backredpack'])) {
+                    $row['backstr']    = 'è¿”çŽ°';
+                    $row['css']        = "redpack";
+                    $row['backpre']    = true;
+                    $row['_backmoney'] = $row['backredpack'];
+                } else if (!empty($row['backmoney'])) {
+                    $row['backstr']    = 'è¿”åˆ©';
+                    $row['css']        = "money";
+                    $row['backpre']    = true;
+                    $row['_backmoney'] = $row['backmoney'];
+                } else if (!empty($row['backcredit'])) {
+                    $row['backstr']    = 'è¿”ç§¯åˆ†';
+                    $row['css']        = "credit";
+                    $row['_backmoney'] = $row['backcredit'];
+                }
+            }
+            if ($row['past']) {
+                $row['css'] = 'past';
+            }
+            return $row;
+        }
+        function setShare()
+        {
+            global $_W, $_GPC;
+            $set             = $this->getSet();
+            $openid          = m('user')->getOpenid();
+            $url             = $_W['siteroot'] . "app/index.php?i={$_W['uniacid']}&c=entry&p=coupon&m=ewei_shop&do=plugin";
+            $_W['shopshare'] = array(
+                'title' => $set['title'],
+                'imgUrl' => tomedia($set['icon']),
+                'desc' => $set['desc'],
+                'link' => $url
+            );
+            if (p('commission')) {
+                $pset = p('commission')->getSet();
+                if (!empty($pset['level'])) {
+                    $member = m('member')->getMember($openid);
+                    if (!empty($member) && $member['status'] == 1 && $member['isagent'] == 1) {
+                        $_W['shopshare']['link'] = $url . "&mid=" . $member['id'];
+                        if (empty($pset['become_reg']) && (empty($member['realname']) || empty($member['mobile']))) {
+                            $trigger = true;
+                        }
+                    } else if (!empty($_GPC['mid'])) {
+                        $_W['shopshare']['link'] = $url . "&mid=" . $_GPC['id'];
+                    }
+                }
+            }
+        }
+        function perms()
+        {
+            return array(
+                'coupon' => array(
+                    'text' => $this->getName(),
+                    'isplugin' => true,
+                    'child' => array(
+                        'coupon' => array(
+                            'text' => 'ä¼˜æƒ åˆ¸',
+                            'view' => 'æŸ¥çœ‹',
+                            'add' => 'æ·»åŠ ä¼˜æƒ åˆ¸-log',
+                            'edit' => 'ç¼–è¾‘ä¼˜æƒ åˆ¸-log',
+                            'delete' => 'åˆ é™¤ä¼˜æƒ åˆ¸-log',
+                            'send' => 'å‘æ”¾ä¼˜æƒ åˆ¸-log'
+                        ),
+                        'category' => array(
+                            'text' => 'åˆ†ç±»',
+                            'view' => 'æŸ¥çœ‹',
+                            'add' => 'æ·»åŠ åˆ†ç±»-log',
+                            'edit' => 'ç¼–è¾‘åˆ†ç±»-log',
+                            'delete' => 'åˆ é™¤åˆ†ç±»-log'
+                        ),
+                        'log' => array(
+                            'text' => 'ä¼˜æƒ åˆ¸è®°å½•',
+                            'view' => 'æŸ¥çœ‹',
+                            'export' => 'å¯¼å‡º-log'
+                        ),
+                        'center' => array(
+                            'text' => 'é¢†åˆ¸ä¸­å¿ƒè®¾ç½®',
+                            'view' => 'æŸ¥çœ‹è®¾ç½®',
+                            'save' => 'ä¿å­˜è®¾ç½®-log'
+                        ),
+                        'set' => array(
+                            'text' => 'åŸºç¡€è®¾ç½®',
+                            'view' => 'æŸ¥çœ‹è®¾ç½®',
+                            'save' => 'ä¿å­˜è®¾ç½®-log'
+                        )
+                    )
+                )
+            );
+        }
+    }
+}

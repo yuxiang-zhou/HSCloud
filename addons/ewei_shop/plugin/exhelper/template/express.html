@@ -145,7 +145,7 @@
 							<div class="input-group-addon" style="border-right:none; border-left: none;">mm(毫米) 单据高度</div>
 							<input type="number" name="height" class="form-control" value="{if !empty($item['height'])}{$item['height']}{else}150{/if}" onchange="pagesize()" />
 							<div class="input-group-addon" style="border-right:none; border-left: none;">mm(毫米)</div>
-							<div class="input-group-addon" style="border-right:none;">参照底图</div>
+							<div class="input-group-addon" style="border-right:none;">{if $cate==1}发货单{elseif $cate==2}发货单{/if}底图</div>
 							<input id="bg" type="text" name="bg" class="form-control" value="{$item['bg']}" />
 							<span style="background: #fff;" class="input-group-addon btn btn-default " onclick="changeBG()">选择图片</span>
 							<span style="background: #fff;" class="input-group-addon btn btn-default " onclick="changeBG(1)">清除图片</span>

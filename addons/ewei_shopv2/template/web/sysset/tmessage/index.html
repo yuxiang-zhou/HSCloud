@@ -22,12 +22,9 @@
 
 			   <div class="input-group-btn">
 			        <button class="btn btn-default btn-sm"  type="button" data-toggle='refresh'><i class='fa fa-refresh'></i></button>
-
-
-				{ifp 'sysset.tmessage.delete'}
-			        <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle='batch-remove' data-confirm="确认要删除?" data-href="{php echo webUrl('sysset/tmessage',array('op'=>'delete'))}"><i class='fa fa-trash'></i> 删除</button>
+                    {ifp 'sysset.tmessage.delete'}
+                        <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle='batch-remove' data-confirm="确认要删除?" data-href="{php echo webUrl('sysset/tmessage',array('op'=>'delete'))}"><i class='fa fa-trash'></i> 删除</button>
 					{/if}
-
 			   </div>
                                </div>
 
@@ -35,18 +32,17 @@
                             <div class="col-sm-6 pull-right">
 
 
-				<div class="input-group">
-                                        <input type="text" class="input-sm form-control" name='keyword' value="{$_GPC['keyword']}" placeholder="请输入关键词"> <span class="input-group-btn">
+				        <div class="input-group">
+                            <input type="text" class="input-sm form-control" name='keyword' value="{$_GPC['keyword']}" placeholder="请输入关键词"> <span class="input-group-btn">
+                             <button class="btn btn-sm btn-primary" type="submit"> 搜索</button> </span>
+                        </div>
 
-                                     <button class="btn btn-sm btn-primary" type="submit"> 搜索</button> </span>
-                                </div>
-
-                            </div>
-</div>
-  </form>
+                    </div>
+                </div>
+          </form>
 
 
-{if count($list)>0}
+        {if count($list)>0}
             <table class="table table-responsive table-hover">
                 <thead>
                     <tr>
@@ -67,11 +63,13 @@
                             {ifp 'sysset.tmessage.delete'}<a class='btn btn-default  btn-sm'  data-toggle='ajaxRemove' href="{php echo webUrl('sysset/tmessage/delete', array('id' => $row['id']))}" data-confirm="确认删除此模板吗？" ><i class='fa fa-trash'></i> 删除</a>{/if}
                             
                     </tr>
+
                     {/loop}
+
                  
                 </tbody>
             </table>
-    {$pager}
+        {$pager}
                {else}
 <div class='panel panel-default'>
 	<div class='panel-body' style='text-align: center;padding:30px;'>

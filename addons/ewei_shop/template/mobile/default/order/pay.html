@@ -1,5 +1,5 @@
 {template 'common/header'}
-<title>支付订单</title>
+<title>支付粉单</title>
 <style type="text/css">
     body {margin:0px; background:#efefef; font-family:'微软雅黑'; -moz-appearance:none;}
 .order_main {height:auto; border-bottom:1px solid #f0f0f0; border-top:1px solid #f0f0f0; background:#fff;margin-top:10px;}
@@ -31,10 +31,10 @@
     <input type='hidden' id='orderid' value="<%order.id%>"/>
        <div class="page_topbar">
         <a href="javascript:;" class="back" onclick="history.back()"><i class="fa fa-angle-left"></i></a>
-        <div class="title">支付订单</div>
+        <div class="title">支付粉单</div>
     </div>
     <div class="order_main" >  
-        <div class="line"><div class="label">订单编号</div><div class="info"><div class="inner"><%order.ordersn%></div></div></div>
+        <div class="line"><div class="label">粉单编号</div><div class="info"><div class="inner"><%order.ordersn%></div></div></div>
         <div class="line"><div class="label">支付金额</div><div class="info"><div class="inner"><div style='color:#ff6600'>￥<span id="orderprice" price="<%order.price%>"><%order.price%></span>元</div></div></div></div>
     </div>
     <%if order.price>0%>    
@@ -45,7 +45,7 @@
         <div class="button order_sub3">余额支付(当前余额:<%credit.current%>)</div>
         <input type="hidden" id="credit" value="<%credit.current%>" />
         <%if credit.current<=0%>
-        <div class="button order_sub4" onclick="location.href='{php echo $this->createMobileUrl('member/recharge')}&returnurl=<%returnurl%>'">账户充值</div>
+        <div class="button order_sub4" onclick="location.href='{php echo $this->createMobileUrl('member/recharge')}&returnurl=<%returnurl%>'">粉币充值</div>
         <%/if%>  
     <%/if%>
     
@@ -94,14 +94,14 @@
          <%/if%>
     </div>
      <div class="order_main1" >
-         <span class="order_sub5" onclick="location.href='{php echo $this->createMobileUrl('order/detail')}&id=<%order.id%>'">订单详情</span>
+         <span class="order_sub5" onclick="location.href='{php echo $this->createMobileUrl('order/detail')}&id=<%order.id%>'">粉单详情</span>
          <span class="order_sub5" onclick="location.href='{php echo $this->createMobileUrl('shop')}'">返回首页</span>
      </div>
 </script>
 
 <script id='tpl_order_cash' type='text/html'>
       <div class="page_topbar">
-           <div class="title">订单提交成功</div>
+           <div class="title">粉单提交成功</div>
         </div>
     <img src="../addons/ewei_shop/template/mobile/default/static/images/pay_cash.png" style="width:100%;" />
     <div class="order_main" >
@@ -121,7 +121,7 @@
         <div class="line"><div class="label">需到付</div><div class="info"><div class='inner'><span style='color:#ff6600'>￥<%order.price%>元</span></div></div></div>
     </div>
      <div class="order_main1" >
-         <span class="order_sub5" onclick="location.href='{php echo $this->createMobileUrl('order/detail')}&id=<%order.id%>'">订单详情</span>
+         <span class="order_sub5" onclick="location.href='{php echo $this->createMobileUrl('order/detail')}&id=<%order.id%>'">粉单详情</span>
          <span class="order_sub5" onclick="location.href='{php echo $this->createMobileUrl('shop')}'">返回首页</span>
      </div>
 </script>

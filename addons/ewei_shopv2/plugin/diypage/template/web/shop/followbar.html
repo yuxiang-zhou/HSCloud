@@ -6,7 +6,7 @@
     <h2>自定义关注条设置</h2>
 </div>
 
-<div class="diy-phone">
+<div class="diy-phone" data-merch="{php echo intval($_W['merchid'])}">
     <div class="phone-head"></div>
     <div class="phone-body">
         <div class="phone-title" id="page">页面标题</div>
@@ -40,7 +40,8 @@
             tpl: tpl,
             attachurl: "{$_W['attachurl']}",
             followbar: {if !empty($diyfollowbar)}{php echo json_encode($diyfollowbar)}{else}null{/if},
-            logo: "{$logo}"
+            logo: "{$logo}",
+            merch: {if $_W['plugin']=='merch' && !empty($_W['merchid'])}1{else}0{/if}
         });
     });
 </script>

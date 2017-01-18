@@ -91,7 +91,7 @@ body {margin:0px; background:#f8f8f8;width:100%;}
 </div>
  <div class="card_no"><i class="fa fa-shopping-cart" style="font-size:100px;"></i><br><span style="line-height:18px; font-size:16px;">购物车快饿瘪了</span><br>主人快去给我找点东西吧</div>
 <div class="card_no_menu">
-   	<div class="card_no_nav" onclick="location.href='{php echo $this->createMobileUrl('member')}'">个人中心</div>
+   	<div class="card_no_nav" onclick="location.href='{php echo $this->createMobileUrl('member')}'">香粉中心</div>
         <div class="card_no_nav"  onclick="location.href='{php echo $this->getUrl()}'">去逛逛</div>
  </div>
 
@@ -130,7 +130,7 @@ body {margin:0px; background:#f8f8f8;width:100%;}
                     </div>
                  </div>
                      <div class="other">
-                           <div class="price"><%value.marketprice%></div>
+                           <div class="price"><%value.marketprice%></div>  
                            <div class="price1"><span class='line'><%value.productprice%></span></div>  
                            <div class="num"><div class="leftnav">-</div><input type="text" class="shownum" value="<%value.total%>" /><div class="rightnav">+</div>
                     </div>
@@ -159,7 +159,8 @@ body {margin:0px; background:#f8f8f8;width:100%;}
                       $('.good_choose').fadeOut(100); 
                 }
 	function choose2(direct){
-        window.location.reload();
+	    
+                          
 	}
         
     function setSelect(obj, sel,isall){

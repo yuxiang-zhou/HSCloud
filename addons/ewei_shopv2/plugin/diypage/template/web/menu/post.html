@@ -10,7 +10,7 @@
     <h2>{if !empty($menu)}编辑{else}新建{/if}自定义菜单 {if !empty($menu)}<small>(菜单名称: {$menu['name']})</small>{/if}</h2>
 </div>
 
-<div class="diy-phone" style="position: fixed;">
+<div class="diy-phone" style="position: fixed;" data-merch="{php echo intval($_W['merchid'])}">
     <div class="phone-head"></div>
     <div class="phone-body">
         <div class="phone-title" id="page">自定义菜单</div>
@@ -44,7 +44,8 @@
             tpl: tpl,
             attachurl: "{$_W['attachurl']}",
             id: '{php echo intval($_GPC["id"])}',
-            menu: {if !empty($menu['data'])}{php echo json_encode($menu['data'])}{else}null{/if}
+            menu: {if !empty($menu['data'])}{php echo json_encode($menu['data'])}{else}null{/if},
+            merch: {if $_W['plugin']=='merch' && !empty($_W['merchid'])}1{else}0{/if}
         });
     });
     function showSubMenu(obj) {

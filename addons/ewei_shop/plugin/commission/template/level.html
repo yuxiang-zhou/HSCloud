@@ -5,7 +5,7 @@
 </div>
 {if $operation == 'post'}
 <div class="main">
-    <form action="" {ife 'commission.level' $level}action="" method="post"{/if}  class="form-horizontal form" enctype="multipart/form-data">
+    <form action="" method="post" class="form-horizontal form" enctype="multipart/form-data">
         <input type="hidden" name="id" value="{$level['id']}" />
         <div class='panel panel-default'>
             <div class='panel-heading'>
@@ -15,60 +15,41 @@
                 <div class="form-group">
                     <label class="col-xs-12 col-sm-3 col-md-2 control-label"><span style='color:red'>*</span> 等级名称</label>
                     <div class="col-sm-9 col-xs-12">
-						{ife 'member.level' $level}
                         <input type="text" name="levelname" class="form-control" value="{$level['levelname']}" />
-						{else}
-						<div class='form-control-static'>{$level['levelname']}</div>
-						{/if} 
                     </div>
                 </div>
                 {if $this->set['level']>=1}
                 <div class="form-group">
-                    <label class="col-xs-12 col-sm-3 col-md-2 control-label">一级佣金比例</label>
+                    <label class="col-xs-12 col-sm-3 col-md-2 control-label">一级分销比例</label>
                     <div class="col-sm-9 col-xs-12">
-							{ife 'member.level' $level}
                         <input type="text" name="commission1" class="form-control" value="{$level['commission1']}" />
-						{else}
-						<div class='form-control-static'>{$level['commission1']}%</div>
-						{/if} 
                     </div>
                 </div>
                 {/if}
                   {if $this->set['level']>=2}
                 <div class="form-group">
-                    <label class="col-xs-12 col-sm-3 col-md-2 control-label">二级佣金比例</label>
+                    <label class="col-xs-12 col-sm-3 col-md-2 control-label">二级分销比例</label>
                     <div class="col-sm-9 col-xs-12">
-                       {ife 'member.level' $level}
                         <input type="text" name="commission2" class="form-control" value="{$level['commission2']}" />
-						{else}
-						<div class='form-control-static'>{$level['commission2']}%</div>
-						{/if} 
                     </div>
                 </div>
                     {/if}
                   {if $this->set['level']>=3}
                   <div class="form-group">
-                    <label class="col-xs-12 col-sm-3 col-md-2 control-label">三级佣金比例</label>
+                    <label class="col-xs-12 col-sm-3 col-md-2 control-label">三级分销比例</label>
                     <div class="col-sm-9 col-xs-12">
-                      {ife 'member.level' $level}
                         <input type="text" name="commission3" class="form-control" value="{$level['commission3']}" />
-						{else}
-						<div class='form-control-static'>{$level['commission3']}%</div>
-						{/if} 
                     </div>
                 </div>
                     {/if}
-					{if $level['id']!='default'}
                   <div class="form-group">
                     <label class="col-xs-12 col-sm-3 col-md-2 control-label">升级条件</label>
                     <div class="col-sm-9 col-xs-12">
-						    {ife 'member.level' $level}
                         <div class='input-group'>
 							{if $leveltype==0}
 									<span class='input-group-addon'>分销订单金额满</span>
 									<input type="text" name="ordermoney" class="form-control" value="{$level['ordermoney']}" />
 									<span class='input-group-addon'>元</span>
-								 
 							{/if}
 							
 							{if $leveltype==1}
@@ -131,54 +112,8 @@
 							
                         </div>
                         <span class='help-block'>分销商升级条件，不填写默认为不自动升级</span>
-						
-						{else}
-						
-						          {if $leveltype==0}
-									 分销订单金额满 {$level['ordermoney']} 元
-							{/if}
-							
-							{if $leveltype==1}
-							                      一级分销订单金额满 {$level['ordermoney']} 元
-							{/if}
-							{if $leveltype==2}
-							                    分销订单数量满 {$level['ordercount']} 个
-							{/if}
-							
-							{if $leveltype==3}
-							                一级分销订单数量满 {$level['ordercount']} 个
-							{/if}
-							
-							{if $leveltype==4}
-							       自购订单金额满 {$level['ordermoney']} 元
-							 {/if}
-							
-							{if $leveltype==5}
-							                   自购订单数量满 {$level['ordercount']} 个
-							{/if}
-							{if $leveltype==6}
-							 下级总人数满 {$level['downcount']} 个（分销商+非分销商）
-									 
-							{/if}
-							{if $leveltype==7}
-							一级下级人数满 {$level['downcount']} 个（分销商+非分销商）
-									 
-							{/if}
-							{if $leveltype==8}
-								团队总人数满 {$level['downcount']} 个（分销商）
-							{/if}
-							{if $leveltype==9}
-							          一级团队人数满 {$level['downcount']} 个（分销商）
-							{/if}
-							 
-							{if $leveltype==10}
-							          已提现佣金总金额满 {$level['commissionmoney']} 元
-							{/if}
-						
-						{/if}
                     </div>
                 </div>
-					{/if}
                 
 
             </div>
@@ -210,21 +145,21 @@
                 <thead>
                     <tr>
                         <th>等级名称</th>
-                        {if $this->set['level']>=1}<th>一级佣金比例</th>{/if}
-                        {if $this->set['level']>=2}<th>二级佣金比例</th>{/if}
-                        {if $this->set['level']>=3}<th>三级佣金比例</th>{/if}
+                        {if $this->set['level']>=1}<th>一级比例</th>{/if}
+                        {if $this->set['level']>=2}<th>二级比例</th>{/if}
+                        {if $this->set['level']>=3}<th>三级比例</th>{/if}
                         <th>升级条件</th>
                         <th>操作</th>
                     </tr>
                 </thead>
                 <tbody>
                     {loop $list $row}
-                    <tr {if $row['id']=='default'}style='background:#ddd'{/if}>
-                        <td>{$row['levelname']}{if $row['id']=='default'}【默认等级】{/if}</td>
+                    <tr>
+                        <td>{$row['levelname']}</td>
                         {if $this->set['level']>=1}<td>{$row['commission1']}%</td>{/if}
                          {if $this->set['level']>=2}<td>{$row['commission2']}%</td>{/if}
                           {if $this->set['level']>=3}<td>{$row['commission3']}%</td>{/if}
-                          <td>	{if $row['id']!='default'}
+                          <td>
 						{if $leveltype==0}{if $row['ordermoney']>0}分销订单金额满 {$row['ordermoney']} 元 {else}不自动升级{/if}{/if}
 						{if $leveltype==1}{if $row['ordermoney']>0}一级分销订单金额满 {$row['ordermoney']} 元 {else}不自动升级{/if}{/if}
 						{if $leveltype==2}{if $row['ordercount']>0}分销订单数量满 {$row['ordercount']} 个 {else}不自动升级{/if}{/if}
@@ -240,18 +175,10 @@
 						
 						 
 						{if $leveltype==10}{if $row['commissionmoney']>0}已提现佣金总金额满 {$row['commissionmoney']} 元{else}不自动升级{/if}{/if}	 
-					{else}
-					默认等级
-					{/if}
                           </td>
-                        <td>        {ifp 'commission.level.add|commission.level.view'}
-                            <a class='btn btn-default' href="{php echo $this->createPluginWebUrl('commission/level', array('op' => 'post', 'id' => $row['id']))}" title="{ifp 'commission.level.edit'}修改{else}查看{/if}"><i class='fa fa-edit'></i></a>
-                            {/if} 
-                            {if $row['id']!='default'}
-							 {ifp 'commission.level.delete'}
-								<a class='btn btn-default'  href="{php echo $this->createPluginWebUrl('commission/level', array('op' => 'delete', 'id' => $row['id']))}" onclick="return confirm('确认删除此等级吗？');return false;" title='删除'><i class='fa fa-remove'></i></a></td>
-						{/if}
-						{/if}
+                        <td>
+                            <a class='btn btn-default' href="{php echo $this->createPluginWebUrl('commission/level', array('op' => 'post', 'id' => $row['id']))}">编辑</a>
+                            <a class='btn btn-default'  href="{php echo $this->createPluginWebUrl('commission/level', array('op' => 'delete', 'id' => $row['id']))}" onclick="return confirm('确认删除此等级吗？');return false;">删除</a></td>
 
                     </tr>
                     {/loop}
@@ -266,4 +193,4 @@
      </div>
          </form>
 {/if}
-{template 'web/_footer'}
+{template 'common/footer'}

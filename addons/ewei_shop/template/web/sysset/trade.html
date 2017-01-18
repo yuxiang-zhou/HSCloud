@@ -23,7 +23,7 @@
                         <div class='form-control-static'>
                             {if empty($set['trade']['closeorder'])}9{else}{$set['trade']['closeorder']}{/if} 天
                         </div>
-                        {/if}
+                        {/if} 
                     </div>
                 </div>
 
@@ -93,7 +93,7 @@
 			</div>
 			<div class="panel-heading">
 				交易设置
-			</div>
+			</div>	
 
             <div class='panel-body'>
 
@@ -132,7 +132,7 @@
 			</div>
 			<div class="panel-heading">
 				余额设置
-			</div>
+			</div>	
 
             <div class='panel-body'>
 
@@ -150,27 +150,6 @@
                         {/if}
                     </div>
                 </div>
-
-                <div class="form-group recharge-group">
-                <label class="col-sm-2 control-label">最低充值金额</label>
-                <div class="col-sm-9 col-xs-12">
-                    {ifp 'sysset.save.trade'}
-                    <div class="input-group">
-                        <input type="text" name="trade[minimumcharge]" class="form-control" value="{$set['trade']['minimumcharge']}" />
-                        <div class="input-group-addon">元</div>
-                    </div>
-                    <span class='help-block'>账户充值时,最低允许的充值金额</span>
-                    <span class='help-block'>例如 最低充值金额设置为10元,只有充值金额大于等于10元时,才允许充值</span>
-                    {else}
-                    <input type="hidden" name="trade[minimumcharge]" value="{$set['trade']['minimumcharge']}"/>
-                    <div class='form-control-static'>
-                        {$set['trade']['minimumcharge']}元
-                    </div>
-                    {/if}
-                </div>
-            </div>
-
-
                 <div class="form-group">
                     <label class="col-xs-12 col-sm-3 col-md-2 control-label">开启余额提现</label>
                     <div class="col-sm-9 col-xs-12">
@@ -198,10 +177,24 @@
                         {/if}
                     </div>
                 </div>
+                <div class="form-group">
+                    <label class="col-xs-12 col-sm-3 col-md-2 control-label">余额提现比例</label>
+                    <div class="col-sm-9 col-xs-12">
+                        {ifp 'sysset.save.trade'}
+                        <input type="text" name="trade[withdrawrate]" class="form-control" value="{$set['trade']['withdrawrate']}" />
+                        <span class='help-block'>余额提现时的比例（百分比）</span>
+                        {else}
+                        <input type="hidden" name="trade[withdrawrate]" value="{$set['trade']['withdrawrate']}"/>
+                        <div class='form-control-static'>
+                            {if empty($set['trade']['withdrawrate'])}不设比例{else}{$set['trade']['withdrawrate']} ％ {/if}
+                        </div>
+                        {/if}
+                    </div>
+                </div>
 			</div>
 			<div class="panel-heading">
 				积分比例
-			</div>
+			</div>	
 
             <div class='panel-body'>
                 <div class="form-group">
@@ -231,7 +224,7 @@
 			</div>
 			<div class="panel-heading">
 				共享收货地址
-			</div>
+			</div>	
 
             <div class='panel-body'>
 
@@ -251,11 +244,11 @@
 			</div>
 			      {if $_W['isfounder']}
 			<div class="panel-heading">
-				支付日志
-			</div>
+				支付日志 
+			</div>	
 
 			<div class='panel-body'>
-
+          
                 <div class="form-group">
                     <label class="col-xs-12 col-sm-3 col-md-2 control-label">支付回调日志</label>
                     <div class="col-sm-5">
@@ -267,7 +260,7 @@
 
                     </div>
                 </div>
-
+      
 			</div>
 				            {/if}
 			<div class="form-group"></div>
@@ -283,7 +276,7 @@
 
 
 
-	 </div>
+	 </div>     
 </form>
-
-{template 'web/_footer'}
+ 
+{template 'web/_footer'}     

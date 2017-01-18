@@ -29,14 +29,18 @@
 {else}
 <!--自提 确认取货-->
 {ifp 'order.op.fetch'}
-<a class="btn btn-primary btn-xs" data-toggle='ajaxPost'  href="{php echo webUrl('order/op/fetch', array('id' => $item['id']))}" data-confirm="确认取货吗？">确认取货</a>
+<a class="btn btn-primary btn-xs" data-toggle='ajaxPost'  href="{php echo webUrl('order/op/fetch', array('id' => $item['id']))}" data-confirm="确认{if !empty($item['ccard'])}充值{else}取货{/if}吗？">确认{if !empty($item['ccard'])}充值{else}取货{/if}</a>
 {/if}
 {/if}
 
 {/if}
 
-
-{elseif $item['statusvalue'] == 2}
+{if $item['sendtype'] > 0}
+    {ifp 'order.op.sendcancel'}
+    <br><a class="btn-xs" data-toggle='ajaxModal'  href="{php echo webUrl('order/op/sendcancel', array('id' => $item['id']))}" >取消发货</a>
+    {/if}
+{/if}
+{elseif $item['statusvalue'] == 2 }
 <!--已发货-->
 {if !empty($item['addressid'])}
 <!--快递 取消发货-->
@@ -46,7 +50,7 @@
 {/if}
 {ifp 'order.op.finish'}{if strexists($_W['action'],'order.list')}{/if}<a class="btn btn-primary btn-xs" data-toggle='ajaxPost'  href="{php echo webUrl('order/op/finish', array('id' => $item['id']))}" data-confirm="确认订单收货吗？">确认收货</a>{/if}
 {ifp 'order.op.sendcancel'}{if strexists($_W['action'],'order.list')}<br/>{/if}
-<a class="btn-xs" data-toggle='ajaxModal'  href="{php echo webUrl('order/op/sendcancel', array('id' => $item['id']))}" >取消发货</a>{/if}
+<br><a class="btn-xs" data-toggle='ajaxModal'  href="{php echo webUrl('order/op/sendcancel', array('id' => $item['id']))}" >取消发货</a>{/if}
 
 {/if}
 

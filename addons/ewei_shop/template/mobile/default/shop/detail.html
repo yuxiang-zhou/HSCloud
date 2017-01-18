@@ -268,15 +268,30 @@ div.flicking_con a.on{background-position:0 -9px}
       <%if goods.deduct>0%>
       <div class="other">
             <div class='left'>
-                    <span><i class='fa fa-cube'></i> 积分抵扣 <span style='color:#ff6600'><%goods.deduct%></span> 元</span>
+                    <span><i class='fa fa-cube'></i> 粉豆最多抵扣 <span style='color:#ff6600'><%goods.deduct%></span> 元</span>
             </div>
        </div>
         <%/if%> 
-        
+      
+<!-- --------------显示消费补贴------------------------------------------------------->
+      <%{php $discounts = json_decode($goods['discounts'], true)}%>
+      <div style="display: none">
+	    <%discount={php echo (!empty($discounts['refund'])?$discounts['refund']:'0')}%>
+	    <%refundprice = goods.marketprice*discount/100%>
+      </div>
+	  <%if discount >0%>
+      <div class="other">
+            <div class='left'>
+                    <span><i class='fa fa-money'></i> 消费返 <span style='color:#ff6600'><%refundprice%>元（占<%discount%>％）</span></span>
+            </div>
+       </div>
+        <%/if%>
+<!-- -------------------------------------------------------------------------------->
+
       <%if goods.isnodiscount=='0' && level.discount>0 && level.discount<10%>
          <div class="other">
             <div class='left'>
-                <i class='fa fa-user'></i> 会员折扣 <span style='color:#ff6600'><%level.discount%></span> 折优惠(<%level.levelname%>)
+                <i class='fa fa-user'></i> <%level.levelname%> <span style='color:#ff6600'><%level.discount%></span> 折优惠
             </div>
          </div> 
         <%/if%>  </div>

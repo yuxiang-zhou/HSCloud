@@ -1,256 +1,783 @@
-<?php //0003d
-// EWEI_SHOPV2
-// FOXTEAM QQ/TEL: 400-009-7827
+<?php
+/*
+ * 人人商城V2
+ *
+ * @author ewei 狸小狐 QQ:22185157
+ */
+ 
+if (!defined('IN_IA')) {
+	exit('Access Denied');
+}
 
-?>
-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
+require EWEI_SHOPV2_PLUGIN .'creditshop/core/page_mobile.php';
+class Detail_EweiShopV2Page extends CreditshopMobilePage {
+	
+	function main(){
+		global $_W, $_GPC;
+		
+		$openid = $_W['openid'];
+		$uniacid = $_W['uniacid'];
+		$id = intval($_GPC['id']);
+        if(!$id){
+            $this->message("该商品不存在或已删除!", mobileUrl('creditshop'), 'error');
+        }
+		$shop = m('common')->getSysset('shop');
+		$member = m('member')->getMember($openid);
+		$goods = $this->model->getGoods($id, $member);
+
+        $showgoods = m('goods')->visit($goods, $member);
+        if (empty($showgoods)){
+            $this->message("您没有权限浏览此商品!", mobileUrl('creditshop'), 'error');
+        }
+        $pay = m('common')->getSysset('pay');
+
+        $set = m('common')->getPluginset('creditshop');
+
+        $goods['subdetail'] = m('ui')->lazy($goods['subdetail']);
+        $goods['noticedetail'] = m('ui')->lazy($goods['noticedetail']);
+        $goods['usedetail'] = m('ui')->lazy($goods['usedetail']);
+        $goods['goodsdetail'] = m('ui')->lazy($goods['goodsdetail']);
+		$credit = $member['credit1'];
+		$money = $member['credit2'];
+		
+		if (!empty($goods)) {
+            //浏览次数
+            pdo_update('ewei_shop_creditshop_goods', array('views' => $goods['views'] + 1), array('id' => $id));
+			$goods['followed'] = m('user')->followed($openid);
+        }else{
+        	$this->message("商品已下架或被删除!", mobileUrl('creditshop'), 'error');
+        }
+        //参与记录
+        $log = array();
+        $log = pdo_fetchall("select openid,createtime from ".tablename('ewei_shop_creditshop_log')."
+                where uniacid = ".$uniacid." and goodsid = ".$id." and status > 0 order by createtime desc limit 2 ");
+        foreach($log as $key => $value){
+            $mem = m('member')->getMember($value['openid']);
+            $log[$key]['avatar'] = $mem['avatar'];
+            $log[$key]['nickname'] = $mem['nickname'];
+            $log[$key]['createtime_str'] = date('Y/m/d H:i', $value['createtime']);
+            unset($mem);
+        }
+        $logtotal = 0;
+        $logtotal = pdo_fetchcolumn("select count(1) from ".tablename('ewei_shop_creditshop_log')." where uniacid = ".$uniacid." and goodsid = ".$id." and status > 0 ");
+
+        //评论
+        $replys = array();
+        $replys = pdo_fetchall("select * from ".tablename('ewei_shop_creditshop_comment')."
+                where uniacid = ".$uniacid." and goodsid = ".$id." and checked = 1 and deleted = 0 order by `time` desc limit 2 ");
+        //评论敏感词替换
+        $replykeywords = explode(',', $set['desckeyword']);
+        $replykeystr = trim($set['replykeyword']);
+        if(empty($replykeystr)){
+            $replykeystr = "**";
+        }
+
+
+        foreach($replys as $key => $value){
+            //评论替换敏感关键字
+            foreach($replykeywords as $k => $val){
+                if(!empty($value['content'])){
+                    if(!strstr($val, $value['content'])){
+                        $value['content'] = str_replace($val, $replykeystr, $value['content']);
+
+                    }
+                }
+                if(!empty($value['reply_content'])){
+                    if(!strstr($val, $value['reply_content'])){
+                        $value['reply_content'] = str_replace($val, $replykeystr, $value['reply_content']);
+                    }
+                }
+                if(!empty($value['append_content'])){
+                    if(!strstr($val, $value['append_content'])){
+                        $value['append_content'] = str_replace($val, $replykeystr, $value['append_content']);
+                    }
+                }
+                if(!empty($value['append_reply_content'])){
+                    if(!strstr($val, $value['append_reply_content'])){
+                        $value['append_reply_content'] = str_replace($val, $replykeystr, $value['append_reply_content']);
+                    }
+                }
+            }
+            $replys[$key]['content'] = $value['content'];
+            $replys[$key]['reply_content'] = $value['reply_content'];
+            $replys[$key]['append_content'] = $value['append_content'];
+            $replys[$key]['append_reply_content'] = $value['append_reply_content'];
+
+            $replys[$key]['time_str'] = date('Y/m/d', $value['time']);
+            $replys[$key]['images'] = set_medias(iunserializer($value['images']));
+            $replys[$key]['reply_images'] = set_medias(iunserializer($value['reply_images']));
+            $replys[$key]['append_images'] = set_medias(iunserializer($value['append_images']));
+            $replys[$key]['append_reply_images'] = set_medias(iunserializer($value['append_reply_images']));
+            $replys[$key]['nickname'] = cut_str($value['nickname'], 1, 0).'**'.cut_str($value['nickname'], 1, -1);
+            $replys[$key]['content'] = str_replace('=', "**", $value['content']);
+        }
+        $replytotal = 0;
+        $replytotal = pdo_fetchcolumn("select count(1) from ".tablename('ewei_shop_creditshop_comment')."
+                where uniacid = ".$uniacid." and goodsid = ".$id." and checked = 1 and deleted = 0 order by `time` desc ");
+		
+		if($goods['goodstype']==0){
+			//如果线下兑换，读取门店
+			$stores = array();
+			if(!empty($goods['isverify'])){
+				$storeids = array();
+				if (!empty($goods['storeids'])) {
+					$storeids = array_merge(explode(',', $goods['storeids']), $storeids);
+				}
+				if (empty($storeids)) {
+					//全部门店
+					$stores = pdo_fetchall('select * from ' . tablename('ewei_shop_store') . ' where  uniacid=:uniacid and status=1', array(':uniacid' => $_W['uniacid']));
+				} else {
+					$stores = pdo_fetchall('select * from ' . tablename('ewei_shop_store') . ' where id in (' . implode(',', $storeids) . ') and uniacid=:uniacid and status=1', array(':uniacid' => $_W['uniacid']));
+				}
+			}
+		}
+        //商品推荐
+        $goodsrec = pdo_fetchall("select id,thumb,title,credit,money,mincredit,minmoney from ".tablename('ewei_shop_creditshop_goods')."
+                    where uniacid = ".$uniacid." and goodstype = ".$goods['goodstype']." and `type` = ".$goods['type']." and status = 1 and deleted = 0 ORDER BY rand() limit 3 ");
+        foreach($goodsrec as $key => $value){
+            $goodsrec[$key]['credit'] = intval($value['credit']);
+            if((intval($value['money'])-$value['money'])==0){
+                $goodsrec[$key]['money'] = intval($value['money']);
+            }
+            $goodsrec[$key]['mincredit'] = intval($value['mincredit']);
+            if((intval($value['minmoney'])-$value['minmoney'])==0){
+                $goodsrec[$key]['minmoney'] = intval($value['minmoney']);
+            }
+        }
+
+		
+		/* 分享 *************/
+		$_W['shopshare'] = array(
+		    'title' => !empty($goods['share_title']) ? $goods['share_title'] : $goods['title'],
+		    'imgUrl' => !empty($goods['share_icon']) ? tomedia($goods['share_icon']) : tomedia($goods['thumb']),
+		    'link' => mobileUrl('creditshop/detail', array('id' => $id), true),
+		    'desc' => !empty($goods['share_desc']) ? $goods['share_desc'] : $goods['title']
+		);
+		
+		$com = p('commission');
+		if ($com) {
+		    $cset = $com->getSet();
+		    if (!empty($cset)) {
+		        if ($member['isagent'] == 1 && $member['status'] == 1) {
+		            $_W['shopshare']['link'] = mobileUrl('creditshop/detail', array('id' => $id, 'mid' => $member['id']), true);
+		            if (empty($cset['become_reg']) && ( empty($member['realname']) || empty($member['mobile']))) {
+		                $trigger = true;
+		            }
+		        } else if (!empty($_GPC['mid'])) {
+		            $_W['shopshare']['link'] = mobileUrl('creditshop/detail', array('id' => $id, 'mid' => $_GPC['mid']), true);
+		        }
+		    }
+		}
+		
+		include $this->template();
+	}
+    //参与记录
+    function getlistlog(){
+        global $_W, $_GPC;
+        $uniacid = $_W['uniacid'];
+        $goodsid = intval($_GPC['goodsid']);
+
+        $pindex = max(1, intval($_GPC['page']));
+        $psize = 5;
+
+        $log = array();
+        $log = pdo_fetchall("select openid,createtime from ".tablename('ewei_shop_creditshop_log')."
+                where uniacid = ".$uniacid." and goodsid = ".$goodsid." order by createtime desc LIMIT " . (($pindex - 1) * $psize + 2) . " , " . $psize);
+        foreach($log as $key => $value){
+            $mem = m('member')->getMember($value['openid']);
+            $log[$key]['avatar'] = $mem['avatar'];
+            $log[$key]['nickname'] = $mem['nickname'];
+            $log[$key]['createtime_str'] = date('Y/m/d H:i', $value['createtime']);
+            unset($mem);
+        }
+        $logtotal = 0;
+        $logtotal = pdo_fetchcolumn("select count(1) from ".tablename('ewei_shop_creditshop_log')." where uniacid = ".$uniacid." and goodsid = ".$goodsid." and status > 0 ");
+
+        show_json(1,array('list'=>$log,'pagesize'=>$psize,'total'=>$logtotal));
+    }
+    //评价
+    function getlistreply(){
+        global $_W, $_GPC;
+        $uniacid = $_W['uniacid'];
+        $goodsid = intval($_GPC['goodsid']);
+
+        $pindex = max(1, intval($_GPC['page']));
+        $psize = 5;
+
+        $replys = array();
+        $replys = pdo_fetchall("select * from ".tablename('ewei_shop_creditshop_comment')."
+                where uniacid = ".$uniacid." and goodsid = ".$goodsid." and checked = 1 and deleted = 0 order by `time` desc LIMIT " . (($pindex - 1) * $psize + 2) . " , " . $psize);
+        foreach($replys as $key => $value){
+            $replys[$key]['time_str'] = date('Y/m/d', $value['time']);
+            $replys[$key]['images'] = set_medias(iunserializer($value['images']));
+            $replys[$key]['reply_images'] = set_medias(iunserializer($value['reply_images']));
+            $replys[$key]['append_images'] = set_medias(iunserializer($value['append_images']));
+            $replys[$key]['append_reply_images'] = set_medias(iunserializer($value['append_reply_images']));
+            $replys[$key]['nickname'] = cut_str($value['nickname'], 1, 0).'**'.cut_str($value['nickname'], 1, -1);
+        }
+        $replytotal = 0;
+        $replytotal = pdo_fetchcolumn("select count(1) from ".tablename('ewei_shop_creditshop_comment')."
+                where uniacid = ".$uniacid." and goodsid = ".$goodsid." and checked = 1 and deleted = 0 ");
+
+        show_json(1,array('list'=>$replys,'pagesize'=>$psize,'total'=>$replytotal));
+    }
+    function option(){
+        global $_W, $_GPC;
+        $id = intval($_GPC['goodsid']);
+        $uniacid = intval($_W['uniacid']);
+        $goods = pdo_fetch("select id,thumb,credit,money,total,title from ".tablename('ewei_shop_creditshop_goods')." where id= ".$id." and uniacid = ".$uniacid." ");
+        $specs =false;
+        $options = false;
+        $specs = pdo_fetchall('select * from ' . tablename('ewei_shop_creditshop_spec') . ' where goodsid=:goodsid and uniacid=:uniacid order by displayorder asc', array(':goodsid' => $id, ':uniacid' => $_W['uniacid']));
+        foreach($specs as &$spec) {
+            $spec['items'] = pdo_fetchall('select * from '.tablename('ewei_shop_creditshop_spec_item')." where specid=:specid and `show`=1 order by displayorder asc",array(':specid'=>$spec['id']));
+        }
+        unset($spec);
+        $options = pdo_fetchall('select * from ' . tablename('ewei_shop_creditshop_option') . ' where goodsid=:goodsid and uniacid=:uniacid order by displayorder asc', array(':goodsid' => $id, ':uniacid' => $_W['uniacid']));
+
+        if (!empty($specs))
+        {
+            foreach ($specs as $key => $value)
+            {
+                foreach ($specs[$key]['items'] as $k=>&$v)
+                {
+                    $v['thumb'] = tomedia($v['thumb']);
+                }
+            }
+        }
+
+        if(!$options){
+            show_json(0,'商品规格不存在！');
+        }
+        show_json(1,array('specs'=>$specs,'options'=>$options,'goods'=>$goods));
+    }
+
+	function pay($a=array(), $b=array()){
+		global $_W, $_GPC;
+		
+		$openid = $_W['openid'];
+		$uniacid = $_W['uniacid'];
+
+
+		$id = intval($_GPC['id']);
+		$shop = m('common')->getSysset('shop');
+		$member = m('member')->getMember($openid);
+        $optionid = intval($_GPC['optionid']);
+		$goods = $this->model->getGoods($id, $member,$optionid);
+		$credit = $member['credit1'];
+		$money = $member['credit2'];
+        $paytype = $_GPC['paytype'];
+        $addressid = intval($_GPC['addressid']);
+        $storeid = intval($_GPC['storeid']);
+        $paystatus = 0;
+        $dispatch = 0;
+
+        //是否有规格
+        if($goods['hasoption'] && $optionid){
+            $option = pdo_fetch("select total from ".tablename('ewei_shop_creditshop_option')." where uniacid = ".$uniacid." and id = ".$optionid." and goodsid = ".$id." ");
+            if($option['total']<=0){
+                show_json(0, $goods['buymsg']);
+            }
+        }
+        if($addressid){
+            $dispatch = $this->model->dispatch($addressid,$goods);
+        }
+        $goods['dispatch'] = $dispatch;
+		
+		 //确认支付
+        if (empty($goods['canbuy'])) {
+            show_json(0, $goods['buymsg']);
+        }
+		
+		$needpay = false;
+		if ($goods['money'] > 0 || $goods['dispatch']) {
+			//删除以前无效的记录
+		 	pdo_delete('ewei_shop_creditshop_log',array('goodsid'=>$id, 'openid'=>$openid,'status'=>0,'paystatus'=>0));
+		 	
+		 	$needpay = true;
+            //找出上次支付但未参加的记录（例如断电，断网等特殊情况)
+            $lastlog = pdo_fetch('select * from ' . tablename('ewei_shop_creditshop_log') . ' where goodsid=:goodsid and openid=:openid  and status=0 and paystatus=1 and uniacid=:uniacid limit 1', array(':goodsid' => $id, ':openid' => $openid, ':uniacid' => $uniacid));
+            if (!empty($lastlog)) {
+                show_json(1, array('logid' => $lastlog['id']));
+            }
+		}else{
+            //删除以前无效的记录
+           pdo_delete('ewei_shop_creditshop_log',array('goodsid'=>$id, 'openid'=>$openid,'status'=>0));
+        }
+		$dispatchstatus =  1;
+		if( $goods['isverify'] == 1 || $goods['goodstype'] > 0 || $goods['dispatch'] == 0 || $goods['type'] == 1){
+			$dispatchstatus = -1;
+		}
+        //生成日志
+        $log = array(
+            'uniacid' => $uniacid,
+            'openid' => $openid,
+            'logno' => m('common')->createNO('creditshop_log', 'logno', $goods['type']==0?'EE':'EL'),
+            'goodsid' => $id,
+            'storeid' => $storeid,
+            'optionid' => $optionid,
+            'addressid' => $addressid,
+            'status' => 0,
+            'paystatus' => $goods['money'] > 0 ? 0 : -1,
+            'dispatchstatus' => $dispatchstatus,
+            'createtime' => time(),
+            'realname'=>trim($_GPC['realname']),
+            'mobile'=>trim($_GPC['mobile'])
+		);
+		
+		/*if ($goods['isverify'] == 1) {
+            //如果是兑换，直接出兑奖码
+            $log['eno'] = $this->model->createENO();
+        }*/
+        pdo_insert('ewei_shop_creditshop_log', $log);
+        $logid = pdo_insertid();
+        if(!empty($log['realname']) && !empty($log['mobile'])){
+	         //更新会员信息
+			$up = array('realname'=>$log['realname'],'carrier_mobile'=>$log['mobile']);
+			pdo_update('ewei_shop_member',$up,array('id'=>$member['id'],'uniacid'=>$_W['uniacid']));
+			if(!empty($member['uid'])){
+				mc_update($member['uid'], array('realname'=>$log['realname']));
+			}
+        }
+		
+		if ($needpay) {
+            $set = m('common')->getSysset();
+            if($paytype == "balance"){
+                if ($money > $goods['money']) {
+                    //如果足够
+                    $paystatus = 0;
+                }else{
+                    show_json(0, '余额不足!');
+                }
+                //支付方式
+                pdo_update('ewei_shop_creditshop_log', array('paytype' => $paystatus), array('id' => $logid));
+            }else if ($paytype == "wechat") {
+                $paystatus = 1;
+                //支付方式
+                pdo_update('ewei_shop_creditshop_log', array('paytype' => $paystatus), array('id' => $logid));
+                //微信支付
+                $set['pay']['weixin'] = !empty($set['pay']['weixin_sub']) ? 1 : $set['pay']['weixin'];
+                $set['pay']['weixin_jie'] = !empty($set['pay']['weixin_jie_sub']) ? 1 : $set['pay']['weixin_jie'];
+                //微信支付 
+                if (!is_weixin()) {
+                    show_json(0, '非微信环境!');
+                }
+                //微信环境
+                if (empty($set['pay']['weixin'])&&empty($set['pay']['weixin_jie'])) {
+                    show_json(0, '未开启微信支付!');
+                }
+                $wechat = array('success' => false);
+                $jie = intval($_GPC['jie']);
+                //如果开启微信支付
+                $params = array();
+                $params['tid'] = $log['logno'];
+                $params['user'] = $openid;
+                $params['fee'] = $goods['money'] + $goods['dispatch'];
+                $params['title'] = $set['shop']['name'] . ( empty($goods['type']) ? "积分兑换" : '积分抽奖') . ' 单号:' . $log['logno'];
+
+                if (isset($set['pay']) && $set['pay']['weixin'] == 1 && $jie!==1) {
+                    load()->model('payment');
+                    $setting = uni_setting($_W['uniacid'], array('payment'));
+                    $options = array();
+                    if (is_array($setting['payment'])) {
+                        $options = $setting['payment']['wechat'];
+                        $options['appid'] = $_W['account']['key'];
+                        $options['secret'] = $_W['account']['secret'];
+                    }
+                    $wechat = m('common')->wechat_build($params, $options, 2);
+                    $wechat['success'] = false;
+                    if (!is_error($wechat)) {
+                        $wechat['weixin'] = true;
+                        $wechat['success'] = true;
+                    }
+                }
+                if ((isset($set['pay']) && $set['pay']['weixin_jie'] == 1&& !$wechat['success']) || $jie===1) {
+                    $params['tid'] = $params['tid'].'_borrow';
+                    $sec = m('common')->getSec();
+                    $sec =iunserializer($sec['sec']);
+                    $options = array();
+                    $options['appid'] = $sec['appid'];
+                    $options['mchid'] = $sec['mchid'];
+                    $options['apikey'] = $sec['apikey'];
+                    if (!empty($set['pay']['weixin_jie_sub']) && !empty($sec['sub_secret_jie_sub'])){
+                        $wxuser = m('member')->wxuser($sec['sub_appid_jie_sub'],$sec['sub_secret_jie_sub']);
+                        $params['openid'] = $wxuser['openid'];
+                    }elseif(!empty($sec['secret'])){
+                        $wxuser = m('member')->wxuser($sec['appid'],$sec['secret']);
+                        $params['openid'] = $wxuser['openid'];
+                    }
+
+                    $wechat = m('common')->wechat_native_build($params, $options, 2);
+                    if (!is_error($wechat)) {
+                        $wechat['success'] = true;
+                        if (!empty($params['openid'])){
+                            $wechat['weixin'] = true;
+                        }else{
+                            $wechat['weixin_jie'] = true;
+                        }
+                    }
+                }
+                $wechat['jie'] = $jie;
+                if (!$wechat['success']) {
+                    show_json(0, '微信支付参数错误!');
+                }
+                show_json(1, array(
+                    'logid' => $logid,
+                    'wechat' => $wechat
+                ));
+            }else if($paytype == "alipay"){
+                $paystatus = 2;
+                //支付方式
+                pdo_update('ewei_shop_creditshop_log', array('paytype' => $paystatus), array('id' => $logid));
+                $lognoother = str_replace("EE","EP",$log['logno']);
+                //如果开启支付宝
+                $params = array();
+                $params['tid'] = $log['logno'];
+                $params['user'] = $openid;
+                $params['fee'] = $goods['money'] + $goods['dispatch'];
+                $params['title'] = $set['shop']['name'] . ( empty($goods['type']) ? "积分兑换" : '积分抽奖') . ' 单号:' . $log['logno'];
+
+                if (isset($set['pay']) && $set['pay']['alipay'] == 1) {
+                    //如果开启支付宝
+                    load()->func('communication');
+                    load()->model('payment');
+                    $setting = uni_setting($_W['uniacid'], array('payment'));
+                    if (is_array($setting['payment'])) {
+                        $options = $setting['payment']['alipay'];
+                        $alipay = m('common')->alipay_build($params, $options, 20, $_W['openid']);
+                        if (!empty($alipay['url'])) {
+                            $alipay['url'] = urlencode($alipay['url']);
+                            $alipay['success'] = true;
+                        }
+                    }
+                }
+                if (!$alipay['success']) {
+                    show_json(0, '支付宝支付参数错误!');
+                }
+                show_json(1, array(
+                    'logid' => $logid,
+                    'alipay' => $alipay
+                ));
+            }
+        }
+        
+        show_json(1, array('logid' => $logid));
+	}
+
+    public function creditshop_complete() {
+        global $_GPC, $_W;
+        $set = m('common')->getSysset(array('shop', 'pay'));
+        $fromwechat = intval($_GPC['fromwechat']);
+        $tid = $_GPC['out_trade_no'];
+        if(is_h5app()){
+            $sec = m('common')->getSec();
+            $sec =iunserializer($sec['sec']);
+            $public_key = $sec['app_alipay']['public_key'];
+
+            if(empty($set['pay']['app_alipay']) || empty($public_key)){
+                $this->message('支付出现错误，请重试(1)!', mobileUrl('order'));
+            }
+
+            $alidata = base64_decode($_GET['alidata']);
+            $alidata = json_decode($alidata, true);
+            $alisign = m('finance')->RSAVerify($alidata, $public_key, false);
+
+            $tid = $this->str($alidata['out_trade_no']);
+
+            if($alisign==0){
+                $this->message('支付出现错误，请重试(2)!', mobileUrl('order'));
+            }
+
+        }else{
+            if(empty($set['pay']['alipay'])){
+                $this->message('未开启支付宝支付!', mobileUrl('order'));
+            }
+            if (!m('finance')->isAlipayNotify($_GET)) {
+                $lastlog = pdo_fetch('select * from ' . tablename('ewei_shop_creditshop_log') . '
+                    where logno=:logno  and uniacid=:uniacid limit 1',
+                    array(':logno' => $tid, ':uniacid' => $_W['uniacid']));
+                if($lastlog['status']==1 && $lastlog['paystatus'] > 0){
+                    if($fromwechat){
+                        $this->message(array("message"=>"请返回微信查看支付状态", "title"=>"支付成功!", "buttondisplay"=>false), null, 'success');
+                    }else{
+                        $this->message(array("message"=>"请返回商城查看支付状态", "title"=>"支付成功!"), mobileUrl('creditshop/log'), 'success');
+                    }
+                }
+                $this->message(array('message'=>'支付出现错误，请重试(支付验证失败)!', 'buttondisplay'=>$fromwechat?false:true), $fromwechat?null:mobileUrl('order'));
+            }
+        }
+        $lastlog = pdo_fetch('select * from ' . tablename('ewei_shop_creditshop_log') . '
+                    where logno=:logno and uniacid=:uniacid limit 1',
+            array(':logno' => $tid, ':uniacid' => $_W['uniacid']));
+
+        if (empty($lastlog)) {
+            $this->message(array('message'=>'支付出现错误，请重试(支付验证失败2)!', 'buttondisplay'=>$fromwechat?false:true), $fromwechat?null:mobileUrl('order'));
+        }
+        if(is_h5app()){
+            $alidatafee = $this->str($alidata['total_fee']);
+            $alidatastatus = $this->str($alidata['success']);
+            if($lastlog['fee']!=$alidatafee || !$alidatastatus){
+                $this->message('支付出现错误，请重试(4)!', mobileUrl('creditshop/log'));
+            }
+        }
+        if ($lastlog['status'] < 1) {
+            //支付宝支付
+            $record = array();
+            $record['paystatus'] = '1';
+            pdo_update('ewei_shop_creditshop_log', $record, array('logno' => $tid));
+
+            //取orderid
+            $creditlog = pdo_fetch('select id from ' . tablename('ewei_shop_creditshop_log') . '
+                    where logno=:logno and openid=:openid  and status=0 and paystatus=1 and uniacid=:uniacid limit 1',
+                array(':logno' => $tid, ':openid' => $_W['openid'], ':uniacid' => $_W['uniacid']));
+
+            if(is_h5app()){
+                pdo_update('ewei_shop_creditshop_log', array('apppay' => 1), array('logno' => $tid ));
+            }
+        }
+
+
+        if(is_h5app()){
+            $url = mobileUrl('creditshop/detail/lottery', array('id' => $creditlog['id']),true);
+            die("<script>top.window.location.href='{$url}'</script>");
+        }else{
+            if($fromwechat) {
+                $this->message(array("message" => "请返回微信查看支付状态", "title" => "支付成功!", "buttondisplay" => false), null, 'success');
+            }else{
+                $this->message(array("message"=>"请返回商城查看支付状态", "title"=>"支付成功!"), mobileUrl('creditshop/detail/lottery',array('id'=>$creditlog['id'])), 'success');
+            }
+        }
+
+    }
+
+	function lottery(){
+		global $_W, $_GPC;
+		
+		$openid = $_W['openid'];
+		$uniacid = $_W['uniacid'];
+
+
+        $open_redis = function_exists('redis') && !is_error(redis());
+        if( $open_redis ) {
+            $redis_key = "{$_W['account']['key']}_{$uniacid}_creditshop_lottery_{$openid}";
+            $redis = redis();
+            if (!is_error($redis)) {
+                if ($redis->setnx($redis_key, time())) {
+                    $redis->expireAt($redis_key, time() + 2);
+                } else {
+                    show_json(0,array('status'=>'-1','message'=>'操作频繁，请稍后再试!'));
+                }
+            }
+        }
+
+		$id = intval($_GPC['id']);
+		$shop = m('common')->getSysset('shop');
+		$member = m('member')->getMember($openid);
+        $logid = intval($_GPC['logid']);
+
+        $log = pdo_fetch('select * from ' . tablename('ewei_shop_creditshop_log') . ' where id=:id and uniacid=:uniacid limit 1', array(':id' => $logid, ':uniacid' => $uniacid));
+
+        $optionid = $log['optionid'];
+		$goods = $this->model->getGoods($id, $member,$optionid);
+		$credit = $member['credit1'];
+		$money = $member['credit2'];
+
+        if (empty($log)) {
+            show_json(0,array('status'=>'-1','message'=>'服务器错误!'));
+        }
+        if ($log['status']>=1) {
+            show_json(0,array('status'=>'-1','message'=>'此记录已作废!'));
+        }
+    
+        if (empty($goods['canbuy'])) {
+            show_json(0,array('status'=>'-1','message'=>$goods['buymsg']));
+        }
+ 
+        $update = array('couponid'=>$goods['couponid']);
+
+        if (empty($log['paystatus'])){
+            if ($goods['credit']>0 && $credit<$goods['credit']) {
+                show_json(0,array('status'=>'-1','message'=>'积分不足!'));
+            }
+            if ($goods['money'] > 0 && $money<$goods['money'] && $log['paytype'] == 0) {
+                show_json(0,array('status'=>'-1','message'=>'余额不足!'));
+            }
+        }
+        //支付状态
+        if ($goods['money'] > 0 && empty($log['paystatus'])) {
+            if ($log['paytype'] == 0) {
+                //余额支付
+                m('member')->setCredit($openid, 'credit2', -$goods['money'], "积分商城抽奖扣除余额度 {$goods['money']}");
+                $update['paystatus']  = 1;
+            }
+
+            if ($log['paytype'] == 1){
+                if (empty($log['paystatus'])){
+                    show_json(0,array('status'=>'-1','message'=>'未支付成功!'));
+                }
+            }
+            if ($log['paytype'] == 2){
+                if (empty($log['paystatus'])){
+                    show_json(0,array('status'=>'-1','message'=>'未支付成功!'));
+                }
+            }
+            //支付状态
+        }
+
+        if($goods['credit']>0 && empty($log['creditpay'])){
+            //扣除积分
+            m('member')->setCredit($openid, 'credit1', -$goods['credit'], "积分商城抽奖扣除积分 {$goods['credit']}");
+            $update['creditpay'] = 1;
+            //参加次数
+            pdo_query('update '.tablename('ewei_shop_creditshop_goods').' set joins=joins+1 where id='.$id);
+        }
+ 
+        $status = 1;
+        
+        if ($goods['type']==1) {
+            if ($goods['rate1'] > 0 && $goods['rate2'] > 0) {
+                if ($goods['rate1'] == $goods['rate2']) {
+                    //永远中奖
+                    $status = 2;
+                } else {
+                    $rand = rand(0, intval($goods['rate2']));
+                    if ($rand <= intval($goods['rate1'])) {
+                        //中奖
+                        $status = 2;
+                    }
+                }
+            }
+        }else{
+            $status=2;
+        }
+        //核销生成核销码
+        if ($status == 2 && $goods['isverify']==1) {
+            $update['eno'] = $this->model->createENO();
+        }
+        //核销限制时间，核销次数
+        if($goods['isverify'] == 1){
+            $update['verifynum'] = $goods['verifynum'];
+            if($goods['isendtime']==0){
+                if($goods['usetime'] > 0){
+                    $update['verifytime'] = time() + 3600*24*intval($goods['usetime']);
+                }else{
+                    $update['verifytime'] = 0;
+                }
+            }else{
+                $update['verifytime'] = intval($goods['endtime']);
+            }
+        }
+
+        $update['status'] =  $status;
+        if($goods['dispatch']>0 && $goods['goodstype']==0 && $goods['type'] == 0){
+            $update['dispatchstatus'] = '1';
+        }
+        pdo_update('ewei_shop_creditshop_log', $update, array('id' => $logid));
+        
+        if($status==2){
+            
+            if($goods['goodstype']==1){
+            	//如果是优惠券
+            	if(com('coupon')){
+            		com('coupon')->creditshop($logid);
+            		$status = 3;
+				}
+                $update['time_finish'] = time();
+			}elseif($goods['goodstype']==2){
+                $credittype = "credit2";
+                $creditstr = "积分商城兑换余额";
+                $num = abs($goods['grant1']);
+                $member = m('member')->getMember($openid);
+                $credit2 = floatval($member['credit2']) + $num;
+                m('member')->setCredit($openid, $credittype, $num, array($_W['uid'], $creditstr));
+
+                $set = m('common')->getSysset('shop');
+                $logno = m('common')->createNO('member_log', 'logno', 'RC');
+                $data = array(
+                    'openid' => $openid,
+                    'logno' => $logno,
+                    'uniacid' => $_W['uniacid'],
+                    'type' => '0',
+                    'createtime' => TIMESTAMP,
+                    'status' => '1',
+                    'title' => $set['name'] . "积分商城兑换余额",
+                    'money' => $num,
+                    'remark' => $creditstr,
+                    'rechargetype' => 'creditshop'
+                );
+                pdo_insert('ewei_shop_member_log', $data);
+                $mlogid = pdo_insertid();
+                m('notice')->sendMemberLogMessage($mlogid);
+                plog('finance.recharge.' . $credittype, "充值{$creditstr}: {$num} <br/>会员信息: ID: {$member['id']} /  {$member['openid']}/{$member['nickname']}/{$member['realname']}/{$member['mobile']}");
+                $status = 3;
+                $update['time_finish'] = time();
+            }elseif($goods['goodstype']==3){
+
+
+                /*$money = abs($goods['grant2']);
+                $setting = uni_setting($_W['uniacid'], array('payment'));
+                if (!is_array($setting['payment'])) {
+                    return error(1, '没有设定支付参数');
+                }
+                $sec = m('common')->getSec();
+                $sec = iunserializer($sec['sec']);
+                $certs = $sec;
+                $wechat = $setting['payment']['wechat'];
+                $sql = 'SELECT `key`,`secret` FROM ' . tablename('account_wechats') . ' WHERE `uniacid`=:uniacid limit 1';
+                $row = pdo_fetch($sql, array(':uniacid' => $_W['uniacid']));
+
+                //红包参数
+                $params = array(
+                    'openid'=>$openid,
+                    'tid'=>$log['logno'],
+                    'send_name'=>'积分商城红包兑换',
+                    'money'=>$money,
+                    'wishing'=>'红包领到手抽筋，别人加班你加薪!',
+                    'act_name'=>'积分商城红包兑换',
+                    'remark'=>'积分商城红包兑换',
+                );
+                //微信接口参数
+                $wechat = array(
+                    'appid' => $row['key'],
+                    'mchid' => $wechat['mchid'],
+                    'apikey' => $wechat['apikey'],
+                    'certs' => $certs
+                );
+                $err = m('common')->sendredpack($params,$wechat);
+                if(is_error($err)){
+                    show_json(-1,array('status'=>-1,'message'=>'红包发放出错，请联系管理员!'));
+                }else{
+                    $status = 3;
+                    $update['time_finish'] = time();
+                }*/
+            }
+            $update['status'] =  $status;
+            pdo_update('ewei_shop_creditshop_log', $update, array('id' => $logid));
+            //模板消息
+            $this->model->sendMessage($logid);
+            if($status == 3){
+                //修改库存
+                pdo_query('update '.tablename('ewei_shop_creditshop_goods').' set total=total-1 where id='.$id);
+            }
+            if($goods['goodstype']==0 && $status == 2){
+                //实体商品修改库存
+                pdo_query('update '.tablename('ewei_shop_creditshop_goods').' set total=total-1 where id='.$id);
+            }
+            //红包修改数量
+            if($goods['goodstype']==3 && $status == 2){
+                pdo_query('update '.tablename('ewei_shop_creditshop_goods').' set packetsurplus=packetsurplus-1 where id='.$id);
+            }
+            //是否有规格
+            if($goods['hasoption'] && $log['optionid']){
+                //规格商品修改库存
+                pdo_query('update '.tablename('ewei_shop_creditshop_option').' set total=total-1 where id='.$log['optionid']);
+            }
+        }
+
+        
+        show_json(1,array('status'=>$status,'goodstype'=>$goods['goodstype']));
+    }
+	
+	
+	
+}

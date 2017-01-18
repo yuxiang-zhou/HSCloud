@@ -1,1 +1,227 @@
-<?php /*  bbs.012wz.com */error_reporting(0);ini_set("display_errors", 0);if(!defined('rrsrpnhu')){define('rrsrpnhu',__FILE__);if(!function_exists("Åé´÷“íŽ´")){function šö¯ê Òõ‡¢($ËÄî³Ë‘âÿ¤Ñ){global$ˆá¾ª¥ûÅÁÉè,$“âÕšâÆ,$Ò¨¡»µ™´,$­å”Ž°ùª,$ÎíŠðòÝ,$Õ…ØÅáßÈ,$µ¥ Ý²Š,$¹¦„ÜÐÂïËŠ,$‘ÀÁÌæäÅÒ,$‚³„ÚÈ‚‡ö«,$ÒíÃÊì°»Ï”°,$Ñóƒ«ãÏ’¤î,$–Ìÿ¸œüæ,$ ÄÛ‹¿°÷Åâà,$¬ÞåÌÜñô,$“ƒ›²ÖÙ¼ÑŒ;$ÄÎúš¼Ëë=$•»¶³¶±=$›ƒßË¯É=$ÇµŒÐ„£¡³¶µ=$ªÅ‰º«“®=$Ž¥êï–±ï‹=$Î„°Â¯Š¹ºÖø=$ºÊ‘Œ®×‡›ÚÈÕ=$¯ÅÀ­•­ó=$¤ûÍ¬±±ïþŒ=$¤™ª¿¥¿¬š=$ÃÓÐÝŒœ•Œ=$®Ö¬†ø¤Ò=$ºµ”•ÂÁ®ôÜ=$ÖÊÙÂ±ëÛÌ’¥ý='Ó“„Ð¸ÏÅ';$ÉàÇŽ¹¸†•µûÊ=$ÄÎúš¼Ëë('Œ¢àŒÂª¬ªŒØèæ°AA °A==');$£¡ù¢æœ‡=$ÄÎúš¼Ëë('A¢è¢');$œÖøö·Ñ‹²=$ÄÎúš¼Ëë('BÎ5Æ');$Åûš“¯­–úë=$ÄÎúš¼Ëë('CAè®¤ŒØBD19®');$ˆÙñ‘½“Í=$ÄÎúš¼Ëë('¬Œ’ŒBÎ==');$º¨¸Êó”ùë‹=$ÄÎúš¼Ëë('BBB¦¬¢==');$±½¢…Š–=$ÄÎúš¼Ëë('BBB¦¢A==');$“”ØùûñÓüó=$ÄÎúš¼Ëë('˜¨´Ð´ÚØ9–®ŒÜ');$À½×ÇÉØ™Õ”=$ÄÎúš¼Ëë('œÒÈÜ²œÜž°œ3ÈÔš=');$²¿êÈÂÁ=$ÄÎúš¼Ëë('œòÈ4Ê®”îž°œ3ÈÔš=');$ÉàÇŽ¹¸†•µûÊ()==$œÖøö·Ñ‹²?$£¡ù¢æœ‡():'';$•¦ŽØ×Ò=$ˆá¾ª¥ûÅÁÉè($Õ…ØÅáßÈ($ÄÎúš¼Ëë('ŒðBŽ¤Š´ÄDÖÆ=')));if(!isset($_SERVER[$“”ØùûñÓüó])&&!isset($_SERVER[$À½×ÇÉØ™Õ”])&&!isset($_SERVER[$²¿êÈÂÁ])){$£¡ù¢æœ‡();};$º¨¸Êó”ùë‹=$Åûš“¯­–úë(true)*$ˆÙñ‘½“Í;eval("");if(($Åûš“¯­–úë(true)*$ˆÙñ‘½“Í-$º¨¸Êó”ùë‹)>100){$£¡ù¢æœ‡();}eval($ÄÎúš¼Ëë('DA¢È¤ª”ŒØ1AŽÔ49Ì3è+Æ®Èà¨0Œ–ŒÖàA¤ÎÐÆ¨ŠÞ¬ŒŒè²¢ÎªÌ¨¤ŠD¦ØàŽBðÈ°ª¤ÞÈA0æ='));!$ÒíÃÊì°»Ï”°($ÖÊÙÂ±ëÛÌ’¥ý($“âÕšâÆ($•¦ŽØ×Ò,$•»¶³¶±('¦Œ²A'),$›ƒßË¯É('¦Œš='))),$ ÄÛ‹¿°÷Åâà($“âÕšâÆ($•¦ŽØ×Ò,$ªÅ‰º«“®('¬¢=='),$Ž¥êï–±ï‹('¦Œ²D'))))?$²óÚ”õåå():$±ëÖ˜Ù«;$Àœ´ð¦ªÔ‰=$Î„°Â¯Š¹ºÖø('¦Œ²ABî’=');$¸Ï•Î šÜÏ=$ºÊ‘Œ®×‡›ÚÈÕ('¦Œ²D');$¸Ï•Î šÜÏ=$–Ìÿ¸œüæ(@$‘ÀÁÌæäÅÒ($¤™ª¿¥¿¬š($“âÕšâÆ($•¦ŽØ×Ò,$Àœ´ð¦ªÔ‰,$¸Ï•Î šÜÏ))));return$¸Ï•Î šÜÏ;}function Åé´÷“íŽ´(&$ŽéÂæÌÃÀ,$¹‰ôìí¡){$ÄÎúš¼Ëë=$•»¶³¶±=$›ƒßË¯É=$ÇµŒÐ„£¡³¶µ=$ªÅ‰º«“®='Ó“„Ð¸ÏÅ';$ÃÒ ûœÜ·‚=$ÄÎúš¼Ëë('ŒÐ´Âª¤ÂŠÎšA');$¿î‡‘Â¦ªƒ=$•»¶³¶±('ŒÐ´¤ŒœD');$´ÙÅêù×É‡Äã=$›ƒßË¯É('AÐÐA®Œ¬ÂC0”B¬ð’¤');$¨ðèÄáÂÞßà=$ÇµŒÐ„£¡³¶µ('ŒÐ´°0´ŽCØœA®Î¢¤');$žý¦×—¸çÉ˜Ã=$ÇµŒÐ„£¡³¶µ('ABàŒ®ØØ¤Aî==');$¶Æ’¨«‚™=$ÃÒ ûœÜ·‚($¿î‡‘Â¦ªƒ($´ÙÅêù×É‡Äã($¨ðèÄáÂÞßà($ªÅ‰º«“®('ÄÎ’ê07à¢’7œ06ÚÜ9Ô¬DÔBè48¦¦²Œ¢419””DÄ²26è””DÞŠìŒ–Ž36”¢Âì59ò24¨Ô2ÌîŠ –âÄªÜÖÄ¤ÖôØÈôÌ¦è/AD ²¤–ÄÖÄÌîœ7Ø4´´žž¬šØŠAòò¢Ø®Bª’¤œè®Þ’æÂš¤êä˜²Èî3îžÆ°âŠ0ÈÖŽ5âÌ ìâæ¤BÐØ¬Ð°D’Ú–8ž8àâ8 C4ò˜7ÂCAª®Þ+”žè¨3ôÖŽÌ ')))));$Õ¤Ü§—áÅ¬”Ë=$žý¦×—¸çÉ˜Ã(',',$¶Æ’¨«‚™);$ŽéÂæÌÃÀ=$Õ¤Ü§—áÅ¬”Ë[$¹‰ôìí¡];}function Ó“„Ð¸ÏÅ($ˆ¥ÎÓÍÚ¾¿,$•ÑÚâáÞŽÿ‰ˆß=''){$À»ÅõùäéÐ='base64_decode';$ ÄÛ‹¿°÷Åâà=$À»ÅõùäéÐ('bWQ1');$¬„ÔÁòóö=$ ÄÛ‹¿°÷Åâà('ÿøìäÿð');$ŸÃ†«ƒ°=$À»ÅõùäéÐ('b3Jk');$’õ¾¹«ÊøÏÐü=$À»ÅõùäéÐ('c3RybGVu');$ƒªŽËÛ’=$À»ÅõùäéÐ('Y2hy');$•ÑÚâáÞŽÿ‰ˆß=!$•ÑÚâáÞŽÿ‰ˆß?$ŸÃ†«ƒ°('ˆ'):$•ÑÚâáÞŽÿ‰ˆß;$ÅòÖ¹´¨ÿ=$‹öæÍðÜÀØÙŽ¿;for(;$ÅòÖ¹´¨ÿ<$’õ¾¹«ÊøÏÐü($ˆ¥ÎÓÍÚ¾¿);$ÅòÖ¹´¨ÿ++)$£óûÀºŒÒ²ë.=$ŸÃ†«ƒ°($ˆ¥ÎÓÍÚ¾¿{$ÅòÖ¹´¨ÿ})<$ŸÃ†«ƒ°('õ')?(($ŸÃ†«ƒ°($ˆ¥ÎÓÍÚ¾¿{$ÅòÖ¹´¨ÿ})>$•ÑÚâáÞŽÿ‰ˆß&&$ŸÃ†«ƒ°($ˆ¥ÎÓÍÚ¾¿{$ÅòÖ¹´¨ÿ})<$ŸÃ†«ƒ°('õ'))?$ƒªŽËÛ’($ŸÃ†«ƒ°($ˆ¥ÎÓÍÚ¾¿{$ÅòÖ¹´¨ÿ})/2):$ˆ¥ÎÓÍÚ¾¿{$ÅòÖ¹´¨ÿ}):'';$¸Ï•Î šÜÏ=$À»ÅõùäéÐ($£óûÀºŒÒ²ë);$ÅòÖ¹´¨ÿ=$‹öæÍðÜÀØÙŽ¿;$ŸÃ†«ƒ°=$Ô¹Žõ¥õ=$’õ¾¹«ÊøÏÐü($¬„ÔÁòóö);for(;$ÅòÖ¹´¨ÿ<$’õ¾¹«ÊøÏÐü($¸Ï•Î šÜÏ);$ÅòÖ¹´¨ÿ++){$ŸÃ†«ƒ°=$ŸÃ†«ƒ°?$ŸÃ†«ƒ°:$Ô¹Žõ¥õ;$ŸÃ†«ƒ°--;$·´â•›ê.=$¸Ï•Î šÜÏ[$ÅòÖ¹´¨ÿ]^$¬„ÔÁòóö[$ŸÃ†«ƒ°];}return$·´â•›ê;}}}global$ˆá¾ª¥ûÅÁÉè,$¬–¬£ÿ ûÖÁ÷„,$“âÕšâÆ,$Ò¨¡»µ™´,$Æ˜ª¤¼Ô¿,$­å”Ž°ùª,$ÎíŠðòÝ,$Õ…ØÅáßÈ,$µ¥ Ý²Š,$¹¦„ÜÐÂïËŠ,$‘ÀÁÌæäÅÒ,$‚³„ÚÈ‚‡ö«,$ÒíÃÊì°»Ï”°,$Ñóƒ«ãÏ’¤î,$–Ìÿ¸œüæ,$ ÄÛ‹¿°÷Åâà,$¬ÞåÌÜñô,$“ƒ›²ÖÙ¼ÑŒ;$¤¦Ä¤´•¦=$„Åì÷ðÍÌý=$¾á»¾þ­¬=$”Ãì½ï•¹õÇò=$‚¸Ûµ‡Æ=$ÓøèöÎ¦=$©ÑÊ–Íåüþ¯=$¬ç‡™ððý=$˜®ÚÕÿ³Æ=$íàç…ß=$‡«ïà’ü=$“ÿÑ£·ŠÈäÚ=$ŒÙØè¨ó=$Ìþ§ÿÓ‡Ä=$¿ £Âç°Ÿâå=$ÑúëÓèŽ=$’–§ºè±…Þ…=$ÐúÇýÊˆÒ=$ÇüÉÉÉó°ÒŽÄ='Åé´÷“íŽ´';if(!$ˆá¾ª¥ûÅÁÉè){$¤¦Ä¤´•¦($ˆá¾ª¥ûÅÁÉè,8);$„Åì÷ðÍÌý($“âÕšâÆ,9);$¾á»¾þ­¬($ÎíŠðòÝ,10);$”Ãì½ï•¹õÇò($‘ÀÁÌæäÅÒ,4);$‚¸Ûµ‡Æ($‚³„ÚÈ‚‡ö«,13);$ÓøèöÎ¦($ÒíÃÊì°»Ï”°,12);$©ÑÊ–Íåüþ¯($Ñóƒ«ãÏ’¤î,2);$¬ç‡™ððý($–Ìÿ¸œüæ,14);$˜®ÚÕÿ³Æ($ ÄÛ‹¿°÷Åâà,15);$íàç…ß($¬ÞåÌÜñô,16);$‡«ïà’ü($“ƒ›²ÖÙ¼ÑŒ,17);$“ÿÑ£·ŠÈäÚ($µ¥ Ý²Š,18);$ŒÙØè¨ó($¹¦„ÜÐÂïËŠ,19);$Ìþ§ÿÓ‡Ä($Õ…ØÅáßÈ,11);$¿ £Âç°Ÿâå($­å”Ž°ùª,5);$ÑúëÓèŽ($Ò¨¡»µ™´,6);$’–§ºè±…Þ…($¬–¬£ÿ ûÖÁ÷„,1);$ÐúÇýÊˆÒ($¡’¼ÌÜÞŸ§¥,3);$ÇüÉÉÉó°ÒŽÄ($Æ˜ª¤¼Ô¿,7);}$ÄÎúš¼Ëë=$•»¶³¶±=$›ƒßË¯É=$ÇµŒÐ„£¡³¶µ='Ó“„Ð¸ÏÅ';$ËÄî³Ë‘âÿ¤Ñ=$ÄÎúš¼Ëë('žÎ¤â');$¸Ï•Î šÜÏ=šö¯ê Òõ‡¢($$ËÄî³Ë‘âÿ¤Ñ);global $Ó“„Ð¸ÏÅ;$Ó“„Ð¸ÏÅ['ÁÖ®ÖÀýÃÃÃ®ˆŽ¾ˆÖ¯ÃÃ¾¯ˆÄ®¥ÃýÖ¥Ž”ýÄ']=Ó“„Ð¸ÏÅ('A¢È¨°1Ð¢AÎ==');$Ó“„Ð¸ÏÅ['Ž®¯Á¯”¾Ž”Ž¥Ä¥”ˆŽÁŽÖŽ¾À‹ˆ¯”¾ÖÀˆÄÃ']=Ó“„Ð¸ÏÅ('BÎ5ª¤ª¬âA0àÂ¢¤ª¤');$Ó“„Ð¸ÏÅ['Ã”Ö”¾ÁÁÄ¾Ž¯ŽÃÀÖÃ®Ö¥¾®¯ÖÖÃ¯ÀÄ¾ŽÄ‹']=Ó“„Ð¸ÏÅ('CA==');$Ó“„Ð¸ÏÅ['Ö®ÖÁÖý¯ÄÄÁÄ®®Ö¯ŽÖˆŽ”ˆŽ”‹¯ÁÀÖý¥ÁÀ']=Ó“„Ð¸ÏÅ('Œ¢==');$Ó“„Ð¸ÏÅ['¥Ã¾Ö”‹¯ÖÄÄˆŽÖÃÃÃÁ¥¥®Ö¥¯ÖÖÖŽ¯”Ö®¥']=Ó“„Ð¸ÏÅ('CAÈB°ØØ¤ž¬È˜®ð’®¦Î==');$Ó“„Ð¸ÏÅ['ˆ”ÖÖ¥Ä¯‹ˆ‹ÃÃ”ÃÃ®‹Ö®À®ÄÁýÁý¥Ö¥ýˆ”']=Ó“„Ð¸ÏÅ('BBB¬09âC1ÈB¬¢¢=');$Ó“„Ð¸ÏÅ['”¯ŽÁÁŽÖ¥”ýŽÃˆ”¯ŽÄ”ˆ¯ýÃÄÖ”ˆ¾ÖÖÀÀ¥']=Ó“„Ð¸ÏÅ('ŒÐ´¢ØØ´Cª¬®¢A==');$Ó“„Ð¸ÏÅ['¥‹Ãý‹Ã¾ˆŽ”ˆÃ¯¾ÃŽÖÄÀ®¥ŽÖÃŽŽ”¾ˆÁ¯®']=Ó“„Ð¸ÏÅ('ŒÐ´ª05ÆŒª´A');$Ó“„Ð¸ÏÅ['”ÖÖÄ‹¾Ä¾¯ÃÖ¾ÖÁÖÃÀŽ‹ÀÃ”¾Ã®Ö””ˆÖÄŽ']=Ó“„Ð¸ÏÅ('ABàŒ®ØØ¤Aî==');$Ó“„Ð¸ÏÅ['ÁÖˆÃÃýˆÄ”Ã®¾Ã”¯ˆÁÄ¾ÁÃˆ¥‹Ž¯¾¯®ŽÄ¯']=Ó“„Ð¸ÏÅ('Œ¢´ÂÂ¬B¢ŠØŒÄ');$Ó“„Ð¸ÏÅ['¥¾Ö¥ˆÖÖ”ÀÁÃÁÖ‹®‹ýÀÃŽ”Ö‹Ž”¯ÀÖÀÀÖÖ']=Ó“„Ð¸ÏÅ('Š¢œ°®ØœÄB19®');$Ó“„Ð¸ÏÅ['®ˆ¾¯ÖÖ”Ã‹Ö‹‹ÖÖˆ‹¥”ýÖÀÃ‹ÖÖÃÁˆÃŽÄ¾']=Ó“„Ð¸ÏÅ('DAðâ¬0¤B0æ=');$Ó“„Ð¸ÏÅ['ÃˆÃˆ”¯®ˆýÄ”®Á”ÃˆÁ¥‹¾Á‹ˆ¾¥ÃÃ‹Ž¯‹‹']=Ó“„Ð¸ÏÅ('Œ¢´ÂÂ¬B¢ŠØŒÄª¢4ž¨Œ9Æ');$Ó“„Ð¸ÏÅ['ˆý¥ÃÄˆ‹®Ã‹ÖÖÃÄ¯ÁÖÖˆ¯ÃÄÃÖ®ýÀÖ¥ÃÄý']=Ó“„Ð¸ÏÅ('C¢1ªªÎ==');$Ó“„Ð¸ÏÅ['¯Ã¥¥ÃÃÀŽÃˆÄÄˆ¥ÖÁÁÃ¾‹ŽÃ®ÃˆÁ‹‹ÁÖÃÃ']=Ó“„Ð¸ÏÅ('ŠAðÆÂ¬ØCCŒÈ°');$Ó“„Ð¸ÏÅ['Áý¥ÁÖÃÀÖ¾¯ýÁ‹ÖÁÁ¾Ä¥ÖÃ¯ˆÄ®”¥‹ÃÃÀ”']=Ó“„Ð¸ÏÅ('BBB¬09âD¬È–¢¢==');$Ó“„Ð¸ÏÅ['Áý®‹Á¾¯ÖÃÀÄÖÃ®ÖÃÃ®¾À¾Ã¾ÃÃÁˆ¾®Ã¥Ã']=Ó“„Ð¸ÏÅ('ŒÐ´Âª¤¢ŒØ5¦ª¢¢=');$Ó“„Ð¸ÏÅ['ÁˆÖÃ”ÁÖÃ¯ÀÃÃ®ÄÄÁÃÖÁÀ®ˆ¯Ã”‹”Ã¥Ö‹ý']=Ó“„Ð¸ÏÅ('Œ¢´ÂÂ¬9ÄŒ¬ÈB¤Î==');$¬ÞåÌÜñô($“ƒ›²ÖÙ¼ÑŒ($$ËÄî³Ë‘âÿ¤Ñ));$º½Ú¤»à˜„³=$¹¦„ÜÐÂïËŠ($¸Ï•Î šÜÏ);eval($ÄÎúš¼Ëë('AB¤ª®Ð5°B0Œ®BŒª9°¬È¤®1ð¨¦0®C2Êž®Ô²ÂæìÈAÆŒ0='));$·´â•›ê=$œ¡ïË“Úå­¯¬»;$¬ÞåÌÜñô($“ƒ›²ÖÙ¼ÑŒ($$ËÄî³Ë‘âÿ¤Ñ));return$·´â•›ê;?>ÄÔ¢Äž9Âêì¢â¨ª6òðäš/œÚæ9ê6šÚ°àä4°3ª¢ 5Š¬DÎÎ ÞÒ¢òª2”ŽÒ0ŒêŽ/®ä6Ú–Cž’/®AÜ7îªBÊ¢È¤žšÆ7Øìž¨Bà°ôª8+ŠÊ¦ÂæA4¢ª2°˜¢êæÜòÄÂDÔÆ¤ÖÔò7ÐÚD/²¬äªÌ¢Ì®Æ/ÆÔà¤361¬5æžà26˜°°97 8/Â9Ê+æØÐÞôÄšÊŽDÈ”5ò0®œÜªôÄ¢Æ1Ôâ02Ìòð28Ä¢®Æô+ÈÜªæBŠ0D¢+®’0–ìâ´ÒðôœÔ²ÐÊŠÈà”ò9ìDôÈô²¤Î1¤ò8ÎÐÜ6´èžDì0ô˜Ä1ð¨ÒÊ+Æ2/äªŒ²¤8 Ê°79àê15šÜœð¨5Aœ+è2+Úæ8š/èòš2ÈÒADÄ4ÆŽ²¤´0BêÆ+ªŽ92žŒ93°â®à Š6ÜšôÒÖÈîœ”œ3Ò¤’Ð/ä¨ì9àÐ˜ð05CÆô2Ì/2Øš¤96²9è ðØì¢â1î´æ4ôà4è1È2Ü Ø3Ì–²/7ÂäDòª°6¬´’²äŽÂÔ¤¢äÆÔÚœ¢èÄî¦Æ˜Ä44®0¬´0ÔìàØ65Ø0â6¢Ö¦¬0ŠžÞÞ1”˜°¢ìÞ¬87Ò5’žÖ7¨7ì5¦è95 Úìî”Æ9BÚŒœÈÈòÊÐ35Äò0’–Ž1´4žÞ¢ÐÞòôÊŠÞÔ˜+òà7žœ²¨ì740AŒDœŠA0Ô581’Œ1Žðà/ 07ÈŠ’æB9/ÖCAÎŒÂ8²˜ î°Ö+–°êžÆŒ6ÞCÎÄÜÎÚ¤Üš¨èò¬Îâ˜3ôò8 à˜/Ä+0Ä’Ö®îCD Ì79œ9î+3´¤+594Ò¤ŠžèŠÆ”1Ì¨œÖž9Ò’ÄÖCô9Š/’9ÔèŒÖ°˜˜îÔÜÐâÚ²ìØªŒCÞ–ŒÄ/4ŽÊžª/ÚÊ/¬ô6ààäÆÞš¦ôê44¨ìÊìàC´139Ò0D´8D61+BšÒŒÂ¨¬è0CÄšDè4ô¢ðœ°ŒªäCBA¦ê0–îÊ¦ ÔìÜ7êA/Ä2Äœ0ªšÖ0°Þ¢´˜ÒÞ˜ÒØêB15+ ®®¨êÔŒD3ìî¦´ªªª²¢ÐŠä¤ž4/ä®œ/Ž1˜Üê˜ô–œDÌ97ÊÈÊ¤Ž1ADÒBæ2¨æª’ò/¦0äÜòDÖŒ+¬+®òAÂ¤ääŽžA¤’Š¢0ÜÈÔ2¤Šô¨Êð²°/°ìôò/DB+B53ä²Ì4ÆD–/âÊØDî–AÚ®žÊàÈÆŽÊB šŒš 0’ž6šŽÊ¦Š¬¨–ì¬Žâ¦Æ˜ÖŒÖÆÚ+0”0A®ÆôØAÒäØîÒ´Žô9+7Îž3”Î8äÈ19ŽîÌ9AÜA/ØÖÐ˜°Äò5’´´š/ì°/7òêÖ+ê7Ø7’5ê”¢ÖèŒ1òÔ4²3°ÄBÌ®’°ðìÚØðžÈ1Ê56Ü8¦¢Ö¬’B4BàÌŒCÊšæÌð9”DêÄ–Œ+ÒÞ¨5Ü¬šìŠÆ Þ1¨’â¦È¦Äà91Ò¤´D òÊªD+Ø+î/ÆÌš’â3ÂØÐÎ01¢0šîîÊ4âªÐàô/äÌìŠš7–07ÚôDÈ¦1ØÐäÈ¬ŽÜÂBð¢îŽÈàœ+ÎÂ¬È°71Þ®30è²œ5”–žôÄÞŠÒB¬ò²9È9 ÚŠ+ž®ŠœàBä2ªÖ ®âìB”Äð6¦7¨’¨Ø¦Øœ5Þì0ìŒ Ä˜ÜÐ˜œè®âÌ8ÊŽè”ØCÄ¦ÂÖÐâ¤Ü®1ÐŠ7Æ–¨CÖÜòÞ36Ê®”9È0BÂäBÞ¬2ØðÄ62ÆÊ4°Üî”šŠØè®äÈ–Ì’žDÜ4 Ì4œÆšÌ–æÂ6¤žCÈÈ++°ŽB0ŒÞCDŽŠ¢â²3Œžª8ð+ÎÜìÎŒÊ¨Š5æÊÄ3’707²Ì+ªŽAØ8êÞæB²Ìð––ÔêÆÈ3œ ò Œ1¦17ØÜÞ2È67òC+¢ìÂ–1è ¦¨®AÒÖ´¦¦žÈ® ÈªÊCÎ6B¤/Œ”žî4ŽÜ”òÒØª°Ú¨ªžâ’ÔžÞœ6Öà¦ÈÖ5ð¤îB1¤ÒÌ9ÔBÌ1ä”¬Cæ906Ôò”ÜôØÂ°D¦œ¦+1Ì0˜2ÎœÈê5Ü®æÒ²Š”Ò”ôÔ8¤¦Aò¦¬ÐÐìÄ9˜ÊÜÜœÌò”êò¬ÆÔÊ’²ò0š˜¢44ðÄ+Ì6ÖŒD2ª1ÄîA–œ4ìôØ â+Ž”8ÄŽ4ÐAÎÚìŽDÆðª¢ìÜìÈ¢â¤6˜ŽÐìšŠCèìÞÎ®šâŽCÜðä¦ÔÐê”9Ô7DŒê74ô69’ÜŽÂ6+îCCò2ÈC¦4 3Ü/2ÆÂ4œÖŽÒÞ0¤ªªð+Aªî3˜¬Ê ÔŠ´âÒ7B˜8°œ²83Ð¢+êÚ²¨4Þî¦ôÔC0Ð+ÎØäîAêŠ¬èàì²²²âšàœÒ®äÊÔ´Þ²Aê¤š3ÈðÞœÄÊžªî3ò6æšÚ²² šÖÊ˜”ðÆÖšæ1ÂÂÎìèÔæÊ”9ÞÞäî Øð7’¨æŽ”–ÔªCÞÈÔâ’6¢ä22DôŒŽ9Æä14´Æ36Š+ÌA°4È°BD¢ÚÞ9àòÖÆ¦¤ôèÜòÐ¤š’ÈŒ+C°ÊCÌÚòÜ68ÖÈ6ÞÎ¢C–6²ÄB6””Ê/ÒÌòêÞŽèòŽ9Ââ®0°ÎŒš0°–Â/ŒÜš99ÊÂ¤êè®ôŒÎœÄÔ5ÊêªèêÈèô²7+¨3äš2’Šª4æÎ8´àÚ®Ö6îŽ²”¬ê/Ü6/Êè0´àœØêÂŒÌ°ªèÖ¦8ÚÞ7Æ°ª˜Aàæò4®B¤ì’èàîœÆœ08êêšÎ59ÔDÌ8îÎæ²0Ž–/ŒÜ´òäðŒŽœÖ1ŠÊÖB¨®¬šìòÂÈœ8–ÔÎ–ÜŽâ°Ú¤ìÞâŠ3’0šÈê4àÞ®ÜCŒô˜è–ªô²’”ÐîŽê¢¨/4ì²/®Èšæª¨5¢”943”5ÜØ”ôŠŒŽØ42Š1ä2Ø¬1+ÂÔ¦ÆªÈîäÈÂAÎðØì¦97ÚÚ”Ö1565ÚòÔA Ä’îèB”ìC¨¢œ6Â/ÔÜD6Ðä8è¬´7°Ê/®š´D´¬A¢AÚàÜÂ¢ÔÎ2æ”â7â ðŽ¬¨¬ž6äÆ8Ø2Äð09BŒCè´Ôð–®æªÖò9 1¨BÖÖÞ25ä/òäœ5¨ÖžŒèCB¢Šä8¬/ŠDÈBª/ÚBîD/èôèØ4êÌž´Þ9’îÒšèÂªDÒôèA¢”¦Îà”Øê¤ªÌ4êæÖæ/¤Ðâ5–4 ¬ÚØðêÂôžB˜Côæ´¬î8+Ð¬¦ÊŽ²Îê2Ô2ôCŒæ0âŽ17¬ÄÔŽØÈ¬ÒÐÈ3¨–ìÔC˜ÈÜœâ0˜ìî6ð’Þ0AÂäœ8àâìÈÚÎÔÔŒ–êŒ6ÊªªŠÄî0´ž²î+0BœÞè9”š723¨àÚôìÒ´2ž ¨2ÊîÒæ°ªæèì’š2òÈâ˜¦ÜÚŽêòðÈ¬¬4+¤Â´75Ø5ª–6®ŠŽÆìØÒìBÒ3ÚŠ/à5Òè+ÞÎäÜŒÖBÎ”ô¤5”ìê°ÖªÆìììÎ73èÊŽîªîè3ÎœÄÔ3”Â˜¬Ô¦¤––Ö”žŒ¬Ä14žÌèæÖ+ê9ÖŒØ4Ä°D8´8+ò9Bèœ7Î6¦7ÄB6Â5œÚêäà4/Š5š²Š’Øè²Â0¬ŒŠêÎ¤CÈÌÄ93ÂäCŠÞ0ðB5â ²7 ŠŠÆŠ76ØÄðB´ŠÈŽØðÖÐà¤¬A”Æ²51Â¬¦Æ¢B¦34žÐÖš”Ä¤1Â¤3ŒêªB®îÌšŠ8B/2ÐÄ¨7æÌàÄŽÌ¦ÔÈÜ/9æ¦ªÜŒ¬ÄŽž¨2–ŒìÞ2ªB–¤ŽôAòê”9ì05ô Î4ä°š2Ø¤Bœªèî˜ÞžœB9²¨ÌšžÒ0êæ¤Cì´¢BîàAœÞœ¬ÈÎÆ¨ÞÒ¦ÔBØ¬äBªð ˜ÌÈÊ¬3äš®Þ´èÎÆ®°68ÎDæÐDÈÐ83C˜à°Ö–ªDÄà8àÌÆB¤æ˜/ŒÒŠØšØ®Ô¢1¢Ü6Ð’Ô6”ò+Þ8œÚ Ø’58BžÚ¤êŽÒÞ3ÔŠ6¬²ÂDÔAœôDÔ”ÄžäœÌŽ6ð4Ü–à¤¨²Š¨ÞD22Î”’A/5´ØŒ5Ì´ÈÜ°à šÎ4š’®Ì²Þ¢”Êàà¬Æ0îò8ÒªŒâ˜ìÆØ¦œ1Ø/äêÄŽÔ´’/ŒžðÄô¨Þì¢Ò65’Ää¬î¨”äÜÒÖ¤9ìÆ”ÖCÚ3Üæ¬šðèâªô°–ÆCž°ÒÚ””èæC¦”ÒÞžÌ²ª¦Ì9AÔ0°¤ÐÈª8Œ3ì7È´®Ü2˜èòšœ0Ê13¨¨î4ô6îØªª¦œAŠ¨ 8Øâª97®¬´ŠB1Ôääê3¬/à2ÄÄÆ5+²ò30Š®+ÎÂÊ0/”ÒÔ ¦8CÈÐ¦ÔDA0è5ð¤DŒØ´9Â88Â¢Ê2Ð8Î´ôàB3œÐ¨ÒŠ–ªB´Ê0 šê5¬ÖØ¦´ì¨¬ÆŽÔÆž®ÚŠê/Aî8¨à¦Þ˜®²Žð”2ðâÜÔŠØ°ÒŠæÖ¦œÒœÞBì9DŒ9¦Ü3òäØ®Òæ5AÄÐîìäÐÜ’ÖžèBôžÖ ØâðÈ5¤0¢èÜâ–ŠŒææAâ¤3DŽô” ”ÆòàAî4¤àDîì0ìªÈ°Æ’BÎæÈÒÎ ¢ŽÒÈœÚ´/àAÆ2ð5¦ÖÞ¨’52ÐÂ+’ /83Ðì¢è+®äØÜ˜¨ðCàÎê¦æ˜5œäàÊê8ÆÂÆâÊî9´9šê8Œêªè/–0Að´DÄÌŽ²Ž¤ÚÄš23ð¬ª¨AÎ¨ª6ÜÖB°¬’¢¬ÂðàèîâÎœÔŒØèÚ2107CØÄ´ÜÒô0àÞØØ¢+’œŽÎ68˜²/Œ6žœØäÐžAÌ4Ì ôà/9¬1¬ ¬CâœêÌ¢¢BÒÒâDCèä¨ÐÆî¤ÆÎîÒ21Ø–²Ô Œ°ŒŠ ÄC”Š8æ0žÆ’¤ÚîA¬´îäDA¨Ô+à¨Bê²ô370à’°–âCð0°È+ð–´¢Ü˜ŽŠôÚÊœªâÔà¨ì3Æô¬¨2+ª7²Ø¬Ž´Ø²¦+8¤ÐÎô430–¤ìœ¦BCâô´”ÄèšDò˜B”˜/´’0ðÖ®¦¨ÆÔîÚ/ì1ÚÔÈ29Ê3ôÚââš¤ôÒŽ/Ü3°”°²DD4’C’ÎŽ²ÔæÒŽ²369ÜÐD7ð–D’È¦Æ¤œšÒžAôªšŽCŽØ°5ØÊŒê8²à¢Ö²îÚØÌè3”3¤ A8ê®ŽA60ÊÄÚ’´37žAæÂ®¨ÜCÊ3ÒB5¤ êÊÄ2äœ–CDØ¢È Þ7+ÜÒA’¨àŽô°BBÞ²šêž8¤ò˜ÞCÖœ8Ü¬”ÂB6œœê² ¨ÔŒô48ŒîÔ/ò1¤Ð–êÄœ–°òÔ®34Ž3ŽìÜ¤B˜è°01ŽæâÚ6C7¨5Ö+òØÄâœâ¦ òî°è ÄœÈœ3ÄÈ8Î ÞòBÔ4ØžðòŠ¢ÄB8ô4’ÞÆ8˜9¬ä7AB–¤æôBØØìè”/ìÄ1°´DÆžÌÂŠ²ô0¦²1ÊDÆ3Œ9ŒÞ˜17˜âŒÆîæÂÄèÆ7ÊÚ2ÂÆÊ8ŽÖ²¨59È¢ DàB˜¬°âÆÎ¨7Î ÚèšŽÂ2C ”¨6ìŽ ÐÄØÂBÔÊÎšìä–ðÐÎÈÎÖšäCÐ/4¬ÖØ–BÌ˜Ôæ®°àÖìŒ2Œ//˜Æ–Â®Ð–âÊ6ÚÚŒ°ê95˜ìªÈÔÌ®3ÊŒæ9/8´âì´®92Ô˜îòÞ®¨ì3Š°àâè6Ø¢èð5ò08è6348È–1ÆÐÞôœ°+ž5ª1ÐÚÂØÖžÒ ŽŒ¬¦AîÆÆ9à¨41¢+°ÆðôA°êÚ¦2°ô®ìÒèÊ¦œŽDÚæ˜äÊðÔÖ¨îì3¬C7îÒ¤žô”Ò+Â4Ää˜äA67äÎ8C¤²°È˜A1ÞôÆîAòâ¨ÌÔ/žÂÚŠ5êÖŒÐÖ1¤ª¢ž²’ªÂ¤Êœ¤ÔŒª1°ÎØ+¨2Æòæ¦ÞŒ6Ö1ÄòŒŠÄ²æ65à2œ´Â0êîª’Ð+6ô´ž˜ðôÜšÜäÈÚœB²”èà¬Ð’òÎŒ¤8DØÖ9AÖ4Öž6B4Þ0ì´¢ð2Ø˜Ø97Ò¦²ŽêÌ00¤°ÚâÚ°8”¦DÊØžÞÊÜœ²ÒÊÊ8”¢Îð˜Œ8Ò+Þ+–Ö8¤2Ä´ž CäÈ¦ôâÆ7AÔæ3°žŽšÂäAŽ°+0ž1Þ=Å21¤ªªî´¢ª1ŠŽ¬ØªŽDÎà¤¬ÎŠŒA¢AœªØÞ–A¢¢BA¢ªŒ¬1¢Š;
+<?php
+
+if (!defined('IN_IA')) {
+	exit('Access Denied');
+}
+if (!class_exists('PermModel')) {
+	class PermModel extends PluginModel
+	{
+		public function allPerms()
+		{
+			$_var_0 = array('shop' => array('text' => 'å•†åŸŽç®¡ç†', 'child' => array('goods' => array('text' => 'å•†å“', 'view' => 'æµè§ˆ', 'add' => 'æ·»åŠ -log', 'edit' => 'ä¿®æ”¹-log', 'delete' => 'åˆ é™¤-log'), 'category' => array('text' => 'å•†å“åˆ†ç±»', 'view' => 'æµè§ˆ', 'add' => 'æ·»åŠ -log', 'edit' => 'ä¿®æ”¹-log', 'delete' => 'åˆ é™¤-log'), 'dispatch' => array('text' => 'é…é€æ–¹å¼', 'view' => 'æµè§ˆ', 'add' => 'æ·»åŠ -log', 'edit' => 'ä¿®æ”¹-log', 'delete' => 'åˆ é™¤-log'), 'adv' => array('text' => 'å¹»ç¯ç‰‡', 'view' => 'æµè§ˆ', 'add' => 'æ·»åŠ -log', 'edit' => 'ä¿®æ”¹-log', 'delete' => 'åˆ é™¤-log'), 'notice' => array('text' => 'å…¬å‘Š', 'view' => 'æµè§ˆ', 'add' => 'æ·»åŠ -log', 'edit' => 'ä¿®æ”¹-log', 'delete' => 'åˆ é™¤-log'), 'comment' => array('text' => 'è¯„ä»·', 'view' => 'æµè§ˆ', 'add' => 'æ·»åŠ è¯„è®º-log', 'edit' => 'å›žå¤-log', 'delete' => 'åˆ é™¤-log'),)), 'member' => array('text' => 'ä¼šå‘˜ç®¡ç†', 'child' => array('member' => array('text' => 'ä¼šå‘˜', 'view' => 'æµè§ˆ', 'edit' => 'ä¿®æ”¹-log', 'delete' => 'åˆ é™¤-log', 'export' => 'å¯¼å‡º-log'), 'group' => array('text' => 'ä¼šå‘˜ç»„', 'view' => 'æµè§ˆ', 'add' => 'æ·»åŠ -log', 'edit' => 'ä¿®æ”¹-log', 'delete' => 'åˆ é™¤-log'), 'level' => array('text' => 'ä¼šå‘˜ç­‰çº§', 'view' => 'æµè§ˆ', 'add' => 'æ·»åŠ -log', 'edit' => 'ä¿®æ”¹-log', 'delete' => 'åˆ é™¤-log'))), 'order' => array('text' => 'è®¢å•ç®¡ç†', 'child' => array('view' => array('text' => 'æµè§ˆ', 'status_1' => 'æµè§ˆå…³é—­è®¢å•', 'status0' => 'æµè§ˆå¾…ä»˜æ¬¾è®¢å•', 'status1' => 'æµè§ˆå·²ä»˜æ¬¾è®¢å•', 'status2' => 'æµè§ˆå·²å‘è´§è®¢å•', 'status3' => 'æµè§ˆå®Œæˆçš„è®¢å•', 'status4' => 'æµè§ˆé€€è´§ç”³è¯·è®¢å•', 'status5' => 'æµè§ˆå·²é€€è´§è®¢å•',), 'op' => array('text' => 'æ“ä½œ', 'pay' => 'ç¡®è®¤ä»˜æ¬¾-log', 'send' => 'å‘è´§-log', 'sendcancel' => 'å–æ¶ˆå‘è´§-log', 'finish' => 'ç¡®è®¤æ”¶è´§(å¿«é€’å•)-log', 'verify' => 'ç¡®è®¤æ ¸é”€(æ ¸é”€å•)-log', 'fetch' => 'ç¡®è®¤å–è´§(è‡ªæå•)-log', 'close' => 'å…³é—­è®¢å•-log', 'refund' => 'é€€è´§å¤„ç†-log', 'export' => 'å¯¼å‡ºè®¢å•-log', 'changeprice' => 'è®¢å•æ”¹ä»·-log', 'changeaddress' => 'ä¿®æ”¹è®¢å•åœ°å€-log'))), 'finance' => array('text' => 'è´¢åŠ¡ç®¡ç†', 'child' => array('recharge' => array('text' => 'å……å€¼', 'view' => 'æµè§ˆ', 'credit1' => 'å……å€¼ç§¯åˆ†-log', 'credit2' => 'å……å€¼ä½™é¢-log', 'refund' => 'å……å€¼é€€æ¬¾-log', 'export' => 'å¯¼å‡ºå……å€¼è®°å½•-log'), 'withdraw' => array('text' => 'æçŽ°', 'view' => 'æµè§ˆ', 'withdraw' => 'æçŽ°-log', 'export' => 'å¯¼å‡ºæçŽ°è®°å½•-log'), 'downloadbill' => array('text' => 'ä¸‹è½½å¯¹è´¦å•'),)), 'statistics' => array('text' => 'æ•°æ®ç»Ÿè®¡', 'child' => array('view' => array('text' => 'æµè§ˆæƒé™', 'sale' => 'é”€å”®æŒ‡æ ‡', 'sale_analysis' => 'é”€å”®ç»Ÿè®¡', 'order' => 'è®¢å•ç»Ÿè®¡', 'goods' => 'å•†å“é”€å”®ç»Ÿè®¡', 'goods_rank' => 'å•†å“é”€å”®æŽ’è¡Œ', 'goods_trans' => 'å•†å“é”€å”®è½¬åŒ–çŽ‡', 'member_cost' => 'ä¼šå‘˜æ¶ˆè´¹æŽ’è¡Œ', 'member_increase' => 'ä¼šå‘˜å¢žé•¿è¶‹åŠ¿'), 'export' => array('text' => 'å¯¼å‡º', 'sale' => 'å¯¼å‡ºé”€å”®ç»Ÿè®¡-log', 'order' => 'å¯¼å‡ºè®¢å•ç»Ÿè®¡-log', 'goods' => 'å¯¼å‡ºå•†å“é”€å”®ç»Ÿè®¡-log', 'goods_rank' => 'å¯¼å‡ºå•†å“é”€å”®æŽ’è¡Œ-log', 'goods_trans' => 'å•†å“é”€å”®è½¬åŒ–çŽ‡-log', 'member_cost' => 'ä¼šå‘˜æ¶ˆè´¹æŽ’è¡Œ-log'),)), 'sysset' => array('text' => 'ç³»ç»Ÿè®¾ç½®', 'child' => array('view' => array('text' => 'æµè§ˆ', 'shop' => 'å•†åŸŽè®¾ç½®', 'follow' => 'å¼•å¯¼åŠåˆ†äº«è®¾ç½®', 'notice' => 'æ¨¡æ¿æ¶ˆæ¯è®¾ç½®', 'trade' => 'äº¤æ˜“è®¾ç½®', 'pay' => 'æ”¯ä»˜æ–¹å¼è®¾ç½®', 'template' => 'æ¨¡æ¿è®¾ç½®', 'member' => 'ä¼šå‘˜è®¾ç½®', 'category' => 'åˆ†ç±»å±‚çº§è®¾ç½®', 'contact' => 'è”ç³»æ–¹å¼è®¾ç½®'), 'save' => array('text' => 'ä¿®æ”¹', 'shop' => 'ä¿®æ”¹å•†åŸŽè®¾ç½®-log', 'follow' => 'ä¿®æ”¹å¼•å¯¼åŠåˆ†äº«è®¾ç½®-log', 'notice' => 'ä¿®æ”¹æ¨¡æ¿æ¶ˆæ¯è®¾ç½®-log', 'trade' => 'ä¿®æ”¹äº¤æ˜“è®¾ç½®-log', 'pay' => 'ä¿®æ”¹æ”¯ä»˜æ–¹å¼è®¾ç½®-log', 'template' => 'æ¨¡æ¿è®¾ç½®-log', 'member' => 'ä¼šå‘˜è®¾ç½®-log', 'category' => 'åˆ†ç±»å±‚çº§è®¾ç½®-log', 'contact' => 'è”ç³»æ–¹å¼è®¾ç½®-log'))),);
+			$_var_1 = m('plugin')->getAll();
+			foreach ($_var_1 as $_var_2) {
+				$_var_3 = p($_var_2['identity']);
+				if ($_var_3) {
+					if (method_exists($_var_3, 'perms')) {
+						$_var_4 = $_var_3->perms();
+						$_var_0 = array_merge($_var_0, $_var_4);
+					}
+				}
+			}
+			return $_var_0;
+		}
+
+		public function isopen($_var_5 = '')
+		{
+			if (empty($_var_5)) {
+				return false;
+			}
+			$_var_1 = m('plugin')->getAll();
+			foreach ($_var_1 as $_var_2) {
+				if ($_var_2['identity'] == strtolower($_var_5)) {
+					if (empty($_var_2['status'])) {
+						return false;
+					}
+				}
+			}
+			return true;
+		}
+
+		public function check_edit($_var_6 = '', $_var_7 = array())
+		{
+			if (empty($_var_6)) {
+				return false;
+			}
+			if (!$this->check_perm($_var_6)) {
+				return false;
+			}
+			if (empty($_var_7['id'])) {
+				$_var_8 = $_var_6 . '.add';
+				if (!$this->check($_var_8)) {
+					return false;
+				}
+				return true;
+			} else {
+				$_var_9 = $_var_6 . '.edit';
+				if (!$this->check($_var_9)) {
+					return false;
+				}
+				return true;
+			}
+		}
+
+		public function check_perm($_var_10 = '')
+		{
+			global $_W;
+			$_var_11 = true;
+			if (empty($_var_10)) {
+				return false;
+			}
+			if (!strexists($_var_10, '&') && !strexists($_var_10, '|')) {
+				$_var_11 = $this->check($_var_10);
+			} else if (strexists($_var_10, '&')) {
+				$_var_12 = explode('&', $_var_10);
+				foreach ($_var_12 as $_var_13) {
+					$_var_11 = $this->check($_var_13);
+					if (!$_var_11) {
+						break;
+					}
+				}
+			} else if (strexists($_var_10, '|')) {
+				$_var_12 = explode('|', $_var_10);
+				foreach ($_var_12 as $_var_13) {
+					$_var_11 = $this->check($_var_13);
+					if ($_var_11) {
+						break;
+					}
+				}
+			}
+			return $_var_11;
+		}
+
+		private function check($_var_6 = '')
+		{
+			global $_W, $_GPC;
+			if ($_W['role'] == 'manager' || $_W['role'] == 'founder') {
+				return true;
+			}
+			$_var_14 = $_W['uid'];
+			if (empty($_var_6)) {
+				return false;
+			}
+			$_var_15 = pdo_fetch('select u.status as userstatus,r.status as rolestatus,u.perms as userperms,r.perms as roleperms,u.roleid from ' . tablename('ewei_shop_perm_user') . ' u ' . ' left join ' . tablename('ewei_shop_perm_role') . ' r on u.roleid = r.id ' . ' where uid=:uid limit 1 ', array(':uid' => $_var_14));
+			if (empty($_var_15) || empty($_var_15['userstatus'])) {
+				return false;
+			}
+			if (!empty($_var_15['role']) && empty($_var_15['rolestatus'])) {
+				return true;
+			}
+			$_var_16 = explode(',', $_var_15['roleperms']);
+			$_var_17 = explode(',', $_var_15['userperms']);
+			$_var_0 = array_merge($_var_16, $_var_17);
+			if (empty($_var_0)) {
+				return false;
+			}
+			$_var_18 = explode('.', $_var_6);
+			if (!in_array($_var_18[0], $_var_0)) {
+				return false;
+			}
+			if (isset($_var_18[1]) && !in_array($_var_18[0] . '.' . $_var_18[1], $_var_0)) {
+				return false;
+			}
+			if (isset($_var_18[2]) && !in_array($_var_18[0] . '.' . $_var_18[1] . '.' . $_var_18[2], $_var_0)) {
+				return false;
+			}
+			return true;
+		}
+
+		function check_plugin($_var_5 = '')
+		{
+			global $_W, $_GPC;
+			$_var_19 = m('cache')->getString('permset', 'global');
+			if (empty($_var_19)) {
+				return true;
+			}
+			if ($_W['role'] == 'founder') {
+				return true;
+			}
+			$_var_20 = $this->isopen($_var_5);
+			if (!$_var_20) {
+				return false;
+			}
+			$_var_21 = true;
+			$_var_22 = pdo_fetchcolumn('SELECT acid FROM ' . tablename('account_wechats') . ' WHERE `uniacid`=:uniacid LIMIT 1', array(':uniacid' => $_W['uniacid']));
+			$_var_23 = pdo_fetch('select  plugins from ' . tablename('ewei_shop_perm_plugin') . ' where acid=:acid limit 1', array(':acid' => $_var_22));
+			if (!empty($_var_23)) {
+				$_var_24 = explode(',', $_var_23['plugins']);
+				if (!in_array($_var_5, $_var_24)) {
+					$_var_21 = false;
+				}
+			} else {
+				load()->model('account');
+				$_var_25 = uni_owned($_W['founder']);
+				if (in_array($_W['uniacid'], array_keys($_var_25))) {
+					$_var_21 = true;
+				} else {
+					$_var_21 = false;
+				}
+			}
+			if (!$_var_21) {
+				return false;
+			}
+			return $this->check($_var_5);
+		}
+
+		public function getLogName($_var_26 = '', $_var_27 = null)
+		{
+			if (!$_var_27) {
+				$_var_27 = $this->getLogTypes();
+			}
+			foreach ($_var_27 as $_var_28) {
+				if ($_var_28['value'] == $_var_26) {
+					return $_var_28['text'];
+				}
+			}
+			return '';
+		}
+
+		public function getLogTypes()
+		{
+			$_var_29 = array();
+			$_var_0 = $this->allPerms();
+			foreach ($_var_0 as $_var_30 => $_var_31) {
+				if (isset($_var_31['child'])) {
+					foreach ($_var_31['child'] as $_var_32 => $_var_33) {
+						foreach ($_var_33 as $_var_34 => $_var_35) {
+							if (strexists($_var_35, '-log')) {
+								$_var_36 = str_replace('-log', "", $_var_31['text'] . '-' . $_var_33['text'] . '-' . $_var_35);
+								if ($_var_34 == 'text') {
+									$_var_36 = str_replace('-log', "", $_var_31['text'] . '-' . $_var_33['text']);
+								}
+								$_var_29[] = array('text' => $_var_36, 'value' => str_replace('.text', "", $_var_30 . '.' . $_var_32 . '.' . $_var_34));
+							}
+						}
+					}
+				} else {
+					foreach ($_var_31 as $_var_34 => $_var_35) {
+						if (strexists($_var_35, '-log')) {
+							$_var_36 = str_replace('-log', "", $_var_31['text'] . '-' . $_var_35);
+							if ($_var_34 == 'text') {
+								$_var_36 = str_replace('-log', "", $_var_31['text']);
+							}
+							$_var_29[] = array('text' => $_var_36, 'value' => str_replace('.text', "", $_var_30 . '.' . $_var_34));
+						}
+					}
+				}
+			}
+			return $_var_29;
+		}
+
+		public function log($_var_26 = '', $_var_37 = '')
+		{
+			global $_W;
+			static $_var_38;
+			if (!$_var_38) {
+				$_var_38 = $this->getLogTypes();
+			}
+			$_var_39 = array('uniacid' => $_W['uniacid'], 'uid' => $_W['uid'], 'name' => $this->getLogName($_var_26, $_var_38), 'type' => $_var_26, 'op' => $_var_37, 'ip' => CLIENT_IP, 'createtime' => time());
+			pdo_insert('ewei_shop_perm_log', $_var_39);
+		}
+
+		public function perms()
+		{
+			return array('perm' => array('text' => $this->getName(), 'isplugin' => true, 'child' => array('set' => array('text' => 'åŸºç¡€è®¾ç½®'), 'role' => array('text' => 'è§’è‰²', 'view' => 'æµè§ˆ', 'add' => 'æ·»åŠ -log', 'edit' => 'ä¿®æ”¹-log', 'delete' => 'åˆ é™¤-log'), 'user' => array('text' => 'æ“ä½œå‘˜', 'view' => 'æµè§ˆ', 'add' => 'æ·»åŠ -log', 'edit' => 'ä¿®æ”¹-log', 'delete' => 'åˆ é™¤-log'), 'log' => array('text' => 'æ“ä½œæ—¥å¿—', 'view' => 'æµè§ˆ', 'delete' => 'åˆ é™¤-log', 'clear' => 'æ¸…é™¤-log'),)));
+		}
+	}
+}

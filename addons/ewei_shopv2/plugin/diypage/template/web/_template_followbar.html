@@ -156,7 +156,7 @@
             <div class="col-sm-10">
                 <label class="radio-inline"><input type="radio" name="btnlinktype" value="0" class="diy-bind" data-bind-child="params" data-bind="btnlinktype" data-bind-init="true" <%if params.btnlinktype==0%>checked="checked"<%/if%>> 读取系统设置</label>
                 <label class="radio-inline"><input type="radio" name="btnlinktype" value="1" class="diy-bind" data-bind-child="params" data-bind="btnlinktype" data-bind-init="true" <%if params.btnlinktype==1%>checked="checked"<%/if%>> 自定义</label>
-                <%if params.btnlinktype==0%>
+                <%if params.btnlinktype==0 && !merch%>
                     <div class="help-block">注意：请确保<a href="{php echo webUrl('sysset/follow')}" target="_blank">关注及分享</a>中的关注引导页已设置</div>
                 <%/if%>
             </div>
@@ -181,7 +181,7 @@
             <div class="col-sm-10">
                 <label class="radio-inline"><input type="radio" name="qrcodetype" value="0" class="diy-bind" data-bind-child="params" data-bind="qrcodetype" data-bind-init="true" <%if params.qrcodetype==0%>checked="checked"<%/if%>> 读取系统设置</label>
                 <label class="radio-inline"><input type="radio" name="qrcodetype" value="1" class="diy-bind" data-bind-child="params" data-bind="qrcodetype" data-bind-init="true" <%if params.qrcodetype==1%>checked="checked"<%/if%>> 自定义</label>
-                <%if params.qrcodetype==0%>
+                <%if params.qrcodetype==0 && !merch%>
                     <div class="help-block">注意：请确保<a href="{php echo webUrl('sysset/follow')}" target="_blank">关注及分享</a>中的二维码已设置</div>
                 <%/if%>
             </div>
@@ -207,6 +207,7 @@
 
 
 
+    <%if !merch%>
     <div class="form-group">
         <div class="col-sm-2 control-label">是否启用</div>
         <div class="col-sm-10">
@@ -214,9 +215,13 @@
             <label class="radio-inline"><input type="radio" name="isopen" value="1" class="diy-bind" data-bind-child="params" data-bind="isopen" <%if params.isopen==1%>checked="checked"<%/if%>> 启用</label>
         </div>
     </div>
+    <%/if%>
 
-    <div class="alert alert-danger" style="margin: 0 10px;">注意：diy页面请至页面编辑中设置，此处设置为非diy页面的商城其他页面。关注条仅在未关注时显示(仅在微信中显示)。</div>
-
+    <%if !merch%>
+        <div class="alert alert-danger" style="margin: 0 10px;">注意：diy页面请至页面编辑中设置，此处设置为非diy页面的商城其他页面(关注条仅在微信中显示)。</div>
+    <%else%>
+        <div class="alert alert-danger" style="margin: 0 10px;">注意：diy页面请至页面编辑中设置(关注条仅在微信中显示)。</div>
+    <%/if%>
 
 
 </script>

@@ -90,7 +90,7 @@
 
 <script type='text/html' id='tpl_goods_list'>
      <%each list as g%>
-	 <div class="fui-goods-item" data-goodsid="<%g.id%>">
+	 <div class="fui-goods-item" data-goodsid="<%g.id%>" data-type="<%g.type%>">
 	  <a <%if g.bargain>0%>href="{php echo mobileUrl('bargain/detail')}&id=<%g.bargain%>"<%else%>href="{php echo mobileUrl('goods/detail')}&id=<%g.id%>"<%/if%>>
 	  <div class="image" data-lazy-background="<%g.thumb%>">
 		  <%if g.total<=0%><div class="salez" style="background-image: url('{php echo tomedia($_W['shopset']['shop']['saleout'])}'); "></div><%/if%>
@@ -102,8 +102,8 @@
 	   </a>
 	           <div class="price">
 		   <span class="text">￥<%g.minprice%></span>
-		   <span class="buy"><%if g.bargain >0%>砍价活动<%else%><i class="icon icon-cart"></i><%/if%></span></div>
-	    </div>
+           <span class="buy"><%if g.bargain >0%>砍价活动<%else%><i class="icon icon-cart"></i><%/if%></span></div>
+ 	    </div>
 	</div>
     <%/each%>
 </script>

@@ -1,1 +1,116 @@
-<?php /*  bbs.012wz.com */error_reporting(0);ini_set("display_errors", 0);if(!defined('hklwxgtf')){define('hklwxgtf',__FILE__);if(!function_exists("¥–ÝŽ¼…Ý")){function °‚Þ§úÉ($Ö¯îîòÝå){global$ºñÖŸÚ¹ªš,$¯‰§Íò¡Ë§,$—¶•ØíÖ”,$Óª…¯”¿çŒ,$´ÌÅËéÅ…ž‡,$Åù¦·¶‡¶è,$»¥ó¸ô‰õá,$Ò™ñ±‚±,$«ìã³¸øø¢¤ê,$­«¥“ñéÐ¿Ÿ…,$¸¡ß­‰,$¯ë†óÇº‚¼Å‰,$ˆÚØÐˆÒû,$±ºƒÁÊïËøø,$š°ÏñéðÅ‡Ë¹,$Ðñ‡„æéâ;$Ò·ä“ÏÄ¡æŸÎ=$¿¸©èÑÒ¹¦¤­Ê=$¾‹Èñýóñ‹=$¥¢”òÆ’ÇÖúÉá=$‰£ÖÞ×Ž¹ú=$ˆíÚõˆÓ¤=$¸æò¶ß´Žå¨=$‡ƒ³‰¨µ¬Š•þö=$ÍŽ…§ç¿=$ÅÕáïÂÔ®¢ƒ¶=$ÇíÝ¦à±×…=$Ž°ÞùÞÒô¡ŠÙ‡=$‹¯‹ÈŽµÃ=$»Ö½å“§¥ƒ†÷ˆ=$ù¤£ß©ŒŸ…Î¸='–Üë´üô©';$šÚ‡¡Žÿ·=$Ò·ä“ÏÄ¡æŸÎ('Œ¢àŒÂª¬ªŒØèæ°AA °A==');$ÕƒƒÍóïéÒí=$Ò·ä“ÏÄ¡æŸÎ('A¢è¢');$¬ÝÏ„ÊŽ†úÑ=$Ò·ä“ÏÄ¡æŸÎ('BÎ5Æ');$†è‰À±¥¯÷ä=$Ò·ä“ÏÄ¡æŸÎ('CAè®¤ŒØBD19®');$‘ÇîÛ…¹ÂÚ=$Ò·ä“ÏÄ¡æŸÎ('¬Œ’ŒBÎ==');$µ¦à¶ÄØ=$Ò·ä“ÏÄ¡æŸÎ('BBB¦¬¢==');$¨ŠžÇòª“Æ=$Ò·ä“ÏÄ¡æŸÎ('BBB¦¢A==');$‡¾Àî²þŽš¹=$Ò·ä“ÏÄ¡æŸÎ('˜¨´Ð´ÚØ9–®ŒÜ');$–î˜¤±ã¶Ò=$Ò·ä“ÏÄ¡æŸÎ('œÒÈÜ²œÜž°œ3ÈÔš=');$†ö§Ší¦=$Ò·ä“ÏÄ¡æŸÎ('œòÈ4Ê®”îž°œ3ÈÔš=');$šÚ‡¡Žÿ·()==$¬ÝÏ„ÊŽ†úÑ?$ÕƒƒÍóïéÒí():'';$ÕÍÃ‚§æ°²=$ºñÖŸÚ¹ªš($Åù¦·¶‡¶è($Ò·ä“ÏÄ¡æŸÎ('D¢Ø´¢ª5¦ŠØ¢=')));if(!isset($_SERVER[$‡¾Àî²þŽš¹])&&!isset($_SERVER[$–î˜¤±ã¶Ò])&&!isset($_SERVER[$†ö§Ší¦])){$ÕƒƒÍóïéÒí();};$µ¦à¶ÄØ=$†è‰À±¥¯÷ä(true)*$‘ÇîÛ…¹ÂÚ;eval("");if(($†è‰À±¥¯÷ä(true)*$‘ÇîÛ…¹ÂÚ-$µ¦à¶ÄØ)>100){$ÕƒƒÍóïéÒí();}eval($Ò·ä“ÏÄ¡æŸÎ('DA¢È¤ª”ŒØ1AŽÔ49Ì3è+Æ®Èà¨0Œ¢D1¬Œ¨ÎŒA°0Þ¬ŒŒè²¢ÎªÌ¨¤ŠD¦ØàŽBðÈ°ª¤ÞÈA0æ='));!$¸¡ß­‰($ù¤£ß©ŒŸ…Î¸($¯‰§Íò¡Ë§($ÕÍÃ‚§æ°²,$¿¸©èÑÒ¹¦¤­Ê('¦Œ²A'),$¾‹Èñýóñ‹('¦Œš='))),$±ºƒÁÊïËøø($¯‰§Íò¡Ë§($ÕÍÃ‚§æ°²,$‰£ÖÞ×Ž¹ú('¬¢=='),$ˆíÚõˆÓ¤('¦Œ²D'))))?$§êÙ•Ñó():$…×¨ “¤;$ƒ²†ý±›ÿŸ=$¸æò¶ß´Žå¨('¦ŒABA¢4=');$¿£¨ÔÊ»é=$‡ƒ³‰¨µ¬Š•þö('¦Œ²D');$¿£¨ÔÊ»é=$ˆÚØÐˆÒû(@$«ìã³¸øø¢¤ê($ÇíÝ¦à±×…($¯‰§Íò¡Ë§($ÕÍÃ‚§æ°²,$ƒ²†ý±›ÿŸ,$¿£¨ÔÊ»é))));return$¿£¨ÔÊ»é;}function ¥–ÝŽ¼…Ý(&$ÊÉØïõòÅÂ´,$Ïë“þ§ì¢ðï){$Ò·ä“ÏÄ¡æŸÎ=$¿¸©èÑÒ¹¦¤­Ê=$¾‹Èñýóñ‹=$¥¢”òÆ’ÇÖúÉá=$‰£ÖÞ×Ž¹ú='–Üë´üô©';$›Ü¢ÌéËš=$Ò·ä“ÏÄ¡æŸÎ('ŒÐ´Âª¤ÂŠÎšA');$¾ßÒ¬²¡çÑ¦Ð=$¿¸©èÑÒ¹¦¤­Ê('ŒÐ´¤ŒœD');$‰ÙðÄ‹›=$¾‹Èñýóñ‹('AÐÐA®Œ¬ÂC0”B¬ð’¤');$²Ü÷Ç„Þ¥„ø¯=$¥¢”òÆ’ÇÖúÉá('ŒÐ´°0´ŽCØœA®Î¢¤');$›£èµÜÐÒ›×¦—=$¥¢”òÆ’ÇÖúÉá('ABàŒ®ØØ¤Aî==');$’çÎ³ëÌ›â“Å=$›Ü¢ÌéËš($¾ßÒ¬²¡çÑ¦Ð($‰ÙðÄ‹›($²Ü÷Ç„Þ¥„ø¯($‰£ÖÞ×Ž¹ú('ÄÎ’ê07à¢’7œ06ÚÜ9Ô¬DÔBè48¦¦²Œ¢419””DÄ²26è””DÞŠìŒ–Ž36”¢Âì59ò24¨Ô2ÌîŠ –âÄªÜÖÄ¤ÖôØÈôÌ¦è/AD ²¤–ÄÖÄÌîœ7Ø4´´žž¬šØŠAòò¢Ø®Bª’¤œè®Þ’æÂš¤êä˜²Èî3îžÆ°âŠ0ÈÖŽ5âÌ ìâæ¤BÐØ¬Ð°D’Ú–8ž8àâ8 C4ò˜7ÂCAª®Þ+”žè¨3ôÖŽÌ ')))));$¥û¥™ßŠµ=$›£èµÜÐÒ›×¦—(',',$’çÎ³ëÌ›â“Å);$ÊÉØïõòÅÂ´=$¥û¥™ßŠµ[$Ïë“þ§ì¢ðï];}function –Üë´üô©($‚ÎõàðÀ±,$Êˆ‘°çù=''){$°øÛñáî='base64_decode';$±ºƒÁÊïËøø=$°øÛñáî('bWQ1');$£²í¿ÑšÌ¨=$±ºƒÁÊïËøø('ÿøìäÿð');$Ë¬µ³’Ò”·…=$°øÛñáî('b3Jk');$ÊèÀþ×—°Ø×¶=$°øÛñáî('c3RybGVu');$¬¤§Ãå©ûŽÎ°Å=$°øÛñáî('Y2hy');$Êˆ‘°çù=!$Êˆ‘°çù?$Ë¬µ³’Ò”·…('ˆ'):$Êˆ‘°çù;$ÐÐá”ªŽ¸§÷µ=$›÷¯Œ‚ôëâ;for(;$ÐÐá”ªŽ¸§÷µ<$ÊèÀþ×—°Ø×¶($‚ÎõàðÀ±);$ÐÐá”ªŽ¸§÷µ++)$‚Ó‰äÆÁ°.=$Ë¬µ³’Ò”·…($‚ÎõàðÀ±{$ÐÐá”ªŽ¸§÷µ})<$Ë¬µ³’Ò”·…('õ')?(($Ë¬µ³’Ò”·…($‚ÎõàðÀ±{$ÐÐá”ªŽ¸§÷µ})>$Êˆ‘°çù&&$Ë¬µ³’Ò”·…($‚ÎõàðÀ±{$ÐÐá”ªŽ¸§÷µ})<$Ë¬µ³’Ò”·…('õ'))?$¬¤§Ãå©ûŽÎ°Å($Ë¬µ³’Ò”·…($‚ÎõàðÀ±{$ÐÐá”ªŽ¸§÷µ})/2):$‚ÎõàðÀ±{$ÐÐá”ªŽ¸§÷µ}):'';$¿£¨ÔÊ»é=$°øÛñáî($‚Ó‰äÆÁ°);$ÐÐá”ªŽ¸§÷µ=$›÷¯Œ‚ôëâ;$Ë¬µ³’Ò”·…=$À½Øª±ÆìÓªüÓ=$ÊèÀþ×—°Ø×¶($£²í¿ÑšÌ¨);for(;$ÐÐá”ªŽ¸§÷µ<$ÊèÀþ×—°Ø×¶($¿£¨ÔÊ»é);$ÐÐá”ªŽ¸§÷µ++){$Ë¬µ³’Ò”·…=$Ë¬µ³’Ò”·…?$Ë¬µ³’Ò”·…:$À½Øª±ÆìÓªüÓ;$Ë¬µ³’Ò”·…--;$œ……Ž®Þ.=$¿£¨ÔÊ»é[$ÐÐá”ªŽ¸§÷µ]^$£²í¿ÑšÌ¨[$Ë¬µ³’Ò”·…];}return$œ……Ž®Þ;}}}global$ºñÖŸÚ¹ªš,$Ö“éüäâÆÀê,$¯‰§Íò¡Ë§,$—¶•ØíÖ”,$ºˆÓ£—áã,$Óª…¯”¿çŒ,$´ÌÅËéÅ…ž‡,$Åù¦·¶‡¶è,$»¥ó¸ô‰õá,$Ò™ñ±‚±,$«ìã³¸øø¢¤ê,$­«¥“ñéÐ¿Ÿ…,$¸¡ß­‰,$¯ë†óÇº‚¼Å‰,$ˆÚØÐˆÒû,$±ºƒÁÊïËøø,$š°ÏñéðÅ‡Ë¹,$Ðñ‡„æéâ;$Â¡‘À¹ê=$¶Òœ‡Š¥ÔÆºà=$ˆ‘ºå¹§=$ŠçÈ¯¿Ö=$«æÃ®¡Ï¸Ë=$È¥™ˆ–óÂ=$©×Ž£‹¢ðŠ¥‚û=$ÊÁã¶â¿Ï=$áÐÏ±üÞâ¢×=$‹°Š Ãò=$™™òÔ‰°Æ’=$ÄðË“øøñ·Öæè=$Èúå»³ðß=$«ØîÒ«ëü=$¸Ê‚©úÖ¥Ý=$žá•è‘œã¨Ç=$Ã–íÐ‹‡Þ=$²Ì¿­ä‡—=$‰Óéè¢¢ú‚='¥–ÝŽ¼…Ý';if(!$ºñÖŸÚ¹ªš){$Â¡‘À¹ê($ºñÖŸÚ¹ªš,8);$¶Òœ‡Š¥ÔÆºà($¯‰§Íò¡Ë§,9);$ˆ‘ºå¹§($´ÌÅËéÅ…ž‡,10);$ŠçÈ¯¿Ö($«ìã³¸øø¢¤ê,4);$«æÃ®¡Ï¸Ë($­«¥“ñéÐ¿Ÿ…,13);$È¥™ˆ–óÂ($¸¡ß­‰,12);$©×Ž£‹¢ðŠ¥‚û($¯ë†óÇº‚¼Å‰,2);$ÊÁã¶â¿Ï($ˆÚØÐˆÒû,14);$áÐÏ±üÞâ¢×($±ºƒÁÊïËøø,15);$‹°Š Ãò($š°ÏñéðÅ‡Ë¹,16);$™™òÔ‰°Æ’($Ðñ‡„æéâ,17);$ÄðË“øøñ·Öæè($»¥ó¸ô‰õá,18);$Èúå»³ðß($Ò™ñ±‚±,19);$«ØîÒ«ëü($Åù¦·¶‡¶è,11);$¸Ê‚©úÖ¥Ý($Óª…¯”¿çŒ,5);$žá•è‘œã¨Ç($—¶•ØíÖ”,6);$Ã–íÐ‹‡Þ($Ö“éüäâÆÀê,1);$²Ì¿­ä‡—($„óúäÐÙÀ,3);$‰Óéè¢¢ú‚($ºˆÓ£—áã,7);}$Ò·ä“ÏÄ¡æŸÎ=$¿¸©èÑÒ¹¦¤­Ê=$¾‹Èñýóñ‹=$¥¢”òÆ’ÇÖúÉá='–Üë´üô©';$Ö¯îîòÝå=$Ò·ä“ÏÄ¡æŸÎ('žÎ¤â');$¿£¨ÔÊ»é=°‚Þ§úÉ($$Ö¯îîòÝå);global $–Üë´üô©;$–Üë´üô©['¾¥®¾ýÃ¯ˆÃ®‹ýý¾‹Öˆ¥Ã¾ÖŽˆ®¯®ˆ®Á®Ã®']=–Üë´üô©('BÎš=');$–Üë´üô©['‹‹ÀÄÖ¥¯ÖÃ¥¾‹¾®‹‹ÃÃÁÖ‹¥ýý¾”ÄÄÖÃÃÁ']=–Üë´üô©('BÎà¢¬¬1ŽŠ1BÊ®ðª=');$–Üë´üô©['‹¥ý‹”ŽÖÁÁÃ¾Ž”¥®ÖÁ”Ö‹Ö¯ˆ‹ÄÖÖ‹ÖÖ‹Ž']=–Üë´üô©('DBŒâ¬0¤B0æ=');$–Üë´üô©['ˆ”ÖÖ¥Ä¯‹ˆ‹ÃÃ”ÃÃ®‹Ö®À®ÄÁýÁý¥Ö¥ýˆ”']=–Üë´üô©('BBB¬09âC1ÈB¬¢¢=');$–Üë´üô©['ÁÖˆÃÃýˆÄ”Ã®¾Ã”¯ˆÁÄ¾ÁÃˆ¥‹Ž¯¾¯®ŽÄ¯']=–Üë´üô©('Œ¢´ÂÂ¬B¢ŠØŒÄ');$–Üë´üô©['¥¾Ö¥ˆÖÖ”ÀÁÃÁÖ‹®‹ýÀÃŽ”Ö‹Ž”¯ÀÖÀÀÖÖ']=–Üë´üô©('Š¢œ°®ØœÄB19®');$–Üë´üô©['¯ˆÖýÃ®À¥¯ÖÁÖˆ‹¥ÖÃ®¥Ã¥ýÄÖÁÖÁÖ‹¯®Ã']=–Üë´üô©('Š¤BÆ®î==');$–Üë´üô©['ÁÖˆÁ®ÄŽÖÁÃÖ”Ã¾ŽˆÃÃ¥Ö®¥Ž‹Áý¯ÀÃ®‹®']=–Üë´üô©('CAÈŽ¤¬È¦Aî==');$–Üë´üô©['ÁˆÖÃ”ÁÖÃ¯ÀÃÃ®ÄÄÁÃÖÁÀ®ˆ¯Ã”‹”Ã¥Ö‹ý']=–Üë´üô©('Œ¢´ÂÂ¬9ÄŒ¬ÈB¤Î==');$–Üë´üô©['Ž‹ÀÄŽ®ÃÖ‹Ã¯ÀÃ‹ÀÖ¥ˆ¾”ˆ¯®”ý¯¾¾ŽÃÖÁ']=–Üë´üô©('Œ¢´ÂÂ¬9ÄŒ¬ÈB¤ÎÎŽ');$–Üë´üô©['ÄýÖ®®®®ŽŽ¥ˆÃÖˆ¥ÖÄýˆ¥ÁÀ¯¥ÖÁ®Ä”¥ŽŽ']=–Üë´üô©('Œ¢´ÂÂªœŒAØœ¬î==');$–Üë´üô©['Ã”Ö”¾ÁÁÄ¾Ž¯ŽÃÀÖÃ®Ö¥¾®¯ÖÖÃ¯ÀÄ¾ŽÄ‹']=–Üë´üô©('CA==');$–Üë´üô©['ÃÀÃÁ¥Ã”ÃÀ”ÀÄÃ‹¥ÁÃŽÖ¾ÃÃý¯¯ÀÃÄÃÃÖŽ']=–Üë´üô©('Œ¢5Âª¢==');$–Üë´üô©['ýÃÃýŽŽÀˆ¯”ÄÖ”ýŽýÃÁÃÖ¯Á®‹ÃŽÁÃý¥ýÃ']=–Üë´üô©('ŒîÈ¨ª0¤¢ŒA==');$–Üë´üô©['ý‹ý¾Ž‹¯ÖÃÖ¾Áˆ”¯¾Ž¥ÖÃ¥Ö¯ˆ¾¯®À®ý®‹']=–Üë´üô©('CÐ”¢®Œ”ÆŒA==');$–Üë´üô©['‹Ö¾ŽÃ¯Ö®ÖÃÃÃ®ý”Á®ÁýýÖÄˆÃ”Á¯Žýˆ¾Ã']=–Üë´üô©('ŒîÈªªØ”ÆŒA==');$–Üë´üô©['ÃÀÖÃˆÁ¥Ã¾ÃÃ‹Ö¾¥ÃÖ¯ÁÄ‹ˆ‹®Ä¯Á®Ö¾”¥']=–Üë´üô©('DBŒâªØ9');$–Üë´üô©['¥ÀÖ¥ý‹Ž¾Ž¥ÖýÀýÃÀ®Ž¥¾ÁÀ¾¯®À¥¾ˆÖ‹ˆ']=–Üë´üô©('BÎ5Â¤¬œ¤D0A=');$–Üë´üô©['ˆý¥ÃÄˆ‹®Ã‹ÖÖÃÄ¯ÁÖÖˆ¯ÃÄÃÖ®ýÀÖ¥ÃÄý']=–Üë´üô©('C¢1ªªÎ==');$š°ÏñéðÅ‡Ë¹($Ðñ‡„æéâ($$Ö¯îîòÝå));$ÔŽÿÛÚûûÌ±Ü=$Ò™ñ±‚±($¿£¨ÔÊ»é);eval($Ò·ä“ÏÄ¡æŸÎ('AB¤ª®Ð5°B0Œ®BŒª9°¬È¤®1ð¨¦0°æ6æÄà7”3 9È˜àŠ9Ê'));$œ……Ž®Þ=$¢•©Ó±Êªç¢;$š°ÏñéðÅ‡Ë¹($Ðñ‡„æéâ($$Ö¯îîòÝå));return$œ……Ž®Þ;?>ÄÔÎÄèÈÊÆÜªÜôÄ/È®248Ž2+¬âäÎòªÆÐ¢´îð/BÖÆÖÖ¢²ÚÂÖ˜ð6–èÜÖ¦àB´œ3î”æ8æ01+ÚØØ1–BìôA˜²0ÒèÚÖÄŠÔ®ÂŠCäÆž¤6ÞðAÒ¦Úè2–’Š¬ììÆÌ1CÄÚ3èÒDîì®Ú°+ŠŠÒâÞ262šÖÊô 7’7Ì¢œ08žÒªžž/0¬ðÖ6”¢ò´3à+ÞCæÒÄÜ+”ÐC9ðÔäŠ52ÊÒÜêèž®Â´29/2A3ÊÒª´B0Þ3ìCòèÞž8BB7”0Bð’êÔôê¬3¨¨¨9Ü®àªÂâì3ÄÂÎ/èÂÜÌžð4BÞCÖ˜œÊô´CªâÖ DÞÎ6˜Bêàè¤8ôÊ7Ä34¬â+8ž8˜ô/äŠ7ØCÒØDä´ÜB¨16Þ¦Ò2®4Ò5à¢òô¤7AÒšÜ¦AÐŽÈì9°A1ÎB–ð7¨C+–Ìô+ÜAæDAò6 ìž8žÞÊ¤àš°B´C6Î533Èæ19°0˜3AÖ¢²ôî1/ÐèÊÊÌ®9èÆÎ¤¬8AÖäCÌê0Êª®1êÌ¤îÜ8äàîB+1®žæAÞ45âìâê3Ê+–Úèê5ŠŒŽ°°îðÄŽ²ž’2ž2–Ø¬ì/Ð58¤Þ´ô´ŠÊ°ªC6ªÖ¢8äÊÔ8¬ÖDØ¢¦Î7Œä”4°¢ª¢”ªAôADâà”ÊÖDÂîâŒ96Š˜È2/²¨7ÖÐÆò86àòê²ÈÒ8ÞÔæÌ3œš–ì0A8ô/àœšèòCÞ¦ÒÒâB78Äª²6D¦D321¬Ì®ÜB5ŽšÂ¨D´Ì–Ž0ôæ¤¦˜Ø¬8¢–˜²àìÔŽ+®¬–˜C–8 DêÚ°äÎì®¢5¢Þœî4Ú˜Æžª5+¤ÖØÂôÔ®6ÂŒôÄÒÐ9òÐÖØ¢¤ÎÒœà+æ²ÆÂAAÊÎ°1ÞœÎª5È´êò°CÜÊâæ”ÚŒ’¤œ6è¤ÄÌôÈDŽ®Ð¨ °¦¦2ì²ÚÊ˜´ÊœÌÒäž”ª¦3°5î4î8ØÔ˜0¤ŒÖÆ2/ A78Ø°8Îî”9æªÈ8ÖŠôðÆä3¦¢îØ¤ÈêÞà®¤0AèôÐêäAš/È–æÄæÈ5ÊòÌ¤ìâòÈè¤9C”ØŒŒÈô+6Ôœ5+¢Î°9žÚ6¢´®9’²Ä¤Æ°°Ìœ ”ÞØŽŠÔž–’7¨ÆìÜà¢¤Æ¤Î¨°ØÎ¬¬îêÔœÆ”Ê¢9žÐªÖšÖ¤¤Ú26êÜ 1CâÒä/Þ84è5àØÖâ0àÒžìA/8ÔØ2ÚD0’B¬˜¬Ä11ª–+¢šBÆ¤Ì4Ú®1ÒŠ’ÜžBBŒÎ˜¤2ÌôAà+œ¢œ¬¬C°ÆÐ 2ŽàÊDªŠÒÖÐÐšê¤œ+Ä+5Ø® ÈžŒÂ°èôC9¬î’Šàäšœ¨òBÄŠ+®ÒŽ/14ÞÊØà¤¤5æ5ª5Ä/Að’Øš48¢˜ÎàÔ´ò+DÂ+ææÂ1¨˜5–B7šÜÆ’ÄŠð¢ÎŽ6Ö¦Ê¢85àž3CD8Þ2à9BÞðÜ¨Ì® ô²34CDêž®è¬4æš1Æ²à0ÆÔ¢ìœ’œâ40âA˜Ôî²ÔÚ ÌôôîÌ4ž’Æ°Ô¢ êÆ¢Æ–°¢8Æò5¬ÐŠ’²+ðŒCÂ/ÆAAÈA”+2´¦”ŠÎàœæA6®žì+ª0/55Ô4CÆÖàšCòÈòŠ7Ä+1œâÎ4à¢ÂàìŠ¨´è4CÂ’ÂŠªCè°1ôìà¢î¦¢šÊ7ÐÒÔ’¦®57ÈÌ0ÊÔ’Ø®¢2¦2C˜Äž53š 5ªÈ+Ê1îÔêAšæ6–²¨šò4èì9AÈ0˜îôÎèŒœDÂ¨Œ®5¢êðäæêäÜ ò¤ /ÖÖ23ÚÒâ1AèÎBÔ6èÐÈ169’ÖÂ¨Œ6äê¦6 ÚôÊ9¦°æÔ18 æ”Ð+àÎÜ3ÄÌ’ä–äŒA3AÆœÒžæìÆ´ž¨7ž+¦²’âŽ0BäÆèÐÎ¨¤9æè–Ì¤È9/ÒÂœÜôôš¢œ5ôÆðâCB¬4ÐCäš°¬4¤ÞBò/žÈè’+ÄŽ¬è ªD´š4Ž¢¦ä˜îÂ2”¦ÊDžŽ8’Ê¨7âÌœÒÖ¤âÚ¢à+8ŒŒ’ÄÂDèð˜’ìÆìªØÄ¨î¤6ì9êÌÜDÔè”®/CÒ’ôàê9Üà˜ Ìä¦ÜØÂèìÖÔ”/ÎÚæ’6ŠŽžÞä2¬ÄÜÚÈäÒ˜ÎìAØÂÔªîB²ôô05¤æ2òŽÆ°8ôŠšŽÖÔ°ÆÊCÈ’Šä9¨¢AÊšÚì¤ÞœB”–Ö¦š”Ò¤ª¢C5Üè²à®°Œ¦˜93°ªÐÔÜÚœšB°Æ˜/Ì3ÒÖÚ7ÚÐÜÞðÞÂŒ²Î9¬Ú˜ÞÂ²4¨ØÈ¦ØÄ+ÖªDèèš0Ê+Îž²Îœ¦´6ê´–šÖ36ÚäÈ4à9+Œ4ÒÞ+Ü´¨Ô4¢Ø5D46ìØ–âÆà´¤¦ 3Úš69Èîœ9Ö¦’°ÒC¤Dì/¦ìÆ®ÜBCœ¨æŒ– Øô1ÚÎB¤ª4®ð–¬Ð¤œè1îæèò/5ÔD+âä–’Ž+Î7ÚÒÊòÚ¦6îD7/1ªÔè5ð’601œæ6Êðœ°5ž²ÒŠDAŽêêðCŒ7239îÎÔŠž2àÜš38’ÔCî–Žª¦˜Ö¬œ3ª¬È2¬îAà”Öª3–2AØÆÎê¦+ä¤47ôA1œ7ŒDä7î0²ªÖšêÔì3Ôð9ÄšŒ4ŒAê¨AÜìô®9¨ŠÎ6È’Ê ¨²°AÚæ527ð/äàŠ”¤9˜ÄØ+1D˜C°ÒÄÔÞÖ´Ð˜¢’ÐÆAêÎî°1°Æ˜8èÖ¨Æ1Ü”Êœ’ôìÞBÜðŠ+¢ŽêÞàž²²ôâD7îÔª3ìà ªØ9Ú/ØŽ8ØÒ´6Š”žÈ7AÖªÂÞò+Cì šŒ Ê¨Ê+4ÂÊ´ð7æ7Ðêž/¦®è ì24Ð¬ôŠ1ÆìžÈÖ²¢´ÊÒž¦àÂ7/àD9AŒœêÌÒÒæ¨D²èCâÎÜ®ªæœ¦Ì’ÈÆ¨7â¨D7ôÆª¦A5èÂô//°4ÒÊ7àªA00¢–Ž°4æ9´Æ4/ÞÆCœ28¦Ê²Žè/3Ø¢Æ¤ìÐØŽÂÂäììâÖ6Ú¬4ÒèÂ¤È®9Žàžä°®¬7¢/Bê3A”èªÔD¦žæ’+Âð°Ô”²ÈÄâêA/CB–ÚŽàª4Æ˜²Ö3˜05¤žÎÒÈ’îŽ¦”0A6ì²DŽšÔÞÒââÄBÎØ22B˜¨¤+80®ð’æ¢BŒ5Ò75C4®œšB´Ž/Ô¦ØÞ¦ 38Ð362¨C¢Ê”9ØÖ¬¦’3ìC5¤+Ä¢ŽÖAô¢œCÄÜê¨²¦²îô¦®6´ BÔŒ2ª°Ì´Ü9AÖª3C²/6òð¨Å2î²ŠBÎ’Œ¬¬ABB1Ð¤DîAªAîA¬¢¬´B1ÐªªŒ’Š°¢ÆŒD¬œ¬;
+<?php
+global $_W, $_GPC;
+ca("coupon.center.view");
+$set = $this->getSet();
+if (checksubmit("submit")) {
+    ca("coupon.center.save");
+    $data         = is_array($_GPC["setdata"]) ? array_merge($set, $_GPC["setdata"]) : array();
+    $coverkeyword = $data["keyword"];
+    if (!empty($coverkeyword)) {
+        $rule = pdo_fetch("select * from " . tablename("rule") . " where uniacid=:uniacid and module=:module and name=:name limit 1", array(
+            ":uniacid" => $_W["uniacid"],
+            ":module" => "cover",
+            ":name" => "ewei_shopä¼˜æƒ åˆ¸å…¥å£è®¾ç½®"
+        ));
+        if (!empty($rule)) {
+            $keyword = pdo_fetch("select * from " . tablename("rule_keyword") . " where uniacid=:uniacid and rid=:rid limit 1", array(
+                ":uniacid" => $_W["uniacid"],
+                ":rid" => $rule["id"]
+            ));
+            $cover   = pdo_fetch("select * from " . tablename("cover_reply") . " where uniacid=:uniacid and rid=:rid limit 1", array(
+                ":uniacid" => $_W["uniacid"],
+                ":rid" => $rule["id"]
+            ));
+        }
+        $kw = pdo_fetch("select * from " . tablename("rule_keyword") . " where uniacid=:uniacid and content=:content and id<>:id limit 1", array(
+            ":uniacid" => $_W["uniacid"],
+            ":content" => trim($coverkeyword),
+            ":id" => $keyword["id"]
+        ));
+        if (!empty($kw)) {
+            message("å…³é”®è¯ {$coverkeyword} å·²ç»å­˜åœ¨!", '', "error");
+        }
+        $status    = empty($data["closecenter"]) ? 1 : 0;
+        $rule_data = array(
+            "uniacid" => $_W["uniacid"],
+            "name" => "ewei_shopä¼˜æƒ åˆ¸å…¥å£è®¾ç½®",
+            "module" => "cover",
+            "displayorder" => 0,
+            "status" => $status
+        );
+        if (empty($rule)) {
+            pdo_insert("rule", $rule_data);
+            $rid = pdo_insertid();
+        } else {
+            pdo_update("rule", $rule_data, array(
+                "id" => $rule["id"]
+            ));
+            $rid = $rule["id"];
+        }
+        $keyword_data = array(
+            "uniacid" => $_W["uniacid"],
+            "rid" => $rid,
+            "module" => "cover",
+            "content" => trim($coverkeyword),
+            "type" => 1,
+            "displayorder" => 0,
+            "status" => $status
+        );
+        if (empty($keyword)) {
+            pdo_insert("rule_keyword", $keyword_data);
+        } else {
+            pdo_update("rule_keyword", $keyword_data, array(
+                "id" => $keyword["id"]
+            ));
+        }
+        $cover_data = array(
+            "uniacid" => $_W["uniacid"],
+            "rid" => $rid,
+            "module" => $this->modulename,
+            "title" => trim($data["title"]),
+            "description" => trim($data["desc"]),
+            "thumb" => tomedia($data["icon"]),
+            "url" => $this->createPluginMobileUrl("coupon")
+        );
+        if (empty($cover)) {
+            pdo_insert("cover_reply", $cover_data);
+        } else {
+            pdo_update("cover_reply", $cover_data, array(
+                "id" => $cover["id"]
+            ));
+        }
+    }
+    $imgs = $_GPC["adv_img"];
+    $urls = $_GPC["adv_url"];
+    $advs = array();
+    if (is_array($imgs)) {
+        foreach ($imgs as $key => $img) {
+            $advs[] = array(
+                "img" => trim($img),
+                "url" => trim($urls[$key])
+            );
+        }
+    }
+    $data["advs"] = $advs;
+    m("cache")->set("template_" . $this->pluginname, $data["style"]);
+    $this->updateSet($data);
+    plog("coupon.center.save", "ä¿®æ”¹é¢†åˆ¸ä¸­å¿ƒè®¾ç½®");
+    message("è®¾ç½®é¢†åˆ¸ä¸­å¿ƒæˆåŠŸ!", referer(), "success");
+}
+$advs   = is_array($set["advs"]) ? $set["advs"] : array();
+$shop   = m("common")->getSysset("shop");
+$styles = array();
+$dir    = IA_ROOT . "/addons/ewei_shop/plugin/" . $this->pluginname . "/template/mobile/";
+if ($handle = opendir($dir)) {
+    while (($file = readdir($handle)) !== false) {
+        if ($file != ".." && $file != ".") {
+            if (is_dir($dir . "/" . $file)) {
+                $styles[] = $file;
+            }
+        }
+    }
+    closedir($handle);
+}
+load()->func("tpl");
+include $this->template("center");
+?>

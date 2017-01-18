@@ -1,8 +1,7 @@
 <?php
 
-//www.012wz.com 
 if (!defined('IN_IA')) {
-    exit('Access Denied');
+	exit('Access Denied');
 }
 define('EWEI_SHOP_DEBUG', false);
 !defined('EWEI_SHOP_PATH') && define('EWEI_SHOP_PATH', IA_ROOT . '/addons/ewei_shop/');
@@ -12,3 +11,4 @@ define('EWEI_SHOP_DEBUG', false);
 !defined('EWEI_SHOP_URL') && define('EWEI_SHOP_URL', $_W['siteroot'] . 'addons/ewei_shop/');
 !defined('EWEI_SHOP_STATIC') && define('EWEI_SHOP_STATIC', EWEI_SHOP_URL . 'static/');
 !defined('EWEI_SHOP_PREFIX') && define('EWEI_SHOP_PREFIX', 'ewei_shop_');
+!defined('EWEI_SHOP_AUTH_URL') && define('EWEI_SHOP_AUTH_URL', 'http://120.26.212.219/api.php');

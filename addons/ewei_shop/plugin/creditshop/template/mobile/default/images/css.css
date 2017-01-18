@@ -97,7 +97,7 @@ background:-moz-linear-gradient(top,rgba(0,0,0,0.0),rgba(0,0,0,0.8));
 .my_int {height:100px; width:100px; background:#f90; margin:auto; border-radius:100px; text-align:center; overflow:hidden;}
 .my_int .text {height:20px; line-height:20px; color:#fff; font-size:14px; margin-top:30px;} 
 .my_int .num {height:20px; line-height:20px; color:#fff; font-size:20px;}
-.my_shop {height:32px; width:100%; position: fixed; background-size:660px;top:190px;;width:100%; text-align: center; }
+.my_shop {height:32px; width:100%; position: fixed; background-size:6200px;top:190px;;width:100%; text-align: center; }
 .my_shop a {height:30px; width:98px; border:1px solid #eee; padding:10px; border-radius:5px; font-size:12px; color:#777; line-height:30px;}
 
 #my_line_list { position: fixed; top:260px;width:100%;overflow: auto;}

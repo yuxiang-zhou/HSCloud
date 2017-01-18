@@ -137,28 +137,11 @@
                 Tip.focus($(':input[name=tp_title]'),'请输入模板名称!');
                 return false;
             }
-            if($(':input[name=tp_template_id]').isEmpty()){
-                Tip.focus($(':input[name=tp_template_id]'),'请输入模版消息ID!');
-                return false;
-            }
-            
             if($(':input[name=tp_first]').isEmpty()){
                 Tip.focus($(':input[name=tp_first]'),'请输入first.DATA!');
                 return false;
             }
-            if($('.key_item').length<=0){
-                Tip.focus(   $(".btn-add-type") ,'请添加一条键!','right');
-                return false;
-            }
-            var checkkw = true;
-            $(":input[name='tp_kw[]']").each(function(){
-                if ( $.trim( $(this).val() ) ==''){ 
-                    checkkw = false;
-                    Tip.focus(   $(this) ,'请输入键名!');    
-                    return false;
-                }
-            })
-            return checkkw;
+            return true;
       });
  
     </script>
@@ -398,4 +381,4 @@
             </form>
         </div>
 {/if}
-{template 'web/_footer'}
+{template 'common/footer'}

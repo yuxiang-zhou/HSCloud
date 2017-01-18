@@ -4,6 +4,8 @@ define(['jquery.ui'], function (ui) {
         window.tpl = params.tpl;
         modal.attachurl = params.attachurl;
         modal.followbar = params.followbar;
+        modal.merch = params.merch;
+
         if (!modal.followbar) {
             modal.followbar = {
                 params: {
@@ -57,6 +59,8 @@ define(['jquery.ui'], function (ui) {
         })
     };
     modal.initItems = function () {
+        var followbar = modal.followbar;
+        followbar.merch = modal.merch;
         var html = tpl("tpl_show_followbar", modal.followbar);
         $("#phone").html(html).show()
     };
@@ -129,7 +133,7 @@ define(['jquery.ui'], function (ui) {
             return
         }
         $(".btn-save").data('status', 1).text("保存中...");
-        var posturl = biz.url("diypage/shop/followbar");
+        var posturl = biz.url("diypage/shop/followbar", null, modal.merch);
         $.post(posturl, {data: modal.followbar}, function (ret) {
             if (ret.status == 0) {
                 tip.msgbox.err(ret.result.message);

@@ -121,7 +121,14 @@
                 <label class="col-xs-12 col-sm-3 col-md-2 control-label">提现额度</label>
                 <div class="col-sm-9 col-xs-12">
                     <input type="text" name="setdata[withdraw]" class="form-control" value="{php echo empty($set['withdraw'])?1:$set['withdraw']}"  />
-                    <span class="help-block">分销商的佣金达到此额度时才能提现,最低1元</span>
+                    <span class="help-block">分销商的佣金达到此额度时才能提现，最低1元</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-xs-12 col-sm-3 col-md-2 control-label">提现比例</label>
+                <div class="col-sm-9 col-xs-12">
+                    <input type="text" name="setdata[withdrawrate]" class="form-control" value="{php echo empty($set['withdrawrate'])?100:$set['withdrawrate']}"  />
+                    <span class="help-block">分销商的佣金提现时的比例（百分比）</span>
                 </div>
             </div>
             <div class="form-group">

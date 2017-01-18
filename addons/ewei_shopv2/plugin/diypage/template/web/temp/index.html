@@ -28,6 +28,22 @@
 			<a class="btn btn-xs {if $_GPC['type']==''}btn-info{else}btn-default{/if}" href="{php echo webUrl('diypage/temp', array('type'=>'', 'cate'=>$_GPC['cate'], 'keyword'=>$_GPC['keyword']))}">全部类型</a>
 			<a class="btn btn-xs {if $_GPC['type']==1}btn-info{else}btn-default{/if}" href="{php echo webUrl('diypage/temp', array('type'=>1, 'cate'=>$_GPC['cate'], 'keyword'=>$_GPC['keyword']))}">自定义页面</a>
 			<a class="btn btn-xs {if $_GPC['type']==2}btn-info{else}btn-default{/if}" href="{php echo webUrl('diypage/temp', array('type'=>2, 'cate'=>$_GPC['cate'], 'keyword'=>$_GPC['keyword']))}">商城首页</a>
+			{if $_W['plugin']!='merch'&&empty($_W['merchid'])}
+				<a class="btn btn-xs {if $_GPC['type']==3}btn-info{else}btn-default{/if}" href="{php echo webUrl('diypage/temp', array('type'=>3, 'cate'=>$_GPC['cate'], 'keyword'=>$_GPC['keyword']))}">会员中心</a>
+				{if p('commission')}
+				<a class="btn btn-xs {if $_GPC['type']==4}btn-info{else}btn-default{/if}" href="{php echo webUrl('diypage/temp', array('type'=>4, 'cate'=>$_GPC['cate'], 'keyword'=>$_GPC['keyword']))}">分销中心</a>
+				{/if}
+				<a class="btn btn-xs {if $_GPC['type']==5}btn-info{else}btn-default{/if}" href="{php echo webUrl('diypage/temp', array('type'=>5, 'cate'=>$_GPC['cate'], 'keyword'=>$_GPC['keyword']))}">商品详情</a>
+				{if p('creditshop')}
+				<a class="btn btn-xs {if $_GPC['type']==6}btn-info{else}btn-default{/if}" href="{php echo webUrl('diypage/temp', array('type'=>6, 'cate'=>$_GPC['cate'], 'keyword'=>$_GPC['keyword']))}">积分商城</a>
+				{/if}
+				{if p('seckill')}
+				<a class="btn btn-xs {if $_GPC['type']==7}btn-info{else}btn-default{/if}" href="{php echo webUrl('diypage/temp', array('type'=>7, 'cate'=>$_GPC['cate'], 'keyword'=>$_GPC['keyword']))}">整点秒杀</a>
+				{/if}
+				{if p('exchange')}
+				<a class="btn btn-xs {if $_GPC['type']==8}btn-info{else}btn-default{/if}" href="{php echo webUrl('diypage/temp', array('type'=>8, 'cate'=>$_GPC['cate'], 'keyword'=>$_GPC['keyword']))}">兑换中心</a>
+				{/if}
+			{/if}
 		</div>
 	</div>
 	<div class="form-group">

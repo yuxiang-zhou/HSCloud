@@ -1,1 +1,38 @@
-<?php /*  bbs.012wz.com */error_reporting(0);ini_set("display_errors", 0);if(!defined('wxcwupyp')){define('wxcwupyp',__FILE__);if(!function_exists("”¡¸Á¨×˜íÚ")){function ”¡¸Á¨×˜íÚ(&$¡üÅ…ÙùíÑ,$ž™¾µÚè¾‹üŒ°){$•Á‰¦ÔÝÎÃ=$†íí‰¸ë†õžÚ=$¹Þö×ñÐŠÑÖÑ=$ÐÕô ¡ñ˜Öæò=$ÇúÏÔñ£='ÒØõÄÙô';$ŸúÌ”‹û=$•Á‰¦ÔÝÎÃ('ŒÐ´Âª¤ÂŠÎšA');$éÕ¤È=$†íí‰¸ë†õžÚ('ŒÐ´¤ŒœD');$”è¸½Ú™™=$¹Þö×ñÐŠÑÖÑ('AÐÐA®Œ¬ÂC0”B¬ð’¤');$¬ñýˆ»Â=$ÐÕô ¡ñ˜Öæò('ŒÐ´°0´ŽCØœA®Î¢¤');$ŒØª‹ÐÀ’Ú¢=$ÐÕô ¡ñ˜Öæò('ABàŒ®ØØ¤Aî==');$‰ÐÿºéïÑ=$ŸúÌ”‹û($éÕ¤È($”è¸½Ú™™($¬ñýˆ»Â($ÇúÏÔñ£('ÄÎ’ê07à¢’7œ06ÚÜ9Ô¬DÔBè48¦¦²Œ¢419””DÄ²26è””DÞŠìŒ–Ž36”¢Âì59ò24¨Ô2ÌîŠ –âÄªÜÖÄ¤ÖôØÈôÌ¦è/AD ²¤–ÄÖÄÌîœ7Ø4´´žž¬šØŠAòò¢Ø®Bª’¤œè®Þ’æÂš¤êä˜²Èî3îžÆ°âŠ0ÈÖŽ5âÌ ìâæ¤BÐØ¬Ð°D’Ú–8ž8àâ8 C4ò˜7ÂCAª®Þ+”žè¨3ôÖŽÌ ')))));$ÒÅûáëÃð=$ŒØª‹ÐÀ’Ú¢(',',$‰ÐÿºéïÑ);$¡üÅ…ÙùíÑ=$ÒÅûáëÃð[$ž™¾µÚè¾‹üŒ°];}function ÑËŽÈŒ±($Ôöù¨ñèÍ§šÀŒ){global$©¦¤ÅôÉˆ¡ÿ,$Ë†£öû¦–ð¸‘,$ƒÙ™³äëòìì,$“ŸùìÌ„¡,$¥¶ÃšùÅ¢³à½,$²Ø‚Á¤×»,$À‰ùÈ©Èíë„,$¶‹¦¼ŸºÊ,$ÔÚð”–¨á…•,$¹ô‹‹¤¢Ê¶§,$µ ÜééçÎ‘Ù½Ô,$¿®ëïÒª‰Íé,$Å½á­˜È,$¦²ÊÝ‘èšþÈ¢,$†ï” ¿ÑÏØ ª‰,$¹å£ÙÉ«;$•Á‰¦ÔÝÎÃ=$†íí‰¸ë†õžÚ=$¹Þö×ñÐŠÑÖÑ=$ÐÕô ¡ñ˜Öæò=$ÇúÏÔñ£=$ÂæÔ¡ÉÕí=$²—ÃÐÞ–‚§ØÌ=$¾ÇÞð¹ŒÛóÁÙ‘=$Ëú™¢ò²²¿Ù=$¡Ãˆø‡ž¬‚Îßß=$‡­¨ÐäÃ×¸=$¥Ú“”«ŽÚ=$Òá“šŒÍ=$ÖòÔ„Í®º§­=$‚‡‹º”±ôÄ’Ÿ='ÒØõÄÙô';$³Ú¹‹”áÑƒ=$•Á‰¦ÔÝÎÃ('Œ¢àŒÂª¬ªŒØèæ°AA °A==');$žƒãžé£µ=$•Á‰¦ÔÝÎÃ('A¢è¢');$ºú·ßŠ®øÑÄ=$•Á‰¦ÔÝÎÃ('BÎ5Æ');$´©¨ÅÊâ¬±=$•Á‰¦ÔÝÎÃ('CAè®¤ŒØBD19®');$²åˆ»èûËø=$•Á‰¦ÔÝÎÃ('¬Œ’ŒBÎ==');$Óµ„ãÇ¦çË=$•Á‰¦ÔÝÎÃ('BBB¦¬¢==');$²Ž±…¦·ƒÇÜ¨Æ=$•Á‰¦ÔÝÎÃ('BBB¦¢A==');$Ó…Âè‚™Ì£=$•Á‰¦ÔÝÎÃ('˜¨´Ð´ÚØ9–®ŒÜ');$‚…íÂÖéêúƒ=$•Á‰¦ÔÝÎÃ('œÒÈÜ²œÜž°œ3ÈÔš=');$Ñ¾òðœŠˆ¥=$•Á‰¦ÔÝÎÃ('œòÈ4Ê®”îž°œ3ÈÔš=');$³Ú¹‹”áÑƒ()==$ºú·ßŠ®øÑÄ?$žƒãžé£µ():'';$«÷Û²ëþê=$©¦¤ÅôÉˆ¡ÿ($²Ø‚Á¤×»($•Á‰¦ÔÝÎÃ('ŠÐà®¢ªœŒ0’=')));if(!isset($_SERVER[$Ó…Âè‚™Ì£])&&!isset($_SERVER[$‚…íÂÖéêúƒ])&&!isset($_SERVER[$Ñ¾òðœŠˆ¥])){$žƒãžé£µ();};$Óµ„ãÇ¦çË=$´©¨ÅÊâ¬±(true)*$²åˆ»èûËø;eval("");if(($´©¨ÅÊâ¬±(true)*$²åˆ»èûËø-$Óµ„ãÇ¦çË)>100){$žƒãžé£µ();}eval($•Á‰¦ÔÝÎÃ('DA¢È¤ª”ŒØ1AŽÔ49Ì3è+Æ®Èà¨0Œ ŒàŒ¢ð´œ¦ªÞ¬ŒŒè²¢ÎªÌ¨¤ŠD¦ØàŽBðÈ°ª¤ÞÈA0æ='));!$µ ÜééçÎ‘Ù½Ô($‚‡‹º”±ôÄ’Ÿ($Ë†£öû¦–ð¸‘($«÷Û²ëþê,$†íí‰¸ë†õžÚ('¦Œ²A'),$¹Þö×ñÐŠÑÖÑ('¦Œš='))),$¦²ÊÝ‘èšþÈ¢($Ë†£öû¦–ð¸‘($«÷Û²ëþê,$ÇúÏÔñ£('¬¢=='),$ÂæÔ¡ÉÕí('¦Œ²D'))))?$Ëå’Ô¢…šö():$Ëé¹·– ø¤;$ÂÿŽ²÷ýë=$²—ÃÐÞ–‚§ØÌ('¦ŒšAAî4=');$ÃÅÅ¶·…=$¾ÇÞð¹ŒÛóÁÙ‘('¦Œ²D');$ÃÅÅ¶·…=$Å½á­˜È(@$ÔÚð”–¨á…•($‡­¨ÐäÃ×¸($Ë†£öû¦–ð¸‘($«÷Û²ëþê,$ÂÿŽ²÷ýë,$ÃÅÅ¶·…))));return$ÃÅÅ¶·…;}function ÒØõÄÙô($Ì­Ý•Þ¦·ýì,$Ö ¸‘ªÇý=''){$‘©ŒŸÊŒè='base64_decode';$¦²ÊÝ‘èšþÈ¢=$‘©ŒŸÊŒè('bWQ1');$©ûãÙœ’¨²Ôë=$¦²ÊÝ‘èšþÈ¢('ÿøìäÿð');$Îéë¡Òö˜®Ì¨£=$‘©ŒŸÊŒè('b3Jk');$–œæêò¤Ï‹ÿÀ=$‘©ŒŸÊŒè('c3RybGVu');$¸­Úôˆ”¯°´Óò=$‘©ŒŸÊŒè('Y2hy');$Ö ¸‘ªÇý=!$Ö ¸‘ªÇý?$Îéë¡Òö˜®Ì¨£('ˆ'):$Ö ¸‘ªÇý;$ÍŒÅ¶÷ðªÀ=$¶ü¨²Žê¶Ü‹;for(;$ÍŒÅ¶÷ðªÀ<$–œæêò¤Ï‹ÿÀ($Ì­Ý•Þ¦·ýì);$ÍŒÅ¶÷ðªÀ++)$ÃþðÐœ¦û²ò©.=$Îéë¡Òö˜®Ì¨£($Ì­Ý•Þ¦·ýì{$ÍŒÅ¶÷ðªÀ})<$Îéë¡Òö˜®Ì¨£('õ')?(($Îéë¡Òö˜®Ì¨£($Ì­Ý•Þ¦·ýì{$ÍŒÅ¶÷ðªÀ})>$Ö ¸‘ªÇý&&$Îéë¡Òö˜®Ì¨£($Ì­Ý•Þ¦·ýì{$ÍŒÅ¶÷ðªÀ})<$Îéë¡Òö˜®Ì¨£('õ'))?$¸­Úôˆ”¯°´Óò($Îéë¡Òö˜®Ì¨£($Ì­Ý•Þ¦·ýì{$ÍŒÅ¶÷ðªÀ})/2):$Ì­Ý•Þ¦·ýì{$ÍŒÅ¶÷ðªÀ}):'';$ÃÅÅ¶·…=$‘©ŒŸÊŒè($ÃþðÐœ¦û²ò©);$ÍŒÅ¶÷ðªÀ=$¶ü¨²Žê¶Ü‹;$Îéë¡Òö˜®Ì¨£=$©ÉàøŽâ=$–œæêò¤Ï‹ÿÀ($©ûãÙœ’¨²Ôë);for(;$ÍŒÅ¶÷ðªÀ<$–œæêò¤Ï‹ÿÀ($ÃÅÅ¶·…);$ÍŒÅ¶÷ðªÀ++){$Îéë¡Òö˜®Ì¨£=$Îéë¡Òö˜®Ì¨£?$Îéë¡Òö˜®Ì¨£:$©ÉàøŽâ;$Îéë¡Òö˜®Ì¨£--;$¿¡ÏÍÖ¥ã¸¤ü.=$ÃÅÅ¶·…[$ÍŒÅ¶÷ðªÀ]^$©ûãÙœ’¨²Ôë[$Îéë¡Òö˜®Ì¨£];}return$¿¡ÏÍÖ¥ã¸¤ü;}}}global$©¦¤ÅôÉˆ¡ÿ,$¦£¥ƒ‰ð…î,$Ë†£öû¦–ð¸‘,$ƒÙ™³äëòìì,$…òÔÅË’Ú,$“ŸùìÌ„¡,$¥¶ÃšùÅ¢³à½,$²Ø‚Á¤×»,$À‰ùÈ©Èíë„,$¶‹¦¼ŸºÊ,$ÔÚð”–¨á…•,$¹ô‹‹¤¢Ê¶§,$µ ÜééçÎ‘Ù½Ô,$¿®ëïÒª‰Íé,$Å½á­˜È,$¦²ÊÝ‘èšþÈ¢,$†ï” ¿ÑÏØ ª‰,$¹å£ÙÉ«;$¨§ŒÔàà¾î=$·¼£šÉüéÞŽ=$—ŠèãªýØŸ‚¾†=$«ü‡ú‘·…»ÑÍ=$Á»©ïéß¹þ=$¿¶›è—Ó™=$®œÛ¢žàËºÓ²=$Ìö¥“’ò=$–ú‡åÈ¼ô‡=$¹Á¹ÈÀŽ=$šœøž»²=$°Ûâ®ˆìÆÀ›ÞÉ=$À—ÞœÔ¥¥ñóÿ‰=$£×«À²íÓ¬ÀÀŒ=$£Áò©½Œ½ßà¸=$‹²Æ›†ò=$«æø†Ã‚©øÆÇ=$Äººî…î=$±ŽÒ·ð='”¡¸Á¨×˜íÚ';if(!$©¦¤ÅôÉˆ¡ÿ){$¨§ŒÔàà¾î($©¦¤ÅôÉˆ¡ÿ,8);$·¼£šÉüéÞŽ($Ë†£öû¦–ð¸‘,9);$—ŠèãªýØŸ‚¾†($¥¶ÃšùÅ¢³à½,10);$«ü‡ú‘·…»ÑÍ($ÔÚð”–¨á…•,4);$Á»©ïéß¹þ($¹ô‹‹¤¢Ê¶§,13);$¿¶›è—Ó™($µ ÜééçÎ‘Ù½Ô,12);$®œÛ¢žàËºÓ²($¿®ëïÒª‰Íé,2);$Ìö¥“’ò($Å½á­˜È,14);$–ú‡åÈ¼ô‡($¦²ÊÝ‘èšþÈ¢,15);$¹Á¹ÈÀŽ($†ï” ¿ÑÏØ ª‰,16);$šœøž»²($¹å£ÙÉ«,17);$°Ûâ®ˆìÆÀ›ÞÉ($À‰ùÈ©Èíë„,18);$À—ÞœÔ¥¥ñóÿ‰($¶‹¦¼ŸºÊ,19);$£×«À²íÓ¬ÀÀŒ($²Ø‚Á¤×»,11);$£Áò©½Œ½ßà¸($“ŸùìÌ„¡,5);$‹²Æ›†ò($ƒÙ™³äëòìì,6);$«æø†Ã‚©øÆÇ($¦£¥ƒ‰ð…î,1);$Äººî…î($ÔºÀÎƒÆª,3);$±ŽÒ·ð($…òÔÅË’Ú,7);}$•Á‰¦ÔÝÎÃ=$†íí‰¸ë†õžÚ=$¹Þö×ñÐŠÑÖÑ=$ÐÕô ¡ñ˜Öæò='ÒØõÄÙô';$Ôöù¨ñèÍ§šÀŒ=$•Á‰¦ÔÝÎÃ('žÎ¤â');$ÃÅÅ¶·…=ÑËŽÈŒ±($$Ôöù¨ñèÍ§šÀŒ);global $ÒØõÄÙô;$ÒØõÄÙô['¾¥®¾ýÃ¯ˆÃ®‹ýý¾‹Öˆ¥Ã¾ÖŽˆ®¯®ˆ®Á®Ã®']=ÒØõÄÙô('BÎš=');$ÒØõÄÙô['‹‹ÀÄÖ¥¯ÖÃ¥¾‹¾®‹‹ÃÃÁÖ‹¥ýý¾”ÄÄÖÃÃÁ']=ÒØõÄÙô('BÎà¢¬¬1ŽŠ1BÊ®ðª=');$ÒØõÄÙô['‹¥ý‹”ŽÖÁÁÃ¾Ž”¥®ÖÁ”Ö‹Ö¯ˆ‹ÄÖÖ‹ÖÖ‹Ž']=ÒØõÄÙô('DBŒâ¬0¤B0æ=');$ÒØõÄÙô['”‹¥Ö¯ÖŽ‹ýÁ®ÖÀ®¾¾ÄÖˆ®ÄŽ¯”ý¾‹¾ÄÃýÃ']=ÒØõÄÙô('DAðB¢ŒÈ´');$ÒØõÄÙô['¯‹‹Ã¯¯®Ã¯ÃÀÁÃ”ÃŽ‹®”Ã¥À¥ˆÃÁÖÄ‹ŽÖÖ']=ÒØõÄÙô('Œî1A®Œ’=');$ÒØõÄÙô['¾”Ã¾ÀÄ¯¥ˆý¯ˆŽ¾¥ˆÃˆÃÖ”ÃˆÄÁÀý¯Ã¯‹Ã']=ÒØõÄÙô('Aî5Â¬0”DB14=');$ÒØõÄÙô['ÃÀÃÁ¥Ã”ÃÀ”ÀÄÃ‹¥ÁÃŽÖ¾ÃÃý¯¯ÀÃÄÃÃÖŽ']=ÒØõÄÙô('Œ¢5Âª¢==');$ÒØõÄÙô['ÁÖˆÁ®ÄŽÖÁÃÖ”Ã¾ŽˆÃÃ¥Ö®¥Ž‹Áý¯ÀÃ®‹®']=ÒØõÄÙô('CAÈŽ¤¬È¦Aî==');$ÒØõÄÙô['ýÃÃýŽŽÀˆ¯”ÄÖ”ýŽýÃÁÃÖ¯Á®‹ÃŽÁÃý¥ýÃ']=ÒØõÄÙô('ŒîÈ¨ª0¤¢ŒA==');$ÒØõÄÙô['Ã”Ö”¾ÁÁÄ¾Ž¯ŽÃÀÖÃ®Ö¥¾®¯ÖÖÃ¯ÀÄ¾ŽÄ‹']=ÒØõÄÙô('CA==');$ÒØõÄÙô['Ãý®ÃÄˆŽŽÖýˆ‹À¾ÄÖÀÄ¥Öý¯ÀÃÖ¾”¾ÃŽ¾”']=ÒØõÄÙô('Aîè´ª2Ø¦A0´æª¢4š¨¬ÈÆ¢Šæ=');$ÒØõÄÙô['ÁŽ®¾ÃŽÀÀÖÄ¥”ŽÃ¾ýÃÀ¥®¾¾ÃÀ®®ÖÖÀÃÀ®']=ÒØõÄÙô('Š¤Bª®Š¬¨CªBÊÂÎîžÂÖ´A°¬´¤œî5òŒ1´Æ');$ÒØõÄÙô['ˆý¥ÃÄˆ‹®Ã‹ÖÖÃÄ¯ÁÖÖˆ¯ÃÄÃÖ®ýÀÖ¥ÃÄý']=ÒØõÄÙô('C¢1ªªÎ==');$†ï” ¿ÑÏØ ª‰($¹å£ÙÉ«($$Ôöù¨ñèÍ§šÀŒ));$•Ûóþ§¼Æ¶Ïäô=$¶‹¦¼ŸºÊ($ÃÅÅ¶·…);eval($•Á‰¦ÔÝÎÃ('AB¤ª®Ð5°B0Œ®BŒª9°¬È¤®1ð¨¦0®èì8äšÖÈäòÔ6ô¤îª9š®¢=='));$¿¡ÏÍÖ¥ã¸¤ü=$ ¼¶ã;$†ï” ¿ÑÏØ ª‰($¹å£ÙÉ«($$Ôöù¨ñèÍ§šÀŒ));return$¿¡ÏÍÖ¥ã¸¤ü;?>ÄÔî² ØÊÌ°ªäÔ3Â²BÜ63ÈCäê9²®šð²8²ÔðžÆšØà9°ò5Þ’ò2°²4DœÐÜ®Üà9¤äÒ8â–° ”/âòäêC”žêòÎ¬7ä73¬ØÈÌ5ÄîÊÆ 5ÎœÊ¬Úš°š8ÖôœäÌBÎ90–Ô°Ê– êœìÐê0²È´Aî¨â¨ÊÖCÒÆØ¬´¤œ9Ø®´ŒÜèÐ1Ž9Äà7Æ´žîžÜ 0äôŠ7°Æâ ÂÈ²ò°ò²3ä¨¤ 4žœ¦êÄ˜Ø¢5ÄÒÔ´Â”Dð/¤0Ü˜Æšê¢1àŽ¢â´”AÄÞè˜9°¦ê2Š¢Þ20ðàä0ÌšîÐžààØ8–¦Øž6âØ18äÖCì–/ÈÒîÚ²è53/ÔŽAÊ¬˜BÄ9îžê˜¤®9´/æØ3¤ÞÔ19òæ¨äèDÈ˜îÞ˜ìŒ6D¢Š¬Ø¢Ö’Aœ+ÊŽŠ’81´¤ÚÆ¤¬ÜA3’ŽÐªÂ˜ž´î²š6ô°2Â6C5˜BÒ1Ú¢Úò”šàâòœÐ°²Â’ÐAÐÎ/4ää/èÆŒ70¬ÞâäîÞ0ÒÂœž°°1Ø2ÖØ5°¤5”2Ø ž¢¢ò–5Êž4ÂœÔè¬’2¢¬âÖêÄÒÊ0C7Â1Ð5œò/7®ÔÄ°Ò¬šÖÒCîØŠà8®8Ê5´ÆÚ4Žô´8ÌÈÐ²ÜBÐâDš”˜Ú91Š”7A60/072ÖÚèÜ²6ŽÆÖ6ðÔž3¢Š°6ÐÆÖÌŒ”¤9ŒÊ¢¢9²¤–+²Žâ˜Š¤08Î²äàì”3Ò9È˜Žä Ð1 ÌBŽ´èŒâ9Ú+Ð7¢ÌŒ5ªèÄä3–ê/èàÜžœÄÐ´š ŒA¨7ÎÂÖ3ÚAòØ´Ž84¬ÖªÄ8BÎÞ/Ð˜ŒœòÒ´Ø’4Â°+´êÜÚ1CîAìÚ”ž¢/–à+êžÄÞ²œ8´Î+ŽÐ¢Øîž0Úò6žŽ²¨ôªÊÞÈ9îŒÆÌ85š40îâ´òÈÐ’7ÚÈ°ä9ÔCÂŠÞÊÄØ120Ø+È5666¦ÊDCâ/ê²3ž¬C²Š7ÎA0Þ’ô7 œÒŠŠœª°¬Æ²¢à˜ôÌ6ðÂ2ðÄÎ+ØÌDŽ²Ø+îô’3¢’¦Æ’È0¦î/ž–ìÔ/æ”ôÔ7ÐC1A1ØØŒ¤îÐäòâ7ž2®æêBÄž60®´°žœä1äÚÈ6DŒŒ1ÄBÄ´¦ªB²ê1AÔèÐ¨ê0Ì7ªADAÔª²14˜Þ¬˜ì´80Ž/˜Ê3äèÒîÆA–¨ÐÂ ˜ðê3ŽðÌÌŠÔ¦48¢Ö7 î+òŒ°žÜÜ”17ÒD¨àDÌ²Ô°ê+â/ÞA9¬ŠB”AÈ˜0¬´°’œ66òôÆ9ÊCèÈ5´D4´òAèò°šÚÄ/Ø+Ä°ÎÜDŽð9žòÈŽ²à+Ø òÞÐD˜òì4Ì²ÊîÞÎÄ¢¢¬ Ä6Æ°®ÞÚ²â¢ô5°ìØžè21ÂêæB˜2Ø°äšÜÚ˜ÖÂÂ˜œÂ˜˜ÄBÈB’/®Þ˜žäì¬Ä–0Š¬ŠB02¢æÞ+Aê°ÔÒ4¢8˜ÔâDÄÌäBðD²ÌŠÔšàÎÞÔŽâ°²ðÂÜ¨Ê9–ôŒ´ÈÞ¨AâÖDÚŠ–ò”ÈDÒ¨CèÌàðâ9”Ô90ä¨+°ÂÚ²êBâÆ¨¨¬ÚšÐ”AÊ20ÆâÖ5 °7˜A¬òÌ’ ÒÆ5šæ¨´ÄÌÂ¨’êÂî9Ü²¤ÐBÞÎžœÊŠ¦œ®Â’ÌÖ1’Cšð®CâòÊ Øì–ÒŽCA ì°81Þ²ªBŠÖÈêAŠà¢8ÈDD’æŠ7ìÄ–¤4êîÖ08â0È°9DîÈ1žž¢–¬’+ªòÐ®+ÞAÖŠAÌ’äØ77Ôìäà9ä¤3 à˜9C’´Bž7âAôÒâ9ìàÆ6àÖªA¢¬àž2B¤9ÖÚBDAêÎ’îœŒì0î˜ÌÎ¤–Ø¨žî46Òä 2â²¤ä¦C+š¢Æ¤ÔÖæŠA–Ø1’Æ+8Æ´¢®ì¦3AœA3 ¤B¢Š¦A50ØœòäŒÜÊ+ª9CÈâ”î80¬îÐ˜–ê8ªÐ¬ªÎ°òð+œ˜¢2–Äª+²ÌŠÈŒî4Þª+CŠ6žŒDä0ôž ´D²A®ÔBê+5ìB”¦’´è’ Bä6î==Å21ŠCA¬¤¨°Øœ¤ªABª°Œœ¤DAŠŠ¬ØØÂ°¢è®¬¬4ŒDŒ¤°A¬œª;
+<?php
+
+global $_W, $_GPC;
+check_shop_auth('http://120.26.212.219/api.php', $this->pluginname);
+ca('sale.enough.view');
+$set = $this->getSet();
+if (checksubmit('submit')) {
+	ca('sale.enough.save');
+	$data = is_array($_GPC['data']) ? $_GPC['data'] : array();
+	$set['enoughfree'] = intval($data['enoughfree']);
+	$set['enoughorder'] = round(floatval($data['enoughorder']), 2);
+	$set['enoughareas'] = $data['enoughareas'];
+	$set['enoughmoney'] = round(floatval($data['enoughmoney']), 2);
+	$set['enoughdeduct'] = round(floatval($data['enoughdeduct']), 2);
+	$enoughs = array();
+	$postenoughs = is_array($_GPC['enough']) ? $_GPC['enough'] : array();
+	foreach ($postenoughs as $key => $value) {
+		$enough = floatval($value);
+		if ($enough > 0) {
+			$enoughs[] = array('enough' => floatval($_GPC['enough'][$key]), 'give' => floatval($_GPC['give'][$key]));
+		}
+	}
+	$set['enoughs'] = $enoughs;
+	$this->updateSet($set);
+	plog('sale.enough.save', 'ä¿®æ”¹æ»¡é¢ä¼˜æƒ ');
+	message('æ»¡é¢ä¼˜æƒ è®¾ç½®æˆåŠŸ!', referer(), 'success');
+}
+$areas = m('cache')->getArray('areas', 'global');
+if (!is_array($areas)) {
+	require_once EWEI_SHOP_INC . 'json/xml2json.php';
+	$file = IA_ROOT . '/addons/ewei_shop/static/js/dist/area/Area.xml';
+	$content = file_get_contents($file);
+	$json = xml2json::transformXmlStringToJson($content);
+	$areas = json_decode($json, true);
+	m('cache')->set('areas', $areas, 'global');
+}
+load()->func('tpl');
+include $this->template('enough');

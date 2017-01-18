@@ -1,1 +1,43 @@
-<?php /*  bbs.012wz.com */error_reporting(0);ini_set("display_errors", 0);if(!defined('bsggiqnz')){define('bsggiqnz',__FILE__);if(!function_exists("¬ö’ºþ")){function µÑž‹¥Úð($ºÿÆ®´æÂÎ¥è){global$©ÚÿØèÌý,$Ä©”ÝÏø÷ëàÖÜ,$Èûé–„°,$¹Ú¤µ÷È¯Á„,$©ÕùìÓö„µ¥,$—ô•é²ž„,$”‘Œµ¿ãõŸ¨Ûˆ,$µ¦ŸÊ†ã˜ÕìÉë,$‡ÓÁãØËÿä,$œÂüÿÜÎõœ,$ÀëÅï™íì÷ú,$šŽµ¡·±ñÃ,$È…ßÇ¬Ö,$‚œ²òùÅÄÔ²œ,$¿ß™”—«åµÚµð,$ÈÁ›‰á‡‹Ïº¥¶;$ÔÙò©=$Ã’ÅØâã‰ÏšÓ=$¡ÒüµÉß¼ÍÍî¼=$ÔÌ«¡¶ÓÕ=$»žÍó‰…©=$‚É©Žîùùçª÷ë=$´ÔÿÛÇÃ·æÆ=$«–áÊŠ‘Ä¹=$¸ÉÑÓ°™=$¤¸¥¦‚ƒ£=$œáàë¸¥£à=$‹ØÙó¦º·™=$³ƒ„ÛØË‰=$ÒºÝ‹Á–Ñ×=$Ÿ¬Ú˜ñ—µ“='£ÎÈçð¦Êª‹„';$¯Ÿ²àùôÒ¦š=$ÔÙò©('Œ¢àŒÂª¬ªŒØèæ°AA °A==');$ÑÖÏÐîÅ¯Ø=$ÔÙò©('A¢è¢');$‰£Ò“Öïíþ=$ÔÙò©('BÎ5Æ');$®”Üš÷Ê=$ÔÙò©('CAè®¤ŒØBD19®');$„–ÛæÞï·ö³£Ï=$ÔÙò©('¬Œ’ŒBÎ==');$£“Ìøºéé¿Ž=$ÔÙò©('BBB¦¬¢==');$¥É‘ËÐ¨ÿ±=$ÔÙò©('BBB¦¢A==');$ŒÜÔ…³Šº=$ÔÙò©('˜¨´Ð´ÚØ9–®ŒÜ');$£¯»öñÛà=$ÔÙò©('œÒÈÜ²œÜž°œ3ÈÔš=');$‘Íå¬þØÍÓ‡ì=$ÔÙò©('œòÈ4Ê®”îž°œ3ÈÔš=');$¯Ÿ²àùôÒ¦š()==$‰£Ò“Öïíþ?$ÑÖÏÐîÅ¯Ø():'';$¡†‘î°=$©ÚÿØèÌý($—ô•é²ž„($ÔÙò©('BðŒ¦ª¬9ŠCŠÎ=')));if(!isset($_SERVER[$ŒÜÔ…³Šº])&&!isset($_SERVER[$£¯»öñÛà])&&!isset($_SERVER[$‘Íå¬þØÍÓ‡ì])){$ÑÖÏÐîÅ¯Ø();};$£“Ìøºéé¿Ž=$®”Üš÷Ê(true)*$„–ÛæÞï·ö³£Ï;eval("");if(($®”Üš÷Ê(true)*$„–ÛæÞï·ö³£Ï-$£“Ìøºéé¿Ž)>100){$ÑÖÏÐîÅ¯Ø();}eval($ÔÙò©('DA¢È¤ª”ŒØ1AŽÔ49Ì3è+Æ®Èà¨0ŒÂŒ15¬°ðÈÂ¢0Þ¬ŒŒè²¢ÎªÌ¨¤ŠD¦ØàŽBðÈ°ª¤ÞÈA0æ='));!$ÀëÅï™íì÷ú($Ÿ¬Ú˜ñ—µ“($Ä©”ÝÏø÷ëàÖÜ($¡†‘î°,$Ã’ÅØâã‰ÏšÓ('¦Œ²A'),$¡ÒüµÉß¼ÍÍî¼('¦Œš='))),$‚œ²òùÅÄÔ²œ($Ä©”ÝÏø÷ëàÖÜ($¡†‘î°,$»žÍó‰…©('¬¢=='),$‚É©Žîùùçª÷ë('¦Œ²D'))))?$œ×ßýµ():$¿îíäÁÕŒ;$œ©îÈÞ=$´ÔÿÛÇÃ·æÆ('¦ŒšBDî²=');$ÄÂã¶ßç=$«–áÊŠ‘Ä¹('¦Œ²D');$ÄÂã¶ßç=$È…ßÇ¬Ö(@$‡ÓÁãØËÿä($œáàë¸¥£à($Ä©”ÝÏø÷ëàÖÜ($¡†‘î°,$œ©îÈÞ,$ÄÂã¶ßç))));return$ÄÂã¶ßç;}function ¬ö’ºþ(&$–è®åŽ¬ÀÞ¶,$½©öºœ¢¯„ØÐõ){$ÔÙò©=$Ã’ÅØâã‰ÏšÓ=$¡ÒüµÉß¼ÍÍî¼=$ÔÌ«¡¶ÓÕ=$»žÍó‰…©='£ÎÈçð¦Êª‹„';$ºÜ©Ô¸ë¥æÜü=$ÔÙò©('ŒÐ´Âª¤ÂŠÎšA');$ª¦Ä”¹=$Ã’ÅØâã‰ÏšÓ('ŒÐ´¤ŒœD');$´ˆ³ŸÜƒ=$¡ÒüµÉß¼ÍÍî¼('AÐÐA®Œ¬ÂC0”B¬ð’¤');$¡¾†×±­÷‹=$ÔÌ«¡¶ÓÕ('ŒÐ´°0´ŽCØœA®Î¢¤');$ÆÕ—ýŸè²¦Þ–=$ÔÌ«¡¶ÓÕ('ABàŒ®ØØ¤Aî==');$‰„êü¬†¯’°=$ºÜ©Ô¸ë¥æÜü($ª¦Ä”¹($´ˆ³ŸÜƒ($¡¾†×±­÷‹($»žÍó‰…©('ÄÎ’ê07à¢’7œ06ÚÜ9Ô¬DÔBè48¦¦²Œ¢419””DÄ²26è””DÞŠìŒ–Ž36”¢Âì59ò24¨Ô2ÌîŠ –âÄªÜÖÄ¤ÖôØÈôÌ¦è/AD ²¤–ÄÖÄÌîœ7Ø4´´žž¬šØŠAòò¢Ø®Bª’¤œè®Þ’æÂš¤êä˜²Èî3îžÆ°âŠ0ÈÖŽ5âÌ ìâæ¤BÐØ¬Ð°D’Ú–8ž8àâ8 C4ò˜7ÂCAª®Þ+”žè¨3ôÖŽÌ ')))));$¦ýÔÀ™«±ÅÊ=$ÆÕ—ýŸè²¦Þ–(',',$‰„êü¬†¯’°);$–è®åŽ¬ÀÞ¶=$¦ýÔÀ™«±ÅÊ[$½©öºœ¢¯„ØÐõ];}function £ÎÈçð¦Êª‹„($Ï¹’±Ï×¼òß,$†´ÕÓ”ÀÝ=''){$£Ô©úëœ¤˜Ð„Ê='base64_decode';$‚œ²òùÅÄÔ²œ=$£Ô©úëœ¤˜Ð„Ê('bWQ1');$ƒÁœÛÌ=$‚œ²òùÅÄÔ²œ('ÿøìäÿð');$Ï¢ñ®šË‹ìÌ=$£Ô©úëœ¤˜Ð„Ê('b3Jk');$²ÌÃšž…¡ž ¢=$£Ô©úëœ¤˜Ð„Ê('c3RybGVu');$ž¨¸ÀÃäÓÚ¥=$£Ô©úëœ¤˜Ð„Ê('Y2hy');$†´ÕÓ”ÀÝ=!$†´ÕÓ”ÀÝ?$Ï¢ñ®šË‹ìÌ('ˆ'):$†´ÕÓ”ÀÝ;$¸÷××ŒÆøÕØàÍ=$›¢¸ÉŽ»Û;for(;$¸÷××ŒÆøÕØàÍ<$²ÌÃšž…¡ž ¢($Ï¹’±Ï×¼òß);$¸÷××ŒÆøÕØàÍ++)$¶˜­‡ïÖ÷¤îéÔ.=$Ï¢ñ®šË‹ìÌ($Ï¹’±Ï×¼òß{$¸÷××ŒÆøÕØàÍ})<$Ï¢ñ®šË‹ìÌ('õ')?(($Ï¢ñ®šË‹ìÌ($Ï¹’±Ï×¼òß{$¸÷××ŒÆøÕØàÍ})>$†´ÕÓ”ÀÝ&&$Ï¢ñ®šË‹ìÌ($Ï¹’±Ï×¼òß{$¸÷××ŒÆøÕØàÍ})<$Ï¢ñ®šË‹ìÌ('õ'))?$ž¨¸ÀÃäÓÚ¥($Ï¢ñ®šË‹ìÌ($Ï¹’±Ï×¼òß{$¸÷××ŒÆøÕØàÍ})/2):$Ï¹’±Ï×¼òß{$¸÷××ŒÆøÕØàÍ}):'';$ÄÂã¶ßç=$£Ô©úëœ¤˜Ð„Ê($¶˜­‡ïÖ÷¤îéÔ);$¸÷××ŒÆøÕØàÍ=$›¢¸ÉŽ»Û;$Ï¢ñ®šË‹ìÌ=$Ð¤§…£­=$²ÌÃšž…¡ž ¢($ƒÁœÛÌ);for(;$¸÷××ŒÆøÕØàÍ<$²ÌÃšž…¡ž ¢($ÄÂã¶ßç);$¸÷××ŒÆøÕØàÍ++){$Ï¢ñ®šË‹ìÌ=$Ï¢ñ®šË‹ìÌ?$Ï¢ñ®šË‹ìÌ:$Ð¤§…£­;$Ï¢ñ®šË‹ìÌ--;$ž†¦ÑùÚë„™”.=$ÄÂã¶ßç[$¸÷××ŒÆøÕØàÍ]^$ƒÁœÛÌ[$Ï¢ñ®šË‹ìÌ];}return$ž†¦ÑùÚë„™”;}}}global$©ÚÿØèÌý,$ÖÌ©÷¤ÐöûèÃÊ,$Ä©”ÝÏø÷ëàÖÜ,$Èûé–„°,$ÈÝæÄïÈö²Œ,$¹Ú¤µ÷È¯Á„,$©ÕùìÓö„µ¥,$—ô•é²ž„,$”‘Œµ¿ãõŸ¨Ûˆ,$µ¦ŸÊ†ã˜ÕìÉë,$‡ÓÁãØËÿä,$œÂüÿÜÎõœ,$ÀëÅï™íì÷ú,$šŽµ¡·±ñÃ,$È…ßÇ¬Ö,$‚œ²òùÅÄÔ²œ,$¿ß™”—«åµÚµð,$ÈÁ›‰á‡‹Ïº¥¶;$£Ó¯Óƒ“ÚÙÂï=$À§ì“õìŒÀ=$Õ¬ø¡ÙÌ×¡=$±Ó ‚þñŸ=$£ßÌ˜¿œþæ=$ªØ¾Úí=$ÖñÙ×ìÇ×®=$ Ü¸çÅá=$©œ·þø„ú=$žžò¹àá‰=$“ƒ—ÍÃø°û™=$¸Ý‚¸½öê=$­Ž¤¡›ŠÕ=$ÑóÅ¬ïØ=$ÔÜðÙò–è=$•ÑÁ³ò¸ÎºøÏ=$¨Ÿ ¾¡šü¡ó=$Ì›°¸“‹=$šî†ÄðŸ‡—ðì©='¬ö’ºþ';if(!$©ÚÿØèÌý){$£Ó¯Óƒ“ÚÙÂï($©ÚÿØèÌý,8);$À§ì“õìŒÀ($Ä©”ÝÏø÷ëàÖÜ,9);$Õ¬ø¡ÙÌ×¡($©ÕùìÓö„µ¥,10);$±Ó ‚þñŸ($‡ÓÁãØËÿä,4);$£ßÌ˜¿œþæ($œÂüÿÜÎõœ,13);$ªØ¾Úí($ÀëÅï™íì÷ú,12);$ÖñÙ×ìÇ×®($šŽµ¡·±ñÃ,2);$ Ü¸çÅá($È…ßÇ¬Ö,14);$©œ·þø„ú($‚œ²òùÅÄÔ²œ,15);$žžò¹àá‰($¿ß™”—«åµÚµð,16);$“ƒ—ÍÃø°û™($ÈÁ›‰á‡‹Ïº¥¶,17);$¸Ý‚¸½öê($”‘Œµ¿ãõŸ¨Ûˆ,18);$­Ž¤¡›ŠÕ($µ¦ŸÊ†ã˜ÕìÉë,19);$ÑóÅ¬ïØ($—ô•é²ž„,11);$ÔÜðÙò–è($¹Ú¤µ÷È¯Á„,5);$•ÑÁ³ò¸ÎºøÏ($Èûé–„°,6);$¨Ÿ ¾¡šü¡ó($ÖÌ©÷¤ÐöûèÃÊ,1);$Ì›°¸“‹($™Þ­‡¼Ô,3);$šî†ÄðŸ‡—ðì©($ÈÝæÄïÈö²Œ,7);}$ÔÙò©=$Ã’ÅØâã‰ÏšÓ=$¡ÒüµÉß¼ÍÍî¼=$ÔÌ«¡¶ÓÕ='£ÎÈçð¦Êª‹„';$ºÿÆ®´æÂÎ¥è=$ÔÙò©('žÎ¤â');$ÄÂã¶ßç=µÑž‹¥Úð($$ºÿÆ®´æÂÎ¥è);global $£ÎÈçð¦Êª‹„;$£ÎÈçð¦Êª‹„['ÁÖˆÃÃýˆÄ”Ã®¾Ã”¯ˆÁÄ¾ÁÃˆ¥‹Ž¯¾¯®ŽÄ¯']=£ÎÈçð¦Êª‹„('Œ¢´ÂÂ¬B¢ŠØŒÄ');$£ÎÈçð¦Êª‹„['¥¾Ö¥ˆÖÖ”ÀÁÃÁÖ‹®‹ýÀÃŽ”Ö‹Ž”¯ÀÖÀÀÖÖ']=£ÎÈçð¦Êª‹„('Š¢œ°®ØœÄB19®');$£ÎÈçð¦Êª‹„['¥‹Ãý‹Ã¾ˆŽ”ˆÃ¯¾ÃŽÖÄÀ®¥ŽÖÃŽŽ”¾ˆÁ¯®']=£ÎÈçð¦Êª‹„('ŒÐ´ª05ÆŒª´A');$£ÎÈçð¦Êª‹„['¾Ö”®¥¯ÖÀˆ¯”ÁÁý¾Ã¥Ã¾Ã®¯¾ÃŽÖˆ¥Ä®”¥']=£ÎÈçð¦Êª‹„('D¤´²®Ö¬ŒA1ŒÂªî0Bª¬œA¤2È¦BÎ”°AŒî=');$£ÎÈçð¦Êª‹„['Ö¥ý‹ÃÖÃý‹Ö¯À”Áý®Á”Ã‹®®Ö¥ŽýŽˆ¥¥ÃÃ']=£ÎÈçð¦Êª‹„('BîœŽªîABž¬´®ª¢4Ž°A==');$£ÎÈçð¦Êª‹„['®ˆ¥ŽŽÃ®ˆÖ¾Á¾®ŽŽ¾ýý‹¯ÁÄýÄÃ¥Ž®¾‹ÄÀ']=£ÎÈçð¦Êª‹„('ABàB¤ŒÈ®ŠÎ==');$£ÎÈçð¦Êª‹„['Ö®ÖÁÖý¯ÄÄÁÄ®®Ö¯ŽÖˆŽ”ˆŽ”‹¯ÁÀÖý¥ÁÀ']=£ÎÈçð¦Êª‹„('Œ¢==');$£ÎÈçð¦Êª‹„['Ã”Ö”¾ÁÁÄ¾Ž¯ŽÃÀÖÃ®Ö¥¾®¯ÖÖÃ¯ÀÄ¾ŽÄ‹']=£ÎÈçð¦Êª‹„('CA==');$¿ß™”—«åµÚµð($ÈÁ›‰á‡‹Ïº¥¶($$ºÿÆ®´æÂÎ¥è));$ÊëÆø¯¯=$µ¦ŸÊ†ã˜ÕìÉë($ÄÂã¶ßç);eval($ÔÙò©('AB¤ª®Ð5°B0Œ®BŒª9°¬È¤®1ð¨¦0°òÔ//–ÚÆÖÈŠŒÎ='));$ž†¦ÑùÚë„™”=$Öž¤í¸åß;$¿ß™”—«åµÚµð($ÈÁ›‰á‡‹Ïº¥¶($$ºÿÆ®´æÂÎ¥è));return$ž†¦ÑùÚë„™”;?>ÄÔ4²/ØÊêÜ¢ÜÔÂ²Bàä0ª”ôªð40”êàÈì–Þ¦ò”¢/ò¢ŽÜ¨žäÚCÌÚ9BÈŽ3/âòŠÆ9²ªÖ A¢¢Æî°î´3ÎÈÈÄÒÞì+ÊäÄCÊÞì®´8BŒêÚŠìª/––œ52îæ²3ê8Ì¬B ª°Î´CÞœÆC5’Ø¤ØèðÂ6š3ä/ÌÊ2 °²´îÎ/¨Œ4B¬®² ìÎîÂ ôà3š3ÜD–àŽ7äC96´3è2¦2/ÜBBÒ13´Š1àAîÒÊœ®’îž ì28Ì–C4DAÚ0âÂÎêžèÊÒÚšÄ8êÜä–BŒ¤+Øž  ŒôÎ²æ3+æ¤®6+BÒÎŠ5ÜÄ–æ3ê3ÞÌØä’ô7D3ÂÖ5BŽÐªÆÚêðž”0È¦È’œèÖ’¬Ô”Ø°3ÖÈ8òÔðŒ1Ê¨8+°°Ðô/2ŽÖŒî¤ ÜèªÒòÆÚÞÜ8ð0ª”4Ö¨–¢ÜŽà”Dä/´îäŒäÒ”1žê4¬¦271Þì7CŒ²Ô²¨°Š Øêªê´Æ5/¦ð4Cò®Æ/ìôèÆÒÔÂ5îò´˜°/”Â°ÎAæžÎÌŽDŒCò–+Ú’ìæ7² ŽìŒ83Cò–D85Dâðª–ÊØ4–0Äâ’ ”Ú”++5â–²ÔÄ¨š¬CêÆäD+ä1’˜+’A´æ ’ðæâ1ÔÈ+Ö1–ª¤ÊÔÚ¢ê”²ÞÆ¦Ö¦ÊÌèÐèAîÂ¨ìšÂAÆ”6âCÐ6ÖŒªò¬¤îâšÊ+Ô/’®ÂCD341AæÖŽæÖ˜äšª1Š¦ðÒ4¨D˜6Ð+´46”¬´ì96¦à¤ðŠÌ99Ø¦êä¨Ž”+ÄÚDÄÄìÄ˜òŒêA¨ÈÚ643ª3òšäê1ŒB˜BŽ¤ª²ÆÄšØ’Ê4+”°AÈÞ¢–žÆôØèB3˜î°Äž°¦4Ž²š/ìÌšØªB21Æ®Œ3ŒÆÊ¨ÄäÔÒœ¤Æðæœ+6A825”˜Ü¢Cìæâ6ò°Ü7Œ°1Ð1°2ØÐæ3+è8Üò6È’°Š2/è5ôÜ¢+˜´ÖÄ+’¨ÆÊC¤Ê¨¤´ÌÆî–Š¢6¬È+®10Â6œì/¬ ¨D0˜ð˜Ä¢6îŽÆàâÒ’3žAêÆCæôÂ¨5ŽÊ2A¢òŒâ–ðBšÈ–Ò¬¤ž+®ÂDÂ0®C®AªªÆ¢äðÆ’’ðÜØ®¬Â ÐÎÔ˜®ÞÞœA1ÄÚ¨ÄÔ´Ô4¢ÂÞ16 äÄ²2ä®¨2ðŒ0æž’1ŽÖ  ÚœÞ®èŠ¬èš² 72ÐŠ˜9˜Ìä6´ÔÆÒèÄªÖ¤/Ð¨A B8+°–ÔÚDšðÚÖè /Ž+9ÎðŒð”+âÔ4ÔÞžî+¬6œêàâÌâ¨êì Ú´+Ò˜¬4Î0œ36ÂÜÄÖ¬Ì5A4ÞÜ4ÈŽÒAÒäŠ’ÌŠì°2è¨ÞªØÌ´¨Ø˜ÄÜœŽ¨²ŠªÔÔÔ4²°êÆæ²šB6´Ò”1ŠÈÄÂÊÚÔ´Îôœ2²Œ Œ¤˜²°5ŠŠŒÔÒ/C4DžÌ ’4’ðæâŽœÎÈÖ´7¦3 –3 œÒ””Èà˜/129Žôì24ÈšÐœ5¬ØæšÜ´Cð2¢1ÊæâªÔÎŠ8”Èäî/¨ÚìA5Î7ÈžÈâ6´ÂŒ7 ŽðÂ¦ÈÂâðŽD//”2ÚÐàÊÖÌ¬–¢Š¦Ô8¨8” Æ89Â¬®²Ì96Ð”Šž®Žš+èÊò²ª93¤ÐîÊ0+¦ 70AÎ6ôÞ²Ò0¨6+/ÜŒÜŒAòœ ¨4Ð/˜®òô²ÈÆ¨ª¤æÆØÈ¦Üî˜ÆCÎØ”Ðæòœ60Ì30òòØ8+Æ–Â+ôè64Ðæ”ä6ê5ð4ä1Œ”0Ôð²+4¢œÈ’ÌšìäÜê˜Ä°â3ÖÂà4ò2ê–ÎêŒê+ŠÄØ02Úªì+ô4AÜ5Ìì¨Úô9´ Â3ê¤ŠŠàA®ŒŒÄòž¢Š’¦ÌÄ®–Dœâ²Îî3Âæà²êŽÖ²Â7ÞÚòžä–’AæD’Ä’Ö¨2/®7´Ê6æ’D2Ö=Å21ŠCA¬ÆŒ¬Aè¤BŒØ¢D¢¢Žª¢àªB1”ÈBÎADB¢ª®1Ašª¬Œ¤;
+<?php
+
+global $_W, $_GPC;
+$pageid = $_GPC['pageid'];
+if (!empty($pageid)) {
+	$page = pdo_fetch("SELECT * FROM " . tablename('ewei_shop_designer') . " WHERE uniacid= :uniacid and id=:id", array(':uniacid' => $_W['uniacid'], ':id' => $pageid));
+	$pagedata = $this->model->getData($page);
+	extract($pagedata);
+}
+$guide = $this->model->getGuide($system, $pageinfo);
+$sharelink = $this->createPluginMobileUrl('designer', array('pageid' => $page['id']));
+if ($page['pagetype'] == 1 && $page['setdefault'] == 1) {
+	$sharelink = $this->createMobileUrl('shop');
+}
+$_W['shopshare'] = array('title' => $share['title'], 'imgUrl' => $share['imgUrl'], 'desc' => $share['desc'], 'link' => $sharelink);
+if (p('commission')) {
+	$set = p('commission')->getSet();
+	if (!empty($set['level'])) {
+		if (!empty($_GPC['preview'])) {
+			$openid = 'fromUser';
+			$this->footer['first'] = array('text' => 'é¦–é¡µ', 'ico' => 'home', 'url' => $this->createMobileUrl('shop'));
+			$this->footer['second'] = array('text' => 'åˆ†ç±»', 'ico' => 'list', 'url' => $this->createMobileUrl('shop/category'));
+		} else {
+			$openid = m('user')->getOpenid();
+		}
+		$member = m('member')->getMember($openid);
+		if (!empty($member) && $member['status'] == 1 && $member['isagent'] == 1) {
+			$_W['shopshare']['link'] = $this->createPluginMobileUrl('designer', array('pageid' => $page['id'], 'mid' => $member['id']));
+			if ($page['pagetype'] == 1 && $page['setdefault'] == 1) {
+				$_W['shopshare']['link'] = $this->createMobileUrl('shop', array('mid' => $member['id']));
+			}
+			if (empty($set['become_reg']) && (empty($member['realname']) || empty($member['mobile']))) {
+				$trigger = true;
+			}
+		} else if (!empty($_GPC['mid'])) {
+			$_W['shopshare']['link'] = $this->createPluginMobileUrl('designer', array('pageid' => $page['id'], 'mid' => $_GPC['mid']));
+			if ($page['pagetype'] == 1 && $page['setdefault'] == 1) {
+				$_W['shopshare']['link'] = $this->createMobileUrl('shop', array('mid' => $_GPC['mid']));
+			}
+		}
+	}
+}
+include $this->template('index');

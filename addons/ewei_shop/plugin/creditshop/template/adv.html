@@ -60,7 +60,15 @@
     </div>
 </div>
 </form>
-
+<script>
+    require(['bootstrap'], function ($) {
+        $('.btn').hover(function () {
+            $(this).tooltip('show');
+        }, function () {
+            $(this).tooltip('hide');
+        });
+    });
+</script>
 
 {elseif $operation == 'post'}
 
