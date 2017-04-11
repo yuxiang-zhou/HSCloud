@@ -1,685 +1,534 @@
-<?php
+<?php //0003d
+// EWEI_SHOPV2
+// FOXTEAM QQ/TEL: 400-009-7827
 
-/*
- * 人人商城V2
- * 
- * @author ewei 狸小狐 QQ:22185157 
- */
-if (!defined('IN_IA')) {
-	exit('Access Denied');
-}
-
-class Goods_EweiShopV2Page extends PluginWebPage {
-
-	function main() {
-		global $_W, $_GPC;
-		$pindex = max(1, intval($_GPC['page']));
-		$psize = 20;
-		$condition = ' uniacid = :uniacid AND deleted = :deleted';
-		$params = array(':uniacid' => $_W['uniacid'], ':deleted' => '0');
-		if (!empty($_GPC['keyword'])) {
-			$_GPC['keyword'] = trim($_GPC['keyword']);
-			$condition .= ' AND title LIKE :title';
-			$params[':title'] = '%' . trim($_GPC['keyword']) . '%';
-		}
-		if ($_GPC['status'] != '') {
-			$condition .= ' AND status = :status';
-			$params[':status'] = intval($_GPC['status']);
-		}
-		if ($_GPC['cate'] != '') {
-			$condition .= ' AND cate = :cate';
-			$params[':cate'] = intval($_GPC['cate']);
-		}
-		$sql = 'SELECT * FROM ' . tablename('ewei_shop_creditshop_goods') . " where  1 and {$condition} ORDER BY displayorder DESC,id DESC LIMIT " . ($pindex - 1) * $psize . ',' . $psize;
-		$list = pdo_fetchall($sql, $params);
-		$total = pdo_fetchcolumn('SELECT COUNT(*) FROM ' . tablename('ewei_shop_creditshop_goods') . " where 1 and {$condition}", $params);
-		$pager = pagination($total, $pindex, $psize);
-		$category = pdo_fetchall("select id,name,thumb from " . tablename('ewei_shop_creditshop_category') . ' where uniacid=:uniacid order by displayorder desc', array(':uniacid' => $_W['uniacid']), 'id');
-		include $this->template();
-	}
-
-	function add() {
-		$this->post();
-	}
-
-	function edit() {
-		$this->post();
-	}
-
-	protected function post() {
-		global $_W, $_GPC;
-		$id = intval($_GPC['id']);
-		$merchid = 0;//intval($_GPC['merchid']);
-
-		$item = pdo_fetch("SELECT * FROM " . tablename('ewei_shop_creditshop_goods') . " WHERE id =:id and uniacid=:uniacid limit 1", array(':uniacid' => $_W['uniacid'], ':id' => $id));
-		if(!empty($item)){
-			$url = mobileUrl('creditshop/detail',array('id'=>$item['id']), true);
-			$qrcode = m('qrcode')->createQrcode($url);
-		}
-		//会员权限
-		if ($item['showlevels'] != '') {
-			$item['showlevels'] = explode(',', $item['showlevels']);
-		}
-		if ($item['buylevels'] != '') {
-			$item['buylevels'] = explode(',', $item['buylevels']);
-		}
-		if ($item['showgroups'] != '') {
-			$item['showgroups'] = explode(',', $item['showgroups']);
-		}
-		if ($item['buygroups'] != '') {
-			$item['buygroups'] = explode(',', $item['buygroups']);
-		}
-
-		//兑换门店
-		$stores = array();
-		if (!empty($item['storeids'])) {
-			$stores = pdo_fetchall('select id,storename from ' . tablename('ewei_shop_store') . ' where id in (' . $item['storeids'] . ' ) and uniacid=' . $_W['uniacid']);
-		}
-		//单独通知人
-		if (!empty($item['noticeopenid'])) {
-			$saler = m('member')->getMember($item['noticeopenid']);
-		}
-		$endtime = empty($item['endtime']) ? date('Y-m-d H:i', time()) : date('Y-m-d H:i', $item['endtime']);
-		$levels = m('member')->getLevels();
-		$groups = m('member')->getGroups();
-		$category = pdo_fetchall("select id,name,thumb from " . tablename('ewei_shop_creditshop_category') . ' where uniacid=:uniacid order by displayorder desc', array(':uniacid' => $_W['uniacid']));
-
-		if(empty($item['goodstype']) || $item['goodstype']==0){
-			$goods = pdo_fetch("SELECT * FROM " . tablename('ewei_shop_goods') . " WHERE id =:id and status=1 and deleted=0 and uniacid=:uniacid limit 1", array(':uniacid' => $_W['uniacid'], ':id' => $item['goodsid']));
-		}elseif($item['goodstype']==1){
-			$coupon = pdo_fetch("SELECT * FROM " . tablename('ewei_shop_coupon') . " WHERE id =:id and uniacid=:uniacid limit 1", array(':uniacid' => $_W['uniacid'], ':id' => $item['couponid']));
-		}
-		$goodstype = $item['goodstype'];
-		$type = $item['type'];
-		$isverify = $item['isverify'];
-		$levels = m('member')->getLevels();
-		foreach($levels as &$l){
-			$l['key'] ='level'.$l['id'];
-		}
-		unset($l);
-		$levels =array_merge(array(
-			array(
-				'id'=>0,
-				'key'=>'default',
-				'levelname'=>empty($_W['shopset']['shop']['levelname'])?'默认会员':$_W['shopset']['shop']['levelname']
-			)
-		),$levels);
-
-		$allspecs = pdo_fetchall("select * from " . tablename('ewei_shop_creditshop_spec') . " where goodsid=:id order by displayorder asc", array(":id" => $id));
-		foreach ($allspecs as &$s) {
-			$s['items'] = pdo_fetchall("select a.id,a.specid,a.title,a.thumb,a.show,a.displayorder,a.valueId,a.virtual,b.title as title2 from " . tablename('ewei_shop_creditshop_spec_item') . " a left join " . tablename('ewei_shop_virtual_type') . " b on b.id=a.virtual  where a.specid=:specid order by a.displayorder asc", array(":specid" => $s['id']));
-		}
-		unset($s);
-
-		//处理规格项
-		$html = "";
-		$discounts_html='';
-		$commission_html='';
-		$isdiscount_discounts_html='';
-		$options = pdo_fetchall("select * from " . tablename('ewei_shop_creditshop_option') . " where goodsid=:id order by id asc", array(':id' => $id));
-		//排序好的specs
-		$specs = array();
-		//找出数据库存储的排列顺序
-		if (count($options) > 0) {
-			$specitemids = explode("_", $options[0]['specs']);
-			foreach ($specitemids as $itemid) {
-				foreach ($allspecs as $ss) {
-					$items = $ss['items'];
-					foreach ($items as $it) {
-						if ($it['id'] == $itemid) {
-							$specs[] = $ss;
-							break;
-						}
-					}
-				}
-			}
-			$html = '';
-			$html .= '<table class="table table-bordered table-condensed">';
-			$html .= '<thead>';
-			$html .= '<tr class="active">';
-			$discounts_html .= '<table class="table table-bordered table-condensed">';
-			$discounts_html .= '<thead>';
-			$discounts_html .= '<tr class="active">';
-			$commission_html .= '<table class="table table-bordered table-condensed">';
-			$commission_html .= '<thead>';
-			$commission_html .= '<tr class="active">';
-			$isdiscount_discounts_html .= '<table class="table table-bordered table-condensed">';
-			$isdiscount_discounts_html .= '<thead>';
-			$isdiscount_discounts_html .= '<tr class="active">';
-			$len = count($specs);
-			$newlen = 1; //多少种组合
-			$h = array(); //显示表格二维数组
-			$rowspans = array(); //每个列的rowspan
-			for ($i = 0; $i < $len; $i++) {
-				//表头
-				$html .= "<th>" . $specs[$i]['title'] . "</th>";
-				$discounts_html .= "<th>" . $specs[$i]['title'] . "</th>";
-				$commission_html .= "<th>" . $specs[$i]['title'] . "</th>";
-				$isdiscount_discounts_html .= "<th>" . $specs[$i]['title'] . "</th>";
-				//计算多种组合
-				$itemlen = count($specs[$i]['items']);
-				if ($itemlen <= 0) {
-					$itemlen = 1;
-				}
-				$newlen *= $itemlen;
-				//初始化 二维数组
-				$h = array();
-				for ($j = 0; $j < $newlen; $j++) {
-					$h[$i][$j] = array();
-				}
-				//计算rowspan
-				$l = count($specs[$i]['items']);
-				$rowspans[$i] = 1;
-				for ($j = $i + 1; $j < $len; $j++) {
-					$rowspans[$i]*= count($specs[$j]['items']);
-				}
-			}
-			$canedit = ce('goods',$item);
-			if($canedit){
-				$html .= '<th><div class=""><div style="padding-bottom:10px;text-align:center;">库存</div><div class="input-group"><input type="text" class="form-control input-sm option_total_all"  VALUE=""/><span class="input-group-addon" ><a href="javascript:;" class="fa fa-angle-double-down" title="批量设置" onclick="setCol(\'option_total\');"></a></span></div></div></th>';
-				$html .= '<th><div class=""><div style="padding-bottom:10px;text-align:center;">积分</div>
-<div class="input-group"><input type="text" class="form-control  input-sm option_credit_all"  VALUE=""/><span class="input-group-addon">
-<a href="javascript:;" class="fa fa-angle-double-down" title="批量设置" onclick="setCol(\'option_credit\');"></a></span></div></div></th>';
-				$html .= '<th><div class=""><div style="padding-bottom:10px;text-align:center;">金额</div>
-<div class="input-group"><input type="text" class="form-control input-sm option_money_all"  VALUE=""/><span class="input-group-addon">
-<a href="javascript:;" class="fa fa-angle-double-down" title="批量设置" onclick="setCol(\'option_money\');"></a></span></div></div></th>';
-				$html .= '<th><div class=""><div style="padding-bottom:10px;text-align:center;">编码</div><div class="input-group"><input type="text" class="form-control input-sm option_goodssn_all"  VALUE=""/><span class="input-group-addon"><a href="javascript:;" class="fa fa-angle-double-down" title="批量设置" onclick="setCol(\'option_goodssn\');"></a></span></div></div></th>';
-				$html .= '<th><div class=""><div style="padding-bottom:10px;text-align:center;">条码</div><div class="input-group"><input type="text" class="form-control input-sm option_productsn_all"  VALUE=""/><span class="input-group-addon"><a href="javascript:;" class="fa fa-angle-double-down" title="批量设置" onclick="setCol(\'option_productsn\');"></a></span></div></div></th>';
-				$html .= '<th><div class=""><div style="padding-bottom:10px;text-align:center;">重量（克）</div><div class="input-group"><input type="text" class="form-control input-sm option_weight_all"  VALUE=""/><span class="input-group-addon"><a href="javascript:;" class="fa fa-angle-double-down" title="批量设置" onclick="setCol(\'option_weight\');"></a></span></div></div></th>';
-			}else {
-				$html .= '<th><div class=""><div style="padding-bottom:10px;text-align:center;">库存</div></div></th>';
-				$html .= '<th"><div class=""><div style="padding-bottom:10px;text-align:center;">积分</div></div></th>';
-				$html .= '<th><div class=""><div style="padding-bottom:10px;text-align:center;">金额</div></div></th>';
-				$html .= '<th><div class=""><div style="padding-bottom:10px;text-align:center;">商品编码</div></div></th>';
-				$html .= '<th><div class=""><div style="padding-bottom:10px;text-align:center;">商品条码</div></div></th>';
-				$html .= '<th><div class=""><div style="padding-bottom:10px;text-align:center;">重量（克）</div></th>';
-			}
-			$html .= '</tr></thead>';
-			$discounts_html .= '</tr></thead>';
-			$isdiscount_discounts_html .= '</tr></thead>';
-			$commission_html .= '</tr></thead>';
-
-			for ($m = 0; $m < $len; $m++) {
-				$k = 0;
-				$kid = 0;
-				$n = 0;
-				for ($j = 0; $j < $newlen; $j++) {
-					$rowspan = $rowspans[$m];
-					if ($j % $rowspan == 0) {
-						$h[$m][$j] = array("html" => "<td class='full' rowspan='" . $rowspan . "'>" . $specs[$m]['items'][$kid]['title'] . "</td>", "id" => $specs[$m]['items'][$kid]['id']);
-					} else {
-						$h[$m][$j] = array("html" => "", "id" => $specs[$m]['items'][$kid]['id']);
-					}
-					$n++;
-					if ($n == $rowspan) {
-						$kid++;
-						if ($kid > count($specs[$m]['items']) - 1) {
-							$kid = 0;
-						}
-						$n = 0;
-					}
-				}
-			}
-			$hh = "";
-			$dd = "";
-			$isdd = "";
-			$cc = "";
-			for ($i = 0; $i < $newlen; $i++) {
-				$hh.="<tr>";
-				$dd.="<tr>";
-				$isdd.="<tr>";
-				$cc.="<tr>";
-				$ids = array();
-				for ($j = 0; $j < $len; $j++) {
-					$hh.=$h[$j][$i]['html'];
-					$dd.=$h[$j][$i]['html'];
-					$isdd.=$h[$j][$i]['html'];
-					$cc.=$h[$j][$i]['html'];
-					$ids[] = $h[$j][$i]['id'];
-				}
-				$ids = implode("_", $ids);
-				$val = array("id" => "", "title" => "", "total" => "", "credit" => "", "money" => "", "weight" => "",'virtual'=>'');
-
-				foreach ($options as $o) {
-					if ($ids === $o['specs']) {
-						$val = array(
-							"id" => $o['id'],
-							"title" => $o['title'],
-							"total" => $o['total'],
-							"credit" => $o['credit'],
-							"money" => $o['money'],
-							"goodssn"=>$o['goodssn'],
-							"productsn"=>$o['productsn'],
-							"weight" => $o['weight'],
-							'virtual'=>$o['virtual']
-						);
-						$discount_val = array(
-							"id" => $o['id'],
-						);
-						break;
-					}
-				}
-				if($canedit){
-					foreach ($levels as $level) {
-						$dd .= '<td>';
-						$isdd .= '<td>';
-						if($level['key']=='default')
-						{
-							$dd .= '<input data-name="discount_level_'.$level['key'].'_' . $ids . '"  type="text" class="form-control discount_'.$level['key'].' discount_'.$level['key'].'_' . $ids . '" value="' . $discounts_val[$level['key']] . '"/> ';
-							$isdd .= '<input data-name="isdiscount_discounts_level_'.$level['key'].'_' . $ids . '"  type="text" class="form-control isdiscount_discounts_'.$level['key'].' isdiscount_discounts_'.$level['key'].'_' . $ids . '" value="' . $isdiscounts_val[$level['key']] . '"/> ';
-						}
-						else
-						{
-							$dd .= '<input data-name="discount_level_'.$level['id'].'_' . $ids . '"  type="text" class="form-control discount_level'.$level['id'].' discount_level'.$level['id'].'_' . $ids . '" value="' . $discounts_val['level'.$level['id']] . '"/> ';
-							$isdd .= '<input data-name="isdiscount_discounts_level_'.$level['id'].'_' . $ids . '"  type="text" class="form-control isdiscount_discounts_level'.$level['id'].' isdiscount_discounts_level'.$level['id'].'_' . $ids . '" value="' . $isdiscounts_val['level'.$level['id']] . '"/> ';
-						}
-						$dd .= '</td>';
-						$isdd .= '</td>';
-					}
-					$dd .= '<input data-name="discount_id_' . $ids . '"  type="hidden" class="form-control discount_id discount_id_' . $ids . '" value="' . $discounts_val['id'] . '"/>';
-					$dd .= '<input data-name="discount_ids"  type="hidden" class="form-control discount_ids discount_ids_' . $ids . '" value="' . $ids . '"/>';
-					$dd .= '<input data-name="discount_title_' . $ids . '"  type="hidden" class="form-control discount_title discount_title_' . $ids . '" value="' . $discounts_val['title'] . '"/>';
-					$dd .= '<input data-name="discount_virtual_' . $ids . '"  type="hidden" class="form-control discount_title discount_virtual_' . $ids . '" value="' . $discounts_val['virtual'] . '"/>';
-					$dd .= "</tr>";
-
-					$isdd .= '<input data-name="isdiscount_discounts_id_' . $ids . '"  type="hidden" class="form-control isdiscount_discounts_id isdiscount_discounts_id_' . $ids . '" value="' . $isdiscounts_val['id'] . '"/>';
-					$isdd .= '<input data-name="isdiscount_discounts_ids"  type="hidden" class="form-control isdiscount_discounts_ids isdiscount_discounts_ids_' . $ids . '" value="' . $ids . '"/>';
-					$isdd .= '<input data-name="isdiscount_discounts_title_' . $ids . '"  type="hidden" class="form-control isdiscount_discounts_title isdiscount_discounts_title_' . $ids . '" value="' . $isdiscounts_val['title'] . '"/>';
-					$isdd .= '<input data-name="isdiscount_discounts_virtual_' . $ids . '"  type="hidden" class="form-control isdiscount_discounts_title isdiscount_discounts_virtual_' . $ids . '" value="' . $isdiscounts_val['virtual'] . '"/>';
-					$isdd .= "</tr>";
-
-					$cc .= '<input data-name="commission_id_' . $ids . '"  type="hidden" class="form-control commission_id commission_id_' . $ids . '" value="' . $commissions_val['id'] . '"/>';
-					$cc .= '<input data-name="commission_ids"  type="hidden" class="form-control commission_ids commission_ids_' . $ids . '" value="' . $ids . '"/>';
-					$cc .= '<input data-name="commission_title_' . $ids . '"  type="hidden" class="form-control commission_title commission_title_' . $ids . '" value="' . $commissions_val['title'] . '"/>';
-					$cc .= '<input data-name="commission_virtual_' . $ids . '"  type="hidden" class="form-control commission_title commission_virtual_' . $ids . '" value="' . $commissions_val['virtual'] . '"/>';
-					$cc .= "</tr>";
-					$hh .= '<td>';
-					$hh .= '<input data-name="option_total_' . $ids . '"  type="text" class="form-control option_total option_total_' . $ids . '" value="' . $val['total'] . '"/>';
-					$hh .= '</td>';
-					$hh .= '<input data-name="option_id_' . $ids . '"  type="hidden" class="form-control option_id option_id_' . $ids . '" value="' . $val['id'] . '"/>';
-					$hh .= '<input data-name="option_ids"  type="hidden" class="form-control option_ids option_ids_' . $ids . '" value="' . $ids . '"/>';
-					$hh .= '<input data-name="option_title_' . $ids . '"  type="hidden" class="form-control option_title option_title_' . $ids . '" value="' . $val['title'] . '"/>';
-					$hh .= '<input data-name="option_virtual_' . $ids . '"  type="hidden" class="form-control option_virtual option_virtual_' . $ids . '" value="' . $val['virtual'] . '"/>';
-					$hh .= '<td><input data-name="option_credit_' . $ids . '" type="text" class="form-control option_credit option_credit_' . $ids . '" value="' . $val['credit'] . '"/></td>';
-					$hh .= '<td><input data-name="option_money_' . $ids . '" type="text" class="form-control option_money option_money_' . $ids . '" " value="' . $val['money'] . '"/></td>';
-					$hh .= '<td><input data-name="option_goodssn_' . $ids . '" type="text" class="form-control option_goodssn option_goodssn_' . $ids . '" " value="' . $val['goodssn'] . '"/></td>';
-					$hh .= '<td><input data-name="option_productsn_' . $ids . '" type="text" class="form-control option_productsn option_productsn_' . $ids . '" " value="' . $val['productsn'] . '"/></td>';
-					$hh .= '<td><input data-name="option_weight_' . $ids . '" type="text" class="form-control option_weight option_weight_' . $ids . '" " value="' . $val['weight'] . '"/></td>';
-					$hh .= '</tr>';
-				} else{
-					$hh .= '<td>' . $val['total'] . '</td>';
-					$hh .= '<td>' . $val['credit'] . '</td>';
-					$hh .= '<td>' . $val['money'] . '</td>';
-					$hh .= '<td>' . $val['goodssn'] . '</td>';
-					$hh .= '<td>' . $val['productsn'] . '</td>';
-					$hh .= '<td>' . $val['weight'] . '</td>';
-					$hh .= '</tr>';
-				}
-			}
-			$discounts_html .= $dd;
-			$discounts_html .= "</table>";
-			$isdiscount_discounts_html .= $isdd;
-			$isdiscount_discounts_html .= "</table>";
-			$html .= $hh;
-			$html .= "</table>";
-			$commission_html .= $cc;
-			$commission_html .= "</table>";
-		}
-		//查询快递模板
-		$dispatch_data = pdo_fetchall('select * from ' . tablename('ewei_shop_dispatch') . ' where uniacid=:uniacid and merchid=:merchid and enabled=1 order by displayorder desc', array(':uniacid' => $_W['uniacid'], ':merchid' =>$merchid));
-
-
-		if ($_W['ispost']) {
-			$data = array(
-				'uniacid' => $_W['uniacid'],
-				'displayorder' => intval($_GPC['displayorder']),
-				'goodstype' => intval($_GPC['goodstype']),
-				'goodsid' => intval($_GPC['goodsid']),			//商品
-				'couponid' => intval($_GPC['couponid']),			//优惠券
-				'grant1' => floatval($_GPC['grant1']),			//余额
-				'grant2' => floatval($_GPC['grant2']),			//红包
-				'packetmoney' => floatval($_GPC['packetmoney']),		//红包总金额
-				'packetlimit' => floatval($_GPC['packetlimit']),		//红包限制金额
-				'packettotal' => intval($_GPC['packettotal']),			//红包总数
-				'packettype' => intval($_GPC['packettype']),			//红包类型 0 固定金额 1 随机金额
-				'minpacketmoney' => floatval($_GPC['minpacketmoney']),	//随机金额最小金额
-
-				'title' => trim($_GPC['title']),
-				'cate' => intval($_GPC['cate']),
-				'thumb' => save_media($_GPC['thumb']),
-				'price' => floatval($_GPC['price']),
-				'productprice' => floatval($_GPC['productprice']),
-				'credit' => intval($_GPC['credit']),
-				'money' => trim($_GPC['money']),
-				'dispatchtype' => intval($_GPC['dispatchtype']),
-				'dispatchid' => intval($_GPC['dispatchid']),
-				'dispatch' => floatval($_GPC['dispatch']),
-				'istop' => intval($_GPC['istop']),
-				'isrecommand' => intval($_GPC['isrecommand']),
-				'istime' => intval($_GPC['istime']),
-				'timestart' => strtotime($_GPC['timestart']),
-				'timeend' => strtotime($_GPC['timeend']),
-				'goodsdetail' => m('common')->html_images($_GPC['goodsdetail']),
-
-				'goodssn' => trim($_GPC['goodssn']),
-				'productsn' => trim($_GPC['productsn']),
-				'weight' => intval($_GPC['weight']),
-				'total' => intval($_GPC['total']),
-				'showtotal' => intval($_GPC['showtotal']),
-				'totalcnf' => intval($_GPC['totalcnf']),
-				'hasoption' => intval($_GPC['hasoption']),
-
-				'status' => intval($_GPC['status']),
-				'type' => intval($_GPC['type']),
-				'area' => trim($_GPC['area']),
-				'chanceday' => intval($_GPC['chanceday']),
-				'chance' => intval($_GPC['chance']),
-				'totalday' => intval($_GPC['totalday']),
-				//'usecredit2' => intval($_GPC['usecredit2']),			//优先支付方式
-				'rate1' => trim($_GPC['rate1']),
-				'rate2' => trim($_GPC['rate2']),
-				'isendtime' => intval($_GPC['isendtime']),
-				'usetime' => intval($_GPC['usetime']) >= 0 ? intval($_GPC['usetime']) : 0 ,
-				'endtime' => strtotime($_GPC['endtime']),
-				'detailshow' => intval($_GPC['detailshow']),
-				'noticedetailshow' => intval($_GPC['noticedetailshow']),
-				'detail' => m('common')->html_images($_GPC['detail']),
-				'noticedetail' => m('common')->html_images($_GPC['noticedetail']),
-
-				'showlevels' => is_array($_GPC['showlevels']) ? implode(",", $_GPC['showlevels']) : '',
-				'buylevels' => is_array($_GPC['buylevels']) ? implode(",", $_GPC['buylevels']) : '',
-				'showgroups' => is_array($_GPC['showgroups']) ? implode(",", $_GPC['showgroups']) : '',
-				'buygroups' => is_array($_GPC['buygroups']) ? implode(",", $_GPC['buygroups']) : '',
-
-				'subtitle' => trim($_GPC['subtitle']),
-				'subdetail' => m('common')->html_images($_GPC['subdetail']),
-				'isverify' => intval($_GPC['isverify']),
-				'verifytype' => intval($_GPC['verifytype']),
-				'verifynum' => intval($_GPC['verifynum']),
-				'storeids' => is_array($_GPC['storeids']) ? implode(',', $_GPC['storeids']) : '',
-				'noticeopenid' => trim($_GPC['noticeopenid']),
-
-				'followneed' => intval($_GPC['followneed']),
-				'followtext' => trim($_GPC['followtext']),
-				'share_title' => trim($_GPC['share_title']),
-				'share_icon' => save_media($_GPC['share_icon']),
-				'share_desc' => trim($_GPC['share_desc'])
-			);
-			if ($isverify) {
-				//如果为线下兑换，自动取消运费
-				$data['dispatch'] = 0;
-				if($data['verifytype'] == 1 && $data['verifynum'] < 1){
-					$data['verifynum'] = 1;
-				}
-				if($data['verifytype'] == 0){
-					$data['verifynum'] = 1;
-				}
-			}
-			if($data['credit']<=0){
-				show_json(0,'请正确填写积分！');
-			}
-			if($data['money']<0){
-				show_json(0,'请正确填写金额！');
-			}
-			if($data['goodstype']==2 && $data['grant1']<=0){
-				show_json(0,'请正确填写余额！');
-			}
-			$data['vip'] = (!empty($data['showlevels']) || !empty($data['showgroups']) ) ? 1 : 0;
-
-			if (!empty($id)) {
-				$data['goodstype'] = $goodstype;
-				$data['type'] = $type;
-				$data['isverify'] = $isverify;
-				//红包
-				$data['packetmoney'] = $item['packetmoney'];
-				$data['surplusmoney'] = $item['surplusmoney'];
-				$data['packettotal'] = $item['packettotal'];
-				$data['packetsurplus'] = $item['packetsurplus'];
-				$data['grant2'] = $item['grant2'];
-				$data['packettype'] = $item['packettype'];
-				$data['minpacketmoney'] = $item['minpacketmoney'];
-
-				pdo_update('ewei_shop_creditshop_goods', $data, array('id' => $id, 'uniacid' => $_W['uniacid']));
-				plog('creditshop.goods.edit', "编辑积分商城商品 ID: {$id} <br/>商品名称: {$data['title']}");
-			} else {
-				if($data['goodstype']==3 || $data['packetmoney'] > 0 || $data['packettotal'] > 0){
-					if($data['packettype']==0){
-						if($data['grant2'] < 1){
-							show_json(0,'红包最少为1元，请正确填写！');
-						}
-						if($data['packetmoney']!=$data['grant2']*$data['packettotal']){
-							show_json(0,'请正确填写红包金额和数量！');
-						}
-					}else{
-						if($data['minpacketmoney'] < 1){
-							show_json(0,'红包随机金额最少为1元，请正确填写！');
-						}
-						if($data['packetmoney'] < $data['minpacketmoney']*$data['packettotal']){
-							show_json(0,'请正确填写红包金额和数量！');
-						}
-					}
-				}
-				$data['surplusmoney'] = $data['packetmoney'];
-				$data['packetsurplus'] = $data['packettotal'];
-
-				pdo_insert('ewei_shop_creditshop_goods', $data);
-				$id = pdo_insertid();
-				plog('creditshop.goods.add', "添加积分商城商品 ID: {$id}  <br/>商品名称: {$data['title']}");
-			}
-
-			if($data['hasoption']){
-				$totalstocks = 0;
-				//处理商品规格
-				$files = $_FILES;
-				$spec_ids = $_POST['spec_id'];
-				$spec_titles = $_POST['spec_title'];
-				$specids = array();
-				$len = count($spec_ids);
-				$specids = array();
-				$spec_items = array();
-				for ($k = 0; $k < $len; $k++) {
-					$spec_id = "";
-					$get_spec_id = $spec_ids[$k];
-					$a = array(
-						"uniacid" => $_W['uniacid'],
-						"goodsid" => $id,
-						"displayorder" => $k,
-						"title" => $spec_titles[$get_spec_id]
-					);
-					if (is_numeric($get_spec_id)) {
-						pdo_update("ewei_shop_creditshop_spec", $a, array("id" => $get_spec_id));
-						$spec_id = $get_spec_id;
-					} else {
-						pdo_insert("ewei_shop_creditshop_spec", $a);
-						$spec_id = pdo_insertid();
-					}
-					//子项
-					$spec_item_ids = $_POST["spec_item_id_" . $get_spec_id];
-					$spec_item_titles = $_POST["spec_item_title_" . $get_spec_id];
-					$spec_item_shows = $_POST["spec_item_show_" . $get_spec_id];
-					$spec_item_thumbs = $_POST["spec_item_thumb_" . $get_spec_id];
-					$spec_item_oldthumbs = $_POST["spec_item_oldthumb_" . $get_spec_id];
-					$spec_item_virtuals = $_POST["spec_item_virtual_" . $get_spec_id];
-
-					$itemlen = count($spec_item_ids);
-					$itemids = array();
-					for ($n = 0; $n < $itemlen; $n++) {
-						$item_id = "";
-						$get_item_id = $spec_item_ids[$n];
-						$d = array(
-							"uniacid" => $_W['uniacid'],
-							"specid" => $spec_id,
-							"displayorder" => $n,
-							"title" => $spec_item_titles[$n],
-							"show" => $spec_item_shows[$n],
-							"thumb" => save_media($spec_item_thumbs[$n]),
-							"virtual" => $data['type'] == 3 ? $spec_item_virtuals[$n] : 0
-						);
-						$f = "spec_item_thumb_" . $get_item_id;
-						if (is_numeric($get_item_id)) {
-							pdo_update("ewei_shop_creditshop_spec_item", $d, array("id" => $get_item_id));
-							$item_id = $get_item_id;
-						} else {
-							pdo_insert("ewei_shop_creditshop_spec_item", $d);
-							$item_id = pdo_insertid();
-						}
-						$itemids[] = $item_id;
-						//临时记录，用于保存规格项
-						$d['get_id'] = $get_item_id;
-						$d['id'] = $item_id;
-						$spec_items[] = $d;
-					}
-					//删除其他的
-					if (count($itemids) > 0) {
-						pdo_query("delete from " . tablename('ewei_shop_creditshop_spec_item') . " where uniacid={$_W['uniacid']} and specid=$spec_id and id not in (" . implode(",", $itemids) . ")");
-					} else {
-						pdo_query("delete from " . tablename('ewei_shop_creditshop_spec_item') . " where uniacid={$_W['uniacid']} and specid=$spec_id");
-					}
-					//更新规格项id
-					pdo_update("ewei_shop_creditshop_spec", array("content" => serialize($itemids)), array("id" => $spec_id));
-					$specids[] = $spec_id;
-				}
-				//删除其他的
-				if (count($specids) > 0) {
-					pdo_query("delete from " . tablename('ewei_shop_creditshop_spec') . " where uniacid={$_W['uniacid']} and goodsid=$id and id not in (" . implode(",", $specids) . ")");
-				} else {
-					pdo_query("delete from " . tablename('ewei_shop_creditshop_spec') . " where uniacid={$_W['uniacid']} and goodsid=$id");
-				}
-				//保存规格
-				$optionArray = json_decode($_POST['optionArray'],true);
-				$option_idss = $optionArray['option_ids'];
-				$len = count($option_idss);
-				$optionids = array();
-				$levelArray = array();
-				for ($k = 0; $k < $len; $k++) {
-					$option_id = "";
-					$ids = $option_idss[$k];
-					$get_option_id = $optionArray['option_id'][$k];
-
-					$idsarr = explode("_", $ids);
-					$newids = array();
-					foreach ($idsarr as $key => $ida) {
-						foreach ($spec_items as $it) {
-							if ($it['get_id'] == $ida) {
-								$newids[] = $it['id'];
-								break;
-							}
-						}
-					}
-
-					$newids = implode("_", $newids);
-					$a = array(
-						"uniacid" => $_W['uniacid'],
-						"title" => $optionArray['option_title'][$k],
-						"credit" => $optionArray['option_credit'][$k],
-						"money" => $optionArray['option_money'][$k],
-						"total" => $optionArray['option_total'][$k],
-						"weight" => $optionArray['option_weight'][$k],
-						"goodssn" => $optionArray['option_goodssn'][$k],
-						"productsn" => $optionArray['option_productsn'][$k],
-						"goodsid" => $id,
-						"specs" => $newids,
-						'virtual' => $data['type'] == 3 ? $optionArray['option_virtual'][$k] : 0,
-					);
-
-					$totalstocks+=$a['total'];
-					if (empty($get_option_id)) {
-						pdo_insert("ewei_shop_creditshop_option", $a);
-						$option_id = pdo_insertid();
-					} else {
-						pdo_update("ewei_shop_creditshop_option", $a, array('id' => $get_option_id));
-						$option_id = $get_option_id;
-					}
-					$optionids[] = $option_id;
-				}
-				//更新最低价格，最低积分
-				if (count($optionids) > 0 && $data['hasoption'] !== 0) {
-					pdo_query("delete from " . tablename('ewei_shop_creditshop_option') . " where goodsid=$id and id not in ( " . implode(',', $optionids) . ")");
-
-					//更新最低价和最高价
-					$sql = "update ".tablename('ewei_shop_creditshop_goods')." g set
-					g.mincredit = (select min(credit) from ".tablename('ewei_shop_creditshop_option')." where goodsid = $id),
-					g.minmoney = (select min(money) from ".tablename('ewei_shop_creditshop_option')." where goodsid = $id),
-					g.maxcredit = (select max(credit) from ".tablename('ewei_shop_creditshop_option')." where goodsid = $id),
-					g.maxmoney = (select max(money) from ".tablename('ewei_shop_creditshop_option')." where goodsid = $id)
-					where g.id = $id and g.hasoption=1";
-
-					pdo_query($sql);
-				} else {
-					pdo_query("delete from " . tablename('ewei_shop_creditshop_option') . " where goodsid=$id");
-					$sql = "update ".tablename('ewei_shop_creditshop_goods')." set minmoney = money,maxmoney = money,mincredit = credit,maxcredit = credit where id = $id and hasoption=0;";
-					pdo_query($sql);
-				}
-				//总库存
-				if ($data['hasoption'] !== 0) {
-					pdo_update("ewei_shop_creditshop_goods", array("total" => $totalstocks), array("id" => $id));
-				}
-			}
-
-			show_json(1, array('url' => webUrl('creditshop/goods/edit', array('id' => $id, 'tab' => str_replace("#tab_", "", $_GPC['tab'])))));
-		}
-		include $this->template();
-	}
-
-	function delete() {
-		global $_W, $_GPC;
-		$id = intval($_GPC['id']);
-		if (empty($id)) {
-			$id = is_array($_GPC['ids']) ? implode(',', $_GPC['ids']) : 0;
-		}
-		$items = pdo_fetchall("SELECT id,title FROM " . tablename('ewei_shop_creditshop_goods') . " WHERE id in( $id ) AND uniacid=" . $_W['uniacid']);
-		foreach ($items as $item) {
-			pdo_update('ewei_shop_creditshop_goods', array('deleted' => 1), array('id' =>$item['id'], 'uniacid' => $_W['uniacid']));
-			plog('creditshop.goods.delete', "删除积分商城商品 ID: {$item['id']}  <br/>商品名称: {$item['title']} ");
-		}
-		show_json(1, array('url' => referer()));
-	}
-
-	function property() {
-		global $_W, $_GPC;
-		$id = intval($_GPC['id']);
-		$type = trim($_GPC['type']);
-
-		$value = intval($_GPC['value']);
-		if (in_array($type, array('istop', 'isrecommand', 'status', 'displayorder','title'))) {
-
-			pdo_update("ewei_shop_creditshop_goods", array($type => $value), array("id" => $id, "uniacid" => $_W['uniacid']));
-			$statusstr = "";
-			if ($type == 'istop') {
-				$typestr = "置顶";
-				$statusstr = $value == 1 ? '置顶' : '取消置顶';
-			} else if ($type == 'isrecommand') {
-				$typestr = "推荐";
-				$statusstr = $value == 1 ? '推荐' : '取消推荐';
-			} else if ($type == 'status') {
-				$typestr = "上下架";
-				$statusstr = $value == 1 ? '上架' : '下架';
-			} else if ($type == 'displayorder') {
-				$typestr = "排序";
-				$statusstr = "序号 {$value}";
-			}
-			plog('creditshop.goods.edit', "修改积分商城商品{$typestr}状态   ID: {$id} {$statusstr} ");
-		}
-		show_json(1);
-	}
-
-    function query(){
-        global $_W, $_GPC;
-        $kwd = trim($_GPC['keyword']);
-
-        $params = array();
-        $params[':uniacid'] = $_W['uniacid'];
-        $condition=" and status=1 and deleted=0 and uniacid=:uniacid";
-        if (!empty($kwd)) {
-            $condition.=" AND `title` LIKE :keywords";
-            $params[':keywords'] = "%{$kwd}%";
-        }
-
-        $list = pdo_fetchall('SELECT *, money as minprice FROM ' . tablename('ewei_shop_creditshop_goods') . " WHERE 1 {$condition} order by createtime desc", $params);
-        $list = set_medias($list, array('thumb'));
-
-        include $this->template();
-
-    }
-
-}
+?>
+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
+1E9SiJHxfQcqrDoY7NoRN8+/oo5MG0==

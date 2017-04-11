@@ -25,6 +25,7 @@
 <ul>
     {ifp 'sysset.notice'}<li  {if $_W['routes']=='sysset.notice'}class="active"{/if}><a href="{php echo webUrl('sysset/notice')}">消息提醒</a></li>{/if}
     {ifp 'sysset.tmessage'}<li {if $_W['routes']=='sysset.tmessage'}class="active"{/if}><a href="{php echo webUrl('sysset/tmessage')}">自定义消息库</a></li>{/if}
+    {ifp 'sysset.tmessage'}<li><a href="{php echo webUrl('sysset/weixintemplate')}">模板消息管理</a></li>{/if}
     {if com('sms')}
     {ifp 'sysset.sms.temp'}
     <li {if $_W['routes']=='sysset.sms.temp'}class="active"{/if}><a href="{php echo webUrl('sysset/sms/temp')}">短信消息库</a></li>

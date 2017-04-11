@@ -6,5 +6,11 @@
             <span class="text">营销设置</span>
         </a>
         </li>
+        <li {if $_W['routes']=='sale.couponpay'}class="active"{/if}>
+        <a href="{php echo cashierUrl('sale/couponpay')}">
+            <i class="icon icon-roundadd"></i>
+            <span class="text">优惠买单</span>
+        </a>
+        </li>
     </ul>
 </div>

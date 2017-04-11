@@ -34,6 +34,22 @@
 </form>
 
 <script>
+
+    var types ={$type_json};
+
+
+    $("#typegroup").change(function(){
+
+        $("#typecode").html("");
+        for(var type  in types){
+            if($(this).val()==types[type].typegroup)
+            {
+                $("#typecode").append( "<option value='"+types[type].typecode+"' >"+types[type].name+"</option>" );
+            }
+
+        }
+    });
+
     require(['bootstrap'],function(){
         $('#settingTab a').click(function (e) {
             e.preventDefault();

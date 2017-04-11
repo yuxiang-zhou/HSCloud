@@ -20,7 +20,17 @@
 <link rel="stylesheet" href="../addons/ewei_shopv2/plugin/creditshop/template/mobile/default/images/common.css" />
 <link rel="stylesheet" href="../addons/ewei_shopv2/plugin/creditshop/static/css/common.css" />
 <div class='fui-page  fui-page-current creditshop-detail-page'>
-    <a class="back back-dot" style="z-index: 999;"><i class="icon icon-back1"></i></a>
+    {if !is_h5app()}
+        <a class="back back-dot" style="z-index: 999;"><i class="icon icon-back1"></i></a>
+    {else}
+        <div class="fui-header">
+            <div class="fui-header-left">
+                <a class="back"></a>
+            </div>
+            <div class="title">商品详情</div>
+            <div class="fui-header-right"></div>
+        </div>
+    {/if}
     <div class='fui-content navbar'>
         <!-- 商品图片 -->
         <div class='fui-swipe'>

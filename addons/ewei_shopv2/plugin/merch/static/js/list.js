@@ -1,4 +1,4 @@
-define(['core', 'tpl', 'http://api.map.baidu.com/getscript?v=2.0&ak=ZQiFErjQB7inrGpx27M1GR5w3TxZ64k7'], function (core, tpl) {
+define(['core', 'tpl'], function (core, tpl) {
     var modal = {page: 1, keyword: '',cateid: 0};
     modal.init = function (params) {
         modal.keyword = params.keyword ? params.keyword : '' ;

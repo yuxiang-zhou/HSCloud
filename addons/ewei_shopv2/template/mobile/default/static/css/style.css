@@ -1810,7 +1810,7 @@ a {
     margin-right: -2rem;
 }
 
-.store-selector-page .fui-header .fui-header-right i {
+.store-selector-page .fui-header .fui-header-right .icon-location {
     font-size: 0.5rem;
 }
 
@@ -2330,7 +2330,7 @@ a {
     font-size: 2rem;;
 }
 
-.order-detail-page .order-status {
+.order-detail-page .order-status { 
     padding: .5rem 0;
     background: #ff9326
 }

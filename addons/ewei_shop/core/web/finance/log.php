@@ -231,12 +231,11 @@ if ($op == 'display') {
 			$lastFYtime = new DateTime('NOW');
 			$lastFYtime->setTimestamp($_GPC['createtime']);
 			$lastmonthFYtime = new DateTime('NOW');
-			$interval = $lastmonthFYtime->diff($lastFYtime);
-			if ($interval->y == 0 && $interval->m == 0)  {
+			if ($lastFYtime->format('y-m')                  == $lastmonthFYtime->format('y-m')                 )  {
 				message('本月已于 '.$lastdate.' 返现!', '', 'error');
 			}
     }
-
+    
     // variable definition
     $openid = $_GPC['openid'];
     $money = floatval($_GPC['custom']);

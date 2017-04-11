@@ -1,28 +1,17 @@
-<?php //0003d
-// EWEI_SHOPV2
-// FOXTEAM QQ/TEL: 400-009-7827
+<?php
+/*
+ * 人人商城V2
+ * 
+ * @author ewei 狸小狐 QQ:22185157 
+ */
+if(!defined('IN_IA')) {
+     exit('Access Denied');
+}
 
-?>
-HR+cPpiGwpUdvUyulgb+5Abt9M2h+MtZ7Ivc8+4oCq23CXn8ZtIPdUCFK04Nd2izYBunA6EujRTp
-a5uoyfMA0qm/Pned/TZXu39CW3KZXCN00zYCRTbUJcVQX4yFhcdIYZ15zo51rs9EQ9r5CliWYntq
-UayffoH53euTreM3U8g0M9ggiegxvX7JSDunCnJPZBCWrlDyDuUwFa+EkY37jjWVGep9lx53jCPx
-CpPtSOZi6iDomh8Yc0iYGGZhCBRjOM+xoftzaIJjrwnEBNchC2GkGQCOA/RDv8rbxqPeflvMTSpv
-xzdASNXab0ph+HgMgNwbTj4zgGpcsfBowO8OzuwUQ7PlDVMmup5ZQrzp40bkvs8nlQGVDS16wtRC
-fDSO2ew+Ek0QOYobi/E/OXcHNJ4XLPGvmctNzzH4fyyqEX6aEVCrzquRTBYm6je89gepfUP9roNP
-ugZmZT4oQzY2wGLo8qWrQn7fReJ0J7Ku2qoDCCV+DeXgl5iI6hk5fmk4raDga668+wnF5ry8sB/i
-UsehumEYdZIdwAV9N5zMb+TltaK/Pf7e+hfrMV97r7VWahZz1mhIg3vRb4ovSagXsszIp/IwJKhD
-PvwxUU9KiAWBIS6ICTE4vCfqbFKnyzaSmOjzR6zd6jLOzJt6C0aB/TxyC+zw0QEN1uI9gmSV9gR6
-1/fxzA9HDGXX09Lv+/LLgaSbKwr1NTbrZ/6ri8TMUnH431E3/5Cjqh72kq60vlZgvy8hwvjT7Bw/
-/5egRF4h1qy5WOAcbxdv0k/uur2c8JhpjTP39j6bNJIwmHyMlQ+XXp1qIj7lA+H6ImMzWUElzogh
-4HP2w26j6C9KmQ3kEiQTatGxcG+gW3LaFfmLtHIlPFTlGHPXKqYn5q96cJG6DLMuRUAvbbeD6pa4
-gyKNg2m/apA09VhiXVbITK4itWzL+Pg56ASlvVuGj0vJCLIXMrefbIybG/zY5WI0H9Z50JDY11Iq
-bxb9zQEhbspH6/+1RGyQmbCKVF/8A1YQymrNcKnBayBVh86kFzYazkIpKkuuXXXJ8LMg+IiRQH/x
-mlGMV21HW2tDbbGhvQedqkIGi2o9Vszn/r7qjCaLfxdkg1d/Z9IuG7n351J691GSLqCawUc88Bmq
-x9YPsQsEIxCSaFOU1ES6Xm4vBGZnEQWbsxMqmSmhjysazb9mQVCiA+A6kGqrM56ATKHWRDAi3M0W
-k59+/hsefvTd8Obpurk2vE0qIh/PkxVggzkfnfIWXw5bU4gxzRpvX8c+GRxRC07XnjepLJWkbrgz
-nalbRZyU4KeljH2q9VGWGUjaKk4I04QFofKpe1/HZtGfCG5ZIGL7jP5KXWi7ZXmw/zbUYGkpiqSX
-+Z+Fv97UzEcXfmHWUMztdKQ5Qj71B9tndYfPTMzP2eHXuTFMdbR5Xjr4SZ8pdin4Ut324Y9G6prd
-Gju/XNN9nzvHUbCv0SRbVOCFT8BAbUQRUctEuPb9eVzDJF3C2HBB17gjrJ62VMUn8C5rKrk2nZ2H
-bdTFaaLBi2s9LbVCxuu136KAHjBdednefAyVcHv0euf0cLeZPcX2cdoqtYiKeJtKU9roHR/tIXee
-Q2kpEDRyX1jz+8ihSUH1SVng7xoEBjCvhSXAWxH1ynfV8mDIc8ytLOeCTPsUD3y+Aki7i5LKhEPA
-GSreq7rBFnTilwG2nwOGwbMsxm==
+class Index_EweiShopV2Page extends WebPage {
+    
+    function main(){;
+        header("location:".webUrl('shop'));
+        exit;
+    }
+}

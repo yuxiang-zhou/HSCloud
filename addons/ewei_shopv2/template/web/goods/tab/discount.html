@@ -1,6 +1,5 @@
-  
     <div class="form-group">
-        <label class="col-sm-2 control-label">折扣设置</label>
+        <label class="col-sm-2 control-label"></label>
         <div class="col-sm-10">
             {ife 'goods' $item}
             <label for="discounts_type0" class="radio-inline"><input type="radio" name="discounts[type]" value="0" id="discounts_type0" {if empty($discounts) || $discounts['type'] == 0}checked="true"{/if} /> 统一设置折扣 0.1-10之间</label>
@@ -62,68 +61,4 @@
             $("#discounts_1").show();
         })
     });
-</script>
-
-<script>
-$('#myModal').on('show.bs.modal', function (event) {
-  var button = $(event.relatedTarget); // Button that triggered the modal
-
-  var refund_id = button.data('refundid'); // Extract info from data-* attributes
-  var goodssn = button.data('goodssn'); // Extract info from data-* attributes
-  var period = button.data('period'); // Extract info from data-* attributes
-  var single_refund_price = button.data('srp'); // Extract info from data-* attributes
-  var num_refund = button.data('nf'); // Extract info from data-* attributes
-  var activate = button.data('activate'); // Extract info from data-* attributes
-  var start_date = button.data('startdate'); // Extract info from data-* attributes
-  var end_date = button.data('enddate'); // Extract info from data-* attributes
-
-  var modal = $(this);
-  modal.find('.modal-body input[name=refund_id]').val(refund_id);
-  modal.find('.modal-body input[name=update_goodssn]').val(goodssn);
-  modal.find('.modal-body input[name=update_period]').val(period);
-  modal.find('.modal-body input[name=update_single_refund_price]').val(single_refund_price);
-  modal.find('.modal-body input[name=update_num_refund]').val(num_refund);
-  modal.find('.modal-body input[name=update_activate]').val(activate);
-
-
-  // get selected time. Note timezone problem not solved
-  if (!start_date) {
-    start_date = 0;
-  }
-
-  if (!end_date) {
-    end_date = Math.round(Date.now() / 1000 + 3600 * 24 * 365);
-  }
-
-  start_date = new Date(parseInt(start_date)*1000);
-  end_date = new Date(parseInt(end_date)*1000);
-
-  var start_date_str = start_date.getFullYear() + "-" + (start_date.getMonth() + 1) + "-" + start_date.getDate() + " " + start_date.getHours() + ":" + start_date.getMinutes();
-  var end_date_str = end_date.getFullYear() + "-" + (end_date.getMonth() + 1) + "-" + end_date.getDate() + " " + end_date.getHours() + ":" + end_date.getMinutes();
-
-
-  modal.find('.modal-body #model_date').html('<div class="col-sm-7 col-lg-9 col-xs-12"><input name="time[start]" type="hidden" value="'+start_date_str+'"><input name="time[end]" type="hidden" value="'+end_date_str+'"><button class="btn btn-default daterange daterange-time" type="button" data-original-title="" title=""><span class="date-title">'+start_date_str+' 至 '+end_date_str+'</span> <i class="fa fa-calendar"></i></button></div>');
-
-
-  require(["daterangepicker"], function($){
-		$(function(){
-			$(".daterange.daterange-time").each(function(){
-				var elm = this;
-				$(this).daterangepicker({
-					startDate: $(elm).prev().prev().val(),
-					endDate: $(elm).prev().val(),
-					format: "YYYY-MM-DD HH:mm",
-					timePicker: true,
-					timePicker12Hour : false,
-					timePickerIncrement: 1,
-					minuteStep: 1
-				}, function(start, end){
-					$(elm).find(".date-title").html(start.toDateTimeStr() + " 至 " + end.toDateTimeStr());
-					$(elm).prev().prev().val(start.toDateTimeStr());
-					$(elm).prev().val(end.toDateTimeStr());
-				});
-			});
-		});
-	});
-})
 </script>

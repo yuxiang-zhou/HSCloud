@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns="http://www.mitusky.com" versionCode="0.6">
 	<application setting="false">
-		<name><![CDATA[人人商城V2]]></name>
+		<name><![CDATA[人人商城v2]]></name>
 		<identifie><![CDATA[ewei_shopv2]]></identifie>
-		<version><![CDATA[2.8.0.6]]></version>
+		<version><![CDATA[2.8.0.9.1]]></version>
 		<type><![CDATA[business]]></type>
-		<ability><![CDATA[人人商城V2]]></ability>
-		<description><![CDATA[人人商城V2]]></description>
+		<ability><![CDATA[人人商城v2]]></ability>
+		<description><![CDATA[人人商城，多插件一体化超强功能商城系统]]></description>
 		<author><![CDATA[FOXTEAM QQ/TEL: 400-009-7827]]></author>
 		<url><![CDATA[http://www.mitusky.com]]></url>
 	</application>
@@ -54,27 +54,21 @@
 	<permissions>
 	</permissions>
 	<install><![CDATA[install.php]]></install>
-	<uninstall><![CDATA[DROP TABLE IF EXISTS `ewei_shop_abonus_bill`;
+	<uninstall><![CDATA[DROP TABLE IF EXISTS `ewei_message_mass_sign`;
+DROP TABLE IF EXISTS `ewei_message_mass_task`;
+DROP TABLE IF EXISTS `ewei_message_mass_template`;
+DROP TABLE IF EXISTS `ewei_shop_abonus_bill`;
 DROP TABLE IF EXISTS `ewei_shop_abonus_billo`;
 DROP TABLE IF EXISTS `ewei_shop_abonus_billp`;
 DROP TABLE IF EXISTS `ewei_shop_abonus_level`;
 DROP TABLE IF EXISTS `ewei_shop_adv`;
+DROP TABLE IF EXISTS `ewei_shop_area_config`;
 DROP TABLE IF EXISTS `ewei_shop_article`;
 DROP TABLE IF EXISTS `ewei_shop_article_category`;
 DROP TABLE IF EXISTS `ewei_shop_article_log`;
 DROP TABLE IF EXISTS `ewei_shop_article_report`;
 DROP TABLE IF EXISTS `ewei_shop_article_share`;
 DROP TABLE IF EXISTS `ewei_shop_article_sys`;
-DROP TABLE IF EXISTS `ewei_shop_author_bill`;
-DROP TABLE IF EXISTS `ewei_shop_author_billo`;
-DROP TABLE IF EXISTS `ewei_shop_author_billp`;
-DROP TABLE IF EXISTS `ewei_shop_author_level`;
-DROP TABLE IF EXISTS `ewei_shop_author_team`;
-DROP TABLE IF EXISTS `ewei_shop_author_team_pay`;
-DROP TABLE IF EXISTS `ewei_shop_backone_apply`;
-DROP TABLE IF EXISTS `ewei_shop_backone_goods`;
-DROP TABLE IF EXISTS `ewei_shop_backone_records`;
-DROP TABLE IF EXISTS `ewei_shop_backone_set`;
 DROP TABLE IF EXISTS `ewei_shop_banner`;
 DROP TABLE IF EXISTS `ewei_shop_bargain_account`;
 DROP TABLE IF EXISTS `ewei_shop_bargain_actor`;
@@ -92,12 +86,6 @@ DROP TABLE IF EXISTS `ewei_shop_cashier_pay_log_goods`;
 DROP TABLE IF EXISTS `ewei_shop_cashier_qrcode`;
 DROP TABLE IF EXISTS `ewei_shop_cashier_user`;
 DROP TABLE IF EXISTS `ewei_shop_category`;
-DROP TABLE IF EXISTS `ewei_shop_ccard`;
-DROP TABLE IF EXISTS `ewei_shop_ccard_date`;
-DROP TABLE IF EXISTS `ewei_shop_ccard_date_log`;
-DROP TABLE IF EXISTS `ewei_shop_ccard_goods_log`;
-DROP TABLE IF EXISTS `ewei_shop_ccard_log`;
-DROP TABLE IF EXISTS `ewei_shop_ccard_member_log`;
 DROP TABLE IF EXISTS `ewei_shop_commission_apply`;
 DROP TABLE IF EXISTS `ewei_shop_commission_bank`;
 DROP TABLE IF EXISTS `ewei_shop_commission_clickcount`;
@@ -176,7 +164,6 @@ DROP TABLE IF EXISTS `ewei_shop_groups_order_refund`;
 DROP TABLE IF EXISTS `ewei_shop_groups_paylog`;
 DROP TABLE IF EXISTS `ewei_shop_groups_set`;
 DROP TABLE IF EXISTS `ewei_shop_groups_verify`;
-DROP TABLE IF EXISTS `ewei_shop_mc_merchant`;
 DROP TABLE IF EXISTS `ewei_shop_member`;
 DROP TABLE IF EXISTS `ewei_shop_member_address`;
 DROP TABLE IF EXISTS `ewei_shop_member_cart`;
@@ -192,13 +179,6 @@ DROP TABLE IF EXISTS `ewei_shop_member_printer_template`;
 DROP TABLE IF EXISTS `ewei_shop_member_rank`;
 DROP TABLE IF EXISTS `ewei_shop_merch_account`;
 DROP TABLE IF EXISTS `ewei_shop_merch_adv`;
-DROP TABLE IF EXISTS `ewei_shop_merch_agent`;
-DROP TABLE IF EXISTS `ewei_shop_merch_agent_apply`;
-DROP TABLE IF EXISTS `ewei_shop_merch_agent_goods`;
-DROP TABLE IF EXISTS `ewei_shop_merch_agent_level`;
-DROP TABLE IF EXISTS `ewei_shop_merch_agent_log`;
-DROP TABLE IF EXISTS `ewei_shop_merch_agent_mygoods`;
-DROP TABLE IF EXISTS `ewei_shop_merch_agent_sysset`;
 DROP TABLE IF EXISTS `ewei_shop_merch_banner`;
 DROP TABLE IF EXISTS `ewei_shop_merch_bill`;
 DROP TABLE IF EXISTS `ewei_shop_merch_billo`;
@@ -206,7 +186,6 @@ DROP TABLE IF EXISTS `ewei_shop_merch_category`;
 DROP TABLE IF EXISTS `ewei_shop_merch_category_swipe`;
 DROP TABLE IF EXISTS `ewei_shop_merch_clearing`;
 DROP TABLE IF EXISTS `ewei_shop_merch_group`;
-DROP TABLE IF EXISTS `ewei_shop_merch_loan`;
 DROP TABLE IF EXISTS `ewei_shop_merch_nav`;
 DROP TABLE IF EXISTS `ewei_shop_merch_notice`;
 DROP TABLE IF EXISTS `ewei_shop_merch_perm_log`;
@@ -215,19 +194,8 @@ DROP TABLE IF EXISTS `ewei_shop_merch_reg`;
 DROP TABLE IF EXISTS `ewei_shop_merch_saler`;
 DROP TABLE IF EXISTS `ewei_shop_merch_store`;
 DROP TABLE IF EXISTS `ewei_shop_merch_user`;
-DROP TABLE IF EXISTS `ewei_shop_mr_adv`;
-DROP TABLE IF EXISTS `ewei_shop_mr_api`;
-DROP TABLE IF EXISTS `ewei_shop_mr_goods`;
-DROP TABLE IF EXISTS `ewei_shop_mr_order`;
-DROP TABLE IF EXISTS `ewei_shop_mr_set`;
-DROP TABLE IF EXISTS `ewei_shop_mr_specs`;
 DROP TABLE IF EXISTS `ewei_shop_multi_shop`;
 DROP TABLE IF EXISTS `ewei_shop_nav`;
-DROP TABLE IF EXISTS `ewei_shop_newmr_adv`;
-DROP TABLE IF EXISTS `ewei_shop_newmr_goods`;
-DROP TABLE IF EXISTS `ewei_shop_newmr_mobile`;
-DROP TABLE IF EXISTS `ewei_shop_newmr_order`;
-DROP TABLE IF EXISTS `ewei_shop_newmr_set`;
 DROP TABLE IF EXISTS `ewei_shop_notice`;
 DROP TABLE IF EXISTS `ewei_shop_order`;
 DROP TABLE IF EXISTS `ewei_shop_order_comment`;
@@ -236,8 +204,6 @@ DROP TABLE IF EXISTS `ewei_shop_order_refund`;
 DROP TABLE IF EXISTS `ewei_shop_package`;
 DROP TABLE IF EXISTS `ewei_shop_package_goods`;
 DROP TABLE IF EXISTS `ewei_shop_package_goods_option`;
-DROP TABLE IF EXISTS `ewei_shop_pcshop_adv`;
-DROP TABLE IF EXISTS `ewei_shop_pcshop_set`;
 DROP TABLE IF EXISTS `ewei_shop_perm_log`;
 DROP TABLE IF EXISTS `ewei_shop_perm_plugin`;
 DROP TABLE IF EXISTS `ewei_shop_perm_role`;
@@ -257,15 +223,6 @@ DROP TABLE IF EXISTS `ewei_shop_qa_set`;
 DROP TABLE IF EXISTS `ewei_shop_refund_address`;
 DROP TABLE IF EXISTS `ewei_shop_sale_coupon`;
 DROP TABLE IF EXISTS `ewei_shop_sale_coupon_data`;
-DROP TABLE IF EXISTS `ewei_shop_salemall_adv`;
-DROP TABLE IF EXISTS `ewei_shop_salemall_category`;
-DROP TABLE IF EXISTS `ewei_shop_salemall_comment`;
-DROP TABLE IF EXISTS `ewei_shop_salemall_goods`;
-DROP TABLE IF EXISTS `ewei_shop_salemall_log`;
-DROP TABLE IF EXISTS `ewei_shop_salemall_option`;
-DROP TABLE IF EXISTS `ewei_shop_salemall_set`;
-DROP TABLE IF EXISTS `ewei_shop_salemall_spec`;
-DROP TABLE IF EXISTS `ewei_shop_salemall_spec_item`;
 DROP TABLE IF EXISTS `ewei_shop_saler`;
 DROP TABLE IF EXISTS `ewei_shop_seckill_adv`;
 DROP TABLE IF EXISTS `ewei_shop_seckill_category`;
@@ -290,12 +247,6 @@ DROP TABLE IF EXISTS `ewei_shop_sns_manage`;
 DROP TABLE IF EXISTS `ewei_shop_sns_member`;
 DROP TABLE IF EXISTS `ewei_shop_sns_post`;
 DROP TABLE IF EXISTS `ewei_shop_store`;
-DROP TABLE IF EXISTS `ewei_shop_store_category`;
-DROP TABLE IF EXISTS `ewei_shop_store_clearing`;
-DROP TABLE IF EXISTS `ewei_shop_store_log`;
-DROP TABLE IF EXISTS `ewei_shop_store_order`;
-DROP TABLE IF EXISTS `ewei_shop_store_pay_log`;
-DROP TABLE IF EXISTS `ewei_shop_store_user`;
 DROP TABLE IF EXISTS `ewei_shop_sysset`;
 DROP TABLE IF EXISTS `ewei_shop_system_adv`;
 DROP TABLE IF EXISTS `ewei_shop_system_article`;

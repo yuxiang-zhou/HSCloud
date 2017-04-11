@@ -10,11 +10,22 @@
 </div>
 
 <div class="form-group">
+    <label class="col-sm-2 control-label">消息接口分组</label>
+    <div class="col-sm-9 col-xs-12">
+        <select class='form-control'   style="width: 300px;" id="typegroup" name="typegroup">
+            {loop $typegroup $group}
+                <option value="{$group['typegroup']}" {if $types['typegroup'] == $group['typegroup'] }selected{/if}>{$group['groupname']}</option>
+            {/loop}
+        </select>
+    </div>
+</div>
+
+<div class="form-group">
     <label class="col-sm-2 control-label">模板对应消息接口</label>
     <div class="col-sm-9 col-xs-12">
-        <select class="select2" style="width: 300px;" name="typecode">
+        <select class='form-control'   style="width: 300px;" id="typecode" name="typecode">
             {loop $templatetypes $templatetype}
-                <option value="{$templatetype['typecode']}" {if $list['typecode'] == $templatetype['typecode'] }selected{/if}>{$templatetype['name']}</option>
+                <option value="{$templatetype['typecode']}" {if $types['typecode'] == $templatetype['typecode'] }selected{/if}>{$templatetype['name']}</option>
             {/loop}
         </select>
     </div>

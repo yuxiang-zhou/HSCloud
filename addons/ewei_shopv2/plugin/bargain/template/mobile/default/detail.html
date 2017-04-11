@@ -1,5 +1,5 @@
 {template '_header'}
-
+<script>document.title = "砍价商品详情"; </script>
     <link rel="stylesheet" type="text/css" href="../addons/ewei_shopv2/plugin/bargain/static/css/iconfont.css">
     <link rel="stylesheet" type="text/css" href="../addons/ewei_shopv2/plugin/bargain/static/css/style.css">
     <link rel="stylesheet" type="text/css" href="../addons/ewei_shopv2/plugin/bargain/static/css/bargain.css">
@@ -27,13 +27,13 @@
                 cc.innerHTML = "剩余:"+day1+"天"+hour+"小时"+minute+"分"+second+"秒";
             }
         }
-        window.setInterval(function(){ShowCountDown({$year},{$month},{$day},{$hour},{$minute},{$second},{$status},'divdown1');}, interval);
+        window.setInterval(function(){ShowCountDown({$year},{$month},{$day},{$hour},{$minute},{$second},{$status},'divdown2');}, interval);
     </script>
 
 
 <div class='fui-page-group'>
-    <div class='fui-page creditshop-detail-page'>
-
+    <div class='fui-page fui-page-current'>
+        {if is_h5app()}
         <div class="fui-header">
             <div class="fui-header-left">
                 <a class="back"></a>
@@ -41,7 +41,7 @@
             <div class="title">砍价商品详情</div>
             <div class="fui-header-right"></div>
         </div>
-
+        {/if}
         <div class='fui-content'>
             <div class='fui-swipe' data-speed='5000' data-gap ='2'>
                 <div class='fui-swipe-wrapper'>
@@ -51,7 +51,7 @@
                     {/loop}
                 </div>
                 <div class="swipe-info" style="color: {$res['custom']['countdown_color']};">
-                    <font style="font-size: 20px;float: left;">{$res['custom']['countdown']}</font> <font id="divdown1" style="float: right"></font>
+                    <font style="font-size: 20px;float: left;">{$res['custom']['countdown']}</font> <font id="divdown2" style="float: right"></font>
                 </div>
 
             </div>
@@ -78,7 +78,7 @@
                     </div>
 
                     <div class="fui-list-media">
-                        <a href="{php echo mobileUrl('bargain/rule',array('id'=>$id))}"><i class="icon icon-menu"></i><p>规则</p></a>
+                        <a href="{php echo mobileUrl('bargain/rule',array('id'=>$id))}" data-nocache="true"><i class="icon icon-menu"></i><p>规则</p></a>
                     </div>
                 </div>
 
@@ -121,13 +121,13 @@
 
     </div>
         <div class="fui-navbar footer-nav bordert" style="z-index:10;padding:0;">
-            <a href="{php echo mobileurl(bargain);}" class="nav-item home-btn">
+            <a href="{php echo mobileurl(bargain);}" class="nav-item home-btn" data-nocache="true">
                 <span class="icon icon-home1"></span>
                 <span class="label">首页</span>
             </a>
-            <a href="{php echo mobileUrl('order/create',array('id'=>$res['goods_id']));}" class="nav-item lynn-bargain-a lynn-bargain-now-a"><span>原价购买</span></a>
+            <a href="{php echo mobileUrl('order/create',array('id'=>$res['goods_id']));}" class="nav-item lynn-bargain-a lynn-bargain-now-a" data-nocache="true"><span>原价购买</span></a>
             {if $swi==0}
-            <a {if !$act_swi['id']}href="{php echo mobileurl('bargain/join',array('goods'=>$res['id']));}"{else}onclick="FoxUI.confirm('您已经发起过一次本商品的砍价活动,是否立即查看？','砍价提示',callback)"{/if} class="nav-item lynn-bargain-a lynn-bargain-share-a" ><span style="border: 1px solid {$res['custom']['btn_color']};background-color: {$res['custom']['btn_color']}" data-nocache="true">立即砍价</span></a>{/if}
+            <a {if !$act_swi['id']}href="{php echo mobileurl('bargain/join',array('goods'=>$res['id']));}"{else}onclick="FoxUI.confirm('您已经发起过一次本商品的砍价活动,是否立即查看？','砍价提示',callback)"{/if} class="nav-item lynn-bargain-a lynn-bargain-share-a"><span style="border: 1px solid {$res['custom']['btn_color']};background-color: {$res['custom']['btn_color']}" data-nocache="true">立即砍价</span></a>{/if}
 
             {if $swi==1}<a class="nav-item lynn-bargain-a lynn-bargain-now-a"><span style="color: #ccc">尚未开始</span></a>{/if}
             {if $swi==2}<a href="" class="nav-item lynn-bargain-a lynn-bargain-now-a"><span style="color: #ccc">已经结束</span></a>{/if}

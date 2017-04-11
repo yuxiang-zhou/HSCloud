@@ -3,7 +3,27 @@
 
     {loop $diyitem['data'] $saledata}
 
-        {if $saledata['type']=='erci'}
+        {if $saledata['type']=='yushou'}
+
+            {if $goods['ispresell']==1 && ( $goods['preselltimeend'] > time() ||  $goods['preselltimeend'] == 0)}
+            <div class='fui-cell-group fui-cell-click  fui-sale-group' style='margin-top:0'>
+                <div class="fui-list">
+                    <div class="fui-list-media">
+                        <div class='fui-cell-text'>
+                            <span class="fui-label fui-label-safety">预售</span>
+                        </div>
+                    </div>
+                    <div class="fui-list-inner" style="font-size:0.65rem; color: {$diyitem['style']['textcolor']};">
+                        {if $goods['preselltimeend'] > 0}
+                        结束时间：{php echo date('m月d日 H:i:s', $goods['preselltimeend'])}<br />
+                        {/if}
+                        预计发货：{if $goods['presellsendtype']>0}购买后<span class="text-danger" style="color: {$diyitem['style']['textcolorhigh']};">{$goods['presellsendtime']}</span>天发货{else}<span class="text-danger" style="color: {$diyitem['style']['textcolorhigh']};">{php echo date('m月d日', $goods['presellsendstatrttime'])}</span>{/if}
+                    </div>
+                </div>
+            </div>
+            {/if}
+
+        {elseif $saledata['type']=='erci'}
 
             {if floatval($goods['buyagain'])>0 && empty($seckillinfo)}
             <div class="fui-cell-group  fui-sale-group" style="margin-top:0; background: {$diyitem['style']['background']};">
@@ -23,7 +43,7 @@
                 {if !empty($memberprice) && $memberprice!=$goods['minprice'] && !empty($level)}
                 <div class="fui-cell-group  fui-sale-group" style="margin-top:0; background: {$diyitem['style']['background']};">
                     <div class="fui-cell">
-                        <div class="fui-cell-text" style="white-space: normal; color: {$diyitem['style']['textcolor']};">您的会员等级是 <span class="text-danger" style="color: {$diyitem['style']['textcolorhigh']};">{$level['levelname']}</span> 可享受 <span class="text-danger">￥{$memberprice}</span> 的价格</div>
+                        <div class="fui-cell-text" style="white-space: normal; color: {$diyitem['style']['textcolor']};">您的会员等级是 <span class="text-danger" style="color: {$diyitem['style']['textcolorhigh']};">{$level['levelname']}</span> 可享受 <span class="text-danger" style="color: {$diyitem['style']['textcolorhigh']};">￥{$memberprice}</span> 的价格</div>
                     </div>
                 </div>
                 {/if}
@@ -101,6 +121,17 @@
                     </div>
                 </div>
             </div>
+            {/if}
+
+        {elseif $saledata['type']=='coupon'}
+
+            {if com('coupon')&&$coupons}
+                <div class="fui-cell-group fui-cell-click">
+                    <div class="fui-cell">
+                        <div class="fui-cell-text coupon-selector">领取可用优惠券</div>
+                        <div class="fui-cell-remark"></div>
+                    </div>
+                </div>
             {/if}
 
         {/if}

@@ -75,6 +75,40 @@
 			         您购买的商品已自动发货
 			    {else}
 			         您已经支付成功
+
+				{if p('lottery')}
+				<div id="changesmodel" style="display: none;">
+					<div id="changescontent" onclick="" class="task-model" style="background: url('../addons/ewei_shopv2/plugin/lottery/static/images/changes.png');background-size: cover; width: 16rem; height: 16rem;  background-size: cover;position: relative; left: 9%; margin-bottom: 55%;">
+        <span class="changes-btn-close" style="border: 1px solid #ffffff; color: #ffffff; border-radius: 50%; position: relative; top: -1.3rem; left: 15.5rem; padding: 0.2rem 0.3rem;"><i class="icon icon-close"></i><span>
+					</div>
+				</div>
+				<script type="text/javascript">
+					$(document).ready(function () {
+						setTimeout(function () {
+							if ({$lottery_changes['is_changes']} == 1) {
+								var changes = {php echo json_encode($lottery_changes['lottery']);};
+								$('#changescontent').attr('onclick', 'window.location.href="{php echo mobileUrl("lottery/lottery_info",array(),true);}&id=' + changes.lottery_id + '"');
+								taskget = new FoxUIModal({
+									content: $('#changesmodel').html(),
+									extraClass: 'picker-modal',
+									maskClick: function () {
+										taskget.close()
+									}
+								});
+								taskget.container.find('.changes-btn-close').click(function () {
+									taskget.close();
+									event.stopPropagation();
+								});
+
+								taskget.show();
+							}
+						}, 200);
+					});
+
+				</script>
+				{/if}
+
+
 			    {/if}
 			{/if}
 				{/if}
@@ -85,7 +119,7 @@
 	</div>
 	
 	{if !empty($stores)}
-	<script language='javascript' src='http://api.map.baidu.com/api?v=2.0&ak=ZQiFErjQB7inrGpx27M1GR5w3TxZ64k7'></script>
+	<script language='javascript' src='https://api.map.baidu.com/api?v=2.0&ak=ZQiFErjQB7inrGpx27M1GR5w3TxZ64k7&s=1'></script>
 	<div class='fui-according-group'>
 	<div class='fui-according'>
 	    <div class='fui-according-header'>

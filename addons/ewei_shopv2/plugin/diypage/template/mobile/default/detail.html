@@ -16,6 +16,7 @@
 </style>
 <link rel="stylesheet" href="../addons/ewei_shopv2/static/js/dist/swiper/swiper.min.css">
 <link href="../addons/ewei_shopv2/plugin/diypage/static/css/foxui.diy.css?v=201610091000"rel="stylesheet"type="text/css"/>
+<link rel="stylesheet" type="text/css" href="../addons/ewei_shopv2/template/mobile/default/static/css/coupon.css?v=2.0.0">
 
 <div class='fui-page fui-page-current  page-goods-detail' id='page-goods-detail-index'>
     {if $diypage['followbar']}
@@ -351,14 +352,18 @@
     <div class='content'>请点击右上角<br/>通过【发送给朋友】<br/>邀请好友购买</div>
 </div>
 
-
+{template 'sale/coupon/util/couponpicker'}
 
 <script language="javascript">
 
     require(['biz/goods/detail'], function (modal) {
         modal.init({
             goodsid:"{$goods['id']}",
-            getComments : "{$getComments}"
+            getComments : "{$getComments}",
+            seckillinfo: {php echo json_encode($seckillinfo)},
+            attachurl_local:"{$GLOBALS['_W']['attachurl_local']}",
+            attachurl_remote:"{$GLOBALS['_W']['attachurl_remote']}",
+            coupons: {php echo json_encode($coupons)}
         });
     });
 

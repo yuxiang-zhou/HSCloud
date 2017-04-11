@@ -79,21 +79,18 @@ define(['core', 'tpl'], function (core, tpl) {
     };
     modal.initLocation = function () {
         if ($(".merchgroup[data-openlocation='1']").length > 0) {
-            var mapApi = 'http://api.map.baidu.com/getscript?v=2.0&ak=ZQiFErjQB7inrGpx27M1GR5w3TxZ64k7';
-            require([mapApi], function () {
-                var geoLocation = new BMap.Geolocation();
-                window.modal = modal;
-                geoLocation.getCurrentPosition(function (result) {
-                    if (this.getStatus() == BMAP_STATUS_SUCCESS) {
-                        modal.location.lat = result.point.lat;
-                        modal.location.lng = result.point.lng;
-                        modal.initMerch()
-                    } else {
-                        FoxUI.toast.show("位置获取失败!");
-                        return
-                    }
-                }, {enableHighAccuracy: true})
-            })
+            var geoLocation = new BMap.Geolocation();
+            window.modal = modal;
+            geoLocation.getCurrentPosition(function (result) {
+                if (this.getStatus() == BMAP_STATUS_SUCCESS) {
+                    modal.location.lat = result.point.lat;
+                    modal.location.lng = result.point.lng;
+                    modal.initMerch()
+                } else {
+                    FoxUI.toast.show("位置获取失败!");
+                    return
+                }
+            }, {enableHighAccuracy: true})
         }
     };
     modal.initMerch = function () {

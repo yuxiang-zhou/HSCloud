@@ -6,7 +6,9 @@
 		<a class="back"></a>
 	    </div>
 	    <div class="title">选择门店</div> 
-	    <div class="fui-header-right" id="btn-near"><i class="icon icon-location"></i> 离我最近</div>
+	    <div class="fui-header-right">
+			<a href="javascript:;" id="btn-near"><i class="icon icon-location"></i> 离我最近</a>
+		</div>
 	</div>
 	<div class='fui-content'>
 	      <div class="fui-searchbar">
@@ -50,6 +52,7 @@
 		{/loop}
 	    </div> 
 	</div>
+	<script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=ZQiFErjQB7inrGpx27M1GR5w3TxZ64k7&s=1"></script>
     <script language='javascript'>
 	    require(['biz/store/selector'], function (modal) {
 		modal.init()

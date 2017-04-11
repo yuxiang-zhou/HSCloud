@@ -623,6 +623,11 @@
     <div class="drag" data-itemid="<%itemid%>">
         <div class="fui-cell-group fui-cell-click  fui-sale-group" style="background: <%style.background%>; margin-top: <%style.margintop%>px; margin-bottom: <%style.marginbottom%>px;">
             <%each data as sale%>
+            <%if sale.type=='yushou'%>
+                <div class="fui-cell">
+                    <div class="fui-cell-text" style="color: <%style.textcolor%>;"><label class="label label-default">预售</label> 预计发货时间：购买后<span class="text-danger" style="color: <%style.salecolorhigh%>;"> 7 </span>天发货</div>
+                </div>
+            <%/if%>
             <%if sale.type=='erci'%>
             <div class="fui-cell">
                 <div class="fui-cell-text" style="color: <%style.textcolor%>;">此商品二次购买 可享受 <span class="text-danger" style="color: <%style.salecolorhigh%>;"> 5 </span> 折优惠</div>
@@ -659,6 +664,11 @@
                     <span class="label label-danger" style="border-radius: 5px;">保修</span>
                     <span class="label label-danger" style="border-radius: 5px;">发票</span>
                 </div>
+            </div>
+            <%/if%>
+            <%if sale.type=='coupon'%>
+            <div class="fui-cell">
+                <div class="fui-cell-text">领取可用优惠券</div>
             </div>
             <%/if%>
             <%/each%>

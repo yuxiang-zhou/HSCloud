@@ -61,21 +61,29 @@
 </div>
 {/if}
 <!--联系填写-->
+{if $sysset['set_realname']==0 || $sysset['set_mobile']==0}
 <div class="fui-cell-group sm" id="memberInfo" {if !$isverify && !$isvirtual}style="display:none"{/if}>
+{if $sysset['set_realname']==0}
 <div class="fui-cell">
     <div class="fui-cell-label sm">联系人</div>
-    <div class="fui-cell-info"><input type="text" placeholder="请输入联系人" name='carrier_realname' class="fui-input" value="{$member['realname']}"/></div>
+    <div class="fui-cell-info"><input type="text" placeholder="请输入联系人" data-set="{$sysset['set_realname']}" name='carrier_realname' class="fui-input" value="{$member['realname']}"/></div>
 </div>
+{/if}
+{if $sysset['set_mobile']==0}
 <div class="fui-cell">
     <div class="fui-cell-label sm">联系电话</div>
-    <div class="fui-cell-info"><input type="tel" placeholder="请输入联系电话" name='carrier_mobile' class="fui-input" value="{$member['carrier_mobile']}"/></div>
+    <div class="fui-cell-info"><input type="tel" placeholder="请输入联系电话" data-set="{$sysset['set_mobile']}" name='carrier_mobile' class="fui-input" value="{$member['carrier_mobile']}"/></div>
 </div>
+{/if}
 </div>
+{/if}
 
 
 <div class="fui-list-group" >
-    <div class="fui-list-group-title"><i class="icon icon-shop"></i > {$_W['shopset']['shop']['name']}</div>
-    {loop $goods $g}
+
+    {loop $goods_list $key $list}
+    <div class="fui-list-group-title"><i class="icon icon-shop"></i > {$list['shopname']}</div>
+    {loop $list['goods'] $g}
     <input type='hidden' name='goodsid[]' value="{$g['id']}" />
     <input type='hidden' name='optionid[]' value="{$g['optionid']}" />
     <div class="fui-list goods-item">
@@ -87,44 +95,40 @@
         <div class="fui-list-inner">
             <a href="{php echo mobileUrl('goods/detail',array('id'=>$g['goodsid']))}">
                 <div class="text">
-                    {if empty($g['isnodiscount']) && !empty($g['dflag'])}
-                    <span class='fui-label fui-label-danger'>折扣</span>
-                    {/if}
-
-                    {$g['title']} {if !empty($g['cashback'])}<span style='color:#AAAAAA'> (90天后分{$g['cashback']['num_refund']}个月共补贴{$g['cashback']['total']}元)</span>{/if}
-
+                    {if $g['seckillinfo'] && $g['seckillinfo']['status']==0}<span class='fui-label fui-label-danger'>{$g['seckillinfo']['tag']}</span>{/if}
+                    {if empty($g['isnodiscount']) && !empty($g['dflag'])}<span class='fui-label fui-label-danger'>折扣</span>{/if}
+                    {$g['title']}
                 </div>
                 {if !empty($g['optionid'])}
                 <div class="text">
                     {$g['optiontitle']}
                 </div>
                 {/if}
-
             </a>
         </div>
         <div class='fui-list-angle'>
-            <span class="price ">&yen; <span class='marketprice'>{if $g['packageprice'] > $g['unitprice']}{$g['packageprice']}{else}{$g['unitprice']}{/if}</span></span>
+            <span class="price ">&yen; <span class='marketprice'>{if $g['packageprice'] > $g['unitprice']}{$g['packageprice']}{else if $g['marketprice'] > $g['unitprice']}{$g['marketprice']}{else}{$g['unitprice']}{/if}</span></span>
             <span class="total">
-                {if $changenum}
-                <div class="fui-number small"
-                     data-value="{$total}"
-                     data-unit='{$g['unit']}'
-                 data-maxbuy="{$g['totalmaxbuy']}"
-                 data-minbuy="{$g['minbuy']}"
-                 data-goodsid="{$g['goodsid']}">
-                 <div class="minus">-</div>
-                <input class="num shownum" type="tel" name="" value="{$total}"/>
-                <div class="plus">+</div>
+                {if $changenum && !$isgift}
+                <div class="fui-number small" data-value="{$total}" data-unit="{$g['unit']}" data-maxbuy="{$g['totalmaxbuy']}" data-minbuy="{$g['minbuy']}" data-goodsid="{$g['goodsid']}">
+                    <div class="minus">-</div>
+                    <input class="num shownum" type="tel" name="" value="{$total}"/>
+                    <div class="plus">+</div>
+                </div>
+                {else}
+                    x{$g['total']}<input class="num shownum" type="hidden" name="" value="{$total}"/>
+                {/if}
+            </span>
         </div>
-        {else}
-        x{$g['total']}
-        {/if}
-
-        </span>
-    </div>
 
 </div>
 {/loop}
+{/loop}
+
+
+
+
+
 <script type="text/javascript">
     $(function(){
         $(".package-goods-img").height($(".package-goods-img").width());
@@ -159,24 +163,24 @@
     </div>
     {/if}
     <div class="fui-cell">
-        <div class="fui-cell-info" style="text-align: right;">共 <span id='goodscount' class='text-danger'>{$total}</span> 件商品 合计：<span class="text-danger">&yen; <span class='{if !$packageid}goodsprice{/if}'>{php echo number_format($goodsprice,2)}</soan></span></div>
+        <div class="fui-cell-info" style="text-align: right;">共 <span id='goodscount' class='text-danger'>{$total}</span> 件商品 合计：<span class="text-danger">&yen; <span class='{if !$packageid && empty($exchangeOrder)}goodsprice{/if}'>{php echo number_format($goodsprice,2)}</soan></span></div>
     </div>
 
 </div>
 </div>
 
 {if $isgift}
+<input type="hidden" name="giftid" id="giftid" value="{$giftid}">
 <div class="fui-cell-group sm ">
     <div class="fui-cell">
         {if count($gifts)>1}
         <div class='fui-cell-text fui-cell-giftclick'>
             赠品：<label id="gifttitle">请选择赠品</label>
-            <input type="hidden" name="giftid" id="giftid" value="">
         </div>
         {else}
         {loop $gifts $item}
         <div class='fui-cell-text' onclick="javascript:window.location.href='{php echo mobileUrl('goods/gift',array('id'=>$item['id']))}'">
-            赠品：{$gifttitle}<input type="hidden" name="giftid" id="giftid" value="{$item['id']}">
+            赠品：{$gifttitle}
         </div>
         {/loop}
         {/if}
@@ -190,11 +194,11 @@
 {else}
 <div class="fui-cell-group sm ">
     <div class="fui-cell">
-        <div class="fui-cell-info"><input type="text" class="fui-input" id='remark' placeholder="选填: 买家留言(50 字以内)" maxlength="50"></div>
+        <div class="fui-cell-info"><input type="text" class="fui-input" id='remark' placeholder="选填: 买家留言(50字以内)" maxlength="50"></div>
     </div>
 </div>
 {/if}
-
+{if empty($exchangeOrder)}
 <div class="fui-cell-group  sm">
 
     <div id='coupondiv' class="fui-cell fui-cell-click" {if $couponcount<=0}style='display:none'{/if}>
@@ -226,7 +230,7 @@
 </div>
 
 {if !empty($stores)}
-<script language='javascript' src='http://api.map.baidu.com/api?v=2.0&ak=ZQiFErjQB7inrGpx27M1GR5w3TxZ64k7'></script>
+<script language='javascript' src='https://api.map.baidu.com/api?v=2.0&ak=ZQiFErjQB7inrGpx27M1GR5w3TxZ64k7&s=1'></script>
 <div class='fui-according-group'>
     <div class='fui-according'>
         <div class='fui-according-header'>
@@ -261,15 +265,24 @@
         </div>
     </div></div>
 {/if}
+{/if}
 
 
 <div class="fui-cell-group sm">
     <input type="hidden" id="weight" name='weight' value="{$weight}" />
+    {if !empty($exchangeOrder)}
+    <div class="fui-cell">
+        <div class="fui-cell-label" >兑换券</div>
+        <div class="fui-cell-info"></div>
+        <div class="fui-cell-remark noremark"><span style="color: red;">- &yen; {php echo number_format($exchangecha,2);}</span></div>
+    </div>
+    {/if}
     <div class="fui-cell">
         <div class="fui-cell-label" >商品小计</div>
         <div class="fui-cell-info"></div>
-        <div class="fui-cell-remark noremark">&yen; <span class='{if !$packageid}goodsprice{/if}'>{php echo number_format($goodsprice,2)}</span></div>
+        <div class="fui-cell-remark noremark">&yen; <span class='{if !$packageid && empty($exchangeOrder)}goodsprice{/if}'>{if !empty($exchangeOrder)}{$exchangeprice}{else}{php echo number_format($goodsprice,2)}{/if}</span></div>
     </div>
+    {if empty($exchangeOrder)}
     {if !$packageid}
     <div class="fui-cell"  style="display: none">
         <div class="fui-cell-label" style='width:auto' >重复购买优惠</div>
@@ -310,11 +323,18 @@
         <div class="fui-cell-info"></div>
         <div class="fui-cell-remark noremark">-&yen; <span id='merch_deductenough_money'>{if $merch_saleset['merch_showenough']}{php echo number_format($merch_saleset['merch_enoughdeduct'],2)}{/if}</span></div>
     </div>
+
+    <div class="fui-cell" id="seckillprice"  {if $seckill_price<=0}style="display: none"{/if}>
+        <div class="fui-cell-label" style='width:auto' >秒杀优惠</div>
+        <div class="fui-cell-info"></div>
+        <div class="fui-cell-remark noremark">-&yen; <span id="seckillprice_money">{php echo number_format($seckill_price,2)}</span></div>
+    </div>
+{/if}
     {/if}
     <div class="fui-cell">
         <div class="fui-cell-label" >运费</div>
         <div class="fui-cell-info"></div>
-        <div class="fui-cell-remark noremark">&yen; <span class='{if !$packageid}dispatchprice{/if}'>{php echo number_format($dispatch_price,2)}</span></div>
+        <div class="fui-cell-remark noremark">&yen; <span class='{if !$packageid && empty($exchangeOrder)}dispatchprice{/if}'>{if !empty($exchangeOrder)}{$exchangepostage}{else}{php echo number_format($dispatch_price,2)}{/if}</span></div>
     </div>
 
 
@@ -374,7 +394,8 @@
 <div class="fui-navbar order-create-checkout">
     <a href="javascript:;" class="nav-item total">
         <p>{if $packageid}<span class="text-danger" style="font-size: 0.6rem;">(套餐优惠&yen;{php echo number_format($marketprice-$goodsprice,2)})</span>{/if}
-            需付：<span class="text-danger ">&yen; <span class="{if !$packageid}totalprice{/if}">{php echo number_format($realprice,2)}</span></span>
+            需付：<span class="text-danger ">&yen; <span class="{if !$packageid && empty($exchangeOrder)}totalprice{/if}">
+                {if !empty($exchangeOrder)}{$exchangerealprice}{else}{php echo number_format($realprice,2)}{/if}</span></span>
         </p>
     </a>
     <a href="javascript:;" class="nav-item btn btn-danger buybtn">立即支付</a>

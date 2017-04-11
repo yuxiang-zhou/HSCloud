@@ -11,6 +11,7 @@
     .table > thead > tr > th {border:none;}
     .is_advanced {display: table-block;}
     #openids_selector .input-group {width: 100%;}
+    #openids2_selector .input-group {width: 100%;}
     .is_sms {display: {if !empty($opensms)}table-block{else}none{/if};}
 </style>
 
@@ -20,8 +21,8 @@
 
 <div class="alert alert-info">
     <h3>注意：</h3>
-    <p>请将公众平台模板消息所在行业选择为：<b> IT科技/互联网|电子商务 其他|其他</b>，所选行业不一致将会导致模板消息不可用；</p>
-    <p>点击模板消息后方的开关按钮<img src="../addons/ewei_shopv2/static/images/on-off.png" />即可<b>开启模板消息</b>，无需进行额外设置；</p>
+    <p>请将公众平台模板消息所在行业选择为：<b> IT科技/互联网|电子商务 其他|其他</b>，所选行业不一致将会导致模板消息不可用。</p>
+    <p>点击模板消息后方的开关按钮<img src="../addons/ewei_shopv2/static/images/on-off.png" />即可<b>开启模板消息</b>，无需进行额外设置。</p>
     <p>如需进行消息推送<b>个性化消息</b>，<a href="{php echo webUrl('sysset/tmessage')}" title="模板消息库">点击进入自定义消息库</a>{if $opensms}，<a href="{php echo webUrl('sysset/sms')}" title="短信消息库">点击进入短信消息库</a>{/if}</p>
 </div>
 
@@ -69,7 +70,7 @@
             </td>
         </tr>
         <tr>
-            <td style="vertical-align: top;">选择通知人(模板消息)</td>
+            <td style="vertical-align: top;">选择通知人-<br/>订单付款通知</td>
             <td colspan="{if !empty($opensms)}4{else}2{/if}" class="colstd">
                 {php echo tpl_selector('openids',array('key'=>'openid','text'=>'nickname', 'thumb'=>'avatar','multi'=>1,'placeholder'=>'昵称/姓名/手机号','buttontext'=>'选择通知人', 'items'=>$salers,'url'=>webUrl('member/query') ))}
                 <span class='help-block'>订单生成后以模板消息的方式商家通知，可以指定多个人，如果不填写则不通知</span>
@@ -77,9 +78,57 @@
             <td class="is_default is_sms"></td>
         </tr>
         <tr>
-            <td style="vertical-align: top;">填写通知人(短信)</td>
+            <td style="vertical-align: top;">填写通知人-<br/>订单付款短信</td>
             <td colspan="{if !empty($opensms)}4{else}2{/if}" class="colstd">
                 <textarea class="form-control" name="data[mobile]" style="resize: none; padding: 6px;" rows="3">{$data['mobile']}</textarea>
+                <span class='help-block'>订单生成后以短信的方式商家通知，如果不填写则不通知(11位手机号，多个请以英文逗号隔开)</span>
+            </td>
+            <td class="is_default is_sms"></td>
+        </tr>
+        <tr>
+            <td>订单收货通知</td>
+            <td>
+                <select class="select2 is_advanced" name="data[saler_finish_template]">
+                    <option value=''>[默认]订单收货通知</option>
+                    {loop $template_group['saler_finish'] $template_val}
+                    <option value="{$template_val['id']}" {if $data['saler_finish_template'] == $template_val['id'] }selected{/if}>{$template_val['title']}</option>
+                    {/loop}
+                </select>
+            </td>
+            <td style="text-align: right;" class="is_advanced">
+                <label class="notice-default">
+                    <input type="hidden" name="data[saler_finish_close_advanced]" value="{php echo intval($data['saler_finish_close_advanced'])}" />
+                    <input class="js-switch small checkone" data-type="tpl-advanced"  data-tag="saler_finish"  type="checkbox"   value="{php echo intval($data['saler_finish_close_advanced'])}" {if empty($data['saler_finish_close_advanced'])}checked{/if}/>
+                </label>
+                <label style="display: none;">
+                    <img src="../addons/ewei_shopv2/static/images/loading.gif" width="20" alt=""/>
+                </label>
+            </td>
+            <td class="is_sms">
+                <select class="select2" name="data[saler_finish_sms]">
+                    <option value=''>从短信消息库中选择</option>
+                    {loop $template_sms $template_val}
+                    <option value="{$template_val['id']}" {if $data['saler_finish_sms'] == $template_val['id'] }selected{/if}>{$template_val['name']}</option>
+                    {/loop}
+                </select>
+            </td>
+            <td style="text-align: right;" class="is_sms">
+                <input type="hidden" name="data[saler_finish_close_sms]" value="{php echo intval($data['saler_finish_close_sms'])}" />
+                <input class="js-switch small checkone" data-type="sms" type="checkbox" value="{php echo intval($data['saler_finish_close_sms'])}" {if empty($data['saler_finish_close_sms'])}checked{/if}/>
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">选择通知人-<br/>订单收货通知</td>
+            <td colspan="{if !empty($opensms)}4{else}2{/if}" class="colstd">
+                {php echo tpl_selector('openids2',array('key'=>'openid','text'=>'nickname', 'thumb'=>'avatar','multi'=>1,'placeholder'=>'昵称/姓名/手机号','buttontext'=>'选择通知人', 'items'=>$salers2,'url'=>webUrl('member/query') ))}
+                <span class='help-block'>订单生成后以模板消息的方式商家通知，可以指定多个人，如果不填写则不通知</span>
+            </td>
+            <td class="is_default is_sms"></td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">填写通知人-<br/>订单收货短信</td>
+            <td colspan="{if !empty($opensms)}4{else}2{/if}" class="colstd">
+                <textarea class="form-control" name="data[mobile2]" style="resize: none; padding: 6px;" rows="3">{$data['mobile2']}</textarea>
                 <span class='help-block'>订单生成后以短信的方式商家通知，如果不填写则不通知(11位手机号，多个请以英文逗号隔开)</span>
             </td>
             <td class="is_default is_sms"></td>
@@ -746,6 +795,7 @@
             }
         });
 
+        //开启通知
         $(".checkone").click(function () {
             var _this =$(this);
             var type = _this.data('type');
@@ -759,7 +809,8 @@
                 return;
             }
 
-            if(tag != '' && val==1) {
+            //判断是否开启模板通知
+            if(tag != '' && val==1&&type=='tpl-advanced') {
                 $(this).data('stop', 1);
                 $(this).parent().hide().next().show();
 
@@ -767,6 +818,7 @@
                     'tag': tag,
                     checked:val
                 };
+                //申请微信模板,并将模板ID更新至数据库.
                 $.ajax({
                     url: "{php echo webUrl('sysset/settemplateid')}",
                     type:'get',

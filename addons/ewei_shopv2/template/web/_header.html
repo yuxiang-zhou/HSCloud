@@ -40,17 +40,17 @@
                 <li><a href="{php echo webUrl('sysset/account')}"><i class="icon icon-similar"></i>  切换公众号</a></li>
                 {if $_W['role'] == 'manager' || $_W['role'] == 'founder'}
                 <li><a href="./index.php?c=account&a=post&uniacid={$GLOBALS['_W']['uniacid']}" target="_blank"><i class="icon icon-wechat"></i>  编辑公众号</a></li>
-                <li><a href="./index.php?c=profile&a=payment&" target="_blank"><i class="icon icon-pay"></i>  支付参数</a></li>
+                <li><a href="{php echo webUrl('sysset/payset')}"><i class="icon icon-pay"></i>  支付方式</a></li>
                 {/if}
                 <li><a href="./index.php?c=utility&a=emulator&" target="_blank"><i class="icon icon-machinery"></i>  模拟测试</a></li>
 		{ifp 'perm'}
-		<li class="divider"></li>
+		<li class="divider"></li>  
 		<li><a href="{php echo webUrl('perm')}"><i class="icon icon-person2"></i> 权限管理</a></li>
 		{/if}
      {if $_W['role'] == 'founder'}
-		<li class="divider"></li>
+		<li class="divider"></li>  
 	<li><a href="{php echo webUrl('system')}"><i class="icon icon-settings"></i> 系统管理</a></li>
-	<li><a href="{url 'cloud/upgrade/init'}"><i class="icon icon-down"></i> 人人更新</a></li>
+	<li><a href="{php echo webUrl('system/auth/upgrade')}"><i class="icon icon-down"></i> 系统更新</a></li>
 	{/if}
                 <li><a href="./index.php?c=user&a=profile&" target="_blank"><i class="icon icon-lock"></i>  修改密码</a></li>
                 <li><a href="./index.php?c=account&a=display&" target="_blank"><i class="icon icon-back"></i>  返回系统</a></li>
@@ -75,14 +75,15 @@
     </ul>
     {/if}
 </div>
-</nav>
-</div>
+</nav>				
+</div> 
 <div class='wrapper main-wrapper wrapper-content '>
 {if $no_left}
-    <div class="page-content" style="width:1280px">
+    <div class="page-content" style="width:1000px">
 {else}
     <div class="page-menubar">
 {php echo $this->frame_menus()}
     </div>
     <div class="page-content">
 {/if}
+        

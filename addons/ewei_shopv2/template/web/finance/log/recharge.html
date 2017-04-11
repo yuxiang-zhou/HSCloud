@@ -46,6 +46,7 @@
                 <option value='alipay' {if $_GPC['rechargetype']=='alipay'}selected{/if}>支付宝</option>
                 <option value='system' {if $_GPC['rechargetype']=='system'}selected{/if}>后台</option>
                 <option value='system1' {if $_GPC['rechargetype']=='system1'}selected{/if}>后台扣款</option>
+                {if p('ccard')}<option value='ccard' {if $_GPC['rechargetype']=='ccard'}selected{/if}>充值卡返佣</option>{/if}
             </select>
 
             {/if}
@@ -87,13 +88,13 @@
     <tr>
 
         <th style='width:200px;'>充值单号</th>
-        <th style='width:140px;'>粉丝</th>
-        <th style='width:120px;'>会员信息</th>
+        <th style='width:120px;'>粉丝</th>
+        <th style='width:100px;'>会员信息</th>
 
-        <th style='width:100px;'>充值金额</th>
-        <th style='width:120px;'>充值时间</th>
-        <th style='width:100px;'>充值方式</th>
-        <th style='width:90px;'>状态</th>
+        <th style='width:80px;'>充值金额</th>
+        <th style='width:100px;'>充值时间</th>
+        <th style='width:80px;'>充值方式</th>
+        <th style='width:70px;'>状态</th>
         <th>操作</th>
     </tr>
     </thead>
@@ -135,7 +136,8 @@
             {else}
             <span class='label label-default'>扣款</span>
             {/if}
-
+            {else if $row['rechargetype']=='ccard'}
+            <span class='label label-primary'>充值卡返佣</span>
             {/if}
         </td>
 
@@ -157,7 +159,7 @@
             {if $row['status']==1}
 	            {if $row['rechargetype']=='alipay' || $row['rechargetype']=='wechat'}
 		            {ifp 'finance.log.refund'}
-		            	<a class='btn btn-danger btn-sm' data-toggle='ajaxPost' data-confirm="确认退款到微信钱包?" href="{php echo webUrl('finance/log/refund',array('id' => $row['id']));}">退款</a>
+		            	<a class='btn btn-danger btn-sm' data-toggle='ajaxPost' data-confirm="确认退款到{if $row['rechargetype']=='alipay'}支付宝{else}微信钱包{/if}?" href="{php echo webUrl('finance/log/refund',array('id' => $row['id']));}">退款</a>
 		            {/if}
 	            {/if}
             {/if}

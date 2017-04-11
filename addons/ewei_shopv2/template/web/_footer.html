@@ -81,7 +81,11 @@
     });
 </script>
 <script language="javascript">myrequire(['web/init'],function(){
-    if($('.form-validate').length<=0) {  $('#page-loading').remove(); }
+    $(function () {
+        setTimeout( function() {
+            $('#page-loading').remove();
+        },500);
+    });
 });</script>
 {if !empty($_W['setting']['copyright']['statcode'])}{$_W['setting']['copyright']['statcode']}{/if}
 {if !empty($copyright) && !empty($copyright['copyright'])}

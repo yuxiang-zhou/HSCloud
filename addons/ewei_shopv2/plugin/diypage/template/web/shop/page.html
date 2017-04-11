@@ -52,64 +52,21 @@
     <div class="form-group-title">应用页面</div>
 
     {if $_W['plugin']!='merch' && !isset($_W['merch'])}
-        {if p('commission')}
-            <div class="form-group">
-                <label class="col-sm-2 control-label">分销中心</label>
-                <div class="col-sm-9 col-xs-12">
-                    <select class="form-control valid" {ifp 'diypage.shop.page.save'}name="page[commission]"{else} disabled{/if}>
-                    <option value="">系统默认</option>
-                    {loop $commission_list $item}
-                    <option value="{$item['id']}" {if $data['page']['commission']==$item['id']}selected="selected"{/if}>{$item['name']}</option>
-                    {/loop}
-                    </select>
+        {loop $pluginList $pluginname $plugin}
+            {if !empty($plugin['status']) && p($pluginname)}
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">{php echo m('plugin')->getName($pluginname)}</label>
+                    <div class="col-sm-9 col-xs-12">
+                        <select class="form-control valid" {ifp 'diypage.shop.page.save'}name="page[{$pluginname}]"{else} disabled{/if}>
+                        <option value="">系统默认</option>
+                        {loop $plugin['list'] $item}
+                            <option value="{$item['id']}" {if $data['page'][$pluginname]==$item['id']}selected="selected"{/if}>{$item['name']}</option>
+                        {/loop}
+                        </select>
+                    </div>
                 </div>
-            </div>
-        {/if}
-
-        {if p('creditshop')}
-            <div class="form-group">
-                <label class="col-sm-2 control-label">积分商城</label>
-                <div class="col-sm-9 col-xs-12">
-                    <select class="form-control valid" {ifp 'diypage.shop.page.save'}name="page[creditshop]"{else} disabled{/if}>
-                    <option value="">系统默认</option>
-                    {loop $creditshop_list $item}
-                    <option value="{$item['id']}" {if $data['page']['creditshop']==$item['id']}selected="selected"{/if}>{$item['name']}</option>
-                    {/loop}
-                    </select>
-                </div>
-            </div>
-        {/if}
-
-        {if p('seckill')}
-            <div class="form-group">
-                <label class="col-sm-2 control-label">整点秒杀</label>
-                <div class="col-sm-9 col-xs-12">
-                    <select class="form-control valid" {ifp 'diypage.shop.page.save'}name="page[seckill]"{else} disabled{/if}>
-                    <option value="">系统默认</option>
-                    {loop $seckill_list $item}
-                    <option value="{$item['id']}" {if $data['page']['seckill']==$item['id']}selected="selected"{/if}>{$item['name']}</option>
-                    {/loop}
-                    </select>
-                    <span class="help-block">提示：这里是统一设置秒杀会场的页面样式，可以在会场管理中单独设置</span>
-                </div>
-            </div>
-        {/if}
-
-        {if p('exchange')}
-            <div class="form-group">
-                <label class="col-sm-2 control-label">兑换中心</label>
-                <div class="col-sm-9 col-xs-12">
-                    <select class="form-control valid" {ifp 'diypage.shop.page.save'}name="page[exchange]"{else} disabled{/if}>
-                    <option value="">系统默认</option>
-                    {loop $exchange_list $item}
-                        <option value="{$item['id']}" {if $data['page']['exchange']==$item['id']}selected="selected"{/if}>{$item['name']}</option>
-                    {/loop}
-                    </select>
-                    <span class="help-block">提示：这里是统一设置兑换任务的页面样式，可以在兑换任务中单独设置</span>
-                </div>
-            </div>
-        {/if}
-
+            {/if}
+        {/loop}
     {/if}
 
     {ifp 'diypage.shop.page.save'}

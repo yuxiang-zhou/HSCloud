@@ -1,7 +1,7 @@
 <!-- 商品信息块 -->
 <div class="fui-cell-group fui-detail-group" style="margin-top: {$diyitem['style']['margintop']}px; margin-bottom: {$diyitem['style']['marginbottom']}px; background: {$diyitem['style']['background']};" >
     <div class="fui-cell">
-        <div class="fui-cell-text name" style="color: {$diyitem['style']['titlecolor']};">{$goods['title']}</div>
+        <div class="fui-cell-text name" style="color: {$diyitem['style']['titlecolor']};">{if $goods['ispresell']==1}<i class="fui-tag fui-tag-danger" style="vertical-align: bottom;">预</i> {/if}{$goods['title']}</div>
         {if empty($diyitem['params']['hideshare'])}
             <a class="fui-cell-remark share"  {if !empty($diyitem['params']['share_link'])}href="{$diyitem['params']['share_link']}" data-nocache="true"{elseif !empty($goods['sharebtn']) && $member['isagent']==1 && $member['status']==1} href="{php echo mobileUrl('commission/qrcode', array('goodsid'=>$goods['id']))}" {else} id='btn-share' {/if}>
             <i class="icon {php echo empty($diyitem['params']['share_icon'])?'icon-share':$diyitem['params']['share_icon']}"></i><p>{php echo !empty($diyitem['params']['share'])?$diyitem['params']['share']:"分享"}</p>
@@ -16,17 +16,21 @@
 
     {if empty($seckillinfo)}
 
-        <div class="fui-cell">
-            <div class="fui-cell-text price">
-                <span class="text-danger" style="color: {$diyitem['style']['pricecolor']};">￥{if $goods['minprice']==$goods['maxprice']}{$goods['minprice']}{else}{$goods['minprice']}~{$goods['maxprice']}{/if}
-                    {if $goods['isdiscount'] && $goods['isdiscount_time']>=time()}
-                        <span class="original" style="color: {$diyitem['style']['textcolor']};">￥{$goods['productprice']}</span>
-                    {else}
-                        {if $goods['productprice']>0}<span  class="original" style="color: {$diyitem['style']['textcolor']};">￥{$goods['productprice']}</span>{/if}
-                    {/if}
-                </span>
-            </div>
+    <div class="fui-cell">
+        <div class="fui-cell-text price">
+			<span class="text-danger">
+			￥{if $goods['ispresell']>0 && ($goods['preselltimeend'] == 0 || $goods['preselltimeend'] > time())}{$goods['presellprice']}
+                {else}
+                    {if $goods['minprice']==$goods['maxprice']}{$goods['minprice']}{else}{$goods['minprice']}~{$goods['maxprice']}{/if}
+                {/if}
+			{if $goods['isdiscount'] && $goods['isdiscount_time']>=time()}
+			     <span class="original">￥{$goods['productprice']}</span>
+			{else}
+			{if $goods['productprice']>0}<span  class="original">￥{$goods['productprice']}</span>{/if}
+			{/if}
+			</span>
         </div>
+    </div>
 
 
         {if $goods['isdiscount'] && $goods['isdiscount_time']>=time()}
@@ -66,10 +70,24 @@
     </div>
 </div>
 {/if}
-
-
 {/if}
 
+{if $goods['ispresell']==1 && ($goods['preselltimestart'] > time() || $goods['preselltimeend'] > time())}
+<div class="row row-time">
+    <div id='time-presell' class='fui-labeltext fui-labeltext-danger'
+         data-now="{php echo date('Y-m-d H:i:s')}"
+         data-start-label='距离预售开始'
+         data-end-label='距离预售结束'
+         data-end-text='活动已经结束，下次早点来~'
+         data-start="{php echo date('Y-m-d H:i:s', $goods['preselltimestart'])}"
+         data-end="{php echo date('Y-m-d H:i:s', $goods['preselltimeend'])}" style="border-color: {$diyitem['style']['timecolor']}">
+        <div class='label' style="background: {$diyitem['style']['timecolor']};">预售</div>
+        <div class='text'>
+            <span class="day number" style="color: {$diyitem['style']['timetextcolor']};"></span><span class="time">天</span><span class="hour number" style="color: {$diyitem['style']['timetextcolor']};"></span><span class="time">小时</span><span class="minute number" style="color: {$diyitem['style']['timetextcolor']};"></span><span class="time">分</span><span class="second number" style="color: {$diyitem['style']['timetextcolor']};"></span><span class="time">秒</span>
+        </div>
+    </div>
+</div>
+{/if}
 
 <div class="fui-cell">
     <div class="fui-cell-text flex">
