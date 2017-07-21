@@ -1,0 +1,367 @@
+{template '_header'}
+<div class="page-heading"> <h2>销售返现</h2> </div>
+
+<div class="panel panel-info">
+  <div class="panel-heading">返现配置管理 <button type="button" class='btn btn-info btn-sm pull-right' data-toggle="modal" data-target="#myModal">添加</button></div>
+  <div class="panel-body">
+    <form action="./index.php" method="get" id="form2">
+      <input type="hidden" name="c" value="site" />
+      <input type="hidden" name="a" value="entry" />
+      <input type="hidden" name="m" value="ewei_shop" />
+      <input type="hidden" name="do" value="finance" />
+      <input type="hidden" name="p" value="log" />
+      <input type="hidden" name="type" value="{$_GPC['type']}" />
+
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">返现配置</h4>
+            </div>
+            <div class="modal-body">
+              <input type="hidden" name="refund_id" value="" />
+              <input type="hidden" name="op" value="refund" />
+              <input type="hidden" name="action" value="upsert" />
+              <div class="form-group">
+                <label class="col-md-4 col-xs-12 control-label">返现商品</label>
+                <div class="col-md-8 col-xs-12">
+                    <input type="text" class="form-control" id="update_goodssn" name="update_goodssn" value="" placeholder='商品编号'/>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-md-4 col-xs-12 control-label">返现周期（月）</label>
+                <div class="col-md-8 col-xs-12">
+                    <input type="text" class="form-control"  name="update_period" value="" placeholder='返现周期（月）'/>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-md-4 col-xs-12 control-label">单笔返现金额</label>
+                <div class="col-md-8 col-xs-12">
+                    <input type="text" class="form-control"  name="update_single_refund_price" value="" placeholder='单笔返现金额'/>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-md-4 col-xs-12 control-label">总返现次数</label>
+                <div class="col-md-8 col-xs-12">
+                    <input type="text" class="form-control"  name="update_num_refund" value="" placeholder='总返现次数'/>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-md-4 col-xs-12 control-label">启用</label>
+                <div class="col-md-8 col-xs-12">
+                    <input type="text" class="form-control"  name="update_activate" value="" placeholder='0 or 1'/>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-md-4 col-xs-12 control-label">活动起止日期</label>
+                <div class="col-md-8 col-xs-12" id="model_date">
+                  {php echo tpl_form_field_daterange('update_time', array('starttime'=>date('Y-m-d H:i', $starttime),'endtime'=>date('Y-m-d  H:i', $endtime)),true);}
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+              <button class="btn btn-primary">确认</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </form>
+    {if count($refundlist) > 0}
+    <table class="table table-hover table-responsive">
+        <thead class="navbar-inner">
+          <tr>
+            <th style='width:100px;'>返现商品</th>
+            <th style='width:100px;'>返现周期（月）</th>
+            <th style='width:100px;'>单笔返现金额</th>
+            <th style='width:100px;'>总返现次数</th>
+            <th style='width:60px;'>启用</th>
+            <th style='width:100px;'>活动开始日期</th>
+            <th style='width:100px;'>活动结束日期</th>
+            <th style='width:100px;'>操作</th>
+          </tr>
+        </thead>
+        <tbody>
+          {loop $refundlist $item}
+          <tr>
+            <td>{$item['goodssn']}</td>
+            <td>{$item['period']}</td>
+            <td>{$item['single_refund_price']}</td>
+            <td>{$item['num_refund']}</td>
+            <td>{if $item['activate']}<i class="fa fa-check" aria-hidden="true"></i>{else}<i class="fa fa-times" aria-hidden="true"></i>{/if}</td>
+            <td>{php echo date('Y-m-d H:i',$item['start_date'])}</td>
+            <td>
+              {if $item['end_date']}
+                {php echo date('Y-m-d H:i',$item['end_date'])}
+              {/if}
+            </td>
+            <td>
+              <button type="button" class='btn btn-sm btn-warning' data-toggle="modal" data-target="#myModal" data-refundid="{$item['id']}" data-goodssn="{$item['goodssn']}" data-period="{$item['period']}" data-srp="{$item['single_refund_price']}" data-nf="{$item['num_refund']}" data-activate="{$item['activate']}" data-startdate="{$item['start_date']}" data-enddate="{$item['end_date']}">更改</button>
+
+              <a class='btn btn-sm btn-danger' onclick="return confirm('确认删除?')" href="{php echo $this->createWebUrl('finance/log',array_merge(array('op'=>'refund','action'=>'delete','id' => $row['id']),$item));}">删除</a>
+            </td>
+          </tr>
+          {/loop}
+        </tbody>
+      </table>
+      {/if}
+  </div>
+</div>
+
+<hr/>
+
+<form action="./index.php" method="get" class="form-horizontal" role="form" id="form1">
+    <input type="hidden" name="c" value="site" />
+    <input type="hidden" name="a" value="entry" />
+    <input type="hidden" name="m" value="ewei_shopv2" />
+    <input type="hidden" name="do" value="web" />
+    <input type="hidden" name="r" value="finance.log.cashback" />
+    <div class="page-toolbar row m-b-sm m-t-sm">
+
+
+        <div class="col-sm-4" style='padding-right:0;'>
+
+            <div class="btn-group btn-group-sm" style='float:left'>
+                <button class="btn btn-default btn-sm"  type="button" data-toggle='refresh'><i class='fa fa-refresh'></i></button>
+
+            </div>
+            <select name='status' class='form-control  input-sm'   style="width:240px;"  >
+                <option value='' {if $_GPC['status']==''}selected{/if}>状态</option>
+                <option value='1' {if $_GPC['status']=='1'}selected{/if}>已返现</option>
+                <option value='0' {if $_GPC['status']=='0'}selected{/if}>未返现</option>
+
+            </select>
+        </div>
+
+        <div class="col-sm-8 pull-right" style='text-align: right'>
+
+            <select name='groupid' class='form-control  input-sm select-md' style="width:140px;float: right;"  >
+                <option value=''>会员分组</option>
+                {loop $groups $group}
+                <option value='{$group['id']}' {if $_GPC['groupid']==$group['id']}selected{/if}>{$group['groupname']}</option>
+                {/loop}
+            </select>
+            <select name='level' class='form-control  input-sm select-md' style="width:140px;float: right;"  >
+                <option value=''>会员等级</option>
+                {loop $levels $level}
+                <option value='{$level['id']}' {if $_GPC['level']==$level['id']}selected{/if}>{$level['levelname']}</option>
+                {/loop}
+            </select>
+
+        </div>
+    </div>
+
+    <div class="page-toolbar row"
+         id='moresearch' >
+        <div class='col-sm-4' style='padding-right:0'>
+            {php echo tpl_daterange('time', array('sm'=>true,'placeholder'=>'返现时间'),true);}
+        </div>
+
+        <div class="col-sm-8 pull-right">
+
+            <select name='searchfield'  class='form-control  input-sm select-md'   style="width:110px;"  >
+
+                <option value='logno' {if $_GPC['searchfield']=='logno'}selected{/if}>订单号</option>
+                <option value='member' {if $_GPC['searchfield']=='member'}selected{/if}>会员信息</option>
+
+            </select>
+            <div class="input-group " >
+                <input type="text" class="form-control input-sm"  name="keyword" value="{$_GPC['keyword']}" placeholder="请输入关键词" />
+                <span class="input-group-btn">
+                <button class="btn btn-sm btn-primary" type="submit"> 搜索</button>
+                {ifp 'finance.log.recharge.export'}
+                	<button type="submit" name="export" value="1" class="btn btn-success btn-sm">导出 Excel</button>
+                {/if}
+            </span>
+            </div>
+
+        </div>
+
+    </div>
+</form>
+
+<table class="table table-hover table-responsive">
+    <thead class="navbar-inner">
+    <tr>
+
+        <th style='width:160px;'>订单号</th>
+        <th style='width:120px;'>粉丝</th>
+        <th style='width:100px;'>会员信息</th>
+
+        <th style='width:100px;'>已返现金额</th>
+        <th style='width:100px;'>最近返现时间</th>
+        <th style='width:80px;'>商品编号</th>
+        <th style='width:80px;'>商品价格</th>
+        <th style='width:80px;'>购买数量</th>
+        <th style='width:80px;'>返现比例</th>
+        <th style='width:100px;'>状态</th>
+        <th style='width:220px;'>操作</th>
+    </tr>
+    </thead>
+    <tbody>
+    {loop $list $row}
+    <tr>
+        <!-- 订单号 -->
+        <td>{$row['ordersn']}</td>
+        <!-- 粉丝 -->
+        <td data-toggle='tooltip' title='{$row['nickname']}'>
+        {ifp 'member.list.detail'}
+	        <a  href="{php echo webUrl('member/list/detail',array('id' => $row['mid']));}" target='_blank'>
+	            <img src='{$row['avatar']}' style='width:30px;height:30px;padding1px;border:1px solid #ccc' /> {$row['nickname']}
+	        </a>
+        {else}
+        	<img src='{$row['avatar']}' style='width:30px;height:30px;padding1px;border:1px solid #ccc' /> {$row['nickname']}
+        {/if}
+
+        </td>
+        <!-- 会员信息 -->
+        <td>{$row['realname']}<br/>{$row['mobile']}</td>
+        <!-- 已返现金额 -->
+        <td>{$row['money']}</td>
+        <!-- 最近返现时间 -->
+        <td>{php echo date('Y-m-d',$row['createtime'])}<br/>{php echo date('H:i',$row['createtime'])}</td>
+
+        <!-- 商品编号 -->
+        <td>{$row['goodssn']}</td>
+        <!-- 商品价格 -->
+        <td>{$row['price']}</td>
+        <!-- 购买数量 -->
+        <td>{$row['total']}</td>
+        <!-- 返现比例 -->
+        <td>{php echo number_format(100.0*$row['single_refund_price']*$row['num_refund'] / $row['price'],2)}%</td>
+
+        <!-- status and actions -->
+        <td>
+            <span class='label label-default'>已返现: {$row['num_refunded']} / {$row['num_refund']}</span>
+        </td>
+
+
+        <td>
+            金额:<input type="text" style='width:80px;' id="refund_price_{$row['ordersn']}" name="refund_price" value="{php echo $row['single_refund_price'] * $row['total']}" placeholder='返现金额'/>
+
+            <a class='btn btn-sm btn-danger' data-toggle='ajaxPost' onclick="var custom = $('#refund_price_{$row['ordersn']}').get(0).value;var isconfirm = confirm('确认返现' + custom + '?');if(isconfirm){this.href+='&custom='+custom;}else{this.href+='&custom=0'} return isconfirm;" href="{php echo webUrl('finance/log/cashback_fn', array('ordersn'=>$row['ordersn'],'goodssn'=>$row['goodssn'],'createtime'=>$row['createtime'],'num_refunded'=>$row['num_refunded'],'num_refund'=>$row['num_refund'],'openid'=>$row['openid'],'refund_id'=>$row['refund_id']));}">返现</a>
+
+            {if count($row['hist']) > 0}
+              <a class='btn btn-sm btn-info' data-toggle="collapse" data-target="#{$row['unique_id']}" aria-expanded="false" aria-controls="{$row['unique_id']}">详情</a>
+            {/if}
+        </td>
+
+    </tr>
+
+    <tr><td colspan='13' style="padding: 0px"><div class="collapse" id="{$row['unique_id']}">
+      {if count($row['hist']) > 0}
+      <div class="panel panel-default">
+        <div class="panel-heading">详情</div>
+        <div class="panel-body ">
+          <table class="table table-hover">
+            <thead class="navbar-inner">
+              <tr>
+                <th style='width:120px;'>返现ID</th>
+                <th style='width:120px;'>返现规则ID</th>
+                <th style='width:120px;'>返现商品</th>
+                <th style='width:120px;'>订单号</th>
+                <th style='width:120px;'>返现金额</th>
+                <th style='width:120px;'>返现时间</th>
+              </tr>
+            </thead>
+            <tbody>
+              {loop $row['hist'] $item}
+              <tr>
+                <td>{$item['id']}</td>
+                <td>{$item['refund_id']}</td>
+                <td>{$item['goodssn']}</td>
+                <td>{$item['ordersn']}</td>
+                <td>{$item['price']}</td>
+                <td>{php echo date('Y-m-d H:i',$item['time_refund'])}</td>
+              </tr>
+              {/loop}
+            </tbody>
+          </table>
+        </div>
+      </div>
+      {/if}
+    </div></td></tr>
+
+    {if !empty($row['remark'])}
+    <tr style=";border-bottom:none;background:#f9f9f9;">
+        <td colspan='8' style='text-align:left'>
+            备注:<span class="text-info">{$row['remark']}</span>
+        </td>
+    </tr>
+    {/if}
+
+    {/loop}
+    </tbody>
+</table>
+
+<script>
+$('#myModal').on('shown.bs.modal', function (event) {
+  var button = $(event.relatedTarget); // Button that triggered the modal
+
+  var refund_id = button.data('refundid'); // Extract info from data-* attributes
+  var goodssn = button.data('goodssn'); // Extract info from data-* attributes
+  var period = button.data('period'); // Extract info from data-* attributes
+  var single_refund_price = button.data('srp'); // Extract info from data-* attributes
+  var num_refund = button.data('nf'); // Extract info from data-* attributes
+  var activate = button.data('activate'); // Extract info from data-* attributes
+  var start_date = button.data('startdate'); // Extract info from data-* attributes
+  var end_date = button.data('enddate'); // Extract info from data-* attributes
+
+  var modal = $(this);
+  modal.find('.modal-body input[name=refund_id]').val(refund_id);
+  modal.find('.modal-body input[name=update_goodssn]').val(goodssn);
+  modal.find('.modal-body input[name=update_period]').val(period);
+  modal.find('.modal-body input[name=update_single_refund_price]').val(single_refund_price);
+  modal.find('.modal-body input[name=update_num_refund]').val(num_refund);
+  modal.find('.modal-body input[name=update_activate]').val(activate);
+
+
+  // get selected time. Note timezone problem not solved
+  if (!start_date) {
+    start_date = 0;
+  }
+
+  if (!end_date) {
+    end_date = Math.round(Date.now() / 1000 + 3600 * 24 * 365);
+  }
+
+  start_date = new Date(parseInt(start_date)*1000);
+  end_date = new Date(parseInt(end_date)*1000);
+
+  var start_date_str = start_date.getFullYear() + "-" + (start_date.getMonth() + 1) + "-" + start_date.getDate() + " " + start_date.getHours() + ":" + start_date.getMinutes();
+  var end_date_str = end_date.getFullYear() + "-" + (end_date.getMonth() + 1) + "-" + end_date.getDate() + " " + end_date.getHours() + ":" + end_date.getMinutes();
+
+
+  modal.find('.modal-body #model_date').html('<div class="col-sm-7 col-lg-9 col-xs-12"><input name="time[start]" type="hidden" value="'+start_date_str+'"><input name="time[end]" type="hidden" value="'+end_date_str+'"><button class="btn btn-default daterange daterange-time" type="button" data-original-title="" title=""><span class="date-title">'+start_date_str+' 至 '+end_date_str+'</span> <i class="fa fa-calendar"></i></button></div>');
+
+
+  require(["daterangepicker"], function($){
+		$(function(){
+			$(".daterange.daterange-time").each(function(){
+				var elm = this;
+				$(this).daterangepicker({
+					startDate: $(elm).prev().prev().val(),
+					endDate: $(elm).prev().val(),
+					format: "YYYY-MM-DD HH:mm",
+					timePicker: true,
+					timePicker12Hour : false,
+					timePickerIncrement: 1,
+					minuteStep: 1
+				}, function(start, end){
+					$(elm).find(".date-title").html(start.toDateTimeStr() + " 至 " + end.toDateTimeStr());
+					$(elm).prev().prev().val(start.toDateTimeStr());
+					$(elm).prev().val(end.toDateTimeStr());
+				});
+			});
+		});
+	});
+})
+</script>
+
+{$pager}
+
+
+{template '_footer'}
